@@ -1,10 +1,10 @@
 {
  "active_titles": [],
  "counts": {
-  "evaluated": 0,
+  "evaluated": 54,
   "filed": 0,
-  "parked": 0,
-  "rejected": 0
+  "parked": 15,
+  "rejected": 38
  },
  "evaluating_titles": [],
  "family_states": {
@@ -751,7 +751,7 @@
   "W1"
  ],
  "lane_priority": "W1",
- "note": "Last activity 11:38 CT \u00b7 1 workers in flight \u00b7 0 filed this run",
+ "note": "Last activity 12:29 CT \u00b7 1 workers in flight \u00b7 0 filed this run",
  "relaunch_requests": [],
  "reprocess_requests": [],
  "rules_state": {
@@ -773,22 +773,22 @@
    "state": "pending"
   },
   "linkedin_discovery": {
-   "detail": "Carried families 1-24 + 29-48, alerts, contract pass, odd-title net and feed \u2014 pending dispatch",
+   "detail": "Searching carried families 1-24 (Past 24 hours, JD-first); families 29-48 + alerts + contract + net + feed still queued",
    "ended_at": null,
-   "started_at": null,
-   "state": "pending"
+   "started_at": "2026-10-15T16:21:00Z",
+   "state": "active"
   },
   "linkedin_filing": {
-   "detail": "Waiting for discovery chunks",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
+   "detail": "No filings: the relaunch's only PASS was a do-not-reapply duplicate (HatchWorks, filed 2026-10-10); discovery PASS leads file as chunks land",
+   "ended_at": "2026-10-15T17:27:18Z",
+   "started_at": "2026-10-15T16:21:00Z",
+   "state": "done"
   },
   "prep": {
-   "detail": "Working relaunch requests first, then carried shortlist and parked-retry pass",
-   "ended_at": null,
+   "detail": "Relaunch pass complete: 54 LinkedIn entries attempted, 104 non-LinkedIn entries remain for a scoped run that selects their lanes; carried shortlist empty, parked-retry 0 eligible",
+   "ended_at": "2026-10-15T17:27:18Z",
    "started_at": "2026-10-15T16:19:00Z",
-   "state": "active"
+   "state": "done"
   },
   "quality_check": {
    "detail": "Audit + enforcer at closeout",
@@ -809,7 +809,7 @@
    "state": "done"
   },
   "stall_watch": {
-   "detail": "Runs after filing",
+   "detail": "Pre-scan done: all ledger stalls handled or awaiting the candidate; formal pass at closeout",
    "ended_at": null,
    "started_at": null,
    "state": "pending"
@@ -828,10 +828,10 @@
  "title_control_requests": [],
  "today": {
   "date": "2026-10-15",
-  "evaluated": 557,
+  "evaluated": 611,
   "filed": 13,
-  "parked": 33,
-  "rejected": 301,
+  "parked": 45,
+  "rejected": 330,
   "today_filings": {
    "Dice": [
     {
@@ -2650,9 +2650,30 @@
     "time": ""
    },
    {
+    "company": "Apetan Consulting LLC",
+    "role": "Data Architect- Retail experience",
+    "reason": "not-relocatable \u2014 no exact-title match on LinkedIn pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "AppLab Systems",
     "role": "Healthcare Enterprise Architect",
     "reason": "not-relocatable \u2014 no AppLab Systems/exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "CBTS",
+    "role": "Principal AI Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "CDW",
+    "role": "Senior Solution Architect \u2013 HPE",
+    "reason": "not-relocatable \u2014 no CDW posting with that title on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
     "where": "",
     "time": ""
    },
@@ -2678,9 +2699,23 @@
     "time": ""
    },
    {
+    "company": "Comcentric Inc.",
+    "role": "Microsoft Fabric Solution Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Commercial Programming Systems",
     "role": "Senior System Architect",
     "reason": "not-relocatable on LinkedIn (searched 2026-10-15, run 50fa33fd) \u2014 search link (the exact search run): https://www.linkedin.com/jobs/search/?keywords=Commercial%20Programming%20Systems%20Senior%20System%20Architect",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "CoreTek Labs",
+    "role": "Cloud FinOps Architect (AWS)",
+    "reason": "not-relocatable \u2014 no CoreTek Labs/exact-title match on LinkedIn pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
     "where": "",
     "time": ""
    },
@@ -2706,9 +2741,37 @@
     "time": ""
    },
    {
+    "company": "General Dynamics Information Technology",
+    "role": "AI/ML Architect SME",
+    "reason": "not-relocatable \u2014 no GDIT posting with that exact title on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Granite (Entrust partner listing)",
     "role": "Solutions Architect",
     "reason": "code-blocked \u2014 external route is ADP (myjobs.adp.com/granitecareers, reqId 5001218022500); ONE one-time passcode triggered to samuel-hubert@outlook.com ~09:36 CDT 2026-10-15, entry impossible under the protected-reference conflict (see run notes) \u2014 parked\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Holistic Partners",
+    "role": "AI Enterprise Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "InfoStride",
+    "role": "RPA Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "InfoStride",
+    "role": "Solutions Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
     "where": "",
     "time": ""
    },
@@ -2727,9 +2790,23 @@
     "time": ""
    },
    {
+    "company": "NeerInfo",
+    "role": "AMI Solution Architect",
+    "reason": "not-relocatable \u2014 no NeerInfo posting with the AMI title on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Peraton",
     "role": "Lead AWS Cloud Computing, Advisor",
     "reason": "not-relocatable on LinkedIn (searched 2026-10-15, run 50fa33fd relaunch attempt) \u2014 search link (the exact search run): https://www.linkedin.com/jobs/search/?keywords=Peraton%20Lead%20AWS%20Cloud%20Computing%20Advisor",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "RegEd",
+    "role": "Data Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
     "where": "",
     "time": ""
    },
@@ -2751,6 +2828,13 @@
     "company": "SoTalent",
     "role": "Senior Solutions Architect",
     "reason": "not-relocatable on LinkedIn (searched 2026-10-15, run 50fa33fd) \u2014 search link (the exact search run): https://www.linkedin.com/jobs/search/?keywords=SoTalent%20Senior%20Solutions%20Architect",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Technocrats Domain Inc",
+    "role": "AI Architect",
+    "reason": "not-relocatable \u2014 no exact-title match on pages 1-2 on 2026-10-15 \u2014 workarounds tried: LinkedIn search only (2 pages)",
     "where": "",
     "time": ""
    },
@@ -3035,6 +3119,13 @@
     "time": ""
    },
    {
+    "company": "Acrisure",
+    "role": "Lead Integration Architect, Finance Systems Automation",
+    "reason": "experience-mismatch \u2014 JD defines the job as the employer's Workday integration architect (Workday integration tooling proficiency + Workday integration certification required), a platform specialty outside the candidate's background (worker paraphrase \u2014\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Aether Aerospace",
     "role": "Chief Architect",
     "reason": "not-remote \u2014 listing location \"Hybrid (Dayton, OH / Boston, MA)\" (gate fact from list) \u2014 workarounds tried: none beyond the LinkedIn list copy (location label is the gate fact)",
@@ -3049,6 +3140,13 @@
     "time": ""
    },
    {
+    "company": "Akamai Technologies",
+    "role": "Principal Enterprise Architect- Remote",
+    "reason": "experience-mismatch \u2014 core duties are public-sector work (leading technical sections of federal RFP/RFI proposals and white papers; public-facing expert for government customers) requiring extensive federal/defense public-sector experience, outside the\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Akkodis",
     "role": "Appian Solutions Architect",
     "reason": "experience-mismatch \u2014 \"leads the design and implementation of enterprise-level applications\" on Appian \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run",
@@ -3059,6 +3157,13 @@
     "company": "Alldus",
     "role": "ServiceNow Architect - Government Clearance",
     "reason": "active clearance \u2014 \"Active Secret Clearance \u2013 Essential\" \u2014 POSTED: 2026-10-14",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Alpha Omega",
+    "role": "Solutions Architect",
+    "reason": "not-remote \u2014 JD states a hybrid role requiring on-site work two days per week in Arlington, VA and residence within commuting distance (worker paraphrase \u2014 evidence gap noted); pay also below band per the JD's stated most-likely range \u2014 POSTED: 2026-10-14\u2026",
     "where": "",
     "time": ""
    },
@@ -3140,6 +3245,20 @@
     "time": ""
    },
    {
+    "company": "Bounteous",
+    "role": "Digital Transformation Consultant",
+    "reason": "experience-mismatch \u2014 core duties are telecom/consumer-business digital growth strategy consulting (subscriber growth, personalization, identity/fraud strategy for a large telecom client), not the candidate's cloud/enterprise architecture work (worker\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Cloud Architect (Multi-Cloud)",
+    "reason": "duplicate \u2014 do-not-reapply (candidate finished manually) \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn search match only (gate fact, no JD adjudication per protocol)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Bright Vision Technologies",
     "role": "Cloud Transformation Architect",
     "reason": "do-not-reapply \u2014 same Bright Vision blanket note; the identical title was rejected 2026-09-17 for requiring a cloud architecture certification not on the resume; not filed despite Task 1b PASS",
@@ -3150,6 +3269,13 @@
     "company": "Bright Vision Technologies",
     "role": "Distributed Systems Architect",
     "reason": "experience-mismatch \u2014 \"lead the design and evolution of large-sc\" (distributed software systems core; pay top $160,000 in band) \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: none beyond the LinkedIn copy read this run",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Enterprise Cloud Architect",
+    "reason": "duplicate \u2014 do-not-reapply (submitted 2026-09-22) \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn search match only (gate fact)",
     "where": "",
     "time": ""
    },
@@ -3245,6 +3371,13 @@
     "time": ""
    },
    {
+    "company": "CVS Health",
+    "role": "Lead Solution Architect",
+    "reason": "pay-outside-band \u2014 \"$106,605.00 - $260,590.00\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy (employer's full JD) governs",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "CyberCoders",
     "role": "Adobe Commerce Systems Architect",
     "reason": "cloud-first (AWS-first) \u2014 \"cloud architecture strategy for AWS-based Linux environments\" \u2014 POSTED: 2026-10-15 \u2014 workarounds tried: none beyond the LinkedIn copy read this run",
@@ -3287,6 +3420,13 @@
     "time": ""
    },
    {
+    "company": "E-Solutions",
+    "role": "Saviynt Architect (Delinea, GCP)",
+    "reason": "GCP-first \u2014 \"architecture and technical design for a GCP identity governance program\" \u2014 POSTED: 2026-10-12 \u2014 workarounds tried: LinkedIn copy checked",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Edison Smart",
     "role": "Senior Solutions Architect",
     "reason": "duplicate \u2014 JD pane showed 'Applied 2 weeks ago' (gate fact)",
@@ -3322,9 +3462,30 @@
     "time": ""
    },
    {
+    "company": "FedEx",
+    "role": "AI Architect Principal (AI Foundation)",
+    "reason": "not-remote \u2014 \"This is a hybrid position\" \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn copy governs; alternate Memphis copy explicitly labelled Hybrid also present",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "forgd.ai",
     "role": "Applied AI Architect",
     "reason": "hands-on programming \u2014 \"You build prototypes, ship code, run workshops.\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy (employer's own text) governs; no alternate posting found",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Forge Digital Inc",
+    "role": "Senior Teamcenter Solutions Architect",
+    "reason": "experience-mismatch \u2014 \"Hands-on Siemens Teamcenter experience is required.\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy checked",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Forge Digital Inc",
+    "role": "Teamcenter Architect",
+    "reason": "hands-on programming \u2014 \"Develop and maintain ITK and SOA customizations using C++, Java, and XML.\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy checked",
     "where": "",
     "time": ""
    },
@@ -3339,6 +3500,20 @@
     "company": "FullStack",
     "role": "Solutions Architect (Pre-Sales & Delivery)",
     "reason": "hands-on programming \u2014 \"Advanced proficiency in JavaScript/TypeScript (Node.js and React) and modern Python\" (pre-sales filter disabled, not used) \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run (alternate route \u2014 same filter fails\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "G\u00e2360",
+    "role": "Architectural Project Manager - QSR",
+    "reason": "experience-mismatch \u2014 physical building architecture (licensed/registered architect credential NCARB, AutoCAD/Revit, construction documents for quick-service-restaurant clients), not IT architecture (worker paraphrase; verbatim quote not captured \u2014\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "G\u00e2360",
+    "role": "Architectural Project Manager - Retail",
+    "reason": "experience-mismatch \u2014 same physical-architecture role family as the QSR posting (licensed-architect credential and construction-document work required) (worker paraphrase \u2014 evidence gap noted) \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy\u2026",
     "where": "",
     "time": ""
    },
@@ -3364,9 +3539,30 @@
     "time": ""
    },
    {
+    "company": "HatchWorks AI",
+    "role": "Director Enterprise Architecture",
+    "reason": "duplicate \u2014 do-not-reapply: same employer + same title already FILED 2026-10-10 via Hireez HREZ-15616 (LinkedIn 4477879026, POSTED 2026-10-09; do-not-reapply entry verbatim). Tab PASS (JD duties aligned, pay unpublished, POSTED: 2026-10-14) overridden by\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "HCLTech",
+    "role": "Sr Security Architect",
+    "reason": "pay-outside-band \u2014 \"$120K/yr - $140K/yr\" \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn copy checked",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "HED",
     "role": "Senior Project Architect (IV) - Mission Critical",
     "reason": "experience-mismatch \u2014 \"Responsible for site and master planning development\" (licensure/building-architecture core) \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "NA A&PS Presales Solution Architect",
+    "reason": "pay-outside-band \u2014 published combined base-plus-target-sales-compensation ranges top at $355,000 in every visible state range (e.g. California range begins at $172,000 and tops at $355,000) \u2014 POSTED: 2026-10-14 \u2014 pre-sales duties NOT used as a filter\u2026",
     "where": "",
     "time": ""
    },
@@ -3416,6 +3612,13 @@
     "company": "Intuitive",
     "role": "Key Account Technical Solution Consultant",
     "reason": "pay-outside-band \u2014 \"$151.3K/yr - $241.9K/yr\" (gate fact from list) \u2014 workarounds tried: none beyond the LinkedIn list copy (pay gate fact from the published range)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "INVOKE",
+    "role": "Solutions Architect",
+    "reason": "experience-mismatch \u2014 \"with a strong focus on UiPath and automation solutions\" \u2014 POSTED: 2026-10-13 \u2014 pre-sales duties NOT used as a filter (disabled this run) \u2014 workarounds tried: LinkedIn copy checked",
     "where": "",
     "time": ""
    },
@@ -3476,6 +3679,13 @@
     "time": ""
    },
    {
+    "company": "Mackinnon Bruce International",
+    "role": "Snowflake Architect",
+    "reason": "experience-mismatch \u2014 \"Define target state Snowflake architecture\" \u2014 POSTED: 2026-10-13 \u2014 pay passed ($220K/yr + Bonus, top in band); core is Snowflake data-platform specialty outside candidate background \u2014 workarounds tried: LinkedIn copy checked (agency\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "MANTECH",
     "role": "Principal Architect",
     "reason": "experience-mismatch \u2014 \"Architecting and deploying production-grade Code Mode MCP servers\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: none beyond the LinkedIn copy read this run",
@@ -3512,6 +3722,20 @@
    },
    {
     "company": "NVIDIA",
+    "role": "Principal Hardware Security Architect",
+    "reason": "pay-outside-band \u2014 \"272,000 USD - 431,250 USD\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy (employer's own JD, req JR2012335) governs; second Santa Clara copy of same title noted",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "NVIDIA",
+    "role": "Senior, Software and System Architect",
+    "reason": "pay-outside-band \u2014 \"152,000 USD - 241,500 USD\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy governs; multiple same-title location copies noted as alternate copies of the same role",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "NVIDIA",
     "role": "Senior Solutions Architect, NVIDIA Cloud Partners",
     "reason": "pay-outside-band \u2014 \"$184,000-$287,500\" (base range top above $230K) \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run (alternate route \u2014 same filter fails on that copy's governing text); employer ATS copy not separately opened; no\u2026",
     "where": "",
@@ -3528,6 +3752,13 @@
     "company": "Okta",
     "role": "Technical Architect, Auth0",
     "reason": "not-remote \u2014 JD \"requires in-person onboarding\" with ~50% travel to SF HQ or Chicago \u2014 workarounds tried: none beyond the LinkedIn copy read",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Orion Groups",
+    "role": "Solutions Architect, Device Integration",
+    "reason": "experience-mismatch \u2014 \"10+ years of experience with clinical solution architecture\" \u2014 POSTED: 2026-10-13 \u2014 pay $160K-$175K/yr top in band (moot) \u2014 workarounds tried: LinkedIn copy checked",
     "where": "",
     "time": ""
    },
@@ -3553,9 +3784,23 @@
     "time": ""
    },
    {
+    "company": "Pella Corporation",
+    "role": "Technical Architect",
+    "reason": "experience-mismatch \u2014 \"architect and guide the implementation of the next-generation ERP platform\" \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn copy (employer's full JD) checked",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Pentera",
     "role": "Solutions Architect Team Lead",
     "reason": "experience-mismatch \u2014 \"Lead a team of professionals in intricate customer facing missions\" (pentest/security-validation core) \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Piper (Piper Companies)",
+    "role": "Azure IAM Engineer",
+    "reason": "pay-outside-band \u2014 \"$120,000-$145,000 annually\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy checked",
     "where": "",
     "time": ""
    },
@@ -3568,8 +3813,22 @@
    },
    {
     "company": "Presidio",
+    "role": "ServiceNow Architect",
+    "reason": "hands-on programming \u2014 \"Participate in hands-on development, prototyping, complex configuration\" \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: LinkedIn copy (employer's full JD) checked",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Presidio",
     "role": "Sr. Solutions Architect, AWS",
     "reason": "cloud-first (AWS-first) \u2014 \"We are seeking an AWS Pre-Sales Solution Architect\" (pre-sales filter disabled, not used) \u2014 POSTED: 2026-10-14 \u2014 distinct req from the Presidio Azure filing 2026-10-06, not Applied \u2014 workarounds tried: LinkedIn copy re-located\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "RAKE Digital",
+    "role": "Senior Cloud Infrastructure Engineer",
+    "reason": "pay-outside-band \u2014 \"$125,000 \u2013 $155,000\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy (employer's full JD) checked",
     "where": "",
     "time": ""
    },
@@ -3588,6 +3847,13 @@
     "time": ""
    },
    {
+    "company": "Salt Security",
+    "role": "Associate Solutions Architect",
+    "reason": "experience-mismatch \u2014 \"early in their technical career\" \u2014 early-career associate role assisting senior solutions architects on API-security deployments (1-3 years' experience), not enterprise architecture ownership \u2014 POSTED: 2026-10-14 \u2014 workarounds tried:\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Sarah Cannon Research Institute",
     "role": "Lead Solution Architect - Remote US",
     "reason": "experience-mismatch \u2014 role centered on \"driving our database strategy\" / enterprise data architecture \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run (alternate route \u2014 same filter fails on that copy's governing text); employer ATS\u2026",
@@ -3598,6 +3864,13 @@
     "company": "Semarchy",
     "role": "Solutions Architect, Professional Services",
     "reason": "stale posting \u2014 \"Reposted 1 week ago\"",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Shakti Solutions",
+    "role": "Cloud Test Architect",
+    "reason": "GCP-first \u2014 \"Azure-to-Google to Cloud Platform (GCP) migration\" \u2014 POSTED: 2026-10-15 \u2014 workarounds tried: LinkedIn copy checked; no separate employer ATS copy found",
     "where": "",
     "time": ""
    },
@@ -3619,6 +3892,13 @@
     "company": "Siemens",
     "role": "Customer Solution Architect",
     "reason": "pay-outside-band \u2014 \"$89,670 - $153,720\" \u2014 workarounds tried: none beyond the LinkedIn copy read",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "SPECTRAFORCE",
+    "role": "Solutions Architect",
+    "reason": "experience-mismatch \u2014 medical-device integration architect requiring direct experience integrating medical devices with hospital EHR systems in acute-care settings, outside the candidate's background (worker paraphrase \u2014 evidence gap noted) \u2014 POSTED:\u2026",
     "where": "",
     "time": ""
    },
@@ -3682,6 +3962,13 @@
     "company": "Tricascade",
     "role": "Senior Azure DevOps CI/CD Architect",
     "reason": "whole-role IaC/hands-on \u2014 \"Design, build, and implement reusable CI/CD pipeline frameworks\" \u2014 POSTED: 2026-10-14 \u2014 workarounds tried: LinkedIn copy re-located and full JD read this run",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "TrnDigital",
+    "role": "AI Architect",
+    "reason": "hands-on programming \u2014 role's must-have list requires hands-on expertise building LLM applications in Python with FastAPI/LangChain (worker paraphrase; verbatim quote not captured \u2014 evidence gap noted) \u2014 POSTED: 2026-10-13 \u2014 pay $180K/yr - $220K/yr top in\u2026",
     "where": "",
     "time": ""
    },
@@ -4987,7 +5274,7 @@
    }
   ]
  },
- "updated_at": "2026-10-15T12:03:32.553664-05:00",
+ "updated_at": "2026-10-15T12:38:21-05:00",
  "workers": {
   "W1": {
    "detail": "Not selected \u2014 skipped",
