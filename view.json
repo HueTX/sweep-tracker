@@ -1,0 +1,375 @@
+{
+ "schema": 2,
+ "build_version": "2.0.0-retool-p1",
+ "generated_at": "2026-10-16T14:44:33Z",
+ "lane_state_source": "fallback",
+ "run": {
+  "id": "a222297f",
+  "kind": "scheduled",
+  "status": "running",
+  "started_at": "2026-10-16T13:14:21Z",
+  "last_activity_at": "2026-10-16T14:21:05Z"
+ },
+ "counts": {
+  "filed": 12,
+  "parked": 5,
+  "rejected": 228,
+  "evaluated": 255
+ },
+ "today": {
+  "date": "2026-10-16",
+  "evaluated": 514,
+  "filed": 18,
+  "parked": 13,
+  "rejected": 483,
+  "filed_by_source": {
+   "Dice": 15,
+   "LinkedIn": 1,
+   "Employer sites": 2
+  }
+ },
+ "searching_lanes": [
+  "W9",
+  "W20",
+  "LinkedIn"
+ ],
+ "lanes": {
+  "W1": {
+   "label": "Federal Gov",
+   "sites": 30,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "8 queries · 2 JD reads · 0 passed · DOE/GSA/HUD direct covered"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Returned: Ohio + Harris/Houston units covered, 0 PASS, 25 reject lines merged"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: 12 uncovered employers carried first"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: 38 ATS passes carried first"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: 36 employers partial-pass carried first"
+  },
+  "W7": {
+   "label": "Google Jobs",
+   "sites": 1,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "4 queries · 80 cards · carried re-scans done · 2 passed (1 already applied on Dice)"
+  },
+  "W8": {
+   "label": "Web Catch-All",
+   "sites": 0,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Carried NOT EVALUATED re-scans done: Centene closed, Hitachi pay, Wayfair stale, PepsiCo not-remote"
+  },
+  "W9": {
+   "label": "Dice",
+   "sites": 1,
+   "phase": "searching",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Searching: Dice remote architect fresh pass"
+  },
+  "W10": {
+   "label": "SimplyHired",
+   "sites": 1,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued"
+  },
+  "W11": {
+   "label": "Glassdoor",
+   "sites": 1,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: 43 families carried first"
+  },
+  "W12": {
+   "label": "Monster",
+   "sites": 1,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued (blocked DataDome last run)"
+  },
+  "W13": {
+   "label": "Otta",
+   "sites": 1,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued (destination unavailable last run)"
+  },
+  "W14": {
+   "label": "Indeed",
+   "sites": 1,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Returned: Indeed not blocked; 6 queries, 12 JD reads, 1 PASS (EagleView) to filer, 11 rejects merged"
+  },
+  "W15": {
+   "label": "ZipRecruiter",
+   "sites": 1,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: one attempt only"
+  },
+  "W16": {
+   "label": "Financial Services",
+   "sites": 59,
+   "phase": "done",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Returned: 57 employers both passes, 1 PASS (Mastercard Lead Database Architect) to filer, 29 rejects merged"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued: 24 ATS employers carried first"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Queued"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "Searching: Section C re-scans GXO, J.B. Hunt, Ryder via Dice pass"
+  },
+  "LinkedIn": {
+   "label": "LinkedIn",
+   "sites": 0,
+   "phase": "filing",
+   "families_searched": 1,
+   "families_total": 48,
+   "current": null,
+   "heartbeat_at": "2026-10-16T14:37:35Z",
+   "detail": "LinkedIn 1a returned: family 1/24 (Azure Architect) merged — 35 leads, 25 rejects, 6 PASS to filer; families 2-24 carry first next run"
+  }
+ },
+ "stages": {
+  "delivered": {
+   "detail": "Report posts at closeout",
+   "ended_at": null,
+   "started_at": null,
+   "state": "pending"
+  },
+  "linkedin_discovery": {
+   "detail": "LinkedIn 1a returned: family 1/24 (Azure Architect) merged — 35 leads, 25 rejects, 6 PASS to filer; families 2-24 carry first next run",
+   "ended_at": null,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "active"
+  },
+  "linkedin_filing": {
+   "detail": "Carried filings dispositioned: Invoke FILED via Rippling ATS; Optiv PARKED (Workday wall); Vaco REJECTED. LinkedIn 1a filer (6 PASS leads) dispatching",
+   "ended_at": null,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "active"
+  },
+  "prep": {
+   "detail": "Recovery done: ec4d5435's 6 filings verified, 4 live PASS leads + NOT EVALUATED leads carried and dispositioned or re-dispatched",
+   "ended_at": "2026-10-16T13:33:00Z",
+   "started_at": "2026-10-16T13:15:00Z",
+   "state": "done"
+  },
+  "quality_check": {
+   "detail": "Audit + enforcer + receipt at closeout",
+   "ended_at": null,
+   "started_at": null,
+   "state": "pending"
+  },
+  "sector_filing": {
+   "detail": "Invoke filed and verified; Empower filer confirmed a pre-existing Dice application (Sep 19) — no duplicate submitted; Huron parked at Workday wall",
+   "ended_at": "2026-10-16T13:37:39Z",
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "done"
+  },
+  "sector_search": {
+   "detail": "W1, W2, W7/W8, W16, W20 returns merged; W2: 0 PASS, 25 rejects; W16: Mastercard Lead Database Architect PASS to filer; other sector lanes still searching",
+   "ended_at": null,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "active"
+  },
+  "stall_watch": {
+   "detail": "Runs at closeout on this run's parked items",
+   "ended_at": null,
+   "started_at": null,
+   "state": "pending"
+  },
+  "started": {
+   "detail": "Run-start protocol complete; ec4d5435 recovered and closed",
+   "ended_at": "2026-10-16T13:16:00Z",
+   "started_at": "2026-10-16T13:14:21Z",
+   "state": "done"
+  }
+ },
+ "titles": {
+  "total": 48,
+  "searched": 4,
+  "families": {
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "pending",
+   "Azure Cloud Architect": "pending",
+   "Cloud Architect": "pending",
+   "Cloud Solutions Architect": "pending",
+   "Enterprise Architect": "pending",
+   "Infrastructure Architect": "pending",
+   "Platform Architect": "pending",
+   "Solutions Architect": "pending",
+   "Solution Architect": "pending",
+   "Domain Architect": "pending",
+   "Resiliency Architect": "pending",
+   "IT/OT Architect": "pending",
+   "Cloud Transformation Architect": "pending",
+   "Principal Cloud Engineer": "pending",
+   "Principal Infrastructure Engineer": "pending",
+   "Cloud Architecture Lead": "pending",
+   "Cloud Infrastructure Lead": "pending",
+   "Principal Technical Architect": "pending",
+   "Technology Strategy Architect": "pending",
+   "IT Architecture Lead": "pending",
+   "Application Architect": "pending",
+   "Integration Architect": "pending",
+   "Data Center Architect": "pending",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "pending",
+   "Network Security Architect": "pending",
+   "Chief Architect": "pending",
+   "Cloud Engineering Lead": "pending",
+   "Platform Engineering Lead": "pending",
+   "Cloud Transformation Lead": "pending",
+   "Technology Strategy Lead": "pending",
+   "Enterprise Technology Lead": "pending",
+   "Infrastructure Strategy Lead": "pending",
+   "Cloud Practice Lead": "pending",
+   "Cloud Center of Excellence Lead": "pending",
+   "Cloud Enablement Lead": "pending",
+   "Cloud Adoption Lead": "pending",
+   "Infrastructure Modernization Lead": "pending",
+   "Technology Modernization Lead": "pending",
+   "Cloud Delivery Lead": "pending",
+   "Enterprise Technology Consultant": "pending",
+   "Cloud Advisory Consultant": "pending",
+   "Technology Transformation Consultant": "pending",
+   "Staff Cloud Engineer": "pending",
+   "Staff Infrastructure Engineer": "pending"
+  },
+  "family_lanes": {
+   "Azure Architect": [
+    "LinkedIn"
+   ]
+  }
+ },
+ "controls": {
+  "priority_lanes": [
+   "W1"
+  ],
+  "scoped_lanes": null,
+  "scoped_titles": null,
+  "sweep_state": "running",
+  "pending": [],
+  "acks": [],
+  "fire_dues": []
+ },
+ "note": "Last activity 09:21 CT · 2 workers in flight · 1 filed this run"
+}
