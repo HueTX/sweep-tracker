@@ -1,18 +1,17 @@
 {
  "active_titles": [],
  "counts": {
-  "evaluated": 0,
-  "filed": 0,
-  "parked": 0,
-  "rejected": 0
+  "evaluated": 15,
+  "filed": 1,
+  "parked": 2,
+  "rejected": 12
  },
- "evaluating_titles": [
-  "Optiv Idira Partner Architect",
-  "Invoke Cloud Solution Architect \u2013 Security",
-  "Huron Solution Architect (Forward Deployed)",
-  "Vaco Cloud Architect (Azure)"
- ],
- "family_states": {},
+ "evaluating_titles": [],
+ "family_states": {
+  "Digital Transformation Architect": "done",
+  "Identity Architect": "done",
+  "Systems Architect": "done"
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -749,7 +748,8 @@
    "TechAffinity Inc",
    "Diversified Systems, Inc.",
    "Wilcore Technologies Inc.",
-   "Libsys, Inc."
+   "Libsys, Inc.",
+   "Empower"
   ],
   "W10": [
    "Insight Enterprises",
@@ -778,7 +778,7 @@
   "W1"
  ],
  "lane_priority": "W1",
- "note": "Last activity 08:33 CT \u00b7 2 workers in flight \u00b7 0 filed this run",
+ "note": "Last activity 08:37 CT \u00b7 1 workers in flight \u00b7 1 filed this run",
  "relaunch_requests": [],
  "reprocess_requests": [],
  "rules_state": {
@@ -812,22 +812,22 @@
    "state": "pending"
   },
   "linkedin_discovery": {
-   "detail": "Carried LinkedIn families 28-48 + alerts + contract pass + odd-title net carried first, then full matrix",
+   "detail": "Queued: carried families 28-48 + alerts + contract pass + odd-title net run after Dice returns (2-tab cap)",
    "ended_at": null,
-   "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
+   "started_at": null,
+   "state": "pending"
   },
   "linkedin_filing": {
-   "detail": "Carried filings first: Optiv Idira Partner Architect (LinkedIn 4480177473) verification + filing",
-   "ended_at": null,
+   "detail": "Carried filings dispositioned: Invoke FILED via Rippling ATS; Optiv PARKED (Workday wall); Vaco REJECTED",
+   "ended_at": "2026-10-16T13:31:41Z",
    "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
+   "state": "done"
   },
   "prep": {
-   "detail": "Failed-run recovery done: ec4d5435 closed, 6 filings verified from its Dice-history/Greenhouse proof, 4 live PASS leads + NOT EVALUATED leads carried into this run",
-   "ended_at": null,
+   "detail": "Recovery done: ec4d5435's 6 filings verified, 4 live PASS leads + NOT EVALUATED leads carried and dispositioned or re-dispatched",
+   "ended_at": "2026-10-16T13:33:00Z",
    "started_at": "2026-10-16T13:15:00Z",
-   "state": "active"
+   "state": "done"
   },
   "quality_check": {
    "detail": "Audit + enforcer + receipt at closeout",
@@ -836,13 +836,13 @@
    "state": "pending"
   },
   "sector_filing": {
-   "detail": "Carried external filings dispatching: Invoke, Huron, Vaco verification + filing",
-   "ended_at": null,
+   "detail": "Invoke filed and verified; Empower filer confirmed a pre-existing Dice application (Sep 19) \u2014 no duplicate submitted; Huron parked at Workday wall",
+   "ended_at": "2026-10-16T13:37:39Z",
    "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
+   "state": "done"
   },
   "sector_search": {
-   "detail": "Sector lanes dispatching: W1 priority (federal carried units), W7/W8 catch-all re-scans, W9 Dice fresh + W20 Section C re-scans",
+   "detail": "W1 federal done (0 PASS); W7/W8 done (Empower PASS caught as already-applied on Dice); W9 Dice + W20 re-scans still searching",
    "ended_at": null,
    "started_at": "2026-10-16T13:17:00Z",
    "state": "active"
@@ -854,7 +854,7 @@
    "state": "pending"
   },
   "started": {
-   "detail": "Run-start protocol complete: manifest + heartbeat written; re-fire check found ec4d5435 dead mid-flight (>5h stale) and recovered it",
+   "detail": "Run-start protocol complete; ec4d5435 recovered and closed",
    "ended_at": "2026-10-16T13:16:00Z",
    "started_at": "2026-10-16T13:14:21Z",
    "state": "done"
@@ -867,15 +867,10 @@
  "title_control_requests": [],
  "today": {
   "date": "2026-10-16",
-  "evaluated": 345,
+  "evaluated": 360,
   "filed": 7,
   "parked": 10,
-  "rejected": 305,
-  "today_filed_by_source": {
-   "Dice": 5,
-   "LinkedIn": 1,
-   "Employer sites": 1
-  },
+  "rejected": 306,
   "today_filings": {
    "Dice": [
     {
@@ -1866,6 +1861,13 @@
     "company": "Diversified Systems, Inc.",
     "role": "Senior Architect",
     "reason": "duplicate-of-filed \u2014 its JD is identical to the Kodi Inc Senior Technology Architect role filed above (same underlying Ohio JFS client role via a different recruiter); the held mirror is closed now that Kodi is filed \u2014 never double-submit the same client role.",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Empower",
+    "role": "Generative AI Enterprise Architect",
+    "reason": "duplicate-of-filed \u2014 Dice Applied Jobs lists the identical posting (Dice b64f285a, Position 929ac0f98fe1fc316e2d9f8f1383e255, Empower Annuity Insurance Company of America, Remote Full Time, $151,800-$220,050) as \"Applied 27d ago\" (~2026-09-19) with a\u2026",
     "where": "",
     "time": ""
    },
@@ -3943,12 +3945,68 @@
    }
   ]
  },
- "updated_at": "2026-10-16T08:36:24.754913-05:00",
+ "updated_at": "2026-10-16T08:42:26.393215-05:00",
  "workers": {
   "W1": {
-   "detail": "Searching: federal carried units (DOE labs, GSA, HUD) + USAJOBS remote architect",
+   "detail": "8 queries \u00b7 2 JD reads \u00b7 0 passed \u00b7 DOE/GSA/HUD direct covered",
+   "ended_at": "2026-10-16T13:24:41Z",
+   "progress": 100,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "done"
+  },
+  "W2": {
+   "detail": "Queued: Ohio + Harris County carried units first",
    "ended_at": null,
    "progress": 0,
+   "started_at": null,
+   "state": "pending"
+  },
+  "W3": {
+   "detail": "Queued: 12 uncovered employers carried first",
+   "ended_at": null,
+   "progress": 0,
+   "started_at": null,
+   "state": "pending"
+  },
+  "W4": {
+   "detail": "Queued",
+   "ended_at": null,
+   "progress": 0,
+   "started_at": null,
+   "state": "pending"
+  },
+  "W5": {
+   "detail": "Queued: 38 ATS passes carried first",
+   "ended_at": null,
+   "progress": 0,
+   "started_at": null,
+   "state": "pending"
+  },
+  "W6": {
+   "detail": "Queued: 36 employers partial-pass carried first",
+   "ended_at": null,
+   "progress": 0,
+   "started_at": null,
+   "state": "pending"
+  },
+  "W7": {
+   "detail": "4 queries \u00b7 80 cards \u00b7 carried re-scans done \u00b7 2 passed (1 already applied on Dice)",
+   "ended_at": "2026-10-16T13:31:18Z",
+   "progress": 100,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "done"
+  },
+  "W8": {
+   "detail": "Carried NOT EVALUATED re-scans done: Centene closed, Hitachi pay, Wayfair stale, PepsiCo not-remote",
+   "ended_at": "2026-10-16T13:31:18Z",
+   "progress": 100,
+   "started_at": "2026-10-16T13:17:00Z",
+   "state": "done"
+  },
+  "W9": {
+   "detail": "Searching: Dice remote architect fresh pass",
+   "ended_at": null,
+   "progress": 50,
    "started_at": "2026-10-16T13:17:00Z",
    "state": "active"
   },
@@ -4022,66 +4080,10 @@
    "started_at": null,
    "state": "pending"
   },
-  "W2": {
-   "detail": "Queued: Ohio + Harris County carried units first",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": null,
-   "state": "pending"
-  },
   "W20": {
    "detail": "Searching: Section C re-scans GXO, J.B. Hunt, Ryder via Dice pass",
    "ended_at": null,
-   "progress": 0,
-   "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
-  },
-  "W3": {
-   "detail": "Queued: 12 uncovered employers carried first",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": null,
-   "state": "pending"
-  },
-  "W4": {
-   "detail": "Queued",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": null,
-   "state": "pending"
-  },
-  "W5": {
-   "detail": "Queued: 38 ATS passes carried first",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": null,
-   "state": "pending"
-  },
-  "W6": {
-   "detail": "Queued: 36 employers partial-pass carried first",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": null,
-   "state": "pending"
-  },
-  "W7": {
-   "detail": "Searching: carried NOT EVALUATED re-scans + Google Jobs remote architect",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
-  },
-  "W8": {
-   "detail": "Searching: web catch-all for carried leads (Centene, Hitachi Solutions, Empower)",
-   "ended_at": null,
-   "progress": 0,
-   "started_at": "2026-10-16T13:17:00Z",
-   "state": "active"
-  },
-  "W9": {
-   "detail": "Searching: Dice remote architect fresh pass + W20 Section C re-scans (GXO, J.B. Hunt, Ryder)",
-   "ended_at": null,
-   "progress": 0,
+   "progress": 50,
    "started_at": "2026-10-16T13:17:00Z",
    "state": "active"
   }
