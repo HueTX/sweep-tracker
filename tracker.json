@@ -703,10 +703,17 @@
    "Johnson Controls",
    "Testlio",
    "Openkrill",
-   "U.S. Fish and Wildlife Service"
+   "U.S. Fish and Wildlife Service",
+   "Centene",
+   "Hitachi Solutions America",
+   "Wayfair",
+   "Akamai",
+   "Databricks",
+   "JumpCloud"
   ],
   "W11": [
-   "CACI International"
+   "CACI International",
+   "Vaco"
   ],
   "W9": [
    "SAIC",
@@ -752,7 +759,8 @@
    "eBusiness Solutions Inc.",
    "GDIT bypass-completion note (Filer C2, same run): Dice",
    "Starbucks",
-   "Siemens Mobility"
+   "Siemens Mobility",
+   "Huron"
   ],
   "W12": [
    "Ladders"
@@ -770,7 +778,7 @@
   "W1"
  ],
  "lane_priority": "W1",
- "note": "Last activity 08:31 CT \u00b7 3 workers in flight \u00b7 0 filed this run",
+ "note": "Last activity 08:33 CT \u00b7 2 workers in flight \u00b7 0 filed this run",
  "relaunch_requests": [],
  "reprocess_requests": [],
  "rules_state": {
@@ -860,11 +868,12 @@
  "today": {
   "date": "2026-10-16",
   "evaluated": 345,
-  "filed": 6,
-  "parked": 8,
-  "rejected": 296,
+  "filed": 7,
+  "parked": 10,
+  "rejected": 305,
   "today_filed_by_source": {
    "Dice": 5,
+   "LinkedIn": 1,
    "Employer sites": 1
   },
   "today_filings": {
@@ -1200,6 +1209,78 @@
      }
     }
    ],
+   "LinkedIn": [
+    {
+     "company": "Invoke, LLC",
+     "role": "Cloud Solution Architect \u2013 Security",
+     "where": "LinkedIn",
+     "time": "",
+     "check": {
+      "company": "Invoke, LLC",
+      "role": "Cloud Solution Architect \u2013 Security",
+      "where": "Employer site via Google Jobs (W7) \u2014 JD verification inside filing task before submit",
+      "filed_at": "2026-10-16 ~08:26 CDT (America/Chicago)",
+      "verdict": "pass (board-excerpt; employer JD verification required before submit)",
+      "rules": [
+       {
+        "rule": "Full JD read",
+        "status": "pending",
+        "evidence": "W7 worker read Google Jobs board excerpt ('Work from home'); filer must read the employer's own full JD and abort with a quoted reject if any filter fails"
+       },
+       {
+        "rule": "Experience alignment",
+        "status": "pending",
+        "evidence": "To be confirmed on the employer's full JD by the filer (core duties vs his cloud/infrastructure/identity/security architecture record)"
+       },
+       {
+        "rule": "Duplicate check",
+        "status": "pass",
+        "evidence": "Parent checked ledger + do-not-reapply 2026-10-16: no prior filing for this employer+title (TGIPOWER = parked-retry of bot-wall park, never submitted)"
+       },
+       {
+        "rule": "Employer not excluded / not Cognizant / not DevSecOps",
+        "status": "pass",
+        "evidence": "Not Humana/First Citizens/Oakworth; not Cognizant; title not DevSecOps"
+       },
+       {
+        "rule": "100% remote US",
+        "status": "pass",
+        "evidence": "Google Jobs remote filter + 'Work from home' on the listing; filer re-verifies on employer JD"
+       },
+       {
+        "rule": "Pay band",
+        "status": "pass",
+        "evidence": "Published $140,000-$160,000; top inside $160,000-$230,000 (or unpublished = eligible)"
+       },
+       {
+        "rule": "Posting freshness",
+        "status": "pass",
+        "evidence": "POSTED: 2026-10-11 (within 7 days)"
+       },
+       {
+        "rule": "Tailored resume",
+        "status": "pass",
+        "evidence": "Hubert-Samuel-Resume.pdf in filings/invoke-cloud-solution-architect-security/ \u2014 rewritten around this role's keywords from truthful experience only"
+       },
+       {
+        "rule": "Veteran answer",
+        "status": "pending",
+        "evidence": "Filer instructed: exactly 'I am not a veteran'"
+       },
+       {
+        "rule": "Screening answers",
+        "status": "pending",
+        "evidence": "Standing data: US citizen, no sponsorship, $180,000 single figure, Azure 13 yrs"
+       },
+       {
+        "rule": "Filing proof",
+        "status": "pending",
+        "evidence": "Filer must return EVIDENCE marker (ats-confirmation / applied-list / board history) or PARKED filed-unverified"
+       }
+      ]
+     }
+    }
+   ],
    "Employer sites": [
     {
      "company": "Openkrill",
@@ -1213,6 +1294,7 @@
  },
  "today_filed_by_source": {
   "Dice": 5,
+  "LinkedIn": 1,
   "Employer sites": 1
  },
  "today_filings": {
@@ -1548,6 +1630,78 @@
     }
    }
   ],
+  "LinkedIn": [
+   {
+    "company": "Invoke, LLC",
+    "role": "Cloud Solution Architect \u2013 Security",
+    "where": "LinkedIn",
+    "time": "",
+    "check": {
+     "company": "Invoke, LLC",
+     "role": "Cloud Solution Architect \u2013 Security",
+     "where": "Employer site via Google Jobs (W7) \u2014 JD verification inside filing task before submit",
+     "filed_at": "2026-10-16 ~08:26 CDT (America/Chicago)",
+     "verdict": "pass (board-excerpt; employer JD verification required before submit)",
+     "rules": [
+      {
+       "rule": "Full JD read",
+       "status": "pending",
+       "evidence": "W7 worker read Google Jobs board excerpt ('Work from home'); filer must read the employer's own full JD and abort with a quoted reject if any filter fails"
+      },
+      {
+       "rule": "Experience alignment",
+       "status": "pending",
+       "evidence": "To be confirmed on the employer's full JD by the filer (core duties vs his cloud/infrastructure/identity/security architecture record)"
+      },
+      {
+       "rule": "Duplicate check",
+       "status": "pass",
+       "evidence": "Parent checked ledger + do-not-reapply 2026-10-16: no prior filing for this employer+title (TGIPOWER = parked-retry of bot-wall park, never submitted)"
+      },
+      {
+       "rule": "Employer not excluded / not Cognizant / not DevSecOps",
+       "status": "pass",
+       "evidence": "Not Humana/First Citizens/Oakworth; not Cognizant; title not DevSecOps"
+      },
+      {
+       "rule": "100% remote US",
+       "status": "pass",
+       "evidence": "Google Jobs remote filter + 'Work from home' on the listing; filer re-verifies on employer JD"
+      },
+      {
+       "rule": "Pay band",
+       "status": "pass",
+       "evidence": "Published $140,000-$160,000; top inside $160,000-$230,000 (or unpublished = eligible)"
+      },
+      {
+       "rule": "Posting freshness",
+       "status": "pass",
+       "evidence": "POSTED: 2026-10-11 (within 7 days)"
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "pass",
+       "evidence": "Hubert-Samuel-Resume.pdf in filings/invoke-cloud-solution-architect-security/ \u2014 rewritten around this role's keywords from truthful experience only"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "pending",
+       "evidence": "Filer instructed: exactly 'I am not a veteran'"
+      },
+      {
+       "rule": "Screening answers",
+       "status": "pending",
+       "evidence": "Standing data: US citizen, no sponsorship, $180,000 single figure, Azure 13 yrs"
+      },
+      {
+       "rule": "Filing proof",
+       "status": "pending",
+       "evidence": "Filer must return EVIDENCE marker (ats-confirmation / applied-list / board history) or PARKED filed-unverified"
+      }
+     ]
+    }
+   }
+  ],
   "Employer sites": [
    {
     "company": "Openkrill",
@@ -1589,6 +1743,13 @@
     "time": ""
    },
    {
+    "company": "Huron",
+    "role": "Solution Architect, Forward Deployed Architecture (AI Capability Center)",
+    "reason": "account-wall \u2014 CREDENTIAL NEEDED: Huron \u2014 Workday \u2014 verification: no prior submission evidence; wall-free copies checked: LinkedIn (no working apply route), Indeed (no results), Dice/SimplyHired/ZipRecruiter (no copy of JR-0016907 found); saved Workday\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Starbucks",
     "role": "Architect Lead",
     "reason": "account-wall \u2014 CREDENTIAL NEEDED: Starbucks \u2014 Taleo \u2014 Apply Online leads to a mandatory Taleo login; the saved login for samuel-hubert@outlook.com was rejected (username/password does not correspond to a registered user); no account created, no reset\u2026",
@@ -1617,6 +1778,13 @@
     "company": "MaziCTools",
     "role": "Modern Work Cloud Solution Architect (CSA) for SharePoint",
     "reason": "no fileable route \u2014 JD passes on its face (up to 100% from home, $140K-$190K) but the aggregator listing carries no Microsoft req ID, Microsoft careers search found no matching US SharePoint CSA requisition, the JobLeads apply route is account-gated, and\u2026",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Optiv",
+    "role": "Idira Partner Architect",
+    "reason": "account-wall \u2014 CREDENTIAL NEEDED: Optiv \u2014 Workday \u2014 verification confirmed NOT previously submitted (LinkedIn external Apply, no Applied state; Workday no already-applied notice); JD re-check passed (fully remote continental US, pay unpublished); saved\u2026",
     "where": "",
     "time": ""
    }
@@ -1858,6 +2026,13 @@
     "time": ""
    },
    {
+    "company": "Akamai",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band \u2014 \"$159,600-$287,400\" (employer's own site) \u2014 POSTED: 2026-10-13 \u2014 workarounds tried: employer's own JD read in full (governing)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Albertsons",
     "role": "Enterprise Architect",
     "reason": "not-remote \u2014 \"in Pleasanton, California\"",
@@ -1984,6 +2159,13 @@
     "time": ""
    },
    {
+    "company": "Centene",
+    "role": "Solutions Architect (Data)",
+    "reason": "closed posting \u2014 employer ATS URL 404s again and Centene's own jobs search returns no match for 1655651 (posting removed); mirrors showed \"$75,300-$135,400\" (below floor, noted, not the governing evidence)",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Chewy",
     "role": "Learning Architect III",
     "reason": "not-remote \u2014 hybrid role, closed Sep 2026 (also not an IT architect role).",
@@ -2078,6 +2260,13 @@
     "company": "Danaher",
     "role": "Principal Architect, Manufacturing Security - USA Remote",
     "reason": "stale posting \u2014 'Posted 16 Days Ago' (~2026-09-30; pay $150,000-$180,000 top would have passed).",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Databricks",
+    "role": "Delivery Solutions Architect, Startups & Emerging Enterprise",
+    "reason": "pay-outside-band \u2014 \"$180,000-$247,500\" (also state-restricted remote) \u2014 workarounds tried: employer's own JD read",
     "where": "",
     "time": ""
    },
@@ -2236,6 +2425,13 @@
     "time": ""
    },
    {
+    "company": "Hitachi Solutions America",
+    "role": "Principal Cloud Platform Architect",
+    "reason": "pay-outside-band \u2014 no such posting on Hitachi Solutions' own site; governing copy is the Hitachi Vantara role already rejected in ec4d5435 on its employer JD (\"$120K-$150K\"); mirror base range \"$120K-$150K\" concurs",
+    "where": "",
+    "time": ""
+   },
+   {
     "company": "Honeywell",
     "role": "Lead SW Architect",
     "reason": "not-remote (listing-level gate) \u2014 'Bengaluru, Karnataka, India'.",
@@ -2288,6 +2484,13 @@
     "company": "Johnson Controls",
     "role": "Azure DevOps Architect (remote)",
     "reason": "stale posting \u2014 'Dec 8, 2025'.",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "JumpCloud",
+    "role": "Senior Solution Architect",
+    "reason": "hands-on programming \u2014 Month-6 objective requires executing \"hands-on technical deployments\" and directory cutovers end-to-end \u2014 pay \"$125,000-$175,000\" and Remote First US passed \u2014 workarounds tried: employer's own Lever JD read in full",
     "where": "",
     "time": ""
    },
@@ -2433,8 +2636,22 @@
    },
    {
     "company": "PepsiCo",
+    "role": "AI Enterprise Platform Architect",
+    "reason": "not-remote \u2014 aggregator: \"Onsite\", Plano, TX",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "PepsiCo",
     "role": "AI Platform Architect",
     "reason": "not-remote (listing-level gate) \u2014 snippet location Plano, TX.",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "PepsiCo",
+    "role": "AI Solutions Architect",
+    "reason": "not-remote \u2014 full JD on pepsicojobs.com: Plano, Texas only, no remote language \u2014 POSTED: in-window per aggregator",
     "where": "",
     "time": ""
    },
@@ -2680,6 +2897,13 @@
     "company": "Walmart",
     "role": "Distinguished Architect, Emerging Tech",
     "reason": "pay-outside-band \u2014 \"$169,000 - $338,000/year\" top above $230,000 \u2014 POSTED: 2026-10-10 (JD detail also listed Bellevue/Sunnyvale offices)",
+    "where": "",
+    "time": ""
+   },
+   {
+    "company": "Wayfair",
+    "role": "Fintech Platform Architect",
+    "reason": "stale posting \u2014 aggregator page age \"14 days+\" (governing reachable evidence; Wayfair careers search did not surface the title, direct reload hit PerimeterX wall x2)",
     "where": "",
     "time": ""
    },
@@ -3654,6 +3878,13 @@
     "reason": "pay-outside-band \u2014 \"$114,600-$252,100\" top above $230,000 (also active Secret clearance in JD) \u2014 workarounds tried: Glassdoor full JD read (employer's governing text sought on same surface)",
     "where": "",
     "time": ""
+   },
+   {
+    "company": "Vaco",
+    "role": "Cloud Architect (Azure)",
+    "reason": "date-unverifiable \u2014 neither Glassdoor nor Vaco's own page (jobs.vaco.com/job/1638/cloud_architect) shows any posting date on any surface; post 303168 differs from the 2026-09-21 filed post 304749 so duplicate-of-filed was NOT proven; independently fails\u2026",
+    "where": "",
+    "time": ""
    }
   ],
   "Indeed": [
@@ -3712,7 +3943,7 @@
    }
   ]
  },
- "updated_at": "2026-10-16T08:32:40.189546-05:00",
+ "updated_at": "2026-10-16T08:36:24.754913-05:00",
  "workers": {
   "W1": {
    "detail": "Searching: federal carried units (DOE labs, GSA, HUD) + USAJOBS remote architect",
