@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-16T15:36:23Z",
+ "generated_at": "2026-10-16T15:41:11Z",
  "lane_state_source": "fallback",
  "run": {
   "id": "33902065",
   "kind": "scheduled",
-  "status": "running",
+  "status": "complete",
   "started_at": "2026-10-16T14:56:39Z",
-  "last_activity_at": "2026-10-16T15:26:26Z"
+  "last_activity_at": "2026-10-16T15:40:26Z"
  },
  "counts": {
   "filed": 10,
-  "parked": 3,
+  "parked": 4,
   "rejected": 244,
-  "evaluated": 263
+  "evaluated": 268
  },
  "today": {
   "date": "2026-10-16",
-  "evaluated": 552,
+  "evaluated": 553,
   "filed": 30,
-  "parked": 19,
+  "parked": 20,
   "rejected": 503,
   "filed_by_source": {
    "Employer sites": 10,
@@ -358,9 +358,23 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
-  "pending": [],
-  "acks": [],
+  "sweep_state": "idle",
+  "pending": [
+   {
+    "action": "lanecontrol",
+    "id": "c5bd0c93-ba99-4577-bc58-724c11a5ef9a",
+    "type": "priority",
+    "lane": "W1",
+    "requested_at": "2026-10-16T15:32:58Z"
+   }
+  ],
+  "acks": [
+   {
+    "id": "c5bd0c93-ba99-4577-bc58-724c11a5ef9a",
+    "actuated_at": "2026-10-16T15:37:01Z",
+    "effect": "priority W1 on"
+   }
+  ],
   "fire_dues": []
  },
  "note": "Last activity 09:56 CT · 0 workers in flight · 0 filed this run"
