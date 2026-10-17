@@ -1,40 +1,39 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T09:31:10Z",
+ "generated_at": "2026-10-17T09:36:23Z",
  "lane_state_source": "derived",
  "run": {
   "id": "74cf704e",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T08:47:11Z",
-  "last_activity_at": "2026-10-17T09:30:13Z",
+  "last_activity_at": "2026-10-17T09:31:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 96,
+   "covered_units": 191,
    "total_units": 1008,
-   "pct": 10
+   "pct": 19
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 51,
-  "evaluated": 57
+  "rejected": 78,
+  "evaluated": 84
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 103,
+  "evaluated": 130,
   "filed": 0,
   "parked": 4,
-  "rejected": 99,
+  "rejected": 126,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
   "W3",
   "W4",
-  "W5",
   "W6",
   "W7",
   "W8",
@@ -44,7 +43,6 @@
   "W12",
   "W17",
   "W19",
-  "W20",
   "LinkedIn"
  ],
  "lanes": {
@@ -91,12 +89,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 44,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:54Z",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "heartbeat_at": "2026-10-17T09:31:50Z",
+   "detail": "Families covered 48/48"
   },
   "W6": {
    "label": "Utilities",
@@ -221,7 +219,7 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "done",
+   "phase": "filing",
    "families_searched": 47,
    "families_total": 48,
    "current": {
@@ -229,7 +227,7 @@
     "title": "Enterprise Business Architecture Lead"
    },
    "heartbeat_at": "2026-10-17T09:30:48Z",
-   "detail": "Families covered 48/48"
+   "detail": "Families covered 47/48 · searching Manufacturing & Industrial"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -244,12 +242,12 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 31,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:55Z",
-   "detail": "Searching · 48 title families across UPS, FedEx, XPO, and 28 more"
+   "heartbeat_at": "2026-10-17T09:31:16Z",
+   "detail": "Families covered 48/48"
   },
   "LinkedIn": {
    "label": "LinkedIn",
@@ -376,196 +374,291 @@
   },
   "family_lanes": {
    "Azure Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Azure Solutions Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Azure Cloud Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Solutions Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Enterprise Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Infrastructure Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Platform Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Solutions Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Solution Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Domain Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Resiliency Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "IT/OT Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Transformation Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Principal Cloud Engineer": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Principal Infrastructure Engineer": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Architecture Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Infrastructure Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Principal Technical Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Technology Strategy Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "IT Architecture Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Application Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Integration Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Data Center Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Digital Transformation Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Systems Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Identity Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Technology Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Network Security Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Chief Architect": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Engineering Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Platform Engineering Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Transformation Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Technology Strategy Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Enterprise Technology Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Infrastructure Strategy Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Practice Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Center of Excellence Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Enablement Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Adoption Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Infrastructure Modernization Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Technology Modernization Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Delivery Lead": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Enterprise Technology Consultant": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Cloud Advisory Consultant": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Technology Transformation Consultant": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Staff Cloud Engineer": [
+    "W5",
     "W16",
-    "W18"
+    "W18",
+    "W20"
    ],
    "Staff Infrastructure Engineer": [
+    "W5",
     "W16",
-    "W18"
+    "W20"
    ]
   }
  },
