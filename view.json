@@ -1,44 +1,38 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T05:21:19Z",
+ "generated_at": "2026-10-17T05:26:14Z",
  "lane_state_source": "derived",
  "run": {
   "id": "4a75bbe4",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T05:05:45Z",
-  "last_activity_at": "2026-10-17T05:17:56Z",
+  "last_activity_at": "2026-10-17T05:25:43Z",
   "progress": {
    "pools": 21,
-   "covered_units": 115,
+   "covered_units": 382,
    "total_units": 1008,
-   "pct": 11
+   "pct": 38
   }
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 13,
-  "evaluated": 14
+  "parked": 3,
+  "rejected": 27,
+  "evaluated": 32
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 13,
+  "evaluated": 30,
   "filed": 0,
-  "parked": 0,
-  "rejected": 13,
+  "parked": 3,
+  "rejected": 27,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
   "W7",
   "W9",
-  "W10",
   "W11"
  ],
  "lanes": {
@@ -55,52 +49,55 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 16,
    "families_total": 48,
-   "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+   "current": {
+    "company": "HigherEchelon",
+    "title": "Solutions Architect (MCCF Healthcare Systems)"
+   },
+   "heartbeat_at": "2026-10-17T05:23:09Z",
+   "detail": "Families covered 48/48"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 5,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
+   "heartbeat_at": "2026-10-17T05:25:21Z",
+   "detail": "Families covered 48/48"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 27,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": "Searching · 48 title families across UnitedHealth Group / Optum, Elevance Health, CVS Health / Aetna, and 29 more"
+   "heartbeat_at": "2026-10-17T05:25:21Z",
+   "detail": "Families covered 48/48 · 32/32 insurers ≥1 pass"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 44,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "heartbeat_at": "2026-10-17T05:25:21Z",
+   "detail": "Families covered 48/48"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 44,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
+   "heartbeat_at": "2026-10-17T05:25:21Z",
+   "detail": "Families covered 48/48"
   },
   "W7": {
    "label": "Google Jobs",
@@ -135,12 +132,12 @@
   "W10": {
    "label": "SimplyHired",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 27,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:14Z",
-   "detail": "Searching · 48 title families across SimplyHired"
+   "heartbeat_at": "2026-10-17T05:25:21Z",
+   "detail": "Families covered 27/48"
   },
   "W11": {
    "label": "Glassdoor",
