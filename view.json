@@ -1,33 +1,33 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T13:16:25Z",
+ "generated_at": "2026-10-17T13:21:20Z",
  "lane_state_source": "derived",
  "run": {
   "id": "b45266da",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T12:46:58Z",
-  "last_activity_at": "2026-10-17T13:02:01Z",
+  "last_activity_at": "2026-10-17T13:18:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 45,
    "total_units": 1008,
-   "pct": 0
+   "pct": 4
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 1,
-  "evaluated": 10
+  "rejected": 4,
+  "evaluated": 13
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 172,
+  "evaluated": 175,
   "filed": 0,
   "parked": 4,
-  "rejected": 168,
+  "rejected": 171,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -47,7 +47,6 @@
   "W14",
   "W16",
   "W17",
-  "W18",
   "W19",
   "W20",
   "LinkedIn"
@@ -226,12 +225,12 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "pass-complete-carried",
+   "families_searched": 45,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T12:48:52Z",
-   "detail": "Searching · 48 title families across GE Aerospace, RTX, Lockheed Martin, and 42 more"
+   "heartbeat_at": "2026-10-17T13:18:39Z",
+   "detail": ""
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -322,58 +321,194 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 45,
   "families": {
-   "Azure Architect": "searching",
-   "Azure Solutions Architect": "searching",
-   "Azure Cloud Architect": "searching",
-   "Cloud Architect": "searching",
-   "Cloud Solutions Architect": "searching",
-   "Enterprise Architect": "searching",
-   "Infrastructure Architect": "searching",
-   "Platform Architect": "searching",
-   "Solutions Architect": "searching",
-   "Solution Architect": "searching",
-   "Domain Architect": "searching",
-   "Resiliency Architect": "searching",
-   "IT/OT Architect": "searching",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
-   "IT Architecture Lead": "searching",
-   "Application Architect": "searching",
-   "Integration Architect": "searching",
-   "Data Center Architect": "searching",
-   "Digital Transformation Architect": "searching",
-   "Systems Architect": "searching",
-   "Identity Architect": "searching",
-   "Technology Architect": "searching",
-   "Network Security Architect": "searching",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
+   "Domain Architect": "done",
+   "Resiliency Architect": "done",
+   "IT/OT Architect": "done",
+   "Cloud Transformation Architect": "done",
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
+   "Integration Architect": "done",
+   "Data Center Architect": "done",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
+   "Network Security Architect": "done",
+   "Chief Architect": "done",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "done",
+   "Infrastructure Strategy Lead": "done",
+   "Cloud Practice Lead": "done",
+   "Cloud Center of Excellence Lead": "done",
+   "Cloud Enablement Lead": "done",
+   "Cloud Adoption Lead": "done",
+   "Infrastructure Modernization Lead": "done",
+   "Technology Modernization Lead": "done",
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
    "Technology Transformation Consultant": "searching",
    "Staff Cloud Engineer": "searching",
    "Staff Infrastructure Engineer": "searching"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W18"
+   ],
+   "Azure Solutions Architect": [
+    "W18"
+   ],
+   "Azure Cloud Architect": [
+    "W18"
+   ],
+   "Cloud Architect": [
+    "W18"
+   ],
+   "Cloud Solutions Architect": [
+    "W18"
+   ],
+   "Enterprise Architect": [
+    "W18"
+   ],
+   "Infrastructure Architect": [
+    "W18"
+   ],
+   "Platform Architect": [
+    "W18"
+   ],
+   "Solutions Architect": [
+    "W18"
+   ],
+   "Solution Architect": [
+    "W18"
+   ],
+   "Domain Architect": [
+    "W18"
+   ],
+   "Resiliency Architect": [
+    "W18"
+   ],
+   "IT/OT Architect": [
+    "W18"
+   ],
+   "Cloud Transformation Architect": [
+    "W18"
+   ],
+   "Principal Cloud Engineer": [
+    "W18"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W18"
+   ],
+   "Cloud Architecture Lead": [
+    "W18"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W18"
+   ],
+   "Principal Technical Architect": [
+    "W18"
+   ],
+   "Technology Strategy Architect": [
+    "W18"
+   ],
+   "IT Architecture Lead": [
+    "W18"
+   ],
+   "Application Architect": [
+    "W18"
+   ],
+   "Integration Architect": [
+    "W18"
+   ],
+   "Data Center Architect": [
+    "W18"
+   ],
+   "Digital Transformation Architect": [
+    "W18"
+   ],
+   "Systems Architect": [
+    "W18"
+   ],
+   "Identity Architect": [
+    "W18"
+   ],
+   "Technology Architect": [
+    "W18"
+   ],
+   "Network Security Architect": [
+    "W18"
+   ],
+   "Chief Architect": [
+    "W18"
+   ],
+   "Cloud Engineering Lead": [
+    "W18"
+   ],
+   "Platform Engineering Lead": [
+    "W18"
+   ],
+   "Cloud Transformation Lead": [
+    "W18"
+   ],
+   "Technology Strategy Lead": [
+    "W18"
+   ],
+   "Enterprise Technology Lead": [
+    "W18"
+   ],
+   "Infrastructure Strategy Lead": [
+    "W18"
+   ],
+   "Cloud Practice Lead": [
+    "W18"
+   ],
+   "Cloud Center of Excellence Lead": [
+    "W18"
+   ],
+   "Cloud Enablement Lead": [
+    "W18"
+   ],
+   "Cloud Adoption Lead": [
+    "W18"
+   ],
+   "Infrastructure Modernization Lead": [
+    "W18"
+   ],
+   "Technology Modernization Lead": [
+    "W18"
+   ],
+   "Cloud Delivery Lead": [
+    "W18"
+   ],
+   "Enterprise Technology Consultant": [
+    "W18"
+   ],
+   "Cloud Advisory Consultant": [
+    "W18"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
