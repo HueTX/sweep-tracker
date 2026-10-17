@@ -1,33 +1,33 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T09:26:50Z",
+ "generated_at": "2026-10-17T09:31:10Z",
  "lane_state_source": "derived",
  "run": {
   "id": "74cf704e",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T08:47:11Z",
-  "last_activity_at": "2026-10-17T09:26:37Z",
+  "last_activity_at": "2026-10-17T09:30:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 48,
+   "covered_units": 96,
    "total_units": 1008,
-   "pct": 5
+   "pct": 10
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 18,
-  "evaluated": 20
+  "rejected": 51,
+  "evaluated": 57
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 88,
+  "evaluated": 103,
   "filed": 0,
   "parked": 4,
-  "rejected": 84,
+  "rejected": 99,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -43,7 +43,6 @@
   "W11",
   "W12",
   "W17",
-  "W18",
   "W19",
   "W20",
   "LinkedIn"
@@ -222,12 +221,15 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 47,
    "families_total": 48,
-   "current": null,
-   "heartbeat_at": "2026-10-17T08:49:55Z",
-   "detail": "Searching · 48 title families across GE Aerospace, RTX, Lockheed Martin, and 42 more"
+   "current": {
+    "company": "Northrop Grumman",
+    "title": "Enterprise Business Architecture Lead"
+   },
+   "heartbeat_at": "2026-10-17T09:30:48Z",
+   "detail": "Families covered 48/48"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -252,11 +254,14 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "filing",
+   "families_searched": 24,
    "families_total": 48,
-   "current": null,
-   "heartbeat_at": "2026-10-17T08:49:54Z",
+   "current": {
+    "company": "Omnissa",
+    "title": "Sr Architect, Professional Services"
+   },
+   "heartbeat_at": "2026-10-17T09:28:00Z",
    "detail": "Families covered 0/48; families 1–24 in progress (tab 1a), families 25–48 in progress (tab 1b)"
   }
  },
@@ -371,148 +376,196 @@
   },
   "family_lanes": {
    "Azure Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Azure Solutions Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Azure Cloud Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Solutions Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Enterprise Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Infrastructure Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Platform Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Solutions Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Solution Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Domain Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Resiliency Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "IT/OT Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Transformation Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Principal Cloud Engineer": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Principal Infrastructure Engineer": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Architecture Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Infrastructure Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Principal Technical Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Technology Strategy Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "IT Architecture Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Application Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Integration Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Data Center Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Digital Transformation Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Systems Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Identity Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Technology Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Network Security Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Chief Architect": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Engineering Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Platform Engineering Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Transformation Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Technology Strategy Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Enterprise Technology Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Infrastructure Strategy Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Practice Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Center of Excellence Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Enablement Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Adoption Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Infrastructure Modernization Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Technology Modernization Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Delivery Lead": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Enterprise Technology Consultant": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Cloud Advisory Consultant": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Technology Transformation Consultant": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Staff Cloud Engineer": [
-    "W16"
+    "W16",
+    "W18"
    ],
    "Staff Infrastructure Engineer": [
-    "W16"
+    "W16",
+    "W18"
    ]
   }
  },
