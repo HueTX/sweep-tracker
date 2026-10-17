@@ -1,12 +1,98 @@
 {
  "schema": 2,
  "date": "2026-10-17",
- "generated_at": "2026-10-17T05:16:22Z",
+ "generated_at": "2026-10-17T05:21:19Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
+  "Google Jobs": [
+   {
+    "company": "Adobe",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — \"$178K-$289K\" top above $230,000",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "FullStack",
+    "role": "Solutions Architect (Pre-Sales & Delivery)",
+    "reason": "hands-on programming — \"Advanced proficiency in JavaScript/TypeScript\" and Python, 10+ years software engineering",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "Motorola Solutions",
+    "role": "Senior Solutions Architect",
+    "reason": "pay-outside-band — \"$95K-$105K\" top below $160,000",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "Oak Rocket",
+    "role": "AWS Cloud Solution Architect",
+    "reason": "AWS-first",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "Parsons",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band — \"$158K-$284K\" top above $230,000",
+    "where": "Google Jobs",
+    "time": ""
+   }
+  ],
   "Employer sites": [
+   {
+    "company": "Akamai",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band — \"$159,600-$287,400\" top above $230,000",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "IBM",
+    "role": "Senior Solutions Architect 133596",
+    "reason": "not-remote — location \"Singapore\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "NYC (nyc.gov)",
+    "role": "Senior IT Architect",
+    "reason": "not-remote — telework \"up to two days per week\" (hybrid)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Sanford Health",
+    "role": "Principal AD Engineering",
+    "reason": "stale posting — \"Posted 2 years ago\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Simple Solutions",
+    "role": "AWS Cloud Solutions Architect",
+    "reason": "stale posting — dated 2026-04-13 (also AWS-first)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Simple Solutions",
+    "role": "Sr SAP Solutions Architect",
+    "reason": "stale posting — dated 2026-03-03",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "TGIPOWER LLC",
+    "role": "Sr. Microsoft Cloud Architect",
+    "reason": "hands-on programming/engineering — JD sections headed \"Security Engineering (Hands-On Required)\"; \"Strong PowerShell scripting experience\" — POSTED: 2026-10-10 — workarounds tried: employer's full JD on DailyRemote is the governing copy read",
+    "where": "Employer sites",
+    "time": ""
+   },
    {
     "company": "U.S. Fish and Wildlife Service (DOI)",
     "role": "Cryogenic Data Systems Architect",
@@ -532,9 +618,21 @@
    "Matson"
   ],
   "W8": [
+   "TGIPOWER LLC",
+   "Akamai",
+   "IBM",
+   "NYC (nyc.gov)",
+   "Simple Solutions",
+   "Sanford Health",
    "U.S. Fish and Wildlife Service (DOI)"
   ],
-  "W7": [],
+  "W7": [
+   "Motorola Solutions",
+   "Parsons",
+   "Adobe",
+   "FullStack",
+   "Oak Rocket"
+  ],
   "W9": [],
   "W10": [],
   "W11": [],
@@ -543,7 +641,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-17T05:16:22Z",
+ "lists_generated_at": "2026-10-17T05:21:19Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "derived",
  "run": {
@@ -551,37 +649,35 @@
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T05:05:45Z",
-  "last_activity_at": "2026-10-17T05:13:41Z",
+  "last_activity_at": "2026-10-17T05:17:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 17,
+   "covered_units": 115,
    "total_units": 1008,
-   "pct": 2
+   "pct": 11
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 13,
+  "evaluated": 14
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 1,
+  "evaluated": 13,
   "filed": 0,
   "parked": 0,
-  "rejected": 1,
+  "rejected": 13,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
   "W6",
   "W7",
-  "W8",
   "W9",
   "W10",
   "W11"
@@ -590,12 +686,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 17,
    "families_total": 48,
    "current": null,
    "heartbeat_at": "2026-10-17T05:15:53Z",
-   "detail": "Families covered 17/48 · searching Federal Gov"
+   "detail": "Families covered 48/48"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -660,12 +756,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 9,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:13Z",
-   "detail": ""
+   "heartbeat_at": "2026-10-17T05:16:34Z",
+   "detail": "Families covered 48/48"
   },
   "W9": {
    "label": "Dice",
@@ -691,11 +787,11 @@
    "label": "Glassdoor",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 19,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T05:06:14Z",
-   "detail": "Searching · 48 title families across Glassdoor"
+   "heartbeat_at": "2026-10-17T05:17:56Z",
+   "detail": "Families covered 19/48 · searching Glassdoor"
   },
   "W12": {
    "label": "Monster",
