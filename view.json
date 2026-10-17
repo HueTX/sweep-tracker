@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T08:51:12Z",
+ "generated_at": "2026-10-17T08:56:26Z",
  "lane_state_source": "derived",
  "run": {
   "id": "74cf704e",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T08:47:11Z",
-  "last_activity_at": "2026-10-17T08:49:54Z",
+  "last_activity_at": "2026-10-17T08:54:03Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 7,
    "total_units": 1008,
-   "pct": 0
+   "pct": 1
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 2
+  "rejected": 1,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-10-17",
@@ -31,7 +31,6 @@
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
@@ -55,11 +54,11 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 7,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:54Z",
-   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
+   "heartbeat_at": "2026-10-17T08:54:03Z",
+   "detail": "Families covered 7/48 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -320,15 +319,15 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 7,
   "families": {
-   "Azure Architect": "searching",
-   "Azure Solutions Architect": "searching",
-   "Azure Cloud Architect": "searching",
-   "Cloud Architect": "searching",
-   "Cloud Solutions Architect": "searching",
-   "Enterprise Architect": "searching",
-   "Infrastructure Architect": "searching",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
    "Platform Architect": "searching",
    "Solutions Architect": "searching",
    "Solution Architect": "searching",
@@ -371,7 +370,29 @@
    "Staff Cloud Engineer": "searching",
    "Staff Infrastructure Engineer": "searching"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W1"
+   ],
+   "Azure Solutions Architect": [
+    "W1"
+   ],
+   "Azure Cloud Architect": [
+    "W1"
+   ],
+   "Cloud Architect": [
+    "W1"
+   ],
+   "Cloud Solutions Architect": [
+    "W1"
+   ],
+   "Enterprise Architect": [
+    "W1"
+   ],
+   "Infrastructure Architect": [
+    "W1"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
