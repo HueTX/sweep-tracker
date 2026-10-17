@@ -1,38 +1,37 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-17T07:16:29Z",
+ "generated_at": "2026-10-17T07:21:27Z",
  "lane_state_source": "derived",
  "run": {
   "id": "b6dc7ff5",
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T07:09:13Z",
-  "last_activity_at": "2026-10-17T07:13:18Z",
+  "last_activity_at": "2026-10-17T07:20:55Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 144,
    "total_units": 1008,
-   "pct": 0
+   "pct": 14
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 3,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 36,
+  "evaluated": 39,
   "filed": 0,
   "parked": 4,
-  "rejected": 32,
+  "rejected": 35,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W2",
   "W3",
   "W4",
   "W5",
@@ -43,9 +42,7 @@
   "W10",
   "W11",
   "W12",
-  "W13",
   "W14",
-  "W15",
   "W16",
   "W17",
   "W18",
@@ -67,12 +64,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T07:10:07Z",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+   "heartbeat_at": "2026-10-17T07:17:02Z",
+   "detail": "Families covered 48/48"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -177,12 +174,12 @@
   "W13": {
    "label": "Otta",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T07:11:38Z",
-   "detail": "Searching · 48 title families across Otta"
+   "heartbeat_at": "2026-10-17T07:20:55Z",
+   "detail": "Families covered 48/48"
   },
   "W14": {
    "label": "Indeed",
@@ -197,12 +194,12 @@
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T07:11:39Z",
-   "detail": "Searching · 48 title families across ZipRecruiter"
+   "heartbeat_at": "2026-10-17T07:18:15Z",
+   "detail": "Families covered 48/48"
   },
   "W16": {
    "label": "Financial Services",
@@ -323,58 +320,299 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 48,
   "families": {
-   "Azure Architect": "searching",
-   "Azure Solutions Architect": "searching",
-   "Azure Cloud Architect": "searching",
-   "Cloud Architect": "searching",
-   "Cloud Solutions Architect": "searching",
-   "Enterprise Architect": "searching",
-   "Infrastructure Architect": "searching",
-   "Platform Architect": "searching",
-   "Solutions Architect": "searching",
-   "Solution Architect": "searching",
-   "Domain Architect": "searching",
-   "Resiliency Architect": "searching",
-   "IT/OT Architect": "searching",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
-   "IT Architecture Lead": "searching",
-   "Application Architect": "searching",
-   "Integration Architect": "searching",
-   "Data Center Architect": "searching",
-   "Digital Transformation Architect": "searching",
-   "Systems Architect": "searching",
-   "Identity Architect": "searching",
-   "Technology Architect": "searching",
-   "Network Security Architect": "searching",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
+   "Domain Architect": "done",
+   "Resiliency Architect": "done",
+   "IT/OT Architect": "done",
+   "Cloud Transformation Architect": "done",
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
+   "Integration Architect": "done",
+   "Data Center Architect": "done",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
+   "Network Security Architect": "done",
+   "Chief Architect": "done",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "done",
+   "Infrastructure Strategy Lead": "done",
+   "Cloud Practice Lead": "done",
+   "Cloud Center of Excellence Lead": "done",
+   "Cloud Enablement Lead": "done",
+   "Cloud Adoption Lead": "done",
+   "Infrastructure Modernization Lead": "done",
+   "Technology Modernization Lead": "done",
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
+   "Technology Transformation Consultant": "done",
+   "Staff Cloud Engineer": "done",
+   "Staff Infrastructure Engineer": "done"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Azure Solutions Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Azure Cloud Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Solutions Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Enterprise Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Infrastructure Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Platform Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Solutions Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Solution Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Domain Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Resiliency Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "IT/OT Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Transformation Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Principal Cloud Engineer": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Architecture Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Principal Technical Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Technology Strategy Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "IT Architecture Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Application Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Integration Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Data Center Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Digital Transformation Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Systems Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Identity Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Technology Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Network Security Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Chief Architect": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Engineering Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Platform Engineering Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Transformation Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Technology Strategy Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Enterprise Technology Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Infrastructure Strategy Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Practice Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Center of Excellence Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Enablement Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Adoption Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Infrastructure Modernization Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Technology Modernization Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Delivery Lead": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Enterprise Technology Consultant": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Cloud Advisory Consultant": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Technology Transformation Consultant": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Staff Cloud Engineer": [
+    "W2",
+    "W13",
+    "W15"
+   ],
+   "Staff Infrastructure Engineer": [
+    "W2",
+    "W13",
+    "W15"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
