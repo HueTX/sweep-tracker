@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-17",
- "generated_at": "2026-10-17T08:56:26Z",
+ "generated_at": "2026-10-17T09:01:31Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -360,6 +360,57 @@
     "time": ""
    }
   ],
+  "Indeed": [
+   {
+    "company": "Avalara",
+    "role": "Principal Architect - Enterprise AI",
+    "reason": "pay-outside-band — \"$153,300 - $306,300\" top above $230,000",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "BJC HealthCare",
+    "role": "Enterprise Architect - Infrastructure",
+    "reason": "not-remote — \"We are looking for candidates in MO or IL\" (candidate is TX-based); pay \"$111,633.60 - $181,792.00 a year\" in band",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "Humana",
+    "role": "Lead Enterprise Architect",
+    "reason": "employer-excluded",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "Humana",
+    "role": "Principal Enterprise Architect",
+    "reason": "employer-excluded",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "Lenovo",
+    "role": "Solution Architect",
+    "reason": "stale posting (date-unverifiable on every surface checked this run — Indeed showed no date) — note: search tab's pre-sales characterization disregarded, pre-sales-bar disabled this run",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "McKesson",
+    "role": "Principal Enterprise Architect, Digital Solutions",
+    "reason": "pay-outside-band — \"$187,400 - $312,400\" top above $230,000 — POSTED: unverified (Indeed showed no date; pay gate fact governs)",
+    "where": "Indeed",
+    "time": ""
+   },
+   {
+    "company": "Target",
+    "role": "Sr Engineer - AI Platforms - Forward Deployed Engineer (FDE)",
+    "reason": "not-remote — listing gate: \"operate as a Hybrid/Flex for Your Day work arrangement\" (Remote or Hybrid, Brooklyn Park MN) — workarounds tried: n/a (listing-level gate fact)",
+    "where": "Indeed",
+    "time": ""
+   }
+  ],
   "SimplyHired": [
    {
     "company": "CDW",
@@ -382,15 +433,6 @@
     "role": "Senior Application Architect – Migration & Modernization",
     "reason": "duplicate-of-filed — raw Dice ID match: filed 2026-10-15 (run 5b57e400, EVIDENCE dice-applied-history) and filed AGAIN 2026-10-16 under retitled \"Platform Architect, AgentCore\" (run 33902065, the double-count incident); do-not-reapply.md lines for both…",
     "where": "Dice",
-    "time": ""
-   }
-  ],
-  "Indeed": [
-   {
-    "company": "Target",
-    "role": "Sr Engineer - AI Platforms - Forward Deployed Engineer (FDE)",
-    "reason": "not-remote — listing gate: \"operate as a Hybrid/Flex for Your Day work arrangement\" (Remote or Hybrid, Brooklyn Park MN) — workarounds tried: n/a (listing-level gate fact)",
-    "where": "Indeed",
     "time": ""
    }
   ]
@@ -964,14 +1006,19 @@
    "EagleView"
   ],
   "W14": [
-   "Target"
+   "Target",
+   "McKesson",
+   "Avalara",
+   "Humana",
+   "Lenovo",
+   "BJC HealthCare"
   ],
   "W11": [],
   "W12": [],
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-17T08:56:26Z",
+ "lists_generated_at": "2026-10-17T09:01:31Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "derived",
  "run": {
@@ -979,10 +1026,10 @@
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T08:47:11Z",
-  "last_activity_at": "2026-10-17T08:54:03Z",
+  "last_activity_at": "2026-10-17T09:00:07Z",
   "progress": {
    "pools": 21,
-   "covered_units": 7,
+   "covered_units": 8,
    "total_units": 1008,
    "pct": 1
   }
@@ -990,15 +1037,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 1,
-  "evaluated": 3
+  "rejected": 7,
+  "evaluated": 9
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 53,
+  "evaluated": 59,
   "filed": 0,
   "parked": 4,
-  "rejected": 49,
+  "rejected": 55,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -1144,32 +1191,32 @@
   "W13": {
    "label": "Otta",
    "sites": 1,
-   "phase": "searching",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:54Z",
-   "detail": "Searching · 48 title families across Otta"
+   "heartbeat_at": "2026-10-17T09:00:07Z",
+   "detail": ""
   },
   "W14": {
    "label": "Indeed",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "pass-complete-carried",
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:54Z",
-   "detail": "Searching · 48 title families across Indeed"
+   "heartbeat_at": "2026-10-17T09:00:07Z",
+   "detail": ""
   },
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "searching",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T08:49:55Z",
-   "detail": "Searching · 48 title families across ZipRecruiter"
+   "heartbeat_at": "2026-10-17T09:00:07Z",
+   "detail": ""
   },
   "W16": {
    "label": "Financial Services",
@@ -1343,7 +1390,8 @@
   },
   "family_lanes": {
    "Azure Architect": [
-    "W1"
+    "W1",
+    "W14"
    ],
    "Azure Solutions Architect": [
     "W1"
