@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-17",
- "generated_at": "2026-10-17T13:01:46Z",
+ "generated_at": "2026-10-17T13:06:24Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1878,7 +1878,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-17T13:01:46Z",
+ "lists_generated_at": "2026-10-17T13:06:24Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "derived",
  "run": {
@@ -1886,10 +1886,10 @@
   "kind": "scheduled",
   "status": "running",
   "started_at": "2026-10-17T12:46:58Z",
-  "last_activity_at": "2026-10-17T13:01:02Z",
+  "last_activity_at": "2026-10-17T13:02:01Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 1,
    "total_units": 1008,
    "pct": 0
   }
@@ -1923,7 +1923,6 @@
   "W12",
   "W13",
   "W14",
-  "W15",
   "W16",
   "W17",
   "W18",
@@ -2075,12 +2074,12 @@
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "stopped",
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
-   "heartbeat_at": "2026-10-17T12:48:52Z",
-   "detail": "Searching · 48 title families across ZipRecruiter"
+   "heartbeat_at": "2026-10-17T13:02:01Z",
+   "detail": ""
   },
   "W16": {
    "label": "Financial Services",
@@ -2204,9 +2203,9 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 1,
   "families": {
-   "Azure Architect": "searching",
+   "Azure Architect": "done",
    "Azure Solutions Architect": "searching",
    "Azure Cloud Architect": "searching",
    "Cloud Architect": "searching",
@@ -2255,7 +2254,11 @@
    "Staff Cloud Engineer": "searching",
    "Staff Infrastructure Engineer": "searching"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W15"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
