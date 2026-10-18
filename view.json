@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T11:36:26Z",
+ "generated_at": "2026-10-18T11:41:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T11:33:35Z",
+  "last_activity_at": "2026-10-18T11:38:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -273,7 +273,7 @@
     "name": "Infrastructure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T11:33:35Z",
+   "heartbeat_at": "2026-10-18T11:38:54Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -316,7 +316,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 06:33 CT",
+   "detail": "Watching — last activity 06:38 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -556,6 +556,11 @@
     "created_at": "2026-10-18T05:19:25.058042-05:00"
    },
    {
+    "id": "fire-5d8a7265464d4e01",
+    "reason": "stage-relay continuation: run a5c28844 stage 2 — check de744a24 return (90-min window ends ~06:44 CDT); if returned merge chunk, else declare dead only past window or on evidenced failure; then families 9-24 remain, family 7 count-recapture owed, Section C Dice-mirror retries carried",
+    "created_at": "2026-10-18T06:38:54.863012-05:00"
+   },
+   {
     "id": "fire-6bb008fc5b16443a",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — LINKEDIN FAMILIES 1-24 (in-flight chunk de744a24 families 7count+9-10 dispatched 05:14 CDT, young at 06:13 checkpoint; check its return, declare dead only past 90-min window ~06:44 CDT or on evidenced failure; then families 9-24 remain, family 7 count-recapture owed, Section C Dice-mirror retries carried)",
     "created_at": "2026-10-18T06:13:31.739840-05:00"
@@ -622,7 +627,7 @@
    }
   ]
  },
- "note": "Last activity 06:33 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 06:38 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
