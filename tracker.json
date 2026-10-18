@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T20:51:41Z",
+ "generated_at": "2026-10-18T20:56:23Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -343,6 +343,20 @@
     "company": "Kaiser Permanente",
     "role": "VP, Chief Architect, HR Technology",
     "reason": "not-remote — Oakland/Atlanta hybrid (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Lawrence Berkeley National Laboratory",
+    "role": "Junior Design Review/Construction Safety Professional",
+    "reason": "not-remote — location \"Bay Area, California, United States\" (listing location gate)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Lawrence Livermore National Laboratory",
+    "role": "Polymer Enclave Data Architecture and Integration Lead",
+    "reason": "active-clearance — title states \"Active Security Clearance Required\" — POSTED: 2026-09-30",
     "where": "Employer sites",
     "time": ""
    },
@@ -1435,7 +1449,9 @@
    "Oak Ridge National Laboratory (ORNL)",
    "City of New York (Dept of Design & Construction)",
    "City of New York (HRA/Dept of Social Services)",
-   "Harris County"
+   "Harris County",
+   "Lawrence Berkeley National Laboratory",
+   "Lawrence Livermore National Laboratory"
   ],
   "W7": [
    "HCA Healthcare",
@@ -1459,7 +1475,7 @@
   "W13": [],
   "W14": []
  },
- "lists_generated_at": "2026-10-18T20:51:40Z",
+ "lists_generated_at": "2026-10-18T20:56:23Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1474,7 +1490,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T20:34:11Z",
+  "last_activity_at": "2026-10-18T20:52:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -1490,14 +1506,13 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 121,
+  "evaluated": 123,
   "filed": 0,
   "parked": 3,
-  "rejected": 118,
+  "rejected": 120,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W3",
   "W5"
  ],
@@ -1509,13 +1524,9 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
+   "detail": "Employers covered 0/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -1773,7 +1784,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished",
+   "detail": "0 of 20 sector lanes finished · 1 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -1969,13 +1980,8 @@
    }
   ]
  },
- "note": "Last activity 15:34 CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 15:52 CT · 2 workers in flight · 0 filed this run",
  "pill": [
-  {
-   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more",
-   "pool": "W1"
-  },
   {
    "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more",
@@ -1989,9 +1995,9 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "Federal Gov",
-  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
  },
  "rules": {
   "follow_all": false,
