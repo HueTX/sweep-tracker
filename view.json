@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T21:01:22Z",
+ "generated_at": "2026-10-18T21:06:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T20:58:01Z",
+  "last_activity_at": "2026-10-18T21:06:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 3,
+   "covered_units": 7,
    "total_units": 1008,
-   "pct": 0
+   "pct": 1
   }
  },
  "counts": {
@@ -31,14 +31,16 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 128,
+  "evaluated": 131,
   "filed": 0,
   "parked": 3,
-  "rejected": 125,
+  "rejected": 128,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5"
+  "W1",
+  "W2",
+  "W6"
  ],
  "lanes": {
   "W1": {
@@ -48,7 +50,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 0/30 · searching Federal Gov"
   },
@@ -59,7 +65,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
@@ -89,16 +99,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "detail": "Employers covered 4/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -107,7 +113,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   },
@@ -304,7 +314,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 2 with results in",
+   "detail": "0 of 20 sector lanes finished · 3 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -335,12 +345,12 @@
  },
  "titles": {
   "total": 48,
-  "searched": 3,
+  "searched": 4,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "done",
-   "Cloud Architect": "searching",
+   "Cloud Architect": "done",
    "Cloud Solutions Architect": "searching",
    "Enterprise Architect": "searching",
    "Infrastructure Architect": "searching",
@@ -388,13 +398,19 @@
   },
   "family_lanes": {
    "Azure Architect": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Azure Solutions Architect": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Azure Cloud Architect": [
-    "W3"
+    "W3",
+    "W5"
+   ],
+   "Cloud Architect": [
+    "W5"
    ]
   }
  },
@@ -510,19 +526,29 @@
    }
   ]
  },
- "note": "Last activity 15:58 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 16:06 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more",
-   "pool": "W5"
+   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Employers covered 0/30 · searching Federal Gov",
+   "pool": "W1"
+  },
+  {
+   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
+   "pool": "W2"
+  },
+  {
+   "primary": "Utilities · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more",
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "Oil & Gas",
-  "headline": "Oil & Gas · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Employers covered 0/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
