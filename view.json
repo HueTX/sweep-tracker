@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T22:26:27Z",
+ "generated_at": "2026-10-18T22:31:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T22:00:07Z",
+  "last_activity_at": "2026-10-18T22:28:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 25,
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 143,
+  "evaluated": 155,
   "filed": 0,
-  "parked": 3,
-  "rejected": 140,
+  "parked": 4,
+  "rejected": 151,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -297,14 +297,14 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "1 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -532,13 +532,18 @@
     "created_at": "2026-10-18T15:29:55.927802-05:00"
    },
    {
+    "id": "fire-ab1c41705feb",
+    "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED LAST EXECUTION: CBIZ parked-retry DONE (route found SimplyHired->Oracle 5854 easy-apply, $180-220k in band; filer PARKED on hCaptcha loop at 3-attempt cap, nothing submitted — CBIZ stays live in Section A and its bot-wall park qualifies for next run's parked-retry pass); W3 providers slice 2 (BSW/Memorial Hermann/Geisinger/Sanford/CHRISTUS: 0 PASS, 9 rejected, Sanford covered 3/3, other four b/c passes viewer-limited index-cross-checked = soft re-verify remainder); W1 FWS Cryogenic JD read REJECTED unpaid part-time internship, Argonne Windows Endpoint Architect REJECTED not-remote Lemont IL, LANL/Argonne ATS filtered views + Google Jobs BLOCKED (not coverage). REMAINDER: W1 labs (a)/(b) blocked-pass retries (LANL, Argonne, LBL, LLNL); W2 NC/AZ/CO/WA direct state portals + remaining state/local portals; W3 providers Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool + Section C items (Banner Tech Solution Architect II JD, MGB BFT Web App Architect, Houston Methodist Cyber Security EA); W5 remaining named employers (SLB/Halliburton/Baker Hughes/Enbridge/TC Energy/ONEOK/Energy Transfer/Enterprise/Cheniere/NOV et al.); W6 Southern, Exelon, PG&E, NRG, Vistra, Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, Atmos et al. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
+    "created_at": "2026-10-18T17:28:25.863891-05:00"
+   },
+   {
     "id": "fire-f5df63ec152f48d2",
     "reason": "stage 2 continuation (run 8cf56a35, execution 2026-10-18 15:32 CDT slot): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION (9 chunks, all disk-evidenced): W1 labs (LBL not-remote, LLNL clearance; LANL/Argonne/LLNL ATS views withheld + Google Jobs BLOCKED x4 = blocked passes, NOT coverage), W3 Section C 5/5 NOT LOCATABLE -> closed (Mayo/Siemens/AdventHealth Sr Solutions/Sutter x2), W5 Section C (Kinder + Phillips Data not-remote — Phillips range $220,500-$269,500 also over band; Phillips OT + Marathon closed; Valero COVERED 3/3 zero), W1 agencies (VA/CMS/NASA/DOT-FAA covered zero on USAJOBS remote; Leidos 3 JD rejects pay-band $131,300-$237,350 + 6 listing not-remote), W6 slice (BHE/PSEG/ConEd/Avangrid COVERED 3/3, 13 rejects; Eversource IT Mgr AI closed), W2 portals (Maricopa/King covered, King x2 not-remote; NYC Comptroller Sr IT Architect closed; FL/GA mirrors zero), VA/IL/PA mirrors zero + Eversource/Dominion Dice pass (c) done zero, W5 slice 2 (Williams/EOG/Occidental/Devon COVERED 3/3, 5 not-remote), W3 providers 1 (Banner/Advocate/Northwell/MGB/Houston Methodist COVERED 3/3; Banner Sr Data Platform Architect worker-PASS overridden DUPLICATE-OF-FILED — filed 2026-10-10 via Dice app 3738c39e; Banner Principal pay-band reject; Advocate Epic-Cogito experience-mismatch; MGB x3 + Houston Methodist x3 not-remote). Execution totals: filed 0 / new dispositions ~55 (rejected incl. closed + duplicate) / Section A unchanged 9 standing blocks / Section C now 7 (4 Dice LinkedIn-era + Banner Tech Solution Architect II + MGB BFT Web App Architect + Houston Methodist Cyber Security EA). REMAINDER — CBIZ parked-retry STILL OWED FIRST (not dispatched this execution); W1: labs (a)/(b) blocked-pass retries, FWS Cryogenic Data Systems Architect JD read (USAJOBS remote, open 2026-10-16); W2: NC/AZ/CO/WA direct state portals + remaining state/local portals; W3: providers Baylor Scott & White, Memorial Hermann, Geisinger, Sanford, CHRISTUS, Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool + Section C items; W5: remaining named employers not evidenced in a5c28844 or 8cf56a35 chunks (SLB/Halliburton/Baker Hughes/Enbridge/TC Energy/ONEOK/Energy Transfer/Enterprise/Cheniere/NOV et al.); W6: Southern, Exelon, PG&E, NRG, Vistra, Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, Atmos et al. Capped tasks, batches of 3, compact returns, no questions; any PASS filed in the same execution it merges after ledger + do-not-reapply + Applied-state checks.",
     "created_at": "2026-10-18T16:49:49.503248-05:00"
    }
   ]
  },
- "note": "Last activity 17:00 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 17:28 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
