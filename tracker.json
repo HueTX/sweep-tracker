@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T21:31:18Z",
+ "generated_at": "2026-10-18T21:36:26Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -175,6 +175,13 @@
     "company": "City of New York (Office of the Comptroller)",
     "role": "Lead Enterprise Architect, Data Solutions",
     "reason": "stale posting — POSTED: 2026-08-19 on nyc.gov, outside the 7-day window (telework footnote also requires NYC metropolitan area residence) (chunk-a5c28844-W1f-W2f)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "City of New York (Office of the Comptroller)",
+    "role": "Senior IT Architect",
+    "reason": "closed — NOT LOCATABLE on cityjobs.nyc.gov (9 Comptroller jobs open, none architect-titled), verified 2026-10-18",
     "where": "Employer sites",
     "time": ""
    },
@@ -865,6 +872,13 @@
     "company": "ComPsych",
     "role": "Information Security Architect",
     "reason": "not-remote — \"Chicago, IL ... Onsite (5 days/week in downtown Chicago Office)\" (chunk-a5c28844-W2g-partial)",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "Eversource",
+    "role": "IT Manager - AI Technology",
+    "reason": "closed — NOT LOCATABLE on Eversource ATS + Indeed + Google Jobs + DuckDuckGo, verified 2026-10-18",
     "where": "Google Jobs",
     "time": ""
    },
@@ -1566,7 +1580,8 @@
    "Intermountain Health",
    "Sutter Health",
    "Mayo Clinic",
-   "AdventHealth"
+   "AdventHealth",
+   "Eversource"
   ],
   "W10": [
    "Sutter Health",
@@ -1583,7 +1598,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-18T21:31:18Z",
+ "lists_generated_at": "2026-10-18T21:36:26Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1598,12 +1613,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T21:28:08Z",
+  "last_activity_at": "2026-10-18T21:34:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 13,
+   "covered_units": 16,
    "total_units": 1008,
-   "pct": 1
+   "pct": 2
   }
  },
  "counts": {
@@ -1614,15 +1629,15 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 137,
+  "evaluated": 139,
   "filed": 0,
   "parked": 3,
-  "rejected": 134,
+  "rejected": 136,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W6"
+  "W3",
+  "W5"
  ],
  "lanes": {
   "W1": {
@@ -1643,13 +1658,9 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+   "detail": "Employers covered 0/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -1658,7 +1669,11 @@
    "families_searched": 3,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 4,
+    "name": "Cloud Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 4/73 · searching Healthcare Providers"
   },
@@ -1680,7 +1695,11 @@
    "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 4/44 · searching Oil & Gas"
   },
@@ -1688,16 +1707,12 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 3,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
+   "detail": "Employers covered 3/44 · searching Utilities"
   },
   "W7": {
    "label": "Google Jobs",
@@ -1892,7 +1907,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 3 with results in",
+   "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -1978,17 +1993,20 @@
    "Azure Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Azure Solutions Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Azure Cloud Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Cloud Architect": [
     "W1",
@@ -2114,24 +2132,24 @@
    }
   ]
  },
- "note": "Last activity 16:28 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 16:34 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
-   "pool": "W2"
+   "primary": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
+   "detail": "Employers covered 4/73 · searching Healthcare Providers",
+   "pool": "W3"
   },
   {
-   "primary": "Utilities · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more",
-   "pool": "W6"
+   "primary": "Oil & Gas · Title 5 of 48 · Cloud Solutions Architect",
+   "detail": "Employers covered 4/44 · searching Oil & Gas",
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "State & Local Gov",
-  "headline": "State & Local Gov · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
+  "detail": "Employers covered 4/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
