@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T14:11:19Z",
+ "generated_at": "2026-10-18T14:16:45Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -737,7 +737,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T14:11:19Z",
+ "lists_generated_at": "2026-10-18T14:16:45Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -746,13 +746,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T14:09:30Z",
+  "last_activity_at": "2026-10-18T14:15:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -774,9 +774,7 @@
   "rejected": 29,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1005,11 +1003,7 @@
    "families_searched": 7,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 7,
-    "name": "Infrastructure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T13:46:26Z",
    "detail": "Families covered 7/48"
   }
@@ -1053,7 +1047,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 09:09 CT",
+   "detail": "Watching — last activity 09:15 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1080,48 +1074,48 @@
    "Cloud Architect": "done",
    "Cloud Solutions Architect": "done",
    "Enterprise Architect": "done",
-   "Infrastructure Architect": "searching",
+   "Infrastructure Architect": "pending",
    "Platform Architect": "done",
-   "Solutions Architect": "searching",
-   "Solution Architect": "searching",
-   "Domain Architect": "searching",
-   "Resiliency Architect": "searching",
-   "IT/OT Architect": "searching",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
-   "IT Architecture Lead": "searching",
-   "Application Architect": "searching",
-   "Integration Architect": "searching",
-   "Data Center Architect": "searching",
-   "Digital Transformation Architect": "searching",
-   "Systems Architect": "searching",
-   "Identity Architect": "searching",
-   "Technology Architect": "searching",
-   "Network Security Architect": "searching",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Solutions Architect": "pending",
+   "Solution Architect": "pending",
+   "Domain Architect": "pending",
+   "Resiliency Architect": "pending",
+   "IT/OT Architect": "pending",
+   "Cloud Transformation Architect": "pending",
+   "Principal Cloud Engineer": "pending",
+   "Principal Infrastructure Engineer": "pending",
+   "Cloud Architecture Lead": "pending",
+   "Cloud Infrastructure Lead": "pending",
+   "Principal Technical Architect": "pending",
+   "Technology Strategy Architect": "pending",
+   "IT Architecture Lead": "pending",
+   "Application Architect": "pending",
+   "Integration Architect": "pending",
+   "Data Center Architect": "pending",
+   "Digital Transformation Architect": "pending",
+   "Systems Architect": "pending",
+   "Identity Architect": "pending",
+   "Technology Architect": "pending",
+   "Network Security Architect": "pending",
+   "Chief Architect": "pending",
+   "Cloud Engineering Lead": "pending",
+   "Platform Engineering Lead": "pending",
+   "Cloud Transformation Lead": "pending",
+   "Technology Strategy Lead": "pending",
+   "Enterprise Technology Lead": "pending",
+   "Infrastructure Strategy Lead": "pending",
+   "Cloud Practice Lead": "pending",
+   "Cloud Center of Excellence Lead": "pending",
+   "Cloud Enablement Lead": "pending",
+   "Cloud Adoption Lead": "pending",
+   "Infrastructure Modernization Lead": "pending",
+   "Technology Modernization Lead": "pending",
+   "Cloud Delivery Lead": "pending",
+   "Enterprise Technology Consultant": "pending",
+   "Cloud Advisory Consultant": "pending",
+   "Technology Transformation Consultant": "pending",
+   "Staff Cloud Engineer": "pending",
+   "Staff Infrastructure Engineer": "pending"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -1428,6 +1422,11 @@
     "created_at": "2026-10-18T07:32:55.226845-05:00"
    },
    {
+    "id": "fire-add83b6e21b3",
+    "reason": "stage-relay continuation: run a5c28844 stage 3 (SECTOR W1,W2,W3,W5,W6 — Federal Gov · State & Local Gov · Healthcare Providers · Oil & Gas · Utilities) — stage 2 (LINKEDIN FAMILIES 1-24) exited BLOCKED under the supervisor NO-PROGRESS verdict (5 dead tabs, no real progress in 244m); perform stage 3 per the manifest stage plan. The blocked families are carried uncovered and re-derive later in the plan; do not re-dispatch the blocked lane in this stage.",
+    "created_at": "2026-10-18T09:13:31.092268-05:00"
+   },
+   {
     "id": "fire-af0a39bd1d7b",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — re-check 10c71f9e (families 9-10 + family 7 count-recapture + Section C Dice retries, dispatched 07:14 CDT, 90-min window ends ~08:44 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only past window with evidenced failure check, then re-dispatch remaining families 9-10/11-24",
     "created_at": "2026-10-18T07:53:27.509605-05:00"
@@ -1494,11 +1493,11 @@
    }
   ]
  },
- "note": "Last activity 09:09 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 09:15 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
-   "detail": "Families covered 7/48"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 20 waiting to start"
   }
  ]
 }
