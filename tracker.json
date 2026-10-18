@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-17",
- "generated_at": "2026-10-18T02:16:11Z",
+ "generated_at": "2026-10-18T02:17:37Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -9,7 +9,89 @@
     "role": "Sr Architect, Professional Services",
     "where": "Employer sites",
     "time": "",
-    "check": null
+    "check": {
+     "attempts": [
+      {
+       "at": "2026-10-17T13:20:00Z",
+       "result": "blocked — Workday planned maintenance (stated window to 10:00 AM CDT)"
+      },
+      {
+       "at": "2026-10-17T15:20:00Z",
+       "result": "blocked — Workday maintenance still in effect past the stated 10:00 AM CDT end"
+      },
+      {
+       "at": "2026-10-17T21:44:00Z",
+       "result": "blocked — Workday SECOND maintenance window Oct 17 2:00 PM PT – Oct 18 2:00 AM PT (run 50ba4932 filer efaacf44)"
+      },
+      {
+       "at": "2026-10-18T02:05:00Z",
+       "result": "VERIFIED FILED — direct verification task a3bb7d36: Workday Candidate Home shows the submitted application (Req R-102357, 'In Process', Date Submitted October 17, 2026); the in-session submission from earlier today had landed; NOT resubmitted."
+      }
+     ],
+     "company": "Omnissa",
+     "filed_at": "2026-10-17 (America/Chicago) — Workday records Date Submitted 'October 17, 2026'",
+     "posting_id": "4479383538",
+     "role": "Sr Architect, Professional Services",
+     "rules": [
+      {
+       "evidence": "JD read and PASS adjudicated in the 2026-10-17 run queues (Section A PASS carried across runs 57e716ca / 50ba4932 / e60cf180): Sr Architect, Professional Services, Req R-102357, published $160,000-$200,000, POSTED: 2026-10-16.",
+       "rule": "full JD read",
+       "status": "pass"
+      },
+      {
+       "evidence": "Professional-services cloud architecture aligns with his CenterPoint Energy 'Enterprise Architect-IT/OT and Cloud Transformation' delivery experience; PASS verdict stood through three independent run adjudications today.",
+       "rule": "experience alignment",
+       "status": "pass"
+      },
+      {
+       "evidence": "Workday Candidate Home shows exactly ONE active application for Req R-102357; the verification task found the submitted application already in place and did NOT resubmit — no duplicate created.",
+       "rule": "duplicate check (ledger + do-not-reapply + Applied state)",
+       "status": "pass"
+      },
+      {
+       "evidence": "Omnissa — none of the exclusions apply.",
+       "rule": "employer not excluded / not Cognizant / not DevSecOps-titled",
+       "status": "pass"
+      },
+      {
+       "evidence": "Carried as a remote-US PASS through today's queues; no office/hybrid requirement surfaced in any adjudication.",
+       "rule": "100% remote US",
+       "status": "pass"
+      },
+      {
+       "evidence": "Published range $160,000-$200,000 — top $200,000 inside the band.",
+       "rule": "pay band (published top $160,000-$230,000)",
+       "status": "pass"
+      },
+      {
+       "evidence": "POSTED: 2026-10-16 (LinkedIn activity date) — inside the 7-day window at filing.",
+       "rule": "posting freshness",
+       "status": "pass"
+      },
+      {
+       "evidence": "Hubert-Samuel-Resume.pdf staged at hidden_files/filings/omnissa-sr-architect-professional-services/Hubert-Samuel-Resume.pdf, tailored around this JD, truthful content only; uploaded with the original submission.",
+       "rule": "tailored resume",
+       "status": "pass"
+      },
+      {
+       "evidence": "Filed under the standing applicant-data brief (veteran exactly 'I am not a veteran'); the 2026-10-17 verification pass was read-only on Candidate Home and did not re-open the submitted form.",
+       "rule": "veteran answer",
+       "status": "pass"
+      },
+      {
+       "evidence": "Standing applicant data per brief (US citizen, no sponsorship, salary $180,000 single figure); verification pass was read-only.",
+       "rule": "screening answers",
+       "status": "pass"
+      },
+      {
+       "evidence": "EVIDENCE: ats-confirmation — Workday Candidate Home (signed in as samuel-hubert@outlook.com, 'Welcome, Hubert Samuel'), My Applications Active (1): 'Sr Architect, Professional Services', Job Req 'R-102357', My Application Status 'In Process', Date Submitted 'October 17, 2026' — verified 2026-10-17 ~21:05 CDT by direct verification task a3bb7d36.",
+       "rule": "filing proof",
+       "status": "pass"
+      }
+     ],
+     "verdict": "pass",
+     "where": "Workday (employer ATS), via LinkedIn 4479383538"
+    }
    }
   ]
  },
@@ -2037,7 +2119,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T02:16:11Z",
+ "lists_generated_at": "2026-10-18T02:17:37Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
