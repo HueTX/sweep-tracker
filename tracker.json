@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T14:51:35Z",
+ "generated_at": "2026-10-18T14:56:47Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -213,6 +213,13 @@
   ],
   "Employer sites": [
    {
+    "company": "Ascension",
+    "role": "Senior Solutions Architect, Applications (Healthcare)",
+    "reason": "experience-mismatch — JD traces to a contact-center/CCaaS posting scope, not cloud/infrastructure architecture delivery (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "CenterPoint Energy",
     "role": "ServiceNow Platform Architect",
     "reason": "not-remote — listing location \"Hybrid\" Houston, TX with specific days in office (POSTED: 2026-10-17) — gate fact at listing level, chunk-a5c28844-W6",
@@ -234,9 +241,44 @@
     "time": ""
    },
    {
+    "company": "Kaiser Permanente",
+    "role": "Architecture Practice Leader, Claims Platform",
+    "reason": "not-remote — Walnut Creek, CA hybrid (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "VP, Chief Architect, HR Technology",
+    "reason": "not-remote — Oakland/Atlanta hybrid (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Providence",
+    "role": "Principal IS Applications Analyst (Epic)",
+    "reason": "experience-mismatch — Epic application-support scope, not architecture delivery (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Providence",
+    "role": "Senior Service Engineer, Edge & Hybrid Cloud",
+    "reason": "not-remote — Issaquah, WA, 5 days/week in office (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "SM Energy",
     "role": "Principal IT Architect, Data & Integration",
     "reason": "experience-mismatch — \"data/integration architecture leadership role\" core outside cloud/infrastructure architecture delivery (chunk-a5c28844-W5)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Trinity Health",
+    "role": "Sr Cloud Engineer, Data Platforms",
+    "reason": "hands-on programming — JD requires Python, Terraform, DBT as working duties (chunk-a5c28844-W3)",
     "where": "Employer sites",
     "time": ""
    },
@@ -245,6 +287,36 @@
     "role": "IT Infrastructure Architect",
     "reason": "not-remote — listing location \"Kuwait\" (chunk-a5c28844-W5)",
     "where": "Employer sites",
+    "time": ""
+   }
+  ],
+  "Google Jobs": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "System Director, Cloud Architecture & Engineering",
+    "reason": "not-remote — listing location Phoenix, AZ (chunk-a5c28844-W3)",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Cyber Security Architect",
+    "reason": "stale posting — posted 2026-10-06, outside 7-day window (chunk-a5c28844-W3)",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Principal Cloud Security Architect",
+    "reason": "not-remote — listing location Hybrid, Nashville, TN (chunk-a5c28844-W3)",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Director, Domain Architecture (Claims)",
+    "reason": "not-remote — Pleasanton, CA onsite/hybrid (chunk-a5c28844-W3)",
+    "where": "Google Jobs",
     "time": ""
    }
   ]
@@ -769,9 +841,17 @@
    "Halliburton",
    "Halliburton Landmark",
    "Weatherford",
-   "SM Energy"
+   "SM Energy",
+   "Ascension",
+   "Trinity Health",
+   "Providence",
+   "Kaiser Permanente"
   ],
-  "W7": [],
+  "W7": [
+   "HCA Healthcare",
+   "CommonSpirit Health",
+   "Kaiser Permanente"
+  ],
   "W9": [],
   "W10": [],
   "W11": [],
@@ -780,7 +860,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T14:51:35Z",
+ "lists_generated_at": "2026-10-18T14:56:47Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -795,7 +875,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T14:50:37Z",
+  "last_activity_at": "2026-10-18T14:53:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -806,15 +886,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 34,
-  "evaluated": 42
+  "rejected": 44,
+  "evaluated": 52
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 34,
+  "evaluated": 44,
   "filed": 0,
   "parked": 0,
-  "rejected": 34,
+  "rejected": 44,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -867,7 +947,7 @@
     "name": "Azure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "heartbeat_at": "2026-10-18T14:53:08Z",
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
@@ -1116,7 +1196,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 09:50 CT",
+   "detail": "Watching — last activity 09:53 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1562,7 +1642,7 @@
    }
   ]
  },
- "note": "Last activity 09:50 CT · 7 workers in flight · 0 filed this run",
+ "note": "Last activity 09:53 CT · 7 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
