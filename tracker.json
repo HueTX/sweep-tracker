@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T20:21:42Z",
+ "generated_at": "2026-10-18T20:26:31Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1459,22 +1459,22 @@
   "W13": [],
   "W14": []
  },
- "lists_generated_at": "2026-10-18T20:21:42Z",
+ "lists_generated_at": "2026-10-18T20:26:31Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
   "kind": "manual-recovery",
-  "status": "running",
-  "state": "active",
+  "status": "complete",
+  "state": "complete",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T20:13:39Z",
+  "last_activity_at": "2026-10-18T20:22:26Z",
   "progress": {
    "pools": 21,
    "covered_units": 89,
@@ -1496,13 +1496,7 @@
   "rejected": 118,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W5",
-  "W6"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1511,11 +1505,7 @@
    "families_searched": 16,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 10/30 · searching Federal Gov"
   },
@@ -1526,11 +1516,7 @@
    "families_searched": 5,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 6,
-    "name": "Enterprise Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 4/39 · searching State & Local Gov"
   },
@@ -1541,11 +1527,7 @@
    "families_searched": 16,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T19:32:24Z",
    "detail": "Employers covered 24/73 · searching Healthcare Providers"
   },
@@ -1567,11 +1549,7 @@
    "families_searched": 29,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 30,
-    "name": "Chief Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 27/44 · searching Oil & Gas"
   },
@@ -1582,11 +1560,7 @@
    "families_searched": 16,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 15/44 · searching Utilities"
   },
@@ -1782,7 +1756,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -1794,22 +1768,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed",
    "started_at": null,
    "ended_at": null
   },
   "quality_check": {
-   "state": "pending",
+   "state": "done",
    "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed 3:22 PM CT",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-10-18T20:22:26Z"
   }
  },
  "titles": {
@@ -1845,25 +1819,25 @@
    "Identity Architect": "done",
    "Technology Architect": "done",
    "Network Security Architect": "done",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Chief Architect": "pending",
+   "Cloud Engineering Lead": "pending",
+   "Platform Engineering Lead": "pending",
+   "Cloud Transformation Lead": "pending",
+   "Technology Strategy Lead": "pending",
+   "Enterprise Technology Lead": "pending",
+   "Infrastructure Strategy Lead": "pending",
+   "Cloud Practice Lead": "pending",
+   "Cloud Center of Excellence Lead": "pending",
+   "Cloud Enablement Lead": "pending",
+   "Cloud Adoption Lead": "pending",
+   "Infrastructure Modernization Lead": "pending",
+   "Technology Modernization Lead": "pending",
+   "Cloud Delivery Lead": "pending",
+   "Enterprise Technology Consultant": "pending",
+   "Cloud Advisory Consultant": "pending",
+   "Technology Transformation Consultant": "pending",
+   "Staff Cloud Engineer": "pending",
+   "Staff Infrastructure Engineer": "pending"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2030,7 +2004,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "stopped",
+  "sweep_state": "idle",
   "pending": [],
   "acks": [
    {
@@ -2107,6 +2081,11 @@
     "id": "chat-relay-stop-20261018-1431",
     "actuated_at": "2026-10-18T19:33:48Z",
     "effect": "sweep stop"
+   },
+   {
+    "id": "chat-relay-start-20261018",
+    "actuated_at": "2026-10-18T20:25:28Z",
+    "effect": "sweep start"
    }
   ],
   "fire_dues": [
@@ -2119,42 +2098,21 @@
     "id": "fire-6e93f8c92344",
     "reason": "stage 3 checkpoint #4 continuation (updated 14:05 CDT — W3d final harvested after the checkpoint note was written): harvest final returns of W5d 89c9a95f (Marathon Solutions JD, Phillips 66 x2, Kinder Morgan retries; Valero/Williams/EOG/Occidental/Devon passes b+c) and W6d daa25d22 (NextEra/Entergy/AEP/BHE/PSEG/ConEd/Avangrid + Eversource/Dominion pass c + Eversource IT Manager AI JD verdict); declare either dead only on an evidenced check (no final return + no live task) then re-dispatch its remainder. Remaining search remainders: W1 direct agency pages (DOE labs/VA/HHS-CMS/NASA/DOT-FAA) + Accenture Federal JD read; W2 local portals (NYC/LA County/Cook/Harris/Maricopa/King) + blocked state portals via board mirrors; W3 provider remainder (~21 providers) + Siemens Healthineers Senior Staff Cloud/Edge Architect verdict (Section C). Duke and Roche req-captures are DONE — both PASS candidates stay PARKED posting-not-locatable; do not re-litigate or file substitutes. Amgen R-256615 identity is RESOLVED (duplicate-of-filed). Diamondback stays parked-wall (stall watch owns). Stage 3 does not advance until every unit is covered or carried with dispositions.",
     "created_at": "2026-10-18T14:02:53.014973-05:00"
+   },
+   {
+    "id": "fire-b3135e61cf475401",
+    "reason": "tracker-sync: manual start via tracker button",
+    "created_at": "2026-10-18T20:25:28Z"
    }
   ]
  },
- "note": "Last activity 15:13 CT · 33 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "Federal Gov · Title 17 of 48 · Cloud Architecture Lead",
-   "detail": "Employers covered 10/30 · searching Federal Gov",
-   "pool": "W1"
-  },
-  {
-   "primary": "State & Local Gov · Title 6 of 48 · Enterprise Architect",
-   "detail": "Employers covered 4/39 · searching State & Local Gov",
-   "pool": "W2"
-  },
-  {
-   "primary": "Healthcare Providers · Title 17 of 48 · Cloud Architecture Lead",
-   "detail": "Employers covered 24/73 · searching Healthcare Providers",
-   "pool": "W3"
-  },
-  {
-   "primary": "Oil & Gas · Title 30 of 48 · Chief Architect",
-   "detail": "Employers covered 27/44 · searching Oil & Gas",
-   "pool": "W5"
-  },
-  {
-   "primary": "Utilities · Title 17 of 48 · Cloud Architecture Lead",
-   "detail": "Employers covered 15/44 · searching Utilities",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 15:22 CT · 33 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "Federal Gov",
-  "headline": "Federal Gov · Title 17 of 48 · Cloud Architecture Lead",
-  "detail": "Employers covered 10/30 · searching Federal Gov"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
