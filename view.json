@@ -1,19 +1,22 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T01:31:21Z",
+ "generated_at": "2026-10-18T01:36:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "75a231aa",
   "kind": "manual-recovery",
-  "status": "running",
-  "state": "waiting",
+  "status": "stalled",
+  "state": "stalled",
   "activity": {
    "searching": false,
    "filing": true
   },
-  "live": true,
-  "stalled": null,
+  "live": false,
+  "stalled": {
+   "since": "2026-10-18T01:05:50Z",
+   "reason": "Nothing has moved since 8:05 PM CT. A filing sent out at 5:44 PM CT has not come back."
+  },
   "started_at": "2026-10-17T22:42:47Z",
   "last_activity_at": "2026-10-18T01:05:50Z",
   "progress": {
@@ -310,7 +313,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 20:05 CT",
+   "detail": "Stalled — nothing has moved",
    "started_at": null,
    "ended_at": null
   },
@@ -581,7 +584,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "idle",
   "pending": [],
   "acks": [
    {
@@ -600,8 +603,8 @@
  "note": "Last activity 20:05 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 1 stopped · 18 waiting to start"
+   "primary": "Sweep stalled — nothing is searching right now",
+   "detail": "Nothing has moved since 8:05 PM CT. A filing sent out at 5:44 PM CT has not come back."
   }
  ]
 }
