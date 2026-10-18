@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T22:31:27Z",
+ "generated_at": "2026-10-18T22:36:27Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1725,7 +1725,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-18T22:31:27Z",
+ "lists_generated_at": "2026-10-18T22:36:26Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1734,13 +1734,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T22:28:25Z",
+  "last_activity_at": "2026-10-18T22:34:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 25,
@@ -1762,7 +1762,10 @@
   "rejected": 151,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W5"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1793,8 +1796,12 @@
    "families_searched": 7,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "current_family": {
+    "index": 8,
+    "name": "Platform Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T22:34:30Z",
    "detail": "Employers covered 11/73 · searching Healthcare Providers"
   },
   "W4": {
@@ -1815,8 +1822,12 @@
    "families_searched": 9,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "current_family": {
+    "index": 10,
+    "name": "Solution Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T22:34:30Z",
    "detail": "Employers covered 8/44 · searching Oil & Gas"
   },
   "W6": {
@@ -2065,45 +2076,45 @@
    "Infrastructure Architect": "done",
    "Platform Architect": "done",
    "Solutions Architect": "done",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2252,11 +2263,6 @@
   ],
   "fire_dues": [
    {
-    "id": "fire-1769aa7d22654aa1",
-    "reason": "stage 2 of run 8cf56a35 (stage-relay advance from stage 1 recovery): first derived search stage per work_order queue (priority order W1,W2,W3,W5,W6 sector pack). Carry-in: a5c28844 sector remainders re-derived from disk chunks (W1 LANL/Argonne/LBL/LLNL + VA/CMS/NASA/DOT-FAA pages + Leidos/Accenture Federal JD reads; W2 Maricopa/King portals + JS-blocked state portals via board mirrors; W3 ~21 providers + Section C verdicts Mayo/Siemens/AdventHealth Sr Solutions/Sutter x2; W5 Valero/Williams/EOG/Occidental/Devon passes b+c + Kinder/Marathon/Phillips-Data Section C reads; W6 BHE/PSEG/ConEd/Avangrid + Eversource/Dominion Dice pass c + Eversource IT Manager AI verdict) and the 13-item Section C backlog in lead-queue-2026-10-18-1527-8cf56a35.md. CBIZ parked-retry pass runs ahead of new discovery. Duke/Roche/Diamondback/Amgen do not re-litigate. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
-    "created_at": "2026-10-18T15:29:55.927802-05:00"
-   },
-   {
     "id": "fire-ab1c41705feb",
     "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED LAST EXECUTION: CBIZ parked-retry DONE (route found SimplyHired->Oracle 5854 easy-apply, $180-220k in band; filer PARKED on hCaptcha loop at 3-attempt cap, nothing submitted — CBIZ stays live in Section A and its bot-wall park qualifies for next run's parked-retry pass); W3 providers slice 2 (BSW/Memorial Hermann/Geisinger/Sanford/CHRISTUS: 0 PASS, 9 rejected, Sanford covered 3/3, other four b/c passes viewer-limited index-cross-checked = soft re-verify remainder); W1 FWS Cryogenic JD read REJECTED unpaid part-time internship, Argonne Windows Endpoint Architect REJECTED not-remote Lemont IL, LANL/Argonne ATS filtered views + Google Jobs BLOCKED (not coverage). REMAINDER: W1 labs (a)/(b) blocked-pass retries (LANL, Argonne, LBL, LLNL); W2 NC/AZ/CO/WA direct state portals + remaining state/local portals; W3 providers Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool + Section C items (Banner Tech Solution Architect II JD, MGB BFT Web App Architect, Houston Methodist Cyber Security EA); W5 remaining named employers (SLB/Halliburton/Baker Hughes/Enbridge/TC Energy/ONEOK/Energy Transfer/Enterprise/Cheniere/NOV et al.); W6 Southern, Exelon, PG&E, NRG, Vistra, Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, Atmos et al. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
     "created_at": "2026-10-18T17:28:25.863891-05:00"
@@ -2268,18 +2274,24 @@
    }
   ]
  },
- "note": "Last activity 17:28 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 17:34 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 16 waiting to start"
+   "primary": "Healthcare Providers · Title 8 of 48 · Platform Architect",
+   "detail": "Employers covered 11/73 · searching Healthcare Providers",
+   "pool": "W3"
+  },
+  {
+   "primary": "Oil & Gas · Title 10 of 48 · Solution Architect",
+   "detail": "Employers covered 8/44 · searching Oil & Gas",
+   "pool": "W5"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 8 of 48 · Platform Architect",
+  "detail": "Employers covered 11/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
