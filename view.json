@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T16:06:31Z",
+ "generated_at": "2026-10-18T16:11:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T15:58:51Z",
+  "last_activity_at": "2026-10-18T16:11:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -25,15 +25,15 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
+  "parked": 3,
   "rejected": 62,
-  "evaluated": 73
+  "evaluated": 74
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 64,
+  "evaluated": 65,
   "filed": 0,
-  "parked": 2,
+  "parked": 3,
   "rejected": 62,
   "filed_by_source": {}
  },
@@ -78,12 +78,19 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T15:53:33Z",
+   "current": {
+    "company": "Roche",
+    "title": "Senior IT Architect, OT Architecture & Cybersecurity"
+   },
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T16:11:03Z",
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
@@ -328,7 +335,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 10:58 CT",
+   "detail": "Watching — last activity 11:11 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -688,6 +695,11 @@
     "created_at": "2026-10-18T06:04:13.784590-05:00"
    },
    {
+    "id": "fire-8a6c3bbc2c1b",
+    "reason": "stage-relay continuation: run a5c28844 stage 3 (SECTOR W1,W2,W3,W5,W6) checkpoint #2 — all 5 sector continuations returned and merged (+17 REJECTED, Section D now 62 rejected / 3 parked / 0 filed) and all 3 filing attempts resolved from harvested evidence: Diamondback PARKED account-wall CREDENTIAL NEEDED (Workday, location ambiguity recorded), Duke PARKED posting-not-locatable (W6b PASS evidence unverified on canonical boards), Roche PARKED posting-not-locatable (W3b PASS unverified on careers.roche.com). Stage 3 does NOT advance: carried remainders — W1 DOE labs/VA/HHS-CMS/NASA/DOT-FAA agency pages + Accenture Federal/Leidos mirror JD reads; W2 remaining state portals + WorkInTexas captcha retry; W3 ~31 unreached employers (Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Medtronic, Siemens Healthineers, Baxter, BD + 21 providers) + Amgen R-256615 req-identity check; W5 Valero/Williams/EOG/Occidental/Devon passes (b)+(c) + Marathon Solutions Architect JD retry + Phillips 66/Kinder Morgan Section C retries; W6 Eversource/Dominion/NextEra/Entergy/AEP/BHE/PSEG/ConEd/Avangrid + Duke R39430 full-JD check (only if it is the Enterprise Technology role under a Workday title). FIRST ACTIONS: (1) capture req IDs from the Google Jobs/Dice mirrors for the Duke and Roche PASS candidates and re-locate on governing sites before any filing; (2) Diamondback stays parked-wall (stall watch owns) — do not re-attempt without a credential route.",
+    "created_at": "2026-10-18T11:11:03.832937-05:00"
+   },
+   {
     "id": "fire-928320696c70",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — post-window re-check of beabc0ce (families 9-10 + family 7 count-recapture + Section C Dice retries, dispatched 2026-10-18T08:46:26.323806-05:00, 90-min window ends ~10:16 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only with evidenced failure check, then re-dispatch remaining families 9-10/11-24",
     "created_at": "2026-10-18T08:46:26.323806-05:00"
@@ -779,7 +791,7 @@
    }
   ]
  },
- "note": "Last activity 10:58 CT · 15 workers in flight · 0 filed this run",
+ "note": "Last activity 11:11 CT · 15 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
@@ -790,8 +802,8 @@
    "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
   {
-   "primary": "Healthcare Providers",
-   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
+   "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+   "detail": "Senior IT Architect, OT Architecture & Cybersecurity — Roche"
   },
   {
    "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
