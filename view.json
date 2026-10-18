@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T04:06:20Z",
+ "generated_at": "2026-10-18T04:11:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "70691592",
@@ -15,26 +15,26 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T03:42:55Z",
-  "last_activity_at": "2026-10-18T04:04:09Z",
+  "last_activity_at": "2026-10-18T04:09:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 48,
    "total_units": 1008,
-   "pct": 0
+   "pct": 5
   }
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 5,
+  "evaluated": 5
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 192,
+  "evaluated": 196,
   "filed": 2,
   "parked": 7,
-  "rejected": 183,
+  "rejected": 187,
   "filed_by_source": {
    "Employer sites": 2
   }
@@ -132,13 +132,13 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-18T03:46:10Z",
-   "detail": "Searching · 48 title families across Dice"
+   "heartbeat_at": "2026-10-18T04:09:10Z",
+   "detail": "Families covered 48/48"
   },
   "W10": {
    "label": "SimplyHired",
@@ -300,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes returned",
+   "detail": "1 of 20 sector lanes returned",
    "started_at": null,
    "ended_at": null
   },
@@ -312,7 +312,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 23:04 CT",
+   "detail": "Watching — last activity 23:09 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -331,58 +331,203 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 48,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
+   "Domain Architect": "done",
+   "Resiliency Architect": "done",
+   "IT/OT Architect": "done",
+   "Cloud Transformation Architect": "done",
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
+   "Integration Architect": "done",
+   "Data Center Architect": "done",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
+   "Network Security Architect": "done",
+   "Chief Architect": "done",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "done",
+   "Infrastructure Strategy Lead": "done",
+   "Cloud Practice Lead": "done",
+   "Cloud Center of Excellence Lead": "done",
+   "Cloud Enablement Lead": "done",
+   "Cloud Adoption Lead": "done",
+   "Infrastructure Modernization Lead": "done",
+   "Technology Modernization Lead": "done",
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
+   "Technology Transformation Consultant": "done",
+   "Staff Cloud Engineer": "done",
+   "Staff Infrastructure Engineer": "done"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W9"
+   ],
+   "Azure Solutions Architect": [
+    "W9"
+   ],
+   "Azure Cloud Architect": [
+    "W9"
+   ],
+   "Cloud Architect": [
+    "W9"
+   ],
+   "Cloud Solutions Architect": [
+    "W9"
+   ],
+   "Enterprise Architect": [
+    "W9"
+   ],
+   "Infrastructure Architect": [
+    "W9"
+   ],
+   "Platform Architect": [
+    "W9"
+   ],
+   "Solutions Architect": [
+    "W9"
+   ],
+   "Solution Architect": [
+    "W9"
+   ],
+   "Domain Architect": [
+    "W9"
+   ],
+   "Resiliency Architect": [
+    "W9"
+   ],
+   "IT/OT Architect": [
+    "W9"
+   ],
+   "Cloud Transformation Architect": [
+    "W9"
+   ],
+   "Principal Cloud Engineer": [
+    "W9"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W9"
+   ],
+   "Cloud Architecture Lead": [
+    "W9"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W9"
+   ],
+   "Principal Technical Architect": [
+    "W9"
+   ],
+   "Technology Strategy Architect": [
+    "W9"
+   ],
+   "IT Architecture Lead": [
+    "W9"
+   ],
+   "Application Architect": [
+    "W9"
+   ],
+   "Integration Architect": [
+    "W9"
+   ],
+   "Data Center Architect": [
+    "W9"
+   ],
+   "Digital Transformation Architect": [
+    "W9"
+   ],
+   "Systems Architect": [
+    "W9"
+   ],
+   "Identity Architect": [
+    "W9"
+   ],
+   "Technology Architect": [
+    "W9"
+   ],
+   "Network Security Architect": [
+    "W9"
+   ],
+   "Chief Architect": [
+    "W9"
+   ],
+   "Cloud Engineering Lead": [
+    "W9"
+   ],
+   "Platform Engineering Lead": [
+    "W9"
+   ],
+   "Cloud Transformation Lead": [
+    "W9"
+   ],
+   "Technology Strategy Lead": [
+    "W9"
+   ],
+   "Enterprise Technology Lead": [
+    "W9"
+   ],
+   "Infrastructure Strategy Lead": [
+    "W9"
+   ],
+   "Cloud Practice Lead": [
+    "W9"
+   ],
+   "Cloud Center of Excellence Lead": [
+    "W9"
+   ],
+   "Cloud Enablement Lead": [
+    "W9"
+   ],
+   "Cloud Adoption Lead": [
+    "W9"
+   ],
+   "Infrastructure Modernization Lead": [
+    "W9"
+   ],
+   "Technology Modernization Lead": [
+    "W9"
+   ],
+   "Cloud Delivery Lead": [
+    "W9"
+   ],
+   "Enterprise Technology Consultant": [
+    "W9"
+   ],
+   "Cloud Advisory Consultant": [
+    "W9"
+   ],
+   "Technology Transformation Consultant": [
+    "W9"
+   ],
+   "Staff Cloud Engineer": [
+    "W9"
+   ],
+   "Staff Infrastructure Engineer": [
+    "W9"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
@@ -486,11 +631,11 @@
    }
   ]
  },
- "note": "Last activity 23:04 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 23:09 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
-   "detail": "Lanes: 19 waiting to start"
+   "detail": "Lanes: 1 done · 19 waiting to start"
   }
  ]
 }
