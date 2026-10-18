@@ -1,20 +1,22 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T01:01:22Z",
+ "generated_at": "2026-10-18T01:06:22Z",
  "lane_state_source": "derived",
  "run": {
   "id": "75a231aa",
   "kind": "manual-recovery",
   "status": "running",
   "started_at": "2026-10-17T22:42:47Z",
-  "last_activity_at": "2026-10-18T00:35:00Z",
+  "last_activity_at": "2026-10-18T01:05:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 96,
    "total_units": 1008,
    "pct": 10
-  }
+  },
+  "live": true,
+  "stalled": null
  },
  "counts": {
   "filed": 0,
@@ -24,9 +26,9 @@
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 190,
+  "evaluated": 191,
   "filed": 0,
-  "parked": 8,
+  "parked": 9,
   "rejected": 182,
   "filed_by_source": {}
  },
@@ -264,62 +266,7 @@
    "detail": ""
   }
  },
- "stages": {
-  "started": {
-   "detail": "Run-start protocol complete — manifest and heartbeat live for the new run",
-   "ended_at": "2026-10-16T14:56:39.852306Z",
-   "started_at": "2026-10-16T14:56:39.852306Z",
-   "state": "done"
-  },
-  "prep": {
-   "detail": "Preparation complete — lane dispatch read from lane-control at run start",
-   "ended_at": "2026-10-16T14:56:39.852306Z",
-   "started_at": "2026-10-16T14:56:39.852306Z",
-   "state": "done"
-  },
-  "linkedin_discovery": {
-   "detail": "Searching",
-   "ended_at": null,
-   "started_at": "2026-10-16T14:56:39.852306Z",
-   "state": "active"
-  },
-  "linkedin_filing": {
-   "detail": "Filings begin once discovery returns passing leads",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
-  },
-  "sector_search": {
-   "detail": "Searching",
-   "ended_at": null,
-   "started_at": "2026-10-16T14:56:39.852306Z",
-   "state": "active"
-  },
-  "sector_filing": {
-   "detail": "Filings begin once sector search returns passing leads",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
-  },
-  "quality_check": {
-   "detail": "Audit + enforcer + receipt at closeout",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
-  },
-  "stall_watch": {
-   "detail": "Runs at closeout on this run's parked items",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
-  },
-  "delivered": {
-   "detail": "Report posts at closeout",
-   "ended_at": null,
-   "started_at": null,
-   "state": "pending"
-  }
- },
+ "stages": {},
  "titles": {
   "total": 48,
   "searched": 48,
@@ -590,5 +537,5 @@
   ],
   "fire_dues": []
  },
- "note": "Last activity 09:56 CT · 0 workers in flight · 0 filed this run"
+ "note": ""
 }
