@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T15:41:28Z",
+ "generated_at": "2026-10-18T15:46:15Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -289,6 +289,27 @@
     "company": "Kaiser Permanente",
     "role": "VP, Chief Architect, HR Technology",
     "reason": "not-remote — Oakland/Atlanta hybrid (chunk-a5c28844-W3)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Advanced IT Business Systems Architect",
+    "reason": "experience-mismatch — SAP/business-systems scope (full JD body inaccessible via redirect; verdict as delivered by W5b worker, quote limited) (chunk-a5c28844-W5b)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "MPLX",
+    "role": "IT Solutions Architect",
+    "reason": "experience-mismatch — \"provides oversight for the development and maintenance of new and existing pricing systems... works with the business to design, develop, and support new... pricing processes\" — core is pricing/commercial systems, not…",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "ONEOK",
+    "role": "Senior Advisor, IT Enterprise Architecture",
+    "reason": "not-remote — governing employer JD carries no remote language and is Tulsa, OK-based (board mirror checked as workaround — same Tulsa basis) — POSTED: 2026-10-11 (chunk-a5c28844-W5b)",
     "where": "Employer sites",
     "time": ""
    },
@@ -896,7 +917,10 @@
    "Duke Energy",
    "Constellation Energy",
    "Diamondback Energy",
-   "State of California (Caltrans)"
+   "State of California (Caltrans)",
+   "ONEOK",
+   "MPLX",
+   "Marathon Petroleum"
   ],
   "W7": [
    "HCA Healthcare",
@@ -911,7 +935,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T15:41:28Z",
+ "lists_generated_at": "2026-10-18T15:46:15Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -921,12 +945,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T15:40:56Z",
+  "last_activity_at": "2026-10-18T15:45:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -937,15 +961,15 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 49,
-  "evaluated": 58
+  "rejected": 52,
+  "evaluated": 61
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 50,
+  "evaluated": 53,
   "filed": 0,
   "parked": 1,
-  "rejected": 49,
+  "rejected": 52,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -1015,12 +1039,16 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T15:36:25Z",
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T15:45:34Z",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
@@ -1243,7 +1271,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 10:40 CT",
+   "detail": "Watching — last activity 10:45 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1694,7 +1722,7 @@
    }
   ]
  },
- "note": "Last activity 10:40 CT · 13 workers in flight · 0 filed this run",
+ "note": "Last activity 10:45 CT · 13 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
@@ -1709,7 +1737,7 @@
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   {
-   "primary": "Oil & Gas",
+   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   {
