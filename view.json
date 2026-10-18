@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T03:46:15Z",
+ "generated_at": "2026-10-18T03:49:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "70691592",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T03:42:55Z",
-  "last_activity_at": "2026-10-18T03:46:10Z",
+  "last_activity_at": "2026-10-18T03:47:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -323,7 +323,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 22:46 CT",
+   "detail": "Watching — last activity 22:47 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -397,7 +397,16 @@
  },
  "controls": {
   "priority_lanes": [
-   "W1"
+   "W1",
+   "W2",
+   "W3",
+   "W5",
+   "W6",
+   "W16",
+   "W17",
+   "W18",
+   "W19",
+   "W20"
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
@@ -413,11 +422,82 @@
     "id": "43a40a06-fd51-41fa-9a5f-1f1d995bfa6b",
     "actuated_at": "2026-10-17T05:05:09Z",
     "effect": "restart None recorded; selection scope set: W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11"
+   },
+   {
+    "id": "6de0570c-66f5-4372-a5d0-c88e570df062",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W1 on"
+   },
+   {
+    "id": "552a67fa-339d-4ea2-b93e-f938515da36b",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W2 on"
+   },
+   {
+    "id": "e90e55f4-af88-4e9a-bebf-19cee76b05f2",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W3 on"
+   },
+   {
+    "id": "27d01488-57bb-4b33-91ea-71921b1cf894",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W5 on"
+   },
+   {
+    "id": "10a3dfcb-5380-4087-9bd4-78f51a0e0c11",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W6 on"
+   },
+   {
+    "id": "a7762ba3-e857-42d3-9a8a-42a543290190",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W16 on"
+   },
+   {
+    "id": "6bf22ecb-f675-4190-811a-c0dee8607ebf",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W17 on"
+   },
+   {
+    "id": "6604ecbc-026d-45b1-b628-b01bccd99e2e",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W18 on"
+   },
+   {
+    "id": "4c4a34be-5c96-4388-b40b-fb2145747c53",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W19 on"
+   },
+   {
+    "id": "b55f212e-221e-4d26-9e0f-a64b3ab0dc18",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W20 on"
+   },
+   {
+    "id": "7b633179-f246-4b5c-bb47-8c98312dc470",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "restart W1,W2,W3,W5,W6,W16,W17,W18,W19,W20 recorded"
+   },
+   {
+    "id": "4ff2d32a-0973-48ef-a023-d25499a18f82",
+    "actuated_at": "2026-10-18T03:48:58Z",
+    "effect": "restart W1,W2,W3,W5,W6,W16,W17,W18,W19,W20 recorded"
    }
   ],
-  "fire_dues": []
+  "fire_dues": [
+   {
+    "id": "fire-05f115331fda6e2f",
+    "reason": "standalone tracker: lane restart via standalone page",
+    "created_at": "2026-10-18T03:48:58Z"
+   },
+   {
+    "id": "fire-79f6efe11b96d5cd",
+    "reason": "standalone tracker: lane restart via standalone page",
+    "created_at": "2026-10-18T03:48:10Z"
+   }
+  ]
  },
- "note": "Last activity 22:46 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 22:47 CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Dice · Title 1 of 48 · Azure Architect",
