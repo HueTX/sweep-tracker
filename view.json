@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T04:36:27Z",
+ "generated_at": "2026-10-18T04:41:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "70691592",
@@ -15,26 +15,26 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T03:42:55Z",
-  "last_activity_at": "2026-10-18T04:28:59Z",
+  "last_activity_at": "2026-10-18T04:40:36Z",
   "progress": {
    "pools": 21,
-   "covered_units": 48,
+   "covered_units": 54,
    "total_units": 1008,
    "pct": 5
   }
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 5,
-  "evaluated": 5
+  "parked": 1,
+  "rejected": 21,
+  "evaluated": 28
  },
  "today": {
   "date": "2026-10-17",
-  "evaluated": 196,
+  "evaluated": 212,
   "filed": 2,
   "parked": 7,
-  "rejected": 187,
+  "rejected": 203,
   "filed_by_source": {
    "Employer sites": 2
   }
@@ -264,13 +264,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 6,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-18T03:45:30Z",
-   "detail": ""
+   "heartbeat_at": "2026-10-18T04:38:17Z",
+   "detail": "Families covered 6/48"
   }
  },
  "stages": {
@@ -282,19 +282,19 @@
   },
   "prep": {
    "state": "done",
-   "detail": "Queue ready",
+   "detail": "6 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
-   "detail": "",
+   "state": "done",
+   "detail": "Families covered 6/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "pending",
-   "detail": "",
+   "detail": "No LinkedIn filings",
    "started_at": null,
    "ended_at": null
   },
@@ -312,7 +312,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 23:28 CT",
+   "detail": "Watching — last activity 23:40 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -384,22 +384,28 @@
   },
   "family_lanes": {
    "Azure Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Azure Solutions Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Azure Cloud Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Cloud Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Cloud Solutions Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Enterprise Architect": [
-    "W9"
+    "W9",
+    "LinkedIn"
    ],
    "Infrastructure Architect": [
     "W9"
@@ -631,11 +637,11 @@
    }
   ]
  },
- "note": "Last activity 23:28 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 23:40 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 19 waiting to start"
+   "detail": "Lanes: 2 done · 19 waiting to start"
   }
  ]
 }
