@@ -1,10 +1,20 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T15:31:25Z",
+ "generated_at": "2026-10-18T15:36:26Z",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
+ "today_parked": {
+  "Employer sites": [
+   {
+    "company": "Diamondback Energy",
+    "role": "Senior AI Solution Architect",
+    "reason": "account-wall CREDENTIAL NEEDED: Diamondback Energy — Workday — canonical Workday posting https://diamondbackenergy.wd1.myworkdayjobs.com/DiamondbackEnergy/job/Midland-TX/Senior-AI-Solution-Architect_REQ3110 requires Workday account creation/sign-in before…",
+    "where": "Employer sites",
+    "time": ""
+   }
+  ]
+ },
  "today_rejected": {
   "LinkedIn": [
    {
@@ -877,7 +887,8 @@
    "Expand Energy",
    "Internal Revenue Service (IRS)",
    "Duke Energy",
-   "Constellation Energy"
+   "Constellation Energy",
+   "Diamondback Energy"
   ],
   "W7": [
    "HCA Healthcare",
@@ -892,7 +903,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T15:31:25Z",
+ "lists_generated_at": "2026-10-18T15:36:26Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -902,12 +913,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T15:31:20Z",
+  "last_activity_at": "2026-10-18T15:36:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -917,15 +928,15 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
+  "parked": 1,
   "rejected": 48,
-  "evaluated": 56
+  "evaluated": 57
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 48,
+  "evaluated": 49,
   "filed": 0,
-  "parked": 0,
+  "parked": 1,
   "rejected": 48,
   "filed_by_source": {}
  },
@@ -996,16 +1007,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "filing",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-18T15:19:38Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-18T15:36:25Z",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
@@ -1228,7 +1235,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 10:31 CT",
+   "detail": "Watching — last activity 10:36 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1679,7 +1686,7 @@
    }
   ]
  },
- "note": "Last activity 10:31 CT · 13 workers in flight · 0 filed this run",
+ "note": "Last activity 10:36 CT · 13 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
@@ -1694,7 +1701,7 @@
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   {
-   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
+   "primary": "Oil & Gas",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   {
