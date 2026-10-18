@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T20:01:15Z",
+ "generated_at": "2026-10-18T20:06:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T19:59:57Z",
+  "last_activity_at": "2026-10-18T20:05:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 88,
+   "covered_units": 89,
    "total_units": 1008,
    "pct": 9
   }
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 84,
-  "evaluated": 96
+  "rejected": 85,
+  "evaluated": 97
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 95,
+  "evaluated": 96,
   "filed": 0,
   "parked": 3,
-  "rejected": 92,
+  "rejected": 93,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -57,23 +57,23 @@
     "name": "Cloud Architecture Lead",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:47:47Z",
+   "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 10/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "evaluating",
-   "families_searched": 4,
+   "families_searched": 5,
    "families_total": 48,
    "current": null,
    "current_family": {
-    "index": 5,
-    "name": "Cloud Solutions Architect",
+    "index": 6,
+    "name": "Enterprise Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:59:57Z",
-   "detail": "Employers covered 3/39 · searching State & Local Gov"
+   "heartbeat_at": "2026-10-18T20:05:00Z",
+   "detail": "Employers covered 4/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -113,7 +113,7 @@
     "name": "Chief Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:32:24Z",
+   "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 27/44 · searching Oil & Gas"
   },
   "W6": {
@@ -128,7 +128,7 @@
     "name": "Cloud Architecture Lead",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:54:40Z",
+   "heartbeat_at": "2026-10-18T20:05:00Z",
    "detail": "Employers covered 15/44 · searching Utilities"
   },
   "W7": {
@@ -441,6 +441,7 @@
    ],
    "Cloud Solutions Architect": [
     "W1",
+    "W2",
     "W3",
     "W5",
     "W6",
@@ -651,13 +652,18 @@
   ],
   "fire_dues": [
    {
+    "id": "fire-4d2e333bf9bc45b1",
+    "reason": "stage 3 checkpoint #5 continuation (execution 2026-10-18 14:08 CDT slot): stage 3 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION (all from disk-evidenced returns): W5e (Phillips OT not-remote; Kinder PASS overridden to NOT EVALUATED snippet-only; Phillips Data + Marathon stay NOT EVALUATED), W3e (6 not-remote: UPMC, AdventHealth x2, Intermountain x2, Sutter Solutions; AdventHealth Sr Solutions pay reject OVERRIDDEN invalid — top $218,750 in band — to Section C; Siemens + Sutter items stay NOT EVALUATED), W6f (NextEra x2 + Entergy x2 not-remote; AEP covered zero), W1f+W2f (10 dispositions incl. Accenture Federal pay-band $130,200-$265,300, Akima x2, Integrated Intel clearance, NYC HRA onsite, PNNL Richland, NYC Comptroller Lead EA stale 2026-08-19; Sandia covered zero), NYC verify (W2f PASS-CANDIDATE OVERTURNED: governing posting is Computer Systems Manager 745593 — REJECTED not-remote NYC-metro residency + experience-mismatch Oracle ERP; NOT filed), W2g partial (LA County covered via fallback, 197 jobs zero architect; ComPsych not-remote; task died on a question — Cook/Harris unevidenced). Run totals now: filed 0 / parked 3 / rejected 85; Section A 9 live (6 standing stall-watch blocks + Diamondback parked-wall + Duke + Roche parked-not-locatable — do not re-litigate Duke/Roche/Amgen/Diamondback). REMAINDER BY LANE — work in capped tasks (max 5 employers / 1 portal group / 3 board searches per task, batches of 3, compact one-line returns, NO questions to the parent — a task that asks a question dies and loses its return): W1: LANL + Argonne + LBL + LLNL direct lab pages; VA/CMS/NASA/DOT-FAA direct career pages; Leidos Cloud Architect JD reads (snippets only so far). W2: Cook County + Harris County + Maricopa County + King County portals; JS-blocked state portals (FL/GA/VA/IL/PA/NC/AZ) via board mirrors; NYC Comptroller Senior IT Architect verdict (Section C). W3: providers Banner, Advocate/Atrium, Northwell, Mass General Brigham, Houston Methodist, Baylor Scott & White, Memorial Hermann, Geisinger, Sanford, CHRISTUS, Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson; Section C verdicts owed: Mayo Data Engineering Architect, Siemens Sr Staff Cloud/Edge, AdventHealth Sr Solutions Architect re-read, Sutter Sr Data Architect + Sutter Enterprise Architect. W5: Valero/Williams/EOG/Occidental/Devon passes (b)+(c); Kinder Morgan Network Architect governing JD read; Phillips 66 Data Architect Commercial live-status check; Marathon Advanced IT Solutions Architect JD. W6: Berkshire Hathaway Energy, PSEG, ConEd, Avangrid; Eversource + Dominion Dice pass (c); Eversource IT Manager - AI Technology JD verdict. Any PASS: parent files it in the SAME execution it merges (file-in-execution); snippet-only PASS claims are overridden to NOT EVALUATED.",
+    "created_at": "2026-10-18T15:05:33.246473-05:00"
+   },
+   {
     "id": "fire-6e93f8c92344",
     "reason": "stage 3 checkpoint #4 continuation (updated 14:05 CDT — W3d final harvested after the checkpoint note was written): harvest final returns of W5d 89c9a95f (Marathon Solutions JD, Phillips 66 x2, Kinder Morgan retries; Valero/Williams/EOG/Occidental/Devon passes b+c) and W6d daa25d22 (NextEra/Entergy/AEP/BHE/PSEG/ConEd/Avangrid + Eversource/Dominion pass c + Eversource IT Manager AI JD verdict); declare either dead only on an evidenced check (no final return + no live task) then re-dispatch its remainder. Remaining search remainders: W1 direct agency pages (DOE labs/VA/HHS-CMS/NASA/DOT-FAA) + Accenture Federal JD read; W2 local portals (NYC/LA County/Cook/Harris/Maricopa/King) + blocked state portals via board mirrors; W3 provider remainder (~21 providers) + Siemens Healthineers Senior Staff Cloud/Edge Architect verdict (Section C). Duke and Roche req-captures are DONE — both PASS candidates stay PARKED posting-not-locatable; do not re-litigate or file substitutes. Amgen R-256615 identity is RESOLVED (duplicate-of-filed). Diamondback stays parked-wall (stall watch owns). Stage 3 does not advance until every unit is covered or carried with dispositions.",
     "created_at": "2026-10-18T14:02:53.014973-05:00"
    }
   ]
  },
- "note": "Last activity 14:59 CT · 33 workers in flight · 0 filed this run",
+ "note": "Last activity 15:05 CT · 33 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 17 of 48 · Cloud Architecture Lead",
@@ -665,8 +671,8 @@
    "pool": "W1"
   },
   {
-   "primary": "State & Local Gov · Title 5 of 48 · Cloud Solutions Architect",
-   "detail": "Employers covered 3/39 · searching State & Local Gov",
+   "primary": "State & Local Gov · Title 6 of 48 · Enterprise Architect",
+   "detail": "Employers covered 4/39 · searching State & Local Gov",
    "pool": "W2"
   },
   {
