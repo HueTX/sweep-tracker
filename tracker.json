@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T19:31:26Z",
+ "generated_at": "2026-10-18T19:36:55Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -35,6 +35,20 @@
     "company": "AbbVie",
     "role": "Cybersecurity Architect – M&A Integrations",
     "reason": "pay-outside-band — published range \"$137,500 - $261,500\" (top $261,500 above $230,000 ceiling) — PARENT OVERRIDE of worker PASS; also probable duplicate-of-filed (same role as R00151885 Cybersecurity Architect - Mergers & Acquisitions, FILED 2026-10-09 +…",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "AdventHealth",
+    "role": "Architect, Cloud Data (Sr)",
+    "reason": "not-remote — listing location AdventHealth Corporate, Altamonte Springs, FL, Schedule: Full-time, Hybrid (chunk-a5c28844-W3e)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "AdventHealth",
+    "role": "Manager IT (Nursing Applications)",
+    "reason": "not-remote — Maitland, FL hybrid posting (\"may work remotely at times\" with occasional travel to AdventHealth facilities) (chunk-a5c28844-W3e)",
     "where": "Employer sites",
     "time": ""
    },
@@ -119,6 +133,20 @@
     "company": "Halliburton Landmark",
     "role": "Senior Cloud Architect, Big Data",
     "reason": "not-remote — listing location \"Abu Dhabi / United Arab Emirates\" (chunk-a5c28844-W5)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Intermountain Health",
+    "role": "Architect, Enterprise Architecture",
+    "reason": "not-remote — \"Job Location: Intermountain Health System Office, Salt Lake City, UT\" (chunk-a5c28844-W3e)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Intermountain Health (SCL Health)",
+    "role": "Network Architect",
+    "reason": "not-remote — Murray, UT onsite role, \"traditional office environment\" (chunk-a5c28844-W3e)",
     "where": "Employer sites",
     "time": ""
    },
@@ -217,6 +245,13 @@
     "company": "Pfizer",
     "role": "Senior Director, Cloud Architecture",
     "reason": "pay-outside-band — published range \"$193,300.00 - $322,100.00\" / \"$250,000 to $290,000\" (top above $230,000 ceiling) (chunk-a5c28844-W3b)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Cybersecurity Architect, OT",
+    "reason": "not-remote — \"This position requires you to be at our Houston HQ office a minimum of three days a week\" — published range \"$146,300 - $219,400\" (top in band; location governs) — POSTED: 2026-10-16 — workarounds tried: employer careers detail (governing,…",
     "where": "Employer sites",
     "time": ""
    },
@@ -523,6 +558,22 @@
     "role": "Director, Domain Architecture (Claims)",
     "reason": "not-remote — Pleasanton, CA onsite/hybrid (chunk-a5c28844-W3)",
     "where": "Google Jobs",
+    "time": ""
+   },
+   {
+    "company": "UPMC",
+    "role": "Director, Enterprise Architecture",
+    "reason": "not-remote — \"Work Location: Pittsburgh; Onsite Requirements: Hybrid - 2 days per week in office\" — POSTED: 2026-10-13 — workarounds tried: employer ATS (governing, fails), Google Jobs, SimplyHired (aggregator 'remote' copies are mislabels)…",
+    "where": "Google Jobs",
+    "time": ""
+   }
+  ],
+  "SimplyHired": [
+   {
+    "company": "Sutter Health",
+    "role": "Solutions Architect",
+    "reason": "not-remote — \"must reside in California... required to report to a Sutter Health facility... a minimum of three days per week onsite\" (Sacramento, CA) (chunk-a5c28844-W3e)",
+    "where": "SimplyHired",
     "time": ""
    }
   ]
@@ -1073,22 +1124,29 @@
    "Regeneron",
    "Vertex Pharmaceuticals",
    "Biogen",
-   "Gilead Sciences"
+   "Gilead Sciences",
+   "Phillips 66",
+   "AdventHealth",
+   "Intermountain Health",
+   "Intermountain Health (SCL Health)"
   ],
   "W7": [
    "HCA Healthcare",
    "CommonSpirit Health",
-   "Kaiser Permanente"
+   "Kaiser Permanente",
+   "UPMC"
+  ],
+  "W10": [
+   "Sutter Health"
   ],
   "W9": [],
-  "W10": [],
   "W11": [],
   "W12": [],
   "W13": [],
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T19:31:26Z",
+ "lists_generated_at": "2026-10-18T19:36:55Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1103,29 +1161,31 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T19:14:55Z",
+  "last_activity_at": "2026-10-18T19:33:03Z",
   "progress": {
    "pools": 21,
-   "covered_units": 85,
+   "covered_units": 87,
    "total_units": 1008,
-   "pct": 8
+   "pct": 9
   }
  },
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 62,
-  "evaluated": 74
+  "rejected": 69,
+  "evaluated": 81
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 73,
+  "evaluated": 80,
   "filed": 0,
   "parked": 3,
-  "rejected": 70,
+  "rejected": 77,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W1",
+  "W2",
   "W3",
   "W5",
   "W6"
@@ -1134,39 +1194,47 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "evaluating",
+   "phase": "searching",
    "families_searched": 16,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T18:34:29Z",
+   "current_family": {
+    "index": 17,
+    "name": "Cloud Architecture Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T19:33:02Z",
    "detail": "Employers covered 10/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "evaluating",
+   "phase": "searching",
    "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T18:21:10Z",
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T19:33:03Z",
    "detail": "Employers covered 3/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 14,
+   "phase": "evaluating",
+   "families_searched": 16,
    "families_total": 48,
    "current": null,
    "current_family": {
-    "index": 15,
-    "name": "Principal Cloud Engineer",
+    "index": 17,
+    "name": "Cloud Architecture Lead",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:14:16Z",
-   "detail": "Employers covered 22/73 · searching Healthcare Providers"
+   "heartbeat_at": "2026-10-18T19:32:24Z",
+   "detail": "Employers covered 24/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -1182,7 +1250,7 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "evaluating",
    "families_searched": 29,
    "families_total": 48,
    "current": null,
@@ -1191,7 +1259,7 @@
     "name": "Chief Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:14:16Z",
+   "heartbeat_at": "2026-10-18T19:32:24Z",
    "detail": "Employers covered 27/44 · searching Oil & Gas"
   },
   "W6": {
@@ -1206,7 +1274,7 @@
     "name": "Principal Infrastructure Engineer",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T19:14:16Z",
+   "heartbeat_at": "2026-10-18T19:33:02Z",
    "detail": "Employers covered 14/44 · searching Utilities"
   },
   "W7": {
@@ -1582,11 +1650,13 @@
    ],
    "Principal Cloud Engineer": [
     "W1",
+    "W3",
     "W5",
     "W6"
    ],
    "Principal Infrastructure Engineer": [
     "W1",
+    "W3",
     "W5"
    ],
    "Cloud Architecture Lead": [
@@ -1645,7 +1715,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
    {
@@ -1717,6 +1787,11 @@
     "id": "4ff2d32a-0973-48ef-a023-d25499a18f82",
     "actuated_at": "2026-10-18T03:48:58Z",
     "effect": "restart W1,W2,W3,W5,W6,W16,W17,W18,W19,W20 recorded"
+   },
+   {
+    "id": "chat-relay-stop-20261018-1431",
+    "actuated_at": "2026-10-18T19:33:48Z",
+    "effect": "sweep stop"
    }
   ],
   "fire_dues": [
@@ -1727,11 +1802,21 @@
    }
   ]
  },
- "note": "Last activity 14:14 CT · 28 workers in flight · 0 filed this run",
+ "note": "Last activity 14:33 CT · 31 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers · Title 15 of 48 · Principal Cloud Engineer",
-   "detail": "Employers covered 22/73 · searching Healthcare Providers",
+   "primary": "Federal Gov · Title 17 of 48 · Cloud Architecture Lead",
+   "detail": "Employers covered 10/30 · searching Federal Gov",
+   "pool": "W1"
+  },
+  {
+   "primary": "State & Local Gov · Title 5 of 48 · Cloud Solutions Architect",
+   "detail": "Employers covered 3/39 · searching State & Local Gov",
+   "pool": "W2"
+  },
+  {
+   "primary": "Healthcare Providers · Title 17 of 48 · Cloud Architecture Lead",
+   "detail": "Employers covered 24/73 · searching Healthcare Providers",
    "pool": "W3"
   },
   {
@@ -1747,8 +1832,8 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 15 of 48 · Principal Cloud Engineer",
-  "detail": "Employers covered 22/73 · searching Healthcare Providers"
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 17 of 48 · Cloud Architecture Lead",
+  "detail": "Employers covered 10/30 · searching Federal Gov"
  }
 }
