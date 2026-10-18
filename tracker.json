@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T21:01:22Z",
+ "generated_at": "2026-10-18T21:06:34Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -347,6 +347,13 @@
     "time": ""
    },
    {
+    "company": "Kinder Morgan",
+    "role": "Network Architect",
+    "reason": "not-remote — governing SR Network Design Specialist mirrors in Brooklyn, NY / Houston, TX; no remote language",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Lawrence Berkeley National Laboratory",
     "role": "Junior Design Review/Construction Safety Professional",
     "reason": "not-remote — location \"Bay Area, California, United States\" (listing location gate)",
@@ -455,6 +462,13 @@
     "company": "Pfizer",
     "role": "Senior Director, Cloud Architecture",
     "reason": "pay-outside-band — published range \"$193,300.00 - $322,100.00\" / \"$250,000 to $290,000\" (top above $230,000 ceiling) (chunk-a5c28844-W3b)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Director, Data Architecture (Data Architect, Commercial)",
+    "reason": "not-remote — location \"Houston, TX, US, 77042\"; published range \"$220,500 – $269,500\" also tops above the $230,000 band ceiling — POSTED: 2026-10-09",
     "where": "Employer sites",
     "time": ""
    },
@@ -899,21 +913,28 @@
     "time": ""
    }
   ],
+  "SimplyHired": [
+   {
+    "company": "Marathon Petroleum",
+    "role": "Advanced IT Solutions Architect",
+    "reason": "closed — NOT LOCATABLE on MPC Workday + Google + LinkedIn/SimplyHired (only a different Lead Solution Architect req), verified 2026-10-18",
+    "where": "SimplyHired",
+    "time": ""
+   },
+   {
+    "company": "Sutter Health",
+    "role": "Solutions Architect",
+    "reason": "not-remote — \"must reside in California... required to report to a Sutter Health facility... a minimum of three days per week onsite\" (Sacramento, CA) (chunk-a5c28844-W3e)",
+    "where": "SimplyHired",
+    "time": ""
+   }
+  ],
   "Indeed": [
    {
     "company": "Siemens Healthineers",
     "role": "Senior Staff Cloud/Edge Architect",
     "reason": "closed — NOT LOCATABLE on Siemens careers exact-title search + Google + Indeed, re-verified 2026-10-18",
     "where": "Indeed",
-    "time": ""
-   }
-  ],
-  "SimplyHired": [
-   {
-    "company": "Sutter Health",
-    "role": "Solutions Architect",
-    "reason": "not-remote — \"must reside in California... required to report to a Sutter Health facility... a minimum of three days per week onsite\" (Sacramento, CA) (chunk-a5c28844-W3e)",
-    "where": "SimplyHired",
     "time": ""
    }
   ]
@@ -1488,7 +1509,9 @@
    "City of New York (HRA/Dept of Social Services)",
    "Harris County",
    "Lawrence Berkeley National Laboratory",
-   "Lawrence Livermore National Laboratory"
+   "Lawrence Livermore National Laboratory",
+   "Kinder Morgan",
+   "Phillips 66"
   ],
   "W7": [
    "HCA Healthcare",
@@ -1503,7 +1526,8 @@
    "AdventHealth"
   ],
   "W10": [
-   "Sutter Health"
+   "Sutter Health",
+   "Marathon Petroleum"
   ],
   "W15": [
    "Intermountain Health"
@@ -1516,7 +1540,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-18T21:01:22Z",
+ "lists_generated_at": "2026-10-18T21:06:34Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1531,12 +1555,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T20:58:01Z",
+  "last_activity_at": "2026-10-18T21:06:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 3,
+   "covered_units": 7,
    "total_units": 1008,
-   "pct": 0
+   "pct": 1
   }
  },
  "counts": {
@@ -1547,14 +1571,16 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 128,
+  "evaluated": 131,
   "filed": 0,
   "parked": 3,
-  "rejected": 125,
+  "rejected": 128,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5"
+  "W1",
+  "W2",
+  "W6"
  ],
  "lanes": {
   "W1": {
@@ -1564,7 +1590,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 0/30 · searching Federal Gov"
   },
@@ -1575,7 +1605,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
@@ -1605,16 +1639,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "detail": "Employers covered 4/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -1623,7 +1653,11 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   },
@@ -1820,7 +1854,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 2 with results in",
+   "detail": "0 of 20 sector lanes finished · 3 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -1851,12 +1885,12 @@
  },
  "titles": {
   "total": 48,
-  "searched": 3,
+  "searched": 4,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "done",
-   "Cloud Architect": "searching",
+   "Cloud Architect": "done",
    "Cloud Solutions Architect": "searching",
    "Enterprise Architect": "searching",
    "Infrastructure Architect": "searching",
@@ -1904,13 +1938,19 @@
   },
   "family_lanes": {
    "Azure Architect": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Azure Solutions Architect": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Azure Cloud Architect": [
-    "W3"
+    "W3",
+    "W5"
+   ],
+   "Cloud Architect": [
+    "W5"
    ]
   }
  },
@@ -2026,19 +2066,29 @@
    }
   ]
  },
- "note": "Last activity 15:58 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 16:06 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more",
-   "pool": "W5"
+   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Employers covered 0/30 · searching Federal Gov",
+   "pool": "W1"
+  },
+  {
+   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
+   "pool": "W2"
+  },
+  {
+   "primary": "Utilities · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more",
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "Oil & Gas",
-  "headline": "Oil & Gas · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Employers covered 0/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
