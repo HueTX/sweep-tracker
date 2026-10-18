@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T12:01:39Z",
+ "generated_at": "2026-10-18T12:06:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T11:58:17Z",
+  "last_activity_at": "2026-10-18T12:03:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -273,7 +273,7 @@
     "name": "Infrastructure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T11:58:17Z",
+   "heartbeat_at": "2026-10-18T12:03:44Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -316,7 +316,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 06:58 CT",
+   "detail": "Watching — last activity 07:03 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -521,6 +521,11 @@
     "created_at": "2026-10-18T05:32:39.917695-05:00"
    },
    {
+    "id": "fire-08dc7b743a83402f",
+    "reason": "stage-relay continuation: run a5c28844 stage 2 — re-check 98b1bcd7 (families 9-10 + family 7 count-recapture, dispatched 06:49 CDT, 90-min window ends ~08:19 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only past window with evidenced failure check, then re-dispatch remaining families, families 11-24 remain, Section C Dice-mirror retries carried",
+    "created_at": "2026-10-18T07:03:44.166359-05:00"
+   },
+   {
     "id": "fire-0b12401b82394709",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — LINKEDIN FAMILIES 1-24 (in-flight chunk de744a24 families 7count+9-10 dispatched 05:14 CDT, young at 05:43 checkpoint; check its return, declare dead only past 90-min window ~06:44 CDT or on evidenced failure; then families 9-24 remain, family 7 count-recapture owed, Section C Dice-mirror retries carried)",
     "created_at": "2026-10-18T05:43:59.669269-05:00"
@@ -642,7 +647,7 @@
    }
   ]
  },
- "note": "Last activity 06:58 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 07:03 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
