@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T21:46:28Z",
+ "generated_at": "2026-10-18T21:51:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T21:45:40Z",
+  "last_activity_at": "2026-10-18T21:49:49Z",
   "progress": {
    "pools": 21,
-   "covered_units": 21,
+   "covered_units": 22,
    "total_units": 1008,
    "pct": 2
   }
@@ -31,15 +31,13 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 139,
+  "evaluated": 143,
   "filed": 0,
   "parked": 3,
-  "rejected": 136,
+  "rejected": 140,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -67,16 +65,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 3,
+   "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 4,
-    "name": "Cloud Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Employers covered 4/73 · searching Healthcare Providers"
+   "detail": "Employers covered 6/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -346,45 +340,45 @@
    "Infrastructure Architect": "done",
    "Platform Architect": "done",
    "Solutions Architect": "done",
-   "Solution Architect": "searching",
-   "Domain Architect": "searching",
-   "Resiliency Architect": "searching",
-   "IT/OT Architect": "searching",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
-   "IT Architecture Lead": "searching",
-   "Application Architect": "searching",
-   "Integration Architect": "searching",
-   "Data Center Architect": "searching",
-   "Digital Transformation Architect": "searching",
-   "Systems Architect": "searching",
-   "Identity Architect": "searching",
-   "Technology Architect": "searching",
-   "Network Security Architect": "searching",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Solution Architect": "pending",
+   "Domain Architect": "pending",
+   "Resiliency Architect": "pending",
+   "IT/OT Architect": "pending",
+   "Cloud Transformation Architect": "pending",
+   "Principal Cloud Engineer": "pending",
+   "Principal Infrastructure Engineer": "pending",
+   "Cloud Architecture Lead": "pending",
+   "Cloud Infrastructure Lead": "pending",
+   "Principal Technical Architect": "pending",
+   "Technology Strategy Architect": "pending",
+   "IT Architecture Lead": "pending",
+   "Application Architect": "pending",
+   "Integration Architect": "pending",
+   "Data Center Architect": "pending",
+   "Digital Transformation Architect": "pending",
+   "Systems Architect": "pending",
+   "Identity Architect": "pending",
+   "Technology Architect": "pending",
+   "Network Security Architect": "pending",
+   "Chief Architect": "pending",
+   "Cloud Engineering Lead": "pending",
+   "Platform Engineering Lead": "pending",
+   "Cloud Transformation Lead": "pending",
+   "Technology Strategy Lead": "pending",
+   "Enterprise Technology Lead": "pending",
+   "Infrastructure Strategy Lead": "pending",
+   "Cloud Practice Lead": "pending",
+   "Cloud Center of Excellence Lead": "pending",
+   "Cloud Enablement Lead": "pending",
+   "Cloud Adoption Lead": "pending",
+   "Infrastructure Modernization Lead": "pending",
+   "Technology Modernization Lead": "pending",
+   "Cloud Delivery Lead": "pending",
+   "Enterprise Technology Consultant": "pending",
+   "Cloud Advisory Consultant": "pending",
+   "Technology Transformation Consultant": "pending",
+   "Staff Cloud Engineer": "pending",
+   "Staff Infrastructure Engineer": "pending"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -407,6 +401,7 @@
    ],
    "Cloud Architect": [
     "W1",
+    "W3",
     "W5"
    ],
    "Cloud Solutions Architect": [
@@ -537,22 +532,26 @@
     "id": "fire-b3135e61cf475401",
     "reason": "tracker-sync: manual start via tracker button",
     "created_at": "2026-10-18T20:25:28Z"
+   },
+   {
+    "id": "fire-f5df63ec152f48d2",
+    "reason": "stage 2 continuation (run 8cf56a35, execution 2026-10-18 15:32 CDT slot): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION (9 chunks, all disk-evidenced): W1 labs (LBL not-remote, LLNL clearance; LANL/Argonne/LLNL ATS views withheld + Google Jobs BLOCKED x4 = blocked passes, NOT coverage), W3 Section C 5/5 NOT LOCATABLE -> closed (Mayo/Siemens/AdventHealth Sr Solutions/Sutter x2), W5 Section C (Kinder + Phillips Data not-remote — Phillips range $220,500-$269,500 also over band; Phillips OT + Marathon closed; Valero COVERED 3/3 zero), W1 agencies (VA/CMS/NASA/DOT-FAA covered zero on USAJOBS remote; Leidos 3 JD rejects pay-band $131,300-$237,350 + 6 listing not-remote), W6 slice (BHE/PSEG/ConEd/Avangrid COVERED 3/3, 13 rejects; Eversource IT Mgr AI closed), W2 portals (Maricopa/King covered, King x2 not-remote; NYC Comptroller Sr IT Architect closed; FL/GA mirrors zero), VA/IL/PA mirrors zero + Eversource/Dominion Dice pass (c) done zero, W5 slice 2 (Williams/EOG/Occidental/Devon COVERED 3/3, 5 not-remote), W3 providers 1 (Banner/Advocate/Northwell/MGB/Houston Methodist COVERED 3/3; Banner Sr Data Platform Architect worker-PASS overridden DUPLICATE-OF-FILED — filed 2026-10-10 via Dice app 3738c39e; Banner Principal pay-band reject; Advocate Epic-Cogito experience-mismatch; MGB x3 + Houston Methodist x3 not-remote). Execution totals: filed 0 / new dispositions ~55 (rejected incl. closed + duplicate) / Section A unchanged 9 standing blocks / Section C now 7 (4 Dice LinkedIn-era + Banner Tech Solution Architect II + MGB BFT Web App Architect + Houston Methodist Cyber Security EA). REMAINDER — CBIZ parked-retry STILL OWED FIRST (not dispatched this execution); W1: labs (a)/(b) blocked-pass retries, FWS Cryogenic Data Systems Architect JD read (USAJOBS remote, open 2026-10-16); W2: NC/AZ/CO/WA direct state portals + remaining state/local portals; W3: providers Baylor Scott & White, Memorial Hermann, Geisinger, Sanford, CHRISTUS, Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool + Section C items; W5: remaining named employers not evidenced in a5c28844 or 8cf56a35 chunks (SLB/Halliburton/Baker Hughes/Enbridge/TC Energy/ONEOK/Energy Transfer/Enterprise/Cheniere/NOV et al.); W6: Southern, Exelon, PG&E, NRG, Vistra, Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, Atmos et al. Capped tasks, batches of 3, compact returns, no questions; any PASS filed in the same execution it merges after ledger + do-not-reapply + Applied-state checks.",
+    "created_at": "2026-10-18T16:49:49.503248-05:00"
    }
   ]
  },
- "note": "Last activity 16:45 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 16:49 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
-   "detail": "Employers covered 4/73 · searching Healthcare Providers",
-   "pool": "W3"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 16 waiting to start"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
-  "detail": "Employers covered 4/73 · searching Healthcare Providers"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
