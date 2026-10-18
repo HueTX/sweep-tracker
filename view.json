@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T21:31:18Z",
+ "generated_at": "2026-10-18T21:36:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T21:28:08Z",
+  "last_activity_at": "2026-10-18T21:34:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 13,
+   "covered_units": 16,
    "total_units": 1008,
-   "pct": 1
+   "pct": 2
   }
  },
  "counts": {
@@ -31,15 +31,15 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 137,
+  "evaluated": 139,
   "filed": 0,
   "parked": 3,
-  "rejected": 134,
+  "rejected": 136,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W6"
+  "W3",
+  "W5"
  ],
  "lanes": {
   "W1": {
@@ -60,13 +60,9 @@
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+   "detail": "Employers covered 0/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -75,7 +71,11 @@
    "families_searched": 3,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 4,
+    "name": "Cloud Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 4/73 · searching Healthcare Providers"
   },
@@ -97,7 +97,11 @@
    "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-18T20:33:24Z",
    "detail": "Employers covered 4/44 · searching Oil & Gas"
   },
@@ -105,16 +109,12 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 3,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
+   "detail": "Employers covered 3/44 · searching Utilities"
   },
   "W7": {
    "label": "Google Jobs",
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 3 with results in",
+   "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -395,17 +395,20 @@
    "Azure Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Azure Solutions Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Azure Cloud Architect": [
     "W1",
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Cloud Architect": [
     "W1",
@@ -531,24 +534,24 @@
    }
   ]
  },
- "note": "Last activity 16:28 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 16:34 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
-   "pool": "W2"
+   "primary": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
+   "detail": "Employers covered 4/73 · searching Healthcare Providers",
+   "pool": "W3"
   },
   {
-   "primary": "Utilities · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more",
-   "pool": "W6"
+   "primary": "Oil & Gas · Title 5 of 48 · Cloud Solutions Architect",
+   "detail": "Employers covered 4/44 · searching Oil & Gas",
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "State & Local Gov",
-  "headline": "State & Local Gov · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 4 of 48 · Cloud Architect",
+  "detail": "Employers covered 4/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
