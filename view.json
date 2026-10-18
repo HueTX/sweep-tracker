@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T23:41:42Z",
+ "generated_at": "2026-10-18T23:46:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T23:24:11Z",
+  "last_activity_at": "2026-10-18T23:45:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 44,
+   "covered_units": 59,
    "total_units": 1008,
-   "pct": 4
+   "pct": 6
   }
  },
  "counts": {
@@ -37,7 +37,11 @@
   "rejected": 154,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -64,13 +68,17 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 14,
+   "phase": "evaluating",
+   "families_searched": 18,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T23:24:11Z",
-   "detail": "Employers covered 22/73 · searching Healthcare Providers"
+   "current_family": {
+    "index": 19,
+    "name": "Principal Technical Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T23:44:35Z",
+   "detail": "Employers covered 27/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -86,24 +94,32 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 14,
+   "phase": "evaluating",
+   "families_searched": 20,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T23:24:11Z",
-   "detail": "Employers covered 13/44 · searching Oil & Gas"
+   "current_family": {
+    "index": 21,
+    "name": "IT Architecture Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T23:44:35Z",
+   "detail": "Employers covered 18/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 9,
+   "phase": "evaluating",
+   "families_searched": 14,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T23:24:11Z",
-   "detail": "Employers covered 8/44 · searching Utilities"
+   "current_family": {
+    "index": 15,
+    "name": "Principal Cloud Engineer",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T23:44:35Z",
+   "detail": "Employers covered 13/44 · searching Utilities"
   },
   "W7": {
    "label": "Google Jobs",
@@ -297,7 +313,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -329,7 +345,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 14,
+  "searched": 20,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -345,40 +361,40 @@
    "Resiliency Architect": "done",
    "IT/OT Architect": "done",
    "Cloud Transformation Architect": "done",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -435,22 +451,49 @@
    ],
    "Solution Architect": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Domain Architect": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Resiliency Architect": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "IT/OT Architect": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Cloud Transformation Architect": [
     "W3",
+    "W5",
+    "W6"
+   ],
+   "Principal Cloud Engineer": [
+    "W3",
+    "W5"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W3",
+    "W5"
+   ],
+   "Cloud Architecture Lead": [
+    "W3",
+    "W5"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W3",
+    "W5"
+   ],
+   "Principal Technical Architect": [
+    "W5"
+   ],
+   "Technology Strategy Architect": [
     "W5"
    ]
   }
@@ -567,18 +610,29 @@
    }
   ]
  },
- "note": "Last activity 18:24 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 18:45 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 16 waiting to start"
+   "primary": "Healthcare Providers · Title 19 of 48 · Principal Technical Architect",
+   "detail": "Employers covered 27/73 · searching Healthcare Providers",
+   "pool": "W3"
+  },
+  {
+   "primary": "Oil & Gas · Title 21 of 48 · IT Architecture Lead",
+   "detail": "Employers covered 18/44 · searching Oil & Gas",
+   "pool": "W5"
+  },
+  {
+   "primary": "Utilities · Title 15 of 48 · Principal Cloud Engineer",
+   "detail": "Employers covered 13/44 · searching Utilities",
+   "pool": "W6"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 19 of 48 · Principal Technical Architect",
+  "detail": "Employers covered 27/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
