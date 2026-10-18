@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T11:46:37Z",
+ "generated_at": "2026-10-18T11:51:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T11:43:20Z",
+  "last_activity_at": "2026-10-18T11:49:47Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -273,7 +273,7 @@
     "name": "Infrastructure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T11:43:20Z",
+   "heartbeat_at": "2026-10-18T11:49:47Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -316,7 +316,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 06:43 CT",
+   "detail": "Watching — last activity 06:49 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -541,6 +541,11 @@
     "created_at": "2026-10-18T06:28:51.483774-05:00"
    },
    {
+    "id": "fire-21f4545f98354849",
+    "reason": "stage-relay continuation: run a5c28844 stage 2 — re-check 98b1bcd7 (families 9-10 + family 7 count-recapture, dispatched 06:49 CDT, 90-min window ends ~08:19 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only past window with evidenced failure check, then re-dispatch remaining families, families 11-24 remain, Section C Dice-mirror retries carried",
+    "created_at": "2026-10-18T06:49:57.599489-05:00"
+   },
+   {
     "id": "fire-2229b567275240b5",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — LINKEDIN FAMILIES 1-24 (families 1-6 + Platform Architect covered; Infrastructure Architect count-recapture owed; families 9-24 remain; Section C Dice-mirror JD retries carried)",
     "created_at": "2026-10-18T05:08:34.212393-05:00"
@@ -632,7 +637,7 @@
    }
   ]
  },
- "note": "Last activity 06:43 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 06:49 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
