@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T22:46:30Z",
+ "generated_at": "2026-10-18T22:51:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "waiting",
   "activity": {
    "searching": false,
    "filing": false
@@ -18,7 +18,7 @@
   "last_activity_at": "2026-10-18T22:34:30Z",
   "progress": {
    "pools": 21,
-   "covered_units": 26,
+   "covered_units": 29,
    "total_units": 1008,
    "pct": 3
   }
@@ -65,12 +65,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 8,
+   "families_searched": 11,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-18T22:34:30Z",
-   "detail": "Employers covered 12/73 · searching Healthcare Providers"
+   "detail": "Employers covered 17/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -297,7 +297,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -329,7 +329,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 9,
+  "searched": 11,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -340,8 +340,8 @@
    "Infrastructure Architect": "done",
    "Platform Architect": "done",
    "Solutions Architect": "done",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
+   "Solution Architect": "done",
+   "Domain Architect": "done",
    "Resiliency Architect": "pending",
    "IT/OT Architect": "pending",
    "Cloud Transformation Architect": "pending",
@@ -423,7 +423,14 @@
     "W5"
    ],
    "Solutions Architect": [
+    "W3",
     "W5"
+   ],
+   "Solution Architect": [
+    "W3"
+   ],
+   "Domain Architect": [
+    "W3"
    ]
   }
  },
