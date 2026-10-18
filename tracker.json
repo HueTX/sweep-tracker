@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T23:01:20Z",
+ "generated_at": "2026-10-18T23:06:22Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1748,7 +1748,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-18T23:01:20Z",
+ "lists_generated_at": "2026-10-18T23:06:22Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1766,9 +1766,9 @@
   "last_activity_at": "2026-10-18T22:53:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 34,
+   "covered_units": 38,
    "total_units": 1008,
-   "pct": 3
+   "pct": 4
   }
  },
  "counts": {
@@ -1802,23 +1802,23 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 1,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Employers covered 0/39 · searching State & Local Gov"
+   "detail": "Employers covered 1/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 11,
+   "families_searched": 14,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-18T22:34:30Z",
-   "detail": "Employers covered 17/73 · searching Healthcare Providers"
+   "detail": "Employers covered 22/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -2131,6 +2131,7 @@
   "family_lanes": {
    "Azure Architect": [
     "W1",
+    "W2",
     "W3",
     "W5",
     "W6"
@@ -2183,12 +2184,15 @@
     "W5"
    ],
    "Resiliency Architect": [
+    "W3",
     "W5"
    ],
    "IT/OT Architect": [
+    "W3",
     "W5"
    ],
    "Cloud Transformation Architect": [
+    "W3",
     "W5"
    ]
   }
