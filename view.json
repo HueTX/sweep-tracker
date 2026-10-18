@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T15:01:53Z",
+ "generated_at": "2026-10-18T15:06:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T14:58:58Z",
+  "last_activity_at": "2026-10-18T15:01:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -104,16 +104,15 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "evaluating",
+   "phase": "filing",
    "families_searched": 0,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
+   "current": {
+    "company": "Diamondback Energy",
+    "title": "Senior AI Solution Architect"
    },
-   "heartbeat_at": "2026-10-18T14:48:57Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-18T15:01:55Z",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
@@ -336,7 +335,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 09:58 CT",
+   "detail": "Watching — last activity 10:01 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -651,6 +650,11 @@
     "created_at": "2026-10-18T05:23:46.737970-05:00"
    },
    {
+    "id": "fire-6fc1a8c39bfd",
+    "reason": "stage-relay continuation: run a5c28844 stage 3 (SECTOR W1,W2,W3,W5,W6) checkpoint — all 5 discovery lanes returned and merged (W1 truncated delivery, query-evidence only; W2 BLOCKED zero leads; W3 8 employers complete, 0 PASS, 10 rejects; W5 10 employers full + 30 partial, 4 rejects, 2 PASS-candidates; W6 truncated, 1 gate reject). Filing worker 15cdbe01 (Diamondback FANG-REQ-3110 + Expand Energy Sr IT Systems Architect, dispatched 09:50 CDT, 90-min window to ~11:20 CDT) still in flight at checkpoint — harvest its return first, merge dispositions, write secondary-check.json for any FILED, then work the carried remainders (W1 agency pages DOE/VA/HHS-CMS/NASA/GSA/DOT-FAA + truncated lead detail; W2 all surfaces with corrected routing; W3 ~62 unreached employers incl. all pharma; W5 4 unreached + 30 partial-pass employers + ONEOK/MPLX undispositioned JD reads; W6 all employers beyond CenterPoint/Duke/Constellation). Stage 3 does NOT advance until its units are covered or carried per R4.",
+    "created_at": "2026-10-18T10:01:55.358573-05:00"
+   },
+   {
     "id": "fire-74ac95aad2d5",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — post-window re-check of 10c71f9e (families 9-10 + family 7 count-recapture + Section C Dice retries, dispatched 07:14 CDT, 90-min window ended ~08:44 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only with evidenced failure check, then re-dispatch remaining families 9-10/11-24",
     "created_at": "2026-10-18T08:10:32.566967-05:00"
@@ -782,7 +786,7 @@
    }
   ]
  },
- "note": "Last activity 09:58 CT · 7 workers in flight · 0 filed this run",
+ "note": "Last activity 10:01 CT · 7 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
@@ -797,8 +801,8 @@
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   {
-   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "primary": "Senior AI Solution Architect — Diamondback Energy",
+   "detail": "Oil & Gas · Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   {
    "primary": "Utilities · Title 1 of 48 · Azure Architect",
