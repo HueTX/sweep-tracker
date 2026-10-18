@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T10:11:26Z",
+ "generated_at": "2026-10-18T10:16:15Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -737,7 +737,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T10:11:26Z",
+ "lists_generated_at": "2026-10-18T10:16:15Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -746,13 +746,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T10:08:34Z",
+  "last_activity_at": "2026-10-18T10:14:01Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -774,7 +774,9 @@
   "rejected": 29,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -999,12 +1001,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "stopped",
+   "phase": "searching",
    "families_searched": 7,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T10:08:34Z",
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T10:13:22Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -1022,14 +1028,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 7/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "pending",
-   "detail": "No LinkedIn filings",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -1047,7 +1053,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 05:08 CT",
+   "detail": "Watching — last activity 05:14 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1074,48 +1080,48 @@
    "Cloud Architect": "done",
    "Cloud Solutions Architect": "done",
    "Enterprise Architect": "done",
-   "Infrastructure Architect": "pending",
+   "Infrastructure Architect": "searching",
    "Platform Architect": "done",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -1273,11 +1279,11 @@
    }
   ]
  },
- "note": "Last activity 05:08 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 05:14 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 stopped · 20 waiting to start"
+   "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
+   "detail": "Families covered 7/48"
   }
  ]
 }
