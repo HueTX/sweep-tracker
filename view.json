@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T20:56:23Z",
+ "generated_at": "2026-10-18T21:01:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T20:52:20Z",
+  "last_activity_at": "2026-10-18T20:58:01Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 3,
    "total_units": 1008,
    "pct": 0
   }
@@ -31,14 +31,13 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 123,
+  "evaluated": 128,
   "filed": 0,
   "parked": 3,
-  "rejected": 120,
+  "rejected": 125,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
   "W5"
  ],
  "lanes": {
@@ -68,16 +67,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 3,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
+   "detail": "Employers covered 4/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -309,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 1 with results in",
+   "detail": "0 of 20 sector lanes finished · 2 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -340,11 +335,11 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 3,
   "families": {
-   "Azure Architect": "searching",
-   "Azure Solutions Architect": "searching",
-   "Azure Cloud Architect": "searching",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
    "Cloud Architect": "searching",
    "Cloud Solutions Architect": "searching",
    "Enterprise Architect": "searching",
@@ -391,7 +386,17 @@
    "Staff Cloud Engineer": "searching",
    "Staff Infrastructure Engineer": "searching"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W3"
+   ],
+   "Azure Solutions Architect": [
+    "W3"
+   ],
+   "Azure Cloud Architect": [
+    "W3"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
@@ -505,13 +510,8 @@
    }
   ]
  },
- "note": "Last activity 15:52 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 15:58 CT · 1 workers in flight · 0 filed this run",
  "pill": [
-  {
-   "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
-   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more",
-   "pool": "W3"
-  },
   {
    "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more",
@@ -520,9 +520,9 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 1 of 48 · Azure Architect",
-  "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
+  "label": "Oil & Gas",
+  "headline": "Oil & Gas · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
  },
  "rules": {
   "follow_all": false,
