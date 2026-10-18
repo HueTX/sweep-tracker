@@ -1,9 +1,21 @@
 {
  "schema": 2,
  "date": "2026-10-17",
- "generated_at": "2026-10-18T02:11:20Z",
- "today_filings": {},
- "today_filed_by_source": {},
+ "generated_at": "2026-10-18T02:16:11Z",
+ "today_filings": {
+  "Employer sites": [
+   {
+    "company": "Omnissa",
+    "role": "Sr Architect, Professional Services",
+    "where": "Employer sites",
+    "time": "",
+    "check": null
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "Employer sites": 1
+ },
  "today_parked": {
   "LinkedIn": [
    {
@@ -14,23 +26,9 @@
     "time": ""
    },
    {
-    "company": "Omnissa",
-    "role": "Sr Architect, Professional Services",
-    "reason": "ats-maintenance — Workday planned maintenance on the direct tenant, the LinkedIn route, and on reload; verbatim: 'Omnissa's Workday system is undergoing planned maintenance from October 17, 2026, at 2:00 PM Pacific Time to October 18, 2026, at 2:00 AM…",
-    "where": "LinkedIn",
-    "time": ""
-   },
-   {
     "company": "Veeva Systems",
     "role": "Senior Architect - Commercial Life Sciences",
     "reason": "captcha-loop — Lever form fully completed with staged resume attached, but every SUBMIT click re-triggered a fresh hCaptcha (~9 solved rounds, no submission, no confirmation; recovery-filer attempt 2026-10-17); LinkedIn re-verified NOT Applied; NOT…",
-    "where": "LinkedIn",
-    "time": ""
-   },
-   {
-    "company": "Veeva Systems",
-    "role": "Senior Architect - Commercial Life Sciences (Remote)",
-    "reason": "ats-auth-block (Lever) — THREE fully completed Lever submissions (15:51, 15:58, 16:09 CDT; tailored resume attached each time; veteran option set exactly 'I am not a veteran' where the form allowed; EEO Gender/Race selects never rendered an interactive…",
     "where": "LinkedIn",
     "time": ""
    }
@@ -72,6 +70,13 @@
     "company": "Northrop Grumman",
     "role": "Enterprise Business Architecture Lead",
     "reason": "filed-unverified — filer browser-task:99765a21 reported an ats-confirmation on Taleo (ngc-external): a submitted application visible under My Applications as 'Process Completed' and the job entry reading 'You have already applied to this job' — BUT the…",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Veeva Systems",
+    "role": "Senior Architect - Commercial Life Sciences (Remote)",
+    "reason": "captcha-loop at Lever submit — form filled fresh and verified complete before submitting (standing data; veteran status exactly 'I am not a veteran'; Gender Male; Race 'Two or More Races (Not Hispanic or Latino)'; future-contact checkbox unchecked; resume…",
     "where": "Employer sites",
     "time": ""
    }
@@ -1964,7 +1969,9 @@
    "Capgemini",
    "Accenture",
    "Cisco",
-   "NinjaOne"
+   "Veeva Systems",
+   "NinjaOne",
+   "Omnissa"
   ],
   "W9": [
    "CNO Financial Group",
@@ -2030,14 +2037,14 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T02:11:20Z",
+ "lists_generated_at": "2026-10-18T02:16:11Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "e60cf180",
   "kind": "manual-recovery",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -2045,7 +2052,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T01:43:09Z",
-  "last_activity_at": "2026-10-18T01:45:09Z",
+  "last_activity_at": "2026-10-18T02:16:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -2062,10 +2069,12 @@
  "today": {
   "date": "2026-10-17",
   "evaluated": 192,
-  "filed": 0,
-  "parked": 9,
+  "filed": 1,
+  "parked": 8,
   "rejected": 183,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "Employer sites": 1
+  }
  },
  "searching_lanes": [],
  "lanes": {
@@ -2327,7 +2336,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes returned",
    "started_at": null,
    "ended_at": null
@@ -2340,7 +2349,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 20:45 CT",
+   "detail": "Watching — last activity 21:16 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -2434,7 +2443,7 @@
   ],
   "fire_dues": []
  },
- "note": "Last activity 20:45 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:16 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
