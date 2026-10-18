@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T12:06:18Z",
+ "generated_at": "2026-10-18T12:11:18Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -737,7 +737,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-18T12:06:18Z",
+ "lists_generated_at": "2026-10-18T12:11:18Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -752,7 +752,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T12:03:44Z",
+  "last_activity_at": "2026-10-18T12:09:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -1010,7 +1010,7 @@
     "name": "Infrastructure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T12:03:44Z",
+   "heartbeat_at": "2026-10-18T12:09:20Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -1053,7 +1053,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 07:03 CT",
+   "detail": "Watching — last activity 07:09 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -1378,13 +1378,18 @@
     "created_at": "2026-10-18T06:43:36.320816-05:00"
    },
    {
+    "id": "fire-eb74f17494374ddd",
+    "reason": "stage-relay continuation: run a5c28844 stage 2 — re-check 98b1bcd7 (families 9-10 + family 7 count-recapture, dispatched 06:49 CDT, 90-min window ends ~08:19 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only past window with evidenced failure check, then re-dispatch remaining families, families 11-24 remain, Section C Dice-mirror retries carried",
+    "created_at": "2026-10-18T07:09:05.211953-05:00"
+   },
+   {
     "id": "fire-fcc3f33ee01381da",
     "reason": "stage-relay continuation: run a5c28844 stage 2 — LINKEDIN FAMILIES 1-24 (browser route infra-blocked: 2 fresh chunks returned empty this execution, 3 prior chunks unreturned; families 7-24 uncovered, retry stage 2 next execution)",
     "created_at": "2026-10-18T04:24:55.281426-05:00"
    }
   ]
  },
- "note": "Last activity 07:03 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 07:09 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
