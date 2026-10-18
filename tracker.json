@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T20:31:22Z",
+ "generated_at": "2026-10-18T20:36:23Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1459,22 +1459,22 @@
   "W13": [],
   "W14": []
  },
- "lists_generated_at": "2026-10-18T20:31:22Z",
+ "lists_generated_at": "2026-10-18T20:36:23Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "starting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T20:30:13Z",
+  "last_activity_at": "2026-10-18T20:34:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -1496,40 +1496,52 @@
   "rejected": 118,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W3",
+  "W5"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
-   "detail": ""
+   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -1545,24 +1557,28 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
-   "detail": ""
+   "heartbeat_at": "2026-10-18T20:33:24Z",
+   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   },
   "W7": {
    "label": "Google Jobs",
@@ -1790,54 +1806,54 @@
   "total": 48,
   "searched": 0,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Azure Architect": "searching",
+   "Azure Solutions Architect": "searching",
+   "Azure Cloud Architect": "searching",
+   "Cloud Architect": "searching",
+   "Cloud Solutions Architect": "searching",
+   "Enterprise Architect": "searching",
+   "Infrastructure Architect": "searching",
+   "Platform Architect": "searching",
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {}
  },
@@ -1947,29 +1963,35 @@
     "created_at": "2026-10-18T15:29:55.927802-05:00"
    },
    {
-    "id": "fire-4d2e333bf9bc45b1",
-    "reason": "stage 3 checkpoint #5 continuation (execution 2026-10-18 14:08 CDT slot): stage 3 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION (all from disk-evidenced returns): W5e (Phillips OT not-remote; Kinder PASS overridden to NOT EVALUATED snippet-only; Phillips Data + Marathon stay NOT EVALUATED), W3e (6 not-remote: UPMC, AdventHealth x2, Intermountain x2, Sutter Solutions; AdventHealth Sr Solutions pay reject OVERRIDDEN invalid — top $218,750 in band — to Section C; Siemens + Sutter items stay NOT EVALUATED), W6f (NextEra x2 + Entergy x2 not-remote; AEP covered zero), W1f+W2f (10 dispositions incl. Accenture Federal pay-band $130,200-$265,300, Akima x2, Integrated Intel clearance, NYC HRA onsite, PNNL Richland, NYC Comptroller Lead EA stale 2026-08-19; Sandia covered zero), NYC verify (W2f PASS-CANDIDATE OVERTURNED: governing posting is Computer Systems Manager 745593 — REJECTED not-remote NYC-metro residency + experience-mismatch Oracle ERP; NOT filed), W2g partial (LA County covered via fallback, 197 jobs zero architect; ComPsych not-remote; task died on a question — Cook/Harris unevidenced). Run totals now: filed 0 / parked 3 / rejected 85; Section A 9 live (6 standing stall-watch blocks + Diamondback parked-wall + Duke + Roche parked-not-locatable — do not re-litigate Duke/Roche/Amgen/Diamondback). REMAINDER BY LANE — work in capped tasks (max 5 employers / 1 portal group / 3 board searches per task, batches of 3, compact one-line returns, NO questions to the parent — a task that asks a question dies and loses its return): W1: LANL + Argonne + LBL + LLNL direct lab pages; VA/CMS/NASA/DOT-FAA direct career pages; Leidos Cloud Architect JD reads (snippets only so far). W2: Cook County + Harris County + Maricopa County + King County portals; JS-blocked state portals (FL/GA/VA/IL/PA/NC/AZ) via board mirrors; NYC Comptroller Senior IT Architect verdict (Section C). W3: providers Banner, Advocate/Atrium, Northwell, Mass General Brigham, Houston Methodist, Baylor Scott & White, Memorial Hermann, Geisinger, Sanford, CHRISTUS, Ochsner, UCHealth, OhioHealth, Wellstar, Tenet, Johns Hopkins, Penn Medicine, Stanford, UCLA, NYU Langone, Mount Sinai, Texas Children's, MD Anderson; Section C verdicts owed: Mayo Data Engineering Architect, Siemens Sr Staff Cloud/Edge, AdventHealth Sr Solutions Architect re-read, Sutter Sr Data Architect + Sutter Enterprise Architect. W5: Valero/Williams/EOG/Occidental/Devon passes (b)+(c); Kinder Morgan Network Architect governing JD read; Phillips 66 Data Architect Commercial live-status check; Marathon Advanced IT Solutions Architect JD. W6: Berkshire Hathaway Energy, PSEG, ConEd, Avangrid; Eversource + Dominion Dice pass (c); Eversource IT Manager - AI Technology JD verdict. Any PASS: parent files it in the SAME execution it merges (file-in-execution); snippet-only PASS claims are overridden to NOT EVALUATED.",
-    "created_at": "2026-10-18T15:05:33.246473-05:00"
-   },
-   {
     "id": "fire-b3135e61cf475401",
     "reason": "tracker-sync: manual start via tracker button",
     "created_at": "2026-10-18T20:25:28Z"
    }
   ]
  },
- "note": "Last activity 15:30 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 15:34 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 21 waiting to start"
+   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more",
+   "pool": "W1"
+  },
+  {
+   "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more",
+   "pool": "W3"
+  },
+  {
+   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more",
+   "pool": "W5"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
  },
  "rules": {
   "follow_all": false,
