@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T22:51:28Z",
+ "generated_at": "2026-10-18T22:56:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T22:34:30Z",
+  "last_activity_at": "2026-10-18T22:53:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 29,
+   "covered_units": 34,
    "total_units": 1008,
    "pct": 3
   }
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 155,
+  "evaluated": 158,
   "filed": 0,
   "parked": 4,
-  "rejected": 151,
+  "rejected": 154,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -87,12 +87,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 9,
+   "families_searched": 14,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-18T22:34:30Z",
-   "detail": "Employers covered 8/44 · searching Oil & Gas"
+   "detail": "Employers covered 13/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -297,7 +297,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -329,7 +329,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 11,
+  "searched": 14,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -342,9 +342,9 @@
    "Solutions Architect": "done",
    "Solution Architect": "done",
    "Domain Architect": "done",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
+   "Resiliency Architect": "done",
+   "IT/OT Architect": "done",
+   "Cloud Transformation Architect": "done",
    "Principal Cloud Engineer": "pending",
    "Principal Infrastructure Engineer": "pending",
    "Cloud Architecture Lead": "pending",
@@ -427,10 +427,21 @@
     "W5"
    ],
    "Solution Architect": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Domain Architect": [
-    "W3"
+    "W3",
+    "W5"
+   ],
+   "Resiliency Architect": [
+    "W5"
+   ],
+   "IT/OT Architect": [
+    "W5"
+   ],
+   "Cloud Transformation Architect": [
+    "W5"
    ]
   }
  },
@@ -546,7 +557,7 @@
    }
   ]
  },
- "note": "Last activity 17:34 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 17:53 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
