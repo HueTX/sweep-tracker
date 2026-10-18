@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T14:16:45Z",
+ "generated_at": "2026-10-18T14:21:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T14:15:13Z",
+  "last_activity_at": "2026-10-18T14:21:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -37,40 +37,58 @@
   "rejected": 29,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W2",
+  "W3",
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -86,24 +104,32 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T14:19:43Z",
+   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   },
   "W7": {
    "label": "Google Jobs",
@@ -310,7 +336,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 09:15 CT",
+   "detail": "Watching — last activity 09:21 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -337,48 +363,48 @@
    "Cloud Architect": "done",
    "Cloud Solutions Architect": "done",
    "Enterprise Architect": "done",
-   "Infrastructure Architect": "pending",
+   "Infrastructure Architect": "searching",
    "Platform Architect": "done",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -756,11 +782,27 @@
    }
   ]
  },
- "note": "Last activity 09:15 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 09:21 CT · 5 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 20 waiting to start"
+   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across USAJOBS / DOE labs, DOD components, DHS / CISA, and 27 more"
+  },
+  {
+   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
+  },
+  {
+   "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
+  },
+  {
+   "primary": "Oil & Gas · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+  },
+  {
+   "primary": "Utilities · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   }
  ]
 }
