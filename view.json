@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T19:01:10Z",
+ "generated_at": "2026-10-18T19:06:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T18:40:49Z",
+  "last_activity_at": "2026-10-18T19:03:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 65,
+  "evaluated": 73,
   "filed": 0,
   "parked": 3,
-  "rejected": 62,
+  "rejected": 70,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -78,7 +78,7 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "evaluating",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
@@ -87,7 +87,7 @@
     "name": "Azure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T17:34:50Z",
+   "heartbeat_at": "2026-10-18T19:03:50Z",
    "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
@@ -113,7 +113,7 @@
     "name": "Azure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T17:34:49Z",
+   "heartbeat_at": "2026-10-18T19:02:53Z",
    "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
   },
   "W6": {
@@ -128,7 +128,7 @@
     "name": "Azure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T17:34:50Z",
+   "heartbeat_at": "2026-10-18T19:02:53Z",
    "detail": "Searching · 48 title families across Duke Energy, Southern Company, Exelon, and 41 more"
   },
   "W7": {
@@ -336,7 +336,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 13:40 CT",
+   "detail": "Watching — last activity 14:03 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -651,6 +651,11 @@
     "created_at": "2026-10-18T05:23:46.737970-05:00"
    },
    {
+    "id": "fire-6e93f8c92344",
+    "reason": "stage 3 checkpoint #4 continuation (updated 14:05 CDT — W3d final harvested after the checkpoint note was written): harvest final returns of W5d 89c9a95f (Marathon Solutions JD, Phillips 66 x2, Kinder Morgan retries; Valero/Williams/EOG/Occidental/Devon passes b+c) and W6d daa25d22 (NextEra/Entergy/AEP/BHE/PSEG/ConEd/Avangrid + Eversource/Dominion pass c + Eversource IT Manager AI JD verdict); declare either dead only on an evidenced check (no final return + no live task) then re-dispatch its remainder. Remaining search remainders: W1 direct agency pages (DOE labs/VA/HHS-CMS/NASA/DOT-FAA) + Accenture Federal JD read; W2 local portals (NYC/LA County/Cook/Harris/Maricopa/King) + blocked state portals via board mirrors; W3 provider remainder (~21 providers) + Siemens Healthineers Senior Staff Cloud/Edge Architect verdict (Section C). Duke and Roche req-captures are DONE — both PASS candidates stay PARKED posting-not-locatable; do not re-litigate or file substitutes. Amgen R-256615 identity is RESOLVED (duplicate-of-filed). Diamondback stays parked-wall (stall watch owns). Stage 3 does not advance until every unit is covered or carried with dispositions.",
+    "created_at": "2026-10-18T14:02:53.014973-05:00"
+   },
+   {
     "id": "fire-6fc1a8c39bfd",
     "reason": "stage-relay continuation: run a5c28844 stage 3 (SECTOR W1,W2,W3,W5,W6) checkpoint — all 5 discovery lanes returned and merged (W1 truncated delivery, query-evidence only; W2 BLOCKED zero leads; W3 8 employers complete, 0 PASS, 10 rejects; W5 10 employers full + 30 partial, 4 rejects, 2 PASS-candidates; W6 truncated, 1 gate reject). Filing worker 15cdbe01 (Diamondback FANG-REQ-3110 + Expand Energy Sr IT Systems Architect, dispatched 09:50 CDT, 90-min window to ~11:20 CDT) still in flight at checkpoint — harvest its return first, merge dispositions, write secondary-check.json for any FILED, then work the carried remainders (W1 agency pages DOE/VA/HHS-CMS/NASA/GSA/DOT-FAA + truncated lead detail; W2 all surfaces with corrected routing; W3 ~62 unreached employers incl. all pharma; W5 4 unreached + 30 partial-pass employers + ONEOK/MPLX undispositioned JD reads; W6 all employers beyond CenterPoint/Duke/Constellation). Stage 3 does NOT advance until its units are covered or carried per R4. FIRST ACTIONS for the continuation: (1) Expand Energy is DONE — REJECTED not-remote on its Workday JR2847 hybrid Oklahoma City text (already in Section D; do not rework). (2) Diamondback Energy FANG-REQ-3110: filer 15cdbe01 died before returning its disposition — check its ATS/applied state FIRST; file only if not already applied and the canonical ATS confirms remote + all filters (tailored resume still staged at hidden_files/filings/diamondback-senior-ai-solution-architect/Hubert-Samuel-Resume.pdf).",
     "created_at": "2026-10-18T10:01:55.358573-05:00"
@@ -797,7 +802,7 @@
    }
   ]
  },
- "note": "Last activity 13:40 CT · 25 workers in flight · 0 filed this run",
+ "note": "Last activity 14:03 CT · 25 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
