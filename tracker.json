@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-18T21:26:16Z",
+ "generated_at": "2026-10-18T21:31:18Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -364,6 +364,48 @@
     "company": "Lawrence Livermore National Laboratory",
     "role": "Polymer Enclave Data Architecture and Integration Lead",
     "reason": "active-clearance — title states \"Active Security Clearance Required\" — POSTED: 2026-09-30",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Cloud Architect/Engineer",
+    "reason": "pay-outside-band — \"$131,300.00 - $237,350.00\" (top $237,350 above $230,000); also stale — POSTED: 2026-09-11",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Cloud Compute/Storage Architect R-00188653",
+    "reason": "not-remote — \"Bethesda, MD\"; Enterprise Cloud and Platform Architect R-00194589 — REJECTED: not-remote/non-US — Canberra/Melbourne, Australia",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Network Architect R-00194177 / Security Architect R-00194176",
+    "reason": "not-remote — listing location \"Bedford, MA\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Senior Growth Solutions Architect",
+    "reason": "pay-outside-band — \"$131,300.00 - $237,350.00\"; also stale — POSTED: 2026-03-31",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Solution Architect/Engineer",
+    "reason": "pay-outside-band — \"$131,300.00 - $237,350.00\"; also stale — POSTED: 2026-09-11",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Leidos",
+    "role": "Sr Salesforce Developer Architect R-00190827 / Sr AWS GenAI Solution Engineer R-00188621",
+    "reason": "not-remote — listing locations Gaithersburg, MD / Washington, DC",
     "where": "Employer sites",
     "time": ""
    },
@@ -1511,7 +1553,8 @@
    "Lawrence Berkeley National Laboratory",
    "Lawrence Livermore National Laboratory",
    "Kinder Morgan",
-   "Phillips 66"
+   "Phillips 66",
+   "Leidos"
   ],
   "W7": [
    "HCA Healthcare",
@@ -1540,7 +1583,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-18T21:26:16Z",
+ "lists_generated_at": "2026-10-18T21:31:18Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1555,10 +1598,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-18T21:06:16Z",
+  "last_activity_at": "2026-10-18T21:28:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 7,
+   "covered_units": 13,
    "total_units": 1008,
    "pct": 1
   }
@@ -1571,14 +1614,13 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 131,
+  "evaluated": 137,
   "filed": 0,
   "parked": 3,
-  "rejected": 128,
+  "rejected": 134,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W6"
  ],
@@ -1587,16 +1629,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-18T20:33:24Z",
-   "detail": "Employers covered 0/30 · searching Federal Gov"
+   "detail": "Employers covered 4/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -1885,14 +1923,14 @@
  },
  "titles": {
   "total": 48,
-  "searched": 4,
+  "searched": 6,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "done",
    "Cloud Architect": "done",
-   "Cloud Solutions Architect": "searching",
-   "Enterprise Architect": "searching",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
    "Infrastructure Architect": "searching",
    "Platform Architect": "searching",
    "Solutions Architect": "searching",
@@ -1938,19 +1976,29 @@
   },
   "family_lanes": {
    "Azure Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Azure Solutions Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Azure Cloud Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Cloud Architect": [
+    "W1",
     "W5"
+   ],
+   "Cloud Solutions Architect": [
+    "W1"
+   ],
+   "Enterprise Architect": [
+    "W1"
    ]
   }
  },
@@ -2066,13 +2114,8 @@
    }
   ]
  },
- "note": "Last activity 16:06 CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 16:28 CT · 2 workers in flight · 0 filed this run",
  "pill": [
-  {
-   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
-   "detail": "Employers covered 0/30 · searching Federal Gov",
-   "pool": "W1"
-  },
   {
    "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
    "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
@@ -2086,9 +2129,9 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "Federal Gov",
-  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
-  "detail": "Employers covered 0/30 · searching Federal Gov"
+  "label": "State & Local Gov",
+  "headline": "State & Local Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
  },
  "rules": {
   "follow_all": false,
