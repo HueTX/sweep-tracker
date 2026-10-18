@@ -1,24 +1,21 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T02:46:17Z",
+ "generated_at": "2026-10-18T02:51:31Z",
  "lane_state_source": "model",
  "run": {
-  "id": "e60cf180",
+  "id": "87e5feb9",
   "kind": "manual-recovery",
-  "status": "stalled",
-  "state": "stalled",
+  "status": "running",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
-  "stalled": {
-   "since": "2026-10-18T02:16:05Z",
-   "reason": "Nothing has moved since 9:16 PM CT."
-  },
-  "started_at": "2026-10-18T01:43:09Z",
-  "last_activity_at": "2026-10-18T02:16:05Z",
+  "live": true,
+  "stalled": null,
+  "started_at": "2026-10-18T02:47:20Z",
+  "last_activity_at": "2026-10-18T02:50:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -28,9 +25,9 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 1,
-  "evaluated": 10
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 7
  },
  "today": {
   "date": "2026-10-17",
@@ -42,7 +39,9 @@
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -267,25 +266,28 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "filing",
    "families_searched": 0,
    "families_total": 48,
-   "current": null,
+   "current": {
+    "company": "Veeva",
+    "title": "Senior Architect - Commercial Life Sciences"
+   },
    "current_family": null,
-   "heartbeat_at": "2026-10-18T01:45:09Z",
+   "heartbeat_at": "2026-10-18T02:49:24Z",
    "detail": ""
   }
  },
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Run started 8:43 PM CT",
-   "started_at": "2026-10-18T01:43:09Z",
-   "ended_at": "2026-10-18T01:43:09Z"
+   "detail": "Run started 9:47 PM CT",
+   "started_at": "2026-10-18T02:47:20Z",
+   "ended_at": "2026-10-18T02:47:20Z"
   },
   "prep": {
    "state": "done",
-   "detail": "8 leads in the queue",
+   "detail": "7 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
@@ -296,26 +298,26 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes returned",
    "started_at": null,
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 filing result(s) back",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Stalled — nothing has moved",
+   "detail": "Watching — last activity 21:50 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -336,54 +338,54 @@
   "total": 48,
   "searched": 0,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Azure Architect": "searching",
+   "Azure Solutions Architect": "searching",
+   "Azure Cloud Architect": "searching",
+   "Cloud Architect": "searching",
+   "Cloud Solutions Architect": "searching",
+   "Enterprise Architect": "searching",
+   "Infrastructure Architect": "searching",
+   "Platform Architect": "searching",
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {}
  },
@@ -393,7 +395,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "idle",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -409,11 +411,11 @@
   ],
   "fire_dues": []
  },
- "note": "Last activity 21:16 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:50 CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Sweep stalled — nothing is searching right now",
-   "detail": "Nothing has moved since 9:16 PM CT."
+   "primary": "Senior Architect - Commercial Life Sciences — Veeva",
+   "detail": "LinkedIn"
   }
  ]
 }
