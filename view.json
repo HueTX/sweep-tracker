@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T02:11:20Z",
+ "generated_at": "2026-10-18T02:16:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "e60cf180",
   "kind": "manual-recovery",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T01:43:09Z",
-  "last_activity_at": "2026-10-18T01:45:09Z",
+  "last_activity_at": "2026-10-18T02:16:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -32,10 +32,12 @@
  "today": {
   "date": "2026-10-17",
   "evaluated": 192,
-  "filed": 0,
-  "parked": 9,
+  "filed": 1,
+  "parked": 8,
   "rejected": 183,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "Employer sites": 1
+  }
  },
  "searching_lanes": [],
  "lanes": {
@@ -297,7 +299,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes returned",
    "started_at": null,
    "ended_at": null
@@ -310,7 +312,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 20:45 CT",
+   "detail": "Watching — last activity 21:16 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -404,7 +406,7 @@
   ],
   "fire_dues": []
  },
- "note": "Last activity 20:45 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:16 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
