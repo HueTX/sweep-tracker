@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T04:56:09Z",
+ "generated_at": "2026-10-18T05:01:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "70691592",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T03:42:55Z",
-  "last_activity_at": "2026-10-18T04:53:59Z",
+  "last_activity_at": "2026-10-18T04:59:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 54,
@@ -30,16 +30,16 @@
   "evaluated": 28
  },
  "today": {
-  "date": "2026-10-17",
-  "evaluated": 212,
-  "filed": 2,
-  "parked": 7,
-  "rejected": 203,
-  "filed_by_source": {
-   "Employer sites": 2
-  }
+  "date": "2026-10-18",
+  "evaluated": 0,
+  "filed": 0,
+  "parked": 0,
+  "rejected": 0,
+  "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -264,12 +264,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T04:38:17Z",
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-18T04:59:04Z",
    "detail": "Families covered 6/48"
   }
  },
@@ -287,14 +291,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 6/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "pending",
-   "detail": "No LinkedIn filings",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -312,7 +316,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 23:53 CT",
+   "detail": "Watching — last activity 23:59 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -642,11 +646,11 @@
    }
   ]
  },
- "note": "Last activity 23:53 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 23:59 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 19 waiting to start"
+   "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
+   "detail": "Families covered 6/48"
   }
  ]
 }
