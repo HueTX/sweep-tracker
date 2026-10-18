@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-18T13:11:30Z",
+ "generated_at": "2026-10-18T13:16:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "a5c28844",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T05:32:28Z",
-  "last_activity_at": "2026-10-18T13:10:32Z",
+  "last_activity_at": "2026-10-18T13:16:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 7,
@@ -273,7 +273,7 @@
     "name": "Infrastructure Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-18T13:07:34Z",
+   "heartbeat_at": "2026-10-18T13:16:08Z",
    "detail": "Families covered 7/48"
   }
  },
@@ -316,7 +316,7 @@
   },
   "stall_watch": {
    "state": "active",
-   "detail": "Watching — last activity 08:10 CT",
+   "detail": "Watching — last activity 08:16 CT",
    "started_at": null,
    "ended_at": null
   },
@@ -631,6 +631,11 @@
     "created_at": "2026-10-18T03:48:10Z"
    },
    {
+    "id": "fire-7a9289f11ec0",
+    "reason": "stage-relay continuation: run a5c28844 stage 2 — post-window re-check of 10c71f9e (families 9-10 + family 7 count-recapture + Section C Dice retries, dispatched 07:14 CDT, 90-min window ended ~08:44 CDT); if returned merge chunk with coverage-contingent query logs, else declare dead only with evidenced failure check, then re-dispatch remaining families 9-10/11-24",
+    "created_at": "2026-10-18T08:16:08.463907-05:00"
+   },
+   {
     "id": "fire-7e53238421d7",
     "reason": "stage relay continuation: run a5c28844 stage 2 — LINKEDIN FAMILIES 1-24 (chunk families 7-12 dead-tab x2, re-dispatch smaller chunks)",
     "created_at": "2026-10-18T08:18:22Z"
@@ -712,7 +717,7 @@
    }
   ]
  },
- "note": "Last activity 08:10 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 08:16 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
