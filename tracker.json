@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-19T02:31:15Z",
+ "generated_at": "2026-10-19T02:36:24Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -373,6 +373,27 @@
     "company": "Expand Energy",
     "role": "Senior IT Systems Architect",
     "reason": "not-remote — employer ATS (governing) states Hybrid, Oklahoma City, OK; board mirror's 'Remote' label was a bait-and-switch — POSTED: 2026-10-16 — workarounds tried: employer Workday ATS (fails on governing text), board mirror (the misleading copy) (filer…",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Federal Reserve Bank of San Francisco",
+    "role": "Data Architect",
+    "reason": "employer out of tasked scope (Reserve Bank, not the Board) + stale ('30 days ago')",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Federal Reserve Board",
+    "role": "Principal Data Architect/Engineer - R&S",
+    "reason": "stale + not-remote + hands-on programming — 'Posted 12 Days Ago'; \"Washington, DC\"; JD \"Strong hands-on software engineering experience, including development, testing, and deployment.\"; pay \"$144,500 - 210,500\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Federal Reserve System",
+    "role": "Architect/Engineer - Reserve Bank Operations & Payment Systems",
+    "reason": "not-remote — location \"Washington, DC\" (location gate, no JD read); salary \"$103,988–$152,921\" also below band",
     "where": "Employer sites",
     "time": ""
    },
@@ -1116,6 +1137,13 @@
     "time": ""
    },
    {
+    "company": "Federal Reserve Board",
+    "role": "Principal Cloud Architect - IT",
+    "reason": "stale + not-remote — 'Posted 12 Days Ago' (~2026-10-06); Google Jobs location \"Washington, DC\"; JD duty \"Makes decisions that provide direction for the technical architecture and roadmap for cloud capabilities and migrations.\"; pay \"$144,500 - 210,000\" top…",
+    "where": "Google Jobs",
+    "time": ""
+   },
+   {
     "company": "HCA Healthcare",
     "role": "Cyber Security Architect",
     "reason": "stale posting — posted 2026-10-06, outside 7-day window (chunk-a5c28844-W3)",
@@ -1847,7 +1875,10 @@
    "Dominion Energy",
    "Eversource Energy",
    "CMS Energy",
-   "PPL Corporation"
+   "PPL Corporation",
+   "Federal Reserve Board",
+   "Federal Reserve System",
+   "Federal Reserve Bank of San Francisco"
   ],
   "W7": [
    "HCA Healthcare",
@@ -1863,7 +1894,8 @@
    "Eversource",
    "Chevron",
    "Los Alamos National Laboratory",
-   "Lawrence Berkeley National Laboratory"
+   "Lawrence Berkeley National Laboratory",
+   "Federal Reserve Board"
   ],
   "W10": [
    "Sutter Health",
@@ -1883,7 +1915,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-19T02:31:15Z",
+ "lists_generated_at": "2026-10-19T02:36:24Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1892,16 +1924,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-19T02:29:45Z",
+  "last_activity_at": "2026-10-19T02:34:32Z",
   "progress": {
    "pools": 21,
-   "covered_units": 118,
+   "covered_units": 116,
    "total_units": 1008,
    "pct": 12
   }
@@ -1914,10 +1946,10 @@
  },
  "today": {
   "date": "2026-10-18",
-  "evaluated": 176,
+  "evaluated": 180,
   "filed": 0,
   "parked": 4,
-  "rejected": 172,
+  "rejected": 176,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -1927,17 +1959,16 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 34,
+   "phase": "filing",
+   "families_searched": 32,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 35,
-    "name": "Enterprise Technology Lead",
-    "total": 48
+   "current": {
+    "company": "Brookhaven National Laboratory",
+    "title": "Principal Architect"
    },
-   "heartbeat_at": "2026-10-19T02:29:32Z",
-   "detail": "Employers covered 21/30 · searching Federal Gov"
+   "current_family": null,
+   "heartbeat_at": "2026-10-19T02:34:32Z",
+   "detail": "Employers covered 20/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -2218,7 +2249,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 34,
+  "searched": 32,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -2252,8 +2283,8 @@
    "Chief Architect": "done",
    "Cloud Engineering Lead": "done",
    "Platform Engineering Lead": "done",
-   "Cloud Transformation Lead": "done",
-   "Technology Strategy Lead": "done",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
    "Enterprise Technology Lead": "searching",
    "Infrastructure Strategy Lead": "searching",
    "Cloud Practice Lead": "searching",
@@ -2449,12 +2480,6 @@
    ],
    "Platform Engineering Lead": [
     "W1"
-   ],
-   "Cloud Transformation Lead": [
-    "W1"
-   ],
-   "Technology Strategy Lead": [
-    "W1"
    ]
   }
  },
@@ -2585,19 +2610,19 @@
    }
   ]
  },
- "note": "Last activity 21:29 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:34 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Federal Gov · Title 35 of 48 · Enterprise Technology Lead",
-   "detail": "Employers covered 21/30 · searching Federal Gov",
+   "primary": "Principal Architect — Brookhaven National Laboratory",
+   "detail": "Federal Gov · Employers covered 20/30 · searching Federal Gov",
    "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "Federal Gov",
-  "headline": "Federal Gov · Title 35 of 48 · Enterprise Technology Lead",
-  "detail": "Employers covered 21/30 · searching Federal Gov"
+  "headline": "Principal Architect — Brookhaven National Laboratory",
+  "detail": "Federal Gov · Employers covered 20/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
