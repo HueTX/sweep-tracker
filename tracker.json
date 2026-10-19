@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T10:41:16Z",
+ "generated_at": "2026-10-19T10:46:27Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -531,22 +531,22 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T10:41:16Z",
+ "lists_generated_at": "2026-10-19T10:46:27Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
-  "id": "a74ed2fb",
+  "id": "a94e0f95",
   "kind": "scheduled",
-  "status": "complete",
-  "state": "complete",
+  "status": "running",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
-  "started_at": "2026-10-19T04:38:00Z",
-  "last_activity_at": "2026-10-19T07:47:00Z",
+  "started_at": "2026-10-19T10:41:54Z",
+  "last_activity_at": "2026-10-19T10:43:27Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -555,10 +555,10 @@
   }
  },
  "counts": {
-  "filed": 2,
-  "parked": 1,
+  "filed": 0,
+  "parked": 0,
   "rejected": 0,
-  "evaluated": 13
+  "evaluated": 7
  },
  "today": {
   "date": "2026-10-19",
@@ -568,7 +568,9 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -793,25 +795,25 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "stopped",
+   "phase": "filing",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-19T05:17:50Z",
+   "heartbeat_at": "2026-10-19T10:43:27Z",
    "detail": ""
   }
  },
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Run started 11:38 PM CT",
-   "started_at": "2026-10-19T04:38:00Z",
-   "ended_at": "2026-10-19T04:38:00Z"
+   "detail": "Run started 5:41 AM CT",
+   "started_at": "2026-10-19T10:41:54Z",
+   "ended_at": "2026-10-19T10:41:54Z"
   },
   "prep": {
    "state": "done",
-   "detail": "10 leads in the queue",
+   "detail": "7 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
@@ -822,94 +824,94 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished",
    "started_at": null,
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 filing result(s) back",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "Run closed",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "quality_check": {
-   "state": "done",
+   "state": "pending",
    "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "Run closed 1:23 AM CT",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-10-19T06:23:38Z"
+   "ended_at": null
   }
  },
  "titles": {
   "total": 48,
   "searched": 0,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Azure Architect": "searching",
+   "Azure Solutions Architect": "searching",
+   "Azure Cloud Architect": "searching",
+   "Cloud Architect": "searching",
+   "Cloud Solutions Architect": "searching",
+   "Enterprise Architect": "searching",
+   "Infrastructure Architect": "searching",
+   "Platform Architect": "searching",
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {}
  },
@@ -928,7 +930,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "idle",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -1050,13 +1052,19 @@
    }
   ]
  },
- "note": "Last activity 02:47 CT · 0 workers in flight · 2 filed this run",
- "pill": [],
+ "note": "Last activity 05:43 CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn",
+   "detail": "Titles 0/48",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn",
+  "detail": "Titles 0/48"
  },
  "rules": {
   "follow_all": false,
