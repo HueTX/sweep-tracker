@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T20:36:21Z",
+ "generated_at": "2026-10-19T20:41:52Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -1734,7 +1734,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T20:36:21Z",
+ "lists_generated_at": "2026-10-19T20:41:52Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1743,13 +1743,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-19T20:32:06Z",
+  "last_activity_at": "2026-10-19T20:41:07Z",
   "progress": {
    "pools": 21,
    "covered_units": 3,
@@ -1774,7 +1774,9 @@
    "Ladders": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1790,13 +1792,17 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T20:40:20Z",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -2071,51 +2077,51 @@
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "done",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Cloud Architect": "searching",
+   "Cloud Solutions Architect": "searching",
+   "Enterprise Architect": "searching",
+   "Infrastructure Architect": "searching",
+   "Platform Architect": "searching",
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2231,11 +2237,6 @@
   ],
   "fire_dues": [
    {
-    "id": "fire-00abe1b11777",
-    "reason": "supervisor recovery: PROGRESS-STALLED for run 8cf56a35 — run 8cf56a35 started 2026-10-18T20:28:30Z (age 28368s)",
-    "created_at": "2026-10-18T23:21:19.775840-05:00"
-   },
-   {
     "id": "fire-32a282450fddacfd",
     "reason": "stage 3 continuation (run a94e0f95): stage 3 does NOT advance — W1 slice-coverage minimum unmet. FINAL stage-3 totals after all completed-report corrections: carried filings 3 FILED (Jobgether Solutions Architect 4479952997 via LinkedIn Easy Apply 07:56 CT, independently verified Applied; Ladders Cloud Architect 4478271492 via Apply4Me 07:57 CT; Ladders Senior Solutions Architect 4478258831 via Apply4Me 08:05 CT — veteran exactly 'I am not a veteran' on both Ladders forms), Tria Federal 4454567872 REJECTED do-not-reapply, ID Logistics 4480897191 REJECTED duplicate-of-filed. W1 covered (chunk-evidenced): USAJOBS portal group COMPLETE (control = 1 known FWS reject; all 8 agency groups facet-covered at 0); labs ORNL/BNL/Sandia/PNNL/NREL/LANL/Argonne/LBL/LLNL/SLAC all 3/3 0 PASS; regulators FDIC/OCC/CFPB/Federal Reserve Board/SEC covered 0 PASS. REMAINDER (all W1): (0) board pass (c) retries for Argonne, LBL, LLNL, SLAC (Dice views withheld / Indeed sign-in / SimplyHired withheld in the labs-2 terminal report — those labs are covered (a)+(b) only); (1) regulators/cabinet FERC, NRC, TVA (own-site + Google Jobs passes owed), NSF, OPM, SBA, HUD, GSA, SSA; (2) cabinet USDA, Commerce (NOAA/USPTO), Interior, Labor, State, EPA, US Army Corps of Engineers; (3) Fermilab 3 passes (own ATS architect + Google Jobs + Dice/Indeed). Capped tasks (1 portal group / max 5 employers), batches of 3, compact returns, file-in-execution for any PASS. Standing blocks (CBIZ etc.) stay stall-watch-owned. LESSON from this stage: interim browser-task summaries are NOT mergeable — three interim summaries (Jobgether, USAJOBS, Ladders) were all contradicted by their completed receipt-backed reports; merge only completed reports.",
     "created_at": "2026-10-19T07:56:27.192457-05:00"
@@ -2297,18 +2298,19 @@
    }
   ]
  },
- "note": "Last activity 15:32 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 15:41 CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 20 waiting to start"
+   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
+   "pool": "W2"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "State & Local Gov",
+  "headline": "State & Local Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
  },
  "rules": {
   "follow_all": false,
