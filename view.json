@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-19T18:41:25Z",
+ "generated_at": "2026-10-19T18:52:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "a94e0f95",
   "kind": "scheduled",
-  "status": "running",
-  "state": "waiting",
+  "status": "complete",
+  "state": "complete",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T17:44:26Z",
+  "last_activity_at": "2026-10-19T18:52:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 37,
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 7,
   "parked": 4,
-  "rejected": 117,
-  "evaluated": 129
+  "rejected": 131,
+  "evaluated": 143
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 79,
+  "evaluated": 93,
   "filed": 7,
   "parked": 4,
-  "rejected": 68,
+  "rejected": 82,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -61,7 +61,7 @@
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-19T16:21:34Z",
+   "heartbeat_at": "2026-10-19T18:51:18Z",
    "detail": "Employers covered 1/39 · searching State & Local Gov"
   },
   "W3": {
@@ -312,22 +312,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed",
    "started_at": null,
    "ended_at": null
   },
   "quality_check": {
-   "state": "pending",
+   "state": "done",
    "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed 1:47 PM CT",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-10-19T18:47:22Z"
   }
  },
  "titles": {
@@ -507,7 +507,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "idle",
   "pending": [],
   "acks": [
    {
@@ -618,6 +618,11 @@
     "created_at": "2026-10-19T01:23:38.204489-05:00"
    },
    {
+    "id": "fire-a65fd3f23c8a41ff",
+    "reason": "stage-relay continuation: run a94e0f95 stage 4 (SECTOR W2 — State & Local Gov) does NOT advance — batch 1 covered GovJobs/NEOGOV general, Texas WorkInTexas, California jobs.ca.gov (31 evaluated, 0 PASS, chunks on disk). REMAINDER portal groups first: Florida, NY state, WA state portal, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King (dedicated), OR, MA, NJ, MD, MN, WI, MI, IN, TN, MO, LA, KY, OK, CT, UT, NV, City of Houston, Miami-Dade, ClearanceJobs. Capped tasks (1 portal group each), batches of 3, compact returns with query start times, file-in-execution for any PASS. Section A standing blocks remain stall-watch owned.",
+    "created_at": "2026-10-19T13:51:18.573975-05:00"
+   },
+   {
     "id": "fire-c3d0eff99eb34311",
     "reason": "stage 3 (run a94e0f95): W1 remainder after dead batch — FERC/NRC/TVA/NSF/OPM; SBA/HUD/GSA/SSA/USDA; Commerce/Interior/Labor/State/EPA; US Army Corps; Fermilab; Argonne/LBL/LLNL/SLAC board pass (c). Previous batch tasks declared dead (no return, stubs on disk); if their terminal reports arrive, reconcile receipt-backed reports over stubs. BNL JR102736 remains PARKED CREDENTIAL NEEDED in Section A. Re-derive remit from disk per R3.",
     "created_at": "2026-10-19T09:29:32.138952-05:00"
@@ -633,19 +638,19 @@
     "created_at": "2026-10-19T11:03:39.051215-05:00"
    },
    {
+    "id": "fire-f38631f68a3c",
+    "reason": "supervisor recovery: PROGRESS-STALLED for run a94e0f95 — run a94e0f95 started 2026-10-19T10:41:54Z (age 29126s)",
+    "created_at": "2026-10-19T13:47:22.290577-05:00"
+   },
+   {
     "id": "fire-f874f8f49b86",
     "reason": "stage-relay continuation: run a94e0f95 stage 3 (SECTOR W1 — Federal Gov) under Rule #1 employer-first re-seed. CARRIED FILINGS OWED FIRST: 5 stage-2 PASS live in Section A (Ladders Cloud Architect 4478271492, Ladders Senior Solutions Architect 4478258831, Jobgether Solutions Architect 4479952997, ID Logistics IT Solution Architect 4480897191, Tria Federal Enterprise Cloud/VAEC Architect Lead 4454567872) — duplicate-check + preflight + file-in-execution before/with W1 work. Stage 2 corrected totals: 59 unique, 58 JD reads, 5 PASS, 54 FAIL (chunk-a94e0f95-linkedin-1-2.md corrected). Capped tasks, batches of 3, compact returns.",
     "created_at": "2026-10-19T07:40:46.270513-05:00"
    }
   ]
  },
- "note": "Last activity 12:44 CT · 1 workers in flight · 7 filed this run",
- "pill": [
-  {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 18 waiting to start"
-  }
- ],
+ "note": "Last activity 13:52 CT · 0 workers in flight · 7 filed this run",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
