@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-19T03:46:17Z",
+ "generated_at": "2026-10-19T03:51:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-19T03:43:41Z",
+  "last_activity_at": "2026-10-19T03:48:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 116,
@@ -37,7 +37,9 @@
   "rejected": 176,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -262,12 +264,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-18T20:29:55Z",
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T03:48:23Z",
    "detail": ""
   }
  },
@@ -285,7 +291,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "pending",
+   "state": "active",
    "detail": "",
    "started_at": null,
    "ended_at": null
@@ -363,22 +369,22 @@
    "Chief Architect": "done",
    "Cloud Engineering Lead": "done",
    "Platform Engineering Lead": "done",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -664,11 +670,6 @@
   ],
   "fire_dues": [
    {
-    "id": "fire-55f334c93685ca3e",
-    "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION: Chevron Sr OT Cybersecurity Architect existence verification — NOT LOCATABLE on Dice/Indeed/SimplyHired/Google Jobs remote (all 0) + Chevron Careers (0 exact) 19:35-19:40 CT — the interim-summary-only JD-read debt is DISCHARGED, do not carry it again; 0 PASS, 0 filed. DEAD TASKS THIS EXECUTION (dispatched 19:35 CT, no return past the 35-min window, declared dead 20:13 CT per R3, stubs in chunk-8cf56a35-W1labs-retry.md and chunk-8cf56a35-W6slice3.md; if late returns reach a later execution, reconcile them post-checkpoint as before): W1 labs retry (LANL/Argonne/LBL/LLNL (a)/(b)) and W6 slice 3 (Dominion (a)(b), Eversource (a)(b), CMS, DTE, PPL) — NO coverage claimed for either, both remainders stand in full. REMAINDER: W1 labs (a)/(b) blocked retries + remaining federal agencies/regulators (DOD components, DHS/CISA, HHS, DOJ/FBI, Treasury/IRS, FDIC/OCC/CFPB/Fed/SEC/FERC/NRC/TVA/Army Corps/NSF/OPM/SBA/HUD/SSA/USDA/Commerce/Interior/Labor/State/EPA); W2 remaining state portals (TX WorkInTexas, CA jobs.ca.gov, NY, OR, MA, NJ, MD, MN, WI, MI, IN, TN, MO, LA, KY, OK, CT, UT, NV) + local (LA County, Cook County, Harris County, City of Houston, Miami-Dade) + ClearanceJobs clearable-only; W3 pharma partials (Merck (b), J&J (b)(c), AbbVie (a)) + Lilly Section C x3 JD-blocked (R-110491, R-111232, R-103650) + pharma remainder (Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech — Roche Section A PASS is parked-not-locatable, do not re-litigate — Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz, United Therapeutics, Neurocrine, Alkermes, Organon) + providers remainder (HCA, CommonSpirit, Ascension, Kaiser, Cleveland Clinic, UPMC, Intermountain) + BSW/Memorial Hermann/Geisinger/CHRISTUS (b)(c) soft re-verify; W5 remainder (ExxonMobil, Shell, Diamondback is Section A parked — do not re-litigate, Liberty, Patterson-UTI, Targa, Western Midstream, Antero, Range, Murphy Oil, Talos, TechnipFMC, Weatherford, Transocean, Noble, ChampionX, ProPetro, APA, Ovintiv, Expand Energy, Coterra); W6 remainder (Dominion, Eversource, CMS, DTE, PPL, FirstEnergy, AES, Ameren, WEC, Alliant, OGE, Spire, Southwest Gas, American Water, Essential Utilities, Avista, Black Hills, IDACORP, MDU, NorthWestern, Portland General, PNM, Hawaiian Electric, ALLETE, CenterPoint, NextEra, Entergy, AEP, Constellation). Section C: 4 Dice items + 3 Lilly items. CBIZ stays live in Section A (hCaptcha park; parked-retry owns it in the next run, not this stage). Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
-    "created_at": "2026-10-18T20:14:55.493624-05:00"
-   },
-   {
     "id": "fire-afc8f061b5984c1a",
     "reason": "stage 3 (run 8cf56a35): stage 2 SECTOR W1 solo COMPLETE — SLAC + Fermilab covered 3/3 this execution (0 PASS, 0 filed, 7 new dispositions), W1 remainder empty. Next stage per re-seeded work order: LINKEDIN FAMILIES 1-2 (Azure Architect, Azure Solutions Architect) — LinkedIn lane rules in full (2-tab cap, pacing, JD-first, file-in-execution). Older unconsumed fire texts naming stage 2 remainders predate the W1 completion — re-derive from disk per R3. Section A still holds 9 standing blocks (CBIZ hCaptcha park, Brookhaven CREDENTIAL NEEDED Workday, etc.) — stall watch owns them.",
     "created_at": "2026-10-18T22:40:30.462312-05:00"
@@ -690,18 +691,19 @@
    }
   ]
  },
- "note": "Last activity 22:43 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 22:48 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 16 waiting to start"
+   "primary": "LinkedIn · Title 1 of 48 · Azure Architect",
+   "detail": "Titles 0/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 1 of 48 · Azure Architect",
+  "detail": "Titles 0/48"
  },
  "rules": {
   "follow_all": false,
