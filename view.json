@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-19T14:26:57Z",
+ "generated_at": "2026-10-19T14:36:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "a94e0f95",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T14:03:20Z",
+  "last_activity_at": "2026-10-19T14:36:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 34,
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 7,
   "parked": 4,
-  "rejected": 84,
-  "evaluated": 96
+  "rejected": 90,
+  "evaluated": 102
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 54,
+  "evaluated": 59,
   "filed": 7,
   "parked": 4,
-  "rejected": 43,
+  "rejected": 48,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -300,7 +300,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 1 with results in",
    "started_at": null,
    "ended_at": null
@@ -616,6 +616,11 @@
     "created_at": "2026-10-18T22:40:30.462312-05:00"
    },
    {
+    "id": "fire-c3d0eff99eb34311",
+    "reason": "stage 3 (run a94e0f95): W1 remainder after dead batch — FERC/NRC/TVA/NSF/OPM; SBA/HUD/GSA/SSA/USDA; Commerce/Interior/Labor/State/EPA; US Army Corps; Fermilab; Argonne/LBL/LLNL/SLAC board pass (c). Previous batch tasks declared dead (no return, stubs on disk); if their terminal reports arrive, reconcile receipt-backed reports over stubs. BNL JR102736 remains PARKED CREDENTIAL NEEDED in Section A. Re-derive remit from disk per R3.",
+    "created_at": "2026-10-19T09:29:32.138952-05:00"
+   },
+   {
     "id": "fire-ce38b0147d0b",
     "reason": "stage-relay advance: run a94e0f95 stage 1 complete (2 filed, 5 parked); perform stage 1 (LINKEDIN FAMILIES 1-2 per manifest stage plan)",
     "created_at": "2026-10-19T06:34:12.461425-05:00"
@@ -627,7 +632,7 @@
    }
   ]
  },
- "note": "Last activity 09:03 CT · 3 workers in flight · 7 filed this run",
+ "note": "Last activity 09:36 CT · 0 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
