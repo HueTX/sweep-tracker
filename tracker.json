@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T15:58:51Z",
+ "generated_at": "2026-10-19T16:06:25Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -574,6 +574,13 @@
     "time": ""
    },
    {
+    "company": "Fermilab",
+    "role": "18 ATS architect-keyword listings",
+    "reason": "not-remote (listing gate, set-level) — all 18 location \"Batavia, IL\", none remote/hybrid (chunk-a94e0f95-W1corps-fermilab.md; individual titles not enumerated by the task — no per-posting lines fabricated)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Lawrence Berkeley National Laboratory",
     "role": "Lead Controls System Architect for Accelerator Systems",
     "reason": "not-remote — \"Bay Area, California, United States\" (corroborates 8cf56a35)",
@@ -803,6 +810,13 @@
     "reason": "not-remote — \"Menlo Park, CA (On-site)\" (corroborates 8cf56a35)",
     "where": "Employer sites",
     "time": ""
+   },
+   {
+    "company": "SLAC National Accelerator Laboratory",
+    "role": "Temporary Administrative Associate 1 (Pool)",
+    "reason": "not-remote + stale — \"Stanford, CA\", Posted Date: Sep 19, 2026 (30 days)",
+    "where": "Employer sites",
+    "time": ""
    }
   ],
   "LinkedIn": [
@@ -878,6 +892,15 @@
     "role": "Senior AI Architect",
     "reason": "not-remote — \"(Hybrid Eligible)\" (Google Jobs)",
     "where": "Google Jobs",
+    "time": ""
+   }
+  ],
+  "Dice": [
+   {
+    "company": "SLAC National Accelerator Laboratory",
+    "role": "Machine Shop Inspector",
+    "reason": "not-remote — \"Stanford, CA\" (Dice board pass (c), 55 results, 2 exact SLAC)",
+    "where": "Dice",
     "time": ""
    }
   ]
@@ -1417,7 +1440,8 @@
    "Sierra7",
    "National Radio Astronomy Observatory",
    "Department of the Navy",
-   "Naval Facilities Engineering Systems Command"
+   "Naval Facilities Engineering Systems Command",
+   "Fermilab"
   ],
   "W10": [
    "The Campbell's Company",
@@ -1431,20 +1455,22 @@
   "W14": [
    "Delta Faucet Company"
   ],
-  "W9": [],
+  "W9": [
+   "SLAC National Accelerator Laboratory"
+  ],
   "W11": [],
   "W12": [],
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T15:58:51Z",
+ "lists_generated_at": "2026-10-19T16:06:25Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "a94e0f95",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -1452,26 +1478,26 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T15:00:24Z",
+  "last_activity_at": "2026-10-19T16:03:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 34,
+   "covered_units": 36,
    "total_units": 1008,
-   "pct": 3
+   "pct": 4
   }
  },
  "counts": {
   "filed": 7,
   "parked": 4,
-  "rejected": 90,
-  "evaluated": 102
+  "rejected": 92,
+  "evaluated": 104
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 59,
+  "evaluated": 62,
   "filed": 7,
   "parked": 4,
-  "rejected": 48,
+  "rejected": 51,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -1482,13 +1508,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 32,
+   "phase": "done",
+   "families_searched": 34,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-19T14:58:25Z",
-   "detail": "Employers covered 20/30 · searching Federal Gov"
+   "heartbeat_at": "2026-10-19T16:03:38Z",
+   "detail": "Employers covered 21/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -1737,7 +1763,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 1 with results in",
    "started_at": null,
    "ended_at": null
@@ -1769,7 +1795,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 32,
+  "searched": 34,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -1803,8 +1829,8 @@
    "Chief Architect": "done",
    "Cloud Engineering Lead": "done",
    "Platform Engineering Lead": "done",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
    "Enterprise Technology Lead": "pending",
    "Infrastructure Strategy Lead": "pending",
    "Cloud Practice Lead": "pending",
@@ -1917,6 +1943,12 @@
     "W1"
    ],
    "Platform Engineering Lead": [
+    "W1"
+   ],
+   "Cloud Transformation Lead": [
+    "W1"
+   ],
+   "Technology Strategy Lead": [
     "W1"
    ]
   }
@@ -2058,17 +2090,22 @@
     "created_at": "2026-10-19T06:34:12.461425-05:00"
    },
    {
+    "id": "fire-e2becba939a044fe",
+    "reason": "stage 4 (run a94e0f95): stage 3 SECTOR W1 COMPLETE — Army Corps 0 remote listings, Fermilab covered (a)(b) (18 Batavia-gated), SLAC board pass (c) done via Dice (SLAC 3/3), board passes (c) for Army Corps/Fermilab/Argonne/LBL/LLNL blocked-with-reason on all boards (recorded). 0 PASS, 0 filed this execution; run totals filed 7 / parked 4 / rejected 92. Next stage per re-seeded work order — re-derive from disk per R3. Section A standing blocks (CBIZ, Brookhaven CREDENTIAL NEEDED, etc.) remain stall-watch owned.",
+    "created_at": "2026-10-19T11:03:39.051215-05:00"
+   },
+   {
     "id": "fire-f874f8f49b86",
     "reason": "stage-relay continuation: run a94e0f95 stage 3 (SECTOR W1 — Federal Gov) under Rule #1 employer-first re-seed. CARRIED FILINGS OWED FIRST: 5 stage-2 PASS live in Section A (Ladders Cloud Architect 4478271492, Ladders Senior Solutions Architect 4478258831, Jobgether Solutions Architect 4479952997, ID Logistics IT Solution Architect 4480897191, Tria Federal Enterprise Cloud/VAEC Architect Lead 4454567872) — duplicate-check + preflight + file-in-execution before/with W1 work. Stage 2 corrected totals: 59 unique, 58 JD reads, 5 PASS, 54 FAIL (chunk-a94e0f95-linkedin-1-2.md corrected). Capped tasks, batches of 3, compact returns.",
     "created_at": "2026-10-19T07:40:46.270513-05:00"
    }
   ]
  },
- "note": "Last activity 10:00 CT · 2 workers in flight · 7 filed this run",
+ "note": "Last activity 11:03 CT · 0 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 19 waiting to start"
+   "detail": "Lanes: 2 done · 19 waiting to start"
   }
  ],
  "now_viewing": {
