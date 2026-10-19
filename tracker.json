@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-19T01:11:33Z",
+ "generated_at": "2026-10-19T01:16:22Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1792,25 +1792,25 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-19T01:11:33Z",
+ "lists_generated_at": "2026-10-19T01:16:22Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-19T00:54:50Z",
+  "last_activity_at": "2026-10-19T01:14:55Z",
   "progress": {
    "pools": 21,
-   "covered_units": 70,
+   "covered_units": 75,
    "total_units": 1008,
    "pct": 7
   }
@@ -1829,7 +1829,10 @@
   "rejected": 160,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W6"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1838,8 +1841,12 @@
    "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T00:35:04Z",
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T01:14:55Z",
    "detail": "Employers covered 4/30 · searching Federal Gov"
   },
   "W2": {
@@ -1890,12 +1897,16 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 14,
+   "families_searched": 19,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T00:35:04Z",
-   "detail": "Employers covered 13/44 · searching Utilities"
+   "current_family": {
+    "index": 20,
+    "name": "Technology Strategy Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T01:14:55Z",
+   "detail": "Employers covered 17/44 · searching Utilities"
   },
   "W7": {
    "label": "Google Jobs",
@@ -2089,7 +2100,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -2148,29 +2159,29 @@
    "Integration Architect": "done",
    "Data Center Architect": "done",
    "Digital Transformation Architect": "done",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2252,23 +2263,28 @@
    ],
    "Principal Cloud Engineer": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Principal Infrastructure Engineer": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Cloud Architecture Lead": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Cloud Infrastructure Lead": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Principal Technical Architect": [
     "W3",
-    "W5"
+    "W5",
+    "W6"
    ],
    "Technology Strategy Architect": [
     "W3",
@@ -2401,24 +2417,35 @@
     "created_at": "2026-10-18T19:05:47.156466-05:00"
    },
    {
+    "id": "fire-55f334c93685ca3e",
+    "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum unmet. MERGED THIS EXECUTION: Chevron Sr OT Cybersecurity Architect existence verification — NOT LOCATABLE on Dice/Indeed/SimplyHired/Google Jobs remote (all 0) + Chevron Careers (0 exact) 19:35-19:40 CT — the interim-summary-only JD-read debt is DISCHARGED, do not carry it again; 0 PASS, 0 filed. DEAD TASKS THIS EXECUTION (dispatched 19:35 CT, no return past the 35-min window, declared dead 20:13 CT per R3, stubs in chunk-8cf56a35-W1labs-retry.md and chunk-8cf56a35-W6slice3.md; if late returns reach a later execution, reconcile them post-checkpoint as before): W1 labs retry (LANL/Argonne/LBL/LLNL (a)/(b)) and W6 slice 3 (Dominion (a)(b), Eversource (a)(b), CMS, DTE, PPL) — NO coverage claimed for either, both remainders stand in full. REMAINDER: W1 labs (a)/(b) blocked retries + remaining federal agencies/regulators (DOD components, DHS/CISA, HHS, DOJ/FBI, Treasury/IRS, FDIC/OCC/CFPB/Fed/SEC/FERC/NRC/TVA/Army Corps/NSF/OPM/SBA/HUD/SSA/USDA/Commerce/Interior/Labor/State/EPA); W2 remaining state portals (TX WorkInTexas, CA jobs.ca.gov, NY, OR, MA, NJ, MD, MN, WI, MI, IN, TN, MO, LA, KY, OK, CT, UT, NV) + local (LA County, Cook County, Harris County, City of Houston, Miami-Dade) + ClearanceJobs clearable-only; W3 pharma partials (Merck (b), J&J (b)(c), AbbVie (a)) + Lilly Section C x3 JD-blocked (R-110491, R-111232, R-103650) + pharma remainder (Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech — Roche Section A PASS is parked-not-locatable, do not re-litigate — Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz, United Therapeutics, Neurocrine, Alkermes, Organon) + providers remainder (HCA, CommonSpirit, Ascension, Kaiser, Cleveland Clinic, UPMC, Intermountain) + BSW/Memorial Hermann/Geisinger/CHRISTUS (b)(c) soft re-verify; W5 remainder (ExxonMobil, Shell, Diamondback is Section A parked — do not re-litigate, Liberty, Patterson-UTI, Targa, Western Midstream, Antero, Range, Murphy Oil, Talos, TechnipFMC, Weatherford, Transocean, Noble, ChampionX, ProPetro, APA, Ovintiv, Expand Energy, Coterra); W6 remainder (Dominion, Eversource, CMS, DTE, PPL, FirstEnergy, AES, Ameren, WEC, Alliant, OGE, Spire, Southwest Gas, American Water, Essential Utilities, Avista, Black Hills, IDACORP, MDU, NorthWestern, Portland General, PNM, Hawaiian Electric, ALLETE, CenterPoint, NextEra, Entergy, AEP, Constellation). Section C: 4 Dice items + 3 Lilly items. CBIZ stays live in Section A (hCaptcha park; parked-retry owns it in the next run, not this stage). Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
+    "created_at": "2026-10-18T20:14:55.493624-05:00"
+   },
+   {
     "id": "fire-9cb599aa4c3e42c6",
     "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum still unmet. MERGED THIS EXECUTION (6 chunks, batches A+B, all disk-evidenced, 0 PASS, 0 filed): W3 Section C JD reads 3/3 REJECTED (Banner Tech II R4449074 stale/closed; MGB BFT Web App Architect RQ4077047 not-remote Hybrid + temp rate top $65.74; Houston Methodist Cyber Security EA not-remote In-Office + closed) — Section C additions cleared, only the 4 Dice LinkedIn-era items remain in Section C; W3 providers3 Ochsner/UCHealth/OhioHealth/Wellstar/Tenet COVERED 3/3 0 PASS; W3 providers4 UHS/LifePoint/Prime/ProMedica/Johns Hopkins COVERED 3/3 0 PASS; W5 slice3 SLB/Halliburton/Baker Hughes/Enbridge/TC Energy COVERED 3/3 0 PASS (~15 not-remote gate rejects); W2 states NC/AZ/CO/WA direct portals SEARCHED not blocked, 8 leads all REJECTED not-remote; W6 utilities Southern/Exelon/PG&E/NRG/Vistra COVERED 3/3 0 PASS (~17 rejects, PG&E AI Platforms JD read Hybrid/Oakland). CBIZ stays PARKED hCaptcha (stall/parked-retry owns next run pass; do not re-grind this stage). Duke/Roche/Diamondback do not re-litigate. REMAINDER: W1 labs (a)/(b) blocked-pass retries (LANL, Argonne, LBL, LLNL — Google Jobs blocked, ATS filtered views withheld); W2 remaining state/local portals (Texas WorkInTexas, California jobs.ca.gov, New York, Ohio + LA County, Cook County, Harris County, City of Houston, Miami-Dade, OR/MA/NJ/MD/MN/WI/MI/IN/TN/MO/LA/KY/OK/CT/UT/NV portals); W3 Penn Medicine, Stanford Health, UCLA Health, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool (Pfizer, Merck, J&J, Lilly, AbbVie, Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris et al.) + BSW/Memorial Hermann/Geisinger/CHRISTUS (b)/(c) soft re-verify; W5 Chevron, ConocoPhillips, BP, ONEOK, Energy Transfer, Enterprise Products, Cheniere, NOV, Liberty, Patterson-UTI, Plains, MPLX, Targa, Western Midstream, Antero, Range, Murphy, Talos, TechnipFMC, Weatherford, Transocean, Noble, ChampionX, ProPetro, APA, Ovintiv, Expand, Coterra; W6 Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, OGE, Atmos, Spire, Southwest Gas, American Water, Essential Utilities, Avista, Black Hills, IDACORP, MDU, NorthWestern, Portland General, PNM, Hawaiian Electric, ALLETE, CMS, DTE, PPL, FirstEnergy, AES, Ameren, WEC, Alliant, CenterPoint, NextEra, Entergy, AEP, Constellation. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
     "created_at": "2026-10-18T18:13:13.569923-05:00"
    }
   ]
  },
- "note": "Last activity 19:54 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 20:14 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 16 waiting to start"
+   "primary": "Federal Gov · Title 7 of 48 · Infrastructure Architect",
+   "detail": "Employers covered 4/30 · searching Federal Gov",
+   "pool": "W1"
+  },
+  {
+   "primary": "Utilities · Title 20 of 48 · Technology Strategy Architect",
+   "detail": "Employers covered 17/44 · searching Utilities",
+   "pool": "W6"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 7 of 48 · Infrastructure Architect",
+  "detail": "Employers covered 4/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
