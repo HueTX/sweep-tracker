@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T14:26:57Z",
+ "generated_at": "2026-10-19T14:36:24Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -553,6 +553,13 @@
     "time": ""
    },
    {
+    "company": "Department of the Navy",
+    "role": "Supervisory General Engineer/Architect",
+    "reason": "not-remote (listing gate) — \"Shaw AFB, SC\" (surfaced on OPM pass)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Federal Reserve Board",
     "role": "Principal Cloud Architect - IT (R025422)",
     "reason": "stale + not-remote — \"Posted 12 Days Ago\", Washington DC (corroborates 8cf56a35)",
@@ -609,6 +616,13 @@
     "time": ""
    },
    {
+    "company": "National Radio Astronomy Observatory",
+    "role": "FPGA System Architect - Electronics Engineer",
+    "reason": "not-remote (listing gate) — \"Crimora, VA\" (also stale, posted ~2026-10-06; surfaced on NSF pass)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "National Renewable Energy Laboratory (NLR)",
     "role": "Postdoctoral Researcher (R14430)",
     "reason": "stale (30+ days) + not-remote — Golden, CO onsite",
@@ -626,6 +640,13 @@
     "company": "National Renewable Energy Laboratory (NLR)",
     "role": "Senior Substation Engineer (R14440)",
     "reason": "stale (30+ days) + not-remote — \"On-site — Golden, CO, United States\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Naval Facilities Engineering Systems Command",
+    "role": "Supervisory General Engineer/Architect",
+    "reason": "not-remote — \"This position is a 100% TDY position to Camp Lemonnier, Djibouti, Africa.\" (surfaced on OPM pass)",
     "where": "Employer sites",
     "time": ""
    },
@@ -735,6 +756,13 @@
     "time": ""
    },
    {
+    "company": "Sierra7",
+    "role": "Software/System Architect",
+    "reason": "hands-on programming — \"Develop work products utilizing multiple programming languages\" (also stale: posted ~2026-09-23, >7d; surfaced on SBA pass, employer is Sierra7 not SBA)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "SLAC National Accelerator Laboratory",
     "role": "Custom & Executive Education Program Architect",
     "reason": "not-remote + stale — \"Palo Alto, CA\" (corroborates 8cf56a35)",
@@ -818,6 +846,15 @@
     "role": "Enterprise Cloud / VAEC Architect Lead",
     "reason": "do-not-reapply — do-not-reapply.md entry (rejected 2026-09-27, never reapply); stage-2 worker PASS overturned by parent check (same overturn as run 8cf56a35 queue) — POSTED: 2026-10-18",
     "where": "LinkedIn",
+    "time": ""
+   }
+  ],
+  "Indeed": [
+   {
+    "company": "Delta Faucet Company",
+    "role": "Salesforce Solution Architect",
+    "reason": "not-remote (listing gate, no JD read) — \"Remote in Indianapolis, IN 46280\" (surfaced on SSA Indeed pass)",
+    "where": "Indeed",
     "time": ""
    }
   ],
@@ -1376,7 +1413,11 @@
    "SLAC National Accelerator Laboratory",
    "Bureau of Consumer Financial Protection (CFPB mirror)",
    "Federal Reserve Board",
-   "Brookhaven National Laboratory"
+   "Brookhaven National Laboratory",
+   "Sierra7",
+   "National Radio Astronomy Observatory",
+   "Department of the Navy",
+   "Naval Facilities Engineering Systems Command"
   ],
   "W10": [
    "The Campbell's Company",
@@ -1387,21 +1428,23 @@
    "Federal Reserve Bank of Richmond",
    "Oak Ridge National Laboratory"
   ],
+  "W14": [
+   "Delta Faucet Company"
+  ],
   "W9": [],
   "W11": [],
   "W12": [],
   "W13": [],
-  "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T14:26:57Z",
+ "lists_generated_at": "2026-10-19T14:36:24Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "a94e0f95",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -1409,7 +1452,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T14:03:20Z",
+  "last_activity_at": "2026-10-19T14:36:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 34,
@@ -1420,15 +1463,15 @@
  "counts": {
   "filed": 7,
   "parked": 4,
-  "rejected": 84,
-  "evaluated": 96
+  "rejected": 90,
+  "evaluated": 102
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 54,
+  "evaluated": 59,
   "filed": 7,
   "parked": 4,
-  "rejected": 43,
+  "rejected": 48,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -1694,7 +1737,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 1 with results in",
    "started_at": null,
    "ended_at": null
@@ -2010,6 +2053,11 @@
     "created_at": "2026-10-18T22:40:30.462312-05:00"
    },
    {
+    "id": "fire-c3d0eff99eb34311",
+    "reason": "stage 3 (run a94e0f95): W1 remainder after dead batch — FERC/NRC/TVA/NSF/OPM; SBA/HUD/GSA/SSA/USDA; Commerce/Interior/Labor/State/EPA; US Army Corps; Fermilab; Argonne/LBL/LLNL/SLAC board pass (c). Previous batch tasks declared dead (no return, stubs on disk); if their terminal reports arrive, reconcile receipt-backed reports over stubs. BNL JR102736 remains PARKED CREDENTIAL NEEDED in Section A. Re-derive remit from disk per R3.",
+    "created_at": "2026-10-19T09:29:32.138952-05:00"
+   },
+   {
     "id": "fire-ce38b0147d0b",
     "reason": "stage-relay advance: run a94e0f95 stage 1 complete (2 filed, 5 parked); perform stage 1 (LINKEDIN FAMILIES 1-2 per manifest stage plan)",
     "created_at": "2026-10-19T06:34:12.461425-05:00"
@@ -2021,7 +2069,7 @@
    }
   ]
  },
- "note": "Last activity 09:03 CT · 3 workers in flight · 7 filed this run",
+ "note": "Last activity 09:36 CT · 0 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
