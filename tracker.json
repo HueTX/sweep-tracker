@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T20:20:38Z",
+ "generated_at": "2026-10-19T20:27:09Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -1734,7 +1734,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T20:20:38Z",
+ "lists_generated_at": "2026-10-19T20:27:09Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1743,13 +1743,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-19T20:08:59Z",
+  "last_activity_at": "2026-10-19T20:22:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 2,
@@ -1774,24 +1774,18 @@
    "Ladders": 3
   }
  },
- "searching_lanes": [
-  "W1"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 2,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 3,
-    "name": "Azure Cloud Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-19T19:31:36Z",
-   "detail": "Employers covered 1/30 · searching Federal Gov"
+   "current_family": null,
+   "heartbeat_at": "2026-10-19T20:22:52Z",
+   "detail": "Employers covered 1/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -2076,52 +2070,52 @@
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
-   "Azure Cloud Architect": "searching",
-   "Cloud Architect": "searching",
-   "Cloud Solutions Architect": "searching",
-   "Enterprise Architect": "searching",
-   "Infrastructure Architect": "searching",
-   "Platform Architect": "searching",
-   "Solutions Architect": "searching",
-   "Solution Architect": "searching",
-   "Domain Architect": "searching",
-   "Resiliency Architect": "searching",
-   "IT/OT Architect": "searching",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
-   "IT Architecture Lead": "searching",
-   "Application Architect": "searching",
-   "Integration Architect": "searching",
-   "Data Center Architect": "searching",
-   "Digital Transformation Architect": "searching",
-   "Systems Architect": "searching",
-   "Identity Architect": "searching",
-   "Technology Architect": "searching",
-   "Network Security Architect": "searching",
-   "Chief Architect": "searching",
-   "Cloud Engineering Lead": "searching",
-   "Platform Engineering Lead": "searching",
-   "Cloud Transformation Lead": "searching",
-   "Technology Strategy Lead": "searching",
-   "Enterprise Technology Lead": "searching",
-   "Infrastructure Strategy Lead": "searching",
-   "Cloud Practice Lead": "searching",
-   "Cloud Center of Excellence Lead": "searching",
-   "Cloud Enablement Lead": "searching",
-   "Cloud Adoption Lead": "searching",
-   "Infrastructure Modernization Lead": "searching",
-   "Technology Modernization Lead": "searching",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Azure Cloud Architect": "pending",
+   "Cloud Architect": "pending",
+   "Cloud Solutions Architect": "pending",
+   "Enterprise Architect": "pending",
+   "Infrastructure Architect": "pending",
+   "Platform Architect": "pending",
+   "Solutions Architect": "pending",
+   "Solution Architect": "pending",
+   "Domain Architect": "pending",
+   "Resiliency Architect": "pending",
+   "IT/OT Architect": "pending",
+   "Cloud Transformation Architect": "pending",
+   "Principal Cloud Engineer": "pending",
+   "Principal Infrastructure Engineer": "pending",
+   "Cloud Architecture Lead": "pending",
+   "Cloud Infrastructure Lead": "pending",
+   "Principal Technical Architect": "pending",
+   "Technology Strategy Architect": "pending",
+   "IT Architecture Lead": "pending",
+   "Application Architect": "pending",
+   "Integration Architect": "pending",
+   "Data Center Architect": "pending",
+   "Digital Transformation Architect": "pending",
+   "Systems Architect": "pending",
+   "Identity Architect": "pending",
+   "Technology Architect": "pending",
+   "Network Security Architect": "pending",
+   "Chief Architect": "pending",
+   "Cloud Engineering Lead": "pending",
+   "Platform Engineering Lead": "pending",
+   "Cloud Transformation Lead": "pending",
+   "Technology Strategy Lead": "pending",
+   "Enterprise Technology Lead": "pending",
+   "Infrastructure Strategy Lead": "pending",
+   "Cloud Practice Lead": "pending",
+   "Cloud Center of Excellence Lead": "pending",
+   "Cloud Enablement Lead": "pending",
+   "Cloud Adoption Lead": "pending",
+   "Infrastructure Modernization Lead": "pending",
+   "Technology Modernization Lead": "pending",
+   "Cloud Delivery Lead": "pending",
+   "Enterprise Technology Consultant": "pending",
+   "Cloud Advisory Consultant": "pending",
+   "Technology Transformation Consultant": "pending",
+   "Staff Cloud Engineer": "pending",
+   "Staff Infrastructure Engineer": "pending"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2249,6 +2243,11 @@
     "created_at": "2026-10-18T23:27:50.212138-05:00"
    },
    {
+    "id": "fire-66feef9a2415",
+    "reason": "stage 3 (run 36683c71): SECTOR W2 — State & Local Gov. FIRST: W2 remainder carried from predecessor a94e0f95 stage 4 — 35 portal groups unworked: Florida, NY state, WA state portal, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King (dedicated), OR, MA, NJ, MD, MN, WI, MI, IN, TN, MO, LA, KY, OK, CT, UT, NV, City of Houston, Miami-Dade, ClearanceJobs (GovJobs/NEOGOV general, Texas, California already covered in predecessor, 0 PASS). Capped tasks (1 portal group each), batches of 3, compact returns, remote/telework filter, location-gate at listing level, file-in-execution for any PASS. Stage 2 W1 filed 0 (DISA duty-PASS rejected pay-band).",
+    "created_at": "2026-10-19T15:22:53.074180-05:00"
+   },
+   {
     "id": "fire-7c45cecb64f2",
     "reason": "stage 2 (run 36683c71): SECTOR W1 — Federal Gov, employer lanes first per Rule #1. Stage 1 recovery complete this execution: predecessor a94e0f95 all filer-results merged, 7 filed claims spot-checked pass via secondary-check.json, relaunch 0, candidate leads 0 unworked, carried dispatchable 0 (Brookhaven/Campbell's/Capgemini credential-needed + TCS not-locatable, stall-owned). W1 in predecessor was covered 3/3 for all employers/groups with 0 PASS — search fresh past-24h/7d only, do not re-litigate covered zero passes except new postings. W2 remainder (35 portal groups) is stage 3, not this stage. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
     "created_at": "2026-10-19T14:11:33.325810-05:00"
@@ -2295,19 +2294,18 @@
    }
   ]
  },
- "note": "Last activity 15:08 CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 15:22 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Federal Gov · Title 3 of 48 · Azure Cloud Architect",
-   "detail": "Employers covered 1/30 · searching Federal Gov",
-   "pool": "W1"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 1 done · 20 waiting to start"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "Federal Gov",
-  "headline": "Federal Gov · Title 3 of 48 · Azure Cloud Architect",
-  "detail": "Employers covered 1/30 · searching Federal Gov"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
