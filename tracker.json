@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T20:03:18Z",
+ "generated_at": "2026-10-19T20:06:27Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -663,6 +663,20 @@
     "company": "Community College of Philadelphia",
     "role": "architect listing",
     "reason": "not-remote — \"Main Campus - Philadelphia, PA\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Defense Contract Management Agency",
+    "role": "IT Specialist (Network)",
+    "reason": "stale posting (opened 2026-09-30, >7 days)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Defense Information Systems Agency",
+    "role": "IT Specialist (Systems Analysis)",
+    "reason": "pay-outside-band — published range \"$100,371 to $130,488 per year\" (top $130,488 < $160,000 floor) — POSTED: 2026-10-19 — workarounds tried: USAJOBS is the employer's governing federal posting (its range governs); no alternate route changes a federal GS…",
     "where": "Employer sites",
     "time": ""
    },
@@ -1694,7 +1708,9 @@
    "LTM",
    "eBay",
    "Elevance Health",
-   "Shell Oil Company"
+   "Shell Oil Company",
+   "Defense Information Systems Agency",
+   "Defense Contract Management Agency"
   ],
   "W10": [
    "The Campbell's Company",
@@ -1718,7 +1734,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T20:03:18Z",
+ "lists_generated_at": "2026-10-19T20:06:26Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1733,10 +1749,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-19T19:56:42Z",
+  "last_activity_at": "2026-10-19T20:04:43Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 2,
    "total_units": 1008,
    "pct": 0
   }
@@ -1744,15 +1760,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 4
+  "rejected": 4,
+  "evaluated": 8
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 95,
+  "evaluated": 97,
   "filed": 7,
   "parked": 6,
-  "rejected": 82,
+  "rejected": 84,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -1766,16 +1782,16 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 2,
    "families_total": 48,
    "current": null,
    "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
+    "index": 3,
+    "name": "Azure Cloud Architect",
     "total": 48
    },
    "heartbeat_at": "2026-10-19T19:31:36Z",
-   "detail": "Employers covered 0/30 · searching Federal Gov"
+   "detail": "Employers covered 1/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -2056,10 +2072,10 @@
  },
  "titles": {
   "total": 48,
-  "searched": 0,
+  "searched": 2,
   "families": {
-   "Azure Architect": "searching",
-   "Azure Solutions Architect": "searching",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "searching",
    "Cloud Architect": "searching",
    "Cloud Solutions Architect": "searching",
@@ -2107,7 +2123,14 @@
    "Staff Cloud Engineer": "searching",
    "Staff Infrastructure Engineer": "searching"
   },
-  "family_lanes": {}
+  "family_lanes": {
+   "Azure Architect": [
+    "W1"
+   ],
+   "Azure Solutions Architect": [
+    "W1"
+   ]
+  }
  },
  "controls": {
   "priority_lanes": [
@@ -2272,19 +2295,19 @@
    }
   ]
  },
- "note": "Last activity 14:56 CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 15:04 CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Federal Gov · Title 1 of 48 · Azure Architect",
-   "detail": "Employers covered 0/30 · searching Federal Gov",
+   "primary": "Federal Gov · Title 3 of 48 · Azure Cloud Architect",
+   "detail": "Employers covered 1/30 · searching Federal Gov",
    "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "Federal Gov",
-  "headline": "Federal Gov · Title 1 of 48 · Azure Architect",
-  "detail": "Employers covered 0/30 · searching Federal Gov"
+  "headline": "Federal Gov · Title 3 of 48 · Azure Cloud Architect",
+  "detail": "Employers covered 1/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
