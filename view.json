@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-19T02:26:16Z",
+ "generated_at": "2026-10-19T02:31:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-19T02:05:28Z",
+  "last_activity_at": "2026-10-19T02:29:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 90,
+   "covered_units": 118,
    "total_units": 1008,
-   "pct": 9
+   "pct": 12
   }
  },
  "counts": {
@@ -37,18 +37,24 @@
   "rejected": 172,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 6,
+   "families_searched": 34,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T02:05:28Z",
-   "detail": "Employers covered 4/30 · searching Federal Gov"
+   "current_family": {
+    "index": 35,
+    "name": "Enterprise Technology Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T02:29:32Z",
+   "detail": "Employers covered 21/30 · searching Federal Gov"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -297,7 +303,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
@@ -329,7 +335,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 31,
+  "searched": 34,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -362,23 +368,23 @@
    "Network Security Architect": "done",
    "Chief Architect": "done",
    "Cloud Engineering Lead": "done",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -419,119 +425,153 @@
     "W6"
    ],
    "Infrastructure Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Platform Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Solutions Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Solution Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Domain Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Resiliency Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "IT/OT Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Cloud Transformation Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Principal Cloud Engineer": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Principal Infrastructure Engineer": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Cloud Architecture Lead": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Cloud Infrastructure Lead": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Principal Technical Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Technology Strategy Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "IT Architecture Lead": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Application Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Integration Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Data Center Architect": [
+    "W1",
     "W3",
     "W5",
     "W6"
    ],
    "Digital Transformation Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Systems Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Identity Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Technology Architect": [
+    "W1",
     "W3",
     "W5"
    ],
    "Network Security Architect": [
+    "W1",
     "W5"
    ],
    "Chief Architect": [
+    "W1",
     "W5"
    ],
    "Cloud Engineering Lead": [
+    "W1",
     "W5"
+   ],
+   "Platform Engineering Lead": [
+    "W1"
+   ],
+   "Cloud Transformation Lead": [
+    "W1"
+   ],
+   "Technology Strategy Lead": [
+    "W1"
    ]
   }
  },
@@ -651,24 +691,30 @@
     "created_at": "2026-10-18T21:02:35.671369-05:00"
    },
    {
+    "id": "fire-f81c986f726f",
+    "reason": "stage 2 continuation (run 8cf56a35, post-split SECTOR W1 solo stage): stage 2 does NOT advance — W1 slice-coverage minimum unmet because USAJOBS went 403-blocked this evening (worked 15:52-16:28 CT same run). MERGED THIS EXECUTION (3 chunks): W1fed1 BLOCKED (DOD components, DHS/CISA, HHS beyond CMS, DOJ/FBI, Treasury/IRS — USAJOBS 403 + Google unusual-traffic, 0 seen); W1fed2 BLOCKED on USAJOBS for FDIC/OCC/CFPB/Fed/SEC/FERC/NRC/TVA/NSF/OPM/SBA/HUD/GSA/SSA, with TVA own-site pass DONE 0 listings and Federal Reserve Board Taleo pass DONE 0 listings (their Google Jobs employer passes still owed); W1fed3 DEAD (task severed by runtime restart, no return, no coverage). 0 PASS, 0 filed. REMAINDER (all W1): (1) USAJOBS Remote=Yes retry for every agency group above once the 403 clears — VA/CMS/NASA/DOT-FAA/labs already covered, do not redo; (2) Google Jobs employer passes for TVA + Federal Reserve Board; (3) DOE labs ORNL/Brookhaven/Sandia/PNNL/NREL/SLAC/Fermilab — three passes each (own ATS 'architect' + Google Jobs remote + Dice remote). W2/W3/W5/W6 remainders from the pre-split pack belong to their own solo stages (4/6/8/10) — not this stage. CBIZ stays PARKED hCaptcha (stall watch owns). Capped tasks (1 portal group / max 5 employers), batches of 3, compact returns, file-in-execution for any PASS.",
+    "created_at": "2026-10-18T21:29:32.030884-05:00"
+   },
+   {
     "id": "fire-f90bbe0bc4604f41",
     "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum still unmet. MERGED THIS EXECUTION (3 chunks, all disk-evidenced, 0 PASS, 0 filed): W3 pharma2 Amgen/BMS/AstraZeneca/Novartis/Sanofi COVERED 3/3 (56 seen, all location-gated); W5 slice6 Liberty/Patterson-UTI/Targa/Western Midstream/Antero COVERED 3/3 (all Houston/Denver/Pittsburgh-gated or non-US); W6 slice4 FirstEnergy/AES/Ameren/WEC/Alliant COVERED 3/3 (14 leads, all location-gated). REMAINDER: W2 state/local portals (Texas WorkInTexas, California jobs.ca.gov, NY state, Ohio, LA County, Cook County, Harris County, City of Houston, Miami-Dade, OR/MA/NJ/MD/MN/WI/MI/IN/TN/MO/LA/KY/OK/CT/UT/NV) + GovernmentJobs/NEOGOV general + ClearanceJobs clearable-only; W3 providers HCA/CommonSpirit/Ascension/Kaiser/Cleveland Clinic/UPMC/Intermountain; W3 pharma GSK/Roche-Genentech/Novo Nordisk/Moderna/Regeneron/Vertex/Biogen/Gilead/Zoetis/BD/Baxter/Medtronic/Siemens Healthineers/Teva/Viatris/Incyte/BioMarin/Sarepta/Jazz/United Therapeutics/Neurocrine/Alkermes/Organon + Merck (a) blocked retry + J&J (b)(c) blocked retry + AbbVie blocked passes + Lilly 3 Section C JD reads (R-110491, R-111232, R-103650); W5 Range/Murphy/Talos/TechnipFMC/Weatherford/Transocean/Noble/ChampionX/ProPetro/APA/Ovintiv/Expand/Coterra; W6 OGE/Spire/Southwest Gas/American Water/Essential/Avista/Black Hills/IDACORP/MDU/NorthWestern/Portland General/PNM/Hawaiian/ALLETE/CenterPoint/NextEra/Entergy/AEP/Constellation; W1 remaining federal agency pages via USAJOBS Remote=Yes if not covered by the agency pass. CBIZ stays PARKED hCaptcha (stall watch owns). Duke/Roche/Diamondback do not re-litigate. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
     "created_at": "2026-10-18T20:55:32.658025-05:00"
    }
   ]
  },
- "note": "Last activity 21:05 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:29 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 16 waiting to start"
+   "primary": "Federal Gov · Title 35 of 48 · Enterprise Technology Lead",
+   "detail": "Employers covered 21/30 · searching Federal Gov",
+   "pool": "W1"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 35 of 48 · Enterprise Technology Lead",
+  "detail": "Employers covered 21/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
