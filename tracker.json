@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-18",
- "generated_at": "2026-10-19T02:01:26Z",
+ "generated_at": "2026-10-19T02:06:22Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
@@ -1883,7 +1883,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-19T02:01:26Z",
+ "lists_generated_at": "2026-10-19T02:06:22Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1898,7 +1898,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
-  "last_activity_at": "2026-10-19T01:58:46Z",
+  "last_activity_at": "2026-10-19T02:05:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 90,
@@ -1921,9 +1921,7 @@
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W5",
-  "W6"
+  "W1"
  ],
  "lanes": {
   "W1": {
@@ -1933,8 +1931,12 @@
    "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T01:25:19Z",
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T02:05:28Z",
    "detail": "Employers covered 4/30 · searching Federal Gov"
   },
   "W2": {
@@ -1955,11 +1957,7 @@
    "families_searched": 28,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 29,
-    "name": "Network Security Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-19T01:55:32Z",
    "detail": "Employers covered 42/73 · searching Healthcare Providers"
   },
@@ -1981,11 +1979,7 @@
    "families_searched": 31,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 32,
-    "name": "Platform Engineering Lead",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-19T01:55:32Z",
    "detail": "Employers covered 28/44 · searching Oil & Gas"
   },
@@ -1996,11 +1990,7 @@
    "families_searched": 24,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 25,
-    "name": "Digital Transformation Architect",
-    "total": 48
-   },
+   "current_family": null,
    "heartbeat_at": "2026-10-19T01:55:32Z",
    "detail": "Employers covered 22/44 · searching Utilities"
   },
@@ -2545,9 +2535,9 @@
     "created_at": "2026-10-18T20:14:55.493624-05:00"
    },
    {
-    "id": "fire-9cb599aa4c3e42c6",
-    "reason": "stage 2 continuation (run 8cf56a35): stage 2 does NOT advance — slice-coverage minimum still unmet. MERGED THIS EXECUTION (6 chunks, batches A+B, all disk-evidenced, 0 PASS, 0 filed): W3 Section C JD reads 3/3 REJECTED (Banner Tech II R4449074 stale/closed; MGB BFT Web App Architect RQ4077047 not-remote Hybrid + temp rate top $65.74; Houston Methodist Cyber Security EA not-remote In-Office + closed) — Section C additions cleared, only the 4 Dice LinkedIn-era items remain in Section C; W3 providers3 Ochsner/UCHealth/OhioHealth/Wellstar/Tenet COVERED 3/3 0 PASS; W3 providers4 UHS/LifePoint/Prime/ProMedica/Johns Hopkins COVERED 3/3 0 PASS; W5 slice3 SLB/Halliburton/Baker Hughes/Enbridge/TC Energy COVERED 3/3 0 PASS (~15 not-remote gate rejects); W2 states NC/AZ/CO/WA direct portals SEARCHED not blocked, 8 leads all REJECTED not-remote; W6 utilities Southern/Exelon/PG&E/NRG/Vistra COVERED 3/3 0 PASS (~17 rejects, PG&E AI Platforms JD read Hybrid/Oakland). CBIZ stays PARKED hCaptcha (stall/parked-retry owns next run pass; do not re-grind this stage). Duke/Roche/Diamondback do not re-litigate. REMAINDER: W1 labs (a)/(b) blocked-pass retries (LANL, Argonne, LBL, LLNL — Google Jobs blocked, ATS filtered views withheld); W2 remaining state/local portals (Texas WorkInTexas, California jobs.ca.gov, New York, Ohio + LA County, Cook County, Harris County, City of Houston, Miami-Dade, OR/MA/NJ/MD/MN/WI/MI/IN/TN/MO/LA/KY/OK/CT/UT/NV portals); W3 Penn Medicine, Stanford Health, UCLA Health, NYU Langone, Mount Sinai, Texas Children's, MD Anderson + big-pharma pool (Pfizer, Merck, J&J, Lilly, AbbVie, Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris et al.) + BSW/Memorial Hermann/Geisinger/CHRISTUS (b)/(c) soft re-verify; W5 Chevron, ConocoPhillips, BP, ONEOK, Energy Transfer, Enterprise Products, Cheniere, NOV, Liberty, Patterson-UTI, Plains, MPLX, Targa, Western Midstream, Antero, Range, Murphy, Talos, TechnipFMC, Weatherford, Transocean, Noble, ChampionX, ProPetro, APA, Ovintiv, Expand, Coterra; W6 Xcel, Sempra, Dominion (a)(b), Eversource (a)(b), Evergy, NiSource, OGE, Atmos, Spire, Southwest Gas, American Water, Essential Utilities, Avista, Black Hills, IDACORP, MDU, NorthWestern, Portland General, PNM, Hawaiian Electric, ALLETE, CMS, DTE, PPL, FirstEnergy, AES, Ameren, WEC, Alliant, CenterPoint, NextEra, Entergy, AEP, Constellation. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
-    "created_at": "2026-10-18T18:13:13.569923-05:00"
+    "id": "fire-c10d5ac5bbc4217a",
+    "reason": "stage-relay continuation: run 8cf56a35 stage 2 (SECTOR W1 — Federal Gov) — stage 2 (SECTOR W1,W2,W3,W5,W6 — Federal Gov · State & Local Gov · Healthcare Providers · Oil & Gas · Utilities) was SPLIT under the 2026-10-18 stage-size retool (multi-lane pack -> single-lane stages interleaved with LinkedIn units); perform stage 2 per the manifest stage plan. Uncovered employers/families from the split stage are carried in the re-derived plan at their queue positions; coverage already earned stands.",
+    "created_at": "2026-10-18T21:02:35.671369-05:00"
    },
    {
     "id": "fire-f90bbe0bc4604f41",
@@ -2556,29 +2546,19 @@
    }
   ]
  },
- "note": "Last activity 20:58 CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 21:05 CT · 0 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers · Title 29 of 48 · Network Security Architect",
-   "detail": "Employers covered 42/73 · searching Healthcare Providers",
-   "pool": "W3"
-  },
-  {
-   "primary": "Oil & Gas · Title 32 of 48 · Platform Engineering Lead",
-   "detail": "Employers covered 28/44 · searching Oil & Gas",
-   "pool": "W5"
-  },
-  {
-   "primary": "Utilities · Title 25 of 48 · Digital Transformation Architect",
-   "detail": "Employers covered 22/44 · searching Utilities",
-   "pool": "W6"
+   "primary": "Federal Gov · Title 7 of 48 · Infrastructure Architect",
+   "detail": "Employers covered 4/30 · searching Federal Gov",
+   "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 29 of 48 · Network Security Architect",
-  "detail": "Employers covered 42/73 · searching Healthcare Providers"
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 7 of 48 · Infrastructure Architect",
+  "detail": "Employers covered 4/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
