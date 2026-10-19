@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-19T04:16:29Z",
+ "generated_at": "2026-10-19T04:21:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "8cf56a35",
   "kind": "scheduled",
-  "status": "running",
-  "state": "waiting",
+  "status": "complete",
+  "state": "complete",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-18T20:28:30Z",
   "last_activity_at": "2026-10-19T03:48:23Z",
@@ -291,8 +291,8 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -309,22 +309,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed",
    "started_at": null,
    "ended_at": null
   },
   "quality_check": {
-   "state": "pending",
+   "state": "done",
    "detail": "",
    "started_at": null,
    "ended_at": null
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Run closed 11:21 PM CT",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-10-19T04:21:19Z"
   }
  },
  "titles": {
@@ -578,7 +578,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "idle",
   "pending": [],
   "acks": [
    {
@@ -664,6 +664,11 @@
   ],
   "fire_dues": [
    {
+    "id": "fire-00abe1b11777",
+    "reason": "supervisor recovery: PROGRESS-STALLED for run 8cf56a35 — run 8cf56a35 started 2026-10-18T20:28:30Z (age 28368s)",
+    "created_at": "2026-10-18T23:21:19.775840-05:00"
+   },
+   {
     "id": "fire-afc8f061b5984c1a",
     "reason": "stage 3 (run 8cf56a35): stage 2 SECTOR W1 solo COMPLETE — SLAC + Fermilab covered 3/3 this execution (0 PASS, 0 filed, 7 new dispositions), W1 remainder empty. Next stage per re-seeded work order: LINKEDIN FAMILIES 1-2 (Azure Architect, Azure Solutions Architect) — LinkedIn lane rules in full (2-tab cap, pacing, JD-first, file-in-execution). Older unconsumed fire texts naming stage 2 remainders predate the W1 completion — re-derive from disk per R3. Section A still holds 9 standing blocks (CBIZ hCaptcha park, Brookhaven CREDENTIAL NEEDED Workday, etc.) — stall watch owns them.",
     "created_at": "2026-10-18T22:40:30.462312-05:00"
@@ -686,12 +691,7 @@
   ]
  },
  "note": "Last activity 22:48 CT · 0 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 15 waiting to start"
-  }
- ],
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
