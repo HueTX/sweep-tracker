@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T14:56:26Z",
+ "generated_at": "2026-10-19T15:05:48Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -1437,22 +1437,22 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T14:56:26Z",
+ "lists_generated_at": "2026-10-19T15:05:48Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "a94e0f95",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T14:40:31Z",
+  "last_activity_at": "2026-10-19T15:00:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 34,
@@ -1477,7 +1477,9 @@
    "Ladders": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1486,8 +1488,12 @@
    "families_searched": 32,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T13:40:38Z",
+   "current_family": {
+    "index": 33,
+    "name": "Cloud Transformation Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T14:58:25Z",
    "detail": "Employers covered 20/30 · searching Federal Gov"
   },
   "W2": {
@@ -1737,7 +1743,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 20 sector lanes finished · 1 with results in",
    "started_at": null,
    "ended_at": null
@@ -1803,22 +1809,22 @@
    "Chief Architect": "done",
    "Cloud Engineering Lead": "done",
    "Platform Engineering Lead": "done",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2064,18 +2070,19 @@
    }
   ]
  },
- "note": "Last activity 09:40 CT · 0 workers in flight · 7 filed this run",
+ "note": "Last activity 10:00 CT · 2 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 19 waiting to start"
+   "primary": "Federal Gov · Title 33 of 48 · Cloud Transformation Lead",
+   "detail": "Employers covered 20/30 · searching Federal Gov",
+   "pool": "W1"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Federal Gov",
+  "headline": "Federal Gov · Title 33 of 48 · Cloud Transformation Lead",
+  "detail": "Employers covered 20/30 · searching Federal Gov"
  },
  "rules": {
   "follow_all": false,
