@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-19T16:18:12Z",
+ "generated_at": "2026-10-19T16:22:10Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -1479,7 +1479,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-19T16:18:12Z",
+ "lists_generated_at": "2026-10-19T16:22:10Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1488,13 +1488,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T10:41:54Z",
-  "last_activity_at": "2026-10-19T16:12:18Z",
+  "last_activity_at": "2026-10-19T16:21:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 36,
@@ -1519,7 +1519,9 @@
    "Ladders": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1535,13 +1537,17 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-19T16:21:34Z",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -1847,20 +1853,20 @@
    "Platform Engineering Lead": "done",
    "Cloud Transformation Lead": "done",
    "Technology Strategy Lead": "done",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -2117,18 +2123,19 @@
    }
   ]
  },
- "note": "Last activity 11:12 CT · 0 workers in flight · 7 filed this run",
+ "note": "Last activity 11:21 CT · 0 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 19 waiting to start"
+   "primary": "State & Local Gov · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more",
+   "pool": "W2"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "State & Local Gov",
+  "headline": "State & Local Gov · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, and 36 more"
  },
  "rules": {
   "follow_all": false,
