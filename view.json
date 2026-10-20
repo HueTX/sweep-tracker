@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T01:01:30Z",
+ "generated_at": "2026-10-20T01:06:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T00:33:28Z",
+  "last_activity_at": "2026-10-20T01:05:48Z",
   "progress": {
    "pools": 21,
-   "covered_units": 8,
+   "covered_units": 9,
    "total_units": 1008,
    "pct": 1
   }
@@ -31,16 +31,18 @@
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 102,
+  "evaluated": 104,
   "filed": 7,
   "parked": 6,
-  "rejected": 89,
+  "rejected": 91,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -57,12 +59,16 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "searching",
-   "families_searched": 5,
+   "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-19T23:45:54Z",
-   "detail": "Employers covered 4/39 · searching State & Local Gov"
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-20T01:02:12Z",
+   "detail": "Employers covered 5/39 · searching State & Local Gov"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -332,56 +338,56 @@
  },
  "titles": {
   "total": 48,
-  "searched": 5,
+  "searched": 6,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "done",
    "Cloud Architect": "done",
    "Cloud Solutions Architect": "done",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "searching",
+   "Platform Architect": "searching",
+   "Solutions Architect": "searching",
+   "Solution Architect": "searching",
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -400,6 +406,9 @@
     "W2"
    ],
    "Cloud Solutions Architect": [
+    "W2"
+   ],
+   "Enterprise Architect": [
     "W2"
    ]
   }
@@ -536,6 +545,11 @@
     "created_at": "2026-10-19T17:48:58.094160-05:00"
    },
    {
+    "id": "fire-9fc6ae7466f2",
+    "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — 5 portal groups unworked: Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. FIRST: Section C verification — State of Indiana IOT Solutions Architect & Innovation Manager (POSTED 2026-10-16, JD read in chunk-36683c71-W2indiana-terminal.md): verify governing pay text + experience-alignment on the employer's own posting, then verdict/file if clean. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King, Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Tennessee, Kentucky, Oklahoma, Louisiana, Indiana, Missouri, Connecticut (31/36; chunks chunk-36683c71-W2*.md). Cumulative stage 3: 0 PASS, 0 filed. Capped tasks (1 portal group per task), batches of 3, compact returns.",
+    "created_at": "2026-10-19T20:02:11.948726-05:00"
+   },
+   {
     "id": "fire-a65fd3f23c8a41ff",
     "reason": "stage-relay continuation: run a94e0f95 stage 4 (SECTOR W2 — State & Local Gov) does NOT advance — batch 1 covered GovJobs/NEOGOV general, Texas WorkInTexas, California jobs.ca.gov (31 evaluated, 0 PASS, chunks on disk). REMAINDER portal groups first: Florida, NY state, WA state portal, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King (dedicated), OR, MA, NJ, MD, MN, WI, MI, IN, TN, MO, LA, KY, OK, CT, UT, NV, City of Houston, Miami-Dade, ClearanceJobs. Capped tasks (1 portal group each), batches of 3, compact returns with query start times, file-in-execution for any PASS. Section A standing blocks remain stall-watch owned.",
     "created_at": "2026-10-19T13:51:18.573975-05:00"
@@ -567,18 +581,19 @@
    }
   ]
  },
- "note": "Last activity 19:33 CT · 6 workers in flight · 0 filed this run",
+ "note": "Last activity 20:05 CT · 6 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 19 waiting to start"
+   "primary": "State & Local Gov · Title 7 of 48 · Infrastructure Architect",
+   "detail": "Employers covered 5/39 · searching State & Local Gov",
+   "pool": "W2"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "State & Local Gov",
+  "headline": "State & Local Gov · Title 7 of 48 · Infrastructure Architect",
+  "detail": "Employers covered 5/39 · searching State & Local Gov"
  },
  "rules": {
   "follow_all": false,
