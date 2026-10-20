@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T19:21:29Z",
+ "generated_at": "2026-10-20T19:26:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T19:14:45Z",
+  "last_activity_at": "2026-10-20T19:24:18Z",
   "progress": {
    "pools": 21,
-   "covered_units": 35,
+   "covered_units": 42,
    "total_units": 1008,
-   "pct": 3
+   "pct": 4
   }
  },
  "counts": {
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 195,
+  "evaluated": 231,
   "filed": 4,
   "parked": 4,
-  "rejected": 187,
+  "rejected": 223,
   "filed_by_source": {
    "LinkedIn": 3,
    "Employer sites": 1
@@ -70,17 +70,17 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 13,
+   "phase": "evaluating",
+   "families_searched": 20,
    "families_total": 48,
    "current": null,
    "current_family": {
-    "index": 14,
-    "name": "Cloud Transformation Architect",
+    "index": 21,
+    "name": "IT Architecture Lead",
     "total": 48
    },
-   "heartbeat_at": "2026-10-20T18:59:06Z",
-   "detail": "Employers covered 20/73 · searching Healthcare Providers"
+   "heartbeat_at": "2026-10-20T19:24:18Z",
+   "detail": "Employers covered 30/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -343,7 +343,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 13,
+  "searched": 20,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -358,13 +358,13 @@
    "Domain Architect": "done",
    "Resiliency Architect": "done",
    "IT/OT Architect": "done",
-   "Cloud Transformation Architect": "searching",
-   "Principal Cloud Engineer": "searching",
-   "Principal Infrastructure Engineer": "searching",
-   "Cloud Architecture Lead": "searching",
-   "Cloud Infrastructure Lead": "searching",
-   "Principal Technical Architect": "searching",
-   "Technology Strategy Architect": "searching",
+   "Cloud Transformation Architect": "done",
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
    "IT Architecture Lead": "searching",
    "Application Architect": "searching",
    "Integration Architect": "searching",
@@ -454,6 +454,27 @@
     "LinkedIn"
    ],
    "IT/OT Architect": [
+    "W3"
+   ],
+   "Cloud Transformation Architect": [
+    "W3"
+   ],
+   "Principal Cloud Engineer": [
+    "W3"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W3"
+   ],
+   "Cloud Architecture Lead": [
+    "W3"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W3"
+   ],
+   "Principal Technical Architect": [
+    "W3"
+   ],
+   "Technology Strategy Architect": [
     "W3"
    ]
   }
@@ -610,6 +631,11 @@
     "created_at": "2026-10-19T17:48:58.094160-05:00"
    },
    {
+    "id": "fire-8bb37f939787",
+    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 remainder is ONLY the 43 untouched employers (providers: ProMedica, Johns Hopkins Medicine, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone Health, Mount Sinai Health System, RWJBarnabas Health, Texas Children's Hospital, MD Anderson Cancer Center; pharma: Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie, Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche / Genentech, Novo Nordisk, Moderna, Regeneron Pharmaceuticals, Vertex Pharmaceuticals, Biogen, Gilead Sciences, Zoetis, Becton Dickinson (BD), Baxter International, Medtronic, Siemens Healthineers, Teva Pharmaceuticals, Viatris, Incyte, BioMarin, Sarepta Therapeutics, Jazz Pharmaceuticals, United Therapeutics, Neurocrine Biosciences, Alkermes, Organon). Batches 1-2 final: 30/30 employers covered, 0 PASS, 0 filed (chunks W3slice1-6 + W3trinity-verify). Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
+    "created_at": "2026-10-20T14:24:18.992312-05:00"
+   },
+   {
     "id": "fire-9fc6ae7466f2",
     "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — 5 portal groups unworked: Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. FIRST: Section C verification — State of Indiana IOT Solutions Architect & Innovation Manager (POSTED 2026-10-16, JD read in chunk-36683c71-W2indiana-terminal.md): verify governing pay text + experience-alignment on the employer's own posting, then verdict/file if clean. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King, Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Tennessee, Kentucky, Oklahoma, Louisiana, Indiana, Missouri, Connecticut (31/36; chunks chunk-36683c71-W2*.md). Cumulative stage 3: 0 PASS, 0 filed. Capped tasks (1 portal group per task), batches of 3, compact returns.",
     "created_at": "2026-10-19T20:02:11.948726-05:00"
@@ -646,11 +672,11 @@
    }
   ]
  },
- "note": "Last activity 14:14 CT · 41 workers in flight · 7 filed this run",
+ "note": "Last activity 14:24 CT · 41 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers · Title 14 of 48 · Cloud Transformation Architect",
-   "detail": "Employers covered 20/73 · searching Healthcare Providers",
+   "primary": "Healthcare Providers · Title 21 of 48 · IT Architecture Lead",
+   "detail": "Employers covered 30/73 · searching Healthcare Providers",
    "pool": "W3"
   },
   {
@@ -662,8 +688,8 @@
  "now_viewing": {
   "live": true,
   "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 14 of 48 · Cloud Transformation Architect",
-  "detail": "Employers covered 20/73 · searching Healthcare Providers"
+  "headline": "Healthcare Providers · Title 21 of 48 · IT Architecture Lead",
+  "detail": "Employers covered 30/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
