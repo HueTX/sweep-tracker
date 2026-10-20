@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T16:01:26Z",
+ "generated_at": "2026-10-20T16:06:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T15:49:28Z",
+  "last_activity_at": "2026-10-20T16:05:31Z",
   "progress": {
    "pools": 21,
    "covered_units": 21,
@@ -24,19 +24,19 @@
   }
  },
  "counts": {
-  "filed": 6,
+  "filed": 7,
   "parked": 7,
   "rejected": 230,
-  "evaluated": 249
+  "evaluated": 250
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 88,
-  "filed": 3,
+  "evaluated": 89,
+  "filed": 4,
   "parked": 4,
   "rejected": 81,
   "filed_by_source": {
-   "LinkedIn": 2,
+   "LinkedIn": 3,
    "Employer sites": 1
   }
  },
@@ -267,15 +267,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "evaluating",
    "families_searched": 11,
    "families_total": 48,
-   "current": {
-    "company": "Zones, LLC",
-    "title": "Lead Architect"
+   "current": null,
+   "current_family": {
+    "index": 12,
+    "name": "Resiliency Architect",
+    "total": 48
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-20T15:48:58Z",
+   "heartbeat_at": "2026-10-20T16:03:35Z",
    "detail": "Families covered 11/48"
   }
  },
@@ -293,7 +294,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 11/48",
    "started_at": null,
    "ended_at": null
@@ -312,7 +313,7 @@
   },
   "sector_filing": {
    "state": "done",
-   "detail": "14 filing result(s) back",
+   "detail": "15 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -627,19 +628,19 @@
    }
   ]
  },
- "note": "Last activity 10:49 CT · 33 workers in flight · 6 filed this run",
+ "note": "Last activity 11:05 CT · 31 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "Lead Architect — Zones, LLC",
-   "detail": "LinkedIn · Families covered 11/48",
+   "primary": "LinkedIn · Title 12 of 48 · Resiliency Architect",
+   "detail": "Families covered 11/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "Lead Architect — Zones, LLC",
-  "detail": "LinkedIn · Families covered 11/48"
+  "headline": "LinkedIn · Title 12 of 48 · Resiliency Architect",
+  "detail": "Families covered 11/48"
  },
  "rules": {
   "follow_all": false,
