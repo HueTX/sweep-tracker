@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T21:41:29Z",
+ "generated_at": "2026-10-20T21:46:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T21:40:00Z",
+  "last_activity_at": "2026-10-20T21:46:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 61,
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 7,
   "parked": 7,
-  "rejected": 273,
-  "evaluated": 293
+  "rejected": 335,
+  "evaluated": 355
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 279,
+  "evaluated": 338,
   "filed": 4,
   "parked": 4,
-  "rejected": 271,
+  "rejected": 330,
   "filed_by_source": {
    "LinkedIn": 3,
    "Employer sites": 1
@@ -654,7 +654,7 @@
    },
    {
     "id": "fire-38f7d972f82346b1",
-    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 5 — remainder 25 pharma employers: Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. Batch 4 covered (do NOT rework): GSK, Roche/Genentech, Novo Nordisk (chunk-36683c71-W3slice11.md; 11 rejects, 0 PASS, 0 filed). Retry note: employer ATS tenants bot-blocked in batch 4 (Workday/SuccessFactors) — lead with Google Jobs + board passes for Amgen/BMS/AZ/Novartis/Sanofi/Vertex/Biogen/Gilead/Zoetis/BD, ATS pass as fallback. Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
+    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 5 — remainder 13 pharma employers: Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. FIRST: GSK Solutions Inc. Marketing Operations Business Solution Architect (Remote, 6-month contract, no rate published) sits in Section C — governing-text read owed (unpublished rate is eligible; do not repeat the worker's contract-rate reject). Batch 4 closed fully covered 15/15 (chunks W3slice10-12): 73 rejects, 0 filed; its sole PASS (Amgen R-256615) was duplicate-of-filed at parent check (filed 2026-10-15) — never refile it. Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
     "created_at": "2026-10-20T16:40:00.357900-05:00"
    },
    {
@@ -734,7 +734,7 @@
    }
   ]
  },
- "note": "Last activity 16:40 CT · 47 workers in flight · 7 filed this run",
+ "note": "Last activity 16:46 CT · 47 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers · Title 40 of 48 · Cloud Adoption Lead",
