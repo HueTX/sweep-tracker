@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T04:51:35Z",
+ "generated_at": "2026-10-20T04:56:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T03:40:44Z",
+  "last_activity_at": "2026-10-20T04:53:12Z",
   "progress": {
    "pools": 21,
-   "covered_units": 12,
+   "covered_units": 14,
    "total_units": 1008,
    "pct": 1
   }
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 2,
   "parked": 1,
-  "rejected": 71,
-  "evaluated": 79
+  "rejected": 126,
+  "evaluated": 134
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 172,
+  "evaluated": 191,
   "filed": 9,
   "parked": 7,
-  "rejected": 156,
+  "rejected": 175,
   "filed_by_source": {
    "Employer sites": 4,
    "LinkedIn": 2,
@@ -268,16 +268,12 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 2,
+   "phase": "filing",
+   "families_searched": 4,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 3,
-    "name": "Azure Cloud Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-20T03:39:25Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-20T04:53:12Z",
    "detail": "Families covered 2/48"
   }
  },
@@ -295,7 +291,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 2/48",
    "started_at": null,
    "ended_at": null
@@ -403,10 +399,12 @@
    ],
    "Azure Cloud Architect": [
     "W1",
-    "W2"
+    "W2",
+    "LinkedIn"
    ],
    "Cloud Architect": [
-    "W2"
+    "W2",
+    "LinkedIn"
    ],
    "Cloud Solutions Architect": [
     "W2"
@@ -597,10 +595,10 @@
    }
   ]
  },
- "note": "Last activity 22:40 CT · 21 workers in flight · 2 filed this run",
+ "note": "Last activity 23:53 CT · 22 workers in flight · 2 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 3 of 48 · Azure Cloud Architect",
+   "primary": "LinkedIn",
    "detail": "Families covered 2/48",
    "pool": "LinkedIn"
   }
@@ -608,7 +606,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 3 of 48 · Azure Cloud Architect",
+  "headline": "LinkedIn",
   "detail": "Families covered 2/48"
  },
  "rules": {
