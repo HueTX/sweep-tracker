@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-20",
- "generated_at": "2026-10-20T15:36:46Z",
+ "generated_at": "2026-10-20T15:41:37Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -563,6 +563,13 @@
     "company": "Symetra",
     "role": "Sr Software Engineer supporting Cyberlife",
     "reason": "hands-on — \"Design, develop, test, and implement enhancements for the CyberLife policy administration platform\" (COBOL/CICS/JCL/DB2) — POSTED: 2026-10-19",
+    "where": "LinkedIn",
+    "time": ""
+   },
+   {
+    "company": "Tata Consultancy Services",
+    "role": "Domain Architect",
+    "reason": "not-remote — listing location \"Hyderabad, India\" — POSTED: 2026-10-19",
     "where": "LinkedIn",
     "time": ""
    },
@@ -1356,22 +1363,22 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-20T15:36:46Z",
+ "lists_generated_at": "2026-10-20T15:41:37Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T15:16:38Z",
+  "last_activity_at": "2026-10-20T15:40:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 20,
@@ -1382,21 +1389,23 @@
  "counts": {
   "filed": 6,
   "parked": 7,
-  "rejected": 206,
-  "evaluated": 225
+  "rejected": 208,
+  "evaluated": 227
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 64,
+  "evaluated": 65,
   "filed": 3,
   "parked": 4,
-  "rejected": 57,
+  "rejected": 58,
   "filed_by_source": {
    "LinkedIn": 2,
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1621,12 +1630,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "evaluating",
    "families_searched": 10,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-20T12:47:05Z",
+   "current_family": {
+    "index": 11,
+    "name": "Domain Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-20T15:40:19Z",
    "detail": "Families covered 10/48"
   }
  },
@@ -1700,44 +1713,44 @@
    "Platform Architect": "done",
    "Solutions Architect": "done",
    "Solution Architect": "done",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Domain Architect": "searching",
+   "Resiliency Architect": "searching",
+   "IT/OT Architect": "searching",
+   "Cloud Transformation Architect": "searching",
+   "Principal Cloud Engineer": "searching",
+   "Principal Infrastructure Engineer": "searching",
+   "Cloud Architecture Lead": "searching",
+   "Cloud Infrastructure Lead": "searching",
+   "Principal Technical Architect": "searching",
+   "Technology Strategy Architect": "searching",
+   "IT Architecture Lead": "searching",
+   "Application Architect": "searching",
+   "Integration Architect": "searching",
+   "Data Center Architect": "searching",
+   "Digital Transformation Architect": "searching",
+   "Systems Architect": "searching",
+   "Identity Architect": "searching",
+   "Technology Architect": "searching",
+   "Network Security Architect": "searching",
+   "Chief Architect": "searching",
+   "Cloud Engineering Lead": "searching",
+   "Platform Engineering Lead": "searching",
+   "Cloud Transformation Lead": "searching",
+   "Technology Strategy Lead": "searching",
+   "Enterprise Technology Lead": "searching",
+   "Infrastructure Strategy Lead": "searching",
+   "Cloud Practice Lead": "searching",
+   "Cloud Center of Excellence Lead": "searching",
+   "Cloud Enablement Lead": "searching",
+   "Cloud Adoption Lead": "searching",
+   "Infrastructure Modernization Lead": "searching",
+   "Technology Modernization Lead": "searching",
+   "Cloud Delivery Lead": "searching",
+   "Enterprise Technology Consultant": "searching",
+   "Cloud Advisory Consultant": "searching",
+   "Technology Transformation Consultant": "searching",
+   "Staff Cloud Engineer": "searching",
+   "Staff Infrastructure Engineer": "searching"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -1959,6 +1972,11 @@
     "created_at": "2026-10-20T07:20:34.167319-05:00"
    },
    {
+    "id": "fire-d17ed84fca364708",
+    "reason": "stage 9 continuation (run 36683c71): LINKEDIN FAMILIES 11-12 NOT complete — task c56ac251's terminal fragmented in delivery (chunk-36683c71-linkedin-11-12.md is the evidenced checkpoint; coverage NOT credited). REMAINDER, as TWO separate single-family tasks (never one combined return — it truncates): (1) Resiliency Architect full per-lead evidence incl. Bright Vision 4481835637 verdict; (2) Domain Architect evidence-completion for Ladders 4481644010, Jobot 4481753290, Comcast 4457948458, the DATAM-truncated line, plus Section C carries (XChange Endpoint not-found, Salesforce PACE variant, backlog 4481521617/4480409421). 2 TCS gate rejects already dispositioned — do not rework. File-in-execution for any PASS.",
+    "created_at": "2026-10-20T10:40:19.534958-05:00"
+   },
+   {
     "id": "fire-e6622fceb34a470a",
     "reason": "stage 4 continuation (run 36683c71): LinkedIn Families 1-2 CHECKPOINT — main task merged (13 surfaced, 9 JD reads, 0 PASS, 9 rejected incl. 2 Applied culls of today's a94e0f95 filings); carried PASS from stage 3 dispositioned first (ITC Federal duplicate-of-filed Req 2026-1599; Peraton M&S experience-mismatch). Stage does NOT advance: both repair tasks returned empty/dead. REMAINDER first, same stage: JD reads — Bonterra Sr. Cloud Architect Platform & Architecture, Motion Recruitment Azure Data Architect, Jobs via Dice Azure Architect; Azure Architect PAGE 2 (Remote+Past24h); Section C re-read Planet Technology Sr Solutions Architect 4481792119. File-in-execution for any PASS. Standing blocks stay stall-owned.",
     "created_at": "2026-10-19T21:06:41.412275-05:00"
@@ -1970,18 +1988,19 @@
    }
   ]
  },
- "note": "Last activity 10:16 CT · 32 workers in flight · 6 filed this run",
+ "note": "Last activity 10:40 CT · 32 workers in flight · 6 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 18 waiting to start"
+   "primary": "LinkedIn · Title 11 of 48 · Domain Architect",
+   "detail": "Families covered 10/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 11 of 48 · Domain Architect",
+  "detail": "Families covered 10/48"
  },
  "rules": {
   "follow_all": false,
