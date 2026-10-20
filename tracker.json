@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-20",
- "generated_at": "2026-10-20T17:41:24Z",
+ "generated_at": "2026-10-20T17:46:32Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -1903,7 +1903,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-20T17:41:24Z",
+ "lists_generated_at": "2026-10-20T17:46:32Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1918,7 +1918,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T17:31:07Z",
+  "last_activity_at": "2026-10-20T17:45:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 22,
@@ -1944,6 +1944,7 @@
   }
  },
  "searching_lanes": [
+  "W3",
   "LinkedIn"
  ],
  "lanes": {
@@ -1972,13 +1973,17 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-20T17:44:13Z",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -2488,11 +2493,6 @@
     "created_at": "2026-10-20T05:20:46.481024-05:00"
    },
    {
-    "id": "fire-7c45cecb64f2",
-    "reason": "stage 2 (run 36683c71): SECTOR W1 — Federal Gov, employer lanes first per Rule #1. Stage 1 recovery complete this execution: predecessor a94e0f95 all filer-results merged, 7 filed claims spot-checked pass via secondary-check.json, relaunch 0, candidate leads 0 unworked, carried dispatchable 0 (Brookhaven/Campbell's/Capgemini credential-needed + TCS not-locatable, stall-owned). W1 in predecessor was covered 3/3 for all employers/groups with 0 PASS — search fresh past-24h/7d only, do not re-litigate covered zero passes except new postings. W2 remainder (35 portal groups) is stage 3, not this stage. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
-    "created_at": "2026-10-19T14:11:33.325810-05:00"
-   },
-   {
     "id": "fire-894e3df28778",
     "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — Harris County remit FIRST (Section C Director of Enterprise Systems and Architecture JD verdict + Harris group pass; task 9d026ff9 declared dead at checkpoint, stub chunk-36683c71-W2harris-stub.md — if its terminal return landed on disk, merge as correction), then 18 portal groups unworked: Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Indiana, Tennessee, Missouri, Louisiana, Kentucky, Oklahoma, Connecticut, Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris (terminal), Maricopa, King (chunks chunk-36683c71-W2*.md, 0 PASS, 0 filed). Capped tasks 1 portal group each, batches of 3, compact returns with query start times, remote/telework filter first, location-gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-19T17:48:58.094160-05:00"
@@ -2534,8 +2534,13 @@
    }
   ]
  },
- "note": "Last activity 12:31 CT · 34 workers in flight · 7 filed this run",
+ "note": "Last activity 12:45 CT · 37 workers in flight · 7 filed this run",
  "pill": [
+  {
+   "primary": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more",
+   "pool": "W3"
+  },
   {
    "primary": "LinkedIn · Title 13 of 48 · IT/OT Architect",
    "detail": "Families covered 12/48",
@@ -2544,9 +2549,9 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 13 of 48 · IT/OT Architect",
-  "detail": "Families covered 12/48"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across HCA Healthcare, CommonSpirit Health, Ascension, and 70 more"
  },
  "rules": {
   "follow_all": false,
