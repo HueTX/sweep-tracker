@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-19",
- "generated_at": "2026-10-20T02:51:45Z",
+ "generated_at": "2026-10-20T02:57:07Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -521,6 +521,13 @@
     "time": ""
    },
    {
+    "company": "RemoteHunter",
+    "role": "Digital Cloud Solution Architect",
+    "reason": "account-wall CREDENTIAL NEEDED: RemoteHunter — remotehunter.com (no saved login; apply page failed to load job details unauthenticated; signup is a dialog on the same URL) — direct:…",
+    "where": "LinkedIn",
+    "time": ""
+   },
+   {
     "company": "Tata Consultancy Services",
     "role": "ServiceNow Solution Architect",
     "reason": "not-locatable on employer ATS (supersedes bot-wall) — POSTED: 2026-10-18",
@@ -702,6 +709,13 @@
     "time": ""
    },
    {
+    "company": "Motion Recruitment",
+    "role": "Staff Data Architect - Remote (EST)",
+    "reason": "hands-on programming — \"Python programming experience for automation, data processing, and engineering solutions\" (Snowflake data architecture; Azure only a desired familiarity; pay top $160,000 in band; remote-eligible EST/CST) — POSTED: 2026-10-14.…",
+    "where": "LinkedIn",
+    "time": ""
+   },
+   {
     "company": "Myriad360",
     "role": "Senior Client Solution Architect - Texas (Remote)",
     "reason": "not-remote — \"Must be based in the United States and reside in Austin or Dallas Texas.\" — POSTED: 2026-10-19",
@@ -712,6 +726,13 @@
     "company": "NLB Services",
     "role": "Sr. Solution Architect- Insurance and AI",
     "reason": "experience-mismatch — core JD word-for-word identical to ApTask incl. Required \"Strong insurance domain knowledge...\"; poster requirements add \"10+ years of work experience with Property and Casualty Insurance\" — candidate P&C insurance experience = 0.…",
+    "where": "LinkedIn",
+    "time": ""
+   },
+   {
+    "company": "NVIDIA",
+    "role": "Senior Solutions Architect, Enterprise AI Factories",
+    "reason": "experience-mismatch — governing Required section (\"What We Need To See\"): \"Hands-on experience with deploying, using, and operating on-premises AI-focused solutions, including system architectures, rack-scale firmware, cluster management software, workload…",
     "where": "LinkedIn",
     "time": ""
    },
@@ -2080,7 +2101,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-20T02:51:45Z",
+ "lists_generated_at": "2026-10-20T02:57:07Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -2089,13 +2110,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T02:48:22Z",
+  "last_activity_at": "2026-10-20T02:56:31Z",
   "progress": {
    "pools": 21,
    "covered_units": 12,
@@ -2105,16 +2126,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 42,
-  "evaluated": 46
+  "parked": 1,
+  "rejected": 44,
+  "evaluated": 50
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 144,
+  "evaluated": 147,
   "filed": 7,
-  "parked": 6,
-  "rejected": 131,
+  "parked": 7,
+  "rejected": 133,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -2347,16 +2368,12 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 2,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 3,
-    "name": "Azure Cloud Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-20T02:06:41Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-20T02:56:31Z",
    "detail": "Families covered 2/48"
   }
  },
@@ -2369,19 +2386,19 @@
   },
   "prep": {
    "state": "done",
-   "detail": "4 leads in the queue",
+   "detail": "5 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 2/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -2392,8 +2409,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "2 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -2615,6 +2632,11 @@
     "created_at": "2026-10-19T20:50:56.433748-05:00"
    },
    {
+    "id": "fire-5b84ad02232746cc",
+    "reason": "stage 5 (run 36683c71): stage 4 LinkedIn Families 1-2 COMPLETE (38 surfaced, 34 JD reads, 0 filed, 1 parked RemoteHunter credential-needed, 35 stage rejects incl. carried ITC duplicate + Peraton mismatch at stage open; NVIDIA conflict adjudicated REJECTED experience-mismatch on full-JD re-read). Next stage per re-seed (head_start=1): LINKEDIN FAMILIES 3-4. Backlog-first: Planet Technology Sr Solutions Architect 4481792119 Section C re-read rides the next LinkedIn unit. Standing blocks + RemoteHunter credential park stay stall-owned/live. Capped tasks, batches of 3, file-in-execution for any PASS.",
+    "created_at": "2026-10-19T21:56:55.631700-05:00"
+   },
+   {
     "id": "fire-60b33bcbd2e545b2",
     "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — 27 portal groups unworked: Ohio, Pennsylvania, NYC, LA County, Cook, Harris, Maricopa, King, Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Indiana, Tennessee, Missouri, Louisiana, Kentucky, Oklahoma, Connecticut, Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL (chunks chunk-36683c71-W2*.md, 0 PASS, 0 filed). Capped tasks 1 portal group each, batches of 3, compact returns with query start times, remote/telework filter first, location-gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-19T16:09:57.111054-05:00"
@@ -2676,10 +2698,10 @@
    }
   ]
  },
- "note": "Last activity 21:48 CT · 18 workers in flight · 0 filed this run",
+ "note": "Last activity 21:56 CT · 18 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 3 of 48 · Azure Cloud Architect",
+   "primary": "LinkedIn",
    "detail": "Families covered 2/48",
    "pool": "LinkedIn"
   }
@@ -2687,7 +2709,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 3 of 48 · Azure Cloud Architect",
+  "headline": "LinkedIn",
   "detail": "Families covered 2/48"
  },
  "rules": {
