@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-20",
- "generated_at": "2026-10-20T17:09:10Z",
+ "generated_at": "2026-10-20T17:11:53Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -1700,7 +1700,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-20T17:09:10Z",
+ "lists_generated_at": "2026-10-20T17:11:53Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1715,7 +1715,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T17:08:59Z",
+  "last_activity_at": "2026-10-20T17:10:35Z",
   "progress": {
    "pools": 21,
    "covered_units": 22,
@@ -1726,8 +1726,8 @@
  "counts": {
   "filed": 7,
   "parked": 7,
-  "rejected": 230,
-  "evaluated": 250
+  "rejected": 244,
+  "evaluated": 264
  },
  "today": {
   "date": "2026-10-20",
@@ -1977,7 +1977,7 @@
     "total": 48
    },
    "heartbeat_at": "2026-10-20T17:08:59Z",
-   "detail": "Families covered 11/48"
+   "detail": "Families covered 12/48"
   }
  },
  "stages": {
@@ -1995,7 +1995,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "Families covered 11/48",
+   "detail": "Families covered 12/48",
    "started_at": null,
    "ended_at": null
   },
@@ -2310,13 +2310,18 @@
     "created_at": "2026-10-20T03:51:26.945867-05:00"
    },
    {
+    "id": "fire-c1a2988e839c4cfa",
+    "reason": "stage 10 (run 36683c71): SECTOR W3 — Healthcare Providers & Big Pharma. Stage 9 completed this execution (LinkedIn families 11-12 covered; run totals filed 7 / parked 7 / rejected 244; Section A = standing blocks only, stall-watch owned). Work W3 per the sector rules: every named employer (providers pool + big pharma pool in the W3 slice definition) needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
+    "created_at": "2026-10-20T12:10:35.201904-05:00"
+   },
+   {
     "id": "fire-c7e3e3501f284b86",
     "reason": "DISCHARGED by the stage-8 full terminal (2026-10-20T11:57:57Z): coverage evidenced, stage 8 complete, stage advanced to 9. Original remit moot — do not re-run stage 8.",
     "created_at": "2026-10-20T07:20:34.167319-05:00"
    },
    {
     "id": "fire-d17ed84fca364708",
-    "reason": "stage 9 continuation (run 36683c71): Domain Architect COVERED on the full terminal; Resiliency Architect is the ONLY remainder — page 1 cards 19-25 NOT opened (Steneral Consulting GCP Architect; Kforce Oracle P2P/Finance Architect ($70-90/hr card); Argano Oracle EPM Planning Architect; Quantum World Technologies HubSpot CMS Architect; Tranzeal Senior SSO Architect PingFederate/PingOne; HMG AMERICA Informatica MDM Architect; Twilio Sr Architect - Emerging Technologies) + page 2 NOT read (74 results total). ONE single-family LinkedIn task, compact per-lead returns with verbatim quotes, file-in-execution for any PASS. Section C carries are CLOSED (XChange = 4480255179 already rejected; PACE variants dispositioned; backlog IDs identity-unstable, Section C standing). Zones 4416999053 filing was dispatched in the prior execution — check filer-results/36683c71 for its outcome first.",
+    "reason": "DISCHARGED 2026-10-20T12:20 CT: stage 9 COMPLETE in the execution this fire summoned (Resiliency remainder merged, families 11-12 covered, run advanced to stage 10). Original reason was: stage 9 continuation (run 36683c71): Domain Architect COVERED on the full terminal; Resiliency Architect is the ONLY remainder — page 1 cards 19-25 NOT opened (Steneral Consulting GCP Architect; Kforce Oracle P2P/Finance Architect ($70-90/hr card); Argano Oracle EPM Planning Architect; Quantum World Technologies HubSpot CMS Architect; Tranzeal Senior SSO Architect PingFederate/PingOne; HMG AMERICA Informatica MDM Architect; Twilio Sr Architect - Emerging Technologies) + page 2 NOT read (74 results total). ONE single-family LinkedIn task, compact per-lead returns with verbatim quotes, file-in-execution for any PASS. Section C carries are CLOSED (XChange = 4480255179 already rejected; PACE variants dispositioned; backlog IDs identity-unstable, Section C standing). Zones 4416999053 filing was dispatched in the prior execution — check filer-results/36683c71 for its outcome first.",
     "created_at": "2026-10-20T10:40:19.534958-05:00"
    },
    {
@@ -2331,11 +2336,11 @@
    }
   ]
  },
- "note": "Last activity 12:08 CT · 33 workers in flight · 7 filed this run",
+ "note": "Last activity 12:10 CT · 33 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 13 of 48 · IT/OT Architect",
-   "detail": "Families covered 11/48",
+   "detail": "Families covered 12/48",
    "pool": "LinkedIn"
   }
  ],
@@ -2343,7 +2348,7 @@
   "live": true,
   "label": "LinkedIn",
   "headline": "LinkedIn · Title 13 of 48 · IT/OT Architect",
-  "detail": "Families covered 11/48"
+  "detail": "Families covered 12/48"
  },
  "rules": {
   "follow_all": false,
