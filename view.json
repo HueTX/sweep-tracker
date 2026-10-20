@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T08:51:30Z",
+ "generated_at": "2026-10-20T08:56:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T08:51:26Z",
+  "last_activity_at": "2026-10-20T08:55:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 16,
@@ -264,12 +264,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-20T08:51:13Z",
+   "current_family": {
+    "index": 7,
+    "name": "Infrastructure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-20T08:55:12Z",
    "detail": "Families covered 6/48"
   }
  },
@@ -287,14 +291,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 6/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -598,10 +602,10 @@
    }
   ]
  },
- "note": "Last activity 03:51 CT · 25 workers in flight · 6 filed this run",
+ "note": "Last activity 03:55 CT · 26 workers in flight · 6 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn",
+   "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
    "detail": "Families covered 6/48",
    "pool": "LinkedIn"
   }
@@ -609,7 +613,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn",
+  "headline": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
   "detail": "Families covered 6/48"
  },
  "rules": {
