@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T01:46:30Z",
+ "generated_at": "2026-10-20T01:51:49Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T01:32:49Z",
+  "last_activity_at": "2026-10-20T01:50:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 9,
+   "covered_units": 10,
    "total_units": 1008,
    "pct": 1
   }
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 1,
-  "evaluated": 5
+  "rejected": 9,
+  "evaluated": 13
  },
  "today": {
   "date": "2026-10-19",
-  "evaluated": 111,
+  "evaluated": 112,
   "filed": 7,
   "parked": 6,
-  "rejected": 98,
+  "rejected": 99,
   "filed_by_source": {
    "Employer sites": 4,
    "Ladders": 3
@@ -56,13 +56,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 6,
+   "phase": "done",
+   "families_searched": 7,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-20T01:12:32Z",
-   "detail": "Employers covered 5/39 · searching State & Local Gov"
+   "heartbeat_at": "2026-10-20T01:50:42Z",
+   "detail": "Employers covered 6/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -301,7 +301,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "1 of 20 sector lanes finished · 2 with results in",
+   "detail": "0 of 20 sector lanes finished · 2 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -332,7 +332,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 6,
+  "searched": 7,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -340,7 +340,7 @@
    "Cloud Architect": "done",
    "Cloud Solutions Architect": "done",
    "Enterprise Architect": "done",
-   "Infrastructure Architect": "pending",
+   "Infrastructure Architect": "done",
    "Platform Architect": "pending",
    "Solutions Architect": "pending",
    "Solution Architect": "pending",
@@ -403,6 +403,9 @@
     "W2"
    ],
    "Enterprise Architect": [
+    "W2"
+   ],
+   "Infrastructure Architect": [
     "W2"
    ]
   }
@@ -519,6 +522,11 @@
     "created_at": "2026-10-19T07:56:27.192457-05:00"
    },
    {
+    "id": "fire-550546bd3ddf",
+    "reason": "stage-relay advance: run 36683c71 stage 3 (SECTOR W2) COMPLETE — 36/36 portal groups covered, 0 PASS, 0 filed run-wide; Indiana IOT Section C resolved REJECTED pay-outside-band. Next: stage 4 LINKEDIN FAMILIES 1-2 (Azure Architect, Azure Solutions Architect) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-1-2.md).",
+    "created_at": "2026-10-19T20:50:56.433748-05:00"
+   },
+   {
     "id": "fire-60b33bcbd2e545b2",
     "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — 27 portal groups unworked: Ohio, Pennsylvania, NYC, LA County, Cook, Harris, Maricopa, King, Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Indiana, Tennessee, Missouri, Louisiana, Kentucky, Oklahoma, Connecticut, Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL (chunks chunk-36683c71-W2*.md, 0 PASS, 0 filed). Capped tasks 1 portal group each, batches of 3, compact returns with query start times, remote/telework filter first, location-gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-19T16:09:57.111054-05:00"
@@ -575,11 +583,11 @@
    }
   ]
  },
- "note": "Last activity 20:32 CT · 12 workers in flight · 0 filed this run",
+ "note": "Last activity 20:50 CT · 12 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
-   "detail": "Lanes: 1 done · 19 waiting to start"
+   "detail": "Lanes: 2 done · 19 waiting to start"
   }
  ],
  "now_viewing": {
