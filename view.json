@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T22:06:17Z",
+ "generated_at": "2026-10-20T22:11:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -10,31 +10,31 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T22:04:12Z",
+  "last_activity_at": "2026-10-20T22:11:15Z",
   "progress": {
    "pools": 21,
-   "covered_units": 64,
+   "covered_units": 70,
    "total_units": 1008,
-   "pct": 6
+   "pct": 7
   }
  },
  "counts": {
   "filed": 7,
   "parked": 7,
-  "rejected": 343,
-  "evaluated": 363
+  "rejected": 370,
+  "evaluated": 391
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 346,
+  "evaluated": 352,
   "filed": 4,
   "parked": 4,
-  "rejected": 338,
+  "rejected": 344,
   "filed_by_source": {
    "LinkedIn": 3,
    "Employer sites": 1
@@ -70,17 +70,16 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "evaluating",
-   "families_searched": 42,
+   "phase": "filing",
+   "families_searched": 48,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 43,
-    "name": "Cloud Delivery Lead",
-    "total": 48
+   "current": {
+    "company": "GSK Solutions Inc.",
+    "title": "Marketing Operations Business Solution Architect"
    },
-   "heartbeat_at": "2026-10-20T22:04:12Z",
-   "detail": "Employers covered 64/73 · searching Healthcare Providers"
+   "current_family": null,
+   "heartbeat_at": "2026-10-20T22:11:15Z",
+   "detail": "Employers covered 73/73 · searching Healthcare Providers"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -294,7 +293,7 @@
   },
   "prep": {
    "state": "done",
-   "detail": "6 leads in the queue",
+   "detail": "7 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
@@ -317,8 +316,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "15 filing result(s) back",
+   "state": "active",
+   "detail": "Filing now",
    "started_at": null,
    "ended_at": null
   },
@@ -343,7 +342,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 42,
+  "searched": 48,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -387,12 +386,12 @@
    "Cloud Adoption Lead": "done",
    "Infrastructure Modernization Lead": "done",
    "Technology Modernization Lead": "done",
-   "Cloud Delivery Lead": "searching",
-   "Enterprise Technology Consultant": "searching",
-   "Cloud Advisory Consultant": "searching",
-   "Technology Transformation Consultant": "searching",
-   "Staff Cloud Engineer": "searching",
-   "Staff Infrastructure Engineer": "searching"
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
+   "Technology Transformation Consultant": "done",
+   "Staff Cloud Engineer": "done",
+   "Staff Infrastructure Engineer": "done"
   },
   "family_lanes": {
    "Azure Architect": [
@@ -541,6 +540,24 @@
     "W3"
    ],
    "Technology Modernization Lead": [
+    "W3"
+   ],
+   "Cloud Delivery Lead": [
+    "W3"
+   ],
+   "Enterprise Technology Consultant": [
+    "W3"
+   ],
+   "Cloud Advisory Consultant": [
+    "W3"
+   ],
+   "Technology Transformation Consultant": [
+    "W3"
+   ],
+   "Staff Cloud Engineer": [
+    "W3"
+   ],
+   "Staff Infrastructure Engineer": [
     "W3"
    ]
   }
@@ -738,11 +755,11 @@
    }
   ]
  },
- "note": "Last activity 17:04 CT · 50 workers in flight · 7 filed this run",
+ "note": "Last activity 17:11 CT · 51 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers · Title 43 of 48 · Cloud Delivery Lead",
-   "detail": "Employers covered 64/73 · searching Healthcare Providers",
+   "primary": "Marketing Operations Business Solution Architect — GSK Solutions Inc.",
+   "detail": "Healthcare Providers · Employers covered 73/73 · searching Healthcare Providers",
    "pool": "W3"
   },
   {
@@ -754,8 +771,8 @@
  "now_viewing": {
   "live": true,
   "label": "Healthcare Providers",
-  "headline": "Healthcare Providers · Title 43 of 48 · Cloud Delivery Lead",
-  "detail": "Employers covered 64/73 · searching Healthcare Providers"
+  "headline": "Marketing Operations Business Solution Architect — GSK Solutions Inc.",
+  "detail": "Healthcare Providers · Employers covered 73/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
