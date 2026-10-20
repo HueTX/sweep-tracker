@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-20",
- "generated_at": "2026-10-20T16:06:14Z",
+ "generated_at": "2026-10-20T16:11:27Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -203,8 +203,8 @@
       },
       {
        "rule": "veteran answer",
-       "status": "pass",
-       "evidence": "Filer selected exactly 'I am not a veteran' (reported in filer return 2026-10-20)"
+       "status": "pass (fallback)",
+       "evidence": "Full filer terminal 2026-10-20T16:02:49Z: the Zones VEVRAA dropdown did NOT offer 'I am not a veteran' (options: identify as protected veteran / 'I AM NOT A PROTECTED VETERAN' / 'DECLINE SELF-IDENTIFICATION'); per the strict rule's prescribed fallback the filer selected 'DECLINE SELF-IDENTIFICATION'. 'I AM NOT A PROTECTED VETERAN' was NOT selected."
       },
       {
        "rule": "screening answers",
@@ -214,7 +214,7 @@
       {
        "rule": "filing proof",
        "status": "pass",
-       "evidence": "EVIDENCE: ats-confirmation — Zones careers Confirmation ID 414a2c56-b9c0-4676-bc6c-6e050ce13587 (Thank You page, Job ID 24209); applied-list — Applied badge on reopened LinkedIn posting 4416999053"
+       "evidence": "EVIDENCE: ats-confirmation — careers.zones.com 'Thank You!' page after Step 8 SUBMIT + Confirmation ID 414a2c56-b9c0-4676-bc6c-6e050ce13587; applied-list — reopened LinkedIn posting shows 'Application status — Applied on company site — now' and the LinkedIn Applied list top entry 'Lead Architect, Zones, LLC — Applied 1m ago'; LinkedIn dialog: 'Your application was sent to Zones, LLC!'"
       }
      ]
     }
@@ -1602,7 +1602,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-20T16:06:14Z",
+ "lists_generated_at": "2026-10-20T16:11:27Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1617,7 +1617,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T16:05:31Z",
+  "last_activity_at": "2026-10-20T16:10:47Z",
   "progress": {
    "pools": 21,
    "covered_units": 21,
@@ -1869,7 +1869,7 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "evaluating",
+   "phase": "searching",
    "families_searched": 11,
    "families_total": 48,
    "current": null,
@@ -1878,7 +1878,7 @@
     "name": "Resiliency Architect",
     "total": 48
    },
-   "heartbeat_at": "2026-10-20T16:03:35Z",
+   "heartbeat_at": "2026-10-20T16:10:47Z",
    "detail": "Families covered 11/48"
   }
  },
@@ -2230,7 +2230,7 @@
    }
   ]
  },
- "note": "Last activity 11:05 CT · 31 workers in flight · 7 filed this run",
+ "note": "Last activity 11:10 CT · 31 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 12 of 48 · Resiliency Architect",
