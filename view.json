@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-20T10:16:15Z",
+ "generated_at": "2026-10-20T10:21:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,34 +9,34 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T08:55:43Z",
+  "last_activity_at": "2026-10-20T10:20:46Z",
   "progress": {
    "pools": 21,
-   "covered_units": 16,
+   "covered_units": 18,
    "total_units": 1008,
    "pct": 2
   }
  },
  "counts": {
-  "filed": 6,
+  "filed": 8,
   "parked": 3,
-  "rejected": 145,
-  "evaluated": 160
+  "rejected": 183,
+  "evaluated": 200
  },
  "today": {
   "date": "2026-10-20",
-  "evaluated": 23,
-  "filed": 3,
+  "evaluated": 44,
+  "filed": 5,
   "parked": 1,
-  "rejected": 19,
+  "rejected": 38,
   "filed_by_source": {
-   "LinkedIn": 2,
+   "LinkedIn": 4,
    "Employer sites": 1
   }
  },
@@ -267,17 +267,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 6,
+   "phase": "done",
+   "families_searched": 8,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 7,
-    "name": "Infrastructure Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-20T08:55:12Z",
-   "detail": "Families covered 6/48"
+   "current_family": null,
+   "heartbeat_at": "2026-10-20T10:20:28Z",
+   "detail": "Families covered 8/48"
   }
  },
  "stages": {
@@ -294,14 +290,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
-   "detail": "Families covered 6/48",
+   "state": "done",
+   "detail": "Families covered 8/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -313,7 +309,7 @@
   },
   "sector_filing": {
    "state": "done",
-   "detail": "10 filing result(s) back",
+   "detail": "12 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -338,7 +334,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 7,
+  "searched": 8,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -347,7 +343,7 @@
    "Cloud Solutions Architect": "done",
    "Enterprise Architect": "done",
    "Infrastructure Architect": "done",
-   "Platform Architect": "searching",
+   "Platform Architect": "done",
    "Solutions Architect": "searching",
    "Solution Architect": "searching",
    "Domain Architect": "searching",
@@ -418,7 +414,11 @@
     "LinkedIn"
    ],
    "Infrastructure Architect": [
-    "W2"
+    "W2",
+    "LinkedIn"
+   ],
+   "Platform Architect": [
+    "LinkedIn"
    ]
   }
  },
@@ -559,6 +559,11 @@
     "created_at": "2026-10-20T00:57:42.932034-05:00"
    },
    {
+    "id": "fire-6d6fdf09d23f",
+    "reason": "stage 8 continuation (run 36683c71): stage 7 LINKEDIN FAMILIES 7-8 COMPLETE — 2 queries, 4 pages, ~40 unique, 40 JD reads, filed 2 (TEKsystems Principle Platform Architect ats-confirmation; RED Global Lead Platform Architect applied-list), 38 new rejected, Section C 2 (Dice 4481521617 load failure, Dice 4480409421 unread SAP); run totals filed 8 / parked 3 / rejected 183, families covered 8/48. Next stage per re-seeded work order — re-derive from disk per R3. Section A standing blocks remain stall-watch owned.",
+    "created_at": "2026-10-20T05:20:46.481024-05:00"
+   },
+   {
     "id": "fire-7c45cecb64f2",
     "reason": "stage 2 (run 36683c71): SECTOR W1 — Federal Gov, employer lanes first per Rule #1. Stage 1 recovery complete this execution: predecessor a94e0f95 all filer-results merged, 7 filed claims spot-checked pass via secondary-check.json, relaunch 0, candidate leads 0 unworked, carried dispatchable 0 (Brookhaven/Campbell's/Capgemini credential-needed + TCS not-locatable, stall-owned). W1 in predecessor was covered 3/3 for all employers/groups with 0 PASS — search fresh past-24h/7d only, do not re-litigate covered zero passes except new postings. W2 remainder (35 portal groups) is stage 3, not this stage. Capped tasks (max 5 employers / 1 portal group / 3 board searches), batches of 3, compact returns, file-in-execution for any PASS.",
     "created_at": "2026-10-19T14:11:33.325810-05:00"
@@ -605,19 +610,19 @@
    }
   ]
  },
- "note": "Last activity 03:55 CT · 26 workers in flight · 6 filed this run",
+ "note": "Last activity 05:20 CT · 28 workers in flight · 8 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
-   "detail": "Families covered 6/48",
+   "primary": "LinkedIn",
+   "detail": "Families covered 8/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 7 of 48 · Infrastructure Architect",
-  "detail": "Families covered 6/48"
+  "headline": "LinkedIn",
+  "detail": "Families covered 8/48"
  },
  "rules": {
   "follow_all": false,
