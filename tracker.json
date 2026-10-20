@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-20",
- "generated_at": "2026-10-20T12:26:26Z",
+ "generated_at": "2026-10-20T12:31:20Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -1356,7 +1356,7 @@
   "W12": [],
   "W13": []
  },
- "lists_generated_at": "2026-10-20T12:26:26Z",
+ "lists_generated_at": "2026-10-20T12:31:20Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1365,13 +1365,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T12:24:28Z",
+  "last_activity_at": "2026-10-20T12:31:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 20,
@@ -1623,12 +1623,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-20T12:24:28Z",
+   "current_family": {
+    "index": 11,
+    "name": "Domain Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-20T12:30:05Z",
    "detail": "Families covered 10/48"
   }
  },
@@ -1646,14 +1650,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 10/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -1966,21 +1970,16 @@
     "created_at": "2026-10-19T21:06:41.412275-05:00"
    },
    {
-    "id": "fire-f38631f68a3c",
-    "reason": "supervisor recovery: PROGRESS-STALLED for run a94e0f95 — run a94e0f95 started 2026-10-19T10:41:54Z (age 29126s)",
-    "created_at": "2026-10-19T13:47:22.290577-05:00"
-   },
-   {
     "id": "fire-ff85f50e872a",
     "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — 13 portal groups unworked: Michigan, Indiana, Tennessee, Missouri, Louisiana, Kentucky, Oklahoma, Connecticut, Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris, Maricopa, King, Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin (chunks chunk-36683c71-W2*.md, 0 PASS run-wide in W2, 0 filed). Recount-corrected cumulative 23/36 (batch-6 note's 18/36 double-counted Harris; true was 17/36). Capped tasks 1 portal group each, batches of 3, compact returns with query start times, remote/telework filter first, location-gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-19T18:32:47.702233-05:00"
    }
   ]
  },
- "note": "Last activity 07:24 CT · 31 workers in flight · 6 filed this run",
+ "note": "Last activity 07:31 CT · 32 workers in flight · 6 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn",
+   "primary": "LinkedIn · Title 11 of 48 · Domain Architect",
    "detail": "Families covered 10/48",
    "pool": "LinkedIn"
   }
@@ -1988,7 +1987,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn",
+  "headline": "LinkedIn · Title 11 of 48 · Domain Architect",
   "detail": "Families covered 10/48"
  },
  "rules": {
