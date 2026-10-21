@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T16:42:00Z",
+ "generated_at": "2026-10-21T16:46:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T16:31:16Z",
+  "last_activity_at": "2026-10-21T16:44:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 171,
+   "covered_units": 176,
    "total_units": 1008,
    "pct": 17
   }
@@ -26,8 +26,8 @@
  "counts": {
   "filed": 11,
   "parked": 16,
-  "rejected": 620,
-  "evaluated": 652
+  "rejected": 629,
+  "evaluated": 661
  },
  "today": {
   "date": "2026-10-21",
@@ -104,12 +104,12 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 11,
+   "families_searched": 16,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-21T16:00:20Z",
-   "detail": "Employers covered 10/44 · searching Utilities"
+   "detail": "Employers covered 15/44 · searching Utilities"
   },
   "W7": {
    "label": "Google Jobs",
@@ -478,30 +478,35 @@
     "W3",
     "W4",
     "W5",
+    "W6",
     "LinkedIn"
    ],
    "IT/OT Architect": [
     "W3",
     "W4",
     "W5",
+    "W6",
     "LinkedIn"
    ],
    "Cloud Transformation Architect": [
     "W3",
     "W4",
     "W5",
+    "W6",
     "LinkedIn"
    ],
    "Principal Cloud Engineer": [
     "W3",
     "W4",
     "W5",
+    "W6",
     "LinkedIn"
    ],
    "Principal Infrastructure Engineer": [
     "W3",
     "W4",
     "W5",
+    "W6",
     "LinkedIn"
    ],
    "Cloud Architecture Lead": [
@@ -818,6 +823,11 @@
     "created_at": "2026-10-20T14:24:18.992312-05:00"
    },
    {
+    "id": "fire-8e23091bb1f7",
+    "reason": "stage 16 continuation (run 36683c71): SECTOR W6 Utilities CHECKPOINT — batch 1 merged (Dominion/NextEra/Constellation/NRG/Vistra covered; 9 gate rejects; 0 PASS). Stage does NOT advance. REMAINDER first, same stage, capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS: (1) W6a re-dispatch Duke Energy/Southern Company/Exelon/PG&E/CenterPoint Energy (task 8d634e4a declared dead, zero coverage); (2) Sempra + Eversource full passes + Xcel Enterprise Security Architect JD verdict (W6b delivery truncated, re-sends dead); (3) Entergy Google Jobs pass + IT Architect – AI Solutions verdict (Section C); (4) AEP retry (bot wall); (5) NextEra Lead IT Solutions Architect (NEER) JD verdict; (6) untouched slices d-i (29 employers, listed in queue checkpoint block). Run totals filed 11 / parked 16 / rejected 629; families 18/48; cap headroom 9.",
+    "created_at": "2026-10-21T11:44:33.700473-05:00"
+   },
+   {
     "id": "fire-a505fe03f7e6",
     "reason": "stage 12 (run 36683c71): SECTOR W4 — Healthcare Insurers. Every named insurer employer in lane_pools.json W4 pool (Humana PERMANENTLY EXCLUDED — never surface it) with the SECTOR DISCOVERY REBUILD three passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing; pre-sales rule DISABLED this run). Carried Section C for the next LinkedIn execution (not this stage): Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed, report-only. GSK-10289 stays PARKED (Ceipal credential needed — no re-attempt without a saved login). Run totals: filed 7 / parked 13 / rejected 529; families covered 14/48; filing cap headroom 13.",
     "created_at": "2026-10-21T05:45:32.721796-05:00"
@@ -869,7 +879,7 @@
    }
   ]
  },
- "note": "Last activity 11:31 CT · 70 workers in flight · 11 filed this run",
+ "note": "Last activity 11:44 CT · 70 workers in flight · 11 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
