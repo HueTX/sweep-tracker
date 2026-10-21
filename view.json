@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T11:46:51Z",
+ "generated_at": "2026-10-21T11:52:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,39 +9,38 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T11:45:49Z",
+  "last_activity_at": "2026-10-21T11:52:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 100,
+   "covered_units": 108,
    "total_units": 1008,
-   "pct": 10
+   "pct": 11
   }
  },
  "counts": {
   "filed": 8,
   "parked": 13,
-  "rejected": 558,
-  "evaluated": 584
+  "rejected": 563,
+  "evaluated": 589
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 37,
+  "evaluated": 42,
   "filed": 1,
   "parked": 1,
-  "rejected": 35,
+  "rejected": 40,
   "filed_by_source": {
    "Employer sites": 1
   }
  },
  "searching_lanes": [
   "W3",
-  "W4",
   "LinkedIn"
  ],
  "lanes": {
@@ -81,17 +80,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 28,
+   "phase": "done",
+   "families_searched": 36,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 29,
-    "name": "Network Security Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-21T10:53:04Z",
-   "detail": "Employers covered 19/32 · searching Healthcare Insurers"
+   "current_family": null,
+   "heartbeat_at": "2026-10-21T11:50:46Z",
+   "detail": "Employers covered 24/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -308,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "3 of 20 sector lanes finished · 4 with results in",
+   "detail": "0 of 20 sector lanes finished · 4 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -528,28 +523,36 @@
     "W4"
    ],
    "Network Security Architect": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Chief Architect": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Cloud Engineering Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Platform Engineering Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Cloud Transformation Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Technology Strategy Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Enterprise Technology Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Infrastructure Strategy Lead": [
-    "W3"
+    "W3",
+    "W4"
    ],
    "Cloud Practice Lead": [
     "W3"
@@ -721,6 +724,11 @@
     "created_at": "2026-10-20T14:39:17.795404-05:00"
    },
    {
+    "id": "fire-68e46ec5941e",
+    "reason": "stage 13 (run 36683c71): LINKEDIN FAMILIES 15-16 — Principal Cloud Engineer, Principal Infrastructure Engineer (2-family unit, Past-24h + Remote, max 2 pages/family, 20-45s pacing with timestamped query + JD-open logs, JD-first verdicts, file-in-execution for any PASS after parent duplicate check + preflight). Section C carries first: Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed — REPORT-ONLY, never file Cognizant; plus any other live Section C items in the queue at execution start. Stage 12 W4 complete: 32/32 insurers, 35 JD reads, 1 PASS filed (Highmark J283755). Run totals: filed 8 / parked 13 / rejected 563; families covered 14/48; filing cap headroom 12. GSK-10289 stays PARKED (Ceipal credential needed).",
+    "created_at": "2026-10-21T06:52:08.249763-05:00"
+   },
+   {
     "id": "fire-6989813cdfa8",
     "reason": "stage 4 opening duty (run 36683c71): CARRIED FILINGS OWED FIRST — 2 stage-3 ClearanceJobs PASS live in Section A of lead-queue-2026-10-19-1408-36683c71.md: (1) ITC Federal Cloud Solutions Architect (AI Focus), ClearanceJobs, ability-to-obtain DHS Public Trust, remote, pay unpublished; (2) Peraton Modeling and Simulation Solution Architect, ClearanceJobs, 100% remote, $135,000-$216,000 — experience-alignment verification OWED first (M&S domain). Duplicate-check + enforce_rules --preflight + file-in-execution for clean qualifiers BEFORE/WITH stage 4 LinkedIn Families 1-2 work. Late full terminals merged as corrections 2026-10-19T20:52-05:00.",
     "created_at": "2026-10-19T20:54:03.016186-05:00"
@@ -792,17 +800,12 @@
    }
   ]
  },
- "note": "Last activity 06:45 CT · 56 workers in flight · 8 filed this run",
+ "note": "Last activity 06:52 CT · 54 workers in flight · 8 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
    "detail": "Employers covered 73/73",
    "pool": "W3"
-  },
-  {
-   "primary": "Healthcare Insurers · Title 29 of 48 · Network Security Architect",
-   "detail": "Employers covered 19/32 · searching Healthcare Insurers",
-   "pool": "W4"
   },
   {
    "primary": "LinkedIn",
