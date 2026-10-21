@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T15:51:43Z",
+ "generated_at": "2026-10-21T15:56:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T15:36:44Z",
+  "last_activity_at": "2026-10-21T15:55:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 160,
@@ -24,20 +24,20 @@
   }
  },
  "counts": {
-  "filed": 10,
+  "filed": 11,
   "parked": 16,
-  "rejected": 606,
-  "evaluated": 637
+  "rejected": 620,
+  "evaluated": 652
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 118,
-  "filed": 2,
+  "evaluated": 119,
+  "filed": 3,
   "parked": 2,
   "rejected": 114,
   "filed_by_source": {
    "LinkedIn": 1,
-   "Employer sites": 1
+   "Employer sites": 2
   }
  },
  "searching_lanes": [
@@ -268,16 +268,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 18,
    "families_total": 48,
-   "current": {
-    "company": "Carnival Cruise Line",
-    "title": "Principal Architect, Infrastructure"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-21T15:36:01Z",
-   "detail": "Families covered 16/48"
+   "heartbeat_at": "2026-10-21T15:54:38Z",
+   "detail": "Families covered 18/48"
   }
  },
  "stages": {
@@ -295,7 +292,7 @@
   },
   "linkedin_discovery": {
    "state": "done",
-   "detail": "Families covered 16/48",
+   "detail": "Families covered 18/48",
    "started_at": null,
    "ended_at": null
   },
@@ -760,6 +757,11 @@
     "created_at": "2026-10-20T13:50:58.781787-05:00"
    },
    {
+    "id": "fire-223835ee7d43",
+    "reason": "stage-relay advance: run 36683c71 stage 15 (LINKEDIN FAMILIES 17-18) COMPLETE — families Cloud Architecture Lead + Cloud Infrastructure Lead covered (exact 0 results each, fuzzy pools verdicted), queries 3, JD reads 15, rejected 14, 1 PASS FILED in-execution: Carnival Cruise Line Principal Architect, Infrastructure 4472281292 (Oracle Job 13977, Under Consideration, Applied 10/21/2026). 2 NOT EVALUATED carried (Stellar IT, Ladders). Next: stage 16 SECTOR W6 Utilities — capped batches of 3 tasks x 5 employers, 3 passes each (ATS architect keyword w/ remote facet, Google Jobs, one board), location-gate at listing level, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T10:55:09.708339-05:00"
+   },
+   {
     "id": "fire-38f7d972f82346b1",
     "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 5 — remainder 13 pharma employers: Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. FIRST: GSK Solutions Inc. Marketing Operations Business Solution Architect (Remote, 6-month contract, no rate published) sits in Section C — governing-text read owed (unpublished rate is eligible; do not repeat the worker's contract-rate reject). Batch 4 closed fully covered 15/15 (chunks W3slice10-12): 73 rejects, 0 filed; its sole PASS (Amgen R-256615) was duplicate-of-filed at parent check (filed 2026-10-15) — never refile it. Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
     "created_at": "2026-10-20T16:40:00.357900-05:00"
@@ -861,7 +863,7 @@
    }
   ]
  },
- "note": "Last activity 10:36 CT · 67 workers in flight · 10 filed this run",
+ "note": "Last activity 10:55 CT · 67 workers in flight · 11 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -869,8 +871,8 @@
    "pool": "W3"
   },
   {
-   "primary": "Principal Architect, Infrastructure — Carnival Cruise Line",
-   "detail": "LinkedIn · Families covered 16/48",
+   "primary": "LinkedIn",
+   "detail": "Families covered 18/48",
    "pool": "LinkedIn"
   }
  ],
