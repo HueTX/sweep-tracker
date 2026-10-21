@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T10:51:26Z",
+ "generated_at": "2026-10-21T10:56:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T10:45:32Z",
+  "last_activity_at": "2026-10-21T10:53:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 72,
@@ -39,6 +39,7 @@
  },
  "searching_lanes": [
   "W3",
+  "W4",
   "LinkedIn"
  ],
  "lanes": {
@@ -78,13 +79,17 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-21T10:53:04Z",
+   "detail": "Searching · 48 title families across UnitedHealth Group / Optum, Elevance Health, CVS Health / Aetna, and 29 more"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -701,11 +706,6 @@
     "created_at": "2026-10-20T05:20:46.481024-05:00"
    },
    {
-    "id": "fire-894e3df28778",
-    "reason": "stage 3 continuation (run 36683c71): SECTOR W2 remainder — Harris County remit FIRST (Section C Director of Enterprise Systems and Architecture JD verdict + Harris group pass; task 9d026ff9 declared dead at checkpoint, stub chunk-36683c71-W2harris-stub.md — if its terminal return landed on disk, merge as correction), then 18 portal groups unworked: Oregon, Massachusetts, New Jersey, Maryland, Minnesota, Wisconsin, Michigan, Indiana, Tennessee, Missouri, Louisiana, Kentucky, Oklahoma, Connecticut, Utah, Nevada, City of Houston, Miami-Dade, ClearanceJobs. Covered this run (do NOT rework): FL, NY state, WA, CO, AZ, NC, GA, VA, IL, OH, PA, NYC, LA County, Cook, Harris (terminal), Maricopa, King (chunks chunk-36683c71-W2*.md, 0 PASS, 0 filed). Capped tasks 1 portal group each, batches of 3, compact returns with query start times, remote/telework filter first, location-gate at listing, file-in-execution for any PASS.",
-    "created_at": "2026-10-19T17:48:58.094160-05:00"
-   },
-   {
     "id": "fire-8bb37f939787",
     "reason": "stage 10 continuation (run 36683c71): SECTOR W3 remainder is ONLY the 43 untouched employers (providers: ProMedica, Johns Hopkins Medicine, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone Health, Mount Sinai Health System, RWJBarnabas Health, Texas Children's Hospital, MD Anderson Cancer Center; pharma: Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie, Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche / Genentech, Novo Nordisk, Moderna, Regeneron Pharmaceuticals, Vertex Pharmaceuticals, Biogen, Gilead Sciences, Zoetis, Becton Dickinson (BD), Baxter International, Medtronic, Siemens Healthineers, Teva Pharmaceuticals, Viatris, Incyte, BioMarin, Sarepta Therapeutics, Jazz Pharmaceuticals, United Therapeutics, Neurocrine Biosciences, Alkermes, Organon). Batches 1-2 final: 30/30 employers covered, 0 PASS, 0 filed (chunks W3slice1-6 + W3trinity-verify). Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-20T14:24:18.992312-05:00"
@@ -762,12 +762,17 @@
    }
   ]
  },
- "note": "Last activity 05:45 CT · 54 workers in flight · 7 filed this run",
+ "note": "Last activity 05:53 CT · 57 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
    "detail": "Employers covered 73/73",
    "pool": "W3"
+  },
+  {
+   "primary": "Healthcare Insurers · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across UnitedHealth Group / Optum, Elevance Health, CVS Health / Aetna, and 29 more",
+   "pool": "W4"
   },
   {
    "primary": "LinkedIn",
