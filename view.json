@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T09:57:07Z",
+ "generated_at": "2026-10-21T10:01:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T04:57:02Z",
+  "last_activity_at": "2026-10-21T10:00:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 70,
@@ -37,7 +37,10 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -262,12 +265,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "evaluating",
+   "phase": "searching",
    "families_searched": 12,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-20T17:08:59Z",
+   "current_family": {
+    "index": 13,
+    "name": "IT/OT Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-21T10:00:54Z",
    "detail": "Families covered 12/48"
   }
  },
@@ -747,18 +754,24 @@
    }
   ]
  },
- "note": "Last activity 23:57 CT · 52 workers in flight · 7 filed this run",
+ "note": "Last activity 05:00 CT · 52 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 3 done · 17 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn · Title 13 of 48 · IT/OT Architect",
+   "detail": "Families covered 12/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
