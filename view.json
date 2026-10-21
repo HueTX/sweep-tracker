@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T14:36:31Z",
+ "generated_at": "2026-10-21T14:42:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,32 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T14:10:16Z",
+  "last_activity_at": "2026-10-21T14:41:38Z",
   "progress": {
    "pools": 21,
-   "covered_units": 143,
+   "covered_units": 158,
    "total_units": 1008,
-   "pct": 14
+   "pct": 16
   }
  },
  "counts": {
-  "filed": 9,
-  "parked": 13,
-  "rejected": 579,
-  "evaluated": 606
+  "filed": 10,
+  "parked": 16,
+  "rejected": 613,
+  "evaluated": 644
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 85,
+  "evaluated": 96,
   "filed": 2,
   "parked": 2,
-  "rejected": 81,
+  "rejected": 92,
   "filed_by_source": {
    "LinkedIn": 1,
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -89,13 +92,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 33,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-21T13:34:16Z",
-   "detail": "Employers covered 30/44 · searching Oil & Gas"
+   "heartbeat_at": "2026-10-21T14:41:23Z",
+   "detail": "Employers covered 44/44"
   },
   "W6": {
    "label": "Utilities",
@@ -301,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "4 of 20 sector lanes finished · 5 with results in",
+   "detail": "0 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -577,51 +580,66 @@
    ],
    "Technology Strategy Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Enterprise Technology Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Infrastructure Strategy Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Practice Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Cloud Center of Excellence Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Cloud Enablement Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Cloud Adoption Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Infrastructure Modernization Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Technology Modernization Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Cloud Delivery Lead": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Enterprise Technology Consultant": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Cloud Advisory Consultant": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Technology Transformation Consultant": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Staff Cloud Engineer": [
-    "W3"
+    "W3",
+    "W5"
    ],
    "Staff Infrastructure Engineer": [
-    "W3"
+    "W3",
+    "W5"
    ]
   }
  },
@@ -832,24 +850,35 @@
     "created_at": "2026-10-21T08:01:18.879272-05:00"
    },
    {
+    "id": "fire-df042057fc3e4731",
+    "reason": "stage-relay advance: run 36683c71 stage 14 (SECTOR W5 Oil & Gas) COMPLETE — 44/44 employers covered, 12 JD reads, 0 PASS, 0 filed. Next: stage 15 LINKEDIN FAMILIES 17-18 (Cloud Architecture Lead, Cloud Infrastructure Lead) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, coverage-contingent query logs, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-17-18.md). Then stage 16 SECTOR W6 Utilities.",
+    "created_at": "2026-10-21T09:41:38.799752-05:00"
+   },
+   {
     "id": "fire-e6622fceb34a470a",
     "reason": "stage 4 continuation (run 36683c71): LinkedIn Families 1-2 CHECKPOINT — main task merged (13 surfaced, 9 JD reads, 0 PASS, 9 rejected incl. 2 Applied culls of today's a94e0f95 filings); carried PASS from stage 3 dispositioned first (ITC Federal duplicate-of-filed Req 2026-1599; Peraton M&S experience-mismatch). Stage does NOT advance: both repair tasks returned empty/dead. REMAINDER first, same stage: JD reads — Bonterra Sr. Cloud Architect Platform & Architecture, Motion Recruitment Azure Data Architect, Jobs via Dice Azure Architect; Azure Architect PAGE 2 (Remote+Past24h); Section C re-read Planet Technology Sr Solutions Architect 4481792119. File-in-execution for any PASS. Standing blocks stay stall-owned.",
     "created_at": "2026-10-19T21:06:41.412275-05:00"
    }
   ]
  },
- "note": "Last activity 09:10 CT · 65 workers in flight · 9 filed this run",
+ "note": "Last activity 09:41 CT · 65 workers in flight · 10 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 5 done · 15 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 16/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
