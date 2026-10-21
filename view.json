@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T12:41:43Z",
+ "generated_at": "2026-10-21T12:47:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T12:36:27Z",
+  "last_activity_at": "2026-10-21T12:45:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 108,
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 8,
   "parked": 13,
-  "rejected": 563,
-  "evaluated": 589
+  "rejected": 579,
+  "evaluated": 605
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 42,
+  "evaluated": 59,
   "filed": 1,
-  "parked": 1,
-  "rejected": 40,
+  "parked": 2,
+  "rejected": 56,
   "filed_by_source": {
    "Employer sites": 1
   }
@@ -267,16 +267,15 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "filing",
    "families_searched": 14,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 15,
-    "name": "Principal Cloud Engineer",
-    "total": 48
+   "current": {
+    "company": "AllianceIT Inc",
+    "title": "Senior Enterprise Architect"
    },
-   "heartbeat_at": "2026-10-21T11:59:37Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-21T12:45:30Z",
    "detail": "Families covered 14/48"
   }
  },
@@ -294,14 +293,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 14/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "active",
+   "detail": "Filing now",
    "started_at": null,
    "ended_at": null
   },
@@ -713,6 +712,11 @@
     "created_at": "2026-10-20T16:40:00.357900-05:00"
    },
    {
+    "id": "fire-52a7b089ee05",
+    "reason": "stage 13 continuation (run 36683c71): LINKEDIN FAMILIES 15-16 — discovery task c8bdfe50 declared DEAD on evidenced check (window gone ~07:42 CT, no terminal; stub chunk-36683c71-linkedin-15-16-stub.md). Re-dispatch LinkedIn discovery for Principal Cloud Engineer + Principal Infrastructure Engineer (Remote, Past 24 hours, max 2 pages, JD-first, 20-45s pacing, timestamped query + JD-open logs) and the Section C Cognizant Enterprise Architect (Des Moines IA, Remote) JD read FIRST (report-only, never file Cognizant). If c8bdfe50's late terminal has landed, merge it as a correction and credit only evidenced families instead of re-searching them. GSK-10289 stays PARKED (Ceipal credential needed). Run totals filed 8 / parked 13 / rejected 563; families covered 14/48; filing cap headroom 12.",
+    "created_at": "2026-10-21T07:42:54.892448-05:00"
+   },
+   {
     "id": "fire-550546bd3ddf",
     "reason": "stage-relay advance: run 36683c71 stage 3 (SECTOR W2) COMPLETE — 36/36 portal groups covered, 0 PASS, 0 filed run-wide; Indiana IOT Section C resolved REJECTED pay-outside-band. Next: stage 4 LINKEDIN FAMILIES 1-2 (Azure Architect, Azure Solutions Architect) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-1-2.md).",
     "created_at": "2026-10-19T20:50:56.433748-05:00"
@@ -799,7 +803,7 @@
    }
   ]
  },
- "note": "Last activity 07:36 CT · 55 workers in flight · 8 filed this run",
+ "note": "Last activity 07:45 CT · 56 workers in flight · 8 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -807,8 +811,8 @@
    "pool": "W3"
   },
   {
-   "primary": "LinkedIn · Title 15 of 48 · Principal Cloud Engineer",
-   "detail": "Families covered 14/48",
+   "primary": "Senior Enterprise Architect — AllianceIT Inc",
+   "detail": "LinkedIn · Families covered 14/48",
    "pool": "LinkedIn"
   }
  ],
