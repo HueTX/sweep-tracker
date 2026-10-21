@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T03:56:20Z",
+ "generated_at": "2026-10-21T04:01:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-20T22:11:15Z",
+  "last_activity_at": "2026-10-21T03:58:45Z",
   "progress": {
    "pools": 21,
    "covered_units": 70,
@@ -40,7 +40,10 @@
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -70,9 +73,12 @@
    "phase": "filing",
    "families_searched": 48,
    "families_total": 48,
-   "current": null,
+   "current": {
+    "company": "GSK Solutions Inc.",
+    "title": "Marketing Operations Business Solution Architect"
+   },
    "current_family": null,
-   "heartbeat_at": "2026-10-20T22:11:15Z",
+   "heartbeat_at": "2026-10-21T03:57:28Z",
    "detail": "Employers covered 73/73 · searching Healthcare Providers"
   },
   "W4": {
@@ -265,11 +271,15 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "stopped",
+   "phase": "evaluating",
    "families_searched": 12,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 13,
+    "name": "IT/OT Architect",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-20T17:08:59Z",
    "detail": "Families covered 12/48"
   }
@@ -288,14 +298,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 12/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -745,18 +755,24 @@
    }
   ]
  },
- "note": "Last activity 17:11 CT · 51 workers in flight · 7 filed this run",
+ "note": "Last activity 22:58 CT · 52 workers in flight · 7 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 2 done · 1 stopped · 17 waiting to start"
+   "primary": "Marketing Operations Business Solution Architect — GSK Solutions Inc.",
+   "detail": "Healthcare Providers · Employers covered 73/73 · searching Healthcare Providers",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn · Title 13 of 48 · IT/OT Architect",
+   "detail": "Families covered 12/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Marketing Operations Business Solution Architect — GSK Solutions Inc.",
+  "detail": "Healthcare Providers · Employers covered 73/73 · searching Healthcare Providers"
  },
  "rules": {
   "follow_all": false,
