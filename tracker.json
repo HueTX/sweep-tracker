@@ -1,9 +1,84 @@
 {
  "schema": 2,
  "date": "2026-10-21",
- "generated_at": "2026-10-21T11:41:25Z",
- "today_filings": {},
- "today_filed_by_source": {},
+ "generated_at": "2026-10-21T11:46:51Z",
+ "today_filings": {
+  "Employer sites": [
+   {
+    "company": "Highmark Health",
+    "role": "Principal Information Security Architect - Data Security",
+    "where": "Employer sites",
+    "time": "",
+    "check": {
+     "company": "Highmark Health",
+     "role": "Principal Information Security Architect - Data Security",
+     "where": "Workday (highmarkhealth.wd1.myworkdayjobs.com) — employer ATS direct",
+     "filed_at": "2026-10-21 ~06:40 America/Chicago (approx; Workday records date only: October 21, 2026)",
+     "verdict": "pass",
+     "rules": [
+      {
+       "rule": "full JD read",
+       "status": "pass",
+       "evidence": "Discovery JD read (slice B) + filer pre-check read of the live posting: \"The Principal Information Security Architect - Data Security serves as the enterprise leader for designing and advancing data security architectures that protect sensitive information across its entire lifecycle.\""
+      },
+      {
+       "rule": "experience alignment",
+       "status": "pass",
+       "evidence": "Enterprise data-security architecture maps to candidate's security/enterprise architecture history (CenterPoint Energy, Shell, ExxonMobil, EY); no healthcare-platform core required by the JD"
+      },
+      {
+       "rule": "duplicate check",
+       "status": "pass",
+       "evidence": "Ledger + do-not-reapply clear for J283755 (prior 2026-10-02 outcome was PARKED at sign-in wall, never filed); filer verified in Workday Candidate Home pre-apply: Active (0), only J287141 Not Selected (2026-09-22)"
+      },
+      {
+       "rule": "employer not excluded / not Cognizant / not DevSecOps",
+       "status": "pass",
+       "evidence": "Highmark Health — not Humana/First Citizens/Oakworth; not Cognizant; title not DevSecOps"
+      },
+      {
+       "rule": "100% remote US",
+       "status": "pass",
+       "evidence": "Posting: 'Work At Home - Pennsylvania / Office- or Remote-based', 'Physical work site required: No'; no PA-residency requirement in JD (filer verified verbatim); candidate previously approved filing a Highmark work-at-home-PA role (2026-09-22)"
+      },
+      {
+       "rule": "pay band",
+       "status": "pass",
+       "evidence": "Published \"$129,100.00 – $214,500.00\" — top $214,500 inside $160,000-$230,000"
+      },
+      {
+       "rule": "posting freshness",
+       "status": "pass",
+       "evidence": "POSTED: 2026-10-15 (within 7 days of 2026-10-21)"
+      },
+      {
+       "rule": "tailored resume",
+       "status": "pass",
+       "evidence": "Hubert-Samuel-Resume.pdf at hidden_files/filings/highmark-principal-information-security-architect-data-security/ (tailored Highmark J283755 version built 2026-10-02 from truthful resume content); uploaded — 'Successfully Uploaded!' and shown on the submitted application"
+      },
+      {
+       "rule": "veteran answer",
+       "status": "pass",
+       "evidence": "Selected exactly 'I am not a veteran'"
+      },
+      {
+       "rule": "screening answers",
+       "status": "pass",
+       "evidence": "Standing answers used; disclosures: Two or More Races, Male, disability No. Pay expectation field was free-text: '$170,000-$190,000' entered. Items the flow never asked recorded n/a by the filer (clearance-ability, relocation, travel, numeric years)"
+      },
+      {
+       "rule": "filing proof",
+       "status": "pass",
+       "evidence": "EVIDENCE: ats-confirmation — Workday dialog 'Application Submitted / Thank you for applying! / You have no more tasks.' + Candidate Home Active (1) 'Application Received', Date Submitted October 21, 2026"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "Employer sites": 1
+ },
  "today_parked": {
   "Employer sites": [
    {
@@ -916,7 +991,8 @@
    "SelectHealth",
    "Excellus BlueCross BlueShield",
    "Capital Blue Cross",
-   "CareSource"
+   "CareSource",
+   "Highmark Health"
   ],
   "W10": [
    "The Campbell's Company",
@@ -960,7 +1036,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-21T11:41:25Z",
+ "lists_generated_at": "2026-10-21T11:46:51Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -975,7 +1051,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T11:41:13Z",
+  "last_activity_at": "2026-10-21T11:45:49Z",
   "progress": {
    "pools": 21,
    "covered_units": 100,
@@ -984,18 +1060,20 @@
   }
  },
  "counts": {
-  "filed": 7,
+  "filed": 8,
   "parked": 13,
   "rejected": 558,
-  "evaluated": 583
+  "evaluated": 584
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 36,
-  "filed": 0,
+  "evaluated": 37,
+  "filed": 1,
   "parked": 1,
   "rejected": 35,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "Employer sites": 1
+  }
  },
  "searching_lanes": [
   "W3",
@@ -1750,7 +1828,7 @@
    }
   ]
  },
- "note": "Last activity 06:41 CT · 57 workers in flight · 7 filed this run",
+ "note": "Last activity 06:45 CT · 56 workers in flight · 8 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
