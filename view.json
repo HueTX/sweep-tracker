@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T22:11:26Z",
+ "generated_at": "2026-10-21T22:17:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T22:06:46Z",
+  "last_activity_at": "2026-10-21T22:16:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 221,
@@ -26,8 +26,8 @@
  "counts": {
   "filed": 14,
   "parked": 20,
-  "rejected": 789,
-  "evaluated": 831
+  "rejected": 799,
+  "evaluated": 841
  },
  "today": {
   "date": "2026-10-21",
@@ -879,7 +879,7 @@
    },
    {
     "id": "fire-a7f4e9e1e4d2",
-    "reason": "stage 18 continuation (run 36683c71): W16 slices A+B merged (10/59 employers covered, 163 listings, 32 JD reads, 0 PASS, 32 rejects, 0 filed). Slice C (PNC Financial, Fifth Third Bank, Citizens Financial, Regions Financial, M&T Bank; task 47b39ca4) declared dead on evidenced check — re-dispatch C FIRST (a late C terminal merges as correction), then slices D-L in lane_pools W16 order (KeyCorp, Huntington Bancshares, Northern Trust, State Street, BNY Mellon, Fidelity Investments, Charles Schwab, BlackRock, Vanguard, T. Rowe Price, Franklin Templeton, Prudential Financial, MetLife, Aflac, Principal Financial, Lincoln Financial, Nationwide, MassMutual, New York Life, TIAA, Travelers, Progressive, Chubb, Hartford, AIG, Visa, Mastercard, PayPal, Fiserv, FIS, Global Payments, Jack Henry, S&P Global, Moody's, CME Group, Intercontinental Exchange, Nasdaq, Edward Jones, Raymond James, Discover Financial, Synchrony Financial, Ally Financial, Marsh McLennan, Aon). Stage 18 does not advance until W16 is 59/59 or every remaining employer carries a disposition.",
+    "reason": "stage 18 continuation (run 36683c71): W16 slices A+B+C all terminal-merged (15/59 employers covered, 199 listings, 42 JD reads, 0 PASS, 42 rejects, 0 filed). Remainder = slices D-L in lane_pools W16 order, 5 employers per capped task, batches of <=3: KeyCorp, Huntington Bancshares, Northern Trust, State Street, BNY Mellon, Fidelity Investments, Charles Schwab, BlackRock, Vanguard, T. Rowe Price, Franklin Templeton, Prudential Financial, MetLife, Aflac, Principal Financial, Lincoln Financial, Nationwide, MassMutual, New York Life, TIAA, Travelers, Progressive, Chubb, Hartford, AIG, Visa, Mastercard, PayPal, Fiserv, FIS, Global Payments, Jack Henry & Associates, S&P Global, Moody's, CME Group, Intercontinental Exchange, Nasdaq, Edward Jones, Raymond James, Discover Financial, Synchrony Financial, Ally Financial, Marsh McLennan, Aon. Stage 18 does not advance until W16 is 59/59 or every remaining employer carries a disposition.",
     "created_at": "2026-10-21T17:02:22.040913-05:00"
    },
    {
@@ -929,7 +929,7 @@
    }
   ]
  },
- "note": "Last activity 17:06 CT · 88 workers in flight · 14 filed this run",
+ "note": "Last activity 17:16 CT · 88 workers in flight · 14 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
