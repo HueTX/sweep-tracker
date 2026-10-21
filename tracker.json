@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-21",
- "generated_at": "2026-10-21T15:51:43Z",
+ "generated_at": "2026-10-21T15:56:35Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -77,6 +77,76 @@
   ],
   "Employer sites": [
    {
+    "company": "Carnival Cruise Line",
+    "role": "Principal Architect, Infrastructure",
+    "where": "Employer sites",
+    "time": "",
+    "check": {
+     "company": "Carnival Cruise Line",
+     "role": "Principal Architect, Infrastructure",
+     "where": "LinkedIn 4472281292 -> Oracle HCM Job 13977",
+     "filed_at": "2026-10-21 10:54 CT",
+     "verdict": "pass",
+     "rules": [
+      {
+       "rule": "Full JD read",
+       "status": "pass",
+       "evidence": "Full JD read at discovery (stage 15, task 742a5648): core infrastructure architecture — design, security, disaster recovery, SAN/NAS storage, hyper-converged, AWS/Azure multi-cloud"
+      },
+      {
+       "rule": "Experience alignment",
+       "status": "pass",
+       "evidence": "Infrastructure/DR/storage/VMware architecture maps to CenterPoint Energy Enterprise Architect (2022-2026), Stallion Infrastructure Architect, Shell/ExxonMobil cloud work. Minor gap noted: JD Essential Experience '1+ years in the cruise and/or travel industry' — not a form gate, no cruise experience claimed; core duties aligned"
+      },
+      {
+       "rule": "Duplicate check",
+       "status": "pass",
+       "evidence": "Ledger + do-not-reapply + stale-seen checked: ID 4472281292 no hits; posting showed 'Apply on company website' (not Applied) at filer start. Prior Carnival Job 13977 run (2026-10-14) was PARKED never submitted, so no duplicate"
+      },
+      {
+       "rule": "Employer not excluded / not Cognizant / not DevSecOps",
+       "status": "pass",
+       "evidence": "Carnival Cruise Line is not Humana/First Citizens/Oakworth, not Cognizant; title not DevSecOps"
+      },
+      {
+       "rule": "100% remote US",
+       "status": "pass",
+       "evidence": "JD: 'This position is classified as remote.' (ATS location field shows Miami, FL, United States — corporate HQ listing; JD remote classification governs)"
+      },
+      {
+       "rule": "Pay / contract rate",
+       "status": "pass",
+       "evidence": "Full-time, salary unpublished in JD — eligible (no published range to test)"
+      },
+      {
+       "rule": "Freshness",
+       "status": "pass",
+       "evidence": "POSTED: 2026-10-18 (Reposted 3 days ago at discovery, within 7 days)"
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "pass",
+       "evidence": "Hubert-Samuel-Resume.pdf at filings/carnival-principal-architect-infrastructure/ — rewritten around this JD's infrastructure/DR/storage/hyper-converged/Azure+AWS duties using only his actual record; filer removed the pre-existing profile copy and uploaded only this file"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "n/a",
+       "evidence": "No veteran-status question was presented anywhere in the 4-step Oracle HCM flow, so no option existed to select (filer verbatim report); strict rule not breached"
+      },
+      {
+       "rule": "Screening answers",
+       "status": "pass",
+       "evidence": "Standing data / profile pre-fills verified: hear=LinkedIn, 18+=Yes, sponsorship No, non-compete No, relocate No, AI consent Yes, email-marketing consent left unchecked (No). Deviation: salary submitted as site bucket '180,000 - 209,000' containing the $180,000 figure (bucket granularity). Education degrees completed resume-verbatim (Oxford Brookes BS IT, SNHU MS IT)"
+      },
+      {
+       "rule": "Filing proof",
+       "status": "pass",
+       "evidence": "ats-confirmation — Oracle HCM Job 13977, Status Under Consideration, Applied on 10/21/2026; applied-list — LinkedIn 4472281292 'Applied on company site — now'"
+      }
+     ]
+    }
+   },
+   {
     "company": "Highmark Health",
     "role": "Principal Information Security Architect - Data Security",
     "where": "Employer sites",
@@ -150,7 +220,7 @@
  },
  "today_filed_by_source": {
   "LinkedIn": 1,
-  "Employer sites": 1
+  "Employer sites": 2
  },
  "today_parked": {
   "SimplyHired": [
@@ -1654,7 +1724,8 @@
    "Weatherford",
    "Diamondback Energy",
    "NOV",
-   "Murphy Oil"
+   "Murphy Oil",
+   "Carnival Cruise Line"
   ],
   "W10": [
    "The Campbell's Company",
@@ -1698,7 +1769,7 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-21T15:51:43Z",
+ "lists_generated_at": "2026-10-21T15:56:34Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1713,7 +1784,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T15:36:44Z",
+  "last_activity_at": "2026-10-21T15:55:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 160,
@@ -1722,20 +1793,20 @@
   }
  },
  "counts": {
-  "filed": 10,
+  "filed": 11,
   "parked": 16,
-  "rejected": 606,
-  "evaluated": 637
+  "rejected": 620,
+  "evaluated": 652
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 118,
-  "filed": 2,
+  "evaluated": 119,
+  "filed": 3,
   "parked": 2,
   "rejected": 114,
   "filed_by_source": {
    "LinkedIn": 1,
-   "Employer sites": 1
+   "Employer sites": 2
   }
  },
  "searching_lanes": [
@@ -1966,16 +2037,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 18,
    "families_total": 48,
-   "current": {
-    "company": "Carnival Cruise Line",
-    "title": "Principal Architect, Infrastructure"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-21T15:36:01Z",
-   "detail": "Families covered 16/48"
+   "heartbeat_at": "2026-10-21T15:54:38Z",
+   "detail": "Families covered 18/48"
   }
  },
  "stages": {
@@ -1993,7 +2061,7 @@
   },
   "linkedin_discovery": {
    "state": "done",
-   "detail": "Families covered 16/48",
+   "detail": "Families covered 18/48",
    "started_at": null,
    "ended_at": null
   },
@@ -2458,6 +2526,11 @@
     "created_at": "2026-10-20T13:50:58.781787-05:00"
    },
    {
+    "id": "fire-223835ee7d43",
+    "reason": "stage-relay advance: run 36683c71 stage 15 (LINKEDIN FAMILIES 17-18) COMPLETE — families Cloud Architecture Lead + Cloud Infrastructure Lead covered (exact 0 results each, fuzzy pools verdicted), queries 3, JD reads 15, rejected 14, 1 PASS FILED in-execution: Carnival Cruise Line Principal Architect, Infrastructure 4472281292 (Oracle Job 13977, Under Consideration, Applied 10/21/2026). 2 NOT EVALUATED carried (Stellar IT, Ladders). Next: stage 16 SECTOR W6 Utilities — capped batches of 3 tasks x 5 employers, 3 passes each (ATS architect keyword w/ remote facet, Google Jobs, one board), location-gate at listing level, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T10:55:09.708339-05:00"
+   },
+   {
     "id": "fire-38f7d972f82346b1",
     "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 5 — remainder 13 pharma employers: Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. FIRST: GSK Solutions Inc. Marketing Operations Business Solution Architect (Remote, 6-month contract, no rate published) sits in Section C — governing-text read owed (unpublished rate is eligible; do not repeat the worker's contract-rate reject). Batch 4 closed fully covered 15/15 (chunks W3slice10-12): 73 rejects, 0 filed; its sole PASS (Amgen R-256615) was duplicate-of-filed at parent check (filed 2026-10-15) — never refile it. Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
     "created_at": "2026-10-20T16:40:00.357900-05:00"
@@ -2559,7 +2632,7 @@
    }
   ]
  },
- "note": "Last activity 10:36 CT · 67 workers in flight · 10 filed this run",
+ "note": "Last activity 10:55 CT · 67 workers in flight · 11 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -2567,8 +2640,8 @@
    "pool": "W3"
   },
   {
-   "primary": "Principal Architect, Infrastructure — Carnival Cruise Line",
-   "detail": "LinkedIn · Families covered 16/48",
+   "primary": "LinkedIn",
+   "detail": "Families covered 18/48",
    "pool": "LinkedIn"
   }
  ],
