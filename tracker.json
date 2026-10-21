@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-21",
- "generated_at": "2026-10-21T14:07:49Z",
+ "generated_at": "2026-10-21T14:11:39Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -217,6 +217,13 @@
     "time": ""
    },
    {
+    "company": "Cheniere Energy",
+    "role": "Manager, Cybersecurity Architecture & Engineering",
+    "reason": "not-remote — JD \"This position will be based in Houston, Texas at our headquarters located downtown\" / \"onsite in the office 4 days per week\" — POSTED: not shown",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Chevron",
     "role": "Principal Architect, OT PCN Solutions (+5 architect listings)",
     "reason": "not-remote — \"Houston, Texas\" / \"Bengaluru, India\" / \"Buenos Aires, Argentina\" — POSTED: not displayed",
@@ -255,6 +262,34 @@
     "company": "CVS Health / Aetna",
     "role": "Solution Architect- Epic STARS",
     "reason": "experience-mismatch — \"5+ years of experience with Epic\" — POSTED: none shown",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Devon Energy",
+    "role": "Data Engineer",
+    "reason": "experience-mismatch — hands-on data engineering/analytics core (Snowflake/SQLMesh/dbt); pay \"$115,000 to $145,000\" top also below band — POSTED: not dated",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Devon Energy",
+    "role": "SCADA Architect",
+    "reason": "experience-mismatch — JD core OT/SCADA: \"Focus on the downhole program and the deployment of SCADA systems\" + hands-on \"Develop front-end screens using HTML, CSS, JavaScript, and Python\" (Ignition/AVEVA/PLC stack) — POSTED: not dated (live Workday)",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Devon Energy",
+    "role": "Sr Data Engineer",
+    "reason": "hands-on programming — \"Exceptional proficiency in Python and SQL\" / \"Design, build, and scale robust data pipelines\" — POSTED: not dated",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Enbridge",
+    "role": "Solution Architect",
+    "reason": "not-remote — \"Primary focus in Calgary, AB\" — POSTED: 2026-10-02 (also stale)",
     "where": "Employer sites",
     "time": ""
    },
@@ -479,6 +514,13 @@
     "company": "SLB",
     "role": "Software Architect",
     "reason": "not-remote — \"Houston\" / \"United States\" — POSTED: not shown",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "TC Energy",
+    "role": "IS Architect Senior - AMI Network",
+    "reason": "not-remote — JD \"This position requires candidates to be in the Houston, TX office 3 days per week\" — POSTED: not shown",
     "where": "Employer sites",
     "time": ""
    },
@@ -1369,7 +1411,11 @@
    "Halliburton",
    "Baker Hughes",
    "Marathon Petroleum",
-   "Phillips 66"
+   "Phillips 66",
+   "Devon Energy",
+   "Enbridge",
+   "TC Energy",
+   "Cheniere Energy"
   ],
   "W10": [
    "The Campbell's Company",
@@ -1413,14 +1459,14 @@
   "W13": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-21T14:07:48Z",
+ "lists_generated_at": "2026-10-21T14:11:39Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -1428,12 +1474,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T13:35:12Z",
+  "last_activity_at": "2026-10-21T14:10:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 126,
+   "covered_units": 143,
    "total_units": 1008,
-   "pct": 12
+   "pct": 14
   }
  },
  "counts": {
@@ -1444,16 +1490,19 @@
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 79,
+  "evaluated": 85,
   "filed": 2,
   "parked": 2,
-  "rejected": 75,
+  "rejected": 81,
   "filed_by_source": {
    "LinkedIn": 1,
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1503,12 +1552,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 16,
+   "families_searched": 33,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-21T13:34:16Z",
-   "detail": "Employers covered 15/44 · searching Oil & Gas"
+   "detail": "Employers covered 30/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -1905,71 +1954,88 @@
    ],
    "Cloud Architecture Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Infrastructure Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Principal Technical Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Strategy Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "IT Architecture Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Application Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Integration Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Data Center Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Digital Transformation Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Systems Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Identity Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Network Security Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Chief Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Engineering Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Platform Engineering Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Transformation Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Strategy Lead": [
     "W3",
@@ -2234,18 +2300,24 @@
    }
   ]
  },
- "note": "Last activity 08:35 CT · 62 workers in flight · 9 filed this run",
+ "note": "Last activity 09:10 CT · 65 workers in flight · 9 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 5 done · 15 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 16/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
