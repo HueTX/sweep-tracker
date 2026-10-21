@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T14:07:49Z",
+ "generated_at": "2026-10-21T14:11:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T13:35:12Z",
+  "last_activity_at": "2026-10-21T14:10:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 126,
+   "covered_units": 143,
    "total_units": 1008,
-   "pct": 12
+   "pct": 14
   }
  },
  "counts": {
@@ -31,16 +31,19 @@
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 79,
+  "evaluated": 85,
   "filed": 2,
   "parked": 2,
-  "rejected": 75,
+  "rejected": 81,
   "filed_by_source": {
    "LinkedIn": 1,
    "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -90,12 +93,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 16,
+   "families_searched": 33,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-21T13:34:16Z",
-   "detail": "Employers covered 15/44 · searching Oil & Gas"
+   "detail": "Employers covered 30/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -492,71 +495,88 @@
    ],
    "Cloud Architecture Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Infrastructure Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Principal Technical Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Strategy Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "IT Architecture Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Application Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Integration Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Data Center Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Digital Transformation Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Systems Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Identity Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Network Security Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Chief Architect": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Engineering Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Platform Engineering Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Cloud Transformation Lead": [
     "W3",
-    "W4"
+    "W4",
+    "W5"
    ],
    "Technology Strategy Lead": [
     "W3",
@@ -821,18 +841,24 @@
    }
   ]
  },
- "note": "Last activity 08:35 CT · 62 workers in flight · 9 filed this run",
+ "note": "Last activity 09:10 CT · 65 workers in flight · 9 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 5 done · 15 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 16/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
