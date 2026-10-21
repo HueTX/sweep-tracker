@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T13:26:58Z",
+ "generated_at": "2026-10-21T13:31:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T13:09:10Z",
+  "last_activity_at": "2026-10-21T13:31:11Z",
   "progress": {
    "pools": 21,
-   "covered_units": 110,
+   "covered_units": 126,
    "total_units": 1008,
-   "pct": 11
+   "pct": 12
   }
  },
  "counts": {
@@ -31,16 +31,17 @@
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 60,
+  "evaluated": 79,
   "filed": 2,
   "parked": 2,
-  "rejected": 56,
+  "rejected": 75,
   "filed_by_source": {
    "LinkedIn": 1,
    "Employer sites": 1
   }
  },
  "searching_lanes": [
+  "W3",
   "LinkedIn"
  ],
  "lanes": {
@@ -92,12 +93,12 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 16,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-21T13:08:33Z",
-   "detail": "Searching · 48 title families across ExxonMobil, Shell, Chevron, and 41 more"
+   "heartbeat_at": "2026-10-21T13:29:17Z",
+   "detail": "Employers covered 15/44 · searching Oil & Gas"
   },
   "W6": {
    "label": "Utilities",
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 20 sector lanes finished · 4 with results in",
+   "detail": "4 of 20 sector lanes finished · 5 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -391,6 +392,7 @@
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Azure Solutions Architect": [
@@ -398,6 +400,7 @@
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Azure Cloud Architect": [
@@ -405,75 +408,89 @@
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Cloud Architect": [
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Cloud Solutions Architect": [
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Enterprise Architect": [
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Infrastructure Architect": [
     "W2",
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Platform Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Solutions Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Solution Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Domain Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Resiliency Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "IT/OT Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Cloud Transformation Architect": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Principal Cloud Engineer": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Principal Infrastructure Engineer": [
     "W3",
     "W4",
+    "W5",
     "LinkedIn"
    ],
    "Cloud Architecture Lead": [
@@ -711,6 +728,11 @@
     "created_at": "2026-10-20T16:40:00.357900-05:00"
    },
    {
+    "id": "fire-3ecfe6d934be",
+    "reason": "stage 14 continuation (run 36683c71): SECTOR W5 Oil & Gas — batch 1 tasks (W5a ExxonMobil/Shell/Chevron/ConocoPhillips/BP, W5b SLB/Halliburton/Baker Hughes/Marathon Petroleum/Phillips 66, W5c Valero/Kinder Morgan/Williams/EOG/Occidental) died in the 2026-10-21 runtime restart before any return; evidenced dead (no windows, no chunks). NO W5 employer covered yet — work the full W5 roster in capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T08:29:17.424990-05:00"
+   },
+   {
     "id": "fire-52a7b089ee05",
     "reason": "stage 13 continuation (run 36683c71): LINKEDIN FAMILIES 15-16 — discovery task c8bdfe50 declared DEAD on evidenced check (window gone ~07:42 CT, no terminal; stub chunk-36683c71-linkedin-15-16-stub.md). Re-dispatch LinkedIn discovery for Principal Cloud Engineer + Principal Infrastructure Engineer (Remote, Past 24 hours, max 2 pages, JD-first, 20-45s pacing, timestamped query + JD-open logs) and the Section C Cognizant Enterprise Architect (Des Moines IA, Remote) JD read FIRST (report-only, never file Cognizant). If c8bdfe50's late terminal has landed, merge it as a correction and credit only evidenced families instead of re-searching them. GSK-10289 stays PARKED (Ceipal credential needed). Run totals filed 8 / parked 13 / rejected 563; families covered 14/48; filing cap headroom 12.",
     "created_at": "2026-10-21T07:42:54.892448-05:00"
@@ -802,8 +824,13 @@
    }
   ]
  },
- "note": "Last activity 08:09 CT · 59 workers in flight · 9 filed this run",
+ "note": "Last activity 08:31 CT · 59 workers in flight · 9 filed this run",
  "pill": [
+  {
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
   {
    "primary": "LinkedIn",
    "detail": "Families covered 16/48",
@@ -812,9 +839,9 @@
  ],
  "now_viewing": {
   "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn",
-  "detail": "Families covered 16/48"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
