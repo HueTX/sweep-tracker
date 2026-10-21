@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T15:31:49Z",
+ "generated_at": "2026-10-21T15:41:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T14:51:05Z",
+  "last_activity_at": "2026-10-21T15:36:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 158,
+   "covered_units": 160,
    "total_units": 1008,
    "pct": 16
   }
@@ -31,16 +31,17 @@
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 105,
+  "evaluated": 118,
   "filed": 2,
   "parked": 2,
-  "rejected": 101,
+  "rejected": 114,
   "filed_by_source": {
    "LinkedIn": 1,
    "Employer sites": 1
   }
  },
  "searching_lanes": [
+  "W3",
   "LinkedIn"
  ],
  "lanes": {
@@ -267,16 +268,15 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 16,
+   "phase": "filing",
+   "families_searched": 18,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 48
+   "current": {
+    "company": "Carnival Cruise Line",
+    "title": "Principal Architect, Infrastructure"
    },
-   "heartbeat_at": "2026-10-21T14:50:22Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-21T15:36:01Z",
    "detail": "Families covered 16/48"
   }
  },
@@ -294,14 +294,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 16/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "active",
+   "detail": "Filing now",
    "started_at": null,
    "ended_at": null
   },
@@ -499,12 +499,14 @@
    "Cloud Architecture Lead": [
     "W3",
     "W4",
-    "W5"
+    "W5",
+    "LinkedIn"
    ],
    "Cloud Infrastructure Lead": [
     "W3",
     "W4",
-    "W5"
+    "W5",
+    "LinkedIn"
    ],
    "Principal Technical Architect": [
     "W3",
@@ -859,19 +861,24 @@
    }
   ]
  },
- "note": "Last activity 09:51 CT · 66 workers in flight · 10 filed this run",
+ "note": "Last activity 10:36 CT · 67 workers in flight · 10 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 17 of 48 · Cloud Architecture Lead",
-   "detail": "Families covered 16/48",
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "Principal Architect, Infrastructure — Carnival Cruise Line",
+   "detail": "LinkedIn · Families covered 16/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 17 of 48 · Cloud Architecture Lead",
-  "detail": "Families covered 16/48"
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
