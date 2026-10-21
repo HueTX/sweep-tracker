@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-21T10:41:41Z",
+ "generated_at": "2026-10-21T10:46:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T10:41:36Z",
+  "last_activity_at": "2026-10-21T10:45:32Z",
   "progress": {
    "pools": 21,
-   "covered_units": 70,
+   "covered_units": 72,
    "total_units": 1008,
    "pct": 7
   }
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 7,
   "parked": 13,
-  "rejected": 523,
-  "evaluated": 548
+  "rejected": 529,
+  "evaluated": 554
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 1,
+  "evaluated": 7,
   "filed": 0,
   "parked": 1,
-  "rejected": 0,
+  "rejected": 6,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -265,17 +265,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 12,
+   "phase": "done",
+   "families_searched": 14,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 13,
-    "name": "IT/OT Architect",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-21T10:00:54Z",
-   "detail": "Families covered 12/48"
+   "current_family": null,
+   "heartbeat_at": "2026-10-21T10:45:08Z",
+   "detail": "Families covered 14/48"
   }
  },
  "stages": {
@@ -292,14 +288,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
-   "detail": "Families covered 12/48",
+   "state": "done",
+   "detail": "Families covered 14/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -447,10 +443,12 @@
     "LinkedIn"
    ],
    "IT/OT Architect": [
-    "W3"
+    "W3",
+    "LinkedIn"
    ],
    "Cloud Transformation Architect": [
-    "W3"
+    "W3",
+    "LinkedIn"
    ],
    "Principal Cloud Engineer": [
     "W3"
@@ -718,6 +716,16 @@
     "created_at": "2026-10-19T20:02:11.948726-05:00"
    },
    {
+    "id": "fire-a505fe03f7e6",
+    "reason": "stage 12 (run 36683c71): SECTOR W4 — Healthcare Insurers. Every named insurer employer in lane_pools.json W4 pool (Humana PERMANENTLY EXCLUDED — never surface it) with the SECTOR DISCOVERY REBUILD three passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing; pre-sales rule DISABLED this run). Carried Section C for the next LinkedIn execution (not this stage): Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed, report-only. GSK-10289 stays PARKED (Ceipal credential needed — no re-attempt without a saved login). Run totals: filed 7 / parked 13 / rejected 529; families covered 14/48; filing cap headroom 13.",
+    "created_at": "2026-10-21T05:45:32.721796-05:00"
+   },
+   {
+    "id": "fire-a6cb75dfc399",
+    "reason": "stage 11 continuation (run 36683c71): LINKEDIN FAMILIES 13-14 — prior discovery task fa9f396f declared DEAD on evidenced check (window gone, no terminal, no chunk; stub chunk-36683c71-linkedin-13-14-stub.md). Re-dispatch LinkedIn discovery for IT/OT Architect + Cloud Transformation Architect (Remote, Past 24 hours, max 2 pages, JD-first, pacing + query logs with start times) and the Section C re-checks FIRST (XChange Endpoint no-ID, Salesforce PACE page-2 variant, backlog IDs 4481521617/4480409421 identity renders). If fa9f396f's late terminal has landed on disk, merge it as a correction and credit only evidenced families instead of re-searching them. GSK-10289 stays PARKED (Ceipal credential needed — do not re-attempt without a saved login). Run totals filed 7 / parked 13 / rejected 523; filing cap headroom 13.",
+    "created_at": "2026-10-21T05:42:23.174586-05:00"
+   },
+   {
     "id": "fire-c13f75b3c941",
     "reason": "stage 7 continuation (run 36683c71): stage 6 LINKEDIN FAMILIES 5-6 COMPLETE — 42 unique, 41 JD reads, filed 3 (Foxworth, AllianceIT, Farmers), parked 1 (Berkley CREDENTIAL NEEDED, live Section A), new rejected 19; run totals filed 6 / parked 3 / rejected 145. Next stage per re-seeded work order — re-derive from disk per R3. Section A standing blocks + Berkley park remain stall-watch owned.",
     "created_at": "2026-10-20T03:51:26.945867-05:00"
@@ -754,7 +762,7 @@
    }
   ]
  },
- "note": "Last activity 05:41 CT · 54 workers in flight · 7 filed this run",
+ "note": "Last activity 05:45 CT · 54 workers in flight · 7 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -762,8 +770,8 @@
    "pool": "W3"
   },
   {
-   "primary": "LinkedIn · Title 13 of 48 · IT/OT Architect",
-   "detail": "Families covered 12/48",
+   "primary": "LinkedIn",
+   "detail": "Families covered 14/48",
    "pool": "LinkedIn"
   }
  ],
