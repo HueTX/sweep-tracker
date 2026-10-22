@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T16:56:46Z",
+ "generated_at": "2026-10-22T17:02:27Z",
  "today_filings": {
   "Dice": [
    {
@@ -2029,7 +2029,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T16:56:46Z",
+ "lists_generated_at": "2026-10-22T17:02:27Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -2038,13 +2038,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T16:55:54Z",
+  "last_activity_at": "2026-10-22T17:01:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 355,
@@ -2069,7 +2069,9 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -2294,12 +2296,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "searching",
    "families_searched": 24,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T14:19:14Z",
+   "current_family": {
+    "index": 25,
+    "name": "Digital Transformation Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T17:00:25Z",
    "detail": "Families covered 24/48"
   }
  },
@@ -2317,14 +2323,14 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 24/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "Filings returned",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -2973,11 +2979,6 @@
     "created_at": "2026-10-22T09:18:59.368736-05:00"
    },
    {
-    "id": "fire-10236b4dc216",
-    "reason": "stage 10 continuation (run 36683c71) — CORRECTED by full terminals: SECTOR W3 remainder is ONLY the 58 untouched employers (providers: Mass General Brigham, Houston Methodist, Baylor Scott & White, Memorial Hermann, Geisinger, Sanford Health, CHRISTUS Health, Ochsner Health, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone, Mount Sinai, RWJBarnabas, Texas Children's, MD Anderson; pharma: Pfizer, Merck, J&J, Lilly, AbbVie, Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz, United Therapeutics, Neurocrine, Alkermes, Organon). Batch 1 final: 15/15 employers covered (full terminals govern; chunks W3slice1/2/3 + W3trinity-verify), 0 PASS, 0 filed, JD reads 7. AdventHealth and Intermountain are DONE — do not rework. Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
-    "created_at": "2026-10-20T13:50:58.781787-05:00"
-   },
-   {
     "id": "fire-223835ee7d43",
     "reason": "stage-relay advance: run 36683c71 stage 15 (LINKEDIN FAMILIES 17-18) COMPLETE — families Cloud Architecture Lead + Cloud Infrastructure Lead covered (exact 0 results each, fuzzy pools verdicted), queries 3, JD reads 15, rejected 14, 1 PASS FILED in-execution: Carnival Cruise Line Principal Architect, Infrastructure 4472281292 (Oracle Job 13977, Under Consideration, Applied 10/21/2026). 2 NOT EVALUATED carried (Stellar IT, Ladders). Next: stage 16 SECTOR W6 Utilities — capped batches of 3 tasks x 5 employers, 3 passes each (ATS architect keyword w/ remote facet, Google Jobs, one board), location-gate at listing level, file-in-execution for any PASS.",
     "created_at": "2026-10-21T10:55:09.708339-05:00"
@@ -3109,18 +3110,19 @@
    }
   ]
  },
- "note": "Last activity 11:55 CT · 0 workers in flight · 17 filed this run",
+ "note": "Last activity 12:01 CT · 1 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 10 done · 11 waiting to start"
+   "primary": "LinkedIn · Title 25 of 48 · Digital Transformation Architect",
+   "detail": "Families covered 24/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 25 of 48 · Digital Transformation Architect",
+  "detail": "Families covered 24/48"
  },
  "rules": {
   "follow_all": false,
