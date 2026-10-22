@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T15:36:53Z",
+ "generated_at": "2026-10-22T15:41:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,32 +9,32 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T15:20:16Z",
+  "last_activity_at": "2026-10-22T15:40:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 334,
+   "covered_units": 339,
    "total_units": 1008,
-   "pct": 33
+   "pct": 34
   }
  },
  "counts": {
   "filed": 17,
-  "parked": 23,
-  "rejected": 1601,
-  "evaluated": 1642
+  "parked": 24,
+  "rejected": 1608,
+  "evaluated": 1650
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 116,
+  "evaluated": 124,
   "filed": 3,
-  "parked": 3,
-  "rejected": 110,
+  "parked": 4,
+  "rejected": 117,
   "filed_by_source": {
    "Dice": 1,
    "LinkedIn": 2
@@ -234,13 +234,17 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "filing",
-   "families_searched": 27,
+   "phase": "searching",
+   "families_searched": 32,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T15:20:16Z",
-   "detail": "Employers covered 25/45 · searching Manufacturing & Industrial"
+   "current_family": {
+    "index": 33,
+    "name": "Cloud Transformation Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T15:40:33Z",
+   "detail": "Employers covered 30/45 · searching Manufacturing & Industrial"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -308,8 +312,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "Filing now",
+   "state": "done",
+   "detail": "35 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -669,7 +673,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Network Security Architect": [
     "W3",
@@ -677,7 +682,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Chief Architect": [
     "W3",
@@ -685,7 +691,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Cloud Engineering Lead": [
     "W3",
@@ -693,7 +700,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Platform Engineering Lead": [
     "W3",
@@ -701,7 +709,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Cloud Transformation Lead": [
     "W3",
@@ -1056,19 +1065,19 @@
    }
   ]
  },
- "note": "Last activity 10:20 CT · 3 workers in flight · 17 filed this run",
+ "note": "Last activity 10:40 CT · 1 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "Manufacturing & Industrial",
-   "detail": "Employers covered 25/45 · searching Manufacturing & Industrial",
+   "primary": "Manufacturing & Industrial · Title 33 of 48 · Cloud Transformation Lead",
+   "detail": "Employers covered 30/45 · searching Manufacturing & Industrial",
    "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "Manufacturing & Industrial",
-  "headline": "Manufacturing & Industrial",
-  "detail": "Employers covered 25/45 · searching Manufacturing & Industrial"
+  "headline": "Manufacturing & Industrial · Title 33 of 48 · Cloud Transformation Lead",
+  "detail": "Employers covered 30/45 · searching Manufacturing & Industrial"
  },
  "rules": {
   "follow_all": false,
