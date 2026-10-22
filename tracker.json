@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T11:46:26Z",
+ "generated_at": "2026-10-22T11:51:32Z",
  "today_filings": {
   "Dice": [
    {
@@ -1365,14 +1365,14 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T11:46:26Z",
+ "lists_generated_at": "2026-10-22T11:51:31Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -1380,12 +1380,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T10:53:26Z",
+  "last_activity_at": "2026-10-22T11:50:24Z",
   "progress": {
    "pools": 21,
-   "covered_units": 285,
+   "covered_units": 298,
    "total_units": 1008,
-   "pct": 28
+   "pct": 30
   }
  },
  "counts": {
@@ -1405,7 +1405,10 @@
    "LinkedIn": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1587,12 +1590,12 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 28,
+   "families_searched": 41,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T10:52:52Z",
-   "detail": "Employers covered 32/54 · searching Technology"
+   "heartbeat_at": "2026-10-22T11:50:24Z",
+   "detail": "Employers covered 46/54 · searching Technology"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -2010,86 +2013,99 @@
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Chief Architect": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Engineering Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Platform Engineering Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Transformation Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Technology Strategy Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Enterprise Technology Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Infrastructure Strategy Lead": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Practice Lead": [
     "W3",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Center of Excellence Lead": [
     "W3",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Enablement Lead": [
     "W3",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Cloud Adoption Lead": [
     "W3",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Infrastructure Modernization Lead": [
     "W3",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "W17"
    ],
    "Technology Modernization Lead": [
     "W3",
@@ -2362,21 +2378,32 @@
     "id": "fire-df042057fc3e4731",
     "reason": "stage-relay advance: run 36683c71 stage 14 (SECTOR W5 Oil & Gas) COMPLETE — 44/44 employers covered, 12 JD reads, 0 PASS, 0 filed. Next: stage 15 LINKEDIN FAMILIES 17-18 (Cloud Architecture Lead, Cloud Infrastructure Lead) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, coverage-contingent query logs, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-17-18.md). Then stage 16 SECTOR W6 Utilities.",
     "created_at": "2026-10-21T09:41:38.799752-05:00"
+   },
+   {
+    "id": "fire-f6e819b227e5",
+    "reason": "stage 20 continuation (run 36683c71): W17 slices G/H/I dead-declared this execution (stubs on disk; late terminals merge as corrections) — re-dispatch G/H/I first. FIRST: Oracle HDI 346541 code-flow re-attempt ALONE (one fresh code, supplied inside its 10-min validity; do NOT co-dispatch with a discovery batch). Then slices J/K and the 4 Section C verifications (Dell Principal Consultant AI Infrastructure; NVIDIA JR2019010; IBM AI Architect with Azure; Accenture AVD Senior Architect). Disk governs over this text.",
+    "created_at": "2026-10-22T06:50:24.829779-05:00"
    }
   ]
  },
- "note": "Last activity 05:53 CT · 109 workers in flight · 16 filed this run",
+ "note": "Last activity 06:50 CT · 109 workers in flight · 16 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 8 done · 12 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 22/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
