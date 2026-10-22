@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T16:01:19Z",
+ "generated_at": "2026-10-22T16:06:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T15:53:47Z",
+  "last_activity_at": "2026-10-22T16:05:11Z",
   "progress": {
    "pools": 21,
-   "covered_units": 350,
+   "covered_units": 355,
    "total_units": 1008,
    "pct": 35
   }
@@ -26,23 +26,21 @@
  "counts": {
   "filed": 17,
   "parked": 24,
-  "rejected": 1616,
-  "evaluated": 1658
+  "rejected": 1622,
+  "evaluated": 1664
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 132,
+  "evaluated": 138,
   "filed": 3,
   "parked": 4,
-  "rejected": 125,
+  "rejected": 131,
   "filed_by_source": {
    "Dice": 1,
    "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -234,17 +232,13 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 43,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
-   "current_family": {
-    "index": 44,
-    "name": "Enterprise Technology Consultant",
-    "total": 48
-   },
-   "heartbeat_at": "2026-10-22T15:40:33Z",
-   "detail": "Employers covered 40/45 · searching Manufacturing & Industrial"
+   "current_family": null,
+   "heartbeat_at": "2026-10-22T16:04:24Z",
+   "detail": "Employers covered 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -307,7 +301,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "8 of 20 sector lanes finished · 9 with results in",
+   "detail": "0 of 20 sector lanes finished · 9 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -809,32 +803,37 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Cloud Advisory Consultant": [
     "W3",
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Technology Transformation Consultant": [
     "W3",
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Staff Cloud Engineer": [
     "W3",
     "W5",
     "W6",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Staff Infrastructure Engineer": [
     "W3",
     "W5",
-    "W17"
+    "W17",
+    "W18"
    ]
   }
  },
@@ -960,6 +959,11 @@
     "created_at": "2026-10-20T16:40:00.357900-05:00"
    },
    {
+    "id": "fire-39937a96c4a5",
+    "reason": "stage 23 (run 36683c71): LINKEDIN FAMILIES 25-26 + ALERTS + CONTRACT + ODD TITLES — Digital Transformation Architect, Systems Architect (extras=true: saved-alerts sweep, contract pass, odd-title net ride this unit). Stage 22 COMPLETE this execution (SECTOR W18 45/45 employers, 69 listings, 36 JD reads, 0 filed, 2 parked-new, 61 rejected; run totals filed 17 / parked 24 / rejected 1622; LinkedIn families 24/48). Section A live carries (do not lose, not this stage's filing remit): Fortive R1118499 PARKED account-wall — re-attempt owed FIRST in the next run's prep (Oracle HCM email-verification loop; posting fresh thru ~2026-10-26); Stanley Black & Decker Director IT Supply Chain — PASS-claim UNVERIFIED, governing-JD completion owed. LinkedIn rules in full: 2-tab cap, 20-45s pacing with query-log timestamps, JD-first verdicts, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight, 20-filing run cap (17 filed — 3 slots remain).",
+    "created_at": "2026-10-22T11:05:11.208775-05:00"
+   },
+   {
     "id": "fire-3ce1e8348963",
     "reason": "stage 20 continuation (run 36683c71): W17 20/54 covered (slices A-D definitive). FIRST: Oracle HDI 346541 code-flow re-attempt — trigger one fresh code and supply it from Outlook INSIDE its 10-minute validity (the 2026-10-22 05:00 code expired before the question reached the parent). Then re-dispatch W17 slice E (Workday, Snowflake, Palantir, Databricks, Intuit) and slice F (Autodesk, NetApp, Nutanix, Red Hat, Accenture) — declared dead 2026-10-22 after a service restart, stubs on disk; a late terminal merges as a correction and supersedes the stub. Then slices G-K (Infosys, TCS, Wipro, HCLTech, Capgemini, DXC, Kyndryl, NTT DATA, EPAM, Slalom, Rackspace, Atlassian, Zoom, Block, Twilio, Palo Alto Networks, CrowdStrike, Fortinet, Zscaler, Cloudflare, MongoDB, Elastic, Akamai, Teradata) + 3 Section C verifications (Dell Principal Consultant - AI Infrastructure Services; NVIDIA JR2019010; IBM AI Architect with Azure). Stage does NOT advance; re-derive from disk per R3.",
     "created_at": "2026-10-22T05:43:12.951203-05:00"
@@ -1076,19 +1080,18 @@
    }
   ]
  },
- "note": "Last activity 10:53 CT · 2 workers in flight · 17 filed this run",
+ "note": "Last activity 11:05 CT · 0 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "Manufacturing & Industrial · Title 44 of 48 · Enterprise Technology Consultant",
-   "detail": "Employers covered 40/45 · searching Manufacturing & Industrial",
-   "pool": "W18"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 10 done · 11 waiting to start"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "Manufacturing & Industrial",
-  "headline": "Manufacturing & Industrial · Title 44 of 48 · Enterprise Technology Consultant",
-  "detail": "Employers covered 40/45 · searching Manufacturing & Industrial"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
