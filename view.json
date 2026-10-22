@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T14:16:18Z",
+ "generated_at": "2026-10-22T14:22:12Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T14:09:42Z",
+  "last_activity_at": "2026-10-22T14:19:14Z",
   "progress": {
    "pools": 21,
    "covered_units": 307,
@@ -24,25 +24,23 @@
   }
  },
  "counts": {
-  "filed": 16,
-  "parked": 21,
-  "rejected": 1542,
-  "evaluated": 1584
+  "filed": 17,
+  "parked": 22,
+  "rejected": 1561,
+  "evaluated": 1601
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 105,
-  "filed": 2,
-  "parked": 1,
+  "evaluated": 107,
+  "filed": 3,
+  "parked": 2,
   "rejected": 102,
   "filed_by_source": {
    "Dice": 1,
-   "LinkedIn": 1
+   "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -267,16 +265,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 24,
    "families_total": 48,
-   "current": {
-    "company": "Kforce Inc",
-    "title": "Technology Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T14:08:43Z",
-   "detail": "Families covered 22/48"
+   "heartbeat_at": "2026-10-22T14:19:14Z",
+   "detail": "Families covered 24/48"
   }
  },
  "stages": {
@@ -288,19 +283,19 @@
   },
   "prep": {
    "state": "done",
-   "detail": "5 leads in the queue",
+   "detail": "1 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_discovery": {
    "state": "done",
-   "detail": "Families covered 22/48",
+   "detail": "Families covered 24/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -312,7 +307,7 @@
   },
   "sector_filing": {
    "state": "done",
-   "detail": "33 filing result(s) back",
+   "detail": "35 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -896,6 +891,11 @@
   ],
   "fire_dues": [
    {
+    "id": "fire-025a7e7ba26c",
+    "reason": "stage 22 (run 36683c71): SECTOR W18 — Manufacturing & Industrial. Stage 21 COMPLETE this execution (LinkedIn families 23-24 covered; filed Kforce Technology Architect 4482128700 applied-list; InnoveusIT Storage Architect parked numeric-screener-unlisted, live Section A; run totals filed 17 / parked 22 / rejected 1561; LinkedIn families 24/48). Work W18 per the sector rules: every named employer in the W18 slice definition needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
+    "created_at": "2026-10-22T09:18:59.368736-05:00"
+   },
+   {
     "id": "fire-10236b4dc216",
     "reason": "stage 10 continuation (run 36683c71) — CORRECTED by full terminals: SECTOR W3 remainder is ONLY the 58 untouched employers (providers: Mass General Brigham, Houston Methodist, Baylor Scott & White, Memorial Hermann, Geisinger, Sanford Health, CHRISTUS Health, Ochsner Health, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone, Mount Sinai, RWJBarnabas, Texas Children's, MD Anderson; pharma: Pfizer, Merck, J&J, Lilly, AbbVie, Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz, United Therapeutics, Neurocrine, Alkermes, Organon). Batch 1 final: 15/15 employers covered (full terminals govern; chunks W3slice1/2/3 + W3trinity-verify), 0 PASS, 0 filed, JD reads 7. AdventHealth and Intermountain are DONE — do not rework. Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-20T13:50:58.781787-05:00"
@@ -1032,19 +1032,18 @@
    }
   ]
  },
- "note": "Last activity 09:09 CT · 2 workers in flight · 16 filed this run",
+ "note": "Last activity 09:19 CT · 0 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "Technology Architect — Kforce Inc",
-   "detail": "LinkedIn · Families covered 22/48",
-   "pool": "LinkedIn"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 9 done · 12 waiting to start"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "Technology Architect — Kforce Inc",
-  "detail": "LinkedIn · Families covered 22/48"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
