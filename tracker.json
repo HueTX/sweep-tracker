@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T18:01:32Z",
+ "generated_at": "2026-10-22T18:06:31Z",
  "today_filings": {
   "Dice": [
    {
@@ -2268,7 +2268,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T18:01:32Z",
+ "lists_generated_at": "2026-10-22T18:06:30Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -2277,13 +2277,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T17:58:24Z",
+  "last_activity_at": "2026-10-22T18:03:47Z",
   "progress": {
    "pools": 21,
    "covered_units": 357,
@@ -2308,7 +2308,9 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -2533,12 +2535,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "pass-complete-carried",
+   "phase": "searching",
    "families_searched": 26,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T17:58:24Z",
+   "current_family": {
+    "index": 27,
+    "name": "Identity Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T18:03:11Z",
    "detail": "Families covered 26/48"
   }
  },
@@ -2556,7 +2562,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 26/48",
    "started_at": null,
    "ended_at": null
@@ -3264,11 +3270,6 @@
     "created_at": "2026-10-22T00:59:50.094281-05:00"
    },
    {
-    "id": "fire-8bb37f939787",
-    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 remainder is ONLY the 43 untouched employers (providers: ProMedica, Johns Hopkins Medicine, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone Health, Mount Sinai Health System, RWJBarnabas Health, Texas Children's Hospital, MD Anderson Cancer Center; pharma: Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie, Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche / Genentech, Novo Nordisk, Moderna, Regeneron Pharmaceuticals, Vertex Pharmaceuticals, Biogen, Gilead Sciences, Zoetis, Becton Dickinson (BD), Baxter International, Medtronic, Siemens Healthineers, Teva Pharmaceuticals, Viatris, Incyte, BioMarin, Sarepta Therapeutics, Jazz Pharmaceuticals, United Therapeutics, Neurocrine Biosciences, Alkermes, Organon). Batches 1-2 final: 30/30 employers covered, 0 PASS, 0 filed (chunks W3slice1-6 + W3trinity-verify). Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
-    "created_at": "2026-10-20T14:24:18.992312-05:00"
-   },
-   {
     "id": "fire-8e23091bb1f7",
     "reason": "stage 16 continuation (run 36683c71): SECTOR W6 Utilities CHECKPOINT — batch 1 merged (Dominion/NextEra/Constellation/NRG/Vistra covered; 9 gate rejects; 0 PASS). Stage does NOT advance. REMAINDER first, same stage, capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS: (1) W6a re-dispatch Duke Energy/Southern Company/Exelon/PG&E/CenterPoint Energy (task 8d634e4a declared dead, zero coverage); (2) Sempra + Eversource full passes + Xcel Enterprise Security Architect JD verdict (W6b delivery truncated, re-sends dead); (3) Entergy Google Jobs pass + IT Architect – AI Solutions verdict (Section C); (4) AEP retry (bot wall); (5) NextEra Lead IT Solutions Architect (NEER) JD verdict; (6) untouched slices d-i (29 employers, listed in queue checkpoint block). Run totals filed 11 / parked 16 / rejected 629; families 18/48; cap headroom 9.",
     "created_at": "2026-10-21T11:44:33.700473-05:00"
@@ -3350,18 +3351,19 @@
    }
   ]
  },
- "note": "Last activity 12:58 CT · 0 workers in flight · 18 filed this run",
+ "note": "Last activity 13:03 CT · 2 workers in flight · 18 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 9 done · 11 waiting to start"
+   "primary": "LinkedIn · Title 27 of 48 · Identity Architect",
+   "detail": "Families covered 26/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 27 of 48 · Identity Architect",
+  "detail": "Families covered 26/48"
  },
  "rules": {
   "follow_all": false,
