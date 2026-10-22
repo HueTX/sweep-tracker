@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T05:56:19Z",
+ "generated_at": "2026-10-22T06:01:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T03:06:13Z",
+  "last_activity_at": "2026-10-22T05:59:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 252,
+   "covered_units": 255,
    "total_units": 1008,
    "pct": 25
   }
@@ -26,18 +26,21 @@
  "counts": {
   "filed": 14,
   "parked": 20,
-  "rejected": 1064,
-  "evaluated": 1106
+  "rejected": 1072,
+  "evaluated": 1114
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 0,
+  "evaluated": 8,
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
+  "rejected": 8,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -207,13 +210,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 43,
+   "phase": "done",
+   "families_searched": 46,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T01:12:12Z",
-   "detail": "Employers covered 53/59 · searching Financial Services"
+   "heartbeat_at": "2026-10-22T05:59:39Z",
+   "detail": "Employers covered 57/59"
   },
   "W17": {
    "label": "Technology",
@@ -298,7 +301,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "6 of 20 sector lanes finished · 7 with results in",
+   "detail": "0 of 20 sector lanes finished · 7 with results in",
    "started_at": null,
    "ended_at": null
   },
@@ -708,17 +711,20 @@
    "Enterprise Technology Consultant": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Advisory Consultant": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Technology Transformation Consultant": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Staff Cloud Engineer": [
     "W3",
@@ -878,6 +884,11 @@
     "created_at": "2026-10-20T05:20:46.481024-05:00"
    },
    {
+    "id": "fire-777f62969f7c",
+    "reason": "stage 19 (run 36683c71): stage 18 SECTOR W16 COMPLETE — 59/59 employers covered across slices A-L, 0 filed this stage; sole PASS (Marsh McLennan Senior Enterprise Architect R_356423) overturned at parent duplicate check as duplicate-of-filed (filed 2026-09-29, do-not-reapply), rejected 1072 run total. Next stage per re-seeded work order: stage 19 LINKEDIN FAMILIES 21-22 (IT Architecture Lead, Application Architect) — re-derive from disk per R3. Section A standing blocks remain stall-watch owned. Caveats carried: State Street W16 pass (a) pages 3-11 pagination gap; NY Life ATS below-first-page gap.",
+    "created_at": "2026-10-22T00:59:50.094281-05:00"
+   },
+   {
     "id": "fire-8bb37f939787",
     "reason": "stage 10 continuation (run 36683c71): SECTOR W3 remainder is ONLY the 43 untouched employers (providers: ProMedica, Johns Hopkins Medicine, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone Health, Mount Sinai Health System, RWJBarnabas Health, Texas Children's Hospital, MD Anderson Cancer Center; pharma: Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie, Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche / Genentech, Novo Nordisk, Moderna, Regeneron Pharmaceuticals, Vertex Pharmaceuticals, Biogen, Gilead Sciences, Zoetis, Becton Dickinson (BD), Baxter International, Medtronic, Siemens Healthineers, Teva Pharmaceuticals, Viatris, Incyte, BioMarin, Sarepta Therapeutics, Jazz Pharmaceuticals, United Therapeutics, Neurocrine Biosciences, Alkermes, Organon). Batches 1-2 final: 30/30 employers covered, 0 PASS, 0 filed (chunks W3slice1-6 + W3trinity-verify). Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-20T14:24:18.992312-05:00"
@@ -949,18 +960,24 @@
    }
   ]
  },
- "note": "Last activity 22:06 CT · 97 workers in flight · 14 filed this run",
+ "note": "Last activity 00:59 CT · 97 workers in flight · 14 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 7 done · 13 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 20/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
