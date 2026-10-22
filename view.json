@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T06:51:16Z",
+ "generated_at": "2026-10-22T06:56:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T06:37:20Z",
+  "last_activity_at": "2026-10-22T06:56:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 255,
+   "covered_units": 257,
    "total_units": 1008,
    "pct": 25
   }
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 8,
+  "evaluated": 11,
   "filed": 0,
   "parked": 0,
-  "rejected": 8,
+  "rejected": 11,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -265,16 +265,15 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "filing",
+   "families_searched": 22,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 21,
-    "name": "IT Architecture Lead",
-    "total": 48
+   "current": {
+    "company": "Falcon Smart IT",
+    "title": "Application Architect"
    },
-   "heartbeat_at": "2026-10-22T06:02:17Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-22T06:56:13Z",
    "detail": "Families covered 20/48"
   }
  },
@@ -292,7 +291,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 20/48",
    "started_at": null,
    "ended_at": null
@@ -563,14 +562,16 @@
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "LinkedIn"
    ],
    "Application Architect": [
     "W3",
     "W4",
     "W5",
     "W6",
-    "W16"
+    "W16",
+    "LinkedIn"
    ],
    "Integration Architect": [
     "W3",
@@ -943,6 +944,11 @@
     "created_at": "2026-10-20T07:20:34.167319-05:00"
    },
    {
+    "id": "fire-c8fd1a2cef3f",
+    "reason": "stage 19 continuation (run 36683c71): LINKEDIN FAMILIES 21-22 NOT COMPLETE — both discovery dispatches (browser-task 9cf0c4cc original + continuation) died with no return and no open window; dead-task stub chunk-36683c71-linkedin-21-22-stub.md on disk. Next stage-19 execution re-derives from disk and works the remainder FIRST: (1) IT Architecture Lead, (2) Application Architect — each Remote + Past 24h, max 2 pages, JD-first. No coverage credit was claimed; run totals filed 14 / parked 20 / rejected 1072, families 20/48.",
+    "created_at": "2026-10-22T01:54:37.024599-05:00"
+   },
+   {
     "id": "fire-d13f2d1c229d",
     "reason": "stage 11 (run 36683c71): SECTOR W4 — Healthcare Insurers. FIRST (carried, ahead of W4 discovery): GSK Solutions Inc. GSK-10289 Ceipal applied-state verification — two filer attempts (d0343faf, 43413110) were lost with NO submission evidence; verify whether an application exists on the Ceipal portal BEFORE any refile, file only if not applied, and disposition with EVIDENCE (queue stage-10 closeout block + chunk-36683c71-W3gsk-filer-stub.md). Then W4: every named insurer employer (lane_pools.json W4 pool; Humana PERMANENTLY EXCLUDED) with the SECTOR DISCOVERY REBUILD three passes (ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing). Stage 10 closed complete: W3 73/73 covered, run totals filed 7 / parked 13 / rejected 523.",
     "created_at": "2026-10-20T23:54:02.888440-05:00"
@@ -964,7 +970,7 @@
    }
   ]
  },
- "note": "Last activity 01:37 CT · 97 workers in flight · 14 filed this run",
+ "note": "Last activity 01:56 CT · 98 workers in flight · 14 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -972,8 +978,8 @@
    "pool": "W3"
   },
   {
-   "primary": "LinkedIn · Title 21 of 48 · IT Architecture Lead",
-   "detail": "Families covered 20/48",
+   "primary": "Application Architect — Falcon Smart IT",
+   "detail": "LinkedIn · Families covered 20/48",
    "pool": "LinkedIn"
   }
  ],
