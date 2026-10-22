@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T23:31:27Z",
+ "generated_at": "2026-10-22T23:36:29Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -3288,20 +3288,23 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T23:31:27Z",
+ "lists_generated_at": "2026-10-22T23:36:28Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
-  "status": "running",
-  "state": "waiting",
+  "status": "stalled",
+  "state": "stalled",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
-  "stalled": null,
+  "live": false,
+  "stalled": {
+   "since": "2026-10-22T22:35:45Z",
+   "reason": "Nothing has moved since 5:35 PM CT."
+  },
   "started_at": "2026-10-19T19:10:11Z",
   "last_activity_at": "2026-10-22T22:35:45Z",
   "progress": {
@@ -3600,8 +3603,8 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "active",
+   "detail": "Stalled — nothing has moved",
    "started_at": null,
    "ended_at": null
   },
@@ -4443,8 +4446,8 @@
  "note": "Last activity 17:35 CT · 0 workers in flight · 23 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 9 done · 11 waiting to start"
+   "primary": "Sweep stalled — nothing is searching right now",
+   "detail": "Nothing has moved since 5:35 PM CT."
   }
  ],
  "now_viewing": {
