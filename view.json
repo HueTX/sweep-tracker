@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T01:41:18Z",
+ "generated_at": "2026-10-22T01:46:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T01:17:39Z",
+  "last_activity_at": "2026-10-22T01:44:18Z",
   "progress": {
    "pools": 21,
-   "covered_units": 221,
+   "covered_units": 225,
    "total_units": 1008,
    "pct": 22
   }
@@ -26,21 +26,24 @@
  "counts": {
   "filed": 14,
   "parked": 20,
-  "rejected": 857,
-  "evaluated": 899
+  "rejected": 874,
+  "evaluated": 916
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 222,
+  "evaluated": 239,
   "filed": 6,
   "parked": 6,
-  "rejected": 210,
+  "rejected": 227,
   "filed_by_source": {
    "LinkedIn": 3,
    "Employer sites": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -211,12 +214,12 @@
    "label": "Financial Services",
    "sites": 59,
    "phase": "searching",
-   "families_searched": 12,
+   "families_searched": 16,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-22T01:12:12Z",
-   "detail": "Employers covered 15/59 · searching Financial Services"
+   "detail": "Employers covered 20/59 · searching Financial Services"
   },
   "W17": {
    "label": "Technology",
@@ -495,6 +498,7 @@
     "W4",
     "W5",
     "W6",
+    "W16",
     "LinkedIn"
    ],
    "Cloud Transformation Architect": [
@@ -502,6 +506,7 @@
     "W4",
     "W5",
     "W6",
+    "W16",
     "LinkedIn"
    ],
    "Principal Cloud Engineer": [
@@ -509,6 +514,7 @@
     "W4",
     "W5",
     "W6",
+    "W16",
     "LinkedIn"
    ],
    "Principal Infrastructure Engineer": [
@@ -516,6 +522,7 @@
     "W4",
     "W5",
     "W6",
+    "W16",
     "LinkedIn"
    ],
    "Cloud Architecture Lead": [
@@ -921,18 +928,24 @@
    }
   ]
  },
- "note": "Last activity 20:17 CT · 91 workers in flight · 14 filed this run",
+ "note": "Last activity 20:44 CT · 91 workers in flight · 14 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 7 done · 13 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 20/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
