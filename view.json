@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T12:51:42Z",
+ "generated_at": "2026-10-22T12:56:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T12:50:36Z",
+  "last_activity_at": "2026-10-22T12:53:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 298,
@@ -41,8 +41,7 @@
   }
  },
  "searching_lanes": [
-  "W3",
-  "LinkedIn"
+  "W17"
  ],
  "lanes": {
   "W1": {
@@ -228,7 +227,11 @@
    "families_searched": 41,
    "families_total": 48,
    "current": null,
-   "current_family": null,
+   "current_family": {
+    "index": 42,
+    "name": "Technology Modernization Lead",
+    "total": 48
+   },
    "heartbeat_at": "2026-10-22T12:50:36Z",
    "detail": "Employers covered 46/54 · searching Technology"
   },
@@ -297,8 +300,8 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "Filing now",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -309,8 +312,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "Filing now",
+   "state": "done",
+   "detail": "33 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -1016,24 +1019,19 @@
    }
   ]
  },
- "note": "Last activity 07:50 CT · 110 workers in flight · 16 filed this run",
+ "note": "Last activity 07:53 CT · 2 workers in flight · 16 filed this run",
  "pill": [
   {
-   "primary": "Healthcare Providers",
-   "detail": "Employers covered 73/73",
-   "pool": "W3"
-  },
-  {
-   "primary": "LinkedIn",
-   "detail": "Families covered 22/48",
-   "pool": "LinkedIn"
+   "primary": "Technology · Title 42 of 48 · Technology Modernization Lead",
+   "detail": "Employers covered 46/54 · searching Technology",
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "Healthcare Providers",
-  "headline": "Healthcare Providers",
-  "detail": "Employers covered 73/73"
+  "label": "Technology",
+  "headline": "Technology · Title 42 of 48 · Technology Modernization Lead",
+  "detail": "Employers covered 46/54 · searching Technology"
  },
  "rules": {
   "follow_all": false,
