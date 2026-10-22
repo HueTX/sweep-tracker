@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T17:51:34Z",
+ "generated_at": "2026-10-22T17:56:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T17:01:23Z",
+  "last_activity_at": "2026-10-22T17:52:14Z",
   "progress": {
    "pools": 21,
-   "covered_units": 355,
+   "covered_units": 357,
    "total_units": 1008,
    "pct": 35
   }
@@ -26,15 +26,15 @@
  "counts": {
   "filed": 17,
   "parked": 25,
-  "rejected": 1599,
-  "evaluated": 1642
+  "rejected": 1623,
+  "evaluated": 1666
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 145,
+  "evaluated": 169,
   "filed": 3,
   "parked": 5,
-  "rejected": 137,
+  "rejected": 161,
   "filed_by_source": {
    "Dice": 1,
    "LinkedIn": 2
@@ -267,17 +267,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 24,
+   "phase": "filing",
+   "families_searched": 26,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 25,
-    "name": "Digital Transformation Architect",
-    "total": 48
+   "current": {
+    "company": "Software Technology Inc.",
+    "title": "Azure Architect"
    },
-   "heartbeat_at": "2026-10-22T17:00:25Z",
-   "detail": "Families covered 24/48"
+   "current_family": null,
+   "heartbeat_at": "2026-10-22T17:51:47Z",
+   "detail": "Families covered 26/48"
   }
  },
  "stages": {
@@ -294,8 +293,8 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
-   "detail": "Families covered 24/48",
+   "state": "done",
+   "detail": "Families covered 26/48",
    "started_at": null,
    "ended_at": null
   },
@@ -647,7 +646,8 @@
     "W6",
     "W16",
     "W17",
-    "W18"
+    "W18",
+    "LinkedIn"
    ],
    "Systems Architect": [
     "W3",
@@ -656,7 +656,8 @@
     "W6",
     "W16",
     "W17",
-    "W18"
+    "W18",
+    "LinkedIn"
    ],
    "Identity Architect": [
     "W3",
@@ -1081,19 +1082,19 @@
    }
   ]
  },
- "note": "Last activity 12:01 CT · 1 workers in flight · 17 filed this run",
+ "note": "Last activity 12:52 CT · 1 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 25 of 48 · Digital Transformation Architect",
-   "detail": "Families covered 24/48",
+   "primary": "Azure Architect — Software Technology Inc.",
+   "detail": "LinkedIn · Families covered 26/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 25 of 48 · Digital Transformation Architect",
-  "detail": "Families covered 24/48"
+  "headline": "Azure Architect — Software Technology Inc.",
+  "detail": "LinkedIn · Families covered 26/48"
  },
  "rules": {
   "follow_all": false,
