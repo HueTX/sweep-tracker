@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T03:01:20Z",
+ "generated_at": "2026-10-22T03:06:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,32 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T02:45:07Z",
+  "last_activity_at": "2026-10-22T03:06:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 244,
+   "covered_units": 252,
    "total_units": 1008,
-   "pct": 24
+   "pct": 25
   }
  },
  "counts": {
   "filed": 14,
   "parked": 20,
-  "rejected": 1015,
-  "evaluated": 1057
+  "rejected": 1064,
+  "evaluated": 1106
  },
  "today": {
   "date": "2026-10-21",
-  "evaluated": 294,
+  "evaluated": 324,
   "filed": 6,
   "parked": 6,
-  "rejected": 282,
+  "rejected": 312,
   "filed_by_source": {
    "LinkedIn": 3,
    "Employer sites": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -211,12 +214,12 @@
    "label": "Financial Services",
    "sites": 59,
    "phase": "searching",
-   "families_searched": 35,
+   "families_searched": 43,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-22T01:12:12Z",
-   "detail": "Employers covered 43/59 · searching Financial Services"
+   "detail": "Employers covered 53/59 · searching Financial Services"
   },
   "W17": {
    "label": "Technology",
@@ -663,42 +666,50 @@
     "W3",
     "W4",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Practice Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Center of Excellence Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Enablement Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Adoption Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Infrastructure Modernization Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Technology Modernization Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Cloud Delivery Lead": [
     "W3",
     "W5",
-    "W6"
+    "W6",
+    "W16"
    ],
    "Enterprise Technology Consultant": [
     "W3",
@@ -944,18 +955,24 @@
    }
   ]
  },
- "note": "Last activity 21:45 CT · 97 workers in flight · 14 filed this run",
+ "note": "Last activity 22:06 CT · 97 workers in flight · 14 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 7 done · 13 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 20/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
