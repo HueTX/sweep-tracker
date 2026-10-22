@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T09:41:14Z",
+ "generated_at": "2026-10-22T09:46:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -15,31 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T09:06:03Z",
+  "last_activity_at": "2026-10-22T09:45:58Z",
   "progress": {
    "pools": 21,
-   "covered_units": 272,
+   "covered_units": 277,
    "total_units": 1008,
    "pct": 27
   }
  },
  "counts": {
-  "filed": 15,
-  "parked": 20,
-  "rejected": 1219,
-  "evaluated": 1266
+  "filed": 16,
+  "parked": 21,
+  "rejected": 1232,
+  "evaluated": 1274
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 799,
-  "filed": 1,
-  "parked": 14,
-  "rejected": 784,
+  "evaluated": 43,
+  "filed": 2,
+  "parked": 1,
+  "rejected": 40,
   "filed_by_source": {
-   "LinkedIn": 1
+   "LinkedIn": 1,
+   "Employer sites": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -221,12 +225,12 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 15,
+   "families_searched": 20,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T09:05:07Z",
-   "detail": "Employers covered 17/54 · searching Technology"
+   "heartbeat_at": "2026-10-22T09:45:58Z",
+   "detail": "Employers covered 22/54 · searching Technology"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -282,7 +286,7 @@
   },
   "prep": {
    "state": "done",
-   "detail": "12 leads in the queue",
+   "detail": "5 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
@@ -534,6 +538,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Cloud Architecture Lead": [
@@ -542,6 +547,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Cloud Infrastructure Lead": [
@@ -550,6 +556,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Principal Technical Architect": [
@@ -558,6 +565,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Technology Strategy Architect": [
@@ -566,6 +574,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "IT Architecture Lead": [
@@ -885,6 +894,11 @@
     "created_at": "2026-10-21T07:42:54.892448-05:00"
    },
    {
+    "id": "fire-606c59aafa72",
+    "reason": "stage 20 continuation (run 36683c71): W17 17/54 covered. This execution filed Oracle HDI (16th filing; pay-band deviation flagged — Oracle own top $232,000 vs $230,000 cap), parked HPE SLED (Eightfold account-wall, stays live), rejected Dell Networking + Dell Sr Principal on governing Dell text, merged slice D partial (AMD+Broadcom, 11 rejects). Remainder FIRST: Texas Instruments, Qualcomm, ServiceNow (slice D remainder, 3 passes each), then slices E-K (37 employers: Workday, Snowflake, Palantir, Databricks, Intuit, Autodesk, NetApp, Nutanix, Red Hat, Accenture, Infosys, TCS, Wipro, HCLTech, Capgemini, DXC, Kyndryl, NTT DATA, EPAM, Slalom, Rackspace, Atlassian, Zoom, Block, Twilio, Palo Alto Networks, CrowdStrike, Fortinet, Zscaler, Cloudflare, MongoDB, Elastic, Akamai, Teradata) + Section C verifications (Dell Principal Consultant - AI Infrastructure Services; NVIDIA JR2019010; IBM AI Architect with Azure). Stage does NOT advance; re-derive from disk per R3.",
+    "created_at": "2026-10-22T04:45:58.420479-05:00"
+   },
+   {
     "id": "fire-6607a63e8f8f4d37",
     "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 4 — remainder 28 pharma employers: Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. Covered in batches 1-3 (do NOT rework): all 40 provider employers incl. Texas Children's, plus Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie (chunks chunk-36683c71-W3slice1-9.md; 0 PASS standing — AbbVie M&A R00151885 is duplicate-of-filed, do-not-reapply; 0 filed). Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
     "created_at": "2026-10-20T14:39:17.795404-05:00"
@@ -986,18 +1000,24 @@
    }
   ]
  },
- "note": "Last activity 04:06 CT · 103 workers in flight · 15 filed this run",
+ "note": "Last activity 04:45 CT · 103 workers in flight · 16 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 8 done · 12 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 22/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
