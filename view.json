@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T14:07:25Z",
+ "generated_at": "2026-10-22T14:11:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T13:39:10Z",
+  "last_activity_at": "2026-10-22T14:09:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 305,
+   "covered_units": 307,
    "total_units": 1008,
    "pct": 30
   }
@@ -31,10 +31,10 @@
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 89,
+  "evaluated": 105,
   "filed": 2,
   "parked": 1,
-  "rejected": 86,
+  "rejected": 102,
   "filed_by_source": {
    "Dice": 1,
    "LinkedIn": 1
@@ -267,16 +267,15 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 22,
+   "phase": "filing",
+   "families_searched": 24,
    "families_total": 48,
-   "current": null,
-   "current_family": {
-    "index": 23,
-    "name": "Integration Architect",
-    "total": 48
+   "current": {
+    "company": "Kforce Inc",
+    "title": "Technology Architect"
    },
-   "heartbeat_at": "2026-10-22T13:38:27Z",
+   "current_family": null,
+   "heartbeat_at": "2026-10-22T14:08:43Z",
    "detail": "Families covered 22/48"
   }
  },
@@ -294,7 +293,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "done",
    "detail": "Families covered 22/48",
    "started_at": null,
    "ended_at": null
@@ -604,7 +603,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "LinkedIn"
    ],
    "Data Center Architect": [
     "W3",
@@ -612,7 +612,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "LinkedIn"
    ],
    "Digital Transformation Architect": [
     "W3",
@@ -1031,19 +1032,19 @@
    }
   ]
  },
- "note": "Last activity 08:39 CT · 1 workers in flight · 16 filed this run",
+ "note": "Last activity 09:09 CT · 2 workers in flight · 16 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 23 of 48 · Integration Architect",
-   "detail": "Families covered 22/48",
+   "primary": "Technology Architect — Kforce Inc",
+   "detail": "LinkedIn · Families covered 22/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 23 of 48 · Integration Architect",
-  "detail": "Families covered 22/48"
+  "headline": "Technology Architect — Kforce Inc",
+  "detail": "LinkedIn · Families covered 22/48"
  },
  "rules": {
   "follow_all": false,
