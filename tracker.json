@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T16:36:38Z",
+ "generated_at": "2026-10-22T16:41:26Z",
  "today_filings": {
   "Dice": [
    {
@@ -237,6 +237,13 @@
     "company": "Fortive",
     "role": "Enterprise Architect – Cybersecurity & Compliance",
     "reason": "account-wall — Oracle HCM email-verification loop: after email entry + one resend the flow returned to the same email screen, code field never rendered, nothing submitted (filer f9da7f3f; chunk-36683c71-W18fortive-filer.md) — POSTED: 2026-10-19 (Oracle HCM…",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "General Dynamics (GDIT)",
+    "role": "Cloud Data Architect",
+    "reason": "account-wall / code-blocked — GDIT portal requires a candidate profile/account before applying; email step sent a single-use sign-in link (16:28Z) that never arrived in the candidate's Outlook inbox or Junk (parent checked both at 11:32 CT; no second send…",
     "where": "Employer sites",
     "time": ""
    }
@@ -2015,22 +2022,22 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T16:36:38Z",
+ "lists_generated_at": "2026-10-22T16:41:26Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T16:10:47Z",
+  "last_activity_at": "2026-10-22T16:38:32Z",
   "progress": {
    "pools": 21,
    "covered_units": 355,
@@ -2040,15 +2047,15 @@
  },
  "counts": {
   "filed": 17,
-  "parked": 24,
-  "rejected": 1615,
-  "evaluated": 1657
+  "parked": 25,
+  "rejected": 1608,
+  "evaluated": 1651
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 143,
+  "evaluated": 144,
   "filed": 3,
-  "parked": 4,
+  "parked": 5,
   "rejected": 136,
   "filed_by_source": {
    "Dice": 1,
@@ -2321,8 +2328,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "Filing now",
+   "state": "done",
+   "detail": "36 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -3095,7 +3102,7 @@
    }
   ]
  },
- "note": "Last activity 11:10 CT · 1 workers in flight · 17 filed this run",
+ "note": "Last activity 11:38 CT · 1 workers in flight · 17 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
