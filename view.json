@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T22:31:17Z",
+ "generated_at": "2026-10-22T22:36:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": false
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T22:05:59Z",
+  "last_activity_at": "2026-10-22T22:35:45Z",
   "progress": {
    "pools": 21,
    "covered_units": 357,
@@ -24,8 +24,8 @@
   }
  },
  "counts": {
-  "filed": 22,
-  "parked": 27,
+  "filed": 23,
+  "parked": 26,
   "rejected": 1722,
   "evaluated": 1772
  },
@@ -855,7 +855,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
    {
@@ -937,6 +937,11 @@
     "id": "chat-relay-start-20261018",
     "actuated_at": "2026-10-18T20:25:28Z",
     "effect": "sweep start"
+   },
+   {
+    "id": "51dd71d5-71f1-4ab4-9ffe-e735800721c2",
+    "actuated_at": "2026-10-22T22:32:14Z",
+    "effect": "sweep stop"
    }
   ],
   "fire_dues": [
@@ -1087,7 +1092,7 @@
    }
   ]
  },
- "note": "Last activity 17:05 CT · 0 workers in flight · 22 filed this run",
+ "note": "Last activity 17:35 CT · 0 workers in flight · 23 filed this run",
  "pill": [
   {
    "primary": "No lane is searching right now",
