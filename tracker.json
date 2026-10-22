@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T14:22:12Z",
+ "generated_at": "2026-10-22T14:27:27Z",
  "today_filings": {
   "Dice": [
    {
@@ -1728,7 +1728,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T14:22:12Z",
+ "lists_generated_at": "2026-10-22T14:27:27Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1737,13 +1737,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T14:19:14Z",
+  "last_activity_at": "2026-10-22T14:26:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 307,
@@ -1768,7 +1768,9 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W18"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1960,13 +1962,17 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "pending",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": ""
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T14:25:39Z",
+   "detail": "Searching · 48 title families across GE Aerospace, RTX, Lockheed Martin, and 42 more"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -2709,11 +2715,6 @@
     "created_at": "2026-10-22T03:33:34.419855-05:00"
    },
    {
-    "id": "fire-c1a2988e839c4cfa",
-    "reason": "stage 10 (run 36683c71): SECTOR W3 — Healthcare Providers & Big Pharma. Stage 9 completed this execution (LinkedIn families 11-12 covered; run totals filed 7 / parked 7 / rejected 244; Section A = standing blocks only, stall-watch owned). Work W3 per the sector rules: every named employer (providers pool + big pharma pool in the W3 slice definition) needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
-    "created_at": "2026-10-20T12:10:35.201904-05:00"
-   },
-   {
     "id": "fire-c4c58a3a8d8646e7",
     "reason": "stage-relay advance: run 36683c71 stage 16 SECTOR W6 Utilities COMPLETE — 44/44 employers covered (slices g/h/i + AES carry done this execution: 14 employers, 8 JD reads, 10 rejects, 0 PASS among slices). AES Clean Energy Solutions Architect PASS (SimplyHired, POSTED 2026-10-15) attempted in-execution -> PARKED bot-wall (Eightfold ATS Cloudflare 'Just a moment', SimplyHired detail 404 post-sign-in, jobs.aes.com redirect loop; NO submission, NO resume uploaded; lead stays live Section A, parked-retry class; surfaces checked recorded in queue). Run totals filed 11 / parked 17 / rejected 705; families 18/48; cap headroom 9. Next stage per re-seed (Rule #1 alternation): LINKEDIN FAMILIES 19-20 (Principal Technical Architect, Technology Strategy Architect) — one LinkedIn unit, max 2 families, pacing 20-45s, JD-first, file-in-execution for any PASS. Backlog: Stellar IT / Ladders NOT EVALUATED from stage 15 ride the next LinkedIn unit per queue notes; RemoteHunter credential park + AES bot-wall park stay live/stall-owned.",
     "created_at": "2026-10-21T13:41:22.073216-05:00"
@@ -2760,18 +2761,19 @@
    }
   ]
  },
- "note": "Last activity 09:19 CT · 0 workers in flight · 17 filed this run",
+ "note": "Last activity 09:26 CT · 3 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 9 done · 12 waiting to start"
+   "primary": "Manufacturing & Industrial · Title 1 of 48 · Azure Architect",
+   "detail": "Searching · 48 title families across GE Aerospace, RTX, Lockheed Martin, and 42 more",
+   "pool": "W18"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Manufacturing & Industrial",
+  "headline": "Manufacturing & Industrial · Title 1 of 48 · Azure Architect",
+  "detail": "Searching · 48 title families across GE Aerospace, RTX, Lockheed Martin, and 42 more"
  },
  "rules": {
   "follow_all": false,
