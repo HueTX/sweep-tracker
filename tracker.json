@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T08:31:16Z",
+ "generated_at": "2026-10-22T08:37:06Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -1008,7 +1008,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T08:31:16Z",
+ "lists_generated_at": "2026-10-22T08:37:06Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1023,12 +1023,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T08:26:07Z",
+  "last_activity_at": "2026-10-22T08:33:34Z",
   "progress": {
    "pools": 21,
-   "covered_units": 267,
+   "covered_units": 272,
    "total_units": 1008,
-   "pct": 26
+   "pct": 27
   }
  },
  "counts": {
@@ -1232,12 +1232,12 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 10,
+   "families_searched": 15,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": "2026-10-22T07:48:54Z",
-   "detail": "Employers covered 11/54 · searching Technology"
+   "detail": "Employers covered 17/54 · searching Technology"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -1500,6 +1500,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Resiliency Architect": [
@@ -1508,6 +1509,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "IT/OT Architect": [
@@ -1516,6 +1518,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Cloud Transformation Architect": [
@@ -1524,6 +1527,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Principal Cloud Engineer": [
@@ -1532,6 +1536,7 @@
     "W5",
     "W6",
     "W16",
+    "W17",
     "LinkedIn"
    ],
    "Principal Infrastructure Engineer": [
@@ -1941,6 +1946,11 @@
     "created_at": "2026-10-21T17:02:22.040913-05:00"
    },
    {
+    "id": "fire-b5b0b5588224",
+    "reason": "stage 20 continuation (run 36683c71): W17 slices A+B merged — 91 listings, 16 JD reads, 0 verified PASS, +15 rejects (run 15 filed / 20 parked / 1087 rejected); Salesforce Sr Director PASS-UNVERIFIED in Section C (full JD Cloudflare-blocked, verification owed first). Slice C declared dead (window lost), remit carried. Remainder: Salesforce verification, C redo (Dell/HPE/HP/Intel/NVIDIA), slices D-K (39 more employers) = 44 employers uncovered of 54. Stage does NOT advance; re-derive from disk per R3.",
+    "created_at": "2026-10-22T03:33:34.419855-05:00"
+   },
+   {
     "id": "fire-c1a2988e839c4cfa",
     "reason": "stage 10 (run 36683c71): SECTOR W3 — Healthcare Providers & Big Pharma. Stage 9 completed this execution (LinkedIn families 11-12 covered; run totals filed 7 / parked 7 / rejected 244; Section A = standing blocks only, stall-watch owned). Work W3 per the sector rules: every named employer (providers pool + big pharma pool in the W3 slice definition) needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
     "created_at": "2026-10-20T12:10:35.201904-05:00"
@@ -1992,7 +2002,7 @@
    }
   ]
  },
- "note": "Last activity 03:26 CT · 100 workers in flight · 15 filed this run",
+ "note": "Last activity 03:33 CT · 100 workers in flight · 15 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
