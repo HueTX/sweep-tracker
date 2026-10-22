@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T15:36:53Z",
+ "generated_at": "2026-10-22T15:41:57Z",
  "today_filings": {
   "Dice": [
    {
@@ -229,6 +229,15 @@
     "role": "Chief Artificial Intelligence Architect",
     "reason": "not-locatable on employer ATS — no official Eaton posting exists (careers + Workday tenant + Google Jobs + Dice searched; aggregator mirrors only, no governing text) — supersedes the batch-1 Section A PASS-claim line",
     "where": "Google Jobs",
+    "time": ""
+   }
+  ],
+  "Employer sites": [
+   {
+    "company": "Fortive",
+    "role": "Enterprise Architect – Cybersecurity & Compliance",
+    "reason": "account-wall — Oracle HCM email-verification loop: after email entry + one resend the flow returned to the same email screen, code field never rendered, nothing submitted (filer f9da7f3f; chunk-36683c71-W18fortive-filer.md) — POSTED: 2026-10-19 (Oracle HCM…",
+    "where": "Employer sites",
     "time": ""
    }
   ],
@@ -473,6 +482,20 @@
     "time": ""
    },
    {
+    "company": "BorgWarner",
+    "role": "Enterprise Architect, IAM",
+    "reason": "not-remote — governing JD carries a hybrid work pattern",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "BorgWarner",
+    "role": "Solution Architect",
+    "reason": "not-remote — Auburn Hills, MI / Kraków",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Cisco",
     "role": "Cloud and AI Technical Solutions Architect",
     "reason": "hands-on \"designing, implementing, and optimizing cloud, AI, and infrastructure technology solutions\" — POSTED: 2026-10-21",
@@ -613,6 +636,20 @@
     "time": ""
    },
    {
+    "company": "Ford",
+    "role": "Data Architect",
+    "reason": "not-remote — Dearborn, MI hybrid",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Ford",
+    "role": "IT Enterprise Architect",
+    "reason": "experience-mismatch — core duties are Guidewire PolicyCenter/BillingCenter platform architecture",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
     "company": "Fortinet",
     "role": "Cloud Network Security Architect",
     "reason": "not-remote gate — location \"Denver, CO, United States\"; also stale — POSTED: 2025-11-13",
@@ -623,6 +660,13 @@
     "company": "Fortinet",
     "role": "Cloud Solution Architect",
     "reason": "not-remote gate — location \"Sunnyvale, CA, United States (Remote)\"; also stale — POSTED: 2026-05-06",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "General Motors",
+    "role": "Solutions Architect, Digital Products",
+    "reason": "not-remote — Warren, MI",
     "where": "Employer sites",
     "time": ""
    },
@@ -945,6 +989,20 @@
     "company": "Synchrony Financial",
     "role": "VP, Senior Cloud Data Architecture & Migration Leader",
     "reason": "not-remote — \"Stamford, CT\"",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Tesla",
+    "role": "AI Inference Architect",
+    "reason": "not-remote — Palo Alto, CA",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Tesla",
+    "role": "Network Systems Architect",
+    "reason": "not-remote — Austin, TX / Palo Alto, CA",
     "where": "Employer sites",
     "time": ""
    },
@@ -1753,7 +1811,12 @@
    "Danaher",
    "DuPont",
    "Sherwin-Williams",
-   "Ecolab"
+   "Ecolab",
+   "Fortive",
+   "General Motors",
+   "Ford",
+   "Tesla",
+   "BorgWarner"
   ],
   "W9": [
    "Jobs via Dice",
@@ -1802,7 +1865,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T15:36:53Z",
+ "lists_generated_at": "2026-10-22T15:41:57Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1811,32 +1874,32 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T15:20:16Z",
+  "last_activity_at": "2026-10-22T15:40:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 334,
+   "covered_units": 339,
    "total_units": 1008,
-   "pct": 33
+   "pct": 34
   }
  },
  "counts": {
   "filed": 17,
-  "parked": 23,
-  "rejected": 1601,
-  "evaluated": 1642
+  "parked": 24,
+  "rejected": 1608,
+  "evaluated": 1650
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 116,
+  "evaluated": 124,
   "filed": 3,
-  "parked": 3,
-  "rejected": 110,
+  "parked": 4,
+  "rejected": 117,
   "filed_by_source": {
    "Dice": 1,
    "LinkedIn": 2
@@ -2036,13 +2099,17 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "filing",
-   "families_searched": 27,
+   "phase": "searching",
+   "families_searched": 32,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T15:20:16Z",
-   "detail": "Employers covered 25/45 · searching Manufacturing & Industrial"
+   "current_family": {
+    "index": 33,
+    "name": "Cloud Transformation Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T15:40:33Z",
+   "detail": "Employers covered 30/45 · searching Manufacturing & Industrial"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -2110,8 +2177,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "Filing now",
+   "state": "done",
+   "detail": "35 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -2471,7 +2538,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Network Security Architect": [
     "W3",
@@ -2479,7 +2547,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Chief Architect": [
     "W3",
@@ -2487,7 +2556,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Cloud Engineering Lead": [
     "W3",
@@ -2495,7 +2565,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Platform Engineering Lead": [
     "W3",
@@ -2503,7 +2574,8 @@
     "W5",
     "W6",
     "W16",
-    "W17"
+    "W17",
+    "W18"
    ],
    "Cloud Transformation Lead": [
     "W3",
@@ -2858,19 +2930,19 @@
    }
   ]
  },
- "note": "Last activity 10:20 CT · 3 workers in flight · 17 filed this run",
+ "note": "Last activity 10:40 CT · 1 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "Manufacturing & Industrial",
-   "detail": "Employers covered 25/45 · searching Manufacturing & Industrial",
+   "primary": "Manufacturing & Industrial · Title 33 of 48 · Cloud Transformation Lead",
+   "detail": "Employers covered 30/45 · searching Manufacturing & Industrial",
    "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "Manufacturing & Industrial",
-  "headline": "Manufacturing & Industrial",
-  "detail": "Employers covered 25/45 · searching Manufacturing & Industrial"
+  "headline": "Manufacturing & Industrial · Title 33 of 48 · Cloud Transformation Lead",
+  "detail": "Employers covered 30/45 · searching Manufacturing & Industrial"
  },
  "rules": {
   "follow_all": false,
