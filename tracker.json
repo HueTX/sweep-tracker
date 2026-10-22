@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-21",
- "generated_at": "2026-10-22T00:46:21Z",
+ "generated_at": "2026-10-22T00:51:46Z",
  "today_filings": {
   "LinkedIn": [
    {
@@ -2668,14 +2668,14 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T00:46:21Z",
+ "lists_generated_at": "2026-10-22T00:51:46Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
   "status": "running",
-  "state": "waiting",
+  "state": "active",
   "activity": {
    "searching": false,
    "filing": true
@@ -2683,7 +2683,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-21T22:31:12Z",
+  "last_activity_at": "2026-10-22T00:46:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 221,
@@ -2694,8 +2694,8 @@
  "counts": {
   "filed": 14,
   "parked": 20,
-  "rejected": 832,
-  "evaluated": 874
+  "rejected": 857,
+  "evaluated": 899
  },
  "today": {
   "date": "2026-10-21",
@@ -2708,7 +2708,10 @@
    "Employer sites": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -3594,18 +3597,24 @@
    }
   ]
  },
- "note": "Last activity 17:31 CT · 88 workers in flight · 14 filed this run",
+ "note": "Last activity 19:46 CT · 88 workers in flight · 14 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 7 done · 13 waiting to start"
+   "primary": "Healthcare Providers",
+   "detail": "Employers covered 73/73",
+   "pool": "W3"
+  },
+  {
+   "primary": "LinkedIn",
+   "detail": "Families covered 20/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "Healthcare Providers",
+  "headline": "Healthcare Providers",
+  "detail": "Employers covered 73/73"
  },
  "rules": {
   "follow_all": false,
