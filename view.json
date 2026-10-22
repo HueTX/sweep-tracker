@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T19:46:18Z",
+ "generated_at": "2026-10-22T19:51:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T19:39:49Z",
+  "last_activity_at": "2026-10-22T19:50:21Z",
   "progress": {
    "pools": 21,
    "covered_units": 357,
@@ -24,23 +24,25 @@
   }
  },
  "counts": {
-  "filed": 18,
+  "filed": 19,
   "parked": 26,
   "rejected": 1670,
-  "evaluated": 1715
+  "evaluated": 1716
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 220,
-  "filed": 4,
+  "evaluated": 221,
+  "filed": 5,
   "parked": 6,
   "rejected": 210,
   "filed_by_source": {
    "Dice": 1,
-   "LinkedIn": 3
+   "LinkedIn": 4
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -265,15 +267,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 26,
    "families_total": 48,
-   "current": {
-    "company": "Pegasystems",
-    "title": "Principal Solutions Architect"
+   "current": null,
+   "current_family": {
+    "index": 27,
+    "name": "Identity Architect",
+    "total": 48
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T19:35:34Z",
+   "heartbeat_at": "2026-10-22T19:49:44Z",
    "detail": "Families covered 26/48"
   }
  },
@@ -291,7 +294,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 26/48",
    "started_at": null,
    "ended_at": null
@@ -310,7 +313,7 @@
   },
   "sector_filing": {
    "state": "done",
-   "detail": "39 filing result(s) back",
+   "detail": "40 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -1014,6 +1017,11 @@
     "created_at": "2026-10-21T12:08:46.220244-05:00"
    },
    {
+    "id": "fire-a4b29448a841",
+    "reason": "stage 23 continuation (run 36683c71): families 25-26 COVERED, extras Parts A+B merged (JD reads 76, +48 rejected, Pegasystems pre-sales reject superseded under disabled rule), filed Jobgether 4481199753 (run 19/20), parked TQA (AZ-305 screener) + Pegasystems (code-blocked) live in Section A. Stage does NOT advance — remainder carries first: Part B enumerated-but-unread C3 p1 17 + C3 p2, C6 9+15 Zendesk variants, C7 4, C8 4 (list in chunk-36683c71-linkedin-25-26-extrasB.md), odd-title net O1 ~57/O2 60/O3 58, preferences feed beyond p1. JD-read those remainders next stage-23 execution, file-in-execution for any PASS (cap: 1 filing slot remains). Run totals filed 19 / parked 26 / rejected 1670, LinkedIn 26/48.",
+    "created_at": "2026-10-22T14:46:56.520864-05:00"
+   },
+   {
     "id": "fire-a505fe03f7e6",
     "reason": "stage 12 (run 36683c71): SECTOR W4 — Healthcare Insurers. Every named insurer employer in lane_pools.json W4 pool (Humana PERMANENTLY EXCLUDED — never surface it) with the SECTOR DISCOVERY REBUILD three passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing; pre-sales rule DISABLED this run). Carried Section C for the next LinkedIn execution (not this stage): Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed, report-only. GSK-10289 stays PARKED (Ceipal credential needed — no re-attempt without a saved login). Run totals: filed 7 / parked 13 / rejected 529; families covered 14/48; filing cap headroom 13.",
     "created_at": "2026-10-21T05:45:32.721796-05:00"
@@ -1080,18 +1088,19 @@
    }
   ]
  },
- "note": "Last activity 14:39 CT · 1 workers in flight · 18 filed this run",
+ "note": "Last activity 14:50 CT · 2 workers in flight · 19 filed this run",
  "pill": [
   {
-   "primary": "No lane is searching right now",
-   "detail": "Lanes: 9 done · 11 waiting to start"
+   "primary": "LinkedIn · Title 27 of 48 · Identity Architect",
+   "detail": "Families covered 26/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 27 of 48 · Identity Architect",
+  "detail": "Families covered 26/48"
  },
  "rules": {
   "follow_all": false,
