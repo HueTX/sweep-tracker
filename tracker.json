@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T06:01:20Z",
+ "generated_at": "2026-10-22T06:06:19Z",
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
@@ -799,7 +799,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T06:01:20Z",
+ "lists_generated_at": "2026-10-22T06:06:18Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -808,13 +808,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T05:59:50Z",
+  "last_activity_at": "2026-10-22T06:02:17Z",
   "progress": {
    "pools": 21,
    "covered_units": 255,
@@ -1064,12 +1064,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "done",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-21T20:58:36Z",
+   "current_family": {
+    "index": 21,
+    "name": "IT Architecture Lead",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-22T06:02:17Z",
    "detail": "Families covered 20/48"
   }
  },
@@ -1087,7 +1091,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 20/48",
    "started_at": null,
    "ended_at": null
@@ -1759,7 +1763,7 @@
    }
   ]
  },
- "note": "Last activity 00:59 CT · 97 workers in flight · 14 filed this run",
+ "note": "Last activity 01:02 CT · 97 workers in flight · 14 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -1767,7 +1771,7 @@
    "pool": "W3"
   },
   {
-   "primary": "LinkedIn",
+   "primary": "LinkedIn · Title 21 of 48 · IT Architecture Lead",
    "detail": "Families covered 20/48",
    "pool": "LinkedIn"
   }
