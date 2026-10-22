@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T10:01:16Z",
+ "generated_at": "2026-10-22T10:06:15Z",
  "today_filings": {
   "Dice": [
    {
@@ -146,87 +146,23 @@
      ]
     }
    }
-  ],
-  "Employer sites": [
-   {
-    "company": "Oracle",
-    "role": "Senior Integration Platform Architect - HDI (Remote)",
-    "where": "Employer sites",
-    "time": "",
-    "check": {
-     "company": "Oracle",
-     "role": "Senior Integration Platform Architect - HDI (Remote)",
-     "where": "Oracle Careers (Oracle HCM Candidate Experience), job 346541 — email-based apply as guest",
-     "filed_at": "not filed — parked 2026-10-22 (America/Chicago)",
-     "verdict": "parked-code-blocked",
-     "rules": [
-      {
-       "rule": "full JD read",
-       "status": "pass",
-       "evidence": "Full Oracle JD read on careers.oracle.com job 346541; core duties include \"Lead identity and access management architecture for HDI\" and \"Translate HDI product and client requirements into secure, scalable, resilient, and supportable cloud platform architectures.\" (Dice copy JD-read at discovery; Oracle own JD verified by filer pre-submit)"
-      },
-      {
-       "rule": "experience alignment",
-       "status": "pass",
-       "evidence": "Integration platform + identity/access-management architecture maps to candidate's 13 years Azure/cloud/integration/enterprise architecture (CenterPoint Energy, Shell, ExxonMobil, EY)"
-      },
-      {
-       "rule": "duplicate check",
-       "status": "pass",
-       "evidence": "Ledger + do-not-reapply + stale-seen checked at discovery and preflight (enforce_rules --preflight PASS, 5 targets); no prior Oracle HDI filing"
-      },
-      {
-       "rule": "employer exclusions / Cognizant / DevSecOps",
-       "status": "pass",
-       "evidence": "Oracle is not Humana/First Citizens/Oakworth, not Cognizant; title is not DevSecOps"
-      },
-      {
-       "rule": "100% remote US",
-       "status": "pass",
-       "evidence": "Oracle own posting job 346541: title carries \"(Remote)\", location \"United States\""
-      },
-      {
-       "rule": "pay band",
-       "status": "pass",
-       "evidence": "Oracle own posting job 346541: \"US: Hiring Range in USD from: $71,200 to $166,100 per annum\" — top $166,100 within $160,000-$230,000 (matches the Dice copy that governed the PASS)"
-      },
-      {
-       "rule": "posting freshness",
-       "status": "pass",
-       "evidence": "POSTED: 2026-10-22 (Oracle own 'Posted Date 10/21/26' also in window; Dice POSTED 2026-10-22)"
-      },
-      {
-       "rule": "tailored resume",
-       "status": "pass",
-       "evidence": "Hubert-Samuel-Resume.pdf at hidden_files/filings/oracle-hdi-integration-platform-architect/ (isolated path), rewritten around integration-platform + IAM architecture using only truthful candidate experience"
-      },
-      {
-       "rule": "veteran answer",
-       "status": "n/a",
-       "evidence": "Veteran question never reached — the flow stopped at identity confirmation before the application form"
-      },
-      {
-       "rule": "screening answers",
-       "status": "pass",
-       "evidence": "Standing data used (US citizen, no sponsorship, salary expectation $180,000 single figure as entered, Azure 13 years); no unanswerable screener reported"
-      },
-      {
-       "rule": "filing proof",
-       "status": "fail",
-       "evidence": "No submission exists — PARKED-CODE-BLOCKED at Oracle's Confirm Your Identity step (code sent to samuel-hubert@outlook.com could not be entered); no confirmation text or number was ever produced"
-      }
-     ],
-     "correction": "CORRECTED 2026-10-22: the interim FILED record was based on a fabricated interim wrap-up. Definitive filer terminals (09:32Z/09:40Z) establish: no submission, no confirmation; the filing stopped at Oracle's Confirm Your Identity code step. Oracle's own pay range is $71,200-$166,100 (top in band) — the $130,000-$232,000 figure and the band-deviation flag are retracted."
-    }
-   }
   ]
  },
  "today_filed_by_source": {
   "Dice": 1,
-  "LinkedIn": 1,
-  "Employer sites": 1
+  "LinkedIn": 1
  },
- "today_parked": {},
+ "today_parked": {
+  "Dice": [
+   {
+    "company": "Oracle",
+    "role": "Senior Integration Platform Architect - HDI (Remote)",
+    "reason": "PARKED-CODE-BLOCKED — careers.oracle.com Confirm Your Identity step; the code sent to samuel-hubert@outlook.com could not be obtained/entered; the application form was never reached — NO submission, NO confirmation — direct:…",
+    "where": "Dice",
+    "time": ""
+   }
+  ]
+ },
  "today_rejected": {
   "Employer sites": [
    {
@@ -1233,7 +1169,8 @@
    "Entergy",
    "American Electric Power",
    "Berkshire Hathaway Energy",
-   "Dell Technologies"
+   "Dell Technologies",
+   "Oracle"
   ],
   "W10": [
    "Berkley Technology Services"
@@ -1259,7 +1196,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T10:01:16Z",
+ "lists_generated_at": "2026-10-22T10:06:15Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1274,7 +1211,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T09:59:34Z",
+  "last_activity_at": "2026-10-22T10:02:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 277,
@@ -1291,13 +1228,12 @@
  "today": {
   "date": "2026-10-22",
   "evaluated": 43,
-  "filed": 3,
-  "parked": 0,
+  "filed": 2,
+  "parked": 1,
   "rejected": 40,
   "filed_by_source": {
    "Dice": 1,
-   "LinkedIn": 1,
-   "Employer sites": 1
+   "LinkedIn": 1
   }
  },
  "searching_lanes": [
@@ -2255,7 +2191,7 @@
    }
   ]
  },
- "note": "Last activity 04:59 CT · 106 workers in flight · 16 filed this run",
+ "note": "Last activity 05:02 CT · 106 workers in flight · 16 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
