@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T14:16:18Z",
+ "generated_at": "2026-10-22T14:22:12Z",
  "today_filings": {
   "Dice": [
    {
@@ -145,14 +145,93 @@
       }
      ]
     }
+   },
+   {
+    "company": "Kforce Inc",
+    "role": "Technology Architect",
+    "where": "LinkedIn",
+    "time": "",
+    "check": {
+     "company": "Kforce Inc",
+     "role": "Technology Architect",
+     "where": "LinkedIn 4482128700 (Easy Apply)",
+     "filed_at": "2026-10-22 09:17 CT",
+     "verdict": "pass",
+     "rules": [
+      {
+       "rule": "Full JD read",
+       "status": "pass",
+       "evidence": "Full JD read at discovery (stage 21, task cdfaedb4): duty quoted — establishing and maintaining the organization's enterprise architecture strategy"
+      },
+      {
+       "rule": "Experience alignment",
+       "status": "pass",
+       "evidence": "Enterprise architecture strategy/standards/governance maps directly to CenterPoint Energy Enterprise Architect (2022-2026) and Shell/ExxonMobil cloud architecture record"
+      },
+      {
+       "rule": "Duplicate check",
+       "status": "pass",
+       "evidence": "Ledger + do-not-reapply + stale-seen checked in-execution: ID 4482128700 and this title no hits (other Kforce postings are different titles/reqs; no per-employer cap); posting showed Easy Apply (not Applied) at filer start"
+      },
+      {
+       "rule": "Employer not excluded / not Cognizant / not DevSecOps",
+       "status": "pass",
+       "evidence": "Kforce Inc is not Humana/First Citizens/Oakworth, not Cognizant; title not DevSecOps"
+      },
+      {
+       "rule": "100% remote US",
+       "status": "pass",
+       "evidence": "Posting shows Remote, Full-time via Remote-filtered LinkedIn search; no required office/hybrid schedule in JD"
+      },
+      {
+       "rule": "Pay / contract rate",
+       "status": "pass",
+       "evidence": "Published $200K/yr - $225K/yr — top $225,000 inside the $160,000-$230,000 band"
+      },
+      {
+       "rule": "Freshness",
+       "status": "pass",
+       "evidence": "POSTED: 2026-10-21 (within 7 days; Past-24-hours discovery surface)"
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "pass",
+       "evidence": "Hubert-Samuel-Resume.pdf at filings/kforce-technology-architect/ — rewritten around this JD's enterprise architecture strategy/standards/governance duties using only his actual record; filer uploaded only this file ('Resume uploaded successfully', selected in form)"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "n/a",
+       "evidence": "No veteran-status question was presented anywhere in this Easy Apply flow (contact info + resume only, filer verbatim report), so no option existed to select; strict rule not breached"
+      },
+      {
+       "rule": "Screening answers",
+       "status": "n/a",
+       "evidence": "No screening/EEO/salary/authorization questions were presented in this flow; contact info verified correct (samuel-hubert@outlook.com, 8323770273)"
+      },
+      {
+       "rule": "Filing proof",
+       "status": "pass",
+       "evidence": "applied-list — reopened posting 4482128700 shows 'Application status — Application submitted — now' with View resume link and no Easy Apply button; applicant count rose 26 to 27"
+      }
+     ]
+    }
    }
   ]
  },
  "today_filed_by_source": {
   "Dice": 1,
-  "LinkedIn": 1
+  "LinkedIn": 2
  },
  "today_parked": {
+  "LinkedIn": [
+   {
+    "company": "InnoveusIT",
+    "role": "Storage Architect",
+    "reason": "numeric screener unlisted — required question 'How many years of experience do you have in enterprise storage and archive architecture?' has no candidate-authored figure (never invent a number; 13 is Azure/solution-architecture, not storage) — application…",
+    "where": "LinkedIn",
+    "time": ""
+   }
+  ],
   "Dice": [
    {
     "company": "Oracle",
@@ -1649,7 +1728,7 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-22T14:16:18Z",
+ "lists_generated_at": "2026-10-22T14:22:12Z",
  "build_version": "2.0.0-retool-p1",
  "lane_state_source": "model",
  "run": {
@@ -1659,12 +1738,12 @@
   "state": "active",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T14:09:42Z",
+  "last_activity_at": "2026-10-22T14:19:14Z",
   "progress": {
    "pools": 21,
    "covered_units": 307,
@@ -1673,25 +1752,23 @@
   }
  },
  "counts": {
-  "filed": 16,
-  "parked": 21,
-  "rejected": 1542,
-  "evaluated": 1584
+  "filed": 17,
+  "parked": 22,
+  "rejected": 1561,
+  "evaluated": 1601
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 105,
-  "filed": 2,
-  "parked": 1,
+  "evaluated": 107,
+  "filed": 3,
+  "parked": 2,
   "rejected": 102,
   "filed_by_source": {
    "Dice": 1,
-   "LinkedIn": 1
+   "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -1916,16 +1993,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 24,
    "families_total": 48,
-   "current": {
-    "company": "Kforce Inc",
-    "title": "Technology Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T14:08:43Z",
-   "detail": "Families covered 22/48"
+   "heartbeat_at": "2026-10-22T14:19:14Z",
+   "detail": "Families covered 24/48"
   }
  },
  "stages": {
@@ -1937,19 +2011,19 @@
   },
   "prep": {
    "state": "done",
-   "detail": "5 leads in the queue",
+   "detail": "1 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_discovery": {
    "state": "done",
-   "detail": "Families covered 22/48",
+   "detail": "Families covered 24/48",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "Filings returned",
    "started_at": null,
    "ended_at": null
   },
@@ -1961,7 +2035,7 @@
   },
   "sector_filing": {
    "state": "done",
-   "detail": "33 filing result(s) back",
+   "detail": "35 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -2545,6 +2619,11 @@
   ],
   "fire_dues": [
    {
+    "id": "fire-025a7e7ba26c",
+    "reason": "stage 22 (run 36683c71): SECTOR W18 — Manufacturing & Industrial. Stage 21 COMPLETE this execution (LinkedIn families 23-24 covered; filed Kforce Technology Architect 4482128700 applied-list; InnoveusIT Storage Architect parked numeric-screener-unlisted, live Section A; run totals filed 17 / parked 22 / rejected 1561; LinkedIn families 24/48). Work W18 per the sector rules: every named employer in the W18 slice definition needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
+    "created_at": "2026-10-22T09:18:59.368736-05:00"
+   },
+   {
     "id": "fire-10236b4dc216",
     "reason": "stage 10 continuation (run 36683c71) — CORRECTED by full terminals: SECTOR W3 remainder is ONLY the 58 untouched employers (providers: Mass General Brigham, Houston Methodist, Baylor Scott & White, Memorial Hermann, Geisinger, Sanford Health, CHRISTUS Health, Ochsner Health, UCHealth, OhioHealth, Wellstar, Tenet, UHS, LifePoint, Prime, ProMedica, Johns Hopkins, Penn Medicine, Stanford Health Care, UCLA Health, NYU Langone, Mount Sinai, RWJBarnabas, Texas Children's, MD Anderson; pharma: Pfizer, Merck, J&J, Lilly, AbbVie, Amgen, BMS, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz, United Therapeutics, Neurocrine, Alkermes, Organon). Batch 1 final: 15/15 employers covered (full terminals govern; chunks W3slice1/2/3 + W3trinity-verify), 0 PASS, 0 filed, JD reads 7. AdventHealth and Intermountain are DONE — do not rework. Capped tasks max 5 employers, batches of 3, compact returns WITH query start times, remote gate at listing, file-in-execution for any PASS.",
     "created_at": "2026-10-20T13:50:58.781787-05:00"
@@ -2681,19 +2760,18 @@
    }
   ]
  },
- "note": "Last activity 09:09 CT · 2 workers in flight · 16 filed this run",
+ "note": "Last activity 09:19 CT · 0 workers in flight · 17 filed this run",
  "pill": [
   {
-   "primary": "Technology Architect — Kforce Inc",
-   "detail": "LinkedIn · Families covered 22/48",
-   "pool": "LinkedIn"
+   "primary": "No lane is searching right now",
+   "detail": "Lanes: 9 done · 12 waiting to start"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "Technology Architect — Kforce Inc",
-  "detail": "LinkedIn · Families covered 22/48"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
