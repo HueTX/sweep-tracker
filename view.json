@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-22T07:41:16Z",
+ "generated_at": "2026-10-22T07:46:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T07:40:36Z",
+  "last_activity_at": "2026-10-22T07:46:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 257,
@@ -24,18 +24,20 @@
   }
  },
  "counts": {
-  "filed": 14,
+  "filed": 15,
   "parked": 20,
   "rejected": 1072,
-  "evaluated": 1114
+  "evaluated": 1115
  },
  "today": {
   "date": "2026-10-22",
-  "evaluated": 11,
-  "filed": 0,
+  "evaluated": 12,
+  "filed": 1,
   "parked": 0,
   "rejected": 11,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
  "searching_lanes": [
   "W3",
@@ -265,13 +267,13 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 22,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-22T06:56:13Z",
-   "detail": "Families covered 20/48"
+   "heartbeat_at": "2026-10-22T07:46:10Z",
+   "detail": "Families covered 22/48"
   }
  },
  "stages": {
@@ -289,7 +291,7 @@
   },
   "linkedin_discovery": {
    "state": "done",
-   "detail": "Families covered 20/48",
+   "detail": "Families covered 22/48",
    "started_at": null,
    "ended_at": null
   },
@@ -961,13 +963,18 @@
     "created_at": "2026-10-21T08:01:18.879272-05:00"
    },
    {
+    "id": "fire-dbcf6ccc77a2",
+    "reason": "stage 20 (run 36683c71): stage 19 LINKEDIN FAMILIES 21-22 COMPLETE via late governing terminal (correction superseded the dead-task checkpoint) — 2 queries, 14 unique, 3 JD reads, 13 rejected (11 Humana employer-excluded, AppLab hands-on, Oracle pay-outside-band), families 22/48, run rejected 1085. RECOVERY FIRST: Falcon Smart IT Application Architect 4481129672 PASS — filer 2fa0e104 was dispatched in-execution (preflight PASS, tailored resume staged) but its outcome never returned; verify the posting's Applied state / late filer return BEFORE any refile, never double-submit; if Applied, record FILED with evidence (run filed would become 15). Next stage per re-seeded work order — re-derive from disk per R3.",
+    "created_at": "2026-10-22T02:45:03.236031-05:00"
+   },
+   {
     "id": "fire-df042057fc3e4731",
     "reason": "stage-relay advance: run 36683c71 stage 14 (SECTOR W5 Oil & Gas) COMPLETE — 44/44 employers covered, 12 JD reads, 0 PASS, 0 filed. Next: stage 15 LINKEDIN FAMILIES 17-18 (Cloud Architecture Lead, Cloud Infrastructure Lead) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, coverage-contingent query logs, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-17-18.md). Then stage 16 SECTOR W6 Utilities.",
     "created_at": "2026-10-21T09:41:38.799752-05:00"
    }
   ]
  },
- "note": "Last activity 02:40 CT · 98 workers in flight · 14 filed this run",
+ "note": "Last activity 02:46 CT · 97 workers in flight · 15 filed this run",
  "pill": [
   {
    "primary": "Healthcare Providers",
@@ -976,7 +983,7 @@
   },
   {
    "primary": "LinkedIn",
-   "detail": "Families covered 20/48",
+   "detail": "Families covered 22/48",
    "pool": "LinkedIn"
   }
  ],
