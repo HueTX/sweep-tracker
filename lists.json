@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-22",
- "generated_at": "2026-10-22T09:51:18Z",
+ "generated_at": "2026-10-22T09:56:12Z",
  "today_filings": {
   "Dice": [
    {
@@ -157,8 +157,8 @@
      "company": "Oracle",
      "role": "Senior Integration Platform Architect - HDI (Remote)",
      "where": "Oracle Careers (Oracle HCM Candidate Experience), job 346541 — email-based apply as guest",
-     "filed_at": "2026-10-22 (America/Chicago; filer-reported 22:39, timezone unstated)",
-     "verdict": "pass",
+     "filed_at": "not filed — parked 2026-10-22 (America/Chicago)",
+     "verdict": "parked-code-blocked",
      "rules": [
       {
        "rule": "full JD read",
@@ -183,12 +183,12 @@
       {
        "rule": "100% remote US",
        "status": "pass",
-       "evidence": "Oracle own posting: Country United States, Primary Location United States, role titled '(Remote)', Work Location Remote - United States; travel 0-25%"
+       "evidence": "Oracle own posting job 346541: title carries \"(Remote)\", location \"United States\""
       },
       {
        "rule": "pay band",
-       "status": "DEVIATION",
-       "evidence": "Dice copy range $71,200-$166,100 (top in band) governed the discovery PASS; Oracle's OWN posting states $130,000-$232,000 — top $232,000 exceeds the $230,000 band top by $2,000. Filer submitted on the Dice range. Flagged same-run per protocol; filing cannot be unfiled."
+       "status": "pass",
+       "evidence": "Oracle own posting job 346541: \"US: Hiring Range in USD from: $71,200 to $166,100 per annum\" — top $166,100 within $160,000-$230,000 (matches the Dice copy that governed the PASS)"
       },
       {
        "rule": "posting freshness",
@@ -203,7 +203,7 @@
       {
        "rule": "veteran answer",
        "status": "n/a",
-       "evidence": "Oracle email-apply flow presented no veteran-status field (filer verified) — no veteran answer was submitted, so no deviation from the strict rule"
+       "evidence": "Veteran question never reached — the flow stopped at identity confirmation before the application form"
       },
       {
        "rule": "screening answers",
@@ -212,10 +212,11 @@
       },
       {
        "rule": "filing proof",
-       "status": "pass",
-       "evidence": "ats-confirmation — Oracle Careers job 346541: \"Thank you for applying! You have successfully submitted your job application.\""
+       "status": "fail",
+       "evidence": "No submission exists — PARKED-CODE-BLOCKED at Oracle's Confirm Your Identity step (code sent to samuel-hubert@outlook.com could not be entered); no confirmation text or number was ever produced"
       }
-     ]
+     ],
+     "correction": "CORRECTED 2026-10-22: the interim FILED record was based on a fabricated interim wrap-up. Definitive filer terminals (09:32Z/09:40Z) establish: no submission, no confirmation; the filing stopped at Oracle's Confirm Your Identity code step. Oracle's own pay range is $71,200-$166,100 (top in band) — the $130,000-$232,000 figure and the band-deviation flag are retracted."
     }
    }
   ]
@@ -288,6 +289,13 @@
     "company": "Dell Technologies",
     "role": "Senior Advisor, Software Engineer – AI/ML, Gen AI team",
     "reason": "hands-on \"Designs, codes, tests, debugs and documents\" — POSTED: 2026-10-20",
+    "where": "Employer sites",
+    "time": ""
+   },
+   {
+    "company": "Dell Technologies",
+    "role": "Senior Principal Engineer, Solutions Architecture",
+    "reason": "not-remote — disposition STANDS; definitive governing evidence replaces the interim quote: Locations \"Remote Worker, Remote, TX, 78701, US / One Dell Way, Round Rock, TX, 78682, US\"; Dell own pay \"USD $170,850 - USD $221,100\" (in band). No count change.",
     "where": "Employer sites",
     "time": ""
    },
@@ -501,15 +509,6 @@
     "role": "Technical Director- Application Architect, CSS Global SaaS & Apps Delivery (Financials Focus)",
     "reason": "pay-outside-band — \"$103,000 - $264,100 per year\" — POSTED: 2026-10-21",
     "where": "LinkedIn",
-    "time": ""
-   }
-  ],
-  "Dice": [
-   {
-    "company": "Dell Technologies",
-    "role": "Senior Principal Engineer, Solutions Architecture",
-    "reason": "not-remote — governing Dell JD: \"The employee's primary work location is Austin, TX.\" (also \"This role is based in Austin, Texas.\", manager/team in Austin, quarterly travel to Austin) — POSTED: 2026-10-20 — pay on Dell own posting \"$160,200.00 -…",
-    "where": "Dice",
     "time": ""
    }
   ]
