@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-24T21:25:52Z",
+ "generated_at": "2026-10-24T21:30:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-24T20:44:51Z",
+  "last_activity_at": "2026-10-24T21:26:02Z",
   "progress": {
    "pools": 21,
-   "covered_units": 10,
+   "covered_units": 12,
    "total_units": 1218,
    "pct": 1
   },
-  "families_covered": 0,
+  "families_covered": 2,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 6,
-  "evaluated": 6
+  "rejected": 22,
+  "evaluated": 25
  },
  "today": {
   "date": "2026-10-24",
-  "evaluated": 6,
+  "evaluated": 24,
   "filed": 0,
   "parked": 0,
-  "rejected": 6,
+  "rejected": 21,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -48,16 +48,16 @@
    "label": "LinkedIn",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 2,
    "families_total": 58,
    "current": null,
    "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
+    "index": 3,
+    "name": "Azure Cloud Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-24T21:25:52Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": "2026-10-24T21:30:54Z",
+   "detail": "Titles 2/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -89,7 +89,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-24T21:25:52Z",
+   "heartbeat_at": "2026-10-24T21:30:54Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -295,14 +295,14 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "0 of 29 units done",
+   "detail": "1 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 3 units done",
+   "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
   "sector_search": {
@@ -338,10 +338,10 @@
  },
  "titles": {
   "total": 58,
-  "searched": 0,
+  "searched": 2,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "pending",
    "Cloud Architect": "pending",
    "Cloud Solutions Architect": "pending",
@@ -464,19 +464,19 @@
    }
   ]
  },
- "note": "Last activity 3:44 PM CT · 5 workers in flight · 0 filed this run",
+ "note": "Last activity 4:26 PM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 0/58",
+   "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
+   "detail": "Families covered 2/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 0/58"
+  "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
+  "detail": "Families covered 2/58"
  },
  "rules": {
   "follow_all": false,
@@ -540,6 +540,113 @@
     "reason": "not-remote — Virtual: This is NOT a virtual position. Also open only to VA CTAP eligibles in the local commuting area, and closed 08/20/2025 (Published 08/18/2025). Workarounds tried: (1) governing USAJOBS announcement itself carries the not-virtual statement; no alternate route changes it.",
     "where": "USAJOBS",
     "time": "3:44 PM"
+   }
+  ],
+  "LinkedIn": [
+   {
+    "company": "STChealth (via Harris Teeter)",
+    "role": "Platform & DevSecOps Delivery Architect",
+    "reason": "devsecops-title — DevSecOps in the title is a gate exclusion. Duties are also whole-role build work: architect, implement, and maintain centralized CI/CD pipeline templates, with C#/.NET, Node.js and Python software development to build internal tooling; platform is AWS-heavy (Amazon EKS).",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "World Wide Technology",
+    "role": "Lead Cloud Solution Architect - AI & Data (AWS)",
+    "reason": "cloud-scope — AWS-first posting: title names AWS and the JD requires staying hands-on and current with AWS data and AI services; Azure is only a plus. Azure-excluded/AWS-first fails the cloud-scope filter.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Senior Architect - Enterprise Solutions Architecture",
+    "reason": "cognizant-manual-only — 3Cloud counts as Cognizant (manual-only, never file) until Hubert rules otherwise. On the merits the JD was in scope: remote US, base salary range top $205,300 inside the $160,000-$230,000 band, Azure modernization architecture duties.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Guidehouse",
+    "role": "Power Platform Architect",
+    "reason": "clearance — Active Secret security clearance required.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "FlightSafety International",
+    "role": "JSE Lead Cloud-Cyber Architect",
+    "reason": "clearance — Active Secret clearance required by the posting; duties also center on C++ and Python simulation software development.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Senior Director Enterprise Architect",
+    "reason": "pay-outside-band — The starting pay range for this remote role is $160K to $296K — published top $296,000 exceeds the $230,000 band ceiling. Role is also Cisco licensing/asset-management strategy, not Azure or cloud enterprise architecture.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "ETHOS - Talent & Advisory",
+    "role": "Agentic AI Solutions Architect, Conversational AI",
+    "reason": "hands-on-coding — Hands-on development in Python, JavaScript/Node.js, Java is a core duty, including building the APIs and microservices — hands-on programming as the role's substance rejects even under an Architect title. Contract rate $80-$100/hr was in contract band; the hands-on filter governs.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "RemoteHunter",
+    "role": "Cloud Architect, Product Management",
+    "reason": "pay-outside-band — US (all other offices/remote) pay range top $246,100 exceeds the $230,000 band ceiling. The role is also product management — the technical link between engineering, product management, and field teams — not an architecture delivery role.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Insight Global",
+    "role": "Solutions Architect",
+    "reason": "hands-on-coding — The JD defines the role as still building: writes a working prototype in Python or TypeScript against real data, and shipping production AI agents/multi-agent systems — hands-on coding as a core duty rejects under the Architect title.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Zones, LLC",
+    "role": "Client Solution Architect",
+    "reason": "duplicate — Duplicate: this exact LinkedIn posting 4475063422 was already filed on 2026-10-03 per the application ledger (Zones Talemetry thank-you page, flagged unproven). A LinkedIn repost of an already-applied role is still a duplicate — never refile.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Elastic",
+    "role": "Partner Solutions Architect",
+    "reason": "experience-mismatch — Core duties are building Elastic product capability across systems integrators, resellers and MSSPs and driving partner-sourced pipeline and deal registrations — a single-vendor partner ecosystem role, a core mismatch with his Azure/cloud/enterprise architecture experience.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "GSI Senior Solution Architect - Accenture",
+    "reason": "experience-mismatch — Role leads the technical go-to-market strategy for joint Palo Alto Networks + Accenture security solutions with business development and account teams — a security-vendor GTM role, a core mismatch with his Azure/cloud/enterprise architecture experience.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "RemoteHunter",
+    "role": "Solution Architect, AI & Cloud",
+    "reason": "hands-on-coding — Hands-on builder role on an AWS-hosted platform: own development, QA, and production of the AI platform's API, infrastructure, and user interface (Python/FastAPI, Amazon Bedrock, .NET 8). Hands-on development as the role's substance; Azure appears only via Azure DevOps.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "Healthmap Solutions",
+    "role": "Director of Cloud Architecture & Platform Engineering",
+    "reason": "hands-on — Roughly 50% of time is spent on the tools — building foundational code, building out CI/CD templates and refining the Kubernetes service mesh. Whole role is hands-on engineering delivery, not architecture.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
+   },
+   {
+    "company": "BankUnited",
+    "role": "Enterprise Solution Architect Payments",
+    "reason": "experience-mismatch — Payments-domain specialist role (ACH, wires, SWIFT, ISO 20022; payment hubs such as Volante/Finastra/ACI/FIS) with cloud preference stated as preferably on Amazon AWS and no Azure — a core domain and cloud mismatch with his experience.",
+    "where": "LinkedIn",
+    "time": "4:26 PM"
    }
   ]
  },
@@ -1609,5 +1716,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-24T21:25:52Z"
+ "lists_generated_at": "2026-10-24T21:30:54Z"
 }
