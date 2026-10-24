@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-24T20:41:33Z",
+ "generated_at": "2026-10-24T20:45:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-24T20:36:43Z",
+  "last_activity_at": "2026-10-24T20:44:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 6,
+  "evaluated": 6
  },
  "today": {
   "date": "2026-10-24",
-  "evaluated": 0,
+  "evaluated": 6,
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
+  "rejected": 6,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -56,7 +56,7 @@
     "name": "Azure Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-24T20:41:33Z",
+   "heartbeat_at": "2026-10-24T20:45:54Z",
    "detail": "Titles 0/58"
   },
   "W8": {
@@ -89,7 +89,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-24T20:41:33Z",
+   "heartbeat_at": "2026-10-24T20:45:54Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -464,7 +464,7 @@
    }
   ]
  },
- "note": "Run started 3:36 PM CT · 0 filed",
+ "note": "Last activity 3:44 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
@@ -497,7 +497,52 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
- "today_rejected": {},
+ "today_rejected": {
+  "USAJOBS": [
+   {
+    "company": "Railroad Retirement Board",
+    "role": "Azure Architect",
+    "reason": "not-remote — All candidates are expected to reside within 50 miles of the closest field office location listed in this job announcement. Workarounds tried: (1) employer's own announcement on USAJOBS is the governing text and carries the residency requirement; no alternate route changes a federal announcement's conditions. Also stale: Published 05/26/2026, outside the 7-day eligibility window.",
+    "where": "USAJOBS",
+    "time": "3:43 PM"
+   },
+   {
+    "company": "FEMA (DHS)",
+    "role": "IT Specialist (INFOSEC)",
+    "reason": "clearance — all selected applicants must undergo, successfully pass, and maintain a background investigation for Top Secret/SCI as a condition of placement into this position. Also stale: Published 06/09/2026.",
+    "where": "USAJOBS",
+    "time": "3:43 PM"
+   },
+   {
+    "company": "Defense Information Systems Agency (DISA)",
+    "role": "Systems Engineering Architect",
+    "reason": "closed — Open to current DISA employees. Announcement closed 09/25/2025 (Published 09/19/2025); also requires a security clearance as a condition of employment.",
+    "where": "USAJOBS",
+    "time": "3:43 PM"
+   },
+   {
+    "company": "Defense Information Systems Agency (DISA)",
+    "role": "Systems Engineering Architect (Interdisciplinary)",
+    "reason": "clearance — This position is required to obtain and maintain a TOP SECRET security clearance. Also closed: application package due 08/30/2024 (Published 08/22/2024).",
+    "where": "USAJOBS",
+    "time": "3:43 PM"
+   },
+   {
+    "company": "Administrative Office of the U.S. Courts (Judiciary)",
+    "role": "IT Specialist (Enterprise Architecture) — Enterprise Cloud Architect",
+    "reason": "stale — This vacancy announcement is open to the public. This position is eligible for full-time remote telework. Published: 02/03/2023 — far outside the 7-day eligibility window; announcement long closed. Duties were architect-level and remote-eligible, but freshness is a gate fact.",
+    "where": "USAJOBS",
+    "time": "3:44 PM"
+   },
+   {
+    "company": "Department of Veterans Affairs (VA)",
+    "role": "IT Specialist (Enterprise Architecture)",
+    "reason": "not-remote — Virtual: This is NOT a virtual position. Also open only to VA CTAP eligibles in the local commuting area, and closed 08/20/2025 (Published 08/18/2025). Workarounds tried: (1) governing USAJOBS announcement itself carries the not-virtual statement; no alternate route changes it.",
+    "where": "USAJOBS",
+    "time": "3:44 PM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1564,5 +1609,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-24T20:41:33Z"
+ "lists_generated_at": "2026-10-24T20:45:54Z"
 }
