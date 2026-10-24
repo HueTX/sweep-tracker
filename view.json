@@ -1,35 +1,33 @@
 {
  "schema": 2,
- "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-24T20:35:36Z",
+ "build_version": "2.0.0-retool-p1",
+ "generated_at": "2026-10-24T20:36:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
-  "status": "stopped",
-  "state": "halted",
+  "status": "running",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T22:22:58Z",
+  "last_activity_at": "2026-10-24T19:41:27Z",
   "progress": {
    "pools": 21,
    "covered_units": 357,
    "total_units": 1008,
    "pct": 35
-  },
-  "families_covered": 26,
-  "families_total": 48
+  }
  },
  "counts": {
-  "filed": 21,
-  "parked": 20,
-  "rejected": 1137,
-  "evaluated": 1178
+  "filed": 23,
+  "parked": 26,
+  "rejected": 1722,
+  "evaluated": 1772
  },
  "today": {
   "date": "2026-10-24",
@@ -39,238 +37,244 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
-  "LinkedIn": {
-   "label": "LinkedIn",
-   "sites": 0,
-   "phase": "stopped",
-   "families_searched": 0,
-   "families_total": 48,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 0/48"
-  },
-  "W8": {
-   "label": "Web Catch-All",
-   "sites": 0,
-   "phase": "stopped",
-   "families_searched": 0,
-   "families_total": 48,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 0/48"
-  },
-  "W7": {
-   "label": "Google Jobs",
-   "sites": 1,
-   "phase": "stopped",
-   "families_searched": 0,
-   "families_total": 48,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 0/48"
-  },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 3,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/30"
+   "heartbeat_at": "2026-10-19T20:22:52Z",
+   "detail": "Employers covered 2/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 7,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/39"
+   "heartbeat_at": "2026-10-20T01:50:42Z",
+   "detail": "Employers covered 6/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/73"
+   "heartbeat_at": "2026-10-21T04:53:29Z",
+   "detail": "Employers covered 73/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 36,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/32"
+   "heartbeat_at": "2026-10-21T11:50:46Z",
+   "detail": "Employers covered 24/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "heartbeat_at": "2026-10-21T14:41:23Z",
+   "detail": "Employers covered 44/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "stopped",
+   "phase": "done",
+   "families_searched": 47,
+   "families_total": 48,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-21T18:40:44Z",
+   "detail": "Employers covered 43/44"
+  },
+  "W7": {
+   "label": "Google Jobs",
+   "sites": 1,
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "detail": ""
+  },
+  "W8": {
+   "label": "Web Catch-All",
+   "sites": 0,
+   "phase": "pending",
+   "families_searched": 0,
+   "families_total": 48,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": ""
   },
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W10": {
    "label": "SimplyHired",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W11": {
    "label": "Glassdoor",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W12": {
    "label": "Monster",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W13": {
    "label": "Otta",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W14": {
    "label": "Indeed",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 0/48"
+   "detail": ""
   },
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 46,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/59"
+   "heartbeat_at": "2026-10-22T05:59:39Z",
+   "detail": "Employers covered 57/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/54"
+   "heartbeat_at": "2026-10-22T13:33:59Z",
+   "detail": "Employers covered 54/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "stopped",
-   "families_searched": 0,
+   "phase": "done",
+   "families_searched": 48,
    "families_total": 48,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/45"
+   "heartbeat_at": "2026-10-22T16:04:24Z",
+   "detail": "Employers covered 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/41"
+   "detail": ""
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "stopped",
+   "phase": "pending",
    "families_searched": 0,
    "families_total": 48,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/31"
+   "detail": ""
+  },
+  "LinkedIn": {
+   "label": "LinkedIn",
+   "sites": 0,
+   "phase": "searching",
+   "families_searched": 26,
+   "families_total": 48,
+   "current": null,
+   "current_family": {
+    "index": 27,
+    "name": "Identity Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-24T19:41:05Z",
+   "detail": "Families covered 26/48"
   }
  },
  "stages": {
@@ -281,14 +285,14 @@
    "ended_at": "2026-10-19T19:10:11Z"
   },
   "prep": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "1 leads in the queue",
    "started_at": null,
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "pending",
-   "detail": "",
+   "state": "active",
+   "detail": "Families covered 26/48",
    "started_at": null,
    "ended_at": null
   },
@@ -299,14 +303,14 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "",
+   "state": "active",
+   "detail": "0 of 20 sector lanes finished · 9 with results in",
    "started_at": null,
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "44 filing result(s) back",
    "started_at": null,
    "ended_at": null
   },
@@ -331,7 +335,7 @@
  },
  "titles": {
   "total": 48,
-  "searched": 26,
+  "searched": 48,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -359,50 +363,825 @@
    "Data Center Architect": "done",
    "Digital Transformation Architect": "done",
    "Systems Architect": "done",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending"
+   "Identity Architect": "done",
+   "Technology Architect": "done",
+   "Network Security Architect": "done",
+   "Chief Architect": "done",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "done",
+   "Infrastructure Strategy Lead": "done",
+   "Cloud Practice Lead": "done",
+   "Cloud Center of Excellence Lead": "done",
+   "Cloud Enablement Lead": "done",
+   "Cloud Adoption Lead": "done",
+   "Infrastructure Modernization Lead": "done",
+   "Technology Modernization Lead": "done",
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
+   "Technology Transformation Consultant": "done",
+   "Staff Cloud Engineer": "done",
+   "Staff Infrastructure Engineer": "done"
+  },
+  "family_lanes": {
+   "Azure Architect": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Azure Solutions Architect": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Azure Cloud Architect": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Cloud Architect": [
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Cloud Solutions Architect": [
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Enterprise Architect": [
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Infrastructure Architect": [
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Platform Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Solutions Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Solution Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Domain Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Resiliency Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "IT/OT Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Cloud Transformation Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Principal Cloud Engineer": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Principal Infrastructure Engineer": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Cloud Architecture Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Cloud Infrastructure Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Principal Technical Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Technology Strategy Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "IT Architecture Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Application Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Integration Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Data Center Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Digital Transformation Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Systems Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18",
+    "LinkedIn"
+   ],
+   "Identity Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Technology Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Network Security Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Chief Architect": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Engineering Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Platform Engineering Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Transformation Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Technology Strategy Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Enterprise Technology Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Infrastructure Strategy Lead": [
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Practice Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Center of Excellence Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Enablement Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Adoption Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Infrastructure Modernization Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Technology Modernization Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Delivery Lead": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Enterprise Technology Consultant": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Cloud Advisory Consultant": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Technology Transformation Consultant": [
+    "W3",
+    "W5",
+    "W6",
+    "W16",
+    "W17",
+    "W18"
+   ],
+   "Staff Cloud Engineer": [
+    "W3",
+    "W5",
+    "W6",
+    "W17",
+    "W18"
+   ],
+   "Staff Infrastructure Engineer": [
+    "W3",
+    "W5",
+    "W17",
+    "W18"
+   ]
   }
  },
  "controls": {
-  "priority_lanes": [],
+  "priority_lanes": [
+   "W1",
+   "W2",
+   "W3",
+   "W4",
+   "W5",
+   "W6",
+   "W16",
+   "W17",
+   "W18",
+   "W19",
+   "W20"
+  ],
   "scoped_lanes": null,
   "scoped_titles": null,
   "sweep_state": "stopped",
   "pending": [],
-  "acks": []
+  "acks": [
+   {
+    "id": "c5bd0c93-ba99-4577-bc58-724c11a5ef9a",
+    "actuated_at": "2026-10-16T15:37:01Z",
+    "effect": "priority W1 on"
+   },
+   {
+    "id": "43a40a06-fd51-41fa-9a5f-1f1d995bfa6b",
+    "actuated_at": "2026-10-17T05:05:09Z",
+    "effect": "restart None recorded; selection scope set: W1,W2,W3,W4,W5,W6,W7,W8,W9,W10,W11"
+   },
+   {
+    "id": "6de0570c-66f5-4372-a5d0-c88e570df062",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W1 on"
+   },
+   {
+    "id": "552a67fa-339d-4ea2-b93e-f938515da36b",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W2 on"
+   },
+   {
+    "id": "e90e55f4-af88-4e9a-bebf-19cee76b05f2",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W3 on"
+   },
+   {
+    "id": "27d01488-57bb-4b33-91ea-71921b1cf894",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W5 on"
+   },
+   {
+    "id": "10a3dfcb-5380-4087-9bd4-78f51a0e0c11",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W6 on"
+   },
+   {
+    "id": "a7762ba3-e857-42d3-9a8a-42a543290190",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W16 on"
+   },
+   {
+    "id": "6bf22ecb-f675-4190-811a-c0dee8607ebf",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W17 on"
+   },
+   {
+    "id": "6604ecbc-026d-45b1-b628-b01bccd99e2e",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W18 on"
+   },
+   {
+    "id": "4c4a34be-5c96-4388-b40b-fb2145747c53",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W19 on"
+   },
+   {
+    "id": "b55f212e-221e-4d26-9e0f-a64b3ab0dc18",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "priority W20 on"
+   },
+   {
+    "id": "7b633179-f246-4b5c-bb47-8c98312dc470",
+    "actuated_at": "2026-10-18T03:48:10Z",
+    "effect": "restart W1,W2,W3,W5,W6,W16,W17,W18,W19,W20 recorded"
+   },
+   {
+    "id": "4ff2d32a-0973-48ef-a023-d25499a18f82",
+    "actuated_at": "2026-10-18T03:48:58Z",
+    "effect": "restart W1,W2,W3,W5,W6,W16,W17,W18,W19,W20 recorded"
+   },
+   {
+    "id": "chat-relay-stop-20261018-1431",
+    "actuated_at": "2026-10-18T19:33:48Z",
+    "effect": "sweep stop"
+   },
+   {
+    "id": "chat-relay-start-20261018",
+    "actuated_at": "2026-10-18T20:25:28Z",
+    "effect": "sweep start"
+   },
+   {
+    "id": "51dd71d5-71f1-4ab4-9ffe-e735800721c2",
+    "actuated_at": "2026-10-22T22:32:14Z",
+    "effect": "sweep stop"
+   },
+   {
+    "id": "018b92f4-6af4-4513-8b33-7fc9c0a605fd",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W1 recorded"
+   },
+   {
+    "id": "27327afe-90e2-4c60-b3a9-512b26f1b111",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W2 recorded"
+   },
+   {
+    "id": "ff374b43-b552-4174-bd8f-8a675ffd5208",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W3 recorded"
+   },
+   {
+    "id": "6dbb1dfc-5e27-4d5d-8418-0e645540eb93",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W4 recorded"
+   },
+   {
+    "id": "2388406d-e2b5-42ad-b394-ac46c632c56b",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W5 recorded"
+   },
+   {
+    "id": "3deed580-64b4-493e-9f27-9957718f242a",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W6 recorded"
+   },
+   {
+    "id": "2259efc9-da82-41e8-8fd5-b9c824a34f48",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W16 recorded"
+   },
+   {
+    "id": "3f99a4b2-ec2e-47f0-abb6-7c3b8a4047ab",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W17 recorded"
+   },
+   {
+    "id": "3fa426ef-02d8-417f-9593-1e6eb3b0b68b",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W18 recorded"
+   },
+   {
+    "id": "59ab34b5-7699-459b-aab7-fb28d775bfbb",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W19 recorded"
+   },
+   {
+    "id": "ddc9fcfe-4964-4e60-9e11-5290f592b5e1",
+    "actuated_at": "2026-10-22T23:12:27Z",
+    "effect": "restart W20 recorded"
+   },
+   {
+    "id": "chat-start-20261024-1437ct",
+    "actuated_at": "2026-10-24T19:38:54Z",
+    "effect": "sweep start"
+   },
+   {
+    "id": "chat-stop-20261024-1445ct",
+    "actuated_at": "2026-10-24T19:45:35Z",
+    "effect": "sweep stop"
+   }
+  ],
+  "fire_dues": [
+   {
+    "id": "fire-025a7e7ba26c",
+    "reason": "stage 22 (run 36683c71): SECTOR W18 — Manufacturing & Industrial. Stage 21 COMPLETE this execution (LinkedIn families 23-24 covered; filed Kforce Technology Architect 4482128700 applied-list; InnoveusIT Storage Architect parked numeric-screener-unlisted, live Section A; run totals filed 17 / parked 22 / rejected 1561; LinkedIn families 24/48). Work W18 per the sector rules: every named employer in the W18 slice definition needs its 3 evidenced passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), location-gate at listing level, capped tasks (max 5 employers per task), batches of 3, compact one-line-per-employer returns, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight. Uncovered employers carry as remainder in a same-stage continuation.",
+    "created_at": "2026-10-22T09:18:59.368736-05:00"
+   },
+   {
+    "id": "fire-223835ee7d43",
+    "reason": "stage-relay advance: run 36683c71 stage 15 (LINKEDIN FAMILIES 17-18) COMPLETE — families Cloud Architecture Lead + Cloud Infrastructure Lead covered (exact 0 results each, fuzzy pools verdicted), queries 3, JD reads 15, rejected 14, 1 PASS FILED in-execution: Carnival Cruise Line Principal Architect, Infrastructure 4472281292 (Oracle Job 13977, Under Consideration, Applied 10/21/2026). 2 NOT EVALUATED carried (Stellar IT, Ladders). Next: stage 16 SECTOR W6 Utilities — capped batches of 3 tasks x 5 employers, 3 passes each (ATS architect keyword w/ remote facet, Google Jobs, one board), location-gate at listing level, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T10:55:09.708339-05:00"
+   },
+   {
+    "id": "fire-38f7d972f82346b1",
+    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 5 — remainder 13 pharma employers: Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. FIRST: GSK Solutions Inc. Marketing Operations Business Solution Architect (Remote, 6-month contract, no rate published) sits in Section C — governing-text read owed (unpublished rate is eligible; do not repeat the worker's contract-rate reject). Batch 4 closed fully covered 15/15 (chunks W3slice10-12): 73 rejects, 0 filed; its sole PASS (Amgen R-256615) was duplicate-of-filed at parent check (filed 2026-10-15) — never refile it. Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
+    "created_at": "2026-10-20T16:40:00.357900-05:00"
+   },
+   {
+    "id": "fire-39937a96c4a5",
+    "reason": "stage 23 (run 36683c71): LINKEDIN FAMILIES 25-26 + ALERTS + CONTRACT + ODD TITLES — Digital Transformation Architect, Systems Architect (extras=true: saved-alerts sweep, contract pass, odd-title net ride this unit). Stage 22 COMPLETE this execution (SECTOR W18 45/45 employers, 69 listings, 36 JD reads, 0 filed, 2 parked-new, 61 rejected; run totals filed 17 / parked 24 / rejected 1622; LinkedIn families 24/48). Section A live carries (do not lose, not this stage's filing remit): Fortive R1118499 PARKED account-wall — re-attempt owed FIRST in the next run's prep (Oracle HCM email-verification loop; posting fresh thru ~2026-10-26); Stanley Black & Decker Director IT Supply Chain — PASS-claim UNVERIFIED, governing-JD completion owed. LinkedIn rules in full: 2-tab cap, 20-45s pacing with query-log timestamps, JD-first verdicts, file-in-execution for any PASS after ledger + do-not-reapply + Applied checks + preflight, 20-filing run cap (17 filed — 3 slots remain). CORRECTION 2 (slice B full terminal, merged after stage advance): run totals now filed 17 / parked 24 / rejected 1615 pre-GD-filing. NEW Section A carries: General Dynamics (GDIT) Cloud Data Architect RQ227886 — verified PASS, filer dispatched in the correction execution (check Section D / filer outcome before any refile; if it parked, re-attempt first); Honeywell IT Solutions Architect - SAP Order to Collections — PASS-claim UNVERIFIED, governing-ATS verification owed FIRST. NEW Section C carry: L3Harris Chief Data Architect 45932 — full JD read owed FIRST (remote stated as a location option; gate reject withdrawn under the remote-language rule). CORRECTION 3 FINAL (slice F terminal + GM verification): run totals filed 17 / parked 25 / rejected 1609. GM Cloud Solution Architect PASS-claim is WITHDRAWN (governing GM posting JR-202523854 is stale Oct 2025 / Austin / pay above band) — do NOT pursue it. GDIT RQ227886 outcome: PARKED account-wall/code-blocked (filer terminal merged) — stays live, re-attempt owed via account unblock. Live carries for this stage's prep, in order: Fortive R1118499 re-attempt, Honeywell SAP OTC governing-ATS verification, SBD Director JD completion, L3Harris Chief Data Architect 45932 JD read. CORRECTION 4 FINAL: run totals filed 17 / parked 25 / rejected 1599. Fortive R1118499 disposition CORRECTED to PARKED not-locatable (filer full terminal: not found on Fortive's site at filing re-verification) — do NOT re-attempt-first; it resurfaces only if an official posting reappears. Remaining live carries unchanged: GDIT RQ227886 re-attempt (account unblock), Honeywell SAP OTC verification, SBD Director JD completion, L3Harris 45932 JD read.",
+    "created_at": "2026-10-22T11:05:11.208775-05:00"
+   },
+   {
+    "id": "fire-3ce1e8348963",
+    "reason": "stage 20 continuation (run 36683c71): W17 20/54 covered (slices A-D definitive). FIRST: Oracle HDI 346541 code-flow re-attempt — trigger one fresh code and supply it from Outlook INSIDE its 10-minute validity (the 2026-10-22 05:00 code expired before the question reached the parent). Then re-dispatch W17 slice E (Workday, Snowflake, Palantir, Databricks, Intuit) and slice F (Autodesk, NetApp, Nutanix, Red Hat, Accenture) — declared dead 2026-10-22 after a service restart, stubs on disk; a late terminal merges as a correction and supersedes the stub. Then slices G-K (Infosys, TCS, Wipro, HCLTech, Capgemini, DXC, Kyndryl, NTT DATA, EPAM, Slalom, Rackspace, Atlassian, Zoom, Block, Twilio, Palo Alto Networks, CrowdStrike, Fortinet, Zscaler, Cloudflare, MongoDB, Elastic, Akamai, Teradata) + 3 Section C verifications (Dell Principal Consultant - AI Infrastructure Services; NVIDIA JR2019010; IBM AI Architect with Azure). Stage does NOT advance; re-derive from disk per R3.",
+    "created_at": "2026-10-22T05:43:12.951203-05:00"
+   },
+   {
+    "id": "fire-3ecfe6d934be",
+    "reason": "stage 14 continuation (run 36683c71): SECTOR W5 Oil & Gas — batch 1 tasks (W5a ExxonMobil/Shell/Chevron/ConocoPhillips/BP, W5b SLB/Halliburton/Baker Hughes/Marathon Petroleum/Phillips 66, W5c Valero/Kinder Morgan/Williams/EOG/Occidental) died in the 2026-10-21 runtime restart before any return; evidenced dead (no windows, no chunks). NO W5 employer covered yet — work the full W5 roster in capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T08:29:17.424990-05:00"
+   },
+   {
+    "id": "fire-52a7b089ee05",
+    "reason": "stage 13 continuation (run 36683c71): LINKEDIN FAMILIES 15-16 — discovery task c8bdfe50 declared DEAD on evidenced check (window gone ~07:42 CT, no terminal; stub chunk-36683c71-linkedin-15-16-stub.md). Re-dispatch LinkedIn discovery for Principal Cloud Engineer + Principal Infrastructure Engineer (Remote, Past 24 hours, max 2 pages, JD-first, 20-45s pacing, timestamped query + JD-open logs) and the Section C Cognizant Enterprise Architect (Des Moines IA, Remote) JD read FIRST (report-only, never file Cognizant). If c8bdfe50's late terminal has landed, merge it as a correction and credit only evidenced families instead of re-searching them. GSK-10289 stays PARKED (Ceipal credential needed). Run totals filed 8 / parked 13 / rejected 563; families covered 14/48; filing cap headroom 12.",
+    "created_at": "2026-10-21T07:42:54.892448-05:00"
+   },
+   {
+    "id": "fire-606c59aafa72",
+    "reason": "stage 20 continuation (run 36683c71): W17 17/54 covered. This execution filed Oracle HDI (16th filing; pay-band deviation flagged — Oracle own top $232,000 vs $230,000 cap), parked HPE SLED (Eightfold account-wall, stays live), rejected Dell Networking + Dell Sr Principal on governing Dell text, merged slice D partial (AMD+Broadcom, 11 rejects). Remainder FIRST: Texas Instruments, Qualcomm, ServiceNow (slice D remainder, 3 passes each), then slices E-K (37 employers: Workday, Snowflake, Palantir, Databricks, Intuit, Autodesk, NetApp, Nutanix, Red Hat, Accenture, Infosys, TCS, Wipro, HCLTech, Capgemini, DXC, Kyndryl, NTT DATA, EPAM, Slalom, Rackspace, Atlassian, Zoom, Block, Twilio, Palo Alto Networks, CrowdStrike, Fortinet, Zscaler, Cloudflare, MongoDB, Elastic, Akamai, Teradata) + Section C verifications (Dell Principal Consultant - AI Infrastructure Services; NVIDIA JR2019010; IBM AI Architect with Azure). Stage does NOT advance; re-derive from disk per R3.",
+    "created_at": "2026-10-22T04:45:58.420479-05:00"
+   },
+   {
+    "id": "fire-6607a63e8f8f4d37",
+    "reason": "stage 10 continuation (run 36683c71): SECTOR W3 batch 4 — remainder 28 pharma employers: Amgen, Bristol Myers Squibb, AstraZeneca, Novartis, Sanofi, GSK, Roche/Genentech, Novo Nordisk, Moderna, Regeneron, Vertex, Biogen, Gilead, Zoetis, BD, Baxter, Medtronic, Siemens Healthineers, Teva, Viatris, Incyte, BioMarin, Sarepta, Jazz Pharmaceuticals, United Therapeutics, Neurocrine, Alkermes, Organon. Covered in batches 1-3 (do NOT rework): all 40 provider employers incl. Texas Children's, plus Pfizer, Merck & Co., Johnson & Johnson, Eli Lilly and Company, AbbVie (chunks chunk-36683c71-W3slice1-9.md; 0 PASS standing — AbbVie M&A R00151885 is duplicate-of-filed, do-not-reapply; 0 filed). Capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + pay band top $160K-$230K enforced before any filing).",
+    "created_at": "2026-10-20T14:39:17.795404-05:00"
+   },
+   {
+    "id": "fire-68e46ec5941e",
+    "reason": "stage 13 (run 36683c71): LINKEDIN FAMILIES 15-16 — Principal Cloud Engineer, Principal Infrastructure Engineer (2-family unit, Past-24h + Remote, max 2 pages/family, 20-45s pacing with timestamped query + JD-open logs, JD-first verdicts, file-in-execution for any PASS after parent duplicate check + preflight). Section C carries first: Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed — REPORT-ONLY, never file Cognizant; plus any other live Section C items in the queue at execution start. Stage 12 W4 complete: 32/32 insurers, 35 JD reads, 1 PASS filed (Highmark J283755). Run totals: filed 8 / parked 13 / rejected 563; families covered 14/48; filing cap headroom 12. GSK-10289 stays PARKED (Ceipal credential needed).",
+    "created_at": "2026-10-21T06:52:08.249763-05:00"
+   },
+   {
+    "id": "fire-777f62969f7c",
+    "reason": "stage 19 (run 36683c71): stage 18 SECTOR W16 COMPLETE — 59/59 employers covered across slices A-L, 0 filed this stage; sole PASS (Marsh McLennan Senior Enterprise Architect R_356423) overturned at parent duplicate check as duplicate-of-filed (filed 2026-09-29, do-not-reapply), rejected 1072 run total. Next stage per re-seeded work order: stage 19 LINKEDIN FAMILIES 21-22 (IT Architecture Lead, Application Architect) — re-derive from disk per R3. Section A standing blocks remain stall-watch owned. Caveats carried: State Street W16 pass (a) pages 3-11 pagination gap; NY Life ATS below-first-page gap.",
+    "created_at": "2026-10-22T00:59:50.094281-05:00"
+   },
+   {
+    "id": "fire-8e23091bb1f7",
+    "reason": "stage 16 continuation (run 36683c71): SECTOR W6 Utilities CHECKPOINT — batch 1 merged (Dominion/NextEra/Constellation/NRG/Vistra covered; 9 gate rejects; 0 PASS). Stage does NOT advance. REMAINDER first, same stage, capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS: (1) W6a re-dispatch Duke Energy/Southern Company/Exelon/PG&E/CenterPoint Energy (task 8d634e4a declared dead, zero coverage); (2) Sempra + Eversource full passes + Xcel Enterprise Security Architect JD verdict (W6b delivery truncated, re-sends dead); (3) Entergy Google Jobs pass + IT Architect – AI Solutions verdict (Section C); (4) AEP retry (bot wall); (5) NextEra Lead IT Solutions Architect (NEER) JD verdict; (6) untouched slices d-i (29 employers, listed in queue checkpoint block). Run totals filed 11 / parked 16 / rejected 629; families 18/48; cap headroom 9.",
+    "created_at": "2026-10-21T11:44:33.700473-05:00"
+   },
+   {
+    "id": "fire-9636c4f2925b",
+    "reason": "stage 23 continuation (run 36683c71): families 25-26 COVERED and STI carried PASS FILED this execution; stage does NOT advance — extras NOT EVALUATED remainder carries first (enumerated in queue Section C stage-23 block + chunk-36683c71-linkedin-25-26.md: A1 unquoted remainder, A2 9, A4/O4 3, A6/C4 ~15, C3 73, C6 24, C7 5, C8 4, O1 ~57, O2 60, O3 58, feed beyond p1). JD-read those remainders next stage-23 execution, file-in-execution for any PASS. Run totals filed 18 / parked 24 / rejected 1623, LinkedIn 26/48.",
+    "created_at": "2026-10-22T12:58:40.984483-05:00"
+   },
+   {
+    "id": "fire-9f07689a088a4e2f",
+    "reason": "stage 16 continuation (run 36683c71): SECTOR W6 Utilities CHECKPOINT — corrected coverage 30/44 employers (W6e continuation terminal merged post-checkpoint: FirstEnergy + AES board passes DONE, both covered; +1 Berkshire reject, run totals filed 11 / parked 16 / rejected 689). Stage does NOT advance. REMAINDER first, same stage, capped batches of 3 tasks x 5 employers, 3 passes each, file-in-execution for any PASS: (1) AES Solutions Architect JD re-location attempt (Section C — SimplyHired exact + salary-band searches returned 0 on 2026-10-21; if still unlocatable, record and close that carry); (2) slice g Atmos/Spire/Southwest Gas/American Water/Essential; (3) slice h Avista/Black Hills/IDACORP/MDU/NorthWestern; (4) slice i Portland GE/PNM/Hawaiian Electric/ALLETE.",
+    "created_at": "2026-10-21T12:08:46.220244-05:00"
+   },
+   {
+    "id": "fire-a4b29448a841",
+    "reason": "stage 23 continuation (run 36683c71): families 25-26 COVERED, extras Parts A+B merged (JD reads 76, +48 rejected, Pegasystems pre-sales reject superseded under disabled rule), filed Jobgether 4481199753 (run 19/20), parked TQA (AZ-305 screener) + Pegasystems (code-blocked) live in Section A. Stage does NOT advance — remainder carries first: Part B enumerated-but-unread C3 p1 17 + C3 p2, C6 9+15 Zendesk variants, C7 4, C8 4 (list in chunk-36683c71-linkedin-25-26-extrasB.md), odd-title net O1 ~57/O2 60/O3 58, preferences feed beyond p1. JD-read those remainders next stage-23 execution, file-in-execution for any PASS (cap: 1 filing slot remains). Run totals filed 19 / parked 26 / rejected 1670, LinkedIn 26/48.",
+    "created_at": "2026-10-22T14:46:56.520864-05:00"
+   },
+   {
+    "id": "fire-a505fe03f7e6",
+    "reason": "stage 12 (run 36683c71): SECTOR W4 — Healthcare Insurers. Every named insurer employer in lane_pools.json W4 pool (Humana PERMANENTLY EXCLUDED — never surface it) with the SECTOR DISCOVERY REBUILD three passes (own ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass Dice/Indeed/SimplyHired remote), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing; pre-sales rule DISABLED this run). Carried Section C for the next LinkedIn execution (not this stage): Cognizant Enterprise Architect (Des Moines IA, Remote) JD read owed, report-only. GSK-10289 stays PARKED (Ceipal credential needed — no re-attempt without a saved login). Run totals: filed 7 / parked 13 / rejected 529; families covered 14/48; filing cap headroom 13.",
+    "created_at": "2026-10-21T05:45:32.721796-05:00"
+   },
+   {
+    "id": "fire-a6cb75dfc399",
+    "reason": "stage 11 continuation (run 36683c71): LINKEDIN FAMILIES 13-14 — prior discovery task fa9f396f declared DEAD on evidenced check (window gone, no terminal, no chunk; stub chunk-36683c71-linkedin-13-14-stub.md). Re-dispatch LinkedIn discovery for IT/OT Architect + Cloud Transformation Architect (Remote, Past 24 hours, max 2 pages, JD-first, pacing + query logs with start times) and the Section C re-checks FIRST (XChange Endpoint no-ID, Salesforce PACE page-2 variant, backlog IDs 4481521617/4480409421 identity renders). If fa9f396f's late terminal has landed on disk, merge it as a correction and credit only evidenced families instead of re-searching them. GSK-10289 stays PARKED (Ceipal credential needed — do not re-attempt without a saved login). Run totals filed 7 / parked 13 / rejected 523; filing cap headroom 13.",
+    "created_at": "2026-10-21T05:42:23.174586-05:00"
+   },
+   {
+    "id": "fire-a7f4e9e1e4d2",
+    "reason": "stage 18 continuation (run 36683c71): W16 slices A+B+C all terminal-merged (15/59 employers covered, 199 listings, 42 JD reads, 0 PASS, 42 rejects, 0 filed). Remainder = slices D-L in lane_pools W16 order, 5 employers per capped task, batches of <=3: KeyCorp, Huntington Bancshares, Northern Trust, State Street, BNY Mellon, Fidelity Investments, Charles Schwab, BlackRock, Vanguard, T. Rowe Price, Franklin Templeton, Prudential Financial, MetLife, Aflac, Principal Financial, Lincoln Financial, Nationwide, MassMutual, New York Life, TIAA, Travelers, Progressive, Chubb, Hartford, AIG, Visa, Mastercard, PayPal, Fiserv, FIS, Global Payments, Jack Henry & Associates, S&P Global, Moody's, CME Group, Intercontinental Exchange, Nasdaq, Edward Jones, Raymond James, Discover Financial, Synchrony Financial, Ally Financial, Marsh McLennan, Aon. Stage 18 does not advance until W16 is 59/59 or every remaining employer carries a disposition.",
+    "created_at": "2026-10-21T17:02:22.040913-05:00"
+   },
+   {
+    "id": "fire-abcd2e69df7402d8",
+    "reason": "tracker-sync: manual start via tracker button",
+    "created_at": "2026-10-24T19:38:54Z"
+   },
+   {
+    "id": "fire-b5b0b5588224",
+    "reason": "stage 20 continuation (run 36683c71): W17 slices A+B merged — 91 listings, 16 JD reads, 0 verified PASS, +15 rejects (run 15 filed / 20 parked / 1087 rejected); Salesforce Sr Director PASS-UNVERIFIED in Section C (full JD Cloudflare-blocked, verification owed first). Slice C declared dead (window lost), remit carried. Remainder: Salesforce verification, C redo (Dell/HPE/HP/Intel/NVIDIA), slices D-K (39 more employers) = 44 employers uncovered of 54. Stage does NOT advance; re-derive from disk per R3.",
+    "created_at": "2026-10-22T03:33:34.419855-05:00"
+   },
+   {
+    "id": "fire-c4c58a3a8d8646e7",
+    "reason": "stage-relay advance: run 36683c71 stage 16 SECTOR W6 Utilities COMPLETE — 44/44 employers covered (slices g/h/i + AES carry done this execution: 14 employers, 8 JD reads, 10 rejects, 0 PASS among slices). AES Clean Energy Solutions Architect PASS (SimplyHired, POSTED 2026-10-15) attempted in-execution -> PARKED bot-wall (Eightfold ATS Cloudflare 'Just a moment', SimplyHired detail 404 post-sign-in, jobs.aes.com redirect loop; NO submission, NO resume uploaded; lead stays live Section A, parked-retry class; surfaces checked recorded in queue). Run totals filed 11 / parked 17 / rejected 705; families 18/48; cap headroom 9. Next stage per re-seed (Rule #1 alternation): LINKEDIN FAMILIES 19-20 (Principal Technical Architect, Technology Strategy Architect) — one LinkedIn unit, max 2 families, pacing 20-45s, JD-first, file-in-execution for any PASS. Backlog: Stellar IT / Ladders NOT EVALUATED from stage 15 ride the next LinkedIn unit per queue notes; RemoteHunter credential park + AES bot-wall park stay live/stall-owned.",
+    "created_at": "2026-10-21T13:41:22.073216-05:00"
+   },
+   {
+    "id": "fire-c5631992f34d",
+    "reason": "stage 18 (run 36683c71): stage 17 LINKEDIN FAMILIES 19-20 COMPLETE — 56 unique, 56 JD reads, filed 3 (Ladders NetApp 4478256903, AllianceIT 4481129223, C5MI 4479404846), parked 3 live Section A (STI code-blocked, Kentro + MGT credential-needed), rejected 50; run totals filed 14 / parked 20 / rejected 757, families 20/48. Next stage per re-seed: SECTOR W16 — Financial Services. Standing Section A parks remain stall-owned. Capped tasks, file-in-execution for any PASS.",
+    "created_at": "2026-10-21T15:59:00.974227-05:00"
+   },
+   {
+    "id": "fire-c8fd1a2cef3f",
+    "reason": "stage 19 continuation (run 36683c71): LINKEDIN FAMILIES 21-22 NOT COMPLETE — both discovery dispatches (browser-task 9cf0c4cc original + continuation) died with no return and no open window; dead-task stub chunk-36683c71-linkedin-21-22-stub.md on disk. Next stage-19 execution re-derives from disk and works the remainder FIRST: (1) IT Architecture Lead, (2) Application Architect — each Remote + Past 24h, max 2 pages, JD-first. No coverage credit was claimed; run totals filed 14 / parked 20 / rejected 1072, families 20/48.",
+    "created_at": "2026-10-22T01:54:37.024599-05:00"
+   },
+   {
+    "id": "fire-cfd7dd1fcf03",
+    "reason": "stage 23 continuation (run 36683c71): families 25-26 COVERED; extras Parts C+D merged this execution (new rejected +31, run totals filed 19 / parked 27 / rejected 1701). Northwest Partners 4482464786 PASS filed-in-execution attempt -> PARKED filed-unverified (posting already 'In progress' at filer open; no submission; Applied Jobs list verification owed FIRST, never blind-refile). Zendesk SF 4481277599 PASS-claim held unverified (no duty quote; governing-pay verification owed). Stage does NOT advance — remainder carries first: odd-title net O1 ~57 / O2 60 / O3 58 enumerated-but-unread, preferences feed beyond page 1, Section C could-not-verify leads (Synergy, Oracle HCM Payroll, STONEGATE, TPI Global, Motion Recruitment 4482719342), plus the two verifications above. Filing cap 19/20 — 1 slot remains for any verified PASS.",
+    "created_at": "2026-10-22T15:54:16.876449-05:00"
+   },
+   {
+    "id": "fire-d0fdebe29394",
+    "reason": "stage 21 (run 36683c71): LINKEDIN FAMILIES 23-24 — Integration Architect, Data Center Architect. Stage 20 COMPLETE this execution (W17 54/54; Oracle re-attempt 3 PARKED-CODE-BLOCKED stands, no submission, lead live Section A stall-owned; Slalom b/c + slices J/K + 4 Section C verifications merged, all rejected with evidence, 0 PASS; run totals filed 16 / parked 21 / rejected 1542; LinkedIn families 22/48). Work the unit per the LinkedIn lane rules: one LinkedIn task, 2 families max, Past-24h + Remote filters, max 2 pages/family, 20-45s pacing with query/JD start times, JD-first verdicts with verbatim quotes, stale-seen/ledger/do-not-reapply checks before JD reads, file-in-execution for any PASS after preflight.",
+    "created_at": "2026-10-22T08:34:25.541980-05:00"
+   },
+   {
+    "id": "fire-d13f2d1c229d",
+    "reason": "stage 11 (run 36683c71): SECTOR W4 — Healthcare Insurers. FIRST (carried, ahead of W4 discovery): GSK Solutions Inc. GSK-10289 Ceipal applied-state verification — two filer attempts (d0343faf, 43413110) were lost with NO submission evidence; verify whether an application exists on the Ceipal portal BEFORE any refile, file only if not applied, and disposition with EVIDENCE (queue stage-10 closeout block + chunk-36683c71-W3gsk-filer-stub.md). Then W4: every named insurer employer (lane_pools.json W4 pool; Humana PERMANENTLY EXCLUDED) with the SECTOR DISCOVERY REBUILD three passes (ATS architect keyword w/ remote-US facet, Google Jobs employer pass, one board pass), capped tasks 5 employers each, batches of 3, compact one-line-per-employer returns with query start times, remote/US gate at listing, full JD on remote-stated listings, file-in-execution for any PASS (parent duplicate check + preflight + pay band top $160K-$230K / contract top >$85/hr before filing). Stage 10 closed complete: W3 73/73 covered, run totals filed 7 / parked 13 / rejected 523.",
+    "created_at": "2026-10-20T23:54:02.888440-05:00"
+   },
+   {
+    "id": "fire-d93008e9ee17",
+    "reason": "stage 14 (run 36683c71): SECTOR W5 — Oil & Gas — units: [{\"lane\": \"W5\", \"families\": [\"Azure Architect\", \"Azure Solutions Architect\", \"Azure Cloud Architect\", \"Cloud Architect\", \"Cloud Solutions Architect\", \"Enterprise Architect\", \"Infrastructure Architect\", \"Platform Architect\", \"Solutions Architect\", \"Solution Architect\", \"Domain Architect\", \"Resiliency Architect\", \"IT/OT Architect\", \"Cloud Transformation Architect\", \"Principal Cloud Engineer\", \"Princ. Stage 13 complete on late terminal: families 15-16 covered, 18 JD reads, 16 rejected, AllianceIT 4480473828 FILED in-execution (applied-list evidence). Run totals: filed 9 / parked 13 / rejected 579; families covered 16/48; filing cap headroom 11. GSK-10289 stays PARKED (Ceipal credential needed). Berkley 4427052176 stays PARKED credential-needed (stall watch owns). Standard stage rules: capped tasks, batches of 3, compact returns with query start times, remote/US gate at listing, JD-first, file-in-execution for any PASS after parent duplicate check + preflight.",
+    "created_at": "2026-10-21T08:01:18.879272-05:00"
+   },
+   {
+    "id": "fire-dbcf6ccc77a2",
+    "reason": "stage 20 (run 36683c71): stage 19 LINKEDIN FAMILIES 21-22 COMPLETE via late governing terminal (correction superseded the dead-task checkpoint) — 2 queries, 14 unique, 3 JD reads, 13 rejected (11 Humana employer-excluded, AppLab hands-on, Oracle pay-outside-band), families 22/48, run rejected 1085. RECOVERY FIRST: Falcon Smart IT Application Architect 4481129672 PASS — filer 2fa0e104 was dispatched in-execution (preflight PASS, tailored resume staged) but its outcome never returned; verify the posting's Applied state / late filer return BEFORE any refile, never double-submit; if Applied, record FILED with evidence (run filed would become 15). Next stage per re-seeded work order — re-derive from disk per R3.",
+    "created_at": "2026-10-22T02:45:03.236031-05:00"
+   },
+   {
+    "id": "fire-df042057fc3e4731",
+    "reason": "stage-relay advance: run 36683c71 stage 14 (SECTOR W5 Oil & Gas) COMPLETE — 44/44 employers covered, 12 JD reads, 0 PASS, 0 filed. Next: stage 15 LINKEDIN FAMILIES 17-18 (Cloud Architecture Lead, Cloud Infrastructure Lead) — LinkedIn lane rules in full (2-tab cap, 20-45s pacing, JD-first verdicts, coverage-contingent query logs, file-in-execution for any PASS, chunk chunk-36683c71-linkedin-17-18.md). Then stage 16 SECTOR W6 Utilities.",
+    "created_at": "2026-10-21T09:41:38.799752-05:00"
+   },
+   {
+    "id": "fire-eb471939c1f00d8d",
+    "reason": "tracker-sync: lane restart requested via tracker for W1 — lane-control relay",
+    "created_at": "2026-10-22T23:12:27Z"
+   },
+   {
+    "id": "fire-f6e819b227e5",
+    "reason": "stage 20 continuation (run 36683c71): W17 slices G/H/I dead-declared this execution (stubs on disk; late terminals merge as corrections) — re-dispatch G/H/I first. FIRST: Oracle HDI 346541 code-flow re-attempt ALONE (one fresh code, supplied inside its 10-min validity; do NOT co-dispatch with a discovery batch). Then slices J/K and the 4 Section C verifications (Dell Principal Consultant AI Infrastructure; NVIDIA JR2019010; IBM AI Architect with Azure; Accenture AVD Senior Architect). Disk governs over this text.",
+    "created_at": "2026-10-22T06:50:24.829779-05:00"
+   }
+  ]
  },
- "note": "Last activity 5:22 PM CT · 0 workers in flight · 21 filed this run",
+ "note": "Last activity 14:41 CT · 2 workers in flight · 23 filed this run",
  "pill": [
   {
-   "primary": "Sweep stopped — nothing is searching right now",
+   "primary": "LinkedIn · Title 27 of 48 · Identity Architect",
    "detail": "Families covered 26/48",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "Sweep stopped — nothing is searching right now",
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 27 of 48 · Identity Architect",
   "detail": "Families covered 26/48"
  },
  "rules": {
