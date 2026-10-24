@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-24T23:45:57Z",
+ "generated_at": "2026-10-24T23:50:58Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-24T23:39:38Z",
+  "last_activity_at": "2026-10-24T23:50:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 12,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
+  "parked": 4,
   "rejected": 22,
   "evaluated": 26
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-24",
   "evaluated": 24,
   "filed": 0,
-  "parked": 2,
+  "parked": 3,
   "rejected": 21,
   "filed_by_source": {}
  },
@@ -47,15 +47,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 2,
    "families_total": 58,
-   "current": {
-    "company": "TrustedTech",
-    "role": "Presales Solutions Architect"
+   "current": null,
+   "current_family": {
+    "index": 3,
+    "name": "Azure Cloud Architect",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-24T23:45:57Z",
+   "heartbeat_at": "2026-10-24T23:50:58Z",
    "detail": "Titles 2/58"
   },
   "W8": {
@@ -88,7 +89,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-24T23:45:57Z",
+   "heartbeat_at": "2026-10-24T23:50:58Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -299,10 +300,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": null
+   "ended_at": "2026-10-24T23:50:26Z"
   },
   "sector_search": {
    "state": "active",
@@ -463,10 +464,10 @@
    }
   ]
  },
- "note": "Last activity 6:39 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 6:50 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 3 of 58 · ",
+   "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
    "detail": "Families covered 2/58",
    "pool": "LinkedIn"
   }
@@ -474,7 +475,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 3 of 58 · ",
+  "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
   "detail": "Families covered 2/58"
  },
  "rules": {
@@ -510,6 +511,13 @@
     "reason": "upload-approval-blocked — Rippling ATS application form fully completed for Hubert Samuel (contact, EEO Male / Two or More Races / I am not a veteran / No I do not have a disability, work authorization Yes / sponsorship No, LinkedIn profile entered, all screening answers). Resume upload is the ONLY missing requirement: 'Hubert Samuel Resume.pdf' - the in-app picker showed 'No file chosen' and the required Resume field blocked Submit. Upload is stalled on the user's file-upload approval card for ats.rippling.com (approval_id connector-152c22d4-a9da-4aad-b92b-5a88634139ae), unanswered in this run. NOT submitted, no confirmation. Retry once the upload approval is granted; form state was complete at step=application, Rippling job 0718c85c-f215-45f3-82d9-9442baa2307f.",
     "where": "LinkedIn",
     "time": "6:39 PM"
+   },
+   {
+    "company": "TrustedTech",
+    "role": "Presales Solutions Architect",
+    "reason": "upload-approval-blocked — LinkedIn Easy Apply for 4474419338: posting showed 'Easy Apply', not 'Applied' (not already applied; distinct from the filed TrustedTech Principal Cloud Strategy role). Step 1/5 Contact info completed and verified (samuel-hubert@outlook.com, +1 8323770273). Step 2/5 Resume: upload of the tailored Hubert-Samuel-Resume.pdf was aborted because the file-upload approval card (connector-04556c58-f243-4a4a-b4b1-3d78867d8c2e) was not answered in this run. No Submit pressed, no confirmation. NOTE for the retry: Easy Apply's resume list already had a stored 'Hubert-Samuel-Resume.pdf 10/22/2026' checked - a retry may be able to proceed on the stored resume without a fresh upload. NOT submitted.",
+    "where": "LinkedIn",
+    "time": "6:50 PM"
    }
   ]
  },
@@ -1732,5 +1740,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-24T23:45:57Z"
+ "lists_generated_at": "2026-10-24T23:50:58Z"
 }
