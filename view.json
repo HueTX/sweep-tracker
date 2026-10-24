@@ -1,24 +1,21 @@
 {
  "schema": 2,
  "build_version": "2.0.0-retool-p1",
- "generated_at": "2026-10-24T19:36:17Z",
+ "generated_at": "2026-10-24T19:41:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "36683c71",
   "kind": "scheduled",
-  "status": "stalled",
-  "state": "stalled",
+  "status": "running",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
-  "stalled": {
-   "since": "2026-10-22T22:35:45Z",
-   "reason": "Nothing has moved since 5:35 PM CT."
-  },
+  "live": true,
+  "stalled": null,
   "started_at": "2026-10-19T19:10:11Z",
-  "last_activity_at": "2026-10-22T22:35:45Z",
+  "last_activity_at": "2026-10-24T19:41:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 357,
@@ -40,7 +37,9 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "W1": {
    "label": "Federal Gov",
@@ -265,12 +264,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "pass-complete-carried",
+   "phase": "searching",
    "families_searched": 26,
    "families_total": 48,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-22T22:02:17Z",
+   "current_family": {
+    "index": 27,
+    "name": "Identity Architect",
+    "total": 48
+   },
+   "heartbeat_at": "2026-10-24T19:41:05Z",
    "detail": "Families covered 26/48"
   }
  },
@@ -288,7 +291,7 @@
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "done",
+   "state": "active",
    "detail": "Families covered 26/48",
    "started_at": null,
    "ended_at": null
@@ -312,8 +315,8 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "active",
-   "detail": "Stalled — nothing has moved",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
    "ended_at": null
   },
@@ -855,7 +858,7 @@
   ],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "stopped",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -997,6 +1000,11 @@
     "id": "ddc9fcfe-4964-4e60-9e11-5290f592b5e1",
     "actuated_at": "2026-10-22T23:12:27Z",
     "effect": "restart W20 recorded"
+   },
+   {
+    "id": "chat-start-20261024-1437ct",
+    "actuated_at": "2026-10-24T19:38:54Z",
+    "effect": "sweep start"
    }
   ],
   "fire_dues": [
@@ -1091,6 +1099,11 @@
     "created_at": "2026-10-21T17:02:22.040913-05:00"
    },
    {
+    "id": "fire-abcd2e69df7402d8",
+    "reason": "tracker-sync: manual start via tracker button",
+    "created_at": "2026-10-24T19:38:54Z"
+   },
+   {
     "id": "fire-b5b0b5588224",
     "reason": "stage 20 continuation (run 36683c71): W17 slices A+B merged — 91 listings, 16 JD reads, 0 verified PASS, +15 rejects (run 15 filed / 20 parked / 1087 rejected); Salesforce Sr Director PASS-UNVERIFIED in Section C (full JD Cloudflare-blocked, verification owed first). Slice C declared dead (window lost), remit carried. Remainder: Salesforce verification, C redo (Dell/HPE/HP/Intel/NVIDIA), slices D-K (39 more employers) = 44 employers uncovered of 54. Stage does NOT advance; re-derive from disk per R3.",
     "created_at": "2026-10-22T03:33:34.419855-05:00"
@@ -1152,18 +1165,19 @@
    }
   ]
  },
- "note": "Last activity 17:35 CT · 0 workers in flight · 23 filed this run",
+ "note": "Last activity 14:41 CT · 0 workers in flight · 23 filed this run",
  "pill": [
   {
-   "primary": "Sweep stalled — nothing is searching right now",
-   "detail": "Nothing has moved since 5:35 PM CT."
+   "primary": "LinkedIn · Title 27 of 48 · Identity Architect",
+   "detail": "Families covered 26/48",
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 27 of 48 · Identity Architect",
+  "detail": "Families covered 26/48"
  },
  "rules": {
   "follow_all": false,
