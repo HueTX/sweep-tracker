@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-24T23:45:57Z",
+ "generated_at": "2026-10-24T23:50:58Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-24T23:39:38Z",
+  "last_activity_at": "2026-10-24T23:50:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 12,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
+  "parked": 4,
   "rejected": 22,
   "evaluated": 26
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-24",
   "evaluated": 24,
   "filed": 0,
-  "parked": 2,
+  "parked": 3,
   "rejected": 21,
   "filed_by_source": {}
  },
@@ -47,15 +47,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 2,
    "families_total": 58,
-   "current": {
-    "company": "TrustedTech",
-    "role": "Presales Solutions Architect"
+   "current": null,
+   "current_family": {
+    "index": 3,
+    "name": "Azure Cloud Architect",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-24T23:45:57Z",
+   "heartbeat_at": "2026-10-24T23:50:58Z",
    "detail": "Titles 2/58"
   },
   "W8": {
@@ -88,7 +89,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-24T23:45:57Z",
+   "heartbeat_at": "2026-10-24T23:50:58Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -299,10 +300,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": null
+   "ended_at": "2026-10-24T23:50:26Z"
   },
   "sector_search": {
    "state": "active",
@@ -463,10 +464,10 @@
    }
   ]
  },
- "note": "Last activity 6:39 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 6:50 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 3 of 58 · ",
+   "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
    "detail": "Families covered 2/58",
    "pool": "LinkedIn"
   }
@@ -474,7 +475,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 3 of 58 · ",
+  "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
   "detail": "Families covered 2/58"
  },
  "rules": {
