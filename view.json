@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T01:30:50Z",
+ "generated_at": "2026-10-25T01:35:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,53 +10,53 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T01:25:55Z",
+  "last_activity_at": "2026-10-25T01:35:54Z",
   "progress": {
    "pools": 21,
-   "covered_units": 88,
+   "covered_units": 90,
    "total_units": 1218,
    "pct": 7
   },
-  "families_covered": 16,
+  "families_covered": 18,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 81,
-  "evaluated": 86
+  "rejected": 95,
+  "evaluated": 101
  },
  "today": {
   "date": "2026-10-24",
-  "evaluated": 83,
+  "evaluated": 97,
   "filed": 0,
   "parked": 4,
-  "rejected": 79,
+  "rejected": 92,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 16,
+   "phase": "filing",
+   "families_searched": 18,
    "families_total": 58,
-   "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 58
+   "current": {
+    "company": "GlitchX Studios",
+    "role": "Chief Enterprise Architect"
    },
-   "heartbeat_at": "2026-10-25T01:30:50Z",
-   "detail": "Titles 16/58"
+   "current_family": null,
+   "heartbeat_at": "2026-10-25T01:35:57Z",
+   "detail": "Titles 18/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -94,12 +94,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 14,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T01:35:57Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -294,15 +294,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "8 of 29 units done",
+   "detail": "9 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "4 of 4 units done",
+   "state": "active",
+   "detail": "4 of 5 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": "2026-10-25T01:25:16Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "active",
@@ -337,7 +337,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 16,
+  "searched": 18,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -355,8 +355,8 @@
    "Cloud Transformation Architect": "done",
    "Principal Cloud Engineer": "done",
    "Principal Infrastructure Engineer": "done",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
    "Principal Technical Architect": "pending",
    "Technology Strategy Architect": "pending",
    "IT Architecture Lead": "pending",
@@ -463,19 +463,19 @@
    }
   ]
  },
- "note": "Last activity 8:25 PM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 8:35 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 17 of 58 · Cloud Architecture Lead",
-   "detail": "Families covered 16/58",
+   "primary": "LinkedIn · Title 19 of 58 · ",
+   "detail": "Families covered 18/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 17 of 58 · Cloud Architecture Lead",
-  "detail": "Families covered 16/58"
+  "headline": "LinkedIn · Title 19 of 58 · ",
+  "detail": "Families covered 18/58"
  },
  "rules": {
   "follow_all": false,
