@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T17:21:03Z",
+ "generated_at": "2026-10-25T17:26:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T17:18:20Z",
+  "last_activity_at": "2026-10-25T17:24:47Z",
   "progress": {
    "pools": 21,
    "covered_units": 167,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 3,
-  "parked": 31,
+  "parked": 32,
   "rejected": 199,
   "evaluated": 234
  },
@@ -35,28 +35,23 @@
   "date": "2026-10-25",
   "evaluated": 160,
   "filed": 3,
-  "parked": 26,
+  "parked": 27,
   "rejected": 130,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 32,
    "families_total": 58,
-   "current": {
-    "company": "Blackbaud",
-    "role": "Enterprise Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T17:21:03Z",
+   "heartbeat_at": null,
    "detail": "Titles 32/58"
   },
   "W8": {
@@ -300,10 +295,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "22 of 23 units done",
+   "state": "done",
+   "detail": "23 of 23 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T17:22:53Z"
   },
   "sector_search": {
    "state": "active",
@@ -464,19 +459,13 @@
    }
   ]
  },
- "note": "Last activity 12:18 PM CT · 1 workers in flight · 3 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 33 of 58 · ",
-   "detail": "Families covered 32/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 12:24 PM CT · 0 workers in flight · 3 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 33 of 58 · ",
-  "detail": "Families covered 32/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
