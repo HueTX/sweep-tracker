@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:51:08Z",
+ "generated_at": "2026-10-25T20:55:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T20:49:08Z",
@@ -41,7 +41,10 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -222,23 +225,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T20:55:48Z",
    "detail": "Employers 55/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 5,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T20:55:48Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -542,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 3:49 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 3:49 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -4951,5 +4954,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T20:51:08Z"
+ "lists_generated_at": "2026-10-25T20:55:48Z"
 }
