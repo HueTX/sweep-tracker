@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T10:40:54Z",
+ "generated_at": "2026-10-25T10:45:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T10:39:56Z",
+  "last_activity_at": "2026-10-25T10:45:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 133,
+   "covered_units": 140,
    "total_units": 1218,
    "pct": 11
   },
@@ -26,36 +26,32 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
-  "parked": 24,
-  "rejected": 130,
-  "evaluated": 157
+  "filed": 1,
+  "parked": 25,
+  "rejected": 132,
+  "evaluated": 159
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 67,
-  "filed": 0,
-  "parked": 19,
-  "rejected": 45,
-  "filed_by_source": {}
+  "evaluated": 69,
+  "filed": 1,
+  "parked": 20,
+  "rejected": 47,
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
- "searching_lanes": [
-  "LinkedIn",
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 24,
    "families_total": 58,
-   "current": {
-    "company": "Motion Recruitment",
-    "role": "Principal Solutions Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T10:40:54Z",
+   "heartbeat_at": null,
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -94,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 51,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T10:40:54Z",
-   "detail": "Employers 34/39"
+   "heartbeat_at": null,
+   "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -300,13 +296,13 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "13 of 17 units done",
+   "detail": "15 of 17 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
   "sector_search": {
    "state": "active",
-   "detail": "13 of 192 units done",
+   "detail": "14 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -463,19 +459,13 @@
    }
   ]
  },
- "note": "Last activity 5:39 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 25 of 58 · ",
-   "detail": "Families covered 24/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 5:45 AM CT · 0 workers in flight · 1 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 25 of 58 · ",
-  "detail": "Families covered 24/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
