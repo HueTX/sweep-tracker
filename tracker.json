@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T17:15:54Z",
+ "generated_at": "2026-10-25T17:21:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -9,24 +9,24 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T16:55:58Z",
+  "last_activity_at": "2026-10-25T17:18:20Z",
   "progress": {
    "pools": 21,
-   "covered_units": 163,
+   "covered_units": 167,
    "total_units": 1218,
-   "pct": 13
+   "pct": 14
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
-  "filed": 2,
+  "filed": 3,
   "parked": 31,
   "rejected": 199,
   "evaluated": 234
@@ -34,16 +34,15 @@
  "today": {
   "date": "2026-10-25",
   "evaluated": 160,
-  "filed": 2,
+  "filed": 3,
   "parked": 26,
   "rejected": 130,
   "filed_by_source": {
-   "LinkedIn": 2
+   "LinkedIn": 3
   }
  },
  "searching_lanes": [
-  "LinkedIn",
-  "W3"
+  "LinkedIn"
  ],
  "lanes": {
   "LinkedIn": {
@@ -57,7 +56,7 @@
     "role": "Enterprise Architect"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-25T17:15:54Z",
+   "heartbeat_at": "2026-10-25T17:21:03Z",
    "detail": "Titles 32/58"
   },
   "W8": {
@@ -107,13 +106,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 15,
+   "phase": "queued",
+   "families_searched": 19,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T17:15:54Z",
-   "detail": "Employers 20/73"
+   "heartbeat_at": null,
+   "detail": "Employers 25/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,13 +301,13 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "21 of 23 units done",
+   "detail": "22 of 23 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
   "sector_search": {
    "state": "active",
-   "detail": "18 of 192 units done",
+   "detail": "19 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -465,7 +464,7 @@
    }
   ]
  },
- "note": "Last activity 11:55 AM CT · 3 workers in flight · 2 filed this run",
+ "note": "Last activity 12:18 PM CT · 1 workers in flight · 3 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 33 of 58 · ",
@@ -618,11 +617,24 @@
      ],
      "correction_note": "Definitive filer return (browser task measured 10:18-11:15 AM CT): Workday confirmation 'Congratulations! You have successfully applied for this position. Thank you.' Job_Application_ID=41c56501e04e90006b5cec4f3f0a0000. Veteran: exact 'I am not a veteran' wording NOT offered; filer selected 'I do not wish to provide this information' per standing rule (no protected-veteran variant). Workday asked NO disability question - the earlier interim disability-deviation flag is RETRACTED. Submitted ~11:15 AM CT (harness-measured end); interim 11:03/11:12 times superseded."
     }
+   },
+   {
+    "company": "ePlus inc.",
+    "role": "AI Presales Leader, Solutions Architect",
+    "where": "LinkedIn",
+    "time": "12:18 PM",
+    "check": {
+     "company": "ePlus inc.",
+     "role": "AI Presales Leader, Solutions Architect",
+     "where": "LinkedIn",
+     "filed_at": "2026-10-25T12:28:00-05:00",
+     "verdict": "FILED-verified"
+    }
    }
   ]
  },
  "today_filed_by_source": {
-  "LinkedIn": 2
+  "LinkedIn": 3
  },
  "today_parked": {
   "Employer sites": [
@@ -2795,5 +2807,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T17:15:54Z"
+ "lists_generated_at": "2026-10-25T17:21:03Z"
 }
