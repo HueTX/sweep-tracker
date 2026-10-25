@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T08:30:50Z",
+ "generated_at": "2026-10-25T08:35:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T08:09:27Z",
+  "last_activity_at": "2026-10-25T08:35:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 114,
@@ -26,18 +26,20 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 6,
-  "rejected": 101,
+  "rejected": 102,
   "evaluated": 113
  },
  "today": {
   "date": "2026-10-25",
   "evaluated": 23,
-  "filed": 0,
+  "filed": 1,
   "parked": 1,
-  "rejected": 16,
-  "filed_by_source": {}
+  "rejected": 17,
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
  "searching_lanes": [
   "LinkedIn"
@@ -50,11 +52,11 @@
    "families_searched": 20,
    "families_total": 58,
    "current": {
-    "company": "ROCS Grad Staffing",
-    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA"
+    "company": "Husch Blackwell",
+    "role": "Financial Systems Solutions Architect"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-25T08:30:50Z",
+   "heartbeat_at": "2026-10-25T08:35:54Z",
    "detail": "Titles 20/58"
   },
   "W8": {
@@ -299,7 +301,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "5 of 12 units done",
+   "detail": "8 of 12 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -462,7 +464,7 @@
    }
   ]
  },
- "note": "Last activity 3:09 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 3:35 AM CT · 1 workers in flight · 1 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 21 of 58 · ",
@@ -492,8 +494,73 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "date": "2026-10-25",
- "today_filings": {},
- "today_filed_by_source": {},
+ "today_filings": {
+  "LinkedIn": [
+   {
+    "company": "ROCS Grad Staffing",
+    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA",
+    "where": "LinkedIn",
+    "time": "3:34 AM",
+    "check": {
+     "company": "ROCS Grad Staffing",
+     "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA",
+     "where": "LinkedIn",
+     "filed_at": "2026-10-25T08:14:00Z",
+     "verdict": "FILED with one flagged deviation (resume)",
+     "rules": [
+      {
+       "rule": "JD read in full",
+       "status": "pass",
+       "evidence": "Full JD verified live on LinkedIn by filer and by PASS disposition 2088: 12-month fully remote engagement, identity architecture duties"
+      },
+      {
+       "rule": "100% remote US-based",
+       "status": "pass",
+       "evidence": "'12-month, fully remote engagement', 'Fully remote, U.S.-based'"
+      },
+      {
+       "rule": "Pay band top $160K-$230K",
+       "status": "pass",
+       "evidence": "Published $170K-$210K; top $210K in band"
+      },
+      {
+       "rule": "Architect-level, no whole-role hands-on coding",
+       "status": "pass",
+       "evidence": "Duties: own the technical approach, lead identity SMEs, design RBAC across Workday and Entra ID"
+      },
+      {
+       "rule": "Experience alignment",
+       "status": "pass",
+       "evidence": "Entra ID / AD identity architecture aligns with his experience; AZ-305 nice-to-have"
+      },
+      {
+       "rule": "Duplicates / do-not-reapply",
+       "status": "pass",
+       "evidence": "No ROCS entry in application-ledger.md or do-not-reapply.md; LinkedIn showed not Applied before filing"
+      },
+      {
+       "rule": "Exclusions",
+       "status": "pass",
+       "evidence": "Not Humana/First Citizens/Oakworth/Cognizant; no clearance requirement"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "not-asked",
+       "evidence": "LinkedIn Easy Apply flow reported no veteran-status question; no protected-veteran answer was submitted"
+      },
+      {
+       "rule": "Tailored resume uploaded",
+       "status": "deviation",
+       "evidence": "Easy Apply form locked the resume step to the profile-stored 'Hubert Samuel Resume' dated August 21, 2025 and would not accept the granted tailored Hubert-Samuel-Resume.pdf; application was submitted with the stored resume. Flagged deviation, cannot be unfiled."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "LinkedIn": 1
+ },
  "today_parked": {
   "Employer sites": [
    {
@@ -576,6 +643,13 @@
     "reason": "closed — Filing attempt 2026-10-25 02:18 CT: LinkedIn posting 4482667074 page verified (GlitchX Studios — Chief Enterprise Architect, United States, full-time remote: 'The Chief Enterprise Architect is a full-time remote role'; duties 'defining and maintaining the overall enterprise architecture strategy', 'leading architecture governance'; no published salary, no clearance, multi-cloud incl. Azure) but the page shows 'No longer accepting applications' in place of any Apply/Easy Apply button — posting closed, no application could be submitted. Gate fact (closed posting) — no workaround owed.",
     "where": "LinkedIn",
     "time": "2:19 AM"
+   },
+   {
+    "company": "BankUnited",
+    "role": "Enterprise Solution Architect Payments (Remote)",
+    "reason": "not-remote — Employer's own ATS posting (governing text, Workday req 7197): 'In this role, you can expect to work a hybrid schedule in our Boca Raton office two days a week (Tuesday and Wednesday are Anchor Days so we can collaborate, learn, and celebrate in person).' LinkedIn posting location is Boca Raton, Florida with the same anchor-days hybrid schedule attached. Workarounds tried: (1) employer ATS posting checked — governing text states required in-office anchor days; (2) LinkedIn route checked — labeled Remote but carries the same hybrid schedule/location; no alternate fully-remote posting of req 7197 found. Application was NOT submitted.",
+    "where": "LinkedIn",
+    "time": "3:34 AM"
    },
    {
     "company": "NTT DATA, Inc.",
@@ -1688,5 +1762,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T08:30:50Z"
+ "lists_generated_at": "2026-10-25T08:35:54Z"
 }
