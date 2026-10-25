@@ -1,62 +1,56 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T07:50:54Z",
+ "generated_at": "2026-10-25T07:55:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T07:19:25Z",
+  "last_activity_at": "2026-10-25T07:54:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 105,
+   "covered_units": 107,
    "total_units": 1218,
    "pct": 9
   },
-  "families_covered": 18,
+  "families_covered": 20,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 96,
-  "evaluated": 102
+  "rejected": 98,
+  "evaluated": 106
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 2,
+  "evaluated": 9,
   "filed": 0,
   "parked": 1,
-  "rejected": 1,
+  "rejected": 6,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 18,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 19,
-    "name": "Principal Technical Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-25T07:50:54Z",
-   "detail": "Titles 18/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 20/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -294,15 +288,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "9 of 29 units done",
+   "detail": "10 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "5 of 5 units done",
+   "state": "active",
+   "detail": "5 of 7 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": "2026-10-25T07:19:25Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "active",
@@ -337,7 +331,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 18,
+  "searched": 20,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -357,8 +351,8 @@
    "Principal Infrastructure Engineer": "done",
    "Cloud Architecture Lead": "done",
    "Cloud Infrastructure Lead": "done",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
    "IT Architecture Lead": "pending",
    "Application Architect": "pending",
    "Integration Architect": "pending",
@@ -463,19 +457,13 @@
    }
   ]
  },
- "note": "Last activity 2:19 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 18/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 2:54 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 18/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -509,11 +497,46 @@
  "today_rejected": {
   "LinkedIn": [
    {
+    "company": "Insight Global",
+    "role": "Technical Architect",
+    "reason": "hands-on — Full JD read on LinkedIn: remote US, pay $160K-$220K (top in band), no clearance — but core duties are hands-on engineering: 'Still writes code, not only diagrams'; 'Has designed and run backend systems'. Whole-role test fails: coding/run-systems as primary duty under an Architect title. Workarounds tried: JD is the governing posting text on the finding surface; no alternate posting of this role appeared in either family search.",
+    "where": "LinkedIn",
+    "time": "2:54 AM"
+   },
+   {
+    "company": "Eagleview",
+    "role": "Systems Integrations Architect",
+    "reason": "pay-outside-band — Full JD read on LinkedIn: 'This is a full-time, remote role' — but published 'salary range of $119,000 - $140,000' tops at $140,000, below the $160K band floor. Workarounds tried: employer's own published range is in the JD itself; no alternate route changes a published band.",
+    "where": "LinkedIn",
+    "time": "2:54 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Senior Architect - Enterprise Solutions Architecture",
+    "reason": "employer-excluded — Full JD read on LinkedIn: remote Azure role, pay top $205,300 in band — but employer is 3Cloud, which counts as Cognizant (manual-only) until Hubert rules otherwise; the posting's own company text states 'Cognizant completed the acquisition of 3Cloud'. Gate fact — no workaround owed, never file.",
+    "where": "LinkedIn",
+    "time": "2:54 AM"
+   },
+   {
+    "company": "RemoteHunter",
+    "role": "Cloud Architect, Product Management",
+    "reason": "pay-outside-band — Full JD read on LinkedIn: remote, multi-cloud (AWS, Azure, GCP) — but published pay ranges top at $273,500 (metro) and $246,100 (all other offices/remote), both above the $230K band top. Workarounds tried: employer's own published ranges are in the JD itself; no alternate route changes a published band.",
+    "where": "LinkedIn",
+    "time": "2:54 AM"
+   },
+   {
     "company": "GlitchX Studios",
     "role": "Chief Enterprise Architect",
     "reason": "closed — Filing attempt 2026-10-25 02:18 CT: LinkedIn posting 4482667074 page verified (GlitchX Studios — Chief Enterprise Architect, United States, full-time remote: 'The Chief Enterprise Architect is a full-time remote role'; duties 'defining and maintaining the overall enterprise architecture strategy', 'leading architecture governance'; no published salary, no clearance, multi-cloud incl. Azure) but the page shows 'No longer accepting applications' in place of any Apply/Easy Apply button — posting closed, no application could be submitted. Gate fact (closed posting) — no workaround owed.",
     "where": "LinkedIn",
     "time": "2:19 AM"
+   },
+   {
+    "company": "NTT DATA, Inc.",
+    "role": "Senior Director Enterprise Architect",
+    "reason": "do-not-reapply — Full JD read on LinkedIn (repost, 19h ago): remote, but this exact posting (4454675422) is on do-not-reapply.md — rejected 2026-10-04, never reapply. Gate fact — no workaround owed. (Also noted: published range '$160K to $296K' tops above the $230K band.)",
+    "where": "LinkedIn",
+    "time": "2:54 AM"
    }
   ]
  },
@@ -1584,5 +1607,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T07:50:54Z"
+ "lists_generated_at": "2026-10-25T07:55:50Z"
 }
