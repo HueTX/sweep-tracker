@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T12:01:03Z",
+ "generated_at": "2026-10-25T12:06:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,33 +15,32 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T11:59:49Z",
+  "last_activity_at": "2026-10-25T12:02:18Z",
   "progress": {
    "pools": 21,
-   "covered_units": 140,
+   "covered_units": 144,
    "total_units": 1218,
-   "pct": 11
+   "pct": 12
   },
   "families_covered": 24,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 27,
+  "parked": 28,
   "rejected": 151,
-  "evaluated": 180
+  "evaluated": 181
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 94,
+  "evaluated": 95,
   "filed": 0,
-  "parked": 22,
+  "parked": 23,
   "rejected": 70,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn",
-  "W3"
+  "LinkedIn"
  ],
  "lanes": {
   "LinkedIn": {
@@ -55,7 +54,7 @@
     "role": "Solutions Architect"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-25T12:01:03Z",
+   "heartbeat_at": "2026-10-25T12:06:19Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -105,13 +104,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T12:01:03Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -306,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "14 of 192 units done",
+   "detail": "15 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -463,7 +462,7 @@
    }
   ]
  },
- "note": "Last activity 6:59 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 7:02 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 25 of 58 · ",
@@ -503,6 +502,13 @@
     "reason": "not-evaluated — W2 sector sweep (King County portal): KCIT announcement (LinkedIn, published 2026-10-21) for 'Identity and Access Management (IAM) Solutions Architect' ($160,892 - $203,941, closes 10/25/2026) — duties 'leading strategy and design for IAM across the County, developing modern identity architectures'. The posting's own governmentjobs bulletin JD could not be loaded after real search attempts (only the LinkedIn announcements and sibling KCIT bulletins surfaced; sibling KCIT bulletins state hybrid 3-5 days in office + Washington-state residency, but JD-first rule forbids verdict from another posting's text). Workarounds tried: (1) employer portal via web search for the bulletin, (2) alternate route LinkedIn announcement, (3) sibling bulletins checked — governing JD text still unread, left for next unit.",
     "where": "Employer sites",
     "time": "2:19 AM"
+   },
+   {
+    "company": "Trinity Health",
+    "role": "Enterprise Architect (REMOTE)",
+    "reason": "not-evaluated — Provides direction, guidance and definition of enterprise-wide architecture to effectively support the corporate business strategy. Researches, analyzes, designs, proposes and delivers solutions that are appropriate for the business and technology strategies across multiple IT functional areas. — Full JD text read via mirrors (whatjobs / recruit.net carry the complete Trinity description; duties align with enterprise architecture), but the governing listing on Trinity Health's own careers site — its current status, posted date and pay — could not be verified in this unit: the mirrors are 54-78-day-old crawls that already showed the role ~27 days old, so freshness (7-day eligibility) is unproven and no verdict is made. Left for the next W3 unit to verify on the employer's own site. UNIT COVERAGE (W3, all 5 employers searched across the 58 families): HCA Healthcare — official-site search surfaced one architect listing, Consulting Application Architect (recorded: closed); older index remnants (Product Architect Big Data GCP, work-from-home only within 60 miles of an HCA hospital and GCP-first, 249+ day crawls; Domain Architect Nashville, on-site, 244+ day crawls) are stale, no fresh remote architect posting found. CommonSpirit Health — official site: Solution Architect I (recorded: not-remote); other architect titles in indexes (IT Principal Architect, Principal IT Solutions Architect, IT Salesforce Principal Architect) appear only in 222-313-day-old crawls, no fresh posting verified. Ascension — Sr. Cloud Strategist / Architect (recorded: PASS via live Dice listing updated 2026-10-25); other Ascension architect listings (Cloud Strategist / Architect $121,264-$169,035 version, Observability & Monitoring Architect, Data Cloud and Marketing Cloud Salesforce Architect) appear only in 223-290-day-old crawls, no fresher posting verified. Trinity Health — this parked lead only; remaining current listings found are non-architect titles (Director IT Applications, Enterprise Systems Engineer IAM, System Administrator II). Providence — Principal IS Architect PHP (recorded: not-remote, location-locked to WA/OR); no other fresh architect posting found.",
+    "where": "Employer sites",
+    "time": "7:02 AM"
    }
   ],
   "LinkedIn": [
@@ -2203,7 +2209,8 @@
    "AmeriHealth Caritas",
    "Ascension",
    "Hexaware Technologies",
-   "King County"
+   "King County",
+   "Trinity Health"
   ],
   "W9": [
    "Oracle",
@@ -2218,5 +2225,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T12:01:03Z"
+ "lists_generated_at": "2026-10-25T12:06:19Z"
 }
