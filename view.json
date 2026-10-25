@@ -1,55 +1,61 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T07:15:54Z",
+ "generated_at": "2026-10-25T07:21:00Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T01:35:54Z",
+  "last_activity_at": "2026-10-25T07:19:25Z",
   "progress": {
    "pools": 21,
-   "covered_units": 98,
+   "covered_units": 105,
    "total_units": 1218,
-   "pct": 8
+   "pct": 9
   },
   "families_covered": 18,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 5,
-  "rejected": 95,
-  "evaluated": 101
+  "parked": 6,
+  "rejected": 96,
+  "evaluated": 102
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 0,
+  "evaluated": 2,
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
+  "parked": 1,
+  "rejected": 1,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 18,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 19,
+    "name": "Principal Technical Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-25T07:21:00Z",
    "detail": "Titles 18/58"
   },
   "W8": {
@@ -89,12 +95,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 22,
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 15/39"
+   "detail": "Employers 20/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -293,14 +299,14 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "4 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T07:19:25Z"
   },
   "sector_search": {
    "state": "active",
-   "detail": "9 of 192 units done",
+   "detail": "10 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -457,13 +463,19 @@
    }
   ]
  },
- "note": "Last activity 8:35 PM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 2:19 AM CT · 1 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
+   "detail": "Families covered 18/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
+  "detail": "Families covered 18/58"
  },
  "rules": {
   "follow_all": false,
