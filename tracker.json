@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T08:55:54Z",
+ "generated_at": "2026-10-25T09:00:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,7 +15,7 @@
   "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T08:37:38Z",
+  "last_activity_at": "2026-10-25T08:56:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 114,
@@ -26,20 +26,18 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 1,
-  "parked": 7,
-  "rejected": 102,
+  "filed": 0,
+  "parked": 8,
+  "rejected": 101,
   "evaluated": 113
  },
  "today": {
   "date": "2026-10-25",
   "evaluated": 23,
-  "filed": 1,
-  "parked": 2,
-  "rejected": 17,
-  "filed_by_source": {
-   "LinkedIn": 1
-  }
+  "filed": 0,
+  "parked": 3,
+  "rejected": 16,
+  "filed_by_source": {}
  },
  "searching_lanes": [],
  "lanes": {
@@ -296,7 +294,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "9 of 12 units done",
+   "detail": "9 of 13 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -459,7 +457,7 @@
    }
   ]
  },
- "note": "Last activity 3:37 AM CT · 0 workers in flight · 1 filed this run",
+ "note": "Last activity 3:56 AM CT · 0 workers in flight · 0 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -483,73 +481,8 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "date": "2026-10-25",
- "today_filings": {
-  "LinkedIn": [
-   {
-    "company": "ROCS Grad Staffing",
-    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA",
-    "where": "LinkedIn",
-    "time": "3:34 AM",
-    "check": {
-     "company": "ROCS Grad Staffing",
-     "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA",
-     "where": "LinkedIn",
-     "filed_at": "2026-10-25T08:14:00Z",
-     "verdict": "FILED with one flagged deviation (resume)",
-     "rules": [
-      {
-       "rule": "JD read in full",
-       "status": "pass",
-       "evidence": "Full JD verified live on LinkedIn by filer and by PASS disposition 2088: 12-month fully remote engagement, identity architecture duties"
-      },
-      {
-       "rule": "100% remote US-based",
-       "status": "pass",
-       "evidence": "'12-month, fully remote engagement', 'Fully remote, U.S.-based'"
-      },
-      {
-       "rule": "Pay band top $160K-$230K",
-       "status": "pass",
-       "evidence": "Published $170K-$210K; top $210K in band"
-      },
-      {
-       "rule": "Architect-level, no whole-role hands-on coding",
-       "status": "pass",
-       "evidence": "Duties: own the technical approach, lead identity SMEs, design RBAC across Workday and Entra ID"
-      },
-      {
-       "rule": "Experience alignment",
-       "status": "pass",
-       "evidence": "Entra ID / AD identity architecture aligns with his experience; AZ-305 nice-to-have"
-      },
-      {
-       "rule": "Duplicates / do-not-reapply",
-       "status": "pass",
-       "evidence": "No ROCS entry in application-ledger.md or do-not-reapply.md; LinkedIn showed not Applied before filing"
-      },
-      {
-       "rule": "Exclusions",
-       "status": "pass",
-       "evidence": "Not Humana/First Citizens/Oakworth/Cognizant; no clearance requirement"
-      },
-      {
-       "rule": "Veteran answer",
-       "status": "not-asked",
-       "evidence": "LinkedIn Easy Apply flow reported no veteran-status question; no protected-veteran answer was submitted"
-      },
-      {
-       "rule": "Tailored resume uploaded",
-       "status": "deviation",
-       "evidence": "Easy Apply form locked the resume step to the profile-stored 'Hubert Samuel Resume' dated August 21, 2025 and would not accept the granted tailored Hubert-Samuel-Resume.pdf; application was submitted with the stored resume. Flagged deviation, cannot be unfiled."
-      }
-     ]
-    }
-   }
-  ]
- },
- "today_filed_by_source": {
-  "LinkedIn": 1
- },
+ "today_filings": {},
+ "today_filed_by_source": {},
  "today_parked": {
   "Employer sites": [
    {
@@ -561,6 +494,13 @@
    }
   ],
   "LinkedIn": [
+   {
+    "company": "ROCS Grad Staffing",
+    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA",
+    "reason": "resume-upload-blocked — CORRECTION of disposition 2110 (FILED): the filer's terminal report retracts the interim submission claim — ROCS was NEVER submitted. On the Easy Apply resume step, upload of the granted tailored Hubert-Samuel-Resume.pdf via the 'Upload resume' button aborted with no effect (no usable file input in the browser; selected resume remained a stored profile resume). Per instruction the filer did not submit with a stored resume, did not advance past the resume step, and discarded the draft. Proof of non-submission: after discarding, LinkedIn again shows the blue 'Easy Apply' button for posting 4483354388 — it does NOT show 'Applied'. JD itself remains qualifying: '$170K/yr - $210K/yr', 'Fully remote, U.S.-based; core hours Monday-Friday, 8 a.m.-5 p.m. Eastern', 12-month engagement from ~Feb 15 2027, NO C2C or 1099. Retry when resume upload works.",
+    "where": "LinkedIn",
+    "time": "3:56 AM"
+   },
    {
     "company": "Husch Blackwell",
     "role": "Financial Systems Solutions Architect",
@@ -641,13 +581,6 @@
     "reason": "closed — Filing attempt 2026-10-25 02:18 CT: LinkedIn posting 4482667074 page verified (GlitchX Studios — Chief Enterprise Architect, United States, full-time remote: 'The Chief Enterprise Architect is a full-time remote role'; duties 'defining and maintaining the overall enterprise architecture strategy', 'leading architecture governance'; no published salary, no clearance, multi-cloud incl. Azure) but the page shows 'No longer accepting applications' in place of any Apply/Easy Apply button — posting closed, no application could be submitted. Gate fact (closed posting) — no workaround owed.",
     "where": "LinkedIn",
     "time": "2:19 AM"
-   },
-   {
-    "company": "BankUnited",
-    "role": "Enterprise Solution Architect Payments (Remote)",
-    "reason": "not-remote — Employer's own ATS posting (governing text, Workday req 7197): 'In this role, you can expect to work a hybrid schedule in our Boca Raton office two days a week (Tuesday and Wednesday are Anchor Days so we can collaborate, learn, and celebrate in person).' LinkedIn posting location is Boca Raton, Florida with the same anchor-days hybrid schedule attached. Workarounds tried: (1) employer ATS posting checked — governing text states required in-office anchor days; (2) LinkedIn route checked — labeled Remote but carries the same hybrid schedule/location; no alternate fully-remote posting of req 7197 found. Application was NOT submitted.",
-    "where": "LinkedIn",
-    "time": "3:34 AM"
    },
    {
     "company": "NTT DATA, Inc.",
@@ -1760,5 +1693,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T08:55:54Z"
+ "lists_generated_at": "2026-10-25T09:00:53Z"
 }
