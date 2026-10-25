@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T10:45:55Z",
+ "generated_at": "2026-10-25T10:50:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T10:45:52Z",
+  "last_activity_at": "2026-10-25T10:46:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 140,
@@ -41,17 +41,22 @@
    "LinkedIn": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "eClerx",
+    "role": "Solutions Architect – Retail Media & AdTech"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T10:50:57Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -296,7 +301,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "15 of 17 units done",
+   "detail": "16 of 17 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -459,13 +464,19 @@
    }
   ]
  },
- "note": "Last activity 5:45 AM CT · 0 workers in flight · 1 filed this run",
- "pill": [],
+ "note": "Last activity 5:46 AM CT · 1 workers in flight · 1 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 25 of 58 · ",
+   "detail": "Families covered 24/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 25 of 58 · ",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
