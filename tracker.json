@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T09:40:51Z",
+ "generated_at": "2026-10-25T09:45:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T09:32:03Z",
+  "last_activity_at": "2026-10-25T09:42:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 114,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
+  "parked": 9,
   "rejected": 104,
   "evaluated": 113
  },
@@ -35,26 +35,28 @@
   "date": "2026-10-25",
   "evaluated": 23,
   "filed": 0,
-  "parked": 3,
+  "parked": 4,
   "rejected": 19,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
-   "current": {
-    "company": "BankUnited",
-    "role": "Enterprise Solution Architect Payments (Remote)"
+   "current": null,
+   "current_family": {
+    "index": 21,
+    "name": "IT Architecture Lead",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-25T09:40:51Z",
+   "heartbeat_at": "2026-10-25T09:45:54Z",
    "detail": "Titles 20/58"
   },
   "W8": {
@@ -93,12 +95,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 36,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T09:45:54Z",
    "detail": "Employers 25/39"
   },
   "W3": {
@@ -298,10 +300,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "12 of 13 units done",
+   "state": "done",
+   "detail": "13 of 13 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T09:42:44Z"
   },
   "sector_search": {
    "state": "active",
@@ -462,10 +464,10 @@
    }
   ]
  },
- "note": "Last activity 4:32 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 4:42 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 21 of 58 · ",
+   "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 20/58",
    "pool": "LinkedIn"
   }
@@ -473,7 +475,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 21 of 58 · ",
+  "headline": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 20/58"
  },
  "rules": {
@@ -511,6 +513,13 @@
     "reason": "resume-upload-blocked — CORRECTION of disposition 2110 (FILED): the filer's terminal report retracts the interim submission claim — ROCS was NEVER submitted. On the Easy Apply resume step, upload of the granted tailored Hubert-Samuel-Resume.pdf via the 'Upload resume' button aborted with no effect (no usable file input in the browser; selected resume remained a stored profile resume). Per instruction the filer did not submit with a stored resume, did not advance past the resume step, and discarded the draft. Proof of non-submission: after discarding, LinkedIn again shows the blue 'Easy Apply' button for posting 4483354388 — it does NOT show 'Applied'. JD itself remains qualifying: '$170K/yr - $210K/yr', 'Fully remote, U.S.-based; core hours Monday-Friday, 8 a.m.-5 p.m. Eastern', 12-month engagement from ~Feb 15 2027, NO C2C or 1099. Retry when resume upload works.",
     "where": "LinkedIn",
     "time": "3:56 AM"
+   },
+   {
+    "company": "BankUnited",
+    "role": "Enterprise Solution Architect Payments (Remote)",
+    "reason": "code-blocked — Filer on the employer's ADP ATS (req 7197) 2026-10-25: remote check passed (\"Candidates must be located in the Eastern or Central Time Zone\" — he is Central; no hybrid wording on the ATS) and cloud check passed (\"Cloud native application architecture and design preferably on Amazon AWS\" — a preference, not a mandate). One fresh ADP email code was triggered at 04:09 CDT; it expired before the protected code handoff completed — ADP banner: \"Verification code expired after 15 minutes, please request another verification code\". No second code triggered per the one-code rule. Application not submitted; retry-eligible on a future run where the code can be entered inside its 15-minute window.",
+    "where": "LinkedIn",
+    "time": "4:42 AM"
    },
    {
     "company": "Husch Blackwell",
@@ -1725,5 +1734,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T09:40:51Z"
+ "lists_generated_at": "2026-10-25T09:45:54Z"
 }
