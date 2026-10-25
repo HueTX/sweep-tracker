@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T08:35:54Z",
+ "generated_at": "2026-10-25T08:40:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T08:35:08Z",
+  "last_activity_at": "2026-10-25T08:37:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 114,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 6,
+  "parked": 7,
   "rejected": 102,
   "evaluated": 113
  },
@@ -35,28 +35,23 @@
   "date": "2026-10-25",
   "evaluated": 23,
   "filed": 1,
-  "parked": 1,
+  "parked": 2,
   "rejected": 17,
   "filed_by_source": {
    "LinkedIn": 1
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 20,
    "families_total": 58,
-   "current": {
-    "company": "Husch Blackwell",
-    "role": "Financial Systems Solutions Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T08:35:54Z",
+   "heartbeat_at": null,
    "detail": "Titles 20/58"
   },
   "W8": {
@@ -301,7 +296,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "8 of 12 units done",
+   "detail": "9 of 12 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -464,19 +459,13 @@
    }
   ]
  },
- "note": "Last activity 3:35 AM CT · 1 workers in flight · 1 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 21 of 58 · ",
-   "detail": "Families covered 20/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 3:37 AM CT · 0 workers in flight · 1 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 21 of 58 · ",
-  "detail": "Families covered 20/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -569,6 +558,15 @@
     "reason": "not-evaluated — W2 sector sweep (King County portal): KCIT announcement (LinkedIn, published 2026-10-21) for 'Identity and Access Management (IAM) Solutions Architect' ($160,892 - $203,941, closes 10/25/2026) — duties 'leading strategy and design for IAM across the County, developing modern identity architectures'. The posting's own governmentjobs bulletin JD could not be loaded after real search attempts (only the LinkedIn announcements and sibling KCIT bulletins surfaced; sibling KCIT bulletins state hybrid 3-5 days in office + Washington-state residency, but JD-first rule forbids verdict from another posting's text). Workarounds tried: (1) employer portal via web search for the bulletin, (2) alternate route LinkedIn announcement, (3) sibling bulletins checked — governing JD text still unread, left for next unit.",
     "where": "Employer sites",
     "time": "2:19 AM"
+   }
+  ],
+  "LinkedIn": [
+   {
+    "company": "Husch Blackwell",
+    "role": "Financial Systems Solutions Architect",
+    "reason": "credential-needed — JD re-verified live on LinkedIn and on the employer's UKG UltiPro posting (Req FINAN002999): 'This position may be filled remotely, or in any of our locations.' and 'Serve as the Firm's primary architecture resource for financial platforms, including Elite 3E and related applications.' Pay check passed: CA range $102,000-$208,000, MD range $99,000-$150,000, no Texas/remote-specific range published (unpublished for his location = eligible). Filing blocked at UltiPro sign-in (signin-us.ultipro.com): saved login for samuel-hubert@outlook.com rejected — 'Invalid email or password. Please check your credentials or reset your password.' No account created, no password invented or reset per rules. LinkedIn shows In Progress (Clicked apply), NOT Applied; nothing submitted.",
+    "where": "LinkedIn",
+    "time": "3:37 AM"
    }
   ]
  },
@@ -1762,5 +1760,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T08:35:54Z"
+ "lists_generated_at": "2026-10-25T08:40:53Z"
 }
