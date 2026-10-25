@@ -1,49 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:20:56Z",
+ "generated_at": "2026-10-25T20:26:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:20:51Z",
+  "last_activity_at": "2026-10-25T20:25:21Z",
   "progress": {
    "pools": 21,
-   "covered_units": 361,
+   "covered_units": 384,
    "total_units": 1218,
-   "pct": 30
+   "pct": 32
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 48,
-  "rejected": 332,
-  "evaluated": 383
+  "parked": 50,
+  "rejected": 376,
+  "evaluated": 429
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 302,
+  "evaluated": 345,
   "filed": 3,
-  "parked": 43,
-  "rejected": 256,
+  "parked": 44,
+  "rejected": 298,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W5"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -125,24 +123,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 52,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:20:56Z",
-   "detail": "Employers 39/44"
+   "heartbeat_at": null,
+   "detail": "Employers 44/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
    "phase": "queued",
-   "families_searched": 12,
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 5/44"
+   "detail": "Employers 20/44"
   },
   "W9": {
    "label": "Dice",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "57 of 204 units done",
+   "detail": "61 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -544,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 3:20 PM CT · 1 workers in flight · 3 filed this run",
+ "note": "Last activity 3:25 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
