@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:11:00Z",
+ "generated_at": "2026-10-25T20:16:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:09:55Z",
+  "last_activity_at": "2026-10-25T20:14:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 315,
+   "covered_units": 332,
    "total_units": 1218,
-   "pct": 26
+   "pct": 27
   },
   "families_covered": 32,
   "families_total": 58
@@ -28,20 +28,22 @@
  "counts": {
   "filed": 3,
   "parked": 45,
-  "rejected": 289,
-  "evaluated": 337
+  "rejected": 308,
+  "evaluated": 356
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 261,
+  "evaluated": 280,
   "filed": 3,
   "parked": 40,
-  "rejected": 218,
+  "rejected": 237,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -123,13 +125,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 12,
+   "phase": "searching",
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 5/44"
+   "heartbeat_at": "2026-10-25T20:16:51Z",
+   "detail": "Employers 20/44"
   },
   "W6": {
    "label": "Utilities",
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "49 of 204 units done",
+   "detail": "52 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -542,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 3:09 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 3:14 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
