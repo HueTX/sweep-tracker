@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T12:41:11Z",
+ "generated_at": "2026-10-25T12:46:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T12:02:18Z",
+  "last_activity_at": "2026-10-25T12:45:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 144,
@@ -28,28 +28,34 @@
  "counts": {
   "filed": 0,
   "parked": 28,
-  "rejected": 151,
-  "evaluated": 181
+  "rejected": 156,
+  "evaluated": 185
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 95,
+  "evaluated": 99,
   "filed": 0,
   "parked": 23,
-  "rejected": 70,
+  "rejected": 75,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "ICF",
+    "role": "Solutions Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T12:46:17Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -99,12 +105,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T12:46:17Z",
    "detail": "Employers 5/73"
   },
   "W4": {
@@ -305,10 +311,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T12:45:32Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -457,13 +463,19 @@
    }
   ]
  },
- "note": "Last activity 7:02 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 7:45 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 25 of 58 · ",
+   "detail": "Families covered 24/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 25 of 58 · ",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
