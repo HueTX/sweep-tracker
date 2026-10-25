@@ -1,50 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T18:56:40Z",
+ "generated_at": "2026-10-25T19:01:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T18:47:20Z",
+  "last_activity_at": "2026-10-25T18:58:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 173,
+   "covered_units": 186,
    "total_units": 1218,
-   "pct": 14
+   "pct": 15
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 33,
-  "rejected": 208,
-  "evaluated": 245
+  "parked": 36,
+  "rejected": 228,
+  "evaluated": 267
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 170,
+  "evaluated": 192,
   "filed": 3,
-  "parked": 28,
-  "rejected": 138,
+  "parked": 31,
+  "rejected": 158,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W4",
-  "W5"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -115,23 +112,23 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 7,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:56:40Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:56:40Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -305,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "23 of 204 units done",
+   "detail": "25 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T18:57:07Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 1:47 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 1:58 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -728,11 +725,32 @@
     "time": "7:45 AM"
    },
    {
+    "company": "GSA",
+    "role": "Information Technology Specialist",
+    "reason": "credential-needed — CORRECTION superseding the interim PASS (disposition 2298): the filing unit's terminal verification could NOT locate this posting on USAJOBS at all - direct URL usajobs.gov/job/872960300 returned USAJOBS 'Not Found' twice, USAJOBS keyword search for control number 872960300 and announcement 876219 both returned 'No jobs found', the GSA agency filter listed 0 GSA postings for this title, and Google/DuckDuckGo/Bing searches for the control number returned no matching document. The PASS rested on search-surfaced announcement text (USAJOBS fetches had returned 403 to the search worker), so remote status, salary and duties were never verified on the live governing page. Second blocker: USAJOBS sign-in runs through secure.login.gov and the browser holds NO saved login.gov login; no password may be invented and no account created by the agent (brief: park credential-needed). NOTHING was submitted, no resume was uploaded, no confirmation exists. Re-file only if the posting is re-verified live on USAJOBS (or relists) AND Hubert signs in with his login.gov account in the browser. Closes 10/27/2026 per the unverified announcement text, so this is time-sensitive if the posting is real.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
     "company": "University of Alabama at Birmingham (UAB)",
     "role": "IT Solutions Architect (Information Technology)",
     "reason": "not-evaluated — Fresh W2 lead found via the State of Alabama Personnel Department official posting (Closing Date 11/4/2026; search result dated Oct 21, 2026, within the 7-day window): 'IT Solutions Architect (Information Technology)' - listed salary band 86 ($81,304 - $137,376 shown in the finding snippet only). The full governing JD could not be loaded after real attempts: spd.alabama.gov job-spec PDF fetches failed and the main announcement page returned only a title, so pay band (snippet top appears below the $160K floor but is NOT the employer's confirmed band), remote status, duties and cloud scope are all unverified. JD-first rule: no verdict from a snippet. Left for the next unit with a working route to the full spec. Workarounds tried: (1) employer portal job-spec PDF (failed to load), (2) alternate announcement page (title only), (3) no alternate full posting found.",
     "where": "Employer sites",
     "time": "1:47 PM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Artificial Intelligence Security - AI Implementation - Remote",
+    "reason": "not-evaluated — Full JD text available only via mirrors (FlexJobs/Dice): 'Serves as the subject matter expert for securing AI/ML workloads operating within Molina's Microsoft Azure and Databricks environments' and 'Pay Range: $111,893 - $218,192 / ANNUAL' (top in band), but the posting could not be surfaced on careers.molinahealthcare.com and no reliable posted date on the employer's own site could be established, so freshness (≥2026-10-18) is unverified — not verdicted from a mirror. Note for any later verdict: required qualifications include 'Proficient in Python'.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Healthfirst",
+    "role": "Enterprise AI Architect",
+    "reason": "not-evaluated — Employer JD opened in full at careers.healthfirst.org: 'Req ID, R021509, State, New York, Work Type, Remote' and 'All Other Locations (within approved locations): $118,100 - $180,710' — the page carries no posted date and Texas is not confirmed among 'approved locations', so freshness and TX eligibility could not be established from the governing text.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
    }
   ],
   "LinkedIn": [
@@ -1653,6 +1671,20 @@
     "time": "8:37 AM"
    },
    {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal Architect – Enterprise Security",
+    "reason": "stale — Published: 2026-09-24 (before the 2026-10-18 eligibility floor); salary also out of band: 'The salary for this role will range from $134,600 $230,800 annually' (top $230,800 > $230,000 cap). Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — mirrors reproduce the same req/date; (3) alternate posting — no fresher UHG security-architecture posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "cloud-scope — 'This role sets the technical direction for how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires.' Also stale (Published: 2026-09-04) and pay top out of band: 'The typical pay range for this role is: $144,200.00 - $288,400.00'. Workarounds tried: (1) employer ATS — jobs.cvshealth.com searched for this exact title, no live matching posting returned; JD text taken from the full CVS JD reproduced on DailyRemote/Dice; (2) alternate route — Dice copy identical; (3) alternate posting — CVS Cloud Native role below, also rejected.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
     "company": "Connecticut state portal",
     "role": "IT Solution Architect",
     "reason": "stale — Published: 2025-06-03 — posting is more than 7 days old, outside eligibility window. Remote role duties otherwise aligned: 'developing, maintaining and implementing a technical roadmap'. Workarounds tried: (1) employer's own ATS posting on jobapscloud.com is the governing text checked, (2) alternate route via search result mirror, same date, (3) no alternate fresher posting of same role found.",
@@ -1882,6 +1914,132 @@
     "reason": "not-remote — Full JD read on HCA's own ATS (careers.hcahealthcare.com/jobs/3665830-sr-mgr-enterprise-architecture-nashville-tennessee-united-states, Req 43964): Nashville, TN posting whose introduction reads 'As a Senior Manager of Enterprise Architecture with HCA Healthcare's TriStar Division in Nashville' - an on-site division role, not 100% remote (also posted October 7, 2026, outside the 7-day window). Workarounds tried: (1) employer's own ATS posting is the governing text; (2) no alternate remote posting of the same req found.",
     "where": "Employer sites",
     "time": "1:47 PM"
+   },
+   {
+    "company": "Elevance Health",
+    "role": "Infrastructure Architect Executive",
+    "reason": "not-remote — LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week … candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment. Workarounds tried: (1) employer ATS governing text (careers.elevancehealth.com, opened in full); (2) alternate route — Simplify/Career.io mirrors show the same hybrid model; (3) alternate posting — Elevance AI Application Architect Senior is also in-office 1 day/week hybrid.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Enterprise Data Warehouse (EDW) Architect - OI State Government Solutions - Remote",
+    "reason": "stale — Published: 2026-09-28 (before the 2026-10-18 eligibility floor). Also hands-on: 'Hands-on development experience with Python and advanced SQL, including automation, data processing, troubleshooting, and code review.' Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — search mirrors carry the same Sep 28 posting; (3) alternate posting — other UHG architect postings checked below, all older.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Principal Architect - Cloud Native (Cloud and Observability)",
+    "reason": "stale — Published: 2026-08-24 (before the 2026-10-18 eligibility floor); pay top also out of band: 'The typical pay range for this role is: $144,200.00 - $288,400.00'; role is hands-on: 'This is a hands-on role. You'll write architecture docs, build proof-of-concepts, configure OTel pipelines, and present to leadership.' Workarounds tried: (1) employer ATS — jobs.cvshealth.com searched, no live matching posting; full JD read via Built In reproduction; (2) alternate route — JobLookup copy same role; (3) alternate posting — Aetna Principal Cloud Architect above, also rejected.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Information Systems - Databricks - Remote",
+    "reason": "stale — Published: 2026-08-24 (before the 2026-10-18 eligibility floor). Duties read in full: 'Lead enterprise data and analytics transformation initiatives using Databricks and modern cloud technologies.' Workarounds tried: (1) employer site — careers.molinahealthcare.com searched, this posting not surfaced as live/fresh; full JD read via Built In reproduction; (2) alternate route — Dice copy is ~361 days old; (3) alternate posting — Molina AI Security architect below, freshness unverifiable.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Cigna Group / Evernorth",
+    "role": "Head of Enterprise Architecture (Managing Director), Evernorth Health Services (Hybrid)",
+    "reason": "not-remote — Title/designation is '(Hybrid)' — Austin, TX + Morristown, NJ / St. Louis, MO / Hartford, CT, 'Hybrid'; posted 5/23/2026 (stale); salary also out of band: 'we anticipate offering an annual salary of 209,600 - 349,300 USD / yearly'. Workarounds tried: (1) employer governing text via full JD reproduction on Simplify/Career.io (Cigna JD text); (2) alternate route — Adzuna/Monster copies also Hybrid; (3) alternate posting — no remote Cigna EA posting found (the two Cigna EA roles already filed, req 26011519 and the Data/APIs Senior Principal, are duplicates and were not returned).",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Sentara Health",
+    "role": "Principal Enterprise Architect - AI",
+    "reason": "stale — Published: 2026-07-03 (before the 2026-10-18 eligibility floor). Texas was remote-eligible ('Sentara Health employs associates in the following states: … Texas …') but the posting is stale. Workarounds tried: (1) employer JD text read in full via Built In reproduction of the Sentara posting; (2) alternate route — Recruit.net clinical-systems variant is a different, clinical (Epic/PACS) role; (3) alternate posting — Sentara ServiceNow Principal Domain Architect is already filed (2026-09-23, do-not-reapply).",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Oscar Health",
+    "role": "Salesforce Platform Solutions Architect",
+    "reason": "not-remote — 'This is a remote position, open to candidates who reside in: Atlanta, GA. You will be fully remote; however, our approach to work may adapt over time. Future models could potentially involve a hybrid presence at the hub office associated with your metro area.' Houston, TX is not an eligible residence; a second copy restricts residence to Dallas, TX only. Pay top was in band ($176,053.50) but residence restriction governs. Workarounds tried: (1) employer's own job board (General Catalyst/Greenhouse listing, opened in full); (2) alternate route — Hiring.cafe/Ladders copies carry the same metro restriction; (3) alternate posting — no other Oscar architect posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Providence Health Plan",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions (Virtual)",
+    "reason": "not-remote — 'Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California' — Texas is excluded, so not-remote for Hubert (Houston, TX). Workarounds tried: (1) employer JD text read in full via Dice/Monster reproductions of the Providence posting; (2) alternate route — JobLeads copy identical state list; (3) alternate posting — no TX-eligible Providence Health Plan architect posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Principal OT AI Solution Architect",
+    "reason": "not-remote — Houston, Texas — Relocation will not be considered. Full JD on careers.chevron.com (Published: 2026-10-19) contains no remote language; role is Houston-based: 'We are seeking an OT Solutions Architect specializing in artificial intelligence to define how AI capabilities move safely and consistently from concept and field trial into supported operational use.' workarounds tried: (1) employer ATS governing text — this Chevron careers JD itself, Houston/no-relocation; (2) alternate route — search mirrors show same Houston location; (3) alternate posting — no remote variant of this req found, other Chevron architect req is a different role.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Solution Architect – DevOps Pipeline",
+    "reason": "stale — Published: 2026-10-12 (before 2026-10-18 eligibility cutoff, on careers.chevron.com). Also pipeline-core: 'Designing and supporting the DevOps CICD Pipeline and Enterprise development and deployments at a large enterprise scale.' Location Houston, Texas. workarounds tried: (1) employer ATS governing text — this Chevron JD; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost of this req found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working — Relocation Assistance: This role is eligible for relocation within country. Mirror of bp JD also states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — energyjobsearch mirror, same hybrid text; (3) alternate posting — no fully-remote variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead solution architect",
+    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working. Also cloud-scope concern: 'Proficiency in cloud platforms (AWS preferred), API integration, and data architecture.' Mirror states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — same hybrid/AWS-preferred text on mirror; (3) alternate posting — no fully-remote/Azure variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Cloud Domain Architect",
+    "reason": "not-remote — Location: 3000 N. Sam Houston Parkway E., Houston, Texas, 77032, United States — no remote language in full JD; mirror states 'Job post no longer accepts applications'. Architect duties otherwise aligned: 'Own the cloud infrastructure domain architecture for Azure (primary) and AWS (secondary)'. workarounds tried: (1) employer ATS governing text — Halliburton JD text as mirrored; (2) alternate route — hiring.cafe mirror lists it Houston/Onsite; (3) alternate posting — no remote variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect, Midstream Operations",
+    "reason": "stale — Published: 2026-10-09 (before 2026-10-18 cutoff). Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Pay Min/Max: $106,900.00 - $184,300.00 Salary. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same 2026-10-09 date in search results; (3) alternate posting — no fresher repost found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Lead Solution Architect",
+    "reason": "stale — Published: 2026-09-08 (before 2026-10-18 cutoff). Location: Houston TX One Allen Center; Location Address: 500 Dallas St Ste 2900. Role is Workday HR architecture, not cloud/enterprise core. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Cloud Enterprise Architect Remote and Drilling Performance Applications",
+    "reason": "stale — Published: 2024-09-07T03:34:38+00:00 (far before 2026-10-18 cutoff); Houston, TX location; only flexible-hours pattern offered, no fully-remote language. Duties: 'Conducting architectural evaluation, design, and analysis of Remote and Drilling Performance Applications' with 'Experience with AWS Deployments'. workarounds tried: (1) employer ATS governing text — Baker Hughes JD text as mirrored; (2) alternate route — same old posting in search results; (3) alternate posting — no fresh variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "National Geospatial-Intelligence Agency",
+    "role": "User Experience Architect (Hiring Event)",
+    "reason": "clearance — Full USAJOBS JD read by the W1 worker (unit 248 definitive return, delivered late): posted 2026-10-19 (fresh, in-window) but the announcement states 'Security Clearance - Top Secret / Sensitive Compartmented Information (SCI)' - an active TS/SCI is required, a gate fact that rejects on sight; no workaround owed.",
+    "where": "Employer sites",
+    "time": "1:58 PM"
+   },
+   {
+    "company": "King County",
+    "role": "Identity and Access Management (IAM) Solutions Architect",
+    "reason": "not-remote — Definitive W2 verdict (unit 249 worker's late full return) superseding the earlier PARKED not-evaluated for this lead: full JD loaded via the King County posting's Indeed mirror + LinkedIn announcement (published 2026-10-21): 'Hybrid Work: KCIT works in a hybrid model, with days in the office as well as telecommuting. The primary onsite location is the Chinook Building, 401 5th Ave, Seattle, WA' and employees must reside in Washington state within reasonable distance of the worksite - not 100% remote and not Texas-eligible. Salary $160,892 - $203,941 (top was in band). Workarounds tried: (1) employer portal governing text via mirror of the King County posting, (2) alternate route LinkedIn, (3) no alternate posting found; residency/hybrid is posting-intrinsic.",
+    "where": "Employer sites",
+    "time": "1:58 PM"
    }
   ]
  },
@@ -2938,7 +3096,10 @@
    "Ascension",
    "Hexaware Technologies",
    "King County",
-   "University of Alabama at Birmingham (UAB)"
+   "GSA",
+   "University of Alabama at Birmingham (UAB)",
+   "Molina Healthcare",
+   "Healthfirst"
   ],
   "W9": [
    "Oracle",
@@ -2953,5 +3114,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T18:56:40Z"
+ "lists_generated_at": "2026-10-25T19:01:04Z"
 }
