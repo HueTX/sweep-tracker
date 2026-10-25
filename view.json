@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T21:01:08Z",
+ "generated_at": "2026-10-25T21:06:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -9,41 +9,39 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:57:40Z",
+  "last_activity_at": "2026-10-25T21:05:03Z",
   "progress": {
    "pools": 21,
-   "covered_units": 476,
+   "covered_units": 491,
    "total_units": 1218,
-   "pct": 39
+   "pct": 40
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 92,
-  "rejected": 472,
-  "evaluated": 567
+  "parked": 96,
+  "rejected": 491,
+  "evaluated": 593
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 482,
+  "evaluated": 506,
   "filed": 3,
-  "parked": 86,
-  "rejected": 393,
+  "parked": 90,
+  "rejected": 410,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -235,13 +233,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 14,
+   "phase": "queued",
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T21:01:08Z",
-   "detail": "Employers 10/54"
+   "heartbeat_at": null,
+   "detail": "Employers 25/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "80 of 204 units done",
+   "detail": "83 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "3 of 3 units done",
+   "state": "active",
+   "detail": "3 of 6 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": "2026-10-25T18:57:07Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 3:57 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 4:05 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
