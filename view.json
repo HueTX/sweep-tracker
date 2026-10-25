@@ -1,62 +1,56 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T07:50:54Z",
+ "generated_at": "2026-10-25T07:55:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T07:19:25Z",
+  "last_activity_at": "2026-10-25T07:54:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 105,
+   "covered_units": 107,
    "total_units": 1218,
    "pct": 9
   },
-  "families_covered": 18,
+  "families_covered": 20,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 96,
-  "evaluated": 102
+  "rejected": 98,
+  "evaluated": 106
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 2,
+  "evaluated": 9,
   "filed": 0,
   "parked": 1,
-  "rejected": 1,
+  "rejected": 6,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 18,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 19,
-    "name": "Principal Technical Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-25T07:50:54Z",
-   "detail": "Titles 18/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 20/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -294,15 +288,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "9 of 29 units done",
+   "detail": "10 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "5 of 5 units done",
+   "state": "active",
+   "detail": "5 of 7 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": "2026-10-25T07:19:25Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "active",
@@ -337,7 +331,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 18,
+  "searched": 20,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -357,8 +351,8 @@
    "Principal Infrastructure Engineer": "done",
    "Cloud Architecture Lead": "done",
    "Cloud Infrastructure Lead": "done",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
    "IT Architecture Lead": "pending",
    "Application Architect": "pending",
    "Integration Architect": "pending",
@@ -463,19 +457,13 @@
    }
   ]
  },
- "note": "Last activity 2:19 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 18/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 2:54 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 18/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
