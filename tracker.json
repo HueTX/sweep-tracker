@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T12:41:11Z",
+ "generated_at": "2026-10-25T12:46:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T12:02:18Z",
+  "last_activity_at": "2026-10-25T12:45:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 144,
@@ -28,28 +28,34 @@
  "counts": {
   "filed": 0,
   "parked": 28,
-  "rejected": 151,
-  "evaluated": 181
+  "rejected": 156,
+  "evaluated": 185
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 95,
+  "evaluated": 99,
   "filed": 0,
   "parked": 23,
-  "rejected": 70,
+  "rejected": 75,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "ICF",
+    "role": "Solutions Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T12:46:17Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -99,12 +105,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T12:46:17Z",
    "detail": "Employers 5/73"
   },
   "W4": {
@@ -305,10 +311,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T12:45:32Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -457,13 +463,19 @@
    }
   ]
  },
- "note": "Last activity 7:02 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 7:45 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 25 of 58 · ",
+   "detail": "Families covered 24/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 25 of 58 · ",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
@@ -493,11 +505,11 @@
     "time": "2:19 AM"
    },
    {
-    "company": "Trinity Health",
-    "role": "Enterprise Architect (REMOTE)",
-    "reason": "not-evaluated — Provides direction, guidance and definition of enterprise-wide architecture to effectively support the corporate business strategy. Researches, analyzes, designs, proposes and delivers solutions that are appropriate for the business and technology strategies across multiple IT functional areas. — Full JD text read via mirrors (whatjobs / recruit.net carry the complete Trinity description; duties align with enterprise architecture), but the governing listing on Trinity Health's own careers site — its current status, posted date and pay — could not be verified in this unit: the mirrors are 54-78-day-old crawls that already showed the role ~27 days old, so freshness (7-day eligibility) is unproven and no verdict is made. Left for the next W3 unit to verify on the employer's own site. UNIT COVERAGE (W3, all 5 employers searched across the 58 families): HCA Healthcare — official-site search surfaced one architect listing, Consulting Application Architect (recorded: closed); older index remnants (Product Architect Big Data GCP, work-from-home only within 60 miles of an HCA hospital and GCP-first, 249+ day crawls; Domain Architect Nashville, on-site, 244+ day crawls) are stale, no fresh remote architect posting found. CommonSpirit Health — official site: Solution Architect I (recorded: not-remote); other architect titles in indexes (IT Principal Architect, Principal IT Solutions Architect, IT Salesforce Principal Architect) appear only in 222-313-day-old crawls, no fresh posting verified. Ascension — Sr. Cloud Strategist / Architect (recorded: PASS via live Dice listing updated 2026-10-25); other Ascension architect listings (Cloud Strategist / Architect $121,264-$169,035 version, Observability & Monitoring Architect, Data Cloud and Marketing Cloud Salesforce Architect) appear only in 223-290-day-old crawls, no fresher posting verified. Trinity Health — this parked lead only; remaining current listings found are non-architect titles (Director IT Applications, Enterprise Systems Engineer IAM, System Administrator II). Providence — Principal IS Architect PHP (recorded: not-remote, location-locked to WA/OR); no other fresh architect posting found.",
+    "company": "Ascension",
+    "role": "Sr. Cloud Strategist / Architect",
+    "reason": "posting-removed — Live check of Ascension's own careers site (jobs.ascension.org, 2026-10-25) found exactly 2 architect titles, both remote network roles (Senior Network Architect Security 2026-452068; Senior Network Load Balancing Architect 2026-452069) — the Sr. Cloud Strategist / Architect posting does NOT exist on the employer's own ATS; the Dice listing is its only source. CORRECTS the earlier PASS (disposition 2198): the governing employer site does not carry this posting, so there is nothing to file against. Workarounds tried: (1) employer's own ATS search — posting absent; (2) Dice live listing — aggregator only, its apply path leads to the same ATS; (3) no alternate posting of this role on the employer site.",
     "where": "Employer sites",
-    "time": "7:02 AM"
+    "time": "7:45 AM"
    }
   ],
   "LinkedIn": [
@@ -653,11 +665,39 @@
  "today_rejected": {
   "Employer sites": [
    {
+    "company": "HCA Healthcare",
+    "role": "Solutions Architect",
+    "reason": "hands-on-coding — Solutions Architect (Software Developer) needed for Parallon Revenue Cycle Services... Engage in analysis, design, architecture and development of .Net based computer applications. Use C#, ASP.Net, WCF, MVC... — full posting read on HCA's own site (Job ID 4985685, 'May WFH anywhere in the US', min. salary $152,152/yr as a single figure, also below the $160K band floor). Core duties are hands-on .NET/C# software development, not architect-level work. Workarounds tried: employer's own posting is the governing text; no alternate architect-level posting of this role.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
     "company": "CommonSpirit Health",
     "role": "Solution Architect I",
     "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ — employer ATS (commonspirit.careers, Job ID 2025-431697) also states 'Remote, No' and demands 'a blend of hands-on Linux administration expertise—including advanced scripting, automation, and troubleshooting—within a high-performance computing (HPC) environment'; posted compensation $43.10 - $64.11/hour. Full JD read on the employer's own site (governing text). Workarounds tried: (1) employer's own ATS posting — quoted above; (2) alternate routes Dice/Jobright mirrors of the same Solution Architect I / BNI role carry the same Phoenix on-site HPC role; (3) no alternate remote posting of the same role found.",
     "where": "Employer sites",
     "time": "6:56 AM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Architect",
+    "reason": "experience-mismatch — Full JD read on CommonSpirit's own site (Job ID 2026-492050, Remote: Yes, Chicago IL Remote, $69.41-$103.25/hour): role coordinates implementation/integration of applications and its required expertise is the Adobe stack — 'AJO Expertise (Adobe Journey Optimizer); Adobe Experience Platform (AEP); Adobe Target/CJA/Adobe Campaign'. Core platform specialization is Adobe Experience Platform delivery, which does not align with the candidate's Azure/cloud/enterprise architecture experience (no Adobe platform experience on record). Posted date not shown on the ATS. Workarounds tried: employer's own posting is the governing text; the other remote keyword matches on the site are not architect titles.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Senior Network Load Balancing Architect",
+    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452069, Location: Remote, #LI-Remote): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Senior Network Architect Security",
+    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452068, Remote, Saint Louis MO): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
    },
    {
     "company": "Connecticut state portal",
@@ -805,6 +845,13 @@
     "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland — candidate is Houston, TX based, outside every eligible location; full JD read (Requsition ID: 420852, Workplace Type: Remote, WA Renton address). Duties are otherwise enterprise architecture leadership ('you'll be the driving force behind architectural vision and execution... shaping roadmaps, standards, and governance'), but the location restriction fails the 100% remote US filter for this candidate. Workarounds tried: (1) employer's own posting text via Providence Jobs req 420852 as mirrored in full; (2) alternate routes Dice/hiring.cafe versions of the same req state virtual only for WA/OR/CA residents — Texas still excluded; (3) no alternate unrestricted posting of the same role found.",
     "where": "Employer sites",
     "time": "6:56 AM"
+   },
+   {
+    "company": "Trinity Health",
+    "role": "Enterprise Architect (REMOTE)",
+    "reason": "posting-removed — Live check of Trinity Health's own careers site (jobs.trinity-health.org, 2026-10-25): architect search returned exactly 1 job (Project Manager, Construction, Muskegon MI) — no architect-titled postings at all, at any date or location. CORRECTS disposition 2199 (parked not-evaluated): the governing employer site does not carry the mirrored Enterprise Architect (REMOTE) listing, so the lead is resolved as not a live posting. Workarounds tried: (1) employer's own ATS search — absent; (2) mirrors whatjobs/recruit.net carried only 54-78-day-old snapshots; (3) no alternate posting on the employer site.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
    }
   ],
   "LinkedIn": [
@@ -2198,8 +2245,7 @@
    "AmeriHealth Caritas",
    "Ascension",
    "Hexaware Technologies",
-   "King County",
-   "Trinity Health"
+   "King County"
   ],
   "W9": [
    "Oracle",
@@ -2214,5 +2260,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T12:41:11Z"
+ "lists_generated_at": "2026-10-25T12:46:17Z"
 }
