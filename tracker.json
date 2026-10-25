@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T10:36:02Z",
+ "generated_at": "2026-10-25T10:40:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,53 +10,53 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T10:35:37Z",
+  "last_activity_at": "2026-10-25T10:39:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 129,
+   "covered_units": 133,
    "total_units": 1218,
    "pct": 11
   },
-  "families_covered": 20,
+  "families_covered": 24,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 10,
-  "rejected": 117,
-  "evaluated": 129
+  "parked": 24,
+  "rejected": 130,
+  "evaluated": 157
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 39,
+  "evaluated": 67,
   "filed": 0,
-  "parked": 5,
-  "rejected": 32,
+  "parked": 19,
+  "rejected": 45,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "filing",
+   "families_searched": 24,
    "families_total": 58,
-   "current": null,
-   "current_family": {
-    "index": 27,
-    "name": "Identity Architect",
-    "total": 58
+   "current": {
+    "company": "Motion Recruitment",
+    "role": "Principal Solutions Architect"
    },
-   "heartbeat_at": "2026-10-25T10:36:02Z",
-   "detail": "Titles 20/58"
+   "current_family": null,
+   "heartbeat_at": "2026-10-25T10:40:54Z",
+   "detail": "Titles 24/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -94,12 +94,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 51,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T10:40:54Z",
    "detail": "Employers 34/39"
   },
   "W3": {
@@ -294,13 +294,13 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "10 of 29 units done",
+   "detail": "12 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "13 of 15 units done",
+   "detail": "13 of 17 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -337,7 +337,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 20,
+  "searched": 24,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -363,10 +363,10 @@
    "Application Architect": "pending",
    "Integration Architect": "pending",
    "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
    "Network Security Architect": "pending",
    "Chief Architect": "pending",
    "Cloud Engineering Lead": "pending",
@@ -463,19 +463,19 @@
    }
   ]
  },
- "note": "Last activity 5:35 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 5:39 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 27 of 58 · Identity Architect",
-   "detail": "Families covered 20/58",
+   "primary": "LinkedIn · Title 25 of 58 · ",
+   "detail": "Families covered 24/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 27 of 58 · Identity Architect",
-  "detail": "Families covered 20/58"
+  "headline": "LinkedIn · Title 25 of 58 · ",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
@@ -533,6 +533,104 @@
     "reason": "not-evaluated — JD could not be verified after real attempts: the search snippet and the opened detail page disagreed — the detail page rendered a different posting ('AI Automation & Cloud Engineer (Remote) - INTL', posted 2026-10-18) under this lead, and two reopen attempts failed. The IAM Architect identity-governance JD was never read, so no verdict is taken (unread JD is not a reject). Left for the next unit to reopen posting 4483610053 directly.",
     "where": "LinkedIn",
     "time": "5:34 AM"
+   },
+   {
+    "company": "Fidelity TalentSource",
+    "role": "Solution Architect - Data",
+    "reason": "not-evaluated — JD not evaluated after real attempts: the opened LinkedIn detail rendered a different posting (an onsite/hybrid Boston software-engineering role) under this lead, the same detail-mismatch failure seen on other leads this run; the Fidelity TalentSource Solution Architect - Data JD itself was never read. Unread JD is not a reject — left for the next unit to open the posting directly.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "Covenant HR",
+    "role": "Solution Architect",
+    "reason": "not-evaluated — JD read was in progress when the discovery task ended; no terminal verdict landed. Open questions carried for the next unit, with guidance already issued: Covenant HR is an allowed staffing firm; the JD's mention of partnering with Cognizant as a vendor does NOT make this a Cognizant-employer role (manual-only covers Cognizant/3Cloud as employer); verdict turns on the JD's own remote wording ('meaningful onsite leadership' — if a required onsite/hybrid schedule is stated, not-remote) plus pay/hands-on/alignment. End client is an unnamed global financial firm. Unread/unverdicted — not a reject.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "Pinnacle IT",
+    "role": "Information Technology Solutions Architect",
+    "reason": "not-evaluated — Snippet-only candidate from the Identity/Technology Architect searches; its full JD was NOT opened this unit (discovery task reached only 14 detail pages). No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4484092189 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Identity Management Consultant",
+    "reason": "not-evaluated — Snippet-only candidate (surfaced via Jobs via Dice in the LinkedIn searches); full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Dizer Corp",
+    "role": "Azure Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4485273872 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Insight Global",
+    "role": "Identity & Access Management (IAM) Solutions Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4485047859 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Insight Global",
+    "role": "Senior Microsoft Identity Management (MIM) Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4483094881 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Emergent365 Inc",
+    "role": "Technology Solution Architect Lead",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4485277849 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Jobs via Dice",
+    "role": "Technology Architect",
+    "reason": "not-evaluated — Snippet-only candidate (staffing surface, employer not named in the snippet); full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Varsun eTechnologies",
+    "role": "Sr. Technology Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "ALTA IT Services, LLC",
+    "role": "Technology Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "The Brixton Group",
+    "role": "Lead AWS Data Architect & Engineering Manager",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject (title suggests AWS/data focus, but JD-first forbids a title verdict). Left for the next unit.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Innovation Engineering & Consulting LLC",
+    "role": "Solutions Architect - AWS Cloud Architect",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4485112625 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Innova Solutions",
+    "role": "Solutions Architect (SAP TM)",
+    "reason": "not-evaluated — Snippet-only candidate; full JD NOT opened this unit. No verdict taken — unread JD is not a reject. Left for the next unit to open posting 4484963029 directly.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
    }
   ]
  },
@@ -726,6 +824,97 @@
     "reason": "employer-excluded — Employer-excluded gate fact: Humana is an absolute exclusion — never touch, in any lane. Posting was NOT opened and no JD was read, per the standing exclusion; rejected on sight at listing level as a gate fact (no workaround owed).",
     "where": "LinkedIn",
     "time": "5:35 AM"
+   },
+   {
+    "company": "Wabash",
+    "role": "Solutions Architect, IT Systems – Manufacturing Systems",
+    "reason": "not-remote — CORRECTION of the Unit 14 PASS (disposition 2137): a second full-JD read of this same posting found the governing text 'Primary Location: Carmel, IN; Work Arrangement: Hybrid (3 days onsite/2 days remote per week)' — a stated required hybrid schedule = not-remote. The Unit 14 reader's 100%-remote finding does not stand against this quoted JD text; the PASS is retracted. Workarounds tried: two independent JD reads this run, the hybrid quote is from the posting's own detail page; no fully-remote alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "BairesDev",
+    "role": "Solutions Architect (Architecture Lead / Technical Solutions Architect)",
+    "reason": "experience-mismatch — Full JD read on LinkedIn: 100% Remote, pay unpublished — but this is a nearshore software-development company's delivery/presales architecture role for US clients: 'Join a global team of Top 1% IT talent and design technology solutions that solve real business problems for world-class clients.' Core model is hands-on software delivery leadership (Top 1% developer talent shop; architecture tied to coding/delivery) — core duties do not align with his Azure/cloud/enterprise architecture, vendor-management experience; also carries hands-on delivery character. Workarounds tried: employer's own JD governs; no alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "Further",
+    "role": "Solutions Architect, Client Architecture & Delivery",
+    "reason": "pay-outside-band — Full JD read on LinkedIn: 100% Remote — but published salary $135,000-$155,000/yr; the top ($155,000) is below the $160,000 band floor = pay-outside-band. Workarounds tried: employer's own JD carries the governing range; no alternate posting with a different range found.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "Caterpillar Inc.",
+    "role": "Lead Analytics / Engineering Architect",
+    "reason": "not-remote — Full JD read on LinkedIn detail page (posting identity confirmed from the detail header after a results-row mismatch): Hybrid, Peoria, Illinois / Chicago — a stated hybrid schedule = not-remote. Lead analytics/engineering architecture role. Workarounds tried: employer's own JD governs; no fully-remote alternate posting in either family search.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "ICF",
+    "role": "Solution Architect, Power Platform",
+    "reason": "hands-on — Full JD read on LinkedIn: 100% Remote — but core duties are hands-on low-code platform build: 'As a Solution Architect specializing in Power Platform and Copilot Studio, you will architect, design, and develop enterprise-grade solutions using the Microsoft Power Platform ecosystem...' plus building agents and Luckie marketing-agency delivery work — hands-on platform/agency build as the whole role, with marketing-agency client delivery outside his experience core. Workarounds tried: employer's own JD governs; no alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:36 AM"
+   },
+   {
+    "company": "Fidelity Investments",
+    "role": "Information Architect, Large Asset Manager",
+    "reason": "not-remote — Detail-verified on LinkedIn: Boston, MA — Hybrid ('Fidelity's Workplace Investing business unit is seeking an Information Architect to join their team in Boston, MA.') A stated hybrid/onsite arrangement = not-remote. Workarounds tried: employer's own JD text governs; no fully-remote alternate posting in either family search.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Motion Recruitment",
+    "role": "Lead Data Architect",
+    "reason": "not-remote — Detail-verified on LinkedIn: 'Location: Charlotte, NC (Hybrid); Employment Type: Full-Time' — stated hybrid = not-remote. Workarounds tried: employer's own JD governs; no fully-remote alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Motion Recruitment",
+    "role": "Data Architect",
+    "reason": "pay-outside-band — Detail-verified on LinkedIn: 'Compensation: $70-$85/hr (Contract); Location: Charlotte, NC (Hybrid)' — contract rate top is exactly $85/hr; the contract rule requires a published top strictly above $85/hr, so pay fails (the Charlotte hybrid schedule independently fails remote as well). Workarounds tried: employer's own JD governs; no alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Motion Recruitment",
+    "role": "Azure Data Architect",
+    "reason": "not-remote — Detail-verified on LinkedIn: 'Location: Toronto, ON, Canada (Hybrid); Employment Type: Contract' — Canada-based and hybrid; US-only + 100% remote rules both fail. Workarounds tried: employer's own JD governs; no US remote alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Vytalize Health",
+    "role": "Director, Data Architecture",
+    "reason": "pay-outside-band — Detail-verified on LinkedIn: 'Salary Range: $95,000-$150,000/year' — top $150,000 is below the $160,000 band floor = pay-outside-band. Workarounds tried: employer's own JD carries the governing range; no alternate posting with a different range.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Eliassen Group",
+    "role": "IAM Architect",
+    "reason": "experience-mismatch — Detail-verified on LinkedIn: 'Configure Okta tenants, orgs, and policies including SSO, MFA, and lifecycle management; integrate applications using SAML, OIDC, and SCIM protocols; troubleshoot authentication and provisioning issues across AD and Okta environments.' — an IAM engineer/administrator configuration role under an Architect title, not enterprise architecture; core duties mismatch his architecture experience (and are hands-on configuration). Workarounds tried: employer's own JD governs; no alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "KPMG US",
+    "role": "Lead Specialist I, SailPoint (Advisory)",
+    "reason": "experience-mismatch — Detail-verified on LinkedIn: 'Lead SailPoint IdentityIQ/IdentityNow implementation projects including requirements gathering, design, configuration, and deployment; develop custom connectors, workflows, and rules...' — a SailPoint implementation-specialist role (hands-on configuration/custom development), not enterprise architecture; core mismatch. Workarounds tried: employer's own JD governs; no alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Zensar Technologies",
+    "role": "IAM Architect",
+    "reason": "not-remote — Detail-verified on LinkedIn: 'Location: East Coast (Hybrid); Employment Type: Full-Time' — stated hybrid = not-remote. Workarounds tried: employer's own JD governs; no fully-remote alternate posting.",
+    "where": "LinkedIn",
+    "time": "5:39 AM"
    }
   ],
   "Employer sites": [
@@ -1833,5 +2022,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T10:36:02Z"
+ "lists_generated_at": "2026-10-25T10:40:54Z"
 }
