@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T01:30:50Z",
+ "generated_at": "2026-10-25T01:35:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,53 +10,53 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T01:25:55Z",
+  "last_activity_at": "2026-10-25T01:35:54Z",
   "progress": {
    "pools": 21,
-   "covered_units": 88,
+   "covered_units": 90,
    "total_units": 1218,
    "pct": 7
   },
-  "families_covered": 16,
+  "families_covered": 18,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 81,
-  "evaluated": 86
+  "rejected": 95,
+  "evaluated": 101
  },
  "today": {
   "date": "2026-10-24",
-  "evaluated": 83,
+  "evaluated": 97,
   "filed": 0,
   "parked": 4,
-  "rejected": 79,
+  "rejected": 92,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 16,
+   "phase": "filing",
+   "families_searched": 18,
    "families_total": 58,
-   "current": null,
-   "current_family": {
-    "index": 17,
-    "name": "Cloud Architecture Lead",
-    "total": 58
+   "current": {
+    "company": "GlitchX Studios",
+    "role": "Chief Enterprise Architect"
    },
-   "heartbeat_at": "2026-10-25T01:30:50Z",
-   "detail": "Titles 16/58"
+   "current_family": null,
+   "heartbeat_at": "2026-10-25T01:35:57Z",
+   "detail": "Titles 18/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -94,12 +94,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 14,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T01:35:57Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -294,15 +294,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "8 of 29 units done",
+   "detail": "9 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "4 of 4 units done",
+   "state": "active",
+   "detail": "4 of 5 units done",
    "started_at": "2026-10-24T21:26:02Z",
-   "ended_at": "2026-10-25T01:25:16Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "active",
@@ -337,7 +337,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 16,
+  "searched": 18,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -355,8 +355,8 @@
    "Cloud Transformation Architect": "done",
    "Principal Cloud Engineer": "done",
    "Principal Infrastructure Engineer": "done",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
    "Principal Technical Architect": "pending",
    "Technology Strategy Architect": "pending",
    "IT Architecture Lead": "pending",
@@ -463,19 +463,19 @@
    }
   ]
  },
- "note": "Last activity 8:25 PM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 8:35 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 17 of 58 · Cloud Architecture Lead",
-   "detail": "Families covered 16/58",
+   "primary": "LinkedIn · Title 19 of 58 · ",
+   "detail": "Families covered 18/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 17 of 58 · Cloud Architecture Lead",
-  "detail": "Families covered 16/58"
+  "headline": "LinkedIn · Title 19 of 58 · ",
+  "detail": "Families covered 18/58"
  },
  "rules": {
   "follow_all": false,
@@ -539,6 +539,13 @@
     "time": "7:46 PM"
    },
    {
+    "company": "Insight Global",
+    "role": "Technical Architect",
+    "reason": "hands-on-coding — 'Still writes code, not only diagrams.' Hands-on coding is an explicit expectation; AI engineering core. Workarounds tried: full JD on LinkedIn read; expectation intrinsic to the posting.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
     "company": "CyberCoders",
     "role": "AI Solutions Architect - 6-month contract!",
     "reason": "hands-on-coding — 'the architect must be fully capable of building, deploying, troubleshooting, and maintaining the same solutions as the Forward Deployed / AI Engineer'; 'Strong programming skills in Python and at least one of C#/.NET or TypeScript'. Workarounds tried: full JD on LinkedIn read; duties are intrinsic to the posting; no alternate posting of the role found.",
@@ -560,6 +567,13 @@
     "time": "8:24 PM"
    },
    {
+    "company": "Ladders",
+    "role": "Technology Architecture Lead",
+    "reason": "pay-outside-band — 'Compensation: $161,000 – $241,400 annually' — top exceeds the $230,000 band top. Workarounds tried: full JD on LinkedIn (governing pay text); no alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
     "company": "Agile Rising",
     "role": "Enterprise Architect",
     "reason": "experience-mismatch — 'This is a hands-on, business-architecture-first role'; 'Deep experience in business architecture is required; experience across the other architecture domains is expected but secondary'; 'The role is primarily remote'. No Azure/cloud architecture content; 3-month contract with pay unpublished so the contract rate test cannot be met on published terms. Workarounds tried: full JD on LinkedIn read in both searches where it surfaced; no alternate posting found.",
@@ -576,9 +590,9 @@
    {
     "company": "World Wide Technology",
     "role": "Lead Cloud Solution Architect - AI & Data (AWS)",
-    "reason": "cloud-scope — AWS-first posting: title names AWS and the JD requires staying hands-on and current with AWS data and AI services; Azure is only a plus. Azure-excluded/AWS-first fails the cloud-scope filter.",
+    "reason": "cloud-scope — AWS-first: 'Deep expertise in AWS data and AI platform services: Redshift, Glue, Lake Formation, Kinesis, EMR'; Azure appears only as familiarity. Workarounds tried: full JD on LinkedIn read; no Azure-led alternate posting found.",
     "where": "LinkedIn",
-    "time": "4:26 PM"
+    "time": "8:35 PM"
    },
    {
     "company": "3Cloud",
@@ -887,6 +901,83 @@
     "reason": "hands-on-coding — Hands-on administration/operations, not architecture: 'Develop and maintain PowerShell, Azure CLI, and Infrastructure as Code automation'; 'Provide Level 3 advanced technical support for infrastructure-related escalations'; '5 or more years of hands-on enterprise IT infrastructure experience'. Workarounds tried: full JD on LinkedIn read; duties intrinsic to the posting; no alternate posting found.",
     "where": "LinkedIn",
     "time": "8:24 PM"
+   },
+   {
+    "company": "Healthmap Solutions",
+    "role": "Director of Cloud Architecture & Platform Engineering (Remote)",
+    "reason": "hands-on-coding — 'You will spend roughly 50% of your time on the tools — architecting core systems and building foundational code'; 'Core Infrastructure Development: Building out CI/CD templates'. Workarounds tried: full JD on LinkedIn read; duties intrinsic to the posting.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Ladders",
+    "role": "Enterprise Application Architecture Lead",
+    "reason": "pay-outside-band — 'Compensation: $175,300 – $262,900 annually' — top exceeds the $230,000 band top. Workarounds tried: full JD on LinkedIn (governing pay text); no alternate posting with a different range found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Ladders",
+    "role": "Security Architecture Lead",
+    "reason": "pay-outside-band — 'Compensation: $161,000 – $241,400 annually' — top exceeds the $230,000 band top; role is also security-only. Workarounds tried: full JD on LinkedIn (governing pay text); no alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Ladders",
+    "role": "Enterprise Business Architecture Lead",
+    "reason": "experience-mismatch — Business architecture only, no Azure/cloud architecture core: 'lead enterprise business architecture efforts that connect strategy, operating model priorities, and technology direction'. Workarounds tried: full JD on LinkedIn read; mismatch intrinsic to the posting.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Trace3",
+    "role": "Sr. Engineer | Hybrid Cloud Architecture",
+    "reason": "hands-on-coding — Engineer-titled implementation role: 'Implement and document solutions based on defined requirements and architectural guidelines'; core is hands-on Dell/HPE/VMware platform implementation. Workarounds tried: full JD on LinkedIn read; duties intrinsic to the posting.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Netflix",
+    "role": "Security Engineer 5 - Cloud Architecture, Tooling and Security",
+    "reason": "pay-outside-band — 'The range for this role is $400,000.00 - $680,000.00' — top far above the $230,000 band top; also AWS-operated control plane, security engineering core. Workarounds tried: full JD on LinkedIn (governing pay text); no alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Northrop Grumman",
+    "role": "Security Architecture Lead",
+    "reason": "clearance — 'CLEARANCE TYPE: Secret' and telecommuter must be 'within 90 miles of a major Northrop Grumman location for ad hoc onsite meetings'; salary top $241,400 also above band. Gate fact — rejects on sight.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "TaskVerse",
+    "role": "DevOps Engineer",
+    "reason": "experience-mismatch — Generic placeholder JD with no architect duties: 'TriOptus LLC is seeking a [Job Title] to join our team.' DevOps Engineer title, core mismatch. Workarounds tried: full JD on LinkedIn read; no substantive alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Director, Platform Software Engineering",
+    "reason": "pay-outside-band — 'US: Hiring Range in USD from: $131,200 - $306,400 per year' — top exceeds the $230,000 band top; role leads the Citrix Platform organization (OCI), not Azure architecture. Workarounds tried: full JD on LinkedIn (governing pay text); no alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "ROCS Grad Staffing",
+    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA (Remote)",
+    "reason": "experience-mismatch — IAM-only core mismatch: 'Serve as the senior technical authority across identity data, IGA, application RBAC and provisioning workstreams'; 12-month engagement contingent on a future contract award. Workarounds tried: full JD on LinkedIn read; mismatch intrinsic to the posting.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
+   },
+   {
+    "company": "Jumio Corporation",
+    "role": "Principal Enterprise Architect",
+    "reason": "cloud-scope — AWS-first with coding primary: 'Deep, hands-on expertise in AWS (e.g., EKS, IAM, Lambda, networking) is required'; 'Strong coding skills (Expert in Java, Strong in Python)'. Workarounds tried: full JD on LinkedIn read; no Azure-inclusive alternate posting found.",
+    "where": "LinkedIn",
+    "time": "8:35 PM"
    }
   ],
   "USAJOBS": [
@@ -2160,5 +2251,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T01:30:50Z"
+ "lists_generated_at": "2026-10-25T01:35:57Z"
 }
