@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T11:11:13Z",
+ "generated_at": "2026-10-25T11:15:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T11:09:35Z",
+  "last_activity_at": "2026-10-25T11:13:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 140,
@@ -26,37 +26,30 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 1,
-  "parked": 25,
-  "rejected": 138,
-  "evaluated": 166
+  "filed": 0,
+  "parked": 27,
+  "rejected": 147,
+  "evaluated": 176
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 76,
-  "filed": 1,
-  "parked": 20,
-  "rejected": 53,
-  "filed_by_source": {
-   "LinkedIn": 1
-  }
+  "evaluated": 90,
+  "filed": 0,
+  "parked": 22,
+  "rejected": 66,
+  "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 24,
    "families_total": 58,
-   "current": {
-    "company": "eClerx",
-    "role": "Solutions Architect – Retail Media & AdTech"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T11:11:13Z",
+   "heartbeat_at": null,
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -301,7 +294,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "16 of 17 units done",
+   "detail": "17 of 18 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -464,19 +457,13 @@
    }
   ]
  },
- "note": "Last activity 6:09 AM CT · 1 workers in flight · 1 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 25 of 58 · ",
-   "detail": "Families covered 24/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 6:13 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 25 of 58 · ",
-  "detail": "Families covered 24/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
