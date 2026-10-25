@@ -1,28 +1,28 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T16:56:14Z",
+ "generated_at": "2026-10-25T17:01:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T16:55:58Z",
   "progress": {
    "pools": 21,
-   "covered_units": 159,
+   "covered_units": 163,
    "total_units": 1218,
    "pct": 13
   },
-  "families_covered": 28,
+  "families_covered": 32,
   "families_total": 58
  },
  "counts": {
@@ -41,24 +41,18 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 28,
+   "phase": "queued",
+   "families_searched": 32,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 21,
-    "name": "IT Architecture Lead",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-25T16:56:14Z",
-   "detail": "Titles 28/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 32/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -296,7 +290,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "14 of 29 units done",
+   "detail": "16 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -339,7 +333,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 28,
+  "searched": 32,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -361,8 +355,8 @@
    "Cloud Infrastructure Lead": "done",
    "Principal Technical Architect": "done",
    "Technology Strategy Architect": "done",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
    "Integration Architect": "done",
    "Data Center Architect": "done",
    "Digital Transformation Architect": "done",
@@ -371,8 +365,8 @@
    "Technology Architect": "done",
    "Network Security Architect": "done",
    "Chief Architect": "done",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
    "Cloud Transformation Lead": "pending",
    "Technology Strategy Lead": "pending",
    "Enterprise Technology Lead": "pending",
@@ -465,19 +459,13 @@
    }
   ]
  },
- "note": "Last activity 11:55 AM CT · 2 workers in flight · 2 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 28/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 11:55 AM CT · 0 workers in flight · 2 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 28/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
