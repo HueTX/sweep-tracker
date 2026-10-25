@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T15:16:13Z",
+ "generated_at": "2026-10-25T15:21:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T15:15:05Z",
@@ -39,17 +39,22 @@
   "rejected": 91,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 28,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "FinThrive",
+    "role": "Lead AI Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T15:21:35Z",
    "detail": "Titles 28/58"
   },
   "W8": {
@@ -457,13 +462,19 @@
    }
   ]
  },
- "note": "Last activity 10:15 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 10:15 AM CT · 2 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 29 of 58 · ",
+   "detail": "Families covered 28/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 29 of 58 · ",
+  "detail": "Families covered 28/58"
  },
  "rules": {
   "follow_all": false,
