@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T14:56:06Z",
+ "generated_at": "2026-10-25T15:01:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T14:45:20Z",
+  "last_activity_at": "2026-10-25T14:58:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 156,
@@ -26,7 +26,7 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 30,
   "rejected": 171,
   "evaluated": 204
@@ -34,28 +34,26 @@
  "today": {
   "date": "2026-10-25",
   "evaluated": 119,
-  "filed": 0,
+  "filed": 1,
   "parked": 25,
   "rejected": 91,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
  "searching_lanes": [
-  "LinkedIn",
   "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 28,
    "families_total": 58,
-   "current": {
-    "company": "Health Management Associates",
-    "role": "Information Security Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T14:56:06Z",
+   "heartbeat_at": null,
    "detail": "Titles 28/58"
   },
   "W8": {
@@ -110,7 +108,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T14:56:06Z",
+   "heartbeat_at": "2026-10-25T15:01:21Z",
    "detail": "Employers 15/73"
   },
   "W4": {
@@ -300,7 +298,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "18 of 21 units done",
+   "detail": "19 of 21 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -463,19 +461,13 @@
    }
   ]
  },
- "note": "Last activity 9:45 AM CT · 2 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 29 of 58 · ",
-   "detail": "Families covered 28/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 9:58 AM CT · 1 workers in flight · 1 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 29 of 58 · ",
-  "detail": "Families covered 28/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
