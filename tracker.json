@@ -1,49 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:40:51Z",
+ "generated_at": "2026-10-25T20:45:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:40:27Z",
+  "last_activity_at": "2026-10-25T20:40:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 440,
+   "covered_units": 445,
    "total_units": 1218,
-   "pct": 36
+   "pct": 37
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 83,
-  "rejected": 435,
-  "evaluated": 521
+  "parked": 84,
+  "rejected": 446,
+  "evaluated": 533
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 436,
+  "evaluated": 448,
   "filed": 3,
-  "parked": 77,
-  "rejected": 356,
+  "parked": 78,
+  "rejected": 367,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -224,13 +222,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 31,
+   "phase": "queued",
+   "families_searched": 36,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:40:51Z",
-   "detail": "Employers 30/59"
+   "heartbeat_at": null,
+   "detail": "Employers 35/59"
   },
   "W17": {
    "label": "Technology",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "72 of 204 units done",
+   "detail": "73 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -544,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 3:40 PM CT · 1 workers in flight · 3 filed this run",
+ "note": "Last activity 3:40 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -1075,6 +1073,13 @@
     "reason": "not-evaluated — Work Designation. Depending on your location within the continental US, this role may be hybrid or remote.",
     "where": "Employer sites",
     "time": "3:40 PM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Enterprise Architect – Aladdin Platform Engineering, DIR",
+    "reason": "not-evaluated — BlackRock uses a hybrid work model requiring employees to work in the office at least four days per week",
+    "where": "Employer sites",
+    "time": "3:40 PM"
    }
   ],
   "LinkedIn": [
@@ -1396,6 +1401,20 @@
     "reason": "hands-on — Advanced proficiency in front-end and full-stack development using React, Node.js, and C#; Location: Houston, TX, US, 77042",
     "where": "Employer sites",
     "time": "3:14 PM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Architect Lead",
+    "reason": "not-remote — We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s).",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "AI and Security Architect, Director",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
    },
    {
     "company": "Lincoln Financial",
@@ -3088,6 +3107,69 @@
     "company": "MetLife",
     "role": "Sr Architect – Finance Reporting & Enterprise Performance Management",
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "Fidelity Investments",
+    "role": "Blockchain Architect",
+    "reason": "not-remote — Most roles at Fidelity are Hybrid, requiring associates to work onsite every other week (all business days, M-F) in a Fidelity office.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Director, Blockchain Platform Architect – Technology Incubation – R&D",
+    "reason": "not-remote — We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s).",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Financial Platforms Architect, Associate – Cross Functional Technology",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Domain Architect, Windows Endpoint",
+    "reason": "not-remote — Vanguard has implemented a hybrid working model for the majority of our crew members",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Product Architect – General, Senior Specialist",
+    "reason": "not-remote — Vanguard has implemented a hybrid working model for the majority of our crew members",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Senior Application Security Architect",
+    "reason": "not-remote — This Hybrid role (in office Tues-Wed-Thurs) is based in Charlotte, NC, Dallas, TX, or Malvern, PA",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Principal Architect – Infrastructure and Operations",
+    "reason": "not-remote — This role is eligible for hybrid work, with up to three days per week from home.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Head Enterprise Architect – Platforms and Infrastructure",
+    "reason": "not-remote — This position is no longer open.",
+    "where": "Employer sites",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Lead Architect (Salesforce)",
+    "reason": "not-remote — This role is eligible for remote work up to three days a week.",
     "where": "Employer sites",
     "time": "3:40 PM"
    }
@@ -4846,7 +4928,8 @@
    "TIAA",
    "Prudential Financial",
    "MetLife",
-   "Aflac"
+   "Aflac",
+   "BlackRock"
   ],
   "W9": [
    "Oracle",
@@ -4861,5 +4944,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T20:40:51Z"
+ "lists_generated_at": "2026-10-25T20:45:55Z"
 }
