@@ -1,47 +1,50 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:26:01Z",
+ "generated_at": "2026-10-25T20:32:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:25:21Z",
+  "last_activity_at": "2026-10-25T20:29:43Z",
   "progress": {
    "pools": 21,
-   "covered_units": 384,
+   "covered_units": 401,
    "total_units": 1218,
-   "pct": 32
+   "pct": 33
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 50,
-  "rejected": 376,
-  "evaluated": 429
+  "parked": 51,
+  "rejected": 389,
+  "evaluated": 443
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 345,
+  "evaluated": 359,
   "filed": 3,
-  "parked": 44,
-  "rejected": 298,
+  "parked": 45,
+  "rejected": 311,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -134,13 +137,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 29,
+   "phase": "searching",
+   "families_searched": 46,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 20/44"
+   "heartbeat_at": "2026-10-25T20:32:02Z",
+   "detail": "Employers 35/44"
   },
   "W9": {
    "label": "Dice",
@@ -222,12 +225,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T20:32:02Z",
    "detail": "Employers 0/59"
   },
   "W17": {
@@ -302,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "61 of 204 units done",
+   "detail": "64 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -542,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 3:25 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 3:29 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
