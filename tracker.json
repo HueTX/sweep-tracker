@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T11:11:13Z",
+ "generated_at": "2026-10-25T11:15:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T11:09:35Z",
+  "last_activity_at": "2026-10-25T11:13:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 140,
@@ -26,37 +26,30 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 1,
-  "parked": 25,
-  "rejected": 138,
-  "evaluated": 166
+  "filed": 0,
+  "parked": 27,
+  "rejected": 147,
+  "evaluated": 176
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 76,
-  "filed": 1,
-  "parked": 20,
-  "rejected": 53,
-  "filed_by_source": {
-   "LinkedIn": 1
-  }
+  "evaluated": 90,
+  "filed": 0,
+  "parked": 22,
+  "rejected": 66,
+  "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 24,
    "families_total": 58,
-   "current": {
-    "company": "eClerx",
-    "role": "Solutions Architect – Retail Media & AdTech"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T11:11:13Z",
+   "heartbeat_at": null,
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -301,7 +294,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "16 of 17 units done",
+   "detail": "17 of 18 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -464,19 +457,13 @@
    }
   ]
  },
- "note": "Last activity 6:09 AM CT · 1 workers in flight · 1 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 25 of 58 · ",
-   "detail": "Families covered 24/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 6:13 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 25 of 58 · ",
-  "detail": "Families covered 24/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -494,78 +481,8 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "date": "2026-10-25",
- "today_filings": {
-  "LinkedIn": [
-   {
-    "company": "Motion Recruitment",
-    "role": "Integration Solutions Architect",
-    "where": "LinkedIn",
-    "time": "5:44 AM",
-    "check": {
-     "company": "Motion Recruitment",
-     "filed_at": "2026-10-25T10:44:00Z",
-     "role": "Integration Solutions Architect",
-     "rules": [
-      {
-       "evidence": "Full JD read at discovery (PASS disposition 2128) and re-read by the filer before applying: enterprise integration initiatives across a Higher Education technology ecosystem using Azure Integration Services (Logic Apps, API Management, Service Bus, Event Grid, Azure Functions); 6+ month contract.",
-       "rule": "JD read in full",
-       "status": "pass"
-      },
-      {
-       "evidence": "Role's own Duties and Responsibilities section location line: United States - Remote; remote-first contract. A hybrid Philadelphia line appears only in the About-the-Company boilerplate describing a different onsite role and is not attached to this role.",
-       "rule": "100% remote US-based",
-       "status": "pass"
-      },
-      {
-       "evidence": "Pay unpublished on the posting (eligible); screening rate answer per standing answers ($90/hr contract).",
-       "rule": "Pay band",
-       "status": "pass"
-      },
-      {
-       "evidence": "Duties lead enterprise integration architecture/initiatives; no primary coding duty in the JD.",
-       "rule": "Architect-level, no whole-role hands-on coding",
-       "status": "pass"
-      },
-      {
-       "evidence": "Azure integration architecture and hybrid connectivity align with his CenterPoint/Shell/Stallion integration and Azure architecture experience.",
-       "rule": "Experience alignment",
-       "status": "pass"
-      },
-      {
-       "evidence": "No Motion Recruitment entry in application-ledger.md or do-not-reapply.md; posting ID 4485384426 not previously filed; LinkedIn showed 'Easy Apply' (not Applied) before submission.",
-       "rule": "Duplicates / do-not-reapply",
-       "status": "pass"
-      },
-      {
-       "evidence": "Not Humana/First Citizens/Oakworth/Cognizant/3Cloud; no DevSecOps title; no clearance requirement.",
-       "rule": "Exclusions",
-       "status": "pass"
-      },
-      {
-       "evidence": "The Easy Apply flow presented no veteran, race, gender, or work-authorization questions; nothing non-standard was submitted.",
-       "rule": "Veteran answer",
-       "status": "n/a"
-      },
-      {
-       "evidence": "Hubert-Samuel-Resume.pdf from the isolated per-filing path filings/motion-recruitment-integration-solutions-architect/ was uploaded via the form's file picker; contact fields resolved to samuel-hubert@outlook.com and 8323770273.",
-       "rule": "Tailored resume",
-       "status": "pass"
-      },
-      {
-       "evidence": "LinkedIn confirmation panel: 'Your application was sent to Motion Recruitment'; reopened posting header shows 'Application submitted'.",
-       "rule": "Filing proof",
-       "status": "pass"
-      }
-     ],
-     "verdict": "pass",
-     "where": "LinkedIn"
-    }
-   }
-  ]
- },
- "today_filed_by_source": {
-  "LinkedIn": 1
- },
+ "today_filings": {},
+ "today_filed_by_source": {},
  "today_parked": {
   "Employer sites": [
    {
@@ -601,9 +518,16 @@
    {
     "company": "Motion Recruitment",
     "role": "Principal Solutions Architect",
-    "reason": "credential-needed — Filing attempt for LinkedIn posting 4348477738: not previously Applied (no badge, no Jobs Tracker entry). The posting's Apply route leaves LinkedIn for Motion Recruitment's external Lever board (jobs.lever.co/motionrecruitment). Two blockers: (1) Lever's application flow requires creating a Lever account first — mandatory password creation plus a personal-information collection agreement — before any form fields unlock; per the standing rule a new account password is never invented, so the filing parks as credential-needed (Hubert sets credentials via the Secure Vault). No resume was uploaded and nothing was submitted. (2) UNRESOLVED ROUTE CONFLICT for the next attempt: the Principal Solutions Architect listing visible on the Lever board is tagged 'Toronto, ON, Canada' (green Location pill; application form shows City/Postal Code fields), while the LinkedIn detail JD read at discovery (PASS disposition 2125) states 100% Remote, United States, $200,000-$230,000. The Lever posting's JD body did not render, so the filer could not confirm whether the Toronto listing is the same requisition as LinkedIn 4348477738 or a different Motion posting. Next attempt must first confirm the correct external requisition and its remote/US status before any account step.",
+    "reason": "credential-needed — CORRECTION enriching the PARKED record (disposition 2168) with the filer's terminal return; the park itself stands and nothing was submitted in any session. Session 1 found the route leaving LinkedIn for Motion's Lever board, where the visible Principal Solutions Architect listing was tagged Toronto, ON and the flow required creating a Lever account (mandatory password) before applying — credential-needed. The terminal session (runtime-measured 10:40-10:43Z) found that LinkedIn ID 4348477738 now resolves to an unrelated, closed Securitas 'Construction Site Security Officer' posting and that no matching Motion Principal Solutions Architect role appears in LinkedIn search — posting-ID resolution is unstable this run, so the intended requisition's identity must be re-established from a live listing before any new attempt. Blockers: (1) Lever account creation (Hubert sets credentials via Secure Vault), (2) posting identity/remote status unverifiable from the captured ID.",
     "where": "LinkedIn",
-    "time": "5:45 AM"
+    "time": "6:13 AM"
+   },
+   {
+    "company": "Motion Recruitment",
+    "role": "Integration Solutions Architect",
+    "reason": "filed-unverified — CORRECTION retracting the FILED record (disposition 2167). Two filer sessions for this posting now conflict: an interim session reported an Easy Apply confirmation ('Your application was sent to Motion Recruitment', 05:44 CDT), but the filer's TERMINAL return (runtime-measured 10:40-10:44Z) found the opposite on direct verification: posting 4485384426 showed 'Unable to load the page / Job id provided may not be valid or the job posting has been removed' on three opens, the role was absent from the LinkedIn Applied list's first page (317 entries), absent from Motion's own site search, and unfindable by quoted-JD-phrase search. LinkedIn posting-ID resolution has been demonstrably unstable throughout this run (detail pages rendering unrelated postings under captured IDs). With the only filing proof contradicted by the terminal verification, the FILED cannot stand: it is retracted to PARKED filed-unverified. DO NOT resubmit until the Applied state is established by a full Applied-list scan via the search-context route; if a genuine submission is confirmed there, re-confirm by correction; if the role relists under a valid ID and no application exists, file fresh.",
+    "where": "LinkedIn",
+    "time": "6:13 AM"
    },
    {
     "company": "Insight Global",
@@ -611,6 +535,13 @@
     "reason": "not-evaluated — JD could not be verified after real attempts: the search snippet and the opened detail page disagreed — the detail page rendered a different posting ('AI Automation & Cloud Engineer (Remote) - INTL', posted 2026-10-18) under this lead, and two reopen attempts failed. The IAM Architect identity-governance JD was never read, so no verdict is taken (unread JD is not a reject). Left for the next unit to reopen posting 4483610053 directly.",
     "where": "LinkedIn",
     "time": "5:34 AM"
+   },
+   {
+    "company": "eClerx",
+    "role": "Solutions Architect – Retail Media & AdTech",
+    "reason": "posting-removed — Terminal filing record for unit 238, resolving the earlier uncertainty: three filer sessions concur that NO application was ever submitted. The first filer's step-limit cutoff occurred before any submission; the re-dispatched verification session (runtime-measured 10:57-11:01Z) scanned the LinkedIn Applied tracker (4 pages / 40 entries plus all 6 Drafts) and found no eClerx entry. The posting itself no longer exists on LinkedIn: direct opens repeatedly show 'Unable to load the page / Job id provided may not be valid or the job posting has been removed', the role is absent from eClerx's live LinkedIn listings and from eClerx's own careers site (Oracle Candidate Experience searches for 'Solutions Architect', 'Retail Media', 'AdTech' returned no such role). No resume was uploaded in any session. Parked as posting-removed; re-file only if the role relists under a live ID.",
+    "where": "LinkedIn",
+    "time": "6:13 AM"
    },
    {
     "company": "Fidelity TalentSource",
@@ -771,6 +702,13 @@
     "time": "4:07 AM"
    },
    {
+    "company": "Glansa Associates",
+    "role": "Genesys Cloud CX Architect",
+    "reason": "not-remote — Same late Unit 15 session, full JD read on LinkedIn: 'Working mode: Onsite' — stated onsite work mode = not-remote. Workarounds tried: employer's own JD governs; no remote alternate posting.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
     "company": "NetApp",
     "role": "Principal Solutions Architect",
     "reason": "not-remote — Full JD read on LinkedIn: despite the Remote chip, the description states 'At NetApp, we embrace a hybrid working environment designed to strengthen connection, collaboration' — a stated hybrid schedule in the governing JD text. No published pay. Workarounds tried: the hybrid wording is in the employer's own JD on the finding surface; no alternate posting of this role appeared in either family search.",
@@ -790,6 +728,27 @@
     "reason": "experience-mismatch — Technical Skills headed by \"Blue Yonder (Version 8.2)/JDA - MOCA, Report Writer, Jasper, Java, C+, .NET\" and \"Blue Yonder/JDA – System Setups and Configuration\" — deep Blue Yonder/JDA platform hands-on experience is a core, title-level requirement he does not hold. Workarounds tried: (1) employer's own Workday posting (REQ-1000045438) is the governing route — same requirements, and it also walls on Create Account with no saved login; (2) no alternate posting found. Correction supersedes the PASS: filer re-verified the full JD on LinkedIn 2026-10-25.",
     "where": "LinkedIn",
     "time": "4:07 AM"
+   },
+   {
+    "company": "Property Solutions Inc.",
+    "role": "Independent Engineering Consultant",
+    "reason": "experience-mismatch — Same late Unit 15 session, full JD read on LinkedIn: 'You will conduct Property Condition Assessments (PCA) and Construction Monitoring (CM) for various contract opportunities nationwide.' — physical property/construction assessment consulting, not IT architecture: core experience mismatch. Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
+    "company": "Tekshapers",
+    "role": "Generative AI Architect",
+    "reason": "hands-on — Same late Unit 15 session, full JD read on LinkedIn: 'Demonstrated hands-on projects with LLMs, fine-tuning, RAG implementation, or agentic workflows.' — hands-on AI build work as a core requirement = hands-on reject. Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
+    "company": "Mixpanel",
+    "role": "Customer Value Architect III",
+    "reason": "experience-mismatch — Same late Unit 15 session, full JD read on LinkedIn: 'The Customer Value Architects team sits inside the revenue organization and owns the connection between what customers buy and what they actually get out of Mixpanel.' — a revenue-org customer-value/product-adoption role at a single-product vendor, not cloud/enterprise architecture: core experience mismatch. Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
    },
    {
     "company": "GlitchX Studios",
@@ -993,6 +952,34 @@
     "reason": "not-remote — Detail-verified on LinkedIn: 'Location: East Coast (Hybrid); Employment Type: Full-Time' — stated hybrid = not-remote. Workarounds tried: employer's own JD governs; no fully-remote alternate posting.",
     "where": "LinkedIn",
     "time": "5:39 AM"
+   },
+   {
+    "company": "pSemi, A Murata Company",
+    "role": "Principal Engineer, RF Power Amplifier Architect (Remote - Cedar Rapids, Iowa)",
+    "reason": "experience-mismatch — Late-recorded from the Unit 15 browser task's Identity Architect session (harness-measured 10:33-10:36Z, 2026-10-25), whose full-JD reads landed after the unit's main batches. Full JD read on LinkedIn: 'This position is responsible for the leadership and design of advanced RF power amplifier platforms for cellular and Wifi front end applications.' — RF hardware engineering architecture, not IT/cloud/enterprise architecture: core experience mismatch. Pay top $286,686.68 also exceeds the band top. Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
+    "company": "Red Hat",
+    "role": "Architect, OpenShift - Active Top Secret Clearance",
+    "reason": "clearance — Same late Unit 15 session, full JD read on LinkedIn: 'Successful applicants must reside in a state where Red Hat is registered to do business and hold an Active Top Secret Clearance.' — an active Top Secret clearance is required; gate fact, rejected on sight (no workaround owed).",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
+    "company": "CloudPires",
+    "role": "Architect (Remote)",
+    "reason": "experience-mismatch — Same late Unit 15 session, full JD read on LinkedIn: 'As an Architect with Everforth GlideFast, you will be responsible for the overall architectural design and delivery assurance of ServiceNow solution.' — a ServiceNow-platform delivery architect role (GlideFast); his record carries no ServiceNow platform architecture practice — core experience mismatch. Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
+   },
+   {
+    "company": "CloudPires",
+    "role": "SecOps/IRM Architect (Remote)",
+    "reason": "experience-mismatch — Same late Unit 15 session, full JD read on LinkedIn: 'As an Architect with GlideFast Consulting, you will be responsible for the overall architectural design and delivery assurance of ServiceNow solution.' — ServiceNow SecOps/IRM platform delivery role; core experience mismatch (no ServiceNow practice on record). Workarounds tried: employer's own JD governs.",
+    "where": "LinkedIn",
+    "time": "6:11 AM"
    }
   ],
   "Employer sites": [
@@ -1086,6 +1073,41 @@
     "reason": "not-remote — From the same late-delivered W2 unit-63 report: Enterprise Solution Architect, Georgia Technology Authority, Atlanta, GA — hybrid work arrangement, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
     "where": "Employer sites",
     "time": "6:09 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (houstontx.gov -> governmentjobs.com/careers/houston), which the first search surface missed — this record corrects that coverage gap. Full JD read: IT ARCHITECT - APPLICATIONS (Responsible AI & Innovation), Houston Information Technology Services, Job Number 39858, opened 10/20/2026. 'Reporting Location: 611 WALKER / 1200 TRAVIS'; 'Workdays & Hours: MONDAY - FRIDAY, Office Hours'; working conditions 'essentially normal office environment'; no remote/telework language in the JD = not-remote. Salary $4,594.00-$5,646.62 biweekly (top ~$146,812/yr) also below the band floor. Duties themselves are on-point (city AI strategy/governance, Azure AI/Copilot) — rejected on remote and pay only. COVERAGE CORRECTION for Unit 64: Nevada NEATS was in fact searched directly in this return (Search Phrase 'Architect', any location/group/department) and returned 'No Matching Jobs' — 0 architect postings; the 'NEATS timed out / unqueried' statement in disposition 2124's evidence is superseded by this fuller return. Miami-Dade remained unreachable (Cloudflare bot-wall loop across repeated attempts) — explicitly not a 0-result.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "IT Architect",
+    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (statejobs.utah.gov Cornerstone portal; the governmentjobs surface searched earlier surfaced a different Utah posting). Full JD read: IT Architect, Division of Technology Services, req2748, posted 10/09/2026 (outside the 7-day window; deadline 10/18/2026). 'Remote Work / In-Office - Hybrid' = not-remote. Also GCP-first with hands-on language requirements: 'Manages Google Cloud Platform architecture for the Google Workspace projects'; 'Expert in the following programming languages: Java, JavaScript, and Python.' Pay top $87.46/hr would have passed; remote, freshness, and platform fit fail.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "ITS14 - Application Architect, Salesforce",
+    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (governmentjobs.com/careers/michigan), which the first task's Michigan pass missed. Full JD read: 'offers a hybrid work option which requires two days working on-site at the official work location and three days of remote work per week' = not-remote. Pay $38.75-$56.64/hr (top ~$117,811/yr) also below the band floor; Salesforce platform focus.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Wisconsin",
+    "role": "Enterprise Application Architect",
+    "reason": "pay-outside-band — Recorded late from Unit 62's fuller portal return (wisc.jobs), which the first task's Wisconsin pass missed. Full JD read: 'The starting pay is between $107577 and $136635 per year' — top $136,635 is below the $160,000 band floor = pay-outside-band. Posted 10/15/2026 (outside the 7-day window) and Wisconsin-restricted despite a 100%-remote statement.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Indiana",
+    "role": "Enterprise Applications Architect",
+    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (workforindiana.in.gov) — a second, distinct Indiana architect posting from the one in disposition 2165. Full JD read: 'This position is with INDOT's Central Office in Indianapolis.' — no remote/telework stated = not-remote; core experience is also Salesforce/MuleSoft-specific ('at least 5+ years of experience in Salesforce technical architecture, MuleSoft API platform architecture'). Posted 10/16/2026, outside the 7-day window.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
    }
   ]
  },
@@ -2156,5 +2178,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T11:11:13Z"
+ "lists_generated_at": "2026-10-25T11:15:55Z"
 }
