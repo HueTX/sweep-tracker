@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T18:43:26Z",
+ "generated_at": "2026-10-25T18:46:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T17:32:35Z",
@@ -41,7 +41,11 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W2",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -79,34 +83,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T18:46:52Z",
    "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 52,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T18:46:52Z",
    "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 22,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T18:46:52Z",
    "detail": "Employers 30/73"
   },
   "W4": {
@@ -542,7 +546,7 @@
    }
   ]
  },
- "note": "Last activity 12:32 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 12:32 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
