@@ -1,50 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:01:06Z",
+ "generated_at": "2026-10-25T20:05:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T19:59:40Z",
+  "last_activity_at": "2026-10-25T20:02:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 254,
+   "covered_units": 273,
    "total_units": 1218,
-   "pct": 21
+   "pct": 22
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 41,
-  "rejected": 267,
-  "evaluated": 311
+  "parked": 42,
+  "rejected": 277,
+  "evaluated": 322
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 235,
+  "evaluated": 246,
   "filed": 3,
-  "parked": 36,
-  "rejected": 196,
+  "parked": 37,
+  "rejected": 206,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W3",
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -104,24 +101,24 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 54,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:01:06Z",
-   "detail": "Employers 70/73"
+   "heartbeat_at": null,
+   "detail": "Employers 73/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 7,
+   "phase": "queued",
+   "families_searched": 22,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:01:06Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "40 of 204 units done",
+   "detail": "43 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -545,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 2:59 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 3:02 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -740,6 +737,13 @@
     "reason": "not-evaluated — Fresh W2 lead found via the State of Alabama Personnel Department official posting (Closing Date 11/4/2026; search result dated Oct 21, 2026, within the 7-day window): 'IT Solutions Architect (Information Technology)' - listed salary band 86 ($81,304 - $137,376 shown in the finding snippet only). The full governing JD could not be loaded after real attempts: spd.alabama.gov job-spec PDF fetches failed and the main announcement page returned only a title, so pay band (snippet top appears below the $160K floor but is NOT the employer's confirmed band), remote status, duties and cloud scope are all unverified. JD-first rule: no verdict from a snippet. Left for the next unit with a working route to the full spec. Workarounds tried: (1) employer portal job-spec PDF (failed to load), (2) alternate announcement page (title only), (3) no alternate full posting found.",
     "where": "Employer sites",
     "time": "1:47 PM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Information Systems - Databricks - Remote",
+    "reason": "not-evaluated — Built In carries Molina's Senior Architect, Information Systems - Databricks - Remote (crawled 1 hour ago): 'Serve as the subject matter expert for Databricks Lakehouse, Data Engineering, Analytics, AI/ML... Deep expertise in Databricks, Spark, Delta Lake, Unity Catalog'. However, Dice and Recruit.net mirrors of the same Azure Databricks posting are 339-361-day crawls and no published date could be verified from governing text this unit, so freshness inside the 7-day window is unestablished; the Databricks/Spark data-engineering core would also need an experience-alignment ruling. Left unevaluated - not a reject. Molina coverage: Senior Architect, Artificial Intelligence Security requires 'Proficient in Python' and its Dice mirror is a 218-day crawl.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
    },
    {
     "company": "Molina Healthcare",
@@ -970,6 +974,792 @@
   ]
  },
  "today_rejected": {
+  "Employer sites": [
+   {
+    "company": "Alkermes",
+    "role": "Senior Architect, Commercial Platforms & Integrations (Hybrid)",
+    "reason": "not-remote — Alkermes' own Built In company page lists 'Senior Architect, Commercial Platforms & Integrations (Hybrid)' as 'Hybrid - Waltham, MA, USA', posted 2 months ago: a stated hybrid schedule (not 100% remote) and also outside the 7-day window. Duties per the listing: 'Lead CRM solution and integration workstreams from design through deployment and stabilization... implement integrations with middleware like MuleSoft'. Workarounds tried: (1) the employer's Built In page is the governing listing text; (2) no fully-remote repost of the role found. Alkermes coverage: Director, Core & Cloud Infrastructure is In-Office Waltham MA (1 month ago, not an architect title); Senior Director, Emerging Technology and Engineering was a 248-day crawl with pay $246,000-$275,000 (above band).",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Solutions Architect",
+    "reason": "hands-on-coding — Solutions Architect (Software Developer) needed for Parallon Revenue Cycle Services... Engage in analysis, design, architecture and development of .Net based computer applications. Use C#, ASP.Net, WCF, MVC... — full posting read on HCA's own site (Job ID 4985685, 'May WFH anywhere in the US', min. salary $152,152/yr as a single figure, also below the $160K band floor). Core duties are hands-on .NET/C# software development, not architect-level work. Workarounds tried: employer's own posting is the governing text; no alternate architect-level posting of this role.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "Solution Architect I",
+    "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ — employer ATS (commonspirit.careers, Job ID 2025-431697) also states 'Remote, No' and demands 'a blend of hands-on Linux administration expertise—including advanced scripting, automation, and troubleshooting—within a high-performance computing (HPC) environment'; posted compensation $43.10 - $64.11/hour. Full JD read on the employer's own site (governing text). Workarounds tried: (1) employer's own ATS posting — quoted above; (2) alternate routes Dice/Jobright mirrors of the same Solution Architect I / BNI role carry the same Phoenix on-site HPC role; (3) no alternate remote posting of the same role found.",
+    "where": "Employer sites",
+    "time": "6:56 AM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Architect",
+    "reason": "experience-mismatch — Full JD read on CommonSpirit's own site (Job ID 2026-492050, Remote: Yes, Chicago IL Remote, $69.41-$103.25/hour): role coordinates implementation/integration of applications and its required expertise is the Adobe stack — 'AJO Expertise (Adobe Journey Optimizer); Adobe Experience Platform (AEP); Adobe Target/CJA/Adobe Campaign'. Core platform specialization is Adobe Experience Platform delivery, which does not align with the candidate's Azure/cloud/enterprise architecture experience (no Adobe platform experience on record). Posted date not shown on the ATS. Workarounds tried: employer's own posting is the governing text; the other remote keyword matches on the site are not architect titles.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Senior Network Load Balancing Architect",
+    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452069, Location: Remote, #LI-Remote): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Senior Network Architect Security",
+    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452068, Remote, Saint Louis MO): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Architect V, Integration",
+    "reason": "stale — Recorded late from W3 unit 66's definitive return (employer site kaiserpermanentejobs.org, full JD read): Date Posted 09/17/2026 - outside the 7-day eligibility window; Worker Location: Flexible (not 100% remote). Pay $140,800-$182,160. Duties: 'Leads the development of solution architectures, roadmaps, and system transition plans.' Workarounds tried: employer's own ATS posting is the governing text.",
+    "where": "Employer sites",
+    "time": "11:41 AM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Healthcare Technology Solutions Architect",
+    "reason": "stale — Recorded late from W3 unit 66's definitive return (kaiserpermanentejobs.org, full JD read): Date Posted 09/10/2026 - outside the 7-day window; Worker Location: Flexible (not 100% remote). Pay $173,500-$224,510. Workarounds tried: employer's own ATS posting is the governing text.",
+    "where": "Employer sites",
+    "time": "11:41 AM"
+   },
+   {
+    "company": "Mayo Clinic",
+    "role": "Distinguished Enterprise Architect - Robotics",
+    "reason": "not-remote — Recorded late from W3 unit 66's definitive return (jobs.mayoclinic.org, full JD read): 'Remote: No' and 'This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus.' Also posted 09/21/2026 (stale), pay top $277,867.20 above the $230K band ceiling, robotics domain mismatch. Workarounds tried: employer's own ATS posting is the governing text.",
+    "where": "Employer sites",
+    "time": "11:41 AM"
+   },
+   {
+    "company": "AdventHealth",
+    "role": "Entra/Active Directory Architect",
+    "reason": "not-remote — Recorded late from W3 unit 66's definitive return (jobs.adventhealth.com, full JD read): 'Location Type: On-site Flexible' (Altamonte Springs, FL) - not 100% remote; pay $84,531.20-$157,248.00 (top below the $160K floor); required skills include 'C#, .NET, web application development' (hands-on). No posted date shown on the posting page. Workarounds tried: employer's own ATS posting is the governing text.",
+    "where": "Employer sites",
+    "time": "11:41 AM"
+   },
+   {
+    "company": "Banner Health",
+    "role": "Cybersecurity Architect",
+    "reason": "stale — Full JD read via freehire mirror of Banner Health's own posting (Dept IT Tech Solution Arch-Corp): 'As a Cybersecurity Architect, you will serve as the organization's senior-most individual contributor for cybersecurity architecture, responsible for defining and driving the enterprise security strategy, architecture roadmap, and long-term vision across major technology platforms.' and 'This is a remote opportunity, Monday-Friday 8AM-5PM.' Published: 2026-10-02T00:00:00Z — 23 days before 2026-10-25, outside the 7-day eligibility window = stale. Secondary: minimum qualifications require 'ten plus years experience in a healthcare environment' — candidate healthcare industry years on record = 0. Estimated Pay Range $57.38 - $95.64/hour. Workarounds tried: (1) employer's own posting text is governing; (2) search for a fresher alternate posting found none; (3) no alternate live posting of this role.",
+    "where": "Employer sites",
+    "time": "8:37 AM"
+   },
+   {
+    "company": "Banner Health",
+    "role": "Principal Enterprise Cloud Architect",
+    "reason": "stale — Full JD read on Dice (Banner Health's own posting text): 'This is a remote position... can be a remote position if you live in the following states only: ... TX ...' and 'Leads cross-functional teams to design, implement, and optimize Banner Health's multi-cloud infrastructure across Azure, AWS, and OCI.' Published: 2026-10-15T20:50:48Z — 10 days before 2026-10-25, outside the 7-day eligibility window = stale. Secondary: Estimated Pay Range $76.73 - $127.88/hour (top annualized above the $230K band ceiling) and core functions include designing/implementing automation tools and hands-on service offerings. Workarounds tried: (1) employer's own posting text via Dice is the governing text; (2) web search for a fresher alternate posting of this role found none; (3) no alternate posting on other boards in this unit.",
+    "where": "Employer sites",
+    "time": "8:37 AM"
+   },
+   {
+    "company": "Biogen",
+    "role": "Sr. IT Solution Architect, Access Automation",
+    "reason": "not-remote — Full JD read on Built In (Sr. IT Solution Architect, Access Automation - Biogen): 'This is a hybrid role requiring on site presence 3 days per week' in 'Cambridge, MA or Research Triangle Park, NC' - a stated required office schedule, not 100% remote. Also 'Published: 2026-09-18' (37 days old, outside the 7-day window); pay $140,000-$187,250 (top in band). Workarounds tried: (1) Built In carries the full employer JD text with hybrid terms and published date; (2) no fully-remote repost of the same role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Novartis",
+    "role": "Solution Architect IT/OT",
+    "reason": "not-remote — Novartis's own career search (novartis.com career-search, crawled 3 days ago) lists: 'Solution Architect IT/OT | Barcelona Gran Via | Spain | Operations | Development | Information Technology | Oct 20, 2026' - a fresh posting but sited in Barcelona, Spain, not US-based; the sweep is US-only / 100% remote US. All other Novartis architect listings found were likewise Spain (Barcelona) or India (Hyderabad) based. Workarounds tried: (1) employer's own career search is the governing source for location; (2) no US-based posting of this role found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal Architect – Enterprise Security",
+    "reason": "stale — Published: 2026-09-24 (before the 2026-10-18 eligibility floor); salary also out of band: 'The salary for this role will range from $134,600 $230,800 annually' (top $230,800 > $230,000 cap). Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — mirrors reproduce the same req/date; (3) alternate posting — no fresher UHG security-architecture posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Manager, Advisory Services – Cloud Architect – Remote",
+    "reason": "stale — Full JD read on UnitedHealth Group's own careers site (Manager, Advisory Services - Cloud Architect - Remote, Optum Insight): 'Published: 2026-10-06' - 19 days old, outside the 7-day eligibility window (stale is a gate fact). Remote 'from anywhere within the U.S.' and pay $112,700-$193,200 (top in band) otherwise; required qualifications also include '5+ years of experience with sales process and opportunity tracking and management'. Workarounds tried: (1) the employer's own careers page is the governing text; (2) Dice mirror is the same posting (8-day crawl).",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "aws-first — Full JD read via DailyRemote (Principal Cloud Architect - CVS Health): 'This role sets the technical direction for how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires' - an AWS-first platform scope, outside the cloud-scope rule. The role is remote within the continental USA. Workarounds tried: (1) the mirror carries the employer's full JD text; (2) no Azure-led variant of the role found.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Connecticut state portal",
+    "role": "IT Solution Architect",
+    "reason": "stale — Published: 2025-06-03 — posting is more than 7 days old, outside eligibility window. Remote role duties otherwise aligned: 'developing, maintaining and implementing a technical roadmap'. Workarounds tried: (1) employer's own ATS posting on jobapscloud.com is the governing text checked, (2) alternate route via search result mirror, same date, (3) no alternate fresher posting of same role found.",
+    "where": "Employer sites",
+    "time": "4:47 AM"
+   },
+   {
+    "company": "Connecticut state portal",
+    "role": "Director of Strategy and Enterprise Architecture",
+    "reason": "not-remote — Hybrid work environment (located at 55 Farmington Avenue, Hartford, CT)",
+    "where": "Employer sites",
+    "time": "4:47 AM"
+   },
+   {
+    "company": "Oklahoma state portal",
+    "role": "Solution Architect of Data & AI",
+    "reason": "not-remote — Position is on-site in Oklahoma City, OK. Also hands-on: 'Design and code full-stack data and AI solutions' and 'codes reference implementations'. Workarounds tried: (1) employer's own OMES posting via career.io mirror is governing text showing on-site, (2) alternate route search found same on-site text, (3) no alternate remote posting of same role found.",
+    "where": "Employer sites",
+    "time": "4:47 AM"
+   },
+   {
+    "company": "Louisiana state portal",
+    "role": "Architect 1-3",
+    "reason": "pay-outside-band — Architect 1: (TS312) $2,277.60 biweekly (approximately $59,218 annually); Architect 3: (TS316) $2,780.80 biweekly (approximately $72,301 annually) — building architect role, licensed architecture, located in Office of State Fire Marshal statewide, work schedule 8:00 AM to 4:30 PM Monday-Friday, top well below $160,000 band. Workarounds tried: (1) employer's own GovernmentJobs posting is governing text, (2) alternate print route same pay, (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "4:47 AM"
+   },
+   {
+    "company": "State of Utah DFCM",
+    "role": "Construction Project Architect",
+    "reason": "experience-mismatch — W2 sector sweep, Utah state portal (governmentjobs.com/careers/utah), keyword 'architect' over 318 results returned exactly 1 architect-titled opening. Full JD read on the portal: Construction Project Architect, Division of Facilities Construction and Management (DFCM), Salt Lake City, UT, $33.20-$52.96/hr — a facilities/construction architect role (buildings, design/construction documents, building codes); core duties are physical-building architecture, not Azure/cloud/enterprise IT architecture, and the rate top (~$110K annualized) is also below the band. Workarounds tried: employer's own portal JD is the governing text; no alternate IT-architect posting on this portal. UNIT COVERAGE: Utah searched (0 IT-architect postings); City of Houston portal searched, keyword 'architect' = 0 current results (only closed F00076 IT Architect Applications, closed 09/02/2026, and F00162 Intern Architect, closed 07/13/2026 — both stale/closed); Miami-Dade careers searched after real attempts, public search returned no listing content, 0 verifiable architect postings; Nevada NEATS (nvapps.state.nv.us) timed out on two attempts — portal UNQUERIED this unit, carries to next W2 unit.",
+    "where": "Employer sites",
+    "time": "5:34 AM"
+   },
+   {
+    "company": "State of Indiana",
+    "role": "IT Director of Enterprise Architecture & Strategic Planning",
+    "reason": "pay-outside-band — W2 sector sweep, Indiana portal (workforindiana.in.gov, keyword 'architect', 46 postings reviewed): 'Working Title: IT Director of Enterprise Architecture & Strategic Planning' (Posting ID 457325; agency req reported inconsistently as 00312717/00512717, so no req id is recorded). Full text: 'Salary: The salary for this position traditionally starts at $118,225 but may be commensurate... up to $148,000' — top $148,000 is below the $160,000 band floor = pay-outside-band; location Indianapolis, IN, hybrid-eligible only, also not 100% remote. UNIT COVERAGE: Minnesota mn.gov/careers searched (Job Title = architect) — 0 architect postings found. Wisconsin wisc.jobs searched — 0 architect postings found (only Architecture Specialist-Advanced in the broader result set, a non-qualifying title). Michigan michigan.gov searched — 0 qualifying architect postings found (one Departmental Analyst trainee flagged non-qualifying on its own detail page).",
+    "where": "Employer sites",
+    "time": "5:42 AM"
+   },
+   {
+    "company": "State of Tennessee",
+    "role": "Computer Systems Architect",
+    "reason": "pay-outside-band — W2 sector sweep, Tennessee portal (tn.gov, agency-filtered posting list verified): Computer Systems Architect, Department of General Services, Req 10152026, open 10/15-10/28/2026. Full text: '$5,077 - $7,906 per month' (top $94,872/yr) — below the $160,000 band floor = pay-outside-band; location Nashville, Davidson County, non-telework, also not-remote. Coverage: Tennessee was the only other portal of the five with a genuine architect-titled posting; no PASS leads in this unit.",
+    "where": "Employer sites",
+    "time": "5:42 AM"
+   },
+   {
+    "company": "Arizona Department of Administration",
+    "role": "IT Enterprise Architect",
+    "reason": "closed — Workarounds tried: (1) employer's own ATS azstatejobs.gov searched live 2026-10-25 06:17-06:20 CDT - query JR100187: No results found; query IT Enterprise Architect: 4 fuzzy results, none matching; query Enterprise Architect: 2 results, none matching; query Architect: 12 results, none matching; Department=DEPT OF ADMINISTRATION filter: all 14 current postings listed, none is IT Enterprise Architect/JR100187; Google site search site:azstatejobs.gov IT Enterprise Architect: no results. Posting is closed/removed - gate fact, reject on sight. Corroborating: DB posted_date 2026-10-16 is 9 days before 2026-10-25, beyond the 7-day eligibility window (stale); the PASS record itself flagged the filer must re-verify remote terms and req on azstatejobs.gov, and that verification fails because the posting no longer exists.",
+    "where": "Employer sites",
+    "time": "6:21 AM"
+   },
+   {
+    "company": "State of Colorado",
+    "role": "Senior IT Architect",
+    "reason": "not-remote — From the same late-delivered W2 unit-63 report (full portal/JD checks): Senior IT Architect, Governor's Office of Information Technology, Req 2025-10540 — JD/portal states the role is NOT eligible for full-time remote work (Colorado residency / hybrid arrangement) = not-remote; also $118,872-$142,644, top below the band floor. Workarounds tried per report: employer's own portal text governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Jefferson County (Colorado)",
+    "role": "Solutions Architect",
+    "reason": "not-remote — From the same late-delivered W2 unit-63 report: Solutions Architect, Jefferson County, Golden, CO — hybrid, 3 days onsite / 2 days remote = not-remote. Workarounds tried per report: employer's own posting governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "State of Connecticut",
+    "role": "IT Solution Architect",
+    "reason": "not-remote — From the same late-delivered W2 unit-63 report: IT Solution Architect, State of Connecticut (DAS/BITS) — Hartford, CT, hybrid telework arrangement, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Florida Agency for Health Care Administration",
+    "role": "IT Enterprise Architect",
+    "reason": "not-remote — From the same late-delivered W2 unit-63 report: IT Enterprise Architect, Florida AHCA, Tallahassee, FL — on-site/hybrid state role, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Florida Department of Children and Families",
+    "role": "Senior Cloud Solutions Architect",
+    "reason": "experience-mismatch — From the same late-delivered W2 unit-63 report: Senior Cloud Solutions Architect, Florida DCF — JD emphasizes hands-on AWS services, automation, CI/CD, and infrastructure engineering as core duties; whole-role hands-on cloud engineering under an architect title, AWS-first — experience/hands-on mismatch. Workarounds tried per report: employer's own JD governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Georgia Technology Authority",
+    "role": "Enterprise Solution Architect",
+    "reason": "not-remote — From the same late-delivered W2 unit-63 report: Enterprise Solution Architect, Georgia Technology Authority, Atlanta, GA — hybrid work arrangement, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (houstontx.gov -> governmentjobs.com/careers/houston), which the first search surface missed — this record corrects that coverage gap. Full JD read: IT ARCHITECT - APPLICATIONS (Responsible AI & Innovation), Houston Information Technology Services, Job Number 39858, opened 10/20/2026. 'Reporting Location: 611 WALKER / 1200 TRAVIS'; 'Workdays & Hours: MONDAY - FRIDAY, Office Hours'; working conditions 'essentially normal office environment'; no remote/telework language in the JD = not-remote. Salary $4,594.00-$5,646.62 biweekly (top ~$146,812/yr) also below the band floor. Duties themselves are on-point (city AI strategy/governance, Azure AI/Copilot) — rejected on remote and pay only. COVERAGE CORRECTION for Unit 64: Nevada NEATS was in fact searched directly in this return (Search Phrase 'Architect', any location/group/department) and returned 'No Matching Jobs' — 0 architect postings; the 'NEATS timed out / unqueried' statement in disposition 2124's evidence is superseded by this fuller return. Miami-Dade remained unreachable (Cloudflare bot-wall loop across repeated attempts) — explicitly not a 0-result.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "IT Architect",
+    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (statejobs.utah.gov Cornerstone portal; the governmentjobs surface searched earlier surfaced a different Utah posting). Full JD read: IT Architect, Division of Technology Services, req2748, posted 10/09/2026 (outside the 7-day window; deadline 10/18/2026). 'Remote Work / In-Office - Hybrid' = not-remote. Also GCP-first with hands-on language requirements: 'Manages Google Cloud Platform architecture for the Google Workspace projects'; 'Expert in the following programming languages: Java, JavaScript, and Python.' Pay top $87.46/hr would have passed; remote, freshness, and platform fit fail.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "ITS14 - Application Architect, Salesforce",
+    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (governmentjobs.com/careers/michigan), which the first task's Michigan pass missed. Full JD read: 'offers a hybrid work option which requires two days working on-site at the official work location and three days of remote work per week' = not-remote. Pay $38.75-$56.64/hr (top ~$117,811/yr) also below the band floor; Salesforce platform focus.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Wisconsin",
+    "role": "Enterprise Application Architect",
+    "reason": "pay-outside-band — Recorded late from Unit 62's fuller portal return (wisc.jobs), which the first task's Wisconsin pass missed. Full JD read: 'The starting pay is between $107577 and $136635 per year' — top $136,635 is below the $160,000 band floor = pay-outside-band. Posted 10/15/2026 (outside the 7-day window) and Wisconsin-restricted despite a 100%-remote statement.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "State of Indiana",
+    "role": "Enterprise Applications Architect",
+    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (workforindiana.in.gov) — a second, distinct Indiana architect posting from the one in disposition 2165. Full JD read: 'This position is with INDOT's Central Office in Indianapolis.' — no remote/telework stated = not-remote; core experience is also Salesforce/MuleSoft-specific ('at least 5+ years of experience in Salesforce technical architecture, MuleSoft API platform architecture'). Posted 10/16/2026, outside the 7-day window.",
+    "where": "Employer sites",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Consulting Application Architect",
+    "reason": "closed — This job posting is no longer active.",
+    "where": "Employer sites",
+    "time": "6:56 AM"
+   },
+   {
+    "company": "Providence",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions, Virtual",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland — candidate is Houston, TX based, outside every eligible location; full JD read (Requsition ID: 420852, Workplace Type: Remote, WA Renton address). Duties are otherwise enterprise architecture leadership ('you'll be the driving force behind architectural vision and execution... shaping roadmaps, standards, and governance'), but the location restriction fails the 100% remote US filter for this candidate. Workarounds tried: (1) employer's own posting text via Providence Jobs req 420852 as mirrored in full; (2) alternate routes Dice/hiring.cafe versions of the same req state virtual only for WA/OR/CA residents — Texas still excluded; (3) no alternate unrestricted posting of the same role found.",
+    "where": "Employer sites",
+    "time": "6:56 AM"
+   },
+   {
+    "company": "Trinity Health",
+    "role": "Enterprise Architect (REMOTE)",
+    "reason": "posting-removed — Live check of Trinity Health's own careers site (jobs.trinity-health.org, 2026-10-25): architect search returned exactly 1 job (Project Manager, Construction, Muskegon MI) — no architect-titled postings at all, at any date or location. CORRECTS disposition 2199 (parked not-evaluated): the governing employer site does not carry the mirrored Enterprise Architect (REMOTE) listing, so the lead is resolved as not a live posting. Workarounds tried: (1) employer's own ATS search — absent; (2) mirrors whatjobs/recruit.net carried only 54-78-day-old snapshots; (3) no alternate posting on the employer site.",
+    "where": "Employer sites",
+    "time": "7:45 AM"
+   },
+   {
+    "company": "Sutter Health",
+    "role": "Principal Architect - Cloud, Data, And Analytics",
+    "reason": "not-remote — Full JD read on Simplify (Sutter Health posting, Posted on 3/27/2025, Sacramento CA): 'This position is hybrid with some onsite work in Sacramento.' — stated hybrid/onsite schedule = not-remote. Duties otherwise align ('Translate business requirements and functional specifications into robust, scalable cloud-based solutions'); Pay Range $75.45 to $120.72/hour. Workarounds tried: (1) employer's own posting text via Simplify is governing; (2) search for a remote alternate posting of this Sutter architect role found none; (3) the other Sutter architect index hit (Cloud Engineering Architect - Azure, $165k-$264k mirror) is also not a fresh remote posting. UNIT COVERAGE (W3 unit 67, all 5 employers searched across the 58 families): Intermountain Health — no fresh remote architect posting found; index hits are stale crawls only (Data Architect Senior, hybrid with monthly in-person, 210-day crawl; Salesforce Solutions Architect-Consultant, 13 days old on aggregator and Salesforce-specific). Banner Health — 2 architect postings read in full and recorded here (both stale); Senior Data Platform Architect aggregator hit is 19 days old. Advocate Health / Atrium Health — no fresh architect posting found; only architect index hit (Analytics Solution Architect) is a 193-day crawl. Northwell Health — no fresh architect posting found; all index hits are 105-296-day crawls, including a GCP-first Google Cloud Solutions Architect. Sutter Health — this hybrid posting only.",
+    "where": "Employer sites",
+    "time": "8:37 AM"
+   },
+   {
+    "company": "Mass General Brigham",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Hybrid role with onsite work required; candidates must be flexible based on weekly or monthly business needs. Remote Type: Hybrid, Work Location 399 Revolution Drive, Somerville MA. Workarounds tried: (1) employer's own posting text via Ladders mirror carries the governing Remote Type=Hybrid field; (2) alternate routes (web search across Ladders/italents/diversityjobs) show the same hybrid posting; (3) no alternate remote posting of this role found. Also stale: published 2026-08-31, outside 7-day eligibility.",
+    "where": "Employer sites",
+    "time": "9:33 AM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Chief IT Applications Engineer/Architect, AEM EDS AKS UI Full Stack",
+    "reason": "hands-on-coding — Recorded late from W3 unit 66's definitive return (kaiserpermanentejobs.org, full JD read): posted 06/12/2026 (stale); 'Work location is on-site at a KP location, with the flexibility to work from home' (not-remote); JD states the position practices 'hands on coding integrations, APIs, microservices, and cloud-based applications.' Workarounds tried: employer's own ATS posting is the governing text.",
+    "where": "Employer sites",
+    "time": "11:41 AM"
+   },
+   {
+    "company": "Prime Healthcare",
+    "role": "Lead Data Architect",
+    "reason": "stale — Posting Date 08/26/2025",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Prime Healthcare",
+    "role": "Enterprise (Cloud) Architect",
+    "reason": "not-remote — Facility Prime Healthcare Management Inc; Location US-CA-Ontario; Category Business Professional; Department IT ADMIN; Status Full Time; Shift Days",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Universal Health Services",
+    "role": "Clinical Architect",
+    "reason": "not-remote — the position is based in Virginia Beach and described as onsite/hybrid",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Tenet Healthcare",
+    "role": "Applications Architect",
+    "reason": "not-remote — Plano, TX - Hybrid (location and work model shown on the employer's own listing; no remote option)",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "LifePoint Health",
+    "role": "Data Conversion Architect",
+    "reason": "not-remote — Louisville, KY - Hybrid (ScionHealth posting surfaced through LifePoint Health's official careers site)",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Enterprise Architect Principal",
+    "reason": "stale — Full JD read on SAIC careers (Req 2515880): 'Job Description: SAIC is seeking an Enterprise Architect Principal to join our team in support of the Department of Transportation (DOT)' - remote anywhere in US, duties enterprise architecture artifacts/roadmaps - but 'Posted Date: 08 Oct 2025', far outside the 7-day window (also SAIC is a federal contractor, not a federal agency portal). Workarounds tried: (1) employer ATS governing text read in full; (2) alternate route via web search; (3) no fresher posting of the same role found.",
+    "where": "Employer sites",
+    "time": "1:47 PM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Solutions Architect",
+    "reason": "stale — Full JD read on SAIC careers (Req 2513523): 'Description: SAIC is seeking a Science and Technology Solutions Architect to support our customer, the US Space Force' - 'Location: REMOTE WORK, VA, US' - but 'Posted Date: 11 Sep 2026', outside the 7-day eligibility window for 2026-10-25. Workarounds tried: (1) employer ATS governing text read in full; (2) alternate route via web search; (3) no fresher posting found.",
+    "where": "Employer sites",
+    "time": "1:47 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Sr Mgr Enterprise Architecture",
+    "reason": "not-remote — Full JD read on HCA's own ATS (careers.hcahealthcare.com/jobs/3665830-sr-mgr-enterprise-architecture-nashville-tennessee-united-states, Req 43964): Nashville, TN posting whose introduction reads 'As a Senior Manager of Enterprise Architecture with HCA Healthcare's TriStar Division in Nashville' - an on-site division role, not 100% remote (also posted October 7, 2026, outside the 7-day window). Workarounds tried: (1) employer's own ATS posting is the governing text; (2) no alternate remote posting of the same req found.",
+    "where": "Employer sites",
+    "time": "1:47 PM"
+   },
+   {
+    "company": "Elevance Health",
+    "role": "Infrastructure Architect Executive",
+    "reason": "not-remote — LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week … candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment. Workarounds tried: (1) employer ATS governing text (careers.elevancehealth.com, opened in full); (2) alternate route — Simplify/Career.io mirrors show the same hybrid model; (3) alternate posting — Elevance AI Application Architect Senior is also in-office 1 day/week hybrid.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Enterprise Data Warehouse (EDW) Architect - OI State Government Solutions - Remote",
+    "reason": "stale — Published: 2026-09-28 (before the 2026-10-18 eligibility floor). Also hands-on: 'Hands-on development experience with Python and advanced SQL, including automation, data processing, troubleshooting, and code review.' Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — search mirrors carry the same Sep 28 posting; (3) alternate posting — other UHG architect postings checked below, all older.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Principal Architect - Cloud Native (Cloud and Observability)",
+    "reason": "stale — Published: 2026-08-24 (before the 2026-10-18 eligibility floor); pay top also out of band: 'The typical pay range for this role is: $144,200.00 - $288,400.00'; role is hands-on: 'This is a hands-on role. You'll write architecture docs, build proof-of-concepts, configure OTel pipelines, and present to leadership.' Workarounds tried: (1) employer ATS — jobs.cvshealth.com searched, no live matching posting; full JD read via Built In reproduction; (2) alternate route — JobLookup copy same role; (3) alternate posting — Aetna Principal Cloud Architect above, also rejected.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Cigna Group / Evernorth",
+    "role": "Head of Enterprise Architecture (Managing Director), Evernorth Health Services (Hybrid)",
+    "reason": "not-remote — Title/designation is '(Hybrid)' — Austin, TX + Morristown, NJ / St. Louis, MO / Hartford, CT, 'Hybrid'; posted 5/23/2026 (stale); salary also out of band: 'we anticipate offering an annual salary of 209,600 - 349,300 USD / yearly'. Workarounds tried: (1) employer governing text via full JD reproduction on Simplify/Career.io (Cigna JD text); (2) alternate route — Adzuna/Monster copies also Hybrid; (3) alternate posting — no remote Cigna EA posting found (the two Cigna EA roles already filed, req 26011519 and the Data/APIs Senior Principal, are duplicates and were not returned).",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Sentara Health",
+    "role": "Principal Enterprise Architect - AI",
+    "reason": "stale — Published: 2026-07-03 (before the 2026-10-18 eligibility floor). Texas was remote-eligible ('Sentara Health employs associates in the following states: … Texas …') but the posting is stale. Workarounds tried: (1) employer JD text read in full via Built In reproduction of the Sentara posting; (2) alternate route — Recruit.net clinical-systems variant is a different, clinical (Epic/PACS) role; (3) alternate posting — Sentara ServiceNow Principal Domain Architect is already filed (2026-09-23, do-not-reapply).",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Oscar Health",
+    "role": "Salesforce Platform Solutions Architect",
+    "reason": "not-remote — 'This is a remote position, open to candidates who reside in: Atlanta, GA. You will be fully remote; however, our approach to work may adapt over time. Future models could potentially involve a hybrid presence at the hub office associated with your metro area.' Houston, TX is not an eligible residence; a second copy restricts residence to Dallas, TX only. Pay top was in band ($176,053.50) but residence restriction governs. Workarounds tried: (1) employer's own job board (General Catalyst/Greenhouse listing, opened in full); (2) alternate route — Hiring.cafe/Ladders copies carry the same metro restriction; (3) alternate posting — no other Oscar architect posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Providence Health Plan",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions (Virtual)",
+    "reason": "not-remote — 'Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California' — Texas is excluded, so not-remote for Hubert (Houston, TX). Workarounds tried: (1) employer JD text read in full via Dice/Monster reproductions of the Providence posting; (2) alternate route — JobLeads copy identical state list; (3) alternate posting — no TX-eligible Providence Health Plan architect posting found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Principal OT AI Solution Architect",
+    "reason": "not-remote — Houston, Texas — Relocation will not be considered. Full JD on careers.chevron.com (Published: 2026-10-19) contains no remote language; role is Houston-based: 'We are seeking an OT Solutions Architect specializing in artificial intelligence to define how AI capabilities move safely and consistently from concept and field trial into supported operational use.' workarounds tried: (1) employer ATS governing text — this Chevron careers JD itself, Houston/no-relocation; (2) alternate route — search mirrors show same Houston location; (3) alternate posting — no remote variant of this req found, other Chevron architect req is a different role.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Solution Architect – DevOps Pipeline",
+    "reason": "stale — Published: 2026-10-12 (before 2026-10-18 eligibility cutoff, on careers.chevron.com). Also pipeline-core: 'Designing and supporting the DevOps CICD Pipeline and Enterprise development and deployments at a large enterprise scale.' Location Houston, Texas. workarounds tried: (1) employer ATS governing text — this Chevron JD; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost of this req found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working — Relocation Assistance: This role is eligible for relocation within country. Mirror of bp JD also states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — energyjobsearch mirror, same hybrid text; (3) alternate posting — no fully-remote variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead solution architect",
+    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working. Also cloud-scope concern: 'Proficiency in cloud platforms (AWS preferred), API integration, and data architecture.' Mirror states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — same hybrid/AWS-preferred text on mirror; (3) alternate posting — no fully-remote/Azure variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Cloud Domain Architect",
+    "reason": "not-remote — Location: 3000 N. Sam Houston Parkway E., Houston, Texas, 77032, United States — no remote language in full JD; mirror states 'Job post no longer accepts applications'. Architect duties otherwise aligned: 'Own the cloud infrastructure domain architecture for Azure (primary) and AWS (secondary)'. workarounds tried: (1) employer ATS governing text — Halliburton JD text as mirrored; (2) alternate route — hiring.cafe mirror lists it Houston/Onsite; (3) alternate posting — no remote variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect, Midstream Operations",
+    "reason": "stale — Published: 2026-10-09 (before 2026-10-18 cutoff). Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Pay Min/Max: $106,900.00 - $184,300.00 Salary. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same 2026-10-09 date in search results; (3) alternate posting — no fresher repost found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Lead Solution Architect",
+    "reason": "stale — Published: 2026-09-08 (before 2026-10-18 cutoff). Location: Houston TX One Allen Center; Location Address: 500 Dallas St Ste 2900. Role is Workday HR architecture, not cloud/enterprise core. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Cloud Enterprise Architect Remote and Drilling Performance Applications",
+    "reason": "stale — Published: 2024-09-07T03:34:38+00:00 (far before 2026-10-18 cutoff); Houston, TX location; only flexible-hours pattern offered, no fully-remote language. Duties: 'Conducting architectural evaluation, design, and analysis of Remote and Drilling Performance Applications' with 'Experience with AWS Deployments'. workarounds tried: (1) employer ATS governing text — Baker Hughes JD text as mirrored; (2) alternate route — same old posting in search results; (3) alternate posting — no fresh variant found.",
+    "where": "Employer sites",
+    "time": "1:57 PM"
+   },
+   {
+    "company": "National Geospatial-Intelligence Agency",
+    "role": "User Experience Architect (Hiring Event)",
+    "reason": "clearance — Full USAJOBS JD read by the W1 worker (unit 248 definitive return, delivered late): posted 2026-10-19 (fresh, in-window) but the announcement states 'Security Clearance - Top Secret / Sensitive Compartmented Information (SCI)' - an active TS/SCI is required, a gate fact that rejects on sight; no workaround owed.",
+    "where": "Employer sites",
+    "time": "1:58 PM"
+   },
+   {
+    "company": "King County",
+    "role": "Identity and Access Management (IAM) Solutions Architect",
+    "reason": "not-remote — Definitive W2 verdict (unit 249 worker's late full return) superseding the earlier PARKED not-evaluated for this lead: full JD loaded via the King County posting's Indeed mirror + LinkedIn announcement (published 2026-10-21): 'Hybrid Work: KCIT works in a hybrid model, with days in the office as well as telecommuting. The primary onsite location is the Chinook Building, 401 5th Ave, Seattle, WA' and employees must reside in Washington state within reasonable distance of the worksite - not 100% remote and not Texas-eligible. Salary $160,892 - $203,941 (top was in band). Workarounds tried: (1) employer portal governing text via mirror of the King County posting, (2) alternate route LinkedIn, (3) no alternate posting found; residency/hybrid is posting-intrinsic.",
+    "where": "Employer sites",
+    "time": "1:58 PM"
+   },
+   {
+    "company": "Duke Energy",
+    "role": "Principal Architect – Nuclear IT",
+    "reason": "not-remote — This is a Hybrid role; the candidate will sit in Richmond VA. (Full JD read on Duke Energy's own ATS, jobs.duke-energy.com/job/Richmond-Principal-Architect-Nuclear-IT-VA-23219/1338718600/ — governing text, workaround route 1; same posting mirrored on LinkedIn/Indeed with no remote variant, routes 2-3 checked.)",
+    "where": "Employer sites",
+    "time": "2:04 PM"
+   },
+   {
+    "company": "Exelon",
+    "role": "Principal Solutions Architect",
+    "reason": "not-remote — This position requires the employee to be on-site at least three (3) times per pay period… The position will be located at the following Exelon corporate office: Chicago, IL. (Full JD read on Exelon's own Taleo ATS — governing text, workaround route 1; no alternate remote posting of the same role found, routes 2-3 checked.) Salary $117,600.00-$164,880.00 top in band; remote requirement is the failing filter.",
+    "where": "Employer sites",
+    "time": "2:04 PM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Principal Solutions Architect - Public Sector",
+    "reason": "not-remote — Flexible Persona: 'We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work...' — the role is a Flex / office-anchored posting: 'spend time in the office three to five days a week based on business needs.' Full JD read on ServiceNow's own Workday ATS (governing text, workaround route 1; no remote variant of the same req found). Also stale: Created Date 2025-03-27.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Sr. Solution Architect - Cloud Specialist",
+    "reason": "experience-mismatch — Responsibilities include delivering AWS partner accreditations including AWS Migration Evaluator (Business Case Analysis), AWS Well-Architected Framework reviews and reports including leading client meetings, AWS MAP and OLA assessments and reports, and AWS Funding (MDF, POC credits, MAP Credits). The whole role is AWS-platform delivery / partner accreditation work, a core mismatch with his Azure/enterprise-architecture experience (and AWS-first scope). Full JD read on CrowdStrike's own iCIMS ATS (governing text, workaround route 1). Posted 2025-05-19 (also stale).",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "Snowflake",
+    "role": "Resident Solution Architect (RSA) - Snowflake Cortex AI and Agentic AI Platform",
+    "reason": "pay-outside-band — The base salary range for this job is $200,000 to $284,000. — published top $284,000 is above the $230,000 pay-band ceiling. Full JD read on Snowflake's own Greenhouse posting (governing text, workaround route 1; gate-adjacent published pay figure, no alternate posting changes the employer's range). Posted 2025-10-06 (also stale). Role is additionally a product-specific Cortex AI resident/embedded delivery role.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Sr. Partner Solutions Architect, AI",
+    "reason": "pay-outside-band — Zone B: $251,640 USD - $318,270 USD; Zone A: $279,600 USD - $353,600 USD; Zone C: $230,900 USD - $291,800 USD; Zone D: $286,700 USD - $376,200 USD. — every zone's top exceeds the $230,000 pay-band ceiling. Full JD read on Atlassian's own Lever posting (governing text, workaround route 1). Posted 2025-10-10 (also stale). Distinct req from the Atlassian role filed 2026-10-11 (Senior Partner Solutions Architect - Cloud Platform, RTX1672ce) — not a duplicate.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "Capital One",
+    "role": "Senior Manager, Distinguished Lead AI Architect - Cyber Security Architecture (Remote-Eligible was listing title; JD itself names only office locations)",
+    "reason": "pay-outside-band — 'The minimum and maximum full-time annual salaries for this role are based on location... Plano, TX: $246,400 - $281,200... Richmond, VA: $246,400 - $281,200... McLean, VA: $271,000 - $309,300' — posted 2026-10-22 on Capital One's own careers site; every published location range tops above the $230,000 band ceiling, and every named location is an on-site office hub with no remote option. Full JD read on the employer's own site (governing text, workaround route 1).",
+    "where": "Employer sites",
+    "time": "2:16 PM"
+   },
+   {
+    "company": "Nationwide",
+    "role": "Staff Consultant, Software Architect",
+    "reason": "stale — Nationwide Taleo ATS (employer's own site) full JD: 'Posted: Sep 15, 2026' — before the 2026-10-18 eligibility floor; 'Compensation Grade H5: $134,500 - $271,500' — top also above the $230,000 band ceiling. Location: 'This position can be filled remotely.' Re-verification of the W16 lane on the employer's own ATS (34 architect results) found this as the ONLY remote architect posting; an earlier worker's claimed in-band Nationwide PASS could not be reproduced there.",
+    "where": "Employer sites",
+    "time": "2:24 PM"
+   },
+   {
+    "company": "Honeywell",
+    "role": "Sr. Advanced Systems Engineer (Device/Connectivity)",
+    "reason": "not-remote — Innovate to solve the world's most important challenges — location Ankara, Ankara, Türkiye (KM): the only in-window architect-adjacent posting at the five W18 employers searched (Honeywell, Eaton, Caterpillar, Cummins, Deere) is based in Türkiye, not the US; fails the US-based 100% remote requirement. Full JD read on Honeywell's own careers site (governing text).",
+    "where": "Employer sites",
+    "time": "2:34 PM"
+   },
+   {
+    "company": "Xcel Energy",
+    "role": "IT Solution Lead (Application Delivery)",
+    "reason": "not-remote — Xcel Energy supports a hybrid work model to enable collaboration and flexibility. Many roles are expected to work onsite three days per week (Tuesday–Thursday); — full JD read on Xcel Energy's own careers site (posted 2026-10-23); pay top also below band floor ($150,000) and title is not architect-level. Late record: the W6 worker's full return arrived after unit completion.",
+    "where": "Employer sites",
+    "time": "2:52 PM"
+   },
+   {
+    "company": "Xcel Energy",
+    "role": "IT Solution Lead (Corporate Platforms & Systems)",
+    "reason": "not-remote — Xcel Energy supports a hybrid work model to enable collaboration and flexibility. Many roles are expected to work onsite three days per week (Tuesday–Thursday); — full JD read on Xcel Energy's own careers site (posted 2026-10-21); salary $97,600.00 to $138,600.00 per year, top also below the $160,000 band floor. Late record: the W6 worker's full return arrived after unit completion.",
+    "where": "Employer sites",
+    "time": "2:52 PM"
+   },
+   {
+    "company": "Edward Jones",
+    "role": "Senior Infrastructure Security Architect",
+    "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week. — posting open from 19-Oct-2026 (in-window, posted 2026-10-19); mirror versions of the same role also show Hiring Maximum: $239100, above the $230,000 band ceiling. Full JD text read by the W16 worker; late record from its full return, which arrived after unit completion.",
+    "where": "Employer sites",
+    "time": "2:52 PM"
+   },
+   {
+    "company": "FedEx",
+    "role": "Solutions Architect III - Commercial",
+    "reason": "pay-outside-band — Pay $7,987-$11,980/mo (top approx $143,760/yr, below the $160,000 band floor). Duties are a full commercial sales cycle: 'you take full ownership of the opportunity — running executive discovery, architecting the integration blueprint, conducting live technical demonstrations, managing the POC, structuring commercial proposals, negotiating contracts, and closing the deal.' Posted 2026-10-19 (in-window). Late record: the W20 worker's full return arrived after unit completion.",
+    "where": "Employer sites",
+    "time": "2:52 PM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Senior Principal Enterprise Architect",
+    "reason": "stale — Full JD read on Penn Medicine's own ATS (careers.pennmedicine.org/jobs/17975611-senior-principal-enterprise-architect, Job ID 327781): 'Published: 2026-07-08' - over 3 months old, far outside the 7-day eligibility window; also 'Work Schedule: Hybrid' and 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104' (not-remote). Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) alternate board mirrors (myjboard listing) show the same req; (3) no alternate fresh remote posting of the same role found. UNIT COVERAGE (W3 unit 71): ProMedica - web searches found no architect postings (Indeed company page: 'There are no open jobs at ProMedica currently'); Johns Hopkins Medicine - only architect listings found were stale crawls (Enterprise IT Architect 252 days ago, Enterprise Research IT Architect 52 days ago), no fresh (posted >=2026-10-18) architect posting in this slice.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Corporate Director Enterprise Cloud Architecture",
+    "reason": "not-remote — Full JD read on Penn Medicine's own ATS (careers.pennmedicine.org/jobs/17975495-corporate-director-enterprise-cloud-architecture, Job ID 327777): 'Work Schedule: Hybrid' and 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104' - a stated required hybrid schedule, not 100% remote (also 'Published: 2026-07-08', outside the 7-day window). Duties otherwise aligned (Azure as primary platform, multi-cloud governance). Workarounds tried: (1) employer's own ATS posting is the governing text; (2) alternate board mirror shows the same hybrid req; (3) no alternate remote posting of the same role found.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Senior Principal EA Research Technology",
+    "reason": "closed — Penn Medicine's own ATS page (careers.pennmedicine.org/jobs/18119927-senior-principal-ea-research-technology, Job ID 327780) states at the top: 'This job posting is no longer active.' Closed posting - gate fact, rejects on sight, no workaround owed. (The role was listed 'Location: Remote based out of Philadelphia, PA' but is closed.)",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Senior Principal EA Infrastructure and DR Strategy",
+    "reason": "closed — Penn Medicine's own ATS page (careers.pennmedicine.org/jobs/17975496-senior-principal-ea-infrastructure-and-dr-strategy, Job ID 327779) states at the top: 'This job posting is no longer active.' Closed posting - gate fact, rejects on sight, no workaround owed. (Also 'Work Schedule: Hybrid', 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104'.)",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "UCLA Health",
+    "role": "Senior Data Architect",
+    "reason": "not-remote — Full JD read on UCLA Health's own ATS (uclahealth.avature.net/careers/JobDetail/28540): 'This flexible hybrid role allows for a blend of remote and on-site work, requiring presence on-site at least 10% of the time' - not 100% remote; also 'The full salary range for this position is $ 132,300 - $ 307,100 annually' - top $307,100 above the $230K band ceiling. Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) Career.io/Nexxt mirrors carry the same hybrid terms and range; (3) no alternate remote posting of the same req found.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Stanford Health Care",
+    "role": "Enterprise Information Management Solution Architect",
+    "reason": "not-remote — Full JD text read via CareerBuilder mirror of the Stanford Health Care posting (Req R2654158): '1.0 FTE Full time Day - 08 Hour R2654158 Hybrid 108480015 TDS Enterprise Information Management Technology & Digital Solutions PALO ALTO, 1830 Embarcadero, California' - a Hybrid Palo Alto role, not 100% remote; all mirrors found were 28-219-day-old crawls, also outside the 7-day window. Workarounds tried: (1) employer's posting text as mirrored is governing and states Hybrid; (2) alternate mirrors (SonicJobs, Career.io, GrabJobs, Recruit.net) all carry the same Hybrid designation; (3) no alternate remote posting of the same req found.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "MD Anderson Cancer Center",
+    "role": "Enterprise Data Architect",
+    "reason": "closed — MD Anderson's own ATS (careers.mdanderson.org/jobs/data-management-architect-3287, Requisition # 106788) states: 'Thanks for your interest in the Enterprise Data Architect position. Unfortunately this position has been closed'. Closed posting - gate fact, rejects on sight, no workaround owed. UNIT COVERAGE (W3 unit 72): NYU Langone Health - only architect listings found were stale (Enterprise Cloud Architect - AWS crawled 196/81 days ago and AWS-first; Cloud Enterprise Architect - Azure crawled 157 days ago), none fresh; Mount Sinai Health System - Cyber Security Architect listing dated 2 months ago on DailyRemote, all other architect listings 190+ day crawls, none fresh; RWJBarnabas Health - IAM Security App Architect Req 0000222817 (218-day crawl), Security Architecture Lead Req 0000200121 (60-day crawl), Security Risk App Architect Req 0000175309 (27-day crawl), all outside the 7-day window with no fresh architect posting found.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "CAI",
+    "role": "Enterprise Architect (Chat Platform)",
+    "reason": "cloud-scope — Full JD text read via Glassdoor (Req R8798, Full time, Worksite flexibility: Remote, contract): 'The Enterprise Architect (Chat Platform) leverages deep expertise in Google Cloud Platform (GCP) and modern web technologies to lead in the design and implementation of an enterprise Chat Platform' and 'Drive the effective application of modern cloud-native technologies (e.g., GCP services, TypeScript, Node.js, Dialogflow, Gemini Enterprise for Customer Experience - GECX)' - a GCP-first role with no Azure scope; cloud-scope gate - GCP-first/Azure-excluded postings are out. UNIT COVERAGE (W8 Web Catch-All restart, unit 259): web searches run across Enterprise/Solutions/Cloud/Azure architect families, remote, Oct 2026; other surfaced leads: Publix Cloud Architect - Platform Architecture (Remote) posted Jun 22, 2026 (stale); Built In Principal Solutions Architect published 2026-10-23 but 'Location: UK (Remote)' (US-only fail, employer unnamed in listing); Qureos Remote BPM Solution Architect - Azure and GenAI at $130,000-$155,000 (top below the $160K floor, plus C#/.NET proficiency duties); Senior Cloud Architect (GCP) published 2026-10-19 on an aggregator mirror (GCP-first, employer unnamed); no other fresh in-scope PASS found this unit.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Humana",
+    "role": "Lead Enterprise Architect - Remote US",
+    "reason": "employer-excluded — Fresh posting surfaced via Educativ mirror (Published: 2026-10-24T11:18:58+0000; Application Deadline: 10-27-2026): 'Lead Enterprise Architect - Remote US' at Humana. Humana is an absolute exclusion - never touch, in any lane. Gate fact, rejects on sight, no workaround owed and no filing attempted. (Distinct title from the 'Lead Technology Architect' Humana record already in this run.)",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "CAI",
+    "role": "Application Architect",
+    "reason": "hands-on-coding — Full JD read on Built In (builtin.com/job/application-architect/6276488, Job ID R5388, Full time, Remote): duties are hands-on .NET development - 'Develop enterprise-level applications and custom integrations', 'Plan, design, and develop complex software solutions', 'Conduct code reviews'; required: 'Minimum of 10 years of design and development experience with .NET, C#, ASP.NET, Oracle, and SQL Server' and 'In-depth knowledge of programming languages'. Whole role is hands-on coding under an Architect title. Also 'Published: 2025-05-20' (stale). Workarounds tried: (1) Built In carries the employer's full JD text; (2) no alternate architect-level (non-coding) posting of this req found.",
+    "where": "Employer sites",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Johnson & Johnson",
+    "role": "Professional, Enterprise Architect",
+    "reason": "not-remote — Full JD read on J&J's own ATS (careers.jnj.com/en/jobs/r-103724/professional-enterprise-architect; Published: 2026-10-20, fresh, closing Oct 27 2026): 'DePuy Synthes is recruiting for a(n) Professional, ERP Architecture located in New Brunswick, NJ or West Chester, PA or Palm Beach Gardens, FLR or Warsaw, IN' with tag '#LI-Hybrid' - a site-based hybrid role, not 100% remote; also 'The anticipated base pay range for this position is: 79,000.00 - 142,000.00 USD Annual' - top $142,000 below the $160K band floor. Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) no alternate remote posting of the same req found. UNIT COVERAGE (W3 unit 73): Pfizer - all Enterprise Architect listings found were stale (Director EA AI & Data 70-day crawl; Director EA PGS Published 2026-02-05; Director EA Patient Services Platforms already recorded REJECTED stale in unit 250 this run - not duplicated); Eli Lilly - Platform Architect LVA was a 222-246-day-old posting re-crawled on Built In, Sr AI Solution Architect is Indianapolis-located, Cloud & Kubernetes Platform Engineer is hybrid Indianapolis with relocation required and engineer-level; AbbVie - all architect listings found were 70-315-day-old crawls based in North Chicago, none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Merck & Co.",
+    "role": "Solution Architect - Market Access and Revenue Management",
+    "reason": "closed — Full JD read via Talentally mirror of Merck's Workday posting (Requisition ID: R315690, Rahway, NJ): 'Job Posting End Date: 12/31/2024' - the posting's own end date passed long ago (expired/closed; gate fact). The JD also states 'Flexible Work Arrangements: Hybrid' and 'Hybrid working model' for Rahway, NJ. No workaround owed for a closed posting; no live alternate posting of this req found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Solutions Architect, GPS BI&T",
+    "reason": "aws-first — Full JD read on Built In (R1599743): 'This role focuses heavily on AWS cloud services' - 'Design end-to-end architecture across CHIP (Cell Health Intelligence Platform) applications using: EKS/ECS, Dockers, Containers, Lambda, API Gateway, SQS/SNS and EventBridge; Aurora PostgreSQL, DynamoDB, S3, Kinesis, Glue ETL/Streaming' - an AWS-first role (Azure absent), also 'Proficiency in Python/Java/Node.js' required and 'Published: 2026-07-07' (stale); other mirrors place the role in Hyderabad, India. AWS-first postings are out under the cloud-scope rule. Workarounds tried: (1) Built In carries the full employer JD text; (2) Adzuna/Swooped mirrors carry the same AWS-first JD; (3) no Azure-scoped alternate posting of this req found. UNIT COVERAGE (W3 unit 74): Amgen - Senior Principal AWS Cloud Architect was a 46-day-old BioSpace crawl and AWS-first/hands-on IaC, all other architect listings India-based or 56-361-day crawls, none fresh US remote; AstraZeneca - all architect listings found were UK (Macclesfield) or India (Chennai) with 244-336-day crawls, none US; Sanofi - Strategic Solution Architect (Morristown, NJ) listings were 259-362-day-old crawls, site-based, none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "GSK",
+    "role": "Senior Principle Architect",
+    "reason": "stale — Full JD read on Built In (Senior Principle Architect - Enterprise Architect, DevCMO Tech): 'Published: 2025-07-14' - over a year old, far outside the 7-day eligibility window (stale is a gate fact). UNIT COVERAGE (W3 unit 75): Novo Nordisk - all architect listings found were Denmark (Bagsvaerd/Ballerup/Hellerup) or India (Bangalore) with 81-357-day crawls, none US; Moderna - Tech Lead/Solutions Architect, Data Platform is 'based in Warsaw, Poland' (Built In, crawled 1 day ago) and Fellow, AI Architecture (Cambridge, MA) was a 215-232-day crawl with pay up to $437k, none fresh US remote; Regeneron - all architect listings found were 30-318-day crawls for on-site NY roles (Sleepy Hollow/Troy), none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Roche / Genentech",
+    "role": "Solution Architect, Intelligent Visualization and Insights",
+    "reason": "stale — Full JD read on Built In (Solution Architect, Intelligent Visualization and Insights - Roche): 'Published: 2025-10-09' - over a year old, outside the 7-day eligibility window (stale is a gate fact). Other Roche/Genentech architect listings found were Poland-based Solution Architect roles (287-272-day crawls) and a South San Francisco Research & Early Development Enterprise Architect requiring 'onsite work 3 days per week' (232-day crawl). Workarounds tried: (1) Built In carries the full employer JD text with its published date; (2) no fresher repost of the same role found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Customer Engagement Platforms Architect",
+    "reason": "not-remote — Full JD read on Built In (Customer Engagement Platforms Architect - Vertex Pharmaceuticals): 'Flex Designation: Hybrid-Eligible Or On-Site Eligible' and '#LI-Hybrid' - a stated hybrid schedule, not 100% remote. Also 'Published: 2026-03-31' (stale, outside the 7-day window) and pay range $197,600-$296,400 (top above the $230,000 ceiling). Workarounds tried: (1) Built In carries the full employer JD text with flex designation and published date; (2) no fully-remote repost of the same role found. UNIT COVERAGE (W3 unit 76): Zoetis - Built In company page shows a 2-day-old Remote US role leading the CIAM function (recorded separately as not-evaluated; title/JD not identifiable from the company page); Zoetis Manufacturing & Supply Enterprise Architect (Remote) was a 38-day crawl; Becton Dickinson (BD) - all architect listings found were 73-274-day crawls (Bengaluru, Durham NC, San Diego), none fresh.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Gilead Sciences",
+    "role": "Cloud Platform Engineering Architect (AWS)",
+    "reason": "aws-first — JD text carried in Dice/GrabJobs/Career.io mirrors of Gilead's Cloud Platform Engineering Architect posting: the role owns 'design, development and delivery of technical code' for the AWS Control Tower Landing Zone, with 'Terraform development' and 'Platform development, coding, automation' duties - an AWS-first, hands-on platform-engineering role, outside cloud scope and the whole-role hands-on test. All mirrors are 255-285-day crawls (also stale). Workarounds tried: (1) mirror JD text is the employer's own posting text; (2) no Azure/multi-cloud variant of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Baxter International",
+    "role": "Solutions Architect",
+    "reason": "stale — Full JD read on Built In (Solutions Architect - Baxter International Inc.): mirror last crawled 31 days ago, outside the 7-day eligibility window (stale is a gate fact). The JD also requires 'Programming Languages: Proficient in C++, Python, Java, or similar' - hands-on proficiency. UNIT COVERAGE (W3 unit 77): Baxter - a second Solution Architect listing is for France (Connected Care, 'influence sales in France', non-US) and the Embedded Qt Software Architect listings (43-264-day crawls) are embedded software development roles; Teva Pharmaceuticals - PAM Architect in Sofia, Bulgaria (299-day crawl), Cyber Security Solutions Architect in Zagreb, Croatia (354-day crawl), Network Architect in Parsippany NJ originally posted April 2022 - no fresh US architect posting; Viatris - Enterprise Architect mirror was a 342-day crawl, the Built In MarTech content-ecosystem role (Pittsburgh, in-office or remote, 19 days) is a product/content leadership role rather than an architect-family posting, and the Senior Director ERP Delivery role is not an architect title - none qualifying.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Medtronic",
+    "role": "IT Architect Advisor - Enterprise Architecture Data and AI",
+    "reason": "stale — JD text carried in Career.io/GrabJobs/Swooped mirrors of Medtronic's IT Architect Advisor - Enterprise Architecture Data and AI: every mirror is a 216-245-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The JD also states 'We're working onsite 4 days a week' across named Medtronic sites - not remote. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Enterprise Solutions Architect",
+    "reason": "pay-outside-band — Full JD read via eQuest (Siemens Healthineers Enterprise Solutions Architect, Tarrytown, NY; listing crawled 1 hour ago, valid through 07 November 2026): 'paying $172,690.00-$237,446.00/year' - the published top of range $237,446 exceeds the $230,000 band ceiling, so the posting fails the pay band on its published figures. Workarounds tried: (1) eQuest carries the employer's full JD text and salary; (2) no alternate posting of the same role with different published pay found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Oncology Solution Architect - Growth & Expansion Team (G.E.T) (Remote)",
+    "reason": "experience-mismatch — Full JD read via eQuest (Oncology Solution Architect - Growth & Expansion Team, Remote, Austin TX; $143,200-$196,900, top in band): the role 'is accountable for successful software sales, expansion, and retention' and will 'Lead complex software expansion opportunities across North America aligning execution to broader sales objectives' - the core duties are software sales leadership, not architecture, a core mismatch with his Azure/cloud/enterprise architecture experience. (Verdict rests on core-duty mismatch, not the disabled pre-sales bar.) Workarounds tried: (1) eQuest carries the employer's full JD text; (2) no architecture-duty posting of the same role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "BioMarin Pharmaceutical",
+    "role": "Enterprise Architect, Commercial, Digital & Data",
+    "reason": "stale — JD text carried in SonicJobs/Jobright/Mediabistro/Career.io mirrors of BioMarin's Enterprise Architect, Commercial, Digital & Data (San Rafael, CA): every mirror is a 61-249-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The Associate Director, Solutions Architect, PTD (SAP Plan to Deliver) mirrors are likewise 228-day crawls on Career.io. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of either role found. UNIT COVERAGE (W3 unit 78): Sarepta Therapeutics - no architect-family postings found (Senior Manager, Supply Chain IT is an IT management role; remaining listings are clinical roles, hybrid Cambridge MA); United Therapeutics - Solutions Architect recorded separately below.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "United Therapeutics",
+    "role": "Solutions Architect",
+    "reason": "stale — JD text carried in Ladders/GrabJobs/Career.io/Swooped mirrors of United Therapeutics' Solutions Architect (Research Triangle Park, NC): every mirror is a 245-264-day crawl, far outside the 7-day eligibility window (stale is a gate fact), despite the Azure/M365-aligned duties. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Neurocrine Biosciences",
+    "role": "Principal Cloud & Infrastructure Engineer",
+    "reason": "stale — JD text carried in Built In / Swooped mirrors of Neurocrine's Principal Cloud & Infrastructure Engineer: both mirrors are 217-227-day crawls, far outside the 7-day eligibility window (stale is a gate fact). The role is also titled 'Temporary FT & Onsite' and is an engineer-level infrastructure role (AWS-focused, self-service automation frameworks). Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost found. UNIT COVERAGE (W3 unit 79): Neurocrine's only fresh-crawl listing was a Sr. Data Engineer (San Diego based, engineer role, not an architect family).",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Organon",
+    "role": "Strategic Solution Architect",
+    "reason": "stale — JD text carried in the Recruit.net mirror of Organon's Strategic Solution Architect (enterprise integration patterns, API/event-driven architecture, TIBCO/MuleSoft/Kafka): the mirror is a 280-day crawl, far outside the 7-day eligibility window (stale is a gate fact). Organon's R&D Solution Architect mirror is likewise a 307-day crawl. Workarounds tried: (1) the mirror carries the employer's full JD text; (2) no fresh repost of either role found.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Enterprise Architect - Remote",
+    "reason": "stale — Full JD read on Built In (Enterprise Architect - Remote, Optum, Requisition Number: 2331727): 'Published: 2026-04-02' - roughly six months old, far outside the 7-day eligibility window (stale is a gate fact), despite the recent re-crawls (1-3 hours ago). The JD otherwise offers remote work 'from anywhere within the U.S.' (office minimum applies only to Minneapolis/Washington DC hires) and pay of $110,200-$188,800 (top in band); it also states 'Healthcare expertise is critical - must have hands-on experience with healthcare data, processes, and regulatory standards' (his healthcare industry experience on file is 0 years). Workarounds tried: (1) Built In carries the employer's full JD text with its published date; (2) no fresher posting of req 2331727 found. UNIT COVERAGE (W4 unit 80): Elevance Health - every architect listing found was a 56-326-day crawl with in-office 1-2 days/week hybrid patterns (Functional Solution Architect Salesforce 270d; Enterprise Principal Security Architect 254d; Business Architect Sr. Claims/Provider Systems 261-326d) - none fresh or fully remote. The Cigna Group - Architecture Advisor (India, 317d), Senior Manager AI Enablement (225d), Architecture Principal Customer Communications (147d), Senior Solution Architect-Data Analytics Hybrid (317d) - all stale; a System Architect (Memphis TN) via JobzMall carried no verifiable date.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Senior Solution Architect",
+    "reason": "hands-on-coding — Full JD read on Built In (Senior Solution Architect - CVS Health; pay $92,700-$203,940, top in band): required profile includes 'Hands-on technologists with coding skills and proficiency in modern technology stacks (Cloud, DevOps, Kafka etc.)' and 'Demonstrable hands-on experience is a must' - hands-on coding is a core requirement of the whole role, failing the whole-role hands-on test. Workarounds tried: (1) Built In carries the employer's full JD text; (2) The Muse mirror (24-day crawl) carries the same requirements text.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Principal Cloud Architect",
+    "reason": "stale — Full JD read on Built In (Principal Cloud Architect - Centene Corporation): 'Published: 2025-12-09' - over ten months old, far outside the 7-day eligibility window (stale is a gate fact), despite a re-crawl under 1 hour ago. Published pay range $143,100-$264,300 also has its top above the $230,000 ceiling. Duties (multi-cloud AWS/Azure architecture leadership) were otherwise aligned. Workarounds tried: (1) Built In carries the employer's full JD text with its published date; (2) no fresh repost found.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Principal Cloud Platform Engineer",
+    "reason": "aws-first — Full JD read via Built In Austin (Principal Cloud Platform Engineer - Centene Corporation): 'Serves as the senior technical leader for AWS cloud platform strategy, driving transformational initiatives across the organization's multi-account AWS Landing Zone environment... Architect sophisticated multi-account AWS Landing Zone solutions using Control Tower' - an AWS-first, hands-on platform-engineering role (TypeScript, Terraform, GitLab), outside cloud scope and the whole-role hands-on test. Workarounds tried: (1) the mirror carries the employer's full JD text; (2) no Azure/multi-cloud variant found. Centene coverage: Lead Technology Enterprise Architect was a 28-day Built In crawl (pay $119,100-$220,500); Lead Domain Solutions Architect (1-day crawl) showed no verifiable published date and was left unevaluated.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Principal Enterprise Cloud Architect",
+    "reason": "stale — Full JD read on Built In (Principal Enterprise Cloud Architect - Highmark Health): 'Published: 2025-06-03' - over a year old, far outside the 7-day eligibility window (stale is a gate fact), despite a 9-day-old re-crawl. The duties were otherwise a strong match (executive leadership of multi-cloud strategy, Cloud Center of Enablement governance, vendor relationship management), the position type is 'Office- or Remote-based', and pay is $108,000-$201,800 (top in band). Workarounds tried: (1) Built In carries the employer's full JD text with its published date; (2) no fresh repost found. UNIT COVERAGE (W4 unit 81): Health Care Service Corporation (HCSC) - Infrastructure Engineer-SCCM/Intune Architect is an engineer-level design-and-build role in Chicago; Senior Application Architect - Azure and Databricks showed as 19 days old on TealHQ (stale); Mainframe Architect is COBOL/JCL mainframe work in Chicago. Highmark - Information Security Architect (enGen) was Published 2026-10-02 (23 days, stale) with data-engineering duties; Senior Architect - Cloud mirrors are 350-360-day crawls. GuideWell / Florida Blue - Sr. AI Architect (Cloud Focused) is a Jacksonville FL-based AI/ML specialist role; Principal Cloud and AI Security Architect mirrors are 11-217-day crawls.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "GuideWell / Florida Blue",
+    "role": "Enterprise Cloud Architect",
+    "reason": "not-remote — Full JD read on Built In (Enterprise Cloud Architect - Florida Blue / GuideWell): 'This position offers a hybrid work arrangement which combines flexibility with in office engagement... Travel to and from our corporate offices may be required' - a stated hybrid arrangement, not 100% remote. The published 'Annualized Salary Range: $141,700 - $230,200' also has its top ($230,200) above the $230,000 band ceiling. Workarounds tried: (1) Built In carries the employer's full JD text; (2) no fully-remote posting of the same role found.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   },
+   {
+    "company": "Independence Blue Cross",
+    "role": "Director, Enterprise IT Architecture - Hybrid (PA/NJ/DE)",
+    "reason": "not-remote — Employer's own listing title on Dice: 'Director, Enterprise IT Architecture - Hybrid (PA/NJ/DE)' - a stated hybrid schedule restricted to PA/NJ/DE, not 100% remote. Jobright mirrors of the same posting (60-255-day crawls) mark it 'This job has closed' and date it to roughly 9 months ago. Workarounds tried: (1) Dice carries the employer's full JD text; (2) no fully-remote posting of the role found.",
+    "where": "Employer sites",
+    "time": "3:02 PM"
+   }
+  ],
   "LinkedIn": [
    {
     "company": "Anaplan",
@@ -1628,722 +2418,6 @@
     "reason": "experience-mismatch — Recorded late from LinkedIn units 12/17 definitive return (browser task measured 11:02-11:54 AM CT, Past-24h + Remote filters, full JD read): Pay top $230,000 at band edge (pay OK); role is the post-sales customer-success leader for one observability product (Chronosphere) - core mismatch.",
     "where": "LinkedIn",
     "time": "11:55 AM"
-   }
-  ],
-  "Employer sites": [
-   {
-    "company": "HCA Healthcare",
-    "role": "Solutions Architect",
-    "reason": "hands-on-coding — Solutions Architect (Software Developer) needed for Parallon Revenue Cycle Services... Engage in analysis, design, architecture and development of .Net based computer applications. Use C#, ASP.Net, WCF, MVC... — full posting read on HCA's own site (Job ID 4985685, 'May WFH anywhere in the US', min. salary $152,152/yr as a single figure, also below the $160K band floor). Core duties are hands-on .NET/C# software development, not architect-level work. Workarounds tried: employer's own posting is the governing text; no alternate architect-level posting of this role.",
-    "where": "Employer sites",
-    "time": "7:45 AM"
-   },
-   {
-    "company": "CommonSpirit Health",
-    "role": "Solution Architect I",
-    "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ — employer ATS (commonspirit.careers, Job ID 2025-431697) also states 'Remote, No' and demands 'a blend of hands-on Linux administration expertise—including advanced scripting, automation, and troubleshooting—within a high-performance computing (HPC) environment'; posted compensation $43.10 - $64.11/hour. Full JD read on the employer's own site (governing text). Workarounds tried: (1) employer's own ATS posting — quoted above; (2) alternate routes Dice/Jobright mirrors of the same Solution Architect I / BNI role carry the same Phoenix on-site HPC role; (3) no alternate remote posting of the same role found.",
-    "where": "Employer sites",
-    "time": "6:56 AM"
-   },
-   {
-    "company": "CommonSpirit Health",
-    "role": "IT Principal Architect",
-    "reason": "experience-mismatch — Full JD read on CommonSpirit's own site (Job ID 2026-492050, Remote: Yes, Chicago IL Remote, $69.41-$103.25/hour): role coordinates implementation/integration of applications and its required expertise is the Adobe stack — 'AJO Expertise (Adobe Journey Optimizer); Adobe Experience Platform (AEP); Adobe Target/CJA/Adobe Campaign'. Core platform specialization is Adobe Experience Platform delivery, which does not align with the candidate's Azure/cloud/enterprise architecture experience (no Adobe platform experience on record). Posted date not shown on the ATS. Workarounds tried: employer's own posting is the governing text; the other remote keyword matches on the site are not architect titles.",
-    "where": "Employer sites",
-    "time": "7:45 AM"
-   },
-   {
-    "company": "Ascension",
-    "role": "Senior Network Load Balancing Architect",
-    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452069, Location: Remote, #LI-Remote): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
-    "where": "Employer sites",
-    "time": "7:45 AM"
-   },
-   {
-    "company": "Ascension",
-    "role": "Senior Network Architect Security",
-    "reason": "pay-outside-band — Live posting on Ascension's own site (Req 2026-452068, Remote, Saint Louis MO): published salary $139,452.19 - $259,182.95 — the top of the range exceeds the $230,000 pay-band ceiling. Gate fact; rejects on sight.",
-    "where": "Employer sites",
-    "time": "7:45 AM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Architect V, Integration",
-    "reason": "stale — Recorded late from W3 unit 66's definitive return (employer site kaiserpermanentejobs.org, full JD read): Date Posted 09/17/2026 - outside the 7-day eligibility window; Worker Location: Flexible (not 100% remote). Pay $140,800-$182,160. Duties: 'Leads the development of solution architectures, roadmaps, and system transition plans.' Workarounds tried: employer's own ATS posting is the governing text.",
-    "where": "Employer sites",
-    "time": "11:41 AM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Healthcare Technology Solutions Architect",
-    "reason": "stale — Recorded late from W3 unit 66's definitive return (kaiserpermanentejobs.org, full JD read): Date Posted 09/10/2026 - outside the 7-day window; Worker Location: Flexible (not 100% remote). Pay $173,500-$224,510. Workarounds tried: employer's own ATS posting is the governing text.",
-    "where": "Employer sites",
-    "time": "11:41 AM"
-   },
-   {
-    "company": "Mayo Clinic",
-    "role": "Distinguished Enterprise Architect - Robotics",
-    "reason": "not-remote — Recorded late from W3 unit 66's definitive return (jobs.mayoclinic.org, full JD read): 'Remote: No' and 'This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus.' Also posted 09/21/2026 (stale), pay top $277,867.20 above the $230K band ceiling, robotics domain mismatch. Workarounds tried: employer's own ATS posting is the governing text.",
-    "where": "Employer sites",
-    "time": "11:41 AM"
-   },
-   {
-    "company": "AdventHealth",
-    "role": "Entra/Active Directory Architect",
-    "reason": "not-remote — Recorded late from W3 unit 66's definitive return (jobs.adventhealth.com, full JD read): 'Location Type: On-site Flexible' (Altamonte Springs, FL) - not 100% remote; pay $84,531.20-$157,248.00 (top below the $160K floor); required skills include 'C#, .NET, web application development' (hands-on). No posted date shown on the posting page. Workarounds tried: employer's own ATS posting is the governing text.",
-    "where": "Employer sites",
-    "time": "11:41 AM"
-   },
-   {
-    "company": "Banner Health",
-    "role": "Cybersecurity Architect",
-    "reason": "stale — Full JD read via freehire mirror of Banner Health's own posting (Dept IT Tech Solution Arch-Corp): 'As a Cybersecurity Architect, you will serve as the organization's senior-most individual contributor for cybersecurity architecture, responsible for defining and driving the enterprise security strategy, architecture roadmap, and long-term vision across major technology platforms.' and 'This is a remote opportunity, Monday-Friday 8AM-5PM.' Published: 2026-10-02T00:00:00Z — 23 days before 2026-10-25, outside the 7-day eligibility window = stale. Secondary: minimum qualifications require 'ten plus years experience in a healthcare environment' — candidate healthcare industry years on record = 0. Estimated Pay Range $57.38 - $95.64/hour. Workarounds tried: (1) employer's own posting text is governing; (2) search for a fresher alternate posting found none; (3) no alternate live posting of this role.",
-    "where": "Employer sites",
-    "time": "8:37 AM"
-   },
-   {
-    "company": "Banner Health",
-    "role": "Principal Enterprise Cloud Architect",
-    "reason": "stale — Full JD read on Dice (Banner Health's own posting text): 'This is a remote position... can be a remote position if you live in the following states only: ... TX ...' and 'Leads cross-functional teams to design, implement, and optimize Banner Health's multi-cloud infrastructure across Azure, AWS, and OCI.' Published: 2026-10-15T20:50:48Z — 10 days before 2026-10-25, outside the 7-day eligibility window = stale. Secondary: Estimated Pay Range $76.73 - $127.88/hour (top annualized above the $230K band ceiling) and core functions include designing/implementing automation tools and hands-on service offerings. Workarounds tried: (1) employer's own posting text via Dice is the governing text; (2) web search for a fresher alternate posting of this role found none; (3) no alternate posting on other boards in this unit.",
-    "where": "Employer sites",
-    "time": "8:37 AM"
-   },
-   {
-    "company": "Biogen",
-    "role": "Sr. IT Solution Architect, Access Automation",
-    "reason": "not-remote — Full JD read on Built In (Sr. IT Solution Architect, Access Automation - Biogen): 'This is a hybrid role requiring on site presence 3 days per week' in 'Cambridge, MA or Research Triangle Park, NC' - a stated required office schedule, not 100% remote. Also 'Published: 2026-09-18' (37 days old, outside the 7-day window); pay $140,000-$187,250 (top in band). Workarounds tried: (1) Built In carries the full employer JD text with hybrid terms and published date; (2) no fully-remote repost of the same role found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Novartis",
-    "role": "Solution Architect IT/OT",
-    "reason": "not-remote — Novartis's own career search (novartis.com career-search, crawled 3 days ago) lists: 'Solution Architect IT/OT | Barcelona Gran Via | Spain | Operations | Development | Information Technology | Oct 20, 2026' - a fresh posting but sited in Barcelona, Spain, not US-based; the sweep is US-only / 100% remote US. All other Novartis architect listings found were likewise Spain (Barcelona) or India (Hyderabad) based. Workarounds tried: (1) employer's own career search is the governing source for location; (2) no US-based posting of this role found.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Principal Architect – Enterprise Security",
-    "reason": "stale — Published: 2026-09-24 (before the 2026-10-18 eligibility floor); salary also out of band: 'The salary for this role will range from $134,600 $230,800 annually' (top $230,800 > $230,000 cap). Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — mirrors reproduce the same req/date; (3) alternate posting — no fresher UHG security-architecture posting found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "CVS Health / Aetna",
-    "role": "Principal Cloud Architect",
-    "reason": "cloud-scope — 'This role sets the technical direction for how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires.' Also stale (Published: 2026-09-04) and pay top out of band: 'The typical pay range for this role is: $144,200.00 - $288,400.00'. Workarounds tried: (1) employer ATS — jobs.cvshealth.com searched for this exact title, no live matching posting returned; JD text taken from the full CVS JD reproduced on DailyRemote/Dice; (2) alternate route — Dice copy identical; (3) alternate posting — CVS Cloud Native role below, also rejected.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Connecticut state portal",
-    "role": "IT Solution Architect",
-    "reason": "stale — Published: 2025-06-03 — posting is more than 7 days old, outside eligibility window. Remote role duties otherwise aligned: 'developing, maintaining and implementing a technical roadmap'. Workarounds tried: (1) employer's own ATS posting on jobapscloud.com is the governing text checked, (2) alternate route via search result mirror, same date, (3) no alternate fresher posting of same role found.",
-    "where": "Employer sites",
-    "time": "4:47 AM"
-   },
-   {
-    "company": "Connecticut state portal",
-    "role": "Director of Strategy and Enterprise Architecture",
-    "reason": "not-remote — Hybrid work environment (located at 55 Farmington Avenue, Hartford, CT)",
-    "where": "Employer sites",
-    "time": "4:47 AM"
-   },
-   {
-    "company": "Oklahoma state portal",
-    "role": "Solution Architect of Data & AI",
-    "reason": "not-remote — Position is on-site in Oklahoma City, OK. Also hands-on: 'Design and code full-stack data and AI solutions' and 'codes reference implementations'. Workarounds tried: (1) employer's own OMES posting via career.io mirror is governing text showing on-site, (2) alternate route search found same on-site text, (3) no alternate remote posting of same role found.",
-    "where": "Employer sites",
-    "time": "4:47 AM"
-   },
-   {
-    "company": "Louisiana state portal",
-    "role": "Architect 1-3",
-    "reason": "pay-outside-band — Architect 1: (TS312) $2,277.60 biweekly (approximately $59,218 annually); Architect 3: (TS316) $2,780.80 biweekly (approximately $72,301 annually) — building architect role, licensed architecture, located in Office of State Fire Marshal statewide, work schedule 8:00 AM to 4:30 PM Monday-Friday, top well below $160,000 band. Workarounds tried: (1) employer's own GovernmentJobs posting is governing text, (2) alternate print route same pay, (3) no alternate posting found.",
-    "where": "Employer sites",
-    "time": "4:47 AM"
-   },
-   {
-    "company": "State of Utah DFCM",
-    "role": "Construction Project Architect",
-    "reason": "experience-mismatch — W2 sector sweep, Utah state portal (governmentjobs.com/careers/utah), keyword 'architect' over 318 results returned exactly 1 architect-titled opening. Full JD read on the portal: Construction Project Architect, Division of Facilities Construction and Management (DFCM), Salt Lake City, UT, $33.20-$52.96/hr — a facilities/construction architect role (buildings, design/construction documents, building codes); core duties are physical-building architecture, not Azure/cloud/enterprise IT architecture, and the rate top (~$110K annualized) is also below the band. Workarounds tried: employer's own portal JD is the governing text; no alternate IT-architect posting on this portal. UNIT COVERAGE: Utah searched (0 IT-architect postings); City of Houston portal searched, keyword 'architect' = 0 current results (only closed F00076 IT Architect Applications, closed 09/02/2026, and F00162 Intern Architect, closed 07/13/2026 — both stale/closed); Miami-Dade careers searched after real attempts, public search returned no listing content, 0 verifiable architect postings; Nevada NEATS (nvapps.state.nv.us) timed out on two attempts — portal UNQUERIED this unit, carries to next W2 unit.",
-    "where": "Employer sites",
-    "time": "5:34 AM"
-   },
-   {
-    "company": "State of Indiana",
-    "role": "IT Director of Enterprise Architecture & Strategic Planning",
-    "reason": "pay-outside-band — W2 sector sweep, Indiana portal (workforindiana.in.gov, keyword 'architect', 46 postings reviewed): 'Working Title: IT Director of Enterprise Architecture & Strategic Planning' (Posting ID 457325; agency req reported inconsistently as 00312717/00512717, so no req id is recorded). Full text: 'Salary: The salary for this position traditionally starts at $118,225 but may be commensurate... up to $148,000' — top $148,000 is below the $160,000 band floor = pay-outside-band; location Indianapolis, IN, hybrid-eligible only, also not 100% remote. UNIT COVERAGE: Minnesota mn.gov/careers searched (Job Title = architect) — 0 architect postings found. Wisconsin wisc.jobs searched — 0 architect postings found (only Architecture Specialist-Advanced in the broader result set, a non-qualifying title). Michigan michigan.gov searched — 0 qualifying architect postings found (one Departmental Analyst trainee flagged non-qualifying on its own detail page).",
-    "where": "Employer sites",
-    "time": "5:42 AM"
-   },
-   {
-    "company": "State of Tennessee",
-    "role": "Computer Systems Architect",
-    "reason": "pay-outside-band — W2 sector sweep, Tennessee portal (tn.gov, agency-filtered posting list verified): Computer Systems Architect, Department of General Services, Req 10152026, open 10/15-10/28/2026. Full text: '$5,077 - $7,906 per month' (top $94,872/yr) — below the $160,000 band floor = pay-outside-band; location Nashville, Davidson County, non-telework, also not-remote. Coverage: Tennessee was the only other portal of the five with a genuine architect-titled posting; no PASS leads in this unit.",
-    "where": "Employer sites",
-    "time": "5:42 AM"
-   },
-   {
-    "company": "Arizona Department of Administration",
-    "role": "IT Enterprise Architect",
-    "reason": "closed — Workarounds tried: (1) employer's own ATS azstatejobs.gov searched live 2026-10-25 06:17-06:20 CDT - query JR100187: No results found; query IT Enterprise Architect: 4 fuzzy results, none matching; query Enterprise Architect: 2 results, none matching; query Architect: 12 results, none matching; Department=DEPT OF ADMINISTRATION filter: all 14 current postings listed, none is IT Enterprise Architect/JR100187; Google site search site:azstatejobs.gov IT Enterprise Architect: no results. Posting is closed/removed - gate fact, reject on sight. Corroborating: DB posted_date 2026-10-16 is 9 days before 2026-10-25, beyond the 7-day eligibility window (stale); the PASS record itself flagged the filer must re-verify remote terms and req on azstatejobs.gov, and that verification fails because the posting no longer exists.",
-    "where": "Employer sites",
-    "time": "6:21 AM"
-   },
-   {
-    "company": "State of Colorado",
-    "role": "Senior IT Architect",
-    "reason": "not-remote — From the same late-delivered W2 unit-63 report (full portal/JD checks): Senior IT Architect, Governor's Office of Information Technology, Req 2025-10540 — JD/portal states the role is NOT eligible for full-time remote work (Colorado residency / hybrid arrangement) = not-remote; also $118,872-$142,644, top below the band floor. Workarounds tried per report: employer's own portal text governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "Jefferson County (Colorado)",
-    "role": "Solutions Architect",
-    "reason": "not-remote — From the same late-delivered W2 unit-63 report: Solutions Architect, Jefferson County, Golden, CO — hybrid, 3 days onsite / 2 days remote = not-remote. Workarounds tried per report: employer's own posting governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "State of Connecticut",
-    "role": "IT Solution Architect",
-    "reason": "not-remote — From the same late-delivered W2 unit-63 report: IT Solution Architect, State of Connecticut (DAS/BITS) — Hartford, CT, hybrid telework arrangement, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "Florida Agency for Health Care Administration",
-    "role": "IT Enterprise Architect",
-    "reason": "not-remote — From the same late-delivered W2 unit-63 report: IT Enterprise Architect, Florida AHCA, Tallahassee, FL — on-site/hybrid state role, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "Florida Department of Children and Families",
-    "role": "Senior Cloud Solutions Architect",
-    "reason": "experience-mismatch — From the same late-delivered W2 unit-63 report: Senior Cloud Solutions Architect, Florida DCF — JD emphasizes hands-on AWS services, automation, CI/CD, and infrastructure engineering as core duties; whole-role hands-on cloud engineering under an architect title, AWS-first — experience/hands-on mismatch. Workarounds tried per report: employer's own JD governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "Georgia Technology Authority",
-    "role": "Enterprise Solution Architect",
-    "reason": "not-remote — From the same late-delivered W2 unit-63 report: Enterprise Solution Architect, Georgia Technology Authority, Atlanta, GA — hybrid work arrangement, not fully remote = not-remote. Workarounds tried per report: employer's own posting governs.",
-    "where": "Employer sites",
-    "time": "6:09 AM"
-   },
-   {
-    "company": "City of Houston",
-    "role": "IT Architect - Applications (Responsible AI & Innovation)",
-    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (houstontx.gov -> governmentjobs.com/careers/houston), which the first search surface missed — this record corrects that coverage gap. Full JD read: IT ARCHITECT - APPLICATIONS (Responsible AI & Innovation), Houston Information Technology Services, Job Number 39858, opened 10/20/2026. 'Reporting Location: 611 WALKER / 1200 TRAVIS'; 'Workdays & Hours: MONDAY - FRIDAY, Office Hours'; working conditions 'essentially normal office environment'; no remote/telework language in the JD = not-remote. Salary $4,594.00-$5,646.62 biweekly (top ~$146,812/yr) also below the band floor. Duties themselves are on-point (city AI strategy/governance, Azure AI/Copilot) — rejected on remote and pay only. COVERAGE CORRECTION for Unit 64: Nevada NEATS was in fact searched directly in this return (Search Phrase 'Architect', any location/group/department) and returned 'No Matching Jobs' — 0 architect postings; the 'NEATS timed out / unqueried' statement in disposition 2124's evidence is superseded by this fuller return. Miami-Dade remained unreachable (Cloudflare bot-wall loop across repeated attempts) — explicitly not a 0-result.",
-    "where": "Employer sites",
-    "time": "6:13 AM"
-   },
-   {
-    "company": "State of Utah",
-    "role": "IT Architect",
-    "reason": "not-remote — Recorded late from Unit 64's fuller portal return (statejobs.utah.gov Cornerstone portal; the governmentjobs surface searched earlier surfaced a different Utah posting). Full JD read: IT Architect, Division of Technology Services, req2748, posted 10/09/2026 (outside the 7-day window; deadline 10/18/2026). 'Remote Work / In-Office - Hybrid' = not-remote. Also GCP-first with hands-on language requirements: 'Manages Google Cloud Platform architecture for the Google Workspace projects'; 'Expert in the following programming languages: Java, JavaScript, and Python.' Pay top $87.46/hr would have passed; remote, freshness, and platform fit fail.",
-    "where": "Employer sites",
-    "time": "6:13 AM"
-   },
-   {
-    "company": "State of Michigan",
-    "role": "ITS14 - Application Architect, Salesforce",
-    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (governmentjobs.com/careers/michigan), which the first task's Michigan pass missed. Full JD read: 'offers a hybrid work option which requires two days working on-site at the official work location and three days of remote work per week' = not-remote. Pay $38.75-$56.64/hr (top ~$117,811/yr) also below the band floor; Salesforce platform focus.",
-    "where": "Employer sites",
-    "time": "6:13 AM"
-   },
-   {
-    "company": "State of Wisconsin",
-    "role": "Enterprise Application Architect",
-    "reason": "pay-outside-band — Recorded late from Unit 62's fuller portal return (wisc.jobs), which the first task's Wisconsin pass missed. Full JD read: 'The starting pay is between $107577 and $136635 per year' — top $136,635 is below the $160,000 band floor = pay-outside-band. Posted 10/15/2026 (outside the 7-day window) and Wisconsin-restricted despite a 100%-remote statement.",
-    "where": "Employer sites",
-    "time": "6:13 AM"
-   },
-   {
-    "company": "State of Indiana",
-    "role": "Enterprise Applications Architect",
-    "reason": "not-remote — Recorded late from Unit 62's fuller portal return (workforindiana.in.gov) — a second, distinct Indiana architect posting from the one in disposition 2165. Full JD read: 'This position is with INDOT's Central Office in Indianapolis.' — no remote/telework stated = not-remote; core experience is also Salesforce/MuleSoft-specific ('at least 5+ years of experience in Salesforce technical architecture, MuleSoft API platform architecture'). Posted 10/16/2026, outside the 7-day window.",
-    "where": "Employer sites",
-    "time": "6:13 AM"
-   },
-   {
-    "company": "HCA Healthcare",
-    "role": "Consulting Application Architect",
-    "reason": "closed — This job posting is no longer active.",
-    "where": "Employer sites",
-    "time": "6:56 AM"
-   },
-   {
-    "company": "Providence",
-    "role": "Principal IS Architect PHP, Healthcare Technology Solutions, Virtual",
-    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland — candidate is Houston, TX based, outside every eligible location; full JD read (Requsition ID: 420852, Workplace Type: Remote, WA Renton address). Duties are otherwise enterprise architecture leadership ('you'll be the driving force behind architectural vision and execution... shaping roadmaps, standards, and governance'), but the location restriction fails the 100% remote US filter for this candidate. Workarounds tried: (1) employer's own posting text via Providence Jobs req 420852 as mirrored in full; (2) alternate routes Dice/hiring.cafe versions of the same req state virtual only for WA/OR/CA residents — Texas still excluded; (3) no alternate unrestricted posting of the same role found.",
-    "where": "Employer sites",
-    "time": "6:56 AM"
-   },
-   {
-    "company": "Trinity Health",
-    "role": "Enterprise Architect (REMOTE)",
-    "reason": "posting-removed — Live check of Trinity Health's own careers site (jobs.trinity-health.org, 2026-10-25): architect search returned exactly 1 job (Project Manager, Construction, Muskegon MI) — no architect-titled postings at all, at any date or location. CORRECTS disposition 2199 (parked not-evaluated): the governing employer site does not carry the mirrored Enterprise Architect (REMOTE) listing, so the lead is resolved as not a live posting. Workarounds tried: (1) employer's own ATS search — absent; (2) mirrors whatjobs/recruit.net carried only 54-78-day-old snapshots; (3) no alternate posting on the employer site.",
-    "where": "Employer sites",
-    "time": "7:45 AM"
-   },
-   {
-    "company": "Sutter Health",
-    "role": "Principal Architect - Cloud, Data, And Analytics",
-    "reason": "not-remote — Full JD read on Simplify (Sutter Health posting, Posted on 3/27/2025, Sacramento CA): 'This position is hybrid with some onsite work in Sacramento.' — stated hybrid/onsite schedule = not-remote. Duties otherwise align ('Translate business requirements and functional specifications into robust, scalable cloud-based solutions'); Pay Range $75.45 to $120.72/hour. Workarounds tried: (1) employer's own posting text via Simplify is governing; (2) search for a remote alternate posting of this Sutter architect role found none; (3) the other Sutter architect index hit (Cloud Engineering Architect - Azure, $165k-$264k mirror) is also not a fresh remote posting. UNIT COVERAGE (W3 unit 67, all 5 employers searched across the 58 families): Intermountain Health — no fresh remote architect posting found; index hits are stale crawls only (Data Architect Senior, hybrid with monthly in-person, 210-day crawl; Salesforce Solutions Architect-Consultant, 13 days old on aggregator and Salesforce-specific). Banner Health — 2 architect postings read in full and recorded here (both stale); Senior Data Platform Architect aggregator hit is 19 days old. Advocate Health / Atrium Health — no fresh architect posting found; only architect index hit (Analytics Solution Architect) is a 193-day crawl. Northwell Health — no fresh architect posting found; all index hits are 105-296-day crawls, including a GCP-first Google Cloud Solutions Architect. Sutter Health — this hybrid posting only.",
-    "where": "Employer sites",
-    "time": "8:37 AM"
-   },
-   {
-    "company": "Mass General Brigham",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — Hybrid role with onsite work required; candidates must be flexible based on weekly or monthly business needs. Remote Type: Hybrid, Work Location 399 Revolution Drive, Somerville MA. Workarounds tried: (1) employer's own posting text via Ladders mirror carries the governing Remote Type=Hybrid field; (2) alternate routes (web search across Ladders/italents/diversityjobs) show the same hybrid posting; (3) no alternate remote posting of this role found. Also stale: published 2026-08-31, outside 7-day eligibility.",
-    "where": "Employer sites",
-    "time": "9:33 AM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Chief IT Applications Engineer/Architect, AEM EDS AKS UI Full Stack",
-    "reason": "hands-on-coding — Recorded late from W3 unit 66's definitive return (kaiserpermanentejobs.org, full JD read): posted 06/12/2026 (stale); 'Work location is on-site at a KP location, with the flexibility to work from home' (not-remote); JD states the position practices 'hands on coding integrations, APIs, microservices, and cloud-based applications.' Workarounds tried: employer's own ATS posting is the governing text.",
-    "where": "Employer sites",
-    "time": "11:41 AM"
-   },
-   {
-    "company": "Prime Healthcare",
-    "role": "Lead Data Architect",
-    "reason": "stale — Posting Date 08/26/2025",
-    "where": "Employer sites",
-    "time": "12:32 PM"
-   },
-   {
-    "company": "Prime Healthcare",
-    "role": "Enterprise (Cloud) Architect",
-    "reason": "not-remote — Facility Prime Healthcare Management Inc; Location US-CA-Ontario; Category Business Professional; Department IT ADMIN; Status Full Time; Shift Days",
-    "where": "Employer sites",
-    "time": "12:32 PM"
-   },
-   {
-    "company": "Universal Health Services",
-    "role": "Clinical Architect",
-    "reason": "not-remote — the position is based in Virginia Beach and described as onsite/hybrid",
-    "where": "Employer sites",
-    "time": "12:32 PM"
-   },
-   {
-    "company": "Tenet Healthcare",
-    "role": "Applications Architect",
-    "reason": "not-remote — Plano, TX - Hybrid (location and work model shown on the employer's own listing; no remote option)",
-    "where": "Employer sites",
-    "time": "12:32 PM"
-   },
-   {
-    "company": "LifePoint Health",
-    "role": "Data Conversion Architect",
-    "reason": "not-remote — Louisville, KY - Hybrid (ScionHealth posting surfaced through LifePoint Health's official careers site)",
-    "where": "Employer sites",
-    "time": "12:32 PM"
-   },
-   {
-    "company": "SAIC",
-    "role": "Enterprise Architect Principal",
-    "reason": "stale — Full JD read on SAIC careers (Req 2515880): 'Job Description: SAIC is seeking an Enterprise Architect Principal to join our team in support of the Department of Transportation (DOT)' - remote anywhere in US, duties enterprise architecture artifacts/roadmaps - but 'Posted Date: 08 Oct 2025', far outside the 7-day window (also SAIC is a federal contractor, not a federal agency portal). Workarounds tried: (1) employer ATS governing text read in full; (2) alternate route via web search; (3) no fresher posting of the same role found.",
-    "where": "Employer sites",
-    "time": "1:47 PM"
-   },
-   {
-    "company": "SAIC",
-    "role": "Solutions Architect",
-    "reason": "stale — Full JD read on SAIC careers (Req 2513523): 'Description: SAIC is seeking a Science and Technology Solutions Architect to support our customer, the US Space Force' - 'Location: REMOTE WORK, VA, US' - but 'Posted Date: 11 Sep 2026', outside the 7-day eligibility window for 2026-10-25. Workarounds tried: (1) employer ATS governing text read in full; (2) alternate route via web search; (3) no fresher posting found.",
-    "where": "Employer sites",
-    "time": "1:47 PM"
-   },
-   {
-    "company": "HCA Healthcare",
-    "role": "Sr Mgr Enterprise Architecture",
-    "reason": "not-remote — Full JD read on HCA's own ATS (careers.hcahealthcare.com/jobs/3665830-sr-mgr-enterprise-architecture-nashville-tennessee-united-states, Req 43964): Nashville, TN posting whose introduction reads 'As a Senior Manager of Enterprise Architecture with HCA Healthcare's TriStar Division in Nashville' - an on-site division role, not 100% remote (also posted October 7, 2026, outside the 7-day window). Workarounds tried: (1) employer's own ATS posting is the governing text; (2) no alternate remote posting of the same req found.",
-    "where": "Employer sites",
-    "time": "1:47 PM"
-   },
-   {
-    "company": "Elevance Health",
-    "role": "Infrastructure Architect Executive",
-    "reason": "not-remote — LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week … candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment. Workarounds tried: (1) employer ATS governing text (careers.elevancehealth.com, opened in full); (2) alternate route — Simplify/Career.io mirrors show the same hybrid model; (3) alternate posting — Elevance AI Application Architect Senior is also in-office 1 day/week hybrid.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Enterprise Data Warehouse (EDW) Architect - OI State Government Solutions - Remote",
-    "reason": "stale — Published: 2026-09-28 (before the 2026-10-18 eligibility floor). Also hands-on: 'Hands-on development experience with Python and advanced SQL, including automation, data processing, troubleshooting, and code review.' Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — search mirrors carry the same Sep 28 posting; (3) alternate posting — other UHG architect postings checked below, all older.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "CVS Health",
-    "role": "Principal Architect - Cloud Native (Cloud and Observability)",
-    "reason": "stale — Published: 2026-08-24 (before the 2026-10-18 eligibility floor); pay top also out of band: 'The typical pay range for this role is: $144,200.00 - $288,400.00'; role is hands-on: 'This is a hands-on role. You'll write architecture docs, build proof-of-concepts, configure OTel pipelines, and present to leadership.' Workarounds tried: (1) employer ATS — jobs.cvshealth.com searched, no live matching posting; full JD read via Built In reproduction; (2) alternate route — JobLookup copy same role; (3) alternate posting — Aetna Principal Cloud Architect above, also rejected.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Molina Healthcare",
-    "role": "Senior Architect, Information Systems - Databricks - Remote",
-    "reason": "stale — Published: 2026-08-24 (before the 2026-10-18 eligibility floor). Duties read in full: 'Lead enterprise data and analytics transformation initiatives using Databricks and modern cloud technologies.' Workarounds tried: (1) employer site — careers.molinahealthcare.com searched, this posting not surfaced as live/fresh; full JD read via Built In reproduction; (2) alternate route — Dice copy is ~361 days old; (3) alternate posting — Molina AI Security architect below, freshness unverifiable.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Cigna Group / Evernorth",
-    "role": "Head of Enterprise Architecture (Managing Director), Evernorth Health Services (Hybrid)",
-    "reason": "not-remote — Title/designation is '(Hybrid)' — Austin, TX + Morristown, NJ / St. Louis, MO / Hartford, CT, 'Hybrid'; posted 5/23/2026 (stale); salary also out of band: 'we anticipate offering an annual salary of 209,600 - 349,300 USD / yearly'. Workarounds tried: (1) employer governing text via full JD reproduction on Simplify/Career.io (Cigna JD text); (2) alternate route — Adzuna/Monster copies also Hybrid; (3) alternate posting — no remote Cigna EA posting found (the two Cigna EA roles already filed, req 26011519 and the Data/APIs Senior Principal, are duplicates and were not returned).",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Sentara Health",
-    "role": "Principal Enterprise Architect - AI",
-    "reason": "stale — Published: 2026-07-03 (before the 2026-10-18 eligibility floor). Texas was remote-eligible ('Sentara Health employs associates in the following states: … Texas …') but the posting is stale. Workarounds tried: (1) employer JD text read in full via Built In reproduction of the Sentara posting; (2) alternate route — Recruit.net clinical-systems variant is a different, clinical (Epic/PACS) role; (3) alternate posting — Sentara ServiceNow Principal Domain Architect is already filed (2026-09-23, do-not-reapply).",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Oscar Health",
-    "role": "Salesforce Platform Solutions Architect",
-    "reason": "not-remote — 'This is a remote position, open to candidates who reside in: Atlanta, GA. You will be fully remote; however, our approach to work may adapt over time. Future models could potentially involve a hybrid presence at the hub office associated with your metro area.' Houston, TX is not an eligible residence; a second copy restricts residence to Dallas, TX only. Pay top was in band ($176,053.50) but residence restriction governs. Workarounds tried: (1) employer's own job board (General Catalyst/Greenhouse listing, opened in full); (2) alternate route — Hiring.cafe/Ladders copies carry the same metro restriction; (3) alternate posting — no other Oscar architect posting found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Providence Health Plan",
-    "role": "Principal IS Architect PHP, Healthcare Technology Solutions (Virtual)",
-    "reason": "not-remote — 'Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California' — Texas is excluded, so not-remote for Hubert (Houston, TX). Workarounds tried: (1) employer JD text read in full via Dice/Monster reproductions of the Providence posting; (2) alternate route — JobLeads copy identical state list; (3) alternate posting — no TX-eligible Providence Health Plan architect posting found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Chevron",
-    "role": "Principal OT AI Solution Architect",
-    "reason": "not-remote — Houston, Texas — Relocation will not be considered. Full JD on careers.chevron.com (Published: 2026-10-19) contains no remote language; role is Houston-based: 'We are seeking an OT Solutions Architect specializing in artificial intelligence to define how AI capabilities move safely and consistently from concept and field trial into supported operational use.' workarounds tried: (1) employer ATS governing text — this Chevron careers JD itself, Houston/no-relocation; (2) alternate route — search mirrors show same Houston location; (3) alternate posting — no remote variant of this req found, other Chevron architect req is a different role.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Chevron",
-    "role": "Solution Architect – DevOps Pipeline",
-    "reason": "stale — Published: 2026-10-12 (before 2026-10-18 eligibility cutoff, on careers.chevron.com). Also pipeline-core: 'Designing and supporting the DevOps CICD Pipeline and Enterprise development and deployments at a large enterprise scale.' Location Houston, Texas. workarounds tried: (1) employer ATS governing text — this Chevron JD; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost of this req found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "BP",
-    "role": "Lead Enterprise Architect",
-    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working — Relocation Assistance: This role is eligible for relocation within country. Mirror of bp JD also states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — energyjobsearch mirror, same hybrid text; (3) alternate posting — no fully-remote variant found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "BP",
-    "role": "Lead solution architect",
-    "reason": "not-remote — Remote Type: This position is a hybrid of office/remote working. Also cloud-scope concern: 'Proficiency in cloud platforms (AWS preferred), API integration, and data architecture.' Mirror states 'Job post no longer accepts applications'. workarounds tried: (1) employer ATS governing text — bp JD text as mirrored; (2) alternate route — same hybrid/AWS-preferred text on mirror; (3) alternate posting — no fully-remote/Azure variant found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Halliburton",
-    "role": "Cloud Domain Architect",
-    "reason": "not-remote — Location: 3000 N. Sam Houston Parkway E., Houston, Texas, 77032, United States — no remote language in full JD; mirror states 'Job post no longer accepts applications'. Architect duties otherwise aligned: 'Own the cloud infrastructure domain architecture for Azure (primary) and AWS (secondary)'. workarounds tried: (1) employer ATS governing text — Halliburton JD text as mirrored; (2) alternate route — hiring.cafe mirror lists it Houston/Onsite; (3) alternate posting — no remote variant found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Marathon Petroleum",
-    "role": "Senior Solution Architect, Midstream Operations",
-    "reason": "stale — Published: 2026-10-09 (before 2026-10-18 cutoff). Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Pay Min/Max: $106,900.00 - $184,300.00 Salary. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same 2026-10-09 date in search results; (3) alternate posting — no fresher repost found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Marathon Petroleum",
-    "role": "Lead Solution Architect",
-    "reason": "stale — Published: 2026-09-08 (before 2026-10-18 cutoff). Location: Houston TX One Allen Center; Location Address: 500 Dallas St Ste 2900. Role is Workday HR architecture, not cloud/enterprise core. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "Baker Hughes",
-    "role": "Cloud Enterprise Architect Remote and Drilling Performance Applications",
-    "reason": "stale — Published: 2024-09-07T03:34:38+00:00 (far before 2026-10-18 cutoff); Houston, TX location; only flexible-hours pattern offered, no fully-remote language. Duties: 'Conducting architectural evaluation, design, and analysis of Remote and Drilling Performance Applications' with 'Experience with AWS Deployments'. workarounds tried: (1) employer ATS governing text — Baker Hughes JD text as mirrored; (2) alternate route — same old posting in search results; (3) alternate posting — no fresh variant found.",
-    "where": "Employer sites",
-    "time": "1:57 PM"
-   },
-   {
-    "company": "National Geospatial-Intelligence Agency",
-    "role": "User Experience Architect (Hiring Event)",
-    "reason": "clearance — Full USAJOBS JD read by the W1 worker (unit 248 definitive return, delivered late): posted 2026-10-19 (fresh, in-window) but the announcement states 'Security Clearance - Top Secret / Sensitive Compartmented Information (SCI)' - an active TS/SCI is required, a gate fact that rejects on sight; no workaround owed.",
-    "where": "Employer sites",
-    "time": "1:58 PM"
-   },
-   {
-    "company": "King County",
-    "role": "Identity and Access Management (IAM) Solutions Architect",
-    "reason": "not-remote — Definitive W2 verdict (unit 249 worker's late full return) superseding the earlier PARKED not-evaluated for this lead: full JD loaded via the King County posting's Indeed mirror + LinkedIn announcement (published 2026-10-21): 'Hybrid Work: KCIT works in a hybrid model, with days in the office as well as telecommuting. The primary onsite location is the Chinook Building, 401 5th Ave, Seattle, WA' and employees must reside in Washington state within reasonable distance of the worksite - not 100% remote and not Texas-eligible. Salary $160,892 - $203,941 (top was in band). Workarounds tried: (1) employer portal governing text via mirror of the King County posting, (2) alternate route LinkedIn, (3) no alternate posting found; residency/hybrid is posting-intrinsic.",
-    "where": "Employer sites",
-    "time": "1:58 PM"
-   },
-   {
-    "company": "Duke Energy",
-    "role": "Principal Architect – Nuclear IT",
-    "reason": "not-remote — This is a Hybrid role; the candidate will sit in Richmond VA. (Full JD read on Duke Energy's own ATS, jobs.duke-energy.com/job/Richmond-Principal-Architect-Nuclear-IT-VA-23219/1338718600/ — governing text, workaround route 1; same posting mirrored on LinkedIn/Indeed with no remote variant, routes 2-3 checked.)",
-    "where": "Employer sites",
-    "time": "2:04 PM"
-   },
-   {
-    "company": "Exelon",
-    "role": "Principal Solutions Architect",
-    "reason": "not-remote — This position requires the employee to be on-site at least three (3) times per pay period… The position will be located at the following Exelon corporate office: Chicago, IL. (Full JD read on Exelon's own Taleo ATS — governing text, workaround route 1; no alternate remote posting of the same role found, routes 2-3 checked.) Salary $117,600.00-$164,880.00 top in band; remote requirement is the failing filter.",
-    "where": "Employer sites",
-    "time": "2:04 PM"
-   },
-   {
-    "company": "ServiceNow",
-    "role": "Principal Solutions Architect - Public Sector",
-    "reason": "not-remote — Flexible Persona: 'We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work...' — the role is a Flex / office-anchored posting: 'spend time in the office three to five days a week based on business needs.' Full JD read on ServiceNow's own Workday ATS (governing text, workaround route 1; no remote variant of the same req found). Also stale: Created Date 2025-03-27.",
-    "where": "Employer sites",
-    "time": "2:08 PM"
-   },
-   {
-    "company": "CrowdStrike",
-    "role": "Sr. Solution Architect - Cloud Specialist",
-    "reason": "experience-mismatch — Responsibilities include delivering AWS partner accreditations including AWS Migration Evaluator (Business Case Analysis), AWS Well-Architected Framework reviews and reports including leading client meetings, AWS MAP and OLA assessments and reports, and AWS Funding (MDF, POC credits, MAP Credits). The whole role is AWS-platform delivery / partner accreditation work, a core mismatch with his Azure/enterprise-architecture experience (and AWS-first scope). Full JD read on CrowdStrike's own iCIMS ATS (governing text, workaround route 1). Posted 2025-05-19 (also stale).",
-    "where": "Employer sites",
-    "time": "2:08 PM"
-   },
-   {
-    "company": "Snowflake",
-    "role": "Resident Solution Architect (RSA) - Snowflake Cortex AI and Agentic AI Platform",
-    "reason": "pay-outside-band — The base salary range for this job is $200,000 to $284,000. — published top $284,000 is above the $230,000 pay-band ceiling. Full JD read on Snowflake's own Greenhouse posting (governing text, workaround route 1; gate-adjacent published pay figure, no alternate posting changes the employer's range). Posted 2025-10-06 (also stale). Role is additionally a product-specific Cortex AI resident/embedded delivery role.",
-    "where": "Employer sites",
-    "time": "2:08 PM"
-   },
-   {
-    "company": "Atlassian",
-    "role": "Sr. Partner Solutions Architect, AI",
-    "reason": "pay-outside-band — Zone B: $251,640 USD - $318,270 USD; Zone A: $279,600 USD - $353,600 USD; Zone C: $230,900 USD - $291,800 USD; Zone D: $286,700 USD - $376,200 USD. — every zone's top exceeds the $230,000 pay-band ceiling. Full JD read on Atlassian's own Lever posting (governing text, workaround route 1). Posted 2025-10-10 (also stale). Distinct req from the Atlassian role filed 2026-10-11 (Senior Partner Solutions Architect - Cloud Platform, RTX1672ce) — not a duplicate.",
-    "where": "Employer sites",
-    "time": "2:08 PM"
-   },
-   {
-    "company": "Capital One",
-    "role": "Senior Manager, Distinguished Lead AI Architect - Cyber Security Architecture (Remote-Eligible was listing title; JD itself names only office locations)",
-    "reason": "pay-outside-band — 'The minimum and maximum full-time annual salaries for this role are based on location... Plano, TX: $246,400 - $281,200... Richmond, VA: $246,400 - $281,200... McLean, VA: $271,000 - $309,300' — posted 2026-10-22 on Capital One's own careers site; every published location range tops above the $230,000 band ceiling, and every named location is an on-site office hub with no remote option. Full JD read on the employer's own site (governing text, workaround route 1).",
-    "where": "Employer sites",
-    "time": "2:16 PM"
-   },
-   {
-    "company": "Nationwide",
-    "role": "Staff Consultant, Software Architect",
-    "reason": "stale — Nationwide Taleo ATS (employer's own site) full JD: 'Posted: Sep 15, 2026' — before the 2026-10-18 eligibility floor; 'Compensation Grade H5: $134,500 - $271,500' — top also above the $230,000 band ceiling. Location: 'This position can be filled remotely.' Re-verification of the W16 lane on the employer's own ATS (34 architect results) found this as the ONLY remote architect posting; an earlier worker's claimed in-band Nationwide PASS could not be reproduced there.",
-    "where": "Employer sites",
-    "time": "2:24 PM"
-   },
-   {
-    "company": "Honeywell",
-    "role": "Sr. Advanced Systems Engineer (Device/Connectivity)",
-    "reason": "not-remote — Innovate to solve the world's most important challenges — location Ankara, Ankara, Türkiye (KM): the only in-window architect-adjacent posting at the five W18 employers searched (Honeywell, Eaton, Caterpillar, Cummins, Deere) is based in Türkiye, not the US; fails the US-based 100% remote requirement. Full JD read on Honeywell's own careers site (governing text).",
-    "where": "Employer sites",
-    "time": "2:34 PM"
-   },
-   {
-    "company": "Xcel Energy",
-    "role": "IT Solution Lead (Application Delivery)",
-    "reason": "not-remote — Xcel Energy supports a hybrid work model to enable collaboration and flexibility. Many roles are expected to work onsite three days per week (Tuesday–Thursday); — full JD read on Xcel Energy's own careers site (posted 2026-10-23); pay top also below band floor ($150,000) and title is not architect-level. Late record: the W6 worker's full return arrived after unit completion.",
-    "where": "Employer sites",
-    "time": "2:52 PM"
-   },
-   {
-    "company": "Xcel Energy",
-    "role": "IT Solution Lead (Corporate Platforms & Systems)",
-    "reason": "not-remote — Xcel Energy supports a hybrid work model to enable collaboration and flexibility. Many roles are expected to work onsite three days per week (Tuesday–Thursday); — full JD read on Xcel Energy's own careers site (posted 2026-10-21); salary $97,600.00 to $138,600.00 per year, top also below the $160,000 band floor. Late record: the W6 worker's full return arrived after unit completion.",
-    "where": "Employer sites",
-    "time": "2:52 PM"
-   },
-   {
-    "company": "Edward Jones",
-    "role": "Senior Infrastructure Security Architect",
-    "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week. — posting open from 19-Oct-2026 (in-window, posted 2026-10-19); mirror versions of the same role also show Hiring Maximum: $239100, above the $230,000 band ceiling. Full JD text read by the W16 worker; late record from its full return, which arrived after unit completion.",
-    "where": "Employer sites",
-    "time": "2:52 PM"
-   },
-   {
-    "company": "FedEx",
-    "role": "Solutions Architect III - Commercial",
-    "reason": "pay-outside-band — Pay $7,987-$11,980/mo (top approx $143,760/yr, below the $160,000 band floor). Duties are a full commercial sales cycle: 'you take full ownership of the opportunity — running executive discovery, architecting the integration blueprint, conducting live technical demonstrations, managing the POC, structuring commercial proposals, negotiating contracts, and closing the deal.' Posted 2026-10-19 (in-window). Late record: the W20 worker's full return arrived after unit completion.",
-    "where": "Employer sites",
-    "time": "2:52 PM"
-   },
-   {
-    "company": "Penn Medicine",
-    "role": "Senior Principal Enterprise Architect",
-    "reason": "stale — Full JD read on Penn Medicine's own ATS (careers.pennmedicine.org/jobs/17975611-senior-principal-enterprise-architect, Job ID 327781): 'Published: 2026-07-08' - over 3 months old, far outside the 7-day eligibility window; also 'Work Schedule: Hybrid' and 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104' (not-remote). Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) alternate board mirrors (myjboard listing) show the same req; (3) no alternate fresh remote posting of the same role found. UNIT COVERAGE (W3 unit 71): ProMedica - web searches found no architect postings (Indeed company page: 'There are no open jobs at ProMedica currently'); Johns Hopkins Medicine - only architect listings found were stale crawls (Enterprise IT Architect 252 days ago, Enterprise Research IT Architect 52 days ago), no fresh (posted >=2026-10-18) architect posting in this slice.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Penn Medicine",
-    "role": "Corporate Director Enterprise Cloud Architecture",
-    "reason": "not-remote — Full JD read on Penn Medicine's own ATS (careers.pennmedicine.org/jobs/17975495-corporate-director-enterprise-cloud-architecture, Job ID 327777): 'Work Schedule: Hybrid' and 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104' - a stated required hybrid schedule, not 100% remote (also 'Published: 2026-07-08', outside the 7-day window). Duties otherwise aligned (Azure as primary platform, multi-cloud governance). Workarounds tried: (1) employer's own ATS posting is the governing text; (2) alternate board mirror shows the same hybrid req; (3) no alternate remote posting of the same role found.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Penn Medicine",
-    "role": "Senior Principal EA Research Technology",
-    "reason": "closed — Penn Medicine's own ATS page (careers.pennmedicine.org/jobs/18119927-senior-principal-ea-research-technology, Job ID 327780) states at the top: 'This job posting is no longer active.' Closed posting - gate fact, rejects on sight, no workaround owed. (The role was listed 'Location: Remote based out of Philadelphia, PA' but is closed.)",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Penn Medicine",
-    "role": "Senior Principal EA Infrastructure and DR Strategy",
-    "reason": "closed — Penn Medicine's own ATS page (careers.pennmedicine.org/jobs/17975496-senior-principal-ea-infrastructure-and-dr-strategy, Job ID 327779) states at the top: 'This job posting is no longer active.' Closed posting - gate fact, rejects on sight, no workaround owed. (Also 'Work Schedule: Hybrid', 'Location: Hybrid, 3535 Market St, Philadelphia, PA 19104'.)",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "UCLA Health",
-    "role": "Senior Data Architect",
-    "reason": "not-remote — Full JD read on UCLA Health's own ATS (uclahealth.avature.net/careers/JobDetail/28540): 'This flexible hybrid role allows for a blend of remote and on-site work, requiring presence on-site at least 10% of the time' - not 100% remote; also 'The full salary range for this position is $ 132,300 - $ 307,100 annually' - top $307,100 above the $230K band ceiling. Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) Career.io/Nexxt mirrors carry the same hybrid terms and range; (3) no alternate remote posting of the same req found.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Stanford Health Care",
-    "role": "Enterprise Information Management Solution Architect",
-    "reason": "not-remote — Full JD text read via CareerBuilder mirror of the Stanford Health Care posting (Req R2654158): '1.0 FTE Full time Day - 08 Hour R2654158 Hybrid 108480015 TDS Enterprise Information Management Technology & Digital Solutions PALO ALTO, 1830 Embarcadero, California' - a Hybrid Palo Alto role, not 100% remote; all mirrors found were 28-219-day-old crawls, also outside the 7-day window. Workarounds tried: (1) employer's posting text as mirrored is governing and states Hybrid; (2) alternate mirrors (SonicJobs, Career.io, GrabJobs, Recruit.net) all carry the same Hybrid designation; (3) no alternate remote posting of the same req found.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "MD Anderson Cancer Center",
-    "role": "Enterprise Data Architect",
-    "reason": "closed — MD Anderson's own ATS (careers.mdanderson.org/jobs/data-management-architect-3287, Requisition # 106788) states: 'Thanks for your interest in the Enterprise Data Architect position. Unfortunately this position has been closed'. Closed posting - gate fact, rejects on sight, no workaround owed. UNIT COVERAGE (W3 unit 72): NYU Langone Health - only architect listings found were stale (Enterprise Cloud Architect - AWS crawled 196/81 days ago and AWS-first; Cloud Enterprise Architect - Azure crawled 157 days ago), none fresh; Mount Sinai Health System - Cyber Security Architect listing dated 2 months ago on DailyRemote, all other architect listings 190+ day crawls, none fresh; RWJBarnabas Health - IAM Security App Architect Req 0000222817 (218-day crawl), Security Architecture Lead Req 0000200121 (60-day crawl), Security Risk App Architect Req 0000175309 (27-day crawl), all outside the 7-day window with no fresh architect posting found.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "CAI",
-    "role": "Enterprise Architect (Chat Platform)",
-    "reason": "cloud-scope — Full JD text read via Glassdoor (Req R8798, Full time, Worksite flexibility: Remote, contract): 'The Enterprise Architect (Chat Platform) leverages deep expertise in Google Cloud Platform (GCP) and modern web technologies to lead in the design and implementation of an enterprise Chat Platform' and 'Drive the effective application of modern cloud-native technologies (e.g., GCP services, TypeScript, Node.js, Dialogflow, Gemini Enterprise for Customer Experience - GECX)' - a GCP-first role with no Azure scope; cloud-scope gate - GCP-first/Azure-excluded postings are out. UNIT COVERAGE (W8 Web Catch-All restart, unit 259): web searches run across Enterprise/Solutions/Cloud/Azure architect families, remote, Oct 2026; other surfaced leads: Publix Cloud Architect - Platform Architecture (Remote) posted Jun 22, 2026 (stale); Built In Principal Solutions Architect published 2026-10-23 but 'Location: UK (Remote)' (US-only fail, employer unnamed in listing); Qureos Remote BPM Solution Architect - Azure and GenAI at $130,000-$155,000 (top below the $160K floor, plus C#/.NET proficiency duties); Senior Cloud Architect (GCP) published 2026-10-19 on an aggregator mirror (GCP-first, employer unnamed); no other fresh in-scope PASS found this unit.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Humana",
-    "role": "Lead Enterprise Architect - Remote US",
-    "reason": "employer-excluded — Fresh posting surfaced via Educativ mirror (Published: 2026-10-24T11:18:58+0000; Application Deadline: 10-27-2026): 'Lead Enterprise Architect - Remote US' at Humana. Humana is an absolute exclusion - never touch, in any lane. Gate fact, rejects on sight, no workaround owed and no filing attempted. (Distinct title from the 'Lead Technology Architect' Humana record already in this run.)",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "CAI",
-    "role": "Application Architect",
-    "reason": "hands-on-coding — Full JD read on Built In (builtin.com/job/application-architect/6276488, Job ID R5388, Full time, Remote): duties are hands-on .NET development - 'Develop enterprise-level applications and custom integrations', 'Plan, design, and develop complex software solutions', 'Conduct code reviews'; required: 'Minimum of 10 years of design and development experience with .NET, C#, ASP.NET, Oracle, and SQL Server' and 'In-depth knowledge of programming languages'. Whole role is hands-on coding under an Architect title. Also 'Published: 2025-05-20' (stale). Workarounds tried: (1) Built In carries the employer's full JD text; (2) no alternate architect-level (non-coding) posting of this req found.",
-    "where": "Employer sites",
-    "time": "2:55 PM"
-   },
-   {
-    "company": "Johnson & Johnson",
-    "role": "Professional, Enterprise Architect",
-    "reason": "not-remote — Full JD read on J&J's own ATS (careers.jnj.com/en/jobs/r-103724/professional-enterprise-architect; Published: 2026-10-20, fresh, closing Oct 27 2026): 'DePuy Synthes is recruiting for a(n) Professional, ERP Architecture located in New Brunswick, NJ or West Chester, PA or Palm Beach Gardens, FLR or Warsaw, IN' with tag '#LI-Hybrid' - a site-based hybrid role, not 100% remote; also 'The anticipated base pay range for this position is: 79,000.00 - 142,000.00 USD Annual' - top $142,000 below the $160K band floor. Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) no alternate remote posting of the same req found. UNIT COVERAGE (W3 unit 73): Pfizer - all Enterprise Architect listings found were stale (Director EA AI & Data 70-day crawl; Director EA PGS Published 2026-02-05; Director EA Patient Services Platforms already recorded REJECTED stale in unit 250 this run - not duplicated); Eli Lilly - Platform Architect LVA was a 222-246-day-old posting re-crawled on Built In, Sr AI Solution Architect is Indianapolis-located, Cloud & Kubernetes Platform Engineer is hybrid Indianapolis with relocation required and engineer-level; AbbVie - all architect listings found were 70-315-day-old crawls based in North Chicago, none fresh.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "Merck & Co.",
-    "role": "Solution Architect - Market Access and Revenue Management",
-    "reason": "closed — Full JD read via Talentally mirror of Merck's Workday posting (Requisition ID: R315690, Rahway, NJ): 'Job Posting End Date: 12/31/2024' - the posting's own end date passed long ago (expired/closed; gate fact). The JD also states 'Flexible Work Arrangements: Hybrid' and 'Hybrid working model' for Rahway, NJ. No workaround owed for a closed posting; no live alternate posting of this req found.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "Bristol Myers Squibb",
-    "role": "Solutions Architect, GPS BI&T",
-    "reason": "aws-first — Full JD read on Built In (R1599743): 'This role focuses heavily on AWS cloud services' - 'Design end-to-end architecture across CHIP (Cell Health Intelligence Platform) applications using: EKS/ECS, Dockers, Containers, Lambda, API Gateway, SQS/SNS and EventBridge; Aurora PostgreSQL, DynamoDB, S3, Kinesis, Glue ETL/Streaming' - an AWS-first role (Azure absent), also 'Proficiency in Python/Java/Node.js' required and 'Published: 2026-07-07' (stale); other mirrors place the role in Hyderabad, India. AWS-first postings are out under the cloud-scope rule. Workarounds tried: (1) Built In carries the full employer JD text; (2) Adzuna/Swooped mirrors carry the same AWS-first JD; (3) no Azure-scoped alternate posting of this req found. UNIT COVERAGE (W3 unit 74): Amgen - Senior Principal AWS Cloud Architect was a 46-day-old BioSpace crawl and AWS-first/hands-on IaC, all other architect listings India-based or 56-361-day crawls, none fresh US remote; AstraZeneca - all architect listings found were UK (Macclesfield) or India (Chennai) with 244-336-day crawls, none US; Sanofi - Strategic Solution Architect (Morristown, NJ) listings were 259-362-day-old crawls, site-based, none fresh.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "GSK",
-    "role": "Senior Principle Architect",
-    "reason": "stale — Full JD read on Built In (Senior Principle Architect - Enterprise Architect, DevCMO Tech): 'Published: 2025-07-14' - over a year old, far outside the 7-day eligibility window (stale is a gate fact). UNIT COVERAGE (W3 unit 75): Novo Nordisk - all architect listings found were Denmark (Bagsvaerd/Ballerup/Hellerup) or India (Bangalore) with 81-357-day crawls, none US; Moderna - Tech Lead/Solutions Architect, Data Platform is 'based in Warsaw, Poland' (Built In, crawled 1 day ago) and Fellow, AI Architecture (Cambridge, MA) was a 215-232-day crawl with pay up to $437k, none fresh US remote; Regeneron - all architect listings found were 30-318-day crawls for on-site NY roles (Sleepy Hollow/Troy), none fresh.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "Roche / Genentech",
-    "role": "Solution Architect, Intelligent Visualization and Insights",
-    "reason": "stale — Full JD read on Built In (Solution Architect, Intelligent Visualization and Insights - Roche): 'Published: 2025-10-09' - over a year old, outside the 7-day eligibility window (stale is a gate fact). Other Roche/Genentech architect listings found were Poland-based Solution Architect roles (287-272-day crawls) and a South San Francisco Research & Early Development Enterprise Architect requiring 'onsite work 3 days per week' (232-day crawl). Workarounds tried: (1) Built In carries the full employer JD text with its published date; (2) no fresher repost of the same role found.",
-    "where": "Employer sites",
-    "time": "2:56 PM"
-   },
-   {
-    "company": "Vertex Pharmaceuticals",
-    "role": "Customer Engagement Platforms Architect",
-    "reason": "not-remote — Full JD read on Built In (Customer Engagement Platforms Architect - Vertex Pharmaceuticals): 'Flex Designation: Hybrid-Eligible Or On-Site Eligible' and '#LI-Hybrid' - a stated hybrid schedule, not 100% remote. Also 'Published: 2026-03-31' (stale, outside the 7-day window) and pay range $197,600-$296,400 (top above the $230,000 ceiling). Workarounds tried: (1) Built In carries the full employer JD text with flex designation and published date; (2) no fully-remote repost of the same role found. UNIT COVERAGE (W3 unit 76): Zoetis - Built In company page shows a 2-day-old Remote US role leading the CIAM function (recorded separately as not-evaluated; title/JD not identifiable from the company page); Zoetis Manufacturing & Supply Enterprise Architect (Remote) was a 38-day crawl; Becton Dickinson (BD) - all architect listings found were 73-274-day crawls (Bengaluru, Durham NC, San Diego), none fresh.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Gilead Sciences",
-    "role": "Cloud Platform Engineering Architect (AWS)",
-    "reason": "aws-first — JD text carried in Dice/GrabJobs/Career.io mirrors of Gilead's Cloud Platform Engineering Architect posting: the role owns 'design, development and delivery of technical code' for the AWS Control Tower Landing Zone, with 'Terraform development' and 'Platform development, coding, automation' duties - an AWS-first, hands-on platform-engineering role, outside cloud scope and the whole-role hands-on test. All mirrors are 255-285-day crawls (also stale). Workarounds tried: (1) mirror JD text is the employer's own posting text; (2) no Azure/multi-cloud variant of the role found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Baxter International",
-    "role": "Solutions Architect",
-    "reason": "stale — Full JD read on Built In (Solutions Architect - Baxter International Inc.): mirror last crawled 31 days ago, outside the 7-day eligibility window (stale is a gate fact). The JD also requires 'Programming Languages: Proficient in C++, Python, Java, or similar' - hands-on proficiency. UNIT COVERAGE (W3 unit 77): Baxter - a second Solution Architect listing is for France (Connected Care, 'influence sales in France', non-US) and the Embedded Qt Software Architect listings (43-264-day crawls) are embedded software development roles; Teva Pharmaceuticals - PAM Architect in Sofia, Bulgaria (299-day crawl), Cyber Security Solutions Architect in Zagreb, Croatia (354-day crawl), Network Architect in Parsippany NJ originally posted April 2022 - no fresh US architect posting; Viatris - Enterprise Architect mirror was a 342-day crawl, the Built In MarTech content-ecosystem role (Pittsburgh, in-office or remote, 19 days) is a product/content leadership role rather than an architect-family posting, and the Senior Director ERP Delivery role is not an architect title - none qualifying.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Medtronic",
-    "role": "IT Architect Advisor - Enterprise Architecture Data and AI",
-    "reason": "stale — JD text carried in Career.io/GrabJobs/Swooped mirrors of Medtronic's IT Architect Advisor - Enterprise Architecture Data and AI: every mirror is a 216-245-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The JD also states 'We're working onsite 4 days a week' across named Medtronic sites - not remote. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Siemens Healthineers",
-    "role": "Enterprise Solutions Architect",
-    "reason": "pay-outside-band — Full JD read via eQuest (Siemens Healthineers Enterprise Solutions Architect, Tarrytown, NY; listing crawled 1 hour ago, valid through 07 November 2026): 'paying $172,690.00-$237,446.00/year' - the published top of range $237,446 exceeds the $230,000 band ceiling, so the posting fails the pay band on its published figures. Workarounds tried: (1) eQuest carries the employer's full JD text and salary; (2) no alternate posting of the same role with different published pay found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "Siemens Healthineers",
-    "role": "Oncology Solution Architect - Growth & Expansion Team (G.E.T) (Remote)",
-    "reason": "experience-mismatch — Full JD read via eQuest (Oncology Solution Architect - Growth & Expansion Team, Remote, Austin TX; $143,200-$196,900, top in band): the role 'is accountable for successful software sales, expansion, and retention' and will 'Lead complex software expansion opportunities across North America aligning execution to broader sales objectives' - the core duties are software sales leadership, not architecture, a core mismatch with his Azure/cloud/enterprise architecture experience. (Verdict rests on core-duty mismatch, not the disabled pre-sales bar.) Workarounds tried: (1) eQuest carries the employer's full JD text; (2) no architecture-duty posting of the same role found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "BioMarin Pharmaceutical",
-    "role": "Enterprise Architect, Commercial, Digital & Data",
-    "reason": "stale — JD text carried in SonicJobs/Jobright/Mediabistro/Career.io mirrors of BioMarin's Enterprise Architect, Commercial, Digital & Data (San Rafael, CA): every mirror is a 61-249-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The Associate Director, Solutions Architect, PTD (SAP Plan to Deliver) mirrors are likewise 228-day crawls on Career.io. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of either role found. UNIT COVERAGE (W3 unit 78): Sarepta Therapeutics - no architect-family postings found (Senior Manager, Supply Chain IT is an IT management role; remaining listings are clinical roles, hybrid Cambridge MA); United Therapeutics - Solutions Architect recorded separately below.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
-   },
-   {
-    "company": "United Therapeutics",
-    "role": "Solutions Architect",
-    "reason": "stale — JD text carried in Ladders/GrabJobs/Career.io/Swooped mirrors of United Therapeutics' Solutions Architect (Research Triangle Park, NC): every mirror is a 245-264-day crawl, far outside the 7-day eligibility window (stale is a gate fact), despite the Azure/M365-aligned duties. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
-    "where": "Employer sites",
-    "time": "2:59 PM"
    }
   ]
  },
@@ -3422,5 +3496,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T20:01:06Z"
+ "lists_generated_at": "2026-10-25T20:05:59Z"
 }
