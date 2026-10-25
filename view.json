@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T02:20:57Z",
+ "generated_at": "2026-10-25T02:25:58Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T01:35:54Z",
@@ -39,22 +39,17 @@
   "rejected": 92,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 18,
    "families_total": 58,
-   "current": {
-    "company": "GlitchX Studios",
-    "role": "Chief Enterprise Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T02:20:57Z",
+   "heartbeat_at": null,
    "detail": "Titles 18/58"
   },
   "W8": {
@@ -462,19 +457,13 @@
    }
   ]
  },
- "note": "Last activity 8:35 PM CT · 2 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 19 of 58 · ",
-   "detail": "Families covered 18/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 8:35 PM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 19 of 58 · ",
-  "detail": "Families covered 18/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
