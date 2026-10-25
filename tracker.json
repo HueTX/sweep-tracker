@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T19:01:04Z",
+ "generated_at": "2026-10-25T19:06:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T18:58:22Z",
+  "last_activity_at": "2026-10-25T19:04:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 186,
+   "covered_units": 192,
    "total_units": 1218,
-   "pct": 15
+   "pct": 16
   },
   "families_covered": 32,
   "families_total": 58
@@ -28,20 +28,23 @@
  "counts": {
   "filed": 3,
   "parked": 36,
-  "rejected": 228,
-  "evaluated": 267
+  "rejected": 230,
+  "evaluated": 269
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 192,
+  "evaluated": 194,
   "filed": 3,
   "parked": 31,
-  "rejected": 158,
+  "rejected": 160,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -135,7 +138,7 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "queued",
-   "families_searched": 0,
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -222,23 +225,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T19:06:06Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T19:06:06Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -302,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 204 units done",
+   "detail": "26 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -542,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 1:58 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 2:04 PM CT · 2 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -2040,6 +2043,20 @@
     "reason": "not-remote — Definitive W2 verdict (unit 249 worker's late full return) superseding the earlier PARKED not-evaluated for this lead: full JD loaded via the King County posting's Indeed mirror + LinkedIn announcement (published 2026-10-21): 'Hybrid Work: KCIT works in a hybrid model, with days in the office as well as telecommuting. The primary onsite location is the Chinook Building, 401 5th Ave, Seattle, WA' and employees must reside in Washington state within reasonable distance of the worksite - not 100% remote and not Texas-eligible. Salary $160,892 - $203,941 (top was in band). Workarounds tried: (1) employer portal governing text via mirror of the King County posting, (2) alternate route LinkedIn, (3) no alternate posting found; residency/hybrid is posting-intrinsic.",
     "where": "Employer sites",
     "time": "1:58 PM"
+   },
+   {
+    "company": "Duke Energy",
+    "role": "Principal Architect – Nuclear IT",
+    "reason": "not-remote — This is a Hybrid role; the candidate will sit in Richmond VA. (Full JD read on Duke Energy's own ATS, jobs.duke-energy.com/job/Richmond-Principal-Architect-Nuclear-IT-VA-23219/1338718600/ — governing text, workaround route 1; same posting mirrored on LinkedIn/Indeed with no remote variant, routes 2-3 checked.)",
+    "where": "Employer sites",
+    "time": "2:04 PM"
+   },
+   {
+    "company": "Exelon",
+    "role": "Principal Solutions Architect",
+    "reason": "not-remote — This position requires the employee to be on-site at least three (3) times per pay period… The position will be located at the following Exelon corporate office: Chicago, IL. (Full JD read on Exelon's own Taleo ATS — governing text, workaround route 1; no alternate remote posting of the same role found, routes 2-3 checked.) Salary $117,600.00-$164,880.00 top in band; remote requirement is the failing filter.",
+    "where": "Employer sites",
+    "time": "2:04 PM"
    }
   ]
  },
@@ -3114,5 +3131,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T19:01:04Z"
+ "lists_generated_at": "2026-10-25T19:06:06Z"
 }
