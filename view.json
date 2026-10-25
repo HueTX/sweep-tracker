@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T10:36:02Z",
+ "generated_at": "2026-10-25T10:40:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,53 +10,53 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T10:35:37Z",
+  "last_activity_at": "2026-10-25T10:39:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 129,
+   "covered_units": 133,
    "total_units": 1218,
    "pct": 11
   },
-  "families_covered": 20,
+  "families_covered": 24,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 10,
-  "rejected": 117,
-  "evaluated": 129
+  "parked": 24,
+  "rejected": 130,
+  "evaluated": 157
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 39,
+  "evaluated": 67,
   "filed": 0,
-  "parked": 5,
-  "rejected": 32,
+  "parked": 19,
+  "rejected": 45,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "filing",
+   "families_searched": 24,
    "families_total": 58,
-   "current": null,
-   "current_family": {
-    "index": 27,
-    "name": "Identity Architect",
-    "total": 58
+   "current": {
+    "company": "Motion Recruitment",
+    "role": "Principal Solutions Architect"
    },
-   "heartbeat_at": "2026-10-25T10:36:02Z",
-   "detail": "Titles 20/58"
+   "current_family": null,
+   "heartbeat_at": "2026-10-25T10:40:54Z",
+   "detail": "Titles 24/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -94,12 +94,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 51,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T10:40:54Z",
    "detail": "Employers 34/39"
   },
   "W3": {
@@ -294,13 +294,13 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "10 of 29 units done",
+   "detail": "12 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "13 of 15 units done",
+   "detail": "13 of 17 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -337,7 +337,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 20,
+  "searched": 24,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -363,10 +363,10 @@
    "Application Architect": "pending",
    "Integration Architect": "pending",
    "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
    "Network Security Architect": "pending",
    "Chief Architect": "pending",
    "Cloud Engineering Lead": "pending",
@@ -463,19 +463,19 @@
    }
   ]
  },
- "note": "Last activity 5:35 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 5:39 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 27 of 58 · Identity Architect",
-   "detail": "Families covered 20/58",
+   "primary": "LinkedIn · Title 25 of 58 · ",
+   "detail": "Families covered 24/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 27 of 58 · Identity Architect",
-  "detail": "Families covered 20/58"
+  "headline": "LinkedIn · Title 25 of 58 · ",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
