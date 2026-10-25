@@ -1,50 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:01:06Z",
+ "generated_at": "2026-10-25T20:05:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T19:59:40Z",
+  "last_activity_at": "2026-10-25T20:02:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 254,
+   "covered_units": 273,
    "total_units": 1218,
-   "pct": 21
+   "pct": 22
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 41,
-  "rejected": 267,
-  "evaluated": 311
+  "parked": 42,
+  "rejected": 277,
+  "evaluated": 322
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 235,
+  "evaluated": 246,
   "filed": 3,
-  "parked": 36,
-  "rejected": 196,
+  "parked": 37,
+  "rejected": 206,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W3",
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -104,24 +101,24 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 54,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:01:06Z",
-   "detail": "Employers 70/73"
+   "heartbeat_at": null,
+   "detail": "Employers 73/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 7,
+   "phase": "queued",
+   "families_searched": 22,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T20:01:06Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "40 of 204 units done",
+   "detail": "43 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -545,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 2:59 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 3:02 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
