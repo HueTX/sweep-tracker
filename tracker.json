@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T19:30:52Z",
+ "generated_at": "2026-10-25T19:36:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T19:24:08Z",
+  "last_activity_at": "2026-10-25T19:34:59Z",
   "progress": {
    "pools": 21,
-   "covered_units": 201,
+   "covered_units": 214,
    "total_units": 1218,
-   "pct": 17
+   "pct": 18
   },
   "families_covered": 32,
   "families_total": 58
@@ -28,23 +28,21 @@
  "counts": {
   "filed": 3,
   "parked": 38,
-  "rejected": 236,
-  "evaluated": 277
+  "rejected": 237,
+  "evaluated": 278
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 202,
+  "evaluated": 203,
   "filed": 3,
   "parked": 33,
-  "rejected": 166,
+  "rejected": 167,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
  "searching_lanes": [
-  "W18",
-  "W19",
-  "W20"
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -248,12 +246,12 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:30:52Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/45"
   },
   "W19": {
@@ -264,18 +262,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:30:52Z",
+   "heartbeat_at": "2026-10-25T19:36:04Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 7,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:30:52Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/31"
   }
  },
@@ -306,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "28 of 204 units done",
+   "detail": "30 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -546,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 2:24 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 2:34 PM CT · 1 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -2114,6 +2112,13 @@
     "reason": "stale — Nationwide Taleo ATS (employer's own site) full JD: 'Posted: Sep 15, 2026' — before the 2026-10-18 eligibility floor; 'Compensation Grade H5: $134,500 - $271,500' — top also above the $230,000 band ceiling. Location: 'This position can be filled remotely.' Re-verification of the W16 lane on the employer's own ATS (34 architect results) found this as the ONLY remote architect posting; an earlier worker's claimed in-band Nationwide PASS could not be reproduced there.",
     "where": "Employer sites",
     "time": "2:24 PM"
+   },
+   {
+    "company": "Honeywell",
+    "role": "Sr. Advanced Systems Engineer (Device/Connectivity)",
+    "reason": "not-remote — Innovate to solve the world's most important challenges — location Ankara, Ankara, Türkiye (KM): the only in-window architect-adjacent posting at the five W18 employers searched (Honeywell, Eaton, Caterpillar, Cummins, Deere) is based in Türkiye, not the US; fails the US-based 100% remote requirement. Full JD read on Honeywell's own careers site (governing text).",
+    "where": "Employer sites",
+    "time": "2:34 PM"
    }
   ]
  },
@@ -3189,5 +3194,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T19:30:52Z"
+ "lists_generated_at": "2026-10-25T19:36:04Z"
 }
