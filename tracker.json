@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T17:30:58Z",
+ "generated_at": "2026-10-25T17:35:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
-  "status": "running",
-  "state": "active",
+  "status": "stopped",
+  "state": "halted",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T17:24:47Z",
+  "last_activity_at": "2026-10-25T17:32:35Z",
   "progress": {
    "pools": 21,
-   "covered_units": 167,
+   "covered_units": 171,
    "total_units": 1218,
    "pct": 14
   },
@@ -28,43 +28,36 @@
  "counts": {
   "filed": 3,
   "parked": 32,
-  "rejected": 199,
-  "evaluated": 234
+  "rejected": 204,
+  "evaluated": 239
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 160,
+  "evaluated": 165,
   "filed": 3,
   "parked": 27,
-  "rejected": 130,
+  "rejected": 135,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "LinkedIn",
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "stopped",
    "families_searched": 32,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 33,
-    "name": "Cloud Transformation Lead",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-25T17:30:58Z",
+   "current_family": null,
+   "heartbeat_at": null,
    "detail": "Titles 32/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -75,7 +68,7 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -108,18 +101,18 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 19,
+   "phase": "stopped",
+   "families_searched": 23,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T17:30:58Z",
-   "detail": "Employers 25/73"
+   "heartbeat_at": null,
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -130,7 +123,7 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -141,7 +134,7 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -152,7 +145,7 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -163,7 +156,7 @@
   "W10": {
    "label": "SimplyHired",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -174,7 +167,7 @@
   "W11": {
    "label": "Glassdoor",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -185,7 +178,7 @@
   "W12": {
    "label": "Monster",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -196,7 +189,7 @@
   "W13": {
    "label": "Otta",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -207,7 +200,7 @@
   "W14": {
    "label": "Indeed",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -218,7 +211,7 @@
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -229,7 +222,7 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -240,7 +233,7 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -251,7 +244,7 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -262,7 +255,7 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -273,7 +266,7 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "19 of 192 units done",
+   "detail": "20 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -406,9 +399,14 @@
   "priority_lanes": [],
   "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "chat-stop-20261025-1233ct",
+    "actuated_at": "2026-10-25T17:35:28Z",
+    "effect": "sweep stop"
+   },
    {
     "id": "chat-title-add-20261024-01",
     "actuated_at": "2026-10-24T20:36:43Z",
@@ -466,18 +464,18 @@
    }
   ]
  },
- "note": "Last activity 12:24 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 12:32 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 33 of 58 · Cloud Transformation Lead",
+   "primary": "Sweep stopped — nothing is searching right now",
    "detail": "Families covered 32/58",
    "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 33 of 58 · Cloud Transformation Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep stopped — nothing is searching right now",
   "detail": "Families covered 32/58"
  },
  "rules": {
@@ -1746,6 +1744,41 @@
     "reason": "hands-on-coding — Recorded late from W3 unit 66's definitive return (kaiserpermanentejobs.org, full JD read): posted 06/12/2026 (stale); 'Work location is on-site at a KP location, with the flexibility to work from home' (not-remote); JD states the position practices 'hands on coding integrations, APIs, microservices, and cloud-based applications.' Workarounds tried: employer's own ATS posting is the governing text.",
     "where": "Employer sites",
     "time": "11:41 AM"
+   },
+   {
+    "company": "Prime Healthcare",
+    "role": "Lead Data Architect",
+    "reason": "stale — Posting Date 08/26/2025",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Prime Healthcare",
+    "role": "Enterprise (Cloud) Architect",
+    "reason": "not-remote — Facility Prime Healthcare Management Inc; Location US-CA-Ontario; Category Business Professional; Department IT ADMIN; Status Full Time; Shift Days",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Universal Health Services",
+    "role": "Clinical Architect",
+    "reason": "not-remote — the position is based in Virginia Beach and described as onsite/hybrid",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "Tenet Healthcare",
+    "role": "Applications Architect",
+    "reason": "not-remote — Plano, TX - Hybrid (location and work model shown on the employer's own listing; no remote option)",
+    "where": "Employer sites",
+    "time": "12:32 PM"
+   },
+   {
+    "company": "LifePoint Health",
+    "role": "Data Conversion Architect",
+    "reason": "not-remote — Louisville, KY - Hybrid (ScionHealth posting surfaced through LifePoint Health's official careers site)",
+    "where": "Employer sites",
+    "time": "12:32 PM"
    }
   ]
  },
@@ -2816,5 +2849,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T17:30:58Z"
+ "lists_generated_at": "2026-10-25T17:35:28Z"
 }
