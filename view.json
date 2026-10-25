@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T18:46:52Z",
+ "generated_at": "2026-10-25T18:51:00Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,41 +10,40 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T17:32:35Z",
+  "last_activity_at": "2026-10-25T18:47:20Z",
   "progress": {
    "pools": 21,
-   "covered_units": 156,
+   "covered_units": 173,
    "total_units": 1218,
-   "pct": 13
+   "pct": 14
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 32,
-  "rejected": 204,
-  "evaluated": 239
+  "parked": 33,
+  "rejected": 208,
+  "evaluated": 245
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 165,
+  "evaluated": 170,
   "filed": 3,
-  "parked": 27,
-  "rejected": 135,
+  "parked": 28,
+  "rejected": 138,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3"
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -83,56 +82,56 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:46:52Z",
+   "heartbeat_at": null,
    "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 52,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:46:52Z",
+   "heartbeat_at": null,
    "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 22,
+   "phase": "queued",
+   "families_searched": 25,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:46:52Z",
+   "heartbeat_at": null,
    "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T18:51:00Z",
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T18:51:00Z",
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -306,15 +305,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "20 of 204 units done",
+   "detail": "23 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
+   "state": "active",
+   "detail": "2 of 3 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": "2026-10-25T12:45:32Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -546,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 12:32 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 1:47 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
