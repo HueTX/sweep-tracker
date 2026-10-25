@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T17:26:29Z",
+ "generated_at": "2026-10-25T17:30:58Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T17:24:47Z",
@@ -41,17 +41,24 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 32,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 33,
+    "name": "Cloud Transformation Lead",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-25T17:30:58Z",
    "detail": "Titles 32/58"
   },
   "W8": {
@@ -101,12 +108,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 19,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T17:30:58Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -459,13 +466,19 @@
    }
   ]
  },
- "note": "Last activity 12:24 PM CT · 0 workers in flight · 3 filed this run",
- "pill": [],
+ "note": "Last activity 12:24 PM CT · 3 workers in flight · 3 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 33 of 58 · Cloud Transformation Lead",
+   "detail": "Families covered 32/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 33 of 58 · Cloud Transformation Lead",
+  "detail": "Families covered 32/58"
  },
  "rules": {
   "follow_all": false,
