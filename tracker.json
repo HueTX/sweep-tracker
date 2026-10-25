@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T19:06:06Z",
+ "generated_at": "2026-10-25T19:10:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T19:04:42Z",
+  "last_activity_at": "2026-10-25T19:08:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 192,
+   "covered_units": 197,
    "total_units": 1218,
    "pct": 16
   },
@@ -27,23 +27,22 @@
  },
  "counts": {
   "filed": 3,
-  "parked": 36,
-  "rejected": 230,
-  "evaluated": 269
+  "parked": 37,
+  "rejected": 234,
+  "evaluated": 274
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 194,
+  "evaluated": 199,
   "filed": 3,
-  "parked": 31,
-  "rejected": 160,
+  "parked": 32,
+  "rejected": 164,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
  "searching_lanes": [
-  "W16",
-  "W17"
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -230,18 +229,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:06:06Z",
+   "heartbeat_at": "2026-10-25T19:10:53Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 5,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:06:06Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -305,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "26 of 204 units done",
+   "detail": "27 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -545,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 2:04 PM CT · 2 workers in flight · 3 filed this run",
+ "note": "Last activity 2:08 PM CT · 1 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -754,6 +753,13 @@
     "reason": "not-evaluated — Employer JD opened in full at careers.healthfirst.org: 'Req ID, R021509, State, New York, Work Type, Remote' and 'All Other Locations (within approved locations): $118,100 - $180,710' — the page carries no posted date and Texas is not confirmed among 'approved locations', so freshness and TX eligibility could not be established from the governing text.",
     "where": "Employer sites",
     "time": "1:57 PM"
+   },
+   {
+    "company": "Salesforce",
+    "role": "Sr Technical Architect, CSG",
+    "reason": "not-evaluated — Full JD read on Salesforce's own Workday ATS (JR340835): 'Job Category: Sales'; work model 'Office Tech (return to office based on business needs)'; no US-Remote location option. NOT EVALUATED to a verdict: the posting's creation/freshness date could not be determined (an unreadable integer field on the ATS record; no date on the JD page or mirrors) and a $171,600-$260,200 range seen on an aggregator could not be confirmed on the employer's own page, so neither freshness nor pay band can be verified.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
    }
   ],
   "LinkedIn": [
@@ -2057,6 +2063,34 @@
     "reason": "not-remote — This position requires the employee to be on-site at least three (3) times per pay period… The position will be located at the following Exelon corporate office: Chicago, IL. (Full JD read on Exelon's own Taleo ATS — governing text, workaround route 1; no alternate remote posting of the same role found, routes 2-3 checked.) Salary $117,600.00-$164,880.00 top in band; remote requirement is the failing filter.",
     "where": "Employer sites",
     "time": "2:04 PM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Principal Solutions Architect - Public Sector",
+    "reason": "not-remote — Flexible Persona: 'We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work...' — the role is a Flex / office-anchored posting: 'spend time in the office three to five days a week based on business needs.' Full JD read on ServiceNow's own Workday ATS (governing text, workaround route 1; no remote variant of the same req found). Also stale: Created Date 2025-03-27.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Sr. Solution Architect - Cloud Specialist",
+    "reason": "experience-mismatch — Responsibilities include delivering AWS partner accreditations including AWS Migration Evaluator (Business Case Analysis), AWS Well-Architected Framework reviews and reports including leading client meetings, AWS MAP and OLA assessments and reports, and AWS Funding (MDF, POC credits, MAP Credits). The whole role is AWS-platform delivery / partner accreditation work, a core mismatch with his Azure/enterprise-architecture experience (and AWS-first scope). Full JD read on CrowdStrike's own iCIMS ATS (governing text, workaround route 1). Posted 2025-05-19 (also stale).",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "Snowflake",
+    "role": "Resident Solution Architect (RSA) - Snowflake Cortex AI and Agentic AI Platform",
+    "reason": "pay-outside-band — The base salary range for this job is $200,000 to $284,000. — published top $284,000 is above the $230,000 pay-band ceiling. Full JD read on Snowflake's own Greenhouse posting (governing text, workaround route 1; gate-adjacent published pay figure, no alternate posting changes the employer's range). Posted 2025-10-06 (also stale). Role is additionally a product-specific Cortex AI resident/embedded delivery role.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Sr. Partner Solutions Architect, AI",
+    "reason": "pay-outside-band — Zone B: $251,640 USD - $318,270 USD; Zone A: $279,600 USD - $353,600 USD; Zone C: $230,900 USD - $291,800 USD; Zone D: $286,700 USD - $376,200 USD. — every zone's top exceeds the $230,000 pay-band ceiling. Full JD read on Atlassian's own Lever posting (governing text, workaround route 1). Posted 2025-10-10 (also stale). Distinct req from the Atlassian role filed 2026-10-11 (Senior Partner Solutions Architect - Cloud Platform, RTX1672ce) — not a duplicate.",
+    "where": "Employer sites",
+    "time": "2:08 PM"
    }
   ]
  },
@@ -3116,7 +3150,8 @@
    "GSA",
    "University of Alabama at Birmingham (UAB)",
    "Molina Healthcare",
-   "Healthfirst"
+   "Healthfirst",
+   "Salesforce"
   ],
   "W9": [
    "Oracle",
@@ -3131,5 +3166,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T19:06:06Z"
+ "lists_generated_at": "2026-10-25T19:10:53Z"
 }
