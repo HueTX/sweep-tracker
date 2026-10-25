@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T00:15:57Z",
+ "generated_at": "2026-10-25T00:20:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,27 +15,27 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-24T23:53:41Z",
+  "last_activity_at": "2026-10-25T00:20:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 21,
+   "covered_units": 35,
    "total_units": 1218,
-   "pct": 2
+   "pct": 3
   },
-  "families_covered": 2,
+  "families_covered": 6,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 4,
+  "parked": 5,
   "rejected": 28,
-  "evaluated": 32
+  "evaluated": 33
  },
  "today": {
   "date": "2026-10-24",
-  "evaluated": 30,
+  "evaluated": 31,
   "filed": 0,
-  "parked": 3,
+  "parked": 4,
   "rejected": 27,
   "filed_by_source": {}
  },
@@ -48,7 +48,7 @@
    "label": "LinkedIn",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 2,
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": {
@@ -56,8 +56,8 @@
     "name": "Azure Cloud Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-25T00:15:57Z",
-   "detail": "Titles 2/58"
+   "heartbeat_at": "2026-10-25T00:20:57Z",
+   "detail": "Titles 6/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -85,12 +85,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 19,
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T00:15:57Z",
-   "detail": "Employers 10/30"
+   "heartbeat_at": "2026-10-25T00:20:57Z",
+   "detail": "Employers 15/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -295,7 +295,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "1 of 29 units done",
+   "detail": "3 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "2 of 192 units done",
+   "detail": "3 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -338,16 +338,16 @@
  },
  "titles": {
   "total": 58,
-  "searched": 2,
+  "searched": 6,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "pending",
    "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
    "Solutions Architect": "pending",
    "Solution Architect": "pending",
    "Domain Architect": "pending",
@@ -464,11 +464,11 @@
    }
   ]
  },
- "note": "Last activity 6:53 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 7:20 PM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
-   "detail": "Families covered 2/58",
+   "detail": "Families covered 6/58",
    "pool": "LinkedIn"
   }
  ],
@@ -476,7 +476,7 @@
   "live": true,
   "label": "LinkedIn",
   "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
-  "detail": "Families covered 2/58"
+  "detail": "Families covered 6/58"
  },
  "rules": {
   "follow_all": false,
@@ -518,6 +518,15 @@
     "reason": "upload-approval-blocked — LinkedIn Easy Apply for 4474419338: posting showed 'Easy Apply', not 'Applied' (not already applied; distinct from the filed TrustedTech Principal Cloud Strategy role). Step 1/5 Contact info completed and verified (samuel-hubert@outlook.com, +1 8323770273). Step 2/5 Resume: upload of the tailored Hubert-Samuel-Resume.pdf was aborted because the file-upload approval card (connector-04556c58-f243-4a4a-b4b1-3d78867d8c2e) was not answered in this run. No Submit pressed, no confirmation. NOTE for the retry: Easy Apply's resume list already had a stored 'Hubert-Samuel-Resume.pdf 10/22/2026' checked - a retry may be able to proceed on the stored resume without a fresh upload. NOT submitted.",
     "where": "LinkedIn",
     "time": "6:50 PM"
+   }
+  ],
+  "USAJOBS": [
+   {
+    "company": "FDIC",
+    "role": "Senior Cloud Solution Architect, CG-2210-14",
+    "reason": "not-evaluated — Aggregator mirror (Jobright/HiringCafe, crawl ~193-200 days ago) of a USAJOBS FDIC announcement: Develop solution architecture for Microsoft Azure Cloud computing services such as Infrastructure as a Service (IaaS), Platform as a Service (PaaS). The governing USAJOBS announcement itself could not be loaded in this run to verify remote status, salary, or closing date, so no verdict is recorded — lead left not-evaluated for the next unit. Duties on the mirror are Azure-aligned. State, EPA, OCC, and CFPB were also queried in this unit: no architect postings from those agencies surfaced in USAJobs search results.",
+    "where": "USAJOBS",
+    "time": "7:20 PM"
    }
   ]
  },
@@ -1782,5 +1791,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T00:15:57Z"
+ "lists_generated_at": "2026-10-25T00:20:57Z"
 }
