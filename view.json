@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T08:11:06Z",
+ "generated_at": "2026-10-25T08:15:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T08:09:27Z",
   "progress": {
    "pools": 21,
-   "covered_units": 107,
+   "covered_units": 114,
    "total_units": 1218,
    "pct": 9
   },
@@ -39,17 +39,22 @@
   "rejected": 16,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 20,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "ROCS Grad Staffing",
+    "role": "IAM Technical Architect / Technical Lead – Entra ID, Workday & IGA"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T08:15:51Z",
    "detail": "Titles 20/58"
   },
   "W8": {
@@ -89,12 +94,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 29,
+   "families_searched": 36,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/39"
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -300,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "10 of 192 units done",
+   "detail": "11 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -457,13 +462,19 @@
    }
   ]
  },
- "note": "Last activity 3:09 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 3:09 AM CT · 2 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 21 of 58 · ",
+   "detail": "Families covered 20/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 21 of 58 · ",
+  "detail": "Families covered 20/58"
  },
  "rules": {
   "follow_all": false,
