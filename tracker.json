@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T19:55:52Z",
+ "generated_at": "2026-10-25T20:01:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -15,34 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T19:55:36Z",
+  "last_activity_at": "2026-10-25T19:59:40Z",
   "progress": {
    "pools": 21,
-   "covered_units": 233,
+   "covered_units": 254,
    "total_units": 1218,
-   "pct": 19
+   "pct": 21
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 38,
-  "rejected": 252,
-  "evaluated": 293
+  "parked": 41,
+  "rejected": 267,
+  "evaluated": 311
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 217,
+  "evaluated": 235,
   "filed": 3,
-  "parked": 33,
-  "rejected": 181,
+  "parked": 36,
+  "rejected": 196,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
  "searching_lanes": [
-  "W3"
+  "W3",
+  "W4"
  ],
  "lanes": {
   "LinkedIn": {
@@ -104,22 +105,22 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 33,
+   "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T19:55:52Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": "2026-10-25T20:01:06Z",
+   "detail": "Employers 70/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 7,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T20:01:06Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -304,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "34 of 204 units done",
+   "detail": "40 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -544,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 2:55 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 2:59 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -767,6 +768,27 @@
     "reason": "not-evaluated — NOT EVALUATED to a verdict: a 'Director - Solutions Architect' Edward Jones posting was reported by the first W16 worker (remote; salary range approx $117,000-$202,700, top in band; JD line 'This position does not have any direct reports'; said to be posted ~2026-10-23), but on re-verification the employer's own BrassRing posting returned 403 / a login wall and only aggregator copies (Indeed, HigherEdJobs) could be read — no req id or posted date could be confirmed on the governing employer page, so neither freshness nor the exact req can be verified.",
     "where": "Employer sites",
     "time": "2:24 PM"
+   },
+   {
+    "company": "Zoetis",
+    "role": "CIAM function lead (title not shown on Built In company page)",
+    "reason": "not-evaluated — Built In Zoetis company page (opened in full) shows a 2-day-old Remote US role: 'Leads Zoetis's CIAM function and SAP Customer Data Cloud platform... Provides IAM strategy, architecture...' The company page strips the role's title and full JD, and no standalone posting for it could be identified this unit, so no JD-first verdict was possible. Left unevaluated for a later unit - not a reject.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Jazz Pharmaceuticals",
+    "role": "Enterprise Data Architect (Remote)",
+    "reason": "not-evaluated — Indeed carries the full JD for Jazz Pharmaceuticals' Enterprise Data Architect (Remote) (crawled 7 hours ago) - data architecture standards, data modeling, data integration - but a GrabJobs mirror of the same posting is a 325-day crawl and the role does not appear on Jazz's own current careers listing (crawled 2 days ago), so the posting's actual date could not be established inside the 7-day window. Left unevaluated for a later unit - not a reject. Jazz's Associate Director, Enterprise AI Architect (Req ID: R040007, Remote/Home-Based, Philadelphia PA) shows as roughly 4 months old on aggregators.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Incyte",
+    "role": "Director, IT Scientific Solutions Architect",
+    "reason": "not-evaluated — Full JD read via DiversityJobs (Director, IT Scientific Solutions Architect, Wilmington, Delaware - Incyte): mirrors conflict on age (DiversityJobs crawl 3 days ago vs CareerBuilder crawl 193 days ago for the same posting), the JD states a Wilmington DE location with no remote language, and the duties center on Discovery/Pre-Clinical scientific data enablement. Freshness and remote status could not be established from governing text this unit. Left unevaluated - not a reject.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
    }
   ],
   "LinkedIn": [
@@ -1687,6 +1709,20 @@
     "time": "8:37 AM"
    },
    {
+    "company": "Biogen",
+    "role": "Sr. IT Solution Architect, Access Automation",
+    "reason": "not-remote — Full JD read on Built In (Sr. IT Solution Architect, Access Automation - Biogen): 'This is a hybrid role requiring on site presence 3 days per week' in 'Cambridge, MA or Research Triangle Park, NC' - a stated required office schedule, not 100% remote. Also 'Published: 2026-09-18' (37 days old, outside the 7-day window); pay $140,000-$187,250 (top in band). Workarounds tried: (1) Built In carries the full employer JD text with hybrid terms and published date; (2) no fully-remote repost of the same role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Novartis",
+    "role": "Solution Architect IT/OT",
+    "reason": "not-remote — Novartis's own career search (novartis.com career-search, crawled 3 days ago) lists: 'Solution Architect IT/OT | Barcelona Gran Via | Spain | Operations | Development | Information Technology | Oct 20, 2026' - a fresh posting but sited in Barcelona, Spain, not US-based; the sweep is US-only / 100% remote US. All other Novartis architect listings found were likewise Spain (Barcelona) or India (Hyderabad) based. Workarounds tried: (1) employer's own career search is the governing source for location; (2) no US-based posting of this role found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Principal Architect – Enterprise Security",
     "reason": "stale — Published: 2026-09-24 (before the 2026-10-18 eligibility floor); salary also out of band: 'The salary for this role will range from $134,600 $230,800 annually' (top $230,800 > $230,000 cap). Workarounds tried: (1) employer ATS governing text (careers.unitedhealthgroup.com, opened in full); (2) alternate route — mirrors reproduce the same req/date; (3) alternate posting — no fresher UHG security-architecture posting found.",
@@ -2217,6 +2253,97 @@
     "reason": "hands-on-coding — Full JD read on Built In (builtin.com/job/application-architect/6276488, Job ID R5388, Full time, Remote): duties are hands-on .NET development - 'Develop enterprise-level applications and custom integrations', 'Plan, design, and develop complex software solutions', 'Conduct code reviews'; required: 'Minimum of 10 years of design and development experience with .NET, C#, ASP.NET, Oracle, and SQL Server' and 'In-depth knowledge of programming languages'. Whole role is hands-on coding under an Architect title. Also 'Published: 2025-05-20' (stale). Workarounds tried: (1) Built In carries the employer's full JD text; (2) no alternate architect-level (non-coding) posting of this req found.",
     "where": "Employer sites",
     "time": "2:55 PM"
+   },
+   {
+    "company": "Johnson & Johnson",
+    "role": "Professional, Enterprise Architect",
+    "reason": "not-remote — Full JD read on J&J's own ATS (careers.jnj.com/en/jobs/r-103724/professional-enterprise-architect; Published: 2026-10-20, fresh, closing Oct 27 2026): 'DePuy Synthes is recruiting for a(n) Professional, ERP Architecture located in New Brunswick, NJ or West Chester, PA or Palm Beach Gardens, FLR or Warsaw, IN' with tag '#LI-Hybrid' - a site-based hybrid role, not 100% remote; also 'The anticipated base pay range for this position is: 79,000.00 - 142,000.00 USD Annual' - top $142,000 below the $160K band floor. Workarounds tried: (1) employer's own ATS posting is the governing text and carries both failures; (2) no alternate remote posting of the same req found. UNIT COVERAGE (W3 unit 73): Pfizer - all Enterprise Architect listings found were stale (Director EA AI & Data 70-day crawl; Director EA PGS Published 2026-02-05; Director EA Patient Services Platforms already recorded REJECTED stale in unit 250 this run - not duplicated); Eli Lilly - Platform Architect LVA was a 222-246-day-old posting re-crawled on Built In, Sr AI Solution Architect is Indianapolis-located, Cloud & Kubernetes Platform Engineer is hybrid Indianapolis with relocation required and engineer-level; AbbVie - all architect listings found were 70-315-day-old crawls based in North Chicago, none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Merck & Co.",
+    "role": "Solution Architect - Market Access and Revenue Management",
+    "reason": "closed — Full JD read via Talentally mirror of Merck's Workday posting (Requisition ID: R315690, Rahway, NJ): 'Job Posting End Date: 12/31/2024' - the posting's own end date passed long ago (expired/closed; gate fact). The JD also states 'Flexible Work Arrangements: Hybrid' and 'Hybrid working model' for Rahway, NJ. No workaround owed for a closed posting; no live alternate posting of this req found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Solutions Architect, GPS BI&T",
+    "reason": "aws-first — Full JD read on Built In (R1599743): 'This role focuses heavily on AWS cloud services' - 'Design end-to-end architecture across CHIP (Cell Health Intelligence Platform) applications using: EKS/ECS, Dockers, Containers, Lambda, API Gateway, SQS/SNS and EventBridge; Aurora PostgreSQL, DynamoDB, S3, Kinesis, Glue ETL/Streaming' - an AWS-first role (Azure absent), also 'Proficiency in Python/Java/Node.js' required and 'Published: 2026-07-07' (stale); other mirrors place the role in Hyderabad, India. AWS-first postings are out under the cloud-scope rule. Workarounds tried: (1) Built In carries the full employer JD text; (2) Adzuna/Swooped mirrors carry the same AWS-first JD; (3) no Azure-scoped alternate posting of this req found. UNIT COVERAGE (W3 unit 74): Amgen - Senior Principal AWS Cloud Architect was a 46-day-old BioSpace crawl and AWS-first/hands-on IaC, all other architect listings India-based or 56-361-day crawls, none fresh US remote; AstraZeneca - all architect listings found were UK (Macclesfield) or India (Chennai) with 244-336-day crawls, none US; Sanofi - Strategic Solution Architect (Morristown, NJ) listings were 259-362-day-old crawls, site-based, none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "GSK",
+    "role": "Senior Principle Architect",
+    "reason": "stale — Full JD read on Built In (Senior Principle Architect - Enterprise Architect, DevCMO Tech): 'Published: 2025-07-14' - over a year old, far outside the 7-day eligibility window (stale is a gate fact). UNIT COVERAGE (W3 unit 75): Novo Nordisk - all architect listings found were Denmark (Bagsvaerd/Ballerup/Hellerup) or India (Bangalore) with 81-357-day crawls, none US; Moderna - Tech Lead/Solutions Architect, Data Platform is 'based in Warsaw, Poland' (Built In, crawled 1 day ago) and Fellow, AI Architecture (Cambridge, MA) was a 215-232-day crawl with pay up to $437k, none fresh US remote; Regeneron - all architect listings found were 30-318-day crawls for on-site NY roles (Sleepy Hollow/Troy), none fresh.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Roche / Genentech",
+    "role": "Solution Architect, Intelligent Visualization and Insights",
+    "reason": "stale — Full JD read on Built In (Solution Architect, Intelligent Visualization and Insights - Roche): 'Published: 2025-10-09' - over a year old, outside the 7-day eligibility window (stale is a gate fact). Other Roche/Genentech architect listings found were Poland-based Solution Architect roles (287-272-day crawls) and a South San Francisco Research & Early Development Enterprise Architect requiring 'onsite work 3 days per week' (232-day crawl). Workarounds tried: (1) Built In carries the full employer JD text with its published date; (2) no fresher repost of the same role found.",
+    "where": "Employer sites",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Customer Engagement Platforms Architect",
+    "reason": "not-remote — Full JD read on Built In (Customer Engagement Platforms Architect - Vertex Pharmaceuticals): 'Flex Designation: Hybrid-Eligible Or On-Site Eligible' and '#LI-Hybrid' - a stated hybrid schedule, not 100% remote. Also 'Published: 2026-03-31' (stale, outside the 7-day window) and pay range $197,600-$296,400 (top above the $230,000 ceiling). Workarounds tried: (1) Built In carries the full employer JD text with flex designation and published date; (2) no fully-remote repost of the same role found. UNIT COVERAGE (W3 unit 76): Zoetis - Built In company page shows a 2-day-old Remote US role leading the CIAM function (recorded separately as not-evaluated; title/JD not identifiable from the company page); Zoetis Manufacturing & Supply Enterprise Architect (Remote) was a 38-day crawl; Becton Dickinson (BD) - all architect listings found were 73-274-day crawls (Bengaluru, Durham NC, San Diego), none fresh.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Gilead Sciences",
+    "role": "Cloud Platform Engineering Architect (AWS)",
+    "reason": "aws-first — JD text carried in Dice/GrabJobs/Career.io mirrors of Gilead's Cloud Platform Engineering Architect posting: the role owns 'design, development and delivery of technical code' for the AWS Control Tower Landing Zone, with 'Terraform development' and 'Platform development, coding, automation' duties - an AWS-first, hands-on platform-engineering role, outside cloud scope and the whole-role hands-on test. All mirrors are 255-285-day crawls (also stale). Workarounds tried: (1) mirror JD text is the employer's own posting text; (2) no Azure/multi-cloud variant of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Baxter International",
+    "role": "Solutions Architect",
+    "reason": "stale — Full JD read on Built In (Solutions Architect - Baxter International Inc.): mirror last crawled 31 days ago, outside the 7-day eligibility window (stale is a gate fact). The JD also requires 'Programming Languages: Proficient in C++, Python, Java, or similar' - hands-on proficiency. UNIT COVERAGE (W3 unit 77): Baxter - a second Solution Architect listing is for France (Connected Care, 'influence sales in France', non-US) and the Embedded Qt Software Architect listings (43-264-day crawls) are embedded software development roles; Teva Pharmaceuticals - PAM Architect in Sofia, Bulgaria (299-day crawl), Cyber Security Solutions Architect in Zagreb, Croatia (354-day crawl), Network Architect in Parsippany NJ originally posted April 2022 - no fresh US architect posting; Viatris - Enterprise Architect mirror was a 342-day crawl, the Built In MarTech content-ecosystem role (Pittsburgh, in-office or remote, 19 days) is a product/content leadership role rather than an architect-family posting, and the Senior Director ERP Delivery role is not an architect title - none qualifying.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Medtronic",
+    "role": "IT Architect Advisor - Enterprise Architecture Data and AI",
+    "reason": "stale — JD text carried in Career.io/GrabJobs/Swooped mirrors of Medtronic's IT Architect Advisor - Enterprise Architecture Data and AI: every mirror is a 216-245-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The JD also states 'We're working onsite 4 days a week' across named Medtronic sites - not remote. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Enterprise Solutions Architect",
+    "reason": "pay-outside-band — Full JD read via eQuest (Siemens Healthineers Enterprise Solutions Architect, Tarrytown, NY; listing crawled 1 hour ago, valid through 07 November 2026): 'paying $172,690.00-$237,446.00/year' - the published top of range $237,446 exceeds the $230,000 band ceiling, so the posting fails the pay band on its published figures. Workarounds tried: (1) eQuest carries the employer's full JD text and salary; (2) no alternate posting of the same role with different published pay found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Oncology Solution Architect - Growth & Expansion Team (G.E.T) (Remote)",
+    "reason": "experience-mismatch — Full JD read via eQuest (Oncology Solution Architect - Growth & Expansion Team, Remote, Austin TX; $143,200-$196,900, top in band): the role 'is accountable for successful software sales, expansion, and retention' and will 'Lead complex software expansion opportunities across North America aligning execution to broader sales objectives' - the core duties are software sales leadership, not architecture, a core mismatch with his Azure/cloud/enterprise architecture experience. (Verdict rests on core-duty mismatch, not the disabled pre-sales bar.) Workarounds tried: (1) eQuest carries the employer's full JD text; (2) no architecture-duty posting of the same role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "BioMarin Pharmaceutical",
+    "role": "Enterprise Architect, Commercial, Digital & Data",
+    "reason": "stale — JD text carried in SonicJobs/Jobright/Mediabistro/Career.io mirrors of BioMarin's Enterprise Architect, Commercial, Digital & Data (San Rafael, CA): every mirror is a 61-249-day crawl, far outside the 7-day eligibility window (stale is a gate fact). The Associate Director, Solutions Architect, PTD (SAP Plan to Deliver) mirrors are likewise 228-day crawls on Career.io. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of either role found. UNIT COVERAGE (W3 unit 78): Sarepta Therapeutics - no architect-family postings found (Senior Manager, Supply Chain IT is an IT management role; remaining listings are clinical roles, hybrid Cambridge MA); United Therapeutics - Solutions Architect recorded separately below.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
+   },
+   {
+    "company": "United Therapeutics",
+    "role": "Solutions Architect",
+    "reason": "stale — JD text carried in Ladders/GrabJobs/Career.io/Swooped mirrors of United Therapeutics' Solutions Architect (Research Triangle Park, NC): every mirror is a 245-264-day crawl, far outside the 7-day eligibility window (stale is a gate fact), despite the Azure/M365-aligned duties. Workarounds tried: (1) mirrors carry the employer's full JD text; (2) no fresh repost of the role found.",
+    "where": "Employer sites",
+    "time": "2:59 PM"
    }
   ]
  },
@@ -3277,7 +3404,10 @@
    "University of Alabama at Birmingham (UAB)",
    "Molina Healthcare",
    "Healthfirst",
-   "Salesforce"
+   "Salesforce",
+   "Zoetis",
+   "Jazz Pharmaceuticals",
+   "Incyte"
   ],
   "W9": [
    "Oracle",
@@ -3292,5 +3422,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T19:55:52Z"
+ "lists_generated_at": "2026-10-25T20:01:06Z"
 }
