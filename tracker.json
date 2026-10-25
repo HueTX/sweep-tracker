@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T14:31:03Z",
+ "generated_at": "2026-10-25T14:36:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T14:26:21Z",
+  "last_activity_at": "2026-10-25T14:33:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 152,
+   "covered_units": 156,
    "total_units": 1218,
-   "pct": 12
+   "pct": 13
   },
   "families_covered": 28,
   "families_total": 58
@@ -28,30 +28,34 @@
  "counts": {
   "filed": 0,
   "parked": 29,
-  "rejected": 170,
-  "evaluated": 203
+  "rejected": 171,
+  "evaluated": 204
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 118,
+  "evaluated": 119,
   "filed": 0,
   "parked": 24,
-  "rejected": 90,
+  "rejected": 91,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "LinkedIn",
   "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 28,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "ICF",
+    "role": "Solutions Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T14:36:28Z",
    "detail": "Titles 28/58"
   },
   "W8": {
@@ -102,12 +106,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 8,
+   "families_searched": 12,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T14:31:03Z",
-   "detail": "Employers 10/73"
+   "heartbeat_at": "2026-10-25T14:36:28Z",
+   "detail": "Employers 15/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "16 of 192 units done",
+   "detail": "17 of 192 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -459,13 +463,19 @@
    }
   ]
  },
- "note": "Last activity 9:26 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 9:33 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 29 of 58 · ",
+   "detail": "Families covered 28/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 29 of 58 · ",
+  "detail": "Families covered 28/58"
  },
  "rules": {
   "follow_all": false,
@@ -870,6 +880,13 @@
     "reason": "not-remote — Full JD read on Simplify (Sutter Health posting, Posted on 3/27/2025, Sacramento CA): 'This position is hybrid with some onsite work in Sacramento.' — stated hybrid/onsite schedule = not-remote. Duties otherwise align ('Translate business requirements and functional specifications into robust, scalable cloud-based solutions'); Pay Range $75.45 to $120.72/hour. Workarounds tried: (1) employer's own posting text via Simplify is governing; (2) search for a remote alternate posting of this Sutter architect role found none; (3) the other Sutter architect index hit (Cloud Engineering Architect - Azure, $165k-$264k mirror) is also not a fresh remote posting. UNIT COVERAGE (W3 unit 67, all 5 employers searched across the 58 families): Intermountain Health — no fresh remote architect posting found; index hits are stale crawls only (Data Architect Senior, hybrid with monthly in-person, 210-day crawl; Salesforce Solutions Architect-Consultant, 13 days old on aggregator and Salesforce-specific). Banner Health — 2 architect postings read in full and recorded here (both stale); Senior Data Platform Architect aggregator hit is 19 days old. Advocate Health / Atrium Health — no fresh architect posting found; only architect index hit (Analytics Solution Architect) is a 193-day crawl. Northwell Health — no fresh architect posting found; all index hits are 105-296-day crawls, including a GCP-first Google Cloud Solutions Architect. Sutter Health — this hybrid posting only.",
     "where": "Employer sites",
     "time": "8:37 AM"
+   },
+   {
+    "company": "Mass General Brigham",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Hybrid role with onsite work required; candidates must be flexible based on weekly or monthly business needs. Remote Type: Hybrid, Work Location 399 Revolution Drive, Somerville MA. Workarounds tried: (1) employer's own posting text via Ladders mirror carries the governing Remote Type=Hybrid field; (2) alternate routes (web search across Ladders/italents/diversityjobs) show the same hybrid posting; (3) no alternate remote posting of this role found. Also stale: published 2026-08-31, outside 7-day eligibility.",
+    "where": "Employer sites",
+    "time": "9:33 AM"
    }
   ],
   "LinkedIn": [
@@ -2362,5 +2379,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T14:31:03Z"
+ "lists_generated_at": "2026-10-25T14:36:28Z"
 }
