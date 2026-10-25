@@ -1,50 +1,47 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T18:56:40Z",
+ "generated_at": "2026-10-25T19:01:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T18:47:20Z",
+  "last_activity_at": "2026-10-25T18:58:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 173,
+   "covered_units": 186,
    "total_units": 1218,
-   "pct": 14
+   "pct": 15
   },
   "families_covered": 32,
   "families_total": 58
  },
  "counts": {
   "filed": 3,
-  "parked": 33,
-  "rejected": 208,
-  "evaluated": 245
+  "parked": 36,
+  "rejected": 228,
+  "evaluated": 267
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 170,
+  "evaluated": 192,
   "filed": 3,
-  "parked": 28,
-  "rejected": 138,
+  "parked": 31,
+  "rejected": 158,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "W4",
-  "W5"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -115,23 +112,23 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 7,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:56:40Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T18:56:40Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -305,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "23 of 204 units done",
+   "detail": "25 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-10-25T11:09:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-25T18:57:07Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 1:47 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 1:58 PM CT · 0 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
