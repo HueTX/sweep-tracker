@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T20:11:00Z",
+ "generated_at": "2026-10-25T20:16:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T20:09:55Z",
+  "last_activity_at": "2026-10-25T20:14:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 315,
+   "covered_units": 332,
    "total_units": 1218,
-   "pct": 26
+   "pct": 27
   },
   "families_covered": 32,
   "families_total": 58
@@ -28,20 +28,22 @@
  "counts": {
   "filed": 3,
   "parked": 45,
-  "rejected": 289,
-  "evaluated": 337
+  "rejected": 308,
+  "evaluated": 356
  },
  "today": {
   "date": "2026-10-25",
-  "evaluated": 261,
+  "evaluated": 280,
   "filed": 3,
   "parked": 40,
-  "rejected": 218,
+  "rejected": 237,
   "filed_by_source": {
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -123,13 +125,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 12,
+   "phase": "searching",
+   "families_searched": 29,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 5/44"
+   "heartbeat_at": "2026-10-25T20:16:51Z",
+   "detail": "Employers 20/44"
   },
   "W6": {
    "label": "Utilities",
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "49 of 204 units done",
+   "detail": "52 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -542,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 3:09 PM CT · 0 workers in flight · 3 filed this run",
+ "note": "Last activity 3:14 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -1116,6 +1118,27 @@
     "time": "3:02 PM"
    },
    {
+    "company": "SLB",
+    "role": "Software Architect",
+    "reason": "cloud-scope — Senior data architecture experience, ideally within a federated / data-mesh or Google Cloud (BigQuery, Dataplex) environment",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Director, Data Architecture",
+    "reason": "pay-outside-band — This position has a base salary range of $220,500 - $269,500.; Location: Houston, TX, US, 77042",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Architect - AI Products",
+    "reason": "hands-on — Advanced proficiency in front-end and full-stack development using React, Node.js, and C#; Location: Houston, TX, US, 77042",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
     "company": "Connecticut state portal",
     "role": "IT Solution Architect",
     "reason": "stale — Published: 2025-06-03 — posting is more than 7 days old, outside eligibility window. Remote role duties otherwise aligned: 'developing, maintaining and implementing a technical roadmap'. Workarounds tried: (1) employer's own ATS posting on jobapscloud.com is the governing text checked, (2) alternate route via search result mirror, same date, (3) no alternate fresher posting of same role found.",
@@ -1426,23 +1449,23 @@
    {
     "company": "Halliburton",
     "role": "Cloud Domain Architect",
-    "reason": "not-remote — Location: 3000 N. Sam Houston Parkway E., Houston, Texas, 77032, United States — no remote language in full JD; mirror states 'Job post no longer accepts applications'. Architect duties otherwise aligned: 'Own the cloud infrastructure domain architecture for Azure (primary) and AWS (secondary)'. workarounds tried: (1) employer ATS governing text — Halliburton JD text as mirrored; (2) alternate route — hiring.cafe mirror lists it Houston/Onsite; (3) alternate posting — no remote variant found.",
+    "reason": "not-remote — Job post no longer accepts applications; Location 3000 N. Sam Houston Parkway E., Houston, Texas, 77032",
     "where": "Employer sites",
-    "time": "1:57 PM"
+    "time": "3:14 PM"
    },
    {
     "company": "Marathon Petroleum",
     "role": "Senior Solution Architect, Midstream Operations",
-    "reason": "stale — Published: 2026-10-09 (before 2026-10-18 cutoff). Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Pay Min/Max: $106,900.00 - $184,300.00 Salary. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same 2026-10-09 date in search results; (3) alternate posting — no fresher repost found.",
+    "reason": "not-remote — Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy",
     "where": "Employer sites",
-    "time": "1:57 PM"
+    "time": "3:14 PM"
    },
    {
     "company": "Marathon Petroleum",
     "role": "Lead Solution Architect",
-    "reason": "stale — Published: 2026-09-08 (before 2026-10-18 cutoff). Location: Houston TX One Allen Center; Location Address: 500 Dallas St Ste 2900. Role is Workday HR architecture, not cloud/enterprise core. workarounds tried: (1) employer ATS governing text — MPC JD text as mirrored on Built In; (2) alternate route — same req/date in search results; (3) alternate posting — no fresher repost found.",
+    "reason": "not-remote — Location: Houston TX One Allen Center; Location Address: 500 Dallas St Ste 2900",
     "where": "Employer sites",
-    "time": "1:57 PM"
+    "time": "3:14 PM"
    },
    {
     "company": "Baker Hughes",
@@ -1863,6 +1886,118 @@
     "reason": "experience-mismatch — 12+ years of SAP experience with at least 8+ years focused on SAP Sales & Distribution (SD) and Order-to-Cash processes.",
     "where": "Employer sites",
     "time": "3:09 PM"
+   },
+   {
+    "company": "Williams",
+    "role": "IT Architect V – Enterprise Architect",
+    "reason": "not-remote — Hybrid work schedule: 4 days in-office and 1 day remote weekly",
+    "where": "Employer sites",
+    "time": "3:13 PM"
+   },
+   {
+    "company": "Williams",
+    "role": "IT Architect IV (SCADA)",
+    "reason": "not-remote — Hybrid work model - one work from home day each week for most office-based roles; Our corporate headquarters is located in downtown Tulsa, Oklahoma",
+    "where": "Employer sites",
+    "time": "3:13 PM"
+   },
+   {
+    "company": "Williams",
+    "role": "Network Architect V",
+    "reason": "not-remote — Hybrid work model - one work from home day each week for most office-based roles",
+    "where": "Employer sites",
+    "time": "3:13 PM"
+   },
+   {
+    "company": "Occidental Petroleum",
+    "role": "ECM System Architect",
+    "reason": "not-remote — In Person; Houston, TX, USA; based in Houston, TX",
+    "where": "Employer sites",
+    "time": "3:13 PM"
+   },
+   {
+    "company": "Occidental Petroleum",
+    "role": "OSDU Technical Solution Architect",
+    "reason": "not-remote — The OSDU Technical Solution Architect is a Houston-based member of the Technical Systems and Data (IT) organization",
+    "where": "Employer sites",
+    "time": "3:13 PM"
+   },
+   {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "not-remote — Location: Oklahoma City, OK, US; Reading and writing software in modern languages such as C#.NET, Java, Javascript, SQL, etc.",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Diamondback Energy",
+    "role": "Systems Administrator Lead",
+    "reason": "not-remote — Systems Administrator Lead - Diamondback Energy - Oklahoma City, OK",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Diamondback Energy",
+    "role": "Systems Administrator Advisor",
+    "reason": "not-remote — The Systems Administrator is a foundational IT position responsible for the technical planning, design, implementation, performance management, security, and recovery process for IT infrastructure systems",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Senior Data Architect - Landmark",
+    "reason": "not-remote — Location: Houston, TX, US, 77032",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Solutions Architect - AI Tools & Developer Experience",
+    "reason": "not-remote — Location: Oslo, 03, NO, 0167",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Cloud Enterprise Architect",
+    "reason": "stale — Published: 2024-09-07T03:34:38+00:00",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Teamcenter PLM Solution Architect",
+    "reason": "hands-on — Applying hands-on experience in Java, Teamcenter BMIDE, Microservices, Cloud, and Federated architectures in development and leading the development and testing resources.",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect",
+    "reason": "not-remote — Location: Findlay, Ohio; Location Address: 539 S Main St",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Commercial IT Solution Architect",
+    "reason": "not-remote — Commercial IT Solution Architect at Phillips 66 - Houston; no remote language in JD",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Senior Advisor, ServiceNow Architect",
+    "reason": "stale — Job post no longer accepts applications",
+    "where": "Employer sites",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Sr Advisor II, AI Architect",
+    "reason": "not-remote — This hybrid position combines architectural leadership with hands-on engineering expertise; Experience with Python, JavaScript, and Bash scripting",
+    "where": "Employer sites",
+    "time": "3:14 PM"
    }
   ],
   "LinkedIn": [
@@ -3603,5 +3738,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T20:11:00Z"
+ "lists_generated_at": "2026-10-25T20:16:51Z"
 }
