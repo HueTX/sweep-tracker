@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T17:01:32Z",
+ "generated_at": "2026-10-25T17:06:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
   "last_activity_at": "2026-10-25T16:55:58Z",
@@ -41,17 +41,23 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 32,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "Blackbaud",
+    "role": "Enterprise Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T17:06:16Z",
    "detail": "Titles 32/58"
   },
   "W8": {
@@ -101,12 +107,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 15,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-25T17:06:16Z",
    "detail": "Employers 20/73"
   },
   "W4": {
@@ -459,13 +465,19 @@
    }
   ]
  },
- "note": "Last activity 11:55 AM CT · 0 workers in flight · 2 filed this run",
- "pill": [],
+ "note": "Last activity 11:55 AM CT · 3 workers in flight · 2 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 33 of 58 · ",
+   "detail": "Families covered 32/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 33 of 58 · ",
+  "detail": "Families covered 32/58"
  },
  "rules": {
   "follow_all": false,
