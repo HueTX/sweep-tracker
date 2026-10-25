@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T08:35:54Z",
+ "generated_at": "2026-10-25T08:40:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-24T20:36:43Z",
-  "last_activity_at": "2026-10-25T08:35:08Z",
+  "last_activity_at": "2026-10-25T08:37:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 114,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 6,
+  "parked": 7,
   "rejected": 102,
   "evaluated": 113
  },
@@ -35,28 +35,23 @@
   "date": "2026-10-25",
   "evaluated": 23,
   "filed": 1,
-  "parked": 1,
+  "parked": 2,
   "rejected": 17,
   "filed_by_source": {
    "LinkedIn": 1
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 20,
    "families_total": 58,
-   "current": {
-    "company": "Husch Blackwell",
-    "role": "Financial Systems Solutions Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-25T08:35:54Z",
+   "heartbeat_at": null,
    "detail": "Titles 20/58"
   },
   "W8": {
@@ -301,7 +296,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "8 of 12 units done",
+   "detail": "9 of 12 units done",
    "started_at": "2026-10-24T21:26:02Z",
    "ended_at": null
   },
@@ -464,19 +459,13 @@
    }
   ]
  },
- "note": "Last activity 3:35 AM CT · 1 workers in flight · 1 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 21 of 58 · ",
-   "detail": "Families covered 20/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 3:37 AM CT · 0 workers in flight · 1 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 21 of 58 · ",
-  "detail": "Families covered 20/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
