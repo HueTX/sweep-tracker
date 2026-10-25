@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-25T18:35:59Z",
+ "generated_at": "2026-10-25T18:41:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
@@ -18,9 +18,9 @@
   "last_activity_at": "2026-10-25T17:32:35Z",
   "progress": {
    "pools": 21,
-   "covered_units": 171,
+   "covered_units": 156,
    "total_units": 1218,
-   "pct": 14
+   "pct": 13
   },
   "families_covered": 32,
   "families_total": 58
@@ -79,8 +79,8 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "stopped",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -90,8 +90,8 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "stopped",
+   "families_searched": 52,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -102,7 +102,7 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "stopped",
-   "families_searched": 23,
+   "families_searched": 22,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -302,7 +302,7 @@
   },
   "sector_search": {
    "state": "stopped",
-   "detail": "20 of 192 units done",
+   "detail": "20 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
@@ -402,6 +402,66 @@
   "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "a6ee566f-f811-47eb-ae3d-c8fabfb53e09",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W1 recorded"
+   },
+   {
+    "id": "4945c0a2-0c80-4199-bedd-4657865ba7a1",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W2 recorded"
+   },
+   {
+    "id": "e5d66459-6029-400d-9ba1-7a8faf21b3fd",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W3 recorded"
+   },
+   {
+    "id": "f8ce6e38-f6d5-4a9b-8b2b-c9c4f210a0c9",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W4 recorded"
+   },
+   {
+    "id": "c56b1501-1a23-4174-b149-0027bc9e622b",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W5 recorded"
+   },
+   {
+    "id": "6dd84a70-f42c-4a0f-b732-392fe0a2068b",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W6 recorded"
+   },
+   {
+    "id": "29949fb7-603e-4426-a698-a525ffd5182b",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W16 recorded"
+   },
+   {
+    "id": "fb9d5f51-07bb-4e3f-b6c7-a3550301ebfe",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W17 recorded"
+   },
+   {
+    "id": "ea2edebb-760f-4db2-9619-b425e101c1f3",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W18 recorded"
+   },
+   {
+    "id": "5a44cbb5-1877-48b0-b525-848c590b75ef",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W19 recorded"
+   },
+   {
+    "id": "58b839a9-f720-45da-8987-239619ae79ce",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W20 recorded"
+   },
+   {
+    "id": "535a42e1-fb1c-4093-b638-7887378219a7",
+    "actuated_at": "2026-10-25T18:41:15Z",
+    "effect": "restart W8 recorded"
+   },
    {
     "id": "chat-stop-20261025-1233ct",
     "actuated_at": "2026-10-25T17:35:28Z",
@@ -2849,5 +2909,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-25T18:35:59Z"
+ "lists_generated_at": "2026-10-25T18:41:15Z"
 }
