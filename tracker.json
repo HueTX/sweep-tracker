@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:28:10Z",
+ "generated_at": "2026-10-26T23:30:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-26T23:26:25Z",
@@ -43,28 +43,34 @@
    "Dice": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 12,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "Epson America Inc.",
+    "role": "Senior IT Architect - Enterprise AI"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T23:30:19Z",
    "detail": "Titles 12/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 41,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T23:30:19Z",
    "detail": "Titles 41/58"
   },
   "W7": {
@@ -553,13 +559,19 @@
    }
   ]
  },
- "note": "Last activity 6:26 PM CT · 0 workers in flight · 5 filed this run",
- "pill": [],
+ "note": "Last activity 6:26 PM CT · 3 workers in flight · 5 filed this run",
+ "pill": [
+  {
+   "primary": "W8 · Title 43 of 58 · Cloud Delivery Lead",
+   "detail": "Families covered 12/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 43 of 58 · Cloud Delivery Lead",
+  "detail": "Families covered 12/58"
  },
  "rules": {
   "follow_all": false,
@@ -4808,5 +4820,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T23:28:10Z"
+ "lists_generated_at": "2026-10-26T23:30:19Z"
 }
