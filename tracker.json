@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T18:54:25Z",
+ "generated_at": "2026-10-26T18:56:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T18:51:07Z",
+  "last_activity_at": "2026-10-26T18:55:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 15,
+  "parked": 16,
   "rejected": 108,
   "evaluated": 125
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-26",
   "evaluated": 120,
   "filed": 1,
-  "parked": 15,
+  "parked": 16,
   "rejected": 103,
   "filed_by_source": {
    "Employer sites": 1
@@ -49,15 +49,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 58,
-   "current": {
-    "company": "Themesoft Inc.",
-    "role": "Platform Architect with Databricks"
+   "current": null,
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-26T18:54:25Z",
+   "heartbeat_at": "2026-10-26T18:56:26Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -156,7 +157,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T18:54:25Z",
+   "heartbeat_at": "2026-10-26T18:56:26Z",
    "detail": "Titles 17/58"
   },
   "W10": {
@@ -301,10 +302,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "3 of 4 units done",
+   "state": "done",
+   "detail": "4 of 4 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T18:55:37Z"
   },
   "sector_search": {
    "state": "active",
@@ -557,18 +558,18 @@
    }
   ]
  },
- "note": "Last activity 1:51 PM CT · 3 workers in flight · 1 filed this run",
+ "note": "Last activity 1:55 PM CT · 2 workers in flight · 1 filed this run",
  "pill": [
   {
-   "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+   "primary": "W9 · Title 19 of 58 · Principal Technical Architect",
    "detail": "Families covered 6/58",
-   "pool": "LinkedIn"
+   "pool": "W9"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+  "label": "W9",
+  "headline": "W9 · Title 19 of 58 · Principal Technical Architect",
   "detail": "Families covered 6/58"
  },
  "rules": {
@@ -726,6 +727,13 @@
     "reason": "credential-needed — LinkedIn Easy Apply modal could not be completed: the session hit a 1Password sign-in/approval prompt that never cleared, and the sign-in agent reported it could not sign in to LinkedIn using the existing saved sign-ins. Per PARK-ON-APPROVAL the filing was not left waiting on the user; no submission was made and no 'Applied' state exists. JD flags from PASS stand unverified at filing (pay top unpublished; .NET/C# listed as proficiency).",
     "where": "LinkedIn",
     "time": "1:41 PM"
+   },
+   {
+    "company": "Themesoft Inc.",
+    "role": "Platform Architect with Databricks",
+    "reason": "bot-wall — LinkedIn session was live and the posting opened, but submitting was blocked by the apply surface itself: clicking Easy Apply (in the existing session) froze/reloaded the page so the modal never rendered, and the external employer apply route from the same posting also timed out. No 'Applied' state and no submission confirmation. Filer did not complete the Step-1 hands-on (PySpark core-duty) verification from the apply surface, so that PASS flag remains unverified. Parked as a technical/bot-wall block, retry-eligible.",
+    "where": "LinkedIn",
+    "time": "1:55 PM"
    }
   ],
   "Dice": [
@@ -2625,5 +2633,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T18:54:25Z"
+ "lists_generated_at": "2026-10-26T18:56:26Z"
 }
