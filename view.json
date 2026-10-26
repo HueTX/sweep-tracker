@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T18:04:38Z",
+ "generated_at": "2026-10-26T18:07:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T18:04:32Z",
+  "last_activity_at": "2026-10-26T18:06:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 50,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 9,
+  "parked": 12,
   "rejected": 55,
   "evaluated": 67
  },
@@ -35,21 +35,28 @@
   "date": "2026-10-26",
   "evaluated": 64,
   "filed": 0,
-  "parked": 9,
+  "parked": 12,
   "rejected": 52,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T18:07:10Z",
    "detail": "Titles 4/58"
   },
   "W8": {
@@ -99,12 +106,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 12,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T18:07:10Z",
    "detail": "Employers 15/73"
   },
   "W4": {
@@ -305,10 +312,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "5 of 8 units done",
+   "state": "done",
+   "detail": "8 of 8 units done",
    "started_at": "2026-10-26T05:28:45Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T18:06:31Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -549,13 +556,19 @@
    }
   ]
  },
- "note": "Last activity 1:04 PM CT · 3 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 1:06 PM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+   "detail": "Families covered 4/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+  "detail": "Families covered 4/58"
  },
  "rules": {
   "follow_all": false,
