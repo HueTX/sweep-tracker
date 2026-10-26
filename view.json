@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T17:56:50Z",
+ "generated_at": "2026-10-26T17:58:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-26T17:53:37Z",
@@ -39,17 +39,22 @@
   "rejected": 32,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 4,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "ECS",
+    "role": "Enterprise Architect - Automation & Integration Platforms"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T17:58:48Z",
    "detail": "Titles 4/58"
   },
   "W8": {
@@ -549,7 +554,7 @@
    }
   ]
  },
- "note": "Last activity 12:53 PM CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 12:53 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
