@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:04:36Z",
+ "generated_at": "2026-10-26T23:07:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T22:57:27Z",
+  "last_activity_at": "2026-10-26T23:06:29Z",
   "progress": {
    "pools": 21,
    "covered_units": 138,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 3,
-  "parked": 26,
+  "parked": 27,
   "rejected": 349,
   "evaluated": 380
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-26",
   "evaluated": 372,
   "filed": 3,
-  "parked": 26,
+  "parked": 27,
   "rejected": 341,
   "filed_by_source": {
    "Employer sites": 1,
@@ -44,7 +44,8 @@
   }
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -55,10 +56,10 @@
    "families_total": 58,
    "current": {
     "company": "Ladders",
-    "role": "Enterprise Solution Architect"
+    "role": "Sr. Director, IT Architecture and Strategy"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-26T23:04:36Z",
+   "heartbeat_at": "2026-10-26T23:07:04Z",
    "detail": "Titles 8/58"
   },
   "W8": {
@@ -108,12 +109,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 31,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T23:07:04Z",
    "detail": "Employers 40/73"
   },
   "W4": {
@@ -303,7 +304,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "5 of 7 units done",
+   "detail": "6 of 7 units done",
    "started_at": "2026-10-26T06:06:59Z",
    "ended_at": null
   },
@@ -558,13 +559,19 @@
    }
   ]
  },
- "note": "Last activity 5:57 PM CT · 1 workers in flight · 3 filed this run",
- "pill": [],
+ "note": "Last activity 6:06 PM CT · 3 workers in flight · 3 filed this run",
+ "pill": [
+  {
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 8/58",
+   "pool": "W3"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W3",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 8/58"
  },
  "rules": {
   "follow_all": false,
@@ -839,6 +846,13 @@
     "reason": "credential-needed — Experience with Microsoft Azure, .NET, Azure DevOps, and GitHub-based engineering environments.",
     "where": "LinkedIn",
     "time": "5:57 PM"
+   },
+   {
+    "company": "Ladders",
+    "role": "Enterprise Solution Architect",
+    "reason": "credential-needed — This role will shape infrastructure solution strategy across complex client environments, with a strong emphasis on enterprise architecture, cloud, and hybrid design.",
+    "where": "LinkedIn",
+    "time": "6:06 PM"
    }
   ],
   "Dice": [
@@ -4516,5 +4530,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T23:04:36Z"
+ "lists_generated_at": "2026-10-26T23:07:04Z"
 }
