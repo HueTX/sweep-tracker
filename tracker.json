@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T15:55:05Z",
+ "generated_at": "2026-10-26T15:56:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T06:36:25Z",
+  "last_activity_at": "2026-10-26T15:56:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 20,
@@ -26,20 +26,24 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 5,
   "rejected": 16,
-  "evaluated": 21
+  "evaluated": 22
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 18,
-  "filed": 0,
+  "evaluated": 19,
+  "filed": 1,
   "parked": 5,
   "rejected": 13,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W9"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -143,12 +147,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T15:56:47Z",
    "detail": "Titles 6/58"
   },
   "W10": {
@@ -532,13 +536,19 @@
    }
   ]
  },
- "note": "Last activity 1:36 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 10:56 AM CT · 3 workers in flight · 1 filed this run",
+ "pill": [
+  {
+   "primary": "W9 · Title 7 of 58 · Infrastructure Architect",
+   "detail": "Families covered 4/58",
+   "pool": "W9"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W9",
+  "headline": "W9 · Title 7 of 58 · Infrastructure Architect",
+  "detail": "Families covered 4/58"
  },
  "rules": {
   "follow_all": false,
@@ -556,8 +566,63 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "date": "2026-10-26",
- "today_filings": {},
- "today_filed_by_source": {},
+ "today_filings": {
+  "LinkedIn": [
+   {
+    "company": "Broadcom",
+    "role": "Global Solution Architect - NetOps",
+    "where": "LinkedIn",
+    "time": "10:54 AM",
+    "check": {
+     "company": "Broadcom",
+     "filed_at": "2026-10-26T15:54:00Z",
+     "role": "Global Solution Architect - NetOps",
+     "rules": [
+      {
+       "evidence": "Full JD read on Broadcom Workday req R027400 (governing PASS correction disposition 2665): Global Solution Architect - NetOps, remote US, network performance monitoring / solution architecture duties aligned with candidate experience; pre-sales bar disabled in rules-control.json.",
+       "rule": "JD read (JD-first)",
+       "status": "pass"
+      },
+      {
+       "evidence": "Pay unpublished in JD and on LinkedIn posting (Not provided) - unpublished pay stays eligible under the $160K-$230K top-of-range band rule.",
+       "rule": "Pay band",
+       "status": "pass"
+      },
+      {
+       "evidence": "Filer JD read 2026-10-26: 'This is a remote role that can be done from anywhere in the US. The primary work location is Texas (TX-Remote).'",
+       "rule": "100% remote US",
+       "status": "pass"
+      },
+      {
+       "evidence": "Filer verified before applying: LinkedIn 'Apply' (not 'Applied'), Workday job page showed Apply with no existing-application notice; no Broadcom NetOps entry in application-ledger.md or do-not-reapply.md. Status changed to Applied only after this submission.",
+       "rule": "Duplicates / do-not-reapply",
+       "status": "pass"
+      },
+      {
+       "evidence": "Broadcom is not an excluded employer (Humana, First Citizens, Oakworth, Cognizant/3Cloud manual-only). Not a DevSecOps title.",
+       "rule": "Exclusions",
+       "status": "pass"
+      },
+      {
+       "evidence": "Filer Step 4 report: Veteran Status - 'I selected I am not a veteran as this matches your preference.' Review step confirmed before submit.",
+       "rule": "Veteran answer",
+       "status": "pass"
+      },
+      {
+       "evidence": "Filer attached the granted tailored resume (filings/broadcom-global-solution-architect-netops/Hubert-Samuel-Resume.pdf) at the My Information resume step and uploaded it again under Documents; LinkedIn applied view lists the submitted resume file as Hubert_Samuel_Resume__31_.pdf.",
+       "rule": "Tailored resume",
+       "status": "pass"
+      }
+     ],
+     "verdict": "FILED - verified",
+     "where": "LinkedIn"
+    }
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "LinkedIn": 1
+ },
  "today_parked": {
   "Workable": [
    {
@@ -1819,5 +1884,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T15:55:05Z"
+ "lists_generated_at": "2026-10-26T15:56:47Z"
 }
