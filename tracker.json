@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T19:30:29Z",
+ "generated_at": "2026-10-26T19:32:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T19:12:47Z",
+  "last_activity_at": "2026-10-26T19:31:57Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -26,19 +26,20 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 1,
+  "filed": 2,
   "parked": 16,
-  "rejected": 111,
-  "evaluated": 128
+  "rejected": 166,
+  "evaluated": 190
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 123,
-  "filed": 1,
+  "evaluated": 185,
+  "filed": 2,
   "parked": 16,
-  "rejected": 106,
+  "rejected": 161,
   "filed_by_source": {
-   "Employer sites": 1
+   "Employer sites": 1,
+   "LinkedIn": 1
   }
  },
  "searching_lanes": [
@@ -59,7 +60,7 @@
     "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-26T19:30:29Z",
+   "heartbeat_at": "2026-10-26T19:32:30Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -70,7 +71,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:30:29Z",
+   "heartbeat_at": "2026-10-26T19:32:30Z",
    "detail": "Titles 17/58"
   },
   "W7": {
@@ -114,7 +115,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:30:29Z",
+   "heartbeat_at": "2026-10-26T19:32:30Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -315,10 +316,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "12 of 12 units done",
+   "state": "active",
+   "detail": "12 of 18 units done",
    "started_at": "2026-10-26T05:28:45Z",
-   "ended_at": "2026-10-26T18:51:07Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -559,7 +560,7 @@
    }
   ]
  },
- "note": "Last activity 2:12 PM CT · 4 workers in flight · 1 filed this run",
+ "note": "Last activity 2:31 PM CT · 4 workers in flight · 2 filed this run",
  "pill": [
   {
    "primary": "W8 · Title 19 of 58 · Principal Technical Architect",
@@ -646,10 +647,68 @@
      ]
     }
    }
+  ],
+  "LinkedIn": [
+   {
+    "company": "Themesoft Inc.",
+    "role": "Platform Architect with Databricks",
+    "where": "LinkedIn",
+    "time": "2:31 PM",
+    "check": {
+     "company": "Themesoft Inc.",
+     "role": "Platform Architect with Databricks",
+     "where": "LinkedIn",
+     "filed_at": "2026-10-26",
+     "verdict": "FILED - LinkedIn posting shows 'Application status: Application submitted' after reload; Job tracker lists the account under Applied; tailored resume confirmed on Review page",
+     "rules": [
+      {
+       "rule": "JD read in full",
+       "status": "pass",
+       "evidence": "Filer read the full JD at filing: 'Lead architecture, deployment, governance, and administration of Azure Databricks Platform.'; 'Define architecture standards, operational runbooks, and platform best practices.'"
+      },
+      {
+       "rule": "Hands-on test",
+       "status": "pass",
+       "evidence": "No responsibility requires writing notebooks/building pipelines as core output; 'Hands-on experience with Unity Catalog, Delta Lake, Spark...' appears only as a required-experience line, not a duty - the PASS flag is resolved as architecture/governance core"
+      },
+      {
+       "rule": "Remote 100% US",
+       "status": "pass",
+       "evidence": "'Location: United States - Remote'; chips Remote and Contract"
+      },
+      {
+       "rule": "Pay band",
+       "status": "pass",
+       "evidence": "Pay unpublished on the posting (eligible); contract-type posting with no published rate"
+      },
+      {
+       "rule": "Freshness 7d",
+       "status": "pass",
+       "evidence": "Posted 23 hours before filing on 2026-10-26"
+      },
+      {
+       "rule": "Duplicates / exclusions",
+       "status": "pass",
+       "evidence": "Posting showed Easy Apply (not Applied) before filing; a different Themesoft Cloud Architect posting was rejected in a prior run - different posting, not a duplicate; employer not excluded"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "note",
+       "evidence": "This Easy Apply flow presented only Contact info, Resume, and Review - no EEO/salary/experience questions were prompted, so no standing answers were entered"
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "pass",
+       "evidence": "Tailored Hubert-Samuel-Resume.pdf (Azure data platform focus) uploaded from the isolated per-filing path; LinkedIn showed 'Resume uploaded successfully' and the 10/26/2026 file selected on Review"
+      }
+     ]
+    }
+   }
   ]
  },
  "today_filed_by_source": {
-  "Employer sites": 1
+  "Employer sites": 1,
+  "LinkedIn": 1
  },
  "today_parked": {
   "Employer sites": [
@@ -728,13 +787,6 @@
     "reason": "credential-needed — LinkedIn Easy Apply modal could not be completed: the session hit a 1Password sign-in/approval prompt that never cleared, and the sign-in agent reported it could not sign in to LinkedIn using the existing saved sign-ins. Per PARK-ON-APPROVAL the filing was not left waiting on the user; no submission was made and no 'Applied' state exists. JD flags from PASS stand unverified at filing (pay top unpublished; .NET/C# listed as proficiency).",
     "where": "LinkedIn",
     "time": "1:41 PM"
-   },
-   {
-    "company": "Themesoft Inc.",
-    "role": "Platform Architect with Databricks",
-    "reason": "bot-wall — LinkedIn session was live and the posting opened, but submitting was blocked by the apply surface itself: clicking Easy Apply (in the existing session) froze/reloaded the page so the modal never rendered, and the external employer apply route from the same posting also timed out. No 'Applied' state and no submission confirmation. Filer did not complete the Step-1 hands-on (PySpark core-duty) verification from the apply surface, so that PASS flag remains unverified. Parked as a technical/bot-wall block, retry-eligible.",
-    "where": "LinkedIn",
-    "time": "1:55 PM"
    }
   ],
   "Dice": [
@@ -744,6 +796,20 @@
     "reason": "pay-uncertain — Dice searches for Denken / 'Denken Solutions' / the quoted title returned 0 results and the full Denken JD page was never located (W9 window final report, 2026-10-26)",
     "where": "Dice",
     "time": "1:15 PM"
+   },
+   {
+    "company": "Sonatafy Technology",
+    "role": "Principal AI Architect",
+    "reason": "not-evaluated — CORRECTION superseding disposition 2822: that verdict was recorded from a truncated interim fragment of the W9/Dice board task. The task's consolidated final report (63 distinct JDs, families and counts enumerated) does NOT list this posting at all, so the interim verdict is withdrawn as unverified; the lead is not-evaluated on the surviving evidence.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Danta Technologies",
+    "role": "Cloud Architect & Technology Strategist",
+    "reason": "not-evaluated — CORRECTION superseding disposition 2824: that verdict was recorded from a truncated interim fragment of the W9/Dice board task. The task's consolidated final report (63 distinct JDs, families and counts enumerated) does NOT list this posting at all, so the interim verdict is withdrawn as unverified; the lead is not-evaluated on the surviving evidence.",
+    "where": "Dice",
+    "time": "2:31 PM"
    }
   ],
   "Web Catch-All": [
@@ -767,13 +833,6 @@
     "reason": "posting-not-located — No matching jobs found. (LinkedIn search with the KamisPro company filter plus the exact title 'Senior Azure Cloud Architect', 2026-10-26)",
     "where": "Web Catch-All",
     "time": "1:31 PM"
-   },
-   {
-    "company": "Ohm Systems, Inc",
-    "role": "Cloud Infrastructure Lead - Federal",
-    "reason": "captcha-blocked — Employer CONFIRMED at filing (correcting the inferred attribution): Dice job 10379706 names Ohm Systems, Inc, Washington DC (Remote), posted Oct 23 2026, full-time; JD identity verified (skills cloud architecture/migration, leadership; employer boilerplate 'Ohm Systems, Inc. is an international IT services provider... founded in 1998'). Apply route: Dice Easy Apply wizard loaded from in-browser click, resume step then reCAPTCHA checkpoint ('Please verify yourself so we know you're not a robot'); agent reports it could not complete the checkpoint across 3 permitted external attempts and stopped - no submission, no confirmation ID; Dice My Jobs shows the role in Saved, not applied. Role itself verified eligible: remote US, no active clearance, no hands-on language, strategy/leadership-weighted duties, W2, pay not visible in reviewed text.",
-    "where": "Web Catch-All",
-    "time": "1:51 PM"
    }
   ]
  },
@@ -995,6 +1054,20 @@
     "reason": "experience-mismatch — supports the design, build, testing, training, deployment, and ongoing support of Epic applications",
     "where": "Employer sites",
     "time": "1:30 PM"
+   },
+   {
+    "company": "Tenet Healthcare",
+    "role": "Analytics Architect - Hybrid in Dallas, TX",
+    "reason": "not-remote — Analytics Architect - Hybrid in Dallas, TX (title itself states hybrid, Dallas TX; JD read on Tenet's own careers site in the W3 sector pass; pay not published, no date shown).",
+    "where": "Employer sites",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "LifePoint Health",
+    "role": "Architect-Network Engineer",
+    "reason": "not-remote — Posting header: 'Workplace Hybrid' / 'Location Brentwood, TN' (body conflict noted: 'Location: Remote' / 'Remote based position'; the governing header states Hybrid - reject not-remote). Posted 10/20/2026; pay not published. JD read on LifePoint's own careers site in the W3 sector pass.",
+    "where": "Employer sites",
+    "time": "2:31 PM"
    }
   ],
   "Dice": [
@@ -1043,9 +1116,9 @@
    {
     "company": "SHI International Corporation",
     "role": "Principal Solutions Architect - Network",
-    "reason": "pay-outside-band — USD $150,000.00 - 275,000.00 per year",
+    "reason": "pay-outside-band — The estimated annual pay range for this position is $150,000 - $275,000 (top $275,000 above the $230,000 cap). Workarounds tried: Dice detail is the governing published range; no alternate posting of the same role with a different range found in the board pass.",
     "where": "Dice",
-    "time": "11:33 AM"
+    "time": "2:31 PM"
    },
    {
     "company": "CACI International, Inc",
@@ -1148,9 +1221,9 @@
    {
     "company": "Jabil Circuit Inc",
     "role": "Senior Principal Structural Engineer - Data Center Infrastructure (FE)",
-    "reason": "experience-mismatch — Lead gravity, wind, seismic, and vibration analysis for modules, frames, racks, and support structures",
+    "reason": "pay-outside-band — USD $156,400.00 - 281,500.00 per year (top above cap; structural engineering, not IT architecture).",
     "where": "Dice",
-    "time": "1:15 PM"
+    "time": "2:31 PM"
    },
    {
     "company": "Revvity",
@@ -1237,13 +1310,6 @@
     "time": "1:17 PM"
    },
    {
-    "company": "Sonatafy Technology",
-    "role": "Principal AI Architect",
-    "reason": "not-remote — This is a hybrid position based in Guadalajara, Jalisco, Mexico. (Full JD read on Dice, W9 board unit, Principal Technical Architect family; also non-US location.)",
-    "where": "Dice",
-    "time": "2:12 PM"
-   },
-   {
     "company": "3Cloud",
     "role": "Principal Architect - Data Platforms & Architecture",
     "reason": "excluded-employer — Employer is 3Cloud (Dice job detail 4fc753ec-08a8-4dac-9516-e2b8db1e71ee, 'Principal Architect - Data Platforms & Architecture - 3Cloud'): 3Cloud counts as Cognizant, manual-only, never file - gate-fact reject on sight.",
@@ -1251,11 +1317,382 @@
     "time": "2:12 PM"
    },
    {
-    "company": "Danta Technologies",
-    "role": "Cloud Architect & Technology Strategist",
-    "reason": "not-remote — NOTE: Need local candidates from Austin, TX, this role is In-office in Austin, TX. (Full JD read on Dice, W9 board unit, Technology Strategy Architect family.)",
+    "company": "Kanshe Infotech",
+    "role": "Salesforce Business Solution Architect",
+    "reason": "experience-mismatch — Lead technical design sessions and provide architectural guidance to implementation teams. EXECUTOR OVERRIDE of discovery PASS: the role's core is Salesforce platform architecture (Business Solution Architect for Salesforce implementations); Hubert's record carries no Salesforce platform experience - core experience mismatch under the alignment filter.",
     "where": "Dice",
-    "time": "2:12 PM"
+    "time": "2:31 PM"
+   },
+   {
+    "company": "TekDallas",
+    "role": "Salesforce Field Service (FSL) Architect",
+    "reason": "experience-mismatch — Lead end-to-end architecture and design of Salesforce Field Service (FSL) solutions. EXECUTOR OVERRIDE of discovery PASS: Salesforce FSL platform-specialist architecture; no Salesforce experience on Hubert's record - core experience mismatch.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "GAF - ELK Materials Corporation",
+    "role": "SAP Vistex Lead",
+    "reason": "not-remote — Travel Requirement: This role will require up to 60% travel.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Kforce Technology Staffing",
+    "role": "Remote Lead Enterprise .NET/Cloud App Engineer",
+    "reason": "hands-on — Strong hands-on full-stack development experience using C#, .NET, and modern .NET frameworks (also On-site workplace tag).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "SolutionIT, Inc.",
+    "role": "Managed Services / Business Apps Operations Lead (DWH)",
+    "reason": "not-architect-level — Application Support & Maintenance (JD skill line - managed-services operations/support core, not architect-level).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Next Step Systems",
+    "role": "VP of Engineering Applications, Artificial Intelligence (AI) Required, Work From Home - M",
+    "reason": "pay-outside-band — $225,000 - $275,000/yr (top above $230,000 cap).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Next Step Systems",
+    "role": "LLM Application Engineer, Artificial Intelligence (AI) Required, Work From Home - M",
+    "reason": "hands-on — As an LLM Application Engineer, you will build the intelligence layer that powers the AI experiences. (engineering/build core, not architect-level)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "ZEDVentures Incorporated",
+    "role": "SAP Cross-Application Time Sheet (CATS) Consultant",
+    "reason": "not-remote — Travel Requirement: 1 week per month to Bismarck, North Dakota",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Marsh & McLennan Companies",
+    "role": "Senior Application Support Administrator",
+    "reason": "pay-outside-band — The applicable base salary range for this role is $51,700 to $90,400. (top below $160,000 floor; also a support/administrator role)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "NXP Semiconductors N.V.",
+    "role": "Field Application Engineer - Microcontrollers",
+    "reason": "not-architect-level — Dedicated NXP Field Application Engineer (FAE) responsible for driving demand creation, design registrations, and design wins by providing technical leadership and application support for NXP solutions. (sales/field-application engineer role)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "IT Specialist 14 - Application Developer Specialist",
+    "reason": "not-remote — Remote Employment: Flexible/Hybrid; Salary: $38.75 - $56.64 Hourly (also pay-outside-band and developer role).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Washington State Department of Transportation",
+    "role": "IT Application Developer - Journey",
+    "reason": "not-remote — Remote Employment: Flexible/Hybrid; Develop, enhance, and maintain web applications, interfaces, and APIs for multiple business units. (also pay-outside-band $85,800-$115,416)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "NTT DATA, Inc.",
+    "role": "Principal AI & Salesforce Architect - Remote in US",
+    "reason": "not-remote — Forward Deployed Engineering Senior, client-facing Full time Regular travel to client sites (also hands-on prototyping duties).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "KIPP Foundation",
+    "role": "Salesforce Solution Architect",
+    "reason": "hands-on — Serve as the hands-on architect and principal developer for KIPP's Salesforce platform",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "State of Colorado-OIT",
+    "role": "Senior Technical Architect (Salesforce) Remote From Anywhere In Colorado",
+    "reason": "pay-outside-band — Salary: $134,000.00 - $149,000.00 Annually (top below floor); All remote work must be performed from within the State of Colorado.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "StaffRight Associates, LLC",
+    "role": "Application Integration Developer (Buffalo)",
+    "reason": "not-remote — Remote within the United States, with a hybrid arrangement near Orlando, FL or Buffalo, NY preferred; Engineer resilient backend services that solve complex enterprise integration challenges (also hands-on).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "StaffRight Associates, LLC",
+    "role": "Application Integration Developer (Orlando)",
+    "reason": "not-remote — Remote within the United States, with a hybrid arrangement near Orlando, FL or Buffalo, NY preferred (same JD as the Buffalo listing; also hands-on).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Prime Solutions, Inc.",
+    "role": "Lead Application Migration Architect - Azure Cloud Migration",
+    "reason": "hands-on — This is not a pure advisory or design role - you will design, build, validate, and execute. You will set the technical standards, own the infrastructure-as-code delivery, lead cutover nights",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Altera Corp.",
+    "role": "Signal Processing Specialist Field Applications Engineer (FAE)-West Region",
+    "reason": "pay-outside-band — USD $166,900.00 - 266,600.00 per year (top above cap; also an FAE role, not architecture).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Senior Analyst, Application Developer",
+    "reason": "pay-outside-band — USD 64,890.00 per year (below floor; analyst/developer role: developing and maintaining databases, data sources, and analytical tools).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Calance",
+    "role": "Applications Support Analyst (REMOTE)",
+    "reason": "pay-outside-band — Pay Rate:$40.00 - $50.00 per hour (W2 Only) (contract top $50 not above $85; support-analyst role).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Veolia Environnement SA",
+    "role": "Senior Application Engineer - Ultrapure Water & Microelectronics (Houston)",
+    "reason": "pay-outside-band — Note: This is a mechanical/chemical process engineering role within industrial water treatment. (Pay USD $109,296-$154,814, top below floor; not IT architecture.)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Veolia Environnement SA",
+    "role": "Senior Application Engineer - Ultrapure Water & Microelectronics (Phoenix)",
+    "reason": "pay-outside-band — Note: This is a mechanical/chemical process engineering role within industrial water treatment. (Pay USD $109,296-$154,814; same JD as Houston listing.)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Veolia Environnement SA",
+    "role": "Senior Application Engineer - Ultrapure Water & Microelectronics (Wisconsin)",
+    "reason": "pay-outside-band — Note: This is a mechanical/chemical process engineering role within industrial water treatment. (Pay USD $109,296-$154,814; same JD.)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Veolia Environnement SA",
+    "role": "Senior Application Engineer - Ultrapure Water & Microelectronics (Trevose, Pennsylvania)",
+    "reason": "pay-outside-band — Note: This is a mechanical/chemical process engineering role within industrial water treatment. (Pay USD $109,296-$154,814; same JD.)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Baer",
+    "role": "Palantir Foundry Application Developer (17758)",
+    "reason": "hands-on — Baer is looking for Palantir Foundry Application Developer for a 6+ month Federal remote project. (developer core; skills Python/TypeScript/React)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Purple Hires",
+    "role": "Senior Application Analyst (SAA) - Epic Beacon & Willow",
+    "reason": "not-architect-level — Provide timely, effective, and professional customer support. (application analyst / Epic build & support core)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Amerit Consulting",
+    "role": "EPIC Cupid Application Analyst (100% REMOTE/NO C2C)",
+    "reason": "not-architect-level — NOTE- THIS IS 100% REMOTE ROLE & ONLY W2 CANDIDATES/NO C2C/1099 (full JD written for an EPIC Cupid Application Analyst - analyst/build role, not architecture).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Chandra Technologies, Inc.",
+    "role": "Application Security Program Manager (Business SME) - REMOTE",
+    "reason": "not-architect-level — This is a cross-functional program management role.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "VAK Consulting LLC",
+    "role": "Senior Java Developer - Enterprise Applications (14+ Years of Experience)",
+    "reason": "hands-on — One hour coding test will be conducted during the interview.; Significant hands-on experience developing and supporting large-scale applications using Java, Spring Boot, REST APIs",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Latitude",
+    "role": "Software Engineer II - Offboard Python Application",
+    "reason": "not-architect-level — The Virtual Test Ecosystem (VTE) team ensures that our simulation (fully synthetic) and resimulation (replay engine using vehicle logs) workflows run efficiently and reliably at large scale. (Python software-engineering role)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Solenis",
+    "role": "Regional Applications Specialist - Data Centers",
+    "reason": "pay-outside-band — Ability to travel approximately 50% of the time within North America (pay USD $93,530-$137,181, top below floor; water-treatment specialist role).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "TechniPros, LLC",
+    "role": "Lead .NET Full Stack Developer - Enterprise Applications",
+    "reason": "hands-on — Build enterprise UI using Blazor and Angular.; Develop secure Web APIs.; Implement CI/CD pipelines.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "InfiCare",
+    "role": "Incident Management Agent Application Support & Operations",
+    "reason": "not-architect-level — Provide 24x7 operational support and ensure adherence to SLA commitments (production support/operations core).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Maitsys",
+    "role": "Senior IT Project Manager - Enterprise Applications & M&A",
+    "reason": "pay-outside-band — $80 - $85/hr (contract top $85 is not above $85; also a project-management role).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Amerit Consulting",
+    "role": "Epic Research Application Analyst ** 100% Remote **",
+    "reason": "not-architect-level — Responsible for the design, building, testing, and implementation of clinical application systems. (analyst/build role)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "iCUBE Solutions",
+    "role": "Need - Workato Sr Engineer/Integration Architect - Remote",
+    "reason": "hands-on — Custom connectors - build custom connectors using the Workato SDK where standard connectors do not meet requirements. (Sr Engineer hybrid; recipe development, connector building and production support dominate)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "PRIMUS Global Services Inc.",
+    "role": "ServiceNow Architect ITAM, SAM, Integration Hub, Remote - 71141",
+    "reason": "pay-outside-band — $60.00 - $63.00/hr (contract top $63 not above $85).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "PRIMUS Global Services Inc.",
+    "role": "ServiceNowArchitect ITAM, SAM, Integration Hub, Remote - 71140",
+    "reason": "pay-outside-band — $60.00 - $63.00/hr (contract top $63 not above $85).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Next Gen IT Inc",
+    "role": "Senior Integration Specialist-Workday Financials",
+    "reason": "pay-outside-band — $80 - $85/hr (contract top $85 is not above $85).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "GSK Solutions Inc.",
+    "role": "Oracle Integration Cloud (OIC) Engineer / Lead (Remote)",
+    "reason": "hands-on — Build and maintain integrations between Oracle EBS, telephony systems, and third-party applications. (engineer role)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "BLYK Engineering Services",
+    "role": "Zoho Oracle Integration Suite",
+    "reason": "not-architect-level — We are looking for a resource with hands-on experience integrating #Zoho with #Oracle #NetSuite. (hands-on integration resource, not architect-level)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Innosoul inc",
+    "role": "Clinical Interoperability/Healthcare Data Integration Analyst",
+    "reason": "not-architect-level — The Health IT Technical Analyst acts as a Subject Matter Expert (SME) in clinical data supporting Me... (analyst role; quote truncated in Dice's display)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Koniag, Inc.",
+    "role": "Integration/Middleware Engineer (REMOTE)",
+    "reason": "pay-outside-band — USD 120,000.00 per year (single figure below $160,000 floor; engineer role; Public Trust eligibility noted - not an active clearance).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Huron",
+    "role": "Lead Data Platform Engineer (Manager / Architect)",
+    "reason": "hands-on — Remain a primary hands-on contributor to the team's most complex integration and platform work (also AWS-first: 'cloud infrastructure (AWS preferred; Azure/Google Cloud...)' truncated in Dice's display).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Radiant System, Inc",
+    "role": "Smile CDR Integration Developer (REMOTE)",
+    "reason": "hands-on — Develop data pipelines using Python/PySpark and SQL. (developer core)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "CAI",
+    "role": "Smile CDR Integration Developer",
+    "reason": "pay-outside-band — USD $62.00 - 72.00 per hour (top $72 not above $85).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "United Technology",
+    "role": "EDI Integration Developer - Healthcare X12 / EDI",
+    "reason": "pay-outside-band — $60 - $62/hr (top below floor); JD field 'End Client: Humana' - excluded employer end client; developer role.",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Arrow Electronics, Inc.",
+    "role": "SOC/IP Integration Engineer (eInfochips)",
+    "reason": "not-architect-level — Good in understanding RTL Design and Digital concepts (semiconductor SoC/RTL hardware engineering, not IT architecture).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "GG Tech Global",
+    "role": "Immediate Openings - SharePoint Technical Architect",
+    "reason": "pay-outside-band — $60 - $65/hr (contract top $65 not above $85).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "iFusion Inc.",
+    "role": "Data Engineer - Python, PySpark, SQL, Snowflake & API Integration (New Role) - Canada- Remote",
+    "reason": "not-remote — Design, develop, and optimize data pipelines using Python, PySpark, SQL, and Snowflake. (header 'Hybrid in Ontario, CA, US'; also pay $45-$50/hr and PySpark pipeline duties)",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Arcadis",
+    "role": "Sr. Mechanical Engineer | Data Center",
+    "reason": "not-architect-level — Provide expert consultant mechanical engineering advice to our clients in the data center space (licensed mechanical-engineering SME role; On-site tag).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Astreya Partners",
+    "role": "Data Center New Build Deployment Enablement Manager (DEM)",
+    "reason": "pay-outside-band — $92,880.00 - $154,800.00 USD (Salary) (top below floor; program-coordination role with 25-40% site travel).",
+    "where": "Dice",
+    "time": "2:31 PM"
+   },
+   {
+    "company": "Inovi, Inc.",
+    "role": "Principal Electrical Engineer (Mission Critical / Data Centers)",
+    "reason": "not-remote — Remote with up to 50% travel (also a licensed PE engineer-of-record role, not IT architecture).",
+    "where": "Dice",
+    "time": "2:31 PM"
    }
   ],
   "Web Catch-All": [
@@ -1328,6 +1765,13 @@
     "reason": "hands-on — Build your designs using code-first and DevSecOps principles. Write and review infrastructure-as-code, automation, and CI/CD pipelines (Primarily CloudFormation).",
     "where": "Web Catch-All",
     "time": "1:17 PM"
+   },
+   {
+    "company": "Ohm Systems, Inc",
+    "role": "Cloud Infrastructure Lead - Federal",
+    "reason": "closed — CORRECTION superseding interim PARKED captcha-blocked (disposition 2820), which rested on interim fragments (a 'Dice 10379706 Easy Apply / reCAPTCHA' narrative) that the browser task's harness final (ran 1:42-1:51 PM CT) explicitly disowns: no Easy Apply was ever opened, no resume uploaded, no submission made. The sole Dice posting examined (job-detail 06ac1650-5d55-4340-8e00-30c8c56abb2d) states verbatim 'Sorry this job is no longer available.' and is listed 'Contract W2', '12 Months', '$80 - $95/hr', 'Posted 30 days ago - Updated 26 days ago' - closed and stale (outside 7 days). The Haystack mirror is likewise closed ('This job is no longer available', applications ended). No live governing posting could be confirmed on LinkedIn, Indeed, Dice search, or Ohm's own site. Workarounds tried: employer's own site unconfirmable, Dice governing posting closed, Haystack mirror closed.",
+    "where": "Web Catch-All",
+    "time": "2:31 PM"
    }
   ],
   "LinkedIn": [
@@ -2644,7 +3088,9 @@
   "W9": [
    "Oracle",
    "Dell Technologies",
-   "Denken Solutions Inc"
+   "Denken Solutions Inc",
+   "Sonatafy Technology",
+   "Danta Technologies"
   ],
   "W10": [
    "Berkley Technology Services"
@@ -2655,5 +3101,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T19:30:29Z"
+ "lists_generated_at": "2026-10-26T19:32:30Z"
 }
