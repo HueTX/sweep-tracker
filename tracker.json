@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T19:32:30Z",
+ "generated_at": "2026-10-26T19:34:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T19:31:57Z",
+  "last_activity_at": "2026-10-26T19:33:52Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -60,7 +60,7 @@
     "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-26T19:32:30Z",
+   "heartbeat_at": "2026-10-26T19:34:21Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -71,7 +71,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:32:30Z",
+   "heartbeat_at": "2026-10-26T19:34:21Z",
    "detail": "Titles 17/58"
   },
   "W7": {
@@ -115,7 +115,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:32:30Z",
+   "heartbeat_at": "2026-10-26T19:34:21Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -560,7 +560,7 @@
    }
   ]
  },
- "note": "Last activity 2:31 PM CT · 4 workers in flight · 2 filed this run",
+ "note": "Last activity 2:33 PM CT · 4 workers in flight · 2 filed this run",
  "pill": [
   {
    "primary": "W8 · Title 19 of 58 · Principal Technical Architect",
@@ -596,13 +596,13 @@
     "company": "Advocate Health / Atrium Health",
     "role": "IT Data Solutions Architect",
     "where": "Employer sites",
-    "time": "1:38 PM",
+    "time": "2:33 PM",
     "check": {
      "company": "Advocate Health / Atrium Health",
      "role": "IT Data Solutions Architect (Workday ATS title: IT Data Solutions Administrator)",
      "where": "Employer sites",
      "filed_at": "2026-10-26",
-     "verdict": "FILED - confirmed on Workday 'Application Submitted' page, Mon Oct 26, 2026; My Applications lists the role as added Oct 26, 2026",
+     "verdict": "FILED (CONTESTED) - a detailed in-task report documented a Workday 'Application Submitted' confirmation and a My Applications entry dated Oct 26, 2026, and the task window was observed live on the Workday apply page for R256386; however the task's coordinator final (worker ran 1:35-1:37 PM CT) reports the agent stopped at the stale gate and never applied. A verification re-check could not read My Applications (no persisted candidate session), so the submission is neither independently confirmed nor refuted. FILED is retained deliberately: if the submission did occur, an unfiled treatment risks a duplicate application; if it did not, the posting is confirmed stale and ineligible, so no eligible opportunity is lost.",
      "rules": [
       {
        "rule": "JD read in full",
@@ -621,8 +621,8 @@
       },
       {
        "rule": "Freshness 7d",
-       "status": "note",
-       "evidence": "Posted date was not displayed on the listing at PASS or filing; posting was live and accepting applications on the employer's own ATS on 2026-10-26"
+       "status": "fail",
+       "evidence": "CONFIRMED BREACH (verified 2026-10-26, 2:22-2:27 PM CT, two independent reads of the live Workday posting page and site search): the posting field reads verbatim \"Posted 30+ Days Ago\" - outside the 7-day eligibility window. The PASS record had explicitly flagged this check for the filer; the submitting agent proceeded anyway. The application stands as filed and cannot be unfiled. Separately, the submission itself could not be re-verified in My Applications because no candidate session persisted on the Workday site at verification time (absence of session is not evidence of absence of application)."
       },
       {
        "rule": "Duplicates / exclusions",
@@ -3101,5 +3101,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T19:32:30Z"
+ "lists_generated_at": "2026-10-26T19:34:21Z"
 }
