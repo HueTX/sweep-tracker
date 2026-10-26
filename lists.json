@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-26",
- "generated_at": "2026-10-26T23:22:11Z",
+ "generated_at": "2026-10-26T23:24:21Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -117,46 +117,56 @@
     }
    },
    {
-    "company": "Project Management Institute",
-    "role": "Enterprise Application Architect III",
+    "company": "Ladders",
+    "role": "Enterprise Solution Architect",
     "where": "LinkedIn",
-    "time": "6:18 PM",
+    "time": "6:04 PM",
     "check": {
-     "company": "Project Management Institute",
-     "role": "Enterprise Application Architect III",
-     "where": "LinkedIn (external apply to Humanly, jobs.humanly.io)",
-     "filed_at": "2026-10-26 18:18 CT (browser-reported)",
-     "verdict": "FILED - with two flagged data deviations (mailing address not Hubert's on-file address; phone mistyped). Humanly confirmation: 'Application Submitted!'",
+     "company": "Ladders (employer shown on Ladders job page: Ashburn Consulting LLC)",
+     "role": "Enterprise Solution Architect",
+     "where": "LinkedIn (external apply to theladders.com Apply4Me Questionnaire, jobLocationId 89463131)",
+     "filed_at": "2026-10-26, before 18:05 CT (exact submission minute not reported)",
+     "verdict": "FILED - verified by Ladders confirmation page and LinkedIn Applied state",
      "rules": [
       {
        "rule": "JD read (JD-first)",
        "status": "pass",
-       "evidence": "Full JD re-read on LinkedIn at filing: remote US, Azure/hybrid cloud/IAM architecture; salary $163.2K-$199.4K top in band."
+       "evidence": "PASS quote on infrastructure solution strategy / enterprise architecture; Ladders page: federal-client Grants & Financial Management modernization platform, no clearance stated."
+      },
+      {
+       "rule": "Pay band / contract rate",
+       "status": "pass",
+       "evidence": "Contract $81-$96/hr - top strictly above the $85/hr floor."
+      },
+      {
+       "rule": "100% remote US",
+       "status": "pass",
+       "evidence": "Ladders title 'Enterprise Solutions Architect (Remote - U.S.)'."
       },
       {
        "rule": "Duplicates / exclusions",
        "status": "pass",
-       "evidence": "Not Applied before filing; no PMI entry in application-ledger.md or do-not-reapply.md; not an excluded employer; not DevSecOps."
+       "evidence": "Not Applied before filing; no ledger/do-not-reapply entry for posting 4481450209; not an excluded employer; not DevSecOps."
       },
       {
        "rule": "Veteran answer",
-       "status": "note",
-       "evidence": "Humanly flow presented no veteran/EEO questionnaire; no veteran answer was submitted."
+       "status": "pass",
+       "evidence": "Submitted exactly 'I am not a veteran' (filer correction report)."
       },
       {
        "rule": "Tailored resume",
        "status": "pass",
-       "evidence": "Hubert-Samuel-Resume.pdf uploaded in the Humanly flow; filename appeared verbatim."
+       "evidence": "Apply4Me upload confirmed 'Hubert-Samuel-Resume.pdf: attached'; PDF warning bypassed via 'Ignore Warnings'."
       },
       {
        "rule": "Filing proof",
        "status": "pass",
-       "evidence": "Humanly 'Application Submitted!' confirmation, Oct 26 2026 6:18 PM CT (browser-reported); application stands without the extra verification step; no security code requested or entered."
+       "evidence": "Ladders 'Your application has been submitted!' + LinkedIn 'Your application was sent to Ladders!' + posting state 'Applied on company site'."
       },
       {
-       "rule": "Deviations flagged",
-       "status": "flag",
-       "evidence": "Mailing address submitted verbatim '3800 North Lamar Boulevard, Austin, TX 78756' - not on file for Hubert (Houston/Richmond TX; no street address on record), entered by a browser continuation after a stop instruction; phone submitted as a mistyped variant of 832-377-0273. Cannot be unfiled; flagged for Hubert in secondary-check.json."
+       "rule": "Address/ZIP handling",
+       "status": "note",
+       "evidence": "No street address required in Apply4Me flow; ZIP 77406 was pre-filled by Ladders, not entered or selected by the filer; no SMS code; no account password created."
       }
      ]
     }
@@ -299,11 +309,11 @@
     "time": "1:41 PM"
    },
    {
-    "company": "Ladders",
-    "role": "Enterprise Solution Architect",
-    "reason": "credential-needed — This role will shape infrastructure solution strategy across complex client environments, with a strong emphasis on enterprise architecture, cloud, and hybrid design.",
+    "company": "Project Management Institute",
+    "role": "Enterprise Application Architect III",
+    "reason": "credential-needed — Experience with Microsoft Azure, .NET, Azure DevOps, and GitHub-based engineering environments.",
     "where": "LinkedIn",
-    "time": "6:06 PM"
+    "time": "6:24 PM"
    },
    {
     "company": "Ladders",
