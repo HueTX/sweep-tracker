@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:08:27Z",
+ "generated_at": "2026-10-26T23:10:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T23:07:38Z",
+  "last_activity_at": "2026-10-26T23:08:59Z",
   "progress": {
    "pools": 21,
-   "covered_units": 138,
+   "covered_units": 146,
    "total_units": 1218,
-   "pct": 11
+   "pct": 12
   },
   "families_covered": 8,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 3,
   "parked": 28,
-  "rejected": 349,
-  "evaluated": 380
+  "rejected": 356,
+  "evaluated": 387
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 372,
+  "evaluated": 379,
   "filed": 3,
   "parked": 28,
-  "rejected": 341,
+  "rejected": 348,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1,
@@ -44,18 +44,23 @@
   }
  },
  "searching_lanes": [
+  "LinkedIn",
   "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 8,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 9,
+    "name": "Solutions Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T23:10:26Z",
    "detail": "Titles 8/58"
   },
   "W8": {
@@ -106,12 +111,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 31,
+   "families_searched": 39,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T23:08:27Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": "2026-10-26T23:10:26Z",
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -306,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 35 units done",
+   "detail": "27 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -555,18 +560,18 @@
    }
   ]
  },
- "note": "Last activity 6:07 PM CT · 2 workers in flight · 3 filed this run",
+ "note": "Last activity 6:08 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 9 of 58 · Solutions Architect",
    "detail": "Families covered 8/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 9 of 58 · Solutions Architect",
   "detail": "Families covered 8/58"
  },
  "rules": {
