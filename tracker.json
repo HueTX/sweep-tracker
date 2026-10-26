@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T19:55:32Z",
+ "generated_at": "2026-10-26T19:58:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,10 +15,10 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T19:55:03Z",
+  "last_activity_at": "2026-10-26T19:56:30Z",
   "progress": {
    "pools": 21,
-   "covered_units": 71,
+   "covered_units": 77,
    "total_units": 1218,
    "pct": 6
   },
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 23,
-  "rejected": 168,
-  "evaluated": 193
+  "parked": 25,
+  "rejected": 171,
+  "evaluated": 198
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 188,
+  "evaluated": 193,
   "filed": 2,
-  "parked": 23,
-  "rejected": 163,
+  "parked": 25,
+  "rejected": 166,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1
@@ -45,8 +45,7 @@
  "searching_lanes": [
   "LinkedIn",
   "W8",
-  "W3",
-  "W9"
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -61,7 +60,7 @@
     "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-26T19:55:32Z",
+   "heartbeat_at": "2026-10-26T19:58:20Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -72,7 +71,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:55:32Z",
+   "heartbeat_at": "2026-10-26T19:58:20Z",
    "detail": "Titles 17/58"
   },
   "W7": {
@@ -116,7 +115,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:55:32Z",
+   "heartbeat_at": "2026-10-26T19:58:20Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -155,13 +154,13 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 29,
+   "phase": "queued",
+   "families_searched": 35,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:55:32Z",
-   "detail": "Titles 29/58"
+   "heartbeat_at": null,
+   "detail": "Titles 35/58"
   },
   "W10": {
    "label": "SimplyHired",
@@ -312,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "13 of 35 units done",
+   "detail": "14 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -561,18 +560,18 @@
    }
   ]
  },
- "note": "Last activity 2:55 PM CT · 6 workers in flight · 2 filed this run",
+ "note": "Last activity 2:56 PM CT · 5 workers in flight · 2 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
    "detail": "Families covered 6/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
   "detail": "Families covered 6/58"
  },
  "rules": {
@@ -860,6 +859,20 @@
     "reason": "not-evaluated — Dice search summary only; direct job-detail page did not render a substantive JD in this session, so no JD-first verdict was made. Lead left not-evaluated, not rejected.",
     "where": "Dice",
     "time": "2:55 PM"
+   },
+   {
+    "company": "Axiom Technology Group",
+    "role": "identity architect",
+    "reason": "not-evaluated — JD is a single substantive line: identity architect somebody who understands Entra ID and stuff like that. No duties, rate, or requirements stated - cannot JD-verdict; left not-evaluated, not rejected.",
+    "where": "Dice",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Lorven Technologies, Inc.",
+    "role": "Epic Infrastructure Lead",
+    "reason": "not-evaluated — Thin JD stating no duties; lists required skills including Epic Cutover Leadership and Azure IaaS for Epic - Epic-specific with no duty text to verdict on. Left not-evaluated, not rejected.",
+    "where": "Dice",
+    "time": "2:56 PM"
    }
   ],
   "Web Catch-All": [
@@ -1453,9 +1466,9 @@
    {
     "company": "NTT DATA, Inc.",
     "role": "Principal AI & Salesforce Architect - Remote in US",
-    "reason": "not-remote — Forward Deployed Engineering Senior, client-facing Full time Regular travel to client sites (also hands-on prototyping duties).",
+    "reason": "not-remote — Dice listing carries an On-site badge despite Remote title, with Regular travel to client sites; also hands-on: Not a coding seat, and not a hands-off architect. You prototype, debug, inspect code and unblock. Workarounds tried: Dice JD governing text opened.",
     "where": "Dice",
-    "time": "2:31 PM"
+    "time": "2:56 PM"
    },
    {
     "company": "KIPP Foundation",
@@ -1488,9 +1501,9 @@
    {
     "company": "Prime Solutions, Inc.",
     "role": "Lead Application Migration Architect - Azure Cloud Migration",
-    "reason": "hands-on — This is not a pure advisory or design role - you will design, build, validate, and execute. You will set the technical standards, own the infrastructure-as-code delivery, lead cutover nights",
+    "reason": "hands-on — This is not a pure advisory or design role - you will design, build, validate, and execute; Build and maintain the Bicep/ARM module library - the authoritative IaC for all migrated workloads. Whole role is hands-on build/IaC, JD internal heading Application Migration Engineer. Workarounds tried: Dice JD governing text opened.",
     "where": "Dice",
-    "time": "2:31 PM"
+    "time": "2:56 PM"
    },
    {
     "company": "Altera Corp.",
@@ -1757,6 +1770,27 @@
     "reason": "pay-outside-band — Contract $60.00/hr published (Rate $60/hour shown repeatedly in JD) - contract top must be strictly above $85/hr. Remote (Sacramento, CA listing, Posted 20 hours ago). Workarounds tried: Dice JD governing text opened.",
     "where": "Dice",
     "time": "2:55 PM"
+   },
+   {
+    "company": "State of Colorado-OIT",
+    "role": "Senior Technical Architect (Salesforce)",
+    "reason": "pay-outside-band — USD $134,000.00 - 149,000.00 per year - top $149,000 below $160,000 floor; also Colorado-only remote: All remote work must be performed in Colorado. Workarounds tried: Dice JD governing text opened.",
+    "where": "Dice",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "iCUBE Solutions",
+    "role": "Workato Sr Engineer/Integration Architect",
+    "reason": "hands-on — Recipe development - design and develop Workato recipes using connectors, triggers, actions and REST APIs; role designs, builds and supports Workato recipes - hands-on build role, engineer-titled. Workarounds tried: Dice JD governing text opened.",
+    "where": "Dice",
+    "time": "2:56 PM"
+   },
+   {
+    "company": "Hexaware Technologies, Inc",
+    "role": "Principal AI Security Architect",
+    "reason": "hands-on — This role combines hands-on agent engineering with advanced AI security architecture, Zero Trust, identity security, data protection, and AI risk and governance leadership across Azure and enterprise environments. Hands-on engineering is a core of the role. Workarounds tried: Dice JD governing text opened.",
+    "where": "Dice",
+    "time": "2:56 PM"
    }
   ],
   "Web Catch-All": [
@@ -3161,7 +3195,9 @@
    "Keypixel Software Solutions",
    "AKAASA Technologies",
    "Bright Sol",
-   "Kforce Inc."
+   "Kforce Inc.",
+   "Axiom Technology Group",
+   "Lorven Technologies, Inc."
   ],
   "W10": [
    "Berkley Technology Services"
@@ -3172,5 +3208,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T19:55:32Z"
+ "lists_generated_at": "2026-10-26T19:58:20Z"
 }
