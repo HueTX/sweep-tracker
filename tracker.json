@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T05:46:28Z",
+ "generated_at": "2026-10-26T05:48:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T05:31:22Z",
+  "last_activity_at": "2026-10-26T05:46:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 8,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
+  "parked": 3,
   "rejected": 5,
   "evaluated": 8
  },
@@ -35,21 +35,27 @@
   "date": "2026-10-26",
   "evaluated": 6,
   "filed": 0,
-  "parked": 1,
+  "parked": 3,
   "rejected": 3,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 2,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 3,
+    "name": "Azure Cloud Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T05:48:39Z",
    "detail": "Titles 2/58"
   },
   "W8": {
@@ -305,10 +311,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-10-26T05:28:45Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T05:46:54Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -532,13 +538,19 @@
    }
   ]
  },
- "note": "Last activity 12:31 AM CT · 2 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 12:46 AM CT · 1 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
+   "detail": "Families covered 2/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
+  "detail": "Families covered 2/58"
  },
  "rules": {
   "follow_all": false,
@@ -559,6 +571,24 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "Workable": [
+   {
+    "company": "Vatica Health",
+    "role": "Enterprise Architect",
+    "reason": "upload-approval-blocked — Filing reached the employer's Workable application (apply.workable.com/vatica-health/j/ACC962124C/apply/) and stalled on a file-upload approval prompt (browser approval card pending, no user available in this run). Parked per v3 park-on-approval rule; nothing submitted. Tailored resume ready at filings/vatica-health/Hubert-Samuel-Resume.pdf for retry.",
+    "where": "Workable",
+    "time": "12:46 AM"
+   }
+  ],
+  "Greenhouse": [
+   {
+    "company": "Re:Build Manufacturing",
+    "role": "Enterprise Architect",
+    "reason": "upload-approval-blocked — Filing reached the employer's Greenhouse application (job-boards.greenhouse.io/rebuildmanufacturing/jobs/4747387005) and stalled on a file-upload approval prompt (browser approval card pending, no user available in this run). Parked per v3 park-on-approval rule; nothing submitted. Tailored resume ready at filings/rebuild-manufacturing/Hubert-Samuel-Resume.pdf for retry.",
+    "where": "Greenhouse",
+    "time": "12:46 AM"
+   }
+  ],
   "LinkedIn": [
    {
     "company": "Trade Republic",
@@ -1715,5 +1745,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T05:46:28Z"
+ "lists_generated_at": "2026-10-26T05:48:39Z"
 }
