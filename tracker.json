@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T21:38:11Z",
+ "generated_at": "2026-10-26T21:40:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-26T21:37:55Z",
@@ -42,17 +42,23 @@
    "LinkedIn": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 5,
+    "name": "Cloud Solutions Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T21:40:22Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -552,13 +558,19 @@
    }
   ]
  },
- "note": "Last activity 4:37 PM CT · 0 workers in flight · 2 filed this run",
- "pill": [],
+ "note": "Last activity 4:37 PM CT · 2 workers in flight · 2 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+   "detail": "Families covered 6/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
+  "detail": "Families covered 6/58"
  },
  "rules": {
   "follow_all": false,
@@ -4170,5 +4182,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T21:38:11Z"
+ "lists_generated_at": "2026-10-26T21:40:22Z"
 }
