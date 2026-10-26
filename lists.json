@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "date": "2026-10-26",
- "generated_at": "2026-10-26T23:24:21Z",
+ "generated_at": "2026-10-26T23:26:19Z",
  "today_filings": {
   "Employer sites": [
    {
@@ -170,6 +170,51 @@
       }
      ]
     }
+   },
+   {
+    "company": "Ladders",
+    "role": "Sr. Director, IT Architecture and Strategy",
+    "where": "LinkedIn",
+    "time": "6:11 PM",
+    "check": {
+     "company": "Ladders (employer behind listing: SCOPE Recruiting)",
+     "role": "Sr. Director, IT Architecture and Strategy",
+     "where": "LinkedIn (external apply to theladders.com Apply4Me Questionnaire, jobLocationId 89512129)",
+     "filed_at": "2026-10-26, by 18:11 CT",
+     "verdict": "FILED - verified by Ladders confirmation and LinkedIn Applied state; tailored-resume deviation flagged",
+     "rules": [
+      {
+       "rule": "JD read (JD-first)",
+       "status": "pass",
+       "evidence": "Remote FT $150K-$180K top in band; EA direction across North America; no coding/clearance contradiction."
+      },
+      {
+       "rule": "Duplicates / exclusions",
+       "status": "pass",
+       "evidence": "Not Applied before filing; no ledger/do-not-reapply entry for 4481436764; not excluded; not DevSecOps."
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "pass",
+       "evidence": "Submitted exactly 'I am not a veteran' (pre-filled)."
+      },
+      {
+       "rule": "Screening answers",
+       "status": "pass",
+       "evidence": "Gender Male; race Black or African American + Asian; US-authorized Yes; ever US gov employee No; able to obtain clearance Yes; desired compensation $180K."
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "flag",
+       "evidence": "DEVIATION: granted tailored Hubert-Samuel-Resume.pdf not uploaded (no file input exposed by 'Upload New File'); submitted with Ladders on-file 'HubertSamuelResume.pdf'. Cannot be unfiled."
+      },
+      {
+       "rule": "Filing proof",
+       "status": "pass",
+       "evidence": "Ladders 'Your application has been submitted!' + LinkedIn 'Your application was sent to Ladders!' / 'Applied on company site'."
+      }
+     ]
+    }
    }
   ],
   "Dice": [
@@ -227,7 +272,7 @@
  },
  "today_filed_by_source": {
   "Employer sites": 1,
-  "LinkedIn": 2,
+  "LinkedIn": 3,
   "Dice": 1
  },
  "today_parked": {
@@ -314,13 +359,6 @@
     "reason": "credential-needed — Experience with Microsoft Azure, .NET, Azure DevOps, and GitHub-based engineering environments.",
     "where": "LinkedIn",
     "time": "6:24 PM"
-   },
-   {
-    "company": "Ladders",
-    "role": "Sr. Director, IT Architecture and Strategy",
-    "reason": "credential-needed — This senior leadership role will shape enterprise architecture direction across North America while aligning with broader global technology strategy.",
-    "where": "LinkedIn",
-    "time": "6:07 PM"
    }
   ],
   "Dice": [
