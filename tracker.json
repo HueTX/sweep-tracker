@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:08:27Z",
+ "generated_at": "2026-10-26T23:10:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T23:07:38Z",
+  "last_activity_at": "2026-10-26T23:08:59Z",
   "progress": {
    "pools": 21,
-   "covered_units": 138,
+   "covered_units": 146,
    "total_units": 1218,
-   "pct": 11
+   "pct": 12
   },
   "families_covered": 8,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 3,
   "parked": 28,
-  "rejected": 349,
-  "evaluated": 380
+  "rejected": 356,
+  "evaluated": 387
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 372,
+  "evaluated": 379,
   "filed": 3,
   "parked": 28,
-  "rejected": 341,
+  "rejected": 348,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1,
@@ -44,18 +44,23 @@
   }
  },
  "searching_lanes": [
+  "LinkedIn",
   "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 8,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 9,
+    "name": "Solutions Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T23:10:26Z",
    "detail": "Titles 8/58"
   },
   "W8": {
@@ -106,12 +111,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 31,
+   "families_searched": 39,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T23:08:27Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": "2026-10-26T23:10:26Z",
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -306,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 35 units done",
+   "detail": "27 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -555,18 +560,18 @@
    }
   ]
  },
- "note": "Last activity 6:07 PM CT · 2 workers in flight · 3 filed this run",
+ "note": "Last activity 6:08 PM CT · 3 workers in flight · 3 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 9 of 58 · Solutions Architect",
    "detail": "Families covered 8/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 9 of 58 · Solutions Architect",
   "detail": "Families covered 8/58"
  },
  "rules": {
@@ -2767,6 +2772,20 @@
     "time": "4:22 PM"
    },
    {
+    "company": "MD Anderson Cancer Center",
+    "role": "Enterprise Data Architect",
+    "reason": "closed — Unfortunately this position has been closed",
+    "where": "Employer sites",
+    "time": "6:08 PM"
+   },
+   {
+    "company": "Johnson & Johnson",
+    "role": "Professional, Enterprise Architect",
+    "reason": "not-remote — DePuy Synthes is recruiting for a(n) Professional, ERP Architecture located in New Brunswick, NJ or West Chester, PA or Palm Beach Gardens, FLR or Warsaw, IN.",
+    "where": "Employer sites",
+    "time": "6:08 PM"
+   },
+   {
     "company": "Northwell Health",
     "role": "Enterprise Architect",
     "reason": "pay-outside-band — Salary range $190,000-$260,000/year (employer page, custom location rate may differ)",
@@ -2996,6 +3015,20 @@
     "reason": "not-remote — Location:Gentilly, FR or Paris, FR; Type:Permanent,Full-time,Hybrid",
     "where": "Employer sites",
     "time": "5:15 PM"
+   },
+   {
+    "company": "MD Anderson Cancer Center",
+    "role": "Enterprise Software Integration Architect",
+    "reason": "closed — Unfortunately this position has been closed",
+    "where": "Employer sites",
+    "time": "6:08 PM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Cloud Enterprise Architect - Azure",
+    "reason": "stale — The Enterprise Cloud Architect is responsible for Cloud technology strategy",
+    "where": "Employer sites",
+    "time": "6:08 PM"
    }
   ],
   "Web Catch-All": [
@@ -3394,6 +3427,33 @@
     "reason": "not-remote — This is a permanent home-based role in Costa Rica.",
     "where": "Built In",
     "time": "5:55 PM"
+   }
+  ],
+  "Huzzle": [
+   {
+    "company": "Pfizer",
+    "role": "Director, Principal Enterprise Architect - GCS, Vaccines",
+    "reason": "closed — Applications are closed",
+    "where": "Huzzle",
+    "time": "6:08 PM"
+   }
+  ],
+  "Glassdoor": [
+   {
+    "company": "AbbVie",
+    "role": "Architect, Application (Remote)",
+    "reason": "experience-mismatch — Experience working with Laboratory Information Management Systems (LIMS), Chromatography Data Systems (CDS), or Scientific Data Management Systems (SDMS).",
+    "where": "Glassdoor",
+    "time": "6:08 PM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "Merck & Co.",
+    "role": "Associate Director Salesforce Platform Architect",
+    "reason": "experience-mismatch — Define and own the Salesforce enterprise architecture strategy across multiple Salesforce Clouds and instances.",
+    "where": "Simplify",
+    "time": "6:08 PM"
    }
   ]
  },
@@ -4533,5 +4593,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T23:08:27Z"
+ "lists_generated_at": "2026-10-26T23:10:26Z"
 }
