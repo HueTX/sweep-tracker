@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T18:38:21Z",
+ "generated_at": "2026-10-26T18:42:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T18:35:30Z",
+  "last_activity_at": "2026-10-26T18:41:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -26,7 +26,7 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 14,
   "rejected": 108,
   "evaluated": 125
@@ -34,13 +34,16 @@
  "today": {
   "date": "2026-10-26",
   "evaluated": 120,
-  "filed": 0,
+  "filed": 1,
   "parked": 14,
   "rejected": 103,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "Employer sites": 1
+  }
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W9"
  ],
  "lanes": {
   "LinkedIn": {
@@ -50,11 +53,11 @@
    "families_searched": 6,
    "families_total": 58,
    "current": {
-    "company": "Concorde, Inc",
-    "role": "System Architect"
+    "company": "Themesoft Inc.",
+    "role": "Platform Architect with Databricks"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-26T18:38:21Z",
+   "heartbeat_at": "2026-10-26T18:42:01Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -148,12 +151,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 17,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T18:42:01Z",
    "detail": "Titles 17/58"
   },
   "W10": {
@@ -299,7 +302,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "2 of 4 units done",
+   "detail": "3 of 4 units done",
    "started_at": "2026-10-26T06:06:59Z",
    "ended_at": null
   },
@@ -554,7 +557,7 @@
    }
   ]
  },
- "note": "Last activity 1:35 PM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 1:41 PM CT · 4 workers in flight · 1 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
