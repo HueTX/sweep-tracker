@@ -1,66 +1,60 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:26:19Z",
+ "generated_at": "2026-10-26T23:28:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T23:25:13Z",
+  "last_activity_at": "2026-10-26T23:26:25Z",
   "progress": {
    "pools": 21,
-   "covered_units": 150,
+   "covered_units": 154,
    "total_units": 1218,
-   "pct": 12
+   "pct": 13
   },
-  "families_covered": 8,
+  "families_covered": 12,
   "families_total": 58
  },
  "counts": {
   "filed": 5,
-  "parked": 26,
-  "rejected": 362,
-  "evaluated": 393
+  "parked": 28,
+  "rejected": 374,
+  "evaluated": 409
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 385,
+  "evaluated": 401,
   "filed": 5,
-  "parked": 26,
-  "rejected": 354,
+  "parked": 28,
+  "rejected": 366,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 3,
    "Dice": 1
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 8,
+   "phase": "queued",
+   "families_searched": 12,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 11,
-    "name": "Domain Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-26T23:26:19Z",
-   "detail": "Titles 8/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 12/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -298,15 +292,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "4 of 29 units done",
+   "detail": "6 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "7 of 7 units done",
+   "state": "active",
+   "detail": "7 of 9 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": "2026-10-26T23:07:39Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "active",
@@ -341,7 +335,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 8,
+  "searched": 12,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -351,10 +345,10 @@
    "Enterprise Architect": "done",
    "Infrastructure Architect": "done",
    "Platform Architect": "done",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
+   "Domain Architect": "done",
+   "Resiliency Architect": "done",
    "IT/OT Architect": "pending",
    "Cloud Transformation Architect": "pending",
    "Principal Cloud Engineer": "pending",
@@ -559,19 +553,13 @@
    }
   ]
  },
- "note": "Last activity 6:25 PM CT · 2 workers in flight · 5 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 8/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 6:26 PM CT · 0 workers in flight · 5 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 8/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -946,6 +934,20 @@
     "reason": "credential-needed — Experience with Microsoft Azure, .NET, Azure DevOps, and GitHub-based engineering environments.",
     "where": "LinkedIn",
     "time": "6:24 PM"
+   },
+   {
+    "company": "Actalent",
+    "role": "Solutions Architect",
+    "reason": "not-evaluated — Local or regional travel may be required up to 75%",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Figma",
+    "role": "Business Systems Architect",
+    "reason": "not-evaluated — United States (Remote)",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
    }
   ],
   "Dice": [
@@ -2743,11 +2745,95 @@
     "time": "5:50 PM"
    },
    {
-    "company": "Actalent",
-    "role": "Solutions Architect",
-    "reason": "not-remote — Local or regional travel may be required up to 75%",
+    "company": "Amphenol Communications Solutions",
+    "role": "Staff Power Systems Architect",
+    "reason": "experience-mismatch — Deep expertise in high-voltage/high-current power architecture for data center, industrial, or similar infrastructure.",
     "where": "LinkedIn",
-    "time": "6:21 PM"
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Stripe",
+    "role": "Pre-Sales Solutions Architect, Money Management",
+    "reason": "pay-outside-band — The annual US base salary range for this role is $239,900 - $359,900.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Workiva",
+    "role": "Senior Domain Architect (Data Management)",
+    "reason": "experience-mismatch — The Senior Domain Architect, Data Management, is a key technical advisor within Workiva’s Data Management Practice.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "NeuraFlash",
+    "role": "AWS Technical Architect",
+    "reason": "cloud-scope — Ensure customer success in building and launching Amazon Connect solutions for NeuraFlash customers",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Aperture Group",
+    "role": "WES Solutions Architect",
+    "reason": "experience-mismatch — Strong understanding of warehouse automation and how WES/WCS integrates with WMS/ERP and PLC controls.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Alithya",
+    "role": "Architecte principal ou architecte principale de solutions Salesforce - Service sur le terrain",
+    "reason": "experience-mismatch — As a Salesforce Senior Solutions Architect - Field Service , you’ll design and guide implementations that help service organizations work more efficiently and effectively in the field.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Hexion Inc.",
+    "role": "Principal Industrial AI Data Architect - US Remote",
+    "reason": "experience-mismatch — The Principal Industrial AI Data Architect is responsible for designing and governing the data architecture that enables reliable, scalable AI across industrial environments.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Cognizant",
+    "role": "Principal Architect",
+    "reason": "cognizant-manual-only — The annual salary for this position is between $116,100 to $175,000 depending on experience and other qualifications of the successful candidate.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "VOLTO Consulting",
+    "role": "ServiceNow Architect (CTA)",
+    "reason": "experience-mismatch — We are looking for an experienced ServiceNow Platform Architect with strong knowledge of ServiceNow platform architecture, solution design, and implementation.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "ITC Federal",
+    "role": "ServiceNow Architect - Minimum Interim Secret Clearance (or higher)",
+    "reason": "clearance — Must have, at minimum, an active Interim Secret security clearance, with the ability to obtain and maintain a final Secret clearance.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Visionary Innovative Technology Solutions LLC",
+    "role": "Gen AI Architect",
+    "reason": "cloud-scope — Design, develop, and implement Generative AI solutions using AWS Bedrock and Amazon Q.",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "New Era Technology",
+    "role": "DevSecOps Architect – Software Supply Chain Security",
+    "reason": "devsecops-title — DevSecOps Architect – Software Supply Chain Security",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Service Mesh Architect",
+    "reason": "do-not-reapply — Service Mesh Architect",
+    "where": "LinkedIn",
+    "time": "6:26 PM"
    }
   ],
   "Employer sites": [
@@ -4722,5 +4808,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T23:26:19Z"
+ "lists_generated_at": "2026-10-26T23:28:10Z"
 }
