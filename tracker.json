@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T05:26:17Z",
+ "generated_at": "2026-10-26T05:28:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-26T05:26:17Z",
@@ -39,28 +39,35 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-10-26T05:28:13Z",
    "detail": "Titles 0/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T05:28:13Z",
    "detail": "Titles 0/58"
   },
   "W7": {
@@ -281,13 +288,13 @@
    "ended_at": "2026-10-26T05:26:17Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
@@ -299,7 +306,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
@@ -533,12 +540,18 @@
   ]
  },
  "note": "Run started 12:26 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 0/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 0/58"
  },
  "rules": {
   "follow_all": false,
@@ -1681,5 +1694,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T05:26:17Z"
+ "lists_generated_at": "2026-10-26T05:28:13Z"
 }
