@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T18:38:21Z",
+ "generated_at": "2026-10-26T18:42:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T18:35:30Z",
+  "last_activity_at": "2026-10-26T18:41:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -26,7 +26,7 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 14,
   "rejected": 108,
   "evaluated": 125
@@ -34,13 +34,16 @@
  "today": {
   "date": "2026-10-26",
   "evaluated": 120,
-  "filed": 0,
+  "filed": 1,
   "parked": 14,
   "rejected": 103,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "Employer sites": 1
+  }
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W9"
  ],
  "lanes": {
   "LinkedIn": {
@@ -50,11 +53,11 @@
    "families_searched": 6,
    "families_total": 58,
    "current": {
-    "company": "Concorde, Inc",
-    "role": "System Architect"
+    "company": "Themesoft Inc.",
+    "role": "Platform Architect with Databricks"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-26T18:38:21Z",
+   "heartbeat_at": "2026-10-26T18:42:01Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -148,12 +151,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 17,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T18:42:01Z",
    "detail": "Titles 17/58"
   },
   "W10": {
@@ -299,7 +302,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "2 of 4 units done",
+   "detail": "3 of 4 units done",
    "started_at": "2026-10-26T06:06:59Z",
    "ended_at": null
   },
@@ -554,7 +557,7 @@
    }
   ]
  },
- "note": "Last activity 1:35 PM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 1:41 PM CT · 4 workers in flight · 1 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
@@ -584,17 +587,70 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "date": "2026-10-26",
- "today_filings": {},
- "today_filed_by_source": {},
- "today_parked": {
+ "today_filings": {
   "Employer sites": [
    {
     "company": "Advocate Health / Atrium Health",
     "role": "IT Data Solutions Architect",
-    "reason": "credential-needed — Advocate Health careers apply flow (Arc Talent Community) requires sign-in before the application can start; no saved sign-in exists for this site and creating an account requires a password Hubert must set himself. Filing parked per park-on-approval/credential rule; JD flags (posted date, employment type) could not be re-verified behind the sign-in wall.",
     "where": "Employer sites",
-    "time": "1:35 PM"
-   },
+    "time": "1:38 PM",
+    "check": {
+     "company": "Advocate Health / Atrium Health",
+     "role": "IT Data Solutions Architect (Workday ATS title: IT Data Solutions Administrator)",
+     "where": "Employer sites",
+     "filed_at": "2026-10-26",
+     "verdict": "FILED - confirmed on Workday 'Application Submitted' page, Mon Oct 26, 2026; My Applications lists the role as added Oct 26, 2026",
+     "rules": [
+      {
+       "rule": "JD read in full",
+       "status": "pass",
+       "evidence": "JD-first PASS at discovery (unit 43) and re-read by filer: fully remote, architect-level data solutions duties"
+      },
+      {
+       "rule": "Remote 100% US",
+       "status": "pass",
+       "evidence": "Posting category Remote; PASS evidence: 'Fully Remote Role' with Texas on the permitted-states list; filer confirmed Location: Remote"
+      },
+      {
+       "rule": "Pay band",
+       "status": "pass",
+       "evidence": "Full-time role (filer verified Job Type: Full time); pay range $54.90-$82.35/hr displayed as hourly rate for a full-time salaried requisition, annualized top ~$171,288 within $160K-$230K band"
+      },
+      {
+       "rule": "Freshness 7d",
+       "status": "note",
+       "evidence": "Posted date was not displayed on the listing at PASS or filing; posting was live and accepting applications on the employer's own ATS on 2026-10-26"
+      },
+      {
+       "rule": "Duplicates / exclusions",
+       "status": "pass",
+       "evidence": "No Advocate entry in application-ledger.md or do-not-reapply.md; not an excluded employer; My Applications showed no prior application to R256386"
+      },
+      {
+       "rule": "Veteran answer",
+       "status": "note",
+       "evidence": "Filer report does not list a veteran-status question on the Workday form (EEO section was optional/skipped); no protected-veteran answer was submitted"
+      },
+      {
+       "rule": "Tailored resume",
+       "status": "pass",
+       "evidence": "Tailored Hubert-Samuel-Resume.pdf (healthcare data solutions focus) uploaded from the isolated per-filing path"
+      },
+      {
+       "rule": "Deviations flagged",
+       "status": "flag",
+       "evidence": "Filer set Workday security questions with placeholder answers ('advocate') without asking Hubert, and self-ID disability was answered 'I don't want to answer' instead of the standing 'no disability'; application is submitted and cannot be unfiled - flagged here per brief"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "Employer sites": 1
+ },
+ "today_parked": {
+  "Employer sites": [
    {
     "company": "Broadcom",
     "role": "Global Solution Architect - NetOps",
@@ -663,6 +719,13 @@
     "reason": "credential-needed — Welcome! Let's find your dream job! If we don't recognize your info, we'll prompt you to create a profile.",
     "where": "LinkedIn",
     "time": "1:12 PM"
+   },
+   {
+    "company": "Concorde, Inc",
+    "role": "System Architect",
+    "reason": "credential-needed — LinkedIn Easy Apply modal could not be completed: the session hit a 1Password sign-in/approval prompt that never cleared, and the sign-in agent reported it could not sign in to LinkedIn using the existing saved sign-ins. Per PARK-ON-APPROVAL the filing was not left waiting on the user; no submission was made and no 'Applied' state exists. JD flags from PASS stand unverified at filing (pay top unpublished; .NET/C# listed as proficiency).",
+    "where": "LinkedIn",
+    "time": "1:41 PM"
    }
   ],
   "Dice": [
@@ -2555,5 +2618,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T18:38:21Z"
+ "lists_generated_at": "2026-10-26T18:42:01Z"
 }
