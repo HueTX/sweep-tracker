@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T06:36:27Z",
+ "generated_at": "2026-10-26T06:38:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-26T06:36:25Z",
@@ -39,7 +39,9 @@
   "rejected": 13,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,12 +57,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T06:38:36Z",
    "detail": "Titles 6/58"
   },
   "W7": {
@@ -532,13 +534,19 @@
    }
   ]
  },
- "note": "Last activity 1:36 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 1:36 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W8 · Title 7 of 58 · Infrastructure Architect",
+   "detail": "Families covered 4/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 7 of 58 · Infrastructure Architect",
+  "detail": "Families covered 4/58"
  },
  "rules": {
   "follow_all": false,
