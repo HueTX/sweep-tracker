@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T21:12:06Z",
+ "generated_at": "2026-10-26T21:14:12Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T20:38:15Z",
+  "last_activity_at": "2026-10-26T21:13:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 93,
@@ -28,21 +28,25 @@
  "counts": {
   "filed": 2,
   "parked": 25,
-  "rejected": 189,
-  "evaluated": 216
+  "rejected": 229,
+  "evaluated": 256
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 211,
+  "evaluated": 250,
   "filed": 2,
   "parked": 25,
-  "rejected": 184,
+  "rejected": 223,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8",
+  "W3",
+  "W9"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -58,12 +62,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 23,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T21:14:12Z",
    "detail": "Titles 23/58"
   },
   "W7": {
@@ -102,12 +106,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 23,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T21:14:12Z",
    "detail": "Employers 30/73"
   },
   "W4": {
@@ -146,12 +150,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 41,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T21:14:12Z",
    "detail": "Titles 41/58"
   },
   "W10": {
@@ -552,13 +556,19 @@
    }
   ]
  },
- "note": "Last activity 3:38 PM CT · 0 workers in flight · 2 filed this run",
- "pill": [],
+ "note": "Last activity 4:13 PM CT · 3 workers in flight · 2 filed this run",
+ "pill": [
+  {
+   "primary": "W9 · Title 43 of 58 · Cloud Delivery Lead",
+   "detail": "Families covered 6/58",
+   "pool": "W9"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W9",
+  "headline": "W9 · Title 43 of 58 · Cloud Delivery Lead",
+  "detail": "Families covered 6/58"
  },
  "rules": {
   "follow_all": false,
