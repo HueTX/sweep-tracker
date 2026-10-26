@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T06:32:42Z",
+ "generated_at": "2026-10-26T06:34:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T06:06:59Z",
+  "last_activity_at": "2026-10-26T06:33:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 10,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 4,
+  "parked": 5,
   "rejected": 13,
   "evaluated": 18
  },
@@ -35,12 +35,11 @@
   "date": "2026-10-26",
   "evaluated": 16,
   "filed": 0,
-  "parked": 4,
+  "parked": 5,
   "rejected": 11,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn",
   "W3",
   "W9"
  ],
@@ -48,15 +47,12 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 4,
    "families_total": 58,
-   "current": {
-    "company": "Tenth Revolution Group",
-    "role": "Senior Azure Solution Architect (Presales)"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T06:32:42Z",
+   "heartbeat_at": null,
    "detail": "Titles 4/58"
   },
   "W8": {
@@ -111,7 +107,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T06:32:42Z",
+   "heartbeat_at": "2026-10-26T06:34:34Z",
    "detail": "Employers 0/73"
   },
   "W4": {
@@ -155,7 +151,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T06:32:42Z",
+   "heartbeat_at": "2026-10-26T06:34:34Z",
    "detail": "Titles 0/58"
   },
   "W10": {
@@ -300,10 +296,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T06:33:50Z"
   },
   "sector_search": {
    "state": "active",
@@ -539,7 +535,7 @@
    }
   ]
  },
- "note": "Last activity 1:06 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 1:33 AM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W3 · Title 1 of 58 · Azure Architect",
