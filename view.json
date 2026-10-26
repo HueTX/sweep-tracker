@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "3.0.0-sweepv2",
- "generated_at": "2026-10-26T05:00:59Z",
+ "generated_at": "2026-10-26T05:03:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "4b264fe7",
   "kind": "scheduled",
-  "status": "running",
-  "state": "idle",
+  "status": "stopped",
+  "state": "halted",
   "activity": {
    "searching": false,
    "filing": false
@@ -55,7 +55,7 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 5,
    "families_total": 58,
    "current": null,
@@ -231,7 +231,7 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 34,
    "families_total": 58,
    "current": null,
@@ -242,7 +242,7 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
@@ -253,7 +253,7 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
@@ -264,7 +264,7 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 7,
    "families_total": 58,
    "current": null,
@@ -287,7 +287,7 @@
    "ended_at": "2026-10-24T23:12:43Z"
   },
   "linkedin_discovery": {
-   "state": "active",
+   "state": "stopped",
    "detail": "16 of 29 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
@@ -299,13 +299,13 @@
    "ended_at": "2026-10-25T17:22:53Z"
   },
   "sector_search": {
-   "state": "active",
+   "state": "stopped",
    "detail": "84 of 204 units done",
    "started_at": "2026-10-24T20:36:43Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
+   "state": "stopped",
    "detail": "7 of 9 units done",
    "started_at": "2026-10-25T11:09:35Z",
    "ended_at": null
@@ -410,9 +410,14 @@
    "W8"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "chat-stop-20261026-0005ct",
+    "actuated_at": "2026-10-26T05:03:21Z",
+    "effect": "sweep stop"
+   },
    {
     "id": "chat-start-20261025-1339ct",
     "actuated_at": "2026-10-25T18:43:26Z",
@@ -532,21 +537,22 @@
     "id": "chat-title-add-20261024-10",
     "actuated_at": "2026-10-24T20:36:43Z",
     "effect": "title added: Chief Enterprise Architect"
-   },
-   {
-    "id": "chat-start-20261024-1540ct",
-    "actuated_at": "2026-10-24T20:36:43Z",
-    "effect": "sweep start"
    }
   ]
  },
  "note": "Last activity 9:58 PM CT · 0 workers in flight · 3 filed this run",
- "pill": [],
+ "pill": [
+  {
+   "primary": "Sweep stopped — nothing is searching right now",
+   "detail": "Families covered 32/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep stopped — nothing is searching right now",
+  "detail": "Families covered 32/58"
  },
  "rules": {
   "follow_all": false,
