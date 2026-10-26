@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T05:30:16Z",
+ "generated_at": "2026-10-26T05:32:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,54 +9,48 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T05:28:45Z",
+  "last_activity_at": "2026-10-26T05:31:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 6,
+   "covered_units": 8,
    "total_units": 1218,
-   "pct": 0
+   "pct": 1
   },
-  "families_covered": 0,
+  "families_covered": 2,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 1,
-  "evaluated": 3
+  "parked": 1,
+  "rejected": 5,
+  "evaluated": 8
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 2,
+  "evaluated": 6,
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
+  "parked": 1,
+  "rejected": 3,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 2,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-26T05:30:16Z",
-   "detail": "Titles 0/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 2/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -294,7 +288,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "0 of 29 units done",
+   "detail": "1 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -337,10 +331,10 @@
  },
  "titles": {
   "total": 58,
-  "searched": 0,
+  "searched": 2,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
    "Azure Cloud Architect": "pending",
    "Cloud Architect": "pending",
    "Cloud Solutions Architect": "pending",
@@ -538,19 +532,13 @@
    }
   ]
  },
- "note": "Last activity 12:28 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 0/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 12:31 AM CT · 2 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 0/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -570,8 +558,42 @@
  "date": "2026-10-26",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
- "today_rejected": {},
+ "today_parked": {
+  "LinkedIn": [
+   {
+    "company": "Trade Republic",
+    "role": "Senior Director, Enterprise Architecture",
+    "reason": "not-evaluated — The Senior Director, Enterprise Architecture at Trade Republic is a full-time, remote role; This position leads the design of scalable application and data architectures. JD read and duties align, but the JD states no US work location or US eligibility and Trade Republic is a Berlin-based employer; workarounds tried: employer-careers/web search found no US listing for this role. US-eligibility unverified - not passed, not rejected.",
+    "where": "LinkedIn",
+    "time": "12:31 AM"
+   }
+  ]
+ },
+ "today_rejected": {
+  "LinkedIn": [
+   {
+    "company": "TekValue IT Solutions",
+    "role": "Azure Architect",
+    "reason": "not-remote — 1st 2 weeks Onsite, later total Remote - stated onsite requirement fails 100% remote. Workarounds tried: JD is the LinkedIn posting itself; onsite start is posting-intrinsic.",
+    "where": "LinkedIn",
+    "time": "12:31 AM"
+   },
+   {
+    "company": "Quebec Solution Inc",
+    "role": "AWS Cloud Architect / DevOps & Security Engineer",
+    "reason": "cloud-scope — Design and implement AWS environments across DEV, TEST, UAT, PROD, and DR - AWS-first role, Azure not in scope.",
+    "where": "LinkedIn",
+    "time": "12:31 AM"
+   },
+   {
+    "company": "Zeektek",
+    "role": "Device & Embedded Systems Architect AOSP 100% Remote Contract to Permanent Job",
+    "reason": "experience-mismatch — We're seeking a Device & Embedded Systems Architect to own the end-to-end technical architecture of our connected device platform - embedded/AOSP device architecture is a core mismatch with Azure/cloud/enterprise architecture experience.",
+    "where": "LinkedIn",
+    "time": "12:31 AM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1693,5 +1715,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T05:30:16Z"
+ "lists_generated_at": "2026-10-26T05:32:25Z"
 }
