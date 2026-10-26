@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T19:40:16Z",
+ "generated_at": "2026-10-26T19:42:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T19:33:52Z",
+  "last_activity_at": "2026-10-26T19:42:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 59,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 16,
+  "parked": 22,
   "rejected": 166,
   "evaluated": 190
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-26",
   "evaluated": 185,
   "filed": 2,
-  "parked": 16,
+  "parked": 22,
   "rejected": 161,
   "filed_by_source": {
    "Employer sites": 1,
@@ -44,7 +44,8 @@
  },
  "searching_lanes": [
   "LinkedIn",
-  "W3"
+  "W3",
+  "W9"
  ],
  "lanes": {
   "LinkedIn": {
@@ -59,7 +60,7 @@
     "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-26T19:40:16Z",
+   "heartbeat_at": "2026-10-26T19:42:19Z",
    "detail": "Titles 6/58"
   },
   "W8": {
@@ -114,7 +115,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T19:40:16Z",
+   "heartbeat_at": "2026-10-26T19:42:19Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -153,12 +154,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 17,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T19:42:19Z",
    "detail": "Titles 17/58"
   },
   "W10": {
@@ -315,10 +316,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "12 of 18 units done",
+   "state": "done",
+   "detail": "18 of 18 units done",
    "started_at": "2026-10-26T05:28:45Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T19:42:10Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -559,7 +560,7 @@
    }
   ]
  },
- "note": "Last activity 2:33 PM CT · 5 workers in flight · 2 filed this run",
+ "note": "Last activity 2:42 PM CT · 5 workers in flight · 2 filed this run",
  "pill": [
   {
    "primary": "W3 · Title 1 of 58 · Azure Architect",
@@ -809,6 +810,48 @@
     "reason": "not-evaluated — CORRECTION superseding disposition 2824: that verdict was recorded from a truncated interim fragment of the W9/Dice board task. The task's consolidated final report (63 distinct JDs, families and counts enumerated) does NOT list this posting at all, so the interim verdict is withdrawn as unverified; the lead is not-evaluated on the surviving evidence.",
     "where": "Dice",
     "time": "2:31 PM"
+   },
+   {
+    "company": "Lumen",
+    "role": "Senior Lead Network Architect",
+    "reason": "approval-blocked — Dice apply wizard reached at https://www.dice.com/job-applications/fd8151d6-ebc8-4adc-8a55-e12f10630307/wizard and stalled on upload approval card connector-b7a831fc-44ba-44b3-96c5-7269cbf4bf52; per v3 park-on-approval, browser window closed, tailored resume staged at filings/lumen-senior-lead-network-architect/Hubert-Samuel-Resume.pdf, no submission made.",
+    "where": "Dice",
+    "time": "2:41 PM"
+   },
+   {
+    "company": "DevCare Solutions",
+    "role": "Integration Architect",
+    "reason": "approval-blocked — Not attempted after Lumen Dice wizard in same batch proved upload-approval-blocked in a detached run; tailored resume staged at filings/devcare-solutions-integration-architect/Hubert-Samuel-Resume.pdf, no submission made. Completes only when Hubert approves the Dice resume upload.",
+    "where": "Dice",
+    "time": "2:41 PM"
+   },
+   {
+    "company": "Spruce Technology Inc.",
+    "role": "Remote - Workato Integration Architect with 10+years exp - USA",
+    "reason": "approval-blocked — Not attempted after Lumen Dice wizard in same batch proved upload-approval-blocked in a detached run; tailored resume staged at filings/spruce-technology-workato-integration-architect/Hubert-Samuel-Resume.pdf, no submission made. Borderline hands-on recipe note from discovery remains for filer re-weigh on retry. Completes only when Hubert approves the Dice resume upload.",
+    "where": "Dice",
+    "time": "2:41 PM"
+   },
+   {
+    "company": "Keypixel Software Solutions",
+    "role": "Azure Integration Architect",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven this execution on the Lumen Dice wizard (approval card connector-b7a831fc-44ba-44b3-96c5-7269cbf4bf52); resume staged at filings/keypixel-azure-integration-architect/Hubert-Samuel-Resume.pdf, no submission made.",
+    "where": "Dice",
+    "time": "2:42 PM"
+   },
+   {
+    "company": "AKAASA Technologies",
+    "role": "Sr Integration Architect - Workday Financials || Remote",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven this execution on the Lumen Dice wizard; resume staged at filings/akaasa-workday-integration-architect/Hubert-Samuel-Resume.pdf, no submission made. Discovery flagged Workday-platform depth vs experience alignment for filer re-weigh on retry.",
+    "where": "Dice",
+    "time": "2:42 PM"
+   },
+   {
+    "company": "Bright Sol",
+    "role": "Senior Data Center Advisory Consultant with Hyperscale Data Centers and GPUs :: Remote",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven this execution on the Lumen Dice wizard; resume staged at filings/bright-sol-data-center-advisory/Hubert-Samuel-Resume.pdf, no submission made.",
+    "where": "Dice",
+    "time": "2:42 PM"
    }
   ],
   "Web Catch-All": [
@@ -3089,7 +3132,13 @@
    "Dell Technologies",
    "Denken Solutions Inc",
    "Sonatafy Technology",
-   "Danta Technologies"
+   "Danta Technologies",
+   "Lumen",
+   "DevCare Solutions",
+   "Spruce Technology Inc.",
+   "Keypixel Software Solutions",
+   "AKAASA Technologies",
+   "Bright Sol"
   ],
   "W10": [
    "Berkley Technology Services"
@@ -3100,5 +3149,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T19:40:16Z"
+ "lists_generated_at": "2026-10-26T19:42:19Z"
 }
