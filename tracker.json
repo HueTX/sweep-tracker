@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:32:25Z",
+ "generated_at": "2026-10-26T23:34:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T23:26:25Z",
+  "last_activity_at": "2026-10-26T23:33:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 159,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 5,
-  "parked": 28,
+  "parked": 30,
   "rejected": 374,
   "evaluated": 409
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-26",
   "evaluated": 401,
   "filed": 5,
-  "parked": 28,
+  "parked": 30,
   "rejected": 366,
   "filed_by_source": {
    "Employer sites": 1,
@@ -44,21 +44,23 @@
   }
  },
  "searching_lanes": [
-  "LinkedIn"
+  "LinkedIn",
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 12,
    "families_total": 58,
-   "current": {
-    "company": "Epson America Inc.",
-    "role": "Senior IT Architect - Enterprise AI"
+   "current": null,
+   "current_family": {
+    "index": 13,
+    "name": "IT/OT Architect",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-26T23:32:25Z",
+   "heartbeat_at": "2026-10-26T23:34:14Z",
    "detail": "Titles 12/58"
   },
   "W8": {
@@ -108,12 +110,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 43,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T23:34:14Z",
    "detail": "Employers 55/73"
   },
   "W4": {
@@ -302,10 +304,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "7 of 9 units done",
+   "state": "done",
+   "detail": "9 of 9 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T23:33:43Z"
   },
   "sector_search": {
    "state": "active",
@@ -558,13 +560,19 @@
    }
   ]
  },
- "note": "Last activity 6:26 PM CT · 2 workers in flight · 5 filed this run",
- "pill": [],
+ "note": "Last activity 6:33 PM CT · 3 workers in flight · 5 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 13 of 58 · IT/OT Architect",
+   "detail": "Families covered 12/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 13 of 58 · IT/OT Architect",
+  "detail": "Families covered 12/58"
  },
  "rules": {
   "follow_all": false,
@@ -946,6 +954,20 @@
     "reason": "not-evaluated — Local or regional travel may be required up to 75%",
     "where": "LinkedIn",
     "time": "6:26 PM"
+   },
+   {
+    "company": "Epson America Inc.",
+    "role": "Senior IT Architect - Enterprise AI",
+    "reason": "credential-needed — The Senior Technical Architect – Enterprise AI will define and govern the technical architecture for enterprise Generative AI applications, AI agents, knowledge solutions, and AI-enabled business processes.",
+    "where": "LinkedIn",
+    "time": "6:33 PM"
+   },
+   {
+    "company": "Insight",
+    "role": "Senior Infrastructure Architect- Cisco/Citrix VDI/Azure/NetApp",
+    "reason": "bot-wall — Provide architecture-level expertise across Cisco, Citrix VDI, Microsoft Azure, and NetApp solutions, including evaluating current environments and developing future-state architectures.",
+    "where": "LinkedIn",
+    "time": "6:32 PM"
    },
    {
     "company": "Figma",
@@ -4813,5 +4835,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T23:32:25Z"
+ "lists_generated_at": "2026-10-26T23:34:14Z"
 }
