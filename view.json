@@ -1,62 +1,56 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T06:04:34Z",
+ "generated_at": "2026-10-26T06:06:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T05:46:54Z",
+  "last_activity_at": "2026-10-26T06:05:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 8,
+   "covered_units": 10,
    "total_units": 1218,
    "pct": 1
   },
-  "families_covered": 2,
+  "families_covered": 4,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 5,
-  "evaluated": 8
+  "rejected": 8,
+  "evaluated": 11
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 6,
+  "evaluated": 9,
   "filed": 0,
   "parked": 3,
-  "rejected": 3,
+  "rejected": 6,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 2,
+   "phase": "queued",
+   "families_searched": 4,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 3,
-    "name": "Azure Cloud Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-26T06:04:34Z",
-   "detail": "Titles 2/58"
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Titles 4/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -294,7 +288,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "1 of 29 units done",
+   "detail": "2 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -337,12 +331,12 @@
  },
  "titles": {
   "total": 58,
-  "searched": 2,
+  "searched": 4,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
    "Cloud Solutions Architect": "pending",
    "Enterprise Architect": "pending",
    "Infrastructure Architect": "pending",
@@ -538,19 +532,13 @@
    }
   ]
  },
- "note": "Last activity 12:46 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
-   "detail": "Families covered 2/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 1:05 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 3 of 58 · Azure Cloud Architect",
-  "detail": "Families covered 2/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
