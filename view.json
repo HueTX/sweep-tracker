@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T22:54:16Z",
+ "generated_at": "2026-10-26T22:56:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T22:50:09Z",
+  "last_activity_at": "2026-10-26T22:55:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 132,
+   "covered_units": 138,
    "total_units": 1218,
    "pct": 11
   },
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 3,
-  "parked": 25,
-  "rejected": 344,
-  "evaluated": 375
+  "parked": 26,
+  "rejected": 349,
+  "evaluated": 380
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 367,
+  "evaluated": 372,
   "filed": 3,
-  "parked": 25,
-  "rejected": 336,
+  "parked": 26,
+  "rejected": 341,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1,
@@ -44,8 +44,7 @@
   }
  },
  "searching_lanes": [
-  "LinkedIn",
-  "W8"
+  "LinkedIn"
  ],
  "lanes": {
   "LinkedIn": {
@@ -55,23 +54,23 @@
    "families_searched": 8,
    "families_total": 58,
    "current": {
-    "company": "Project Management Institute",
-    "role": "Enterprise Application Architect III"
+    "company": "Ladders",
+    "role": "Enterprise Solution Architect"
    },
    "current_family": null,
-   "heartbeat_at": "2026-10-26T22:54:16Z",
+   "heartbeat_at": "2026-10-26T22:56:25Z",
    "detail": "Titles 8/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 35,
+   "phase": "queued",
+   "families_searched": 41,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T22:54:16Z",
-   "detail": "Titles 35/58"
+   "heartbeat_at": null,
+   "detail": "Titles 41/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -304,13 +303,13 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "4 of 7 units done",
+   "detail": "5 of 7 units done",
    "started_at": "2026-10-26T06:06:59Z",
    "ended_at": null
   },
   "sector_search": {
    "state": "active",
-   "detail": "24 of 35 units done",
+   "detail": "25 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -559,19 +558,13 @@
    }
   ]
  },
- "note": "Last activity 5:50 PM CT · 3 workers in flight · 3 filed this run",
- "pill": [
-  {
-   "primary": "W8 · Title 37 of 58 · Cloud Practice Lead",
-   "detail": "Families covered 8/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 5:55 PM CT · 1 workers in flight · 3 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 37 of 58 · Cloud Practice Lead",
-  "detail": "Families covered 8/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
