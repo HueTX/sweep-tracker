@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T15:18:43Z",
+ "generated_at": "2026-10-26T15:20:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
-  "status": "stopped",
-  "state": "halted",
+  "status": "running",
+  "state": "idle",
   "activity": {
    "searching": false,
    "filing": false
@@ -44,7 +44,7 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "stopped",
+   "phase": "queued",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
@@ -55,7 +55,7 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "stopped",
+   "phase": "queued",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
@@ -99,7 +99,7 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "stopped",
+   "phase": "queued",
    "families_searched": 4,
    "families_total": 58,
    "current": null,
@@ -143,7 +143,7 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "stopped",
+   "phase": "queued",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
@@ -287,7 +287,7 @@
    "ended_at": "2026-10-26T05:29:57Z"
   },
   "linkedin_discovery": {
-   "state": "stopped",
+   "state": "active",
    "detail": "2 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
@@ -299,13 +299,13 @@
    "ended_at": "2026-10-26T06:33:50Z"
   },
   "sector_search": {
-   "state": "stopped",
+   "state": "active",
    "detail": "3 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "stopped",
+   "state": "active",
    "detail": "2 of 4 units done",
    "started_at": "2026-10-26T05:28:45Z",
    "ended_at": null
@@ -402,9 +402,14 @@
    "W9"
   ],
   "scoped_titles": null,
-  "sweep_state": "stopped",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
+   {
+    "id": "req-mvpejktd-skz0i21vjr",
+    "actuated_at": "2026-10-26T15:20:45Z",
+    "effect": "sweep start (resumed)"
+   },
    {
     "id": "v3-smoke-stop-20261026",
     "actuated_at": "2026-10-26T06:48:28Z",
@@ -524,27 +529,16 @@
     "id": "chat-title-add-20261024-07",
     "actuated_at": "2026-10-24T20:36:43Z",
     "effect": "title added: Enterprise Platform Architect"
-   },
-   {
-    "id": "chat-title-add-20261024-08",
-    "actuated_at": "2026-10-24T20:36:43Z",
-    "effect": "title added: Enterprise Applications Architect"
    }
   ]
  },
  "note": "Last activity 1:36 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "Sweep stopped — nothing is searching right now",
-   "detail": "Families covered 4/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep stopped — nothing is searching right now",
-  "detail": "Families covered 4/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1825,5 +1819,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-26T15:18:43Z"
+ "lists_generated_at": "2026-10-26T15:20:45Z"
 }
