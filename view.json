@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T20:36:35Z",
+ "generated_at": "2026-10-26T20:38:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T20:35:43Z",
+  "last_activity_at": "2026-10-26T20:38:15Z",
   "progress": {
    "pools": 21,
-   "covered_units": 81,
+   "covered_units": 93,
    "total_units": 1218,
-   "pct": 7
+   "pct": 8
   },
   "families_covered": 6,
   "families_total": 58
@@ -28,24 +28,21 @@
  "counts": {
   "filed": 2,
   "parked": 25,
-  "rejected": 183,
-  "evaluated": 210
+  "rejected": 189,
+  "evaluated": 216
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 205,
+  "evaluated": 211,
   "filed": 2,
   "parked": 25,
-  "rejected": 178,
+  "rejected": 184,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 1
   }
  },
- "searching_lanes": [
-  "W8",
-  "W9"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -61,13 +58,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 17,
+   "phase": "queued",
+   "families_searched": 23,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T20:36:35Z",
-   "detail": "Titles 17/58"
+   "heartbeat_at": null,
+   "detail": "Titles 23/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -149,13 +146,13 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 35,
+   "phase": "queued",
+   "families_searched": 41,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T20:36:35Z",
-   "detail": "Titles 35/58"
+   "heartbeat_at": null,
+   "detail": "Titles 41/58"
   },
   "W10": {
    "label": "SimplyHired",
@@ -306,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "15 of 35 units done",
+   "detail": "17 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
@@ -555,19 +552,13 @@
    }
   ]
  },
- "note": "Last activity 3:35 PM CT · 2 workers in flight · 2 filed this run",
- "pill": [
-  {
-   "primary": "W9 · Title 37 of 58 · Cloud Practice Lead",
-   "detail": "Families covered 6/58",
-   "pool": "W9"
-  }
- ],
+ "note": "Last activity 3:38 PM CT · 0 workers in flight · 2 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W9",
-  "headline": "W9 · Title 37 of 58 · Cloud Practice Lead",
-  "detail": "Families covered 6/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
