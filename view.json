@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T15:55:05Z",
+ "generated_at": "2026-10-26T15:56:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T06:36:25Z",
+  "last_activity_at": "2026-10-26T15:56:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 20,
@@ -26,20 +26,24 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 5,
   "rejected": 16,
-  "evaluated": 21
+  "evaluated": 22
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 18,
-  "filed": 0,
+  "evaluated": 19,
+  "filed": 1,
   "parked": 5,
   "rejected": 13,
-  "filed_by_source": {}
+  "filed_by_source": {
+   "LinkedIn": 1
+  }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W9"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -143,12 +147,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-26T15:56:47Z",
    "detail": "Titles 6/58"
   },
   "W10": {
@@ -532,13 +536,19 @@
    }
   ]
  },
- "note": "Last activity 1:36 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 10:56 AM CT · 3 workers in flight · 1 filed this run",
+ "pill": [
+  {
+   "primary": "W9 · Title 7 of 58 · Infrastructure Architect",
+   "detail": "Families covered 4/58",
+   "pool": "W9"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W9",
+  "headline": "W9 · Title 7 of 58 · Infrastructure Architect",
+  "detail": "Families covered 4/58"
  },
  "rules": {
   "follow_all": false,
