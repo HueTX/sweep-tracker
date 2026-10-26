@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T05:28:13Z",
+ "generated_at": "2026-10-26T05:30:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -10,15 +10,15 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T05:26:17Z",
+  "last_activity_at": "2026-10-26T05:28:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 6,
    "total_units": 1218,
    "pct": 0
   },
@@ -28,20 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 1,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 0,
+  "evaluated": 2,
   "filed": 0,
   "parked": 0,
   "rejected": 0,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "LinkedIn",
-  "W8"
+  "LinkedIn"
  ],
  "lanes": {
   "LinkedIn": {
@@ -56,19 +55,19 @@
     "name": "Azure Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-10-26T05:28:13Z",
+   "heartbeat_at": "2026-10-26T05:30:16Z",
    "detail": "Titles 0/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T05:28:13Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": null,
+   "detail": "Titles 6/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -288,10 +287,10 @@
    "ended_at": "2026-10-26T05:26:17Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-26T05:26:17Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T05:29:57Z"
   },
   "linkedin_discovery": {
    "state": "active",
@@ -307,14 +306,14 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 35 units done",
+   "detail": "1 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "state": "active",
+   "detail": "0 of 2 units done",
+   "started_at": "2026-10-26T05:28:45Z",
    "ended_at": null
   },
   "stall_watch": {
@@ -539,18 +538,18 @@
    }
   ]
  },
- "note": "Run started 12:26 AM CT · 0 filed",
+ "note": "Last activity 12:28 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 0/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 0/58"
  },
  "rules": {
