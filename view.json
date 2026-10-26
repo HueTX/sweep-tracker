@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-26T23:07:04Z",
+ "generated_at": "2026-10-26T23:08:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-26T23:06:29Z",
+  "last_activity_at": "2026-10-26T23:07:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 138,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 3,
-  "parked": 27,
+  "parked": 28,
   "rejected": 349,
   "evaluated": 380
  },
@@ -35,7 +35,7 @@
   "date": "2026-10-26",
   "evaluated": 372,
   "filed": 3,
-  "parked": 27,
+  "parked": 28,
   "rejected": 341,
   "filed_by_source": {
    "Employer sites": 1,
@@ -44,22 +44,18 @@
   }
  },
  "searching_lanes": [
-  "LinkedIn",
   "W3"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 8,
    "families_total": 58,
-   "current": {
-    "company": "Ladders",
-    "role": "Sr. Director, IT Architecture and Strategy"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T23:07:04Z",
+   "heartbeat_at": null,
    "detail": "Titles 8/58"
   },
   "W8": {
@@ -114,7 +110,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-26T23:07:04Z",
+   "heartbeat_at": "2026-10-26T23:08:27Z",
    "detail": "Employers 40/73"
   },
   "W4": {
@@ -303,10 +299,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "6 of 7 units done",
+   "state": "done",
+   "detail": "7 of 7 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-26T23:07:39Z"
   },
   "sector_search": {
    "state": "active",
@@ -559,7 +555,7 @@
    }
   ]
  },
- "note": "Last activity 6:06 PM CT · 3 workers in flight · 3 filed this run",
+ "note": "Last activity 6:07 PM CT · 2 workers in flight · 3 filed this run",
  "pill": [
   {
    "primary": "W3 · Title 1 of 58 · Azure Architect",
