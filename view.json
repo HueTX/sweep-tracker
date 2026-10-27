@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T16:58:29Z",
+ "generated_at": "2026-10-27T17:00:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T16:46:02Z",
@@ -41,22 +41,17 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 52,
    "families_total": 58,
-   "current": {
-    "company": "American Workforce Solutions",
-    "role": "Enterprise Solutions Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-27T16:58:29Z",
+   "heartbeat_at": null,
    "detail": "Titles 52/58"
   },
   "W8": {
@@ -556,19 +551,13 @@
    }
   ]
  },
- "note": "Last activity 11:46 AM CT · 2 workers in flight · 7 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 53 of 58 · Enterprise Integration Architect",
-   "detail": "Families covered 52/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 11:46 AM CT · 0 workers in flight · 7 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 53 of 58 · Enterprise Integration Architect",
-  "detail": "Families covered 52/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
