@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T19:06:21Z",
+ "generated_at": "2026-10-27T19:08:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T19:05:55Z",
@@ -42,17 +42,22 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 52,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "American Workforce Solutions",
+    "role": "Enterprise Solutions Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-27T19:08:37Z",
    "detail": "Titles 52/58"
   },
   "W8": {
@@ -552,7 +557,7 @@
    }
   ]
  },
- "note": "Last activity 2:05 PM CT · 0 workers in flight · 9 filed this run",
+ "note": "Last activity 2:05 PM CT · 2 workers in flight · 9 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -2763,5 +2768,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T19:06:21Z"
+ "lists_generated_at": "2026-10-27T19:08:37Z"
 }
