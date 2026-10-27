@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T10:40:18Z",
+ "generated_at": "2026-10-27T10:42:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T10:13:54Z",
@@ -39,22 +39,17 @@
   "rejected": 42,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 24,
    "families_total": 58,
-   "current": {
-    "company": "NASCO",
-    "role": "Principal Infrastructure Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-27T10:40:18Z",
+   "heartbeat_at": null,
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -554,7 +549,7 @@
    }
   ]
  },
- "note": "Last activity 5:13 AM CT · 2 workers in flight · 5 filed this run",
+ "note": "Last activity 5:13 AM CT · 0 workers in flight · 5 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -2027,5 +2022,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T10:40:18Z"
+ "lists_generated_at": "2026-10-27T10:42:27Z"
 }
