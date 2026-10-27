@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T09:52:13Z",
+ "generated_at": "2026-10-27T09:54:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T09:32:42Z",
@@ -39,23 +39,17 @@
   "rejected": 14,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 24,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 21,
-    "name": "IT Architecture Lead",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-27T09:52:13Z",
+   "current_family": null,
+   "heartbeat_at": null,
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -555,19 +549,13 @@
    }
   ]
  },
- "note": "Last activity 4:32 AM CT · 1 workers in flight · 5 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 24/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 4:32 AM CT · 0 workers in flight · 5 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 24/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
