@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T15:15:27Z",
+ "generated_at": "2026-10-27T15:17:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T14:51:07Z",
@@ -41,23 +41,17 @@
    "LinkedIn": 2
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
-   "current_family": {
-    "index": 49,
-    "name": "Enterprise Solutions Architect",
-    "total": 58
-   },
-   "heartbeat_at": "2026-10-27T15:15:27Z",
+   "current_family": null,
+   "heartbeat_at": null,
    "detail": "Titles 48/58"
   },
   "W8": {
@@ -557,19 +551,13 @@
    }
   ]
  },
- "note": "Last activity 9:51 AM CT · 2 workers in flight · 7 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 49 of 58 · Enterprise Solutions Architect",
-   "detail": "Families covered 48/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 9:51 AM CT · 0 workers in flight · 7 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 49 of 58 · Enterprise Solutions Architect",
-  "detail": "Families covered 48/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2436,5 +2424,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T15:15:27Z"
+ "lists_generated_at": "2026-10-27T15:17:30Z"
 }
