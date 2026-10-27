@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T00:10:32Z",
+ "generated_at": "2026-10-27T00:12:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T00:05:03Z",
+  "last_activity_at": "2026-10-27T00:12:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 182,
+   "covered_units": 194,
    "total_units": 1218,
-   "pct": 15
+   "pct": 16
   },
   "families_covered": 20,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 5,
   "parked": 33,
-  "rejected": 382,
-  "evaluated": 421
+  "rejected": 395,
+  "evaluated": 436
  },
  "today": {
   "date": "2026-10-26",
-  "evaluated": 413,
+  "evaluated": 428,
   "filed": 5,
   "parked": 33,
-  "rejected": 374,
+  "rejected": 387,
   "filed_by_source": {
    "Employer sites": 1,
    "LinkedIn": 3,
@@ -44,8 +44,7 @@
   }
  },
  "searching_lanes": [
-  "LinkedIn",
-  "W8"
+  "LinkedIn"
  ],
  "lanes": {
   "LinkedIn": {
@@ -60,19 +59,19 @@
     "name": "IT Architecture Lead",
     "total": 58
    },
-   "heartbeat_at": "2026-10-27T00:10:32Z",
+   "heartbeat_at": "2026-10-27T00:12:41Z",
    "detail": "Titles 20/58"
   },
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-27T00:10:32Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -310,16 +309,16 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "33 of 35 units done",
+   "state": "done",
+   "detail": "35 of 35 units done",
    "started_at": "2026-10-26T05:26:17Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T00:12:32Z"
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "19 of 19 units done",
+   "state": "active",
+   "detail": "19 of 21 units done",
    "started_at": "2026-10-26T05:28:45Z",
-   "ended_at": "2026-10-26T22:05:05Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -560,7 +559,7 @@
    }
   ]
  },
- "note": "Last activity 7:05 PM CT · 4 workers in flight · 5 filed this run",
+ "note": "Last activity 7:12 PM CT · 2 workers in flight · 5 filed this run",
  "pill": [
   {
    "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
@@ -2068,6 +2067,27 @@
     "reason": "experience-mismatch — Strong understanding of pharmaceutical commercial operations and marketing processes.",
     "where": "Dice",
     "time": "4:57 PM"
+   },
+   {
+    "company": "Jobs via Dice",
+    "role": "Solution Architect",
+    "reason": "pay-outside-band — $70.00 - $75.00 per hour",
+    "where": "Dice",
+    "time": "7:12 PM"
+   },
+   {
+    "company": "Jobs via Dice",
+    "role": "Enterprise Security Architect",
+    "reason": "pay-outside-band — $60.00 - $65.00 per hour",
+    "where": "Dice",
+    "time": "7:12 PM"
+   },
+   {
+    "company": "Gtech LLC",
+    "role": "Windchill Business Architect",
+    "reason": "hands-on — Look for a Windchill Solution Architect / Windchill Business Architect with strong hands-on experience in Windchill modules, solution design, SQL databases, Java development, reporting, and system integrations.",
+    "where": "Dice",
+    "time": "7:12 PM"
    }
   ],
   "LinkedIn": [
@@ -2917,6 +2937,13 @@
     "reason": "pay-outside-band — $65.00/hr - $75.00/hr",
     "where": "LinkedIn",
     "time": "6:43 PM"
+   },
+   {
+    "company": "Cohesity",
+    "role": "Senior Solutions Architect- Data Security Posture Management (DSPM) - Remote",
+    "reason": "hands-on — 2+ years of hands-on Terraform experience",
+    "where": "LinkedIn",
+    "time": "7:12 PM"
    }
   ],
   "Employer sites": [
@@ -3464,6 +3491,20 @@
     "reason": "pay-outside-band — $120,000–$150,000 per year",
     "where": "Indeed",
     "time": "5:55 PM"
+   },
+   {
+    "company": "LogiScale",
+    "role": "Enterprise Solutions Architect",
+    "reason": "stale — Architect end-to-end Azure Data Lakehouse solutions.",
+    "where": "Indeed",
+    "time": "7:12 PM"
+   },
+   {
+    "company": "Halo Group",
+    "role": "Solutions Architect - Enterprise Data & Integration Platforms",
+    "reason": "pay-outside-band — $105,000.00 - $135,000.00 per year",
+    "where": "Indeed",
+    "time": "7:12 PM"
    }
   ],
   "Remote Quest Jobs": [
@@ -3773,6 +3814,67 @@
     "reason": "hands-on-coding — Lead hands-on development and integration of streaming solutions using Databricks for real-time analytics and data processing.",
     "where": "NulJobsNetwork",
     "time": "6:10 PM"
+   }
+  ],
+  "BlackCareerNetwork": [
+   {
+    "company": "Ahold Delhaize USA",
+    "role": "Enterprise Platform Architect- Hosting and Resiliency",
+    "reason": "not-remote — Our flexible/ hybrid work schedule includes 3 in-person days at one of our core locations and 2 remote days.",
+    "where": "BlackCareerNetwork",
+    "time": "7:12 PM"
+   }
+  ],
+  "Experian ATS": [
+   {
+    "company": "Experian",
+    "role": "Platform Architect, Remote",
+    "reason": "cloud-scope — Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm",
+    "where": "Experian ATS",
+    "time": "7:12 PM"
+   }
+  ],
+  "CareerBuilder": [
+   {
+    "company": "Allstate Insurance Company",
+    "role": "Business Architect Expert - Telematics & Connected Claims",
+    "reason": "experience-mismatch — Demonstrated ability to turn telematics data into operational value, ideally in claims, insurance, customer service, risk, or adjacent workflows where decision speed, quality, and automation matter.",
+    "where": "CareerBuilder",
+    "time": "7:12 PM"
+   }
+  ],
+  "Qureos": [
+   {
+    "company": "JTEC Consulting LLC",
+    "role": "MRO Oracle EBS Business Architect - REMOTE",
+    "reason": "clearance — Current Secret Clearance or Public Trust IT2 Access",
+    "where": "Qureos",
+    "time": "7:12 PM"
+   }
+  ],
+  "Simplify Jobs": [
+   {
+    "company": "Everest Global Services, Inc.",
+    "role": "Chief Enterprise Architect",
+    "reason": "not-remote — This is a hybrid role based in the Warren, NJ office (3 days in office/2 days remote).",
+    "where": "Simplify Jobs",
+    "time": "7:12 PM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "Genesis10",
+    "role": "Chief Enterprise Architect - GTM Systems, ERP, AI & Business Transformation",
+    "reason": "pay-outside-band — Anticipated Salary $240 - $280 + Bonus DOE",
+    "where": "DiversityJobs",
+    "time": "7:12 PM"
+   },
+   {
+    "company": "Fulton Bank, N.A.",
+    "role": "Chief Enterprise Architect",
+    "reason": "pay-outside-band — The salary range for this position is $189,300.00 - $315,400.00 annually.",
+    "where": "DiversityJobs",
+    "time": "7:12 PM"
    }
   ]
  },
@@ -4912,5 +5014,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T00:10:32Z"
+ "lists_generated_at": "2026-10-27T00:12:41Z"
 }
