@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T20:44:46Z",
+ "generated_at": "2026-10-27T20:46:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,34 +9,34 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T20:37:48Z",
+  "last_activity_at": "2026-10-27T20:46:18Z",
   "progress": {
    "pools": 21,
-   "covered_units": 230,
+   "covered_units": 232,
    "total_units": 1218,
    "pct": 19
   },
-  "families_covered": 56,
+  "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 9,
   "parked": 35,
-  "rejected": 572,
-  "evaluated": 617
+  "rejected": 579,
+  "evaluated": 626
  },
  "today": {
   "date": "2026-10-27",
-  "evaluated": 131,
+  "evaluated": 140,
   "filed": 4,
   "parked": 4,
-  "rejected": 123,
+  "rejected": 130,
   "filed_by_source": {
    "Humanly via PMI careers site": 1,
    "LinkedIn": 3
@@ -49,17 +49,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 56,
+   "phase": "filing",
+   "families_searched": 58,
    "families_total": 58,
-   "current": null,
-   "current_family": {
-    "index": 57,
-    "name": "Business Architect",
-    "total": 58
+   "current": {
+    "company": "LABUR",
+    "role": "Senior Business Architect"
    },
-   "heartbeat_at": "2026-10-27T20:44:46Z",
-   "detail": "Titles 56/58"
+   "current_family": null,
+   "heartbeat_at": "2026-10-27T20:46:23Z",
+   "detail": "Titles 58/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -296,16 +295,16 @@
    "ended_at": "2026-10-26T05:29:57Z"
   },
   "linkedin_discovery": {
-   "state": "active",
-   "detail": "28 of 29 units done",
+   "state": "done",
+   "detail": "29 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T20:46:18Z"
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "28 of 28 units done",
+   "state": "active",
+   "detail": "28 of 30 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": "2026-10-27T20:07:06Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "done",
@@ -340,7 +339,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 56,
+  "searched": 58,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -398,8 +397,8 @@
    "Enterprise Security Architect": "done",
    "Enterprise Platform Architect": "done",
    "Enterprise Applications Architect": "done",
-   "Business Architect": "pending",
-   "Chief Enterprise Architect": "pending"
+   "Business Architect": "done",
+   "Chief Enterprise Architect": "done"
   }
  },
  "controls": {
@@ -558,19 +557,13 @@
    }
   ]
  },
- "note": "Last activity 3:37 PM CT · 1 workers in flight · 9 filed this run",
- "pill": [
-  {
-   "primary": "LinkedIn · Title 57 of 58 · Business Architect",
-   "detail": "Families covered 56/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Last activity 3:46 PM CT · 2 workers in flight · 9 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "LinkedIn",
-  "headline": "LinkedIn · Title 57 of 58 · Business Architect",
-  "detail": "Families covered 56/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
