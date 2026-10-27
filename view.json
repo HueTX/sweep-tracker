@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T08:06:23Z",
+ "generated_at": "2026-10-27T08:08:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T02:50:16Z",
@@ -39,17 +39,22 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "TechTriad",
+    "role": "Azure Cloud Architecture / Team Lead"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-27T08:08:21Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -549,13 +554,19 @@
    }
   ]
  },
- "note": "Last activity 9:50 PM CT · 0 workers in flight · 5 filed this run",
- "pill": [],
+ "note": "Last activity 9:50 PM CT · 2 workers in flight · 5 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 24/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
