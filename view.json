@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T20:56:11Z",
+ "generated_at": "2026-10-27T20:58:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T20:46:18Z",
+  "last_activity_at": "2026-10-27T20:56:59Z",
   "progress": {
    "pools": 21,
    "covered_units": 232,
@@ -26,38 +26,33 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 9,
-  "parked": 35,
+  "filed": 10,
+  "parked": 36,
   "rejected": 579,
   "evaluated": 626
  },
  "today": {
   "date": "2026-10-27",
   "evaluated": 140,
-  "filed": 4,
-  "parked": 4,
+  "filed": 5,
+  "parked": 5,
   "rejected": 130,
   "filed_by_source": {
    "Humanly via PMI careers site": 1,
-   "LinkedIn": 3
+   "LinkedIn": 4
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
-   "current": {
-    "company": "LABUR",
-    "role": "Senior Business Architect"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-27T20:56:11Z",
+   "heartbeat_at": null,
    "detail": "Titles 58/58"
   },
   "W8": {
@@ -301,10 +296,10 @@
    "ended_at": "2026-10-27T20:46:18Z"
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "28 of 30 units done",
+   "state": "done",
+   "detail": "30 of 30 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T20:57:00Z"
   },
   "sector_search": {
    "state": "done",
@@ -320,20 +315,20 @@
   },
   "stall_watch": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-27T20:58:35Z",
    "ended_at": null
   },
   "quality_check": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-27T20:58:35Z",
    "ended_at": null
   },
   "delivered": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-27T20:58:35Z",
    "ended_at": null
   }
  },
@@ -557,7 +552,7 @@
    }
   ]
  },
- "note": "Last activity 3:46 PM CT · 2 workers in flight · 9 filed this run",
+ "note": "Last activity 3:56 PM CT · 0 workers in flight · 10 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
