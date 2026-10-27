@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T19:34:19Z",
+ "generated_at": "2026-10-27T19:36:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
   "last_activity_at": "2026-10-27T19:29:17Z",
@@ -42,22 +42,17 @@
    "LinkedIn": 3
   }
  },
- "searching_lanes": [
-  "LinkedIn"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "queued",
    "families_searched": 52,
    "families_total": 58,
-   "current": {
-    "company": "Ayudhya Fund Management",
-    "role": "Director of Solution Architecture"
-   },
+   "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-27T19:34:19Z",
+   "heartbeat_at": null,
    "detail": "Titles 52/58"
   },
   "W8": {
@@ -557,7 +552,7 @@
    }
   ]
  },
- "note": "Last activity 2:29 PM CT · 1 workers in flight · 9 filed this run",
+ "note": "Last activity 2:29 PM CT · 0 workers in flight · 9 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -2782,5 +2777,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T19:34:19Z"
+ "lists_generated_at": "2026-10-27T19:36:54Z"
 }
