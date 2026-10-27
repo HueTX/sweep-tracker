@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T19:36:54Z",
+ "generated_at": "2026-10-27T19:38:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T19:29:17Z",
+  "last_activity_at": "2026-10-27T19:38:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 226,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 9,
   "parked": 34,
-  "rejected": 568,
+  "rejected": 569,
   "evaluated": 616
  },
  "today": {
@@ -36,23 +36,28 @@
   "evaluated": 129,
   "filed": 4,
   "parked": 3,
-  "rejected": 118,
+  "rejected": 119,
   "filed_by_source": {
    "Humanly via PMI careers site": 1,
    "LinkedIn": 3
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 52,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "Software Mind Americas",
+    "role": "Client Solutions Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-27T19:38:43Z",
    "detail": "Titles 52/58"
   },
   "W8": {
@@ -297,7 +302,7 @@
   },
   "linkedin_filing": {
    "state": "active",
-   "detail": "24 of 28 units done",
+   "detail": "25 of 28 units done",
    "started_at": "2026-10-26T06:06:59Z",
    "ended_at": null
   },
@@ -552,7 +557,7 @@
    }
   ]
  },
- "note": "Last activity 2:29 PM CT · 0 workers in flight · 9 filed this run",
+ "note": "Last activity 2:38 PM CT · 2 workers in flight · 9 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -1454,6 +1459,13 @@
     "reason": "hands-on — the ability to develop in Java, a Java IDE and a Spring tool suite like STS",
     "where": "LinkedIn",
     "time": "11:46 AM"
+   },
+   {
+    "company": "Ayudhya Fund Management",
+    "role": "Director of Solution Architecture",
+    "reason": "closed — No longer accepting applications",
+    "where": "LinkedIn",
+    "time": "2:38 PM"
    },
    {
     "company": "Jobs via Dice",
@@ -2777,5 +2789,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T19:36:54Z"
+ "lists_generated_at": "2026-10-27T19:38:43Z"
 }
