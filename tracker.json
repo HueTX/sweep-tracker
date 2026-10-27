@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T13:50:59Z",
+ "generated_at": "2026-10-27T13:53:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T13:48:31Z",
+  "last_activity_at": "2026-10-27T13:52:02Z",
   "progress": {
    "pools": 21,
    "covered_units": 200,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 7,
   "parked": 34,
-  "rejected": 527,
+  "rejected": 528,
   "evaluated": 570
  },
  "today": {
@@ -36,7 +36,7 @@
   "evaluated": 81,
   "filed": 2,
   "parked": 2,
-  "rejected": 76,
+  "rejected": 77,
   "filed_by_source": {
    "LinkedIn": 2
   }
@@ -48,15 +48,16 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "filing",
+   "phase": "searching",
    "families_searched": 26,
    "families_total": 58,
-   "current": {
-    "company": "Ensono",
-    "role": "Principal Solution Architect - Cloud"
+   "current": null,
+   "current_family": {
+    "index": 27,
+    "name": "Identity Architect",
+    "total": 58
    },
-   "current_family": null,
-   "heartbeat_at": "2026-10-27T13:50:59Z",
+   "heartbeat_at": "2026-10-27T13:53:03Z",
    "detail": "Titles 26/58"
   },
   "W8": {
@@ -300,10 +301,10 @@
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "active",
-   "detail": "19 of 20 units done",
+   "state": "done",
+   "detail": "20 of 20 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T13:52:02Z"
   },
   "sector_search": {
    "state": "done",
@@ -556,13 +557,19 @@
    }
   ]
  },
- "note": "Last activity 8:48 AM CT · 1 workers in flight · 7 filed this run",
- "pill": [],
+ "note": "Last activity 8:52 AM CT · 2 workers in flight · 7 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 27 of 58 · Identity Architect",
+   "detail": "Families covered 26/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 27 of 58 · Identity Architect",
+  "detail": "Families covered 26/58"
  },
  "rules": {
   "follow_all": false,
@@ -1134,6 +1141,13 @@
     "reason": "stale — Posted February 13, 2026, with no repost or refresh label",
     "where": "LinkedIn",
     "time": "8:17 AM"
+   },
+   {
+    "company": "Ensono",
+    "role": "Principal Solution Architect - Cloud",
+    "reason": "duplicate — Application submitted",
+    "where": "LinkedIn",
+    "time": "8:52 AM"
    },
    {
     "company": "Brillio",
@@ -2352,5 +2366,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T13:50:59Z"
+ "lists_generated_at": "2026-10-27T13:53:03Z"
 }
