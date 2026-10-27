@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T21:34:15Z",
+ "generated_at": "2026-10-27T21:36:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T20:56:59Z",
+  "last_activity_at": "2026-10-27T21:34:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 232,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 10,
-  "parked": 36,
-  "rejected": 579,
+  "parked": 35,
+  "rejected": 580,
   "evaluated": 626
  },
  "today": {
   "date": "2026-10-27",
-  "evaluated": 140,
+  "evaluated": 141,
   "filed": 5,
   "parked": 5,
-  "rejected": 130,
+  "rejected": 131,
   "filed_by_source": {
    "Humanly via PMI careers site": 1,
    "LinkedIn": 4
@@ -314,10 +314,10 @@
    "ended_at": "2026-10-27T01:58:36Z"
   },
   "stall_watch": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-27T20:58:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T21:34:48Z"
   },
   "quality_check": {
    "state": "done",
@@ -326,10 +326,10 @@
    "ended_at": "2026-10-27T21:21:16Z"
   },
   "delivered": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-27T20:58:35Z",
-   "ended_at": null
+   "ended_at": "2026-10-27T21:34:49Z"
   }
  },
  "titles": {
@@ -552,7 +552,7 @@
    }
   ]
  },
- "note": "Last activity 3:56 PM CT · 2 workers in flight · 10 filed this run",
+ "note": "Last activity 4:34 PM CT · 0 workers in flight · 10 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -1748,6 +1748,15 @@
     "where": "LinkedIn",
     "time": "3:46 PM"
    }
+  ],
+  "Indeed": [
+   {
+    "company": "Global Alliant Inc",
+    "role": "Enterprise Data Architect",
+    "reason": "closed — We can't find this page — It looks like this page doesn't exist or isn't available right now.",
+    "where": "Indeed",
+    "time": "4:34 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -2883,10 +2892,8 @@
   "W11": [],
   "W12": [],
   "W13": [],
-  "W14": [
-   "Global Alliant Inc"
-  ],
+  "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T21:34:15Z"
+ "lists_generated_at": "2026-10-27T21:36:35Z"
 }
