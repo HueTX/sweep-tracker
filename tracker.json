@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T09:26:28Z",
+ "generated_at": "2026-10-27T09:28:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T09:26:23Z",
+  "last_activity_at": "2026-10-27T09:26:57Z",
   "progress": {
    "pools": 21,
    "covered_units": 198,
@@ -28,28 +28,33 @@
  "counts": {
   "filed": 5,
   "parked": 32,
-  "rejected": 457,
-  "evaluated": 496
+  "rejected": 471,
+  "evaluated": 510
  },
  "today": {
   "date": "2026-10-27",
-  "evaluated": 1,
+  "evaluated": 15,
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
+  "rejected": 14,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "Archer",
+    "role": "Solution Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-27T09:28:19Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -549,13 +554,19 @@
    }
   ]
  },
- "note": "Last activity 4:26 AM CT · 0 workers in flight · 5 filed this run",
- "pill": [],
+ "note": "Last activity 4:26 AM CT · 2 workers in flight · 5 filed this run",
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 24/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 24/58"
  },
  "rules": {
   "follow_all": false,
@@ -576,7 +587,108 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
- "today_rejected": {},
+ "today_rejected": {
+  "LinkedIn": [
+   {
+    "company": "ETHOS - Talent & Advisory",
+    "role": "Agentic AI Solutions Architect, Conversational AI",
+    "reason": "hands-on — Hands on development in Python, JavaScript/Node.js, Java, or a similar language",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "RemoteHunter",
+    "role": "Data Warehouse & Analytics Architect",
+    "reason": "hands-on — Balance hands-on coding with architectural responsibilities",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "UMATR",
+    "role": "Senior AI Architect",
+    "reason": "hands-on — Build and prototype AI solutions",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Horizontal Talent",
+    "role": "Project Architect",
+    "reason": "hands-on — Support the development, prototyping, deployment, and iteration of AI and machine learning solutions.",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "CloudPires",
+    "role": "Architect",
+    "reason": "hands-on — Develop expert-level JavaScript and ServiceNow APIs",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Xpertis Talent",
+    "role": "Senior Project Architect",
+    "reason": "pay-outside-band — Salary: $145,000 + $20,000 bonus.",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Principal Data Center Design Manager",
+    "reason": "not-remote — This role is onsite in Nashville, TN.",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Tekion Corp",
+    "role": "Customer Value Architect",
+    "reason": "pay-outside-band — $78K/yr - $130K/yr",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Gramian Consulting",
+    "role": "Rust Backend Architect - AI Training Projects",
+    "reason": "hands-on — Solve and validate Rust backend engineering problems",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Jobgether",
+    "role": "CWS Portfolio Product Architect",
+    "reason": "experience-mismatch — Lead the development and ongoing maintenance of the integrated product vision and roadmap for assigned CWS and P2P capabilities",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "BlueMatrix",
+    "role": "Data Architect",
+    "reason": "hands-on — Design and implement batch and streaming pipelines",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Brillio",
+    "role": "Senior Profisee MDM & Microsoft Fabric Data Architect",
+    "reason": "not-remote — Location: Coppell, TX. Work Model: Onsite.",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "GE HealthCare",
+    "role": "Solutions Architect, Digital Platforms",
+    "reason": "pay-outside-band — the pay range for this position is $188,000.00-$282,000.00 Annual",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Sardine",
+    "role": "Solutions Architect, Integrations - Public Sector",
+    "reason": "hands-on — writing scripts to build internal tools",
+    "where": "LinkedIn",
+    "time": "4:26 AM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1715,5 +1827,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T09:26:28Z"
+ "lists_generated_at": "2026-10-27T09:28:19Z"
 }
