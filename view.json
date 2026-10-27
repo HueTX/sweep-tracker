@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T10:46:27Z",
+ "generated_at": "2026-10-27T10:48:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T10:13:54Z",
+  "last_activity_at": "2026-10-27T10:47:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 198,
@@ -27,29 +27,34 @@
  },
  "counts": {
   "filed": 5,
-  "parked": 33,
-  "rejected": 496,
+  "parked": 34,
+  "rejected": 497,
   "evaluated": 537
  },
  "today": {
   "date": "2026-10-27",
   "evaluated": 45,
   "filed": 0,
-  "parked": 1,
-  "rejected": 42,
+  "parked": 2,
+  "rejected": 43,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "filing",
    "families_searched": 24,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "NASCO",
+    "role": "Principal Infrastructure Architect"
+   },
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-27T10:48:39Z",
    "detail": "Titles 24/58"
   },
   "W8": {
@@ -549,7 +554,7 @@
    }
   ]
  },
- "note": "Last activity 5:13 AM CT · 0 workers in flight · 5 filed this run",
+ "note": "Last activity 5:47 AM CT · 2 workers in flight · 5 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
