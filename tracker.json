@@ -1,58 +1,63 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-27T13:16:23Z",
+ "generated_at": "2026-10-27T13:18:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "8810a14e",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-26T05:26:17Z",
-  "last_activity_at": "2026-10-27T12:38:15Z",
+  "last_activity_at": "2026-10-27T13:17:11Z",
   "progress": {
    "pools": 21,
-   "covered_units": 198,
+   "covered_units": 200,
    "total_units": 1218,
    "pct": 16
   },
-  "families_covered": 24,
+  "families_covered": 26,
   "families_total": 58
  },
  "counts": {
   "filed": 6,
   "parked": 34,
-  "rejected": 505,
-  "evaluated": 546
+  "rejected": 514,
+  "evaluated": 556
  },
  "today": {
   "date": "2026-10-27",
-  "evaluated": 55,
+  "evaluated": 65,
   "filed": 1,
   "parked": 2,
-  "rejected": 52,
+  "rejected": 61,
   "filed_by_source": {
    "LinkedIn": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 24,
+   "phase": "filing",
+   "families_searched": 26,
    "families_total": 58,
-   "current": null,
+   "current": {
+    "company": "Horizontal",
+    "role": "Technology Architect (Office of the CTO)"
+   },
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 24/58"
+   "heartbeat_at": "2026-10-27T13:18:15Z",
+   "detail": "Titles 26/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -290,15 +295,15 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "12 of 29 units done",
+   "detail": "13 of 29 units done",
    "started_at": "2026-10-26T05:26:17Z",
    "ended_at": null
   },
   "linkedin_filing": {
-   "state": "done",
-   "detail": "17 of 17 units done",
+   "state": "active",
+   "detail": "17 of 18 units done",
    "started_at": "2026-10-26T06:06:59Z",
-   "ended_at": "2026-10-27T10:49:03Z"
+   "ended_at": null
   },
   "sector_search": {
    "state": "done",
@@ -333,7 +338,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 24,
+  "searched": 26,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -355,8 +360,8 @@
    "Cloud Infrastructure Lead": "done",
    "Principal Technical Architect": "done",
    "Technology Strategy Architect": "done",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
    "Integration Architect": "done",
    "Data Center Architect": "done",
    "Digital Transformation Architect": "done",
@@ -551,7 +556,7 @@
    }
   ]
  },
- "note": "Last activity 7:38 AM CT · 0 workers in flight · 6 filed this run",
+ "note": "Last activity 8:17 AM CT · 1 workers in flight · 6 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -978,6 +983,69 @@
     "reason": "experience-mismatch — lead large-scale, technology-enabled revenue cycle transformation initiatives for leading healthcare organizations",
     "where": "LinkedIn",
     "time": "7:38 AM"
+   },
+   {
+    "company": "Pride Global",
+    "role": "Lead Application Architect, Quote-to-Cash (Q2C)",
+    "reason": "experience-mismatch — deep expertise in Salesforce CPQ, Revenue Cloud, and Quote-to-Cash (Q2C) processes",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Aya Healthcare",
+    "role": "Lead Application Architect, Workforce Technology",
+    "reason": "experience-mismatch — deep, specialized experience architecting solutions within the Workday ecosystem",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "DICK'S Sporting Goods",
+    "role": "IT Architecture Lead (Senior Manager, IT Architecture Lead - Technology Integration Management Office)",
+    "reason": "not-remote — Hybrid work environment in Coraopolis, PA",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "DICK'S Sporting Goods",
+    "role": "Manager, IT Architecture Lead - Technology Integration Management Office",
+    "reason": "not-remote — Hybrid arrangement in Coraopolis, PA",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Wabtec Corporation",
+    "role": "Lead IT Architect, Engineering Tools",
+    "reason": "not-remote — On-site in Fort Worth, TX",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Oscar Health",
+    "role": "Manager, Identity Governance & Compliance",
+    "reason": "hands-on — configuration, and optimization of the SailPoint IIQ platform",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Central Portfolio Control",
+    "role": "Manager, Identity & Access Management",
+    "reason": "pay-outside-band — $63,635/yr - $81,250/yr",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Insight Direct USA",
+    "role": "Senior Technology Architect – Modern Datacenter (Brownfield)",
+    "reason": "not-remote — Antwerp, Flemish Region, Belgium",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
+   },
+   {
+    "company": "Motion Recruitment",
+    "role": "Distinguished Architect, Enterprise Technology",
+    "reason": "stale — Posted February 13, 2026, with no repost or refresh label",
+    "where": "LinkedIn",
+    "time": "8:17 AM"
    }
   ]
  },
@@ -2119,5 +2187,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-10-27T13:16:23Z"
+ "lists_generated_at": "2026-10-27T13:18:15Z"
 }
