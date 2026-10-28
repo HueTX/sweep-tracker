@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T18:01:23Z",
+ "generated_at": "2026-10-28T18:03:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T18:01:22Z",
+  "last_activity_at": "2026-10-28T18:02:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 250,
+   "covered_units": 270,
    "total_units": 1218,
-   "pct": 21
+   "pct": 22
   },
   "families_covered": 30,
   "families_total": 58
@@ -28,20 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 227,
-  "evaluated": 231
+  "rejected": 238,
+  "evaluated": 242
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 229,
+  "evaluated": 240,
   "filed": 0,
   "parked": 4,
-  "rejected": 225,
+  "rejected": 236,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
+  "W4",
   "W5"
  ],
  "lanes": {
@@ -81,13 +81,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
-   "detail": "Employers 10/30"
+   "heartbeat_at": null,
+   "detail": "Employers 15/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -97,7 +97,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
+   "heartbeat_at": "2026-10-28T18:03:41Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -114,24 +114,24 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T18:03:41Z",
    "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 20,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": "2026-10-28T18:03:41Z",
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 612 units done",
+   "detail": "27 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:01 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 1:02 PM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 30/58",
-   "pool": "W5"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 30/58"
  },
  "rules": {
@@ -635,13 +635,6 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "12:04 PM"
-   },
-   {
-    "company": "Chevron",
-    "role": "Principal OT AI Solution Architect",
-    "reason": "stale — Relocation will not be considered.",
-    "where": "Employer sites",
-    "time": "12:37 PM"
    },
    {
     "company": "Wells Fargo",
@@ -1593,6 +1586,22 @@
     "reason": "stale — Defines, leads, and executes enterprise-scale cyber and operational resilience capabilities.",
     "where": "BuiltIn",
     "time": "12:57 PM"
+   },
+   {
+    "company": "Shell",
+    "role": "Senior Solution Architect",
+    "reason": "stale — , United Kingdom, Job Family Group:, Information Technology (IT), Worker Type:, Regular, Posting Start Date:, October 20, 2025",
+    "where": "BuiltIn",
+    "time": "1:01 PM"
+   }
+  ],
+  "SheCanCode": [
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — Shell in The United Kingdom; Benefit from flexible working hours, and the possibility of remote/mobile working.",
+    "where": "SheCanCode",
+    "time": "1:01 PM"
    }
   ],
   "anitab.org": [
@@ -1744,6 +1753,34 @@
     "reason": "stale — Published: 11/08/2024",
     "where": "USAJOBS",
     "time": "12:37 PM"
+   },
+   {
+    "company": "Office of Personnel Management",
+    "role": "Information Technology Specialist (ENTARCH) — Enterprise Architect, Platforms and Infrastructure / Products and Applications, GS-2210-15",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "USAJOBS",
+    "time": "1:02 PM"
+   },
+   {
+    "company": "Defense Contract Audit Agency",
+    "role": "Information Technology Specialist (Development and Analysis) Senior Solutions Architect",
+    "reason": "stale — Published: 10/09/2026; Designs and integrates secure, scalable enterprise applications using workflow/portfolio management platforms (such as ServiceNow), cloud native services, modern frameworks (such as C#/.NET, Node.js, Python, R), containers (Podman, Docker), and APIs.",
+    "where": "USAJOBS",
+    "time": "1:02 PM"
+   },
+   {
+    "company": "Federal Housing Finance Agency",
+    "role": "Lead Information Technology Specialist (ENTARCH)",
+    "reason": "stale — This is NOT a remote position; you MUST live within or be willing to relocate within a commutable distance of the Washington, DC duty location.; Published: 10/05/2026",
+    "where": "USAJOBS",
+    "time": "1:02 PM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "IT Specialist (Enterprise Architecture), PD12470A, VA Financial Services Center",
+    "reason": "stale — Telework: Not applicable, this is a remote position; Published: 11/08/2024; applicants must meet all requirements by the closing date of this announcement, 11/15/2024",
+    "where": "USAJOBS",
+    "time": "1:02 PM"
    }
   ],
   "HCA Careers": [
@@ -1827,6 +1864,15 @@
     "reason": "stale — You'll enjoy the flexibility to work remotely * from anywhere within the U.S. as you take on some tough challenges. Prefer CST time zone",
     "where": "UHG Careers",
     "time": "12:57 PM"
+   }
+  ],
+  "Chevron Careers": [
+   {
+    "company": "Chevron",
+    "role": "Principal OT AI Solution Architect",
+    "reason": "stale — Houston, Texas; Published: 2026-10-19",
+    "where": "Chevron Careers",
+    "time": "1:01 PM"
    }
   ],
   "FedEx Careers": [
@@ -2270,6 +2316,43 @@
     "role": "Prin IT Platform Architect",
     "reason": "not-remote — Note: This is a hybrid position (in-office with remote flexibility). Employees are required to be in office at least three days per week (Tuesday, Wednesday, and Thursday).",
     "where": "GrabJobs",
+    "time": "1:01 PM"
+   }
+  ],
+  "EnergyJobSearch": [
+   {
+    "company": "Chevron",
+    "role": "Data Architect - Data Lake & Data Engineering",
+    "reason": "closed — Job post no longer accepts applications",
+    "where": "EnergyJobSearch",
+    "time": "1:01 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Identity Architect",
+    "reason": "closed — This position is a hybrid of office/remote working; 10 months ago, Posted date",
+    "where": "EnergyJobSearch",
+    "time": "1:01 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead solution architect (Lead Architect - Tax)",
+    "reason": "closed — Job post no longer accepts applications; This position is a hybrid of office/remote working",
+    "where": "EnergyJobSearch",
+    "time": "1:01 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Enterprise Architect",
+    "reason": "closed — Job post no longer accepts applications; This position is a hybrid of office/remote working",
+    "where": "EnergyJobSearch",
+    "time": "1:01 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Senior solution architect (Technical Architect, Digital Workplace Integration)",
+    "reason": "closed — Job post no longer accepts applications; This position is a hybrid of office/remote working; a year ago, Posted date",
+    "where": "EnergyJobSearch",
     "time": "1:01 PM"
    }
   ]
@@ -3410,5 +3493,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T18:01:23Z"
+ "lists_generated_at": "2026-10-28T18:03:41Z"
 }
