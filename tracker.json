@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:56:44Z",
+ "generated_at": "2026-10-28T17:59:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,34 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:56:26Z",
+  "last_activity_at": "2026-10-28T17:57:20Z",
   "progress": {
    "pools": 21,
-   "covered_units": 220,
+   "covered_units": 240,
    "total_units": 1218,
-   "pct": 18
+   "pct": 20
   },
   "families_covered": 30,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
-  "rejected": 212,
-  "evaluated": 215
+  "parked": 4,
+  "rejected": 224,
+  "evaluated": 228
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 214,
+  "evaluated": 227,
   "filed": 0,
-  "parked": 3,
-  "rejected": 211,
+  "parked": 4,
+  "rejected": 223,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W1",
   "W2",
-  "W3",
-  "W4"
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,12 +82,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:59:09Z",
    "detail": "Employers 10/30"
   },
   "W2": {
@@ -97,51 +98,51 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:56:44Z",
+   "heartbeat_at": "2026-10-28T17:59:09Z",
    "detail": "Employers 10/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:56:44Z",
-   "detail": "Employers 10/73"
+   "heartbeat_at": null,
+   "detail": "Employers 15/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:56:44Z",
-   "detail": "Employers 5/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T17:59:09Z",
    "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:59:09Z",
    "detail": "Employers 10/44"
   },
   "W9": {
@@ -304,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "22 of 612 units done",
+   "detail": "24 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +544,18 @@
    }
   ]
  },
- "note": "Last activity 12:56 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 12:57 PM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
+   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 30/58",
-   "pool": "W3"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
+  "label": "W5",
+  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 30/58"
  },
  "rules": {
@@ -602,6 +603,15 @@
     "where": "Simplify",
     "time": "12:52 PM"
    }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "Providence",
+    "role": "Principal Cloud Engineer PHP – Remote",
+    "reason": "not-evaluated — This is a remote role. We are currently unable to hire in the following states: CO, NY, PA, OH, HI and MA.",
+    "where": "DiversityJobs",
+    "time": "12:57 PM"
+   }
   ]
  },
  "today_rejected": {
@@ -633,13 +643,6 @@
     "reason": "stale — Relocation will not be considered.",
     "where": "Employer sites",
     "time": "12:37 PM"
-   },
-   {
-    "company": "Centene",
-    "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — Knowledge of Cloud Computing (AWS/Azure); Cloud Security; DevSecOps; Agile; Infrastructure as Code",
-    "where": "Employer sites",
-    "time": "12:24 PM"
    },
    {
     "company": "Duke Energy",
@@ -1062,23 +1065,9 @@
     "time": "12:24 PM"
    },
    {
-    "company": "Centene",
-    "role": "Lead Technology Enterprise Architect",
-    "reason": "stale — Lead Technology Enterprise Architect at Centene proactively and holistically guides enterprise leaders",
-    "where": "Employer sites",
-    "time": "12:24 PM"
-   },
-   {
     "company": "UnitedHealth Group",
     "role": "AI Solution Architect - Remote",
     "reason": "hands-on — Write high-quality, production-grade code in languages such as Python, Java, Scala, or TypeScript",
-    "where": "Employer sites",
-    "time": "12:25 PM"
-   },
-   {
-    "company": "CVS Health / Aetna",
-    "role": "Principal AI Architect",
-    "reason": "cloud-scope — Own the Aetna Technology AI reference architectures — model serving, multi-model orchestration, retrieval, and evaluation — across AWS-primary and multicloud infrastructure.",
     "where": "Employer sites",
     "time": "12:25 PM"
    },
@@ -1409,220 +1398,21 @@
     "time": "12:56 PM"
    }
   ],
-  "anitab.org": [
-   {
-    "company": "Microsoft",
-    "role": "Cloud Solution Architect - Cloud & AI",
-    "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
-    "where": "anitab.org",
-    "time": "12:47 PM"
-   },
-   {
-    "company": "Google",
-    "role": "Customer Engineer, Google Cloud",
-    "reason": "not-remote — The US base salary range for this full-time position is $165,000-$245,000",
-    "where": "anitab.org",
-    "time": "12:47 PM"
-   }
-  ],
-  "USAJOBS": [
-   {
-    "company": "Railroad Retirement Board",
-    "role": "Azure Architect",
-    "reason": "not-remote — All candidates are expected to reside within 50 miles of the closest field office location listed in this job announcement.",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "Defense Counterintelligence and Security Agency",
-    "role": "Computer Scientist (Enterprise Architect)",
-    "reason": "stale — Published: 08/24/2026",
-    "where": "USAJOBS",
-    "time": "9:58 AM"
-   },
-   {
-    "company": "Department of Veterans Affairs",
-    "role": "Information Technology Specialist (Enterprise Architecture)",
-    "reason": "stale — Published: 08/18/2025",
-    "where": "USAJOBS",
-    "time": "9:58 AM"
-   },
-   {
-    "company": "Department of Veterans Affairs",
-    "role": "Information Technology Specialist",
-    "reason": "stale — Virtual: This is NOT a virtual position.",
-    "where": "USAJOBS",
-    "time": "9:58 AM"
-   },
-   {
-    "company": "Department of Health and Human Services, Office of Inspector General",
-    "role": "IT Specialist (INFOSEC)",
-    "reason": "not-remote — This is not a remote position.",
-    "where": "USAJOBS",
-    "time": "10:43 AM"
-   },
-   {
-    "company": "Department of Veterans Affairs",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — This is not a remote position.",
-    "where": "USAJOBS",
-    "time": "10:43 AM"
-   },
-   {
-    "company": "Department of Homeland Security, U.S. Citizenship and Immigration Services",
-    "role": "IT Specialist (APPSW)",
-    "reason": "not-remote — Telework eligible: Yes—as determined by the agency policy.",
-    "where": "USAJOBS",
-    "time": "10:43 AM"
-   },
-   {
-    "company": "Department of Veterans Affairs",
-    "role": "Supervisory Information Technology Cybersecurity Specialist",
-    "reason": "not-remote — This is not a remote position.",
-    "where": "USAJOBS",
-    "time": "10:43 AM"
-   },
-   {
-    "company": "Office of Personnel Management",
-    "role": "IT Specialist (ENTARCH)",
-    "reason": "not-remote — You will be required to report to an OPM assigned office.",
-    "where": "USAJOBS",
-    "time": "10:46 AM"
-   },
-   {
-    "company": "Department of Health and Human Services, Centers for Medicare & Medicaid Services",
-    "role": "Solution Platform Architect",
-    "reason": "stale — Published: 02/05/2026",
-    "where": "USAJOBS",
-    "time": "10:46 AM"
-   },
-   {
-    "company": "Office of Personnel Management",
-    "role": "IT Specialist (ENTARCH) - Enterprise Architect",
-    "reason": "not-remote — You will be required to report to an OPM assigned office.",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "HHS / CMS",
-    "role": "Solution Platform Architect",
-    "reason": "stale — Published: 02/05/2026",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "DCAA",
-    "role": "Information Technology Specialist (Development and Analysis) Senior Solutions Architect",
-    "reason": "hands-on — Designs and integrates secure, scalable enterprise applications using workflow/portfolio management platforms (such as ServiceNow), cloud native services, modern frameworks (such as C#/.NET, Node.js, Python, R), containers (Podman, Docker), and APIs.",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "DLA",
-    "role": "Artificial Intelligence (AI) Solutions Architect / IT Specialist",
-    "reason": "clearance — Security Requirements: Non Critical Sensitive with Secret Access",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "DISA",
-    "role": "IT Specialist (Policy and Planning)",
-    "reason": "not-remote — Situational Telework Only, including Emergency and OPM Prescribed Unscheduled Telework.",
-    "where": "USAJOBS",
-    "time": "12:04 PM"
-   },
-   {
-    "company": "HHS / CMS",
-    "role": "IT Specialist (Cloud Platform Engineer), GS-2210-14",
-    "reason": "hands-on — Designing and managing hybrid and multi-cloud environments across Azure, AWS, GCP, and Oracle using Infrastructure-as-Code (IaC) tools like Terraform and CloudFormation.",
-    "where": "USAJOBS",
-    "time": "12:37 PM"
-   },
-   {
-    "company": "HHS / CMS",
-    "role": "Solution Platform Architect, GS-2210-15",
-    "reason": "stale — Published: 07/31/2026",
-    "where": "USAJOBS",
-    "time": "12:37 PM"
-   },
-   {
-    "company": "HHS / CMS",
-    "role": "IT Specialist (INTERNET), GS-2210-13",
-    "reason": "cloud-scope — Serves as technical authority for CMS's Internet-based systems, setting cloud-native standards and guiding architecture decisions on AWS, containers, microservices, and APIs",
-    "where": "USAJOBS",
-    "time": "12:37 PM"
-   },
-   {
-    "company": "VA",
-    "role": "IT Specialist (Enterprise Architecture)",
-    "reason": "stale — Published: 11/08/2024",
-    "where": "USAJOBS",
-    "time": "12:37 PM"
-   }
-  ],
-  "HCA Careers": [
-   {
-    "company": "HCA Healthcare",
-    "role": "Consulting Application Architect",
-    "reason": "closed — This job posting is no longer active.; 7 or more years of .net architecture, design and coding experience",
-    "where": "HCA Careers",
-    "time": "12:56 PM"
-   }
-  ],
-  "Dice": [
-   {
-    "company": "Providence",
-    "role": "Principal IS Architect PHP, Healthcare Technology Solutions, Virtual",
-    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California",
-    "where": "Dice",
-    "time": "12:56 PM"
-   },
-   {
-    "company": "CommonSpirit Health",
-    "role": "Principal IT Solutions Architect",
-    "reason": "stale — Remote eligible.",
-    "where": "Dice",
-    "time": "12:24 PM"
-   },
-   {
-    "company": "Ascension",
-    "role": "Cloud Strategist / Architect",
-    "reason": "stale — Location: Remote",
-    "where": "Dice",
-    "time": "12:24 PM"
-   },
-   {
-    "company": "SAIC",
-    "role": "Cybersecurity Specialist / Cloud Engineer",
-    "reason": "pay-outside-band — Target salary range: $80,001 - $120,000.",
-    "where": "Dice",
-    "time": "12:37 PM"
-   },
-   {
-    "company": "Microsoft",
-    "role": "Cloud Solution Architect - Azure Platform (Infrastructure & Resiliency)",
-    "reason": "stale — Dice/Career.io pages carry 278-286-day-old crawls with no verifiable current 7-day posting date; pay $106,400-$203,600",
-    "where": "Dice",
-    "time": "12:47 PM"
-   },
-   {
-    "company": "CommonSpirit Health",
-    "role": "Principal IT Solutions Architect (Consumer Experience & Clinical Enablement)",
-    "reason": "stale — Engineering Excellence Driver: Drive best-in-class software engineering practices across teams, including CI/CD, automated testing, observability, and modern DevSecOps pipelines.; crawl 259 days old",
-    "where": "Dice",
-    "time": "12:56 PM"
-   }
-  ],
-  "FedEx Careers": [
-   {
-    "company": "FedEx",
-    "role": "Solutions Architect III - Commercial",
-    "reason": "stale — Candidates within 50 miles of a FedEx campus may be required to work onsite several times per week",
-    "where": "FedEx Careers",
-    "time": "12:52 PM"
-   }
-  ],
   "BuiltIn": [
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal Architect – Remote",
+    "reason": "stale — salary for this role will range from $134,600 - $230,800 annually based on full-time employment",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — Pay Range: $143,100.00 - $264,300.00 per year",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
+   },
    {
     "company": "Citigroup",
     "role": "Cloud Architect - Vice President",
@@ -1636,6 +1426,13 @@
     "reason": "stale — Published: 2025-05-06",
     "where": "BuiltIn",
     "time": "12:51 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Lead Technology Enterprise Architect",
+    "reason": "stale — Develop the technology strategy and enterprise architecture for the organization as a whole.",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
    },
    {
     "company": "UPS",
@@ -1804,6 +1601,270 @@
     "reason": "stale — Published: 2025-05-03; Installs and configures various operating systems and infrastructure components, such as networks, storage, data protection",
     "where": "BuiltIn",
     "time": "12:56 PM"
+   },
+   {
+    "company": "Elevance Health",
+    "role": "Principal Cloud Engineer – AI/ML",
+    "reason": "stale — This role requires associates to be in-office 1 - 2 days per week; A substantial portion of the role is hands-on build and production ownership.",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal Cloud Platform Architect - Remote",
+    "reason": "stale — lead the design, development, and optimization of our AI first healthcare cloud platform in Google",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Senior Disaster Recovery Architect - Cyber Resiliency",
+    "reason": "stale — Defines, leads, and executes enterprise-scale cyber and operational resilience capabilities.",
+    "where": "BuiltIn",
+    "time": "12:57 PM"
+   }
+  ],
+  "anitab.org": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Cloud & AI",
+    "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
+    "where": "anitab.org",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Google",
+    "role": "Customer Engineer, Google Cloud",
+    "reason": "not-remote — The US base salary range for this full-time position is $165,000-$245,000",
+    "where": "anitab.org",
+    "time": "12:47 PM"
+   }
+  ],
+  "USAJOBS": [
+   {
+    "company": "Railroad Retirement Board",
+    "role": "Azure Architect",
+    "reason": "not-remote — All candidates are expected to reside within 50 miles of the closest field office location listed in this job announcement.",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "Defense Counterintelligence and Security Agency",
+    "role": "Computer Scientist (Enterprise Architect)",
+    "reason": "stale — Published: 08/24/2026",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Information Technology Specialist (Enterprise Architecture)",
+    "reason": "stale — Published: 08/18/2025",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Information Technology Specialist",
+    "reason": "stale — Virtual: This is NOT a virtual position.",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "Department of Health and Human Services, Office of Inspector General",
+    "role": "IT Specialist (INFOSEC)",
+    "reason": "not-remote — This is not a remote position.",
+    "where": "USAJOBS",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This is not a remote position.",
+    "where": "USAJOBS",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Department of Homeland Security, U.S. Citizenship and Immigration Services",
+    "role": "IT Specialist (APPSW)",
+    "reason": "not-remote — Telework eligible: Yes—as determined by the agency policy.",
+    "where": "USAJOBS",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Supervisory Information Technology Cybersecurity Specialist",
+    "reason": "not-remote — This is not a remote position.",
+    "where": "USAJOBS",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Office of Personnel Management",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "USAJOBS",
+    "time": "10:46 AM"
+   },
+   {
+    "company": "Department of Health and Human Services, Centers for Medicare & Medicaid Services",
+    "role": "Solution Platform Architect",
+    "reason": "stale — Published: 02/05/2026",
+    "where": "USAJOBS",
+    "time": "10:46 AM"
+   },
+   {
+    "company": "Office of Personnel Management",
+    "role": "IT Specialist (ENTARCH) - Enterprise Architect",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "Solution Platform Architect",
+    "reason": "stale — Published: 02/05/2026",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "DCAA",
+    "role": "Information Technology Specialist (Development and Analysis) Senior Solutions Architect",
+    "reason": "hands-on — Designs and integrates secure, scalable enterprise applications using workflow/portfolio management platforms (such as ServiceNow), cloud native services, modern frameworks (such as C#/.NET, Node.js, Python, R), containers (Podman, Docker), and APIs.",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "DLA",
+    "role": "Artificial Intelligence (AI) Solutions Architect / IT Specialist",
+    "reason": "clearance — Security Requirements: Non Critical Sensitive with Secret Access",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "DISA",
+    "role": "IT Specialist (Policy and Planning)",
+    "reason": "not-remote — Situational Telework Only, including Emergency and OPM Prescribed Unscheduled Telework.",
+    "where": "USAJOBS",
+    "time": "12:04 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (Cloud Platform Engineer), GS-2210-14",
+    "reason": "hands-on — Designing and managing hybrid and multi-cloud environments across Azure, AWS, GCP, and Oracle using Infrastructure-as-Code (IaC) tools like Terraform and CloudFormation.",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "Solution Platform Architect, GS-2210-15",
+    "reason": "stale — Published: 07/31/2026",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (INTERNET), GS-2210-13",
+    "reason": "cloud-scope — Serves as technical authority for CMS's Internet-based systems, setting cloud-native standards and guiding architecture decisions on AWS, containers, microservices, and APIs",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "VA",
+    "role": "IT Specialist (Enterprise Architecture)",
+    "reason": "stale — Published: 11/08/2024",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   }
+  ],
+  "HCA Careers": [
+   {
+    "company": "HCA Healthcare",
+    "role": "Consulting Application Architect",
+    "reason": "closed — This job posting is no longer active.; 7 or more years of .net architecture, design and coding experience",
+    "where": "HCA Careers",
+    "time": "12:56 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Sr Cloud Infrastructure Engineer",
+    "reason": "closed — This job posting is no longer active.",
+    "where": "HCA Careers",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Senior Staff Cloud Engineer",
+    "reason": "closed — This job posting is no longer active.",
+    "where": "HCA Careers",
+    "time": "12:57 PM"
+   }
+  ],
+  "Dice": [
+   {
+    "company": "Providence",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions, Virtual",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California",
+    "where": "Dice",
+    "time": "12:56 PM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "Principal IT Solutions Architect",
+    "reason": "stale — Remote eligible.",
+    "where": "Dice",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Cloud Strategist / Architect",
+    "reason": "stale — Location: Remote",
+    "where": "Dice",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Cybersecurity Specialist / Cloud Engineer",
+    "reason": "pay-outside-band — Target salary range: $80,001 - $120,000.",
+    "where": "Dice",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Azure Platform (Infrastructure & Resiliency)",
+    "reason": "stale — Dice/Career.io pages carry 278-286-day-old crawls with no verifiable current 7-day posting date; pay $106,400-$203,600",
+    "where": "Dice",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "Principal IT Solutions Architect (Consumer Experience & Clinical Enablement)",
+    "reason": "stale — Engineering Excellence Driver: Drive best-in-class software engineering practices across teams, including CI/CD, automated testing, observability, and modern DevSecOps pipelines.; crawl 259 days old",
+    "where": "Dice",
+    "time": "12:56 PM"
+   }
+  ],
+  "UHG Careers": [
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Enterprise Data Warehouse (EDW) Architect - OI State Government Solutions - Remote",
+    "reason": "stale — The Senior Application & Technical Architect will provide hands-on architecture and engineering leadership for enterprise data warehousing",
+    "where": "UHG Careers",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Lead Architect, Informatica MDM (Master Data Management)- OI Government State Solutions - Remote",
+    "reason": "stale — You'll enjoy the flexibility to work remotely * from anywhere within the U.S. as you take on some tough challenges. Prefer CST time zone",
+    "where": "UHG Careers",
+    "time": "12:57 PM"
+   }
+  ],
+  "FedEx Careers": [
+   {
+    "company": "FedEx",
+    "role": "Solutions Architect III - Commercial",
+    "reason": "stale — Candidates within 50 miles of a FedEx campus may be required to work onsite several times per week",
+    "where": "FedEx Careers",
+    "time": "12:52 PM"
    }
   ],
   "LinkedIn": [
@@ -1979,6 +2040,15 @@
     "time": "12:13 PM"
    }
   ],
+  "DailyRemote": [
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal AI Architect",
+    "reason": "stale — Own the Aetna Technology AI reference architectures — model serving, multi-model orchestration, retrieval, and evaluation — across AWS-primary and multicloud infrastructure.; The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "DailyRemote",
+    "time": "12:57 PM"
+   }
+  ],
   "Simplify": [
    {
     "company": "GXO Logistics",
@@ -2141,6 +2211,13 @@
     "reason": "stale — This position will be domiciled at a FedEx Freight location in Memphis, TN/Harrison, AR/Chicago, IL/Tampa, FL/Colorado Springs, CO. You will be required to work at a FedEx Freight location several times per week",
     "where": "DiversityJobs",
     "time": "12:52 PM"
+   },
+   {
+    "company": "Providence",
+    "role": "Business Resiliency Strategy Lead – Hybrid",
+    "reason": "not-remote — Workplace Type: Hybrid",
+    "where": "DiversityJobs",
+    "time": "12:57 PM"
    }
   ],
   "Monster": [
@@ -2150,6 +2227,29 @@
     "reason": "stale — Salary: $121,264.00 - $169,035.00 per year; Location: Remote; posted 30+ days ago at 341-day-old crawl",
     "where": "Monster",
     "time": "12:56 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Domain Architect",
+    "reason": "stale — Strong Experience in cloud native, deploying within cloud environments, serverless development and/or container-based solutions required; crawls 265-297 days ago",
+    "where": "Monster",
+    "time": "12:57 PM"
+   }
+  ],
+  "Ladders": [
+   {
+    "company": "CVS Health",
+    "role": "Principal Engineer, Data Platforms (Architecture & Ingestion)",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "Ladders",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "The Cigna Group",
+    "role": "Principal Architect - PBM Modernization & AI Engineering",
+    "reason": "stale — Flexible work environment with occasional remote work opportunities.",
+    "where": "Ladders",
+    "time": "12:57 PM"
    }
   ]
  },
@@ -3289,5 +3389,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:56:44Z"
+ "lists_generated_at": "2026-10-28T17:59:09Z"
 }
