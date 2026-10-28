@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T22:09:42Z",
+ "generated_at": "2026-10-28T22:11:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T22:03:35Z",
+  "last_activity_at": "2026-10-28T22:10:02Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 464,
-  "evaluated": 469
+  "rejected": 470,
+  "evaluated": 475
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 465,
+  "evaluated": 471,
   "filed": 0,
   "parked": 5,
-  "rejected": 460,
+  "rejected": 466,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -125,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 50/44"
+   "heartbeat_at": null,
+   "detail": "Employers 55/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 50/44"
+   "heartbeat_at": null,
+   "detail": "Employers 55/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 45/54"
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "115 of 612 units done",
+   "detail": "118 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 5:03 PM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 5:10 PM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
