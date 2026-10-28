@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:40:29Z",
+ "generated_at": "2026-10-28T17:43:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-28T17:39:22Z",
@@ -39,7 +39,11 @@
   "rejected": 158,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W16",
+  "W17",
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -220,34 +224,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:43:03Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:43:03Z",
    "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:43:03Z",
    "detail": "Employers 5/45"
   },
   "W19": {
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 12:39 PM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 12:39 PM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 20/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 20/58"
  },
  "rules": {
   "follow_all": false,
@@ -2840,5 +2850,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:40:29Z"
+ "lists_generated_at": "2026-10-28T17:43:03Z"
 }
