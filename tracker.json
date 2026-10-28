@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:46:59Z",
+ "generated_at": "2026-10-28T17:49:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,33 +15,34 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:46:08Z",
+  "last_activity_at": "2026-10-28T17:47:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 170,
+   "covered_units": 190,
    "total_units": 1218,
-   "pct": 14
+   "pct": 16
   },
   "families_covered": 20,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 171,
-  "evaluated": 171
+  "parked": 1,
+  "rejected": 191,
+  "evaluated": 192
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 170,
+  "evaluated": 191,
   "filed": 0,
-  "parked": 0,
-  "rejected": 170,
+  "parked": 1,
+  "rejected": 190,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17",
-  "W18"
+  "W2",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -91,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:49:31Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -234,45 +235,45 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:46:59Z",
-   "detail": "Employers 5/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:46:59Z",
-   "detail": "Employers 5/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "queued",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 5/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "queued",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T17:49:31Z",
+   "detail": "Employers 5/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T17:49:31Z",
    "detail": "Employers 10/31"
   }
  },
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "17 of 612 units done",
+   "detail": "19 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 12:46 PM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 12:47 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W17 · Title 11 of 58 · Domain Architect",
+   "primary": "W19 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 20/58",
-   "pool": "W17"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 11 of 58 · Domain Architect",
+  "label": "W19",
+  "headline": "W19 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 20/58"
  },
  "rules": {
@@ -574,7 +575,17 @@
  "date": "2026-10-28",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
+ "today_parked": {
+  "anitab.org": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect and Senior Cloud Solution Architect - Data and AI (Multiple Openings)",
+    "reason": "not-evaluated — This role is flexible in that you can work up to 100% from home.",
+    "where": "anitab.org",
+    "time": "12:47 PM"
+   }
+  ]
+ },
  "today_rejected": {
   "Employer sites": [
    {
@@ -646,13 +657,6 @@
     "reason": "not-remote — Position will require onsite presence at one of the required locations listed below in a hybrid work schedule",
     "where": "Employer sites",
     "time": "12:05 PM"
-   },
-   {
-    "company": "Microsoft",
-    "role": "Cloud Solution Architect - Microsoft Cloud and Citrix Technologies",
-    "reason": "stale — This role is flexible in that you can work up to 100% from home.",
-    "where": "Employer sites",
-    "time": "12:04 PM"
    },
    {
     "company": "Microsoft",
@@ -1404,6 +1408,22 @@
     "time": "12:39 PM"
    }
   ],
+  "anitab.org": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Cloud & AI",
+    "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
+    "where": "anitab.org",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Google",
+    "role": "Customer Engineer, Google Cloud",
+    "reason": "not-remote — The US base salary range for this full-time position is $165,000-$245,000",
+    "where": "anitab.org",
+    "time": "12:47 PM"
+   }
+  ],
   "USAJOBS": [
    {
     "company": "Railroad Retirement Board",
@@ -1623,6 +1643,62 @@
     "reason": "stale — Develop secure and high-quality production code, perform code reviews and debug issues; Proficiency with programming languages like Golang/Python",
     "where": "BuiltIn",
     "time": "12:46 PM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Senior Cloud Solution Architect, Cloud & AI Business Solutions",
+    "reason": "stale — This role is flexible in that you can work up to 100% from home.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "GE Aerospace",
+    "role": "Staff Infrastructure Architect",
+    "reason": "stale — This is a hands-on role.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "GE Aerospace",
+    "role": "Principal Enterprise Architect (Oracle Cloud Principal Architect)",
+    "reason": "stale — The base pay range for this position is $150,800- $251,300.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Solutions Architect",
+    "reason": "stale — This role demands a deep understanding of cloud technologies, particularly Amazon Web Services (AWS); Summary pay range for Level 6: $174,250 - $293,750",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Solution Architect (Cloud & Development Platforms)",
+    "reason": "stale — currently seeking a Senior Cloud Solution Architect to join the team in Seattle, WA; Berkeley, MO; North Charleston, SC; Plano, TX; Ridley Park, PA; Chicago, IL; or Seal Beach, CA.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Architect (Englewood, CO)",
+    "reason": "stale — This position is hybrid. The selected candidate will be required to perform some work onsite at one of the listed location options.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Cloud Architect (Senior) — BDS Experimental Systems Group",
+    "reason": "not-remote — This position is expected to be fully onsite in either Seal Beach, CA; Aurora, CO; Colorado Springs, CO; El Segundo, CA; Herndon, CA; or Leesburg, VA.",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Solution Architect (Aurora / Colorado Springs — classified ground systems)",
+    "reason": "clearance — Active Top Secret/SCI clearance with SAP eligibility; This position requires an active U.S. Top Secret/SCI Security Clearance",
+    "where": "BuiltIn",
+    "time": "12:47 PM"
    }
   ],
   "LinkedIn": [
@@ -1727,6 +1803,15 @@
     "time": "11:50 AM"
    }
   ],
+  "eWorker": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Microsoft Cloud and Citrix Technologies",
+    "reason": "stale — This role is flexible in that you can work up to 100% from home.",
+    "where": "eWorker",
+    "time": "12:47 PM"
+   }
+  ],
   "GovernmentJobs.com": [
    {
     "company": "City of San Antonio",
@@ -1796,6 +1881,88 @@
     "reason": "pay-outside-band — Target salary range: $80,001 - $120,000.",
     "where": "Dice",
     "time": "12:37 PM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Azure Platform (Infrastructure & Resiliency)",
+    "reason": "stale — Dice/Career.io pages carry 278-286-day-old crawls with no verifiable current 7-day posting date; pay $106,400-$203,600",
+    "where": "Dice",
+    "time": "12:47 PM"
+   }
+  ],
+  "Out for Undergrad board": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect (Cloud Accelerate Factory)",
+    "reason": "stale — We are looking to hire a hands-on Cloud Solution Architect (CSA)",
+    "where": "Out for Undergrad board",
+    "time": "12:47 PM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "Microsoft",
+    "role": "Chief Cloud and AI Architect - Sales Organization",
+    "reason": "not-remote — Hybrid Flexible work arrangement allows for up to 50% remote work.",
+    "where": "Simplify",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "GE Aerospace",
+    "role": "Executive-Network Architecture",
+    "reason": "stale — Full-Time Posted on 6/10/2025",
+    "where": "Simplify",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Solution Architect (Hazelwood, MO / Fairfax, VA — Classified Cloud)",
+    "reason": "not-remote — currently seeking a Senior Cloud Solution Architect to join the team in Hazelwood, MO or Fairfax, VA.",
+    "where": "Simplify",
+    "time": "12:47 PM"
+   },
+   {
+    "company": "Northrop Grumman",
+    "role": "Cloud Engineer / Principal Cloud Engineer - AHT",
+    "reason": "stale — U.S. citizenship with an active TS/SCI clearance; You will be primarily focused on supporting a production environment on site at NASIC/WPAFB",
+    "where": "Simplify",
+    "time": "12:47 PM"
+   }
+  ],
+  "Indeed": [
+   {
+    "company": "Google",
+    "role": "Cloud Infrastructure and Operations Lead, Google Cloud",
+    "reason": "not-remote — By applying to this position you will have an opportunity to share your preferred working location from the following: Sunnyvale, CA, USA; Chicago, IL, USA; Kirkland, WA, USA; Los Angeles, CA, USA; New York, NY, USA; Seattle, WA, USA; San Francisco, CA, USA",
+    "where": "Indeed",
+    "time": "12:47 PM"
+   }
+  ],
+  "Jobright": [
+   {
+    "company": "Amazon Web Services",
+    "role": "Principal Solutions Architect, Strategic Accounts",
+    "reason": "aws-first — Own and drive technical strategy for a global technology customer, influencing their long-term business and technology decisions by demonstrating how adopting new technological capabilities can impact their business outcomes",
+    "where": "Jobright",
+    "time": "12:47 PM"
+   }
+  ],
+  "Career.io": [
+   {
+    "company": "Apple",
+    "role": "Multi-Cloud Solutions Architect: Cloud Strategy & Security",
+    "reason": "pay-outside-band — The base pay range for this role is between $181,100 and $318,400",
+    "where": "Career.io",
+    "time": "12:47 PM"
+   }
+  ],
+  "FreeHire": [
+   {
+    "company": "GE Aerospace",
+    "role": "Sr Staff Data Fabric Architect - Customer",
+    "reason": "stale — This posting is expected to close on October 13th, 2026.",
+    "where": "FreeHire",
+    "time": "12:47 PM"
    }
   ]
  },
@@ -2935,5 +3102,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:46:59Z"
+ "lists_generated_at": "2026-10-28T17:49:31Z"
 }
