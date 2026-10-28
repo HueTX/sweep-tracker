@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T15:01:09Z",
+ "generated_at": "2026-10-28T15:02:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "df90e628",
   "kind": "scheduled",
-  "status": "running",
-  "state": "active",
+  "status": "stopped",
+  "state": "halted",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T14:54:27Z",
   "last_activity_at": "2026-10-28T14:59:51Z",
@@ -77,7 +77,7 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
@@ -88,7 +88,7 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -99,7 +99,7 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -110,7 +110,7 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -121,7 +121,7 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -132,7 +132,7 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -220,7 +220,7 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -231,7 +231,7 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -242,7 +242,7 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -253,7 +253,7 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -264,7 +264,7 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "stopped",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -281,7 +281,7 @@
    "ended_at": "2026-10-28T14:54:27Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 1 units done",
    "started_at": "2026-10-28T14:54:27Z",
    "ended_at": null
@@ -299,7 +299,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
+   "state": "stopped",
    "detail": "1 of 102 units done",
    "started_at": "2026-10-28T14:54:27Z",
    "ended_at": null
@@ -409,9 +409,14 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "chat-stop-20261028-coveragefix",
+    "actuated_at": "2026-10-28T15:02:45Z",
+    "effect": "sweep stop"
+   },
    {
     "id": "chat-start-20261028-employerlanes",
     "actuated_at": "2026-10-28T14:54:27Z",
@@ -531,21 +536,22 @@
     "id": "chat-title-add-20261024-03",
     "actuated_at": "2026-10-24T20:36:43Z",
     "effect": "title added: Enterprise Infrastructure Architect"
-   },
-   {
-    "id": "chat-title-add-20261024-04",
-    "actuated_at": "2026-10-24T20:36:43Z",
-    "effect": "title added: Enterprise Data Architect"
    }
   ]
  },
- "note": "Last activity 9:59 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 9:59 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "Sweep stopped — nothing is searching right now",
+   "detail": "Families covered 0/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep stopped — nothing is searching right now",
+  "detail": "Families covered 0/58"
  },
  "rules": {
   "follow_all": false,
@@ -1727,5 +1733,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T15:01:09Z"
+ "lists_generated_at": "2026-10-28T15:02:45Z"
 }
