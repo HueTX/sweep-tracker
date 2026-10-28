@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T21:34:37Z",
+ "generated_at": "2026-10-28T21:36:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -9,7 +9,7 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
@@ -39,7 +39,11 @@
   "rejected": 433,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T21:36:37Z",
    "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T21:36:37Z",
    "detail": "Employers 45/44"
   },
   "W9": {
@@ -231,12 +235,12 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T21:36:37Z",
    "detail": "Employers 40/54"
   },
   "W18": {
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 4:32 PM CT · 1 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 4:32 PM CT · 4 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W17"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W17",
+  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
