@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T16:17:24Z",
+ "generated_at": "2026-10-28T16:19:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T16:17:13Z",
+  "last_activity_at": "2026-10-28T16:18:12Z",
   "progress": {
    "pools": 21,
    "covered_units": 20,
@@ -28,18 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 17,
-  "evaluated": 17
+  "rejected": 18,
+  "evaluated": 18
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 20,
+  "evaluated": 21,
   "filed": 0,
   "parked": 0,
-  "rejected": 20,
+  "rejected": 21,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W4",
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,45 +104,45 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T16:19:53Z",
    "detail": "Employers 0/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T16:19:53Z",
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T16:19:53Z",
    "detail": "Employers 0/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T16:19:53Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -539,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 11:17 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 11:18 AM CT · 4 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W4 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 10/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 10/58"
  },
  "rules": {
   "follow_all": false,
@@ -567,6 +578,15 @@
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
+  "Employer sites (commonspirit.careers)": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "Solution Architect I",
+    "reason": "hands-on — This critical position demands a blend of hands-on Linux administration expertise—including advanced scripting, automation, and troubleshooting—within a high-performance computing (HPC) environment",
+    "where": "Employer sites (commonspirit.careers)",
+    "time": "11:18 AM"
+   }
+  ],
   "LinkedIn": [
    {
     "company": "TechTriad",
@@ -1862,5 +1882,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T16:17:24Z"
+ "lists_generated_at": "2026-10-28T16:19:53Z"
 }
