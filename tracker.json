@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T22:09:42Z",
+ "generated_at": "2026-10-28T22:11:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T22:03:35Z",
+  "last_activity_at": "2026-10-28T22:10:02Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 464,
-  "evaluated": 469
+  "rejected": 470,
+  "evaluated": 475
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 465,
+  "evaluated": 471,
   "filed": 0,
   "parked": 5,
-  "rejected": 460,
+  "rejected": 466,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -125,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 50/44"
+   "heartbeat_at": null,
+   "detail": "Employers 55/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 50/44"
+   "heartbeat_at": null,
+   "detail": "Employers 55/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T22:09:42Z",
-   "detail": "Employers 45/54"
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "115 of 612 units done",
+   "detail": "118 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 5:03 PM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 5:10 PM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -690,23 +680,23 @@
    {
     "company": "Halliburton",
     "role": "Cloud Domain Architect",
-    "reason": "closed — Job post no longer accepts applications",
-    "where": "",
-    "time": "3:39 PM"
+    "reason": "stale — Job post no longer accepts applications (closed posting, gate fact). Location: 3000 N. Sam Houston Parkway E., Houston, Texas, 77032, United States. Requisition Number: 206386.",
+    "where": "Employer sites",
+    "time": "5:10 PM"
    },
    {
     "company": "Marathon Petroleum",
     "role": "Senior Solution Architect, Midstream Operations",
-    "reason": "not-remote — Location: San Antonio, Texas",
-    "where": "",
-    "time": "3:39 PM"
+    "reason": "stale — Published: 2026-10-09 — before the 2026-10-21 eligibility cutoff (gate fact). Location: San Antonio, Texas; Job Requisition ID: 00024521; Pay Min/Max: $106,900.00 - $184,300.00 Salary (top in band, but stale governs).",
+    "where": "Employer sites",
+    "time": "5:10 PM"
    },
    {
     "company": "Baker Hughes",
     "role": "Cloud Enterprise Architect Remote and Drilling Performance Applications",
-    "reason": "stale — Published: 2024-09-07T03:34:38+00:00",
+    "reason": "stale — Published: 2024-09-07T03:34:38+00:00 — posted well before the 2026-10-21 eligibility cutoff (gate fact). JD also lists only 'Experience with AWS Deployments' and Houston, TX location with flexible-hours pattern only.",
     "where": "Employer sites",
-    "time": "2:31 PM"
+    "time": "5:10 PM"
    },
    {
     "company": "Highmark",
@@ -732,9 +722,16 @@
    {
     "company": "Phillips 66",
     "role": "Commercial IT Solution Architect",
-    "reason": "closed — Job post no longer accepts applications",
-    "where": "",
-    "time": "3:39 PM"
+    "reason": "stale — Job post no longer accepts applications (closed posting, gate fact); requisition closing date of 02/01/2026. Compensation Range: $176,400 - $215,600 annual base salary (top in band, but closed governs). Nearest Major Market: Houston.",
+    "where": "Employer sites",
+    "time": "5:10 PM"
+   },
+   {
+    "company": "NRG",
+    "role": "Cloud Technical Architect",
+    "reason": "stale — Published: 2024-10-21T15:43:47+00:00 (before 2026-10-21 eligibility window; gate fact, reject on sight). Also not-remote in same JD: 'Hybrid position. May consider remote.' Employment is with Airtron LLC (NRG subsidiary), Columbus, OH.",
+    "where": "Employer sites",
+    "time": "5:09 PM"
    },
    {
     "company": "Xcel Energy",
@@ -2338,6 +2335,41 @@
     "reason": "stale — Published: 2024-10-04T00:24:24+00:00 — posted before 2026-10-21 eligibility cutoff (gate fact). Walgreens is looking for a Principal Managing Architect to join the WBA Digital Team; Deerfield, IL.",
     "where": "Employer sites",
     "time": "5:03 PM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Brazil - Remote: Senior Software Solution Architect",
+    "reason": "stale — Published: 2026-10-14 — before the 2026-10-21 eligibility cutoff (gate fact). Location: Rio de Janeiro, Brazil. JD also hands-on: 'remain a hands-on contributor to development' and 'Actively contribute to development, maintaining high code quality and testing your own work before handoff to QA'.",
+    "where": "Employer sites",
+    "time": "5:10 PM"
+   },
+   {
+    "company": "Phillips 66",
+    "role": "Sr Advisor I, Cloud Development",
+    "reason": "hands-on — 'Advanced proficiency in at least two modern programming languages (e.g., C#, .NET, Java, Python)'; 'Design, build, and maintain full-stack applications that support Midstream'; 'Design and manage CI/CD pipelines for code deployment and integration'; '4 or more years of software development and/or DevOps experience' — whole role is hands-on software development, not architecture. Posting also shows 'Job post no longer accepts applications' (closing date 03/12/2026). workarounds tried: (1) employer's own ATS posting text (via employer-posting mirror) — same hands-on duties and closed banner; (2) alternate route — Phillips 66 roles re-searched across aggregator/BuiltIn surfaces in the grouped Marathon/Phillips queries, no alternate live route for this req; (3) alternate posting — no repost or alternate posting of Sr Advisor I, Cloud Development found in any Phillips 66 query.",
+    "where": "Employer sites",
+    "time": "5:10 PM"
+   },
+   {
+    "company": "Cisco",
+    "role": "Software Engineer Lead–Cloud Security & AI (Hybrid)",
+    "reason": "stale — Published: 2026-09-24 — posted before 2026-10-21 eligibility cutoff (gate fact, reject on sight). Also: 'This is a hybrid position requiring occasional presence onsite at Cisco’s RTP, NC or San Jose, CA office.' and 'Experience in Python development, building backend services and APIs'",
+    "where": "Employer sites",
+    "time": "5:10 PM"
+   },
+   {
+    "company": "Cisco",
+    "role": "Technical Leader (Remote)",
+    "reason": "stale — Published: 2026-09-10T15:56:44 — posted before 2026-10-21 eligibility cutoff (gate fact, reject on sight). Also: 'strong proficiency in programming languages such as Golang' and 'Architect and lead the development of high-throughput, fault-tolerant distributed systems'",
+    "where": "Employer sites",
+    "time": "5:10 PM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Strategic OCI & AI Infrastructure Lead",
+    "reason": "stale — Published: 2026-08-06T01:10:09.787Z — posted before 2026-10-21 eligibility cutoff (gate fact, reject on sight). Also: 'The Global AI Infrastructure & Strategic Pursuits organization owns all OCI sales globally' and 'Lead contract expansions and complex commercial negotiations'",
+    "where": "Employer sites",
+    "time": "5:10 PM"
    }
   ],
   "Employer sites (kaiserpermanentejobs.org)": [
@@ -5119,5 +5151,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T22:09:42Z"
+ "lists_generated_at": "2026-10-28T22:11:22Z"
 }
