@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T15:20:56Z",
+ "generated_at": "2026-10-28T15:23:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T15:07:40Z",
+  "last_activity_at": "2026-10-28T15:21:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 1,
+  "evaluated": 1
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 3,
+  "evaluated": 4,
   "filed": 0,
   "parked": 0,
-  "rejected": 3,
+  "rejected": 4,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -84,7 +84,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T15:20:56Z",
+   "heartbeat_at": "2026-10-28T15:23:04Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -283,10 +283,10 @@
    "ended_at": "2026-10-28T15:07:40Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": null
+   "ended_at": "2026-10-28T15:21:36Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -307,10 +307,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": null
+   "ended_at": "2026-10-28T15:21:17Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -541,7 +541,7 @@
    }
   ]
  },
- "note": "Run started 10:07 AM CT · 0 filed",
+ "note": "Last activity 10:21 AM CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W1 · Title 1 of 58 · Azure Architect",
@@ -575,6 +575,15 @@
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
+  "LinkedIn": [
+   {
+    "company": "TechTriad",
+    "role": "Azure Cloud Architecture / Team Lead",
+    "reason": "closed — No longer accepting applications",
+    "where": "LinkedIn",
+    "time": "10:21 AM"
+   }
+  ],
   "USAJOBS": [
    {
     "company": "Defense Counterintelligence and Security Agency",
@@ -1735,5 +1744,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T15:20:56Z"
+ "lists_generated_at": "2026-10-28T15:23:04Z"
 }
