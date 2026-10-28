@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T15:43:48Z",
+ "generated_at": "2026-10-28T15:46:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T15:43:34Z",
+  "last_activity_at": "2026-10-28T15:46:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -28,18 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 5,
-  "evaluated": 5
+  "rejected": 7,
+  "evaluated": 7
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 8,
+  "evaluated": 10,
   "filed": 0,
   "parked": 0,
-  "rejected": 8,
+  "rejected": 10,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W16",
+  "W17",
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -220,34 +224,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T15:46:16Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T15:46:16Z",
    "detail": "Employers 0/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T15:46:16Z",
    "detail": "Employers 0/45"
   },
   "W19": {
@@ -299,7 +303,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 10:43 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 10:46 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 0/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 0/58"
  },
  "rules": {
   "follow_all": false,
