@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T21:57:32Z",
+ "generated_at": "2026-10-28T21:59:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T21:56:56Z",
+  "last_activity_at": "2026-10-28T21:57:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 451,
-  "evaluated": 456
+  "rejected": 456,
+  "evaluated": 461
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 452,
+  "evaluated": 457,
   "filed": 0,
   "parked": 5,
-  "rejected": 447,
+  "rejected": 452,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W18"
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -80,13 +80,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T21:57:32Z",
-   "detail": "Employers 50/30"
+   "heartbeat_at": null,
+   "detail": "Employers 55/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -245,34 +245,34 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 55/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T21:57:32Z",
-   "detail": "Employers 50/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T21:59:59Z",
    "detail": "Employers 50/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T21:59:59Z",
    "detail": "Employers 55/31"
   }
  },
@@ -303,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "110 of 612 units done",
+   "detail": "112 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +542,18 @@
    }
   ]
  },
- "note": "Last activity 4:56 PM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 4:57 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W19",
+  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1669,9 +1669,9 @@
    {
     "company": "General Dynamics",
     "role": "Solutions Architect",
-    "reason": "hands-on-coding — 7+ years' experience in developing and managing complex enterprise-class web applications using Java",
+    "reason": "stale — Published: 2026-09-11",
     "where": "Employer sites",
-    "time": "2:23 PM"
+    "time": "4:57 PM"
    },
    {
     "company": "Caterpillar",
@@ -1824,13 +1824,6 @@
     "company": "DOJ / FBI",
     "role": "Senior Cloud Engineer",
     "reason": "stale — Familiarity of scripting solutions with Node.js (JavaScript), Python, Ruby, Java, Go, PowerShell, or similar.",
-    "where": "Employer sites",
-    "time": "2:35 PM"
-   },
-   {
-    "company": "GSA",
-    "role": "Cloud Engineer",
-    "reason": "stale — This position is located within GSA, Office of GSA IT, Washington, DC",
     "where": "Employer sites",
     "time": "2:35 PM"
    },
@@ -2260,6 +2253,34 @@
     "reason": "not-remote — Work arrangement Hybrid; Work Arrangement: Hybrid (Listed as Hybrid, although the role description notes \"U.S. Remote.\" Travel and customer requirements may determine onsite work.) Projected Maximum Salary per year 220,000.00. workarounds tried: (1) employer's own ATS posting - the IBM listing itself carries Work arrangement Hybrid; (2) alternate route to same req - FlexJobs mirror confirms Hybrid arrangement; (3) alternate posting of same role - no fully-remote alternate posting of this Confluent CSTA role found in the searches.",
     "where": "Employer sites",
     "time": "4:43 PM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Infrastructure Engineer",
+    "reason": "clearance — Clearance Level Must Currently Possess: Secret / Security clearance level: Active DoD Secret Required",
+    "where": "Employer sites",
+    "time": "4:57 PM"
+   },
+   {
+    "company": "Caterpillar",
+    "role": "Solutions Architect - AI & Procurement",
+    "reason": "stale — Published: 2026-08-01 / This position requires working onsite five days a week",
+    "where": "Employer sites",
+    "time": "4:57 PM"
+   },
+   {
+    "company": "Caterpillar",
+    "role": "AWS Cloud Engineer",
+    "reason": "stale — Published: 2026-02-13 / This position requires working onsite five days a week",
+    "where": "Employer sites",
+    "time": "4:57 PM"
+   },
+   {
+    "company": "Caterpillar",
+    "role": "Senior Warranty Transformation Consultant - Dealer Process",
+    "reason": "stale — Published: 2026-03-21 / This position requires working onsite five days a week",
+    "where": "Employer sites",
+    "time": "4:57 PM"
    }
   ],
   "Employer sites (kaiserpermanentejobs.org)": [
@@ -2797,13 +2818,6 @@
     "company": "DOJ / FBI",
     "role": "Information Technology Specialist (ENTARCH) (Technology Architect)",
     "reason": "stale — Published: 01/07/2025",
-    "where": "USAJobs",
-    "time": "3:21 PM"
-   },
-   {
-    "company": "Treasury / IRS",
-    "role": "Information Technology Specialist (DATAMGT)",
-    "reason": "stale — Published: 08/24/2026",
     "where": "USAJobs",
     "time": "3:21 PM"
    },
@@ -3570,9 +3584,23 @@
    {
     "company": "Treasury / IRS",
     "role": "IT Specialist 6 month Register-Direct Hire",
-    "reason": "stale — Published: 08/31/2026. Develops and implements new cloud concepts, security architectures, methodologies, standards, and operational procedures in IT security across cloud service providers (Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)). workarounds tried: (1) employer's own USAJobs announcement (governing text) — same stale register; (2) alternate USAJobs routes returned the same announcement; (3) no alternate fresh posting found.",
+    "reason": "stale — Develops and implements new cloud concepts, security architectures, methodologies, standards, and operational procedures in IT security across cloud service providers (Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP)). — Published: 08/31/2026 — posted before the 2026-10-21 eligibility cutoff (gate fact, reject on sight).",
     "where": "Employer sites (USAJOBS)",
-    "time": "3:54 PM"
+    "time": "4:57 PM"
+   },
+   {
+    "company": "GSA",
+    "role": "Cloud Engineer",
+    "reason": "stale — As a Cloud Engineer, you will serve as a Solutions Architect, providing secure and reliable solutions, implementing cloud-based technologies — Published: 08/12/2026 — posted before the 2026-10-21 eligibility cutoff (gate fact, reject on sight).",
+    "where": "Employer sites (USAJOBS)",
+    "time": "4:57 PM"
+   },
+   {
+    "company": "Treasury / IRS",
+    "role": "Information Technology Specialist (DATAMGT)",
+    "reason": "stale — Cloud Data Architecture Leadership: Leads the design and deployment of cloud-based data lake house and warehouse architectures, utilizing tools like Databricks — Published: 08/24/2026 — posted before the 2026-10-21 eligibility cutoff (gate fact, reject on sight).",
+    "where": "Employer sites (USAJOBS)",
+    "time": "4:57 PM"
    },
    {
     "company": "DOJ / Bureau of Prisons",
@@ -3636,6 +3664,13 @@
     "reason": "stale — Published: 09/25/2023. This position is 100% remote and can be filled anywhere in the U.S. workarounds tried: (1) employer's own USAJobs announcement (governing text) — same stale 2023 public notice; (2) alternate USAJobs routes returned the same notice; (3) no alternate fresh posting found.",
     "where": "Employer sites (USAJOBS)",
     "time": "3:54 PM"
+   },
+   {
+    "company": "DOT / Office of the Secretary",
+    "role": "Associate Chief Information Officer for Infrastructure, Cloud and Operations",
+    "reason": "stale — Published: 09/02/2026 — posted before the 2026-10-21 eligibility cutoff (gate fact, reject on sight). Also: 'A Secret clearance is required.'",
+    "where": "Employer sites (USAJOBS)",
+    "time": "4:57 PM"
    }
   ],
   "Dice / Employer sites": [
@@ -5027,5 +5062,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T21:57:32Z"
+ "lists_generated_at": "2026-10-28T21:59:59Z"
 }
