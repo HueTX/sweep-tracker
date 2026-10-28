@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:05:14Z",
+ "generated_at": "2026-10-28T17:12:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:04:46Z",
+  "last_activity_at": "2026-10-28T17:05:48Z",
   "progress": {
    "pools": 21,
-   "covered_units": 40,
+   "covered_units": 70,
    "total_units": 1218,
-   "pct": 3
+   "pct": 6
   },
   "families_covered": 10,
   "families_total": 58
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 43,
-  "evaluated": 43
+  "rejected": 53,
+  "evaluated": 53
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 46,
+  "evaluated": 56,
   "filed": 0,
   "parked": 0,
-  "rejected": 46,
+  "rejected": 56,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W16",
-  "W17"
+  "W2",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,23 +81,23 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:05:14Z",
-   "detail": "Employers 0/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
    "phase": "queued",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
+   "phase": "searching",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T17:12:13Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -224,45 +224,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:05:14Z",
-   "detail": "Employers 0/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T17:05:14Z",
-   "detail": "Employers 0/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 0,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T17:12:13Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T17:12:13Z",
    "detail": "Employers 0/41"
   },
   "W20": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "4 of 612 units done",
+   "detail": "7 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 12:04 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 12:05 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 10/58",
-   "pool": "W16"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 10/58"
  },
  "rules": {
@@ -593,6 +593,13 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "12:04 PM"
+   },
+   {
+    "company": "Wells Fargo",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Position will require onsite presence at one of the required locations listed below in a hybrid work schedule",
+    "where": "Employer sites",
+    "time": "12:05 PM"
    },
    {
     "company": "Microsoft",
@@ -712,6 +719,69 @@
     "reason": "stale — Act as a technical consultant and subject matter expert of Meta's ads and commerce technology solutions for our most strategic advertisers and partners.",
     "where": "Employer sites",
     "time": "12:04 PM"
+   },
+   {
+    "company": "Wells Fargo",
+    "role": "Lead System Architect - Cloud Hybrid Platforms",
+    "reason": "not-remote — Telecommuting is not an option for this position",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Wells Fargo",
+    "role": "Principal Data Solutions Architect",
+    "reason": "not-remote — Ability to work on-site in one of the listed locations in a hybrid model. There is no option for fully remote work",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Bank of America",
+    "role": "Cloud Architect",
+    "reason": "stale — US - NJ - Jersey City - 101 Hudson St - 101 Hudson (NJ2101)",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Bank of America",
+    "role": "Senior Cloud Architect",
+    "reason": "stale — US - NJ - Jersey City - 101 Hudson St - 101 Hudson (NJ2101)",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Citigroup",
+    "role": "Cloud Architect - VP",
+    "reason": "cloud-scope — Expert-level understanding of AWS/GCP, including Kubernetes Container Platforms like AWS EKS and GCP GKE.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Citigroup",
+    "role": "Platform Architect",
+    "reason": "hands-on — Impact the engineering function by influencing decisions through advice, counsel or facilitating services and hands-on Development.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Citigroup",
+    "role": "Senior Solution Architect",
+    "reason": "hands-on — Design and deliver end-to-end, cloud-native solutions leveraging Java (Spring Boot, WebFlux), Angular, and Python.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "JPMorgan Chase",
+    "role": "Solutions Architect (AI/ML)",
+    "reason": "hands-on — strong hands-on expertise in coding, data querying languages and scripting languages.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Bank of America",
+    "role": "Senior Solution Architect / Engineer",
+    "reason": "stale — Fluent in Portuguese and English;",
+    "where": "Employer sites",
+    "time": "12:05 PM"
    }
   ],
   "USAJOBS": [
@@ -2060,5 +2130,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:05:14Z"
+ "lists_generated_at": "2026-10-28T17:12:13Z"
 }
