@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T18:01:23Z",
+ "generated_at": "2026-10-28T18:03:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T18:01:22Z",
+  "last_activity_at": "2026-10-28T18:02:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 250,
+   "covered_units": 270,
    "total_units": 1218,
-   "pct": 21
+   "pct": 22
   },
   "families_covered": 30,
   "families_total": 58
@@ -28,20 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 227,
-  "evaluated": 231
+  "rejected": 238,
+  "evaluated": 242
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 229,
+  "evaluated": 240,
   "filed": 0,
   "parked": 4,
-  "rejected": 225,
+  "rejected": 236,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
+  "W4",
   "W5"
  ],
  "lanes": {
@@ -81,13 +81,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
-   "detail": "Employers 10/30"
+   "heartbeat_at": null,
+   "detail": "Employers 15/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -97,7 +97,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
+   "heartbeat_at": "2026-10-28T18:03:41Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -114,24 +114,24 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T18:03:41Z",
    "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 20,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:01:23Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": "2026-10-28T18:03:41Z",
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 612 units done",
+   "detail": "27 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:01 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 1:02 PM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 30/58",
-   "pool": "W5"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 30/58"
  },
  "rules": {
