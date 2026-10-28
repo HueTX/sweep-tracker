@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T16:00:40Z",
+ "generated_at": "2026-10-28T16:03:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,37 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T15:46:09Z",
+  "last_activity_at": "2026-10-28T16:02:12Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 20,
    "total_units": 1218,
-   "pct": 0
+   "pct": 2
   },
-  "families_covered": 0,
+  "families_covered": 10,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 7,
-  "evaluated": 7
+  "rejected": 15,
+  "evaluated": 15
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 10,
+  "evaluated": 18,
   "filed": 0,
   "parked": 0,
-  "rejected": 10,
+  "rejected": 18,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W16",
   "W17",
   "W18",
-  "W19",
-  "W20"
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -95,13 +93,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
-   "detail": "Employers 0/39"
+   "heartbeat_at": null,
+   "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -232,7 +230,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
+   "heartbeat_at": "2026-10-28T16:03:18Z",
    "detail": "Employers 0/59"
   },
   "W17": {
@@ -243,7 +241,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
+   "heartbeat_at": "2026-10-28T16:03:18Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -254,7 +252,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
+   "heartbeat_at": "2026-10-28T16:03:18Z",
    "detail": "Employers 0/45"
   },
   "W19": {
@@ -265,19 +263,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
+   "heartbeat_at": "2026-10-28T16:03:18Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:00:40Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": null,
+   "detail": "Employers 5/31"
   }
  },
  "stages": {
@@ -307,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 612 units done",
+   "detail": "2 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -338,18 +336,18 @@
  },
  "titles": {
   "total": 58,
-  "searched": 0,
+  "searched": 10,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
    "Domain Architect": "pending",
    "Resiliency Architect": "pending",
    "IT/OT Architect": "pending",
@@ -546,11 +544,11 @@
    }
   ]
  },
- "note": "Last activity 10:46 AM CT · 6 workers in flight · 0 filed this run",
+ "note": "Last activity 11:02 AM CT · 4 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W16 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 0/58",
+   "detail": "Families covered 10/58",
    "pool": "W16"
   }
  ],
@@ -558,7 +556,7 @@
   "live": true,
   "label": "W16",
   "headline": "W16 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 0/58"
+  "detail": "Families covered 10/58"
  },
  "rules": {
   "follow_all": false,
