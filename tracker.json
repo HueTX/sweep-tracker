@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T21:55:29Z",
+ "generated_at": "2026-10-28T21:57:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T21:50:54Z",
+  "last_activity_at": "2026-10-28T21:56:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 449,
-  "evaluated": 454
+  "rejected": 451,
+  "evaluated": 456
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 450,
+  "evaluated": 452,
   "filed": 0,
   "parked": 5,
-  "rejected": 445,
+  "rejected": 447,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W16",
   "W18"
  ],
  "lanes": {
@@ -86,7 +85,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T21:55:29Z",
+   "heartbeat_at": "2026-10-28T21:57:32Z",
    "detail": "Employers 50/30"
   },
   "W2": {
@@ -224,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T21:55:29Z",
-   "detail": "Employers 50/59"
+   "heartbeat_at": null,
+   "detail": "Employers 55/59"
   },
   "W17": {
    "label": "Technology",
@@ -251,7 +250,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T21:55:29Z",
+   "heartbeat_at": "2026-10-28T21:57:32Z",
    "detail": "Employers 50/45"
   },
   "W19": {
@@ -304,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "109 of 612 units done",
+   "detail": "110 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,7 +542,7 @@
    }
   ]
  },
- "note": "Last activity 4:50 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 4:56 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -3666,13 +3665,13 @@
     "time": "4:39 PM"
    }
   ],
-  "BuiltIn / Capital One careers": [
+  "Employer sites (Capital One via Built In)": [
    {
     "company": "Capital One",
     "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch",
-    "where": "BuiltIn / Capital One careers",
-    "time": "3:21 PM"
+    "reason": "stale — Published: 2025-05-31 | Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch — published 2025-05-31, before 2026-10-21 cutoff (gate fact); remote pay top $233,800 also above $230,000 band top. workarounds tried: (1) employer's own Capital One posting via Built In opened in full, (2) alternate route Manager, Solutions Architect (Customer Integration & Engineering) mirror with same 2025-05-31 date checked, (3) alternate postings searched in grouped Enterprise Solutions Architect queries — no fresher in-band alternate found.",
+    "where": "Employer sites (Capital One via Built In)",
+    "time": "4:56 PM"
    }
   ],
   "Employer sites (U.S. Bank careers mirror)": [
@@ -3691,13 +3690,15 @@
     "reason": "not-remote — This role requires working from a U.S. Bank location three (3) or more days per week. | workarounds tried: (1) employer ATS/careers search, (2) alternate route (BuiltIn/Simplify/LinkedIn/boards search), (3) alternate posting of same role - no fresh 100%-remote in-band variant found",
     "where": "Employer sites / boards",
     "time": "3:21 PM"
-   },
+   }
+  ],
+  "Employer sites (Capital One via become-programmer mirror)": [
    {
     "company": "Capital One",
     "role": "Senior Manager, Solutions Architect (Remote Eligible)",
-    "reason": "stale — Capital One is open to hiring a Remote Employee for this opportunity. | workarounds tried: (1) employer ATS/careers search, (2) alternate route (BuiltIn/Simplify/LinkedIn/boards search), (3) alternate posting of same role - no fresh 100%-remote in-band variant found",
-    "where": "Employer sites / boards",
-    "time": "3:21 PM"
+    "reason": "stale — Published: 2023-02-18 | Capital One is open to hiring a Remote Employee for this opportunity. | Perform hands-on architecture and design for solutions used primarily to enable the success of Capital One's People Tech portfolio — published 2023-02-18, before 2026-10-21 cutoff (gate fact). workarounds tried: (1) employer's own Capital One People Tech posting via mirror opened in full, (2) alternate routes in grouped Enterprise Solutions Architect searches, (3) alternate postings searched — no fresher alternate found.",
+    "where": "Employer sites (Capital One via become-programmer mirror)",
+    "time": "4:56 PM"
    }
   ],
   "Employer sites / TealHQ / Dice": [
@@ -3870,6 +3871,24 @@
     "reason": "stale — OPENING DATE 01/26/2023 CLOSING DATE 2/10/2023 5:00 PM Eastern | REMOTE EMPLOYMENT, Flexible/Hybrid | $79,512.00 - $119,269.00 Annually — opening 2023-01-26, before 2026-10-21 cutoff. workarounds tried: (1) employer's own governmentjobs.com/careers/northcarolina posting checked in full, (2) alternate route searched, (3) alternate posting searched in grouped queries — no fresher alternate found.",
     "where": "Employer sites (state portals)",
     "time": "4:50 PM"
+   }
+  ],
+  "Employer sites (Capital One Careers)": [
+   {
+    "company": "Capital One",
+    "role": "Staff Full-stack Engineer (Remote-Eligible) - Global Payment Network",
+    "reason": "stale — R1002390 Posted 10/01/2026 | 10+ years of professional experience coding in commonly used languages like Go, Java, JavaScript/Typescript, Python, Rust, C#, Scala | Remote (Regardless of Location): $244,700 - $279,200 for Staff Full-stack Engineer — posted 2026-10-01, before 2026-10-21 cutoff (gate fact); also pay top above $230,000 and engineer-level hands-on coding. workarounds tried: (1) employer's own Capital One Careers posting opened in full (governing text), (2) alternate routes Built In/eQuest checked in grouped searches, (3) alternate posting (B2B Platforms & Payment Systems variant) searched — same stale, hands-on, out-of-band role, no fresher in-band alternate found.",
+    "where": "Employer sites (Capital One Careers)",
+    "time": "4:56 PM"
+   }
+  ],
+  "Employer sites (U.S. Bank via Built In Charlotte)": [
+   {
+    "company": "U.S. Bancorp",
+    "role": "Sr. Infrastructure Engineer (AWS, Azure, Terraform & Automation)",
+    "reason": "stale — Published: 2026-10-01 | This role requires working from a U.S. Bank location three (3) or more days per week. | Proficiency in Python scripting and automation for cloud operations and platform engineering. | Advanced expertise in Terraform for infrastructure provisioning — published 2026-10-01, before 2026-10-21 cutoff (gate fact); also not-remote and hands-on IaC/Python. workarounds tried: (1) employer's own U.S. Bank posting via Built In Charlotte mirror opened in full, (2) alternate routes in grouped Staff Infrastructure Engineer searches, (3) alternate postings searched — no fresher remote alternate found.",
+    "where": "Employer sites (U.S. Bank via Built In Charlotte)",
+    "time": "4:56 PM"
    }
   ]
  },
@@ -5008,5 +5027,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T21:55:29Z"
+ "lists_generated_at": "2026-10-28T21:57:32Z"
 }
