@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:22:48Z",
+ "generated_at": "2026-10-28T17:25:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:15:40Z",
+  "last_activity_at": "2026-10-28T17:24:48Z",
   "progress": {
    "pools": 21,
-   "covered_units": 100,
+   "covered_units": 120,
    "total_units": 1218,
-   "pct": 8
+   "pct": 10
   },
   "families_covered": 20,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 81,
-  "evaluated": 81
+  "rejected": 98,
+  "evaluated": 98
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 84,
+  "evaluated": 100,
   "filed": 0,
   "parked": 0,
-  "rejected": 84,
+  "rejected": 100,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W4",
   "W20"
  ],
  "lanes": {
@@ -103,24 +101,24 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -273,7 +271,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
+   "heartbeat_at": "2026-10-28T17:25:09Z",
    "detail": "Employers 5/31"
   }
  },
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "10 of 612 units done",
+   "detail": "12 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,7 +541,7 @@
    }
   ]
  },
- "note": "Last activity 12:15 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 12:24 PM CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W20 · Title 11 of 58 · Domain Architect",
