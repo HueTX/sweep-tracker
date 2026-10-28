@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T16:51:10Z",
+ "generated_at": "2026-10-28T16:53:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-28T16:50:43Z",
@@ -39,9 +39,7 @@
   "rejected": 22,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,12 +99,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T16:51:10Z",
+   "heartbeat_at": null,
    "detail": "Employers 0/73"
   },
   "W4": {
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 11:50 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 10/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 11:50 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 10/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1888,5 +1880,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T16:51:10Z"
+ "lists_generated_at": "2026-10-28T16:53:26Z"
 }
