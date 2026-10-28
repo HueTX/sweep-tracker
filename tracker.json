@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:35:29Z",
+ "generated_at": "2026-10-28T17:38:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:27:26Z",
+  "last_activity_at": "2026-10-28T17:37:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 130,
+   "covered_units": 160,
    "total_units": 1218,
-   "pct": 11
+   "pct": 13
   },
   "families_covered": 20,
   "families_total": 58
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 123,
-  "evaluated": 123
+  "rejected": 151,
+  "evaluated": 151
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 125,
+  "evaluated": 150,
   "filed": 0,
   "parked": 0,
-  "rejected": 125,
+  "rejected": 150,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1",
-  "W5",
-  "W6"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -81,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:35:29Z",
-   "detail": "Employers 5/30"
+   "heartbeat_at": null,
+   "detail": "Employers 10/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -125,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:35:29Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:35:29Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W9": {
    "label": "Dice",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "13 of 612 units done",
+   "detail": "16 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 12:27 PM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W5 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 20/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 12:37 PM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 20/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -607,11 +597,39 @@
     "time": "12:24 PM"
    },
    {
+    "company": "Chevron",
+    "role": "Principal OT AI Solution Architect",
+    "reason": "stale — Relocation will not be considered.",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
     "company": "Centene",
     "role": "Principal Cloud Architect",
     "reason": "pay-outside-band — Knowledge of Cloud Computing (AWS/Azure); Cloud Security; DevSecOps; Agile; Infrastructure as Code",
     "where": "Employer sites",
     "time": "12:24 PM"
+   },
+   {
+    "company": "Duke Energy",
+    "role": "Telecom Network Security Architect",
+    "reason": "not-remote — Hybrid work environment with a combination of remote and on-site work (3 days a week in the office)",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Southern Company",
+    "role": "Telecommunications Cybersecurity Architect",
+    "reason": "stale — Location: Hybrid 50% in office – Atlanta or Birmingham",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "CenterPoint Energy",
+    "role": "IT Enterprise Architect",
+    "reason": "not-remote — Houston, TX, USA, In Person",
+    "where": "Employer sites",
+    "time": "12:37 PM"
    },
    {
     "company": "Wells Fargo",
@@ -1207,6 +1225,118 @@
     "reason": "not-remote — This role is based in Greenwich, CT, with a hybrid work model.",
     "where": "Employer sites",
     "time": "12:27 PM"
+   },
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect (Global Lubricants, Customer Operations, Low Carbon Solutions and CRM)",
+    "reason": "not-remote — Shell in The United Kingdom",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Shell",
+    "role": "Principal Architect T&S Data & Analytics",
+    "reason": "stale — Posting Start Date:October 12, 2026",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Shell",
+    "role": "Senior Solution Architect - Endur",
+    "reason": "stale — Job post no longer accepts applications",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Shell via ECI Group",
+    "role": "Full Stack Architect | Cloud Ecosystem",
+    "reason": "not-remote — This is a Houston based eleven month contract role with an anticipated start date of March 16, 2026 and ending December 31, 2026.",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Solution Architect (Gas & Power Trading International / GPTI)",
+    "reason": "not-remote — Remote Type: This position is not available for remote working",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Senior Solution Architect (Digital Workplace Integration / Technical Architect)",
+    "reason": "stale — Job post no longer accepts applications",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Solution Architect (SAP S/4HANA)",
+    "reason": "pay-outside-band — How much do we pay (Base)? ( 144,000.00 & 267,000.00 USD )",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Southern Company",
+    "role": "Cyber Security Architect - Azure Cloud Specialist",
+    "reason": "not-remote — Location: Primarily remote 20% in office – Atlanta or Birmingham",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Southern Company",
+    "role": "Senior Infrastructure Automation Architect",
+    "reason": "hands-on — Create reusable scripts, playbooks, templates, and modules to be used by Automation Engineers to build automations to provision, configure, and manage infrastructure",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Duke Energy",
+    "role": "Cloud Engineer",
+    "reason": "stale — Posting Expiration Date Tuesday, June 17, 2025",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Exelon",
+    "role": "Principal IT Oracle Cloud Architect",
+    "reason": "stale — Location: CHICAGO, Illinois",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Southern Company",
+    "role": "Manager, Cybersecurity Architecture",
+    "reason": "stale — Job expired",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Guidehouse",
+    "role": "Senior Cloud Engineer - DoD Enterprise Cloud Operations (remote)",
+    "reason": "clearance — Clearance Required: Active Secret",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "Rackner",
+    "role": "Solution Architect Lead (Remote | Multi-Cloud | DoD)",
+    "reason": "clearance — Clearance: Active DoD Secret",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "ITC Federal, Inc.",
+    "role": "Cloud Architect - USCIS",
+    "reason": "stale — JOB TITLE: Cloud Architect AGENCY SUPPORTED: Department of Homeland Security (DHS) - USCIS",
+    "where": "Employer sites",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "cFocus Software Incorporated",
+    "role": "Sr. Systems Architect - DHS",
+    "reason": "experience-mismatch — Demonstrated architecture and engineering experience with Esri Portal/ArcGIS Enterprise, ArcGIS Online",
+    "where": "Employer sites",
+    "time": "12:37 PM"
    }
   ],
   "USAJOBS": [
@@ -1314,6 +1444,34 @@
     "reason": "not-remote — Situational Telework Only, including Emergency and OPM Prescribed Unscheduled Telework.",
     "where": "USAJOBS",
     "time": "12:04 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (Cloud Platform Engineer), GS-2210-14",
+    "reason": "hands-on — Designing and managing hybrid and multi-cloud environments across Azure, AWS, GCP, and Oracle using Infrastructure-as-Code (IaC) tools like Terraform and CloudFormation.",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "Solution Platform Architect, GS-2210-15",
+    "reason": "stale — Published: 07/31/2026",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (INTERNET), GS-2210-13",
+    "reason": "cloud-scope — Serves as technical authority for CMS's Internet-based systems, setting cloud-native standards and guiding architecture decisions on AWS, containers, microservices, and APIs",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "VA",
+    "role": "IT Specialist (Enterprise Architecture)",
+    "reason": "stale — Published: 11/08/2024",
+    "where": "USAJOBS",
+    "time": "12:37 PM"
    }
   ],
   "LinkedIn": [
@@ -1480,6 +1638,13 @@
     "reason": "stale — Location: Remote",
     "where": "Dice",
     "time": "12:24 PM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Cybersecurity Specialist / Cloud Engineer",
+    "reason": "pay-outside-band — Target salary range: $80,001 - $120,000.",
+    "where": "Dice",
+    "time": "12:37 PM"
    }
   ]
  },
@@ -2619,5 +2784,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:35:29Z"
+ "lists_generated_at": "2026-10-28T17:38:22Z"
 }
