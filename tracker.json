@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:12:13Z",
+ "generated_at": "2026-10-28T17:14:00Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,33 +15,31 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:05:48Z",
+  "last_activity_at": "2026-10-28T17:13:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 70,
+   "covered_units": 90,
    "total_units": 1218,
-   "pct": 6
+   "pct": 7
   },
-  "families_covered": 10,
+  "families_covered": 20,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 53,
-  "evaluated": 53
+  "rejected": 69,
+  "evaluated": 69
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 56,
+  "evaluated": 72,
   "filed": 0,
   "parked": 0,
-  "rejected": 56,
+  "rejected": 72,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W18",
   "W19"
  ],
  "lanes": {
@@ -92,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:12:13Z",
-   "detail": "Employers 5/39"
+   "heartbeat_at": null,
+   "detail": "Employers 10/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -246,13 +244,13 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:12:13Z",
-   "detail": "Employers 0/45"
+   "heartbeat_at": null,
+   "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -262,7 +260,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:12:13Z",
+   "heartbeat_at": "2026-10-28T17:14:00Z",
    "detail": "Employers 0/41"
   },
   "W20": {
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "7 of 612 units done",
+   "detail": "9 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -335,7 +333,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 10,
+  "searched": 20,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -347,16 +345,16 @@
    "Platform Architect": "done",
    "Solutions Architect": "done",
    "Solution Architect": "done",
-   "Domain Architect": "pending",
-   "Resiliency Architect": "pending",
-   "IT/OT Architect": "pending",
-   "Cloud Transformation Architect": "pending",
-   "Principal Cloud Engineer": "pending",
-   "Principal Infrastructure Engineer": "pending",
-   "Cloud Architecture Lead": "pending",
-   "Cloud Infrastructure Lead": "pending",
-   "Principal Technical Architect": "pending",
-   "Technology Strategy Architect": "pending",
+   "Domain Architect": "done",
+   "Resiliency Architect": "done",
+   "IT/OT Architect": "done",
+   "Cloud Transformation Architect": "done",
+   "Principal Cloud Engineer": "done",
+   "Principal Infrastructure Engineer": "done",
+   "Cloud Architecture Lead": "done",
+   "Cloud Infrastructure Lead": "done",
+   "Principal Technical Architect": "done",
+   "Technology Strategy Architect": "done",
    "IT Architecture Lead": "pending",
    "Application Architect": "pending",
    "Integration Architect": "pending",
@@ -543,19 +541,19 @@
    }
   ]
  },
- "note": "Last activity 12:05 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 12:13 PM CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 10/58",
-   "pool": "W18"
+   "primary": "W19 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 20/58",
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 10/58"
+  "label": "W19",
+  "headline": "W19 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 20/58"
  },
  "rules": {
   "follow_all": false,
@@ -782,6 +780,76 @@
     "reason": "stale — Fluent in Portuguese and English;",
     "where": "Employer sites",
     "time": "12:05 PM"
+   },
+   {
+    "company": "GE Aerospace",
+    "role": "Principal Cloud Architect",
+    "reason": "hands-on — Strong programming skills in languages such as Python, Java, or Go, and scripting experience (e.g., Bash, PowerShell)",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Senior Solutions IT Architect supporting Capacity Growth",
+    "reason": "clearance — Active and existing security clearance required on day 1",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Senior Manager, Solutions Architect - Data, Analytics & AI/ML Platforms (Remote)",
+    "reason": "pay-outside-band — The salary range for this role is 132,400 USD - 251,600 USD.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Associate Director, Enterprise Architect Lead (Applications/Compliance) (REMOTE)",
+    "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Sr. Manager, Platform Architect - Process Systems and Transformation (PST) (REMOTE)",
+    "reason": "pay-outside-band — The salary range for this role is 132,400 USD - 251,600 USD.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior Cloud Solution Architect",
+    "reason": "not-remote — The Boeing Company is currently seeking a Senior Cloud Solution Architect to join the team in Seattle, WA; Berkeley, MO; North Charleston, SC; Plano, TX; Ridley Park, PA; Chicago, IL; or Seal Beach, CA.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "Northrop Grumman",
+    "role": "Sr. Principal Cloud Architect (AHT)",
+    "reason": "clearance — Must have an active TS/SCI Clearance",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "Northrop Grumman",
+    "role": "Staff Software Defined Infrastructure Engineer",
+    "reason": "hands-on — Strong proficiency in Python, including building automation services, libraries, or frameworks with robust testing and documentation.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "City and County of San Francisco",
+    "role": "Principal Cloud Engineer",
+    "reason": "not-remote — This position does not support fully remote work. Employees may be permitted to work a hybrid schedule with supervisor approval, after which they must work at least two days in the office every two weeks.",
+    "where": "Employer sites",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "State of Florida DMS",
+    "role": "Enterprise Architecture and Engineering Administrator",
+    "reason": "not-remote — $110,000 - $140,000 • Onsite",
+    "where": "Employer sites",
+    "time": "12:13 PM"
    }
   ],
   "USAJOBS": [
@@ -991,6 +1059,54 @@
     "reason": "stale",
     "where": "Employer sites (careers.unitedhealthgroup.com)",
     "time": "11:50 AM"
+   }
+  ],
+  "GovernmentJobs.com": [
+   {
+    "company": "City of San Antonio",
+    "role": "IT Domain Architect II",
+    "reason": "not-remote — Ability to work inside an office environment",
+    "where": "GovernmentJobs.com",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "State of Colorado OIT",
+    "role": "Google Cloud Architect",
+    "reason": "cloud-scope — The Google Cloud Architect is responsible for designing and implementing the foundational infrastructure for a reliable, secure, high-performing, and cost-effective application hosting environment on the Google Cloud Platform (GCP).",
+    "where": "GovernmentJobs.com",
+    "time": "12:13 PM"
+   }
+  ],
+  "StateJobsNY": [
+   {
+    "company": "New York State ITS",
+    "role": "Information Technology Architect 2 (Solutions Architecture)",
+    "reason": "pay-outside-band — Salary Range From $111708 to $137590 Annually",
+    "where": "StateJobsNY",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "New York State Insurance Fund",
+    "role": "Assistant Manager Information Services - Cloud Architect",
+    "reason": "pay-outside-band — Salary Range From $115283 to $145681 Annually",
+    "where": "StateJobsNY",
+    "time": "12:13 PM"
+   }
+  ],
+  "CalCareers": [
+   {
+    "company": "CalPERS",
+    "role": "Principal Investment Technical Architect",
+    "reason": "not-remote — Telework: Hybrid",
+    "where": "CalCareers",
+    "time": "12:13 PM"
+   },
+   {
+    "company": "California Department of Aging",
+    "role": "Enterprise Architect, Information Technology Specialist III",
+    "reason": "pay-outside-band — $8,488.00 - $11,375.00",
+    "where": "CalCareers",
+    "time": "12:13 PM"
    }
   ]
  },
@@ -2130,5 +2246,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:12:13Z"
+ "lists_generated_at": "2026-10-28T17:14:00Z"
 }
