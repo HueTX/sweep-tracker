@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T14:57:06Z",
+ "generated_at": "2026-10-28T14:59:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "df90e628",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T14:54:27Z",
-  "last_activity_at": "2026-10-28T14:54:27Z",
+  "last_activity_at": "2026-10-28T14:58:59Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 3,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 0,
+  "evaluated": 3,
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
+  "rejected": 3,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -84,7 +84,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T14:57:06Z",
+   "heartbeat_at": "2026-10-28T14:59:06Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -541,7 +541,7 @@
    }
   ]
  },
- "note": "Run started 9:54 AM CT · 0 filed",
+ "note": "Last activity 9:58 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W1 · Title 1 of 58 · Azure Architect",
@@ -574,7 +574,31 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
- "today_rejected": {},
+ "today_rejected": {
+  "USAJOBS": [
+   {
+    "company": "Defense Counterintelligence and Security Agency",
+    "role": "Computer Scientist (Enterprise Architect)",
+    "reason": "stale — Published: 08/24/2026",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Information Technology Specialist (Enterprise Architecture)",
+    "reason": "stale — Published: 08/18/2025",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "Information Technology Specialist",
+    "reason": "stale — Virtual: This is NOT a virtual position.",
+    "where": "USAJOBS",
+    "time": "9:58 AM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1711,5 +1735,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T14:57:06Z"
+ "lists_generated_at": "2026-10-28T14:59:06Z"
 }
