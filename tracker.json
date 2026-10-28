@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T18:03:41Z",
+ "generated_at": "2026-10-28T18:07:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,34 +15,32 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T18:02:29Z",
+  "last_activity_at": "2026-10-28T18:07:12Z",
   "progress": {
    "pools": 21,
-   "covered_units": 270,
+   "covered_units": 290,
    "total_units": 1218,
-   "pct": 22
+   "pct": 24
   },
-  "families_covered": 30,
+  "families_covered": 40,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 238,
-  "evaluated": 242
+  "rejected": 253,
+  "evaluated": 257
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 240,
+  "evaluated": 255,
   "filed": 0,
   "parked": 4,
-  "rejected": 236,
+  "rejected": 251,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W4",
-  "W5"
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
@@ -97,7 +95,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:03:41Z",
+   "heartbeat_at": "2026-10-28T18:07:18Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -114,24 +112,24 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 20,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T18:03:41Z",
-   "detail": "Employers 10/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:03:41Z",
-   "detail": "Employers 15/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "queued",
+   "families_searched": 40,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 20/44"
   },
   "W6": {
    "label": "Utilities",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "27 of 612 units done",
+   "detail": "29 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -335,7 +333,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 30,
+  "searched": 40,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -367,16 +365,16 @@
    "Technology Architect": "done",
    "Network Security Architect": "done",
    "Chief Architect": "done",
-   "Cloud Engineering Lead": "pending",
-   "Platform Engineering Lead": "pending",
-   "Cloud Transformation Lead": "pending",
-   "Technology Strategy Lead": "pending",
-   "Enterprise Technology Lead": "pending",
-   "Infrastructure Strategy Lead": "pending",
-   "Cloud Practice Lead": "pending",
-   "Cloud Center of Excellence Lead": "pending",
-   "Cloud Enablement Lead": "pending",
-   "Cloud Adoption Lead": "pending",
+   "Cloud Engineering Lead": "done",
+   "Platform Engineering Lead": "done",
+   "Cloud Transformation Lead": "done",
+   "Technology Strategy Lead": "done",
+   "Enterprise Technology Lead": "done",
+   "Infrastructure Strategy Lead": "done",
+   "Cloud Practice Lead": "done",
+   "Cloud Center of Excellence Lead": "done",
+   "Cloud Enablement Lead": "done",
+   "Cloud Adoption Lead": "done",
    "Infrastructure Modernization Lead": "pending",
    "Technology Modernization Lead": "pending",
    "Cloud Delivery Lead": "pending",
@@ -543,11 +541,11 @@
    }
   ]
  },
- "note": "Last activity 1:02 PM CT · 4 workers in flight · 0 filed this run",
+ "note": "Last activity 1:07 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 30/58",
+   "detail": "Families covered 40/58",
    "pool": "W2"
   }
  ],
@@ -555,7 +553,7 @@
   "live": true,
   "label": "W2",
   "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 30/58"
+  "detail": "Families covered 40/58"
  },
  "rules": {
   "follow_all": false,
@@ -619,13 +617,6 @@
     "company": "CommonSpirit Health",
     "role": "Solution Architect I",
     "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ",
-    "where": "Employer sites",
-    "time": "12:24 PM"
-   },
-   {
-    "company": "CVS Health / Aetna",
-    "role": "Principal Cloud Architect",
-    "reason": "cloud-scope — sets the technical direction for how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires.",
     "where": "Employer sites",
     "time": "12:24 PM"
    },
@@ -1593,6 +1584,94 @@
     "reason": "stale — , United Kingdom, Job Family Group:, Information Technology (IT), Worker Type:, Regular, Posting Start Date:, October 20, 2025",
     "where": "BuiltIn",
     "time": "1:01 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Technical Integration Architect - Remote",
+    "reason": "stale — Published: 2026-02-16",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Security Architect - Remote or Hybrid in MN or DC",
+    "reason": "stale — Published: 2026-04-14",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director of Architecture - Remote",
+    "reason": "stale — Published: 2026-03-20; salary for this role will range from $134,600 to $230,800 annually",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Chief Architect with AI/ML for OptumRx",
+    "reason": "stale — Published: 2026-01-07; salary for this role will range from $156,400 to $268,000 annually; 8+ years of software engineering experience with Java and/or Python",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Lead Application Architect",
+    "reason": "stale — Published: 2025-07-30; Pay Range: $119,100.00 - $220,500.00 per year",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Application Architect",
+    "reason": "stale — Published: 2025-06-11; Pay Range: $85,300.00 - $158,100.00 per year; Authors clean, scalable, modular, secure, well-structured, and testable code as needed",
+    "where": "BuiltIn",
+    "time": "1:07 PM"
+   }
+  ],
+  "DailyRemote": [
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "stale — how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires; The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "DailyRemote",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal AI Architect",
+    "reason": "stale — Own the Aetna Technology AI reference architectures — model serving, multi-model orchestration, retrieval, and evaluation — across AWS-primary and multicloud infrastructure.; The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "DailyRemote",
+    "time": "12:57 PM"
+   }
+  ],
+  "Ladders": [
+   {
+    "company": "The Cigna Group",
+    "role": "Senior Director, Data & Digital Product Architecture",
+    "reason": "stale — For this position, we anticipate offering an annual salary of 184,400 - 307,400 USD / yearly",
+    "where": "Ladders",
+    "time": "1:07 PM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — This position is a hybrid of office/remote working",
+    "where": "Ladders",
+    "time": "1:05 PM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Principal Engineer, Data Platforms (Architecture & Ingestion)",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "Ladders",
+    "time": "12:57 PM"
+   },
+   {
+    "company": "The Cigna Group",
+    "role": "Principal Architect - PBM Modernization & AI Engineering",
+    "reason": "stale — Flexible work environment with occasional remote work opportunities.",
+    "where": "Ladders",
+    "time": "12:57 PM"
    }
   ],
   "SheCanCode": [
@@ -1873,6 +1952,13 @@
     "reason": "stale — Houston, Texas; Published: 2026-10-19",
     "where": "Chevron Careers",
     "time": "1:01 PM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Lead Cloud Engineer - Data Hosting",
+    "reason": "not-remote — The Chevron Engineering and Innovation Excellence Center (ENGINE) in Bengaluru India brings together the resources and expertise of the Chevron global network",
+    "where": "Chevron Careers",
+    "time": "1:05 PM"
    }
   ],
   "FedEx Careers": [
@@ -2062,6 +2148,13 @@
     "reason": "stale — Expertise in cloud platforms, specifically AWS and GCP, including their AI services.",
     "where": "GovernmentJobs.com",
     "time": "12:52 PM"
+   },
+   {
+    "company": "City of San José",
+    "role": "Enterprise Public Cloud Computing and Storage Manager (Enterprise Supervising Technology Analyst)",
+    "reason": "not-remote — Please note that the Enterprise Public Cloud Computing and Storage Manager (ESTA) position is currently eligible for a hybrid telework schedule.",
+    "where": "GovernmentJobs.com",
+    "time": "1:05 PM"
    }
   ],
   "StateJobsNY": [
@@ -2094,15 +2187,6 @@
     "reason": "pay-outside-band — $8,488.00 - $11,375.00",
     "where": "CalCareers",
     "time": "12:13 PM"
-   }
-  ],
-  "DailyRemote": [
-   {
-    "company": "CVS Health / Aetna",
-    "role": "Principal AI Architect",
-    "reason": "stale — Own the Aetna Technology AI reference architectures — model serving, multi-model orchestration, retrieval, and evaluation — across AWS-primary and multicloud infrastructure.; The typical pay range for this role is: $144,200.00 - $288,400.00",
-    "where": "DailyRemote",
-    "time": "12:57 PM"
    }
   ],
   "Simplify": [
@@ -2258,6 +2342,13 @@
     "reason": "not-remote — Location Los Angeles County, CA",
     "where": "GovernmentJobs.com / NEOGOV",
     "time": "12:52 PM"
+   },
+   {
+    "company": "City of Bellevue",
+    "role": "Enterprise Applications Lead",
+    "reason": "not-remote — Full-time remote work is not an available option.; A hybrid work schedule is available for this position after an orientation period with at least 2 days onsite.",
+    "where": "GovernmentJobs.com / NEOGOV",
+    "time": "1:05 PM"
    }
   ],
   "California jobs.ca.gov / CalCareers": [
@@ -2282,22 +2373,6 @@
     "role": "Domain Architect",
     "reason": "stale — Strong Experience in cloud native, deploying within cloud environments, serverless development and/or container-based solutions required; crawls 265-297 days ago",
     "where": "Monster",
-    "time": "12:57 PM"
-   }
-  ],
-  "Ladders": [
-   {
-    "company": "CVS Health",
-    "role": "Principal Engineer, Data Platforms (Architecture & Ingestion)",
-    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
-    "where": "Ladders",
-    "time": "12:57 PM"
-   },
-   {
-    "company": "The Cigna Group",
-    "role": "Principal Architect - PBM Modernization & AI Engineering",
-    "reason": "stale — Flexible work environment with occasional remote work opportunities.",
-    "where": "Ladders",
     "time": "12:57 PM"
    }
   ],
@@ -2354,6 +2429,40 @@
     "reason": "closed — Job post no longer accepts applications; This position is a hybrid of office/remote working; a year ago, Posted date",
     "where": "EnergyJobSearch",
     "time": "1:01 PM"
+   },
+   {
+    "company": "ExxonMobil",
+    "role": "Azure Cloud Engineer",
+    "reason": "not-remote — Our office is located in Puerto Madero, Buenos Aires and you will interact with developers and users from all around the world.; #LI-Onsite",
+    "where": "EnergyJobSearch",
+    "time": "1:05 PM"
+   }
+  ],
+  "CalCareers / JobLeads": [
+   {
+    "company": "California Department of Social Services",
+    "role": "Cloud Engineer Lead (INFORMATION TECHNOLOGY SPECIALIST III)",
+    "reason": "not-remote — Telework: Hybrid; This position emphasizes hands‑on engineering leadership, automation, governance enforcement, and operational excellence across cloud platforms.",
+    "where": "CalCareers / JobLeads",
+    "time": "1:05 PM"
+   }
+  ],
+  "Workspread": [
+   {
+    "company": "The Cigna Group",
+    "role": "Senior Architect",
+    "reason": "not-remote — Develop existing engineering talent for modern Cloud and DevSecOps practices/solutions; Hands on experience engineering/developing modern on-prem/cloud DevSecOps solutions, Angular, Node Js, Python and Go",
+    "where": "Workspread",
+    "time": "1:07 PM"
+   }
+  ],
+  "JobLeads": [
+   {
+    "company": "Elevance Health",
+    "role": "AI Application Architect Senior",
+    "reason": "not-remote — This role requires associates to be in-office 1 day per week",
+    "where": "JobLeads",
+    "time": "1:07 PM"
    }
   ]
  },
@@ -3493,5 +3602,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T18:03:41Z"
+ "lists_generated_at": "2026-10-28T18:07:18Z"
 }
