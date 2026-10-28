@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T14:59:06Z",
+ "generated_at": "2026-10-28T15:01:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "df90e628",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T14:54:27Z",
-  "last_activity_at": "2026-10-28T14:58:59Z",
+  "last_activity_at": "2026-10-28T14:59:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 10,
    "total_units": 1218,
-   "pct": 0
+   "pct": 1
   },
   "families_covered": 0,
   "families_total": 58
@@ -28,8 +28,8 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 3,
-  "evaluated": 3
+  "rejected": 4,
+  "evaluated": 4
  },
  "today": {
   "date": "2026-10-28",
@@ -39,9 +39,7 @@
   "rejected": 3,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -79,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T14:59:06Z",
-   "detail": "Employers 0/30"
+   "heartbeat_at": null,
+   "detail": "Employers 5/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -302,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 102 units done",
+   "detail": "1 of 102 units done",
    "started_at": "2026-10-28T14:54:27Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-10-28T14:54:27Z",
-   "ended_at": null
+   "ended_at": "2026-10-28T15:00:19Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 9:58 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 0/58",
-   "pool": "W1"
-  }
- ],
+ "note": "Last activity 9:59 AM CT · 1 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 0/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1735,5 +1727,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T14:59:06Z"
+ "lists_generated_at": "2026-10-28T15:01:09Z"
 }
