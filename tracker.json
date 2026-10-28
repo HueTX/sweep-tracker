@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T18:16:32Z",
+ "generated_at": "2026-10-28T18:18:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,33 +15,32 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T18:07:12Z",
+  "last_activity_at": "2026-10-28T18:18:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 310,
+   "covered_units": 350,
    "total_units": 1218,
-   "pct": 25
+   "pct": 29
   },
-  "families_covered": 40,
+  "families_covered": 50,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 253,
-  "evaluated": 257
+  "rejected": 255,
+  "evaluated": 259
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 255,
+  "evaluated": 257,
   "filed": 0,
   "parked": 4,
-  "rejected": 251,
+  "rejected": 253,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W6"
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
@@ -96,7 +95,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:16:32Z",
+   "heartbeat_at": "2026-10-28T18:18:41Z",
    "detail": "Employers 10/39"
   },
   "W3": {
@@ -135,13 +134,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T18:16:32Z",
-   "detail": "Employers 15/44"
+   "heartbeat_at": null,
+   "detail": "Employers 20/44"
   },
   "W9": {
    "label": "Dice",
@@ -246,12 +245,12 @@
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "queued",
-   "families_searched": 20,
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 10/45"
+   "detail": "Employers 25/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -303,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "31 of 612 units done",
+   "detail": "35 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -334,7 +333,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 40,
+  "searched": 50,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -376,16 +375,16 @@
    "Cloud Center of Excellence Lead": "done",
    "Cloud Enablement Lead": "done",
    "Cloud Adoption Lead": "done",
-   "Infrastructure Modernization Lead": "pending",
-   "Technology Modernization Lead": "pending",
-   "Cloud Delivery Lead": "pending",
-   "Enterprise Technology Consultant": "pending",
-   "Cloud Advisory Consultant": "pending",
-   "Technology Transformation Consultant": "pending",
-   "Staff Cloud Engineer": "pending",
-   "Staff Infrastructure Engineer": "pending",
-   "Enterprise Solutions Architect": "pending",
-   "Enterprise Cloud Architect": "pending",
+   "Infrastructure Modernization Lead": "done",
+   "Technology Modernization Lead": "done",
+   "Cloud Delivery Lead": "done",
+   "Enterprise Technology Consultant": "done",
+   "Cloud Advisory Consultant": "done",
+   "Technology Transformation Consultant": "done",
+   "Staff Cloud Engineer": "done",
+   "Staff Infrastructure Engineer": "done",
+   "Enterprise Solutions Architect": "done",
+   "Enterprise Cloud Architect": "done",
    "Enterprise Infrastructure Architect": "pending",
    "Enterprise Data Architect": "pending",
    "Enterprise Integration Architect": "pending",
@@ -542,19 +541,19 @@
    }
   ]
  },
- "note": "Last activity 1:07 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 1:18 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W6 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 40/58",
-   "pool": "W6"
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 50/58",
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 40/58"
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 50/58"
  },
  "rules": {
   "follow_all": false,
@@ -1334,6 +1333,13 @@
     "reason": "pay-outside-band — Pay Transparency: USA: $9,208.38/mo - $20,872.33/mo",
     "where": "Employer sites",
     "time": "12:39 PM"
+   },
+   {
+    "company": "GE Aerospace",
+    "role": "Staff Infrastructure and Platform Engineer",
+    "reason": "hands-on — The Staff Infrastructure and Platform Engineer is a hands-on builder on the platform team, implementing and operating the pipeline, shared services, and environments; implementing infrastructure-as-code; participating in monitoring, alerting, the on-call rotation, incident response",
+    "where": "Employer sites",
+    "time": "1:18 PM"
    }
   ],
   "CommonSpirit Careers": [
@@ -1627,6 +1633,13 @@
     "reason": "stale — Published: 2025-06-11; Pay Range: $85,300.00 - $158,100.00 per year; Authors clean, scalable, modular, secure, well-structured, and testable code as needed",
     "where": "BuiltIn",
     "time": "1:07 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Senior AWS Cloud Architect",
+    "reason": "aws-first — The Boeing Company is currently seeking a Senior AWS Cloud Architect to join the team in Renton, WA; Hazelwood, MO; Ridley Park, PA; or Seattle, WA. This position will provide architecture and hands-on technical leadership for the Capital Assets Performance System (CAPS) on Amazon Web Services (AWS)",
+    "where": "BuiltIn",
+    "time": "1:18 PM"
    }
   ],
   "DailyRemote": [
@@ -3603,5 +3616,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T18:16:32Z"
+ "lists_generated_at": "2026-10-28T18:18:41Z"
 }
