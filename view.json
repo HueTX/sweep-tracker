@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T20:46:15Z",
+ "generated_at": "2026-10-28T20:48:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T20:39:59Z",
+  "last_activity_at": "2026-10-28T20:47:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
-  "rejected": 415,
-  "evaluated": 423
+  "parked": 6,
+  "rejected": 422,
+  "evaluated": 429
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 419,
+  "evaluated": 425,
   "filed": 0,
-  "parked": 8,
-  "rejected": 411,
+  "parked": 6,
+  "rejected": 418,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W3",
-  "W4"
+  "W1",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,46 +80,46 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T20:48:37Z",
+   "detail": "Employers 45/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 35/39"
+   "detail": "Employers 40/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": null,
+   "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 40/32"
+   "heartbeat_at": null,
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -224,12 +223,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T20:48:37Z",
    "detail": "Employers 45/59"
   },
   "W17": {
@@ -304,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "98 of 612 units done",
+   "detail": "101 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
+   "state": "active",
+   "detail": "1 of 2 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-28T15:21:17Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -543,18 +542,18 @@
    }
   ]
  },
- "note": "Last activity 3:39 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 3:47 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "label": "W1",
+  "headline": "W1 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
