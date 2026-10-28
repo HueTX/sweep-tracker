@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T23:50:35Z",
+ "generated_at": "2026-10-28T23:52:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T23:49:34Z",
+  "last_activity_at": "2026-10-28T23:51:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 15,
-  "rejected": 585,
-  "evaluated": 600
+  "rejected": 594,
+  "evaluated": 609
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 594,
+  "evaluated": 603,
   "filed": 0,
   "parked": 15,
-  "rejected": 579,
+  "rejected": 588,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1"
+  "W2",
+  "W3",
+  "W4"
  ],
  "lanes": {
   "LinkedIn": {
@@ -79,45 +81,45 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 70/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T23:50:35Z",
-   "detail": "Employers 65/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T23:52:37Z",
    "detail": "Employers 60/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T23:52:37Z",
    "detail": "Employers 65/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T23:52:37Z",
    "detail": "Employers 65/32"
   },
   "W5": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "150 of 612 units done",
+   "detail": "151 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:49 PM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 6:51 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W1 · Title 11 of 58 · Domain Architect",
+   "primary": "W2 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 11 of 58 · Domain Architect",
+  "label": "W2",
+  "headline": "W2 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -3853,6 +3855,69 @@
     "reason": "stale — Published: 02/05/2026",
     "where": "USAJobs",
     "time": "3:21 PM"
+   },
+   {
+    "company": "Social Security Administration",
+    "role": "Chief Architect",
+    "reason": "stale — Published: 11/11/2024 — duties are architect-level (Defines the overall architecture strategy and vision for the organization), but opened 2024, far outside the 7-day window. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "Social Security Administration",
+    "role": "IT Specialist (APPSW) Solutions Architect",
+    "reason": "not-remote — Remote job No Telework eligible Yes-as determined by the agency policy. Employees required to be on-site 75% of duty time. Open & closing dates 02/06/2026 to 08/05/2026; Salary $143,913 - $197,200 per year GS 14-15 (top in band, remote fails; also stale). Workarounds tried: full announcement text read via Career.io mirror of USAJobs.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "U.S. Department of Agriculture",
+    "role": "IT Program Manager (OCFO Transformation Management Organization)",
+    "reason": "stale — Published: 10/14/2026; Applicants must meet all qualifications and eligibility requirements by the closing date of the announcement, 10/26/2026. Description: provide executive-level leadership, technical direction, and enterprise architecture governance for OCFO-led technology modernization initiatives (New Orleans, LA). 14 days old and already closed. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "U.S. Department of Agriculture",
+    "role": "IT Specialist (Enterprise Architecture) - FSIS OCIO",
+    "reason": "stale — Published: 05/13/2026 — duties architect-level (Serves as a subject matter expert guiding IT Transformation initiatives; Develop strategic enterprise architecture), but May posting outside 7-day window. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "U.S. Department of Agriculture",
+    "role": "Information Technology Specialist (FNS OCIO)",
+    "reason": "stale — Published: 10/08/2026 — duties are GS-9-level customer support / application software / policy support (Provides Technical Support to customers, troubleshoots hardware and software issues), not architect-level; also stale. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "Department of Commerce - NOAA",
+    "role": "IT Specialist (Systems Analysis) - NESDIS",
+    "reason": "stale — Published: 08/24/2026; This announcement is open to current Department of Commerce (DOC) employees on a permanent, competitive service appointment; duty locations Suitland, MD; College Park, MD; Asheville, NC; Boulder, CO with no remote designation. Duties include: Serve as a senior technical authority architecting and directing the integration of enterprise cloud services. Stale + not-remote + internal-only. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "Department of Commerce - USPTO",
+    "role": "IT Specialist (APPSW/OS/SYSADMIN) - Senior IT Specialist",
+    "reason": "not-remote — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role, as it includes on site functions that must be performed in person. Published: 09/01/2026 (also stale). Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "Department of Commerce",
+    "role": "IT Specialist (GS-12, Configuration Management)",
+    "reason": "stale — This position requires a SECRET CLEARANCE; Design and maintain the Configuration Management (CM) plan, configuration item hierarchy, identification practices, baselines, and status accounting. Published: 10/19/2026 (9 days old, outside window; GS-12 CM role, not architect-level, active clearance required). Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
+   },
+   {
+    "company": "U.S. Department of Labor",
+    "role": "IT Specialist (Data Management/Enterprise Architecture)",
+    "reason": "not-remote — Selectee(s) will report to an assigned DOL office location on a regular basis and be eligible for telework as determined by agency policy. This is not a remote position. Current DOL policy requires on-site work at least 5 days per pay period. Published: 10/09/2024 (also stale). Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "6:51 PM"
    }
   ],
   "Dice": [
@@ -6023,5 +6088,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T23:50:35Z"
+ "lists_generated_at": "2026-10-28T23:52:37Z"
 }
