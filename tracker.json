@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T17:22:48Z",
+ "generated_at": "2026-10-28T17:25:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T17:15:40Z",
+  "last_activity_at": "2026-10-28T17:24:48Z",
   "progress": {
    "pools": 21,
-   "covered_units": 100,
+   "covered_units": 120,
    "total_units": 1218,
-   "pct": 8
+   "pct": 10
   },
   "families_covered": 20,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 81,
-  "evaluated": 81
+  "rejected": 98,
+  "evaluated": 98
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 84,
+  "evaluated": 100,
   "filed": 0,
   "parked": 0,
-  "rejected": 84,
+  "rejected": 100,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W4",
   "W20"
  ],
  "lanes": {
@@ -103,24 +101,24 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -273,7 +271,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T17:22:48Z",
+   "heartbeat_at": "2026-10-28T17:25:09Z",
    "detail": "Employers 5/31"
   }
  },
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "10 of 612 units done",
+   "detail": "12 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,7 +541,7 @@
    }
   ]
  },
- "note": "Last activity 12:15 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 12:24 PM CT · 1 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W20 · Title 11 of 58 · Domain Architect",
@@ -577,22 +575,41 @@
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
-  "Employer sites (commonspirit.careers)": [
+  "Employer sites": [
    {
     "company": "CommonSpirit Health",
     "role": "Solution Architect I",
-    "reason": "hands-on — This critical position demands a blend of hands-on Linux administration expertise—including advanced scripting, automation, and troubleshooting—within a high-performance computing (HPC) environment",
-    "where": "Employer sites (commonspirit.careers)",
-    "time": "11:18 AM"
-   }
-  ],
-  "Employer sites": [
+    "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "cloud-scope — sets the technical direction for how workloads are designed, placed, secured, and operated on AWS as the primary platform, with GCP and Azure supported where business context requires.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
    {
     "company": "Microsoft",
     "role": "Cloud Solution Architect - Cloud & AI Infrastructure",
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "12:04 PM"
+   },
+   {
+    "company": "Providence",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions, Virtual",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — Knowledge of Cloud Computing (AWS/Azure); Cloud Security; DevSecOps; Agile; Infrastructure as Code",
+    "where": "Employer sites",
+    "time": "12:24 PM"
    },
    {
     "company": "Wells Fargo",
@@ -936,6 +953,83 @@
     "reason": "experience-mismatch — The Solution Architect, Marketing Operations will own a set of business capabilities in support of The Home Depot's campaign and audience activation areas.",
     "where": "Employer sites",
     "time": "12:15 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Consulting Cloud Architect",
+    "reason": "cloud-scope — Position will be responsible for design, build, and operation of Google Cloud Platform (GCP) components, including services and tools to meet the business needs.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Enterprise Architect",
+    "reason": "stale — The Enterprise Architect is the principal architectural authority and visionary responsible for establishing the long-term technological strategy for HCA Healthcare.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Sr. Director, Enterprise Solution Architecture",
+    "reason": "pay-outside-band — Salary: $146,000 - $248,200 per year",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Solution Architect - Remote",
+    "reason": "stale — You'll enjoy the flexibility to work remotely * from anywhere within the U.S. as you take on some tough challenges.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "UnitedHealth Group",
+    "role": "Enterprise Data Warehouse (EDW) Architect - OI State Government Solutions - Remote",
+    "reason": "hands-on — Hands-on development experience with Python and advanced SQL, including automation, data processing, troubleshooting, and code review",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "UnitedHealth Group",
+    "role": "Manager, Advisory Services - Cloud Architect - Remote",
+    "reason": "stale — If you are a Cloud Architect & Enterprise Architect who takes pride in what you deliver and passionate about developing strategy for migration in the cloud",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Data Architect",
+    "reason": "pay-outside-band — The Principal Data Architect is the senior individual contributor accountable for data architecture across Aetna Technology.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Distinguished Architect - Applied Artificial Intelligence",
+    "reason": "pay-outside-band — Broad (and hands-on) technology expertise in the following areas: GenAI models, AI pipelines, model fine tuning, prompt engineering, Retrieval-Augmented Generation architectures",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "The Cigna Group",
+    "role": "Head of Enterprise Architecture - Managing Director, Evernorth Health Services",
+    "reason": "pay-outside-band — 209,600 - 349,300 USD / yearly",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "The Cigna Group",
+    "role": "Solution Architect",
+    "reason": "stale — Lead Solution Architect who will work closely on IOH applications architecture as part of its digital transformation and modernisation.",
+    "where": "Employer sites",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Lead Technology Enterprise Architect",
+    "reason": "stale — Lead Technology Enterprise Architect at Centene proactively and holistically guides enterprise leaders",
+    "where": "Employer sites",
+    "time": "12:24 PM"
    }
   ],
   "USAJOBS": [
@@ -1193,6 +1287,22 @@
     "reason": "pay-outside-band — $8,488.00 - $11,375.00",
     "where": "CalCareers",
     "time": "12:13 PM"
+   }
+  ],
+  "Dice": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "Principal IT Solutions Architect",
+    "reason": "stale — Remote eligible.",
+    "where": "Dice",
+    "time": "12:24 PM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Cloud Strategist / Architect",
+    "reason": "stale — Location: Remote",
+    "where": "Dice",
+    "time": "12:24 PM"
    }
   ]
  },
@@ -2332,5 +2442,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T17:22:48Z"
+ "lists_generated_at": "2026-10-28T17:25:09Z"
 }
