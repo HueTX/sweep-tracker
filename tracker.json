@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-28T20:46:15Z",
+ "generated_at": "2026-10-28T20:48:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-28T20:39:59Z",
+  "last_activity_at": "2026-10-28T20:47:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
-  "rejected": 415,
-  "evaluated": 423
+  "parked": 6,
+  "rejected": 422,
+  "evaluated": 429
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 419,
+  "evaluated": 425,
   "filed": 0,
-  "parked": 8,
-  "rejected": 411,
+  "parked": 6,
+  "rejected": 418,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W3",
-  "W4"
+  "W1",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,46 +80,46 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-28T20:48:37Z",
+   "detail": "Employers 45/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 35/39"
+   "detail": "Employers 40/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": null,
+   "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-28T20:46:15Z",
-   "detail": "Employers 40/32"
+   "heartbeat_at": null,
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -224,12 +223,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-28T20:48:37Z",
    "detail": "Employers 45/59"
   },
   "W17": {
@@ -304,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "98 of 612 units done",
+   "detail": "101 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
+   "state": "active",
+   "detail": "1 of 2 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-28T15:21:17Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -543,18 +542,18 @@
    }
   ]
  },
- "note": "Last activity 3:39 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 3:47 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "label": "W1",
+  "headline": "W1 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -626,20 +625,6 @@
     "reason": "not-evaluated — Pay $106,400-$222,600 (top in band); comparable Microsoft CSA JDs in same search are hybrid: This role is flexible in that you can work up to 50% from home. Cannot confirm 100% remote US or full duties from employer site — do not file on aggregator data alone.",
     "where": "Employer sites",
     "time": "2:23 PM"
-   },
-   {
-    "company": "GuideWell / Florida Blue",
-    "role": "Sr. AI Architect (Cloud Focused)",
-    "reason": "not-evaluated — Must be able to travel to multiple locations for work (i.e. travel to attend meetings, events, conferences).",
-    "where": "Employer sites",
-    "time": "2:41 PM"
-   },
-   {
-    "company": "Mayo Clinic",
-    "role": "IT Cloud Architect",
-    "reason": "not-evaluated — This position is 100% remote within the United States.",
-    "where": "Employer sites",
-    "time": "3:10 PM"
    }
   ]
  },
@@ -665,20 +650,6 @@
     "reason": "stale — This position will be hybrid",
     "where": "Employer sites",
     "time": "2:23 PM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Architect V, Integration",
-    "reason": "stale — Worker Location: Flexible",
-    "where": "Employer sites",
-    "time": "3:10 PM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Healthcare Technology Solutions Architect",
-    "reason": "stale — Job Number 1443265  Date Posted 09/10/2026",
-    "where": "Employer sites",
-    "time": "2:44 PM"
    },
    {
     "company": "Mayo Clinic",
@@ -747,20 +718,6 @@
     "company": "Highmark",
     "role": "Principal Enterprise Cloud Architect",
     "reason": "stale — Office- or Remote- based",
-    "where": "Employer sites",
-    "time": "2:41 PM"
-   },
-   {
-    "company": "GuideWell / Florida Blue",
-    "role": "Enterprise Cloud Architect",
-    "reason": "not-remote — This position offers a hybrid work arrangement which combines flexibility with in office engagement. Team schedules are determined based on role requirements and business needs. Travel to and from our corporate offices may be required.",
-    "where": "Employer sites",
-    "time": "2:41 PM"
-   },
-   {
-    "company": "Independence Blue Cross",
-    "role": "Director, Enterprise IT Architecture - Hybrid (PA/NJ/DE)",
-    "reason": "not-remote — Independence has implemented a \"Hybrid\" model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday). This role is designated as a role that fits into the \"Hybrid\" model.",
     "where": "Employer sites",
     "time": "2:41 PM"
    },
@@ -2270,18 +2227,27 @@
     "time": "3:10 PM"
    },
    {
-    "company": "Cleveland Clinic",
-    "role": "Cybersecurity Architect",
-    "reason": "stale — Must have the highest level of experience in security operations, cyber security tools, intrusion detection, secure networks and current state-of-the-art cybersecurity technologies, standards, policies, procedures.",
-    "where": "Employer sites",
-    "time": "3:10 PM"
-   },
-   {
     "company": "UPMC",
     "role": "Senior Architect, IT",
     "reason": "stale — Job Location: Work from Home Opportunity! Must be able to work eastern standard.",
     "where": "Employer sites",
     "time": "3:10 PM"
+   }
+  ],
+  "Employer sites (kaiserpermanentejobs.org)": [
+   {
+    "company": "Kaiser Permanente",
+    "role": "Architect V, Integration",
+    "reason": "stale — Job Number 1445903  Date Posted 09/17/2026",
+    "where": "Employer sites (kaiserpermanentejobs.org)",
+    "time": "3:47 PM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Healthcare Technology Solutions Architect",
+    "reason": "stale — Job Number 1443265  Date Posted 09/10/2026",
+    "where": "Employer sites (kaiserpermanentejobs.org)",
+    "time": "3:47 PM"
    }
   ],
   "BuiltIn": [
@@ -2580,6 +2546,13 @@
     "reason": "stale — Own the Aetna Technology AI reference architectures — model serving, multi-model orchestration, retrieval, and evaluation — across AWS-primary and multicloud infrastructure.; The typical pay range for this role is: $144,200.00 - $288,400.00",
     "where": "DailyRemote",
     "time": "12:57 PM"
+   },
+   {
+    "company": "Highmark Health (enGen)",
+    "role": "Lead Architect (Lead Enterprise Architect)",
+    "reason": "stale — Published: 2026-07-28T15:00:50.000Z",
+    "where": "DailyRemote",
+    "time": "3:47 PM"
    }
   ],
   "Ladders": [
@@ -2837,6 +2810,13 @@
     "time": "12:56 PM"
    },
    {
+    "company": "Independence Blue Cross",
+    "role": "Director, Enterprise IT Architecture - Hybrid (PA/NJ/DE)",
+    "reason": "not-remote — Independence has implemented a \"Hybrid\" model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday).",
+    "where": "Dice",
+    "time": "3:47 PM"
+   },
+   {
     "company": "CommonSpirit Health",
     "role": "Principal IT Solutions Architect",
     "reason": "stale — Remote eligible.",
@@ -2888,6 +2868,43 @@
     "time": "12:57 PM"
    }
   ],
+  "Built In": [
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Information Systems - Databricks - Remote",
+    "reason": "stale — Published: 2026-08-24",
+    "where": "Built In",
+    "time": "3:47 PM"
+   },
+   {
+    "company": "GuideWell / Florida Blue",
+    "role": "Enterprise Cloud Architect",
+    "reason": "stale — This position offers a hybrid work arrangement which combines flexibility with in office engagement.",
+    "where": "Built In",
+    "time": "3:47 PM"
+   },
+   {
+    "company": "Health Care Service Corporation (BCBS)",
+    "role": "Infrastructure Engineer-SCCM/Intune Architect",
+    "reason": "stale — Published: 2025-06-23",
+    "where": "Built In",
+    "time": "3:47 PM"
+   },
+   {
+    "company": "Highmark Health (enGen)",
+    "role": "Principal Infrastructure Architect",
+    "reason": "stale — Published: 2025-05-31",
+    "where": "Built In",
+    "time": "3:47 PM"
+   },
+   {
+    "company": "Highmark Health (enGen)",
+    "role": "Information Security Architect - Data Engineering & Security",
+    "reason": "stale — Published: 2026-10-02",
+    "where": "Built In",
+    "time": "3:47 PM"
+   }
+  ],
   "FedEx Careers": [
    {
     "company": "FedEx",
@@ -2925,6 +2942,13 @@
     "reason": "not-remote — Workplace Type: Hybrid",
     "where": "DiversityJobs",
     "time": "12:57 PM"
+   },
+   {
+    "company": "GuideWell / Florida Blue",
+    "role": "Sr. AI Architect (Cloud Focused)",
+    "reason": "experience-mismatch — 6+ years related work experience as Solutions Architect working on progressively complex IT projects spanning across domains, including multiple AI-related technologies.",
+    "where": "DiversityJobs",
+    "time": "3:47 PM"
    }
   ],
   "LGBTQCareerNetwork": [
@@ -3509,6 +3533,15 @@
     "time": "3:21 PM"
    }
   ],
+  "Built In / Cleveland Clinic": [
+   {
+    "company": "Cleveland Clinic",
+    "role": "Cybersecurity Architect",
+    "reason": "stale — Published: 2025-11-04",
+    "where": "Built In / Cleveland Clinic",
+    "time": "3:47 PM"
+   }
+  ],
   "BuiltIn / Capital One careers": [
    {
     "company": "Capital One",
@@ -3633,6 +3666,15 @@
     "reason": "closed — Job post no longer accepts applications",
     "where": "W5",
     "time": "3:39 PM"
+   }
+  ],
+  "FlexJobs (employer route); also Dice/Jobright": [
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Artificial Intelligence Security - AI Implementation",
+    "reason": "hands-on — Proficient in Python and familiarity with data science and AI libraries.",
+    "where": "FlexJobs (employer route); also Dice/Jobright",
+    "time": "3:47 PM"
    }
   ]
  },
@@ -4744,9 +4786,7 @@
    "Workday",
    "Accenture",
    "Ochsner Health",
-   "Exelon",
-   "GuideWell / Florida Blue",
-   "Mayo Clinic"
+   "Exelon"
   ],
   "W9": [
    "Oracle",
@@ -4774,5 +4814,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-28T20:46:15Z"
+ "lists_generated_at": "2026-10-28T20:48:37Z"
 }
