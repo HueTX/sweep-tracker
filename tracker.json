@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T05:08:39Z",
+ "generated_at": "2026-10-29T05:10:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T05:06:11Z",
+  "last_activity_at": "2026-10-29T05:08:45Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 24,
-  "rejected": 1090,
-  "evaluated": 1114
+  "rejected": 1112,
+  "evaluated": 1136
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 7,
+  "evaluated": 46,
   "filed": 0,
   "parked": 0,
-  "rejected": 7,
+  "rejected": 46,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -224,35 +220,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T05:08:39Z",
-   "detail": "Employers 110/59"
+   "heartbeat_at": null,
+   "detail": "Employers 115/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T05:08:39Z",
-   "detail": "Employers 110/54"
+   "heartbeat_at": null,
+   "detail": "Employers 115/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T05:08:39Z",
-   "detail": "Employers 105/45"
+   "heartbeat_at": null,
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "244 of 612 units done",
+   "detail": "247 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 12:06 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W18 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 12:08 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -579,6 +569,13 @@
  "today_rejected": {
   "Employer sites": [
    {
+    "company": "FDIC",
+    "role": "Senior Cloud Solution Architect, CG-2210-14",
+    "reason": "stale — Published: 03/31/2026 — outside the 7-day eligibility window (stale)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
     "company": "Devon Energy",
     "role": "Solution Architecture Advisor",
     "reason": "hands-on — Reading and writing software in modern languages such as C#.NET, Java, Javascript, SQL, etc. workarounds tried: employer's JD text (governing) — hands-on coding/implementation as a duty of the role.",
@@ -591,6 +588,132 @@
     "reason": "stale — Lead infrastructure modernization initiatives, including cloud adoption, automation, security enhancements, and platform optimization — listing published 2026-08-14, outside the 7-day eligibility window, no repost evidence.",
     "where": "Employer sites",
     "time": "12:06 AM"
+   },
+   {
+    "company": "PSEG",
+    "role": "Enterprise Architect - IT Infrastructure",
+    "reason": "not-remote — Work Location Category: Hybrid Fixed; require employees to live within a commutable distance and be onsite fixed days each week",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "PSEG",
+    "role": "IT Solution Architect Principal II - Reporting & Analytics",
+    "reason": "not-remote — Work Location Category: Hybrid; Hybrid: A blend of remote and onsite work, with at least three onsite days per week required.",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Consolidated Edison",
+    "role": "Junior Enterprise Architect - Cloud",
+    "reason": "stale — Published 2026-03-18 — stale; junior-level role (Master's Degree and a minimum 2 years of relevant full-time work experience)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Avangrid",
+    "role": "Lead Cloud Architect",
+    "reason": "stale — Job Title: Lead Cloud Architect In office Location: Orange, CT; Job Posting End Date August-30-2025 — stale and in-office",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Alliant Energy",
+    "role": "Lead Solution OT Architect",
+    "reason": "experience-mismatch — Proven experience in OT architecture within utility or industrial environments; Extensive knowledge of SCADA, AMI, PI Historians, DCS (Ovation), and field device integration — OT/SCADA core, not Azure/cloud enterprise architecture",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — #LI-Hybrid; Location 4900 Tiedeman Road, Brooklyn Ohio; Job Posting Expiration Date: 07/03/2026",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Client Enablement Solutions Architect – Product, Charles River Development, Vice President",
+    "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "AMD",
+    "role": "Enterprise Software Architect",
+    "reason": "stale — As an Enterprise Software Architect, you will provide technical leadership in GPU architecture and production software stacks enablement — page crawled 2026-04-08, stale; GPU/silicon software, not IT/cloud enterprise architecture",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "CFPB",
+    "role": "Cloud Platform Lead",
+    "reason": "stale — Published: 09/02/2021 — stale",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Stanley Black & Decker",
+    "role": "Solution Architect",
+    "reason": "stale — Full-Time Updated 2 years ago — stale (remote text otherwise eligible)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Broadcom",
+    "role": "Solution Architect, Broadcom Software",
+    "reason": "stale — This is a quota-carrying position located in Broadcom's office in Plano, TX. Solution Architects are expected to be in the office every day. Published 2025-12-31 — stale, in-office, OTE top $279,000 above band",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Alliant Energy",
+    "role": "Senior Cloud Engineer",
+    "reason": "pay-outside-band — Pay Range: $85,000-$116,000 — top below the $160,000 band floor (also posted 2026-07-10, stale)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Danaher",
+    "role": "Principal Architect, Manufacturing Security",
+    "reason": "stale — Published: 2026-08-21 — stale; This position is part of the Corporate Information Security and will be located as Remote in Europe (not US remote)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "3M",
+    "role": "Principal Cloud Engineering",
+    "reason": "stale — Published: 2026-04-13 — stale; non-US onsite role (at least four days per week at 3M Sumaré) and AWS-first",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Fortive",
+    "role": "Principal Cloud Architect",
+    "reason": "stale — Published: 2026-08-31 — stale; Define and own the cloud architecture vision, standards, and roadmap for Intelex's AWS-first (multi-cloud aware) infrastructure",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "FDIC",
+    "role": "Lead IT Specialist, CG-2210-15",
+    "reason": "stale — Published 12/18/2024 — stale; also open only to status/competitive-service applicants, which the candidate (never a US government employee) does not meet",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "EPA",
+    "role": "IT Specialist",
+    "reason": "stale — Published: 03/23/2026 — stale; This is an office-centered position--you must physically report to one of the duty stations stated in this announcement on a regular basis",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "FDIC",
+    "role": "IT Specialist, CG-2210-13 FPL 14",
+    "reason": "stale — Published: 10/22/2024 — stale",
+    "where": "Employer sites",
+    "time": "12:08 AM"
    },
    {
     "company": "AMD",
@@ -626,6 +749,146 @@
     "reason": "engineer-level — The Systems Administrator is a foundational IT position responsible for the technical planning, design, implementation, performance management, security, and recovery process for IT infrastructure systems that support business applications.",
     "where": "Employer sites",
     "time": "12:06 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Application & AI Solutions Architect, Vice President",
+    "reason": "not-remote — Onsite 4 days a week in office and one day remote",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Senior Platform Solution Architect",
+    "reason": "aws-first — deep expertise in Microservices, AI Gateways, Data & Analytic OLAP Platforms (Databricks), AWS architecture; 3+ years of AWS Cloud, Databricks architecture and solutions",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Public Cloud Architect",
+    "reason": "stale — Published 2024-01-24; As a Senior Platform Engineer, you will be responsible for developing automation and software solutions",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Cloud Modernization Enablement Architect",
+    "reason": "stale — Cloud experience (Azure preferred); Salary Range: $130,530 - 228,380 USD — no remote language and no fresh posting date evidence (conflicting crawls 16 hours vs 128 days), not PASS-able",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Principal, Cloud SW Engineer (Finance)",
+    "reason": "hands-on — Develop Infrastructure as code using Terraform for automated provisioning and management of cloud resources; 10+ years of experience in core application development",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Lead, Arch Solutions",
+    "reason": "stale — Published 2026-09-08; We are seeking an experienced Azure Data Engineer to design, build, and operate secure, scalable, and reliable cloud data solutions; Advanced proficiency in Python, PySpark, and SQL",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Principal Network Architect",
+    "reason": "pay-outside-band — Salary Range: $137,400 - 233,600 USD — top $233,600 above the $230,000 cap; Published 2026-09-01 (also stale)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Huntington Bancshares",
+    "role": "Senior Application Architect",
+    "reason": "stale — Full-Time Updated 9 months ago; Workplace Type: Office (Columbus, OH)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "BNY Mellon",
+    "role": "Director, Solution Architect",
+    "reason": "pay-outside-band — The base salary for this position is expected to be between $127,000 and $250,000 per year — top $250,000 above the $230,000 cap; role located in New York, NY",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "AI-Ready Knowledge Architect",
+    "reason": "stale — Published 2026-06-05; Job Posting Expiration Date: 07/18/2026 — expired/stale (remote and pay would otherwise pass)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Cloud Network Senior Engineer",
+    "reason": "not-remote — Work Location Category - Hybrid (2+ days); #LI-Hybrid; base salary $69,000.00 - $105,000.00 (top also below band floor); posting expired 04/20/2026",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Berkshire Hathaway Energy",
+    "role": "Sr Cloud Automation Engineer",
+    "reason": "not-remote — On-site; This role focuses heavily on Infrastructure-as-Code (IaC), CI/CD pipeline engineering, configuration management, security automation",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "OCC",
+    "role": "Supervisory Information Technology Specialist, NB-VII",
+    "reason": "stale — Published 12/17/2024 — stale",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "State of Texas (HHSC)",
+    "role": "Cloud Architect",
+    "reason": "closed — Sorry, this posting is no longer available.",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Texas Instruments",
+    "role": "Junior Cloud Engineer – Government Cloud & Cybersecurity",
+    "reason": "clearance — Must have an active and transferable U.S. government issued Secret security clearance at the time of application — active clearance required; also junior-level and stale (2026-07-27)",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Qualcomm",
+    "role": "Infrastructure Engineer - Edge AI Platform",
+    "reason": "stale — Published 2026-09-16 — stale; Qualcomm Technologies Netherlands B.V. (not US remote); hands-on infrastructure/SRE engineering",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Advisory Solution Consultant - East",
+    "reason": "pay-outside-band — For positions in this location, we offer a base pay of $179,000 - $295,400 — top above the $230,000 cap; also pre-sales/solution consulting and stale crawl",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Senior Technical Consultant - ServiceNow IT Workflows",
+    "reason": "stale — Published 2026-03-22 — stale; 5+ years of hands-on configuration/development experience with enterprise technologies; Travel up to 50% annually",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Senior Technology Consultant, CRM and Industry Workflows",
+    "reason": "stale — Published 2026-01-15 — stale; Perform hands on development on the ServiceNow platform leveraging all ServiceNow technologies and capabilities",
+    "where": "Employer sites",
+    "time": "12:08 AM"
+   },
+   {
+    "company": "Blue Shield of California",
+    "role": "Product Manager, Principal Salesforce Architect (Data Cloud & Marketing Cloud)",
+    "reason": "not-remote — For most teams, this means coming into the office two days per week. (Also Salesforce Data Cloud / product-management core, not Azure/cloud enterprise architecture; pay top $223k in band.) workarounds tried: employer's JD via aggregator mirror (governing duties text) — stated hybrid office schedule.",
+    "where": "Employer sites",
+    "time": "12:08 AM"
    }
   ]
  },
@@ -1714,7 +1977,6 @@
    "PNC Financial",
    "Morgan Stanley",
    "American Express",
-   "State Street",
    "MassMutual",
    "TIAA",
    "Prudential Financial",
@@ -1772,5 +2034,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T05:08:39Z"
+ "lists_generated_at": "2026-10-29T05:10:33Z"
 }
