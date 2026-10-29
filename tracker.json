@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T02:29:06Z",
+ "generated_at": "2026-10-29T02:31:05Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T02:18:22Z",
+  "last_activity_at": "2026-10-29T02:30:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 21,
-  "rejected": 860,
-  "evaluated": 881
+  "rejected": 871,
+  "evaluated": 892
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 870,
+  "evaluated": 881,
   "filed": 0,
   "parked": 21,
-  "rejected": 849,
+  "rejected": 860,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W19"
+  "W2",
+  "W3",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -80,34 +81,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 95/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T02:29:06Z",
-   "detail": "Employers 90/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T02:31:05Z",
    "detail": "Employers 85/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T02:31:05Z",
    "detail": "Employers 90/73"
   },
   "W4": {
@@ -256,23 +257,23 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T02:29:06Z",
-   "detail": "Employers 85/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 95/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T02:31:05Z",
    "detail": "Employers 95/31"
   }
  },
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "198 of 612 units done",
+   "detail": "201 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 9:18 PM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 9:30 PM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W2",
+  "headline": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -839,6 +840,13 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "12:04 PM"
+   },
+   {
+    "company": "FDIC",
+    "role": "Senior Cloud Solution Architect, CG-2210-14",
+    "reason": "stale — Published: 10/22/2024 on USAJobs - not a current opening; no fully-remote statement on the opened page. Duty: Leads FDIC in the development, testing, configuration of Cloud-based enterprise-wide technologies, including the development of FDIC Microsoft Azure Cloud computing services such Infrastructure as a Service (IaaS), Platform as a Service (PaaS)",
+    "where": "Employer sites",
+    "time": "9:30 PM"
    },
    {
     "company": "GSA",
@@ -4077,9 +4085,9 @@
    {
     "company": "TJX Companies",
     "role": "Senior Enterprise Architect - ServiceNow - Remote US available",
-    "reason": "stale — Serve as the primary architect for the ServiceNow platform; This position has a starting salary range of $124,800.00 to $162,300.00 per year. Remote-US titled but stale (crawls 267-287 days ago). Workarounds tried: The Muse / Career.io full JD.",
+    "reason": "stale — Posted: 2026-01-17T18:46:09 on The Muse; no current listing found on jobs.tjx.com. Duty: Serve as the primary architect for the ServiceNow platform (5+ years ServiceNow platform architecture required - no ServiceNow experience on record).",
     "where": "Employer sites",
-    "time": "7:14 PM"
+    "time": "9:30 PM"
    },
    {
     "company": "Ross Stores",
@@ -5130,6 +5138,76 @@
     "reason": "not-remote — #LI-Hybrid",
     "where": "Employer sites",
     "time": "9:16 PM"
+   },
+   {
+    "company": "Dollar Tree",
+    "role": "IT Cybersecurity Architect",
+    "reason": "not-remote — This position is for full-time, onsite employment at the Family Dollar Chesapeake, VA Store Support Center.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "TJX Companies",
+    "role": "Principal Business Architect - Remote Available",
+    "reason": "stale — Only a 213-day-old aggregator copy found (crawled 2026-03-29); no current listing found on official TJX careers site (site:jobs.tjx.com returned no results).",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Macy's",
+    "role": "Enterprise Application Architect",
+    "reason": "gcp-first — Cloud Architecture – Proven track record of cloud adoption/migration (especially to GCP), including knowledge of serverless architecture and cloud-native services.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "CFPB",
+    "role": "Cloud Platform Lead",
+    "reason": "stale — Published: 09/02/2021 on USAJobs - not a current opening. Platforms named: These technical strategies operate on diverse delivery platforms, including O365, Salesforce, Amazon Web Services (AWS), ServiceNow, and on-premise solutions",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "U.S. Department of State",
+    "role": "Information Technology Specialist (OIG, Enterprise Data Analytics)",
+    "reason": "clearance — Must be able to obtain and maintain a Top Secret security clearance. Open only to U.S. Department of State career or career conditional status employees in the competitive service; location Charleston, South Carolina 29405, no remote statement.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Gap Inc.",
+    "role": "Principal Infrastructure Architect",
+    "reason": "not-remote — We are open to candidates in the San Francisco, CA and Dallas, TX markets. Compensation ranges will adjust based on candidate location.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Gap Inc.",
+    "role": "Principal Enterprise & Solution Architect - Omni",
+    "reason": "pay-outside-band — Salary Range: $201,700 - $267,300 USD (top $267,300 above $230,000 ceiling). JD: Define architectural principles to scale AI/ML use cases, leveraging cloud-native platforms (GCP, AWS), serverless models, and data mesh strategies.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Gap Inc.",
+    "role": "Principal Enterprise Architect - Data & AI",
+    "reason": "stale — Published: 2025-06-03; no fully remote, remote or hybrid, or work from anywhere language appears in the JD opened. Duty: As Principal Enterprise Architect – Data & AI, you will lead the architectural strategy, solution design, and roadmap execution across our enterprise Data & AI Domain.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Nike",
+    "role": "Principal Solution Architect (Consumer Product and Innovation)",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $138,400.00 in our lowest geographic market to $327,200.00 in our highest geographic market (top $327,200 above $230,000 ceiling). Remote wording was eligible: Open to remote work except in South Dakota, Vermont and West Virginia.",
+    "where": "Employer sites",
+    "time": "9:30 PM"
+   },
+   {
+    "company": "Lululemon",
+    "role": "Senior Solution Architect - Salesforce Service Cloud",
+    "reason": "not-remote — In-person collaboration and connection is important to our culture. Work is performed onsite, minimum 4 days per week. (#LI-Onsite; Vancouver, BC mirrors)",
+    "where": "Employer sites",
+    "time": "9:30 PM"
    }
   ],
   "BuiltIn": [
@@ -7958,5 +8036,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T02:29:06Z"
+ "lists_generated_at": "2026-10-29T02:31:05Z"
 }
