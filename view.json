@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:14:08Z",
+ "generated_at": "2026-10-29T11:16:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:13:41Z",
+  "last_activity_at": "2026-10-29T11:15:32Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 37,
-  "rejected": 1680,
-  "evaluated": 1717
+  "rejected": 1693,
+  "evaluated": 1730
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 646,
+  "evaluated": 659,
   "filed": 0,
   "parked": 13,
-  "rejected": 633,
+  "rejected": 646,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:14:08Z",
-   "detail": "Employers 230/54"
+   "heartbeat_at": null,
+   "detail": "Employers 235/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "499 of 612 units done",
+   "detail": "500 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 6:13 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 6:15 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
