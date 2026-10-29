@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:32:04Z",
+ "generated_at": "2026-10-29T11:34:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:31:36Z",
+  "last_activity_at": "2026-10-29T11:34:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 44,
-  "rejected": 1732,
-  "evaluated": 1776
+  "parked": 45,
+  "rejected": 1744,
+  "evaluated": 1789
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 704,
+  "evaluated": 716,
   "filed": 0,
-  "parked": 20,
-  "rejected": 684,
+  "parked": 21,
+  "rejected": 695,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W5",
-  "W6"
+  "W16",
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -103,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:32:04Z",
-   "detail": "Employers 240/73"
+   "heartbeat_at": null,
+   "detail": "Employers 245/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,24 +125,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:32:04Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:32:04Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -224,34 +224,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:34:28Z",
    "detail": "Employers 245/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:34:28Z",
    "detail": "Employers 240/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:34:28Z",
    "detail": "Employers 245/45"
   },
   "W19": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "509 of 612 units done",
+   "detail": "512 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:31 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 6:34 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -695,6 +695,13 @@
     "reason": "not-evaluated — Architecture strategies/blueprints, multi-cloud AWS/Azure/GCP, no pay published; JD itself never confirms remote (only the ~6-month-old mirror listing asserts it), needs live Fiserv portal confirmation.",
     "where": "Employer sites",
     "time": "6:28 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Platform Architect - Lilly Value & Access",
+    "reason": "not-evaluated — Prior experience architecting SaaS and cloud-based solutions, preferably on AWS; AWS certifications (e.g., AWS Solutions Architect - Associate or Professional); full JD states no remote/US-remote status, so remote eligibility cannot be confirmed; pay $64,500-$185,000.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
    }
   ],
   "Maryland state portal": [
@@ -1277,6 +1284,13 @@
     "reason": "closed — Thanks for your interest in the Enterprise Software Integration Architect position. Unfortunately this position has been closed",
     "where": "Employer sites",
     "time": "6:23 AM"
+   },
+   {
+    "company": "Merck & Co.",
+    "role": "Associate Director Salesforce Platform Architect",
+    "reason": "stale — Location Hyderabad, Telangana, India; Hybrid work arrangements are available; Deadline 10/30/25, updated 1 year ago.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
    },
    {
     "company": "Avangrid",
@@ -4987,6 +5001,76 @@
     "reason": "hands-on — 50% of hands-on coding required; Hands-on architect role that includes coding of SaaS application with 3D visualization; Work Arrangement: Hybrid (Belmont, MA). Workarounds tried: employer's posting via Simplify mirror, alternate routes in search, no architect-level remote alternate posting found.",
     "where": "Employer sites",
     "time": "6:31 AM"
+   },
+   {
+    "company": "ChampionX",
+    "role": "Principal Engineer II",
+    "reason": "experience-mismatch — ChampionX has an immediate need for a Principal Engineer II located in Sugar Land, TX; Lead an integrated project team for one high complexity project up to 10 MM USD; Seven years of managing projects up to 10 MM US in specialty chemicals, petrochemicals, or refining industries; Chemical Engineering or Mechanical Engineering preferred - chemical project/construction engineering, not IT/cloud architecture, on-site Sugar Land.",
+    "where": "Employer sites",
+    "time": "6:33 AM"
+   },
+   {
+    "company": "ProPetro",
+    "role": "OT Infrastructure Specialist",
+    "reason": "engineer-level — The OT Infrastructure Specialist Collaborates with the organizations Operations Technology (OT) teams to develop and support infrastructure solutions; Minimum 3 years' of relevant experience, preferred; Manage the organization's operating environment using Microsoft based tools and systems - specialist-level Midland support role, not architect-level, not remote.",
+    "where": "Employer sites",
+    "time": "6:33 AM"
+   },
+   {
+    "company": "Johnson & Johnson",
+    "role": "Associate Director, Safety Data Solutions Architect",
+    "reason": "pay-outside-band — $137,000.00-$235,750.00; locations Horsham, PA / Titusville, NJ, #LI-Hybrid; lead the target architecture, standards, and delivery roadmap for safety analytics on Google Cloud Platform (GCP).",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "Merck & Co.",
+    "role": "Solutions Architect (RaDS)",
+    "reason": "stale — Job Posting End Date 08/16/2024; employees in office-based positions in the U.S. will be working a Hybrid work consisting of three total days on-site per week; Proficient experience with Cloud Services and cloud computing environments (Amazon preferred).",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Sr. AI Solution Architect",
+    "reason": "stale — Published 2025-07-10; Ability to work on a hybrid schedule in Indianapolis, IN (2 days remote); Plan and design robust, scalable, and high-performance data architectures and solutions using AWS cloud services.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Solutions & Data Architect",
+    "reason": "stale — Position is based in Indianapolis and will travel to other global Lilly sites as required; page crawled 270 days ago; pay $124,500-$182,600.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Tech@Lilly Infrastructure Architect/Technical Lead",
+    "reason": "not-remote — Tech@Lilly Infrastructure Architect/Technical Lead - Indianapolis (IN) On-site USD 135,000 - 214,000 (JobLeads/BioSpace listing of Lilly posting). Workarounds tried: Lilly posting via JobLeads mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Senior Architect, Technology I (Senior Infrastructure Architect)",
+    "reason": "pay-outside-band — Senior Architect, Technology I North Chicago, Illinois, United States $138k-$261k/yr Hybrid Full Time; The Senior Infrastructure Architect acts as both a hands-on infrastructure platform expert; crawled 219 days ago.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Senior Cloud Architect",
+    "reason": "aws-first — Lead the architecture, design, and hands-on implementation of secure, resilient, and scalable AWS-centered solutions; Florham Park, NJ; crawled 251 days ago.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Staff Platform Engineer, AI/ML Infrastructure",
+    "reason": "hands-on — Build and maintain Python-based automation frameworks, CI/CD pipelines, and Infrastructure-as-Code (Terraform, Helm, Pulumi, AWS CDK). Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no architect-level alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:34 AM"
    }
   ],
   "State portals": [
@@ -6670,7 +6754,8 @@
    "Kyndryl",
    "Slalom",
    "Mastercard",
-   "Fiserv"
+   "Fiserv",
+   "Eli Lilly and Company"
   ],
   "W9": [
    "Oracle",
@@ -6698,5 +6783,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:32:04Z"
+ "lists_generated_at": "2026-10-29T11:34:28Z"
 }
