@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T10:06:27Z",
+ "generated_at": "2026-10-29T10:08:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T10:04:06Z",
+  "last_activity_at": "2026-10-29T10:06:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 34,
-  "rejected": 1475,
-  "evaluated": 1509
+  "rejected": 1491,
+  "evaluated": 1525
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 439,
+  "evaluated": 455,
   "filed": 0,
   "parked": 10,
-  "rejected": 429,
+  "rejected": 445,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -222,13 +224,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:06:27Z",
-   "detail": "Employers 150/59"
+   "heartbeat_at": null,
+   "detail": "Employers 155/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,34 +246,34 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:08:18Z",
    "detail": "Employers 150/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:08:18Z",
    "detail": "Employers 150/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:08:18Z",
    "detail": "Employers 155/31"
   }
  },
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "334 of 612 units done",
+   "detail": "335 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:04 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 5:06 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -951,6 +953,48 @@
     "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
     "where": "Employer sites",
     "time": "12:08 AM"
+   },
+   {
+    "company": "Franklin Templeton",
+    "role": "Software Architect",
+    "reason": "hands-on — Hands-on development, data modelling, code quality, static code analysis, unit testing, design and code reviews",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Prudential Financial",
+    "role": "Vice President, Solution Architect Engineer – PGIM Global Services",
+    "reason": "stale — This position is hybrid and requires your on-site presence on a reoccurring weekly basis 2 days per week.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Sr Architect – Finance Reporting & Enterprise Performance Management",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Prudential Financial",
+    "role": "Lead, Software Engineer Data Solution Architect (AWS)",
+    "reason": "stale — This position is hybrid and requires your on-site presence on a reoccurring weekly basis at least 3 days per week.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Lead Architect",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Aflac",
+    "role": "Solutions Engineer (Salesforce)",
+    "reason": "stale — Job Posting End Date: January 31, 2025",
+    "where": "Employer sites",
+    "time": "5:06 AM"
    },
    {
     "company": "Charles Schwab",
@@ -3275,6 +3319,76 @@
     "reason": "stale — Published: 2026-08-13T00:09:01",
     "where": "Employer sites",
     "time": "5:04 AM"
+   },
+   {
+    "company": "Franklin Templeton",
+    "role": "Solutions Architect",
+    "reason": "stale — We expect the annual salary for this position to range between $171,700-$233,800, depending on location and level of relevant experience, plus discretionary bonus.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Prudential Financial",
+    "role": "Vice President - Process Excellence Solution Architecture",
+    "reason": "pay-outside-band — The salary range for this role is from $171,500.00 to $232,000.00.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Solutions Architect",
+    "reason": "pay-outside-band — The expected salary range for this position is $115,000 - $140,000.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Senior Salesforce Solution Architect",
+    "reason": "pay-outside-band — The salary range for applicants for this position is 110,000 - 135,000.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - Corporate Technology",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "AVP, Enterprise Architecture & AI Enablement (US Technology)",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Aflac",
+    "role": "Domain Architect (Data)",
+    "reason": "stale — The salary range for this position is $85,000 - $198,000.",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Aflac",
+    "role": "Info Risk Mgmt & Gov Architect",
+    "reason": "stale — Job Posting End Date: 8/31/24",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Aflac",
+    "role": "PLADS Business Architect",
+    "reason": "stale — Posted 3 years ago",
+    "where": "Employer sites",
+    "time": "5:06 AM"
+   },
+   {
+    "company": "Principal Financial",
+    "role": "Director - Enterprise Architecture",
+    "reason": "stale — This role offers in-office, hybrid (blending at least three office days in a typical workweek), and remote work arrangements (only if residing more than 30 miles from Des Moines, IA, or Charlotte, NC).",
+    "where": "Employer sites",
+    "time": "5:06 AM"
    }
   ],
   "State portals": [
@@ -4760,9 +4874,7 @@
    "American Express",
    "MassMutual",
    "TIAA",
-   "Prudential Financial",
    "MetLife",
-   "Aflac",
    "BlackRock",
    "Aon",
    "Marsh McLennan",
@@ -4821,5 +4933,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T10:06:27Z"
+ "lists_generated_at": "2026-10-29T10:08:18Z"
 }
