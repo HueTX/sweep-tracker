@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T06:01:00Z",
+ "generated_at": "2026-10-29T06:03:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T05:51:20Z",
+  "last_activity_at": "2026-10-29T06:01:15Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 24,
-  "rejected": 1140,
-  "evaluated": 1164
+  "rejected": 1147,
+  "evaluated": 1171
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 82,
+  "evaluated": 94,
   "filed": 0,
   "parked": 0,
-  "rejected": 82,
+  "rejected": 94,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:01:00Z",
-   "detail": "Employers 105/39"
+   "heartbeat_at": null,
+   "detail": "Employers 110/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -246,24 +242,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:01:00Z",
-   "detail": "Employers 115/45"
+   "heartbeat_at": null,
+   "detail": "Employers 120/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:01:00Z",
-   "detail": "Employers 115/41"
+   "heartbeat_at": null,
+   "detail": "Employers 120/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "256 of 612 units done",
+   "detail": "259 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 12:51 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 1:01 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -719,6 +709,27 @@
     "time": "12:08 AM"
    },
    {
+    "company": "Gap Inc.",
+    "role": "Principal Infrastructure Architect",
+    "reason": "stale — Published: 2025-05-05; We are open to candidates in the San Francisco, CA and Dallas, TX markets.",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Gap Inc.",
+    "role": "Principal Enterprise & Solution Architect - Omni",
+    "reason": "stale — Published: 2025-07-15; leveraging cloud-native platforms (GCP, AWS)",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Gap Inc.",
+    "role": "Principal Enterprise Architect - Data & AI",
+    "reason": "stale — Published: 2025-06-03",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
     "company": "Broadcom",
     "role": "Solution Architect, Broadcom Software",
     "reason": "stale — This is a quota-carrying position located in Broadcom's office in Plano, TX. Solution Architects are expected to be in the office every day. Published 2025-12-31 — stale, in-office, OTE top $279,000 above band",
@@ -733,6 +744,13 @@
     "time": "12:08 AM"
    },
    {
+    "company": "Danaher",
+    "role": "Principal Data & Analytics Architect",
+    "reason": "stale — Hands-on experience with cloud data ecosystems (AWS, Azure) designing high-volume, high-availability data pipelines.",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
     "company": "Qualcomm",
     "role": "Principal Enterprise Domain Architect – Supply Chain and Finance",
     "reason": "experience-mismatch — Industry-Specific Knowledge: In-depth understanding of semiconductor manufacturing processes, global logistics, and financial reporting requirements specific to the semiconductor industry.",
@@ -742,9 +760,9 @@
    {
     "company": "Danaher",
     "role": "Principal Architect, Manufacturing Security",
-    "reason": "stale — Published: 2026-08-21 — stale; This position is part of the Corporate Information Security and will be located as Remote in Europe (not US remote)",
+    "reason": "stale — This position is part of the Corporate Information Security and will be located as Remote in Europe.",
     "where": "Employer sites",
-    "time": "12:08 AM"
+    "time": "1:01 AM"
    },
    {
     "company": "Diamondback Energy",
@@ -759,6 +777,13 @@
     "reason": "stale — Published: 2026-08-31 — stale; Define and own the cloud architecture vision, standards, and roadmap for Intelex's AWS-first (multi-cloud aware) infrastructure",
     "where": "Employer sites",
     "time": "12:08 AM"
+   },
+   {
+    "company": "Danaher",
+    "role": "Principal Product Security Architect",
+    "reason": "stale — The position reports to the SVP, Software Engineering and is part of the Software Engineering department located in Irvine, CA and will be an on-site role.",
+    "where": "Employer sites",
+    "time": "1:01 AM"
    },
    {
     "company": "FDIC",
@@ -1046,6 +1071,55 @@
     "reason": "not-remote — Hybrid Workspace — Employees engage in a combination of remote and on-site work.",
     "where": "Employer sites",
     "time": "12:51 AM"
+   },
+   {
+    "company": "Danaher",
+    "role": "IT Enterprise Architect",
+    "reason": "not-remote — It is based onsite in either Coralville, Iowa, or Fargo, North Dakota, with travel of up to 25%",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Stanley Black & Decker",
+    "role": "Blue Yonder Domain Architect",
+    "reason": "stale — Blue Yonder (Version 8.2)/JDA - MOCA, Report Writer, Jasper, Java, C+, .NET; The salary range for this position is 110,600-$178,000",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Fortive",
+    "role": "Head of Product Architecture / Chief Architect (Accruent)",
+    "reason": "pay-outside-band — The salary range for this position is $137,600-$255,600.; This position is a remote work opportunity.",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Nordstrom",
+    "role": "Senior Data Architect, Data Platform",
+    "reason": "stale — Published: 20 Oct 2024; data warehousing solutions on the cloud, with a strong focus on Google Cloud Platform (GCP)",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Nike",
+    "role": "Data Scientist/Architect - Principal",
+    "reason": "not-remote — Onsite: Mon-Thurs; Develop and code software programs, algorithms and automated processes to integrate and evaluate large datasets",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Starbucks",
+    "role": "Lead Enterprise Architect, Starbucks Technology",
+    "reason": "stale — Design application and platform architectures that enable performant and secure business-to-business integration and deployment.",
+    "where": "Employer sites",
+    "time": "1:01 AM"
+   },
+   {
+    "company": "Starbucks",
+    "role": "Enterprise Security Architect, Principal",
+    "reason": "stale — Job Posted June 29th, 2021; This job is located at Starbucks Center, 2401 Utah Ave S, Seattle, WA 98134, USA",
+    "where": "Employer sites",
+    "time": "1:01 AM"
    }
   ],
   "King County portal": [
@@ -2305,5 +2379,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T06:01:00Z"
+ "lists_generated_at": "2026-10-29T06:03:23Z"
 }
