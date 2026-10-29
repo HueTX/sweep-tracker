@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:40:41Z",
+ "generated_at": "2026-10-29T11:43:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:39:49Z",
+  "last_activity_at": "2026-10-29T11:42:35Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 48,
-  "rejected": 1789,
-  "evaluated": 1837
+  "rejected": 1794,
+  "evaluated": 1842
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 763,
+  "evaluated": 768,
   "filed": 0,
   "parked": 24,
-  "rejected": 739,
+  "rejected": 744,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W5",
-  "W19"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -103,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:40:41Z",
-   "detail": "Employers 245/73"
+   "heartbeat_at": null,
+   "detail": "Employers 250/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T11:40:41Z",
-   "detail": "Employers 248/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 252/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T11:43:36Z",
    "detail": "Employers 248/44"
   },
   "W9": {
@@ -224,23 +224,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:43:36Z",
    "detail": "Employers 250/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:43:36Z",
    "detail": "Employers 245/54"
   },
   "W18": {
@@ -257,13 +257,13 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:40:41Z",
-   "detail": "Employers 241/41"
+   "heartbeat_at": null,
+   "detail": "Employers 242/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "515 of 612 units done",
+   "detail": "518 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:39 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 6:42 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W19 · Title 11 of 58 · Domain Architect",
+   "primary": "W6 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 11 of 58 · Domain Architect",
+  "label": "W6",
+  "headline": "W6 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -962,6 +962,13 @@
     "reason": "not-remote — Noble is looking to hire a Senior Infrastructure Engineer to work a hybrid work schedule at our Corporate Office in Houston, Texas. Provide periodic deskside support for VIP clients. Workarounds tried: employer-route search results (career.io mirror of Noble posting), alternate board routes in search, no remote alternate posting of same role found.",
     "where": "Employer sites",
     "time": "6:22 AM"
+   },
+   {
+    "company": "ChampionX",
+    "role": "Lead Architect",
+    "reason": "hands-on — Lead Architect for ChampionX Resources Inc. (The Woodlands, TX). Collaborate with developer team members on best practices, code reviews, internal tools and process improvements. Experience must include: utilizing .NET and C#; designing and developing applications utilizing JavaScript and JQuery; coding and reviewing programs based on certain parameters set as standards and best practice; and fixing defects detected during the testing phases. No remote language in JD. Workarounds tried: employer's JD via search mirrors, alternate routes in search, no architect-level remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:41 AM"
    },
    {
     "company": "Murphy Oil",
@@ -5400,6 +5407,34 @@
     "reason": "stale — Build and deliver tailored demonstrations of our payment solutions; Programming & Frameworks Java, J2EE, Spring Boot, Hibernate, Generative AI; Cloud & DevOps: Terraform, Docker, Kubernetes, CI/CD Pipelines; crawl 335 days ago.",
     "where": "Employer sites",
     "time": "6:39 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Sr. Director, Cloud and Infrastructure Transformation",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $214,900.00 to $358,100.00. Work location assignment: Hybrid - onsite at NY Headquarters an average of 2.5 days per week or as the business requires; Last day to apply: 9/7/2026.",
+    "where": "Employer sites",
+    "time": "6:42 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Principal - AWS Cloud Platform Engineer",
+    "reason": "not-remote — Hybrid role (minimum 3 days in the office) located in Indianapolis, IN (relocation required). 7+ years in infrastructure management, focusing on multi-cloud environments, including 3+ years in the AWS cloud platform. Workarounds tried: employer's posting via Dice/Adzuna mirrors, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:42 AM"
+   },
+   {
+    "company": "Johnson & Johnson",
+    "role": "Principal Engr Platform/Cloud Engineering",
+    "reason": "hands-on — can also be Fully Remote; #LI-REMOTE; The anticipated base pay range for this position is: $102,000 - $175,950; team is engaged in the hands-on delivery of business solutions; Experience with AWS EC2 and S3 (required), Azure only under Preferred/Bonus - engineer-level hands-on implementation role (inner title IT Platform Manager, R&D Advanced Computing), not architect-level. Workarounds tried: employer's own careers.jnj.com posting, alternate routes in search, no architect-level alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:42 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineer",
+    "reason": "hands-on — Work Location Assignment: Hybrid; Design, implement, and evolve cloud infrastructure across AWS, Azure, and/or GCP; Lead the development and maintenance of Infrastructure as Code using Terraform, OpenTofu, or similar tools - engineer-level whole-role IaC. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no architect-level remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:42 AM"
    }
   ],
   "State portals": [
@@ -7114,5 +7149,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:40:41Z"
+ "lists_generated_at": "2026-10-29T11:43:36Z"
 }
