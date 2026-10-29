@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T12:24:21Z",
+ "generated_at": "2026-10-29T12:26:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T12:22:03Z",
+  "last_activity_at": "2026-10-29T12:26:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,18 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 44,
-  "rejected": 1862,
-  "evaluated": 1906
+  "rejected": 1863,
+  "evaluated": 1907
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 830,
+  "evaluated": 831,
   "filed": 0,
   "parked": 20,
-  "rejected": 810,
+  "rejected": 811,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:26:15Z",
    "detail": "Employers 265/73"
   },
   "W4": {
@@ -242,23 +246,23 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:26:15Z",
    "detail": "Employers 265/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:26:15Z",
    "detail": "Employers 245/41"
   },
   "W20": {
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 7:22 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 7:26 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W19"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W19",
+  "headline": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4988,9 +4998,9 @@
    {
     "company": "Xylem",
     "role": "Enterprise Data Architect",
-    "reason": "stale — Published: 2026-03-11 — Xylem is seeking an Enterprise Data Architect to design and guide the evolution of our enterprise-wide data architecture across both legacy and modern cloud platforms. Workarounds tried: employer careers site search, exact title/employer web search, broader enterprise architect search; no posting within 7 days found",
+    "reason": "stale — Published: 2026-03-11",
     "where": "Employer sites",
-    "time": "7:02 AM"
+    "time": "7:26 AM"
    },
    {
     "company": "Xylem",
@@ -5859,6 +5869,13 @@
     "reason": "stale — \"Published: 2025-06-09\" — outside 7-day window. JD: \"Architecting Customer Solutions – Design and implement tailored data solutions for customers\". Pre-sales note only (filter disabled, not used as reject). Workarounds tried: Built In JD checked, FIS data searches — no fresher repost found.",
     "where": "Employer sites",
     "time": "7:22 AM"
+   },
+   {
+    "company": "Dover Corporation",
+    "role": "Global Senior Enterprise Network Architect",
+    "reason": "not-remote — Work Arrangement: Hybrid",
+    "where": "Employer sites",
+    "time": "7:26 AM"
    }
   ],
   "State portals": [
@@ -7571,5 +7588,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T12:24:21Z"
+ "lists_generated_at": "2026-10-29T12:26:15Z"
 }
