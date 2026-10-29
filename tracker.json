@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T04:09:23Z",
+ "generated_at": "2026-10-29T04:11:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-29T04:08:58Z",
@@ -39,7 +39,11 @@
   "rejected": 1061,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -110,34 +114,34 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T04:11:23Z",
    "detail": "Employers 95/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T04:11:23Z",
    "detail": "Employers 110/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T04:11:23Z",
    "detail": "Employers 110/44"
   },
   "W9": {
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 11:08 PM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 11:08 PM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W4 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -9430,5 +9440,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T04:09:23Z"
+ "lists_generated_at": "2026-10-29T04:11:23Z"
 }
