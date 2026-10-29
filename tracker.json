@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:28:08Z",
+ "generated_at": "2026-10-29T11:29:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:27:48Z",
+  "last_activity_at": "2026-10-29T11:28:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,20 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 40,
-  "rejected": 1710,
-  "evaluated": 1750
+  "parked": 44,
+  "rejected": 1724,
+  "evaluated": 1768
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 678,
+  "evaluated": 696,
   "filed": 0,
-  "parked": 16,
-  "rejected": 662,
+  "parked": 20,
+  "rejected": 676,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16"
+  "W2",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:29:50Z",
    "detail": "Employers 230/39"
   },
   "W3": {
@@ -222,13 +224,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:28:08Z",
-   "detail": "Employers 240/59"
+   "heartbeat_at": null,
+   "detail": "Employers 245/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,23 +246,23 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:29:50Z",
    "detail": "Employers 240/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:29:50Z",
    "detail": "Employers 240/41"
   },
   "W20": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "505 of 612 units done",
+   "detail": "506 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:27 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 6:28 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -665,6 +667,34 @@
     "reason": "not-evaluated — specifically focusing on business application integration; JD opened states no remote status, so remote eligibility cannot be confirmed.",
     "where": "Employer sites",
     "time": "6:26 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Lead Cloud Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform)",
+    "reason": "not-evaluated — Own the architecture, design, and implementation of critical Azure infrastructure components; JD opened gives no location/work model and no pay, remote status cannot be confirmed.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Senior Platform Architect",
+    "reason": "not-evaluated — Architect-level multi-cloud (AWS, Azure, GCP) architecture/standards duties; JD opened contains no location, work-model, or pay text, remote status cannot be confirmed.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Solutions Architect (Solutions Architecture - Advisor)",
+    "reason": "not-evaluated — This role is currently 100% Remote, Monday through Friday; you develop and implement solution architectures, with emphasis on Microsoft Azure Cloud. Mirror published 2026-02-10, past 7-day eligibility on its face, and the live Fiserv portal search did not surface it on parent re-check 2026-10-29, so freshness/liveness is unverified - not recorded as PASS.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Enterprise Architect (Enterprise Architecture - Advisor II)",
+    "reason": "not-evaluated — Architecture strategies/blueprints, multi-cloud AWS/Azure/GCP, no pay published; JD itself never confirms remote (only the ~6-month-old mirror listing asserts it), needs live Fiserv portal confirmation.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
    }
   ],
   "Maryland state portal": [
@@ -4803,6 +4833,104 @@
     "reason": "not-remote — WORK ENVIRONMENT: Office environment. No remote/hybrid language in full JD; mirrors crawled 2026-03-07 and 2026-03-30, stale. Workarounds tried: TXNM/PNM portal search (403 on direct fetch, verified via search-index mirrors), alternate routes in search, no remote alternate posting found.",
     "where": "Employer sites",
     "time": "6:27 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Lead System Architect - Azure",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week. Workarounds tried: employer's own SmartRecruiters posting (governing JD), alternate routes in search, no fully-remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Lead System Architect - Platform - O&I Architecture",
+    "reason": "not-remote — This is a hybrid position; expected to work from the office 2-3 set days a week, 50% or more of the time. Workarounds tried: employer's own SmartRecruiters posting, alternate routes in search, no fully-remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Lead System Architect, Solutions Architecture",
+    "reason": "pay-outside-band — $160,600.00 to 232,900.00 USD per year; This is a hybrid position. Expectation of days in office will be confirmed by your hiring manager.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Chief Enterprise Architect - Engineering",
+    "reason": "pay-outside-band — $192,300.00 to 278,850.00 USD per year; This is a hybrid position, work from the office 2-3 set days a week.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Solution Architect (Managing Consultant, Innovation Consulting)",
+    "reason": "not-remote — Based in Milan, Italy, this senior, client-facing role; Fluency in both Italian and English is essential; Salary 85,000-101,000 EUR.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "PayPal",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — New York City, New York | ($242,000.00 - $359,150.00 Annually); For the majority of employees, PayPal's balanced hybrid work model offers 3 days in the office.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "PayPal",
+    "role": "Lead Architect, Developer Platforms",
+    "reason": "pay-outside-band — The US national annual pay range for this role is $188,000 to $323,950; PayPal's balanced hybrid work model offers 3 days in the office.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Cloud Architect",
+    "reason": "hands-on — 5+ years of experience architecting, deploying, and managing Azure-based cloud infrastructures and applications using Terraform scripting and infrastructure as code (IaC); Develop and automate deployment pipelines. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no architect-level alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — We're better together! This role is fully on-site. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Infrastructure Architecture - Sr Advisor",
+    "reason": "closed — This job has closed. (Jobright listing for Infrastructure Architecture - Sr Advisor @ Fiserv, verified on parent re-check 2026-10-29; JD had stated: This role is currently 100% Remote, Monday through Friday.)",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Principal Infrastructure & Platform Architect (Low Latency / High Availability)",
+    "reason": "pay-outside-band — Salary $186,000.00 - $285,600.00; Fiserv considers in-person collaboration essential for enterprise alignment, architectural influence, and onboarding effectiveness.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "FIS",
+    "role": "Cloud Architect (IT Architect Specialist)",
+    "reason": "not-remote — This position is hybrid (3 days onsite) in our FIS Office locations in Jacksonville (Florida), New York City (New York), Milwaukee (Wisconsin), & Atlanta (Georgia). Pay $140,890.00 - $236,690.00. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "FIS",
+    "role": "Digital Solutions Architect",
+    "reason": "not-remote — This position will be hybrid (3 days onsite) for candidates who are located within commutable distance from our FIS Office locations in Milwaukee, WI, Jacksonville, Florida & Atlanta, Georgia. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
+   },
+   {
+    "company": "Capco (for FIS)",
+    "role": "FIS Solutions Architect",
+    "reason": "not-remote — Willingness to work in the orlando office 2-3 days per week; Hybrid. Employer is Capco, not FIS. Workarounds tried: Simplify mirror of Capco JD, alternate routes in search, no remote direct-FIS posting found.",
+    "where": "Employer sites",
+    "time": "6:28 AM"
    }
   ],
   "State portals": [
@@ -6484,7 +6612,9 @@
    "Nestlé USA",
    "NYU Langone Health",
    "Kyndryl",
-   "Slalom"
+   "Slalom",
+   "Mastercard",
+   "Fiserv"
   ],
   "W9": [
    "Oracle",
@@ -6512,5 +6642,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:28:08Z"
+ "lists_generated_at": "2026-10-29T11:29:50Z"
 }
