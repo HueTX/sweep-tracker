@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T02:45:16Z",
+ "generated_at": "2026-10-29T02:47:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T02:43:35Z",
+  "last_activity_at": "2026-10-29T02:46:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,20 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 21,
-  "rejected": 902,
-  "evaluated": 923
+  "parked": 22,
+  "rejected": 910,
+  "evaluated": 932
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 912,
+  "evaluated": 920,
   "filed": 0,
   "parked": 21,
-  "rejected": 891,
+  "rejected": 899,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17"
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -112,23 +113,23 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T02:47:37Z",
    "detail": "Employers 85/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T02:47:37Z",
    "detail": "Employers 95/44"
   },
   "W6": {
@@ -233,13 +234,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T02:45:16Z",
-   "detail": "Employers 90/54"
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "206 of 612 units done",
+   "detail": "207 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "2 of 2 units done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-28T21:39:25Z"
+   "ended_at": "2026-10-29T02:46:54Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -541,18 +542,18 @@
    }
   ]
  },
- "note": "Last activity 9:43 PM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 9:46 PM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W4"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "label": "W4",
+  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1223,6 +1224,20 @@
     "reason": "not-remote — Workplace Type: Office (Houston, TX listing; crawled 2026-08-21, stale).",
     "where": "Employer sites",
     "time": "9:43 PM"
+   },
+   {
+    "company": "AMD",
+    "role": "Director - Datacenter Solution Architect",
+    "reason": "not-remote — Location is flexible in the US or Canada, though compensation may change based on location - not 100% remote US. Role is GPU/datacenter physical design: Architect end-to-end data center solutions including GPU platforms, high-speed networking, storage, power distribution, cooling, and floor layout.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "Qualcomm",
+    "role": "Enterprise Architect, Principal (AI)",
+    "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). Pay $192,600.00 - $289,000.00 - top $289,000 also above $230,000 ceiling.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
    },
    {
     "company": "Microsoft",
@@ -5423,6 +5438,48 @@
     "reason": "stale — Full-Time Updated 1 year ago. JD: 2+ years of experience as an AWS cloud architect, Azure is bonus; We are seeking a hands-on, highly skilled Senior Cloud Architect (CloudOps/DevOps operations role).",
     "where": "Employer sites",
     "time": "9:43 PM"
+   },
+   {
+    "company": "AMD",
+    "role": "Senior Cloud Architect Engineer",
+    "reason": "not-remote — No remote wording; location San Jose, California; mirror crawl 285 days ago (stale). Duty: Design, develop, deploy, monitor, maintain, and evolve cloud-native resources, tools, services, reusable modules (infrastructure-as-code-practices) - hands-on IaC as core duty.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Solution Architect - Pyramid Analytics (BI)",
+    "reason": "not-remote — Heading: Solution Architect - Pyramid Analytics (BI), Staines (UK) - non-US location, no US remote wording. Published: 2026-10-23.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "ServiceNow",
+    "role": "Enterprise Architect, West US Region",
+    "reason": "not-remote — No remote persona assigned in JD; only generic work personas text (flexible, remote and required-in-office); California/West-region location-bound pay bands. JD also places the team in the pre-sales organization.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "Broadcom",
+    "role": "Solution Architect, Broadcom Software",
+    "reason": "not-remote — This is a quota-carrying position located in Broadcom's office in Plano, TX. Solution Architects are expected to be in the office every day. OTE range $174,400 - $279,000 - top also above band.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "Texas Instruments",
+    "role": "Supply Chain Solutions Architect",
+    "reason": "not-remote — No remote wording in JD; location 75201, Dallas, TX, US; mirror crawl 251 days ago (stale).",
+    "where": "Employer sites",
+    "time": "9:46 PM"
+   },
+   {
+    "company": "Texas Instruments",
+    "role": "Solutions Architect (Storage Infrastructure Architect)",
+    "reason": "not-remote — Location Bengaluru, India (non-US); no remote wording. Texas Instruments (TI) is seeking a Storage Infrastructure Architect to define and lead our global storage strategy - in Bengaluru.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
    }
   ],
   "BuiltIn": [
@@ -8249,5 +8306,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T02:45:16Z"
+ "lists_generated_at": "2026-10-29T02:47:37Z"
 }
