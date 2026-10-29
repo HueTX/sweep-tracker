@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:52:13Z",
+ "generated_at": "2026-10-29T09:54:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:51:48Z",
+  "last_activity_at": "2026-10-29T09:53:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 34,
-  "rejected": 1447,
-  "evaluated": 1481
+  "rejected": 1458,
+  "evaluated": 1492
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 412,
+  "evaluated": 423,
   "filed": 0,
   "parked": 10,
-  "rejected": 402,
+  "rejected": 413,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W2"
+  "W3",
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -80,56 +81,56 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T09:52:13Z",
-   "detail": "Employers 150/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T09:52:13Z",
-   "detail": "Employers 140/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 155/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 145/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T09:54:15Z",
    "detail": "Employers 145/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:54:15Z",
    "detail": "Employers 140/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:54:15Z",
    "detail": "Employers 155/44"
   },
   "W6": {
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "327 of 612 units done",
+   "detail": "329 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 4:51 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 4:53 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -3247,6 +3248,48 @@
     "reason": "stale — Published: 07/28/2026",
     "where": "USAJobs",
     "time": "12:51 AM"
+   },
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "USAJobs",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "US Army Corps of Engineers",
+    "role": "IT Specialist (senior, middleware/cloud)",
+    "reason": "stale — Published: 2026-10-09 (before 2026-10-22 cutoff); Secret clearance required",
+    "where": "USAJobs",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "Dept. of Housing and Urban Development (HUD)",
+    "role": "Supervisory IT Specialist (Chief Technology Officer)",
+    "reason": "stale — Published: 2025-09-29; Washington DC duty station",
+    "where": "USAJobs",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "Dept. of Housing and Urban Development (HUD) - Ginnie Mae",
+    "role": "Supervisory IT Cybersecurity Specialist (INFOSEC) (Deputy Technology Architect/Cloud Security)",
+    "reason": "stale — Published: 05/24/2024",
+    "where": "USAJobs",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "National Science Foundation (NSF)",
+    "role": "IT Program Manager",
+    "reason": "not-remote — required to report to the NSF Headquarters building in Alexandria, Virginia",
+    "where": "USAJobs",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "National Science Foundation (NSF)",
+    "role": "Supervisory IT Specialist (Branch Chief)",
+    "reason": "stale — Published: 07/31/2024",
+    "where": "USAJobs",
+    "time": "4:53 AM"
    }
   ],
   "BuiltIn": [
@@ -3365,6 +3408,20 @@
     "reason": "clearance — CLEARANCE REQUIREMENT: Must possess an Active SECRET or above DoD clearance to be considered. (US Citizenship required)",
     "where": "ClearanceJobs",
     "time": "4:36 AM"
+   },
+   {
+    "company": "MTSI (Modern Technology Solutions, Inc.)",
+    "role": "Enterprise Cloud Architect",
+    "reason": "clearance — Clearance Requirements: TS with ability to obtain an SCI",
+    "where": "ClearanceJobs",
+    "time": "4:52 AM"
+   },
+   {
+    "company": "Peraton",
+    "role": "Cloud Architect, Senior",
+    "reason": "clearance — Active TS/SCI clearance.",
+    "where": "ClearanceJobs",
+    "time": "4:52 AM"
    }
   ],
   "Oregon state portal": [
@@ -3388,6 +3445,13 @@
     "reason": "not-remote — This position is eligible to telework on a full-time basis once the incumbent has gained the proficiency to perform work independently.",
     "where": "Oregon state portal",
     "time": "4:26 AM"
+   },
+   {
+    "company": "State of Oregon (OIS)",
+    "role": "IT Strategy & Architecture Manager",
+    "reason": "not-remote — This position has a hybrid work schedule",
+    "where": "Oregon state portal",
+    "time": "4:52 AM"
    }
   ],
   "Massachusetts state portal": [
@@ -3485,6 +3549,20 @@
     "reason": "stale — Cloud Lead Engineer is responsible for guiding clients through their cloud transformation journeys by designing distributed solutions using cloud-native platforms.",
     "where": "Maryland state portal",
     "time": "4:36 AM"
+   },
+   {
+    "company": "Maryland Department of Information Technology (DoIT)",
+    "role": "Microsoft 365 Architect",
+    "reason": "stale — Published: 2025-04-24; Crownsville, MD location, no remote statement",
+    "where": "Maryland state portal",
+    "time": "4:52 AM"
+   },
+   {
+    "company": "Maryland Department of Information Technology (DoIT)",
+    "role": "Network Architect",
+    "reason": "stale — Published: 2024-11-26; Crownsville, MD location, no remote statement",
+    "where": "Maryland state portal",
+    "time": "4:52 AM"
    }
   ]
  },
@@ -4633,5 +4711,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T09:52:13Z"
+ "lists_generated_at": "2026-10-29T09:54:15Z"
 }
