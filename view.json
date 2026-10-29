@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T12:30:24Z",
+ "generated_at": "2026-10-29T12:32:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-29T12:30:17Z",
@@ -39,11 +39,7 @@
   "rejected": 820,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:30:24Z",
-   "detail": "Employers 295/73"
+   "heartbeat_at": null,
+   "detail": "Employers 300/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -224,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:30:24Z",
-   "detail": "Employers 295/59"
+   "heartbeat_at": null,
+   "detail": "Employers 300/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:30:24Z",
-   "detail": "Employers 290/54"
+   "heartbeat_at": null,
+   "detail": "Employers 295/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "560 of 612 units done",
+   "detail": "563 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 7:30 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W16 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 7:30 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
