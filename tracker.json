@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T12:01:27Z",
+ "generated_at": "2026-10-29T12:02:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:54:15Z",
+  "last_activity_at": "2026-10-29T12:02:07Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 47,
-  "rejected": 1810,
-  "evaluated": 1857
+  "parked": 45,
+  "rejected": 1826,
+  "evaluated": 1871
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 783,
+  "evaluated": 796,
   "filed": 0,
-  "parked": 23,
-  "rejected": 760,
+  "parked": 21,
+  "rejected": 775,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17",
-  "W18",
-  "W19"
+  "W3",
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -103,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:02:53Z",
    "detail": "Employers 255/73"
   },
   "W4": {
@@ -125,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:02:53Z",
    "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:02:53Z",
    "detail": "Employers 256/44"
   },
   "W9": {
@@ -235,35 +235,35 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:01:27Z",
-   "detail": "Employers 250/54"
+   "heartbeat_at": null,
+   "detail": "Employers 255/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:01:27Z",
-   "detail": "Employers 255/45"
+   "heartbeat_at": null,
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T12:01:27Z",
-   "detail": "Employers 243/41"
+   "heartbeat_at": null,
+   "detail": "Employers 244/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "527 of 612 units done",
+   "detail": "530 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:54 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 7:02 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W3",
+  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -695,20 +695,6 @@
     "reason": "not-evaluated — Prior experience architecting SaaS and cloud-based solutions, preferably on AWS; AWS certifications (e.g., AWS Solutions Architect - Associate or Professional); full JD states no remote/US-remote status, so remote eligibility cannot be confirmed; pay $64,500-$185,000.",
     "where": "Employer sites",
     "time": "6:34 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Sr. Cloud Architect (Azure)",
-    "reason": "not-evaluated — If located near a Rackspace office, you'll work a hybrid schedule; If not located near an office, you may work 100% remotely. We are looking for an Senior Cloud Architect specializing in Azure who is experienced at leading application migration assessments, cloud readiness evaluations, and delivering high-quality architectural designs. No posted date or pay in JD excerpt (crawl 1d) - remote eligibility for Hubert's location and freshness unverified, not recorded as PASS.",
-    "where": "Employer sites",
-    "time": "6:37 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Presales Enterprise Architect - Multi Service Line",
-    "reason": "not-evaluated — Work Location: US Remote; designing and implementing complex cloud solutions that leverage multiple Rackspace Service Lines across different cloud platforms like AWS, Azure, and Google Cloud. No posted date or pay in JD excerpt (crawl 1d) - freshness and pay unverified, not recorded as PASS. Sibling Presales Enterprise Solution Architect listing appears to be the same role.",
-    "where": "Employer sites",
-    "time": "6:37 AM"
    },
    {
     "company": "Zoom",
@@ -4984,9 +4970,9 @@
    {
     "company": "Etsy",
     "role": "Staff Software Engineer II, Web Frontend Architect",
-    "reason": "pay-outside-band — Salary Range: $226,000.00 - $264,000.00; For candidates within commutable distance, Etsy requires in-office attendance once or twice per week depending on your proximity to the office; 8+ years of experience in software engineering with a strong focus on frontend development.",
+    "reason": "pay-outside-band — Salary Range: $226,000.00 - $264,000.00 We are seeking a skilled Web Frontend Architect to lead the evolution of our web frontend ecosystem. Workarounds tried: (1) Employer's own ATS - checked careers.etsy.com jobs/search live 2026-10-29, this role does not appear in current listings; (2) alternate route - CareerBuilder/JobzMall mirrors show same $226,000.00 - $264,000.00 range, top above $230,000 band; (3) alternate posting - no repost or refreshed req with a different salary found in exact-title or broader web searches.",
     "where": "Employer sites",
-    "time": "6:30 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "State of Utah",
@@ -4998,16 +4984,16 @@
    {
     "company": "Xylem",
     "role": "Lead Engineering Architect - IT Cloud Solutions",
-    "reason": "not-remote — Charlotte, NC, USA, In Person; Posted 8/25/2025. Workarounds tried: employer's posting via Simplify mirror, alternate routes in search, no remote alternate posting found.",
+    "reason": "stale — Full-Time Updated 1 year ago / Charlotte, NC, USA, In Person — Workarounds tried: employer careers site search, exact title/employer web search, broader cloud architect search; no fresher or remote alternate posting found",
     "where": "Employer sites",
-    "time": "6:31 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Xylem",
     "role": "Enterprise Data Architect",
-    "reason": "not-remote — remote type: Hybrid locations: Charlotte, North Carolina; job requisition: R44561; Architect solutions across modern cloud platforms (Azure, Databricks). Workarounds tried: BuiltIn JD plus Learn4Good Workday mirror, alternate routes in search, no remote alternate posting found.",
+    "reason": "stale — Published: 2026-03-11 — Xylem is seeking an Enterprise Data Architect to design and guide the evolution of our enterprise-wide data architecture across both legacy and modern cloud platforms. Workarounds tried: employer careers site search, exact title/employer web search, broader enterprise architect search; no posting within 7 days found",
     "where": "Employer sites",
-    "time": "6:31 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Xylem",
@@ -5026,9 +5012,9 @@
    {
     "company": "Dover Corporation",
     "role": "Sr Security Architect, Cloud & Network",
-    "reason": "not-remote — Role is based in Downers Grove, Illinois (Hybrid). Work Arrangement: Hybrid; Pay Range: $150,000.00 - $180,000.00 annually; crawled 2026-03-02, stale. Workarounds tried: employer's posting via Ladders mirror, alternate routes in search, no remote alternate posting found.",
+    "reason": "not-remote — Role is based in Downers Grove, Illinois (Hybrid). / Work Arrangement: Hybrid — Workarounds tried: employer careers site search, exact title/employer web search, broader enterprise architect search; all routes show the same Hybrid Downers Grove posting",
     "where": "Employer sites",
-    "time": "6:31 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Dover Corporation",
@@ -5109,10 +5095,17 @@
    },
    {
     "company": "Rackspace Technology",
-    "role": "Cloud Solution Architect (Azure Presales) R-22210",
-    "reason": "not-remote — The role is India based; Work Location: Remote, India.",
+    "role": "Sr. Cloud Architect (Azure)",
+    "reason": "stale — Job Title: Sr. Cloud Architect (Azure). Location: Remote. We are looking for an Senior Cloud Architect specializing in Azure who is experienced at leading application migration assessments, cloud readiness evaluations, and delivering high-quality architectural designs. Published: 2025-08-03. Verdicted on its own current JD/date per guard note (queued in Sept, never confirmed filed, no longer listed). Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In / Swooped / DiversityJobs listings checked), alternate posting (Cloud Architect (Azure) version at builtinnyc.com/job/cloud-architect-azure/8599732, Published: 2026-02-26, also stale).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Solution Architect (Azure Presales) R-22210",
+    "reason": "stale — The role is India based, however will work with global Rackspace team focusing on delivering solutions to new and existing customers within the EMEA region. Work Location: Remote, India. Published: 2026-01-17. Workarounds tried: employer's own ATS (no US-based fresher posting), alternate route (Built In listing checked), alternate posting (no fresher US repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
    },
    {
     "company": "Rackspace Technology",
@@ -5120,6 +5113,13 @@
     "reason": "not-remote — Job Location, Germany - Remote; German language skills (C1/C2 or native) are essential; crawl 270 days ago.",
     "where": "Employer sites",
     "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Presales Enterprise Architect - Multi Service Line",
+    "reason": "stale — Serves as a subject matter expert for AWS to orchestrate and lead professional services presales and delivery efforts. Expert level knowledge of AWS. Work Location: US Remote. The anticipated starting pay range for California, New York City and Washington is: $ 205,300 - $ 328,400. No posted date evidenced on the JD; not within 7 days. Pre-sales noted only (rule disabled). Workarounds tried: employer's own ATS (no dated fresher posting), alternate route (Working Nomads / DiversityJobs listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
    },
    {
     "company": "Rackspace Technology",
@@ -5180,9 +5180,9 @@
    {
     "company": "Atlassian",
     "role": "Senior Partner Solutions Architect - Atlassian Cloud Platform",
-    "reason": "experience-mismatch — This is a remote position; requires you to be located in the United States; helping our Solutions Partners and their enterprise customers move to the Cloud (Atlassian products) - product-specific. UK/Netherlands variant located in the United Kingdom or The Netherlands.",
+    "reason": "stale — This is a remote position. To help our teams work together effectively, this role requires you to be located in the United States. Zone A: $180,000 - $235,000. Published: 2026-01-03. NOTE: this is a different posting (Development Partners team) from the duplicate-guarded Built In 11608841 record. Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In listing checked), alternate posting (Partner Solutions Architect - Enterprise Cloud listing, France/Netherlands/UK only).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Atlassian",
@@ -5222,30 +5222,30 @@
    {
     "company": "Zoom",
     "role": "Web Architect",
-    "reason": "pay-outside-band — Salary Minimum: $200,000.00 Maximum: $259,500.00; Must have 4 years of experience in at least one modern programming language (Java, Golang, etc).",
+    "reason": "stale — Minimum: $200,000.00 Maximum: $259,500.00. Must have 4 years of experience in at least one modern programming language (Java, Golang, etc). Published: 2025-06-03. Workarounds tried: employer's own ATS / Zoom careers search (no fresher posting), alternate route (Built In listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Block",
     "role": "People Intelligence Architect",
-    "reason": "experience-mismatch — People Intelligence (HR/people domain) architect role, not cloud/enterprise IT architecture; Zone A: $135,200 - $202,800 USD.",
+    "reason": "stale — Build production systems using Python, SQL, orchestration tools, cloud warehouses, LLMs, and evaluation frameworks. You'll lead through technical depth and craft rather than headcount - designing architecture, writing production code. Published: 2026-08-27. Workarounds tried: employer's own ATS / Block careers search (no fresher posting), alternate route (Built In listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Block",
     "role": "Staff Information Systems Architect - Oracle Financials",
-    "reason": "pay-outside-band — Zone A: $207,900-$311,900 USD; Leads architecture and scaling of Block's finance technology stack across Oracle Fusion; builds SQL/PL/SQL and REST/SOAP integrations.",
+    "reason": "stale — We are looking for a strategic and hands-on systems architect to lead the next wave of finance technology transformation at Block. Zone A: $207,900 - $311,900 USD. Published: 2026-01-03. Workarounds tried: employer's own ATS / Block careers search (no fresher posting), alternate route (Built In listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Block",
     "role": "Senior Systems Architect, DAM & Infrastructure",
-    "reason": "pay-outside-band — USD $180,000.00 - 270,000.00 per year; crawl 252 days ago.",
+    "reason": "stale — The Senior Systems Architect is a cross-functional role on the Design Operations team that is focused on the definition of our system architecture, prioritization of scalable automations, and ongoing maintenance for asset management and all related tooling. Zone A: $180,000 - $270,000 USD. Published: 2026-03-03. Workarounds tried: employer's own ATS / Block careers search (no fresher posting), alternate route (Built In listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Block",
@@ -5264,16 +5264,16 @@
    {
     "company": "Twilio",
     "role": "Senior Enterprise Architect",
-    "reason": "experience-mismatch — serve as an overlay to Account Executives (AEs) and Solutions Engineers and Architects (SEs) to help drive GTM org's multi-year, multiproduct transformation to One Twilio Platform - Twilio-product GTM transformation core, not cloud architecture.",
+    "reason": "stale — This role will be remote, but is not eligible to be hired in CA, CT, NJ, NY, PA, WA. Based in the San Francisco Bay area, California: $217,000.00 - $271,300.00. Applications for this role are intended to be accepted until February 05, 2025. Workarounds tried: employer's own ATS (no fresher posting), alternate route (DiversityJobs listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Twilio",
     "role": "Solutions Architect (Pre-Sales)",
-    "reason": "hands-on — Previous software development experience in one or more of the following areas: Backend (Java, C#, Node.js, Python, PHP); This role will be remote, and based in the USA; Twilio telecom product core. Sibling Financial Services variant on same basis. Workarounds tried: WorkingNomads mirror, alternate routes in search, no non-coding alternate posting found.",
+    "reason": "stale — This role will be remote, and based in the USA. Applications for this role are intended to be accepted until September 20, 2024. Pre-sales noted only (rule disabled, not used as a reject). Workarounds tried: employer's own ATS (no fresher posting), alternate route (Working Nomads listing checked), alternate posting (no fresher repost found).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Twilio",
@@ -5285,9 +5285,9 @@
    {
     "company": "Twilio",
     "role": "Senior Architect, Identity & Security",
-    "reason": "pay-outside-band — CO $245,800.00 - $307,200.00; NY/NJ/WA/CA $260,200.00 - $325,300.00; Strong cloud expertise with hands-on experience in cloud ecosystems (e.g., AWS, GCP, or Azure).",
+    "reason": "stale — Define and drive the strategic vision for Twilio's Identity and Security architecture, ensuring alignment with business goals and industry best practices. Based in the San Francisco Bay area, California:$289,100.00 - $ 361,400.00. Applications for this role are intended to be accepted until August 1, 2025. Published: 2025-07-25. Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In / Working Nomads listings checked), alternate posting (Simplify listing, same old posting).",
     "where": "Employer sites",
-    "time": "6:37 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Twilio",
@@ -5341,9 +5341,9 @@
    {
     "company": "Nucor",
     "role": "Senior Solution Engineer",
-    "reason": "not-remote — This is a full-time position based in Dallas, TX. Design, develop, and deliver complex software solutions from concept through production. Conduct code reviews, mentor engineers - engineer-level hands-on coding. Workarounds tried: employer's posting via CareerBuilder mirror, alternate routes in search, no remote alternate posting found.",
+    "reason": "not-remote — This is a full-time position based in Dallas, TX. / Design, develop, and deliver complex software solutions from concept through production. / 6+ years of professional full-stack software development experience — Workarounds tried: employer careers site search, IT architect web search, broader cloud architect search; no remote architect-level alternate posting found",
     "where": "Employer sites",
-    "time": "6:39 AM"
+    "time": "7:02 AM"
    },
    {
     "company": "Xylem",
@@ -5540,6 +5540,97 @@
     "reason": "not-remote — This role is on-site Monday through Friday. Fiserv considers in-person collaboration to be an essential part of this role as in-person office experiences help you with your overall onboarding experience and leads to stronger productivity. Also: '12+ years of experience in C# and .NET Core application development, library design, and performance optimization.' Published: 2025-10-20. Workarounds tried: (1) employer's own posting via Built In/Fiserv careers text, (2) exact title/employer web search, (3) broader 'Fiserv enterprise architect remote platform lead' search - no alternate remote posting found.",
     "where": "Employer sites",
     "time": "6:54 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Lead Platform Enterprise Architect",
+    "reason": "stale — Published: 2025-11-09. Workarounds tried: employer's own ATS / Rackspace careers search (no fresher posting for this title), alternate route (Built In / DiversityJobs listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Application Architect - .NET / Azure",
+    "reason": "stale — Hands-on recent development experience and capability. You will be expected to write and review code. The base pay for this position ranges from $ 161,000/year in our lowest geographic market up to $ 275,000/year in our highest geographic market. Published: 2025-10-06. Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In / JobLeads listings checked), alternate posting (AWS variant at builtin.com/job/application-architec-net-azure/6272976, same coding requirement).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Solution Architect - Zuora",
+    "reason": "stale — Govern integrations between Zuora, Salesforce CPQ/CRM, ERP (Oracle), tax engines, banks, payment gateways, usage mediation platforms, and reporting tools. Applications for this role are intended to be accepted until March 30, 2026. Based in the San Francisco Bay area, California: $201,280.00 - $251,600.00. Workarounds tried: employer's own ATS / Twilio Greenhouse listing for this role (job 7137503, old), alternate route (DiversityJobs / Employbl listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Enterprise Technical Architect, DC / Platform",
+    "reason": "stale — We're hiring an Enterprise Technical Architect with a focus on the Atlassian Cloud and DC platforms to join our Advisory Services Delivery team. Zone A: $128,400 - $171,200. Published: 2025-05-31. Workarounds tried: employer's own ATS / Atlassian careers search (no fresher DC/Platform posting), alternate route (Built In / Accel listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Architect / Engineer - Marketing Technology",
+    "reason": "stale — You'll be part of the go-to market & Finance -Digital Transformation Office team that supports global marketing initiatives. Minimum: $124,000.00 Maximum: $271,200.00. Anticipated Position Close Date: 07/28/25. Published: 2025-07-21. Workarounds tried: employer's own ATS / Zoom careers search (no fresher posting), alternate route (Built In / Simplify listings for Technical Architect/Engineer checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Endpoint Architect",
+    "reason": "stale — As an Endpoint Architect, you will be responsible for owning and managing the architecture, design, and implementation of endpoint management solutions across our organization. Published: 2024-08-23T11:30:00.015Z. Workarounds tried: employer's own ATS / Zoom careers search (no fresher posting), alternate route (Emergence Capital job board listing checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Software Architect (L6)",
+    "reason": "stale — This role will be remote, and based in India (Karnataka, Telangana, Maharashtra, Delhi, Tamilnadu). Published: 2026-08-14. Workarounds tried: employer's own ATS / Twilio careers search (no US-based fresher posting), alternate route (Built In listing checked), alternate posting (no fresher US repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Senior Architect - Data",
+    "reason": "stale — This role will be remote, and based in the USA. Based in the San Francisco Bay area, California:$289,100.00 - $ 361,400.00. Applications for this role are intended to be accepted until 06/30/2025. Published: 2025-06-06. Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In / Working Nomads listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Architect (Azure)",
+    "reason": "stale — We are looking for a Senior Cloud Architect specializing in Azure. The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. Published: 2026-02-26. Workarounds tried: employer's own ATS (no fresher posting), alternate route (Built In listing checked), alternate posting (Sr. Cloud Architect (Azure) version at builtin.com/job/azure-cloud-architect/6419458, Published: 2025-08-03, also stale).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Enterprise Technical Architect",
+    "reason": "stale — this role is fully remote, but requires you to be located in AMER. Zone A: $205,200 - $267,900. Published: 2025-10-26. Workarounds tried: employer's own ATS / Atlassian careers search (no fresher posting), alternate route (Built In / Accel listings checked), alternate posting (no fresher repost found).",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Partner Solutions Architect - Cloud Platform",
+    "reason": "duplicate — Lead technical strategy and joint solution architecture with Accenture, designing enterprise AI, graph, integration, and cloud-platform offerings. Sales | San Francisco, United States | Remote, Remote | Full-Time. Zone A: $180,000 - $235,000, Zone B: $162,000 - $211,500, Zone C: $149,400 - $195,050. Published: 2026-10-27. Duplicate guard: FILED 2026-10-11 via Dice, iCIMS REQ-2026-2986 - do-not-reapply, never PASS, regardless of the in-window repost date.",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Senior AI Solutions and Platform Engineer",
+    "reason": "stale — Published: 2026-04-20 — Build LLM, RAG, NLP, and other ML-based features / Strong Python + JavaScript/TypeScript. Workarounds tried: employer careers site search, platform lead web search, broader cloud architect search; no fresher remote architect-level alternate found",
+    "where": "Employer sites",
+    "time": "7:02 AM"
+   },
+   {
+    "company": "Etsy",
+    "role": "Engineering Manager, Collaboration Systems and Enterprise Tooling",
+    "reason": "stale — We are looking for a hands-on Engineering Manager to lead the Collaboration Systems and Enterprise Tooling team within our Internal IT department. Published: 2024-02-28T02:52:14.000Z Workarounds tried: (1) Employer's own ATS - checked careers.etsy.com jobs/search live 2026-10-29, this role does not appear in current listings; (2) alternate route - CareerVault/Accel mirrors show same JD with same 2024-02-28 published date, no fresher version; (3) alternate posting - no repost or refreshed req found in exact-title or broader web searches.",
+    "where": "Employer sites",
+    "time": "7:02 AM"
    }
   ],
   "State portals": [
@@ -7225,7 +7316,6 @@
    "Mastercard",
    "Fiserv",
    "Eli Lilly and Company",
-   "Rackspace Technology",
    "Zoom"
   ],
   "W9": [
@@ -7254,5 +7344,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T12:01:27Z"
+ "lists_generated_at": "2026-10-29T12:02:53Z"
 }
