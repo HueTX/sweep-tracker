@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T10:28:07Z",
+ "generated_at": "2026-10-29T10:30:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T10:28:07Z",
+  "last_activity_at": "2026-10-29T10:29:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 37,
-  "rejected": 1566,
-  "evaluated": 1603
+  "rejected": 1569,
+  "evaluated": 1606
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 532,
+  "evaluated": 535,
   "filed": 0,
   "parked": 13,
-  "rejected": 519,
+  "rejected": 522,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W2",
+  "W3",
   "W4",
   "W5",
-  "W6"
+  "W6",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,35 +84,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/30"
+   "detail": "Employers 180/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 160/39"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 170/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 165/73"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 175/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -119,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:28:07Z",
-   "detail": "Employers 155/32"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 165/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -130,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:28:07Z",
-   "detail": "Employers 170/44"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 180/44"
   },
   "W6": {
    "label": "Utilities",
@@ -141,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:28:07Z",
-   "detail": "Employers 170/44"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 180/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,7 +233,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/59"
+   "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
@@ -241,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 165/54"
+   "detail": "Employers 175/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -252,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/45"
+   "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -263,18 +266,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/41"
+   "detail": "Employers 180/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/31"
+   "heartbeat_at": "2026-10-29T10:30:07Z",
+   "detail": "Employers 180/31"
   }
  },
  "stages": {
@@ -304,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "368 of 612 units done",
+   "detail": "389 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,7 +546,7 @@
    }
   ]
  },
- "note": "Last activity 5:28 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 5:29 AM CT · 6 workers in flight · 0 filed this run",
  "pill": [
   {
    "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -3783,6 +3786,27 @@
     "reason": "not-remote — This position is a hybrid role which requires the employee to work in the office every Tuesday and Wednesday.",
     "where": "",
     "time": "5:28 AM"
+   },
+   {
+    "company": "Minnesota state portal",
+    "role": "Applications Architect - Salesforce (MNIT, Dept. of Agriculture)",
+    "reason": "not-remote — This position requires an employee to be onsite at 625 Robert St N, St Paul, Minnesota at least 50% of the time",
+    "where": "",
+    "time": "5:28 AM"
+   },
+   {
+    "company": "Healthfirst",
+    "role": "Senior Manager, Cloud Systems (Hybrid FL)",
+    "reason": "not-remote — This position requires three days per week in office (Tues/Wed/Thurs) at 1101 Greenwood, Lake Mary, FL.",
+    "where": "",
+    "time": "5:29 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Sr Principal Enterprise Data Architect - AI & Innovation",
+    "reason": "not-remote — Sr Principal Enterprise Data Architect- AI & Innovation Location: Cary, NC, Tampa, FL, or New York, NY ... $185,000 to $225,000 #BI-Hybrid Published: 2026-07-09",
+    "where": "",
+    "time": "5:29 AM"
    }
   ],
   "State portals": [
@@ -5492,5 +5516,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T10:28:07Z"
+ "lists_generated_at": "2026-10-29T10:30:07Z"
 }
