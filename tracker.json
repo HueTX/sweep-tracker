@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T06:37:40Z",
+ "generated_at": "2026-10-29T06:39:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T06:37:10Z",
+  "last_activity_at": "2026-10-29T06:38:15Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,20 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 26,
-  "rejected": 1226,
-  "evaluated": 1252
+  "parked": 27,
+  "rejected": 1228,
+  "evaluated": 1255
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 179,
+  "evaluated": 186,
   "filed": 0,
-  "parked": 2,
-  "rejected": 177,
+  "parked": 3,
+  "rejected": 183,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W20"
+  "W3",
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -101,34 +103,34 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:39:31Z",
    "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:39:31Z",
    "detail": "Employers 110/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:39:31Z",
    "detail": "Employers 125/44"
   },
   "W6": {
@@ -266,13 +268,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:37:40Z",
-   "detail": "Employers 130/31"
+   "heartbeat_at": null,
+   "detail": "Employers 135/31"
   }
  },
  "stages": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "270 of 612 units done",
+   "detail": "271 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:37 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 1:38 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W20 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W3",
+  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -575,6 +577,13 @@
  "today_filed_by_source": {},
  "today_parked": {
   "Employer sites": [
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect - Artificial Intelligence",
+    "reason": "not-evaluated — This role is offered as a remote workplace position, which may require travel for trainings, meetings, conferences, etc. Outside of those required visits, the majority of your working time may be spent in a remote location, away from our Corporate Campus.",
+    "where": "Employer sites",
+    "time": "1:38 AM"
+   },
    {
     "company": "McDonald's",
     "role": "Principal Architect",
@@ -970,6 +979,27 @@
     "reason": "stale — Published: 2026-08-31 — stale; Define and own the cloud architecture vision, standards, and roadmap for Intelex's AWS-first (multi-cloud aware) infrastructure",
     "where": "Employer sites",
     "time": "12:08 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect - Data",
+    "reason": "not-remote — This Dallas-based role is offered as a remote workplace position, which may require onsite presence / travel for trainings, meetings, conferences, etc. Outside of those required visits, the majority of your working time may be spent in an approved remote location within the Dallas - Fort Worth area.",
+    "where": "Employer sites",
+    "time": "1:38 AM"
+   },
+   {
+    "company": "American Airlines",
+    "role": "Principal Solution Architect, IT Infrastructure",
+    "reason": "not-remote — Location: DFW Headquarters Building 8 (DFW-SV08)",
+    "where": "Employer sites",
+    "time": "1:38 AM"
+   },
+   {
+    "company": "JetBlue",
+    "role": "Architect Product Security",
+    "reason": "not-remote — Traditional office environment",
+    "where": "Employer sites",
+    "time": "1:38 AM"
    },
    {
     "company": "Danaher",
@@ -1733,6 +1763,27 @@
     "reason": "closed — Posting Date 09/22/26 Application Deadline 09/28/26 Pay Range Min - 1st Quartile - Mid - Max $102,500.00 - $120,625.00 - $138,750.00 - $175,000.00",
     "where": "Employer sites",
     "time": "1:37 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect",
+    "reason": "not-remote — This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus",
+    "where": "Employer sites",
+    "time": "1:38 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect - Air Traffic Management Domain",
+    "reason": "not-remote — This Dallas-based role is offered as a remote workplace position, which may require onsite presence / travel for trainings, meetings, conferences, etc. Outside of those required visits, the majority of your working time may be spent in an approved remote location within the Dallas - Fort Worth area.",
+    "where": "Employer sites",
+    "time": "1:38 AM"
+   },
+   {
+    "company": "Alaska Airlines",
+    "role": "Principal Customer Identity & Access Management Architect",
+    "reason": "stale — FLSA Status, Exempt, Employment Type, Full-Time, Regular/Temporary, Regular, Requisition Type, Management, Location, Seattle - Hub",
+    "where": "Employer sites",
+    "time": "1:38 AM"
    }
   ],
   "State portals": [
@@ -2986,5 +3037,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T06:37:40Z"
+ "lists_generated_at": "2026-10-29T06:39:31Z"
 }
