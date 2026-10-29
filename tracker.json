@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T14:55:27Z",
+ "generated_at": "2026-10-29T14:59:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-29T14:54:23Z",
@@ -39,9 +39,7 @@
   "rejected": 1106,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T14:55:27Z",
-   "detail": "Employers 432/73"
+   "heartbeat_at": null,
+   "detail": "Employers 438/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "610 of 612 units done",
+   "state": "done",
+   "detail": "612 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": null
+   "ended_at": "2026-10-29T14:59:22Z"
   },
   "sector_filing": {
    "state": "done",
@@ -314,20 +312,20 @@
   },
   "stall_watch": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-29T14:59:59Z",
    "ended_at": null
   },
   "quality_check": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-29T14:59:59Z",
    "ended_at": null
   },
   "delivered": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-10-29T14:59:59Z",
    "ended_at": null
   }
  },
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 9:54 AM CT · 2 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 9:54 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -9755,5 +9747,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T14:55:27Z"
+ "lists_generated_at": "2026-10-29T14:59:59Z"
 }
