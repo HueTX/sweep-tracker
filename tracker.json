@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:26:54Z",
+ "generated_at": "2026-10-29T09:29:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:26:43Z",
+  "last_activity_at": "2026-10-29T09:26:59Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 35,
-  "rejected": 1400,
-  "evaluated": 1435
+  "rejected": 1405,
+  "evaluated": 1440
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 366,
+  "evaluated": 371,
   "filed": 0,
   "parked": 11,
-  "rejected": 355,
+  "rejected": 360,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1"
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -79,13 +80,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:26:54Z",
-   "detail": "Employers 140/30"
+   "heartbeat_at": null,
+   "detail": "Employers 145/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -107,28 +108,28 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/73"
+   "detail": "Employers 140/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:29:07Z",
    "detail": "Employers 130/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:29:07Z",
    "detail": "Employers 145/44"
   },
   "W6": {
@@ -302,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "307 of 612 units done",
+   "detail": "309 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +542,18 @@
    }
   ]
  },
- "note": "Last activity 4:26 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 4:26 AM CT · 2 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W4"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W4",
+  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -717,9 +718,9 @@
    {
     "company": "Federal Energy Regulatory Commission (FERC)",
     "role": "IT Specialist (Data Management)",
-    "reason": "experience-mismatch — Applications will be accepted from current and former competitive service Federal employees, and people eligible under special hiring authorities.",
+    "reason": "stale — Leading the design, development, and operation of the agency's data platform delivering data ingestion, transformation, visualization, and reporting capabilities",
     "where": "Employer sites",
-    "time": "1:25 AM"
+    "time": "4:26 AM"
    },
    {
     "company": "King County",
@@ -2855,6 +2856,41 @@
     "reason": "pay-outside-band — This role manages the move of the digital platform to Google Cloud, reinforces security protocols, and leads FinOps adoption efforts",
     "where": "Employer sites",
     "time": "4:25 AM"
+   },
+   {
+    "company": "Federal Reserve System",
+    "role": "Senior Architect - Enterprise Security Architecture & Engineering",
+    "reason": "not-remote — Onsite presence required at a Federal Reserve Bank location.",
+    "where": "Employer sites",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Securities and Exchange Commission (SEC)",
+    "role": "Senior Red Hat Infrastructure Engineer",
+    "reason": "stale — Administering and optimizing Red Hat Enterprise Linux environments across on-premise and cloud platforms.",
+    "where": "Employer sites",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Securities and Exchange Commission (SEC)",
+    "role": "Cloud Solutions Developer/Architect",
+    "reason": "stale — Developing automated processes and continuous integration & deployment (CI/CD) pipelines using Agile and DevSecOps methodologies.",
+    "where": "Employer sites",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Nuclear Regulatory Commission",
+    "role": "Senior Information Technology Specialist (Webmaster)",
+    "reason": "stale — Leading the design, development, and management of large-scale, cloud-hosted web environments, ensuring the NRC's websites are secure, reliable, and efficient.",
+    "where": "Employer sites",
+    "time": "4:26 AM"
+   },
+   {
+    "company": "Federal Energy Regulatory Commission (FERC)",
+    "role": "IT Specialist (INFOSEC)",
+    "reason": "clearance — You must possess and maintain a Top Secret/SCI clearance.",
+    "where": "Employer sites",
+    "time": "4:26 AM"
    }
   ],
   "State portals": [
@@ -4311,5 +4347,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T09:26:54Z"
+ "lists_generated_at": "2026-10-29T09:29:07Z"
 }
