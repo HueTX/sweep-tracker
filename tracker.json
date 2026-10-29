@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T10:11:03Z",
+ "generated_at": "2026-10-29T10:13:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T10:10:04Z",
+  "last_activity_at": "2026-10-29T10:12:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 34,
-  "rejected": 1493,
-  "evaluated": 1527
+  "parked": 35,
+  "rejected": 1525,
+  "evaluated": 1560
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 457,
+  "evaluated": 490,
   "filed": 0,
-  "parked": 10,
-  "rejected": 447,
+  "parked": 11,
+  "rejected": 479,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W18",
-  "W19",
-  "W20"
+  "W1",
+  "W2",
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,34 +81,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:13:24Z",
    "detail": "Employers 155/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:13:24Z",
    "detail": "Employers 145/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:13:24Z",
    "detail": "Employers 150/73"
   },
   "W4": {
@@ -246,35 +246,35 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:11:03Z",
-   "detail": "Employers 150/45"
+   "heartbeat_at": null,
+   "detail": "Employers 155/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:11:03Z",
-   "detail": "Employers 150/41"
+   "heartbeat_at": null,
+   "detail": "Employers 155/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:11:03Z",
-   "detail": "Employers 155/31"
+   "heartbeat_at": null,
+   "detail": "Employers 160/31"
   }
  },
  "stages": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "335 of 612 units done",
+   "detail": "338 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:10 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 5:12 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
+   "primary": "W1 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W1"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
+  "label": "W1",
+  "headline": "W1 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -639,6 +639,13 @@
     "reason": "not-evaluated — Systems Architect II - (Azure Cloud Infrastructure, IaC, Networking & Security) - full JD not accessible via listing page; snippet only, not evaluated",
     "where": "Employer sites",
     "time": "4:51 AM"
+   },
+   {
+    "company": "Nestlé USA",
+    "role": "Expert IT Solution Architect - Advanced Analytics",
+    "reason": "not-evaluated — Expert IT Solution Architect - Advanced Analytics (Arlington, VA) Job Details | Nestle Operational Services Worldwide SA - official JD body did not render via text fetch; not evaluated",
+    "where": "Employer sites",
+    "time": "5:12 AM"
    }
   ],
   "Maryland state portal": [
@@ -653,6 +660,13 @@
  },
  "today_rejected": {
   "Employer sites": [
+   {
+    "company": "BorgWarner",
+    "role": "Solution Architect",
+    "reason": "stale — The Solution Architect will provide technical leadership in the deployment of ALM (Bitbucket, Jira, Polarian, Stages, Confluence), SIM (Ansys, Altair, MathWorks), PLM (Teamcenter), and other engineering applications.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
    {
     "company": "Houston Methodist",
     "role": "Solution Architect - Revenue Cycle Systems",
@@ -3403,6 +3417,223 @@
     "reason": "stale — spend at least half (50%) of our time each quarter in the office or in the field with our customers, prospects, and partners (depending on role)",
     "where": "Employer sites",
     "time": "5:10 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Principal Engineer, Earner, Backend",
+    "reason": "stale — Consistently writes and documents high-quality code to solve strategically important problems",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Principal Engineer - Client and Product Foundations",
+    "reason": "stale — 15+ years of non-internship professional software development experience",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Principal Engineer - Maps",
+    "reason": "stale — Experience with Java, Go or C++ (bonus points for more than one)",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Principal Engineer (Marketplace Engineering team)",
+    "reason": "pay-outside-band — For Sunnyvale, CA-based roles: The base salary range for this role is USD$284,000 per year - USD$315,500 per year.",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Sr Staff Software Engineer - Kubernetes",
+    "reason": "stale — Strong coding proficiency in one or more languages such as Go, Java, or Python.",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Uber",
+    "role": "Cloud Engineer III",
+    "reason": "stale — Lead cloud-based solution design, deployment, and management using IaC tools like Terraform, CloudFormation, or Ansible.",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Lyft",
+    "role": "Staff Infrastructure Engineer - Observability",
+    "reason": "stale — This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Thursdays and a team-specific third day.",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Lyft",
+    "role": "Senior Infrastructure Network Engineer - Kubernetes, Cloud & Service Mesh",
+    "reason": "stale — This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office at least 3 days per week, including on Mondays, Wednesdays, and Thursdays.",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Crowley",
+    "role": "Systems Administrator IV",
+    "reason": "stale — Work Arrangement: Hybrid",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Crowley",
+    "role": "Vice President, Infrastructure and Security",
+    "reason": "stale — Work Arrangement: Hybrid",
+    "where": "Employer sites",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Cloud Architect",
+    "reason": "stale — Job Posted January 4th, 2024",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Digital Ecosystems Architect",
+    "reason": "stale — This role is based remotely, but if the selected candidate lives within a specific mile radius of a GM hub, they will be expected to report to the location three times a week",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Enterprise Architect",
+    "reason": "stale — The Enterprise Architect is responsible for defining, maintaining, and evolving the organization's core IT architecture, ensuring technology platforms are scalable, resilient, secure by design, and aligned to long-term IT strategy.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Ford Motor Company",
+    "role": "Business Architect",
+    "reason": "not-remote — Based in Dearborn, MI, this is a hybrid position with a requirement to be onsite four or more days per week.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Ford Motor Company",
+    "role": "Technical Cloud Architect - Supply Chain Digitization",
+    "reason": "not-remote — This position is hybrid (onsite four days per week) in Allen Park, MI",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Ford Motor Company",
+    "role": "Solution Architect",
+    "reason": "stale — This job has closed.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "BorgWarner",
+    "role": "Solutions Architect",
+    "reason": "pay-outside-band — $104,800 - $144,100",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "BorgWarner",
+    "role": "Cloud Architect and Platform Engineer",
+    "reason": "stale — Implement and deploy cloud solutions using infrastructure as code, continuous integration and delivery, and DevOps tools.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "BorgWarner",
+    "role": "ATR Solution Architect",
+    "reason": "stale — The FICO Solution Architect will focus on defining solution strategy and design principles, ensuring the alignment between the business needs and technical solutions.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "BorgWarner",
+    "role": "Software Architect",
+    "reason": "stale — Note, this is a hybrid position whereby the employee will work both from home and from the aforementioned office address.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Unilever",
+    "role": "Technical & Integration Lead Enterprise Architect",
+    "reason": "stale — As part of our growth strategy, we are seeking a highly skilled Technical & Integration Lead Enterprise Architect to join our dynamic team.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Unilever",
+    "role": "Applications Lead Enterprise Architect",
+    "reason": "stale — we are investing to unlock the full growth potential of Ice Cream as a standalone entity, once we separate from Unilever, which is planned to happen by November 2025",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Unilever",
+    "role": "Sr Solution Architect, Google Tech",
+    "reason": "not-remote — LOCATION: Bangalore",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Unilever",
+    "role": "CD Engineering Solution Architect Manager",
+    "reason": "not-remote — Location: India (Bangalore)",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Nestlé USA",
+    "role": "Sr Expert IT Solution Architect",
+    "reason": "not-remote — As a Sr Expert IT Solution Architect, you will design and implement scalable, secure, and resilient cloud solutions for Nestle North Zone Americas.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Nestlé USA",
+    "role": "Expert IT Cloud Solution Architect",
+    "reason": "not-remote — As an Expert Cloud Solution Architect, you will use your experience and expertise within API Solution Architecture, design and implementation using Python, to support enterprise-level analytics solutions.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "General Mills",
+    "role": "Principal Enterprise Solutions Architect - Marketing",
+    "reason": "stale — The Principal Enterprise Solutions Architect – Marketing is a critical role within CyberEA (Cyber and Enterprise Architecture) group of General Mill's D&T (Digital and Technology) organization",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Kraft Heinz",
+    "role": "HR Solution Architect",
+    "reason": "not-remote — Location(s) Toronto - Queen's Quay - Headquarters",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Mondelez International",
+    "role": "Manager, Data Science, Solution Architect",
+    "reason": "stale — The Solution Architect will provide end-to-end solution architecture guidance for data science initiatives.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Mondelez International",
+    "role": "Data Solution Architect",
+    "reason": "pay-outside-band — The base salary range for this position is $83,800 to $115,225",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
+    "company": "Mondelez International",
+    "role": "EOP Global Solution Architect",
+    "reason": "stale — You will serve as the Solution Architect for the o9 EOP platform, owning the end-to-end technical architecture, security framework, and integration landscape.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
    }
   ],
   "State portals": [
@@ -4919,7 +5150,8 @@
    "DTE Energy",
    "Expand Energy",
    "Sherwin-Williams",
-   "CSX"
+   "CSX",
+   "Nestlé USA"
   ],
   "W9": [
    "Oracle",
@@ -4947,5 +5179,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T10:11:03Z"
+ "lists_generated_at": "2026-10-29T10:13:24Z"
 }
