@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:14:08Z",
+ "generated_at": "2026-10-29T11:16:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:13:41Z",
+  "last_activity_at": "2026-10-29T11:15:32Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 37,
-  "rejected": 1680,
-  "evaluated": 1717
+  "rejected": 1693,
+  "evaluated": 1730
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 646,
+  "evaluated": 659,
   "filed": 0,
   "parked": 13,
-  "rejected": 633,
+  "rejected": 646,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:14:08Z",
-   "detail": "Employers 230/54"
+   "heartbeat_at": null,
+   "detail": "Employers 235/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "499 of 612 units done",
+   "detail": "500 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 6:13 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 6:15 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -4579,6 +4571,97 @@
     "reason": "stale — Published: 2026-10-21",
     "where": "Employer sites",
     "time": "6:13 AM"
+   },
+   {
+    "company": "DXC Technology",
+    "role": "Cloud Solution/Enterprise Architect",
+    "reason": "stale — an experienced Solution/Enterprise Architect to join our ANZ Delivery Architecture practice on a permanent full-time basis",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "DXC Technology",
+    "role": "AI Solutions Architect (LLMs & AI Agents)",
+    "reason": "stale — Expert-level Python and hands-on experience with AI/ML frameworks (LangChain, AutoGen, CrewAI, Semantic Kernel, or equivalent)",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Consult Enterprise Architect",
+    "reason": "stale — Lead the design and implementation of technical architectures for new systems, considering scalability, security, performance, resiliency and integration needs",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Azure Cloud - Infrastructure Architect",
+    "reason": "stale — Actively build, configure, and optimize Azure resources for compute, storage, network, and identity services.",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Network Architect (at Skytap, a Kyndryl company)",
+    "reason": "stale — Skytap, a Kyndryl company, is looking for a Network Architect who will design the next generation of our global and hybrid cloud network infrastructure.",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Senior Cloud Consultant",
+    "reason": "stale — lead and deliver cloud modernization and transformation initiatives for large, complex enterprise environments",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Enterprise Architect",
+    "reason": "stale — responsible for leading the design of complex managed service solutions and driving the strategic vision and direction for the company's largest enterprise clients.",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — lead the development and positioning of joint security solutions powered by Palo Alto Networks suite of Security Platforms at NTT Data",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Senior Network Services Architect",
+    "reason": "stale — The Sr Network Service Architect is responsible for the development of competitive, innovative, complex, multi-year, viable Managed Network solutions and associated business cases.",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Senior Solution Architect (AWS GovCloud & IoT Modernization)",
+    "reason": "cloud-scope — We are currently seeking a Senior Solution Architect (AWS GovCloud & IoT Modernization) - REMOTE to join our team in Columbus (REMOTE), Ohio (US-OH), United States (US).",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "AWS Greengrass Cloud Architect",
+    "reason": "cloud-scope — The AWS Greengrass / Cloud Architect serves as the technical lead for the modernization and migration of edge gateway software,",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "EPAM Systems",
+    "role": "Solution Architect (Microsoft Azure Cloud)",
+    "reason": "stale — Architect secure, scalable, and cost-efficient Azure solutions leveraging Azure Functions, Azure Kubernetes Service (AKS), PaaS offerings, and other Azure-native services",
+    "where": "Employer sites",
+    "time": "6:15 AM"
+   },
+   {
+    "company": "EPAM Systems",
+    "role": "Multicloud Systems Architect (Azure, GCP, AWS)",
+    "reason": "stale — Systems Architect specializing in multicloud environments — Microsoft Azure, Google Cloud Platform (GCP), and Amazon Web Services (AWS)",
+    "where": "Employer sites",
+    "time": "6:15 AM"
    }
   ],
   "State portals": [
@@ -6286,5 +6369,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:14:08Z"
+ "lists_generated_at": "2026-10-29T11:16:38Z"
 }
