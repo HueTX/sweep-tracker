@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:46:17Z",
+ "generated_at": "2026-10-29T11:48:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:45:19Z",
+  "last_activity_at": "2026-10-29T11:47:49Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 48,
-  "rejected": 1801,
-  "evaluated": 1849
+  "rejected": 1806,
+  "evaluated": 1854
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 775,
+  "evaluated": 780,
   "filed": 0,
   "parked": 24,
-  "rejected": 751,
+  "rejected": 756,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:46:17Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": null,
+   "detail": "Employers 255/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -246,24 +242,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:46:17Z",
-   "detail": "Employers 250/45"
+   "heartbeat_at": null,
+   "detail": "Employers 255/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:46:17Z",
-   "detail": "Employers 242/41"
+   "heartbeat_at": null,
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "521 of 612 units done",
+   "detail": "524 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 6:45 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 6:47 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -5484,6 +5474,41 @@
     "reason": "not-remote — $122k-$207k/yr Onsite Full Time; Lead Systems Platform Architect F/T / O'Fallon, Missouri, United States. Workarounds tried: employer's posting via search listing, alternate routes in search, no remote alternate posting found.",
     "where": "Employer sites",
     "time": "6:45 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Endpoint Cybersecurity Architect",
+    "reason": "not-remote — Charlotte, North Carolina, United States Hybrid Full Time; to design, implement, and manage endpoint security solutions across our enterprise. Workarounds tried: employer's posting via search mirrors, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:47 AM"
+   },
+   {
+    "company": "Ingersoll Rand",
+    "role": "Technical Lead Developer",
+    "reason": "hands-on — you will be the technical architect behind our new digital B2C customer platform but being 'hands on' with solution development and coding both frontend (React, Next.js) and backend (Node.js, Java, .NET) - hybrid Davidson, NC, engineer-level.",
+    "where": "Employer sites",
+    "time": "6:47 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Sr. Director, Solution Architecture",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $214,900.00 to $358,100.00. Position is hybrid and will require to work 2 to 3 days per week site; Locations: NYHQ or PA-Collegeville; Last Date to Apply for Job: September 23, 2026.",
+    "where": "Employer sites",
+    "time": "6:47 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Director, Senior Technical Architect",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $162,900.00 to $271,500.00. Work Location Assignment: On Premise; On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote; Published 2026-09-03, stale.",
+    "where": "Employer sites",
+    "time": "6:47 AM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Information Security Architect - Secrets Management",
+    "reason": "experience-mismatch — Effectively function as the subject matter expert in secrets management with a large corporate enterprise, developing new proposals and implementing those efforts. Must have experience with Secrets Management in a corporate environment, large enterprise strongly preferred. Knowledge of Secrets Management tools such as HashiCorp Vault, CyberArk. Whole role is a narrow secrets-management SME specialty, not Azure/cloud/enterprise architecture in his record. This position can be virtually anywhere in the U.S.; Salary: $117500 - $223500. Workarounds tried: employer's own careers.abbvie.com posting (governing JD), alternate routes in search, no broader cloud/enterprise alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:47 AM"
    }
   ],
   "State portals": [
@@ -7198,5 +7223,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:46:17Z"
+ "lists_generated_at": "2026-10-29T11:48:09Z"
 }
