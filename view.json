@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:58:32Z",
+ "generated_at": "2026-10-29T10:00:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:57:54Z",
+  "last_activity_at": "2026-10-29T09:59:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 34,
-  "rejected": 1461,
-  "evaluated": 1495
+  "rejected": 1465,
+  "evaluated": 1499
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 426,
+  "evaluated": 430,
   "filed": 0,
   "parked": 10,
-  "rejected": 416,
+  "rejected": 420,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -102,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:58:32Z",
-   "detail": "Employers 145/73"
+   "heartbeat_at": null,
+   "detail": "Employers 150/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -124,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T09:58:32Z",
-   "detail": "Employers 155/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 160/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T10:00:13Z",
    "detail": "Employers 155/44"
   },
   "W9": {
@@ -223,23 +224,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:00:13Z",
    "detail": "Employers 150/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:00:13Z",
    "detail": "Employers 145/54"
   },
   "W18": {
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "330 of 612 units done",
+   "detail": "332 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 4:57 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 4:59 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W6 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
