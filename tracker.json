@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T10:54:07Z",
+ "generated_at": "2026-10-29T10:56:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T10:50:48Z",
+  "last_activity_at": "2026-10-29T10:54:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 37,
-  "rejected": 1605,
-  "evaluated": 1642
+  "rejected": 1623,
+  "evaluated": 1660
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 571,
+  "evaluated": 589,
   "filed": 0,
   "parked": 13,
-  "rejected": 558,
+  "rejected": 576,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W4",
-  "W19"
+  "W3",
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -92,56 +92,56 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T10:54:07Z",
-   "detail": "Employers 218/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 222/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T10:56:39Z",
    "detail": "Employers 225/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:54:07Z",
-   "detail": "Employers 187/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:56:39Z",
    "detail": "Employers 230/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:56:39Z",
    "detail": "Employers 230/44"
   },
   "W9": {
@@ -257,13 +257,13 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:54:07Z",
-   "detail": "Employers 225/41"
+   "heartbeat_at": null,
+   "detail": "Employers 230/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "482 of 612 units done",
+   "detail": "485 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:50 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 5:54 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -747,6 +747,13 @@
     "time": "4:26 AM"
    },
    {
+    "company": "State of Utah",
+    "role": "IT Architect",
+    "reason": "stale — OPENING DATE 06/11/2025 CLOSING DATE 6/16/2025 11:59 PM Mountain. This position is currently a hybrid of both in-office and telework days (2 days a week required in office and any mandatory in-office meetings). The office location is at 195 North 1950 West, Salt Lake City, UT 84116.",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
     "company": "Providence Health Plan",
     "role": "Principal IS Architect PHP, Healthcare Technology Solutions (Virtual)",
     "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland",
@@ -777,16 +784,16 @@
    {
     "company": "Horizon Blue Cross Blue Shield of New Jersey",
     "role": "Enterprise Architect",
-    "reason": "not-remote — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware",
+    "reason": "stale — Published: 2025-05-04",
     "where": "Employer sites",
-    "time": "4:57 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "CareSource",
     "role": "Solution Architect III - Edifecs",
-    "reason": "stale — At least three (3) years in HealthCare Payer IT.",
+    "reason": "stale — Published: 2025-05-04",
     "where": "Employer sites",
-    "time": "4:57 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "Blue Cross Blue Shield of North Carolina",
@@ -2816,14 +2823,14 @@
     "role": "Principal Enterprise Architect",
     "reason": "experience-mismatch — At least 5 years of IT & Architecture experience in Customer Service, Workflow and Healthcare payer admin technologies such as Facets, solutions design and implementation.",
     "where": "Employer sites",
-    "time": "4:57 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "CareSource",
     "role": "Clinical Systems Application Architect III",
     "reason": "experience-mismatch — Experience with Clinical IT, Utilization Management, Case Management, and Complex Care Coordination, Grievance and Appeals",
     "where": "Employer sites",
-    "time": "4:11 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "CareSource",
@@ -3059,9 +3066,9 @@
    {
     "company": "CareSource",
     "role": "Facets Application Architect II - Healthcare/Provider",
-    "reason": "hands-on — This position is expected to read/create code for prototypes and lead",
+    "reason": "hands-on-coding — C# programming experience",
     "where": "Employer sites",
-    "time": "4:29 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "CareSource",
@@ -3073,9 +3080,9 @@
    {
     "company": "Blue Cross Blue Shield of North Carolina",
     "role": "Principal Information Security Architect",
-    "reason": "not-remote — an expert at managing, configuring, and developing IAM platforms",
+    "reason": "hands-on-coding — Plan, implement, and manage IAM/CIAM and associated products to meet user and company needs.",
     "where": "Employer sites",
-    "time": "4:29 AM"
+    "time": "5:54 AM"
    },
    {
     "company": "Sherwin-Williams",
@@ -4056,6 +4063,125 @@
     "reason": "stale — We will accept applications until September 5, 2025.",
     "where": "Employer sites",
     "time": "5:49 AM"
+   },
+   {
+    "company": "Tyson Foods",
+    "role": "Lead Infrastructure Engineer INT",
+    "reason": "stale — Published: 2025-11-07",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Hormel Foods",
+    "role": "Infrastructure Team Lead - Corporate Office (Austin, MN)",
+    "reason": "not-remote — LOCATION: Global Headquarters, Austin, MN",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Wayfair",
+    "role": "Associate Director of Engineering - Cloud Platforms Compute",
+    "reason": "stale — Full-Time Updated 1 year ago",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Wayfair",
+    "role": "Head of Cloud Enablement",
+    "reason": "stale — In 2021, Wayfair generated ~$14 billion in net revenue",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Chewy",
+    "role": "Software Development Manager, Platform Engineering",
+    "reason": "stale — Published: 2026-10-07",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Chewy",
+    "role": "Senior Technical Program Manager, Platform Operations",
+    "reason": "stale — Published: 2026-10-11",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "eBay",
+    "role": "Senior Director, Cloud Engineering",
+    "reason": "stale — Published: 2025-10-10",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Sr Data Architect",
+    "reason": "cloud-scope — Knowledge of cloud computing and experience with platforms like Amazon Web Services (AWS) or Google Cloud Platform (GCP) can be beneficial.",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "CareSource",
+    "role": "Architect II - Digital Solutions",
+    "reason": "hands-on-coding — Ability to jump in with a development team and contribute code when technical expertise is needed.",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "IT Architect - Utah Geospatial Resource Center (UGRC)",
+    "reason": "stale — This position is currently a hybrid of both in-office and telework days (two days a week, in office required at the Taylorsville State Office Building (4315 S 2700 W, Taylorsville, UT). Full JD also requires 'Experience developing and deploying applications using the Google Cloud Platform and Firebase' and full-stack TypeScript/React/Python development.",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "Enterprise Integration Specialist",
+    "reason": "stale — OPENING DATE 04/10/2025 CLOSING DATE 4/17/2025 11:59 PM Mountain. This position is currently a hybrid of both in-office (2 days a week in office required) and telework days. This job may be filled at either of the levels listed below. - Information Technology Analyst III, $40.58-$68.97 per hour - Information Technology Analyst II, $34.23-$58.18 per hour",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "State of Nevada",
+    "role": "MASTER IT PROFESSIONAL 2 - SYSTEMS ADMINISTRATION",
+    "reason": "stale — This position is part of the Secretary of State's IT Division, located in either the Carson City or Las Vegas office. It serves as a senior technical lead within the Systems Administration team and is responsible for enterprise-level infrastructure design, implementation, and optimization. The role encompasses advanced systems architecture, administration, and operational oversight for mission-critical environments. Published: 2026-04-15",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "State of Nevada",
+    "role": "DEPUTY CHIEF INFORMATION OFFICER (CHIEF TECHNOLOGY OFFICER) - UNCLASSIFIED",
+    "reason": "stale — This position serves as a senior statewide IT leader responsible for advancing enterprise technology strategy, governance, and modernization efforts across executive branch agencies. The position oversees enterprise architecture, portfolio and project management, innovation initiatives, and statewide data governance efforts. Published: 2026-03-11",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT ARCHITECT - INFRASTRUCTURE (CLOUD FOCUSED)",
+    "reason": "stale — OPENING DATE 12/09/2022 CLOSING DATE 11/14/2023 2:00 PM Central. SALARY $120,000.00 - $140,000.00 Annually. Reporting Location: 611 WALKER. Workdays & Hours: MONDAY - FRIDAY, 8 AM - 5 PM",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT ARCHITECT - INFRASTRUCTURE",
+    "reason": "stale — Job Classification: IT ARCHITECT - INFRASTRUCTURE. Posting Number: 33856. Reporting Location: 611 WALKER, 9th FLOOR. Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM. Published: 2024-09-30. Duties: 'overseeing the physical security, integrity, and safety of the data center/server farm' with Azure, Active Directory/ADFS and federated identity architecting.",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT ARCHITECT- APPLICATIONS",
+    "reason": "stale — Job Classification: ITARCHITECT-APPLICATIONS. Posting Number: 38473. Department: Houston Information Technology Services. Division: Enterprise Applications Services. Reporting Location: 611 Walker, Houston, TX 77002. Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM. The IT Architect - Police Applications will serve as a technical leader responsible for designing, implementing, and transforming enterprise application architectures",
+    "where": "Employer sites",
+    "time": "5:54 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT ARCHITECT - INFRASTRUCTURE (NETWORK/FIREWALL SERVICES)",
+    "reason": "stale — Job Classification: IT ARCHITECT - INFRASTRUCTURE (NETWORK/FIREWALL SERVICES). Posting Number: 38270. Reporting Location: 611 Walker, Houston, TX 77002. Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM. This position provides technical guidance to the Firewall & Network Security Services team",
+    "where": "Employer sites",
+    "time": "5:54 AM"
    }
   ],
   "State portals": [
@@ -5765,5 +5891,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T10:54:07Z"
+ "lists_generated_at": "2026-10-29T10:56:39Z"
 }
