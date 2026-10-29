@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:09:15Z",
+ "generated_at": "2026-10-29T11:11:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:08:21Z",
+  "last_activity_at": "2026-10-29T11:10:15Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 37,
-  "rejected": 1660,
-  "evaluated": 1697
+  "rejected": 1671,
+  "evaluated": 1708
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 626,
+  "evaluated": 637,
   "filed": 0,
   "parked": 13,
-  "rejected": 613,
+  "rejected": 624,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
-  "W16"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -124,13 +125,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:09:15Z",
-   "detail": "Employers 235/44"
+   "heartbeat_at": null,
+   "detail": "Employers 240/44"
   },
   "W6": {
    "label": "Utilities",
@@ -223,45 +224,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 240/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:09:15Z",
-   "detail": "Employers 235/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:11:09Z",
    "detail": "Employers 230/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:11:09Z",
    "detail": "Employers 235/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:11:09Z",
    "detail": "Employers 235/41"
   },
   "W20": {
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "495 of 612 units done",
+   "detail": "497 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:08 AM CT · 2 workers in flight · 0 filed this run",
+ "note": "Last activity 6:10 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -725,6 +726,13 @@
     "time": "1:26 AM"
    },
    {
+    "company": "AIG",
+    "role": "VP, Enterprise Architecture - Modernization",
+    "reason": "stale — At AIG, we value in-person collaboration as a vital part of our culture, which is why we ask our team members to be primarily in the office.",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
     "company": "FDIC",
     "role": "Senior Cloud Solution Architect, CG-2210-14",
     "reason": "stale — Published: 03/31/2026 — outside the 7-day eligibility window (stale)",
@@ -875,8 +883,29 @@
     "company": "Murphy Oil",
     "role": "Enterprise Cloud Architect (Finance)",
     "reason": "not-remote — This role will work in our Houston Corporate office and may work two (2) days a week remote.",
-    "where": "",
-    "time": "5:37 AM"
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Murphy Oil",
+    "role": "Data & Integration Architect",
+    "reason": "not-remote — Murphy Oil is seeking an experienced Data & Integration Architect to lead the design, architecture, and delivery of enterprise grade data engineering and integration solutions. The ideal candidate is a hands-on technologist with deep",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "TechnipFMC",
+    "role": "Data Architect",
+    "reason": "not-remote — Works with Enterprise Architecture teams on the technical stack.",
+    "where": "Employer sites",
+    "time": "6:09 AM"
+   },
+   {
+    "company": "Weatherford",
+    "role": "OTM Application Architect",
+    "reason": "stale — Advanced functional and technical expertise in Oracle Transportation Management (OTM), including setup, integration, and optimization for logistics and transportation",
+    "where": "Employer sites",
+    "time": "6:09 AM"
    },
    {
     "company": "PSEG",
@@ -4440,6 +4469,55 @@
     "reason": "stale — Work Location: Remote within Texas only. Required Experience: Ten years of experience in platform technology to include five years of experience in software integration, to include five years of supervisory/managerial experience. Additional Information - Requisition ID: 175349 - Employment Status: Full-Time",
     "where": "Employer sites",
     "time": "6:06 AM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Corporate Architect - AI Focused",
+    "reason": "stale — Partner with the Enterprise AI Architect to align corporate-domain AI solutions to enterprise reference architectures, standards, and governance.",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Senior Architect - Personal Insurance Enterprise",
+    "reason": "stale — Define target state architecture and roadmaps.",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Business Architect, Business Insurance",
+    "reason": "stale — Conducts business capability discovery and analysis (limited scope/complexity).",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Director of Enterprise Architecture (Applications)",
+    "reason": "stale — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday).",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Director of Enterprise Architecture (GenAI)",
+    "reason": "stale — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday).",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "IT Business Architect - Insurance Claims and Operations",
+    "reason": "stale — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday).",
+    "where": "Employer sites",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "AIG",
+    "role": "Data Architect",
+    "reason": "not-remote — At AIG, we value in-person collaboration as a vital part of our culture, which is why we ask our team members to be primarily in the office.",
+    "where": "Employer sites",
+    "time": "6:10 AM"
    }
   ],
   "State portals": [
@@ -6074,7 +6152,6 @@
    "Enbridge",
    "TC Energy",
    "Southern Company",
-   "Murphy Oil",
    "Avista",
    "MDU Resources",
    "Portland General Electric",
@@ -6148,5 +6225,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:09:15Z"
+ "lists_generated_at": "2026-10-29T11:11:09Z"
 }
