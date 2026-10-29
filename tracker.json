@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:32:21Z",
+ "generated_at": "2026-10-29T09:34:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:32:09Z",
+  "last_activity_at": "2026-10-29T09:34:12Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 35,
-  "rejected": 1414,
-  "evaluated": 1449
+  "rejected": 1416,
+  "evaluated": 1451
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 380,
+  "evaluated": 382,
   "filed": 0,
   "parked": 11,
-  "rejected": 369,
+  "rejected": 371,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W19",
-  "W20"
+  "W2",
+  "W3",
+  "W4"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,45 +81,45 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 150/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:32:21Z",
-   "detail": "Employers 145/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:34:32Z",
    "detail": "Employers 135/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:34:32Z",
    "detail": "Employers 140/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:34:32Z",
    "detail": "Employers 135/32"
   },
   "W5": {
@@ -257,24 +257,24 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:32:21Z",
-   "detail": "Employers 140/41"
+   "heartbeat_at": null,
+   "detail": "Employers 145/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:32:21Z",
-   "detail": "Employers 145/31"
+   "heartbeat_at": null,
+   "detail": "Employers 150/31"
   }
  },
  "stages": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "314 of 612 units done",
+   "detail": "317 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 4:32 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 4:34 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1601,9 +1601,9 @@
    {
     "company": "Securities and Exchange Commission (SEC)",
     "role": "CHIEF ENTERPRISE ARCHITECT",
-    "reason": "experience-mismatch — Well-qualified surplus/displaced Federal employees of the SEC (i.e. CTAP) in the local area and current SEC employees in permanent competitive service positions (i.e. status candidates).",
+    "reason": "stale — Developing and maintaining the enterprise architecture strategy, vision, and multi-year roadmap aligned with the Commission's strategic plan.",
     "where": "Employer sites",
-    "time": "1:25 AM"
+    "time": "4:34 AM"
    },
    {
     "company": "Securities and Exchange Commission (SEC)",
@@ -1818,23 +1818,23 @@
    {
     "company": "Yum! Brands",
     "role": "Solutions Architect",
-    "reason": "stale — Published: 2026-06-23 - far outside the 7-day window. Minimum Requirements also state: Development experience in Typescript/NodeJS with React framework preferred, however we may consider strong candidates with proven experience in related technologies e.g. Python, C# etc. Workarounds tried: employer careers search (yum.com Digital & Tech), alternate route (BuiltIn full JD), alternate posting checked - Irvine Sr. Solutions Architect variant is hybrid with the same coding requirements.",
+    "reason": "stale — Lead the development of a modern, modular, and flexible restaurant technology platform.",
     "where": "Employer sites",
-    "time": "1:31 AM"
+    "time": "4:34 AM"
    },
    {
     "company": "McDonald's",
     "role": "Manager, Solutions Architect - Oracle Cloud ERP & Integrations",
-    "reason": "stale — Published: 2025-05-16 - far outside the 7-day window. The expected salary range for this role is $129,800 - $165,490. Workarounds tried: employer ATS (SmartRecruiters full JD), alternate route (BuiltIn full JD), alternate posting checked - no fresher variant found.",
+    "reason": "stale — Develop comprehensive architectural designs for technology solutions across multiple products that meet business requirements and integrate seamlessly with existing McDonald's systems and platforms.",
     "where": "Employer sites",
-    "time": "1:31 AM"
+    "time": "4:34 AM"
    },
    {
     "company": "PepsiCo",
     "role": "Architect - Cloud Backup Operations",
-    "reason": "stale — Published: 2026-04-12T06:21:10.277Z - far outside the 7-day window. Duties are cloud backup operations leadership, not a fresh architect posting. Workarounds tried: employer careers search, alternate route (Imagine Job Board full JD), alternate posting checked - no fresher variant found.",
+    "reason": "stale — Partner with Service Providers and key stakeholders to provide the required Backup and Restore support to meet business requirements and ensure appropriate availability of infrastructure services",
     "where": "Employer sites",
-    "time": "1:31 AM"
+    "time": "4:34 AM"
    },
    {
     "company": "McDonald's",
@@ -2955,6 +2955,20 @@
     "reason": "not-remote — This Enterprise Security Architect is responsible for strategy, R&D, network segmentation and technical designs for the Cyber Security Technologies team who manages our firewall, VPN, endpoint protection, certificate management and multi factor authorization platforms.",
     "where": "Employer sites",
     "time": "4:32 AM"
+   },
+   {
+    "company": "JetBlue",
+    "role": "Enterprise Security Architect, Cloud Architect",
+    "reason": "not-remote — Security harden Azure, GCP, AWS Identity as a Service (IaaS) and Platform as a Service (PaaS) infrastructure.",
+    "where": "Employer sites",
+    "time": "4:33 AM"
+   },
+   {
+    "company": "PepsiCo",
+    "role": "HR Solution Architect",
+    "reason": "not-remote — The HR Solution Architect will be responsible for conducting Technology Evaluations, creating and communicating Conceptual Architecture, Logical Architecture, and Physical Architectures for new initiatives",
+    "where": "Employer sites",
+    "time": "4:34 AM"
    }
   ],
   "State portals": [
@@ -4410,5 +4424,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T09:32:21Z"
+ "lists_generated_at": "2026-10-29T09:34:32Z"
 }
