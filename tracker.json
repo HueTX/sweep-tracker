@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T03:08:49Z",
+ "generated_at": "2026-10-29T03:10:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-29T03:07:25Z",
@@ -39,7 +39,10 @@
   "rejected": 914,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W17",
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -231,23 +234,23 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T03:10:47Z",
    "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T03:10:47Z",
    "detail": "Employers 95/45"
   },
   "W19": {
@@ -539,13 +542,19 @@
    }
   ]
  },
- "note": "Last activity 10:07 PM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 10:07 PM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W17 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W17"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W17",
+  "headline": "W17 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -8402,5 +8411,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T03:08:49Z"
+ "lists_generated_at": "2026-10-29T03:10:47Z"
 }
