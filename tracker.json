@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T07:37:08Z",
+ "generated_at": "2026-10-29T07:39:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T07:34:34Z",
+  "last_activity_at": "2026-10-29T07:38:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 34,
-  "rejected": 1300,
-  "evaluated": 1335
+  "rejected": 1314,
+  "evaluated": 1349
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 269,
+  "evaluated": 283,
   "filed": 0,
   "parked": 10,
-  "rejected": 258,
+  "rejected": 272,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -102,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T07:37:08Z",
-   "detail": "Employers 125/73"
+   "heartbeat_at": null,
+   "detail": "Employers 130/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T07:37:08Z",
-   "detail": "Employers 135/31"
+   "heartbeat_at": null,
+   "detail": "Employers 140/31"
   }
  },
  "stages": {
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "288 of 612 units done",
+   "detail": "290 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -542,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 2:34 AM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W20"
-  }
- ],
+ "note": "Last activity 2:38 AM CT · 1 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2289,6 +2280,104 @@
     "reason": "not-remote — Hybrid - Office/Remote (Office 2-3 days per week) - Knoxville (per JD returned by searcher; posted compensation caps at $128,600, below the pay band floor).",
     "where": "Employer sites",
     "time": "2:34 AM"
+   },
+   {
+    "company": "Sanford Health",
+    "role": "Enterprise Architect - Integration",
+    "reason": "not-remote — Strong hands-on knowledge of development tools including Java, SQL, and XML/XSLT related technologies; Sioux Falls, SD on-site terms per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "CHRISTUS Health",
+    "role": "Senior IT Architect",
+    "reason": "closed — Ashby board check in this run: no open CHRISTUS Health roles listed and the Senior IT Architect posting reports posting_closed true (via Teal) — the req is closed.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "UCHealth",
+    "role": "Sr EPIC Application Analyst / Architect",
+    "reason": "not-remote — Hybrid Aurora, CO terms and EPIC application-analyst scope per employer JD summary returned by searcher: serves as a resource and a mentor for EPIC application staff.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "UCHealth",
+    "role": "EPIC Application Analyst III - Grand Central/Prelude",
+    "reason": "experience-mismatch — Analyst-level EPIC application role (Aurora, CO) per employer JD summary returned by searcher — not an architect-level posting.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "American Airlines",
+    "role": "Principal Architect, Site Reliability Engineering (SRE)",
+    "reason": "not-remote — This position is based in the Dallas/Fort Worth area. (JD is remote-tagged but restricted to candidates living in the immediate Dallas/Fort Worth area; candidate is Houston-based.)",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "American Airlines",
+    "role": "Cloud Data Architect - Azure",
+    "reason": "not-remote — Fort Worth, Texas hybrid terms per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "American Airlines",
+    "role": "Staff Architect, Agentic AI Platforms & Engineering",
+    "reason": "not-remote — Fort Worth hybrid terms with regular travel and hands-on software engineering duties per employer JD returned by searcher (Agentic AI Platforms & Engineering).",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "American Airlines",
+    "role": "Principal Domain Architect",
+    "reason": "not-remote — Tempe, AZ / Fort Worth, TX hybrid terms per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Senior Manager Technology - Platform Engineering",
+    "reason": "not-remote — Dallas, TX on-site/hybrid manager role per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Lead Platform Engineer - DevOps (Ground Operations)",
+    "reason": "hands-on — hands-on technical leader for the Ground Operations DevOps platform (Dallas-based lead engineer role per employer JD returned by searcher).",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "Alaska Airlines",
+    "role": "Principal Product Manager, Platform & Developer Experience",
+    "reason": "not-remote — Seattle hybrid product-manager role per employer JD returned by searcher — not an architect posting.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "Alaska Airlines",
+    "role": "Site Reliability Engineer",
+    "reason": "hands-on — Hands-on site reliability engineering role with on-call duties per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "JetBlue",
+    "role": "Manager, Workday Integrations & HR Technology",
+    "reason": "experience-mismatch — technical leader for our Workday platform (manager-level integrations role, Long Island City, NY, per employer JD returned by searcher).",
+    "where": "Employer sites",
+    "time": "2:38 AM"
+   },
+   {
+    "company": "Union Pacific",
+    "role": "Senior Director IT - Cloud Product & Platform Engineering",
+    "reason": "not-remote — Omaha, NE-based senior director role whose stated duties center on principal-engineer delivery per employer JD returned by searcher.",
+    "where": "Employer sites",
+    "time": "2:38 AM"
    }
   ],
   "State portals": [
@@ -3627,5 +3716,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T07:37:08Z"
+ "lists_generated_at": "2026-10-29T07:39:17Z"
 }
