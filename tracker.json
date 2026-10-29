@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:23:04Z",
+ "generated_at": "2026-10-29T09:24:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:20:15Z",
+  "last_activity_at": "2026-10-29T09:23:26Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 35,
-  "rejected": 1387,
-  "evaluated": 1422
+  "rejected": 1388,
+  "evaluated": 1423
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 353,
+  "evaluated": 354,
   "filed": 0,
   "parked": 11,
-  "rejected": 342,
+  "rejected": 343,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W4",
-  "W5",
-  "W6"
+  "W1",
+  "W2",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -81,23 +81,23 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:24:21Z",
    "detail": "Employers 140/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:24:21Z",
    "detail": "Employers 130/39"
   },
   "W3": {
@@ -114,35 +114,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:23:04Z",
-   "detail": "Employers 125/32"
+   "heartbeat_at": null,
+   "detail": "Employers 130/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:23:04Z",
-   "detail": "Employers 140/44"
+   "heartbeat_at": null,
+   "detail": "Employers 145/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:23:04Z",
-   "detail": "Employers 140/44"
+   "heartbeat_at": null,
+   "detail": "Employers 145/44"
   },
   "W9": {
    "label": "Dice",
@@ -257,12 +257,12 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:24:21Z",
    "detail": "Employers 135/41"
   },
   "W20": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "302 of 612 units done",
+   "detail": "305 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 4:20 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 4:23 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W4 · Title 11 of 58 · Domain Architect",
+   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 11 of 58 · Domain Architect",
+  "label": "W19",
+  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -759,6 +759,13 @@
     "time": "4:11 AM"
    },
    {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Principal Infrastructure Architect",
+    "reason": "stale — Design and implement infrastructure services that align with the organization's technology strategy.",
+    "where": "Employer sites",
+    "time": "4:23 AM"
+   },
+   {
     "company": "Devon Energy",
     "role": "Solution Architecture Advisor",
     "reason": "not-remote — Location: Oklahoma City, OK, US; be required to get her/his 'hands dirty' in the implementation; Reading and writing software in modern languages such as C#.NET, Java, Javascript, SQL, etc.",
@@ -789,16 +796,16 @@
    {
     "company": "Enbridge",
     "role": "Advisor IT Solutions Architect",
-    "reason": "not-remote — Enbridge's FlexWork (hybrid work model) offers eligible employees (Manager and below) the option to work from home on Wednesdays and Fridays, opt for a compressed work week schedule, or have flexible start and end times.",
+    "reason": "not-remote — Enbridge's FlexWork (hybrid work model) offers eligible employees (Manager and below) the option to work from home on Wednesdays and Fridays",
     "where": "Employer sites",
-    "time": "1:18 AM"
+    "time": "4:23 AM"
    },
    {
     "company": "TC Energy",
     "role": "Portfolio Architect",
-    "reason": "not-remote — To remain competitive, support our high-performance culture and allow for more flexibility in the way we work, we offer a hybrid work model and flexible dress code for our eligible office-based workforce in Canada, the U.S. and Mexico. #LI-Hybrid",
+    "reason": "not-remote — we offer a hybrid work model and flexible dress code for our eligible office-based workforce in Canada, the U.S. and Mexico. #LI-Hybrid",
     "where": "Employer sites",
-    "time": "1:18 AM"
+    "time": "4:23 AM"
    },
    {
     "company": "ONEOK",
@@ -1545,9 +1552,9 @@
    {
     "company": "CMS Energy",
     "role": "Enterprise Architect",
-    "reason": "not-remote — This position is onsite at the One Energy Plaza located in Jackson, MI. The selected candidate must be within a commutable distance or willing to relocate",
+    "reason": "not-remote — Location: This position is onsite at the One Energy Plaza located in Jackson, MI. The selected candidate must be within a commutable distance or willing to relocate (relocation package is available for those that qualify).",
     "where": "Employer sites",
-    "time": "1:25 AM"
+    "time": "4:23 AM"
    },
    {
     "company": "DTE Energy",
@@ -4222,5 +4229,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T09:23:04Z"
+ "lists_generated_at": "2026-10-29T09:24:21Z"
 }
