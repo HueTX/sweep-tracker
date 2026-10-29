@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:37:36Z",
+ "generated_at": "2026-10-29T11:40:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:34:09Z",
+  "last_activity_at": "2026-10-29T11:39:49Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,22 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 45,
-  "rejected": 1744,
-  "evaluated": 1789
+  "parked": 48,
+  "rejected": 1789,
+  "evaluated": 1837
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 716,
+  "evaluated": 763,
   "filed": 0,
-  "parked": 21,
-  "rejected": 695,
+  "parked": 24,
+  "rejected": 739,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16",
-  "W17",
-  "W18"
+  "W3",
+  "W5",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -103,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:40:41Z",
    "detail": "Employers 245/73"
   },
   "W4": {
@@ -125,12 +125,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:40:41Z",
    "detail": "Employers 248/44"
   },
   "W6": {
@@ -224,45 +224,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T11:37:36Z",
-   "detail": "Employers 245/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T11:37:36Z",
-   "detail": "Employers 240/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T11:37:36Z",
-   "detail": "Employers 245/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 250/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 245/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 250/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T11:40:41Z",
    "detail": "Employers 241/41"
   },
   "W20": {
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "512 of 612 units done",
+   "detail": "515 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:34 AM CT · 3 workers in flight · 0 filed this run",
+ "note": "Last activity 6:39 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "primary": "W19 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "label": "W19",
+  "headline": "W19 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -702,6 +702,27 @@
     "reason": "not-evaluated — Prior experience architecting SaaS and cloud-based solutions, preferably on AWS; AWS certifications (e.g., AWS Solutions Architect - Associate or Professional); full JD states no remote/US-remote status, so remote eligibility cannot be confirmed; pay $64,500-$185,000.",
     "where": "Employer sites",
     "time": "6:34 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Sr. Cloud Architect (Azure)",
+    "reason": "not-evaluated — If located near a Rackspace office, you'll work a hybrid schedule; If not located near an office, you may work 100% remotely. We are looking for an Senior Cloud Architect specializing in Azure who is experienced at leading application migration assessments, cloud readiness evaluations, and delivering high-quality architectural designs. No posted date or pay in JD excerpt (crawl 1d) - remote eligibility for Hubert's location and freshness unverified, not recorded as PASS.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Presales Enterprise Architect - Multi Service Line",
+    "reason": "not-evaluated — Work Location: US Remote; designing and implementing complex cloud solutions that leverage multiple Rackspace Service Lines across different cloud platforms like AWS, Azure, and Google Cloud. No posted date or pay in JD excerpt (crawl 1d) - freshness and pay unverified, not recorded as PASS. Sibling Presales Enterprise Solution Architect listing appears to be the same role.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Enterprise Architect",
+    "reason": "not-evaluated — help define and establish an architecture led framework and governance process to help accelerate Zoom IT's strategy and execution; excerpt carries no pay, cloud scope, or full duties and crawl is 123 days old - not evaluated.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
    }
   ],
   "Maryland state portal": [
@@ -5071,6 +5092,314 @@
     "reason": "hands-on — Build and maintain Python-based automation frameworks, CI/CD pipelines, and Infrastructure-as-Code (Terraform, Helm, Pulumi, AWS CDK). Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no architect-level alternate posting found.",
     "where": "Employer sites",
     "time": "6:34 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Solution Architect (Azure Presales) R-22210",
+    "reason": "not-remote — The role is India based; Work Location: Remote, India.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Senior Consulting Cloud Architect (Azure)",
+    "reason": "not-remote — Job Location, Germany - Remote; German language skills (C1/C2 or native) are essential; crawl 270 days ago.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Enterprise Architect - Large Accounts",
+    "reason": "pay-outside-band — anticipated starting pay range for California, New York City and Washington is: $230,300 - $307,000; CO $191,900 - $255,900.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Senior Cloud Solutions Architect - Network Specialist",
+    "reason": "stale — seamlessly transition between boardroom strategy discussions and hands-on technical implementation; crawl 266 days ago.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Machine Learning Operations (MLOps) Architect - GCP",
+    "reason": "pay-outside-band — CA $167,400 - 245,520; emphasis on building Machine Learning inference systems (GCP-first).",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Software Architect",
+    "reason": "pay-outside-band — $161k-275k; designing, automating, and deploying services on behalf of our customers to AWS; We build solutions using infrastructure-as-code.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Principal Enterprise Architect",
+    "reason": "experience-mismatch — this role is fully remote, but requires you to be located in AMER; The Enterprise Architect is expected to drive Atlassian product vision; Architect end-to-end technical solutions for large-scale, complex enterprise environments - Atlassian-product architecture, not Azure/cloud infrastructure. Workarounds tried: employer's posting via BuiltIn mirror, alternate routes in search, no cloud-infrastructure alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Enterprise Technical Architect",
+    "reason": "not-remote — you will be fully remote, but requires you to be located in IST timezone; technical experts with Atlassian Cloud and SaaS solutions.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Solution Architect (Strategy Collection)",
+    "reason": "experience-mismatch — Lead strategic post-sales engagements to help enterprise customers adopt Atlassian Strategy Collection (Jira Align, Focus, Talent, Rovo) - product-specific, not cloud architecture. Workarounds tried: BuiltIn mirror, alternate routes in search, no cloud-infrastructure alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Principal Solution Architect (Strategy Collection)",
+    "reason": "experience-mismatch — lead Atlassian's most strategic and complex customer engagements for Strategy Collection - product-specific, not cloud architecture.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Partner Solutions Architect - Atlassian Cloud Platform",
+    "reason": "experience-mismatch — This is a remote position; requires you to be located in the United States; helping our Solutions Partners and their enterprise customers move to the Cloud (Atlassian products) - product-specific. UK/Netherlands variant located in the United Kingdom or The Netherlands.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Solution Architect",
+    "reason": "not-remote — this role is fully remote, but requires you to be located in Germany or the UK; help them use Atlassian's Cloud platform.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Solutions Architect (Contact Center)",
+    "reason": "stale — Zoom Contact Center (ZCC) Solution Architects are non-commissioned presales team members; Experience working with Javascript, Rest APIs, and GraphQL; crawl 254 days ago.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Competitive Solutions Architect",
+    "reason": "experience-mismatch — deep expertise in the Contact Center (CCaaS) and Phone (UCaaS/VoIP) markets; role primarily focus on Contact Center solutions (70%) - product-domain specific, not cloud architecture.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Product Architect",
+    "reason": "experience-mismatch — building the real-time communication capabilities for Zoom Phone, Zoom Contact Center, Zoom Meetings Telephony; Experience building infrastructure that manages real-time media traffic - product engineering, not enterprise/cloud architecture.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Software Architect",
+    "reason": "pay-outside-band — San Jose (CA) On-site USD 146,000 - 340,000; Designing and implementing improvements in deployment pipelines.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Web Architect",
+    "reason": "pay-outside-band — Salary Minimum: $200,000.00 Maximum: $259,500.00; Must have 4 years of experience in at least one modern programming language (Java, Golang, etc).",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Block",
+    "role": "People Intelligence Architect",
+    "reason": "experience-mismatch — People Intelligence (HR/people domain) architect role, not cloud/enterprise IT architecture; Zone A: $135,200 - $202,800 USD.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Block",
+    "role": "Staff Information Systems Architect - Oracle Financials",
+    "reason": "pay-outside-band — Zone A: $207,900-$311,900 USD; Leads architecture and scaling of Block's finance technology stack across Oracle Fusion; builds SQL/PL/SQL and REST/SOAP integrations.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Block",
+    "role": "Senior Systems Architect, DAM & Infrastructure",
+    "reason": "pay-outside-band — USD $180,000.00 - 270,000.00 per year; crawl 252 days ago.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Block",
+    "role": "Staff/Principal Software Engineer, CI Infrastructure",
+    "reason": "hands-on — Build automation across our AWS infrastructure; Strong software engineering skills in one or more of Go, Kotlin, Java, Ruby, or Python - engineer-level role.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Enterprise Architect (Enterprise Data Domain)",
+    "reason": "experience-mismatch — transform our data ecosystem by designing and implementing a unified, governed data architecture; Minimum 12 years in enterprise technology or data, with at least 5 years dedicated to data architecture; Deep, hands-on expertise in building architecture around any leading Data Warehouse - data-domain core, not his Azure/cloud enterprise architecture experience. Workarounds tried: BuiltIn mirror, alternate routes in search, no cloud-infrastructure alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Senior Enterprise Architect",
+    "reason": "experience-mismatch — serve as an overlay to Account Executives (AEs) and Solutions Engineers and Architects (SEs) to help drive GTM org's multi-year, multiproduct transformation to One Twilio Platform - Twilio-product GTM transformation core, not cloud architecture.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Solutions Architect (Pre-Sales)",
+    "reason": "hands-on — Previous software development experience in one or more of the following areas: Backend (Java, C#, Node.js, Python, PHP); This role will be remote, and based in the USA; Twilio telecom product core. Sibling Financial Services variant on same basis. Workarounds tried: WorkingNomads mirror, alternate routes in search, no non-coding alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Solution Architect - Zuora (Q2C)",
+    "reason": "stale — You will act as a hands-on architect and strategic owner for Twilio's Q2C ecosystem, with deep expertise in Zuora Billing, Zuora Revenue (ASC 606); salary ranges from $171,120 to $251,600; crawl 192 days ago.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Senior Architect, Identity & Security",
+    "reason": "pay-outside-band — CO $245,800.00 - $307,200.00; NY/NJ/WA/CA $260,200.00 - $325,300.00; Strong cloud expertise with hands-on experience in cloud ecosystems (e.g., AWS, GCP, or Azure).",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Solution Architect - Professional Services",
+    "reason": "not-remote — This role will be Remote - Brazil; leading discovery, whiteboarding, and pair coding sessions.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Presales Architect",
+    "reason": "not-remote — This role will be remote, and based in Brazil.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Principal Data Architect (Segment CDP)",
+    "reason": "experience-mismatch — Design and review core system designs making up the Segment CDP product; Domain expertise in Modern Data stack - data/CDP product core, not cloud enterprise architecture.",
+    "where": "Employer sites",
+    "time": "6:37 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Cyber Security Domain Architect",
+    "reason": "pay-outside-band — The estimated salary range at this professional level is $130,000 to $150,000 plus bonus; the working environment is generally in an office setting and may be performed remotely; Published: 2024-06-13, stale.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Ingersoll Rand",
+    "role": "Senior Operational Technology (OT) Engineer",
+    "reason": "engineer-level — Extensive hands-on experience with industrial control systems (Ignition, Rockwell, and OSI) and plant-floor networks; Strong understanding of OT architectures, including historians, data integration, and OT/IT convergence - engineer-level hands-on OT role, no remote arrangement shown in JD.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Dover Corporation",
+    "role": "Senior Technical Architect (AEM)",
+    "reason": "hands-on — Should be hands-on with full-stack development and should be able to create technical designs that meets business needs; Leads architecture projects to architect, design, develop, test, and deliver; no US 100%-remote shown. Workarounds tried: employer's posting via Simplify mirror, alternate routes in search, no architect-level remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Nucor",
+    "role": "Solution Engineering Team Lead",
+    "reason": "not-remote — Location: Dallas, TX, United States Other Available Locations: N/A; guiding architecture, engineering standards, team development, and delivery execution across application development, enterprise integration, cloud infrastructure, and data platforms - engineering-delivery lead, not architect. Workarounds tried: employer's posting via CareerBuilder mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Nucor",
+    "role": "Senior Solution Engineer",
+    "reason": "not-remote — This is a full-time position based in Dallas, TX. Design, develop, and deliver complex software solutions from concept through production. Conduct code reviews, mentor engineers - engineer-level hands-on coding. Workarounds tried: employer's posting via CareerBuilder mirror, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Director, IT Strategy and Enterprise Architecture",
+    "reason": "not-remote — Work Environment: Office environment with occasional exposure to factory/shop floor locations; Lead and develop a high-performing global enterprise architecture team; Charlotte, NC; crawl 251 days ago, stale. Workarounds tried: employer's posting via Teal/CareerJet mirrors, alternate routes in search, no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Unattributed (Dice listing)",
+    "role": "Domain Architect",
+    "reason": "hands-on — Expert level C#/ .Net 8 - must be currently hands on; USD 80-85; Build durable workflows on Temporal - whole-role hands-on coding and contract rate top not above $85/hr; employer not named in JD, not verified as a direct posting of any unit employer.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Enterprise Resiliency and High Availability Architect",
+    "reason": "pay-outside-band — $87,000.00 - $146,400.00; This role is on-site Monday through Friday. Fiserv considers in-person collaboration to be an essential part of this role; crawl 294 days ago.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Technology / Infrastructure Resiliency Principal Engineer",
+    "reason": "pay-outside-band — Purchase, New York: $159,000 - $265,000 USD; Published 2025-07-29, stale; deep diving into the product architecture, design and technology stack to drive potential failures within the end-to-end stack.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Principal Cloud Engineer (AWS)",
+    "reason": "pay-outside-band — $146,000.00 - $244,800.00; Create scripts and code to provision, configure, and manage cloud resources and guardrails; Provision cloud resources via Infrastructure as a Code tools like Cloud Formation or Hashicorp Terraform; Published 2025-12-25.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Principal, Platform Engineer (Principal Cloud Platform Architect/Engineer)",
+    "reason": "stale — Published 2025-08-19; Travel to Mastercard Office and/or M&A Entity location is expected. This travel may be international; AWS experience is a must, GCP/Azure experience a plus; no 100% remote stated.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Principal Cloud Infrastructure Engineer",
+    "reason": "not-remote — Location Pune, India; lead the design and operation of Azure-based platforms that are critical for secure and scalable transaction processing - not US remote.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Principal, Infrastructure Architect",
+    "reason": "stale — Published 2026-03-25; We are seeking a highly experienced Principal Network Architect to lead the design, development, and optimization of our network monitoring and observability platforms; no 100% remote stated.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Lead System Architect, Cloud",
+    "reason": "not-remote — This is a hybrid position. Expectation of days in office will be confirmed by your hiring manager. Lead the design and cloud transformation of our Acceptance Solutions platform. Workarounds tried: employer's own SmartRecruiters posting (governing JD), alternate routes in search, no fully-remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
+   },
+   {
+    "company": "FIS",
+    "role": "Senior Technical Architect",
+    "reason": "stale — Build and deliver tailored demonstrations of our payment solutions; Programming & Frameworks Java, J2EE, Spring Boot, Hibernate, Generative AI; Cloud & DevOps: Terraform, Docker, Kubernetes, CI/CD Pipelines; crawl 335 days ago.",
+    "where": "Employer sites",
+    "time": "6:39 AM"
    }
   ],
   "State portals": [
@@ -6755,7 +7084,9 @@
    "Slalom",
    "Mastercard",
    "Fiserv",
-   "Eli Lilly and Company"
+   "Eli Lilly and Company",
+   "Rackspace Technology",
+   "Zoom"
   ],
   "W9": [
    "Oracle",
@@ -6783,5 +7114,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:37:36Z"
+ "lists_generated_at": "2026-10-29T11:40:41Z"
 }
