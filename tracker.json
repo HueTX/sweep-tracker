@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T00:20:39Z",
+ "generated_at": "2026-10-29T00:22:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T00:14:20Z",
+  "last_activity_at": "2026-10-29T00:20:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 15,
-  "rejected": 689,
-  "evaluated": 704
+  "rejected": 703,
+  "evaluated": 718
  },
  "today": {
   "date": "2026-10-28",
-  "evaluated": 695,
+  "evaluated": 709,
   "filed": 0,
   "parked": 15,
-  "rejected": 680,
+  "rejected": 694,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1",
-  "W5",
-  "W6"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -81,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T00:20:39Z",
-   "detail": "Employers 70/30"
+   "heartbeat_at": null,
+   "detail": "Employers 75/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -125,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T00:20:39Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": null,
+   "detail": "Employers 75/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T00:20:39Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": null,
+   "detail": "Employers 75/44"
   },
   "W9": {
    "label": "Dice",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "160 of 612 units done",
+   "detail": "163 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -543,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 7:14 PM CT · 3 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 7:20 PM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -872,23 +862,23 @@
    {
     "company": "Williams",
     "role": "IT Architect V – Enterprise Architect",
-    "reason": "not-remote — Hybrid work schedule: 3 days in-office and 2 days remote weekly / #LI-Hybrid (Tulsa, OK). Workarounds tried: Glassdoor mirror of Williams posting read in full; hybrid schedule is posting-intrinsic.",
+    "reason": "not-remote — Hybrid work schedule: 4 days in-office and 1 day remote weekly; Full-Time Updated 2 years ago — Houston, TX / Tulsa, OK; stale. Workarounds tried: Williams official posting via Simplify/Built In read in full.",
     "where": "Employer sites",
-    "time": "6:47 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Williams",
     "role": "IT Architect IV (SCADA)",
-    "reason": "not-remote — Tulsa, OK, USA — Hybrid Hybrid work model - one work from home day each week for most office-based roles. JD also requires programming (Python, VBScript, JavaScript, IEC 61131-3). Workarounds tried: employer careers mirror (Simplify) full JD is governing text; posting also stale (2025-05-04).",
+    "reason": "not-remote — Hybrid work model - one work from home day each week for most office-based roles; Full-Time Updated 1 year ago — Tulsa, OK; also requires programming (Python, VBScript, JavaScript, IEC 61131-3); stale. Workarounds tried: Simplify full JD.",
     "where": "Employer sites",
-    "time": "6:47 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Occidental Petroleum",
     "role": "OSDU Technical Solution Architect",
-    "reason": "not-remote — The OSDU Technical Solution Architect is a Houston-based member of the Technical Systems and Data (IT) organization; Design solutions using major cloud providers (e.g., AWS); Experience with cloud platforms (AWS preferred). Core duties are geoscience/subsurface well-data management (Petrel, Landmark R5000). Workarounds tried: Built In mirror read in full; Houston-based + AWS-first + experience-mismatch; also stale (2025-10-10).",
+    "reason": "not-remote — The OSDU Technical Solution Architect is a Houston-based member of the Technical Systems and Data (IT) organization; Design solutions using major cloud providers (e.g., AWS) with a preference for OSDU-supported clouds; Experience with cloud platforms (AWS preferred). Houston-based, AWS-first; stale (2025-10-10). Workarounds tried: Built In full JD.",
     "where": "Employer sites",
-    "time": "6:47 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Halliburton",
@@ -970,30 +960,37 @@
    {
     "company": "NextEra Energy",
     "role": "Senior IT Architect",
-    "reason": "not-remote — Palm Beach Gardens, FL, USA — In Person. Also stale (2025-11-15). Workarounds tried: Simplify mirror of NextEra JD read in full.",
+    "reason": "not-remote — Palm Beach Gardens, FL, USA / In Person; Full-Time Updated 1 year ago. Workarounds tried: Simplify mirror of NextEra JD opened in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "NextEra Energy",
     "role": "Principal IT Architect",
-    "reason": "not-remote — Palm Beach Gardens, FL, USA — In Person. Also stale (2025-11-15). Workarounds tried: Simplify mirror of NextEra JD read in full (also Rigzone Req ID 89016).",
+    "reason": "not-remote — Palm Beach Gardens, FL, USA / In Person; Full-Time Updated 1 year ago. Workarounds tried: Simplify mirror opened in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Entergy",
     "role": "Senior AWS Solution Architect (Data Architect, Sr)",
-    "reason": "not-remote — Work Place Flexibility: Hybrid. This is a hybrid position and can be located in The Woodlands, TX, West Monroe, LA, New Orleans, LA, Little Rock, AR or Jackson, MS. We are seeking a highly skilled and experienced Senior AWS Architect to lead our Center of Excellence (CoE) for AWS. Also AWS-first and stale. Workarounds tried: Snagajob/CareerBuilder/Dice mirrors of Entergy Req 121633 read in full.",
+    "reason": "not-remote — Work Place Flexibility: Hybrid; This is a hybrid position and can be located in The Woodlands, TX, West Monroe, LA, New Orleans, LA, Little Rock, AR or Jackson, MS. AWS-first CoE scope; crawl 306 days ago — stale. Workarounds tried: CareerBuilder mirror read in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Entergy",
     "role": "IT OpEx Architect (IT Enterprise Architect)",
-    "reason": "not-remote — Work Place Flexibility: Hybrid. The preferred location is New Orleans, LA. Also stale (page crawled 2026-02-14). Workarounds tried: Career.io/Dice mirrors of Entergy Req 121835 read in full.",
+    "reason": "not-remote — Work Place Flexibility: Hybrid; The preferred location is New Orleans, LA. Other locations within the service territory may be considered. Crawl 213 days ago — stale. Workarounds tried: Career.io/CareerBuilder mirrors read in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Entergy",
+    "role": "Solution Architect - Middleware / TIBCO",
+    "reason": "not-remote — Work Place Flexibility: Hybrid; The preferred location is The Woodlands, TX; primary focus of this role will be to support Projects and Operations in Entergy's Tibco environments. Crawl 307 days ago — stale. Workarounds tried: CareerBuilder mirror read in full.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
    },
    {
     "company": "American Electric Power",
@@ -1005,16 +1002,16 @@
    {
     "company": "American Electric Power",
     "role": "Senior Architect - Technology Solutions",
-    "reason": "not-remote — $96.1k - $124.9k/yr, Columbus, OH, USA, In Person; Compensation Range: $96,110.00-124,940.00 USD. Also pay top <$160K and closed (posting end 10-03-2025). Workarounds tried: Simplify mirror of AEP JD read in full.",
+    "reason": "not-remote — $96.1k - $124.9k/yr, Senior, Bachelor's, Columbus, OH, USA, In Person; Compensation Range: $96,110.00-124,940.00 USD; Job Posting End Date 10-03-2025. Pay top < $160,000, onsite, closed/stale. Workarounds tried: Simplify mirror opened in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Constellation Energy",
-    "role": "Principal IT Architect - AI",
-    "reason": "not-remote — Full Time / On-site / USD $172,800.00 - 192,000.00 per year (Dice). JD: Expected salary range of $172,800 to $192,000. Pay top in band but on-site Baltimore and stale (pages crawled 2026-02-09). Workarounds tried: Career.io + Dice mirrors read in full.",
+    "role": "Sr. Architect - Generation Applications",
+    "reason": "closed — Job post no longer accepts applications; Expected salary range of $123,300 to $137,000 (top < $160,000). Closed posting — gate fact. Workarounds tried: EnergyJobSearch mirror of Constellation JD opened in full.",
     "where": "Employer sites",
-    "time": "6:49 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Constellation Energy",
@@ -3329,9 +3326,9 @@
    {
     "company": "Occidental Petroleum",
     "role": "ECM System Architect – IT Enterprise Content Management",
-    "reason": "not-remote — Houston, TX, USA — In Person; Hands-On Development and Platform Configuration. Perform hands-on configuration, scripting, and development work when needed; Strong proficiency in Java/.NET, APIs, scripting. Workarounds tried: Simplify mirror of Oxy careers posting read in full; in-person Houston is posting-intrinsic; also stale (2025-09-18) and hands-on.",
+    "reason": "not-remote — Houston, TX, USA — In Person; Enterprise Content Management Architect within our IT Enterprise Content Management group based in Houston, TX; Full-Time Updated 1 year ago. Also hands-on: Hands-On Development and Platform Configuration. Perform hands-on configuration, scripting, and development work when needed. Workarounds tried: Simplify full JD.",
     "where": "Employer sites",
-    "time": "6:47 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Occidental Petroleum",
@@ -3948,6 +3945,41 @@
     "reason": "stale — The Enterprise Solution Architect aligns technology initiatives with business strategies... As the Enterprise Solution Architect for the Merchandising value stream. Full JD contains no remote designation; all listings place it in Johns Creek, GA. Also stale (crawls 59-262 days ago). Workarounds tried: Simplify/Careerjet/DiversityJobs full JD.",
     "where": "Employer sites",
     "time": "7:14 PM"
+   },
+   {
+    "company": "Occidental Petroleum",
+    "role": "IT Systems & Infrastructure Advisor Sr (Senior Software Developer, Nexus platform)",
+    "reason": "stale — Design, develop, test, and deploy enterprise-grade applications supporting the Nexus platform; Build scalable and maintainable solutions using Angular, .NET/C#, SQL, and cloud-native technologies. Hands-on coding developer role (titled Senior Software Developer), not architect-level; stale (2026-09-02). Workarounds tried: Built In full JD.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Occidental Petroleum",
+    "role": "IT Advisor – Enterprise Architecture",
+    "reason": "not-remote — Houston, TX, USA — In Person Relocation will not be provided; based in Houston, Texas; Full-Time Updated 2 years ago. JD duties otherwise EA/digital transformation. Workarounds tried: Simplify full JD.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "EOG Resources",
+    "role": "Sr. Solutions Engineer",
+    "reason": "stale — The key responsibilities of a Sr. Solutions Engineer focus on data analysis, the development and customization of analytical tools for land and providing customer support for all assigned software applications — Houston, TX. Engineer-level, not architect; posted ~2026-10-17 (11 days ago), outside window. Workarounds tried: EOG official feed via LocalJobNetwork + mirrors.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Valero",
+    "role": "Data Center Engineering Specialist (25001CG)",
+    "reason": "not-remote — As a Data Center Engineering Specialist, you will provide engineering design and support for electrical systems, Heating, Ventilation, and Air Conditioning (HVAC) systems, fire suppression systems, security systems and other facility aspects of computer data centers — San Antonio, TX (Onsite). Specialist/facilities level, not architect; stale (crawl 205 days ago). Workarounds tried: Career.io mirror of Valero posting.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Dominion Energy",
+    "role": "IT Infrastructure Architect - Richmond VA or Columbia SC",
+    "reason": "not-remote — We offer a hybrid work schedule (one week in the office, one week of teleworking); Jobright mirror: This job has closed. Crawl 264 days ago — stale/closed. Workarounds tried: Career.io + Jobright mirrors of Dominion JD.",
+    "where": "Employer sites",
+    "time": "7:20 PM"
    }
   ],
   "Dice": [
@@ -3971,6 +4003,13 @@
     "reason": "not-remote — Independence has implemented a \"Hybrid\" model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday).",
     "where": "Dice",
     "time": "3:47 PM"
+   },
+   {
+    "company": "Constellation Energy",
+    "role": "Principal IT Architect - AI",
+    "reason": "not-remote — Constellation Energy Corp. Baltimore, MD (Onsite) Full-Time; salary in JD $172,800 to $192,000 (in band — fails on location/freshness, crawl 260 days ago). Workarounds tried: Dice/CareerBuilder/Career.io mirrors read in full.",
+    "where": "Dice",
+    "time": "7:20 PM"
    },
    {
     "company": "CommonSpirit Health",
@@ -4006,6 +4045,13 @@
     "reason": "stale — Engineering Excellence Driver: Drive best-in-class software engineering practices across teams, including CI/CD, automated testing, observability, and modern DevSecOps pipelines.; crawl 259 days old",
     "where": "Dice",
     "time": "12:56 PM"
+   },
+   {
+    "company": "Entergy",
+    "role": "Network Architect",
+    "reason": "not-remote — #LI-HYBRID; Primary Location: Texas-The Woodlands Texas : The Woodlands || Arkansas : Little Rock || Louisiana : New Orleans || Mississippi : Jackson. Req ID 119232; crawl 252 days ago — stale. Workarounds tried: Dice/Career.io mirrors read in full.",
+    "where": "Dice",
+    "time": "7:20 PM"
    }
   ],
   "BuiltIn": [
@@ -4554,9 +4600,9 @@
    {
     "company": "Social Security Administration",
     "role": "Chief Architect",
-    "reason": "stale — Published: 11/11/2024 — duties are architect-level (Defines the overall architecture strategy and vision for the organization), but opened 2024, far outside the 7-day window. Workarounds tried: USAJobs announcement read in full.",
+    "reason": "stale — Published: 11/11/2024 — architect-level duties but far outside 7-day window. Workarounds tried: USAJobs announcement read in full.",
     "where": "USAJobs",
-    "time": "6:51 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Social Security Administration",
@@ -4596,9 +4642,9 @@
    {
     "company": "Department of Commerce - USPTO",
     "role": "IT Specialist (APPSW/OS/SYSADMIN) - Senior IT Specialist",
-    "reason": "not-remote — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role, as it includes on site functions that must be performed in person. Published: 09/01/2026 (also stale). Workarounds tried: USAJobs announcement read in full.",
+    "reason": "not-remote — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role, as it includes on site functions that must be performed in person. Published: 09/01/2026 — also stale. Workarounds tried: USAJobs announcement read in full.",
     "where": "USAJobs",
-    "time": "6:51 PM"
+    "time": "7:20 PM"
    },
    {
     "company": "Department of Commerce",
@@ -4613,6 +4659,48 @@
     "reason": "not-remote — Selectee(s) will report to an assigned DOL office location on a regular basis and be eligible for telework as determined by agency policy. This is not a remote position. Current DOL policy requires on-site work at least 5 days per pay period. Published: 10/09/2024 (also stale). Workarounds tried: USAJobs announcement read in full.",
     "where": "USAJobs",
     "time": "6:51 PM"
+   },
+   {
+    "company": "Department of Commerce - USPTO",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "stale — This position is telework eligible per agency and business unit discretion/policy. This position permits, but does not require, remote work. Published: 01/16/2025 — telework-only is not fully remote; also stale. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Department of Commerce - USPTO",
+    "role": "Deputy Chief Information Officer (DCIO) - Enterprise Architecture / Cloud Strategy",
+    "reason": "stale — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role; You will be required to obtain and maintain an interim and/or final security clearance prior to entrance on duty. Published: 07/17/2026 — stale, on-site, clearance required. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "USDA",
+    "role": "Information Technology Specialist (SYSADMIN)",
+    "reason": "stale — This position is location negotiable upon selection at a CEC duty location. This is not a remote position. Published: 12/30/2024 — stale. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Department of the Interior",
+    "role": "IT Specialist (SYSADMIN)",
+    "reason": "stale — Published: 11/12/2024 — stale; announcement is internal-to-Interior only (Current employees within the Department of the Interior). Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Department of Labor",
+    "role": "Information Technology Specialist (Enterprise Architecture/Artificial Intelligence)",
+    "reason": "stale — Selectee(s) will report to an assigned DOL office location on a regular basis and be eligible for telework as determined by agency policy. This is not a remote position. Published: 12/05/2024 — stale. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
+   },
+   {
+    "company": "Department of Labor",
+    "role": "Information Technology Specialist (data architecture / systems design, GS-13/14, OASAM OCIO)",
+    "reason": "stale — The selectee will report to an assigned DOL office location on a regular basis and be eligible for telework as determined by agency policy. This is not a remote position. Published: 04/22/2026 — stale. Workarounds tried: USAJobs announcement read in full.",
+    "where": "USAJobs",
+    "time": "7:20 PM"
    }
   ],
   "UHG Careers": [
@@ -6732,5 +6820,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T00:20:39Z"
+ "lists_generated_at": "2026-10-29T00:22:38Z"
 }
