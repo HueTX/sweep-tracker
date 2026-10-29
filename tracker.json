@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T12:32:25Z",
+ "generated_at": "2026-10-29T12:38:46Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T12:30:17Z",
+  "last_activity_at": "2026-10-29T12:38:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,18 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 44,
-  "rejected": 1872,
-  "evaluated": 1916
+  "rejected": 1890,
+  "evaluated": 1934
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 840,
+  "evaluated": 858,
   "filed": 0,
   "parked": 20,
-  "rejected": 820,
+  "rejected": 838,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +102,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:38:46Z",
    "detail": "Employers 300/73"
   },
   "W4": {
@@ -220,12 +223,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T12:38:46Z",
    "detail": "Employers 300/59"
   },
   "W17": {
@@ -237,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 295/54"
+   "detail": "Employers 300/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -300,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "563 of 612 units done",
+   "detail": "564 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -539,13 +542,19 @@
    }
   ]
  },
- "note": "Last activity 7:30 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 7:38 AM CT · 2 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -777,6 +786,20 @@
     "reason": "stale — \"Published: 2026-07-21\" — outside 7-day window. JD: \"Infrastructure Design Services is a team of Technology Architects and Engineers responsible for the analysis and design of the infrastructure framework\". Pay O'Fallon: $122,000 - $207,000. Workarounds tried: employer/Built In JD checked, exact title and broader Mastercard platform searches — no fresher repost found.",
     "where": "Employer sites",
     "time": "7:22 AM"
+   },
+   {
+    "company": "Fortinet",
+    "role": "Cloud Solution Architect",
+    "reason": "not-remote — Cloud Solution Architect at Fortinet: 100% Remote (Canada); Location: Canada",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Principal Strategy Architect",
+    "reason": "pay-outside-band — Base Pay Range $199,500 - $285,000 USD",
+    "where": "Employer sites",
+    "time": "7:38 AM"
    },
    {
     "company": "FDIC",
@@ -5922,6 +5945,118 @@
     "reason": "stale — Published: 2025-09-14",
     "where": "Employer sites",
     "time": "7:29 AM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "Principal Architect",
+    "reason": "pay-outside-band — the starting base salary (for non-sales roles) or base salary + commission target (for sales/commissioned roles) is expected to be between $239,000 - $278,500/YR",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "Senior Principal Cloud Architect",
+    "reason": "cloud-scope — Design and build resilient, secure-by-design cloud infrastructure primarily on GCP, while establishing multi-cloud interoperability patterns (AWS, Azure)",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Sr. Staff Enterprise Architect",
+    "reason": "cloud-scope — Deep hands-on expertise with AWS (Transit Gateway, VPCs, multi-account patterns, IAM, Network Firewall), Terraform, Kubernetes, and CI/CD platforms such as GitLab CI/CD.",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Principal Enterprise Network Architect",
+    "reason": "pay-outside-band — The base salary range for this position in the U.S. is $155,000 - $270,000 per year",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Principal Enterprise Architect - GovCloud",
+    "reason": "pay-outside-band — The base salary range for this position for all U.S. candidates is $170,000 - $260,000 per year",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Business Data Architect",
+    "reason": "experience-mismatch — We are seeking an experienced Data Modeler / Data Architect to design and build a scalable medallion data architecture; Strong hands-on experience with Snowflake",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Data & Automation Architect",
+    "reason": "hands-on-coding — 5+ years of experience with 3+ years of Python development in a Data, Data Science or Automation role (ideally building and scaling data products).",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Solution Architect, Integration Partners",
+    "reason": "hands-on-coding — Design, build, and validate integrations between partner technologies and the CrowdStrike Falcon Platform; Experience with one or more modern programming languages: Go, Python, Java",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Security Architect",
+    "reason": "cloud-scope — Cloud Security in environments such as Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Principal Software Engineer - Platform Architect, CI/CD",
+    "reason": "hands-on-coding — Hands on coding experience with Java or another modern language; you will own DevOps operations",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Principal AI and Data Architect",
+    "reason": "pay-outside-band — Base Pay Range $133,000 - $235,000 USD",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Zero Trust Networking, Principal Architect",
+    "reason": "pay-outside-band — Base Pay Range $210,000 - $262,500 USD",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Principal Business Systems Analyst/Architect - HR",
+    "reason": "experience-mismatch — Minimum of 1 large-scale HCM/HRIS implementation (from tool selection to fully an implemented system with stable operations); Minimum of 1 large-scale Payroll implementation",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Fortinet",
+    "role": "Infrastructure Designer/Architect",
+    "reason": "not-remote — Burnaby, BC, Canada; In Person",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Cloudflare",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — Available Locations: Austin Texas - US, Mexico City - Mexico",
+    "where": "Employer sites",
+    "time": "7:38 AM"
+   },
+   {
+    "company": "Cloudflare",
+    "role": "Enterprise Architect, Financial Services",
+    "reason": "not-remote — Cloudflare is hiring an Enterprise Architect focused on financial services in Toronto, Canada. Hybrid / Toronto, ON, CAN",
+    "where": "Employer sites",
+    "time": "7:38 AM"
    }
   ],
   "State portals": [
@@ -7643,5 +7778,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T12:32:25Z"
+ "lists_generated_at": "2026-10-29T12:38:46Z"
 }
