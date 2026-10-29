@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T06:26:25Z",
+ "generated_at": "2026-10-29T06:28:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T06:25:38Z",
+  "last_activity_at": "2026-10-29T06:26:48Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 24,
-  "rejected": 1175,
-  "evaluated": 1199
+  "rejected": 1188,
+  "evaluated": 1212
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 127,
+  "evaluated": 140,
   "filed": 0,
   "parked": 0,
-  "rejected": 127,
+  "rejected": 140,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -222,45 +224,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 125/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:26:25Z",
-   "detail": "Employers 120/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:28:27Z",
    "detail": "Employers 120/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:28:27Z",
    "detail": "Employers 120/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:28:27Z",
    "detail": "Employers 120/41"
   },
   "W20": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "264 of 612 units done",
+   "detail": "265 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:25 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 1:26 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -582,6 +584,27 @@
     "reason": "not-remote — Location: Hybrid, 2550 Holly Hall, Houston TX, 77054. Employer ATS JD read in full; also stale (Published: 2026-09-10, 49 days old). Workarounds tried: (1) employer's own ATS posting (this page, governing text) states Hybrid; (2) alternate routes - iCIMS mirror 'Solution Architect (Hybrid) - EPIC Certified' and Adzuna mirror carry the same Hybrid designation; (3) no alternate remote posting of this req found.",
     "where": "Employer sites",
     "time": "1:19 AM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Solutions Architect - Brokerage Services",
+    "reason": "hands-on — 15+ years of hands-on full stack software development experience across diverse technologies such as .NET/C#, Java/Spring framework, COBOL, Python,",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Enterprise Architect, Aladdin Engineering, Director",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Sr. AI Data Engineer/Architect",
+    "reason": "not-remote — This role is eligible for hybrid work, with up to three days per week from home.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
    },
    {
     "company": "FDIC",
@@ -764,6 +787,20 @@
     "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
     "where": "Employer sites",
     "time": "12:08 AM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Director, Blockchain Platform Architect – Technology Incubation – R&D",
+    "reason": "not-remote — We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s).",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Senior Application Security Architect",
+    "reason": "not-remote — This Hybrid role (in office Tues-Wed-Thurs) is based in Charlotte, NC, Dallas, TX, or Malvern, PA",
+    "where": "Employer sites",
+    "time": "1:26 AM"
    },
    {
     "company": "AMD",
@@ -1359,6 +1396,62 @@
     "reason": "experience-mismatch — As the Senior Information Technology Specialist at the GG-14 grade, you will serve as a subject matter expert and technical lead for the NRC's external website (primary) and internal website (backup). You will be responsible for the technical planning, design, development, architecture, testing, publishing, analysis, implementation, and management of the web content management systems and associated web operations.",
     "where": "Employer sites",
     "time": "1:25 AM"
+   },
+   {
+    "company": "Fidelity Investments",
+    "role": "Director, Architecture",
+    "reason": "not-remote — Fidelity is transitioning to a full-time onsite working model through a phased rollout across regions and roles.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "Fidelity Investments",
+    "role": "Principal Architect",
+    "reason": "not-remote — Most roles at Fidelity are Hybrid, requiring associates to work onsite every other week (all business days, M-F) in a Fidelity office.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Data Platform Architect, Architecture – Aladdin Data",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Senior AI-Enabled Solution Architect - Aladdin Engineering, VP",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Platform Architect, Personalized Indexing Technology",
+    "reason": "hands-on — Write production-quality code primarily in Java and Python, with a strong focus on maintainability and performance.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Sr. Network Infrastructure Architect",
+    "reason": "stale — Published: 2026-09-23",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Lead Architect",
+    "reason": "not-remote — This role is eligible for remote work up to three days a week.",
+    "where": "Employer sites",
+    "time": "1:26 AM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Cloud Architect",
+    "reason": "not-remote — We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s).",
+    "where": "Employer sites",
+    "time": "1:26 AM"
    }
   ],
   "King County portal": [
@@ -2617,5 +2710,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T06:26:25Z"
+ "lists_generated_at": "2026-10-29T06:28:27Z"
 }
