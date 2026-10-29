@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:02:05Z",
+ "generated_at": "2026-10-29T09:08:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T08:09:28Z",
+  "last_activity_at": "2026-10-29T09:03:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,19 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 35,
-  "rejected": 1344,
-  "evaluated": 1380
+  "parked": 36,
+  "rejected": 1347,
+  "evaluated": 1383
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 311,
+  "evaluated": 314,
   "filed": 0,
-  "parked": 11,
-  "rejected": 299,
+  "parked": 12,
+  "rejected": 302,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -110,12 +113,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:08:28Z",
    "detail": "Employers 120/32"
   },
   "W5": {
@@ -253,12 +256,12 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:08:28Z",
    "detail": "Employers 130/41"
   },
   "W20": {
@@ -305,10 +308,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "6 of 7 units done",
+   "state": "done",
+   "detail": "7 of 7 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": null
+   "ended_at": "2026-10-29T09:06:09Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -539,13 +542,19 @@
    }
   ]
  },
- "note": "Last activity 3:09 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 4:03 AM CT · 2 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W19 · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W19"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W19",
+  "headline": "W19 · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
