@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:17:46Z",
+ "generated_at": "2026-10-29T09:18:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:17:40Z",
+  "last_activity_at": "2026-10-29T09:17:58Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 36,
-  "rejected": 1375,
-  "evaluated": 1411
+  "rejected": 1380,
+  "evaluated": 1416
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 342,
+  "evaluated": 347,
   "filed": 0,
   "parked": 12,
-  "rejected": 330,
+  "rejected": 335,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17"
+  "W3",
+  "W16",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -101,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:18:59Z",
    "detail": "Employers 130/73"
   },
   "W4": {
@@ -222,24 +224,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-10-29T09:18:59Z",
+   "detail": "Employers 140/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 140/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-10-29T09:17:46Z",
-   "detail": "Employers 130/54"
+   "detail": "Employers 135/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -266,12 +268,12 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T09:18:59Z",
    "detail": "Employers 140/31"
   }
  },
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "298 of 612 units done",
+   "detail": "299 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 4:17 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 4:17 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W20",
+  "headline": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
