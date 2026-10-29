@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T10:50:21Z",
+ "generated_at": "2026-10-29T10:52:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T10:49:18Z",
+  "last_activity_at": "2026-10-29T10:50:48Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,20 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 38,
-  "rejected": 1604,
+  "parked": 37,
+  "rejected": 1605,
   "evaluated": 1642
  },
  "today": {
   "date": "2026-10-29",
   "evaluated": 571,
   "filed": 0,
-  "parked": 14,
-  "rejected": 557,
+  "parked": 13,
+  "rejected": 558,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16"
+  "W2",
+  "W4",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:52:17Z",
    "detail": "Employers 218/39"
   },
   "W3": {
@@ -112,12 +114,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:52:17Z",
    "detail": "Employers 187/32"
   },
   "W5": {
@@ -222,13 +224,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T10:50:21Z",
-   "detail": "Employers 225/59"
+   "heartbeat_at": null,
+   "detail": "Employers 230/59"
   },
   "W17": {
    "label": "Technology",
@@ -255,12 +257,12 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T10:52:17Z",
    "detail": "Employers 225/41"
   },
   "W20": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "481 of 612 units done",
+   "detail": "482 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:49 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 5:50 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W4"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W4",
+  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -644,13 +646,6 @@
     "reason": "not-evaluated — Expert IT Solution Architect - Advanced Analytics (Arlington, VA) Job Details | Nestle Operational Services Worldwide SA - official JD body did not render via text fetch; not evaluated",
     "where": "Employer sites",
     "time": "5:12 AM"
-   },
-   {
-    "company": "Chubb",
-    "role": "Platform Engineering Manager, AI Submission Ingestion",
-    "reason": "needs-ATS-verification — Published: 2026-10-28T04:00:00Z (fresh, within 7 days). Duties are architect-level: 'As the Technical Platform Lead for the AI Submission Ingestion Platform, this role defines and drives the end-to-end technical vision for moving commercial insurance submissions from inbox to underwriting decision.' Listing anchored to Jersey City, NJ with pay $150,000 - $205,000 (top in band) but no remote/hybrid statement in any fetched text.",
-    "where": "Employer sites",
-    "time": "5:48 AM"
    }
   ],
   "Maryland state portal": [
@@ -3902,6 +3897,13 @@
     "time": "5:48 AM"
    },
    {
+    "company": "Chubb",
+    "role": "Platform Engineering Manager, AI Submission Ingestion",
+    "reason": "not-remote — Jersey City, NJ, United States",
+    "where": "Employer sites",
+    "time": "5:50 AM"
+   },
+   {
     "company": "Progressive",
     "role": "Lead Data Platform Engineer",
     "reason": "hands-on-coding — Whole role is hands-on building: 'You'll use your software engineering skills to build complex data platforms, handle system design and manage performance testing' with must-have 'minimum of five years of work experience designing, programming, and supporting software programs or applications' and preferred 'Experience with Python, dbt, Fivetran/HVR, Prefect, Linux environments and shell scripting' and 'Experience with Cloud-based infrastructures (preferably AWS)'.",
@@ -5735,8 +5737,7 @@
    "Expand Energy",
    "Sherwin-Williams",
    "CSX",
-   "Nestlé USA",
-   "Chubb"
+   "Nestlé USA"
   ],
   "W9": [
    "Oracle",
@@ -5764,5 +5765,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T10:50:21Z"
+ "lists_generated_at": "2026-10-29T10:52:17Z"
 }
