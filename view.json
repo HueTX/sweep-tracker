@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T14:44:29Z",
+ "generated_at": "2026-10-29T14:46:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T14:29:38Z",
+  "last_activity_at": "2026-10-29T14:46:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 0,
   "parked": 56,
-  "rejected": 2150,
+  "rejected": 2151,
   "evaluated": 2207
  },
  "today": {
@@ -36,7 +36,7 @@
   "evaluated": 1130,
   "filed": 0,
   "parked": 32,
-  "rejected": 1097,
+  "rejected": 1098,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -305,10 +305,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "8 of 9 units done",
+   "state": "done",
+   "detail": "9 of 9 units done",
    "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": null
+   "ended_at": "2026-10-29T14:46:10Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -539,7 +539,7 @@
    }
   ]
  },
- "note": "Last activity 9:29 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 9:46 AM CT · 0 workers in flight · 0 filed this run",
  "pill": [],
  "now_viewing": {
   "live": false,
