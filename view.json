@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:48:09Z",
+ "generated_at": "2026-10-29T11:49:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
   "last_activity_at": "2026-10-29T11:47:49Z",
@@ -39,7 +39,11 @@
   "rejected": 756,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:49:53Z",
    "detail": "Employers 252/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:49:53Z",
    "detail": "Employers 252/44"
   },
   "W9": {
@@ -220,12 +224,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:49:53Z",
    "detail": "Employers 255/59"
   },
   "W17": {
@@ -539,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 6:47 AM CT · 0 workers in flight · 0 filed this run",
- "pill": [],
+ "note": "Last activity 6:47 AM CT · 3 workers in flight · 0 filed this run",
+ "pill": [
+  {
+   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
