@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T11:22:55Z",
+ "generated_at": "2026-10-29T11:26:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T11:22:46Z",
+  "last_activity_at": "2026-10-29T11:23:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -27,20 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 37,
-  "rejected": 1695,
-  "evaluated": 1732
+  "parked": 38,
+  "rejected": 1698,
+  "evaluated": 1736
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 661,
+  "evaluated": 665,
   "filed": 0,
-  "parked": 13,
-  "rejected": 648,
+  "parked": 14,
+  "rejected": 651,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -101,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T11:22:55Z",
-   "detail": "Employers 235/73"
+   "heartbeat_at": null,
+   "detail": "Employers 240/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -134,12 +136,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:26:23Z",
    "detail": "Employers 240/44"
   },
   "W9": {
@@ -222,23 +224,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:26:23Z",
    "detail": "Employers 240/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T11:26:23Z",
    "detail": "Employers 235/54"
   },
   "W18": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "502 of 612 units done",
+   "detail": "503 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:22 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 6:23 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -644,6 +646,13 @@
     "reason": "not-evaluated — Expert IT Solution Architect - Advanced Analytics (Arlington, VA) Job Details | Nestle Operational Services Worldwide SA - official JD body did not render via text fetch; not evaluated",
     "where": "Employer sites",
     "time": "5:12 AM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Cloud/HPC Enterprise Architect",
+    "reason": "not-evaluated — EXPERIENCE IN EVALUATING, ARCHITECTING AND MANAGING CLOUD ENVIRONMENTS LIKE AWS, GOOGLE CLOUD ENVIRONMENT, AZURE; JD states no work location/remote status, no salary, no posted date, so remote and freshness cannot be verified.",
+    "where": "Employer sites",
+    "time": "6:23 AM"
    }
   ],
   "Maryland state portal": [
@@ -775,9 +784,9 @@
    {
     "company": "MD Anderson Cancer Center",
     "role": "Enterprise Data Architect",
-    "reason": "stale — 106788 Requisition # Thanks for your interest in the Enterprise Data Architect position. Unfortunately this position has been closed but you can search our 364 open jobs by clicking here.",
+    "reason": "closed — Thanks for your interest in the Enterprise Data Architect position. Unfortunately this position has been closed",
     "where": "Employer sites",
-    "time": "6:06 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "Priority Health",
@@ -1209,9 +1218,9 @@
    {
     "company": "MD Anderson Cancer Center",
     "role": "Enterprise Software Integration Architect",
-    "reason": "stale — 172259 Requisition # Thanks for your interest in the Enterprise Software Integration Architect position. Unfortunately this position has been closed but you can search our 363 open jobs by clicking here. Ten years of experience in platform technology to include five years of experience in software integration, to include five years of supervisory/managerial experience.",
+    "reason": "closed — Thanks for your interest in the Enterprise Software Integration Architect position. Unfortunately this position has been closed",
     "where": "Employer sites",
-    "time": "5:57 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "Avangrid",
@@ -4268,9 +4277,9 @@
    {
     "company": "NYU Langone Health",
     "role": "Enterprise Cloud Architect - AWS",
-    "reason": "cloud-scope — We have an exciting opportunity to join our team as a Enterprise Cloud Architect - AWS. 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture. Preferred certification: AWS certified Cloud Architect Professional. In Depth experience with AWS Cloud Multi-Tenant implementation design by using key cloud resources. The salary range for the role is $213,477.55 - $220,000.00 Annually.",
+    "reason": "stale — Develop and deliver application portfolio rationalization program to support 2013 2014 planning cycle; JD contains no remote language, NY-site posting. Workarounds tried: employer's own posting via Indeed mirror, alternate routes in search, no current remote alternate posting found.",
     "where": "Employer sites",
-    "time": "5:57 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "NYU Langone Health",
@@ -4434,13 +4443,6 @@
     "time": "6:05 AM"
    },
    {
-    "company": "NYU Langone Health",
-    "role": "Cloud/HPC Enterprise Architect",
-    "reason": "stale — EXPERIENCE IN EVALUATING, ARCHITECTING AND MANAGING CLOUD ENVIRONMENTS LIKE AWS, GOOGLE CLOUD ENVIRONMENT, AZURE. Deep experience in different storage technologies ( file, block, object). Specifically in ExtremeIO, HP 3PAR, Isilon. B.S. degree in information systems, computer science or related field 15+ years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server, storage, desktop, enterprise monitoring tools architecture.",
-    "where": "Employer sites",
-    "time": "6:06 AM"
-   },
-   {
     "company": "Mount Sinai Health System",
     "role": "Senior Data Center & Cloud Networking Engineer (Technology Specialist III) - Digital and Technology Partners - Network Services",
     "reason": "not-remote — We are seeking a highly experienced Senior Data Center & Cloud Networking Engineer to join our team in a hybrid capacity (3 days onsite / 2 days remote) at Mount Sinai Health System. The salary range for the role is $113011.58 - $202155 Annually.",
@@ -4457,23 +4459,23 @@
    {
     "company": "Texas Children's Hospital",
     "role": "Data Architect",
-    "reason": "stale — Data Architect Texas Children's Hospital Houston, TX (Onsite) Full-Time We're looking for a Data Architect, someone who works well in a fast-paced setting. In this position, you'll ensure a high level of data quality across the enterprise through the creation and management of sound data management processes.",
+    "reason": "stale — Only surfaced in ~6-month-old aggregator crawls (188-214 days ago); no current employer-portal posting found, Houston-based, no remote language.",
     "where": "Employer sites",
-    "time": "6:06 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "Texas Children's Hospital",
     "role": "Applications Architect (Oracle)",
-    "reason": "stale — Texas Children's Hospital is seeking an Applications Architect with a strong background in Oracle, requiring at least 10 years of major system design and implementation experience. Candidates should possess expertise in Oracle Fusion cloud HCM and Payroll, as well as proficiency in Oracle Integration Cloud and technical skills for developing reports and SQL updates.",
+    "reason": "pay-outside-band — the position offers a competitive salary of $130,000 to $150,000; Houston or Austin onsite; crawl 175-198 days ago.",
     "where": "Employer sites",
-    "time": "6:06 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "MD Anderson Cancer Center",
     "role": "Enterprise AI Architect",
-    "reason": "stale — Work Location: Remote within Texas only. Required Experience: Ten years of experience in platform technology to include five years of experience in software integration, to include five years of supervisory/managerial experience. Additional Information - Requisition ID: 175349 - Employment Status: Full-Time",
+    "reason": "pay-outside-band — Maximum Salary : US Dollar (USD) 245,500; Work Location: Remote within Texas only; crawl 304 days ago.",
     "where": "Employer sites",
-    "time": "6:06 AM"
+    "time": "6:23 AM"
    },
    {
     "company": "The Travelers Companies",
@@ -4684,6 +4686,34 @@
     "reason": "not-remote — Job Location 307 OPERATIONS OFFICE - Midland, TX. Provide second tier support for the IT help desk. Workarounds tried: employer-route search results (DiversityJobs mirror), alternate board routes in search, no remote alternate posting of same role found.",
     "where": "Employer sites",
     "time": "6:22 AM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Lead HPC Architect Cybersecurity",
+    "reason": "stale — 10 years of progressive HPC system administration experience; Scripting and programming experience; crawl 233-281 days ago, NY-based, no remote language.",
+    "where": "Employer sites",
+    "time": "6:23 AM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Cyber Security Architect - TSIII - Digital and Technology Partners",
+    "reason": "stale — Full Time - 2 months ago (DailyRemote listing, past 7-day eligibility); subject matter expert for multifactor authentication and modern identity controls within Microsoft Entra ID; JD states no remote status.",
+    "where": "Employer sites",
+    "time": "6:23 AM"
+   },
+   {
+    "company": "RWJBarnabas Health",
+    "role": "Security Architecture Lead",
+    "reason": "stale — West Orange, NJ (95 Old Short Hills Road); pay $121,748.93-$171,970.36; crawl 63 days ago; no remote language.",
+    "where": "Employer sites",
+    "time": "6:23 AM"
+   },
+   {
+    "company": "Texas Children's Hospital",
+    "role": "Data Security Architect, Sr",
+    "reason": "stale — We're looking for a Senior Data Security Architect/GRC Analyst; The GRC Analyst will play a vital role within Information Security, supporting Texas Children's governance, risk, and compliance initiatives; crawl 282 days ago.",
+    "where": "Employer sites",
+    "time": "6:23 AM"
    }
   ],
   "State portals": [
@@ -6363,7 +6393,8 @@
    "Expand Energy",
    "Sherwin-Williams",
    "CSX",
-   "Nestlé USA"
+   "Nestlé USA",
+   "NYU Langone Health"
   ],
   "W9": [
    "Oracle",
@@ -6391,5 +6422,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T11:22:55Z"
+ "lists_generated_at": "2026-10-29T11:26:23Z"
 }
