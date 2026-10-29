@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T06:44:37Z",
+ "generated_at": "2026-10-29T06:46:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T06:43:29Z",
+  "last_activity_at": "2026-10-29T06:44:46Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 27,
-  "rejected": 1230,
-  "evaluated": 1257
+  "rejected": 1232,
+  "evaluated": 1259
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 188,
+  "evaluated": 193,
   "filed": 0,
   "parked": 3,
-  "rejected": 185,
+  "rejected": 190,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3"
+  "W1",
+  "W3",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -79,12 +81,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:46:28Z",
    "detail": "Employers 125/30"
   },
   "W2": {
@@ -106,8 +108,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T06:44:37Z",
-   "detail": "Employers 115/73"
+   "heartbeat_at": "2026-10-29T06:46:28Z",
+   "detail": "Employers 120/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -134,12 +136,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-10-29T06:46:28Z",
    "detail": "Employers 125/44"
   },
   "W9": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "273 of 612 units done",
+   "detail": "274 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:43 AM CT · 1 workers in flight · 0 filed this run",
+ "note": "Last activity 1:44 AM CT · 3 workers in flight · 0 filed this run",
  "pill": [
   {
-   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W6 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1026,6 +1028,27 @@
     "reason": "stale — Published: 10/22/2024 — stale",
     "where": "Employer sites",
     "time": "12:08 AM"
+   },
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Chief Architect",
+    "reason": "stale — Date Posted: 4 March 2026",
+    "where": "Employer sites",
+    "time": "1:44 AM"
+   },
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Security Architect - IAM - Hybrid",
+    "reason": "not-remote — Name: Security Architect - IAM - Hybrid",
+    "where": "Employer sites",
+    "time": "1:44 AM"
+   },
+   {
+    "company": "Geisinger",
+    "role": "Business Architect Senior (RPA)",
+    "reason": "stale — Location: Work from home (Pennsylvania)",
+    "where": "Employer sites",
+    "time": "1:44 AM"
    },
    {
     "company": "AMD",
@@ -1796,6 +1819,20 @@
     "reason": "not-remote — Enbridge’s FlexWork (Hybrid Work Model) offers eligible employees the opportunity to work variable daily schedules with a flexible start and end time, to opt for a compressed workweek schedule, or the option to work from home on Wednesdays and Fridays. Role requirements determine your eligibility for each option. #LI-Hybrid",
     "where": "Employer sites",
     "time": "1:43 AM"
+   },
+   {
+    "company": "Mass General Brigham",
+    "role": "Identity Governance and Administration Architect",
+    "reason": "not-remote — This is a hybrid position, and typically requires 1 onsite day per week at our Assembly Row office in Somerville, MA.",
+    "where": "Employer sites",
+    "time": "1:44 AM"
+   },
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Enterprise Data Architect",
+    "reason": "stale — SCHEDULE: Hybrid - Mostly remote but may need to come into the Dallas office from time-to-time",
+    "where": "Employer sites",
+    "time": "1:44 AM"
    }
   ],
   "State portals": [
@@ -3049,5 +3086,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-10-29T06:44:37Z"
+ "lists_generated_at": "2026-10-29T06:46:28Z"
 }
