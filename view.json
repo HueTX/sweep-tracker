@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-10-29T09:39:00Z",
+ "generated_at": "2026-10-29T09:40:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
   "kind": "scheduled",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-10-28T15:07:40Z",
-  "last_activity_at": "2026-10-29T09:38:44Z",
+  "last_activity_at": "2026-10-29T09:39:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 638,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 35,
-  "rejected": 1422,
-  "evaluated": 1457
+  "rejected": 1428,
+  "evaluated": 1463
  },
  "today": {
   "date": "2026-10-29",
-  "evaluated": 388,
+  "evaluated": 394,
   "filed": 0,
   "parked": 11,
-  "rejected": 377,
+  "rejected": 383,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -222,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-10-29T09:39:00Z",
-   "detail": "Employers 145/59"
+   "heartbeat_at": null,
+   "detail": "Employers 150/59"
   },
   "W17": {
    "label": "Technology",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "322 of 612 units done",
+   "detail": "323 of 612 units done",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": null
   },
@@ -541,19 +539,13 @@
    }
   ]
  },
- "note": "Last activity 4:38 AM CT · 1 workers in flight · 0 filed this run",
- "pill": [
-  {
-   "primary": "W16 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 4:39 AM CT · 0 workers in flight · 0 filed this run",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
