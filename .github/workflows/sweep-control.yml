@@ -1,0 +1,87 @@
+name: Sweep control
+
+# Standalone control path for the Sweep Tracker (Sweep v4, DESIGN §5).
+# The standalone page (GitHub Pages) cannot write anywhere without a
+# secret, so its Start / Stop / lane-restart buttons open THIS
+# workflow's dispatch form in Hubert's signed-in GitHub session. The
+# run itself is only a courier: it commits the request as a file
+# (control-inbox/<run_id>.json) and lists the run id in
+# control-inbox/index.json. The v4 bridge polls that index, feeds each
+# request into the engine inbox exactly once (keyed by run id), and
+# the engine applies it. Run id = request id.
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Sweep command"
+        required: true
+        type: choice
+        options:
+          - start
+          - stop
+          - restart-lane
+      scope:
+        description: "Start scope (used by start only)"
+        required: true
+        type: choice
+        default: all
+        options:
+          - all
+          - employers
+      lane:
+        description: "Lane to restart (restart-lane only, e.g. W3)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  record-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Record the control request
+        env:
+          CMD: ${{ inputs.command }}
+          SCOPE: ${{ inputs.scope }}
+          LANE: ${{ inputs.lane }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os
+          from datetime import datetime, timezone
+          req = {
+              "command": os.environ["CMD"],
+              "scope": os.environ["SCOPE"],
+              "lane": os.environ.get("LANE") or None,
+              "requested_at": datetime.now(timezone.utc).isoformat(),
+              "source": "standalone-github",
+          }
+          os.makedirs("control-inbox", exist_ok=True)
+          rid = os.environ["RUN_ID"]
+          with open("control-inbox/%s.json" % rid, "w") as fh:
+              json.dump(req, fh, indent=1)
+          idx_path = "control-inbox/index.json"
+          try:
+              with open(idx_path) as fh:
+                  idx = json.load(fh)
+          except Exception:
+              idx = {"requests": []}
+          if rid not in idx["requests"]:
+              idx["requests"].append(rid)
+          with open(idx_path, "w") as fh:
+              json.dump(idx, fh, indent=1)
+          PYEOF
+      - name: Commit the request
+        run: |
+          git config user.name "sweep-control"
+          git config user.email "sweep-control@users.noreply.github.com"
+          git add control-inbox
+          git commit -m "sweep control request ${{ github.run_id }} (${{ inputs.command }})"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase
+            sleep 2
+          done
