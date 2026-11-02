@@ -1,7 +1,7 @@
 {
  "schema": 2,
- "build_version": "4.0.0-sweepv3",
- "generated_at": "2026-11-02T23:48:28Z",
+ "build_version": "5.0.0-sweepv4",
+ "generated_at": "2026-11-02T23:51:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "0cb67e2a",
@@ -83,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/30"
+   "detail": "Titles 58/58"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 234/39"
+   "detail": "Titles 58/58"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 438/73"
+   "detail": "Titles 58/58"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -116,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 192/32"
+   "detail": "Titles 58/58"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -127,7 +127,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 264/44"
+   "detail": "Titles 58/58"
   },
   "W6": {
    "label": "Utilities",
@@ -138,7 +138,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 264/44"
+   "detail": "Titles 58/58"
   },
   "W9": {
    "label": "Dice",
@@ -226,7 +226,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 354/59"
+   "detail": "Titles 58/58"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 324/54"
+   "detail": "Titles 58/58"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 270/45"
+   "detail": "Titles 58/58"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 246/41"
+   "detail": "Titles 58/58"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,21 +270,21 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 186/31"
+   "detail": "Titles 58/58"
   }
  },
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Run started 10:07 AM CT",
+   "detail": "Imported from v3 — stage detail not reconstructed",
    "started_at": "2026-10-28T15:07:40Z",
    "ended_at": "2026-10-28T15:07:40Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-28T15:21:36Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -300,33 +300,33 @@
   },
   "sector_search": {
    "state": "done",
-   "detail": "612 of 612 units done",
-   "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-29T14:59:22Z"
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "9 of 9 units done",
-   "started_at": "2026-10-28T15:07:40Z",
-   "ended_at": "2026-10-29T14:46:10Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-10-29T14:59:59Z",
-   "ended_at": "2026-10-29T15:04:11Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "quality_check": {
    "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-10-29T14:59:59Z",
-   "ended_at": "2026-10-29T15:04:11Z"
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "delivered": {
    "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-10-29T14:59:59Z",
-   "ended_at": "2026-10-29T15:04:11Z"
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   }
  },
  "titles": {
@@ -395,23 +395,16 @@
  },
  "controls": {
   "priority_lanes": [],
-  "scoped_lanes": [
-   "W1",
-   "W2",
-   "W3",
-   "W4",
-   "W5",
-   "W6",
-   "W16",
-   "W17",
-   "W18",
-   "W19",
-   "W20"
-  ],
+  "scoped_lanes": null,
   "scoped_titles": null,
   "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "gh-41547890370",
+    "actuated_at": "2026-11-02T23:51:35Z",
+    "effect": "sweep stop"
+   },
    {
     "id": "chat-stop-20261102-hubert-tap",
     "actuated_at": "2026-11-02T22:18:22Z",
@@ -531,15 +524,10 @@
     "id": "chat-stop-20261025-1233ct",
     "actuated_at": "2026-10-25T17:35:28Z",
     "effect": "sweep stop"
-   },
-   {
-    "id": "chat-title-add-20261024-01",
-    "actuated_at": "2026-10-24T20:36:43Z",
-    "effect": "title added: Enterprise Solutions Architect"
    }
   ]
  },
- "note": "Last activity 10:01 AM CT · 0 workers in flight · 0 filed this run",
+ "note": "Last activity 10:01 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "Sweep stopped — nothing is searching right now",
@@ -1724,5 +1712,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-02T23:48:28Z"
+ "lists_generated_at": "2026-11-02T23:51:35Z"
 }
