@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-05T05:13:04Z",
+ "generated_at": "2026-11-05T05:15:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,32 +15,34 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-05T04:48:07Z",
+  "last_activity_at": "2026-11-05T05:15:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 150,
+   "covered_units": 180,
    "total_units": 1218,
-   "pct": 12
+   "pct": 15
   },
-  "families_covered": 20,
+  "families_covered": 30,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 105,
-  "evaluated": 106
+  "rejected": 113,
+  "evaluated": 114
  },
  "today": {
   "date": "2026-11-04",
-  "evaluated": 87,
+  "evaluated": 95,
   "filed": 0,
   "parked": 1,
-  "rejected": 86,
+  "rejected": 94,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
+  "W2",
+  "W3",
+  "W4",
   "W18",
   "W19",
   "W20"
@@ -82,45 +84,45 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "queued",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 15/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-05T05:13:04Z",
-   "detail": "Employers 10/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "queued",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T05:15:15Z",
    "detail": "Employers 10/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T05:15:15Z",
    "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T05:15:15Z",
    "detail": "Employers 10/32"
   },
   "W5": {
@@ -252,30 +254,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-05T05:13:04Z",
+   "heartbeat_at": "2026-11-05T05:15:15Z",
    "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-05T05:13:04Z",
-   "detail": "Employers 0/41"
+   "heartbeat_at": "2026-11-05T05:15:15Z",
+   "detail": "Employers 5/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-05T05:13:04Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": "2026-11-05T05:15:15Z",
+   "detail": "Employers 5/31"
   }
  },
  "stages": {
@@ -305,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "17 of 632 units done",
+   "detail": "20 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -336,7 +338,7 @@
  },
  "titles": {
   "total": 58,
-  "searched": 20,
+  "searched": 30,
   "families": {
    "Azure Architect": "done",
    "Azure Solutions Architect": "done",
@@ -358,16 +360,16 @@
    "Cloud Infrastructure Lead": "done",
    "Principal Technical Architect": "done",
    "Technology Strategy Architect": "done",
-   "IT Architecture Lead": "pending",
-   "Application Architect": "pending",
-   "Integration Architect": "pending",
-   "Data Center Architect": "pending",
-   "Digital Transformation Architect": "pending",
-   "Systems Architect": "pending",
-   "Identity Architect": "pending",
-   "Technology Architect": "pending",
-   "Network Security Architect": "pending",
-   "Chief Architect": "pending",
+   "IT Architecture Lead": "done",
+   "Application Architect": "done",
+   "Integration Architect": "done",
+   "Data Center Architect": "done",
+   "Digital Transformation Architect": "done",
+   "Systems Architect": "done",
+   "Identity Architect": "done",
+   "Technology Architect": "done",
+   "Network Security Architect": "done",
+   "Chief Architect": "done",
    "Cloud Engineering Lead": "pending",
    "Platform Engineering Lead": "pending",
    "Cloud Transformation Lead": "pending",
@@ -546,11 +548,11 @@
    }
   ]
  },
- "note": "Last activity 10:48 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:15 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W19 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 20/58",
+   "detail": "Families covered 30/58",
    "pool": "W19"
   }
  ],
@@ -558,7 +560,7 @@
   "live": true,
   "label": "W19",
   "headline": "W19 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 20/58"
+  "detail": "Families covered 30/58"
  },
  "rules": {
   "follow_all": false,
