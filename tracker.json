@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-05T04:12:05Z",
+ "generated_at": "2026-11-05T04:13:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
   "last_activity_at": "2026-11-05T03:47:33Z",
@@ -39,7 +39,11 @@
   "rejected": 10,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -132,12 +136,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T04:13:59Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -220,23 +224,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T04:13:59Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T04:13:59Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -541,13 +545,19 @@
    }
   ]
  },
- "note": "Last activity 9:47 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:47 PM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 10/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 10/58"
  },
  "rules": {
   "follow_all": false,
@@ -1793,5 +1803,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-05T04:12:05Z"
+ "lists_generated_at": "2026-11-05T04:13:59Z"
 }
