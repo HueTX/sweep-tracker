@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-05T04:17:38Z",
+ "generated_at": "2026-11-05T04:19:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,34 +15,34 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-05T03:47:33Z",
+  "last_activity_at": "2026-11-05T04:18:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 30,
+   "covered_units": 60,
    "total_units": 1218,
-   "pct": 2
+   "pct": 5
   },
   "families_covered": 10,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 23,
-  "evaluated": 23
+  "parked": 1,
+  "rejected": 54,
+  "evaluated": 55
  },
  "today": {
   "date": "2026-11-04",
-  "evaluated": 10,
+  "evaluated": 36,
   "filed": 0,
-  "parked": 0,
-  "rejected": 10,
+  "parked": 1,
+  "rejected": 35,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W6",
-  "W16",
-  "W17"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -136,13 +136,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-05T04:17:38Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -224,56 +224,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-05T04:17:38Z",
-   "detail": "Employers 0/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-05T04:17:38Z",
-   "detail": "Employers 0/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 0,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-05T04:19:26Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T04:19:26Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-05T04:19:26Z",
    "detail": "Employers 0/31"
   }
  },
@@ -304,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 632 units done",
+   "detail": "8 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -545,18 +545,18 @@
    }
   ]
  },
- "note": "Last activity 9:47 PM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:18 PM CT · 3 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 10/58",
-   "pool": "W6"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 10/58"
  },
  "rules": {
