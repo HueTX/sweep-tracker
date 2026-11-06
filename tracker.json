@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T20:14:45Z",
+ "generated_at": "2026-11-06T20:18:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T18:47:41Z",
+  "last_activity_at": "2026-11-06T20:17:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 23,
-  "rejected": 1048,
-  "evaluated": 1074
+  "rejected": 1049,
+  "evaluated": 1075
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 200,
+  "evaluated": 201,
   "filed": 1,
   "parked": 5,
-  "rejected": 194,
+  "rejected": 195,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -100,7 +96,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/39"
+   "detail": "Employers 185/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,7 +107,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/73"
+   "detail": "Employers 185/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,7 +118,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/32"
+   "detail": "Employers 182/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -248,35 +244,35 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T20:14:45Z",
-   "detail": "Employers 175/45"
+   "heartbeat_at": null,
+   "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T20:14:45Z",
-   "detail": "Employers 175/41"
+   "heartbeat_at": null,
+   "detail": "Employers 180/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T20:14:45Z",
-   "detail": "Employers 175/31"
+   "heartbeat_at": null,
+   "detail": "Employers 180/31"
   }
  },
  "stages": {
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "413 of 632 units done",
+   "detail": "419 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 12:47 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 2:17 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2032,6 +2022,15 @@
     "where": "Indeed",
     "time": "12:38 PM"
    }
+  ],
+  "Chronicle of Higher Education job board": [
+   {
+    "company": "Johns Hopkins Medicine",
+    "role": "Enterprise Web and DevOps Architect",
+    "reason": "hands-on — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security.",
+    "where": "Chronicle of Higher Education job board",
+    "time": "2:17 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -3195,5 +3194,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-06T20:14:45Z"
+ "lists_generated_at": "2026-11-06T20:18:04Z"
 }
