@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T05:14:45Z",
+ "generated_at": "2026-11-06T05:17:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T04:48:15Z",
+  "last_activity_at": "2026-11-06T05:17:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 17,
-  "rejected": 804,
-  "evaluated": 824
+  "parked": 18,
+  "rejected": 815,
+  "evaluated": 836
  },
  "today": {
   "date": "2026-11-05",
-  "evaluated": 678,
+  "evaluated": 690,
   "filed": 0,
-  "parked": 13,
-  "rejected": 662,
+  "parked": 14,
+  "rejected": 673,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -83,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/30"
+   "detail": "Employers 100/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -126,8 +126,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T05:14:45Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W6": {
    "label": "Utilities",
@@ -137,8 +137,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T05:14:45Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -225,8 +225,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T05:14:45Z",
-   "detail": "Employers 90/59"
+   "heartbeat_at": null,
+   "detail": "Employers 95/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/54"
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/45"
+   "detail": "Employers 95/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/41"
+   "detail": "Employers 95/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/31"
+   "detail": "Employers 95/31"
   }
  },
  "stages": {
@@ -300,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "222 of 632 units done",
+   "detail": "230 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "5 of 5 units done",
+   "detail": "6 of 6 units done",
    "started_at": "2026-11-05T20:14:26Z",
-   "ended_at": "2026-11-06T03:44:27Z"
+   "ended_at": "2026-11-06T05:16:48Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 10:48 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 11:17 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -651,6 +645,13 @@
     "reason": "not-evaluated — Full JD could not be loaded after real attempts on three surfaces (EmployDiversity, Dice mirrors, RemoteRocketship all truncate at the overview: 'drive the design of comprehensive, enterprise-grade solutions in Microsoft Azure'); salary $140,000-$170,000 top in band and remote US/Canada per listing, duties beyond overview unverified",
     "where": "Employer sites",
     "time": "6:47 PM"
+   },
+   {
+    "company": "Broadcom",
+    "role": "Solutions Architect",
+    "reason": "credential-needed — If you are a first time user, please create your candidate login account before you apply for a job. (Click Sign In > Create Account)",
+    "where": "Employer sites",
+    "time": "11:16 PM"
    }
   ],
   "Google Jobs": [
@@ -888,6 +889,13 @@
     "reason": "not-remote — fill the position of Enterprise Content Management Architect within our IT Enterprise Content Management group based in Houston, TX",
     "where": "Employer sites",
     "time": "5:46 PM"
+   },
+   {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "not-remote — Location: Oklahoma City, OK, US - Job ID: 17677 - Independently performs broad solution design, enterprise architecture and solution development activities",
+    "where": "Employer sites",
+    "time": "11:15 PM"
    },
    {
     "company": "Phillips 66",
@@ -1667,6 +1675,13 @@
     "time": "1:47 PM"
    },
    {
+    "company": "United Airlines",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — United Airlines - Chicago, Illinois, United States (on-site) - Principal Enterprise Architect - The base pay range for this role is $137,275.00 to $178,670.00.",
+    "where": "Employer sites",
+    "time": "11:17 PM"
+   },
+   {
     "company": "Ryder System",
     "role": "System Engineering Architect",
     "reason": "stale — Published: 2025-10-30",
@@ -1686,6 +1701,27 @@
     "reason": "hands-on — Design, build, and maintain systems for declarative application and infrastructure lifecycle management. You have 2+ years of programming experience and are proficient in at least one of the following programming languages: Python, Go, Shell Script. Published: 2025-05-08 (also stale; $126,000 to $145,000 top below band floor; engineer title).",
     "where": "Employer sites",
     "time": "3:19 PM"
+   },
+   {
+    "company": "Lululemon",
+    "role": "Senior Solution Architect - Salesforce Service Cloud",
+    "reason": "not-remote — Work is performed onsite, minimum 4 days per week.",
+    "where": "Employer sites",
+    "time": "11:16 PM"
+   },
+   {
+    "company": "AMD",
+    "role": "Senior Cloud Architect Engineer",
+    "reason": "not-remote — LOCATION: San Jose, CA #LI-HYBRID - Design, develop, deploy, monitor, maintain, and evolve cloud-native resources, tools, services, reusable modules (infrastructure-as-code-practices)",
+    "where": "Employer sites",
+    "time": "11:16 PM"
+   },
+   {
+    "company": "Diamondback Energy",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — Enterprise Data Architect job in Oklahoma City, Oklahoma at Diamondback E&P LLC - designing, implementing, and managing the organization's data architecture",
+    "where": "Employer sites",
+    "time": "11:15 PM"
    },
    {
     "company": "Centene",
@@ -4388,6 +4424,34 @@
     "reason": "not-remote — Rockwell Automation’s hybrid policy aligns that employees are expected to work at a Rockwell location at least Mondays, Tuesdays, and Thursdays unless they have a business obligation out of the office.",
     "where": "Employer sites",
     "time": "10:17 PM"
+   },
+   {
+    "company": "State Street",
+    "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
+    "reason": "stale — Published: 2026-10-27 - Senior Solutions Architect, Quincy, Massachusetts; Princeton, New Jersey, Salary Range: $120,000 - $202,500 Annual",
+    "where": "Employer sites",
+    "time": "11:14 PM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Lead Enterprise Architect, Infrastructure",
+    "reason": "stale — Published: 2026-10-23T13:20 - Lead Enterprise Architect, Location: 4910 Tiedeman Road, Brooklyn Ohio; Job Posting Expiration Date: 10/30/2026",
+    "where": "Employer sites",
+    "time": "11:14 PM"
+   },
+   {
+    "company": "Huntington Bancshares",
+    "role": "Sr. Principal Enterprise Solution Architect",
+    "reason": "not-remote — This position is an onsite position and available to be filled at any Huntington Corporate office location",
+    "where": "Employer sites",
+    "time": "11:14 PM"
+   },
+   {
+    "company": "3M",
+    "role": "Solutions Architect - Standards",
+    "reason": "experience-mismatch — Five (5) years of experience working with optical interconnect, co-packaged optics (CPO), or data center connectivity technologies - Representing 3M in optical interconnect standards organizations such as IEEE, IEC, OIF, APC, EBO MSA, and others.",
+    "where": "Employer sites",
+    "time": "11:16 PM"
    }
   ],
   "Web Catch-All": [
@@ -5159,6 +5223,13 @@
     "time": "10:17 PM"
    },
    {
+    "company": "BNY Mellon",
+    "role": "Senior Vice President, Solution Architect",
+    "reason": "not-remote — We're seeking a future team member for the role of Senior Vice President, Solution Architect to join our Foundational Frameworks team. This role is located in Pittsburgh, PA.",
+    "where": "Dice",
+    "time": "11:14 PM"
+   },
+   {
     "company": "Citigroup",
     "role": "COO Enterprise Systems Architect, GenAI Director",
     "reason": "pay-outside-band — Primary Location Full Time Salary Range: $170,000.00 - $300,000.00",
@@ -5171,6 +5242,13 @@
     "reason": "not-remote — On-site — Location: 501 S Second St, Springfield, IL - Sangamon County (Illinois Secretary of State, Division: Architecture). Dice listing posted 4 days ago, updated 11 hours ago (fresh surface activity); fixed Springfield duty station, no remote language. Workarounds tried: (1) employer's own posting text via Dice mirror read in full; location terms are posting-intrinsic.",
     "where": "Dice",
     "time": "9:47 PM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Principal Cloud Architect",
+    "reason": "stale — Published: 2026-10-24T00:12:35.000Z - Principal Cloud Architect - Northern Trust - Chicago, IL, US",
+    "where": "Dice",
+    "time": "11:14 PM"
    }
   ],
   "Simplify (Pennington, NJ)": [
@@ -6544,5 +6622,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-06T05:14:45Z"
+ "lists_generated_at": "2026-11-06T05:17:39Z"
 }
