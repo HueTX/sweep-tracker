@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T22:18:01Z",
+ "generated_at": "2026-11-06T22:20:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T22:17:41Z",
+  "last_activity_at": "2026-11-06T22:18:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -41,11 +41,7 @@
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -248,35 +244,35 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T22:18:01Z",
-   "detail": "Employers 190/45"
+   "heartbeat_at": null,
+   "detail": "Employers 195/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T22:18:01Z",
-   "detail": "Employers 190/41"
+   "heartbeat_at": null,
+   "detail": "Employers 195/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T22:18:01Z",
-   "detail": "Employers 182/31"
+   "heartbeat_at": null,
+   "detail": "Employers 183/31"
   }
  },
  "stages": {
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "443 of 632 units done",
+   "detail": "446 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 4:17 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 4:18 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1971,13 +1961,6 @@
     "time": "2:49 PM"
    },
    {
-    "company": "Clorox",
-    "role": "Data Architect (Azure)",
-    "reason": "stale — Workplace type: Hybrid- 3 days in office; 2 days WFH. Published: 2026-10-13 - more than 7 days before 2026-11-06.",
-    "where": "Employer sites",
-    "time": "2:49 PM"
-   },
-   {
     "company": "Hershey",
     "role": "Sr Solution Architect, SAP",
     "reason": "experience-mismatch — Minimum of 10+ years of experience in technology delivery roles with at least 3+ years in SAP Solution Architecture role - preferably S/4 or SAP BTP - core SAP S/4 domain does not align with his Azure/cloud enterprise architecture experience. Workarounds tried: (1) full JD read, (2) no alternate non-SAP posting of this role found.",
@@ -2108,6 +2091,13 @@
     "reason": "stale — Published: 2026-09-17T09:55:42.000Z — posting is over 7 days old at 2026-11-06, outside the 7-day eligibility window, with no repost or refresh activity on the finding surface. Workarounds tried: no fresher alternate posting of the same req surfaced.",
     "where": "Dice",
     "time": "12:37 PM"
+   },
+   {
+    "company": "Clorox",
+    "role": "Data Architect (Azure)",
+    "reason": "not-remote — Hybrid- 3 days in office; 2 days WFH",
+    "where": "Dice",
+    "time": "4:18 PM"
    }
   ],
   "Simplify (Lyft posting mirror)": [
@@ -3496,5 +3486,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-06T22:18:01Z"
+ "lists_generated_at": "2026-11-06T22:20:08Z"
 }
