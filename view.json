@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T23:17:24Z",
+ "generated_at": "2026-11-06T23:23:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T22:51:47Z",
+  "last_activity_at": "2026-11-06T23:21:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 24,
-  "rejected": 1090,
-  "evaluated": 1117
+  "rejected": 1092,
+  "evaluated": 1119
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 243,
+  "evaluated": 245,
   "filed": 1,
   "parked": 6,
-  "rejected": 236,
+  "rejected": 238,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -237,35 +233,35 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T23:17:24Z",
-   "detail": "Employers 195/54"
+   "heartbeat_at": null,
+   "detail": "Employers 200/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T23:17:24Z",
-   "detail": "Employers 195/45"
+   "heartbeat_at": null,
+   "detail": "Employers 200/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T23:17:24Z",
-   "detail": "Employers 195/41"
+   "heartbeat_at": null,
+   "detail": "Employers 200/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "452 of 632 units done",
+   "detail": "455 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 4:51 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 5:21 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
