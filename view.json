@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T18:36:03Z",
+ "generated_at": "2026-11-06T18:40:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T18:32:34Z",
+  "last_activity_at": "2026-11-06T18:38:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,27 +27,21 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 22,
-  "rejected": 1021,
-  "evaluated": 1046
+  "parked": 23,
+  "rejected": 1041,
+  "evaluated": 1067
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 172,
+  "evaluated": 193,
   "filed": 1,
-  "parked": 4,
-  "rejected": 167,
+  "parked": 5,
+  "rejected": 187,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -85,13 +79,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:36:03Z",
-   "detail": "Employers 170/30"
+   "heartbeat_at": null,
+   "detail": "Employers 175/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -239,46 +233,46 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:36:03Z",
-   "detail": "Employers 165/54"
+   "heartbeat_at": null,
+   "detail": "Employers 170/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:36:03Z",
-   "detail": "Employers 165/45"
+   "heartbeat_at": null,
+   "detail": "Employers 170/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:36:03Z",
-   "detail": "Employers 165/41"
+   "heartbeat_at": null,
+   "detail": "Employers 170/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:36:03Z",
-   "detail": "Employers 165/31"
+   "heartbeat_at": null,
+   "detail": "Employers 170/31"
   }
  },
  "stages": {
@@ -308,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "390 of 632 units done",
+   "detail": "395 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -549,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 12:32 PM CT · 5 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 12:38 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
