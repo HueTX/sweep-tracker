@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T21:47:26Z",
+ "generated_at": "2026-11-06T21:48:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T21:17:53Z",
+  "last_activity_at": "2026-11-06T21:47:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 1,
   "parked": 24,
-  "rejected": 1084,
-  "evaluated": 1111
+  "rejected": 1086,
+  "evaluated": 1113
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 237,
+  "evaluated": 239,
   "filed": 1,
   "parked": 6,
-  "rejected": 230,
+  "rejected": 232,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
  "searching_lanes": [
-  "W3",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -105,38 +105,27 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T21:47:26Z",
-   "detail": "Employers 190/73"
+   "heartbeat_at": null,
+   "detail": "Employers 195/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T21:47:26Z",
-   "detail": "Employers 184/32"
+   "heartbeat_at": null,
+   "detail": "Employers 186/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-06T21:47:26Z",
-   "detail": "Employers 190/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -144,6 +133,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 195/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-06T21:48:43Z",
    "detail": "Employers 190/44"
   },
   "W9": {
@@ -226,23 +226,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-06T21:48:43Z",
    "detail": "Employers 190/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-06T21:48:43Z",
    "detail": "Employers 190/54"
   },
   "W18": {
@@ -306,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "437 of 632 units done",
+   "detail": "440 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,18 +547,18 @@
    }
   ]
  },
- "note": "Last activity 3:17 PM CT · 3 workers in flight · 1 filed this cycle",
+ "note": "Last activity 3:47 PM CT · 3 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W6 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W6",
+  "headline": "W6 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
