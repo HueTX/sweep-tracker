@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T18:47:17Z",
+ "generated_at": "2026-11-06T18:49:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T18:46:36Z",
+  "last_activity_at": "2026-11-06T18:47:41Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 23,
-  "rejected": 1047,
-  "evaluated": 1073
+  "rejected": 1048,
+  "evaluated": 1074
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 199,
+  "evaluated": 200,
   "filed": 1,
   "parked": 5,
-  "rejected": 193,
+  "rejected": 194,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -127,24 +123,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:47:17Z",
-   "detail": "Employers 170/44"
+   "heartbeat_at": null,
+   "detail": "Employers 175/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:47:17Z",
-   "detail": "Employers 170/44"
+   "heartbeat_at": null,
+   "detail": "Employers 175/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,13 +222,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T18:47:17Z",
-   "detail": "Employers 170/59"
+   "heartbeat_at": null,
+   "detail": "Employers 175/59"
   },
   "W17": {
    "label": "Technology",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "398 of 632 units done",
+   "detail": "401 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 12:46 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 12:47 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
