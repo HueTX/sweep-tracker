@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T07:42:49Z",
+ "generated_at": "2026-11-06T07:45:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T07:18:46Z",
+  "last_activity_at": "2026-11-06T07:45:17Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 18,
-  "rejected": 857,
-  "evaluated": 878
+  "rejected": 859,
+  "evaluated": 880
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 7,
+  "evaluated": 9,
   "filed": 0,
   "parked": 0,
-  "rejected": 7,
+  "rejected": 9,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -82,7 +82,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-06T07:45:28Z",
    "detail": "Employers 110/30"
   },
   "W2": {
@@ -258,7 +258,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-06T07:45:28Z",
    "detail": "Employers 105/41"
   },
   "W20": {
@@ -269,7 +269,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-06T07:45:28Z",
    "detail": "Employers 105/31"
   }
  },
@@ -541,13 +541,19 @@
    }
   ]
  },
- "note": "Last activity 1:18 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 1:45 AM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W20"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W20",
+  "headline": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -604,6 +610,13 @@
     "reason": "stale — Published: 2026-06-23",
     "where": "Employer sites",
     "time": "12:48 AM"
+   },
+   {
+    "company": "Nordstrom",
+    "role": "Sr. AI Architect Finance",
+    "reason": "not-remote — This role is Hybrid and will require you to be in office in downtown Seattle, WA 4 days per week.",
+    "where": "Employer sites",
+    "time": "1:45 AM"
    }
   ],
   "Dice": [
@@ -622,6 +635,15 @@
     "reason": "not-remote — This role has on-site working model, with the employee working at least four days a week in the office at 3M Center, located in Maplewood, MN.",
     "where": "Built In",
     "time": "1:18 AM"
+   }
+  ],
+  "Monster": [
+   {
+    "company": "Starbucks",
+    "role": "Principal Enterprise Architect, Partner Technology",
+    "reason": "not-remote — We believe we do our best work when we're together, which is why we're onsite four days a week.",
+    "where": "Monster",
+    "time": "1:45 AM"
    }
   ]
  },
@@ -1785,5 +1807,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-06T07:42:49Z"
+ "lists_generated_at": "2026-11-06T07:45:28Z"
 }
