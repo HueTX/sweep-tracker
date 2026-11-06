@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T21:16:14Z",
+ "generated_at": "2026-11-06T21:18:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T20:51:03Z",
+  "last_activity_at": "2026-11-06T21:17:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 24,
-  "rejected": 1080,
-  "evaluated": 1107
+  "rejected": 1084,
+  "evaluated": 1111
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 233,
+  "evaluated": 237,
   "filed": 1,
   "parked": 6,
-  "rejected": 226,
+  "rejected": 230,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -100,7 +96,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/39"
+   "detail": "Employers 195/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -226,35 +222,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T21:16:14Z",
-   "detail": "Employers 185/59"
+   "heartbeat_at": null,
+   "detail": "Employers 190/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T21:16:14Z",
-   "detail": "Employers 185/54"
+   "heartbeat_at": null,
+   "detail": "Employers 190/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T21:16:14Z",
-   "detail": "Employers 185/45"
+   "heartbeat_at": null,
+   "detail": "Employers 190/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,7 +261,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/41"
+   "detail": "Employers 190/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,7 +272,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 181/31"
+   "detail": "Employers 182/31"
   }
  },
  "stages": {
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "431 of 632 units done",
+   "detail": "437 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 2:51 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W16 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 3:17 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1990,6 +1980,13 @@
     "reason": "hands-on — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security; strong background in workload containerization, infrastructure and application security, server deployment/management, automated scripting, web programming languages; Assist with prompt DevOps operational support when required; On-Call - Yes. Whole role is hands-on IaC/pipeline building and operational support, not advisory architecture. Workarounds tried: (1) full JD read on Chronicle (JHU text), (2) Ladders and Jobgether alternate routes - same JD, (3) no alternate posting found.",
     "where": "Employer sites",
     "time": "2:51 PM"
+   },
+   {
+    "company": "Colgate-Palmolive",
+    "role": "Solution Architect (Digital Marketing Professional Engagement)",
+    "reason": "not-remote — Job Number #176791 - Piscataway, New Jersey, United States | #LI-Hybrid | Role is also hands-on coding as core duty: Write, test, and deploy production-ready code (REST/GraphQL APIs, microservices, webhooks); pay $110,000-$150,000 also below band. Undated live posting on employer's own ATS (governing text, workaround step 1 satisfied), verdicted on merits.",
+    "where": "Employer sites",
+    "time": "3:17 PM"
    }
   ],
   "Lensa": [
@@ -2006,6 +2003,15 @@
     "reason": "not-remote — Senior AI/ML Solutions Architect — Hybrid role (3 days/week in office) at our Salt Lake City, Boise, Fargo, Portland, Vancouver, Renton, Medford, Burlington, Lewiston, Little Rock and Springdale offices.",
     "where": "Lensa",
     "time": "12:31 PM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "MassMutual",
+    "role": "Solution Architect, Corporate Technology Investment Management",
+    "reason": "experience-mismatch — IM Platforms: Eagle, Aladdin, Calypso, Murex or similar | Role requires deep specialization in Portfolio Management, Derivatives, Credit & Market Risk functions and platform expertise in Eagle, Calypso, Murex - no alignment with Hubert's Azure/cloud/enterprise architecture experience. Undated live posting (fresh crawl), verdicted on merits. Workarounds tried: full JD read on Simplify; specialization is intrinsic to the req.",
+    "where": "Simplify",
+    "time": "3:16 PM"
    }
   ],
   "Dice": [
@@ -2118,6 +2124,13 @@
     "reason": "not-remote — We believe we do our best work when we're together, which is why we're onsite four days a week. Workarounds tried: Ladders carries the full Starbucks JD (Legal Technology / Azure / AWS / Atlassian / ServiceNow scope); no alternate remote posting of this role found. Undated live posting - verdicted on the merits per the freshness law.",
     "where": "Ladders",
     "time": "2:46 AM"
+   },
+   {
+    "company": "Nationwide",
+    "role": "Director - Data & AI Solutions - Financial Services, Actuarial",
+    "reason": "cloud-scope — 5+ years designing and implementing cloud-native modern data platforms using Snowflake, Databricks, and AWS. | Also hands-on data engineering core: 10+ years of hands-on experience in data architecture, data engineering, analytics; Python, SQL, PySpark, API integration, CI/CD, DevOps, and infrastructure as code. Undated live posting (applications accepted until 11/14/2026), verdicted on merits. Workarounds tried: full JD read on Ladders; cloud stack is AWS-only in the governing JD text, no Azure - alternate routes carry the same req text.",
+    "where": "Ladders",
+    "time": "3:16 PM"
    }
   ],
   "ClearanceJobs": [
@@ -2264,6 +2277,15 @@
     "reason": "hands-on — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security.",
     "where": "Chronicle of Higher Education job board",
     "time": "2:17 PM"
+   }
+  ],
+  "FlexJobs": [
+   {
+    "company": "Tata Consultancy Services",
+    "role": "ServiceNow Solution Architect (Logistics and TMS)",
+    "reason": "experience-mismatch — Serve as the ServiceNow Technical Architect who will assist the team and client in planning, platform technical advisory and guidance. | Requires Certified Application Developer (CAD) and Certification Implementation Specialist (CIS); duties are ServiceNow platform maintenance, upgrade execution and instance administration - core mismatch with Hubert's Azure/cloud/enterprise architecture experience. Undated live posting, verdicted on merits. Workarounds tried: full JD read on FlexJobs; platform specialization is intrinsic to the req.",
+    "where": "FlexJobs",
+    "time": "3:16 PM"
    }
   ]
  },
@@ -3429,5 +3451,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-06T21:16:14Z"
+ "lists_generated_at": "2026-11-06T21:18:25Z"
 }
