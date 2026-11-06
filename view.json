@@ -1,47 +1,45 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T02:51:44Z",
+ "generated_at": "2026-11-06T02:53:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T02:49:21Z",
+  "last_activity_at": "2026-11-06T02:52:20Z",
   "progress": {
    "pools": 21,
-   "covered_units": 726,
+   "covered_units": 744,
    "total_units": 1218,
-   "pct": 60
+   "pct": 61
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 15,
-  "rejected": 764,
-  "evaluated": 782
+  "parked": 16,
+  "rejected": 784,
+  "evaluated": 803
  },
  "today": {
   "date": "2026-11-05",
-  "evaluated": 637,
+  "evaluated": 657,
   "filed": 0,
-  "parked": 11,
-  "rejected": 623,
+  "parked": 12,
+  "rejected": 642,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -68,13 +66,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T02:51:44Z",
-   "detail": "Titles 30/58"
+   "heartbeat_at": null,
+   "detail": "Titles 48/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "200 of 632 units done",
+   "detail": "203 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:49 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 8:52 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
