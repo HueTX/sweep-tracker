@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-06T02:20:33Z",
+ "generated_at": "2026-11-06T02:22:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-06T02:20:15Z",
+  "last_activity_at": "2026-11-06T02:20:38Z",
   "progress": {
    "pools": 21,
-   "covered_units": 708,
+   "covered_units": 714,
    "total_units": 1218,
-   "pct": 58
+   "pct": 59
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 15,
-  "rejected": 742,
-  "evaluated": 760
+  "rejected": 747,
+  "evaluated": 765
  },
  "today": {
   "date": "2026-11-05",
-  "evaluated": 616,
+  "evaluated": 621,
   "filed": 0,
   "parked": 11,
-  "rejected": 602,
+  "rejected": 607,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -68,13 +66,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 12,
+   "phase": "queued",
+   "families_searched": 18,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-06T02:20:33Z",
-   "detail": "Titles 12/58"
+   "heartbeat_at": null,
+   "detail": "Titles 18/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "197 of 632 units done",
+   "detail": "198 of 632 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:20 PM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 13 of 58 · IT/OT Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 8:20 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 13 of 58 · IT/OT Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
