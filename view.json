@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T01:16:09Z",
+ "generated_at": "2026-11-07T01:19:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T00:51:21Z",
+  "last_activity_at": "2026-11-07T01:17:02Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 748,
    "total_units": 1218,
-   "pct": 60
+   "pct": 61
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 25,
-  "rejected": 1098,
-  "evaluated": 1126
+  "rejected": 1108,
+  "evaluated": 1136
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 252,
+  "evaluated": 262,
   "filed": 1,
   "parked": 7,
-  "rejected": 244,
+  "rejected": 254,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -59,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 52,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T01:16:09Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 52/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "484 of 635 units done",
+   "detail": "486 of 635 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 6:51 PM CT · 2 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 7:17 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
