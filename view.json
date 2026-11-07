@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T04:46:56Z",
+ "generated_at": "2026-11-07T04:48:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T03:46:05Z",
+  "last_activity_at": "2026-11-07T04:48:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,21 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 26,
-  "rejected": 1152,
-  "evaluated": 1181
+  "parked": 30,
+  "rejected": 1153,
+  "evaluated": 1186
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 306,
+  "evaluated": 310,
   "filed": 1,
-  "parked": 8,
-  "rejected": 297,
+  "parked": 11,
+  "rejected": 298,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -94,24 +90,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T04:46:56Z",
-   "detail": "Employers 230/39"
+   "heartbeat_at": null,
+   "detail": "Employers 234/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T04:46:56Z",
-   "detail": "Employers 235/73"
+   "heartbeat_at": null,
+   "detail": "Employers 240/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -133,7 +129,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 235/44"
+   "detail": "Employers 240/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,7 +140,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 235/44"
+   "detail": "Employers 240/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,7 +228,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 235/59"
+   "detail": "Employers 240/59"
   },
   "W17": {
    "label": "Technology",
@@ -259,13 +255,13 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T04:46:56Z",
-   "detail": "Employers 230/41"
+   "heartbeat_at": null,
+   "detail": "Employers 235/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "535 of 652 units done",
+   "detail": "541 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:46 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W19"
-  }
- ],
+ "note": "Last activity 10:48 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
