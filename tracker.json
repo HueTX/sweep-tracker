@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T02:15:36Z",
+ "generated_at": "2026-11-07T02:17:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T02:15:31Z",
+  "last_activity_at": "2026-11-07T02:17:21Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 754,
    "total_units": 1218,
-   "pct": 61
+   "pct": 62
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,23 @@
  "counts": {
   "filed": 1,
   "parked": 26,
-  "rejected": 1123,
-  "evaluated": 1152
+  "rejected": 1128,
+  "evaluated": 1157
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 278,
+  "evaluated": 283,
   "filed": 1,
   "parked": 8,
-  "rejected": 269,
+  "rejected": 274,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
  "searching_lanes": [
-  "W8"
+  "W3",
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -59,13 +61,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T02:15:36Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -103,12 +105,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T02:17:35Z",
    "detail": "Employers 215/73"
   },
   "W4": {
@@ -125,23 +127,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T02:17:35Z",
    "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T02:17:35Z",
    "detail": "Employers 215/44"
   },
   "W9": {
@@ -304,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "493 of 642 units done",
+   "detail": "495 of 642 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -545,18 +547,18 @@
    }
   ]
  },
- "note": "Last activity 8:15 PM CT · 2 workers in flight · 1 filed this cycle",
+ "note": "Last activity 8:17 PM CT · 3 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2599,6 +2601,41 @@
     "reason": "hands-on — Perform systems administration for Windows Server and UNIX / Linux systems such as RHEL and SLES; Develop automation through scripting and APIs (Ansible, Puppet, Chef, PowerShell, Python, Bash, Terraform); Virtualization Technologies: Install, configure, and manage virtualization technologies such as VMware (vSphere, ESXi, and vCenter), Nutanix (AHV). Published 2026-11-01 on CareerBuilder, Raleigh NC/Remote, no pay published: whole role is hands-on systems administration, install/configure work and scripting-as-duty, not architect-level. Workarounds tried: (1) CareerBuilder full JD text, (2) web re-search found no alternate posting of this req with architect-level duties, (3) no alternate route changes the hands-on core.",
     "where": "Web Catch-All (W8)",
     "time": "8:15 PM"
+   },
+   {
+    "company": "Early Warning",
+    "role": "Director, Cloud Engineering",
+    "reason": "not-remote — Positions located in Scottsdale, San Francisco, Chicago, or New York follow a hybrid work model to allow for a more collaborative working environment. Published 2026-11-05 on Worqstrap: the role is tied to those office locations under a hybrid model, not 100% remote. Workarounds tried: (1) Worqstrap full JD text, (2) web re-search found no fully-remote variant of this Early Warning req, (3) no alternate posting changes the hybrid location terms.",
+    "where": "Web Catch-All (W8)",
+    "time": "8:16 PM"
+   },
+   {
+    "company": "Tripledot Studios",
+    "role": "Lead Platform Engineer - Infrastructure & Backend",
+    "reason": "hands-on — This role combines technical leadership with hands-on engineering across AWS, data infrastructure, backend and game services, and web infrastructure. Design and build backend systems alongside the team. Comfortable working across code, infrastructure, architecture, and production systems. Published 2026-10-31 on Remotive, remote USA, $150,000-$185,000 (top in band): whole role is hands-on AWS engineering/build work, AWS-only with no Azure scope — not architect-level. Workarounds tried: (1) Remotive full JD text, (2) web re-search found no alternate posting of this req with architect-level duties, (3) no alternate route changes the hands-on AWS engineering core.",
+    "where": "Web Catch-All (W8)",
+    "time": "8:16 PM"
+   },
+   {
+    "company": "SpotOn",
+    "role": "Platform Engineering Manager",
+    "reason": "not-architect-level — What it needs from you is people leadership, a customer-focused mindset, a clear operating model; Free your staff engineers to lead technically. Take on the management and coordination work so they can concentrate on architecture, technical collaboration, and the hardest technical problems. 3+ years managing engineers on platform, infrastructure, or developer-productivity teams. Published 2026-10-31 on Remotive, remote USA, $180,000-$215,000 (top in band): an engineering people-management role over AWS/EKS platform teams — the architecture work is explicitly left to its staff engineers; not an architect-level role. Workarounds tried: (1) Remotive full JD text, (2) Built In mirror of the same req confirms the same management scope, (3) no alternate posting changes the role level.",
+    "where": "Web Catch-All (W8)",
+    "time": "8:16 PM"
+   },
+   {
+    "company": "DXC Luxoft",
+    "role": "Modernization Lead/Architect",
+    "reason": "hands-on-coding — Experience as a modern stack developer is mandatory. Recent hands on experience in development and readiness to work with hands. Proficiency in mainframe tech (COBOL, DB2, CICS) and modern stacks (Java, Spring, microservices). Design modernization paths from legacy systems (COBOL, z/OS, etc.) to modern stacks (Java, MSA, cloud). Published 2026-11-01 on Luxoft's own careers site, remote United States, no pay published: mandatory hands-on development in COBOL/Java stacks is a hard reject even under an Architect title. Workarounds tried: (1) employer ATS full JD text (governing), (2) web re-search found only a Serbia-based Modernization Tech Lead variant of the same practice, (3) no alternate posting changes the mandatory developer core.",
+    "where": "Web Catch-All (W8)",
+    "time": "8:17 PM"
+   },
+   {
+    "company": "EPAM Systems",
+    "role": "Lead Infrastructure Engineer - Hybrid Cloud & Automation Solutions",
+    "reason": "pay-outside-band — Salary range: $110,000 - $155,000. For remote work in New York City only. Develop automation processes using PowerShell, Bash, and Python to streamline Windows/Azure technologies. Published 2026-11-06 on Glassdoor: published full-time salary top $155,000 is below the $160,000 band floor (role is also an NYC-only hands-on engineer position). Workarounds tried: (1) Glassdoor full JD text, (2) web re-search found no alternate posting of Req 1094334911 with a different range, (3) no alternate route changes the published range.",
+    "where": "Web Catch-All (W8)",
+    "time": "8:17 PM"
    }
   ]
  },
@@ -3765,5 +3802,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T02:15:36Z"
+ "lists_generated_at": "2026-11-07T02:17:35Z"
 }
