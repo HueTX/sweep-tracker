@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T23:54:41Z",
+ "generated_at": "2026-11-07T23:56:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-07T23:53:11Z",
+  "last_activity_at": "2026-11-07T23:55:41Z",
   "progress": {
    "pools": 21,
-   "covered_units": 716,
+   "covered_units": 726,
    "total_units": 1218,
-   "pct": 59
+   "pct": 60
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 8,
-  "rejected": 57,
-  "evaluated": 65
+  "rejected": 58,
+  "evaluated": 66
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 85,
+  "evaluated": 86,
   "filed": 0,
   "parked": 6,
-  "rejected": 79,
+  "rejected": 80,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -112,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T23:54:41Z",
-   "detail": "Employers 69/32"
+   "heartbeat_at": null,
+   "detail": "Employers 96/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,12 +265,12 @@
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "queued",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 93/31"
+   "detail": "Employers 108/31"
   }
  },
  "stages": {
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "36 of 70 units done",
+   "detail": "45 of 70 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:53 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 5:55 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
