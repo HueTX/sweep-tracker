@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T03:42:24Z",
+ "generated_at": "2026-11-07T03:43:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
   "last_activity_at": "2026-11-07T03:27:57Z",
@@ -41,7 +41,10 @@
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W5"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,12 +104,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T03:43:50Z",
    "detail": "Employers 225/73"
   },
   "W4": {
@@ -123,12 +126,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T03:43:50Z",
    "detail": "Employers 225/44"
   },
   "W6": {
@@ -543,13 +546,19 @@
    }
   ]
  },
- "note": "Last activity 9:27 PM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:27 PM CT · 3 workers in flight · 1 filed this cycle",
+ "pill": [
+  {
+   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W3"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W3",
+  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
