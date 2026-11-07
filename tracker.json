@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T03:45:27Z",
+ "generated_at": "2026-11-07T03:47:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T03:27:57Z",
+  "last_activity_at": "2026-11-07T03:46:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,23 @@
  "counts": {
   "filed": 1,
   "parked": 26,
-  "rejected": 1151,
-  "evaluated": 1180
+  "rejected": 1152,
+  "evaluated": 1181
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 305,
+  "evaluated": 306,
   "filed": 1,
   "parked": 8,
-  "rejected": 296,
+  "rejected": 297,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
  "searching_lanes": [
-  "W3",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -104,13 +105,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T03:45:27Z",
-   "detail": "Employers 225/73"
+   "heartbeat_at": null,
+   "detail": "Employers 230/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,23 +127,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-07T03:45:27Z",
-   "detail": "Employers 225/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 230/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-07T03:47:03Z",
    "detail": "Employers 225/44"
   },
   "W9": {
@@ -225,23 +226,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T03:47:03Z",
    "detail": "Employers 225/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T03:47:03Z",
    "detail": "Employers 225/54"
   },
   "W18": {
@@ -305,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "521 of 652 units done",
+   "detail": "523 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -546,18 +547,18 @@
    }
   ]
  },
- "note": "Last activity 9:27 PM CT · 2 workers in flight · 1 filed this cycle",
+ "note": "Last activity 9:46 PM CT · 3 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W6 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W6",
+  "headline": "W6 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2194,6 +2195,13 @@
     "reason": "stale — Software Architect - Cloud Security (Identity team, Austin, TX, Remote); Published: 2026-10-07 (Teal full JD) - 30 days old on 2026-11-06, outside the 7-day eligibility window. Teal lists $156,800 - $255,300 (top also above the $230,000 band ceiling). Workarounds tried: (1) Teal full JD text, (2) web re-search found no fresher repost or refreshed date for this Identity architect req, (3) no alternate fresher posting found.",
     "where": "Employer sites",
     "time": "8:46 PM"
+   },
+   {
+    "company": "RWJBarnabas Health",
+    "role": "Security Risk App Architect",
+    "reason": "experience-mismatch — The RWJBarnabas Security Risk Application Architect is responsible for the maintenance and functionality of the systems used by the team. A background in application support and configuration is essential to the position. The Architect will perform security risk assessments primarily for systems that require deeper evaluation or are more complex involving multiple internal security and technical teams. Qualifications: 3 years experience in Security, Networking or Field Services in a healthcare setting; 5 years experience in Security performing Risk Assessments, application configuration. Undated live posting surfaced in current search (diversityjobs mirror of employer posting, crawled 4 days ago) - verdicted on the merits per freshness law: core duties are application support/configuration and security risk assessments, not Azure/cloud/enterprise architecture - core experience mismatch. Workarounds tried: (1) employer posting text via diversityjobs mirror (governing JD text), (2) no alternate fresher posting of this req found in current search.",
+    "where": "Employer sites",
+    "time": "9:46 PM"
    }
   ],
   "Lensa": [
@@ -3959,5 +3967,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T03:45:27Z"
+ "lists_generated_at": "2026-11-07T03:47:03Z"
 }
