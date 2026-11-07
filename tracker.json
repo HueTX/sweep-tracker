@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T05:46:14Z",
+ "generated_at": "2026-11-07T05:47:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T05:44:19Z",
+  "last_activity_at": "2026-11-07T05:46:45Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 1,
   "parked": 30,
-  "rejected": 1164,
-  "evaluated": 1197
+  "rejected": 1167,
+  "evaluated": 1200
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 321,
+  "evaluated": 324,
   "filed": 1,
   "parked": 11,
-  "rejected": 309,
+  "rejected": 312,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
  "searching_lanes": [
-  "W3",
-  "W18",
-  "W19"
+  "W5",
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -105,13 +105,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:46:14Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": null,
+   "detail": "Employers 255/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,23 +127,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T05:47:20Z",
    "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T05:47:20Z",
    "detail": "Employers 248/44"
   },
   "W9": {
@@ -226,12 +226,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-07T05:47:20Z",
    "detail": "Employers 250/59"
   },
   "W17": {
@@ -248,24 +248,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:46:14Z",
-   "detail": "Employers 245/45"
+   "heartbeat_at": null,
+   "detail": "Employers 250/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:46:14Z",
-   "detail": "Employers 241/41"
+   "heartbeat_at": null,
+   "detail": "Employers 242/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "556 of 652 units done",
+   "detail": "559 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,18 +547,18 @@
    }
   ]
  },
- "note": "Last activity 11:44 PM CT · 3 workers in flight · 1 filed this cycle",
+ "note": "Last activity 11:46 PM CT · 3 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 11 of 58 · Domain Architect",
+   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 11 of 58 · Domain Architect",
+  "label": "W5",
+  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -956,6 +956,13 @@
     "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually.",
     "where": "Employer sites",
     "time": "6:19 PM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Architect, Application (Remote)",
+    "reason": "experience-mismatch — Experience working with Laboratory Information Management Systems (LIMS), Chromatography Data Systems (CDS), or Scientific Data Management Systems (SDMS). Deep understanding of laboratory systems such as LIMS, ELN, LES, and scientific data management systems",
+    "where": "Employer sites",
+    "time": "11:46 PM"
    },
    {
     "company": "Qualcomm",
@@ -1362,6 +1369,13 @@
     "reason": "not-remote — This role will be remote, and based in Singapore.",
     "where": "Employer sites",
     "time": "11:44 PM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Information Security Architect - Secrets Management",
+    "reason": "experience-mismatch — Must have experience with Secrets Management in a corporate environment, large enterprise strongly preferred. Knowledge of Secrets Management tools such as HashiCorp Vault, CyberArk.",
+    "where": "Employer sites",
+    "time": "11:46 PM"
    },
    {
     "company": "Pfizer",
@@ -2300,6 +2314,13 @@
     "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week",
     "where": "Employer sites",
     "time": "11:44 PM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "AI and Data Architect - Tech at Lilly, Value and Access",
+    "reason": "not-remote — Ability to work on a hybrid schedule in Indianapolis, IN (2 days remote)",
+    "where": "Employer sites",
+    "time": "11:46 PM"
    }
   ],
   "Lensa": [
@@ -4075,5 +4096,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T05:46:14Z"
+ "lists_generated_at": "2026-11-07T05:47:20Z"
 }
