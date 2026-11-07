@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T20:51:06Z",
+ "generated_at": "2026-11-07T20:52:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
    "searching": false,
-   "filing": false
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
   "last_activity_at": "2026-11-07T20:51:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 734,
    "total_units": 1218,
-   "pct": 61
+   "pct": 60
   },
   "families_covered": 58,
   "families_total": 58
@@ -110,8 +110,8 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -281,7 +281,7 @@
    "ended_at": "2026-11-07T20:51:06Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
@@ -300,12 +300,12 @@
   },
   "sector_search": {
    "state": "pending",
-   "detail": "0 of 7 units done",
+   "detail": "0 of 14 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
