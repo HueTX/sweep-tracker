@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T05:44:01Z",
+ "generated_at": "2026-11-07T05:44:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T05:41:45Z",
+  "last_activity_at": "2026-11-07T05:44:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 30,
-  "rejected": 1158,
-  "evaluated": 1191
+  "rejected": 1164,
+  "evaluated": 1197
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 315,
+  "evaluated": 321,
   "filed": 1,
   "parked": 11,
-  "rejected": 303,
+  "rejected": 309,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -138,13 +134,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:44:01Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:44:01Z",
-   "detail": "Employers 245/59"
+   "heartbeat_at": null,
+   "detail": "Employers 250/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:44:01Z",
-   "detail": "Employers 245/54"
+   "heartbeat_at": null,
+   "detail": "Employers 250/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "553 of 652 units done",
+   "detail": "556 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 11:41 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 11:44 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -895,6 +885,13 @@
     "time": "8:47 AM"
    },
    {
+    "company": "Portland General Electric",
+    "role": "Senior Cyber Security Networking Solutions Architect",
+    "reason": "experience-mismatch — In-depth knowledge of network security, including firewalls, IDS/IPS, VPNs, and encryption technologies",
+    "where": "Employer sites",
+    "time": "11:44 PM"
+   },
+   {
     "company": "Prudential Financial",
     "role": "Lead, Software Engineer Data Solution Architect (AWS)",
     "reason": "stale — Published: 2025-04-16 — This position is hybrid and requires your on-site presence on a reoccurring weekly basis at least 3 days per week. Professional hands-on experience in developing extensible data pipeline and reusable data processors using PySpark, Scala, Python in AWS Glue and Lambda functions. Programming languages: Python, PySpark / Scala is mandatory",
@@ -914,6 +911,13 @@
     "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. New York salary range $215,000-$275,000 also has its top above the band ceiling.",
     "where": "Employer sites",
     "time": "8:51 AM"
+   },
+   {
+    "company": "FIS",
+    "role": "Cloud Architect",
+    "reason": "not-remote — This position is hybrid (3 days onsite) in our FIS Office locations in Jacksonville (Florida), New York City (New York), Milwaukee (Wisconsin), & Atlanta (Georgia).",
+    "where": "Employer sites",
+    "time": "11:44 PM"
    },
    {
     "company": "Workday",
@@ -1341,6 +1345,13 @@
     "reason": "stale — Senior Solution Architect, Major Accounts and Specialty. Published: 2026-10-26 (Built In full JD) - 11 days old on 2026-11-06, outside the 7-day eligibility window. The pay range for the role is $150,000 to $170,000. Workarounds tried: (1) Built In full JD text, (2) Monster (2026-10-06) and Ladders mirrors checked - freshest date is 2026-10-26, still outside the window, (3) no fresher repost found.",
     "where": "Employer sites",
     "time": "8:45 PM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Presales Architect",
+    "reason": "not-remote — This role will be remote, and based in Singapore.",
+    "where": "Employer sites",
+    "time": "11:44 PM"
    },
    {
     "company": "Pfizer",
@@ -2265,6 +2276,20 @@
     "reason": "not-remote — DePuy Synthes is recruiting for a Manager, Enterprise & Integration Architect, located in New Jersey.",
     "where": "Employer sites",
     "time": "11:41 PM"
+   },
+   {
+    "company": "Visa",
+    "role": "Senior Director, Cloud Architect",
+    "reason": "pay-outside-band — The estimated salary range for a new hire into this position is 153,800.00 to 250,000.00 USD per year",
+    "where": "Employer sites",
+    "time": "11:44 PM"
+   },
+   {
+    "company": "Visa",
+    "role": "Director, VCA Cloud Architect",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week",
+    "where": "Employer sites",
+    "time": "11:44 PM"
    }
   ],
   "Lensa": [
@@ -2315,6 +2340,13 @@
     "reason": "not-remote — Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office.",
     "where": "Dice",
     "time": "12:37 PM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Enterprise Architect",
+    "reason": "stale — Authorization to work in the U.S. without visa sponsorship now or in the future, with the ability to work on-site 5 days per week.",
+    "where": "Dice",
+    "time": "11:44 PM"
    },
    {
     "company": "Huntington Bancshares",
@@ -4033,5 +4065,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T05:44:01Z"
+ "lists_generated_at": "2026-11-07T05:44:53Z"
 }
