@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T01:46:13Z",
+ "generated_at": "2026-11-07T01:48:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T01:17:02Z",
+  "last_activity_at": "2026-11-07T01:48:07Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 738,
    "total_units": 1218,
    "pct": 61
   },
@@ -27,24 +27,21 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 25,
-  "rejected": 1108,
-  "evaluated": 1136
+  "parked": 26,
+  "rejected": 1117,
+  "evaluated": 1146
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 262,
+  "evaluated": 272,
   "filed": 1,
-  "parked": 7,
-  "rejected": 254,
+  "parked": 8,
+  "rejected": 263,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8",
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -60,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "queued",
+   "families_searched": 42,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T01:46:13Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 42/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -93,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T01:46:13Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": null,
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "486 of 636 units done",
+   "detail": "489 of 639 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -546,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 7:17 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 13 of 58 · IT/OT Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 7:48 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 13 of 58 · IT/OT Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -611,6 +602,13 @@
     "reason": "stale-unverified — Collaborate with data and engineering teams to define the data required for each action or decision and curate it into a well-modeled Snowflake 'data substrate' (tables, views, and data contracts).",
     "where": "Employer sites",
     "time": "11:45 AM"
+   },
+   {
+    "company": "City of Houston",
+    "role": "IT ARCHITECT- APPLICATIONS",
+    "reason": "stale-unverified — Job Classification: IT ARCHITECT-APPLICATIONS; Posting Number: 38473; Reporting Location: 611 Walker, Houston, TX 77002; Department: Houston Information Technology Services. Full duties read on the Qureos mirror (application architecture / cloud transformation for Houston Police Department applications), but the finding surfaces conflict on the posting's date (one mirror is months old, another labels it days old) and no surface confirms a posted date or a remote term - date cannot be confirmed or refuted after the workaround pass, so this is a provisional park, supersedeable once the City of Houston portal posting itself is read.",
+    "where": "Employer sites",
+    "time": "7:48 PM"
    },
    {
     "company": "McDonald's",
@@ -1270,6 +1268,13 @@
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
     "where": "Employer sites",
     "time": "12:47 PM"
+   },
+   {
+    "company": "State of Nevada",
+    "role": "MASTER IT PROFESSIONAL 2 - SYSTEMS ADMINISTRATION",
+    "reason": "not-remote — This position is part of the Secretary of State's IT Division, located in either the Carson City or Las Vegas office. It serves as a senior technical lead within the Systems Administration team and is responsible for enterprise-level infrastructure design, implementation, and optimization. The role encompasses advanced systems architecture, administration, and operational oversight for mission-critical environments. Office-located systems-administration role on the Nevada state portal (GovernmentJobs 5245918) - no remote term offered; undated live posting, verdicted on the merits. Workarounds tried: (1) GovernmentJobs full bulletin text (the portal's own posting), (2) web re-search found no remote variant of this recruitment, (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "7:48 PM"
    },
    {
     "company": "NYU Langone Health",
@@ -2075,6 +2080,20 @@
     "reason": "experience-mismatch — 3–5+ years of hands-on Palantir Foundry architecture experience, including Ontology, pipelines, transformations, application development, and data modeling.",
     "where": "Employer sites",
     "time": "6:16 PM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — Work Location: On-site - Calvin Rampton Building (remote work not available; Utah residents only). CAI contract posting for the Utah Department of Transportation (Job ID UTA-JB-00011), published 2026-10-28 on Dice. Stated on-site schedule with remote explicitly unavailable rejects as not-remote. Workarounds tried: (1) Dice full posting text for the Utah state portal req, (2) Dice cloud-architect listing surface carries the identical on-site term, (3) no remote variant of this req found.",
+    "where": "Employer sites",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "University of Utah",
+    "role": "IT Architect Sr.",
+    "reason": "not-remote — Work Schedule Summary: Monday - Friday, 8am-5pm, Hybrid work schedule; Location: Campus, Salt Lake City, UT; Pay Rate Range: $112,000-$135,000; Requisition Number PRN46359B; Open Date 09/30/2026. Stated hybrid campus schedule rejects as not-remote (pay top also below the band floor and the posting is outside the 7-day window). Workarounds tried: (1) Dice mirror of the University of Utah posting (Utah state portal institution), (2) web re-search found no fully remote variant of PRN46359B, (3) no alternate posting with different terms found.",
+    "where": "Employer sites",
+    "time": "7:48 PM"
    }
   ],
   "Lensa": [
@@ -2486,6 +2505,50 @@
     "reason": "pay-outside-band — Salary USD 180k-247,500 / yr - Local Pay Range $180,000-$247,500 USD. Published top $247,500 exceeds the $230,000 band top. Published 2026-11-06 on Jobicy, remote USA. Workarounds tried: (1) Jobicy full JD text, (2) alternate routes surfaced the same Databricks range for this req, (3) no alternate posting with a different range found.",
     "where": "Web Catch-All (Jobicy)",
     "time": "7:17 PM"
+   }
+  ],
+  "Web Catch-All (W8)": [
+   {
+    "company": "Buildertrend",
+    "role": "Principal Cloud Engineer - AI Platform",
+    "reason": "pay-outside-band — Compensation: $175,000-$250,000 per year; Location: United States - Remote or Omaha, NE - Hybrid. Published 2026-11-02 (Ladders). Published top $250,000 exceeds the $230,000 band ceiling. Workarounds tried: (1) Ladders full JD text, (2) Built In mirror of the same Buildertrend posting carries the identical $175,000-$250,000 range, (3) no alternate posting of this req with a different range found.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "Spectrum",
+    "role": "Senior Lead Cloud Architect - AVD (RapidScale)",
+    "reason": "stale — Senior Lead Cloud Architect - AVD (RapidScale) (Remote); Published: 2026-10-23 on Built In - 14 days old on 2026-11-06, outside the 7-day eligibility window. Workarounds tried: (1) Built In full JD text (employer-mirrored RapidScale posting), (2) web re-search found no fresher repost or refreshed date for this req, (3) no alternate fresher posting found.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "Alteryx",
+    "role": "Lead Cloud Infrastructure Engineer",
+    "reason": "stale — Lead Cloud Infrastructure Engineer; Published: 2026-10-06 on Built In - 31 days old on 2026-11-06, outside the 7-day eligibility window (base salary $160,000-$185,000 is in band, date is decisive). Workarounds tried: (1) Built In full JD text, (2) Built In NYC mirror carries the same 2026-10-06 date, (3) no fresher repost of this req found.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "NationMind LLC",
+    "role": "Integration Solution Architect",
+    "reason": "experience-mismatch — Build and optimize streaming transformations using Single Message Transforms (SMT), KSQLDB for stream processing and enrichment, and Apache Flink for advanced stateful event processing and analytics. Full JD read on Learn4Good (listed 2026-11-05, remote, $150,000-$210,000 top in band): the role's core is hands-on Kafka/Confluent event-streaming platform design and build - no Kafka/Flink/KSQLDB streaming experience on Hubert's record (Azure/cloud/enterprise architecture); core mismatch, not a minor gap. Workarounds tried: (1) Learn4Good full JD text, (2) web re-search found no alternate posting of this req with different duties, (3) no alternate route changes the streaming-platform core.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "Celestica",
+    "role": "Director, Data Center Solutions Architect",
+    "reason": "experience-mismatch — Deep expertise in IP routing protocols (e.g., BGP, OSPF, ISIS) and their implementation in data center fabrics (e.g., EVPN, VXLAN); Relevant professional certifications (e.g., CCNP, CCIE, JNCIE); Typical Experience: 10+ years of experience in network engineering and architecture, with a focus on large-scale data center environments. Full JD read on Dice (Req ID 141624, published 2026-10-31, remote US, $165k-$228k top in band): the role is a hyperscale network-engineering specialist position - no deep network-engineering/CCIE background on Hubert's record (Azure/cloud/enterprise architecture); core mismatch. Workarounds tried: (1) Dice full JD text (employer's req), (2) web re-search surfaced the same Celestica req text, (3) no alternate posting with different duties found.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "Georgia Institute of Technology",
+    "role": "Systems/Information Technology Architect Lead",
+    "reason": "pay-outside-band — Salary Range: $88,760 - $120,000; Job ID: 270551. Published top $120,000 is below the $160,000 band floor. Undated live posting on Inside Higher Ed (crawled within the last day), verdicted on the merits. Workarounds tried: (1) full posting text on the finding surface, (2) web re-search found no alternate posting of Job ID 270551 with a different range, (3) no alternate route found.",
+    "where": "Web Catch-All (W8)",
+    "time": "7:48 PM"
    }
   ]
  },
@@ -3605,6 +3668,7 @@
    "Sherwin-Williams",
    "CSX",
    "Nestlé USA",
+   "City of Houston",
    "NYU Langone Health",
    "Kyndryl",
    "Slalom",
@@ -3651,5 +3715,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T01:46:13Z"
+ "lists_generated_at": "2026-11-07T01:48:26Z"
 }
