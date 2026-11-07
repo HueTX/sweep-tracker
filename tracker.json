@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T22:54:01Z",
+ "generated_at": "2026-11-07T22:55:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-07T22:26:43Z",
+  "last_activity_at": "2026-11-07T22:55:11Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 734,
    "total_units": 1218,
-   "pct": 59
+   "pct": 60
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 14,
-  "evaluated": 16
+  "rejected": 15,
+  "evaluated": 17
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 36,
+  "evaluated": 37,
   "filed": 0,
   "parked": 0,
-  "rejected": 36,
+  "rejected": 37,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -112,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 38,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T22:54:01Z",
-   "detail": "Employers 32/32"
+   "heartbeat_at": null,
+   "detail": "Employers 47/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "21 of 42 units done",
+   "detail": "24 of 42 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 4:26 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 4:55 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -724,6 +716,13 @@
     "reason": "not-remote — This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. Lyft considers working in the office at least 3 days per week to be an essential function of this hybrid role.",
     "where": "Employer sites",
     "time": "3:24 PM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Architect",
+    "reason": "pay-outside-band — Pay Range Maximum: $138,600.00",
+    "where": "Employer sites",
+    "time": "4:55 PM"
    }
   ],
   "Teal mirror of CVS Health posting": [
@@ -2016,5 +2015,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T22:54:01Z"
+ "lists_generated_at": "2026-11-07T22:55:48Z"
 }
