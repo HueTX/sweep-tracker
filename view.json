@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T06:17:20Z",
+ "generated_at": "2026-11-07T06:18:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T06:16:59Z",
+  "last_activity_at": "2026-11-07T06:17:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 1,
   "parked": 30,
-  "rejected": 1169,
-  "evaluated": 1202
+  "rejected": 1170,
+  "evaluated": 1203
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 2,
+  "evaluated": 3,
   "filed": 0,
   "parked": 0,
-  "rejected": 2,
+  "rejected": 3,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -235,35 +231,35 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T06:17:20Z",
-   "detail": "Employers 250/54"
+   "heartbeat_at": null,
+   "detail": "Employers 255/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T06:17:20Z",
-   "detail": "Employers 250/45"
+   "heartbeat_at": null,
+   "detail": "Employers 255/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T06:17:20Z",
-   "detail": "Employers 242/41"
+   "heartbeat_at": null,
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "562 of 652 units done",
+   "detail": "565 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -545,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 12:16 AM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W19 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W19"
-  }
- ],
+ "note": "Last activity 12:17 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
