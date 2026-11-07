@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T20:48:59Z",
+ "generated_at": "2026-11-07T20:51:06Z",
  "lane_state_source": "model",
  "run": {
-  "id": "bf8224ac",
+  "id": "5520d9af",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-07T20:19:56Z",
-  "last_activity_at": "2026-11-07T20:26:45Z",
+  "started_at": "2026-11-07T20:51:06Z",
+  "last_activity_at": "2026-11-07T20:51:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 744,
    "total_units": 1218,
-   "pct": 62
+   "pct": 61
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 1,
-  "evaluated": 3
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-07",
@@ -116,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 32/32"
+   "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -264,8 +264,8 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -276,15 +276,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 8 opened 2:19 PM CT",
-   "started_at": "2026-11-07T20:19:56Z",
-   "ended_at": "2026-11-07T20:19:56Z"
+   "detail": "Cycle 9 opened 2:51 PM CT",
+   "started_at": "2026-11-07T20:51:06Z",
+   "ended_at": "2026-11-07T20:51:06Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-07T20:19:56Z",
-   "ended_at": "2026-11-07T20:23:11Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-07T20:51:06Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "7 of 7 units done",
-   "started_at": "2026-11-07T20:19:56Z",
-   "ended_at": "2026-11-07T20:28:13Z"
+   "state": "pending",
+   "detail": "0 of 7 units done",
+   "started_at": "2026-11-07T20:51:06Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
-   "started_at": "2026-11-07T20:19:56Z",
-   "ended_at": "2026-11-07T20:23:11Z"
+   "state": "pending",
+   "detail": "0 of 2 units done",
+   "started_at": "2026-11-07T20:51:06Z",
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-07T20:30:05Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-07T20:30:05Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-07T20:30:05Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 2:26 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 2:51 PM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1916,5 +1910,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T20:48:59Z"
+ "lists_generated_at": "2026-11-07T20:51:06Z"
 }
