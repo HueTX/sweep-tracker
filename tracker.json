@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T03:15:24Z",
+ "generated_at": "2026-11-07T03:16:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T02:46:46Z",
+  "last_activity_at": "2026-11-07T03:16:02Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 714,
    "total_units": 1218,
-   "pct": 58
+   "pct": 59
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 1,
   "parked": 26,
-  "rejected": 1141,
-  "evaluated": 1170
+  "rejected": 1146,
+  "evaluated": 1176
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 296,
+  "evaluated": 301,
   "filed": 1,
   "parked": 8,
-  "rejected": 287,
+  "rejected": 291,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
@@ -71,12 +71,12 @@
    "label": "Google Jobs",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 10,
+   "families_searched": 18,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T03:15:24Z",
-   "detail": "Titles 10/58"
+   "heartbeat_at": "2026-11-07T03:16:53Z",
+   "detail": "Titles 18/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -304,15 +304,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "510 of 650 units done",
+   "detail": "513 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "7 of 7 units done",
+   "state": "active",
+   "detail": "7 of 8 units done",
    "started_at": "2026-11-05T20:14:26Z",
-   "ended_at": "2026-11-07T01:14:16Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -545,10 +545,10 @@
    }
   ]
  },
- "note": "Last activity 8:46 PM CT · 3 workers in flight · 1 filed this cycle",
+ "note": "Last activity 9:16 PM CT · 3 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 1 of 58 · Azure Architect",
+   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
    "detail": "Families covered 58/58",
    "pool": "W7"
   }
@@ -556,7 +556,7 @@
  "now_viewing": {
   "live": true,
   "label": "W7",
-  "headline": "W7 · Title 1 of 58 · Azure Architect",
+  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2726,6 +2726,36 @@
     "where": "Web Catch-All (W8)",
     "time": "8:17 PM"
    }
+  ],
+  "Google Jobs": [
+   {
+    "company": "Trace3",
+    "role": "Principal Cloud Architect AWS",
+    "reason": "aws-first — The Principal AWS Cloud Architect will be responsible for the successful implementation of AWS architectures and environments. Responsible for design, development, and hands-on implementation of Amazon Web Services cloud solutions. Full JD read on Worqstrap (published 2026-11-05): AWS-first role, Azure absent except Azure DevOps as a plus - fails the cloud-scope filter. Workarounds tried: (1) Worqstrap full JD text, (2) web re-search found no Azure-first alternate posting of this req, (3) no alternate route changes the AWS-primary scope.",
+    "where": "Google Jobs",
+    "time": "9:16 PM"
+   },
+   {
+    "company": "HireVue Inc",
+    "role": "Cloud Architect",
+    "reason": "hands-on — Lead transformative infrastructure-as-code (IaC) initiatives, building out automation that supercharges provisioning and configuration. Proven experience in cloud engineering, infrastructure automation, and DevOps processes. Advanced knowledge of infrastructure-as-code tools, such as Terraform. Experience designing CI/CD pipelines and implementing automation solutions. Full JD read on SmartRecruiters (fully remote US, undated live posting, verdicted on the merits): the whole role is hands-on IaC, CI/CD pipeline construction and cloud engineering - fails the whole-role hands-on test. Workarounds tried: (1) SmartRecruiters full JD text (employer's own ATS), (2) web re-search found no alternate posting with different duties, (3) no alternate route changes the engineering core.",
+    "where": "Google Jobs",
+    "time": "9:16 PM"
+   },
+   {
+    "company": "Experian",
+    "role": "Platform Architect",
+    "reason": "hands-on — 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms. Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm. Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments. Full JD read on Experian's own careers site (undated live posting, remote US, verdicted on the merits): the role requires a software-engineering platform-build background (AWS-preferred) - whole role is hands-on platform engineering, not architecture leadership. Workarounds tried: (1) Experian careers full JD text (employer's own ATS), (2) web re-search found no alternate posting of jid-1716 with different duties, (3) no alternate route changes the engineering core.",
+    "where": "Google Jobs",
+    "time": "9:16 PM"
+   },
+   {
+    "company": "Insight Enterprises, Inc.",
+    "role": "Senior Infrastructure Architect- Cisco/Citrix VDI/Azure/NetApp",
+    "reason": "stale — Senior Infrastructure Architect- Cisco/Citrix VDI/Azure/NetApp, Requisition Number: 106790. Published: 2026-10-28 on Ladders - 9 days old on 2026-11-06, outside the 7-day eligibility window. Workarounds tried: (1) Ladders full JD text, (2) web re-search found no fresher repost or refreshed date for req 106790, (3) no alternate fresher posting found.",
+    "where": "Google Jobs",
+    "time": "9:16 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -3891,5 +3921,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T03:15:24Z"
+ "lists_generated_at": "2026-11-07T03:16:53Z"
 }
