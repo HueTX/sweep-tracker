@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T05:19:14Z",
+ "generated_at": "2026-11-07T05:21:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T05:16:26Z",
+  "last_activity_at": "2026-11-07T05:20:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 30,
-  "rejected": 1154,
-  "evaluated": 1187
+  "rejected": 1155,
+  "evaluated": 1188
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 311,
+  "evaluated": 312,
   "filed": 1,
   "parked": 11,
-  "rejected": 299,
+  "rejected": 300,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -226,35 +222,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:19:14Z",
-   "detail": "Employers 240/59"
+   "heartbeat_at": null,
+   "detail": "Employers 245/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:19:14Z",
-   "detail": "Employers 240/54"
+   "heartbeat_at": null,
+   "detail": "Employers 245/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T05:19:14Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": null,
+   "detail": "Employers 245/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "547 of 652 units done",
+   "detail": "550 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 11:16 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 11:20 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2237,6 +2227,13 @@
     "reason": "not-remote — This role is London based but may involve travel within the UK and Europe and will require flexibility.",
     "where": "Employer sites",
     "time": "11:16 PM"
+   },
+   {
+    "company": "PayPal",
+    "role": "Distinguished Software Architect",
+    "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150",
+    "where": "Employer sites",
+    "time": "11:20 PM"
    }
   ],
   "Lensa": [
@@ -4005,5 +4002,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T05:19:14Z"
+ "lists_generated_at": "2026-11-07T05:21:37Z"
 }
