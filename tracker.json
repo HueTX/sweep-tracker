@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T08:21:14Z",
+ "generated_at": "2026-11-07T08:23:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T08:19:17Z",
+  "last_activity_at": "2026-11-07T08:22:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 1,
   "parked": 30,
-  "rejected": 1176,
-  "evaluated": 1209
+  "rejected": 1181,
+  "evaluated": 1214
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 8,
+  "evaluated": 13,
   "filed": 0,
   "parked": 0,
-  "rejected": 8,
+  "rejected": 13,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T08:21:14Z",
-   "detail": "Employers 270/73"
+   "heartbeat_at": null,
+   "detail": "Employers 275/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -224,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T08:21:14Z",
-   "detail": "Employers 270/59"
+   "heartbeat_at": null,
+   "detail": "Employers 275/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T08:21:14Z",
-   "detail": "Employers 270/54"
+   "heartbeat_at": null,
+   "detail": "Employers 275/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "586 of 652 units done",
+   "detail": "589 of 652 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -545,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 2:19 AM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 2:22 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -586,6 +576,29 @@
     "reason": "hands-on-coding — Hands-on recent development experience and capability. You will be expected to write and review code.",
     "where": "workingnomads.com",
     "time": "12:17 AM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Enterprise Solutions Architect: Salesforce",
+    "reason": "experience-mismatch — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise. The Senior Enterprise Solutions Architect: Salesforce is the strategic design authority across the platform. Undated live posting (DiversityJobs crawled 2026-11-07; Dice listing updated hours ago) verdicted on the merits. The role's core is a decade of Salesforce ecosystem architecture (Sales/Service/Experience/CPQ, Apex oversight, Salesforce CTA-track certifications) - he has no Salesforce experience on record (standing screener answer: Salesforce = 0 years), a core mismatch, not a minor gap. Remote US except CA (Texas eligible); pay unpublished. Workarounds tried: (1) the same req on Dice carries the identical 10+ years Salesforce requirement, (2) alternate routes (Dice, DiversityJobs) show the same text, (3) no alternate posting of this req with different requirements found.",
+    "where": "DiversityJobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Solutions Architect: ERP and HCM Systems",
+    "reason": "experience-mismatch — Minimum of 6 years of experience in HCM or ERP migration to Oracle Fusion. We are seeking a Senior Solutions Architect to play a critical role in our enterprisewide ERP & HCM transformation, migrating from PeopleSoft to Oracle Fusion. Undated live posting (DiversityJobs crawled 2026-11-07) verdicted on the merits. The role's single hard requirement is 6+ years of PeopleSoft-to-Oracle-Fusion ERP/HCM migration - he has no Oracle Fusion or ERP/HCM migration experience on record, a core mismatch. Remote US except CA (Texas eligible); pay unpublished. Workarounds tried: (1) the same req via HiringCafe carries the identical Oracle Fusion migration requirement, (2) alternate routes show the same text, (3) no alternate posting of this req with different requirements found.",
+    "where": "DiversityJobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Staff ServiceNow Platform Architect",
+    "reason": "hands-on-coding — Serves as the Senior ServiceNow Developer responsible for implementing solution design using best practices. Designs and architects' integrations with client IT Operations Management tools using ServiceNow workflows, scripting and web services/REST APIs. At least 7 years of combined experience with ServiceNow (ITSM, ITOM, ITAM, CSM, Integrations, & Discovery). Undated live posting (DiversityJobs crawled 2026-11-07) verdicted on the merits. The role is a hands-on ServiceNow developer/implementer role (scripting, configuration, CMDB upkeep, bug fixes) requiring 7+ years of ServiceNow and a ServiceNow developer/implementer certification he does not hold - whole-role hands-on and a core experience mismatch (hands-on coding screener = 0). Remote US except CA; posted range top appears to be $188,900 (in band). Workarounds tried: (1) employer's posting text via DiversityJobs read in full, (2) alternate routes show the same developer duties, (3) no alternate posting of this req with different duties found.",
+    "where": "DiversityJobs",
+    "time": "2:22 AM"
    }
   ],
   "diversityjobs.com": [
@@ -632,6 +645,13 @@
     "reason": "hands-on — You demonstrate strong engineering and coding skills, with the ability to write high-performance production code. Proficiency in Scala is required. Build high scale Spark & Dataflow jobs. Undated live posting verdicted on the merits; engineer-level role, not architect-level. Workarounds tried: (1) Etsy JD text via its careers mirror is production-coding as the core duty; (2) no alternate route changes the duties; (3) no alternate posting found. Pay $196,000-$218,000 top in band.",
     "where": "Employer sites",
     "time": "1:48 AM"
+   },
+   {
+    "company": "Amgen",
+    "role": "Principal Architect",
+    "reason": "hands-on-coding — Lead the end-to-end design, development, and delivery of machine learning and Generative AI (GenAI) solutions, leveraging Databricks, Apache Spark, SQL, and Python for scalable data processing, feature engineering, and model development from problem framing to production deployment. Design and implement advanced data pipelines and AI systems, including batch and streaming data processing (Spark), data modeling (SQL), and ML workflows (Python). Posted 2026-11-02 on Amgen's own careers site (in window), US Remote, pay $144,423.50-$195,396.50 top in band, but the whole role is hands-on ML/data engineering delivery in Python/Spark/Databricks (plus code reviews and advanced Python/PyTorch proficiency) - a core hands-on coding role and a core experience mismatch with his Azure/enterprise architecture background (hands-on coding screener = 0). Workarounds tried: (1) employer's own ATS posting at careers.amgen.com is the governing text read in full, (2) alternate board mirrors carry the same Amgen JD, (3) no alternate posting of R-240858 with different duties found.",
+    "where": "Employer sites",
+    "time": "2:22 AM"
    }
   ],
   "Working Nomads": [
@@ -641,6 +661,15 @@
     "reason": "pay-outside-band — The anticipated starting pay range for Colorado is: $201,900 - $296,120. The anticipated starting pay range for the states of Hawaii and New York (not including NYC) is: $215,000 - $315,260. The anticipated starting pay range for California, New York City and Washington is: $235,200 - $344,960. Undated live posting (Working Nomads, crawled 2026-11-07) verdicted on the merits per the freshness law; remote USA, multi-cloud Azure/AWS/GCP architect duties align, but every published range top ($296,120 / $315,260 / $344,960) exceeds the $230,000 pay-band top. Workarounds tried: (1) Rackspace's own Enterprise Architect postings carry the same pay structure (Enterprise Architect - Large Accounts $191,900-$255,900 CO; Enterprise Architect Leader - Large Deals $213,000-$396,000), (2) alternate board routes surfaced the same ranges for this req, (3) the alternate Lead Platform Enterprise Architect posting is a different (infrastructure) req and its CA/NYC/WA top is also $245,520.",
     "where": "Working Nomads",
     "time": "2:19 AM"
+   }
+  ],
+  "Jobgether": [
+   {
+    "company": "Palo Alto Networks",
+    "role": "Global Solutions Architect - AI and Automation",
+    "reason": "stale — Published: 2026-10-29T09:31:30.976Z (Jobgether posting date, typed) - 9 days old at verdict, outside the 7-day eligibility window. On its face it would also fail on the merits: 'This is a full-stack role in the broadest sense' / 'Build full-stack features in TypeScript, Python and React' / '8-12 years of professional software development experience', and pay $175,200.00 - $240,900.00/yr tops above the $230,000 band top.",
+    "where": "Jobgether",
+    "time": "2:22 AM"
    }
   ]
  },
@@ -1810,5 +1839,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-07T08:21:14Z"
+ "lists_generated_at": "2026-11-07T08:23:15Z"
 }
