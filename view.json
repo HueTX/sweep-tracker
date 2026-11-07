@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-07T01:46:13Z",
+ "generated_at": "2026-11-07T01:48:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "df4e8b9f",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-02T23:54:32Z",
-  "last_activity_at": "2026-11-07T01:17:02Z",
+  "last_activity_at": "2026-11-07T01:48:07Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 738,
    "total_units": 1218,
    "pct": 61
   },
@@ -27,24 +27,21 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 25,
-  "rejected": 1108,
-  "evaluated": 1136
+  "parked": 26,
+  "rejected": 1117,
+  "evaluated": 1146
  },
  "today": {
   "date": "2026-11-06",
-  "evaluated": 262,
+  "evaluated": 272,
   "filed": 1,
-  "parked": 7,
-  "rejected": 254,
+  "parked": 8,
+  "rejected": 263,
   "filed_by_source": {
    "Rippling (DataSpring ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8",
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -60,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "queued",
+   "families_searched": 42,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T01:46:13Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 42/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -93,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-07T01:46:13Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": null,
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "486 of 636 units done",
+   "detail": "489 of 639 units done",
    "started_at": "2026-11-02T23:54:32Z",
    "ended_at": null
   },
@@ -546,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 7:17 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 13 of 58 · IT/OT Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 7:48 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 13 of 58 · IT/OT Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
