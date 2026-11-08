@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T05:22:03Z",
+ "generated_at": "2026-11-08T05:23:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
-  "status": "stopped",
-  "state": "halted",
+  "status": "running",
+  "state": "idle",
   "activity": {
    "searching": false,
    "filing": false
@@ -244,7 +244,7 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "stopped",
+   "phase": "queued",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
@@ -301,8 +301,8 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "stopped",
-   "detail": "107 of 163 units done",
+   "state": "active",
+   "detail": "107 of 172 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -413,9 +413,14 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "stopped",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
+   {
+    "id": "chat-start-20261107-hubert-fix-it",
+    "actuated_at": "2026-11-08T05:23:38Z",
+    "effect": "sweep start (resumed)"
+   },
    {
     "id": "cc3e5a2d-dcc8-4a53-9264-0c5394d96639",
     "actuated_at": "2026-11-08T05:22:03Z",
@@ -535,27 +540,16 @@
     "id": "req-mvpejktd-skz0i21vjr",
     "actuated_at": "2026-10-26T15:20:45Z",
     "effect": "sweep start (resumed)"
-   },
-   {
-    "id": "v3-smoke-stop-20261026",
-    "actuated_at": "2026-10-26T06:48:28Z",
-    "effect": "sweep stop"
    }
   ]
  },
  "note": "Last activity 10:58 PM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep stopped — nothing is searching right now",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep stopped — nothing is searching right now",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
