@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T01:59:50Z",
+ "generated_at": "2026-11-08T02:02:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T01:27:23Z",
+  "last_activity_at": "2026-11-08T02:00:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 698,
+   "covered_units": 716,
    "total_units": 1218,
-   "pct": 57
+   "pct": 59
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 7,
-  "rejected": 70,
-  "evaluated": 77
+  "rejected": 83,
+  "evaluated": 90
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 95,
+  "evaluated": 108,
   "filed": 0,
   "parked": 5,
-  "rejected": 90,
+  "rejected": 103,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T01:59:50Z",
-   "detail": "Titles 30/58"
+   "heartbeat_at": null,
+   "detail": "Titles 48/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "72 of 100 units done",
+   "detail": "75 of 100 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 7:27 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 13 of 58 · IT/OT Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 8:00 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 13 of 58 · IT/OT Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
