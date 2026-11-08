@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T08:01:46Z",
+ "generated_at": "2026-11-08T08:04:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T07:59:50Z",
+  "last_activity_at": "2026-11-08T08:02:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 718,
@@ -28,26 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 6,
-  "evaluated": 8
+  "rejected": 8,
+  "evaluated": 11
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 80,
+  "evaluated": 81,
   "filed": 1,
   "parked": 5,
-  "rejected": 74,
+  "rejected": 75,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
+  "W1",
   "W2",
-  "W3",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -86,12 +85,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T08:04:03Z",
    "detail": "Employers 15/30"
   },
   "W2": {
@@ -102,19 +101,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/39"
+   "heartbeat_at": "2026-11-08T08:04:03Z",
+   "detail": "Employers 15/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/73"
+   "heartbeat_at": null,
+   "detail": "Employers 15/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -130,24 +129,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,56 +228,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-08T08:01:46Z",
-   "detail": "Employers 10/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 15/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 15/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 48,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-08T08:04:03Z",
    "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T08:04:03Z",
    "detail": "Employers 10/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T08:04:03Z",
    "detail": "Employers 10/31"
   }
  },
@@ -309,15 +308,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "21 of 570 units done",
+   "detail": "27 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
+   "state": "active",
+   "detail": "2 of 3 units done",
    "started_at": "2026-11-08T07:50:00Z",
-   "ended_at": "2026-11-08T07:52:13Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -550,18 +549,18 @@
    }
   ]
  },
- "note": "Last activity 1:59 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:02 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W18",
+  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -646,7 +645,7 @@
     "role": "Principal Enterprise Architect",
     "reason": "not-remote — Be aware of the location restriction for this remote position: UK",
     "where": "Employer sites",
-    "time": "12:58 AM"
+    "time": "2:02 AM"
    },
    {
     "company": "BP",
@@ -1091,6 +1090,13 @@
    }
   ],
   "Dice": [
+   {
+    "company": "Exelon",
+    "role": "Sr. Architect - Cloud Technologies",
+    "reason": "not-remote — On-site; Sr. Architect - Cloud Technologies - Exelon Corporation - Oak Brook Terrace, IL, US",
+    "where": "Dice",
+    "time": "2:02 AM"
+   },
    {
     "company": "Constellation Energy",
     "role": "Principal IT Architect - AI",
@@ -2344,5 +2350,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T08:01:46Z"
+ "lists_generated_at": "2026-11-08T08:04:03Z"
 }
