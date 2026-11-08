@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T04:27:53Z",
+ "generated_at": "2026-11-08T04:29:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T03:59:26Z",
+  "last_activity_at": "2026-11-08T04:28:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 714,
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 127,
-  "evaluated": 136
+  "rejected": 140,
+  "evaluated": 149
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 154,
+  "evaluated": 167,
   "filed": 1,
   "parked": 6,
-  "rejected": 147,
+  "rejected": 160,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 18,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T04:27:53Z",
-   "detail": "Employers 5/39"
+   "heartbeat_at": null,
+   "detail": "Employers 20/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "98 of 137 units done",
+   "detail": "101 of 137 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:59 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 10:28 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
