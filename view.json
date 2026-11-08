@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T03:57:57Z",
+ "generated_at": "2026-11-08T03:59:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T03:57:47Z",
+  "last_activity_at": "2026-11-08T03:59:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 710,
+   "covered_units": 724,
    "total_units": 1218,
-   "pct": 58
+   "pct": 59
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,23 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 122,
-  "evaluated": 131
+  "rejected": 127,
+  "evaluated": 136
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 149,
+  "evaluated": 154,
   "filed": 1,
   "parked": 6,
-  "rejected": 142,
+  "rejected": 147,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W7",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -71,13 +68,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 54,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T03:57:57Z",
-   "detail": "Titles 54/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -94,12 +91,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 18,
+   "families_searched": 28,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/39"
+   "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -269,13 +266,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T03:57:57Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": null,
+   "detail": "Employers 186/31"
   }
  },
  "stages": {
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "92 of 129 units done",
+   "detail": "98 of 129 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -546,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:57 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 55 of 58 · Enterprise Platform Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 9:59 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 55 of 58 · Enterprise Platform Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
