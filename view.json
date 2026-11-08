@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T07:50:00Z",
+ "generated_at": "2026-11-08T07:51:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
   "last_activity_at": "2026-11-08T07:50:00Z",
@@ -41,7 +41,11 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W2",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -79,34 +83,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:51:38Z",
    "detail": "Employers 0/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:51:38Z",
    "detail": "Employers 0/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:51:38Z",
    "detail": "Employers 0/73"
   },
   "W4": {
@@ -283,7 +287,7 @@
    "ended_at": "2026-11-08T07:50:00Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
@@ -301,13 +305,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
@@ -544,12 +548,18 @@
   ]
  },
  "note": "Started 1:50 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W1"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W1",
+  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
