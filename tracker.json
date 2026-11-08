@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T03:57:57Z",
+ "generated_at": "2026-11-08T03:59:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T03:57:47Z",
+  "last_activity_at": "2026-11-08T03:59:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 710,
+   "covered_units": 724,
    "total_units": 1218,
-   "pct": 58
+   "pct": 59
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,23 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 122,
-  "evaluated": 131
+  "rejected": 127,
+  "evaluated": 136
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 149,
+  "evaluated": 154,
   "filed": 1,
   "parked": 6,
-  "rejected": 142,
+  "rejected": 147,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W7",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -71,13 +68,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 54,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T03:57:57Z",
-   "detail": "Titles 54/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -94,12 +91,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 18,
+   "families_searched": 28,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/39"
+   "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -269,13 +266,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T03:57:57Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": null,
+   "detail": "Employers 186/31"
   }
  },
  "stages": {
@@ -305,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "92 of 129 units done",
+   "detail": "98 of 129 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -546,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:57 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 55 of 58 · Enterprise Platform Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 9:59 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 55 of 58 · Enterprise Platform Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1343,6 +1334,20 @@
     "reason": "not-remote — Location: Green Bay, WI, USA; Shift: 1st Shift; Work model: Hybrid; Schedule: FULLTIME; Mon-Fri 1st Shift. Schneider is seeking an Enterprise AI Architect in Green Bay to define, enable and advance Schneider's approach to agentic artificial intelligence. Published 2026-11-01 (fresh) but hybrid = not-remote.",
     "where": "Employer sites",
     "time": "9:57 PM"
+   },
+   {
+    "company": "CSX Transportation",
+    "role": "Systems Architect II - (Azure Cloud Infrastructure, IaC, Networking & Security)",
+    "reason": "not-remote — CSX Transportation, Jacksonville, Florida, United States — Full Time, On Site, Senior. The role involves designing, deploying, and securing scalable cloud architectures; proficiency in multi-cloud platforms, Infrastructure as Code, and cloud security is essential. On-site Jacksonville role (also IaC-heavy), posted ~3 weeks ago.",
+    "where": "Employer sites",
+    "time": "9:59 PM"
+   },
+   {
+    "company": "Crowley Maritime Corporation",
+    "role": "Director, Cybersecurity Architecture",
+    "reason": "not-remote — The Director, Cybersecurity Architecture leads cybersecurity architecture and engineering across the enterprise... The work arrangement is hybrid. Jacksonville, FL. Published: 2026-10-21T16:04:00Z (also outside the 7-day window).",
+    "where": "Employer sites",
+    "time": "9:59 PM"
    }
   ],
   "Teal mirror of CVS Health posting": [
@@ -1440,6 +1445,15 @@
     "reason": "not-remote — This is a hybrid role based in the Warren, NJ office (3 days in office/2 days remote). Undated live posting verdicted on the merits.",
     "where": "Google Jobs",
     "time": "9:57 PM"
+   }
+  ],
+  "New York state portal": [
+   {
+    "company": "New York State Office of Information Technology Services",
+    "role": "Information Technology Architect 2 (Solutions Architecture)",
+    "reason": "pay-outside-band — Title: Information Technology Architect 2 (Solutions Architecture), Salary Grade 27 — Salary Range From $111,708 to $137,590 Annually (top $137,590 below the $160,000 band floor).",
+    "where": "New York state portal",
+    "time": "9:59 PM"
    }
   ],
   "workingnomads.com": [
@@ -1661,6 +1675,24 @@
     "reason": "closed — Main-agent filing attempt 2026-11-07: the requisition is closed. On APEI's own UltiPro board (recruiting.ultipro.com/AME1070, JobBoard b66d4325-6be5-4691-ab44-c96532dee1ff), the Chief Enterprise Architect opportunity page (Requisition CHIEF003694, opportunityId 94f6a76c-fdd8-4aad-baea-ec5b7d528dfb) states 'Posted on January 9, 2023' and 'Closed: January 18, 2023' and shows no Apply button. PASS (disp 7889) was verdicted earlier the same day on a crawl that read the posting as undated and live; the employer's own detail page shows it closed in January 2023. The saved UltiPro login was also rejected ('Invalid email or password'), but closure governs: there is no open requisition to apply to even with a working sign-in. No application submitted, no account created, resume not uploaded.",
     "where": "UltiPro (APEI ATS)",
     "time": "8:36 PM"
+   }
+  ],
+  "GovernmentJobs.com / NEOGOV agencies": [
+   {
+    "company": "City of San Antonio",
+    "role": "IT Enterprise Architect II",
+    "reason": "stale — Published: 2026-10-01 — typed posting date outside the 7-day eligibility window. Work Location: 515 South Frio, San Antonio, TX 78207 (on-site municipal role in any case).",
+    "where": "GovernmentJobs.com / NEOGOV agencies",
+    "time": "9:59 PM"
+   }
+  ],
+  "California jobs.ca.gov": [
+   {
+    "company": "California Department of Public Health",
+    "role": "Senior Application Solutions Architect",
+    "reason": "pay-outside-band — INFORMATION TECHNOLOGY SPECIALIST III — $9,507.00 - $12,740.00 per month (annualized top $152,880, below the $160,000 band floor). Senior Application Solutions Architect, JC-536672, Final Filing Date: 11/16/2026.",
+    "where": "California jobs.ca.gov",
+    "time": "9:59 PM"
    }
   ]
  },
@@ -2834,5 +2866,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T03:57:57Z"
+ "lists_generated_at": "2026-11-08T03:59:39Z"
 }
