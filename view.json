@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T08:31:31Z",
+ "generated_at": "2026-11-08T08:33:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T08:26:44Z",
+  "last_activity_at": "2026-11-08T08:31:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 718,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 49,
-  "evaluated": 52
+  "parked": 3,
+  "rejected": 57,
+  "evaluated": 61
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 118,
+  "evaluated": 126,
   "filed": 1,
-  "parked": 5,
-  "rejected": 112,
+  "parked": 6,
+  "rejected": 119,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -44,8 +44,6 @@
  "searching_lanes": [
   "W1",
   "W2",
-  "W3",
-  "W5",
   "W6",
   "W16",
   "W17",
@@ -95,8 +93,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 25/30"
+   "heartbeat_at": "2026-11-08T08:33:43Z",
+   "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -106,19 +104,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 25/39"
+   "heartbeat_at": "2026-11-08T08:33:43Z",
+   "detail": "Employers 30/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 30/73"
+   "heartbeat_at": null,
+   "detail": "Employers 35/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -134,13 +132,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 30/44"
+   "heartbeat_at": null,
+   "detail": "Employers 35/44"
   },
   "W6": {
    "label": "Utilities",
@@ -150,8 +148,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": "2026-11-08T08:33:43Z",
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -238,7 +236,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
+   "heartbeat_at": "2026-11-08T08:33:43Z",
    "detail": "Employers 25/59"
   },
   "W17": {
@@ -249,7 +247,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
+   "heartbeat_at": "2026-11-08T08:33:43Z",
    "detail": "Employers 20/54"
   },
   "W18": {
@@ -260,7 +258,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
+   "heartbeat_at": "2026-11-08T08:33:43Z",
    "detail": "Employers 15/45"
   },
   "W19": {
@@ -271,7 +269,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
+   "heartbeat_at": "2026-11-08T08:33:43Z",
    "detail": "Employers 15/41"
   },
   "W20": {
@@ -282,8 +280,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:31:31Z",
-   "detail": "Employers 15/31"
+   "heartbeat_at": "2026-11-08T08:33:43Z",
+   "detail": "Employers 20/31"
   }
  },
  "stages": {
@@ -313,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "45 of 570 units done",
+   "detail": "51 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -554,7 +552,7 @@
    }
   ]
  },
- "note": "Last activity 2:26 AM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:31 AM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
