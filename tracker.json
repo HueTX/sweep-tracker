@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T10:15:51Z",
+ "generated_at": "2026-11-08T10:18:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T10:13:52Z",
+  "last_activity_at": "2026-11-08T10:17:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
-  "rejected": 217,
-  "evaluated": 225
+  "parked": 9,
+  "rejected": 228,
+  "evaluated": 237
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 267,
+  "evaluated": 278,
   "filed": 1,
-  "parked": 8,
-  "rejected": 258,
+  "parked": 9,
+  "rejected": 268,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -45,9 +45,9 @@
   "W2",
   "W3",
   "W5",
-  "W6",
-  "W16",
-  "W17"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -102,8 +102,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/39"
+   "heartbeat_at": "2026-11-08T10:18:30Z",
+   "detail": "Employers 195/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -113,8 +113,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/73"
+   "heartbeat_at": "2026-11-08T10:18:30Z",
+   "detail": "Employers 195/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -135,19 +135,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/44"
+   "heartbeat_at": "2026-11-08T10:18:30Z",
+   "detail": "Employers 195/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/44"
+   "heartbeat_at": null,
+   "detail": "Employers 195/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,56 +229,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-08T10:15:51Z",
-   "detail": "Employers 190/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 195/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 195/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-08T10:18:30Z",
    "detail": "Employers 190/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T10:18:30Z",
    "detail": "Employers 190/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T10:18:30Z",
    "detail": "Employers 182/31"
   }
  },
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "378 of 570 units done",
+   "detail": "384 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 4:13 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:17 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W18",
+  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -657,6 +657,13 @@
     "reason": "credential-needed — Invalid email address or password. Please re-enter your login info.",
     "where": "Employer sites",
     "time": "4:12 AM"
+   },
+   {
+    "company": "Lincoln Financial",
+    "role": "Sr. Enterprise Architect (Sr. Analyst, Enterprise Architect)",
+    "reason": "stale-unverified — Full JD read on the Michigan Works mirror (crawled 2026-10-08): Work Arrangement: Remote, Pay Range $108,501 - $195,900, duties are enterprise target architectures and technology roadmaps - aligned on the merits. But no posted date exists anywhere and the posting could not be confirmed live on Lincoln Financial's own ATS (jobs.lincolnfinancial.com carries the sibling reqs 76261/76522, not 74301; a second mirror of 74301 is ~1 year old). Workarounds tried: employer's own ATS listing check plus two mirrors. Parked stale-unverified per the freshness law - undated status may only be claimed from the employer's own detail page.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
    }
   ]
  },
@@ -741,6 +748,13 @@
    },
    {
     "company": "Lincoln Financial",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office (employer's own jobs.lincolnfinancial.com posting, Requisition #: 76261). Pay $135,375 - $216,600 is in band, but the stated 3-day office schedule fails the 100% remote filter.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Lincoln Financial",
     "role": "Lead Cloud Architect",
     "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office",
     "where": "Employer sites",
@@ -801,6 +815,13 @@
     "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104",
     "where": "Employer sites",
     "time": "4:12 AM"
+   },
+   {
+    "company": "UCLA Health",
+    "role": "Senior Data Architect",
+    "reason": "not-remote — This flexible hybrid role allows for a blend of remote and on-site work, requiring presence on-site at least 10% of the time. The full salary range for this position is $132,300 - $307,100 annually (top also above the $230,000 band ceiling). Workarounds tried: employer's own Avature posting is the governing text and states hybrid directly.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
    },
    {
     "company": "Occidental Petroleum",
@@ -924,9 +945,9 @@
    {
     "company": "Spire Inc",
     "role": "Solutions Architect",
-    "reason": "stale — Date: Feb 25, 2026; Location: Saint Louis, MO, US, 63101; Company: Spire Inc.; Job Req ID: 11522; Spire is seeking a Solutions Architect to support Enterprise Asset Management and Field Technologies.",
+    "reason": "stale — Solutions Architect - Date: Feb 25, 2026; Location: Saint Louis, MO, US, 63101 / Birmingham, AL, US, 35203 / Kansas City, MO, US, 64129; Job Req ID: 11522. Typed posting date is more than 7 days before the 2026-11-08 check.",
     "where": "Employer sites",
-    "time": "12:29 AM"
+    "time": "4:16 AM"
    },
    {
     "company": "NiSource",
@@ -1713,6 +1734,13 @@
     "time": "4:12 AM"
    },
    {
+    "company": "Johns Hopkins Medicine",
+    "role": "Enterprise Web and DevOps Architect (IT@JH Cloud & Virtualization Services)",
+    "reason": "stale — Published: 2026-10-30 on the posting's own listing (Chronicle/HigherEdJobs mirrors of the Johns Hopkins posting) - 9 days before the 2026-11-08 check, outside the 7-day eligibility window. JD otherwise: Location: Remote; Starting Salary Range: $119,515 - $209,100 Annually.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
+   },
+   {
     "company": "Microsoft",
     "role": "Cloud Solution Architect - Cloud & AI Applications",
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home. — Cloud Solution Architect (CSA) - Cloud & AI Applications, published 2026-11-04 on Built In (fresh, within 7-day window); up-to-50%-from-home is a hybrid schedule, not 100% remote. Pay spans IC3 $86,100-$169,800 / IC4 $106,400-$203,600. Workarounds tried: Built In mirror of the Microsoft posting (governing remote language, 50% from home); no fully-remote alternate posting of the same req found in fresh search.",
@@ -2271,6 +2299,55 @@
     "reason": "closed — Candidate must be located within commuting distance of Richardson, TX or be willing to relocate to the area",
     "where": "Employer sites",
     "time": "4:13 AM"
+   },
+   {
+    "company": "Oklahoma state portal",
+    "role": "Technical Architect I",
+    "reason": "not-remote — This is an on-site position located in Oklahoma City, OK. Salary is up to $90,000 based on education and experience.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "Plains All American Pipeline",
+    "role": "Senior Advisor, Cybersecurity Architecture (Solution Architect, Cyber Security)",
+    "reason": "not-remote — Posting is for Houston, TX (Glassdoor title: 'Plains All American Pipeline hiring Senior Advisor, Cybersecurity Architecture Job in Houston, TX'; Pay details: Houston, TX) and the full JD read on Glassdoor states no remote or work-from-home eligibility anywhere. Workarounds tried: (1) full JD read on the Glassdoor mirror of Plains' own posting; (2) Built In's current Plains All American Pipeline listings show its Houston roles as In-Office. Duties otherwise aligned (IT/OT cybersecurity architecture, TOGAF) and published 2026-11-03, but no remote path exists.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "MassMutual",
+    "role": "Enterprise Architect - Wealth Management",
+    "reason": "stale — Published: 2026-04-13 on the posting's own listing - roughly 7 months before the 2026-11-08 check, far outside the 7-day eligibility window. JD otherwise: Salary Range $144,800-$190,000, enterprise application architecture duties.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "New York Life",
+    "role": "AI Solutions Architect",
+    "reason": "not-remote — Job Requisition ID: 93681; Location Designation: Fully Onsite; Location: 44 South Broadway, White Plains, New York 10601; Salary Range: $190,000.00-$246,900.00/year. A fully onsite designation fails the 100% remote filter outright.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "HCLTech",
+    "role": "AI Solution Architect I (Forward Deployed Engineer)",
+    "reason": "hands-on — Location and level: Location: Hybrid, with client-site travel where co-build, discovery or rollout requires it. This is a hands-on role for an experienced engineer who can own delivery in front of a customer. Key duties: you design, build, integrate and productionise agentic AI solutions inside customer environments; you supervise agent output, inspect assumptions, write or refine code. Whole role is hands-on building/coding (several years of production software engineering experience in Python, TypeScript, Java required) - fails the architect-level / whole-role test, and the hybrid location also fails the remote filter. From HCLTech's own careers page.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Resident Solution Architect (Databricks)",
+    "reason": "hands-on — Location: Remote (Capgemini's own careers page), base compensation $73,150 - $174,000 (top in band). But the whole role is hands-on data engineering: 'serve as a trusted technical advisor and hands-on leader for enterprise data and analytics initiatives... Lead the design and implementation of scalable data engineering and analytics solutions on Databricks... Strong experience with distributed computing using Apache Spark, including understanding of Spark runtime internals' and a required Databricks Data Engineering Professional certification. Hands-on Databricks/Spark engineering as the core duty fails the whole-role test.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Teamcenter Performance Architect",
+    "reason": "experience-mismatch — Location: This is remote role based in USA (Capgemini's own careers page), base compensation $101,140 to $182,624 (top in band). But the role's core is 10+ years of Teamcenter PLM platform performance engineering/administration - 'Strong expertise in Teamcenter architecture including 2-Tier, 4-Tier, Active Workspace (AWC), Enterprise Tier, FSC/FMS, Dispatcher, and Multi-Site deployments' - a niche PLM-platform specialty with no alignment to his Azure/cloud/enterprise architecture experience. Core experience mismatch.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
    }
   ],
   "USAJobs": [
@@ -3657,5 +3734,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T10:15:51Z"
+ "lists_generated_at": "2026-11-08T10:18:30Z"
 }
