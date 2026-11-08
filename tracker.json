@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T10:56:23Z",
+ "generated_at": "2026-11-08T10:58:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T10:54:36Z",
+  "last_activity_at": "2026-11-08T10:57:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 9,
-  "rejected": 280,
-  "evaluated": 290
+  "parked": 10,
+  "rejected": 281,
+  "evaluated": 291
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 321,
+  "evaluated": 322,
   "filed": 1,
-  "parked": 9,
-  "rejected": 310,
+  "parked": 10,
+  "rejected": 311,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -110,8 +110,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:56:23Z",
-   "detail": "Employers 320/73"
+   "heartbeat_at": "2026-11-08T10:58:11Z",
+   "detail": "Employers 330/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -231,8 +231,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:56:23Z",
-   "detail": "Employers 315/59"
+   "heartbeat_at": "2026-11-08T10:58:11Z",
+   "detail": "Employers 325/59"
   },
   "W17": {
    "label": "Technology",
@@ -242,8 +242,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:56:23Z",
-   "detail": "Employers 316/54"
+   "heartbeat_at": "2026-11-08T10:58:11Z",
+   "detail": "Employers 320/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -306,15 +306,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "533 of 570 units done",
+   "detail": "538 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "5 of 6 units done",
+   "state": "done",
+   "detail": "6 of 6 units done",
    "started_at": "2026-11-08T07:50:00Z",
-   "ended_at": null
+   "ended_at": "2026-11-08T10:57:25Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -547,7 +547,7 @@
    }
   ]
  },
- "note": "Last activity 4:54 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:57 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
@@ -661,6 +661,15 @@
     "reason": "stale-unverified — Full JD read on the Michigan Works mirror (crawled 2026-10-08): Work Arrangement: Remote, Pay Range $108,501 - $195,900, duties are enterprise target architectures and technology roadmaps - aligned on the merits. But no posted date exists anywhere and the posting could not be confirmed live on Lincoln Financial's own ATS (jobs.lincolnfinancial.com carries the sibling reqs 76261/76522, not 74301; a second mirror of 74301 is ~1 year old). Workarounds tried: employer's own ATS listing check plus two mirrors. Parked stale-unverified per the freshness law - undated status may only be claimed from the employer's own detail page.",
     "where": "Employer sites",
     "time": "4:17 AM"
+   }
+  ],
+  "Ladders": [
+   {
+    "company": "Edward Jones",
+    "role": "Senior Technical Architect- Technology Architecture",
+    "reason": "credential-needed — PASS stands on the merits (disp 8382, JD read in full on Ladders, published 2026-11-07). Filing attempt 2026-11-08 by hook executor: workarounds tried: (1) employer's own ATS - careers.edwardjones.com search surfaced no detail page for this req/title (only other Edward Jones architect postings); (2) alternate routes - web search found this posting only on Ladders (88549727); applying via Ladders requires a Ladders account/sign-in and hook executors cannot submit applications - parked credential-needed, not submitted. Main agent to file via Ladders or the employer's BrassRing ATS if the req surfaces there.",
+    "where": "Ladders",
+    "time": "4:57 AM"
    }
   ]
  },
@@ -2450,6 +2459,13 @@
     "reason": "pay-outside-band — This position can be virtually from anywhere in the U.S. Salary: $137,500 - $261,000",
     "where": "Employer sites",
     "time": "4:42 AM"
+   },
+   {
+    "company": "Regeneron Pharmaceuticals",
+    "role": "Executive Director: Data Management, Analytics, AI & Architecture",
+    "reason": "not-remote — This is an on-site position 4 days/week, primarily based at our Sleepy Hollow, NY or Warren, NJ office. If eligible, we can offer relocation benefits; we cannot offer a fully remote option. (Detail page on careers.regeneron.com read in full 2026-11-08; undated live posting verdicted on the merits per freshness law - detail page carries no posted date. Also pay-outside-band: Salary Range $255,000.00 - $424,900.00, top above the $230,000 cap.) Workarounds tried: employer's own ATS posting is the governing text and states the on-site requirement itself; no alternate route changes the work model.",
+    "where": "Employer sites",
+    "time": "4:57 AM"
    }
   ],
   "USAJobs": [
@@ -4048,5 +4064,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T10:56:23Z"
+ "lists_generated_at": "2026-11-08T10:58:11Z"
 }
