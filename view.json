@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T07:53:08Z",
+ "generated_at": "2026-11-08T07:54:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T07:52:13Z",
+  "last_activity_at": "2026-11-08T07:54:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 718,
@@ -28,20 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 0,
-  "evaluated": 2
+  "rejected": 1,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 75,
+  "evaluated": 76,
   "filed": 1,
   "parked": 5,
-  "rejected": 69,
+  "rejected": 70,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -129,7 +133,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
@@ -140,7 +144,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -228,39 +232,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/59"
+   "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:54:57Z",
    "detail": "Employers 0/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:54:57Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T07:54:57Z",
    "detail": "Employers 0/41"
   },
   "W20": {
@@ -302,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "3 of 570 units done",
+   "detail": "6 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -543,13 +547,19 @@
    }
   ]
  },
- "note": "Last activity 1:52 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 1:54 AM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W17"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
