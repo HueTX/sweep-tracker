@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T05:42:53Z",
+ "generated_at": "2026-11-08T05:44:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T05:38:15Z",
+  "last_activity_at": "2026-11-08T05:43:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 686,
+   "covered_units": 676,
    "total_units": 1218,
    "pct": 56
   },
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 154,
-  "evaluated": 163
+  "rejected": 163,
+  "evaluated": 172
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 180,
+  "evaluated": 189,
   "filed": 1,
   "parked": 6,
-  "rejected": 173,
+  "rejected": 182,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T05:42:53Z",
-   "detail": "Employers 132/39"
+   "heartbeat_at": null,
+   "detail": "Employers 147/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -137,7 +135,7 @@
    "label": "Utilities",
    "sites": 44,
    "phase": "queued",
-   "families_searched": 48,
+   "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "124 of 190 units done",
+   "detail": "127 of 199 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 11:38 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 11:43 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -728,6 +720,13 @@
     "time": "9:57 PM"
    },
    {
+    "company": "Washington State Department of Fish and Wildlife",
+    "role": "Network Architecture Lead - IT Architecture Senior/Specialist",
+    "reason": "closed — Closing Date: 10/22/2026 11:59 PM Pacific",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
     "company": "Old Dominion Freight Line",
     "role": "Security Architect",
     "reason": "stale — Published: 2026-09-25T22:04:10 — typed posting date outside the 7-day eligibility window. Full JD read via Ladders (Garland, TX mirror of the same req; pay $143,250-$179,041 in band, but stale governs).",
@@ -747,6 +746,20 @@
     "reason": "pay-outside-band — The Cloud Architect will play a pivotal role in shaping Ryder's cloud strategy and operational excellence. This individual will lead the design, governance, and implementation of scalable, secure, and automated cloud solutions across hybrid and multi-cloud environments.",
     "where": "Employer sites",
     "time": "5:46 PM"
+   },
+   {
+    "company": "Arizona state portal",
+    "role": "Enterprise Data & AI Platform Architect",
+    "reason": "pay-outside-band — Salary: $90,000 - $105,000",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
+    "company": "Virginia Information Technologies Agency (VITA)",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Hiring Range: $124,000 - $149,000",
+    "where": "Employer sites",
+    "time": "11:43 PM"
    },
    {
     "company": "CareFirst",
@@ -875,6 +888,13 @@
     "time": "4:26 PM"
    },
    {
+    "company": "California Department of Public Health (CDPH)",
+    "role": "Senior Application Solutions Architect",
+    "reason": "pay-outside-band — $9,507.00 - $12,740.00",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
     "company": "Providence",
     "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
     "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland. Hubert is Houston-based and not willing to relocate, so the 75-mile residency restriction makes this not-remote for him. Undated live posting verdicted on the merits. Workarounds tried: employer's own Providence Jobs text via DiversityJobs full JD read 2026-11-07 (Req 420852).",
@@ -922,6 +942,27 @@
     "reason": "stale — Pay Range: $75,300.00 - $135,400.00 per year",
     "where": "Employer sites",
     "time": "5:53 PM"
+   },
+   {
+    "company": "State of Colorado Governor's Office of Information Technology (OIT)",
+    "role": "Senior Technical Architect (Salesforce)",
+    "reason": "pay-outside-band — Salary: $134,000.00 - $149,000.00 Annually",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
+    "company": "State of North Carolina - Department of Health and Human Services",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Recruitment Range: $105,341.00 - $155,000.00",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
+    "company": "State of North Carolina - Department of Public Instruction",
+    "role": "Cloud Architect",
+    "reason": "pay-outside-band — Recruitment Range: $105,341.00 - $130,000.00",
+    "where": "Employer sites",
+    "time": "11:43 PM"
    },
    {
     "company": "Expeditors International",
@@ -1398,6 +1439,20 @@
     "reason": "closed — Initial Posting Date: 10/29/2026, Application Deadline: 11/05/2026, Agency: Department of Human Services, Salary Range: $7,807 - $11,823 (monthly; top annualized ~$141,876, also below the $160,000 band top minimum). Application deadline passed before 2026-11-07 — posting closed on the employer's own listing terms.",
     "where": "Employer sites",
     "time": "11:38 PM"
+   },
+   {
+    "company": "Georgia Department of Transportation (GDOT)",
+    "role": "Chief Enterprise Technology Architect",
+    "reason": "not-remote — Local candidates only as the selected candidate will be expected to be onsite via a hybrid schedule.",
+    "where": "Employer sites",
+    "time": "11:43 PM"
+   },
+   {
+    "company": "Virginia Information Technologies Agency (VITA)",
+    "role": "Lead Cloud Solutions Engineer",
+    "reason": "pay-outside-band — Hiring Range: $140,000 - $150,000",
+    "where": "Employer sites",
+    "time": "11:43 PM"
    }
   ],
   "Teal mirror of CVS Health posting": [
@@ -3092,5 +3147,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T05:42:53Z"
+ "lists_generated_at": "2026-11-08T05:44:31Z"
 }
