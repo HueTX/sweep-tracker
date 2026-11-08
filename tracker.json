@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T04:23:33Z",
+ "generated_at": "2026-11-08T04:25:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
   "last_activity_at": "2026-11-08T03:59:26Z",
@@ -41,7 +41,9 @@
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 18,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T04:25:42Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -543,13 +545,19 @@
    }
   ]
  },
- "note": "Last activity 9:59 PM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:59 PM CT · 3 workers in flight · 1 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -2866,5 +2874,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T04:23:33Z"
+ "lists_generated_at": "2026-11-08T04:25:42Z"
 }
