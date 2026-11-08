@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T10:22:57Z",
+ "generated_at": "2026-11-08T10:25:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T10:19:31Z",
+  "last_activity_at": "2026-11-08T10:23:31Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 9,
-  "rejected": 232,
-  "evaluated": 241
+  "rejected": 235,
+  "evaluated": 244
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 280,
+  "evaluated": 283,
   "filed": 1,
   "parked": 9,
-  "rejected": 270,
+  "rejected": 273,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
+  "W2",
+  "W3",
+  "W5",
   "W6",
   "W16",
   "W17",
@@ -97,23 +100,23 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 200/73"
   },
   "W4": {
@@ -130,12 +133,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 200/44"
   },
   "W6": {
@@ -146,7 +149,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 195/44"
   },
   "W9": {
@@ -234,7 +237,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 195/59"
   },
   "W17": {
@@ -245,7 +248,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 195/54"
   },
   "W18": {
@@ -256,7 +259,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 195/45"
   },
   "W19": {
@@ -267,7 +270,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 195/41"
   },
   "W20": {
@@ -278,7 +281,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:22:57Z",
+   "heartbeat_at": "2026-11-08T10:25:28Z",
    "detail": "Employers 183/31"
   }
  },
@@ -550,7 +553,7 @@
    }
   ]
  },
- "note": "Last activity 4:19 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:23 AM CT · 13 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W6 · Title 31 of 58 · Cloud Engineering Lead",
@@ -2362,6 +2365,27 @@
     "reason": "hands-on — Published 2026-11-06 (fresh, remote) but the role is an engineer-level WMS implementation role, not architect-level: 'Leads and delivers the analysis, design, configuration, customization, testing, deployment and support for applications within the warehouse management business process area' with mandatory Blue Yonder WMS and SAP S4 EWM configuration knowledge and mandatory robotics integration experience. Hands-on configuration/customization as the core duty fails the whole-role test.",
     "where": "Employer sites",
     "time": "4:19 AM"
+   },
+   {
+    "company": "Lincoln Financial",
+    "role": "Lead Cloud Platform Engineer - AWS Control Tower & Service Enablement",
+    "reason": "not-remote — Employer's own jobs.lincolnfinancial.com posting (Requisition #76724, Lead Cloud Platform Engineer - AWS Control Tower & Service Enablement; mirror of the same posting states the work arrangement verbatim): 'Hybrid : Employee will work 3 days a week in a Lincoln office' - a stated 3-day office schedule fails the 100% remote filter. The role is also AWS-only platform engineering (AWS Control Tower, enterprise landing zones) and hands-on build/automate/operate work. Pay $135,375 - $216,600. Workarounds tried: (1) employer's own ATS posting - governing text above; (2) alternate route - talents.vaia.com mirror of the same req carries the same hybrid arrangement; (3) no alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "4:23 AM"
+   },
+   {
+    "company": "MassMutual",
+    "role": "Lead AI Platform Engineer",
+    "reason": "hands-on — MassMutual's own careers.massmutual.com posting (Boston): 'You will pair enterprise-level strategy with deep implementation skill, turning what you learn in the field into reusable patterns and platform capabilities' and 'Apply the AI platform across the full SDLC - requirements and design, code generation and review, test automation, CI/CD, release, legacy modernization, and production support'. Hands-on platform engineering across the SDLC is the core duty - fails the whole-role architect test. Salary Range: $172,000-$225,700 (in band, not the failing filter). Workarounds tried: (1) employer's own ATS posting - governing text above; (2) alternate route - theladders.com mirror carries the same JD; (3) no alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "4:23 AM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Google Cloud Lead Engineer",
+    "reason": "not-remote — New York Life posting (Job Requisition ID: 93258): 'Location Designation: Hybrid - 3 days per quarter' - a stated required office schedule fails the 100% remote filter. The role is also GCP-first ('drive enterprise-scale cloud architecture... across our Google Cloud Platform (GCP) environment', '4+ years of hands-on experience with Google Cloud Platform', 'Implement Infrastructure as Code (IaC) using Terraform'), which fails the Azure/multi-cloud scope rule, and hands-on engineering in duties. Salary Range: $147,500-$211,000. Published 2026-11-01. Workarounds tried: (1) employer's own posting as carried on CareerBuilder/jobright mirrors - governing text above; (2) alternate route - sonicjobs mirror carries the same designation; (3) no alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "4:23 AM"
    }
   ],
   "USAJobs": [
@@ -3748,5 +3772,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T10:22:57Z"
+ "lists_generated_at": "2026-11-08T10:25:28Z"
 }
