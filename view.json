@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T01:22:22Z",
+ "generated_at": "2026-11-08T01:24:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
   "last_activity_at": "2026-11-08T01:02:56Z",
@@ -39,7 +39,10 @@
   "rejected": 84,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8",
+  "W4"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,12 +58,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 46,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T01:24:54Z",
    "detail": "Titles 46/58"
   },
   "W7": {
@@ -110,12 +113,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T01:24:54Z",
    "detail": "Employers 128/32"
   },
   "W5": {
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 7:02 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 7:02 PM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
