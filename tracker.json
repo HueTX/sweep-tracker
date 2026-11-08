@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T08:19:53Z",
+ "generated_at": "2026-11-08T08:22:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T08:15:17Z",
+  "last_activity_at": "2026-11-08T08:20:41Z",
   "progress": {
    "pools": 21,
    "covered_units": 702,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 19,
-  "evaluated": 22
+  "rejected": 31,
+  "evaluated": 34
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 89,
+  "evaluated": 101,
   "filed": 1,
   "parked": 5,
-  "rejected": 83,
+  "rejected": 95,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -44,7 +44,7 @@
  "searching_lanes": [
   "W1",
   "W2",
-  "W3",
+  "W5",
   "W6",
   "W16",
   "W17",
@@ -94,8 +94,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
-   "detail": "Employers 20/30"
+   "heartbeat_at": "2026-11-08T08:22:34Z",
+   "detail": "Employers 25/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -105,19 +105,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
-   "detail": "Employers 20/39"
+   "heartbeat_at": "2026-11-08T08:22:34Z",
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
-   "detail": "Employers 25/73"
+   "heartbeat_at": null,
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -133,12 +133,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 25/44"
   },
   "W6": {
@@ -149,7 +149,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 20/44"
   },
   "W9": {
@@ -237,7 +237,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 20/59"
   },
   "W17": {
@@ -248,7 +248,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 20/54"
   },
   "W18": {
@@ -259,7 +259,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 15/45"
   },
   "W19": {
@@ -270,7 +270,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 15/41"
   },
   "W20": {
@@ -281,7 +281,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T08:19:53Z",
+   "heartbeat_at": "2026-11-08T08:22:34Z",
    "detail": "Employers 15/31"
   }
  },
@@ -312,7 +312,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "39 of 570 units done",
+   "detail": "42 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -553,7 +553,7 @@
    }
   ]
  },
- "note": "Last activity 2:15 AM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:20 AM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
@@ -664,6 +664,13 @@
     "reason": "not-remote — Location: 3000 N. Sam Houston Parkway E., Texas, 77032, United States; This posting is intended to collect candidate information for Halliburton's talent pool, and is not considered an application.",
     "where": "Employer sites",
     "time": "12:23 AM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Consulting Application Architect",
+    "reason": "closed — This job posting is no longer active. (HCA careers detail page for Consulting Application Architect, Nashville, Tennessee.)",
+    "where": "Employer sites",
+    "time": "2:20 AM"
    },
    {
     "company": "Chevron",
@@ -841,11 +848,25 @@
     "time": "2:12 AM"
    },
    {
+    "company": "Ascension",
+    "role": "Sr. Director, Enterprise Solution Architecture",
+    "reason": "pay-outside-band — Location: Remote; Salary: $146,000 - $248,200 per year. Top of range $248,200 exceeds the $230,000 band ceiling. Workarounds tried: (1) Ascension posting terms via Career.io mirror of the employer's listing (governing salary); (2) Jobright mirror carries same range; (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
     "company": "Shell",
     "role": "Principal Enterprise Architect (Global Lubricants, Customer Operations, Low Carbon Solutions and CRM)",
     "reason": "location-non-us — Be aware of the location restriction for this remote position: UK — Principal Enterprise Architect for Global Lubricants, Customer Operations, Low Carbon Solutions and CRM, published 2026-11-01 on Remotive; UK-only location, not US-based. Workarounds tried: Remotive mirror of Shell posting (governing location restriction UK); no US-based alternate posting of the same role found in fresh search.",
     "where": "Employer sites",
     "time": "1:54 AM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Enterprise Data Architect (CereCore)",
+    "reason": "not-remote — Location: Onsite - Nashville, TN; Classification: Contract, Duration: 3-months; Pay: $56.85 - $72.00 per hour. Workarounds tried: (1) employer's own HCA/CereCore listing terms via Glassdoor mirror (onsite stated); (2) alternate board routes searched, no remote variant; (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
    },
    {
     "company": "American Electric Power",
@@ -902,6 +923,20 @@
     "reason": "stale — Published: 2026-07-31; This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC; 10+ years of Salesforce experience, including 5+ years in an architect role",
     "where": "Employer sites",
     "time": "1:01 AM"
+   },
+   {
+    "company": "Providence",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond - Oregon: Portland. Candidate is Houston, TX based, outside the eligible radius. Workarounds tried: (1) Providence posting terms via its board mirrors (governing location restriction); (2) alternate route Monster listing of same req 420852/397307 family carries same restriction; (3) no unrestricted posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "Principal IT Solutions Architect, Consumer Experience and Clinical Enablement",
+    "reason": "experience-mismatch — Demonstrated experience in healthcare IT, digital health platforms, or clinical systems integration required. (Candidate healthcare industry years on record: 0.) Posted 30+ days ago on Dice. Workarounds tried: (1) employer's own posting terms via Dice/Monster/Adzuna mirrors of same req, same healthcare-IT requirement; (2) alternate routes are the same req; (3) no alternate posting without the requirement found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
    },
    {
     "company": "Microsoft",
@@ -1147,6 +1182,48 @@
     "reason": "not-remote — Position will be 3 days remote with 2 days (Mon & Wed) required to be onsite at the location listed above. Program will only allow candidates who are LOCAL TO THE AUSTIN AREA ONLY (Within 50-mile radius).",
     "where": "Employer sites",
     "time": "2:15 AM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "Solution Platform Architect (IT Specialist ENTARCH, GS-15)",
+    "reason": "stale — Serve as the senior technical authority for designing, reviewing, and approving enterprise-wide hybrid and multi-cloud architectures, ensuring integration across AWS, Azure, GCP, OCI, and on-premise environments. Published: 02/05/2026 on the USAJOBS detail page. Workarounds tried: (1) employer's own route is USAJOBS itself (governing text, detail page opened); (2) board mirrors searched, no repost/refresh found; (3) no alternate fresh posting of same role found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (ENTARCH), GS-13",
+    "reason": "stale — Direct the development and use of an enterprise architecture and investment process to reduce risk, align IT with business user needs, and manage IT as an investment. Published: 02/13/2026 on the USAJOBS detail page. Workarounds tried: (1) USAJOBS detail page (governing); (2) board mirrors searched, no repost/refresh; (3) no alternate fresh posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "DOD components",
+    "role": "IT Specialist (ENTARCH) - DCSA PEO",
+    "reason": "stale — Telework Eligibility: This position is telework eligible, but is not a full time telework position. The incumbent will be required to report to the office on a routine basis. Published: 01/28/2025 on USAJOBS. Workarounds tried: (1) USAJOBS detail (governing); (2) board search, no fresh repost; (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "USAJOBS / DOE labs",
+    "role": "Solutions Architect - Lawrence Livermore National Laboratory",
+    "reason": "not-remote — This position offers a hybrid schedule, blending in-person and virtual presence. You will have the flexibility to work from home one day per week. Workarounds tried: (1) employer's own listing via Built In mirror of LLNL posting (governing terms: hybrid, DOE Q clearance required); (2) board search, no remote variant; (3) no alternate posting of same role found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "GovernmentJobs.com / NEOGOV agencies",
+    "role": "IT Enterprise Architect II - City of San Antonio",
+    "reason": "not-remote — Work Location 515 South Frio, San Antonio, TX 78207; Work Hours 7:45 a.m. - 4:30 p.m., Monday - Friday; Ability to work in an office environment. Published: 2026-10-01 on the GovernmentJobs detail page. Workarounds tried: (1) GovernmentJobs detail page is the governing NEOGOV posting, opened in full; (2) alternate board routes searched, no remote variant; (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Data Cloud and Marketing Cloud Salesforce Architect",
+    "reason": "experience-mismatch — Ascension is seeking a highly skilled Salesforce Solution Architect with deep expertise in Salesforce Data Cloud and Salesforce Marketing Cloud; 5+ years implementing Salesforce-based solutions in an enterprise environment. No Salesforce architecture experience on candidate's record - core mismatch. Dice listing refreshed within the window, verdicted on merits. Workarounds tried: (1) Dice listing of employer's req (full JD read); (2) Career.io mirror, same Salesforce requirement; (3) no alternate posting found.",
+    "where": "Employer sites",
+    "time": "2:20 AM"
    }
   ],
   "Dice": [
@@ -1234,6 +1311,15 @@
     "reason": "not-remote — 84.51° follows a 5-day in-office work schedule to support collaboration, alignment, and team connection.",
     "where": "Greenhouse",
     "time": "12:40 AM"
+   }
+  ],
+  "New York state portal": [
+   {
+    "company": "City of New York",
+    "role": "Senior Enterprise Architect - DSS/ITS",
+    "reason": "pay-outside-band — PLEASE NOTE THE PROPOSED SALARY RANGE FOR THIS POSITION IS 125,000.00 - 149,000.00 YEARLY; Work Location: 15 Metrotech, Brooklyn, NY 11201. Detail page on cityjobs.nyc.gov opened in full; top of range $149,000 is below the $160,000 band floor. Workarounds tried: (1) employer's own cityjobs detail page (governing); (2) second cityjobs posting jid-23612 carries same role/range; (3) no alternate posting found.",
+    "where": "New York state portal",
+    "time": "2:20 AM"
    }
   ]
  },
@@ -2410,5 +2496,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T08:19:53Z"
+ "lists_generated_at": "2026-11-08T08:22:34Z"
 }
