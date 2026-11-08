@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T09:33:11Z",
+ "generated_at": "2026-11-08T09:36:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T09:31:58Z",
+  "last_activity_at": "2026-11-08T09:35:32Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 192,
-  "evaluated": 198
+  "rejected": 195,
+  "evaluated": 201
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 244,
+  "evaluated": 247,
   "filed": 1,
   "parked": 6,
-  "rejected": 237,
+  "rejected": 240,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W5",
+  "W6",
+  "W16",
   "W17",
+  "W18",
   "W19",
   "W20"
  ],
@@ -87,35 +86,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 110/30"
+   "heartbeat_at": null,
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 110/39"
+   "heartbeat_at": null,
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 110/73"
+   "heartbeat_at": null,
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -131,23 +130,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 110/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 115/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-08T09:36:11Z",
    "detail": "Employers 110/44"
   },
   "W9": {
@@ -230,12 +229,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T09:36:11Z",
    "detail": "Employers 110/59"
   },
   "W17": {
@@ -246,18 +245,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
+   "heartbeat_at": "2026-11-08T09:36:11Z",
    "detail": "Employers 105/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T09:36:11Z",
    "detail": "Employers 110/45"
   },
   "W19": {
@@ -268,8 +267,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 105/41"
+   "heartbeat_at": "2026-11-08T09:36:11Z",
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,8 +278,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:33:11Z",
-   "detail": "Employers 105/31"
+   "heartbeat_at": "2026-11-08T09:36:11Z",
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -310,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "217 of 570 units done",
+   "detail": "223 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -551,7 +550,7 @@
    }
   ]
  },
- "note": "Last activity 3:31 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:35 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -1595,6 +1594,20 @@
     "time": "1:20 AM"
    },
    {
+    "company": "Nordstrom",
+    "role": "Sr. AI Architect Finance",
+    "reason": "not-remote — This role is Hybrid and will require you to be in office in downtown Seattle, WA 4 days per week.",
+    "where": "Employer sites",
+    "time": "3:35 AM"
+   },
+   {
+    "company": "Starbucks",
+    "role": "Principal Enterprise Architect, Partner Technology",
+    "reason": "not-remote — Workplace Expectation : In-Office",
+    "where": "Employer sites",
+    "time": "3:35 AM"
+   },
+   {
     "company": "Gap Inc.",
     "role": "Principal Enterprise Architect - Product-to-Market",
     "reason": "pay-outside-band — Salary Range: $209,700.00 - $272,600.00 - top $272,600 exceeds the $230,000 pay-band ceiling. San Francisco, CA. This is a hands-on architecture role inside a transformation. Workarounds tried: (1) employer text via Adzuna/FashionJobs (same range) (2) JobServe mirror (same range) (3) no alternate posting with a different published range found.",
@@ -2125,6 +2138,13 @@
     "reason": "stale — Published: 2026-10-27 - posting dated outside the 7-day eligibility window; workarounds tried: employer/BuiltIn and DailyRemote mirrors show the same 2026-10-27 date, no refreshed posting found.",
     "where": "Employer sites",
     "time": "3:31 AM"
+   },
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Cloud Enterprise Architect",
+    "reason": "stale — The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions",
+    "where": "Employer sites",
+    "time": "3:35 AM"
    }
   ],
   "USAJobs": [
@@ -3496,5 +3516,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T09:33:11Z"
+ "lists_generated_at": "2026-11-08T09:36:11Z"
 }
