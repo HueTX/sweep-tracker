@@ -1,13 +1,13 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T05:19:40Z",
+ "generated_at": "2026-11-08T05:22:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
-  "status": "running",
-  "state": "idle",
+  "status": "stopped",
+  "state": "halted",
   "activity": {
    "searching": false,
    "filing": false
@@ -18,9 +18,9 @@
   "last_activity_at": "2026-11-08T04:58:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 696,
+   "covered_units": 686,
    "total_units": 1218,
-   "pct": 57
+   "pct": 56
   },
   "families_covered": 58,
   "families_total": 58
@@ -244,8 +244,8 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "stopped",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -301,7 +301,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
+   "state": "stopped",
    "detail": "107 of 163 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
@@ -413,9 +413,64 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "stopped",
   "pending": [],
   "acks": [
+   {
+    "id": "cc3e5a2d-dcc8-4a53-9264-0c5394d96639",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "sweep stop"
+   },
+   {
+    "id": "e58044fa-2aa3-4393-9376-41fa3fe51974",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W5 recorded"
+   },
+   {
+    "id": "9c4536ed-a26d-42b8-9510-f99b94718f47",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W6 recorded"
+   },
+   {
+    "id": "4aebc5b4-d911-475d-a133-f0e844eede7b",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W16 recorded"
+   },
+   {
+    "id": "35b5dd62-16e7-4271-95d4-4f342fef3798",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W17 recorded"
+   },
+   {
+    "id": "d91c119a-62e2-4e6c-a5d6-92388c005e64",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W19 recorded"
+   },
+   {
+    "id": "72c9dee4-f90c-492f-96ff-977b3fdda1a1",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W18 recorded"
+   },
+   {
+    "id": "8e4ee9aa-3b12-4a2f-bc78-65b1a3237b36",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W20 recorded"
+   },
+   {
+    "id": "d9dd4e4b-18ca-4996-84b2-1f65def6f601",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W3 recorded"
+   },
+   {
+    "id": "ef286ef4-7d3e-4530-bcfb-8db13006a856",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W2 recorded"
+   },
+   {
+    "id": "23b3e3c0-1aae-4ee6-8023-f6e8bf0b6ac8",
+    "actuated_at": "2026-11-08T05:22:03Z",
+    "effect": "restart W1 recorded"
+   },
    {
     "id": "e209b12c-377a-4f25-934a-7fcfd20e3dd4",
     "actuated_at": "2026-11-05T03:42:05Z",
@@ -485,71 +540,22 @@
     "id": "v3-smoke-stop-20261026",
     "actuated_at": "2026-10-26T06:48:28Z",
     "effect": "sweep stop"
-   },
-   {
-    "id": "v3-smoke-start-20261026",
-    "actuated_at": "2026-10-26T05:26:17Z",
-    "effect": "sweep start"
-   },
-   {
-    "id": "chat-stop-20261026-0005ct",
-    "actuated_at": "2026-10-26T05:03:21Z",
-    "effect": "sweep stop"
-   },
-   {
-    "id": "chat-start-20261025-1339ct",
-    "actuated_at": "2026-10-25T18:43:26Z",
-    "effect": "sweep start (resumed)"
-   },
-   {
-    "id": "a6ee566f-f811-47eb-ae3d-c8fabfb53e09",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W1 recorded"
-   },
-   {
-    "id": "4945c0a2-0c80-4199-bedd-4657865ba7a1",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W2 recorded"
-   },
-   {
-    "id": "e5d66459-6029-400d-9ba1-7a8faf21b3fd",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W3 recorded"
-   },
-   {
-    "id": "f8ce6e38-f6d5-4a9b-8b2b-c9c4f210a0c9",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W4 recorded"
-   },
-   {
-    "id": "c56b1501-1a23-4174-b149-0027bc9e622b",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W5 recorded"
-   },
-   {
-    "id": "6dd84a70-f42c-4a0f-b732-392fe0a2068b",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W6 recorded"
-   },
-   {
-    "id": "29949fb7-603e-4426-a698-a525ffd5182b",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W16 recorded"
-   },
-   {
-    "id": "fb9d5f51-07bb-4e3f-b6c7-a3550301ebfe",
-    "actuated_at": "2026-10-25T18:41:15Z",
-    "effect": "restart W17 recorded"
    }
   ]
  },
  "note": "Last activity 10:58 PM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [],
+ "pill": [
+  {
+   "primary": "Sweep stopped — nothing is searching right now",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep stopped — nothing is searching right now",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
