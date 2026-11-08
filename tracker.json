@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T01:01:21Z",
+ "generated_at": "2026-11-08T01:03:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T00:59:56Z",
+  "last_activity_at": "2026-11-08T01:02:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 728,
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 7,
-  "rejected": 61,
-  "evaluated": 68
+  "rejected": 62,
+  "evaluated": 69
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 88,
+  "evaluated": 89,
   "filed": 0,
   "parked": 5,
-  "rejected": 83,
+  "rejected": 84,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T01:01:21Z",
-   "detail": "Employers 126/32"
+   "heartbeat_at": null,
+   "detail": "Employers 128/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T01:01:21Z",
-   "detail": "Employers 149/31"
+   "heartbeat_at": null,
+   "detail": "Employers 155/31"
   }
  },
  "stages": {
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "60 of 85 units done",
+   "detail": "63 of 85 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 6:59 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W20"
-  }
- ],
+ "note": "Last activity 7:02 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1092,6 +1083,13 @@
     "reason": "pay-outside-band — $191,153.00 - $305,845.00",
     "where": "Employer sites",
     "time": "6:58 PM"
+   },
+   {
+    "company": "",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations: Washington: Seattle, Renton, Redmond",
+    "where": "",
+    "time": "7:02 PM"
    }
   ],
   "Teal mirror of CVS Health posting": [
@@ -2388,5 +2386,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T01:01:21Z"
+ "lists_generated_at": "2026-11-08T01:03:07Z"
 }
