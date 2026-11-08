@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T02:22:25Z",
+ "generated_at": "2026-11-08T02:24:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
   "last_activity_at": "2026-11-08T02:00:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 698,
+   "covered_units": 688,
    "total_units": 1218,
-   "pct": 57
+   "pct": 56
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,9 @@
   "rejected": 103,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,12 +57,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T02:24:39Z",
    "detail": "Titles 30/58"
   },
   "W7": {
@@ -89,7 +91,7 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 38,
+   "families_searched": 28,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -300,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "75 of 103 units done",
+   "detail": "75 of 111 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 8:00 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 8:00 PM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
