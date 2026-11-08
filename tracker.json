@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T09:41:09Z",
+ "generated_at": "2026-11-08T09:43:00Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T09:36:41Z",
+  "last_activity_at": "2026-11-08T09:42:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 197,
-  "evaluated": 203
+  "rejected": 200,
+  "evaluated": 206
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 248,
+  "evaluated": 250,
   "filed": 1,
   "parked": 6,
-  "rejected": 241,
+  "rejected": 243,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,7 +85,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/30"
+   "detail": "Employers 130/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -103,18 +96,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/39"
+   "detail": "Employers 130/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 120/73"
+   "heartbeat_at": null,
+   "detail": "Employers 130/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -130,24 +123,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 120/44"
+   "heartbeat_at": null,
+   "detail": "Employers 125/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 120/44"
+   "heartbeat_at": null,
+   "detail": "Employers 125/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,35 +222,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 120/59"
+   "heartbeat_at": null,
+   "detail": "Employers 125/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 115/54"
+   "heartbeat_at": null,
+   "detail": "Employers 125/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T09:41:09Z",
-   "detail": "Employers 120/45"
+   "heartbeat_at": null,
+   "detail": "Employers 125/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,7 +261,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/41"
+   "detail": "Employers 125/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,7 +272,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/31"
+   "detail": "Employers 125/31"
   }
  },
  "stages": {
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "241 of 570 units done",
+   "detail": "253 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -550,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 3:36 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 3:42 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -717,6 +704,13 @@
     "reason": "stale — Published: 2026-09-29. Applications for this job will be accepted at least until November 3, 2026. The expected base salary range for this position is 184,000 USD - 287,500 USD. Posting is far older than the 7-day eligibility window at 2026-11-08.",
     "where": "Employer sites",
     "time": "3:03 AM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Director, Architect Principal",
+    "reason": "not-remote — This role is designed for in-office collaboration and is based on site in Southlake, TX or Austin, TX.",
+    "where": "Employer sites",
+    "time": "3:41 AM"
    },
    {
     "company": "L3Harris Technologies",
@@ -1302,9 +1296,9 @@
    {
     "company": "Sherwin-Williams",
     "role": "Principal Enterprise Architect, Strategic Initiatives - ERP Program",
-    "reason": "experience-mismatch — Lead architect on at least one full-lifecycle, multi-wave Oracle Fusion Cloud ERP or SCM program at enterprise scale (Financials, Procurement, Order Management, Supply Chain Planning, Manufacturing, Inventory), through go-live and hypercare. Advisory-only program experience does not qualify. Workarounds tried: (1) employer's own posting text (same minimum qualification), (2) BuiltIn mirror read in full, (3) no alternate posting of this role with different requirements.",
+    "reason": "experience-mismatch — Lead architect on at least one full-lifecycle, multi-wave Oracle Fusion Cloud ERP or SCM program at enterprise scale (Financials, Procurement, Order Management, Supply Chain Planning, Manufacturing, Inventory), through go-live and hypercare. Advisory-only program experience does not qualify",
     "where": "Employer sites",
-    "time": "1:20 AM"
+    "time": "3:41 AM"
    },
    {
     "company": "Xylem",
@@ -2152,6 +2146,13 @@
     "reason": "stale — Location: 4910 Tiedeman Road, Brooklyn Ohio",
     "where": "Employer sites",
     "time": "3:36 AM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Enterprise Architect, Americas Markets & Industries Office of the CTO",
+    "reason": "not-remote — Based in the Greater Toronto Area, you will be required to meet customers on site frequently in the Microsoft Toronto location.",
+    "where": "Employer sites",
+    "time": "3:42 AM"
    }
   ],
   "USAJobs": [
@@ -3523,5 +3524,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T09:41:09Z"
+ "lists_generated_at": "2026-11-08T09:43:00Z"
 }
