@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T02:26:19Z",
+ "generated_at": "2026-11-08T02:28:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T02:25:12Z",
+  "last_activity_at": "2026-11-08T02:28:40Z",
   "progress": {
    "pools": 21,
-   "covered_units": 694,
+   "covered_units": 704,
    "total_units": 1218,
-   "pct": 57
+   "pct": 58
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 7,
-  "rejected": 86,
-  "evaluated": 93
+  "rejected": 94,
+  "evaluated": 103
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 111,
+  "evaluated": 121,
   "filed": 0,
   "parked": 5,
-  "rejected": 106,
+  "rejected": 114,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 36,
+   "phase": "queued",
+   "families_searched": 46,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T02:26:19Z",
-   "detail": "Titles 36/58"
+   "heartbeat_at": null,
+   "detail": "Titles 46/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -302,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "76 of 111 units done",
+   "detail": "78 of 111 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
+   "state": "active",
+   "detail": "2 of 4 units done",
    "started_at": "2026-11-07T20:51:06Z",
-   "ended_at": "2026-11-07T20:54:04Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:25 PM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 55 of 58 · Enterprise Platform Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 8:28 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 55 of 58 · Enterprise Platform Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
