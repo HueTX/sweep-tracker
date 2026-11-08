@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T03:27:45Z",
+ "generated_at": "2026-11-08T03:29:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T03:26:24Z",
+  "last_activity_at": "2026-11-08T03:29:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 674,
+   "covered_units": 710,
    "total_units": 1218,
-   "pct": 55
+   "pct": 58
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 7,
-  "rejected": 107,
-  "evaluated": 115
+  "rejected": 108,
+  "evaluated": 116
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 133,
+  "evaluated": 134,
   "filed": 1,
   "parked": 5,
-  "rejected": 127,
+  "rejected": 128,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -70,13 +68,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 18,
+   "phase": "queued",
+   "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T03:27:45Z",
-   "detail": "Titles 18/58"
+   "heartbeat_at": null,
+   "detail": "Titles 54/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "86 of 129 units done",
+   "detail": "92 of 129 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:26 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 9:29 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
