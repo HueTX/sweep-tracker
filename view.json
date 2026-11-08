@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T01:27:10Z",
+ "generated_at": "2026-11-08T01:29:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T01:26:28Z",
+  "last_activity_at": "2026-11-08T01:27:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 736,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 7,
-  "rejected": 69,
-  "evaluated": 76
+  "rejected": 70,
+  "evaluated": 77
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 94,
+  "evaluated": 95,
   "filed": 0,
   "parked": 5,
-  "rejected": 89,
+  "rejected": 90,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -112,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T01:27:10Z",
-   "detail": "Employers 133/32"
+   "heartbeat_at": null,
+   "detail": "Employers 160/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "66 of 87 units done",
+   "detail": "72 of 87 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 7:26 PM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 7:27 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
