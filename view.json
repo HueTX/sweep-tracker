@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T05:32:07Z",
+ "generated_at": "2026-11-08T05:34:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T05:31:25Z",
+  "last_activity_at": "2026-11-08T05:33:41Z",
   "progress": {
    "pools": 21,
-   "covered_units": 686,
+   "covered_units": 696,
    "total_units": 1218,
-   "pct": 56
+   "pct": 57
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 147,
-  "evaluated": 156
+  "rejected": 149,
+  "evaluated": 158
  },
  "today": {
   "date": "2026-11-07",
-  "evaluated": 174,
+  "evaluated": 176,
   "filed": 1,
   "parked": 6,
-  "rejected": 167,
+  "rejected": 169,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T05:32:07Z",
-   "detail": "Employers 74/39"
+   "heartbeat_at": null,
+   "detail": "Employers 88/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "112 of 172 units done",
+   "detail": "115 of 172 units done",
    "started_at": "2026-11-07T20:51:06Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 11:31 PM CT · 3 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 11:33 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
