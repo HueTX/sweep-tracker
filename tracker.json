@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T05:28:36Z",
+ "generated_at": "2026-11-08T05:29:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "5520d9af",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-07T20:51:06Z",
-  "last_activity_at": "2026-11-08T05:27:11Z",
+  "last_activity_at": "2026-11-08T05:29:57Z",
   "progress": {
    "pools": 21,
    "covered_units": 686,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 146,
+  "rejected": 147,
   "evaluated": 156
  },
  "today": {
@@ -36,12 +36,14 @@
   "evaluated": 174,
   "filed": 1,
   "parked": 6,
-  "rejected": 166,
+  "rejected": 167,
   "filed_by_source": {
    "JazzHR (Blue Acorn iCi ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-08T05:29:59Z",
    "detail": "Employers 64/39"
   },
   "W3": {
@@ -543,13 +545,19 @@
    }
   ]
  },
- "note": "Last activity 11:27 PM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [],
+ "note": "Last activity 11:29 PM CT · 3 workers in flight · 1 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1470,6 +1478,15 @@
     "reason": "not-remote — Full Time; On-site; Location: 115 S LaSalle St, Chicago, IL - Cook County. Job Title: Cloud Architect - Information Systems Advisor, Division: Architecture. Full JD read on Dice (Posted 5 days ago, fresh surface activity, verdicted on the merits). Workarounds tried: employer apply route ilsos.applytojob.gov carries the same Chicago/Springfield office-based role, no remote variant.",
     "where": "Illinois state portal",
     "time": "10:28 PM"
+   }
+  ],
+  "NYC CityJobs portal": [
+   {
+    "company": "New York City portal",
+    "role": "Cloud Architect",
+    "reason": "closed — Main-agent filing attempt 2026-11-07 (pre-check on the employer's own posting page, cityjobs.nyc.gov/job/cloud-architect-in-manhattan-jid-19816): the vacancy is expired and was never filable. The posting page states 'This vacancy has now expired.' with posting date 01/24/2024 and post-until 02/07/2024, and carries no Apply button. Two further gate facts on the same page: work location is Manhattan ('Work location: 375 Pearl Street') with no remote or hybrid allowance anywhere on the page (residency itself is explicitly not required), and the salary range is $135,000-$155,000, whose top is below the $160,000 pay-band floor. PASS (disp 7949) was verdicted earlier the same evening from a crawl that read the JD as undated and live; the posting's own detail page is dated and closed. No application submitted, no account created, resume not uploaded.",
+    "where": "NYC CityJobs portal",
+    "time": "11:29 PM"
    }
   ],
   "King County portal": [
@@ -3035,5 +3052,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T05:28:36Z"
+ "lists_generated_at": "2026-11-08T05:29:59Z"
 }
