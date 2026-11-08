@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-08T10:11:00Z",
+ "generated_at": "2026-11-08T10:13:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ec817b9",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-08T07:50:00Z",
-  "last_activity_at": "2026-11-08T10:05:15Z",
+  "last_activity_at": "2026-11-08T10:13:14Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,27 +27,27 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 7,
-  "rejected": 208,
-  "evaluated": 216
+  "parked": 8,
+  "rejected": 216,
+  "evaluated": 224
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 258,
+  "evaluated": 266,
   "filed": 1,
-  "parked": 7,
-  "rejected": 249,
+  "parked": 8,
+  "rejected": 257,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
-  "W2",
-  "W3",
-  "W5",
   "W6",
   "W16",
-  "W17"
+  "W17",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -97,24 +97,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/39"
+   "heartbeat_at": null,
+   "detail": "Employers 190/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/73"
+   "heartbeat_at": null,
+   "detail": "Employers 190/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -130,13 +130,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/44"
+   "heartbeat_at": null,
+   "detail": "Employers 190/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,8 +146,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/44"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 185/44"
   },
   "W9": {
    "label": "Dice",
@@ -234,8 +234,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/59"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 185/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,41 +245,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-08T10:11:00Z",
-   "detail": "Employers 180/54"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 185/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 180/45"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 185/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 180/41"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 185/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 180/31"
+   "heartbeat_at": "2026-11-08T10:13:33Z",
+   "detail": "Employers 181/31"
   }
  },
  "stages": {
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "360 of 570 units done",
+   "detail": "372 of 570 units done",
    "started_at": "2026-11-08T07:50:00Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 4:05 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:13 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 1 of 58 · Azure Architect",
+   "primary": "W6 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 1 of 58 · Azure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -650,6 +650,13 @@
     "reason": "stale-unverified — This position is a 100% remote within the United States, however, incumbent may be asked to come onsite once a month.",
     "where": "Employer sites",
     "time": "2:31 AM"
+   },
+   {
+    "company": "Aflac",
+    "role": "Solutions Engineer",
+    "reason": "credential-needed — Invalid email address or password. Please re-enter your login info.",
+    "where": "Employer sites",
+    "time": "4:12 AM"
    }
   ]
  },
@@ -733,6 +740,20 @@
     "time": "3:41 AM"
    },
    {
+    "company": "Lincoln Financial",
+    "role": "Lead Cloud Architect",
+    "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office",
+    "where": "Employer sites",
+    "time": "4:12 AM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Integration Platform Architect",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week",
+    "where": "Employer sites",
+    "time": "4:12 AM"
+   },
+   {
     "company": "L3Harris Technologies",
     "role": "Senior Manager, IT Architecture - Generative AI & Services",
     "reason": "stale — Published: 2026-10-29T08:31:16.991Z. Job Code: 46305. Posting is older than the 7-day eligibility window at 2026-11-08 (a second mirror dates it 2026-10-21); its published salary ranges also top at $271,000 / $235,500, above the $230,000 band top. Workarounds tried: Jobgether and DailyRemote mirrors of the L3Harris careers posting; no fresher repost found.",
@@ -773,6 +794,13 @@
     "reason": "not-remote — Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Additional locations: Denver, Colorado, Houston, Texas, Texas City, Texas; Pay Min/Max: $106,900.00 - $184,300.00 Salary",
     "where": "Employer sites",
     "time": "12:23 AM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Corporate Director Enterprise Cloud Architecture",
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104",
+    "where": "Employer sites",
+    "time": "4:12 AM"
    },
    {
     "company": "Occidental Petroleum",
@@ -1664,11 +1692,25 @@
     "time": "4:00 AM"
    },
    {
+    "company": "TIAA",
+    "role": "Director, Solutions Architect - Legal, Risk & Compliance",
+    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr",
+    "where": "Employer sites",
+    "time": "4:12 AM"
+   },
+   {
     "company": "Colgate-Palmolive",
     "role": "Solution Architect- Salesforce/Salescloud",
     "reason": "pay-outside-band — Salary Range $110,000.00 - $155,000.00 USD; Job Number #176561 - Piscataway, New Jersey, United States; #LI-Hybrid",
     "where": "Employer sites",
     "time": "12:59 AM"
+   },
+   {
+    "company": "Missouri state portal",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Employer sites",
+    "time": "4:12 AM"
    },
    {
     "company": "Microsoft",
@@ -2201,6 +2243,27 @@
     "reason": "not-remote — Based in the Greater Toronto Area, you will be required to meet customers on site frequently in the Microsoft Toronto location.",
     "where": "Employer sites",
     "time": "3:42 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Cloud Architect",
+    "reason": "stale — Published: 2026-10-23",
+    "where": "Employer sites",
+    "time": "4:12 AM"
+   },
+   {
+    "company": "Kimberly-Clark",
+    "role": "Azure Full Stack Architect",
+    "reason": "location-non-us — Primary Location Argentina",
+    "where": "Employer sites",
+    "time": "4:13 AM"
+   },
+   {
+    "company": "Kimberly-Clark",
+    "role": "Senior Cloud Solution Architect, Automation",
+    "reason": "location-non-us — Primary Location Argentina-Buenos Aires",
+    "where": "Employer sites",
+    "time": "4:13 AM"
    }
   ],
   "USAJobs": [
@@ -3557,7 +3620,8 @@
    "American Airlines",
    "United Airlines",
    "CVS Health / Aetna",
-   "General Dynamics"
+   "General Dynamics",
+   "Aflac"
   ],
   "W9": [
    "Oracle",
@@ -3586,5 +3650,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-08T10:11:00Z"
+ "lists_generated_at": "2026-11-08T10:13:33Z"
 }
