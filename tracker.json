@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T05:55:07Z",
+ "generated_at": "2026-11-09T05:57:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T05:52:22Z",
+  "last_activity_at": "2026-11-09T05:57:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 7,
-  "rejected": 323,
-  "evaluated": 331
+  "rejected": 332,
+  "evaluated": 341
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 593,
+  "evaluated": 600,
   "filed": 1,
   "parked": 16,
-  "rejected": 575,
+  "rejected": 581,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
   "W1",
-  "W4",
-  "W5",
-  "W6",
   "W16",
   "W17",
   "W18",
@@ -94,7 +91,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
+   "heartbeat_at": "2026-11-09T05:57:57Z",
    "detail": "Employers 175/30"
   },
   "W2": {
@@ -106,7 +103,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/39"
+   "detail": "Employers 185/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -117,40 +114,40 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/73"
+   "detail": "Employers 185/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 175/32"
+   "heartbeat_at": null,
+   "detail": "Employers 182/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 175/44"
+   "heartbeat_at": null,
+   "detail": "Employers 185/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 175/44"
+   "heartbeat_at": null,
+   "detail": "Employers 185/44"
   },
   "W9": {
    "label": "Dice",
@@ -237,8 +234,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 170/59"
+   "heartbeat_at": "2026-11-09T05:57:57Z",
+   "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
@@ -248,8 +245,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 170/54"
+   "heartbeat_at": "2026-11-09T05:57:57Z",
+   "detail": "Employers 180/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -259,8 +256,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 170/45"
+   "heartbeat_at": "2026-11-09T05:57:57Z",
+   "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -270,8 +267,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 170/41"
+   "heartbeat_at": "2026-11-09T05:57:57Z",
+   "detail": "Employers 180/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -281,8 +278,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T05:55:07Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": "2026-11-09T05:57:57Z",
+   "detail": "Employers 175/31"
   }
  },
  "stages": {
@@ -312,15 +309,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "402 of 632 units done",
+   "detail": "419 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "4 of 4 units done",
+   "state": "active",
+   "detail": "4 of 5 units done",
    "started_at": "2026-11-09T02:51:51Z",
-   "ended_at": "2026-11-09T05:05:29Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -553,7 +550,7 @@
    }
   ]
  },
- "note": "Last activity 11:52 PM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:57 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W16 · Title 11 of 58 · Domain Architect",
@@ -999,6 +996,13 @@
     "time": "8:54 PM"
    },
    {
+    "company": "Sentara Health Plans",
+    "role": "ServiceNow Principal Domain Architect",
+    "reason": "stale — This position is fully remote!",
+    "where": "Employer sites",
+    "time": "11:55 PM"
+   },
+   {
     "company": "Occidental Petroleum",
     "role": "ECM System Architect",
     "reason": "not-remote — We are looking for an experienced and motivated individual to fill the position of Enterprise Content Management Architect within our IT Enterprise Content Management group based in Houston, TX.",
@@ -1207,6 +1211,13 @@
     "reason": "not-remote — JOB LOCATION: Chicago, IL. Rate of Pay: $124,072.00 - $194,900.00 per year. To apply, please visit https://careers.northerntrust.com and enter job requisition number R147298 when prompted.",
     "where": "Employer sites",
     "time": "10:27 PM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Technical Enterprise Architect (Insurance Industry)",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week",
+    "where": "Employer sites",
+    "time": "11:57 PM"
    },
    {
     "company": "HP Inc.",
@@ -1918,9 +1929,9 @@
    {
     "company": "MetLife",
     "role": "Principal Architect - Finance Modernization & ERP Transformation",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office.",
+    "reason": "not-remote — Hybrid role requiring at least 3 days per week in the Tampa office. workarounds tried: employer ATS text via Simplify mirror, alternate board routes show same hybrid Tampa designation",
     "where": "Employer sites",
-    "time": "4:00 AM"
+    "time": "11:55 PM"
    },
    {
     "company": "Sentara Health Plans",
@@ -2609,6 +2620,13 @@
     "time": "3:44 AM"
    },
    {
+    "company": "Healthfirst",
+    "role": "AI Infrastructure Architect",
+    "reason": "aws-first — Strong AWS-first cloud architecture experience covering various AWS services and practices.",
+    "where": "Employer sites",
+    "time": "11:55 PM"
+   },
+   {
     "company": "Sentara Health Plans",
     "role": "PRINCIPAL ENTERPRISE ARCHITECT - Clinical Systems",
     "reason": "pay-outside-band — The base pay range for full-time employment is $160,513.60 - $238,409.60 annually.",
@@ -2651,6 +2669,13 @@
     "time": "11:34 PM"
    },
    {
+    "company": "Premera Blue Cross",
+    "role": "Solution Architect V",
+    "reason": "stale — This is a hybrid role located on our campus in Mountlake Terrace, Washington.",
+    "where": "Employer sites",
+    "time": "11:55 PM"
+   },
+   {
     "company": "TIAA",
     "role": "Director, Solutions Architect - Legal, Risk & Compliance",
     "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr",
@@ -2676,7 +2701,7 @@
     "role": "Senior Enterprise Architect",
     "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
     "where": "Employer sites",
-    "time": "4:12 AM"
+    "time": "11:56 PM"
    },
    {
     "company": "Johns Hopkins Medicine",
@@ -4028,6 +4053,27 @@
     "reason": "stale — The Principal Enterprise Architect provides strategic and technical leadership in the development and evolution of enterprise architecture frameworks that align information systems, infrastructure, and applications with business processes and data.",
     "where": "Employer sites",
     "time": "11:52 PM"
+   },
+   {
+    "company": "General Motors",
+    "role": "People Experience Technology Architect",
+    "reason": "stale — The People Experience Technology Architect is a senior, hands-on technical leader who translates business problem statements into a technical approach",
+    "where": "Employer sites",
+    "time": "11:55 PM"
+   },
+   {
+    "company": "UPMC Health Plan",
+    "role": "Data Architect IT",
+    "reason": "stale — Work From Home Opportunity!! The Data Architect-Remote position requires a high degree of technical expertise",
+    "where": "Employer sites",
+    "time": "11:56 PM"
+   },
+   {
+    "company": "Kimberly-Clark",
+    "role": "Principal Enterprise Architect, Mergers and Acquisitions",
+    "reason": "location-non-us — Primary Location No-KC Site Brazil; Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA",
+    "where": "Employer sites",
+    "time": "11:57 PM"
    }
   ],
   "Board": [
@@ -4515,13 +4561,6 @@
     "company": "CivicPlus",
     "role": "Security & Infrastructure Architect",
     "reason": "pay-outside-band — Estimated Salary Grade Range: $104,400 - $156,600 [Employer portal detail page, Date Posted: Nov 2, 2026, Location: Remote, United States; top of range $156,600 is below the $160,000 band floor. workarounds tried: employer's own portal is the governing text; no alternate posting with a different range found]",
-    "where": "Web Catch-All",
-    "time": "7:32 PM"
-   },
-   {
-    "company": "Accenture",
-    "role": "Microsoft Enterprise Integration Gateway Platform Architect",
-    "reason": "experience-mismatch — Required Certifications: Microsoft Certified: Azure Solutions Architect Expert; Microsoft Certified: Azure DevOps Engineer Expert - both are listed as mandatory requirements and neither is on Hubert's record; the role also requires proven experience leading Azure API Platform ATO initiatives, outside his commercial regulated-industry background. [Published 2026-11-03, surfaced fresh on Remote Rocketship from Accenture Federal Services' careers page. workarounds tried: employer's own posting is the governing text; no alternate posting of the same req drops the mandatory certifications]",
     "where": "Web Catch-All",
     "time": "7:32 PM"
    },
@@ -5980,5 +6019,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T05:55:07Z"
+ "lists_generated_at": "2026-11-09T05:57:57Z"
 }
