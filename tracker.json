@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T18:00:02Z",
+ "generated_at": "2026-11-09T18:02:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T17:59:37Z",
+  "last_activity_at": "2026-11-09T18:01:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -28,21 +28,28 @@
  "counts": {
   "filed": 1,
   "parked": 3,
-  "rejected": 227,
-  "evaluated": 231
+  "rejected": 236,
+  "evaluated": 240
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 375,
+  "evaluated": 383,
   "filed": 2,
   "parked": 9,
-  "rejected": 364,
+  "rejected": 372,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W2",
+  "W3",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -80,35 +87,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T18:02:28Z",
    "detail": "Employers 125/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T18:02:28Z",
    "detail": "Employers 125/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 120/73"
+   "heartbeat_at": "2026-11-09T18:02:28Z",
+   "detail": "Employers 125/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -119,7 +126,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/32"
+   "detail": "Employers 125/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -130,7 +137,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/44"
+   "detail": "Employers 125/44"
   },
   "W6": {
    "label": "Utilities",
@@ -141,7 +148,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/44"
+   "detail": "Employers 125/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,7 +236,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/59"
+   "detail": "Employers 125/59"
   },
   "W17": {
    "label": "Technology",
@@ -240,39 +247,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/54"
+   "detail": "Employers 125/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T18:02:28Z",
    "detail": "Employers 120/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T18:02:28Z",
    "detail": "Employers 120/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T18:02:28Z",
    "detail": "Employers 120/31"
   }
  },
@@ -303,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "266 of 702 units done",
+   "detail": "272 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -530,13 +537,19 @@
    }
   ]
  },
- "note": "Last activity 11:59 AM CT · 0 workers in flight · 1 filed this cycle",
- "pill": [],
+ "note": "Last activity 12:01 PM CT · 6 workers in flight · 1 filed this cycle",
+ "pill": [
+  {
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W18"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -871,6 +884,13 @@
     "time": "10:19 AM"
    },
    {
+    "company": "Capital Blue Cross",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — Proactively and holistically lead and support enterprise architecture activities",
+    "where": "Employer sites",
+    "time": "12:01 PM"
+   },
+   {
     "company": "Shell",
     "role": "Principal Enterprise Architect",
     "reason": "non-US — Be aware of the location restriction for this remote position: UK",
@@ -1107,6 +1127,13 @@
     "reason": "stale — Hybrid Remote/Office environment, preferred",
     "where": "Employer sites",
     "time": "12:20 AM"
+   },
+   {
+    "company": "FirstEnergy",
+    "role": "Digital Technology Architect - Innovation & Digital Enablement Platform",
+    "reason": "stale — Designs and supports Azure cloud architecture, infrastructure, networking, resiliency, security, and governance. Develops Terraform modules and CI/CD pipelines to automate cloud provisioning and deployment.",
+    "where": "Employer sites",
+    "time": "12:01 PM"
    },
    {
     "company": "Wells Fargo",
@@ -1471,6 +1498,20 @@
     "reason": "stale — The Enterprise Architect is a strategic individual contributor role reporting to the Director of Enterprise Architecture.",
     "where": "Employer sites",
     "time": "11:49 AM"
+   },
+   {
+    "company": "CMS Energy",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This position is onsite at the One Energy Plaza located in Jackson, MI. The selected candidate must be within a commutable distance or willing to relocate",
+    "where": "Employer sites",
+    "time": "12:01 PM"
+   },
+   {
+    "company": "DTE Energy",
+    "role": "Expert Cloud Architect",
+    "reason": "not-remote — Hybrid Role: Must be able to come on-site periodically and reside a commutable distance from the assigned work location.",
+    "where": "Employer sites",
+    "time": "12:01 PM"
    },
    {
     "company": "Kraft Heinz",
@@ -1914,6 +1955,20 @@
     "time": "11:40 AM"
    },
    {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Senior Solution Architect",
+    "reason": "stale — Blue Cross NC is seeking an experienced Senior Solution Architect to design and guide technology solutions across complex business and technology initiatives.",
+    "where": "Employer sites",
+    "time": "12:01 PM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Enterprise Architect, Aladdin Engineering, Vice President",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "Employer sites",
+    "time": "12:01 PM"
+   },
+   {
     "company": "TIAA",
     "role": "Director, Solutions Architect - Legal, Risk & Compliance",
     "reason": "closed — Anticipated Posting End Date: 2026-11-02",
@@ -1961,6 +2016,13 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "9:50 AM"
+   },
+   {
+    "company": "Databricks",
+    "role": "Solutions Architect - Digital Native Business (Geo)",
+    "reason": "hands-on-coding — Strong coding proficiency in Python and SQL — you must demonstrate live coding, debugging, and solution-building skills",
+    "where": "Employer sites",
+    "time": "12:01 PM"
    },
    {
     "company": "The Travelers Companies",
@@ -2017,6 +2079,13 @@
     "reason": "stale — Delta's In-Flight Entertainment & Connectivity (IFE&C) team delivers the technology that powers the connected customer experience onboard our aircraft. As a Software Architect, you will serve as a technical leader responsible for defining architecture, evaluating emerging technologies, influencing strategic technical decisions, and guiding the development of innovative onboard software solutions.",
     "where": "Employer sites",
     "time": "11:49 AM"
+   },
+   {
+    "company": "Databricks",
+    "role": "Sr. Solutions Architect – Digital Native Business (Strategic Accounts)",
+    "reason": "hands-on-coding — Expert-level coding proficiency — Python, SQL, and ideally Spark/PySpark. You will complete a live coding assessment and a platform build during the interview",
+    "where": "Employer sites",
+    "time": "12:01 PM"
    },
    {
     "company": "City of New York",
@@ -4463,5 +4532,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T18:00:02Z"
+ "lists_generated_at": "2026-11-09T18:02:28Z"
 }
