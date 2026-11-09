@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T19:26:57Z",
+ "generated_at": "2026-11-09T19:29:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T19:25:38Z",
+  "last_activity_at": "2026-11-09T19:29:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -27,27 +27,22 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 6,
-  "rejected": 292,
-  "evaluated": 299
+  "parked": 7,
+  "rejected": 301,
+  "evaluated": 309
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 437,
+  "evaluated": 441,
   "filed": 2,
-  "parked": 11,
-  "rejected": 424,
+  "parked": 12,
+  "rejected": 427,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -85,46 +80,46 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T19:26:57Z",
-   "detail": "Employers 175/30"
+   "heartbeat_at": null,
+   "detail": "Employers 180/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T19:26:57Z",
-   "detail": "Employers 180/39"
+   "heartbeat_at": null,
+   "detail": "Employers 190/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T19:26:57Z",
-   "detail": "Employers 180/73"
+   "heartbeat_at": null,
+   "detail": "Employers 190/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T19:26:57Z",
-   "detail": "Employers 182/32"
+   "heartbeat_at": null,
+   "detail": "Employers 184/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -135,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/44"
+   "detail": "Employers 190/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/44"
+   "detail": "Employers 190/44"
   },
   "W9": {
    "label": "Dice",
@@ -234,7 +229,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/59"
+   "detail": "Employers 190/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/54"
+   "detail": "Employers 190/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -256,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 185/45"
+   "detail": "Employers 190/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -308,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "403 of 702 units done",
+   "detail": "414 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "3 of 3 units done",
+   "detail": "4 of 4 units done",
    "started_at": "2026-11-09T15:43:36Z",
-   "ended_at": "2026-11-09T19:18:28Z"
+   "ended_at": "2026-11-09T19:28:41Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -535,19 +530,13 @@
    }
   ]
  },
- "note": "Last activity 1:25 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W1"
-  }
- ],
+ "note": "Last activity 1:29 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -718,6 +707,15 @@
     "reason": "filed-unverified",
     "where": "Greenhouse (Accenture Federal Services)",
     "time": "12:12 AM"
+   }
+  ],
+  "AnitaB": [
+   {
+    "company": "Johns Hopkins Medicine",
+    "role": "Enterprise IT Architect",
+    "reason": "credential-needed — Application route is Johns Hopkins' own careers portal via the board listing; filing requires a JHU candidate account and no JHU credentials are on file - account creation is Hubert's via Secure Vault, never invented.",
+    "where": "AnitaB",
+    "time": "1:28 PM"
    }
   ]
  },
@@ -1108,9 +1106,9 @@
    {
     "company": "Penn Medicine",
     "role": "Corporate Director Enterprise Cloud Architecture",
-    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104",
+    "reason": "not-remote — Work Schedule: Hybrid",
     "where": "Employer sites",
-    "time": "12:03 AM"
+    "time": "1:27 PM"
    },
    {
     "company": "UCLA Health",
@@ -2219,11 +2217,18 @@
     "time": "1:25 PM"
    },
    {
+    "company": "Missouri state portal",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Employer sites",
+    "time": "1:27 PM"
+   },
+   {
     "company": "Johns Hopkins Medicine",
     "role": "Enterprise Web and DevOps Architect (IT@JH Cloud & Virtualization Services)",
-    "reason": "hands-on — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security.",
+    "reason": "iac-whole-role — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security.",
     "where": "Employer sites",
-    "time": "12:03 AM"
+    "time": "1:27 PM"
    },
    {
     "company": "Lear Corporation",
@@ -2438,9 +2443,9 @@
    {
     "company": "Oklahoma state portal",
     "role": "Technical Architect I",
-    "reason": "pay-outside-band — Salary is up to $90,000 based on education and experience.",
+    "reason": "not-remote — This is an on-site position located in Oklahoma City, OK.",
     "where": "Employer sites",
-    "time": "12:20 AM"
+    "time": "1:27 PM"
    },
    {
     "company": "Capgemini",
@@ -2557,9 +2562,9 @@
    {
     "company": "Louisiana state portal",
     "role": "Core Operations Architect (IT STATEWIDE ARCHITECT)",
-    "reason": "internal-only — This vacancy will be filled by promotion of a current permanent status Office of Technology Services employee",
+    "reason": "stale — This vacancy will be filled by promotion of a current permanent status Office of Technology Services employee",
     "where": "Employer sites",
-    "time": "12:20 AM"
+    "time": "1:27 PM"
    },
    {
     "company": "MassMutual",
@@ -2585,9 +2590,9 @@
    {
     "company": "Wipro",
     "role": "Lead Cloud Architect",
-    "reason": "stale — Work Location: Atlanta, GA (Hybrid)",
+    "reason": "not-remote — Work Location: Atlanta, GA (Hybrid)",
     "where": "Employer sites",
-    "time": "12:22 AM"
+    "time": "1:29 PM"
    },
    {
     "company": "Wipro",
@@ -2811,7 +2816,7 @@
     "role": "Enterprise IT Architect, Research Computing (IT@JH Research Computing)",
     "reason": "not-remote — Location: Hybrid/Johns Hopkins Bayview",
     "where": "Employer sites",
-    "time": "12:53 AM"
+    "time": "1:27 PM"
    },
    {
     "company": "The Hartford",
@@ -3351,6 +3356,20 @@
     "reason": "not-remote — Location Designation: Hybrid - 3 days per week",
     "where": "Employer sites",
     "time": "1:25 PM"
+   },
+   {
+    "company": "Michigan state portal",
+    "role": "Senior Cloud Architect",
+    "reason": "not-remote — Hybrid Schedule: Candidates can be local or willing to relocate from 1st day. Will need to be onsite starting day 1 for hybrid work schedule. NO REMOTE ONLY OPTION",
+    "where": "Employer sites",
+    "time": "1:27 PM"
+   },
+   {
+    "company": "Indiana state portal",
+    "role": "Azure Cloud Solutions Architect",
+    "reason": "pay-outside-band — The salary for this position traditionally starts at $79,118.00",
+    "where": "Employer sites",
+    "time": "1:27 PM"
    }
   ],
   "Swooped (Healthfirst listing)": [
@@ -4919,5 +4938,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T19:26:57Z"
+ "lists_generated_at": "2026-11-09T19:29:52Z"
 }
