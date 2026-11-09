@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:43:14Z",
+ "generated_at": "2026-11-09T02:45:21Z",
  "lane_state_source": "model",
  "run": {
-  "id": "be892dd3",
+  "id": "d0627514",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,8 +14,8 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-09T02:26:34Z",
-  "last_activity_at": "2026-11-09T02:36:02Z",
+  "started_at": "2026-11-09T02:45:21Z",
+  "last_activity_at": "2026-11-09T02:45:21Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,9 +27,9 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 5,
-  "evaluated": 7
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-08",
@@ -46,7 +46,7 @@
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -145,7 +145,7 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -156,7 +156,7 @@
   "W10": {
    "label": "SimplyHired",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -167,7 +167,7 @@
   "W11": {
    "label": "Glassdoor",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -178,7 +178,7 @@
   "W12": {
    "label": "Monster",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -189,7 +189,7 @@
   "W13": {
    "label": "Otta",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -200,7 +200,7 @@
   "W14": {
    "label": "Indeed",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -211,7 +211,7 @@
   "W15": {
    "label": "ZipRecruiter",
    "sites": 1,
-   "phase": "not-selected",
+   "phase": "queued",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
@@ -278,20 +278,20 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 17 opened 8:26 PM CT",
-   "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": "2026-11-09T02:26:34Z"
+   "detail": "Cycle 18 opened 8:45 PM CT",
+   "started_at": "2026-11-09T02:45:21Z",
+   "ended_at": "2026-11-09T02:45:21Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": "2026-11-09T02:29:34Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-09T02:45:21Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 29 units done",
+   "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
   },
   "linkedin_filing": {
@@ -301,34 +301,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "4 of 4 units done",
-   "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": "2026-11-09T02:36:11Z"
+   "state": "pending",
+   "detail": "0 of 70 units done",
+   "started_at": "2026-11-09T02:45:21Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
-   "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": "2026-11-09T02:29:34Z"
+   "state": "pending",
+   "detail": "0 of 2 units done",
+   "started_at": "2026-11-09T02:45:21Z",
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T02:37:19Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T02:37:19Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T02:37:19Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -397,25 +397,16 @@
  },
  "controls": {
   "priority_lanes": [],
-  "scoped_lanes": [
-   "W1",
-   "W2",
-   "W3",
-   "W4",
-   "W5",
-   "W6",
-   "W7",
-   "W8",
-   "W16",
-   "W17",
-   "W18",
-   "W19",
-   "W20"
-  ],
+  "scoped_lanes": null,
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
+   {
+    "id": "77030710-490b-40ec-a0c6-27cd13e4be7f",
+    "actuated_at": "2026-11-09T02:45:21Z",
+    "effect": "sweep start"
+   },
    {
     "id": "chat-start-20261107-hubert-fix-it",
     "actuated_at": "2026-11-08T05:23:38Z",
@@ -535,27 +526,16 @@
     "id": "chat-stop-20261026-1253ct",
     "actuated_at": "2026-10-26T17:54:27Z",
     "effect": "sweep stop"
-   },
-   {
-    "id": "req-mvpejktd-skz0i21vjr",
-    "actuated_at": "2026-10-26T15:20:45Z",
-    "effect": "sweep start (resumed)"
    }
   ]
  },
- "note": "Last activity 8:36 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 8:45 PM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
