@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T06:14:23Z",
+ "generated_at": "2026-11-09T06:16:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T06:12:48Z",
+  "last_activity_at": "2026-11-09T06:15:15Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 8,
-  "rejected": 344,
-  "evaluated": 354
+  "rejected": 346,
+  "evaluated": 356
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 14,
+  "evaluated": 16,
   "filed": 1,
   "parked": 1,
-  "rejected": 12,
+  "rejected": 14,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -130,24 +123,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,46 +222,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/59"
+   "heartbeat_at": null,
+   "detail": "Employers 200/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/54"
+   "heartbeat_at": null,
+   "detail": "Employers 200/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/45"
+   "heartbeat_at": null,
+   "detail": "Employers 200/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:14:23Z",
-   "detail": "Employers 195/41"
+   "heartbeat_at": null,
+   "detail": "Employers 200/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "449 of 632 units done",
+   "detail": "455 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 12:12 AM CT · 7 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 12:15 AM CT · 1 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -712,6 +699,20 @@
     "reason": "not-remote — This is a hybrid role based in one of the preferred locations - Atlanta, GA / New York, NY / Bridgewater, NJ / Chicago, IL / Dallas, TX / San Francisco, CA.",
     "where": "Employer sites",
     "time": "12:12 AM"
+   },
+   {
+    "company": "Atmos Energy",
+    "role": "ERP Platform Lead - Cloud & On-Premise",
+    "reason": "hands-on — Strong PL/SQL development skills",
+    "where": "Employer sites",
+    "time": "12:15 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Lead Cloud Engineer",
+    "reason": "stale — Posted on: Mar 30, 2026",
+    "where": "Employer sites",
+    "time": "12:15 AM"
    }
   ],
   "Louisiana state portal": [
@@ -1900,5 +1901,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T06:14:23Z"
+ "lists_generated_at": "2026-11-09T06:16:02Z"
 }
