@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:30:35Z",
+ "generated_at": "2026-11-09T02:32:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "be892dd3",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:26:34Z",
   "last_activity_at": "2026-11-09T02:29:23Z",
@@ -41,7 +41,9 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,12 +59,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 52,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T02:32:22Z",
    "detail": "Titles 52/58"
   },
   "W7": {
@@ -543,13 +545,19 @@
    }
   ]
  },
- "note": "Last activity 8:29 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 8:29 PM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4308,5 +4316,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T02:30:35Z"
+ "lists_generated_at": "2026-11-09T02:32:22Z"
 }
