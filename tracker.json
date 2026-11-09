@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:34:36Z",
+ "generated_at": "2026-11-09T03:36:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -15,38 +15,38 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T03:33:52Z",
+  "last_activity_at": "2026-11-09T03:34:55Z",
   "progress": {
    "pools": 21,
-   "covered_units": 746,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 108,
-  "evaluated": 110
+  "parked": 3,
+  "rejected": 113,
+  "evaluated": 116
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 453,
+  "evaluated": 457,
   "filed": 1,
   "parked": 12,
-  "rejected": 440,
+  "rejected": 444,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -86,60 +86,49 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 30/30"
+   "heartbeat_at": null,
+   "detail": "Employers 35/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 30/39"
+   "heartbeat_at": null,
+   "detail": "Employers 35/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 30/73"
+   "heartbeat_at": null,
+   "detail": "Employers 35/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 30/32"
+   "heartbeat_at": null,
+   "detail": "Employers 35/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 30/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -147,6 +136,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 35/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-09T03:36:16Z",
    "detail": "Employers 30/44"
   },
   "W9": {
@@ -229,57 +229,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:36:16Z",
    "detail": "Employers 30/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:36:16Z",
    "detail": "Employers 30/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:36:16Z",
    "detail": "Employers 30/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:36:16Z",
    "detail": "Employers 30/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "searching",
-   "families_searched": 50,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:34:36Z",
-   "detail": "Employers 25/31"
+   "heartbeat_at": "2026-11-09T03:36:16Z",
+   "detail": "Employers 30/31"
   }
  },
  "stages": {
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "85 of 632 units done",
+   "detail": "91 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 9:33 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:34 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -612,9 +612,9 @@
    {
     "company": "Mayo Clinic",
     "role": "IT Cloud Architect",
-    "reason": "stale-unverified — This position is 100% remote within the United States.",
+    "reason": "stale-unverified — The most qualified applicant will have the following: Demonstrated knowledge and experience with GCP and Azure cloud technologies and services (7+ years) - Hold a current/active GCP or Azure architect/engineer certification. Mayo own careers site liveness not confirmed in this unit; standing status parked stale-unverified.",
     "where": "Employer sites",
-    "time": "2:49 AM"
+    "time": "9:34 PM"
    },
    {
     "company": "Diamondback Energy",
@@ -758,6 +758,13 @@
     "time": "3:26 AM"
    },
    {
+    "company": "Highmark",
+    "role": "Senior Enterprise Solution Architect",
+    "reason": "not-remote — Position Type Office-Based; Physical work site required Yes. Workarounds tried: employer/BuiltIn listing is the governing text and states office-based with a required physical work site.",
+    "where": "Employer sites",
+    "time": "9:34 PM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Principal Architect – Remote",
     "reason": "stale — Published: 2026-10-01",
@@ -879,9 +886,9 @@
    {
     "company": "Marathon Petroleum",
     "role": "Senior Solution Architect, Midstream Operations",
-    "reason": "not-remote — Location: San Antonio, Texas; Location Address: 19100 Ridgewood Pkwy; Additional locations: Denver, Colorado, Houston, Texas, Texas City, Texas; Pay Min/Max: $106,900.00 - $184,300.00 Salary",
+    "reason": "not-remote — Location: San Antonio, Texas Job Requisition ID: 00024521 Location Address: 19100 Ridgewood Pkwy Additional locations: Denver, Colorado, Houston, Texas, Texas City, Texas. Workarounds tried: governing listing gives facility locations and no remote work arrangement.",
     "where": "Employer sites",
-    "time": "12:23 AM"
+    "time": "9:34 PM"
    },
    {
     "company": "Penn Medicine",
@@ -903,6 +910,13 @@
     "reason": "stale — We are seeking an experienced Enterprise Architect with strong knowledge of healthcare data and processes, including enrollment, claims, eligibility, and related systems.",
     "where": "Employer sites",
     "time": "9:08 PM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Principal Enterprise Cloud Architect",
+    "reason": "stale — This job is responsible for providing executive level leadership, direction, and governance for Highmark's multi-cloud strategy. Oversees enterprise cloud architecture strategy and drives the adoption of cloud services.",
+    "where": "Employer sites",
+    "time": "9:34 PM"
    },
    {
     "company": "CareFirst",
@@ -1232,6 +1246,13 @@
     "reason": "stale — Serves as the NASA technology domain enterprise architect providing creation, iteration, and maintenance of enterprise architectures",
     "where": "Employer sites",
     "time": "2:31 AM"
+   },
+   {
+    "company": "GSA",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "stale — The incumbent will serve as an IT Specialist (ENTARCH). Serving as authoritative advisor on enterprise (business, data, applications, and technology) architecture principles, processes, and practices.",
+    "where": "Employer sites",
+    "time": "9:34 PM"
    },
    {
     "company": "Mayo Clinic",
@@ -1701,6 +1722,13 @@
     "reason": "closed — This position is no longer taking new applicants.",
     "where": "Employer sites",
     "time": "9:33 PM"
+   },
+   {
+    "company": "Health Care Service Corporation (BCBS)",
+    "role": "Application Architect",
+    "reason": "stale — The Application Architect will define and deliver scalable enterprise solutions for healthcare payment integrity, claims accuracy, and payment adjudication.",
+    "where": "Employer sites",
+    "time": "9:34 PM"
    },
    {
     "company": "Lockheed Martin",
@@ -5001,5 +5029,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T03:34:36Z"
+ "lists_generated_at": "2026-11-09T03:36:16Z"
 }
