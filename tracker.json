@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:21:23Z",
+ "generated_at": "2026-11-09T03:23:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
   "last_activity_at": "2026-11-09T03:19:39Z",
@@ -41,7 +41,13 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -112,34 +118,34 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:23:08Z",
    "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:23:08Z",
    "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:23:08Z",
    "detail": "Employers 15/44"
   },
   "W9": {
@@ -222,23 +228,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:23:08Z",
    "detail": "Employers 15/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:23:08Z",
    "detail": "Employers 15/54"
   },
   "W18": {
@@ -307,10 +313,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-09T02:51:51Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T03:22:37Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,13 +549,19 @@
    }
   ]
  },
- "note": "Last activity 9:19 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:19 PM CT · 5 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4890,5 +4902,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T03:21:23Z"
+ "lists_generated_at": "2026-11-09T03:23:08Z"
 }
