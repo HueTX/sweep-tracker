@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:45:21Z",
+ "generated_at": "2026-11-09T02:47:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "d0627514",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:45:21Z",
   "last_activity_at": "2026-11-09T02:45:21Z",
@@ -41,17 +41,24 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W9"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-11-09T02:47:04Z",
    "detail": "Titles 0/58"
   },
   "W8": {
@@ -145,12 +152,12 @@
   "W9": {
    "label": "Dice",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T02:47:04Z",
    "detail": "Titles 0/58"
   },
   "W10": {
@@ -283,13 +290,13 @@
    "ended_at": "2026-11-09T02:45:21Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 29 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
@@ -301,13 +308,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 70 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
@@ -530,12 +537,18 @@
   ]
  },
  "note": "Started 8:45 PM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
