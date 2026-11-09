@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T15:43:36Z",
+ "generated_at": "2026-11-09T15:46:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
   "last_activity_at": "2026-11-09T15:43:36Z",
@@ -41,17 +41,25 @@
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "LinkedIn",
+  "W1",
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "current_family": {
+    "index": 1,
+    "name": "Azure Architect",
+    "total": 58
+   },
+   "heartbeat_at": "2026-11-09T15:46:16Z",
    "detail": "Titles 0/58"
   },
   "W8": {
@@ -79,23 +87,23 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:46:16Z",
    "detail": "Employers 0/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:46:16Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -283,13 +291,13 @@
    "ended_at": "2026-11-09T15:43:36Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "linkedin_discovery": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 29 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
@@ -301,13 +309,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
@@ -530,12 +538,18 @@
   ]
  },
  "note": "Started 9:43 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 0/58",
+   "pool": "W1"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W1",
+  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 0/58"
  },
  "rules": {
   "follow_all": false,
@@ -2910,5 +2924,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T15:43:36Z"
+ "lists_generated_at": "2026-11-09T15:46:16Z"
 }
