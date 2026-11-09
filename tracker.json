@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T21:03:53Z",
+ "generated_at": "2026-11-09T21:06:12Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T21:03:00Z",
+  "last_activity_at": "2026-11-09T21:04:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 796,
+   "covered_units": 866,
    "total_units": 1218,
-   "pct": 65
+   "pct": 71
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 1,
   "parked": 17,
-  "rejected": 437,
-  "evaluated": 455
+  "rejected": 440,
+  "evaluated": 458
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 539,
+  "evaluated": 542,
   "filed": 2,
   "parked": 20,
-  "rejected": 517,
+  "rejected": 520,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
  "searching_lanes": [
-  "W8",
   "W7",
   "W3",
+  "W10",
   "W16",
   "W17"
  ],
@@ -64,24 +64,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 42,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T21:03:53Z",
-   "detail": "Titles 42/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T21:03:53Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": "2026-11-09T21:06:12Z",
+   "detail": "Titles 54/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -113,7 +113,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T21:03:53Z",
+   "heartbeat_at": "2026-11-09T21:06:12Z",
    "detail": "Employers 423/73"
   },
   "W4": {
@@ -163,12 +163,12 @@
   "W10": {
    "label": "SimplyHired",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T21:06:12Z",
    "detail": "Titles 0/58"
   },
   "W11": {
@@ -234,7 +234,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T21:03:53Z",
+   "heartbeat_at": "2026-11-09T21:06:12Z",
    "detail": "Employers 346/59"
   },
   "W17": {
@@ -245,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T21:03:53Z",
+   "heartbeat_at": "2026-11-09T21:06:12Z",
    "detail": "Employers 320/54"
   },
   "W18": {
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "623 of 702 units done",
+   "detail": "635 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -536,7 +536,7 @@
    }
   ]
  },
- "note": "Last activity 3:03 PM CT · 12 workers in flight · 1 filed this cycle",
+ "note": "Last activity 3:04 PM CT · 12 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -4328,6 +4328,13 @@
     "reason": "pay-outside-band — United States Salary Range $168,000—$238,000 USD. Published top $238,000 exceeds $230,000 band ceiling. Workarounds tried: (1) Jobicy full JD text, (2) no alternate posting of this req with a different range found, (3) no alternate route found.",
     "where": "Web Catch-All (W8)",
     "time": "3:03 PM"
+   },
+   {
+    "company": "CSAA Insurance Group",
+    "role": "Data Solutions Architect - Remote (Enterprise Data Architect)",
+    "reason": "stale — Published 2026-10-16 on Built In/Monster mirrors of CSAA req R8044, older than the 7-day eligibility window as of 2026-11-09, with no repost/refresh activity date in window. JD core is Palantir Foundry/AIP ontology and AWS data platforms in any case. Workarounds tried: (1) employer-mirror full JD text, (2) alternate routes (Monster, Built In, Remotive, Teal) all carry the same 2026-10-16 date, (3) no fresher alternate posting found.",
+    "where": "Web Catch-All (W8)",
+    "time": "3:04 PM"
    }
   ],
   "Remotive": [
@@ -4387,6 +4394,22 @@
     "reason": "not-remote — Hybrid [3 days on site a week]",
     "where": "Nvoids",
     "time": "12:57 AM"
+   }
+  ],
+  "Google Jobs (W7)": [
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Federal Enterprise Architect - DOD",
+    "reason": "pay-outside-band — Annual Salary USD 169,500 - 328,500 in Colorado // 161,000 - 378,000 in Alabama & Texas. Published tops $328,500/$378,000 exceed the $230,000 band ceiling. Workarounds tried: (1) Jobgether full JD text, (2) no alternate posting of this req with a different range found, (3) no alternate route found.",
+    "where": "Google Jobs (W7)",
+    "time": "3:04 PM"
+   },
+   {
+    "company": "Altria Group",
+    "role": "Senior Manager, Enterprise Architect - Customer and Consumer, Sales and Marketing",
+    "reason": "experience-mismatch — You should have deep experience with Salesforce CG Cloud, Experience Cloud, and TPM platforms such as XTEL or Aforza. Qualifications: 7+ years of hands-on experience with Salesforce CRM; 3+ years of hands-on experience with XTEL TPM or Aforza. Core is Salesforce/TPM sales-marketing platforms, not on Hubert's Azure/cloud enterprise architecture record. Workarounds tried: (1) Worqstrap full JD text mirroring Altria posting, (2) no alternate posting with different duties found, (3) no alternate route changes the Salesforce core.",
+    "where": "Google Jobs (W7)",
+    "time": "3:04 PM"
    }
   ],
   "Louisiana state portal": [
@@ -5673,5 +5696,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T21:03:53Z"
+ "lists_generated_at": "2026-11-09T21:06:12Z"
 }
