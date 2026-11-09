@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T01:31:24Z",
+ "generated_at": "2026-11-09T01:33:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "2f28cb82",
@@ -10,39 +10,39 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T01:27:04Z",
-  "last_activity_at": "2026-11-09T01:27:04Z",
+  "last_activity_at": "2026-11-09T01:32:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 734,
+   "covered_units": 746,
    "total_units": 1218,
-   "pct": 60
+   "pct": 61
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 2,
+  "rejected": 8,
+  "evaluated": 10
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 332,
+  "evaluated": 336,
   "filed": 1,
   "parked": 10,
-  "rejected": 321,
+  "rejected": 325,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
-  "W8"
+  "W4"
  ],
  "lanes": {
   "LinkedIn": {
@@ -59,13 +59,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T01:31:24Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -114,12 +114,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T01:33:17Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -285,10 +285,10 @@
    "ended_at": "2026-11-09T01:27:04Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T01:27:04Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T01:33:02Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -304,15 +304,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 9 units done",
+   "detail": "2 of 9 units done",
    "started_at": "2026-11-09T01:27:04Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-09T01:27:04Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T01:33:01Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,18 +545,18 @@
    }
   ]
  },
- "note": "Started 7:27 PM CT · 0 filed",
+ "note": "Last activity 7:32 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "W4"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "label": "W4",
+  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
