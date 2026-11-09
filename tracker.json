@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:05:25Z",
+ "generated_at": "2026-11-09T02:07:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "2f28cb82",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T01:27:04Z",
-  "last_activity_at": "2026-11-09T02:04:36Z",
+  "last_activity_at": "2026-11-09T02:07:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 754,
    "total_units": 1218,
-   "pct": 61
+   "pct": 62
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 18,
-  "evaluated": 20
+  "rejected": 34,
+  "evaluated": 36
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 341,
+  "evaluated": 357,
   "filed": 1,
   "parked": 10,
-  "rejected": 330,
+  "rejected": 346,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -59,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T02:05:25Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "9 of 12 units done",
+   "detail": "11 of 12 units done",
    "started_at": "2026-11-09T01:27:04Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 8:04 PM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 8:07 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1570,6 +1562,13 @@
     "time": "2:34 AM"
    },
    {
+    "company": "General Dynamics Information Technology",
+    "role": "Cloud Solutions Architect",
+    "reason": "pay-outside-band — The stated likely salary range is $207,400–$280,600; The position is remote, with 40 scheduled weekly hours",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
     "company": "Baker Hughes",
     "role": "Solutions Architect",
     "reason": "stale — Design and deliver enterprise technical architectures converting business needs into scalable cloud and AI-enabled solutions.",
@@ -1703,6 +1702,34 @@
     "time": "8:04 PM"
    },
    {
+    "company": "Anthropic",
+    "role": "Data Center Architect, CSA",
+    "reason": "pay-outside-band — Annual Salary:$320,000 — $405,000 USD; Location-based hybrid policy: Currently, we expect all staff to be in one of our offices at least 25% of the time.",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "DigitalOcean",
+    "role": "Principal Engineer, Data Center Architect",
+    "reason": "pay-outside-band — Compensation Range - $184,000 - $231,000 - This is a remote role JR: 2026-7832; This role is a Principal Datacenter Architect on our Design team",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "Amazon Web Services",
+    "role": "Cloud Consultant",
+    "reason": "aws-first — Job ID: 1800266 | Amazon Web Services, Inc.; Amazon Web Services is looking for highly talented and technical architects to help accelerate our growing Professional Services business; Consultants must have the ability to travel to client locations to sell and deliver professional services as needed.",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
+    "company": "Onebrief",
+    "role": "Staff Infrastructure Engineer",
+    "reason": "pay-outside-band — Staff Infrastructure Engineer; Base Salary $205K – $255K; Compensation Range: $205K - $255K; Location United States | Remote",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
     "company": "KeyCorp",
     "role": "Lead Enterprise Architect, Infrastructure",
     "reason": "not-remote — #LI-Hybrid. Location: 4910 Tiedeman Road, Brooklyn Ohio. Key has implemented an approach to employee workspaces which prioritizes in-office presence. Salary $96,000.00 - $181,000.00. Workarounds tried: (1) employer text via Simplify/Built In (both #LI-Hybrid, Brooklyn OH) (2) Dice mirror (3) no remote posting of same role found.",
@@ -1815,6 +1842,13 @@
     "time": "8:04 PM"
    },
    {
+    "company": "Celestica",
+    "role": "Director, Data Center Solutions Architect",
+    "reason": "stale — Req ID: 141624, Remote Position: Yes; Salary Range - 165k - 228k; Published: 2026-10-31",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
     "company": "PayPal",
     "role": "Distinguished Software Architect",
     "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150",
@@ -1876,6 +1910,13 @@
     "reason": "pay-outside-band — The salary/hourly range is $206,200.00 – $267,192.00.",
     "where": "Employer sites",
     "time": "8:04 PM"
+   },
+   {
+    "company": "TEKsystems",
+    "role": "Principal Strategy Architect – AI, EA",
+    "reason": "pay-outside-band — Principal Strategy Architect – AI, EA; United States – Remote; $190.6k - $286k / year; Fully remote position",
+    "where": "Employer sites",
+    "time": "8:06 PM"
    },
    {
     "company": "FedEx",
@@ -2541,6 +2582,69 @@
     "reason": "hands-on-coding — Collaborate with development teams to create high-quality, maintainable code using .NET and Angular; Required: 5+ years of experience with software development. [Published 2026-11-04 on Ladders, fresh within the 7-day window. workarounds tried: (1) employer posting text via Ladders full JD - same .NET/Angular hands-on code duties, (2) alternate routes carry the same JD, (3) no alternate posting of the role changes its hands-on nature]",
     "where": "Employer sites",
     "time": "7:37 PM"
+   },
+   {
+    "company": "Georgia Institute of Technology",
+    "role": "Systems/Information Technology Architect Lead (Remote)",
+    "reason": "pay-outside-band — Salary Range: $88,760 - $120,000; Systems/Information Technology Architect Lead (Remote); Job ID: 270551",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "System One",
+    "role": "IT Architect and Technical Lead (ADMS/OMS)",
+    "reason": "experience-mismatch — Minimum of 7+ years of hands-on experience as an Architect, with Emerson/AspenTech ADMS/OMS implementations, including system design, implementation, and testing in utility control center environments.",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "Orbis Operations LLC",
+    "role": "Senior Integration Architect",
+    "reason": "hands-on-coding — This is a hands-on engineering role for someone ready to shape how integration work gets done; Proficiency in Go (preferred) or Python for integration development; Design and build custom data connectors and integration plugins",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "ABB",
+    "role": "Integration Architect",
+    "reason": "location-non-us — This opportunity is open to candidates in one or more countries covered by the European Pay Transparency Directive. The final work location will depend on the selected candidate.",
+    "where": "Employer sites",
+    "time": "8:06 PM"
+   },
+   {
+    "company": "Freelancermap",
+    "role": "Cloud Delivery Lead",
+    "reason": "clearance — Cloud Delivery Lead; Fully remote working; £550 - £575 a day Inside IR35; SC cleared role, Skills: SC clearance; We are seeking an experienced SC Cleared Delivery Lead to manage and deliver complex cloud and DevOps initiatives supporting UK public sector transformation programmes.",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
+    "company": "Crosslake Technologies",
+    "role": "Enterprise Systems Consultant",
+    "reason": "location-non-us — Be aware of the location restriction for this remote position: EMEA; Crosslake Technologies is hiring a remote Enterprise Systems Consultant",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
+    "company": "Stefanini Group",
+    "role": "Principal AWS Solution Architect - Cloud Advisory & Escalation",
+    "reason": "aws-first — Stefanini Group is looking for Principal AWS Solution Architect - Cloud Advisory & Escalation; Hiring driver: Siemens AWS Cloud Architecture & Engineering Retainer (Desigo CC building management platform, distributed retail estate)",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
+    "company": "Varicent Software",
+    "role": "Staff Cloud Engineer",
+    "reason": "location-non-us — Canada — Fully Remote; Work from anywhere in Canada! We're looking for a Staff Cloud Engineer to help us scale and improve the cloud infrastructure behind multiple Varicent products",
+    "where": "Employer sites",
+    "time": "8:07 PM"
+   },
+   {
+    "company": "Recruiting from Scratch",
+    "role": "Staff Platform Engineer – Infrastructure",
+    "reason": "pay-outside-band — Staff Platform Engineer – Infrastructure; Salary: $260,000 –$325,000 + Significant Equity; Location: Remote within the United States.",
+    "where": "Employer sites",
+    "time": "8:07 PM"
    }
   ],
   "Web Catch-All": [
@@ -4197,5 +4301,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T02:05:25Z"
+ "lists_generated_at": "2026-11-09T02:07:21Z"
 }
