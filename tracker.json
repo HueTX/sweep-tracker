@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:50:10Z",
+ "generated_at": "2026-11-09T02:51:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "d0627514",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:45:21Z",
-  "last_activity_at": "2026-11-09T02:49:08Z",
+  "last_activity_at": "2026-11-09T02:50:46Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 764,
    "total_units": 1218,
-   "pct": 62
+   "pct": 63
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 1,
-  "evaluated": 2
+  "rejected": 3,
+  "evaluated": 4
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 362,
+  "evaluated": 363,
   "filed": 1,
   "parked": 10,
-  "rejected": 351,
+  "rejected": 352,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -50,16 +50,16 @@
    "label": "LinkedIn",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
+    "index": 5,
+    "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-11-09T02:50:10Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": "2026-11-09T02:51:48Z",
+   "detail": "Titles 4/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -153,12 +153,12 @@
    "label": "Dice",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 6,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T02:50:10Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": "2026-11-09T02:51:48Z",
+   "detail": "Titles 6/58"
   },
   "W10": {
    "label": "SimplyHired",
@@ -290,14 +290,14 @@
    "ended_at": "2026-11-09T02:45:21Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T02:45:21Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T02:51:04Z"
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "0 of 29 units done",
+   "detail": "2 of 29 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
   },
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 70 units done",
+   "detail": "1 of 70 units done",
    "started_at": "2026-11-09T02:45:21Z",
    "ended_at": null
   },
@@ -536,10 +536,10 @@
    }
   ]
  },
- "note": "Last activity 8:49 PM CT · 4 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:50 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "LinkedIn · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
    "detail": "Families covered 58/58",
    "pool": "LinkedIn"
   }
@@ -547,7 +547,7 @@
  "now_viewing": {
   "live": true,
   "label": "LinkedIn",
-  "headline": "LinkedIn · Title 1 of 58 · Azure Architect",
+  "headline": "LinkedIn · Title 5 of 58 · Cloud Solutions Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2764,13 +2764,6 @@
     "time": "7:32 PM"
    },
    {
-    "company": "Applied Information Sciences",
-    "role": "Cloud Architect",
-    "reason": "pay-outside-band — The targeted base salary range for this role is $154,000-$232,000 per year. [Top of range $232,000 exceeds the $230,000 band ceiling; role is also contingent upon contract award. Fresh surface activity: Indeed Cloud Architect listing dated November 6, 2026 carrying this JD. workarounds tried: full JD read on Ladders/Indeed mirrors - same published range on every surface]",
-    "where": "Web Catch-All",
-    "time": "7:32 PM"
-   },
-   {
     "company": "Accenture",
     "role": "Microsoft Enterprise Integration Gateway Platform Architect",
     "reason": "experience-mismatch — Required Certifications: Microsoft Certified: Azure Solutions Architect Expert; Microsoft Certified: Azure DevOps Engineer Expert - both are listed as mandatory requirements and neither is on Hubert's record; the role also requires proven experience leading Azure API Platform ATO initiatives, outside his commercial regulated-industry background. [Published 2026-11-03, surfaced fresh on Remote Rocketship from Accenture Federal Services' careers page. workarounds tried: employer's own posting is the governing text; no alternate posting of the same req drops the mandatory certifications]",
@@ -2939,6 +2932,13 @@
     "reason": "hands-on — Azure messaging and streaming architectures, including migration from Kafka to Event Hubs or Service Bus, and event consumer patterns written in Java; Requirements: Java and Spring-based apps, including modernization of legacy SOAP endpoints; Develop infrastructure-as-code templates using tools like Terraform or Bicep templates. Workarounds tried: (1) employer ATS search for Req 902638514 - no EPAM careers listing found with different duties; (2) alternate routes Dice (remote-excluding-NYC variant, posted 3d ago), Career.io, Monster, WhatJobs - all same Req with same Java/Spring requirements; (3) alternate posting - NYC-only Dice variant is same req/duties. Remote conflict resolved: governing mirrors say 'This Remote Position Cannot be Performed in New York City' (remote US incl. TX eligible), so not rejected for location; rejected for hands-on Java coding duty.",
     "where": "Dice",
     "time": "4:37 AM"
+   },
+   {
+    "company": "GDIT",
+    "role": "Cloud Architect",
+    "reason": "clearance-required — Type of Requisition: Regular Clearance Level Must Currently Possess: Top Secret Clearance Level Must Be Able to Obtain: Top Secret",
+    "where": "Dice",
+    "time": "8:50 PM"
    }
   ],
   "Jobgether": [
@@ -3029,6 +3029,15 @@
     "reason": "not-remote — Work Location Assignment: Hybrid; On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote.; The annual base salary for this position ranges from $214,900.00 to $358,100.00; Last Date to Apply for Job: 8/25/2026",
     "where": "Built In",
     "time": "4:47 AM"
+   }
+  ],
+  "LinkedIn": [
+   {
+    "company": "Applied Information Sciences",
+    "role": "Cloud Architect",
+    "reason": "pay-outside-band — The targeted base salary range for this role is $154,000-$232,000 per year.",
+    "where": "LinkedIn",
+    "time": "8:50 PM"
    }
   ],
   "Glassdoor": [
@@ -4335,5 +4344,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T02:50:10Z"
+ "lists_generated_at": "2026-11-09T02:51:48Z"
 }
