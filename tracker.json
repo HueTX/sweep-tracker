@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:07:21Z",
+ "generated_at": "2026-11-09T02:09:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "2f28cb82",
   "kind": "cycle",
-  "status": "running",
+  "status": "closed",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -15,7 +15,7 @@
   "live": false,
   "stalled": null,
   "started_at": "2026-11-09T01:27:04Z",
-  "last_activity_at": "2026-11-09T02:07:17Z",
+  "last_activity_at": "2026-11-09T02:08:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 34,
-  "evaluated": 36
+  "rejected": 35,
+  "evaluated": 37
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 357,
+  "evaluated": 358,
   "filed": 1,
   "parked": 10,
-  "rejected": 346,
+  "rejected": 347,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
@@ -112,13 +112,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 30/32"
+   "detail": "Employers 32/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -301,10 +301,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "11 of 12 units done",
+   "state": "done",
+   "detail": "12 of 12 units done",
    "started_at": "2026-11-09T01:27:04Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T02:08:34Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +313,22 @@
    "ended_at": "2026-11-09T01:33:01Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T02:09:25Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T02:09:25Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T02:09:25Z"
   }
  },
  "titles": {
@@ -413,7 +413,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 8:07 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 8:08 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "Sweep complete — all coverage fresh",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep complete — all coverage fresh",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -804,6 +810,13 @@
     "reason": "closed — This job posting is no longer active. (HCA careers detail page for Consulting Application Architect, Nashville, Tennessee.)",
     "where": "Employer sites",
     "time": "2:20 AM"
+   },
+   {
+    "company": "Providence Health Plan",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions (Virtual)",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside within in one of the following states: Washington, Oregon, California; As a strategic Principal IS Architect at Providence Health Plans, you'll be the driving force behind architectural vision and execution.",
+    "where": "Employer sites",
+    "time": "8:08 PM"
    },
    {
     "company": "Chevron",
@@ -4301,5 +4314,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T02:07:21Z"
+ "lists_generated_at": "2026-11-09T02:09:25Z"
 }
