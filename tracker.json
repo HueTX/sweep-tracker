@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:47:45Z",
+ "generated_at": "2026-11-09T03:49:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T03:46:50Z",
+  "last_activity_at": "2026-11-09T03:49:27Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 147,
-  "evaluated": 151
+  "rejected": 156,
+  "evaluated": 160
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 475,
+  "evaluated": 484,
   "filed": 1,
   "parked": 13,
-  "rejected": 461,
+  "rejected": 470,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,24 +79,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 45/30"
+   "heartbeat_at": null,
+   "detail": "Employers 50/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 45/39"
+   "heartbeat_at": null,
+   "detail": "Employers 50/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,7 +107,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/73"
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,7 +118,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/32"
+   "detail": "Employers 50/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,7 +129,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,7 +140,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,51 +228,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/59"
+   "detail": "Employers 50/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 40/54"
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 40/45"
+   "heartbeat_at": null,
+   "detail": "Employers 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 40/41"
+   "heartbeat_at": null,
+   "detail": "Employers 45/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:47:45Z",
-   "detail": "Employers 40/31"
+   "heartbeat_at": null,
+   "detail": "Employers 45/31"
   }
  },
  "stages": {
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "115 of 632 units done",
+   "detail": "127 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:46 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 9:49 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1864,6 +1851,20 @@
     "time": "9:39 PM"
    },
    {
+    "company": "Colorado state portal",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "pay-outside-band — Salary: $135,000.00 - $145,000.00 Annually. Location: Statewide, CO. Job Number: EGB93858. Department: Governor's Office of Information Technology. Opening Date: 10/29/2026. Closing Date: 11/8/2026 11:59 PM Mountain. Top of published range $145,000 is below the $160,000 band floor; remote work is also restricted to within Colorado. Workarounds tried: (1) employer's governing governmentjobs.com posting carries the same range (2) Ladders/Dice mirrors of the same req carry the same range (3) no alternate posting of the same role with a different range found.",
+    "where": "Employer sites",
+    "time": "9:48 PM"
+   },
+   {
+    "company": "Morgan Stanley",
+    "role": "Lead Platform Engineer - Parametric",
+    "reason": "not-remote — This role is part of Parametric's hybrid working model, which includes working in the office 3 days a week and choosing to work remotely or in the office the remaining days of the week. 8+ years of hands-on Platform Engineering (i.e., DevOps, SysOps, SRE) experience. Salary range for the position: $115,000 - $225,000/Yr. Published: 2026-10-29. Workarounds tried: (1) employer's governing JD via BuiltIn employer listing (hybrid 3 days in office) (2) anitab.org mirror carries the same Morgan Stanley platform-engineering lead role family (3) no alternate fully remote posting of the same role found.",
+    "where": "Employer sites",
+    "time": "9:49 PM"
+   },
+   {
     "company": "Best Buy",
     "role": "Enterprise Architect (Store Systems / Reverse Logistics)",
     "reason": "stale — Published: 2026-06-08. About Best Buy: As Canada's destination for the coolest tech, Best Buy offers one of the best work environments in the country! Suite 102 - 425 West 6th Avenue, Vancouver, BC. Annualized Compensation Range $140,000.00 - $145,000.00. Posting is far older than the 7-day window and is a Canada-based role.",
@@ -1883,6 +1884,13 @@
     "reason": "pay-outside-band — Salary: $135,000.00 - $145,000.00 Annually",
     "where": "Employer sites",
     "time": "9:07 PM"
+   },
+   {
+    "company": "SLB",
+    "role": "Cloud Development Technical Lead",
+    "reason": "hands-on — Job Location: 1430 Enclave Pkwy, Houston, TX 77077. Develop Cloud micro-services, infrastructure and web applications to support software as a service (SaaS) applications. Applicants must have 3 years of experience in building micro-services using Golang, Python and Containerization technologies including Docker and Kubernetes, and DevOps technologies including Docker, Terraform, Argo, Prometheus. Telecommuting permitted less than 50% per week within the same geographic location as the assigned Schlumberger Office location. Whole role is hands-on software development (Golang/Python micro-services) under a lead title, and it is office-bound - not an architect-level remote role. Workarounds tried: (1) employer's governing JD as carried on Wellfound (2) no alternate posting of the same role as a remote architect position found.",
+    "where": "Employer sites",
+    "time": "9:49 PM"
    },
    {
     "company": "Truist",
@@ -3171,6 +3179,48 @@
     "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solutions Architecture. Top of the published remote range $233,800 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's governing salary text as carried on the full JD (2) Talentally and DiversityJobs mirrors carry the identical $204,900 - $233,800 remote range (3) no alternate posting of the same role with a different range found.",
     "where": "Employer sites",
     "time": "9:46 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Enterprise Network Solutions Architect - FUOPS",
+    "reason": "clearance — Clearance Level Must Currently Possess: Secret. In this role, you will support the Army National Guard (ARNG) in Falls Church, VA as the Network Engineering Technical Lead; a current, active Secret clearance is required. Telecommuting Options: Hybrid, Work Location: USA VA Falls Church. The likely salary range for this position is $164,382 - $199,251. Published: 2026-10-29. Active clearance required is a gate fact - rejected on sight.",
+    "where": "Employer sites",
+    "time": "9:48 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Solutions Architect",
+    "reason": "stale — Published: 2026-09-23. Telecommuting Options: Remote, Work Location: Any Location / Remote. The likely salary range for this position is $136,000 - $184,000. Skills: Applications Architecture, Java Server, Linux Shell Scripting, Red Hat Enterprise Linux (RHEL), Software Development. The posting's typed published date 2026-09-23 is more than 7 days before 2026-11-08 with no fresher surface activity found.",
+    "where": "Employer sites",
+    "time": "9:48 PM"
+   },
+   {
+    "company": "Colorado state portal",
+    "role": "Senior Technical Architect (Salesforce) Remote From Anywhere In Colorado",
+    "reason": "pay-outside-band — Salary: $134,000.00 - $149,000.00 Annually. Location: Statewide, CO. Job Number: EGB93880. Department: Governor's Office of Information Technology. Opening Date: 10/23/2026. Closing Date: 11/1/2026 11:59 PM Mountain (already closed). Top of published range $149,000 is below the $160,000 band floor. Workarounds tried: (1) employer's governing governmentjobs.com posting carries the same range (2) Dice/Ladders mirrors of the same req carry the same range (3) no alternate posting of the same role with a different range found.",
+    "where": "Employer sites",
+    "time": "9:48 PM"
+   },
+   {
+    "company": "Highmark Health",
+    "role": "Cloud IT Lead Engineer",
+    "reason": "stale — Published: 2025-05-09. This position is an integral member of our Cloud Operations and Engineering Team, responsible for supporting the design, development, and maintenance of our technical cloud solutions, including IaC implementation. Automation & CI/CD: Drive infrastructure as code (IaC) adoption and implementation using tools like Terraform, CloudFormation, Ansible; design, build, and optimize CI/CD pipelines in GitLab. Pay Range $92,300.00 - $172,500.00. Typed published date 2025-05-09 is more than 7 days before 2026-11-08 with no fresher surface activity found.",
+    "where": "Employer sites",
+    "time": "9:49 PM"
+   },
+   {
+    "company": "Eversource Energy",
+    "role": "Lead Cloud Engineer (Azure) Hybrid Schedule",
+    "reason": "stale — Published: 2026-06-14. The Lead Platform Engineer, Cloud will also build automated Continuous Integration, Continuous Deployment (CI/CD) pipelines and Infrastructure as Code (IaC) using Harness and Terraform, applying DevSecOps principles. The role is based in Berlin, CT. HYBRID Schedule. The annual salary range for this position is: $151,650.00-$168,500.00. Typed published date 2026-06-14 is more than 7 days before 2026-11-08 with no fresher surface activity found.",
+    "where": "Employer sites",
+    "time": "9:49 PM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Senior Principal GenAI Software Lead Architect - Oracle Health (US REMOTE)",
+    "reason": "pay-outside-band — US: Hiring Range in USD from: $96,800 - $251,600 per year. We are seeking a hands-on Software Architect with proven AI Agent platform experience. 10+ years of professional software development experience with a strong track record in system and platform architecture. Top of the published hiring range $251,600 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's governing range as carried on the full Oracle JD (2) Career.io mirror carries the identical range (3) no alternate posting of the same role with a different range found.",
+    "where": "Employer sites",
+    "time": "9:49 PM"
    }
   ],
   "Board": [
@@ -5155,5 +5205,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T03:47:45Z"
+ "lists_generated_at": "2026-11-09T03:49:39Z"
 }
