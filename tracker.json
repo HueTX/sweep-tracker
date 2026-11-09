@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T16:41:52Z",
+ "generated_at": "2026-11-09T16:44:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T16:37:38Z",
+  "last_activity_at": "2026-11-09T16:43:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 674,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 95,
-  "evaluated": 96
+  "parked": 2,
+  "rejected": 103,
+  "evaluated": 105
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 249,
+  "evaluated": 258,
   "filed": 1,
-  "parked": 6,
-  "rejected": 242,
+  "parked": 7,
+  "rejected": 250,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
@@ -46,12 +46,7 @@
   "W1",
   "W2",
   "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -67,7 +62,7 @@
     "name": "Cloud Practice Lead",
     "total": 58
    },
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Titles 36/58"
   },
   "W8": {
@@ -100,7 +95,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/30"
   },
   "W2": {
@@ -111,7 +106,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/39"
   },
   "W3": {
@@ -122,41 +117,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/32"
+   "heartbeat_at": null,
+   "detail": "Employers 50/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -238,45 +233,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 50/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 50/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/41"
   },
   "W20": {
@@ -287,7 +282,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 40/31"
   }
  },
@@ -318,15 +313,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "98 of 702 units done",
+   "detail": "104 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "1 of 1 units done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-09T15:43:36Z",
-   "ended_at": "2026-11-09T15:48:07Z"
+   "ended_at": "2026-11-09T16:43:55Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +540,7 @@
    }
   ]
  },
- "note": "Last activity 10:37 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:43 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "LinkedIn · Title 37 of 58 · Cloud Practice Lead",
@@ -635,6 +630,13 @@
     "reason": "stale-unverified — Pay Range: $121,749.00 - $171,970.00 per year",
     "where": "Employer sites",
     "time": "12:40 AM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Lead Cloud Architect",
+    "reason": "credential-needed — Filing unit 3163 terminal record: PASS disp 9075 in this cycle. Direct route verified by the main filer on 2026-11-08 on GDIT's own careers page: Apply routes to GDIT Workday (gdit.wd5.myworkdayjobs.com), which requires creating a candidate account (email + password) before step 1 of 8; no guest path and no saved login for this tenant. Alternate-route attempt in this execution (2026-11-09): searched Dice, Teal and mirrors for RQ231565 at $170,144-$230,000 - Teal/Keywordise listings route back to GDIT's own application; the Dice Lead Cloud Architect postings are different reqs (RQ215714, $195,500-$264,500), so no board-native filing route to this req exists. No password invented, no account created, nothing submitted. Resume already staged at hidden_files/filings/general-dynamics-lead-cloud-architect/Hubert-Samuel-Resume.pdf; filing waits only on Hubert setting the Workday password via the secure card sent 2026-11-08.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
    },
    {
     "company": "UPMC Health Plan",
@@ -852,6 +854,13 @@
     "time": "1:22 AM"
    },
    {
+    "company": "L3Harris Technologies",
+    "role": "Senior Manager, IT Architecture - Generative AI & Services",
+    "reason": "pay-outside-band — In compliance with pay transparency requirements, the salary range for this role in California, Connecticut, Massachusetts, New Jersey, Washington, and the Greater D.C. area, Denver, or NYC areas is $146,000- $271,000. Published 2026-10-29, also outside the 7-day window. Workarounds tried: (1) employer JD text via Jobgether/DailyRemote mirrors, same range; (2) alternate-route search returned the same L3Harris req 46305; (3) no in-band variant found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
+   },
+   {
     "company": "Microsoft",
     "role": "Cloud Solution Architect - Cloud & AI Infrastructure",
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home. Workarounds tried: employer's own careers text via BuiltIn mirror checked (governing text, same 50% from-home limit); TealHQ shows the same CSA postings as location-bound (Reston, VA) - no fully remote alternate posting of this role.",
@@ -985,6 +994,13 @@
     "time": "9:56 AM"
    },
    {
+    "company": "Capital One",
+    "role": "Manager, Solutions Architect (Customer Integration & Engineering) (Remote)",
+    "reason": "stale — The Capital One Software team is looking for experienced and collaborative individual contributors who can work directly with the customers to engineer, deliver and successfully implement solutions and products within their data ecosystem. Published: 2025-05-31, outside the 7-day eligibility window. Workarounds tried: (1) employer JD text via Built In Chicago mirror, same 2025 date; (2) alternate-route search returned the same Capital One posting; (3) no fresher repost of this req found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
+   },
+   {
     "company": "Synchrony Financial",
     "role": "VP, Enterprise Cloud Architect",
     "reason": "pay-outside-band — The salary range for this position is 170,000.00 - 290,000.00 USD Annual and is eligible for an annual bonus based on individual and company performance.",
@@ -1055,6 +1071,13 @@
     "time": "10:26 AM"
    },
    {
+    "company": "Eversource",
+    "role": "IT Lead Architect, Cloud (Azure) - Hybrid Schedule",
+    "reason": "not-remote — Current guidelines require employees to work at least three days in the office, including Tuesdays and Wednesdays. The role is based in Berlin, CT. Workarounds tried: (1) employer JD text via CareerBuilder mirror, hybrid schedule stated; (2) alternate-route search returned the same Eversource hybrid posting; (3) no fully remote variant of this role found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
+   },
+   {
     "company": "Halliburton",
     "role": "Senior Software Solution Architect",
     "reason": "stale — This a Full Remote job, the offer is available from: South America, Latin America, Brazil",
@@ -1102,6 +1125,13 @@
     "reason": "stale — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch",
     "where": "Employer sites",
     "time": "10:24 AM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Cloud Enterprise Architect, Remote and Drilling Performance Applications, Houston",
+    "reason": "stale — As the Cloud Enterprise Architect for Remote and Drilling Performance Applications, you'll work on complex projects that require in-depth domain and architecture knowledge. Published: 2024-09-07, far outside the 7-day eligibility window. Workarounds tried: (1) JD text via Black Career Network mirror of the Baker Hughes posting; (2) alternate-route search returned the same 2024 posting; (3) no fresher Baker Hughes architect posting in window found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
    },
    {
     "company": "Kraft Heinz",
@@ -1291,6 +1321,13 @@
     "reason": "stale — The starting salary range posted for this position is $266,100.00 to $342,900.00",
     "where": "Employer sites",
     "time": "10:24 AM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior System Architect (Platform)",
+    "reason": "stale — Leads enterprise architecture for data, analytics, and AI platforms. Defines architecture standards, technology strategies, integration approaches, and modernization roadmaps. Location: San Antonio, Texas. Published: 2026-09-15, outside the 7-day eligibility window (2026-11-02 to 2026-11-09); location-bound in any case. Workarounds tried: (1) employer JD text via Built In mirror; (2) alternate-route search returned the same MPC req 00024222; (3) no fresher repost found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
    },
    {
     "company": "Walgreens Boots Alliance",
@@ -2138,6 +2175,27 @@
     "reason": "not-remote — The role offers a hybrid/flexible schedule, which means there's an in-office expectation of 3 or more days per week and the flexibility to work outside the office location for the other days. Pay Range: $129,455.00 - $152,300.00 - $167,530.00",
     "where": "Employer sites",
     "time": "10:37 AM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Director, Applications - Claims Processing - Remote",
+    "reason": "stale — Leads application engineering teams delivering cloud-native, AI-enabled solutions on Microsoft Azure for Medicare and Medicaid claims-processing operations. Published: 2026-09-28, outside the 7-day eligibility window (2026-11-02 to 2026-11-09). Workarounds tried: (1) employer JD text via Built In mirror checked, same September date; (2) alternate-route search returned the same Molina posting; (3) no fresher repost found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Cloud Architect-Forward Deployed Engineer (FDE)",
+    "reason": "not-remote — This hybrid role combines remote work, in-office work, and meetings at the client site. Candidates must live within commuting distance of St. Louis, Missouri. Published 2026-11-06 on Teal (fresh, in window). Workarounds tried: (1) Oracle JD text via Teal mirror, hybrid/commuting-distance stated; (2) sibling Oracle FDE postings on Teal are the same hybrid St. Louis role; (3) no fully remote variant found. Role is also OCI-first with TS/SCI with Poly to obtain.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
+   },
+   {
+    "company": "Cisco",
+    "role": "Sr. Customer Success Solutions Architect",
+    "reason": "experience-mismatch — Experience with Cisco Nexus / NX-OS in production, including L3 routing, VRFs, and fabric operations. Full JD read (published 2026-11-05, fresh, remote USA, $160,800-$214,100 top in band): core duties are guiding deployment/adoption of Cisco Hypershield and Nexus N9300 data-center networking/segmentation - a Cisco Nexus networking specialty that does not align with his Azure/cloud enterprise architecture experience. Workarounds tried: (1) Cisco JD text via csmjobs mirror read in full; (2) alternate-route search returned the same Cisco Isovalent CSA role; (3) no Azure/enterprise-architecture variant found.",
+    "where": "Employer sites",
+    "time": "10:43 AM"
    }
   ],
   "Career.io": [
@@ -3584,5 +3642,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T16:41:52Z"
+ "lists_generated_at": "2026-11-09T16:44:01Z"
 }
