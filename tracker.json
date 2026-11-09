@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T04:26:45Z",
+ "generated_at": "2026-11-09T04:29:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T04:26:17Z",
+  "last_activity_at": "2026-11-09T04:28:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 215,
-  "evaluated": 221
+  "rejected": 224,
+  "evaluated": 230
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 510,
+  "evaluated": 514,
   "filed": 1,
   "parked": 15,
-  "rejected": 494,
+  "rejected": 498,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,7 +85,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/30"
+   "detail": "Employers 100/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -103,7 +96,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/39"
+   "detail": "Employers 100/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,7 +107,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/73"
+   "detail": "Employers 100/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,7 +118,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/32"
+   "detail": "Employers 100/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,18 +129,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/44"
+   "detail": "Employers 100/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,57 +222,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/59"
+   "heartbeat_at": null,
+   "detail": "Employers 90/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/54"
+   "heartbeat_at": null,
+   "detail": "Employers 90/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/45"
+   "heartbeat_at": null,
+   "detail": "Employers 90/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/41"
+   "heartbeat_at": null,
+   "detail": "Employers 90/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T04:26:45Z",
-   "detail": "Employers 85/31"
+   "heartbeat_at": null,
+   "detail": "Employers 90/31"
   }
  },
  "stages": {
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "217 of 632 units done",
+   "detail": "229 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 10:26 PM CT · 12 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 10:28 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1098,7 +1085,7 @@
     "role": "Senior Solution Architect",
     "reason": "pay-outside-band — Pay Range: $91,500 - $126,000",
     "where": "Employer sites",
-    "time": "12:12 AM"
+    "time": "10:27 PM"
    },
    {
     "company": "Spire Inc",
@@ -1169,6 +1156,13 @@
     "reason": "stale — Remote (Regardless of Location): $175,800 - $200,700 for Manager, Solution Architecture",
     "where": "Employer sites",
     "time": "2:55 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Principal – Enterprise Architect",
+    "reason": "not-remote — JOB LOCATION: Chicago, IL. Rate of Pay: $124,072.00 - $194,900.00 per year. To apply, please visit https://careers.northerntrust.com and enter job requisition number R147298 when prompted.",
+    "where": "Employer sites",
+    "time": "10:27 PM"
    },
    {
     "company": "HP Inc.",
@@ -1593,9 +1587,9 @@
    {
     "company": "United Airlines",
     "role": "Principal Enterprise Architect",
-    "reason": "not-remote — Please note that this role is hybrid and requires in office attendance 2-3 days per week in Chicago or Houston. The base pay range for this role is $137,275.00 to $178,670.00. Workarounds tried: (1) employer text via CareerBuilder/Career.io mirrors (hybrid, Chicago) (2) Snagajob mirror (on-site Chicago) (3) no remote posting of same role found.",
+    "reason": "not-remote — Chicago, Illinois, United States (on-site)",
     "where": "Employer sites",
-    "time": "3:27 AM"
+    "time": "10:27 PM"
    },
    {
     "company": "Intermountain Health",
@@ -1642,9 +1636,9 @@
    {
     "company": "PSEG",
     "role": "IT Solution Architect Principal I",
-    "reason": "stale — Requisition: 84099 PSEG Company: PSEG Services Corp Salary Range: $ 107,600 - $ 170,300 Work Location Category: Hybrid",
+    "reason": "not-remote — Work Location Category: Hybrid Flexible",
     "where": "Employer sites",
-    "time": "12:12 AM"
+    "time": "10:27 PM"
    },
    {
     "company": "Stanley Black & Decker",
@@ -2265,16 +2259,16 @@
    {
     "company": "KeyCorp",
     "role": "Lead Enterprise Architect, Infrastructure",
-    "reason": "not-remote — #LI-Hybrid. Location: 4910 Tiedeman Road, Brooklyn Ohio. Key has implemented an approach to employee workspaces which prioritizes in-office presence. Salary $96,000.00 - $181,000.00. Workarounds tried: (1) employer text via Simplify/Built In (both #LI-Hybrid, Brooklyn OH) (2) Dice mirror (3) no remote posting of same role found.",
+    "reason": "stale — Job Posting Expiration Date: 10/30/2026",
     "where": "Employer sites",
-    "time": "3:26 AM"
+    "time": "10:27 PM"
    },
    {
     "company": "Huntington Bancshares",
     "role": "Sr. Principal Enterprise Solution Architect",
-    "reason": "not-remote — This position is an onsite position and available to be filled at any Huntington Corporate office location. Compensation Range: $93,000 - $189,000 Annual Salary. Workarounds tried: (1) employer text via Ladders (onsite) (2) CareerBuilder/Monster mirrors (Workplace Type: Office) (3) no remote posting of same role found.",
+    "reason": "not-remote — This position is an onsite position and available to be filled at any Huntington Corporate office location",
     "where": "Employer sites",
-    "time": "3:26 AM"
+    "time": "10:27 PM"
    },
    {
     "company": "3M",
@@ -3444,6 +3438,27 @@
     "reason": "not-remote — WORK LOCATION Brooklyn, NY",
     "where": "Employer sites",
     "time": "10:09 PM"
+   },
+   {
+    "company": "Blue Cross Blue Shield of Michigan",
+    "role": "Senior Principal Architect",
+    "reason": "not-remote — Work is performed both in the office and in the field with minimal hazards.",
+    "where": "Employer sites",
+    "time": "10:28 PM"
+   },
+   {
+    "company": "Avangrid",
+    "role": "Principal Engineer - Distribution Planning",
+    "reason": "not-remote — Location: On site 5 days a week in Binghamton or Rochester, NY.",
+    "where": "Employer sites",
+    "time": "10:28 PM"
+   },
+   {
+    "company": "Berkshire Hathaway Energy",
+    "role": "Principal Engineer, Delivery",
+    "reason": "experience-mismatch — Provides comprehensive civil/structural engineering design services for substation and/or transmission facilities, and to ensure that these facilities are constructed on schedule and within committed resource allocations. Bachelor's degree in Engineering from accredited school and 15 years industry experience, including experience performing highly technical work of specialized nature. Must be a licensed PE.",
+    "where": "Employer sites",
+    "time": "10:28 PM"
    }
   ],
   "Board": [
@@ -5402,5 +5417,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T04:26:45Z"
+ "lists_generated_at": "2026-11-09T04:29:10Z"
 }
