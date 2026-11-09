@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T16:41:52Z",
+ "generated_at": "2026-11-09T16:44:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T16:37:38Z",
+  "last_activity_at": "2026-11-09T16:43:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 674,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 95,
-  "evaluated": 96
+  "parked": 2,
+  "rejected": 103,
+  "evaluated": 105
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 249,
+  "evaluated": 258,
   "filed": 1,
-  "parked": 6,
-  "rejected": 242,
+  "parked": 7,
+  "rejected": 250,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
@@ -46,12 +46,7 @@
   "W1",
   "W2",
   "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -67,7 +62,7 @@
     "name": "Cloud Practice Lead",
     "total": 58
    },
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Titles 36/58"
   },
   "W8": {
@@ -100,7 +95,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/30"
   },
   "W2": {
@@ -111,7 +106,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/39"
   },
   "W3": {
@@ -122,41 +117,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/32"
+   "heartbeat_at": null,
+   "detail": "Employers 50/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -238,45 +233,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
-   "detail": "Employers 45/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 50/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 50/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 45/41"
   },
   "W20": {
@@ -287,7 +282,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T16:41:52Z",
+   "heartbeat_at": "2026-11-09T16:44:01Z",
    "detail": "Employers 40/31"
   }
  },
@@ -318,15 +313,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "98 of 702 units done",
+   "detail": "104 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "1 of 1 units done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-09T15:43:36Z",
-   "ended_at": "2026-11-09T15:48:07Z"
+   "ended_at": "2026-11-09T16:43:55Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +540,7 @@
    }
   ]
  },
- "note": "Last activity 10:37 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:43 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "LinkedIn · Title 37 of 58 · Cloud Practice Lead",
