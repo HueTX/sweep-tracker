@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T01:01:08Z",
+ "generated_at": "2026-11-09T01:03:12Z",
  "lane_state_source": "model",
  "run": {
-  "id": "8377c5de",
+  "id": "d82dd0db",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-08T23:58:42Z",
-  "last_activity_at": "2026-11-09T00:06:53Z",
+  "started_at": "2026-11-09T01:03:12Z",
+  "last_activity_at": "2026-11-09T01:03:12Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 744,
    "total_units": 1218,
-   "pct": 62
+   "pct": 61
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 2,
-  "evaluated": 4
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-08",
@@ -112,13 +112,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 32/32"
+   "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -278,15 +278,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 14 opened 5:58 PM CT",
-   "started_at": "2026-11-08T23:58:42Z",
-   "ended_at": "2026-11-08T23:58:42Z"
+   "detail": "Cycle 15 opened 7:03 PM CT",
+   "started_at": "2026-11-09T01:03:12Z",
+   "ended_at": "2026-11-09T01:03:12Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-08T23:58:42Z",
-   "ended_at": "2026-11-09T00:02:40Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-09T01:03:12Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -301,34 +301,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "7 of 7 units done",
-   "started_at": "2026-11-08T23:58:42Z",
-   "ended_at": "2026-11-09T00:07:59Z"
+   "state": "pending",
+   "detail": "0 of 7 units done",
+   "started_at": "2026-11-09T01:03:12Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
-   "started_at": "2026-11-08T23:58:42Z",
-   "ended_at": "2026-11-09T00:02:15Z"
+   "state": "pending",
+   "detail": "0 of 2 units done",
+   "started_at": "2026-11-09T01:03:12Z",
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T00:09:21Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T00:09:21Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-09T00:09:21Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -413,7 +413,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -543,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 6:06 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 7:03 PM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
