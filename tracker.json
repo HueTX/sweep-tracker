@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T17:35:57Z",
+ "generated_at": "2026-11-09T17:37:46Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T17:34:57Z",
+  "last_activity_at": "2026-11-09T17:37:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 3,
-  "rejected": 184,
-  "evaluated": 188
+  "rejected": 187,
+  "evaluated": 191
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 336,
+  "evaluated": 338,
   "filed": 2,
   "parked": 9,
-  "rejected": 325,
+  "rejected": 327,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,24 +80,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 90/30"
+   "heartbeat_at": null,
+   "detail": "Employers 95/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 90/39"
+   "heartbeat_at": null,
+   "detail": "Employers 95/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -115,7 +108,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/73"
+   "detail": "Employers 95/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,7 +119,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/32"
+   "detail": "Employers 95/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/44"
+   "detail": "Employers 95/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/44"
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,51 +229,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/59"
+   "detail": "Employers 95/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 85/54"
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 85/45"
+   "heartbeat_at": null,
+   "detail": "Employers 90/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 85/41"
+   "heartbeat_at": null,
+   "detail": "Employers 90/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:35:57Z",
-   "detail": "Employers 85/31"
+   "heartbeat_at": null,
+   "detail": "Employers 90/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "194 of 702 units done",
+   "detail": "206 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -537,19 +530,13 @@
    }
   ]
  },
- "note": "Last activity 11:34 AM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 11:37 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1050,6 +1037,13 @@
     "reason": "not-remote — Houston, TX, USA In Person. Extensive Experience in ECM Platforms - Minimum 7-10 years of hands-on experience with Enterprise Content Management platforms (e.g., IBM FileNet or similar).",
     "where": "Employer sites",
     "time": "11:02 AM"
+   },
+   {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "not-remote — Location: Oklahoma City, OK, US. Job ID: 17677. Reading and writing software in modern languages such as C#.NET, Java, Javascript, SQL, etc. Workarounds tried: searched alternate routes for the same Devon req - only the Oklahoma City listing found, no remote terms anywhere in the JD.",
+    "where": "Employer sites",
+    "time": "11:37 AM"
    },
    {
     "company": "Dominion Energy",
@@ -1932,6 +1926,13 @@
     "reason": "stale — Develop strategic enterprise architecture. Published: 05/13/2026 - FSIS OCIO senior Enterprise Architect announcement, well outside the 7-day eligibility window at the 2026-11-09 sweep.",
     "where": "Employer sites",
     "time": "11:25 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Head of Enterprise Architecture, SVP",
+    "reason": "pay-outside-band — Salary Range: $225,000 - $337,500 Annual. The Head of Enterprise Architecture owns the target-state design of the technology estate. Workarounds tried: employer's own posting text via Simplify mirror - published pay range is intrinsic, top $337,500 above $230,000 band; also published 2026-10-27, outside 7-day window.",
+    "where": "Employer sites",
+    "time": "11:37 AM"
    },
    {
     "company": "Microsoft",
@@ -4203,5 +4204,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T17:35:57Z"
+ "lists_generated_at": "2026-11-09T17:37:46Z"
 }
