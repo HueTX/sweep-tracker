@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:26:34Z",
+ "generated_at": "2026-11-09T02:28:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "be892dd3",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:26:34Z",
   "last_activity_at": "2026-11-09T02:26:34Z",
   "progress": {
    "pools": 21,
-   "covered_units": 748,
+   "covered_units": 738,
    "total_units": 1218,
    "pct": 61
   },
@@ -41,7 +41,9 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +59,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 52,
+   "phase": "searching",
+   "families_searched": 42,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 52/58"
+   "heartbeat_at": "2026-11-09T02:28:43Z",
+   "detail": "Titles 42/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -283,7 +285,7 @@
    "ended_at": "2026-11-09T02:26:34Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-09T02:26:34Z",
    "ended_at": null
@@ -301,13 +303,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "0 of 1 units done",
+   "state": "active",
+   "detail": "0 of 3 units done",
    "started_at": "2026-11-09T02:26:34Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-09T02:26:34Z",
    "ended_at": null
@@ -544,12 +546,18 @@
   ]
  },
  "note": "Started 8:26 PM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
