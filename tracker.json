@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T07:23:04Z",
+ "generated_at": "2026-11-09T07:24:46Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T07:22:34Z",
+  "last_activity_at": "2026-11-09T07:24:26Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 11,
-  "rejected": 467,
-  "evaluated": 480
+  "rejected": 475,
+  "evaluated": 488
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 134,
+  "evaluated": 142,
   "filed": 1,
   "parked": 4,
-  "rejected": 129,
+  "rejected": 137,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -105,13 +101,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:23:04Z",
-   "detail": "Employers 315/73"
+   "heartbeat_at": null,
+   "detail": "Employers 340/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -226,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:23:04Z",
-   "detail": "Employers 315/59"
+   "heartbeat_at": null,
+   "detail": "Employers 334/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:23:04Z",
-   "detail": "Employers 312/54"
+   "heartbeat_at": null,
+   "detail": "Employers 324/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "593 of 632 units done",
+   "detail": "605 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 1:22 AM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 1:24 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -657,6 +647,20 @@
  "today_rejected": {
   "Employer sites": [
    {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Senior Director, Core Technology Architect",
+    "reason": "not-remote — In this Hybrid-Eligible role, you can choose to be designated as: 1. Hybrid: work remotely up to two days per week; or select 2. On-Site: work five days per week on-site with ad hoc flexibility.",
+    "where": "Employer sites",
+    "time": "1:24 AM"
+   },
+   {
+    "company": "Biogen",
+    "role": "Senior IT Architect, Veeva Domain",
+    "reason": "stale — 8+ years of experience in Veeva System Configuration/Design, Solution Architecture for Life Sciences, and/or IT Consulting within Life Sciences; Experience with Veeva Vault system configurations and design for Veeva Safety and Clinical or similar vaults. The base compensation range for this role is: $133,000.00-$178,000.00",
+    "where": "Employer sites",
+    "time": "1:24 AM"
+   },
+   {
     "company": "Moderna",
     "role": "Principal Data Architect, CMC Digital",
     "reason": "not-remote — As we build our company, we have always believed an in-person culture is critical to our success. Moderna champions the significant benefits of in-office collaboration by embracing a 70/30 work model. This 70% in-office structure helps to foster a culture rich in innovation, teamwork, and direct mentorship.",
@@ -734,11 +738,25 @@
     "time": "12:32 AM"
    },
    {
+    "company": "Gilead Sciences",
+    "role": "Cloud Platform Engineering Architect (AWS)",
+    "reason": "stale — Gilead Cloud core platform services and automation development (design, development and delivery of technical code) for the AWS Control Tower Landing Zone; Terraform development impacting AWS account baselines, CI/CD integration with the platform, DMZ networking, and SCP management",
+    "where": "Employer sites",
+    "time": "1:24 AM"
+   },
+   {
     "company": "Spire Inc",
     "role": "Solutions Architect",
     "reason": "stale — Hybrid Remote/Office environment, preferred",
     "where": "Employer sites",
     "time": "12:20 AM"
+   },
+   {
+    "company": "Synchrony Financial",
+    "role": "VP, Enterprise Cloud Architect",
+    "reason": "pay-outside-band — The salary range for this position is 170,000.00 - 290,000.00 USD Annual and is eligible for an annual bonus based on individual and company performance.",
+    "where": "Employer sites",
+    "time": "1:24 AM"
    },
    {
     "company": "Mount Sinai Health System",
@@ -1439,6 +1457,34 @@
     "reason": "pay-outside-band — Senior Architect, Agentic Development, Teradata Cloud Platform United States Remote $182,700 - $274,000 a year",
     "where": "Employer sites",
     "time": "1:22 AM"
+   },
+   {
+    "company": "Akamai Technologies",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band — Akamai is committed to fair and equitable compensation practices. For US based candidates only - the base salary for this position ranges from $159,600 - $287,400/year; a candidate's salary is determined by various factors including, but not limited to, relevant work experience, skills, certifications and location.",
+    "where": "Employer sites",
+    "time": "1:23 AM"
+   },
+   {
+    "company": "Akamai Technologies",
+    "role": "Senior Enterprise Architect",
+    "reason": "pay-outside-band — For US based candidates only - the base salary for this position ranges from $139,300 - $250,700/year; a candidate's salary is determined by various factors including, but not limited to, relevant work experience, skills, certifications and location.",
+    "where": "Employer sites",
+    "time": "1:23 AM"
+   },
+   {
+    "company": "Becton Dickinson (BD)",
+    "role": "Cloud Architect",
+    "reason": "not-remote — At BD, we prioritize on-site collaboration because we believe it fosters creativity, innovation, and effective problem-solving, which are essential in the fast-paced healthcare industry. For most roles, we require a minimum of 4 days of in-office presence per week to maintain our culture of excellence and ensure smooth operations",
+    "where": "Employer sites",
+    "time": "1:24 AM"
+   },
+   {
+    "company": "Marsh McLennan",
+    "role": "AI Architect",
+    "reason": "not-remote — Marsh is committed to hybrid work, which includes the flexibility of working remotely and the collaboration, connections and professional development benefits of working together in the office. All Marsh colleagues are expected to be in their local office or working onsite with clients at least three days per week.",
+    "where": "Employer sites",
+    "time": "1:24 AM"
    }
   ],
   "Built In": [
@@ -2757,5 +2803,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T07:23:04Z"
+ "lists_generated_at": "2026-11-09T07:24:46Z"
 }
