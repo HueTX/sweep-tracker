@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T07:04:04Z",
+ "generated_at": "2026-11-09T07:05:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T07:00:01Z",
+  "last_activity_at": "2026-11-09T07:04:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,26 +28,26 @@
  "counts": {
   "filed": 1,
   "parked": 11,
-  "rejected": 436,
-  "evaluated": 449
+  "rejected": 441,
+  "evaluated": 454
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 105,
+  "evaluated": 110,
   "filed": 1,
   "parked": 4,
-  "rejected": 100,
+  "rejected": 105,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
  "searching_lanes": [
-  "W2",
-  "W3",
   "W5",
   "W6",
   "W16",
-  "W17"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -97,24 +97,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 230/39"
+   "heartbeat_at": null,
+   "detail": "Employers 234/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": null,
+   "detail": "Employers 255/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -135,8 +135,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 243/44"
+   "heartbeat_at": "2026-11-09T07:05:47Z",
+   "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,8 +146,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 243/44"
+   "heartbeat_at": "2026-11-09T07:05:47Z",
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -234,8 +234,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 245/59"
+   "heartbeat_at": "2026-11-09T07:05:47Z",
+   "detail": "Employers 250/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,29 +245,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:04:04Z",
-   "detail": "Employers 245/54"
+   "heartbeat_at": "2026-11-09T07:05:47Z",
+   "detail": "Employers 250/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T07:05:47Z",
    "detail": "Employers 250/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T07:05:47Z",
    "detail": "Employers 242/41"
   },
   "W20": {
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "533 of 632 units done",
+   "detail": "539 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 1:00 AM CT · 6 workers in flight · 1 filed this cycle",
+ "note": "Last activity 1:04 AM CT · 6 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "label": "W5",
+  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -730,6 +730,13 @@
     "time": "12:20 AM"
    },
    {
+    "company": "Mount Sinai Health System",
+    "role": "Oracle HCM Cloud Technical Architect(Product Owner III) - Digital and Technology Partners - Remote",
+    "reason": "stale — Published: 2026-10-22T20:48:24Z; requires at least 5 years supporting Oracle HCM Cloud environments (Hubert has no Oracle HCM experience on record). Workarounds tried: employer-route search for the requisition, Adzuna/Teal/DailyRemote mirrors all carry the same Oct 22-24, 2026 dates - no fresher posting of the role found.",
+    "where": "Employer sites",
+    "time": "1:04 AM"
+   },
+   {
     "company": "MD Anderson Cancer Center",
     "role": "Enterprise Software Integration Architect",
     "reason": "closed — Unfortunately this position has been closed but you can search our 377 open jobs by clicking here.",
@@ -863,11 +870,25 @@
     "time": "12:32 AM"
    },
    {
+    "company": "DXC Technology",
+    "role": "Cloud Solutions Architect",
+    "reason": "stale — Published: 2026-10-31 - 9 days before the 2026-11-09 check, outside the 7-day eligibility window; compensation range $105,500 - $195,900. This req previously passed and parked credential-needed in an earlier cycle; it has now aged out with no fresher repost found.",
+    "where": "Employer sites",
+    "time": "1:04 AM"
+   },
+   {
     "company": "The Travelers Companies",
     "role": "Senior Solutions Architect",
     "reason": "stale — Published: 2026-08-19T22:53:33",
     "where": "Employer sites",
     "time": "12:51 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "DevOps Architect (GCP)",
+    "reason": "stale — Published: 2026-10-24T00:00:00Z - outside the 7-day window; DevOps Architect title with GCP-first experience requirement (at least 3 years deploying within Google Cloud Platform).",
+    "where": "Employer sites",
+    "time": "1:04 AM"
    },
    {
     "company": "Connecticut state portal",
@@ -1246,6 +1267,20 @@
     "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
     "where": "Employer sites",
     "time": "12:58 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Sr. Cloud Architect",
+    "reason": "stale — Published: 2025-12-11; role can have a Hybrid or Remote work arrangement with office expectation 3 days a week near Hartford/Charlotte/Chicago/Columbus offices.",
+    "where": "Employer sites",
+    "time": "1:04 AM"
+   },
+   {
+    "company": "Slalom",
+    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
+    "reason": "stale — Date posted Monday, October 19, 2026, Ref # 2425 - outside the 7-day window; AWS networking role (AWS-first).",
+    "where": "Employer sites",
+    "time": "1:04 AM"
    }
   ],
   "Built In": [
@@ -2557,5 +2592,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T07:04:04Z"
+ "lists_generated_at": "2026-11-09T07:05:47Z"
 }
