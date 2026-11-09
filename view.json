@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:09:39Z",
+ "generated_at": "2026-11-09T03:11:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T03:08:53Z",
+  "last_activity_at": "2026-11-09T03:09:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 254,
+   "covered_units": 302,
    "total_units": 754,
-   "pct": 34
+   "pct": 40
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,25 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 47,
-  "evaluated": 49
+  "rejected": 53,
+  "evaluated": 55
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 402,
+  "evaluated": 407,
   "filed": 1,
   "parked": 12,
-  "rejected": 389,
+  "rejected": 394,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W7",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -73,13 +68,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 36,
+   "phase": "queued",
+   "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:09:39Z",
-   "detail": "Titles 36/58"
+   "heartbeat_at": null,
+   "detail": "Titles 54/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -139,13 +134,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:09:39Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:09:39Z",
-   "detail": "Employers 5/59"
+   "heartbeat_at": null,
+   "detail": "Employers 10/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:09:39Z",
-   "detail": "Employers 5/54"
+   "heartbeat_at": null,
+   "detail": "Employers 10/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -307,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "32 of 632 units done",
+   "detail": "38 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -548,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:08 PM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 9:09 PM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
