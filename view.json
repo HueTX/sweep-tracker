@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:05:25Z",
+ "generated_at": "2026-11-09T02:07:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "2f28cb82",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T01:27:04Z",
-  "last_activity_at": "2026-11-09T02:04:36Z",
+  "last_activity_at": "2026-11-09T02:07:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 754,
    "total_units": 1218,
-   "pct": 61
+   "pct": 62
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 18,
-  "evaluated": 20
+  "rejected": 34,
+  "evaluated": 36
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 341,
+  "evaluated": 357,
   "filed": 1,
   "parked": 10,
-  "rejected": 330,
+  "rejected": 346,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -59,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T02:05:25Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "9 of 12 units done",
+   "detail": "11 of 12 units done",
    "started_at": "2026-11-09T01:27:04Z",
    "ended_at": null
   },
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 8:04 PM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 8:07 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
