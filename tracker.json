@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T18:02:28Z",
+ "generated_at": "2026-11-09T18:05:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T18:01:33Z",
+  "last_activity_at": "2026-11-09T18:02:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 3,
-  "rejected": 236,
-  "evaluated": 240
+  "rejected": 243,
+  "evaluated": 247
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 383,
+  "evaluated": 390,
   "filed": 2,
   "parked": 9,
-  "rejected": 372,
+  "rejected": 379,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,35 +80,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 125/30"
+   "heartbeat_at": null,
+   "detail": "Employers 130/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 125/39"
+   "heartbeat_at": null,
+   "detail": "Employers 130/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 125/73"
+   "heartbeat_at": null,
+   "detail": "Employers 130/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -252,35 +245,35 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 120/45"
+   "heartbeat_at": null,
+   "detail": "Employers 125/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 120/41"
+   "heartbeat_at": null,
+   "detail": "Employers 125/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:02:28Z",
-   "detail": "Employers 120/31"
+   "heartbeat_at": null,
+   "detail": "Employers 125/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "272 of 702 units done",
+   "detail": "278 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -537,19 +530,13 @@
    }
   ]
  },
- "note": "Last activity 12:01 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 12:02 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1514,6 +1501,41 @@
     "time": "12:01 PM"
    },
    {
+    "company": "Federal Reserve Board",
+    "role": "Principal Cloud Architect - Division of Information Technology",
+    "reason": "stale — Directs others and/or contributes to project planning, defining, designing, managing, and supporting cloud computing applications.",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
+    "company": "DuPont",
+    "role": "Cloud Architect - IT Technology Solutions",
+    "reason": "not-remote — This is an onsite position. Team members work 3 days onsite and 2 days remote. Candidates must be within a commutable distance to Wilmington, DE.",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
+    "company": "Ecolab",
+    "role": "Lead Solution Architect - Digital Solutions",
+    "reason": "stale — Own solution architecture for digital products and operational workflows, translating business, Product and intended-use requirements into implementable end-to-end designs.",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
+    "company": "Yum! Brands",
+    "role": "Staff Enterprise Architect",
+    "reason": "stale — As an Enterprise Architect, you'll establish our new Enterprise Architecture practice by conducting architecture reviews, reviewing and providing feedback on project intake, providing solution architecture guidance",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
+    "company": "Sherwin-Williams",
+    "role": "Principal Enterprise Architect, Strategic Initiatives - ERP Program",
+    "reason": "experience-mismatch — Lead architect on at least one full-lifecycle, multi-wave Oracle Fusion Cloud ERP or SCM program at enterprise scale (Financials, Procurement, Order Management, Supply Chain Planning, Manufacturing, Inventory), through go-live and hypercare. Advisory-only program experience does not qualify",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
     "company": "Kraft Heinz",
     "role": "Senior Data Architect",
     "reason": "non-US — Bengaluru, Karnataka, India",
@@ -1962,11 +1984,25 @@
     "time": "12:01 PM"
    },
    {
+    "company": "American Airlines",
+    "role": "Principal Solution Architect, IT Software",
+    "reason": "stale — Cloud Architecture: Deep hands-on expertise designing and operating highly available, scalable, secure, low-latency, cloud-native distributed systems on Amazon Web Services (AWS)",
+    "where": "Employer sites",
+    "time": "12:02 PM"
+   },
+   {
     "company": "BlackRock",
     "role": "Enterprise Architect, Aladdin Engineering, Vice President",
     "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
     "where": "Employer sites",
     "time": "12:01 PM"
+   },
+   {
+    "company": "Coca-Cola",
+    "role": "Director, Cloud Software Architect",
+    "reason": "stale — The Director, Cloud Architecture is responsible for leading the design and evolution of cloud architecture capabilities that enable Coca-Cola's digital platforms and products at scale.",
+    "where": "Employer sites",
+    "time": "12:02 PM"
    },
    {
     "company": "TIAA",
@@ -4532,5 +4568,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T18:02:28Z"
+ "lists_generated_at": "2026-11-09T18:05:16Z"
 }
