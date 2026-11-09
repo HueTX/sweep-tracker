@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T17:57:52Z",
+ "generated_at": "2026-11-09T18:00:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T17:55:38Z",
+  "last_activity_at": "2026-11-09T17:59:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 3,
-  "rejected": 221,
-  "evaluated": 225
+  "rejected": 227,
+  "evaluated": 231
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 370,
+  "evaluated": 375,
   "filed": 2,
   "parked": 9,
-  "rejected": 359,
+  "rejected": 364,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,24 +80,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 120/30"
+   "heartbeat_at": null,
+   "detail": "Employers 125/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 120/39"
+   "heartbeat_at": null,
+   "detail": "Employers 125/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -241,46 +234,46 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 115/54"
+   "heartbeat_at": null,
+   "detail": "Employers 120/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 115/45"
+   "heartbeat_at": null,
+   "detail": "Employers 120/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 115/41"
+   "heartbeat_at": null,
+   "detail": "Employers 120/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T17:57:52Z",
-   "detail": "Employers 115/31"
+   "heartbeat_at": null,
+   "detail": "Employers 120/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "260 of 702 units done",
+   "detail": "266 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -537,19 +530,13 @@
    }
   ]
  },
- "note": "Last activity 11:55 AM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 11:59 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1197,6 +1184,13 @@
     "reason": "experience-mismatch — Strong experience with AWS security solutions and in securing AWS workloads;",
     "where": "Employer sites",
     "time": "1:32 AM"
+   },
+   {
+    "company": "Fortive",
+    "role": "Microsoft 365 Architect",
+    "reason": "stale — Define and maintain the Microsoft 365 architecture roadmap aligned with business and technology objectives",
+    "where": "Employer sites",
+    "time": "11:59 AM"
    },
    {
     "company": "RTX",
@@ -1885,6 +1879,13 @@
     "time": "11:48 AM"
    },
    {
+    "company": "3M",
+    "role": "Solutions Architect",
+    "reason": "stale — Leading technical engagement with hyperscale datacenter customers and compute/networking silicon vendors, establishing new contacts and building lasting relationships.",
+    "where": "Employer sites",
+    "time": "11:59 AM"
+   },
+   {
     "company": "Stanley Black & Decker",
     "role": "Domain Architect",
     "reason": "stale — Blue Yonder (Version 8.2)/JDA - MOCA, Report Writer, Jasper, Java, C+, .NET",
@@ -2023,6 +2024,13 @@
     "reason": "not-remote — Work Location: 15 Metrotech, Brooklyn, NY 11201 ... PLEASE NOTE THE PROPOSED SALARY RANGE FOR THIS POSITION IS 125,000.00 - 149,000.00 YEARLY",
     "where": "Employer sites",
     "time": "10:52 AM"
+   },
+   {
+    "company": "Massachusetts state portal",
+    "role": "Sr. Cloud Architect",
+    "reason": "not-remote — The primary work location will be remote, with the requirement to be on-site at MassDOT headquarters at 10 Park Plaza, Boston MA, one day per week, depending on operational needs.",
+    "where": "Employer sites",
+    "time": "11:59 AM"
    },
    {
     "company": "Connecticut state portal",
@@ -2947,6 +2955,20 @@
     "reason": "closed — The application period has now closed. Only Priority Placement Program participant applications will be added to the candidate pool.",
     "where": "Employer sites",
     "time": "11:53 AM"
+   },
+   {
+    "company": "Federal Reserve Board",
+    "role": "Cloud Architect",
+    "reason": "not-remote — Hybrid Work Schedule 1 day Week Onsite",
+    "where": "Employer sites",
+    "time": "11:59 AM"
+   },
+   {
+    "company": "Nuclear Regulatory Commission (NRC)",
+    "role": "Senior Information Technology Specialist (ENTARCH)",
+    "reason": "stale — Lead the development, implementation, and oversight of enterprise cloud strategies, policies, and roadmaps that support organizational mission and business objectives.",
+    "where": "Employer sites",
+    "time": "11:59 AM"
    }
   ],
   "Career.io": [
@@ -4441,5 +4463,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T17:57:52Z"
+ "lists_generated_at": "2026-11-09T18:00:02Z"
 }
