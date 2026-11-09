@@ -1,49 +1,47 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T01:07:14Z",
+ "generated_at": "2026-11-09T01:09:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "d82dd0db",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T01:03:12Z",
-  "last_activity_at": "2026-11-09T01:03:12Z",
+  "last_activity_at": "2026-11-09T01:07:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 1218,
-   "pct": 61
+   "pct": 62
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 2,
+  "rejected": 2,
+  "evaluated": 4
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 331,
+  "evaluated": 332,
   "filed": 1,
   "parked": 10,
-  "rejected": 320,
+  "rejected": 321,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W4"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -114,13 +112,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T01:07:14Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 32/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -285,10 +283,10 @@
    "ended_at": "2026-11-09T01:03:12Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T01:03:12Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T01:07:22Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -303,34 +301,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 7 units done",
+   "state": "done",
+   "detail": "7 of 7 units done",
    "started_at": "2026-11-09T01:03:12Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T01:08:07Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-09T01:03:12Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T01:07:22Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T01:09:23Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T01:09:23Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T01:09:23Z"
   }
  },
  "titles": {
@@ -415,7 +413,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -545,18 +543,18 @@
    }
   ]
  },
- "note": "Started 7:03 PM CT · 0 filed",
+ "note": "Last activity 7:07 PM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -858,9 +856,9 @@
    {
     "company": "CareFirst",
     "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131 [Undated live posting verdicted on the merits per the freshness law: the employer's own portal detail page (carefirstcareers.ttcportals.com, crawled 2026-11-08) carries no posted date, no expired/closed banner, and directs applicants to apply at www.carefirst.com/careers. Duties are architecture leadership: 'Translates business needs for cloud into architectural solutions that meet performance, reliability, and security expectations' with 'Minimum of 5 years direct experience with Azure architecture and engineering'. Published salary top $274,131 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer ATS detail page (governing text) - same $153,360-$274,131 range; (2) alternate routes - mirrors carry the same range; (3) no alternate posting of the same role with a different range found.]",
+    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131 [Employer's own portal detail page (carefirstcareers.ttcportals.com/jobs/14178979) checked 2026-11-08: Principal Cloud Architect (Remote), minimum 5 years direct Azure architecture experience. Top of range $274,131 exceeds the $230,000 band top - pay gate fact. Workarounds tried: employer's own ATS posting is the governing text; alternate mirrors (Built In / Ladders) carry the same range.]",
     "where": "Employer sites",
-    "time": "6:04 PM"
+    "time": "7:07 PM"
    },
    {
     "company": "Occidental Petroleum",
@@ -1862,6 +1860,13 @@
     "reason": "pay-outside-band — Pay Range Minimum: $86,400.00 Pay Range Maximum: $138,600.00; Position Type Office-based, Physical work site required Yes. Workarounds tried: (1) employer/enGen posting text via Built In full JD - same pay range and office-based type, (2) alternate routes carry the same JD, (3) no alternate posting changes the published range.",
     "where": "Employer sites",
     "time": "5:31 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect - Remote (Optum Health Financial Tech, AI/GenAI)",
+    "reason": "hands-on-coding — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases (e.g., SQLMI); 6+ years of experience in software engineering with at least 3+ years in a Technical Architect or Solution Architect role [Full JD read 2026-11-08 on the employer's own careers site: remote anywhere in the U.S., salary $112,700 - $193,200 (top in band), published 2026-11-04 - fresh. Hands-on Java/Spring Boot software engineering is a required qualification - reject per the hands-on programming rule. Workarounds tried: (1) employer's own ATS posting is the governing text read here, (2) Dice mirror of UHG cloud roles checked - same employer JD, (3) no alternate posting changes the Java requirement.]",
+    "where": "Employer sites",
+    "time": "7:07 PM"
    },
    {
     "company": "FedEx",
@@ -4125,5 +4130,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T01:07:14Z"
+ "lists_generated_at": "2026-11-09T01:09:23Z"
 }
