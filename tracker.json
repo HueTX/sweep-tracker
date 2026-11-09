@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T01:03:12Z",
+ "generated_at": "2026-11-09T01:05:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "d82dd0db",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-09T01:03:12Z",
   "last_activity_at": "2026-11-09T01:03:12Z",
@@ -41,7 +41,9 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -112,12 +114,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T01:05:09Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -283,7 +285,7 @@
    "ended_at": "2026-11-09T01:03:12Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-09T01:03:12Z",
    "ended_at": null
@@ -301,13 +303,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 7 units done",
    "started_at": "2026-11-09T01:03:12Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-09T01:03:12Z",
    "ended_at": null
@@ -544,12 +546,18 @@
   ]
  },
  "note": "Started 7:03 PM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4117,5 +4125,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T01:03:12Z"
+ "lists_generated_at": "2026-11-09T01:05:09Z"
 }
