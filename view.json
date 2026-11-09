@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T15:48:44Z",
+ "generated_at": "2026-11-09T15:50:49Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T15:47:55Z",
+  "last_activity_at": "2026-11-09T15:50:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 24,
+   "covered_units": 68,
    "total_units": 1218,
-   "pct": 2
+   "pct": 6
   },
   "families_covered": 10,
   "families_total": 58
@@ -28,41 +28,41 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 0,
-  "evaluated": 1
+  "rejected": 2,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 159,
+  "evaluated": 161,
   "filed": 1,
   "parked": 6,
-  "rejected": 152,
+  "rejected": 154,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
  "searching_lanes": [
   "LinkedIn",
-  "W3",
-  "W4",
-  "W5",
-  "W6"
+  "W16",
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 4,
+   "families_searched": 8,
    "families_total": 58,
    "current": null,
    "current_family": {
-    "index": 5,
-    "name": "Cloud Solutions Architect",
+    "index": 9,
+    "name": "Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-11-09T15:48:44Z",
-   "detail": "Titles 4/58"
+   "heartbeat_at": "2026-11-09T15:50:49Z",
+   "detail": "Titles 8/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -111,46 +111,46 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T15:48:44Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T15:48:44Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T15:48:44Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T15:48:44Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,45 +232,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:50:49Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:50:49Z",
    "detail": "Employers 0/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:50:49Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:50:49Z",
    "detail": "Employers 0/41"
   },
   "W20": {
@@ -300,7 +300,7 @@
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "2 of 29 units done",
+   "detail": "4 of 29 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -312,7 +312,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "2 of 702 units done",
+   "detail": "6 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -539,18 +539,18 @@
    }
   ]
  },
- "note": "Last activity 9:47 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:50 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "LinkedIn · Title 9 of 58 · Solutions Architect",
    "detail": "Families covered 10/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "LinkedIn",
+  "headline": "LinkedIn · Title 9 of 58 · Solutions Architect",
   "detail": "Families covered 10/58"
  },
  "rules": {
