@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T07:05:47Z",
+ "generated_at": "2026-11-09T07:07:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T07:04:38Z",
+  "last_activity_at": "2026-11-09T07:06:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,25 @@
  "counts": {
   "filed": 1,
   "parked": 11,
-  "rejected": 441,
-  "evaluated": 454
+  "rejected": 451,
+  "evaluated": 464
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 110,
+  "evaluated": 119,
   "filed": 1,
   "parked": 4,
-  "rejected": 105,
+  "rejected": 114,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
  "searching_lanes": [
+  "W3",
   "W5",
   "W6",
   "W16",
   "W17",
-  "W18",
   "W19"
  ],
  "lanes": {
@@ -108,13 +108,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/73"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 260/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -135,8 +135,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,8 +146,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 256/44"
   },
   "W9": {
    "label": "Dice",
@@ -234,8 +234,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 250/59"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 260/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,19 +245,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 250/54"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 260/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 250/45"
+   "heartbeat_at": null,
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -267,8 +267,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:05:47Z",
-   "detail": "Employers 242/41"
+   "heartbeat_at": "2026-11-09T07:07:55Z",
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "539 of 632 units done",
+   "detail": "551 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 1:04 AM CT · 6 workers in flight · 1 filed this cycle",
+ "note": "Last activity 1:06 AM CT · 6 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W19",
+  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -835,6 +835,27 @@
     "time": "12:42 AM"
    },
    {
+    "company": "Johnson & Johnson",
+    "role": "Principal Engr Platform/Cloud Engineering",
+    "reason": "stale — Published: 2026-10-16 - outside the 7-day eligibility window; posting locations Spring House, PA, Raritan, NJ or Beerse, Belgium (site-based R&D role).",
+    "where": "Employer sites",
+    "time": "1:06 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Enterprise Technical Architect",
+    "reason": "stale — Published: 2025-10-26 - outside the 7-day window; Zone A base pay $205,200 - $267,900 (top also above the $230,000 band).",
+    "where": "Employer sites",
+    "time": "1:05 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "not-remote — Work Location Assignment: Hybrid. Must be able to work in assigned Pfizer office 2-3 days per week, or as needed by the business. - This role is NOT remote (Pfizer's own careers page, job 4966462). Also GCP-first duties and published 2026-10-02.",
+    "where": "Employer sites",
+    "time": "1:06 AM"
+   },
+   {
     "company": "TIAA",
     "role": "Director, Solutions Architect - Legal, Risk & Compliance",
     "reason": "closed — Anticipated Posting End Date: 2026-11-02",
@@ -889,6 +910,13 @@
     "reason": "stale — Published: 2026-10-24T00:00:00Z - outside the 7-day window; DevOps Architect title with GCP-first experience requirement (at least 3 years deploying within Google Cloud Platform).",
     "where": "Employer sites",
     "time": "1:04 AM"
+   },
+   {
+    "company": "PayPal",
+    "role": "Distinguished Software Architect",
+    "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150; Primary Location New York City, New York ($242,000.00 - $359,150.00 Annually) - top of range far above the $230,000 band ceiling. Role also requires 10+ years of software engineering experience in Consumer Engineering (software-engineering core, not cloud/enterprise architecture).",
+    "where": "Employer sites",
+    "time": "1:05 AM"
    },
    {
     "company": "Connecticut state portal",
@@ -1281,6 +1309,41 @@
     "reason": "stale — Date posted Monday, October 19, 2026, Ref # 2425 - outside the 7-day window; AWS networking role (AWS-first).",
     "where": "Employer sites",
     "time": "1:04 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Systems Architect - Sr. Consultant level (Hybrid/Onsite)",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs.",
+    "where": "Employer sites",
+    "time": "1:05 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Network Architect",
+    "reason": "stale — Published: 2026-09-21 - outside the 7-day window; pay $165.8k - $243.1k / year (top also above the $230,000 band).",
+    "where": "Employer sites",
+    "time": "1:05 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Senior Cloud Platform Engineer - Tech Lead",
+    "reason": "stale — Published: 2026-03-31 - outside the 7-day window; also hybrid 3 days onsite in Indianapolis and explicitly hands-on-keyboard (write Terraform, build CI/CD pipelines) on AWS.",
+    "where": "Employer sites",
+    "time": "1:06 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Lead Systems Engineer - Cloud Infrastructure Engineering",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs.",
+    "where": "Employer sites",
+    "time": "1:06 AM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Principal, Platform Engineer",
+    "reason": "stale — Published: 2025-08-19 - outside the 7-day eligibility window; Principal Cloud Platform Architect/Engineer for M&A activities, AWS experience is a must.",
+    "where": "Employer sites",
+    "time": "1:06 AM"
    }
   ],
   "Built In": [
@@ -2592,5 +2655,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T07:05:47Z"
+ "lists_generated_at": "2026-11-09T07:07:55Z"
 }
