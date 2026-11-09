@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T06:58:11Z",
+ "generated_at": "2026-11-09T07:00:12Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T06:57:57Z",
+  "last_activity_at": "2026-11-09T07:00:01Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,29 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 11,
-  "rejected": 426,
-  "evaluated": 439
+  "rejected": 436,
+  "evaluated": 449
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 96,
+  "evaluated": 105,
   "filed": 1,
   "parked": 4,
-  "rejected": 91,
+  "rejected": 100,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,24 +90,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
+   "heartbeat_at": null,
    "detail": "Employers 230/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 240/73"
+   "heartbeat_at": null,
+   "detail": "Employers 250/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -132,24 +123,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 239/44"
+   "heartbeat_at": null,
+   "detail": "Employers 243/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 239/44"
+   "heartbeat_at": null,
+   "detail": "Employers 243/44"
   },
   "W9": {
    "label": "Dice",
@@ -231,46 +222,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 235/59"
+   "heartbeat_at": null,
+   "detail": "Employers 245/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 235/54"
+   "heartbeat_at": null,
+   "detail": "Employers 245/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": null,
+   "detail": "Employers 250/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T06:58:11Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": null,
+   "detail": "Employers 242/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -311,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "521 of 632 units done",
+   "detail": "533 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -552,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 12:57 AM CT · 12 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 1:00 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1241,6 +1226,59 @@
     "reason": "not-remote — Location: Honolulu – Oahu",
     "where": "Employer sites",
     "time": "12:57 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Solutions Architecture - Advisor I",
+    "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
+    "where": "Employer sites",
+    "time": "12:58 AM"
+   }
+  ],
+  "Built In": [
+   {
+    "company": "Atlassian",
+    "role": "Principal Enterprise Architect",
+    "reason": "stale — Published: 2026-01-02",
+    "where": "Built In",
+    "time": "1:00 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Solutions Architect",
+    "reason": "stale — Published: 2026-02-10",
+    "where": "Built In",
+    "time": "12:58 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Director, Principal Technical Architect",
+    "reason": "stale — Published: 2026-08-26",
+    "where": "Built In",
+    "time": "12:58 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Architect",
+    "reason": "stale — Published: 2026-02-26",
+    "where": "Built In",
+    "time": "12:58 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Principal Security Architect",
+    "reason": "stale — Published: 2026-10-14",
+    "where": "Built In",
+    "time": "12:58 AM"
+   }
+  ],
+  "Jobicy": [
+   {
+    "company": "Twilio",
+    "role": "Presales Architect",
+    "reason": "non-US — This role will be remote, and based in Singapore.",
+    "where": "Jobicy",
+    "time": "12:58 AM"
    }
   ],
   "Dice": [
@@ -1307,6 +1345,24 @@
     "reason": "stale — Published: 2026-10-29T12:32:28",
     "where": "Ladders",
     "time": "12:57 AM"
+   }
+  ],
+  "Glassdoor": [
+   {
+    "company": "Mastercard",
+    "role": "Principal Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform)",
+    "reason": "non-US — Mastercard hiring Principal Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform) Job in Pune",
+    "where": "Glassdoor",
+    "time": "1:00 AM"
+   }
+  ],
+  "CareerOne": [
+   {
+    "company": "Mastercard",
+    "role": "Principal Architect – Global Payments",
+    "reason": "non-US — MasterCard • Colombia",
+    "where": "CareerOne",
+    "time": "1:00 AM"
    }
   ]
  },
@@ -2488,5 +2544,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T06:58:11Z"
+ "lists_generated_at": "2026-11-09T07:00:12Z"
 }
