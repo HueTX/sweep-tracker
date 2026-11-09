@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T02:28:43Z",
+ "generated_at": "2026-11-09T02:30:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "be892dd3",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:26:34Z",
-  "last_activity_at": "2026-11-09T02:26:34Z",
+  "last_activity_at": "2026-11-09T02:29:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 738,
+   "covered_units": 748,
    "total_units": 1218,
    "pct": 61
   },
@@ -27,9 +27,9 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
+  "parked": 2,
   "rejected": 0,
-  "evaluated": 0
+  "evaluated": 2
  },
  "today": {
   "date": "2026-11-08",
@@ -41,9 +41,7 @@
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -59,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 42,
+   "phase": "queued",
+   "families_searched": 52,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T02:28:43Z",
-   "detail": "Titles 42/58"
+   "heartbeat_at": null,
+   "detail": "Titles 52/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -285,10 +283,10 @@
    "ended_at": "2026-11-09T02:26:34Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T02:29:34Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -304,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 3 units done",
+   "detail": "3 of 4 units done",
    "started_at": "2026-11-09T02:26:34Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-09T02:26:34Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T02:29:34Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,19 +543,13 @@
    }
   ]
  },
- "note": "Started 8:26 PM CT · 0 filed",
- "pill": [
-  {
-   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 8:29 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
