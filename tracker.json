@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T08:03:11Z",
+ "generated_at": "2026-11-09T08:05:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T07:39:15Z",
+  "last_activity_at": "2026-11-09T08:04:48Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 13,
-  "rejected": 487,
-  "evaluated": 502
+  "rejected": 491,
+  "evaluated": 506
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 155,
+  "evaluated": 159,
   "filed": 1,
   "parked": 6,
-  "rejected": 148,
+  "rejected": 152,
   "filed_by_source": {
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +101,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T08:03:11Z",
-   "detail": "Employers 408/73"
+   "heartbeat_at": null,
+   "detail": "Employers 438/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -303,10 +301,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "626 of 632 units done",
+   "state": "done",
+   "detail": "632 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T08:04:58Z"
   },
   "sector_filing": {
    "state": "done",
@@ -315,22 +313,22 @@
    "ended_at": "2026-11-09T06:23:34Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T08:05:45Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T08:05:45Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-09T08:05:45Z"
   }
  },
  "titles": {
@@ -415,7 +413,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -545,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:39 AM CT · 6 workers in flight · 1 filed this cycle",
+ "note": "Last activity 2:04 AM CT · 0 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -736,6 +734,13 @@
     "reason": "stale — In this role, you will serve as the hands-on technical lead for our platform engineering team in Austin. You will stay close to the code while helping guide technical decisions, designing core microservices and scaling platform capabilities",
     "where": "Dice",
     "time": "12:42 AM"
+   },
+   {
+    "company": "Medtronic",
+    "role": "Senior Principal IT Architect - Supply Chain & Manufacturing",
+    "reason": "not-remote — The role follows a flexible onsite work model, with employees expected to work onsite four days per week.",
+    "where": "Dice",
+    "time": "2:04 AM"
    }
   ],
   "Employer sites": [
@@ -836,6 +841,13 @@
     "reason": "stale — Gilead Cloud core platform services and automation development (design, development and delivery of technical code) for the AWS Control Tower Landing Zone; Terraform development impacting AWS account baselines, CI/CD integration with the platform, DMZ networking, and SCP management",
     "where": "Employer sites",
     "time": "1:24 AM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Oncology Solution Architect - Growth & Expansion Team (G.E.T) (Remote)",
+    "reason": "closed — Applications for this position are no longer being accepted.",
+    "where": "Employer sites",
+    "time": "2:04 AM"
    },
    {
     "company": "Incyte",
@@ -1610,6 +1622,13 @@
   ],
   "Built In": [
    {
+    "company": "Medtronic",
+    "role": "Senior Principal IT Enterprise Architect - Infrastructure and Security",
+    "reason": "not-remote — We're working onsite 4 days a week as part of our commitment to fostering a culture of professional growth",
+    "where": "Built In",
+    "time": "2:04 AM"
+   },
+   {
     "company": "Baxter International Inc.",
     "role": "Senior AI Security Architect",
     "reason": "stale — This is a remote U.S.-based role with quarterly travel to Baxter's Deerfield, IL headquarters.",
@@ -1629,6 +1648,13 @@
     "reason": "stale — Published: 2026-02-10",
     "where": "Built In",
     "time": "12:58 AM"
+   },
+   {
+    "company": "Baxter International",
+    "role": "Senior AI Security Architect",
+    "reason": "stale — Published: 2026-10-26",
+    "where": "Built In",
+    "time": "2:04 AM"
    },
    {
     "company": "Eli Lilly and Company",
@@ -2861,7 +2887,6 @@
    "Novo Nordisk",
    "Discover Financial",
    "Elastic",
-   "Baxter International",
    "Providence",
    "FedEx",
    "C.H. Robinson",
@@ -2905,5 +2930,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T08:03:11Z"
+ "lists_generated_at": "2026-11-09T08:05:45Z"
 }
