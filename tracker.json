@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T15:46:16Z",
+ "generated_at": "2026-11-09T15:48:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
@@ -10,26 +10,26 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T15:43:36Z",
+  "last_activity_at": "2026-11-09T15:47:55Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 24,
    "total_units": 1218,
-   "pct": 0
+   "pct": 2
   },
-  "families_covered": 0,
+  "families_covered": 10,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
+  "parked": 1,
   "rejected": 0,
-  "evaluated": 0
+  "evaluated": 1
  },
  "today": {
   "date": "2026-11-09",
@@ -43,24 +43,26 @@
  },
  "searching_lanes": [
   "LinkedIn",
-  "W1",
-  "W2"
+  "W3",
+  "W4",
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 4,
    "families_total": 58,
    "current": null,
    "current_family": {
-    "index": 1,
-    "name": "Azure Architect",
+    "index": 5,
+    "name": "Cloud Solutions Architect",
     "total": 58
    },
-   "heartbeat_at": "2026-11-09T15:46:16Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": "2026-11-09T15:48:44Z",
+   "detail": "Titles 4/58"
   },
   "W8": {
    "label": "Web Catch-All",
@@ -87,67 +89,67 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T15:46:16Z",
-   "detail": "Employers 0/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "searching",
-   "families_searched": 0,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T15:46:16Z",
-   "detail": "Employers 0/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
    "phase": "queued",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
+   "phase": "queued",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "searching",
+   "families_searched": 0,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-09T15:48:44Z",
    "detail": "Employers 0/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:48:44Z",
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:48:44Z",
    "detail": "Employers 0/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T15:48:44Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -291,14 +293,14 @@
    "ended_at": "2026-11-09T15:43:36Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T15:43:36Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T15:48:07Z"
   },
   "linkedin_discovery": {
    "state": "active",
-   "detail": "0 of 29 units done",
+   "detail": "2 of 29 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -310,15 +312,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 702 units done",
+   "detail": "2 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-09T15:43:36Z",
-   "ended_at": null
+   "ended_at": "2026-11-09T15:48:07Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -341,18 +343,18 @@
  },
  "titles": {
   "total": 58,
-  "searched": 0,
+  "searched": 10,
   "families": {
-   "Azure Architect": "pending",
-   "Azure Solutions Architect": "pending",
-   "Azure Cloud Architect": "pending",
-   "Cloud Architect": "pending",
-   "Cloud Solutions Architect": "pending",
-   "Enterprise Architect": "pending",
-   "Infrastructure Architect": "pending",
-   "Platform Architect": "pending",
-   "Solutions Architect": "pending",
-   "Solution Architect": "pending",
+   "Azure Architect": "done",
+   "Azure Solutions Architect": "done",
+   "Azure Cloud Architect": "done",
+   "Cloud Architect": "done",
+   "Cloud Solutions Architect": "done",
+   "Enterprise Architect": "done",
+   "Infrastructure Architect": "done",
+   "Platform Architect": "done",
+   "Solutions Architect": "done",
+   "Solution Architect": "done",
    "Domain Architect": "pending",
    "Resiliency Architect": "pending",
    "IT/OT Architect": "pending",
@@ -537,19 +539,19 @@
    }
   ]
  },
- "note": "Started 9:43 AM CT · 0 filed",
+ "note": "Last activity 9:47 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 0/58",
-   "pool": "W1"
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 10/58",
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 0/58"
+  "label": "W3",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 10/58"
  },
  "rules": {
   "follow_all": false,
@@ -2924,5 +2926,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T15:46:16Z"
+ "lists_generated_at": "2026-11-09T15:48:44Z"
 }
