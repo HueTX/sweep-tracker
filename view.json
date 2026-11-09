@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T18:27:47Z",
+ "generated_at": "2026-11-09T18:30:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "39e8967a",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T15:43:36Z",
-  "last_activity_at": "2026-11-09T18:26:41Z",
+  "last_activity_at": "2026-11-09T18:29:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 696,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 5,
-  "rejected": 269,
-  "evaluated": 275
+  "rejected": 272,
+  "evaluated": 278
  },
  "today": {
   "date": "2026-11-09",
-  "evaluated": 417,
+  "evaluated": 420,
   "filed": 2,
   "parked": 11,
-  "rejected": 404,
+  "rejected": 407,
   "filed_by_source": {
    "Dollar General careers (Oracle HCM)": 1,
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -93,62 +86,62 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/30"
+   "detail": "Employers 155/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/39"
+   "heartbeat_at": null,
+   "detail": "Employers 155/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/73"
+   "heartbeat_at": null,
+   "detail": "Employers 150/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/32"
+   "heartbeat_at": null,
+   "detail": "Employers 150/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/44"
+   "heartbeat_at": null,
+   "detail": "Employers 150/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/44"
+   "heartbeat_at": null,
+   "detail": "Employers 150/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T18:27:47Z",
-   "detail": "Employers 145/59"
+   "heartbeat_at": null,
+   "detail": "Employers 150/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 145/54"
+   "detail": "Employers 150/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 145/45"
+   "detail": "Employers 150/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 145/41"
+   "detail": "Employers 150/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,7 +273,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 145/31"
+   "detail": "Employers 150/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "320 of 702 units done",
+   "detail": "332 of 702 units done",
    "started_at": "2026-11-09T15:43:36Z",
    "ended_at": null
   },
@@ -537,19 +530,13 @@
    }
   ]
  },
- "note": "Last activity 12:26 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 12:29 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
