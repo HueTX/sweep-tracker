@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:32:51Z",
+ "generated_at": "2026-11-09T03:34:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T03:32:28Z",
+  "last_activity_at": "2026-11-09T03:33:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 698,
+   "covered_units": 746,
    "total_units": 754,
-   "pct": 93
+   "pct": 99
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,26 +28,26 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 103,
-  "evaluated": 105
+  "rejected": 108,
+  "evaluated": 110
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 449,
+  "evaluated": 453,
   "filed": 1,
   "parked": 12,
-  "rejected": 436,
+  "rejected": 440,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
  "searching_lanes": [
+  "W1",
+  "W2",
+  "W3",
+  "W4",
   "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -86,68 +86,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:34:36Z",
    "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:34:36Z",
    "detail": "Employers 30/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:34:36Z",
    "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-09T03:34:36Z",
    "detail": "Employers 30/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 50,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": "2026-11-09T03:34:36Z",
+   "detail": "Employers 30/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": null,
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,56 +229,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "searching",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:32:51Z",
-   "detail": "Employers 25/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "queued",
-   "families_searched": 50,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 30/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 30/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 30/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 30/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 50,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-09T03:34:36Z",
    "detail": "Employers 25/31"
   }
  },
@@ -309,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "79 of 632 units done",
+   "detail": "85 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
    }
   ]
  },
- "note": "Last activity 9:32 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:33 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W20",
+  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1199,6 +1199,13 @@
     "time": "9:08 PM"
    },
    {
+    "company": "BP",
+    "role": "Enterprise Architect",
+    "reason": "closed — Job post no longer accepts applications",
+    "where": "Employer sites",
+    "time": "9:33 PM"
+   },
+   {
     "company": "HCA Healthcare",
     "role": "Enterprise Data Architect (CereCore)",
     "reason": "not-remote — Location: Onsite - Nashville, TN; Classification: Contract, Duration: 3-months; Pay: $56.85 - $72.00 per hour. Workarounds tried: (1) employer's own HCA/CereCore listing terms via Glassdoor mirror (onsite stated); (2) alternate board routes searched, no remote variant; (3) no alternate posting found.",
@@ -1654,11 +1661,25 @@
     "time": "2:12 AM"
    },
    {
+    "company": "Northrop Grumman",
+    "role": "Business Capability Architect - Enterprise Focused",
+    "reason": "clearance — US Citizenship, US Top Secret Clearance Required",
+    "where": "Employer sites",
+    "time": "9:33 PM"
+   },
+   {
     "company": "Lockheed Martin",
     "role": "AI Software & Systems Architect",
     "reason": "hands-on — Kubernetes platform developer, utilizing Docker, Helm, Kubectl, Kubeadm, as well as Rancher and OpenShift platforms",
     "where": "Employer sites",
     "time": "9:16 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Associate Director, Enterprise Architect Lead (Applications/Compliance)",
+    "reason": "stale — The salary range for this role is 157,200 USD - 298,800 USD.",
+    "where": "Employer sites",
+    "time": "9:33 PM"
    },
    {
     "company": "UPS",
@@ -1673,6 +1694,13 @@
     "reason": "pay-outside-band — SALARY GRADE (SG): SG25 ($100,671-$126,875)",
     "where": "Employer sites",
     "time": "2:33 AM"
+   },
+   {
+    "company": "ExxonMobil",
+    "role": "Cloud Data Architect",
+    "reason": "closed — This position is no longer taking new applicants.",
+    "where": "Employer sites",
+    "time": "9:33 PM"
    },
    {
     "company": "Lockheed Martin",
@@ -4973,5 +5001,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T03:32:51Z"
+ "lists_generated_at": "2026-11-09T03:34:36Z"
 }
