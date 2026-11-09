@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T07:17:40Z",
+ "generated_at": "2026-11-09T07:19:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
   "last_activity_at": "2026-11-09T07:17:19Z",
@@ -41,11 +41,7 @@
    "Greenhouse (Accenture Federal Services)": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -105,13 +101,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:17:40Z",
-   "detail": "Employers 285/73"
+   "heartbeat_at": null,
+   "detail": "Employers 305/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -226,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:17:40Z",
-   "detail": "Employers 285/59"
+   "heartbeat_at": null,
+   "detail": "Employers 305/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T07:17:40Z",
-   "detail": "Employers 285/54"
+   "heartbeat_at": null,
+   "detail": "Employers 304/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -306,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "575 of 632 units done",
+   "detail": "587 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -547,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 1:17 AM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 1:17 AM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2694,5 +2684,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-09T07:17:40Z"
+ "lists_generated_at": "2026-11-09T07:19:25Z"
 }
