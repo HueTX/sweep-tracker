@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-09T03:26:28Z",
+ "generated_at": "2026-11-09T03:28:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "ea676008",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-09T02:51:51Z",
-  "last_activity_at": "2026-11-09T03:25:04Z",
+  "last_activity_at": "2026-11-09T03:26:53Z",
   "progress": {
    "pools": 21,
-   "covered_units": 526,
+   "covered_units": 646,
    "total_units": 754,
-   "pct": 70
+   "pct": 86
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 92,
-  "evaluated": 94
+  "rejected": 93,
+  "evaluated": 95
  },
  "today": {
   "date": "2026-11-08",
-  "evaluated": 439,
+  "evaluated": 440,
   "filed": 1,
   "parked": 12,
-  "rejected": 426,
+  "rejected": 427,
   "filed_by_source": {
    "Oracle Candidate Experience (Cummins ATS)": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,68 +79,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 20/30"
+   "heartbeat_at": null,
+   "detail": "Employers 25/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 20/39"
+   "heartbeat_at": null,
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 20/73"
+   "heartbeat_at": null,
+   "detail": "Employers 25/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "queued",
-   "families_searched": 40,
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/32"
+   "detail": "Employers 25/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "queued",
-   "families_searched": 40,
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/44"
+   "detail": "Employers 25/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
    "phase": "queued",
-   "families_searched": 40,
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/44"
+   "detail": "Employers 25/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,56 +223,56 @@
    "label": "Financial Services",
    "sites": 59,
    "phase": "queued",
-   "families_searched": 40,
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/59"
+   "detail": "Employers 25/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
+   "phase": "queued",
+   "families_searched": 50,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 25/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 50,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 25/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
    "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 30,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 15/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "searching",
-   "families_searched": 30,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 15/41"
+   "detail": "Employers 20/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-09T03:26:28Z",
-   "detail": "Employers 15/31"
+   "heartbeat_at": null,
+   "detail": "Employers 20/31"
   }
  },
  "stages": {
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "61 of 632 units done",
+   "detail": "73 of 632 units done",
    "started_at": "2026-11-09T02:51:51Z",
    "ended_at": null
   },
@@ -550,19 +543,13 @@
    }
   ]
  },
- "note": "Last activity 9:25 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 9:26 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
