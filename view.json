@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T07:18:47Z",
+ "generated_at": "2026-11-10T07:20:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T07:12:45Z",
+  "last_activity_at": "2026-11-10T07:18:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 145,
-  "evaluated": 147
+  "rejected": 146,
+  "evaluated": 148
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 139,
+  "evaluated": 140,
   "filed": 0,
   "parked": 1,
-  "rejected": 138,
+  "rejected": 139,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
   "W4",
   "W5",
   "W6",
   "W16",
   "W17",
   "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -88,35 +86,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 45/30"
+   "heartbeat_at": null,
+   "detail": "Employers 50/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 45/39"
+   "heartbeat_at": null,
+   "detail": "Employers 50/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 45/73"
+   "heartbeat_at": null,
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,8 +124,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 40/32"
+   "heartbeat_at": "2026-11-10T07:20:18Z",
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,8 +135,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 40/44"
+   "heartbeat_at": "2026-11-10T07:20:18Z",
+   "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +146,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
+   "heartbeat_at": "2026-11-10T07:20:18Z",
    "detail": "Employers 40/44"
   },
   "W9": {
@@ -236,7 +234,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
+   "heartbeat_at": "2026-11-10T07:20:18Z",
    "detail": "Employers 40/59"
   },
   "W17": {
@@ -247,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
+   "heartbeat_at": "2026-11-10T07:20:18Z",
    "detail": "Employers 40/54"
   },
   "W18": {
@@ -258,18 +256,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
+   "heartbeat_at": "2026-11-10T07:20:18Z",
    "detail": "Employers 40/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:20:18Z",
    "detail": "Employers 45/41"
   },
   "W20": {
@@ -280,8 +278,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:18:47Z",
-   "detail": "Employers 40/31"
+   "heartbeat_at": "2026-11-10T07:20:18Z",
+   "detail": "Employers 45/31"
   }
  },
  "stages": {
@@ -311,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "112 of 632 units done",
+   "detail": "118 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
@@ -552,7 +550,7 @@
    }
   ]
  },
- "note": "Last activity 1:12 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:18 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W4 · Title 11 of 58 · Domain Architect",
