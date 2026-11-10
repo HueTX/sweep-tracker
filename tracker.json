@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T10:14:49Z",
+ "generated_at": "2026-11-10T10:16:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T10:12:33Z",
+  "last_activity_at": "2026-11-10T10:16:11Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 313,
-  "evaluated": 318
+  "rejected": 314,
+  "evaluated": 319
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 302,
+  "evaluated": 303,
   "filed": 0,
   "parked": 2,
-  "rejected": 300,
+  "rejected": 301,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -95,35 +88,35 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 205/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 205/73"
-  },
-  "W4": {
-   "label": "Healthcare Insurers",
-   "sites": 32,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/32"
+   "detail": "Employers 210/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 210/73"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,7 +127,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "detail": "Employers 210/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +138,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "detail": "Employers 210/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,51 +226,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/59"
+   "detail": "Employers 210/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 200/54"
+   "heartbeat_at": null,
+   "detail": "Employers 210/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 200/45"
+   "heartbeat_at": null,
+   "detail": "Employers 210/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 200/41"
+   "heartbeat_at": null,
+   "detail": "Employers 205/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:14:49Z",
-   "detail": "Employers 184/31"
+   "heartbeat_at": null,
+   "detail": "Employers 185/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "462 of 632 units done",
+   "detail": "474 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
@@ -548,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 4:12 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 4:16 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2146,6 +2133,13 @@
     "reason": "not-remote — Hybrid: This role is categorized as hybrid. This means the successful candidate is expected to report to the Sunnyvale or Austin office three times per week, at minimum.",
     "where": "Employer sites",
     "time": "4:03 AM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "pay-outside-band — $112,725 - $155,298; The role may require relocation and/or travel to the work or project location.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
    }
   ],
   "Dice": [
@@ -3963,5 +3957,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T10:14:49Z"
+ "lists_generated_at": "2026-11-10T10:16:45Z"
 }
