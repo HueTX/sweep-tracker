@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T10:53:44Z",
+ "generated_at": "2026-11-10T10:55:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
   "kind": "cycle",
-  "status": "running",
+  "status": "closed",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -99,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 432/73"
+   "detail": "Employers 438/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -299,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "630 of 632 units done",
+   "state": "done",
+   "detail": "632 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
-   "ended_at": null
+   "ended_at": "2026-11-10T10:53:49Z"
   },
   "sector_filing": {
    "state": "done",
@@ -311,22 +311,22 @@
    "ended_at": "2026-11-10T09:28:16Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-10T10:55:52Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-10T10:55:52Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-10T10:55:52Z"
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -542,12 +542,18 @@
   ]
  },
  "note": "Last activity 4:53 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "pill": [
+  {
+   "primary": "Sweep complete — all coverage fresh",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep complete — all coverage fresh",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4493,5 +4499,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T10:53:44Z"
+ "lists_generated_at": "2026-11-10T10:55:52Z"
 }
