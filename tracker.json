@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T10:21:06Z",
+ "generated_at": "2026-11-10T10:22:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T10:17:16Z",
+  "last_activity_at": "2026-11-10T10:22:14Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 315,
-  "evaluated": 320
+  "rejected": 339,
+  "evaluated": 344
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 304,
+  "evaluated": 328,
   "filed": 0,
   "parked": 2,
-  "rejected": 302,
+  "rejected": 326,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W3",
+  "W5",
+  "W6",
   "W16",
   "W17",
   "W18",
@@ -95,24 +95,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": null,
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 215/73"
+   "heartbeat_at": null,
+   "detail": "Employers 220/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,23 +128,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T10:22:43Z",
    "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T10:22:43Z",
    "detail": "Employers 215/44"
   },
   "W9": {
@@ -232,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 210/59"
+   "heartbeat_at": "2026-11-10T10:22:43Z",
+   "detail": "Employers 215/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,8 +243,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 210/54"
+   "heartbeat_at": "2026-11-10T10:22:43Z",
+   "detail": "Employers 215/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 210/45"
+   "heartbeat_at": "2026-11-10T10:22:43Z",
+   "detail": "Employers 215/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T10:21:06Z",
-   "detail": "Employers 210/41"
+   "heartbeat_at": "2026-11-10T10:22:43Z",
+   "detail": "Employers 215/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "480 of 632 units done",
+   "detail": "486 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
@@ -548,18 +548,18 @@
    }
   ]
  },
- "note": "Last activity 4:17 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:22 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W5 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "label": "W5",
+  "headline": "W5 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -727,6 +727,13 @@
     "time": "3:54 AM"
    },
    {
+    "company": "MD Anderson Cancer Center",
+    "role": "Enterprise Data Architect",
+    "reason": "closed — Unfortunately this position has been closed but you can search our 377 open jobs by clicking here.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
     "company": "GuideWell / Florida Blue",
     "role": "Enterprise Cloud Architect",
     "reason": "stale — Published: 2026-09-13; This position offers a hybrid work arrangement which combines flexibility with in office engagement.",
@@ -823,6 +830,13 @@
     "reason": "stale — The Network Security Architect is responsible for the enterprise architecture, design, and technical direction of Lifepoint Health's network infrastructure across routing, switching, wireless, SD-WAN, data center, and cloud connectivity",
     "where": "Employer sites",
     "time": "3:08 AM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Cloud Enterprise Architect - Azure",
+    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
    },
    {
     "company": "Experian",
@@ -1182,6 +1196,41 @@
     "time": "3:32 AM"
    },
    {
+    "company": "NYU Langone Health",
+    "role": "Enterprise Cloud Architect - AWS",
+    "reason": "aws-first — 8 years of AWS cloud architecture",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Chubb",
+    "role": "Senior Solution Architect",
+    "reason": "stale — Hands-on experience with cloud platforms and integration technologies, including Azure, AWS, Kafka, MQ, Service Bus, and API mediation, plus coding proficiency in C#, Java, JavaScript, Angular, and/or Node.js",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Textron",
+    "role": "Sr. Cloud Solutions Architect",
+    "reason": "hands-on-coding — Lead Infrastructure as Code initiatives using Terraform and automation tools, with hands-on coding in Java, C#, or Python.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "EPAM Systems",
+    "role": "Solution Architect (Microsoft Azure Cloud)",
+    "reason": "stale — We are seeking a seasoned Solution Architect to drive pre-sales efforts through the design and presentation of enterprise-grade solutions built on Microsoft Azure.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Cyber Security Architect - TSIII - Digital and Technology Partners",
+    "reason": "stale — The Technology Specialist III – Cyber Security Architect is responsible for the design, implementation, and governance of enterprise security architecture solutions that protect Mount Sinai Health System's users, applications, and data.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
     "company": "Providence",
     "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
     "reason": "not-remote — Providence welcomes virtual work for applicants who reside within in one of the following states: - Washington - Oregon - California",
@@ -1532,6 +1581,13 @@
     "time": "4:17 AM"
    },
    {
+    "company": "RWJBarnabas Health",
+    "role": "Security Risk App Architect",
+    "reason": "experience-mismatch — The RWJBarnabas Security Risk Application Architect is responsible for the maintenance and functionality of the systems used by the team.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
     "company": "CSX",
     "role": "Systems Architect II (Azure Cloud Infrastructure, IaC, Networking & Security)",
     "reason": "not-remote — Jacksonville, Florida, United States Full Time, On Site",
@@ -1588,6 +1644,13 @@
     "time": "2:53 AM"
    },
    {
+    "company": "eBay",
+    "role": "Cloud Architect",
+    "reason": "stale — As a Cloud Architect, you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
     "company": "Lockheed Martin",
     "role": "Enterprise Architect",
     "reason": "stale — Develops enterprise and systems architecture, with a focus on interface definition and behavioral analysis. Published 2026-10-30 - outside the 7-day eligibility window at 2026-11-10; Bethesda, MD location; GEOZONE 1 salary top $344,400 also above band.",
@@ -1621,6 +1684,20 @@
     "reason": "closed — Job expired",
     "where": "Employer sites",
     "time": "2:06 AM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Assistant Vice President, Data & Analytics Architecture - Data Products and Enablement",
+    "reason": "stale — This position is based at one of Travelers' primary hubs — Hartford, CT, St. Paul, MN, or Hunt Valley, MD — with hybrid and fully in-office arrangements available",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "DXC Technology",
+    "role": "Cloud SaaS Solution Architect",
+    "reason": "stale — with strong expertise in DevOps, Infrastructure as Code (IaC), and enterprise application modernization. This role requires hands-on implementation",
+    "where": "Employer sites",
+    "time": "4:22 AM"
    },
    {
     "company": "Cognizant",
@@ -1658,11 +1735,60 @@
     "time": "3:19 AM"
    },
    {
+    "company": "Johnson Controls",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This position follows a hybrid work model and requires regular in-office collaboration at our Glendale, WI location.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "Director, Network Architecture and Engineering (Remote)",
+    "reason": "stale — Position is open for remote Nationwide or on site in Milwaukee, WI",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Otis Worldwide",
+    "role": "Senior Manager, Microsoft Dynamics 365 Solution Architect",
+    "reason": "stale — This is a remote position, with a preference for candidates who reside in or near Connecticut.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Howmet Aerospace",
+    "role": "Cloud & AI Engineer",
+    "reason": "stale — Designs, implements, and supports Azure cloud, data, AI, and machine-learning capabilities for enterprise and manufacturing environments.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Chubb",
+    "role": "Lead Solution Architect",
+    "reason": "stale — Experience with hands-on coding in a modern programming language, such as C#, Java, or Python",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
     "company": "Johns Hopkins Medicine",
     "role": "Enterprise IT Architect, Research Computing (IT@JH Research Computing)",
     "reason": "not-remote — Location: Hybrid/Johns Hopkins Bayview",
     "where": "Employer sites",
     "time": "3:54 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Sr. Cloud Architect",
+    "reason": "stale — This role can have a Hybrid or Remote work arrangement. Candidates who live near one of our office locations (Hartford, CT, Charlotte, NC, Chicago, IL, Columbus, OH) will have the expectation of working in an office 3 days a week",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Slalom",
+    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
+    "reason": "stale — We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions for large-scale enterprise environments.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
    },
    {
     "company": "IT Concepts / Kentro",
@@ -1698,6 +1824,13 @@
     "reason": "not-remote — Location Designation: Hybrid - 3 days per week",
     "where": "Employer sites",
     "time": "3:54 AM"
+   },
+   {
+    "company": "Texas Children's Hospital",
+    "role": "Sr. Data Security Architect",
+    "reason": "stale — Architect, Implement, and Document Security Infrastructure (including firewalls, SASE, endpoint protection platforms/EDR, micro segmentation, inline proxy controls, data encryption frameworks, and AI security gateways).",
+    "where": "Employer sites",
+    "time": "4:22 AM"
    },
    {
     "company": "Amtrak",
@@ -2160,6 +2293,41 @@
     "reason": "pay-outside-band — $112,725 - $155,298; The role may require relocation and/or travel to the work or project location.",
     "where": "Employer sites",
     "time": "4:16 AM"
+   },
+   {
+    "company": "DXC Technology",
+    "role": "Global Azure Cloud Architect",
+    "reason": "stale — Candidate must be based in the Miami area",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Infrastructure/Cloud Architect",
+    "reason": "stale — As an Infrastructure/Cloud Architecture professional at Kyndryl, this role designs and guides cloud, Linux platform, container, and edge infrastructure architecture for a Kyndryl client's software engineering and product platform environment.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Principal Cloud Architect",
+    "reason": "not-remote — This hybrid role requires onsite client support 2-3 days weekly in either Irving, TX or Charlotte, NC. Candidates must be located within commuting distance of one of these offices.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "Tyson Foods",
+    "role": "Global IT Network Architect",
+    "reason": "not-remote — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site.",
+    "where": "Employer sites",
+    "time": "4:22 AM"
+   },
+   {
+    "company": "City of Houston portal",
+    "role": "IT Architect - Applications (Responsible AI and Innovation)",
+    "reason": "stale — Reporting Location: 611 WALKER / 1200 TRAVIS",
+    "where": "Employer sites",
+    "time": "4:22 AM"
    }
   ],
   "Dice": [
@@ -3918,7 +4086,6 @@
    "Nestlé USA",
    "NYU Langone Health",
    "RWJBarnabas Health",
-   "Mount Sinai Health System",
    "Kyndryl",
    "Slalom",
    "Fiserv",
@@ -3977,5 +4144,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T10:21:06Z"
+ "lists_generated_at": "2026-11-10T10:22:43Z"
 }
