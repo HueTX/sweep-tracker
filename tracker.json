@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T07:59:33Z",
+ "generated_at": "2026-11-10T08:00:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T07:58:10Z",
+  "last_activity_at": "2026-11-10T07:59:41Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 178,
-  "evaluated": 180
+  "rejected": 185,
+  "evaluated": 187
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 170,
+  "evaluated": 176,
   "filed": 0,
   "parked": 1,
-  "rejected": 169,
+  "rejected": 175,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -106,46 +99,46 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/73"
+   "heartbeat_at": null,
+   "detail": "Employers 95/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/32"
+   "heartbeat_at": null,
+   "detail": "Employers 95/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/59"
+   "heartbeat_at": null,
+   "detail": "Employers 95/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:59:33Z",
-   "detail": "Employers 90/54"
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "220 of 632 units done",
+   "detail": "226 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
@@ -548,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 1:58 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 1:59 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -671,11 +658,25 @@
     "time": "1:07 AM"
    },
    {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "not-remote — Location: Oklahoma City, OK, US Job ID: 17677",
+    "where": "Employer sites",
+    "time": "1:59 AM"
+   },
+   {
     "company": "NextEra Energy",
     "role": "Principal IT Architect",
     "reason": "not-remote — Requisition ID: 96740. Job location Juno Beach, FL with Relocation Provided: Yes, if applicable, and no remote work arrangement stated on the employer's own posting. Provide expert guidance for AWS and/or Google Cloud Platform infrastructure architectures. Undated live posting on the employer's own detail page, verdicted on the merits. Workarounds tried: employer's own ATS posting at jobs.nexteraenergy.com read in full (governing text); alternate board listings checked, none remote.",
     "where": "Employer sites",
     "time": "1:40 AM"
+   },
+   {
+    "company": "Avangrid",
+    "role": "Lead Cloud Architect",
+    "reason": "not-remote — Reports to: Senior Manager - IT Infrastructure Location: In Office, Orange CT, Boston MA",
+    "where": "Employer sites",
+    "time": "1:59 AM"
    },
    {
     "company": "Microsoft",
@@ -837,6 +838,20 @@
     "reason": "non-US — Job Title: Enterprise Architect Pune/Bangalore/Noida-India- Hybrid",
     "where": "Employer sites",
     "time": "1:58 AM"
+   },
+   {
+    "company": "PSEG",
+    "role": "IT Solution Architect Principal I",
+    "reason": "not-remote — Requisition: 82995 PSEG Company: PSEG Services Corp. Salary Range: $ 104,600 - $ 165,700 Work Location Category: Hybrid Flexible",
+    "where": "Employer sites",
+    "time": "1:59 AM"
+   },
+   {
+    "company": "Blue Shield of California",
+    "role": "Enterprise Application Architect",
+    "reason": "stale — Employer: Blue Shield of California Location: San Francisco, California Posted: 1/17/2026",
+    "where": "Employer sites",
+    "time": "1:59 AM"
    },
    {
     "company": "King County",
@@ -1355,6 +1370,20 @@
     "reason": "stale — The position is located in the Chief Information Officer Organization, Infrastructure and Operations Services Branch of the Federal Deposit Insurance Corporation (FDIC) and provides support in designing, developing, integrating, configuring and testing Cloud-based services and solutions",
     "where": "Employer sites",
     "time": "1:58 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Business Solution Architect",
+    "reason": "pay-outside-band — Salary Range: $164,600 - 288,000 USD",
+    "where": "Employer sites",
+    "time": "1:59 AM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Business Architect",
+    "reason": "not-remote — Key has implemented an approach to employee workspaces which prioritizes in-office presence, while providing flexible options in circumstances where roles can be performed effectively in a mobile environment.",
+    "where": "Employer sites",
+    "time": "1:59 AM"
    }
   ],
   "Dice": [
@@ -3024,5 +3053,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T07:59:33Z"
+ "lists_generated_at": "2026-11-10T08:00:59Z"
 }
