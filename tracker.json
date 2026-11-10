@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T07:01:49Z",
+ "generated_at": "2026-11-10T07:03:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
@@ -10,41 +10,42 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T07:01:10Z",
+  "last_activity_at": "2026-11-10T07:02:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 682,
+   "covered_units": 722,
    "total_units": 754,
-   "pct": 90
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 93,
-  "evaluated": 95
+  "parked": 2,
+  "rejected": 95,
+  "evaluated": 97
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 87,
+  "evaluated": 89,
   "filed": 0,
-  "parked": 0,
-  "rejected": 86,
+  "parked": 1,
+  "rejected": 88,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
+  "W1",
+  "W2",
+  "W17",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -83,68 +84,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
    "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
+   "detail": "Employers 30/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 30/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "searching",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-10T07:01:49Z",
-   "detail": "Employers 25/73"
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:01:49Z",
-   "detail": "Employers 25/32"
+   "heartbeat_at": null,
+   "detail": "Employers 30/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:01:49Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": null,
+   "detail": "Employers 30/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:01:49Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": null,
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,56 +227,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 30/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-10T07:01:49Z",
-   "detail": "Employers 25/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 50,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
    "detail": "Employers 25/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
    "detail": "Employers 25/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
    "detail": "Employers 25/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T07:03:38Z",
    "detail": "Employers 25/31"
   }
  },
@@ -306,15 +307,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "77 of 632 units done",
+   "detail": "82 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-10T07:01:10Z",
-   "ended_at": null
+   "ended_at": "2026-11-10T07:02:51Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -547,18 +548,18 @@
    }
   ]
  },
- "note": "Last activity 1:01 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:02 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -579,7 +580,17 @@
  "date": "2026-11-10",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
+ "today_parked": {
+  "Employer sites": [
+   {
+    "company": "Microsoft",
+    "role": "Cloud and AI Senior Partner Solution Architect",
+    "reason": "credential-needed — Microsoft Careers application requires a Microsoft account sign-in; no saved Microsoft Careers login is available to this executor. Alternate-route attempt made first: Dice/Indeed/LinkedIn search for this exact req found no listing - Dice carries a different req (Partner Solution Architect - AI Business Solutions, already filed 2026-10-15). PASS stands for a filer with the account session.",
+    "where": "Employer sites",
+    "time": "1:02 AM"
+   }
+  ]
+ },
  "today_rejected": {
   "Dice": [
    {
@@ -646,75 +657,27 @@
     "time": "12:42 AM"
    }
   ],
-  "Google Jobs": [
-   {
-    "company": "Kapitus",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — Please note: This position is 100% remote for candidates residing in Virginia. Candidates residing in Maryland and Washington, DC are also encouraged to apply and must be willing to work a hybrid schedule from our Arlington, VA office.",
-    "where": "Google Jobs",
-    "time": "12:49 AM"
-   },
-   {
-    "company": "Commerce",
-    "role": "Principal Business Systems Architect",
-    "reason": "experience-mismatch — Experience with GTM/revenue systems (Salesforce or HubSpot), CPQ, quote-to-cash, and order-to-revenue flows",
-    "where": "Google Jobs",
-    "time": "12:49 AM"
-   },
-   {
-    "company": "Altria Group",
-    "role": "Senior Manager, Enterprise Architect - Customer and Consumer, Sales and Marketing",
-    "reason": "experience-mismatch — You should have deep experience with Salesforce CG Cloud, Experience Cloud, and TPM platforms such as XTEL or Aforza.",
-    "where": "Google Jobs",
-    "time": "12:49 AM"
-   },
-   {
-    "company": "Strategic Staffing Solutions",
-    "role": "Cloud Infrastructure Engineer (GCP/Azure)",
-    "reason": "hands-on-coding — Support automation workflows using technologies such as Go (Golang), Python, Terraform, and Temporal.",
-    "where": "Google Jobs",
-    "time": "12:49 AM"
-   },
-   {
-    "company": "Tenable",
-    "role": "Principal Solutions Architect (AWS Technical Alliances)",
-    "reason": "pay-outside-band — US Pay Range $175,000—$233,666.67 USD",
-    "where": "Google Jobs",
-    "time": "12:49 AM"
-   }
-  ],
-  "Web / Remotive": [
-   {
-    "company": "Shell",
-    "role": "Principal Enterprise Architect",
-    "reason": "not-remote — Be aware of the location restriction for this remote position: UK",
-    "where": "Web / Remotive",
-    "time": "12:35 AM"
-   }
-  ],
-  "Employer sites / Energy Job Search": [
-   {
-    "company": "BP",
-    "role": "Senior Solution Architect",
-    "reason": "not-remote — This position is a hybrid of office/remote working",
-    "where": "Employer sites / Energy Job Search",
-    "time": "12:35 AM"
-   },
-   {
-    "company": "Shell",
-    "role": "Sr. Solution Architect - Endur",
-    "reason": "stale — Minimum of 10 years' experience with OpenLink Endur v14+",
-    "where": "Employer sites / Energy Job Search",
-    "time": "12:35 AM"
-   }
-  ],
   "Employer sites": [
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal Architect – Remote",
+    "reason": "stale — The Principal Enterprise Architect is responsible for defining and driving enterprise architecture strategy across AI, Payment Integrity, Claims, Clinical, Consumer, and Digital platforms. Published 2026-09-12 - outside the 7-day eligibility window; salary top $230,800 also above band and role lists ability to work onsite in Minneapolis, MN.",
+    "where": "Employer sites",
+    "time": "1:02 AM"
+   },
    {
     "company": "Microsoft",
     "role": "Cloud Solution Architect - Cloud & AI Infrastructure",
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home. workarounds tried: (1) employer's own Microsoft Careers ATS - same CSA roles carry up to 50% from-home terms; (2) BuiltIn mirror read in full; (3) no alternate fully-remote posting of the same req found.",
     "where": "Employer sites",
     "time": "1:01 AM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — This position is not available for remote working. Entity: BP Business Solutions India Private Limited. Published 2026-10-29 on bp's own careers site (governing text).",
+    "where": "Employer sites",
+    "time": "1:02 AM"
    },
    {
     "company": "Microsoft",
@@ -918,6 +881,68 @@
     "reason": "not-remote — Telework eligible Yes-as determined by the agency policy. Remote job No. Salary $121,785 - $187,093 per year; announcement closed 10/30/2026. workarounds tried: employer's own USAJOBS announcement governs; no alternate remote posting of the same req found.",
     "where": "Employer sites",
     "time": "1:01 AM"
+   }
+  ],
+  "Google Jobs": [
+   {
+    "company": "Kapitus",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Please note: This position is 100% remote for candidates residing in Virginia. Candidates residing in Maryland and Washington, DC are also encouraged to apply and must be willing to work a hybrid schedule from our Arlington, VA office.",
+    "where": "Google Jobs",
+    "time": "12:49 AM"
+   },
+   {
+    "company": "Commerce",
+    "role": "Principal Business Systems Architect",
+    "reason": "experience-mismatch — Experience with GTM/revenue systems (Salesforce or HubSpot), CPQ, quote-to-cash, and order-to-revenue flows",
+    "where": "Google Jobs",
+    "time": "12:49 AM"
+   },
+   {
+    "company": "Altria Group",
+    "role": "Senior Manager, Enterprise Architect - Customer and Consumer, Sales and Marketing",
+    "reason": "experience-mismatch — You should have deep experience with Salesforce CG Cloud, Experience Cloud, and TPM platforms such as XTEL or Aforza.",
+    "where": "Google Jobs",
+    "time": "12:49 AM"
+   },
+   {
+    "company": "Strategic Staffing Solutions",
+    "role": "Cloud Infrastructure Engineer (GCP/Azure)",
+    "reason": "hands-on-coding — Support automation workflows using technologies such as Go (Golang), Python, Terraform, and Temporal.",
+    "where": "Google Jobs",
+    "time": "12:49 AM"
+   },
+   {
+    "company": "Tenable",
+    "role": "Principal Solutions Architect (AWS Technical Alliances)",
+    "reason": "pay-outside-band — US Pay Range $175,000—$233,666.67 USD",
+    "where": "Google Jobs",
+    "time": "12:49 AM"
+   }
+  ],
+  "Web / Remotive": [
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — Be aware of the location restriction for this remote position: UK",
+    "where": "Web / Remotive",
+    "time": "12:35 AM"
+   }
+  ],
+  "Employer sites / Energy Job Search": [
+   {
+    "company": "BP",
+    "role": "Senior Solution Architect",
+    "reason": "not-remote — This position is a hybrid of office/remote working",
+    "where": "Employer sites / Energy Job Search",
+    "time": "12:35 AM"
+   },
+   {
+    "company": "Shell",
+    "role": "Sr. Solution Architect - Endur",
+    "reason": "stale — Minimum of 10 years' experience with OpenLink Endur v14+",
+    "where": "Employer sites / Energy Job Search",
+    "time": "12:35 AM"
    }
   ],
   "Web / Jobright": [
@@ -2428,5 +2453,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T07:01:49Z"
+ "lists_generated_at": "2026-11-10T07:03:38Z"
 }
