@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T10:35:25Z",
+ "generated_at": "2026-11-10T10:37:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
-  "last_activity_at": "2026-11-10T10:34:16Z",
+  "last_activity_at": "2026-11-10T10:37:18Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 363,
-  "evaluated": 368
+  "rejected": 365,
+  "evaluated": 370
  },
  "today": {
   "date": "2026-11-10",
-  "evaluated": 351,
+  "evaluated": 353,
   "filed": 0,
   "parked": 2,
-  "rejected": 349,
+  "rejected": 351,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -105,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 250/73"
+   "detail": "Employers 260/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -121,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 252/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 252/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,46 +227,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 245/59"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 255/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 245/54"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 255/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 245/45"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 255/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 241/41"
+   "heartbeat_at": "2026-11-10T10:37:25Z",
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "534 of 632 units done",
+   "detail": "546 of 632 units done",
    "started_at": "2026-11-10T06:28:33Z",
    "ended_at": null
   },
@@ -541,13 +548,19 @@
    }
   ]
  },
- "note": "Last activity 4:34 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 4:37 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1610,6 +1623,13 @@
     "time": "4:22 AM"
    },
    {
+    "company": "PayPal",
+    "role": "Distinguished Software Architect",
+    "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150 — top of range $359,150 exceeds the $230,000 band maximum. Workarounds tried: (1) employer's own JD text (via careers mirror) carries the same range; (2) alternate routes/mirrors show the identical $209,000-$359,150 range; (3) no alternate posting of same role with a different range found.",
+    "where": "Employer sites",
+    "time": "4:37 AM"
+   },
+   {
     "company": "Johnson & Johnson",
     "role": "Manager, Enterprise & Integration Architect",
     "reason": "not-remote — DePuy Synthes is recruiting for a Manager, Enterprise & Integration Architect, located in New Jersey. #LI-Hybrid",
@@ -2427,6 +2447,13 @@
     "reason": "stale — Published: 2026-10-30; 7+ years of hands-on development experience across various solution types on J2EE or .NET platforms",
     "where": "Employer sites",
     "time": "4:30 AM"
+   },
+   {
+    "company": "Visa",
+    "role": "Systems Architect - Sr. Consultant level",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs. Workarounds tried: (1) employer's own ATS posting on SmartRecruiters is the governing text and states hybrid; (2) alternate search routes show the same Hybrid/Onsite posting; (3) no remote alternate posting of same req found. Undated live posting on employer's ATS.",
+    "where": "Employer sites",
+    "time": "4:37 AM"
    }
   ],
   "Dice": [
@@ -4300,5 +4327,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-10T10:35:25Z"
+ "lists_generated_at": "2026-11-10T10:37:25Z"
 }
