@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-10T06:44:41Z",
+ "generated_at": "2026-11-10T06:46:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "243b84a3",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-10T06:28:33Z",
   "last_activity_at": "2026-11-10T06:44:07Z",
@@ -39,7 +39,12 @@
   "rejected": 62,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W7",
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -66,12 +71,12 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 42,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T06:46:03Z",
    "detail": "Titles 42/58"
   },
   "W1": {
@@ -231,34 +236,34 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T06:46:03Z",
    "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T06:46:03Z",
    "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-10T06:46:03Z",
    "detail": "Employers 5/41"
   },
   "W20": {
@@ -541,13 +546,19 @@
    }
   ]
  },
- "note": "Last activity 12:44 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 12:44 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W7 · Title 43 of 58 · Cloud Delivery Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W7"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W7",
+  "headline": "W7 · Title 43 of 58 · Cloud Delivery Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
