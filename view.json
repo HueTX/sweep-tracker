@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T11:59:08Z",
+ "generated_at": "2026-11-11T12:00:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
   "last_activity_at": "2026-11-11T11:58:48Z",
@@ -39,7 +39,10 @@
   "rejected": 217,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,24 +124,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 221/44"
+   "heartbeat_at": "2026-11-11T12:00:30Z",
+   "detail": "Employers 231/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 216/44"
+   "heartbeat_at": "2026-11-11T12:00:30Z",
+   "detail": "Employers 226/44"
   },
   "W9": {
    "label": "Dice",
@@ -248,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 220/45"
+   "detail": "Employers 225/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 204/41"
+   "detail": "Employers 205/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "339 of 606 units done",
+   "detail": "345 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 5:58 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:58 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
