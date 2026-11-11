@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T07:13:09Z",
+ "generated_at": "2026-11-11T07:14:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "f007e819",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T06:35:02Z",
-  "last_activity_at": "2026-11-11T07:11:41Z",
+  "last_activity_at": "2026-11-11T07:13:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 702,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 93
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 10,
-  "evaluated": 11
+  "rejected": 13,
+  "evaluated": 14
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 10,
+  "evaluated": 13,
   "filed": 0,
   "parked": 1,
-  "rejected": 9,
+  "rejected": 12,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8",
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -58,24 +55,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T07:13:09Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 24,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T07:13:09Z",
-   "detail": "Titles 24/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -302,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "11 of 20 units done",
+   "state": "done",
+   "detail": "20 of 20 units done",
    "started_at": "2026-11-11T06:35:02Z",
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:00Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -314,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   }
  },
  "titles": {
@@ -414,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -544,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 1:11 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:13 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
