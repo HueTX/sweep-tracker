@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T11:46:13Z",
+ "generated_at": "2026-11-11T11:47:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T11:46:03Z",
+  "last_activity_at": "2026-11-11T11:46:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 538,
+   "covered_units": 564,
    "total_units": 754,
-   "pct": 71
+   "pct": 75
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,23 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 208,
-  "evaluated": 211
+  "rejected": 210,
+  "evaluated": 213
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 217,
+  "evaluated": 219,
   "filed": 0,
   "parked": 4,
-  "rejected": 213,
+  "rejected": 215,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -126,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T11:46:13Z",
-   "detail": "Employers 181/44"
+   "heartbeat_at": null,
+   "detail": "Employers 191/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T11:46:13Z",
-   "detail": "Employers 181/44"
+   "heartbeat_at": null,
+   "detail": "Employers 186/44"
   },
   "W9": {
    "label": "Dice",
@@ -247,24 +242,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T11:46:13Z",
-   "detail": "Employers 185/45"
+   "heartbeat_at": null,
+   "detail": "Employers 190/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T11:46:13Z",
-   "detail": "Employers 164/41"
+   "heartbeat_at": null,
+   "detail": "Employers 174/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -305,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "309 of 606 units done",
+   "detail": "315 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -546,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:46 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W19"
-  }
- ],
+ "note": "Last activity 5:46 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -673,6 +662,13 @@
     "time": "5:08 AM"
    },
    {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect, Midstream Operations",
+    "reason": "stale — Published: 2026-10-09",
+    "where": "Employer sites",
+    "time": "5:46 AM"
+   },
+   {
     "company": "CVS Health / Aetna",
     "role": "Senior Solution Architect",
     "reason": "stale — We anticipate the application window for this opening will close on: 11/09/2026",
@@ -762,6 +758,13 @@
     "reason": "not-remote — Location: Green Bay, WI, USA Shift: 1st Shift Work model: Hybrid",
     "where": "Employer sites",
     "time": "4:08 AM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Senior Software Solution Architect",
+    "reason": "not-remote — this a Full Remote job, the offer is available from: South America, Latin America, Brazil",
+    "where": "Employer sites",
+    "time": "5:46 AM"
    },
    {
     "company": "Molina Healthcare",
@@ -3365,5 +3368,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T11:46:13Z"
+ "lists_generated_at": "2026-11-11T11:47:33Z"
 }
