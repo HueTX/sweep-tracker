@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T11:06:33Z",
+ "generated_at": "2026-11-11T11:08:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T11:06:16Z",
+  "last_activity_at": "2026-11-11T11:07:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 368,
+   "covered_units": 408,
    "total_units": 754,
-   "pct": 49
+   "pct": 54
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,18 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 120,
-  "evaluated": 121
+  "rejected": 129,
+  "evaluated": 130
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 131,
+  "evaluated": 140,
   "filed": 0,
   "parked": 2,
-  "rejected": 129,
+  "rejected": 138,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,24 +126,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 10,
+   "phase": "searching",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 49/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 10,
+   "phase": "searching",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 49/44"
   },
   "W9": {
    "label": "Dice",
@@ -242,24 +247,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
-   "families_searched": 0,
+   "phase": "searching",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/45"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
-   "families_searched": 0,
+   "phase": "searching",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/41"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 5/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "178 of 606 units done",
+   "detail": "184 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -541,13 +546,19 @@
    }
   ]
  },
- "note": "Last activity 5:06 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:07 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -653,6 +664,13 @@
     "time": "5:03 AM"
    },
    {
+    "company": "Duke Energy",
+    "role": "Senior Cybersecurity Architect",
+    "reason": "not-remote — Hybrid Mobility Classification - Work will be performed from both remote and onsite locations after the onboarding period. However, hybrid employees should live within a reasonable daily commute to a Duke Energy facility. Charlotte, North Carolina | workarounds tried: (1) employer's own Duke posting - same hybrid Charlotte requirement, (2) no fully remote alternate posting found",
+    "where": "Employer sites",
+    "time": "5:07 AM"
+   },
+   {
     "company": "NextEra Energy",
     "role": "Principal IT Architect",
     "reason": "aws-first — Provide expert guidance for AWS and/or Google Cloud Platform infrastructure architectures; Expert-level knowledge of AWS and/or Google Cloud Platform Infrastructure as a Service (IaaS) (Azure appears only as one of several comparable AI services, never as the platform focus - AWS/GCP-first role; undated live posting on NextEra's own jobs site, Juno Beach FL with Relocation Provided: Yes)",
@@ -667,11 +685,25 @@
     "time": "5:05 AM"
    },
    {
+    "company": "RTX",
+    "role": "Senior Solutions IT Architect supporting Capacity Growth",
+    "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date; Date Posted: 2026-09-28; Location: US-AZ-REMOTE; Senior Solutions Architect supporting Capacity Growth, Raytheon Digital Technology - Classified Transformation",
+    "where": "Employer sites",
+    "time": "5:07 AM"
+   },
+   {
     "company": "Shell",
     "role": "Senior Solution Architect - Endur",
     "reason": "not-remote — London; Shell in The United Kingdom; Benefit from flexible working hours, and the possibility of remote/mobile working (UK-based role, not US remote; published 2026-11-09; workarounds tried: employer's own JD text via Shell posting mirror)",
     "where": "Employer sites",
     "time": "5:00 AM"
+   },
+   {
+    "company": "Exelon",
+    "role": "Principal IT Oracle Cloud Architect",
+    "reason": "not-remote — Location: CHICAGO, Illinois; REQNUMBER: 228004-OTHLOC-49510020116; The Principal IT Cloud Architect is responsible for providing senior strategy, architecture and technical leadership | workarounds tried: (1) employer's own Exelon posting - Chicago site location, (2) no remote alternate posting of this req found",
+    "where": "Employer sites",
+    "time": "5:07 AM"
    },
    {
     "company": "Expeditors International",
@@ -828,11 +860,25 @@
     "time": "4:56 AM"
    },
    {
+    "company": "RTX",
+    "role": "Senior Manager, Solutions Architect - Data, Analytics & AI/ML Platforms",
+    "reason": "pay-outside-band — Date Posted: 2026-11-06; Location: US-CT-REMOTE; Position Role Type: Remote; Security Clearance Type: None/Not Required; The salary range for this role is 132,400 USD - 251,600 USD | workarounds tried: (1) employer's own RTX posting - same $251,600 top, above the $230,000 band ceiling, (2) no alternate posting with an in-band range found",
+    "where": "Employer sites",
+    "time": "5:07 AM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Program Architect - Remote",
     "reason": "stale — Published: 2026-10-27; salary $112,700 - $193,200; workarounds tried: employer ATS posting checked directly (governing text carries the same 2026-10-27 date)",
     "where": "Employer sites",
     "time": "4:17 AM"
+   },
+   {
+    "company": "Shell",
+    "role": "Sr. Solution Architect - Endur",
+    "reason": "hands-on-coding — Expert in one or more of the programming languages (Node.js, .Net, .Net Core, Python etc) with Cloud Native Platform Development (Azure/AWS); Hands-on experience implementing OpenLink Endur, including All 'Managers', Domain Services, Operation Services, TPM, APM, Grid Setup, Deal Modelling; Posting Start Date: October 25, 2026; base salary range $149,000 - $223,000 per year | workarounds tried: (1) Shell's own posting via EnergyJobSearch - same Endur hands-on coding duties, (2) no alternate posting changes the core duties",
+    "where": "Employer sites",
+    "time": "5:07 AM"
    },
    {
     "company": "GXO Logistics",
@@ -933,11 +979,25 @@
     "time": "5:05 AM"
    },
    {
+    "company": "Chevron",
+    "role": "Cloud Engineer",
+    "reason": "hands-on — This is a senior hands-on engineering role within Chevron's Digital Identity organization responsible for designing, operating, and modernizing enterprise-scale Public Key Infrastructure (PKI); Houston, Texas; R000070827; Chevron is accepting online applications through November 25, 2026 | workarounds tried: (1) employer's own careers.chevron.com posting - same hands-on engineering role in Houston, (2) no architect-level alternate posting of this req found",
+    "where": "Employer sites",
+    "time": "5:07 AM"
+   },
+   {
     "company": "Oklahoma state portal",
     "role": "Technical Architect I",
     "reason": "not-remote — Salary is up to $90,000 based on education and experience. This is an on-site position located in Oklahoma City, OK. Agency 090 OFFICE OF MANAGEMENT AND ENTERPRISE SERVICES | workarounds tried: (1) employer's own OMES posting - on-site Oklahoma City, (2) Career.io mirror - same on-site text, (3) no remote alternate posting found",
     "where": "Employer sites",
     "time": "5:06 AM"
+   },
+   {
+    "company": "Portland General Electric",
+    "role": "Senior Solutions Architect",
+    "reason": "not-remote — Solutions Architect - Hybrid [3 days on site a week] - Portland, OR; Portland General Electric (PGE) is seeking a skilled Senior Solutions architect with expertise in designing and implementing cloud-based data solutions; Design and implement cloud-based (AWS - preferred) data solutions | workarounds tried: (1) PGE's own posting carries the same hybrid Portland requirement via its staffing route, (2) no fully remote alternate posting found",
+    "where": "Employer sites",
+    "time": "5:07 AM"
    },
    {
     "company": "UnitedHealth Group",
@@ -1437,6 +1497,22 @@
     "reason": "stale — TITLE: INFORMATION TECHNOLOGY ARCHITECT 1 FUNCTIONAL TITLE: CLOUD OPERATIONS LEAD LOCATION: LATHAM SALARY GRADE (SG): SG25 ($100,671-$126,875) Posted September 21, 2026",
     "where": "New York state portal",
     "time": "4:43 AM"
+   }
+  ],
+  "Built In": [
+   {
+    "company": "Lockheed Martin",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00; Remote (Glassdoor listing); Develops enterprise and systems architecture, with a focus on interface definition and behavioral analysis | workarounds tried: (1) employer's own requisition via Built In/Glassdoor - same $344,400 top, above the $230,000 band ceiling, (2) no alternate posting with an in-band range found",
+    "where": "Built In",
+    "time": "5:07 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Cloud Architect Sr - E3",
+    "reason": "clearance — Requires TS/SCI clearance, cloud networking experience, and Security+ certification or ability to obtain it; Designs, deploys, and operates secure hybrid-cloud networks across on-premise data centers and classified cloud environments; Full-Time Salary Range: $110300.00 - $204900.00",
+    "where": "Built In",
+    "time": "5:07 AM"
    }
   ],
   "GovernmentJobs.com / NEOGOV agencies": [
@@ -2725,5 +2801,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T11:06:33Z"
+ "lists_generated_at": "2026-11-11T11:08:28Z"
 }
