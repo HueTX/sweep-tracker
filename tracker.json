@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T12:11:33Z",
+ "generated_at": "2026-11-11T12:12:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
@@ -15,34 +15,32 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T12:11:26Z",
+  "last_activity_at": "2026-11-11T12:12:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 580,
+   "covered_units": 590,
    "total_units": 754,
-   "pct": 77
+   "pct": 78
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
-  "rejected": 223,
-  "evaluated": 227
+  "parked": 4,
+  "rejected": 224,
+  "evaluated": 228
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 233,
+  "evaluated": 234,
   "filed": 0,
-  "parked": 4,
-  "rejected": 228,
+  "parked": 5,
+  "rejected": 229,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17",
-  "W18",
-  "W19"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -236,34 +234,34 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 0,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:11:33Z",
-   "detail": "Employers 0/54"
+   "heartbeat_at": "2026-11-11T12:12:53Z",
+   "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:11:33Z",
-   "detail": "Employers 265/45"
+   "heartbeat_at": null,
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:11:33Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": null,
+   "detail": "Employers 246/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "375 of 606 units done",
+   "detail": "381 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-11T11:24:00Z",
-   "ended_at": null
+   "ended_at": "2026-11-11T12:12:52Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 6:11 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:12 AM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -578,6 +576,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "Built In": [
+   {
+    "company": "Microsoft",
+    "role": "Senior Cloud Solution Architect, Cloud & AI Business Solutions",
+    "reason": "credential-needed — Filing attempted this wake: Microsoft Careers apply for this req routes to the Eightfold sign-in wall (same wall recorded in the ledger for every Microsoft CSA filing attempt; no saved Microsoft login exists). Alternate-route pass done: Monster carries the identical req (job 688ebf06, redirects to Microsoft Careers sign-in); Dice carries the identical req (job-detail 7ddb8471-d38b-4d8b-aba1-41bef2025fc2, published 2026-09-27) and Dice Easy Apply was the successful route for two prior Microsoft CSA filings (2026-10-07 and 2026-10-13) — but this executor has no live-browser/sign-in tooling to submit through Dice, so no submission was made and nothing was double-submitted. PARKED credential-needed for a filer with live-browser access: file via Dice Easy Apply for Dice job 7ddb8471, first checking Dice Applied history and the Microsoft ATS already-applied indicator, with a tailored Hubert-Samuel-Resume.pdf. Note the req is an ongoing pooled CSA req (Dice/Monster date 2026-09-26/27; Built In repost 2026-11-10).",
+    "where": "Built In",
+    "time": "6:12 AM"
+   }
+  ],
   "Virginia state portal": [
    {
     "company": "Virginia Information Technologies Agency (VITA)",
@@ -1531,6 +1538,13 @@
     "reason": "experience-mismatch — Drive system/subsystem architecture definition activities utilizing MBSE tools — Experience in MBSE (Cameo, Rhapsody); Experience across the various activities in the Systems Engineering V-Diagram — core duties are MBSE defense battle-management/C2 systems engineering, not Azure/cloud enterprise architecture. Fully remote teleworker, GeoZone ranges vary, experience is deciding filter. workarounds tried: employer detail via Built In carries same MBSE duties, no alternate cloud/enterprise-IT posting of same role found",
     "where": "Employer sites",
     "time": "6:05 AM"
+   },
+   {
+    "company": "Amazon Web Services",
+    "role": "Solutions Architect, AWS WWPS Partners SA",
+    "reason": "clearance-required — this position requires that the candidate selected be a US Citizen and currently possess and maintain an active Top Secret security clearance. Current, active US Government Security Clearance of Top Secret or above",
+    "where": "Employer sites",
+    "time": "6:12 AM"
    }
   ],
   "Built In / SLB careers": [
@@ -3472,5 +3486,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T12:11:33Z"
+ "lists_generated_at": "2026-11-11T12:12:53Z"
 }
