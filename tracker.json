@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T10:26:25Z",
+ "generated_at": "2026-11-11T10:27:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
@@ -9,7 +9,7 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
@@ -39,7 +39,10 @@
   "rejected": 58,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -110,12 +113,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-11T10:27:51Z",
    "detail": "Employers 128/32"
   },
   "W5": {
@@ -264,12 +267,12 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-11T10:27:51Z",
    "detail": "Employers 113/31"
   }
  },
@@ -281,7 +284,7 @@
    "ended_at": "2026-11-11T09:31:37Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 4:26 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 4:26 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W20"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W20",
+  "headline": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -2181,5 +2190,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T10:26:25Z"
+ "lists_generated_at": "2026-11-11T10:27:51Z"
 }
