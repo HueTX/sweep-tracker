@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T12:23:04Z",
+ "generated_at": "2026-11-11T12:25:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T12:20:28Z",
+  "last_activity_at": "2026-11-11T12:24:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 630,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 259,
-  "evaluated": 263
+  "rejected": 267,
+  "evaluated": 271
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 263,
+  "evaluated": 269,
   "filed": 0,
   "parked": 5,
-  "rejected": 258,
+  "rejected": 264,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:23:04Z",
-   "detail": "Employers 129/54"
+   "heartbeat_at": null,
+   "detail": "Employers 219/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "404 of 606 units done",
+   "detail": "422 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 6:20 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 6:24 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1134,6 +1126,13 @@
     "time": "6:20 AM"
    },
    {
+    "company": "Databricks",
+    "role": "Specialist Solutions Architect - Data Engineering & Warehousing (Financial Services)",
+    "reason": "pay-outside-band — Local Pay Range $180,000-$247,500 USD",
+    "where": "Employer sites",
+    "time": "6:23 AM"
+   },
+   {
     "company": "Starbucks",
     "role": "Principal Enterprise Architect, Partner Technology",
     "reason": "not-remote — We believe we do our best work when we're together, which is why we're onsite four days a week.",
@@ -1288,6 +1287,13 @@
     "time": "5:41 AM"
    },
    {
+    "company": "Capgemini",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band — The base compensation range for this role in the posted location is -$141,420- $235,035",
+    "where": "Employer sites",
+    "time": "6:24 AM"
+   },
+   {
     "company": "TechnipFMC",
     "role": "Technical Architect and Operations Lead",
     "reason": "experience-mismatch — Must have at least 8 to 10 years of experience as OpenText administrator managing large to medium landscapes.",
@@ -1307,6 +1313,13 @@
     "reason": "stale — locations: TRC IT HUB - Torreon, El Fresno, Coahuila, Mexico; Published: 2026-09-15. Stale typed date and non-US Mexico location.",
     "where": "Employer sites",
     "time": "5:42 AM"
+   },
+   {
+    "company": "EPAM Systems",
+    "role": "Cloud Architect",
+    "reason": "hands-on — We are seeking a hands-on Cloud Architect centered on Google Cloud Platform, blending architecture, DevOps and Platform Engineering to design, build, automate and operate production-grade platforms.",
+    "where": "Employer sites",
+    "time": "6:24 AM"
    },
    {
     "company": "UnitedHealth Group",
@@ -1356,6 +1369,13 @@
     "reason": "pay-outside-band — New Hire Base Salary Range: $120,800.00 - $151,000.00; Location(s) Chicago/Aon Center. Top $151,000 below $160,000 band floor; also stale 2026-10-09. Workarounds tried: employer JD via Monster mirror, alternate searches found no remote in-band posting of same role.",
     "where": "Employer sites",
     "time": "5:40 AM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "not-remote — The role may require relocation and/or travel to the work or project location.",
+    "where": "Employer sites",
+    "time": "6:24 AM"
    },
    {
     "company": "AAA-The Auto Club Group",
@@ -1636,6 +1656,13 @@
     "reason": "stale — Published: 2026-10-15 (ServiceNow careers) — outside the 7-day eligibility window; Principal Workflow Architect - Core Business Solutions (HRSD & AI), Staines (UK location, also non-US); This Principal Solution Architect, Core Business Transformation Solutions is a functional and technical expert consulting with customers on implementing ServiceNow Workflows' Solutions.",
     "where": "Employer sites",
     "time": "6:20 AM"
+   },
+   {
+    "company": "Kyndryl",
+    "role": "Director, Consult Partner - Enterprise Architect / Cross-Industry",
+    "reason": "pay-outside-band — The compensation range for the position in the U.S. is $151,560 to $272,760 based on a full-time schedule.",
+    "where": "Employer sites",
+    "time": "6:24 AM"
    }
   ],
   "Built In / SLB careers": [
@@ -1965,6 +1992,13 @@
     "reason": "not-remote — Principal IT Architect - AI - Constellation Energy - Baltimore, MD, US; Full Time; On-site; USD $172,800.00 - 192,000.00 per year; Posted 5 days ago; Dice Position Id: 55e968673541607446471da904451c27 | workarounds tried: (1) employer's own Constellation posting via Dice/Career.io - on-site Baltimore/Houston, (2) no remote alternate posting of this role found",
     "where": "Dice",
     "time": "5:08 AM"
+   },
+   {
+    "company": "Snowflake",
+    "role": "Principal Data Cloud Architect - SI Partners",
+    "reason": "hands-on — Expertise in data science programming languages including Python, SQL, Scala, and/or Spark.",
+    "where": "Dice",
+    "time": "6:23 AM"
    },
    {
     "company": "GXO Logistics",
@@ -3691,5 +3725,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T12:23:04Z"
+ "lists_generated_at": "2026-11-11T12:25:14Z"
 }
