@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T09:31:37Z",
+ "generated_at": "2026-11-11T09:33:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
   "last_activity_at": "2026-11-11T09:31:37Z",
@@ -39,7 +39,9 @@
   "rejected": 13,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -77,12 +79,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-11T09:33:02Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-11T09:31:37Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
@@ -299,7 +301,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 6 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 3:31 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W1"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W1",
+  "headline": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1862,5 +1870,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T09:31:37Z"
+ "lists_generated_at": "2026-11-11T09:33:02Z"
 }
