@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T07:13:09Z",
+ "generated_at": "2026-11-11T07:14:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "f007e819",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T06:35:02Z",
-  "last_activity_at": "2026-11-11T07:11:41Z",
+  "last_activity_at": "2026-11-11T07:13:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 702,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 93
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 10,
-  "evaluated": 11
+  "rejected": 13,
+  "evaluated": 14
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 10,
+  "evaluated": 13,
   "filed": 0,
   "parked": 1,
-  "rejected": 9,
+  "rejected": 12,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8",
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -58,24 +55,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T07:13:09Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 24,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T07:13:09Z",
-   "detail": "Titles 24/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -302,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "11 of 20 units done",
+   "state": "done",
+   "detail": "20 of 20 units done",
    "started_at": "2026-11-11T06:35:02Z",
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:00Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -314,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-11T07:14:18Z"
   }
  },
  "titles": {
@@ -414,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -544,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 1:11 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:13 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -590,6 +587,13 @@
  "today_rejected": {
   "Google Jobs": [
    {
+    "company": "NVIDIA",
+    "role": "Senior Software and System Architect",
+    "reason": "pay-outside-band — The expected base salary ranges for this position are: 184,000 USD - 287,500 USD for Level 4; and 224,000 USD - 356,500 USD for Level 5. Both published range tops exceed the $230,000 band top. Workarounds tried: (1) employer's own NVIDIA JD text as carried in full on WantRemote (published 2026-11-06, governing ranges); (2) alternate routes carry the same ranges; (3) no alternate posting with an in-band range. Role is also DPU/NIC networking-software architecture, outside his record.",
+    "where": "Google Jobs",
+    "time": "1:13 AM"
+   },
+   {
     "company": "Databricks",
     "role": "Solutions Architect - Digital Native Business (Geo)",
     "reason": "pay-outside-band — Local Pay Range $180,000 — $247,500 USD. Published top of range $247,500 exceeds the $230,000 band top. Full JD also requires: Strong coding proficiency in Python and SQL — you must demonstrate live coding, debugging, and solution-building skills (Live Coding Assessment in the interview process). Workarounds tried: (1) employer's own Databricks JD text as carried in full on Remoshift (published 2026-11-10, governing pay range); (2) alternate routes carry the same range; (3) no alternate posting with an in-band range.",
@@ -619,6 +623,20 @@
    }
   ],
   "Employer sites": [
+   {
+    "company": "Early Warning",
+    "role": "Director, Cloud Engineering",
+    "reason": "not-remote — Title: Director, Cloud Engineering. Location: Scottsdale, San Francisco, Chicago, or New York. Positions located in Scottsdale, San Francisco, Chicago, or New York follow a hybrid work model to allow for a more collaborative working environment. Workarounds tried: (1) employer's own Early Warning JD text as carried in full on Worqstrap (published 2026-11-05, governing hybrid terms); (2) alternate routes carry the same hybrid model; (3) no fully remote posting of this req. Stated hybrid schedule at named offices - not 100% remote; role is also engineering management, not architect-level.",
+    "where": "Employer sites",
+    "time": "1:13 AM"
+   },
+   {
+    "company": "Toptal",
+    "role": "Practice Director, Cloud Services",
+    "reason": "experience-mismatch — Hands-on experience with CI/CD pipelines, GitOps, and automation frameworks (e.g., GitHub Actions, GitLab CI, Jenkins, Azure DevOps, Argo CD). Expertise in DevOps and platform engineering practices, including DevSecOps, site reliability engineering (SRE), observability... 3+ years managing a business or team, preferably with P&L or budget responsibility, and a proven track record of overseeing financial performance. Workarounds tried: (1) employer's own Lever posting (governing text, published 2026-11-06, remote, pay unpublished); (2) Startup.jobs mirror, same requirements; (3) no alternate posting with different core requirements. Core of the role is DevOps/platform-engineering practice leadership with P&L - outside his enterprise-architecture record (no DevOps engineering, CI/CD/GitOps, or P&L history).",
+    "where": "Employer sites",
+    "time": "1:13 AM"
+   },
    {
     "company": "AAA-The Auto Club Group",
     "role": "Cloud Architect",
@@ -1841,5 +1859,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T07:13:09Z"
+ "lists_generated_at": "2026-11-11T07:14:18Z"
 }
