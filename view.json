@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T12:32:48Z",
+ "generated_at": "2026-11-11T12:34:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T12:32:16Z",
+  "last_activity_at": "2026-11-11T12:34:00Z",
   "progress": {
    "pools": 21,
-   "covered_units": 640,
+   "covered_units": 658,
    "total_units": 754,
-   "pct": 85
+   "pct": 87
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 277,
-  "evaluated": 281
+  "rejected": 280,
+  "evaluated": 284
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 279,
+  "evaluated": 282,
   "filed": 0,
   "parked": 5,
-  "rejected": 274,
+  "rejected": 277,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -223,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:32:48Z",
-   "detail": "Employers 5/59"
+   "heartbeat_at": null,
+   "detail": "Employers 20/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:32:48Z",
-   "detail": "Employers 270/54"
+   "heartbeat_at": null,
+   "detail": "Employers 285/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "434 of 606 units done",
+   "detail": "440 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 6:32 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 6:34 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
