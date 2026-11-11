@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T13:15:31Z",
+ "generated_at": "2026-11-11T13:17:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T13:14:27Z",
+  "last_activity_at": "2026-11-11T13:17:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,21 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 4,
-  "rejected": 401,
-  "evaluated": 406
+  "parked": 5,
+  "rejected": 403,
+  "evaluated": 408
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 402,
+  "evaluated": 404,
   "filed": 0,
-  "parked": 5,
-  "rejected": 396,
+  "parked": 6,
+  "rejected": 398,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T13:15:31Z",
-   "detail": "Employers 95/73"
+   "heartbeat_at": null,
+   "detail": "Employers 125/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -222,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 329/59"
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
@@ -302,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "530 of 606 units done",
+   "detail": "541 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-11T11:24:00Z",
-   "ended_at": null
+   "ended_at": "2026-11-11T13:17:33Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 7:14 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 7:17 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
