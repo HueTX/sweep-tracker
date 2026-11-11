@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T10:16:55Z",
+ "generated_at": "2026-11-11T10:18:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T10:08:42Z",
+  "last_activity_at": "2026-11-11T10:17:15Z",
   "progress": {
    "pools": 21,
-   "covered_units": 696,
+   "covered_units": 698,
    "total_units": 754,
-   "pct": 92
+   "pct": 93
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 18,
-  "evaluated": 18
+  "rejected": 32,
+  "evaluated": 32
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 32,
+  "evaluated": 45,
   "filed": 0,
   "parked": 1,
-  "rejected": 31,
+  "rejected": 44,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -91,8 +91,8 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -114,12 +114,12 @@
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "searching",
-   "families_searched": 30,
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T10:16:55Z",
-   "detail": "Employers 69/32"
+   "heartbeat_at": "2026-11-11T10:18:16Z",
+   "detail": "Employers 84/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -268,12 +268,12 @@
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "searching",
-   "families_searched": 28,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T10:16:55Z",
-   "detail": "Employers 36/31"
+   "heartbeat_at": "2026-11-11T10:18:16Z",
+   "detail": "Employers 51/31"
   }
  },
  "stages": {
@@ -303,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "53 of 107 units done",
+   "detail": "59 of 122 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -544,10 +544,10 @@
    }
   ]
  },
- "note": "Last activity 4:08 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:17 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
    "pool": "W4"
   }
@@ -555,7 +555,7 @@
  "now_viewing": {
   "live": true,
   "label": "W4",
-  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -604,6 +604,13 @@
     "time": "3:59 AM"
    },
    {
+    "company": "GuideWell / Florida Blue",
+    "role": "Enterprise Cloud Architect",
+    "reason": "stale — Published: 2026-09-13; This position offers a hybrid work arrangement; Annualized Salary Range: $141,700 - $230,200",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
     "company": "Expeditors International",
     "role": "Architect (Solution) - EXP.O NOW, IS Customer Experience",
     "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
@@ -618,11 +625,32 @@
     "time": "4:08 AM"
    },
    {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
+    "reason": "stale — Posting Date 10/28/2026; Pay Range: $111,893 - $218,192 / ANNUAL; Remote positions are U.S.-based only",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
     "company": "Expeditors International",
     "role": "Architect (Solutions) - Information Services, Operational Experience",
     "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
     "where": "Employer sites",
     "time": "4:08 AM"
+   },
+   {
+    "company": "Old Dominion Freight Line",
+    "role": "Security Architect",
+    "reason": "stale — Published: 2026-09-25; Minimum of 10+ years of experience in cybersecurity, with at least 5 years in a leadership role or as a cybersecurity architect; ($143,250-$179,041)",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "GuideWell / Florida Blue",
+    "role": "Sr Cloud Architect",
+    "reason": "stale — Published: 2026-09-13; This position offers a hybrid work arrangement which combines flexibility with in office engagement; Annualized Salary Range: $130,000 - $211,300",
+    "where": "Employer sites",
+    "time": "4:17 AM"
    },
    {
     "company": "CareFirst",
@@ -632,11 +660,60 @@
     "time": "4:01 AM"
    },
    {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Program Architect - Remote",
+    "reason": "stale — Published: 2026-10-27; salary $112,700 - $193,200; workarounds tried: employer ATS posting checked directly (governing text carries the same 2026-10-27 date)",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "GXO Logistics",
+    "role": "Principal Solutions Architect",
+    "reason": "stale — Published: 2026-09-29; 5 years of hands-on experience building cloud-native data platforms on GCP and/or Snowflake",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "UPS",
+    "role": "Application Architect (AI & Cloud) - Flex",
+    "reason": "stale — Published: 2026-10-26; Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run; pay $128,172 - $272,736",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Health Care Service Corporation (BCBS)",
+    "role": "Application Architect",
+    "reason": "stale — Published: 2026-10-05; Base Pay Range $92,700.00 - $167,500.00; This position may be performed remotely from anywhere within the continental United States",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect - Configuration and Deployment Services, IS Core",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA area. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect (Technical), Operational Experience",
+    "reason": "not-remote — Global Service Center (GSC) operating from Chennai, India, is a part of CHQ - IS supporting Expeditors Information Services (India-based role, not US remote)",
+    "where": "Employer sites",
+    "time": "4:17 AM"
+   },
+   {
     "company": "Early Warning",
     "role": "Director, Cloud Engineering",
     "reason": "not-remote — Title: Director, Cloud Engineering. Location: Scottsdale, San Francisco, Chicago, or New York. Positions located in Scottsdale, San Francisco, Chicago, or New York follow a hybrid work model to allow for a more collaborative working environment. Workarounds tried: (1) employer's own Early Warning JD text as carried in full on Worqstrap (published 2026-11-05, governing hybrid terms); (2) alternate routes carry the same hybrid model; (3) no fully remote posting of this req. Stated hybrid schedule at named offices - not 100% remote; role is also engineering management, not architect-level.",
     "where": "Employer sites",
     "time": "1:13 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect - Ocean & OM Products, IS Operational Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
+    "where": "Employer sites",
+    "time": "4:17 AM"
    },
    {
     "company": "Toptal",
@@ -686,6 +763,13 @@
     "reason": "stale — The Enterprise Architect will serve as a critical technical thought leader, partnering with System, District and Treasury stakeholders to align technology strategies with business objectives",
     "where": "Employer sites",
     "time": "3:51 AM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Staff Software Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $106,605.00 - $260,590.00",
+    "where": "Employer sites",
+    "time": "4:17 AM"
    }
   ],
   "USAJOBS": [
@@ -772,6 +856,15 @@
     "reason": "stale — Lead the creation and enhancement of Terraform and Cloud-native IaC modules to secure cloud infrastructure.",
     "where": "USAJOBS",
     "time": "3:53 AM"
+   }
+  ],
+  "Dice": [
+   {
+    "company": "Independence Blue Cross",
+    "role": "Director, Enterprise IT Architecture - Hybrid (PA/NJ/DE)",
+    "reason": "not-remote — Independence has implemented a Hybrid model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week; work must be performed in the Tri-State Area of Delaware, New Jersey or Pennsylvania",
+    "where": "Dice",
+    "time": "4:17 AM"
    }
   ],
   "Google Jobs": [
@@ -1997,5 +2090,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T10:16:55Z"
+ "lists_generated_at": "2026-11-11T10:18:16Z"
 }
