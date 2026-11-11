@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T12:04:05Z",
+ "generated_at": "2026-11-11T12:05:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T11:58:48Z",
+  "last_activity_at": "2026-11-11T12:05:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 564,
+   "covered_units": 580,
    "total_units": 754,
-   "pct": 75
+   "pct": 77
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 212,
-  "evaluated": 215
+  "rejected": 217,
+  "evaluated": 220
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 221,
+  "evaluated": 226,
   "filed": 0,
   "parked": 4,
-  "rejected": 217,
+  "rejected": 222,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -124,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:04:05Z",
-   "detail": "Employers 246/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-11T12:04:05Z",
-   "detail": "Employers 241/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -246,23 +243,23 @@
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "queued",
-   "families_searched": 50,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 225/45"
+   "detail": "Employers 235/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
    "phase": "queued",
-   "families_searched": 50,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/41"
+   "detail": "Employers 210/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "351 of 606 units done",
+   "detail": "363 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:58 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 6:05 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -720,6 +711,13 @@
     "time": "5:07 AM"
    },
    {
+    "company": "Murphy Oil",
+    "role": "Enterprise Cloud Architect (Finance)",
+    "reason": "not-remote — This role will work in our Houston Corporate office and may work two (2) days a week remote. #LI-Hybrid — undated live posting, verdicted on merits. workarounds tried: (1) employer posting text via Murphy mirror carries same hybrid wording, (2) alternate listings (Dice/other mirrors) same Houston hybrid wording, (3) no alternate remote posting of same role found",
+    "where": "Employer sites",
+    "time": "6:04 AM"
+   },
+   {
     "company": "NextEra Energy",
     "role": "Principal IT Architect",
     "reason": "aws-first — Provide expert guidance for AWS and/or Google Cloud Platform infrastructure architectures; Expert-level knowledge of AWS and/or Google Cloud Platform Infrastructure as a Service (IaaS) (Azure appears only as one of several comparable AI services, never as the platform focus - AWS/GCP-first role; undated live posting on NextEra's own jobs site, Juno Beach FL with Relocation Provided: Yes)",
@@ -732,6 +730,13 @@
     "reason": "not-remote — Date: Feb 25, 2026; Location: Saint Louis, MO, US, 63101 Birmingham, AL, US, 35203 Kansas City, MO, US, 64129; Company: Spire Inc.; Job Req ID: 11522; Job Location: St Louis | workarounds tried: (1) employer's own jobs.spireenergy.com posting - same site locations, (2) Career.io mirror - same locations, (3) no remote alternate posting found",
     "where": "Employer sites",
     "time": "5:05 AM"
+   },
+   {
+    "company": "Black Hills Corporation",
+    "role": "Senior Information Security Architect",
+    "reason": "not-remote — Location: Rapid City, SD — Relocation Assistance: Relocation assistance is available based on individual circumstances! — undated live posting, verdicted on merits; pay $103,150-$170,200 top in band, remote is deciding filter. workarounds tried: (1) employer posting text via Black Hills Energy listing carries same Rapid City location, (2) alternate listings same location, (3) no alternate remote posting of same role found",
+    "where": "Employer sites",
+    "time": "6:04 AM"
    },
    {
     "company": "RTX",
@@ -809,6 +814,13 @@
     "reason": "pay-outside-band — The Cloud Architect will play a pivotal role in shaping Ryder's cloud strategy and operational excellence. This individual will lead the design, governance, and implementation of scalable, secure, and automated cloud solutions across hybrid and multi-cloud environments. Minimum Pay Range: $130,000.00 Maximum Pay Range: $150,000.00 (top below $160K band floor; workarounds tried: employer's own posting text governs)",
     "where": "Employer sites",
     "time": "4:44 AM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Enterprise Architect",
+    "reason": "clearance — Security Clearance Level: Final Secret. — Location: On customer site at Camp Smith, HI. (Onsite Workplace) — active clearance required is a gate fact; pay $187,179-$230,000 top in band, clearance/onsite decide. REQ#: RQ223012, GDIT/ARMA",
+    "where": "Employer sites",
+    "time": "6:05 AM"
    },
    {
     "company": "CareFirst",
@@ -1175,6 +1187,13 @@
     "time": "5:05 AM"
    },
    {
+    "company": "Hawaiian Electric",
+    "role": "Operational Technology Solutions Architect",
+    "reason": "not-remote — Location: Honolulu – Oahu — Hiring Range: The hiring range for the Operational Technology Solutions Architect [Req ID 10296] position is $120,600.00 to $156,700.00 (top also below $160K band floor). Undated live posting (open until filled), verdicted on merits. workarounds tried: employer posting text via Hawaiian Electric listing carries same Honolulu location, alternate mirrors same, no remote alternate found",
+    "where": "Employer sites",
+    "time": "6:05 AM"
+   },
+   {
     "company": "eBay",
     "role": "Cloud Architect",
     "reason": "stale — Published: 2025-07-31; Fully Remote (Within the United States); you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment. Stale typed date; also AWS-focused.",
@@ -1488,6 +1507,13 @@
     "reason": "pay-outside-band — The expected salary range for this role is $219,522-$274,403 per year",
     "where": "Employer sites",
     "time": "5:54 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Staff Systems Architect",
+    "reason": "experience-mismatch — Drive system/subsystem architecture definition activities utilizing MBSE tools — Experience in MBSE (Cameo, Rhapsody); Experience across the various activities in the Systems Engineering V-Diagram — core duties are MBSE defense battle-management/C2 systems engineering, not Azure/cloud enterprise architecture. Fully remote teleworker, GeoZone ranges vary, experience is deciding filter. workarounds tried: employer detail via Built In carries same MBSE duties, no alternate cloud/enterprise-IT posting of same role found",
+    "where": "Employer sites",
+    "time": "6:05 AM"
    }
   ],
   "Built In / SLB careers": [
@@ -3281,7 +3307,6 @@
    "Constellation Energy",
    "Berkshire Hathaway Energy",
    "Avista",
-   "Black Hills Corporation",
    "MDU Resources",
    "Portland General Electric",
    "PNM Resources",
@@ -3391,5 +3416,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-11T12:04:05Z"
+ "lists_generated_at": "2026-11-11T12:05:25Z"
 }
