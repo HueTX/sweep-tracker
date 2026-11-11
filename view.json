@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-11T11:06:33Z",
+ "generated_at": "2026-11-11T11:08:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "3834bf50",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-11T09:31:37Z",
-  "last_activity_at": "2026-11-11T11:06:16Z",
+  "last_activity_at": "2026-11-11T11:07:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 368,
+   "covered_units": 408,
    "total_units": 754,
-   "pct": 49
+   "pct": 54
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,18 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 120,
-  "evaluated": 121
+  "rejected": 129,
+  "evaluated": 130
  },
  "today": {
   "date": "2026-11-11",
-  "evaluated": 131,
+  "evaluated": 140,
   "filed": 0,
   "parked": 2,
-  "rejected": 129,
+  "rejected": 138,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,24 +126,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 10,
+   "phase": "searching",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 49/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 10,
+   "phase": "searching",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 49/44"
   },
   "W9": {
    "label": "Dice",
@@ -242,24 +247,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
-   "families_searched": 0,
+   "phase": "searching",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/45"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
-   "families_searched": 0,
+   "phase": "searching",
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/41"
+   "heartbeat_at": "2026-11-11T11:08:28Z",
+   "detail": "Employers 5/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "178 of 606 units done",
+   "detail": "184 of 606 units done",
    "started_at": "2026-11-11T09:31:37Z",
    "ended_at": null
   },
@@ -541,13 +546,19 @@
    }
   ]
  },
- "note": "Last activity 5:06 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:07 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
