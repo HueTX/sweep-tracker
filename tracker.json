@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T10:16:32Z",
+ "generated_at": "2026-11-12T10:18:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T10:00:28Z",
+  "last_activity_at": "2026-11-12T10:16:53Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 724,
    "total_units": 754,
-   "pct": 95
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 2,
-  "evaluated": 3
+  "rejected": 8,
+  "evaluated": 9
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 40,
+  "evaluated": 46,
   "filed": 0,
   "parked": 3,
-  "rejected": 37,
+  "rejected": 43,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1"
+  "W1",
+  "W4"
  ],
  "lanes": {
   "LinkedIn": {
@@ -80,12 +81,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:16:32Z",
-   "detail": "Employers 80/30"
+   "heartbeat_at": "2026-11-12T10:18:03Z",
+   "detail": "Employers 110/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -112,12 +113,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-12T10:18:03Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -302,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "16 of 51 units done",
+   "detail": "22 of 51 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -543,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 4:00 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:16 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 21 of 58 · IT Architecture Lead",
@@ -624,6 +625,50 @@
     "reason": "not-remote — CORRECTION of PASS 10442: TQL's own careers postings for this req (7488 Cincinnati / 7491 Charlotte, governing text) state: '$148,000-185,000 base salary + performance bonuses - Position based in Cincinnati, OH; Charlotte, NC; or Tampa, FL (relocation assistance provided). Where you'll be: 4289 Ivy Pointe Boulevard, Cincinnati, Ohio 45245.' No remote Enterprise Architect req exists on TQL's own site; the Teal 'Spring, TX - Remote' label is an aggregator mislabel. Workarounds tried: (1) employer's own ATS careers.tql.com (governing), (2) alternate routes Teal/Career.io/hiring.cafe all mirror the same office-based req, (3) no alternate remote posting of the role.",
     "where": "Employer sites",
     "time": "1:21 AM"
+   }
+  ],
+  "USAJOBS / Employer sites": [
+   {
+    "company": "Defense Counterintelligence and Security Agency",
+    "role": "Computer Scientist (Enterprise Architect)",
+    "reason": "stale — Telework Eligibility: Supervisors may approve situational telework on a case-by-case, temporary basis for limited situations.",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "GSA",
+    "role": "Cloud Engineer (Solutions Architect)",
+    "reason": "stale — Provides direct analysis and recommendations associated with implementation or migration of applications, services, and capabilities to cloud-based services",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "Commerce (NOAA, USPTO)",
+    "role": "IT Specialist - Senior Enterprise Endpoint Architect",
+    "reason": "stale — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "US Army Corps of Engineers",
+    "role": "Architect GS-0808-12",
+    "reason": "stale — Operating design software to create architectural designs; Preparing architectural designs for new construction, expansions, or renovations of buildings",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "VA",
+    "role": "IT Specialist (Data Architect)",
+    "reason": "stale — Work hands-on with technology including the Azure data platform (ADLS, ADF, Azure SQL, Databricks, Python, Spark) or equivalent",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "DOT / FAA",
+    "role": "Information Technology Specialist (ENTARCH) - Azure Enterprise Architect",
+    "reason": "stale — THIS POSITION IS NOT ELIGIBILE FOR REMOTE TELEWORK.",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:16 AM"
    }
   ],
   "Google Jobs": [
@@ -2085,5 +2130,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T10:16:32Z"
+ "lists_generated_at": "2026-11-12T10:18:03Z"
 }
