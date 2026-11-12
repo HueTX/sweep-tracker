@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T07:12:48Z",
+ "generated_at": "2026-11-12T07:14:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
@@ -9,7 +9,7 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
@@ -18,9 +18,9 @@
   "last_activity_at": "2026-11-12T06:50:47Z",
   "progress": {
    "pools": 21,
-   "covered_units": 720,
+   "covered_units": 668,
    "total_units": 754,
-   "pct": 95
+   "pct": 89
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,10 @@
   "rejected": 22,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8",
+  "W7"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,24 +58,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 48,
+   "phase": "searching",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 48/58"
+   "heartbeat_at": "2026-11-12T07:14:08Z",
+   "detail": "Titles 30/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
-   "families_searched": 34,
+   "phase": "searching",
+   "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 34/58"
+   "heartbeat_at": "2026-11-12T07:14:08Z",
+   "detail": "Titles 0/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -300,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 11 units done",
+   "detail": "5 of 20 units done",
    "started_at": "2026-11-12T06:41:32Z",
    "ended_at": null
   },
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 12:50 AM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 12:50 AM CT · 8 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1932,5 +1941,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T07:12:48Z"
+ "lists_generated_at": "2026-11-12T07:14:08Z"
 }
