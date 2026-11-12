@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T14:19:16Z",
+ "generated_at": "2026-11-12T14:21:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T14:15:37Z",
+  "last_activity_at": "2026-11-12T14:20:39Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 10,
-  "rejected": 374,
-  "evaluated": 384
+  "rejected": 376,
+  "evaluated": 386
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 398,
+  "evaluated": 400,
   "filed": 0,
   "parked": 12,
-  "rejected": 386,
+  "rejected": 388,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16",
-  "W17"
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -102,12 +101,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-12T14:21:15Z",
    "detail": "Employers 105/73"
   },
   "W4": {
@@ -223,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T14:19:16Z",
-   "detail": "Employers 331/59"
+   "heartbeat_at": null,
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T14:19:16Z",
-   "detail": "Employers 319/54"
+   "heartbeat_at": null,
+   "detail": "Employers 324/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -303,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "531 of 591 units done",
+   "detail": "537 of 591 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -544,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 8:15 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:20 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W3",
+  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1611,6 +1610,13 @@
     "time": "7:45 AM"
    },
    {
+    "company": "Aon",
+    "role": "Principal Architect, Sales and Marketing Technologies",
+    "reason": "experience-mismatch — Deep experience architecting enterprise Sales & Marketing technology ecosystems. Strong knowledge of Salesforce and Oracle platforms, including CRM and marketing technologies. Workarounds tried: Aon careers-site search for the employer's own posting, plus DailyRemote and Remotive mirrors carrying the identical JD; the role's entire core portfolio (Salesforce/Oracle CX CRM, Eloqua/Marketing Cloud, Sitecore, CDP) is absent from Hubert's Azure/cloud enterprise-architecture record.",
+    "where": "Employer sites",
+    "time": "8:20 AM"
+   },
+   {
     "company": "TQL",
     "role": "Enterprise Architect",
     "reason": "not-remote — CORRECTION of PASS 10442: TQL's own careers postings for this req (7488 Cincinnati / 7491 Charlotte, governing text) state: '$148,000-185,000 base salary + performance bonuses - Position based in Cincinnati, OH; Charlotte, NC; or Tampa, FL (relocation assistance provided). Where you'll be: 4289 Ivy Pointe Boulevard, Cincinnati, Ohio 45245.' No remote Enterprise Architect req exists on TQL's own site; the Teal 'Spring, TX - Remote' label is an aggregator mislabel. Workarounds tried: (1) employer's own ATS careers.tql.com (governing), (2) alternate routes Teal/Career.io/hiring.cafe all mirror the same office-based req, (3) no alternate remote posting of the role.",
@@ -2309,6 +2315,13 @@
     "reason": "not-remote — Please note, this position is designated as flexible (aka hybrid), and the expectation is that the selected candidate will report to the assigned office in Greensboro, NC 3 days per week.",
     "where": "Employer sites",
     "time": "8:13 AM"
+   },
+   {
+    "company": "Slalom",
+    "role": "Drupal Architect",
+    "reason": "not-remote — Onsite - Drupal Architect Job at Slalom in Seattle, Washington, United States; Job type: Full-time, Onsite",
+    "where": "Employer sites",
+    "time": "8:20 AM"
    }
   ],
   "BuiltIn / Highmark enGen": [
@@ -4770,5 +4783,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T14:19:16Z"
+ "lists_generated_at": "2026-11-12T14:21:15Z"
 }
