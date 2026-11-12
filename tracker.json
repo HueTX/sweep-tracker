@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T09:57:46Z",
+ "generated_at": "2026-11-12T09:59:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T09:53:23Z",
+  "last_activity_at": "2026-11-12T09:58:58Z",
   "progress": {
    "pools": 21,
-   "covered_units": 734,
+   "covered_units": 726,
    "total_units": 754,
-   "pct": 97
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 2,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 37,
+  "evaluated": 40,
   "filed": 0,
   "parked": 2,
-  "rejected": 35,
+  "rejected": 37,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -80,12 +80,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T09:57:46Z",
-   "detail": "Employers 0/30"
+   "heartbeat_at": "2026-11-12T09:59:26Z",
+   "detail": "Employers 25/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -283,10 +283,10 @@
    "ended_at": "2026-11-12T09:53:23Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-12T09:53:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T09:59:09Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -302,14 +302,14 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 12 units done",
+   "detail": "5 of 24 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "state": "active",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-12T09:58:58Z",
    "ended_at": null
   },
   "stall_watch": {
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Started 3:53 AM CT · 0 filed",
+ "note": "Last activity 3:58 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 11 of 58 · Domain Architect",
@@ -802,6 +802,22 @@
     "reason": "excluded — Job ID: 00070308391, Location: Remote, annual salary $140,000 - $160,000, Published: 2026-10-12. Cognizant is manual-only per standing rules - never filed by the sweep (gate fact, reject on sight).",
     "where": "Cognizant Careers",
     "time": "1:18 AM"
+   }
+  ],
+  "USAJOBS": [
+   {
+    "company": "Nuclear Regulatory Commission (NRC)",
+    "role": "Senior Information Technology Specialist (ENTARCH)",
+    "reason": "stale — Lead the development, implementation, and oversight of enterprise cloud strategies, policies, and roadmaps that support organizational mission and business objectives. Published: 10/28/2026 - outside the 7-day eligibility window (today 2026-11-12).",
+    "where": "USAJOBS",
+    "time": "3:58 AM"
+   },
+   {
+    "company": "Commerce (NOAA, USPTO)",
+    "role": "Information Technology Specialist (Cloud Engineer)",
+    "reason": "not-remote — The physical worksite for this position is located in Alexandria, Virginia. Presence at the Alexandria, VA campus is required for this role, as it includes on site functions that must be performed in person. Position may be eligible for situational telework in accordance with agency policy/business unit discretion.",
+    "where": "USAJOBS",
+    "time": "3:58 AM"
    }
   ],
   "Web Catch-All (Jobicy)": [
@@ -2060,5 +2076,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T09:57:46Z"
+ "lists_generated_at": "2026-11-12T09:59:26Z"
 }
