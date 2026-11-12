@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T12:10:22Z",
+ "generated_at": "2026-11-12T12:12:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T12:06:32Z",
+  "last_activity_at": "2026-11-12T12:12:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 668,
+   "covered_units": 652,
    "total_units": 754,
-   "pct": 89
+   "pct": 86
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 189,
-  "evaluated": 192
+  "rejected": 194,
+  "evaluated": 197
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 222,
+  "evaluated": 227,
   "filed": 0,
   "parked": 5,
-  "rejected": 217,
+  "rejected": 222,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -245,18 +245,18 @@
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T12:10:22Z",
+   "heartbeat_at": "2026-11-12T12:12:42Z",
    "detail": "Employers 95/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
    "phase": "queued",
-   "families_searched": 28,
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -302,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "271 of 360 units done",
+   "detail": "271 of 378 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 6:06 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:12 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 11 of 58 · Domain Architect",
@@ -1284,6 +1284,41 @@
     "reason": "closed — Applications for this position will be accepted until Nov. 10, 2026",
     "where": "Employer sites",
     "time": "6:05 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Propulsion System Architect",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week {or other frequency dictated by their manager}. | workarounds tried: (1) employer's own ATS posting at search-careers.gm.com (governing text, quoted), (2) alternate routes/mirrors (Built In, The Muse) showing the same hybrid Warren, MI role, (3) no alternate remote posting of the same req found",
+    "where": "Employer sites",
+    "time": "6:12 AM"
+   },
+   {
+    "company": "Tesla",
+    "role": "Compute Architect, SI Hardware",
+    "reason": "not-remote — Ability to work on-site at Tesla's Palo Alto office, contributing to a fast-paced, collaborative environment | workarounds tried: (1) Tesla careers description via its syndicated postings (Simplify/Career.io, same Req. ID 278584), (2) alternate mirrors (DiversityJobs, Jobright) showing the same on-site Palo Alto role, (3) no alternate remote posting of the same req found; refreshed 2026-11-07 on Simplify",
+    "where": "Employer sites",
+    "time": "6:12 AM"
+   },
+   {
+    "company": "Tesla",
+    "role": "Sr. Systems Architecture Engineer, Megapod",
+    "reason": "experience-mismatch — Fundamentals in compute architecture and networking infrastructure, with working knowledge of GPU architectures for training and inference, including power, thermal density, memory, interconnect, and form factor; Degree in Electrical Engineering, Computer Engineering, Physics, or equivalent experience; Expected Compensation $128,000 - $264,000 (top also above the $230,000 band ceiling) | workarounds tried: (1) Tesla's own careers site searched for a Megapod page (not surfaced), (2) the mirror JD text is the only route to this req, (3) no alternate posting of the same role found; core duties are GPU/compute hardware physics, not IT/cloud enterprise architecture",
+    "where": "Employer sites",
+    "time": "6:12 AM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "Principal DevOps Engineer",
+    "reason": "hands-on — CI/CD Pipeline Management: Build, maintain, and update continuous integration and continuous deployment pipelines (using tools like Jenkins, GitLab CI, or GitHub Actions) to automate code testing and deployment. Infrastructure as Code (IaC): Provision, scale, and manage cloud or hybrid environments programmatically using tools like Terraform, Ansible, Chef, or Puppet. | workarounds tried: (1) employer's own ATS posting at jobs.johnsoncontrols.com (governing text, quoted), (2) Built In mirror with the same pipeline/IaC duties, (3) no alternate architect-level posting of the same req found; whole role is engineer-level pipeline construction and IaC provisioning",
+    "where": "Employer sites",
+    "time": "6:12 AM"
+   },
+   {
+    "company": "PACCAR",
+    "role": "Data Architect (Technical Fellow, Enterprise Data Architecture)",
+    "reason": "experience-mismatch — 12+ years of progressive experience in data architecture, enterprise systems, analytics, or related technology disciplines; The Technical Fellow, Enterprise Data Architecture is PACCAR's highest level individual contributor within the data and analytics discipline. | undated live posting on the employer's own detail page (jobs.paccar.com, Renton, WA; no posted date and no remote statement on that page), verdicted on the merits | workarounds tried: (1) employer's own ATS posting (governing text, quoted), (2) search mirrors showing the same Renton data-architecture role, (3) no alternate posting of the same req found; core requirement is a 12+ year data-architecture specialty, not his Azure/cloud enterprise architecture record",
+    "where": "Employer sites",
+    "time": "6:12 AM"
    }
   ],
   "BuiltIn / Highmark enGen": [
@@ -3499,5 +3534,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T12:10:22Z"
+ "lists_generated_at": "2026-11-12T12:12:42Z"
 }
