@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T07:18:10Z",
+ "generated_at": "2026-11-12T07:19:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T06:41:32Z",
-  "last_activity_at": "2026-11-12T06:50:47Z",
+  "last_activity_at": "2026-11-12T07:18:49Z",
   "progress": {
    "pools": 21,
-   "covered_units": 668,
+   "covered_units": 702,
    "total_units": 754,
-   "pct": 89
+   "pct": 93
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 26,
-  "evaluated": 28
+  "rejected": 35,
+  "evaluated": 38
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 24,
+  "evaluated": 33,
   "filed": 0,
   "parked": 0,
-  "rejected": 22,
+  "rejected": 30,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W8",
-  "W7"
+  "W8"
  ],
  "lanes": {
   "LinkedIn": {
@@ -59,23 +58,23 @@
    "label": "Web Catch-All",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 30,
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T07:18:10Z",
-   "detail": "Titles 30/58"
+   "heartbeat_at": "2026-11-12T07:19:14Z",
+   "detail": "Titles 40/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 0,
+   "phase": "queued",
+   "families_searched": 24,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T07:18:10Z",
-   "detail": "Titles 0/58"
+   "heartbeat_at": null,
+   "detail": "Titles 24/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -303,13 +302,13 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 20 units done",
+   "detail": "11 of 20 units done",
    "started_at": "2026-11-12T06:41:32Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "0 of 2 units done",
+   "state": "active",
+   "detail": "0 of 3 units done",
    "started_at": "2026-11-12T06:48:19Z",
    "ended_at": null
   },
@@ -544,10 +543,10 @@
    }
   ]
  },
- "note": "Last activity 12:50 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:18 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
    "pool": "W8"
   }
@@ -555,7 +554,7 @@
  "now_viewing": {
   "live": true,
   "label": "W8",
-  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -578,6 +577,22 @@
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
+  "Employer sites": [
+   {
+    "company": "Experian",
+    "role": "Platform Architect, Remote",
+    "reason": "hands-on — Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm; Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments. Whole role is platform engineering/building with a platform engineering mindset; AWS-preferred. Undated live posting on Experian's own careers page, verdicted on the merits. Workarounds tried: employer's own ATS posting (governing text).",
+    "where": "Employer sites",
+    "time": "1:18 AM"
+   },
+   {
+    "company": "Harris Computer",
+    "role": "Principal AI Cloud Architect - Azure Cloud",
+    "reason": "stale — Published: 2026-11-03 - posting is older than the 7-day eligibility window (today 2026-11-12). JD also seeks hands-on experience building production agentic AI systems; salary range $140,000 - $170,000 USD.",
+    "where": "Employer sites",
+    "time": "1:18 AM"
+   }
+  ],
   "Web Catch-All (Amtrak Careers)": [
    {
     "company": "Amtrak",
@@ -594,6 +609,15 @@
     "reason": "stale — Annual Salary:$320,000 — $405,000 USD",
     "where": "Web Catch-All (RemoteArmy)",
     "time": "12:49 AM"
+   }
+  ],
+  "Jobgether": [
+   {
+    "company": "BMO Harris Bank",
+    "role": "Senior Enterprise Solutions Architect",
+    "reason": "stale — Published: 2026-10-22; Address: VIRTUAL59 - REMOTE/TELETRAVAIL - ON - BMO (Ontario, Canada). Posting is older than the 7-day eligibility window and Canada-based.",
+    "where": "Jobgether",
+    "time": "1:18 AM"
    }
   ],
   "Web Catch-All (CareerBuilder)": [
@@ -724,6 +748,15 @@
     "time": "12:49 AM"
    }
   ],
+  "Cognizant Careers": [
+   {
+    "company": "Cognizant",
+    "role": "Principal Enterprise Architect - AI, Cloud & Modernization (Remote)",
+    "reason": "excluded — Job ID: 00070308391, Location: Remote, annual salary $140,000 - $160,000, Published: 2026-10-12. Cognizant is manual-only per standing rules - never filed by the sweep (gate fact, reject on sight).",
+    "where": "Cognizant Careers",
+    "time": "1:18 AM"
+   }
+  ],
   "Web Catch-All (Jobicy)": [
    {
     "company": "Nebius",
@@ -756,6 +789,38 @@
     "reason": "not-remote — OT Cybersecurity Architect UK-based hybrid | National client travel | ASAP start",
     "where": "Web Catch-All (JobLeads)",
     "time": "12:48 AM"
+   }
+  ],
+  "Remotive": [
+   {
+    "company": "Synopsys",
+    "role": "Enterprise Solutions Architect",
+    "reason": "pay-outside-band — Synopsys is hiring a remote Enterprise Solutions Architect. Salary: usd 99,200 - 148,800 per year; Location: USA. Duties are hands-on container/infrastructure automation: 'Automate infrastructure tasks using tools like Terraform, Flux, Ansible, and GitHub Actions'. Published top $148,800 is below the $160,000 band floor. Workarounds tried: Remotive full JD read; employer's own posting carries the same range.",
+    "where": "Remotive",
+    "time": "1:18 AM"
+   },
+   {
+    "company": "Allstate",
+    "role": "Business Architect Expert",
+    "reason": "experience-mismatch — 5+ years of substantial hands-on Workday HCM experience, with demonstrated depth in core business processes, configuration concepts, system capabilities, and cross-functional dependencies. Core role is HR/Workday HCM business architecture; candidate has no HR or Workday HCM experience. Workarounds tried: Remotive full JD read (mirror of Allstate's own posting).",
+    "where": "Remotive",
+    "time": "1:18 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Senior Principal Architect",
+    "reason": "excluded — Published: 2026-10-21. 3Cloud counts as Cognizant (manual-only) per standing rules - never filed by the sweep (gate fact, reject on sight). Salary usd 183,400 - 255,100 per year also exceeds band ceiling at the top.",
+    "where": "Remotive",
+    "time": "1:18 AM"
+   }
+  ],
+  "The Ladders": [
+   {
+    "company": "RapidSOS",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — Published: 2026-11-01T01:32:21 - posting is older than the 7-day eligibility window (today 2026-11-12). Base salary range $150,000 - $180,000, #LI-Remote.",
+    "where": "The Ladders",
+    "time": "1:18 AM"
    }
   ]
  },
@@ -1941,5 +2006,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T07:18:10Z"
+ "lists_generated_at": "2026-11-12T07:19:14Z"
 }
