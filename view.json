@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T09:52:24Z",
+ "generated_at": "2026-11-12T09:53:23Z",
  "lane_state_source": "model",
  "run": {
-  "id": "384d378e",
+  "id": "0f58fb91",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,13 +14,13 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-12T09:08:22Z",
-  "last_activity_at": "2026-11-12T09:08:22Z",
+  "started_at": "2026-11-12T09:53:23Z",
+  "last_activity_at": "2026-11-12T09:53:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 744,
    "total_units": 754,
-   "pct": 100
+   "pct": 99
   },
   "families_covered": 58,
   "families_total": 58
@@ -77,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 30/30"
+   "detail": "Employers 0/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -276,15 +276,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 26 opened 3:08 AM CT",
-   "started_at": "2026-11-12T09:08:22Z",
-   "ended_at": "2026-11-12T09:08:22Z"
+   "detail": "Cycle 27 opened 3:53 AM CT",
+   "started_at": "2026-11-12T09:53:23Z",
+   "ended_at": "2026-11-12T09:53:23Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-12T09:08:22Z",
-   "ended_at": "2026-11-12T09:11:47Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-12T09:53:23Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "6 of 6 units done",
-   "started_at": "2026-11-12T09:08:22Z",
-   "ended_at": "2026-11-12T09:12:18Z"
+   "state": "pending",
+   "detail": "0 of 6 units done",
+   "started_at": "2026-11-12T09:53:23Z",
+   "ended_at": null
   },
   "sector_filing": {
    "state": "pending",
@@ -311,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-12T09:13:14Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-12T09:13:14Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-12T09:13:14Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Started 3:08 AM CT · 0 filed",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 3:53 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
