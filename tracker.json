@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T07:20:40Z",
+ "generated_at": "2026-11-12T07:21:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
@@ -10,37 +10,37 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T06:41:32Z",
-  "last_activity_at": "2026-11-12T07:18:49Z",
+  "last_activity_at": "2026-11-12T07:21:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 702,
+   "covered_units": 720,
    "total_units": 754,
-   "pct": 93
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 35,
-  "evaluated": 38
+  "parked": 2,
+  "rejected": 37,
+  "evaluated": 39
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 33,
+  "evaluated": 34,
   "filed": 0,
-  "parked": 0,
-  "rejected": 30,
+  "parked": 2,
+  "rejected": 32,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W8"
+  "W7"
  ],
  "lanes": {
   "LinkedIn": {
@@ -57,23 +57,23 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-12T07:20:40Z",
-   "detail": "Titles 40/58"
-  },
-  "W7": {
-   "label": "Google Jobs",
-   "sites": 1,
-   "phase": "queued",
-   "families_searched": 24,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Titles 58/58"
+  },
+  "W7": {
+   "label": "Google Jobs",
+   "sites": 1,
+   "phase": "searching",
+   "families_searched": 24,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-12T07:21:55Z",
    "detail": "Titles 24/58"
   },
   "W1": {
@@ -302,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "11 of 20 units done",
+   "detail": "14 of 20 units done",
    "started_at": "2026-11-12T06:41:32Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-12T06:48:19Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T07:21:18Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 1:18 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:21 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W7 · Title 25 of 58 · Digital Transformation Architect",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "W7"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W7",
+  "headline": "W7 · Title 25 of 58 · Digital Transformation Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -575,7 +575,24 @@
  "date": "2026-11-12",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
+ "today_parked": {
+  "Web Catch-All (Built In)": [
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Lead Cloud Architect",
+    "reason": "credential-needed — Filing walled at GDIT's candidate portal: applying requires signing into / creating a GDIT careers account, and Hubert sets credentials through the Secure Vault himself - the same credential wall this lead (Lead Cloud Architect, $170,144-$230,000, remote, Public Trust) has parked on in prior cycles. Alternate route tried: board mirrors of this req (Built In/Dice) redirect to GDIT's own portal; no alternate submission route exists. Parked credential-needed, silently, per standing rules.",
+    "where": "Web Catch-All (Built In)",
+    "time": "1:21 AM"
+   },
+   {
+    "company": "Trillium Health Resources",
+    "role": "IT Architect",
+    "reason": "credential-needed — How to Apply: 'To be considered, submit your application and resume through our ADP Career Center.' ADP Career Center application requires creating a candidate account; Hubert sets new-account credentials through the Secure Vault himself - never invent a password. Alternate route tried: Built In and DailyRemote listings both direct to the same ADP Career Center; no alternate submission route. Posting: IT Architect, Position Number 91520/91521, Remote within United States, $118,292-$163,939, application deadline 11/17/2026.",
+    "where": "Web Catch-All (Built In)",
+    "time": "1:21 AM"
+   }
+  ]
+ },
  "today_rejected": {
   "Employer sites": [
    {
@@ -591,6 +608,13 @@
     "reason": "stale — Published: 2026-11-03 - posting is older than the 7-day eligibility window (today 2026-11-12). JD also seeks hands-on experience building production agentic AI systems; salary range $140,000 - $170,000 USD.",
     "where": "Employer sites",
     "time": "1:18 AM"
+   },
+   {
+    "company": "TQL",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — CORRECTION of PASS 10442: TQL's own careers postings for this req (7488 Cincinnati / 7491 Charlotte, governing text) state: '$148,000-185,000 base salary + performance bonuses - Position based in Cincinnati, OH; Charlotte, NC; or Tampa, FL (relocation assistance provided). Where you'll be: 4289 Ivy Pointe Boulevard, Cincinnati, Ohio 45245.' No remote Enterprise Architect req exists on TQL's own site; the Teal 'Spring, TX - Remote' label is an aggregator mislabel. Workarounds tried: (1) employer's own ATS careers.tql.com (governing), (2) alternate routes Teal/Career.io/hiring.cafe all mirror the same office-based req, (3) no alternate remote posting of the role.",
+    "where": "Employer sites",
+    "time": "1:21 AM"
    }
   ],
   "Web Catch-All (Amtrak Careers)": [
@@ -812,6 +836,13 @@
     "reason": "excluded — Published: 2026-10-21. 3Cloud counts as Cognizant (manual-only) per standing rules - never filed by the sweep (gate fact, reject on sight). Salary usd 183,400 - 255,100 per year also exceeds band ceiling at the top.",
     "where": "Remotive",
     "time": "1:18 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Field CTO",
+    "reason": "excluded — Field CTO at 3Cloud, Remote - US, Published: 2026-10-02. 3Cloud counts as Cognizant (manual-only) per standing rules - never filed by the sweep (gate fact, reject on sight).",
+    "where": "Remotive",
+    "time": "1:21 AM"
    }
   ],
   "The Ladders": [
@@ -2006,5 +2037,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T07:20:40Z"
+ "lists_generated_at": "2026-11-12T07:21:55Z"
 }
