@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T10:19:11Z",
+ "generated_at": "2026-11-12T10:20:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T10:19:01Z",
+  "last_activity_at": "2026-11-12T10:19:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 734,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 97
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 16,
-  "evaluated": 17
+  "rejected": 22,
+  "evaluated": 23
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 54,
+  "evaluated": 60,
   "filed": 0,
   "parked": 3,
-  "rejected": 51,
+  "rejected": 57,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W4",
-  "W20"
+  "W1"
  ],
  "lanes": {
   "LinkedIn": {
@@ -86,7 +84,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:19:11Z",
+   "heartbeat_at": "2026-11-12T10:20:32Z",
    "detail": "Employers 120/30"
   },
   "W2": {
@@ -114,13 +112,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:19:11Z",
-   "detail": "Employers 20/32"
+   "heartbeat_at": null,
+   "detail": "Employers 42/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -268,13 +266,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:19:11Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": null,
+   "detail": "Employers 5/31"
   }
  },
  "stages": {
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "28 of 51 units done",
+   "detail": "34 of 51 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -545,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 4:19 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:19 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 21 of 58 · IT Architecture Lead",
@@ -614,6 +612,13 @@
     "time": "4:19 AM"
    },
    {
+    "company": "Capital Blue Cross",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — Experience architecting and implementing secure CI/CD pipelines using Jenkins, Maven, or similar tools. Strong domain knowledge of healthcare payer operations",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
     "company": "CVS Health / Aetna",
     "role": "Senior Solution Architect",
     "reason": "stale — The typical pay range for this role is: $92,700.00 - $185,400.00. We anticipate the application window for this opening will close on: 11/09/2026",
@@ -642,9 +647,30 @@
     "time": "4:19 AM"
    },
    {
+    "company": "CareSource",
+    "role": "Enterprise Architect III",
+    "reason": "stale — Compensation Range: $135,600.00 - $237,400.00. Ten (10) years of experience in enterprise architecture, with a proven track record of implementing global, multi-cloud strategies",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Program Architect - Remote",
     "reason": "stale — The salary for this role will range from $112,700 - $193,200 annually based on full-time employment.",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "GXO Logistics",
+    "role": "Principal Solutions Architect",
+    "reason": "cloud-scope — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake. 5 years of hands-on experience building cloud-native data platforms on GCP and/or Snowflake",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "UPS",
+    "role": "Application Architect (AI & Cloud) - Flex",
+    "reason": "stale — Experience architecting cloud-native solutions on GCP. Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run, AlloyDB, BigQuery, Pub/Sub, and Eventarc. $128,172 - $272,736",
     "where": "Employer sites",
     "time": "4:19 AM"
    },
@@ -654,6 +680,20 @@
     "reason": "stale — Published: 2026-11-03 - posting is older than the 7-day eligibility window (today 2026-11-12). JD also seeks hands-on experience building production agentic AI systems; salary range $140,000 - $170,000 USD.",
     "where": "Employer sites",
     "time": "1:18 AM"
+   },
+   {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Senior Solution Architect",
+    "reason": "stale — The position follows Blue Cross NC's Hybrid Flex or Remote Flex approach, depending on the nature of the work and distance from its Durham headquarters. Hybrid Flex roles require working in the office at least two days per week",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "Premera Blue Cross",
+    "role": "Solution Architect V",
+    "reason": "stale — This is a hybrid role located on our campus in Mountlake Terrace, Washington. Workforce Classification: Hybrid. National Plus Salary Range: $150,300.00 - $270,500.00",
+    "where": "Employer sites",
+    "time": "4:19 AM"
    },
    {
     "company": "TQL",
@@ -2187,5 +2227,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T10:19:11Z"
+ "lists_generated_at": "2026-11-12T10:20:32Z"
 }
