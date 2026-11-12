@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T13:07:12Z",
+ "generated_at": "2026-11-12T13:09:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T12:59:48Z",
+  "last_activity_at": "2026-11-12T13:09:15Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 698,
    "total_units": 754,
-   "pct": 94
+   "pct": 93
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 254,
-  "evaluated": 258
+  "rejected": 265,
+  "evaluated": 269
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 278,
+  "evaluated": 289,
   "filed": 0,
   "parked": 6,
-  "rejected": 272,
+  "rejected": 283,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -223,7 +221,7 @@
    "label": "Financial Services",
    "sites": 59,
    "phase": "queued",
-   "families_searched": 38,
+   "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T13:07:12Z",
-   "detail": "Employers 64/54"
+   "heartbeat_at": null,
+   "detail": "Employers 94/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "391 of 468 units done",
+   "detail": "397 of 504 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 6:59 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 7:09 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
