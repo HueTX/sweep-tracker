@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T14:14:13Z",
+ "generated_at": "2026-11-12T14:15:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T14:13:36Z",
+  "last_activity_at": "2026-11-12T14:15:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,22 +27,20 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
+  "parked": 10,
   "rejected": 374,
-  "evaluated": 382
+  "evaluated": 384
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 396,
+  "evaluated": 398,
   "filed": 0,
-  "parked": 10,
+  "parked": 12,
   "rejected": 386,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -108,8 +106,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T14:14:13Z",
-   "detail": "Employers 45/73"
+   "heartbeat_at": "2026-11-12T14:15:55Z",
+   "detail": "Employers 75/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -224,23 +222,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T14:14:13Z",
+   "heartbeat_at": null,
    "detail": "Employers 331/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T14:14:13Z",
+   "heartbeat_at": null,
    "detail": "Employers 319/54"
   },
   "W18": {
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "519 of 591 units done",
+   "detail": "525 of 591 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -545,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 8:13 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:15 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -587,11 +585,25 @@
     "time": "7:54 AM"
    },
    {
+    "company": "Advocate Health / Atrium Health",
+    "role": "IT Technical Architect-Cloud & Virtualization",
+    "reason": "stale-unverified — Design configurations that support virtualization solutions for the organization. Develop solutions in a physically distributed environment throughout all phases of its lifecycle to define, implement and support proof of concept, design, configuration, automation, testing, migration phases, triage incidents to resolution and mentoring of other team members.",
+    "where": "Employer sites",
+    "time": "8:15 AM"
+   },
+   {
     "company": "General Dynamics",
     "role": "Lead Cloud Architect",
     "reason": "credential-needed — Filing wall: GDIT ATS application requires a GDIT account/password that Hubert sets himself (same role/salary previously parked credential-needed); alternate routes tried: Built In and Remote Rocketship mirrors of the same req both route back to the GDIT ATS - no board-native apply path found. Never invent a password.",
     "where": "Employer sites",
     "time": "6:05 AM"
+   },
+   {
+    "company": "Banner Health",
+    "role": "Technical Solution Architect 2",
+    "reason": "stale-unverified — Must have proven experience in cloud-based healthcare solutions, including AI/ML deployments. Strong understanding of healthcare compliance, interoperability, and security.",
+    "where": "Employer sites",
+    "time": "8:15 AM"
    },
    {
     "company": "Sentara Health Plans",
@@ -4722,6 +4734,7 @@
    "Hershey",
    "Johns Hopkins Medicine",
    "BioMarin",
+   "Banner Health",
    "Starbucks",
    "EPAM Systems"
   ],
@@ -4756,5 +4769,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T14:14:13Z"
+ "lists_generated_at": "2026-11-12T14:15:55Z"
 }
