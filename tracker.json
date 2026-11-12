@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T06:50:31Z",
+ "generated_at": "2026-11-12T06:51:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T06:41:32Z",
-  "last_activity_at": "2026-11-12T06:49:48Z",
+  "last_activity_at": "2026-11-12T06:50:47Z",
   "progress": {
    "pools": 21,
-   "covered_units": 748,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 21,
-  "evaluated": 23
+  "rejected": 26,
+  "evaluated": 28
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 19,
+  "evaluated": 24,
   "filed": 0,
   "parked": 0,
-  "rejected": 17,
+  "rejected": 22,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 52,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T06:50:31Z",
-   "detail": "Titles 52/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -301,13 +299,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "4 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-12T06:41:32Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T06:50:47Z"
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-12T06:48:19Z",
    "ended_at": null
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 12:49 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 25 of 58 · Digital Transformation Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 12:50 AM CT · 2 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 25 of 58 · Digital Transformation Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -595,6 +587,22 @@
     "time": "12:49 AM"
    }
   ],
+  "Web Catch-All (CareerBuilder)": [
+   {
+    "company": "PlanIT Group",
+    "role": "Virtualization Systems Architect (Level IV) SME",
+    "reason": "stale — Published: 2026-11-01T00:00:00",
+    "where": "Web Catch-All (CareerBuilder)",
+    "time": "12:50 AM"
+   },
+   {
+    "company": "Avery Dennison",
+    "role": "Principal Enterprise Data Platform Architect",
+    "reason": "hands-on-coding — High-code data engineering mastery in Python, SQL, Apache Airflow, Kafka/Confluent streaming, Change Data Capture (CDC / GoldenGate), Docker, Kubernetes, Terraform, and GitOps CI/CD deployment pipelines (GitHub Actions/GitLab CI).",
+    "where": "Web Catch-All (CareerBuilder)",
+    "time": "12:46 AM"
+   }
+  ],
   "Web Catch-All (Built In)": [
    {
     "company": "General Dynamics Information Technology",
@@ -609,6 +617,13 @@
     "reason": "pay-outside-band — Salary Range: $181,921.18 – 232,370.00/year",
     "where": "Web Catch-All (Built In)",
     "time": "12:49 AM"
+   },
+   {
+    "company": "Gilbane Building Company",
+    "role": "Sr. Technology Architect",
+    "reason": "pay-outside-band — The pay ranges from $110,000-$155,000.00 plus benefits and retirement program.",
+    "where": "Web Catch-All (Built In)",
+    "time": "12:50 AM"
    },
    {
     "company": "Quisitive",
@@ -643,6 +658,15 @@
     "time": "12:49 AM"
    }
   ],
+  "Web Catch-All (Dice)": [
+   {
+    "company": "ADDSOURCE",
+    "role": "Enterprise Architect - Data & Digital Transformation",
+    "reason": "stale — Published: 2026-11-03T13:46:41.000Z",
+    "where": "Web Catch-All (Dice)",
+    "time": "12:50 AM"
+   }
+  ],
   "Web Catch-All (Remotive)": [
    {
     "company": "Aon Corporation",
@@ -664,6 +688,22 @@
     "reason": "pay-outside-band — Pay Range $154,050.00 - $278,475.00.",
     "where": "Web Catch-All (Remotive)",
     "time": "12:46 AM"
+   },
+   {
+    "company": "Bold New Solutions - BNS Power",
+    "role": "Chief Architect Critical Infrastructure Solutions",
+    "reason": "stale — Ability to travel up to 75% domestically and internationally.",
+    "where": "Web Catch-All (Remotive)",
+    "time": "12:50 AM"
+   }
+  ],
+  "Web Catch-All (Startup Jobs)": [
+   {
+    "company": "Workday",
+    "role": "Senior/Principal Solution Architect - Identity & Governance",
+    "reason": "stale — spend at least half (50%) of our time each quarter in the office or in the field",
+    "where": "Web Catch-All (Startup Jobs)",
+    "time": "12:50 AM"
    }
   ],
   "Web Catch-All (USARemoteJobs)": [
@@ -688,15 +728,6 @@
     "role": "Public Cloud Solution Architect",
     "reason": "experience-mismatch — We are hiring a Public Cloud Solution Architect to drive Canonical’s joint initiatives and technical engagements with major public clouds.",
     "where": "Web Catch-All (Jobicy)",
-    "time": "12:46 AM"
-   }
-  ],
-  "Web Catch-All (CareerBuilder)": [
-   {
-    "company": "Avery Dennison",
-    "role": "Principal Enterprise Data Platform Architect",
-    "reason": "hands-on-coding — High-code data engineering mastery in Python, SQL, Apache Airflow, Kafka/Confluent streaming, Change Data Capture (CDC / GoldenGate), Docker, Kubernetes, Terraform, and GitOps CI/CD deployment pipelines (GitHub Actions/GitLab CI).",
-    "where": "Web Catch-All (CareerBuilder)",
     "time": "12:46 AM"
    }
   ],
@@ -1901,5 +1932,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T06:50:31Z"
+ "lists_generated_at": "2026-11-12T06:51:55Z"
 }
