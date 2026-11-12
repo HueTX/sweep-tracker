@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T07:21:55Z",
+ "generated_at": "2026-11-12T07:23:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-12T06:41:32Z",
-  "last_activity_at": "2026-11-12T07:21:17Z",
+  "last_activity_at": "2026-11-12T07:22:13Z",
   "progress": {
    "pools": 21,
-   "covered_units": 720,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 95
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 37,
-  "evaluated": 39
+  "rejected": 40,
+  "evaluated": 42
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 34,
+  "evaluated": 37,
   "filed": 0,
   "parked": 2,
-  "rejected": 32,
+  "rejected": 35,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -68,13 +66,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 24,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T07:21:55Z",
-   "detail": "Titles 24/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "14 of 20 units done",
+   "state": "done",
+   "detail": "20 of 20 units done",
    "started_at": "2026-11-12T06:41:32Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T07:22:14Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +311,22 @@
    "ended_at": "2026-11-12T07:21:18Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T07:23:31Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T07:23:31Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T07:23:31Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 1:21 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:22 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 25 of 58 · Digital Transformation Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W7"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 25 of 58 · Digital Transformation Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
