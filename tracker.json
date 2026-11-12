@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T15:29:24Z",
+ "generated_at": "2026-11-12T15:31:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
   "last_activity_at": "2026-11-12T14:58:54Z",
@@ -39,9 +39,7 @@
   "rejected": 426,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T15:29:24Z",
-   "detail": "Employers 425/73"
+   "heartbeat_at": null,
+   "detail": "Employers 438/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "603 of 606 units done",
+   "state": "done",
+   "detail": "606 of 606 units done",
    "started_at": "2026-11-12T09:53:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T15:31:13Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +311,22 @@
    "ended_at": "2026-11-12T13:46:46Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T15:31:23Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T15:31:23Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-12T15:31:23Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 8:58 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:58 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -5082,5 +5080,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T15:29:24Z"
+ "lists_generated_at": "2026-11-12T15:31:23Z"
 }
