@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T06:50:31Z",
+ "generated_at": "2026-11-12T06:51:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "fea2a51f",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": false
+   "searching": false,
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T06:41:32Z",
-  "last_activity_at": "2026-11-12T06:49:48Z",
+  "last_activity_at": "2026-11-12T06:50:47Z",
   "progress": {
    "pools": 21,
-   "covered_units": 748,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 21,
-  "evaluated": 23
+  "rejected": 26,
+  "evaluated": 28
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 19,
+  "evaluated": 24,
   "filed": 0,
   "parked": 0,
-  "rejected": 17,
+  "rejected": 22,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 52,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T06:50:31Z",
-   "detail": "Titles 52/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -301,13 +299,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "4 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-12T06:41:32Z",
-   "ended_at": null
+   "ended_at": "2026-11-12T06:50:47Z"
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-12T06:48:19Z",
    "ended_at": null
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 12:49 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W8 · Title 25 of 58 · Digital Transformation Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W8"
-  }
- ],
+ "note": "Last activity 12:50 AM CT · 2 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 25 of 58 · Digital Transformation Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
