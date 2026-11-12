@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-12T10:18:03Z",
+ "generated_at": "2026-11-12T10:19:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "0f58fb91",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-12T09:53:23Z",
-  "last_activity_at": "2026-11-12T10:16:53Z",
+  "last_activity_at": "2026-11-12T10:19:01Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 96
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 8,
-  "evaluated": 9
+  "rejected": 16,
+  "evaluated": 17
  },
  "today": {
   "date": "2026-11-12",
-  "evaluated": 46,
+  "evaluated": 54,
   "filed": 0,
   "parked": 3,
-  "rejected": 43,
+  "rejected": 51,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W4"
+  "W4",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -85,8 +86,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:18:03Z",
-   "detail": "Employers 110/30"
+   "heartbeat_at": "2026-11-12T10:19:11Z",
+   "detail": "Employers 120/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -114,12 +115,12 @@
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-12T10:18:03Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": "2026-11-12T10:19:11Z",
+   "detail": "Employers 20/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,12 +268,12 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-12T10:19:11Z",
    "detail": "Employers 0/31"
   }
  },
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "22 of 51 units done",
+   "detail": "28 of 51 units done",
    "started_at": "2026-11-12T09:53:23Z",
    "ended_at": null
   },
@@ -544,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 4:16 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:19 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 21 of 58 · IT Architecture Lead",
@@ -606,11 +607,46 @@
  "today_rejected": {
   "Employer sites": [
    {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "stale — Own the Aetna Technology cloud reference architectures - landing zones, account/subscription structure, networking, identity, and workload patterns - with AWS as primary and Google Cloud Platform/Azure supported by exception. The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Senior Solution Architect",
+    "reason": "stale — The typical pay range for this role is: $92,700.00 - $185,400.00. We anticipate the application window for this opening will close on: 11/09/2026",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
     "company": "Experian",
     "role": "Platform Architect, Remote",
     "reason": "hands-on — Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm; Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments. Whole role is platform engineering/building with a platform engineering mindset; AWS-preferred. Undated live posting on Experian's own careers page, verdicted on the merits. Workarounds tried: employer's own ATS posting (governing text).",
     "where": "Employer sites",
     "time": "1:18 AM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
+    "reason": "stale — Serves as the AI/ML security subject matter expert, including for Microsoft Azure and Databricks workloads. Pay Range: $111,893 - $218,192 / ANNUAL. Posting Date 10/28/2026",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Principal Cloud Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131. Minimum of 5 years direct experience with Azure architecture and engineering",
+    "where": "Employer sites",
+    "time": "4:19 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Program Architect - Remote",
+    "reason": "stale — The salary for this role will range from $112,700 - $193,200 annually based on full-time employment.",
+    "where": "Employer sites",
+    "time": "4:19 AM"
    },
    {
     "company": "Harris Computer",
@@ -625,6 +661,13 @@
     "reason": "not-remote — CORRECTION of PASS 10442: TQL's own careers postings for this req (7488 Cincinnati / 7491 Charlotte, governing text) state: '$148,000-185,000 base salary + performance bonuses - Position based in Cincinnati, OH; Charlotte, NC; or Tampa, FL (relocation assistance provided). Where you'll be: 4289 Ivy Pointe Boulevard, Cincinnati, Ohio 45245.' No remote Enterprise Architect req exists on TQL's own site; the Teal 'Spring, TX - Remote' label is an aggregator mislabel. Workarounds tried: (1) employer's own ATS careers.tql.com (governing), (2) alternate routes Teal/Career.io/hiring.cafe all mirror the same office-based req, (3) no alternate remote posting of the role.",
     "where": "Employer sites",
     "time": "1:21 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Sr Architecture Analyst - Remote",
+    "reason": "experience-mismatch — 3+ years of hands-on experience supporting, implementing, or integrating Epic applications in a healthcare environment; 3+ years of experience developing, supporting, or analyzing HL7 interfaces and healthcare interoperability solutions",
+    "where": "Employer sites",
+    "time": "4:19 AM"
    }
   ],
   "USAJOBS / Employer sites": [
@@ -634,6 +677,13 @@
     "reason": "stale — Telework Eligibility: Supervisors may approve situational telework on a case-by-case, temporary basis for limited situations.",
     "where": "USAJOBS / Employer sites",
     "time": "4:16 AM"
+   },
+   {
+    "company": "Federal Reserve Board",
+    "role": "Principal Cloud Architect - Division of Information Technology",
+    "reason": "stale — Principal Cloud Architect - Division of Information Technology | Washington | On-site | USD 144,500 - 276,400 | Posting Date Jan 16, 2026",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:19 AM"
    },
    {
     "company": "GSA",
@@ -669,6 +719,13 @@
     "reason": "stale — THIS POSITION IS NOT ELIGIBILE FOR REMOTE TELEWORK.",
     "where": "USAJOBS / Employer sites",
     "time": "4:16 AM"
+   },
+   {
+    "company": "Securities and Exchange Commission (SEC)",
+    "role": "Senior Information Technology Specialist (ENTARCH) - Enterprise Cloud Architect",
+    "reason": "stale — The successful candidate will perform the full range of a Senior IT Specialist (Enterprise Cloud Architect) for the Division of Service Delivery and Operations (SDOD)",
+    "where": "USAJOBS / Employer sites",
+    "time": "4:19 AM"
    }
   ],
   "Google Jobs": [
@@ -2130,5 +2187,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-12T10:18:03Z"
+ "lists_generated_at": "2026-11-12T10:19:11Z"
 }
