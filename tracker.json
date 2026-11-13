@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T15:53:41Z",
+ "generated_at": "2026-11-13T15:55:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T15:53:08Z",
+  "last_activity_at": "2026-11-13T15:54:58Z",
   "progress": {
    "pools": 21,
    "covered_units": 744,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 16,
+  "parked": 17,
   "rejected": 336,
   "evaluated": 353
  },
@@ -35,7 +35,7 @@
   "date": "2026-11-13",
   "evaluated": 423,
   "filed": 0,
-  "parked": 22,
+  "parked": 23,
   "rejected": 400,
   "filed_by_source": {}
  },
@@ -108,7 +108,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T15:53:41Z",
+   "heartbeat_at": "2026-11-13T15:55:52Z",
    "detail": "Employers 150/73"
   },
   "W4": {
@@ -229,7 +229,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T15:53:41Z",
+   "heartbeat_at": "2026-11-13T15:55:52Z",
    "detail": "Employers 323/59"
   },
   "W17": {
@@ -240,7 +240,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T15:53:41Z",
+   "heartbeat_at": "2026-11-13T15:55:52Z",
    "detail": "Employers 309/54"
   },
   "W18": {
@@ -309,10 +309,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "5 of 6 units done",
+   "state": "done",
+   "detail": "6 of 6 units done",
    "started_at": "2026-11-13T11:30:54Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T15:54:58Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 9:53 AM CT · 14 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:54 AM CT · 13 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W16 · Title 11 of 58 · Domain Architect",
@@ -578,48 +578,14 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
-  "Indeed": [
-   {
-    "company": "Targa Resources",
-    "role": "Senior Architect, Data & Cloud Platforms",
-    "reason": "stale-unverified — Workarounds tried: employer's own detail page not located in Targa careers searches; full JD read on Indeed (duties align: Azure/Microsoft Fabric reference architectures, cloud landing zones, DR/RTO/RPO standards, architecture reviews) but carries no posted date, no salary and no remote/hybrid statement - location given only as Houston, TX; Dice mirrors are old crawls with no typed date - undated-live cannot be claimed from mirrors.",
-    "where": "Indeed",
-    "time": "6:48 AM"
-   }
-  ],
-  "Simplify": [
-   {
-    "company": "Alliant Energy",
-    "role": "Lead Solution OT Architect",
-    "reason": "stale-unverified — Workarounds tried: employer ATS posting not located; Simplify mirror of the full JD carries no posted date, no work location and no pay range, and the surface shows it last updated 430 days ago - date and liveness cannot be confirmed or refuted.",
-    "where": "Simplify",
-    "time": "6:44 AM"
-   }
-  ],
-  "DiversityJobs": [
-   {
-    "company": "The AES Corporation",
-    "role": "Enterprise Architect",
-    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (duties align: enterprise architecture roadmaps, integration governance); mirror carries no posted date, no salary and no work-location mode, listing locations only as Dayton, OH / Indianapolis, IN, and the employer's own detail page was not located in AES careers searches - undated-live cannot be claimed from a mirror.",
-    "where": "DiversityJobs",
-    "time": "6:44 AM"
-   },
-   {
-    "company": "Black Hills Corporation",
-    "role": "Senior Information Security Architect",
-    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (enterprise security architecture across corporate IT infrastructure and industrial control systems; Pay Range: $103,150 - $170,200, top in band) but the mirror carries no posted date and states only Location: Rapid City, SD with no remote/hybrid statement; employer's own detail page not opened - date and work mode cannot be confirmed or refuted.",
-    "where": "DiversityJobs",
-    "time": "6:50 AM"
-   },
-   {
-    "company": "Nestlé USA",
-    "role": "Sr Expert IT Solution Architect",
-    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (duties align: design and implement scalable, secure, and resilient cloud solutions for Nestle North Zone Americas; approximate pay range $151,200-$184,500 in band) but the mirror carries no posted date and no work-location mode beyond Arlington, VA, and the employer's own detail page was not opened - undated-live cannot be claimed from a mirror.",
-    "where": "DiversityJobs",
-    "time": "6:50 AM"
-   }
-  ],
   "Employer sites": [
+   {
+    "company": "Intermountain Health",
+    "role": "Enterprise Solutions Architect-Senior/Consultant",
+    "reason": "credential-needed — We are committed to offering flexible work options where approved and stated in the job posting. However, we are currently not considering candidates who reside or plan to reside in the following states: California, Connecticut, Hawaii, Illinois, Maine, Massachusetts, Minnesota, New York, Pennsylvania, Rhode Island, Virginia, Vermont, Washington.",
+    "where": "Employer sites",
+    "time": "9:54 AM"
+   },
    {
     "company": "Mayo Clinic",
     "role": "IT Cloud Architect",
@@ -675,6 +641,47 @@
     "reason": "not-evaluated — The Business Process Solution Architect leads business viability assessments and process discovery for enterprise customer and partner experience initiatives.",
     "where": "Employer sites",
     "time": "6:28 AM"
+   }
+  ],
+  "Indeed": [
+   {
+    "company": "Targa Resources",
+    "role": "Senior Architect, Data & Cloud Platforms",
+    "reason": "stale-unverified — Workarounds tried: employer's own detail page not located in Targa careers searches; full JD read on Indeed (duties align: Azure/Microsoft Fabric reference architectures, cloud landing zones, DR/RTO/RPO standards, architecture reviews) but carries no posted date, no salary and no remote/hybrid statement - location given only as Houston, TX; Dice mirrors are old crawls with no typed date - undated-live cannot be claimed from mirrors.",
+    "where": "Indeed",
+    "time": "6:48 AM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "Alliant Energy",
+    "role": "Lead Solution OT Architect",
+    "reason": "stale-unverified — Workarounds tried: employer ATS posting not located; Simplify mirror of the full JD carries no posted date, no work location and no pay range, and the surface shows it last updated 430 days ago - date and liveness cannot be confirmed or refuted.",
+    "where": "Simplify",
+    "time": "6:44 AM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "The AES Corporation",
+    "role": "Enterprise Architect",
+    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (duties align: enterprise architecture roadmaps, integration governance); mirror carries no posted date, no salary and no work-location mode, listing locations only as Dayton, OH / Indianapolis, IN, and the employer's own detail page was not located in AES careers searches - undated-live cannot be claimed from a mirror.",
+    "where": "DiversityJobs",
+    "time": "6:44 AM"
+   },
+   {
+    "company": "Black Hills Corporation",
+    "role": "Senior Information Security Architect",
+    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (enterprise security architecture across corporate IT infrastructure and industrial control systems; Pay Range: $103,150 - $170,200, top in band) but the mirror carries no posted date and states only Location: Rapid City, SD with no remote/hybrid statement; employer's own detail page not opened - date and work mode cannot be confirmed or refuted.",
+    "where": "DiversityJobs",
+    "time": "6:50 AM"
+   },
+   {
+    "company": "Nestlé USA",
+    "role": "Sr Expert IT Solution Architect",
+    "reason": "stale-unverified — Workarounds tried: full JD read on mirror (duties align: design and implement scalable, secure, and resilient cloud solutions for Nestle North Zone Americas; approximate pay range $151,200-$184,500 in band) but the mirror carries no posted date and no work-location mode beyond Arlington, VA, and the employer's own detail page was not opened - undated-live cannot be claimed from a mirror.",
+    "where": "DiversityJobs",
+    "time": "6:50 AM"
    }
   ],
   "Ladders": [
@@ -4265,6 +4272,7 @@
    "Submission state: UNKNOWN",
    "Brookhaven National Laboratory",
    "Farmers Insurance",
+   "Intermountain Health",
    "Advocate Health / Atrium Health",
    "GSK Solutions Inc.",
    "Highmark Health",
@@ -4929,5 +4937,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T15:53:41Z"
+ "lists_generated_at": "2026-11-13T15:55:52Z"
 }
