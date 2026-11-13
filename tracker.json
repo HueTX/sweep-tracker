@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T07:54:56Z",
+ "generated_at": "2026-11-13T07:56:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "82d1e5a0",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T07:19:52Z",
-  "last_activity_at": "2026-11-13T07:29:53Z",
+  "last_activity_at": "2026-11-13T07:55:09Z",
   "progress": {
    "pools": 21,
-   "covered_units": 696,
+   "covered_units": 724,
    "total_units": 754,
-   "pct": 92
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,18 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 17,
-  "evaluated": 18
+  "rejected": 23,
+  "evaluated": 25
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 20,
+  "evaluated": 27,
   "filed": 0,
   "parked": 3,
-  "rejected": 17,
+  "rejected": 23,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W8",
   "W7"
  ],
  "lanes": {
@@ -57,24 +58,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T07:56:11Z",
    "detail": "Titles 40/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 18,
+   "families_searched": 46,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T07:54:56Z",
-   "detail": "Titles 18/58"
+   "heartbeat_at": "2026-11-13T07:56:11Z",
+   "detail": "Titles 46/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -302,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 15 units done",
+   "detail": "10 of 15 units done",
    "started_at": "2026-11-13T07:19:52Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
+   "state": "active",
+   "detail": "1 of 2 units done",
    "started_at": "2026-11-13T07:29:07Z",
-   "ended_at": "2026-11-13T07:29:53Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -543,10 +544,10 @@
    }
   ]
  },
- "note": "Last activity 1:29 AM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:55 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
    "detail": "Families covered 58/58",
    "pool": "W7"
   }
@@ -554,7 +555,7 @@
  "now_viewing": {
   "live": true,
   "label": "W7",
-  "headline": "W7 · Title 31 of 58 · Cloud Engineering Lead",
+  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -607,6 +608,20 @@
  "today_rejected": {
   "Google Jobs": [
    {
+    "company": "Fulton Bank, N.A.",
+    "role": "Chief Enterprise Architect",
+    "reason": "pay-outside-band — The salary range for this position is $189,300.00 - $315,400.00 annually.",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Architect - Enterprise Solutions Architecture",
+    "reason": "cognizant-manual-only — As an Architect, you build on your established domain expertise to lead solution architecture and delivery for modern, cloud-native applications on Azure.",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
+   },
+   {
     "company": "CivicPlus",
     "role": "Security & Infrastructure Architect",
     "reason": "closed — This job posting is no longer active.",
@@ -619,6 +634,27 @@
     "reason": "hands-on — 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms",
     "where": "Google Jobs",
     "time": "1:29 AM"
+   },
+   {
+    "company": "CardWorks",
+    "role": "VP Cyber Security Enterprise Architect",
+    "reason": "experience-mismatch — Deep technical security engineering experience with several of the following: network security (firewalls, IDS/IPS, VPN), IAM, encryption, SIEM, IaaS, PaaS, SaaS, Secure SDLC, DevSecOps, API security, and endpoint protection.",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Lead Platform Engineer",
+    "reason": "clearance — DoD Secret Security Clearance with ability to obtain TS.",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
+   },
+   {
+    "company": "AAA-The Auto Club Group",
+    "role": "Cloud Architect",
+    "reason": "gcp-first — Act as subject matter expert on Amazon Web Services (AWS) and Google Cloud Platform (GCP).",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
    },
    {
     "company": "Hirequill",
@@ -640,6 +676,13 @@
     "reason": "not-remote — UK-based hybrid | National client travel | ASAP start",
     "where": "Google Jobs",
     "time": "1:29 AM"
+   },
+   {
+    "company": "Allstate",
+    "role": "Business Architect Expert",
+    "reason": "experience-mismatch — 5+ years of substantial hands-on Workday HCM experience, with demonstrated depth in core business processes, configuration concepts, system capabilities, and cross-functional dependencies.",
+    "where": "Google Jobs",
+    "time": "1:55 AM"
    },
    {
     "company": "Presidio",
@@ -1922,5 +1965,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T07:54:56Z"
+ "lists_generated_at": "2026-11-13T07:56:11Z"
 }
