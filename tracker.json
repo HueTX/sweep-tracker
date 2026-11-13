@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:02:23Z",
+ "generated_at": "2026-11-13T11:04:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "fa05d4fc",
   "kind": "cycle",
-  "status": "running",
+  "status": "closed",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -15,7 +15,7 @@
   "live": false,
   "stalled": null,
   "started_at": "2026-11-13T10:57:31Z",
-  "last_activity_at": "2026-11-13T11:02:16Z",
+  "last_activity_at": "2026-11-13T11:04:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 5,
-  "evaluated": 5
+  "rejected": 10,
+  "evaluated": 10
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 88,
+  "evaluated": 92,
   "filed": 0,
   "parked": 8,
-  "rejected": 80,
+  "rejected": 84,
   "filed_by_source": {}
  },
  "searching_lanes": [],
@@ -88,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 15/39"
+   "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -264,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 10/31"
+   "detail": "Employers 31/31"
   }
  },
  "stages": {
@@ -299,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "5 of 15 units done",
+   "state": "done",
+   "detail": "15 of 15 units done",
    "started_at": "2026-11-13T10:57:31Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:04:09Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -311,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:04:26Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:04:26Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:04:26Z"
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -541,13 +541,19 @@
    }
   ]
  },
- "note": "Last activity 5:02 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:04 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "Sweep complete — all coverage fresh",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep complete — all coverage fresh",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -715,6 +721,13 @@
     "time": "4:46 AM"
    },
    {
+    "company": "Ryder System",
+    "role": "Cloud Architect",
+    "reason": "stale — Published: 2025-11-25. The Cloud Architect will play a pivotal role in shaping Ryder's cloud strategy. Minimum Pay Range: $130,000.00 Maximum Pay Range: $150,000.00. Posting dated 2025-11-25 is far outside the 7-day eligibility window as of 2026-11-13, and the top of its pay range is also below the $160,000 band floor. Workarounds tried: (1) Built In mirror of Ryder's own posting carries the same date and range (2) Adzuna mirror carries the same range (3) no refreshed repost found.",
+    "where": "Employer sites",
+    "time": "5:03 AM"
+   },
+   {
     "company": "CareFirst",
     "role": "Principal Cloud Architect (Remote)",
     "reason": "pay-outside-band — Salary Range: $153,360 - $274,131",
@@ -736,11 +749,25 @@
     "time": "4:46 AM"
    },
    {
+    "company": "United Airlines",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — Please note that this role is hybrid and requires in office attendance 2-3 days per week in Chicago or Houston. The Principal Enterprise Architect will play a key role in influencing United Airline's IT digital strategy. The base pay range for this role is $137,275.00 to $178,670.00. A stated required hybrid office schedule is not 100% remote. Workarounds tried: (1) United's own posting text via board mirrors carries the same hybrid requirement (2) Out for Undergrad / CareerBuilder mirrors carry the same Chicago role (3) no fully remote alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "5:03 AM"
+   },
+   {
     "company": "Ryder System",
     "role": "System Engineering Architect",
     "reason": "stale — Published: 2025-10-30",
     "where": "Employer sites",
     "time": "4:46 AM"
+   },
+   {
+    "company": "Estes Express Lines",
+    "role": "Solution Architect II, Hub",
+    "reason": "stale — Published: 2026-10-20T17:05:57Z. Solution Architect II, Hub - Richmond, VA. The Solution Architect II operates as a leader and change agent within a Hub organization, participating in the delivery of business value within Estes. Posting dated 2026-10-20 is outside the 7-day eligibility window as of 2026-11-13, with no repost/refresh activity found. Workarounds tried: (1) Teal mirror of the employer's posting carries the same 2026-10-20 date (2) CareerBuilder mirror dated 2026-10-21, also outside the window (3) no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:03 AM"
    },
    {
     "company": "Blue Shield of California",
@@ -752,9 +779,9 @@
    {
     "company": "Southwest Airlines",
     "role": "Solutions Architect",
-    "reason": "stale — Published: 2025-08-28",
+    "reason": "stale — Published: 2025-08-28. This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus for training, meetings, and business needs. Competitive market salary from $155,900 per year to $173,200 per year. Posting dated 2025-08-28 is far outside the 7-day eligibility window as of 2026-11-13. Workarounds tried: (1) Built In mirror of Southwest's own posting carries the same 2025-08-28 date (2) no refreshed repost found (3) no alternate fresh posting of the same role found.",
     "where": "Employer sites",
-    "time": "4:47 AM"
+    "time": "5:03 AM"
    },
    {
     "company": "CareSource",
@@ -874,6 +901,13 @@
     "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area",
     "where": "Employer sites",
     "time": "4:46 AM"
+   },
+   {
+    "company": "City of Houston portal",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "stale — Published: 2026-10-19. IT ARCHITECT - APPLICATIONS (Responsible AI & Innovation). Division: OFFICE OF THE CIO. Reporting Location: 611 WALKER / 1200 TRAVIS, Houston, TX. Workdays & Hours: MONDAY - FRIDAY, Office Hours. The IT Architect - Applications (Responsible AI and Innovation) serves as the City's enterprise leader for artificial intelligence strategy, governance, and adoption. Posting dated 2026-10-19 is outside the 7-day eligibility window as of 2026-11-13, with no repost/refresh activity found; the role is also an on-site Houston office role. Workarounds tried: (1) employer's own governmentjobs.com/careers/houston posting is the governing text and carries the same 2026-10-19 date (2) thebigjobsite mirror carries the same role and Houston location (3) no refreshed alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:04 AM"
    },
    {
     "company": "Percona",
@@ -2401,5 +2435,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:02:23Z"
+ "lists_generated_at": "2026-11-13T11:04:26Z"
 }
