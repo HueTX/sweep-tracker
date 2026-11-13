@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T07:19:52Z",
+ "generated_at": "2026-11-13T07:21:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "82d1e5a0",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T07:19:52Z",
   "last_activity_at": "2026-11-13T07:19:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 720,
+   "covered_units": 702,
    "total_units": 754,
-   "pct": 95
+   "pct": 93
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,10 @@
   "rejected": 2,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8",
+  "W7"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,23 +58,23 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 48,
+   "phase": "searching",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 48/58"
+   "heartbeat_at": "2026-11-13T07:21:26Z",
+   "detail": "Titles 30/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 34,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T07:21:26Z",
    "detail": "Titles 34/58"
   },
   "W1": {
@@ -281,7 +284,7 @@
    "ended_at": "2026-11-13T07:19:52Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-13T07:19:52Z",
    "ended_at": null
@@ -299,8 +302,8 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "0 of 6 units done",
+   "state": "active",
+   "detail": "0 of 9 units done",
    "started_at": "2026-11-13T07:19:52Z",
    "ended_at": null
   },
@@ -542,12 +545,18 @@
   ]
  },
  "note": "Started 1:19 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 49 of 58 · Enterprise Solutions Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1795,5 +1804,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T07:19:52Z"
+ "lists_generated_at": "2026-11-13T07:21:26Z"
 }
