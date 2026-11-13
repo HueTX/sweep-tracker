@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T16:16:17Z",
+ "generated_at": "2026-11-13T16:18:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T16:15:52Z",
+  "last_activity_at": "2026-11-13T16:16:57Z",
   "progress": {
    "pools": 21,
    "covered_units": 744,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 17,
-  "rejected": 362,
-  "evaluated": 379
+  "rejected": 366,
+  "evaluated": 383
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 449,
+  "evaluated": 453,
   "filed": 0,
   "parked": 23,
-  "rejected": 426,
+  "rejected": 430,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T16:16:17Z",
-   "detail": "Employers 275/73"
+   "heartbeat_at": null,
+   "detail": "Employers 305/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "469 of 504 units done",
+   "detail": "475 of 504 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 10:15 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 10:16 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -814,6 +806,20 @@
     "reason": "not-remote — Location Irving, TX (Onsite) Full-Time; JD lists Work Schedule MULTIPLE SHIFTS AVAILABLE and Work Type Full Time with no remote language. Workarounds tried: (1) employer's own careers site (careers.christushealth.org) carries the same Irving, TX architect postings with no remote option, (2) alternate routes Monster (published 2026-11-11) and CareerBuilder show the same onsite Irving posting, (3) no remote alternate posting of this role exists.",
     "where": "Employer sites",
     "time": "9:37 AM"
+   },
+   {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Senior Director, Core Technology Architect",
+    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000",
+    "where": "Employer sites",
+    "time": "10:16 AM"
+   },
+   {
+    "company": "Biogen",
+    "role": "Senior IT Architect, Veeva Domain",
+    "reason": "experience-mismatch — 8+ years of experience in Veeva System Configuration/Design, Solution Architecture for Life Sciences, and/or IT Consulting within Life Sciences.",
+    "where": "Employer sites",
+    "time": "10:16 AM"
    },
    {
     "company": "AstraZeneca",
@@ -1339,6 +1345,13 @@
     "reason": "stale — As our Solutions Architect on the Employee Health & Benefits team, you'll serve as a strategic bridge between sales, client services, and subject matter experts, to ensure the delivery of tailored solutions that meet the unique needs of clients and prospects.",
     "where": "Employer sites",
     "time": "8:37 AM"
+   },
+   {
+    "company": "Becton Dickinson (BD)",
+    "role": "Cloud Architect - Platform Engineering & Security",
+    "reason": "not-remote — For most roles, we require a minimum of 4 days of in-office presence per week to maintain our culture of excellence and ensure smooth operations",
+    "where": "Employer sites",
+    "time": "10:16 AM"
    },
    {
     "company": "Marsh McLennan",
@@ -2641,6 +2654,13 @@
     "reason": "experience-mismatch — Leads corporate architecture across Roche's global facilities, overseeing architectural design, interior fit-outs, consultant selection, project quality, corporate identity, signage, sustainability, and alignment with workplace and laboratory strategies.",
     "where": "Employer sites",
     "time": "10:14 AM"
+   },
+   {
+    "company": "Siemens Healthineers",
+    "role": "Senior Software Architect - Cloud-Native Products (Azure)",
+    "reason": "stale — Architect backend systems using .NET Core, microservices, and Azure-native application services.",
+    "where": "Employer sites",
+    "time": "10:16 AM"
    }
   ],
   "Halliburton careers": [
@@ -5117,5 +5137,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T16:16:17Z"
+ "lists_generated_at": "2026-11-13T16:18:14Z"
 }
