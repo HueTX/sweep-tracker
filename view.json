@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T10:19:31Z",
+ "generated_at": "2026-11-13T10:20:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "939e5ab6",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T10:19:31Z",
   "last_activity_at": "2026-11-13T10:19:31Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 99
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,9 @@
   "rejected": 36,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -77,12 +79,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T10:20:48Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -110,8 +112,8 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-13T10:19:31Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-13T10:19:31Z",
    "ended_at": null
@@ -299,8 +301,8 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "0 of 6 units done",
+   "state": "active",
+   "detail": "0 of 13 units done",
    "started_at": "2026-11-13T10:19:31Z",
    "ended_at": null
   },
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 4:19 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W1"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W1",
+  "headline": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
