@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:42:42Z",
+ "generated_at": "2026-11-13T11:44:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
   "last_activity_at": "2026-11-13T11:42:31Z",
@@ -39,7 +39,9 @@
   "rejected": 108,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,12 +90,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T11:44:07Z",
    "detail": "Employers 117/39"
   },
   "W3": {
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 5:42 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:42 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
