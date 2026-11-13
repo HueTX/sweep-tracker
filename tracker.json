@@ -1,48 +1,45 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T10:54:22Z",
+ "generated_at": "2026-11-13T10:56:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "939e5ab6",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T10:19:31Z",
-  "last_activity_at": "2026-11-13T10:48:40Z",
+  "last_activity_at": "2026-11-13T10:54:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 37,
-  "evaluated": 40
+  "parked": 3,
+  "rejected": 40,
+  "evaluated": 43
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 81,
+  "evaluated": 84,
   "filed": 0,
-  "parked": 7,
-  "rejected": 73,
+  "parked": 8,
+  "rejected": 76,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T10:54:22Z",
-   "detail": "Employers 116/32"
+   "heartbeat_at": null,
+   "detail": "Employers 128/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T10:54:22Z",
-   "detail": "Employers 62/31"
+   "heartbeat_at": null,
+   "detail": "Employers 93/31"
   }
  },
  "stages": {
@@ -302,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "57 of 67 units done",
+   "state": "done",
+   "detail": "67 of 67 units done",
    "started_at": "2026-11-13T10:19:31Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T10:55:38Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T10:24:21Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T10:55:03Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T10:56:02Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T10:56:02Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T10:56:02Z"
   }
  },
  "titles": {
@@ -414,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -544,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 4:48 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:54 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -577,6 +574,29 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "Employer sites": [
+   {
+    "company": "Leidos",
+    "role": "IT Solutions Architect",
+    "reason": "credential-needed — Remote within CONUS, subject to VA security and access requirements. Filing route is Leidos Workday sign-in; the Leidos Workday account password was set by Hubert via Secure Vault and is not retrievable by the executor, so the filing cannot be submitted in this execution. Workarounds tried: (1) employer's own ATS posting (Leidos Workday, governing route - sign-in wall), (2) alternate route ClearanceJobs listing for R-00196488 (Original Posting November 6, 2026, Pay Range $107,900.00 - $195,050.00) which routes back to the same Leidos ATS apply flow.",
+    "where": "Employer sites",
+    "time": "4:54 AM"
+   },
+   {
+    "company": "Technatomy",
+    "role": "Enterprise Integration Architect",
+    "reason": "approval-blocked — PASS verified on the full JD (remote, unpublished pay, enterprise integration design/architecture duties, Public Trust obtainable only, published 2026-11-06). Filing attempt: the governing apply route is Technatomy's own Taleo Career Center (viewRequisition org=TECHNATOMY, rid=2833), which requires an account sign-in and a resume upload; the alternate route (ClearanceJobs listing for Job Code 26-208) routes back to the same employer application. This hook executor has no live-browser submission/upload capability and a resume upload is approval-gated in this environment, so the filing is parked approval-blocked for filing by the main agent rather than left waiting.",
+    "where": "Employer sites",
+    "time": "1:29 AM"
+   },
+   {
+    "company": "FedEx",
+    "role": "Solutions Architect (Supply Chain Operations IT)",
+    "reason": "stale-unverified — DOMICILE: This is a fully remote position that may be domiciled anywhere in the United States. Mirror detail page carries no posted date and no FedEx req ID; the role could not be confirmed on FedEx's own careers portal, so undated-live cannot be claimed from the employer's own detail page. Workarounds tried: (1) FedEx careers site search, (2) alternate mirror routes - neither confirmed liveness/date.",
+    "where": "Employer sites",
+    "time": "4:32 AM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Trillium Health Resources",
@@ -609,22 +629,6 @@
     "reason": "not-evaluated — Dice listing (fresh surface activity, Today/Yesterday): Job Title: Cloud Solutions Architect, Location: Remote within the USA, Salary Range: $150K-$170K, Clearance: Must be able to obtain a Public Trust Clearance, Application Deadline: November 30, 2026; IBSS is seeking a Cloud Solutions Architect to support the National Oceanic and Atmospheric Administration (NOAA). Full JD could not be loaded after a real attempt (Dice aggregate pages truncate the description and no detail page on IBSS's own site was located) - JD unread, no verdict on merits.",
     "where": "Web Catch-All (Dice)",
     "time": "12:53 AM"
-   }
-  ],
-  "Employer sites": [
-   {
-    "company": "Technatomy",
-    "role": "Enterprise Integration Architect",
-    "reason": "approval-blocked — PASS verified on the full JD (remote, unpublished pay, enterprise integration design/architecture duties, Public Trust obtainable only, published 2026-11-06). Filing attempt: the governing apply route is Technatomy's own Taleo Career Center (viewRequisition org=TECHNATOMY, rid=2833), which requires an account sign-in and a resume upload; the alternate route (ClearanceJobs listing for Job Code 26-208) routes back to the same employer application. This hook executor has no live-browser submission/upload capability and a resume upload is approval-gated in this environment, so the filing is parked approval-blocked for filing by the main agent rather than left waiting.",
-    "where": "Employer sites",
-    "time": "1:29 AM"
-   },
-   {
-    "company": "FedEx",
-    "role": "Solutions Architect (Supply Chain Operations IT)",
-    "reason": "stale-unverified — DOMICILE: This is a fully remote position that may be domiciled anywhere in the United States. Mirror detail page carries no posted date and no FedEx req ID; the role could not be confirmed on FedEx's own careers portal, so undated-live cannot be claimed from the employer's own detail page. Workarounds tried: (1) FedEx careers site search, (2) alternate mirror routes - neither confirmed liveness/date.",
-    "where": "Employer sites",
-    "time": "4:32 AM"
    }
   ],
   "USAJOBS": [
@@ -696,6 +700,13 @@
     "time": "4:46 AM"
    },
    {
+    "company": "Expeditors International",
+    "role": "Architect (Solutions) - Information Services, Operational Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position. Undated live posting on Expeditors' own SmartRecruiters ATS detail page - verdicted on the merits; stated on-site Seattle schedule is a gate fact for the 100% remote rule.",
+    "where": "Employer sites",
+    "time": "4:54 AM"
+   },
+   {
     "company": "Old Dominion Freight Line",
     "role": "Security Architect",
     "reason": "stale — Published: 2026-09-23",
@@ -752,6 +763,13 @@
     "time": "4:47 AM"
    },
    {
+    "company": "GXO Logistics",
+    "role": "Principal Solutions Architect",
+    "reason": "gcp-first — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake. 5 years of hands-on experience building cloud-native data platforms on GCP and/or Snowflake. Advanced SQL and strong Python skills (PySpark, Pandas). Undated live posting on GXO's own careers detail page (jobs.gxo.com) - verdicted on the merits per freshness law: GCP-first data-platform role with hands-on Python/PySpark duties, Azure excluded as the platform.",
+    "where": "Employer sites",
+    "time": "4:54 AM"
+   },
+   {
     "company": "Elevance Health",
     "role": "Cloud & AI Security Architect",
     "reason": "not-remote — This role requires associates to be in-office 1-2 days per week",
@@ -799,6 +817,13 @@
     "reason": "stale — Published: 2026-10-19",
     "where": "Employer sites",
     "time": "4:47 AM"
+   },
+   {
+    "company": "Capital Blue Cross",
+    "role": "Principal Enterprise Architect-Facets",
+    "reason": "experience-mismatch — The Principal Enterprise Architect-Facets leads architecture for a specific business domain (e.g., Claims, Enrollment & Billing, Provider, UM/PA). Guides Agile PODs to deliver secure, scalable solutions aligned to enterprise principles, HIPAA, and payer standards (EDI X12, FHIR). Drives application rationalization and adoption of reference patterns in Azure.",
+    "where": "Employer sites",
+    "time": "4:54 AM"
    },
    {
     "company": "The Cigna Group",
@@ -2307,7 +2332,6 @@
    "Knight-Swift Transportation",
    "Altera Digital Health",
    "Franklin Templeton",
-   "Capital Blue Cross",
    "American Airlines",
    "United Airlines",
    "CVS Health / Aetna",
@@ -2355,5 +2379,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T10:54:22Z"
+ "lists_generated_at": "2026-11-13T10:56:02Z"
 }
