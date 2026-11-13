@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T10:56:02Z",
+ "generated_at": "2026-11-13T10:57:31Z",
  "lane_state_source": "model",
  "run": {
-  "id": "939e5ab6",
+  "id": "fa05d4fc",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-13T10:19:31Z",
-  "last_activity_at": "2026-11-13T10:54:52Z",
+  "started_at": "2026-11-13T10:57:31Z",
+  "last_activity_at": "2026-11-13T10:57:31Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 736,
    "total_units": 754,
-   "pct": 100
+   "pct": 98
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
-  "rejected": 40,
-  "evaluated": 43
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-13",
@@ -83,13 +83,13 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/30"
+   "detail": "Employers 0/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -116,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 128/32"
+   "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -264,27 +264,27 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 93/31"
+   "detail": "Employers 0/31"
   }
  },
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 32 opened 4:19 AM CT",
-   "started_at": "2026-11-13T10:19:31Z",
-   "ended_at": "2026-11-13T10:19:31Z"
+   "detail": "Cycle 33 opened 4:57 AM CT",
+   "started_at": "2026-11-13T10:57:31Z",
+   "ended_at": "2026-11-13T10:57:31Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-13T10:19:31Z",
-   "ended_at": "2026-11-13T10:24:48Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-13T10:57:31Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "67 of 67 units done",
-   "started_at": "2026-11-13T10:19:31Z",
-   "ended_at": "2026-11-13T10:55:38Z"
+   "state": "pending",
+   "detail": "0 of 15 units done",
+   "started_at": "2026-11-13T10:57:31Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-13T10:24:21Z",
-   "ended_at": "2026-11-13T10:55:03Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T10:56:02Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T10:56:02Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T10:56:02Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 4:54 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 4:57 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
