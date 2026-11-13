@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:00:49Z",
+ "generated_at": "2026-11-13T11:02:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "fa05d4fc",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T10:57:31Z",
-  "last_activity_at": "2026-11-13T10:57:31Z",
+  "last_activity_at": "2026-11-13T11:02:16Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 98
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 5,
+  "evaluated": 5
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 84,
+  "evaluated": 88,
   "filed": 0,
   "parked": 8,
-  "rejected": 76,
+  "rejected": 80,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -91,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:00:49Z",
-   "detail": "Employers 0/39"
+   "heartbeat_at": null,
+   "detail": "Employers 15/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:00:49Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": null,
+   "detail": "Employers 10/31"
   }
  },
  "stages": {
@@ -284,10 +281,10 @@
    "ended_at": "2026-11-13T10:57:31Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T10:57:31Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:02:20Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 15 units done",
+   "detail": "5 of 15 units done",
    "started_at": "2026-11-13T10:57:31Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Started 4:57 AM CT · 0 filed",
- "pill": [
-  {
-   "primary": "W2 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 5:02 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -696,6 +687,13 @@
     "time": "4:46 AM"
    },
    {
+    "company": "Expeditors International",
+    "role": "Architect (Solution) - EXP.O NOW, IS Customer Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position. Expected base salary: $165,000 to $240,000 (top also above the $230,000 band ceiling). Undated live posting on Expeditors' own SmartRecruiters detail page, crawled 2026-11-13 - verdicted on the merits per freshness law. Workarounds tried: (1) employer's own SmartRecruiters posting is the governing text and states on-site Seattle (2) board mirrors carry the same on-site requirement (3) no remote alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "5:02 AM"
+   },
+   {
     "company": "Molina Healthcare",
     "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
     "reason": "stale — Posting Date 10/28/2026",
@@ -768,9 +766,16 @@
    {
     "company": "GXO Logistics",
     "role": "Principal Solutions Architect",
-    "reason": "gcp-first — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake. 5 years of hands-on experience building cloud-native data platforms on GCP and/or Snowflake. Advanced SQL and strong Python skills (PySpark, Pandas). Undated live posting on GXO's own careers detail page (jobs.gxo.com) - verdicted on the merits per freshness law: GCP-first data-platform role with hands-on Python/PySpark duties, Azure excluded as the platform.",
+    "reason": "gcp-first — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake. 5 years of hands-on experience building cloud-native data platforms on GCP and/or Snowflake. Advanced SQL and strong Python skills (PySpark, Pandas). Undated live posting on GXO's own careers detail page (jobs.gxo.com), crawled 2026-11-13 - verdicted on the merits per freshness law: GCP-first data-platform role with hands-on Python/PySpark duties. Workarounds tried: (1) employer's own GXO careers detail page is the governing text and is GCP-first (2) Teal/Ladders mirrors carry the same GCP requirements (3) no alternate Azure posting of the same role found.",
     "where": "Employer sites",
-    "time": "4:54 AM"
+    "time": "5:02 AM"
+   },
+   {
+    "company": "UPS",
+    "role": "Application Architect (AI & Cloud) - Flex",
+    "reason": "stale — Published: 2026-10-26. Experience architecting cloud-native solutions on GCP. Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run, AlloyDB, BigQuery, Pub/Sub, and Eventarc. Pay $128,172 - $272,736 (top also above the $230,000 band ceiling). Posting dated 2026-10-26 is outside the 7-day eligibility window as of 2026-11-13, with no repost/refresh activity found. Workarounds tried: (1) employer's own listing via Teal carries the same 2026-10-26 date (2) Ladders mirror dated the same (3) no refreshed alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:02 AM"
    },
    {
     "company": "Elevance Health",
@@ -785,6 +790,20 @@
     "reason": "stale — Published: 2026-10-05",
     "where": "Employer sites",
     "time": "4:46 AM"
+   },
+   {
+    "company": "Colorado state portal",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "closed — Job Number: EGB93858. Department: Governor's Office of Information Technology. Opening Date: 10/29/2026. Closing Date: 11/8/2026 11:59 PM Mountain (closed before 2026-11-13). Salary: $135,000.00 - $145,000.00 Annually. All remote work must be performed in Colorado; candidates must relocate and reside in Colorado. Detail page on governmentjobs.com governs liveness: closing date has passed, so the merits path never opens.",
+    "where": "Employer sites",
+    "time": "5:02 AM"
+   },
+   {
+    "company": "Virginia state portal",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Title: Enterprise Architect. State Role Title: Info Technology Specialist IV. Hiring Range: $124,000 - 149,000. Agency: VA Information Tech Agency. Location: VA Information Technologies, Chesterfield, Virginia. This position is telework eligible. Top of the published hiring range $149,000 is below the $160,000 band floor. Workarounds tried: (1) employer's own jobs.virginia.gov posting is the governing text and carries the same $124,000-$149,000 range (2) EIN Presswire announcement of the same VITA role carries no different range (3) no alternate posting of the same role with a different range found.",
+    "where": "Employer sites",
+    "time": "5:02 AM"
    },
    {
     "company": "Ryder System",
@@ -2382,5 +2401,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:00:49Z"
+ "lists_generated_at": "2026-11-13T11:02:23Z"
 }
