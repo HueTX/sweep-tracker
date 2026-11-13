@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:07:37Z",
+ "generated_at": "2026-11-13T11:08:46Z",
  "lane_state_source": "model",
  "run": {
   "id": "998027ed",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:07:37Z",
   "last_activity_at": "2026-11-13T11:07:37Z",
@@ -39,7 +39,9 @@
   "rejected": 84,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,12 +90,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T11:08:46Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-13T11:07:37Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-13T11:07:37Z",
    "ended_at": null
@@ -299,7 +301,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 8 units done",
    "started_at": "2026-11-13T11:07:37Z",
    "ended_at": null
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 5:07 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
