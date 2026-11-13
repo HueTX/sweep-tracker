@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:12:20Z",
+ "generated_at": "2026-11-13T11:13:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "998027ed",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T11:07:37Z",
-  "last_activity_at": "2026-11-13T11:11:57Z",
+  "last_activity_at": "2026-11-13T11:13:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,21 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 6,
-  "evaluated": 7
+  "parked": 1,
+  "rejected": 7,
+  "evaluated": 8
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 98,
+  "evaluated": 99,
   "filed": 0,
-  "parked": 7,
-  "rejected": 90,
+  "parked": 8,
+  "rejected": 91,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:12:20Z",
-   "detail": "Employers 25/39"
+   "heartbeat_at": null,
+   "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -301,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "5 of 8 units done",
+   "state": "done",
+   "detail": "8 of 8 units done",
    "started_at": "2026-11-13T11:07:37Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:13:23Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T11:11:56Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:12:38Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:13:35Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:13:35Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T11:13:35Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 5:11 AM CT · 4 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:13 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,6 +574,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "ClearanceJobs": [
+   {
+    "company": "Leidos",
+    "role": "IT Solutions Architect",
+    "reason": "credential-needed — Filing attempted this wake: primary route ClearanceJobs and the one alternate route (the same req R-00196488 listed on Dice, remote, $107,900-$195,050) both terminate in authenticated apply flows (Leidos Workday candidate sign-in). This detached executor holds no Leidos Workday/Dice session credentials and must not invent a password; Hubert's Leidos Workday password is in his Secure Vault (set by him 2026-09-19 for a different req). PASS stands; filing parked credential-needed for a credentialed filer.",
+    "where": "ClearanceJobs",
+    "time": "5:12 AM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Trillium Health Resources",
@@ -1285,6 +1292,15 @@
     "reason": "pay-outside-band — The salary/hourly range is $179,300.00 – $232,416.00. Top of range $232,416 exceeds the $230,000 band ceiling. Source is Amtrak's own careers site (employer ATS, the governing text - workaround route 1); no alternate posting of Requisition ID 167492 with a different range was found.",
     "where": "Web Catch-All (Amtrak careers)",
     "time": "12:56 AM"
+   }
+  ],
+  "GovernmentJobs.com (Michigan state portal)": [
+   {
+    "company": "State of Michigan Department of Technology, Management and Budget",
+    "role": "Information Technology Specialist 15 (Enterprise Architecture)",
+    "reason": "pay-outside-band — Salary: $41.93 - $61.95 Hourly (top approx $128,856/yr, below the $160,000 band floor); Location Dimondale, MI; Opening Date 11/02/2026, Closing Date 11/16/2026; The State of Michigan is not able to offer employment to out of-state applicants that do not plan to relocate. Workarounds tried: employer's own GovernmentJobs.com detail page read directly (governing text).",
+    "where": "GovernmentJobs.com (Michigan state portal)",
+    "time": "5:13 AM"
    }
   ]
  },
@@ -2478,5 +2494,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:12:20Z"
+ "lists_generated_at": "2026-11-13T11:13:35Z"
 }
