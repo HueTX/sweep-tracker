@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T10:48:19Z",
+ "generated_at": "2026-11-13T10:49:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "939e5ab6",
@@ -9,16 +9,16 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T10:19:31Z",
-  "last_activity_at": "2026-11-13T10:47:57Z",
+  "last_activity_at": "2026-11-13T10:48:40Z",
   "progress": {
    "pools": 21,
-   "covered_units": 746,
+   "covered_units": 744,
    "total_units": 754,
    "pct": 99
   },
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 31,
-  "evaluated": 34
+  "rejected": 37,
+  "evaluated": 40
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 75,
+  "evaluated": 81,
   "filed": 0,
   "parked": 7,
-  "rejected": 67,
+  "rejected": 73,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T10:48:19Z",
-   "detail": "Employers 94/32"
+   "heartbeat_at": null,
+   "detail": "Employers 116/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T10:48:19Z",
-   "detail": "Employers 61/31"
+   "heartbeat_at": null,
+   "detail": "Employers 62/31"
   }
  },
  "stages": {
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "51 of 60 units done",
+   "detail": "57 of 67 units done",
    "started_at": "2026-11-13T10:19:31Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 4:47 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 4:48 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -639,6 +630,13 @@
  },
  "today_rejected": {
   "Employer sites": [
+   {
+    "company": "Molina Healthcare",
+    "role": "Mgr, Business Architecture",
+    "reason": "stale — Job Posted February 4th, 2025",
+    "where": "Employer sites",
+    "time": "4:48 AM"
+   },
    {
     "company": "The Cigna Group",
     "role": "Senior Director, Data & Digital Product Architecture",
@@ -724,6 +722,13 @@
     "time": "4:46 AM"
    },
    {
+    "company": "Blue Shield of California",
+    "role": "Enterprise Architect",
+    "reason": "stale — Posted: 2/16/2026",
+    "where": "Employer sites",
+    "time": "4:48 AM"
+   },
+   {
     "company": "Southwest Airlines",
     "role": "Solutions Architect",
     "reason": "stale — Published: 2025-08-28",
@@ -785,6 +790,13 @@
     "reason": "stale — Published: 2026-10-19",
     "where": "Employer sites",
     "time": "4:47 AM"
+   },
+   {
+    "company": "The Cigna Group",
+    "role": "Senior Principal, Enterprise Identity & Access Management Architect",
+    "reason": "stale — Published: 2026-10-23T01:21:58",
+    "where": "Employer sites",
+    "time": "4:48 AM"
    },
    {
     "company": "Mutual of Omaha",
@@ -932,6 +944,27 @@
     "reason": "stale — We are seeking a hands-on Principal Data Architect to serve as a leader in our ongoing data and digital transformation",
     "where": "Employer sites",
     "time": "4:46 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Enterprise Architect",
+    "reason": "experience-mismatch — Healthcare expertise is critical-must have hands-on experience with healthcare data, processes, and regulatory standards",
+    "where": "Employer sites",
+    "time": "4:48 AM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Lead Enterprise Architect",
+    "reason": "stale — Published: 2026-07-28T15:00:50.000Z",
+    "where": "Employer sites",
+    "time": "4:48 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Senior Enterprise Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $126,720 - $251,680",
+    "where": "Employer sites",
+    "time": "4:48 AM"
    }
   ],
   "Google Jobs": [
@@ -2313,5 +2346,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T10:48:19Z"
+ "lists_generated_at": "2026-11-13T10:49:47Z"
 }
