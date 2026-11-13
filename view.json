@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:39:08Z",
+ "generated_at": "2026-11-13T11:40:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
   "last_activity_at": "2026-11-13T11:38:42Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 716,
    "total_units": 754,
-   "pct": 98
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,9 @@
   "rejected": 100,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,12 +90,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T11:40:14Z",
    "detail": "Employers 30/39"
   },
   "W3": {
@@ -121,8 +123,8 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -132,8 +134,8 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -300,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "34 of 60 units done",
+   "detail": "34 of 78 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 5:38 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:38 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
