@@ -1,47 +1,45 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T08:26:30Z",
+ "generated_at": "2026-11-13T08:28:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "82d1e5a0",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T07:19:52Z",
-  "last_activity_at": "2026-11-13T08:25:26Z",
+  "last_activity_at": "2026-11-13T08:27:14Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 98
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 28,
-  "evaluated": 31
+  "parked": 3,
+  "rejected": 34,
+  "evaluated": 37
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 33,
+  "evaluated": 39,
   "filed": 0,
-  "parked": 4,
-  "rejected": 28,
+  "parked": 5,
+  "rejected": 34,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T08:26:30Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -301,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "12 of 15 units done",
+   "state": "done",
+   "detail": "15 of 15 units done",
    "started_at": "2026-11-13T07:19:52Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T08:26:51Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "2 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-13T07:29:07Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T08:27:14Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T08:28:43Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T08:28:43Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T08:28:43Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 2:25 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:27 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 31 of 58 · Cloud Engineering Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,6 +574,22 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "Google Jobs": [
+   {
+    "company": "Trillium Health Resources",
+    "role": "IT Architect",
+    "reason": "credential-needed — To be considered, submit your application and resume through our ADP Career Center.",
+    "where": "Google Jobs",
+    "time": "2:27 AM"
+   },
+   {
+    "company": "Technatomy Corporation",
+    "role": "Enterprise Integration Architect",
+    "reason": "credential-needed — Must be able to obtain and maintain a Public Trust clearance.",
+    "where": "Google Jobs",
+    "time": "1:56 AM"
+   }
+  ],
   "Web Catch-All (Inceed jobs site)": [
    {
     "company": "Inceed",
@@ -601,15 +615,6 @@
     "reason": "approval-blocked — PASS verified on the full JD (remote, unpublished pay, enterprise integration design/architecture duties, Public Trust obtainable only, published 2026-11-06). Filing attempt: the governing apply route is Technatomy's own Taleo Career Center (viewRequisition org=TECHNATOMY, rid=2833), which requires an account sign-in and a resume upload; the alternate route (ClearanceJobs listing for Job Code 26-208) routes back to the same employer application. This hook executor has no live-browser submission/upload capability and a resume upload is approval-gated in this environment, so the filing is parked approval-blocked for filing by the main agent rather than left waiting.",
     "where": "Employer sites",
     "time": "1:29 AM"
-   }
-  ],
-  "Google Jobs": [
-   {
-    "company": "Technatomy Corporation",
-    "role": "Enterprise Integration Architect",
-    "reason": "credential-needed — Must be able to obtain and maintain a Public Trust clearance.",
-    "where": "Google Jobs",
-    "time": "1:56 AM"
    }
   ]
  },
@@ -758,11 +763,32 @@
     "time": "1:29 AM"
    },
    {
+    "company": "Celestica International LP",
+    "role": "Director, Data Center Solutions Architect",
+    "reason": "experience-mismatch — Deep expertise in IP routing protocols (e.g., BGP, OSPF, ISIS) and their implementation in data center fabrics (e.g., EVPN, VXLAN).",
+    "where": "Employer sites",
+    "time": "2:26 AM"
+   },
+   {
     "company": "Mutual of Omaha",
     "role": "Business Architect III",
     "reason": "pay-outside-band — Business Architect III: $130,000 - $140,000, plus annual bonus opportunity",
     "where": "Employer sites",
     "time": "1:29 AM"
+   },
+   {
+    "company": "Percona",
+    "role": "Practice Lead: AWS",
+    "reason": "stale — This is a dedicated, AWS-specific role.",
+    "where": "Employer sites",
+    "time": "2:26 AM"
+   },
+   {
+    "company": "Toptal",
+    "role": "Practice Director, Cloud Services",
+    "reason": "experience-mismatch — 3+ years managing a business or team, preferably with P&L or budget responsibility, and a proven track record of overseeing financial performance, identifying areas for improvement, and driving profitability and growth.",
+    "where": "Employer sites",
+    "time": "2:26 AM"
    },
    {
     "company": "Frontline Education",
@@ -798,6 +824,27 @@
     "reason": "pay-outside-band — Annual salary range of $116,860–$155,995, depending on qualifications, experience, and other relevant factors.",
     "where": "Employer sites",
     "time": "1:29 AM"
+   },
+   {
+    "company": "Experian",
+    "role": "Strategy Execution & Delivery Effectiveness Lead",
+    "reason": "experience-mismatch — Lead portfolio planning, execution, and delivery across multiple infrastructure and platform plans (cloud, network, compute, storage, middleware, DevOps, observability, and security).",
+    "where": "Employer sites",
+    "time": "2:26 AM"
+   },
+   {
+    "company": "SitusAMC",
+    "role": "Lead Cloud Platform Engineer - Remote US",
+    "reason": "stale — Design, build, and maintain automated infrastructure using Terraform and AWS services (Lambda, SQS, RabbitMQ, event-driven technologies).",
+    "where": "Employer sites",
+    "time": "2:26 AM"
+   },
+   {
+    "company": "Datavant",
+    "role": "Staff Cloud Engineer",
+    "reason": "iac-whole-role — You will put your hands on code daily to help improve the environment. You should expect in this role to be pulling PRs all day",
+    "where": "Employer sites",
+    "time": "2:26 AM"
    }
   ],
   "Web Catch-All": [
@@ -1340,6 +1387,7 @@
    "Arlo Technologies, Inc.",
    "Coinbase",
    "National Arbitration and Mediation",
+   "Trillium Health Resources",
    "Technatomy Corporation"
   ],
   "W8": [
@@ -2009,5 +2057,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T08:26:30Z"
+ "lists_generated_at": "2026-11-13T08:28:43Z"
 }
