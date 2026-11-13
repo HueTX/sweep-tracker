@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:10:58Z",
+ "generated_at": "2026-11-13T11:12:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "998027ed",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:07:37Z",
-  "last_activity_at": "2026-11-13T11:07:37Z",
+  "last_activity_at": "2026-11-13T11:11:57Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 6,
+  "evaluated": 7
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 92,
+  "evaluated": 98,
   "filed": 0,
-  "parked": 8,
-  "rejected": 84,
+  "parked": 7,
+  "rejected": 90,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -91,12 +91,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:10:58Z",
-   "detail": "Employers 0/39"
+   "heartbeat_at": "2026-11-13T11:12:20Z",
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -283,10 +283,10 @@
    "ended_at": "2026-11-13T11:07:37Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T11:07:37Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:12:03Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -302,14 +302,14 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 8 units done",
+   "detail": "5 of 8 units done",
    "started_at": "2026-11-13T11:07:37Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "state": "active",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-13T11:11:56Z",
    "ended_at": null
   },
   "stall_watch": {
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Started 5:07 AM CT · 0 filed",
+ "note": "Last activity 5:11 AM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 11 of 58 · Domain Architect",
