@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T08:18:59Z",
+ "generated_at": "2026-11-13T08:20:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "82d1e5a0",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T07:19:52Z",
   "last_activity_at": "2026-11-13T07:56:43Z",
@@ -39,10 +39,7 @@
   "rejected": 23,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8",
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -58,23 +55,23 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T08:18:59Z",
+   "heartbeat_at": null,
    "detail": "Titles 40/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 46,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T08:18:59Z",
+   "heartbeat_at": null,
    "detail": "Titles 46/58"
   },
   "W1": {
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 1:56 AM CT · 5 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 1:56 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
