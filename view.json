@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:49:27Z",
+ "generated_at": "2026-11-13T11:50:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -10,37 +10,36 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T11:46:23Z",
+  "last_activity_at": "2026-11-13T11:50:00Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 95
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 42,
-  "evaluated": 45
+  "parked": 3,
+  "rejected": 58,
+  "evaluated": 61
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 136,
+  "evaluated": 150,
   "filed": 0,
-  "parked": 8,
-  "rejected": 126,
+  "parked": 10,
+  "rejected": 140,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W5",
   "W6"
  ],
@@ -92,13 +91,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 147/39"
+   "heartbeat_at": null,
+   "detail": "Employers 156/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -126,23 +125,23 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": "2026-11-13T11:50:51Z",
+   "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": "2026-11-13T11:50:51Z",
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -304,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "58 of 96 units done",
+   "detail": "62 of 96 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-13T11:30:54Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:50:04Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,18 +544,18 @@
    }
   ]
  },
- "note": "Last activity 5:46 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:50 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W5 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W5",
+  "headline": "W5 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
