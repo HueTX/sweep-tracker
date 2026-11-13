@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:49:27Z",
+ "generated_at": "2026-11-13T11:50:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -10,37 +10,36 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T11:46:23Z",
+  "last_activity_at": "2026-11-13T11:50:00Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 95
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 42,
-  "evaluated": 45
+  "parked": 3,
+  "rejected": 58,
+  "evaluated": 61
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 136,
+  "evaluated": 150,
   "filed": 0,
-  "parked": 8,
-  "rejected": 126,
+  "parked": 10,
+  "rejected": 140,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W5",
   "W6"
  ],
@@ -92,13 +91,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 147/39"
+   "heartbeat_at": null,
+   "detail": "Employers 156/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -126,23 +125,23 @@
    "label": "Oil & Gas",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": "2026-11-13T11:50:51Z",
+   "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:49:27Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": "2026-11-13T11:50:51Z",
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -304,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "58 of 96 units done",
+   "detail": "62 of 96 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 3 units done",
+   "state": "done",
+   "detail": "3 of 3 units done",
    "started_at": "2026-11-13T11:30:54Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:50:04Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,18 +544,18 @@
    }
   ]
  },
- "note": "Last activity 5:46 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:50 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W5 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W5",
+  "headline": "W5 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -578,6 +577,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "ClearanceJobs (filing via employer Workday ATS)": [
+   {
+    "company": "Leidos",
+    "role": "IT Solutions Architect",
+    "reason": "credential-needed — Alternate routes tried: ClearanceJobs apply and Leidos' own Workday application both require account sign-in; the existing Leidos Workday password is vault-held and not available to this executor. PASS stands (pay $107,900-$195,050 top in band, remote CONUS, Public Trust obtainable), parked at the sign-in wall.",
+    "where": "ClearanceJobs (filing via employer Workday ATS)",
+    "time": "5:50 AM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Trillium Health Resources",
@@ -642,6 +650,15 @@
     "reason": "not-evaluated — Establish and lead the enterprise architecture function, including architecture principles, standards, reference architectures, and technology roadmaps.",
     "where": "USAJOBS",
     "time": "4:38 AM"
+   }
+  ],
+  "ClearanceJobs (filing via employer Taleo ATS)": [
+   {
+    "company": "Technatomy Corporation",
+    "role": "Enterprise Solution Architect",
+    "reason": "credential-needed — Alternate route tried: employer's own Taleo ATS carries this req (org=TECHNATOMY, rid=2827, published 2026-11-06) but applying requires a Taleo account sign-in; ClearanceJobs apply likewise requires an account. No credentials available to this executor; PASS stands, parked at the sign-in wall.",
+    "where": "ClearanceJobs (filing via employer Taleo ATS)",
+    "time": "5:50 AM"
    }
   ]
  },
@@ -1247,6 +1264,15 @@
     "time": "5:11 AM"
    }
   ],
+  "Exelon careers": [
+   {
+    "company": "Exelon",
+    "role": "Sr. Architect - Cloud Technologies",
+    "reason": "pay-outside-band — 'Annual salary will vary based on a candidate's skills, qualifications, experience, and other factors: $106,400.00/Yr. - $146,300.00/Yr.' - top of range below the $160,000 band floor; Oak Brook Terrace, IL.",
+    "where": "Exelon careers",
+    "time": "5:50 AM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Fulton Bank, N.A.",
@@ -1382,6 +1408,22 @@
     "time": "2:25 AM"
    }
   ],
+  "Nevada state portal": [
+   {
+    "company": "State of Nevada",
+    "role": "MASTER IT PROFESSIONAL 2 - SYSTEMS ADMINISTRATION",
+    "reason": "not-remote — Position located in a Carson City or Las Vegas office; systems administration role requiring CCNP or SSCP - office-based, not remote.",
+    "where": "Nevada state portal",
+    "time": "5:50 AM"
+   },
+   {
+    "company": "State of Nevada",
+    "role": "IT Professional 4 (Architect Developer)",
+    "reason": "pay-outside-band — Announcement 49612 salary $87,570.72-$131,711.04 - top of range below the $160,000 band floor; posted 11/14/2024 and expired.",
+    "where": "Nevada state portal",
+    "time": "5:50 AM"
+   }
+  ],
   "Jobstore": [
    {
     "company": "GXO Logistics",
@@ -1432,6 +1474,15 @@
     "time": "5:46 AM"
    }
   ],
+  "Chevron careers": [
+   {
+    "company": "Chevron",
+    "role": "Cloud Engineer",
+    "reason": "hands-on — Houston-based senior hands-on engineering role (PKI/identity engineering), published 2026-11-04 - engineer-level hands-on role, not an architect role.",
+    "where": "Chevron careers",
+    "time": "5:50 AM"
+   }
+  ],
   "Virginia state portal": [
    {
     "company": "Virginia Information Technologies Agency",
@@ -1448,6 +1499,15 @@
     "reason": "stale — Hours/Shift: 9:00am-5:00pm; work location Manhattan; Published: 2026-10-29T11:23:18+00:00",
     "where": "New York City portal",
     "time": "5:46 AM"
+   }
+  ],
+  "CenterPoint Energy careers": [
+   {
+    "company": "CenterPoint Energy",
+    "role": "Manager IT Enterprise Architecture",
+    "reason": "not-remote — Houston, TX 77002 headquarters role posted 11/09/2026; JD offers 'an on-site wellness center at our headquarters in Houston' and states no remote eligibility - HQ-based people-manager role, not 100% remote.",
+    "where": "CenterPoint Energy careers",
+    "time": "5:50 AM"
    }
   ],
   "Web Catch-All": [
@@ -1574,6 +1634,83 @@
     "reason": "not-remote — This position requires an employee to be onsite at 445 Minnesota St, St Paul, Minnesota for 3 days per week; Salary Range: $42.70 - $72.87 / hourly; $89,157 - $152,152 / annually; Date Posted: 02/19/2026",
     "where": "Minnesota state portal",
     "time": "5:46 AM"
+   }
+  ],
+  "Louisiana state portal": [
+   {
+    "company": "State of Louisiana - Office of Technology Services",
+    "role": "Core Operations Architect (IT Statewide Architect)",
+    "reason": "internal-only — Req 217458, published 2026-02-24; posting filled by promotion of a current OTS employee - internal fill, not an open external architect opening.",
+    "where": "Louisiana state portal",
+    "time": "5:50 AM"
+   }
+  ],
+  "Oklahoma state portal": [
+   {
+    "company": "State of Oklahoma - OMES",
+    "role": "Technical Architect I",
+    "reason": "not-remote — On-site Oklahoma City position; salary up to $90,000 (also below the pay band). Not a remote role.",
+    "where": "Oklahoma state portal",
+    "time": "5:50 AM"
+   },
+   {
+    "company": "State of Oklahoma - OMES",
+    "role": "Solution Architect of Data & AI",
+    "reason": "hands-on — JD duty: 'Design and code full-stack data and AI solutions' - hands-on coding is a core duty of the role.",
+    "where": "Oklahoma state portal",
+    "time": "5:50 AM"
+   }
+  ],
+  "Connecticut state portal": [
+   {
+    "company": "State of Connecticut",
+    "role": "Architect (40 Hour)",
+    "reason": "experience-mismatch — This is a licensed building/facilities architect posting (Connecticut Architect's license required, published 2026-03-26), not an IT architecture role.",
+    "where": "Connecticut state portal",
+    "time": "5:50 AM"
+   }
+  ],
+  "Utah state portal": [
+   {
+    "company": "State of Utah - Department of Technology Services",
+    "role": "IT Architect",
+    "reason": "stale — Hybrid, 2 days/week in office Salt Lake City; opening 06/11/2025, closing 06/16/2025 - posting long closed.",
+    "where": "Utah state portal",
+    "time": "5:50 AM"
+   }
+  ],
+  "BP careers": [
+   {
+    "company": "BP",
+    "role": "Senior Solution Architect (EV charging)",
+    "reason": "not-remote — 'This position is a hybrid of office/remote working' - hybrid schedule, not 100% remote; cloud-native ideally AWS.",
+    "where": "BP careers",
+    "time": "5:50 AM"
+   },
+   {
+    "company": "BP",
+    "role": "Senior Solution Architect (biofuels trading)",
+    "reason": "not-remote — Hybrid of office/remote working with strong AWS expertise required - hybrid schedule, not 100% remote.",
+    "where": "BP careers",
+    "time": "5:50 AM"
+   }
+  ],
+  "Shell careers": [
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect (Global Lubricants)",
+    "reason": "not-remote — UK-based role (remote within the United Kingdom only), published 2026-11-01 - not a US remote position.",
+    "where": "Shell careers",
+    "time": "5:50 AM"
+   }
+  ],
+  "Southern Company careers": [
+   {
+    "company": "Southern Company",
+    "role": "Windows & Endpoint Management Architect",
+    "reason": "not-remote — 'This position requires onsite work three (3) days per week at either our Atlanta, GA, or Birmingham, AL location.'",
+    "where": "Southern Company careers",
+    "time": "5:50 AM"
    }
   ]
  },
@@ -2768,5 +2905,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:49:27Z"
+ "lists_generated_at": "2026-11-13T11:50:51Z"
 }
