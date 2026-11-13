@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T14:34:45Z",
+ "generated_at": "2026-11-13T14:37:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T14:31:56Z",
+  "last_activity_at": "2026-11-13T14:37:34Z",
   "progress": {
    "pools": 21,
-   "covered_units": 696,
+   "covered_units": 706,
    "total_units": 754,
-   "pct": 92
+   "pct": 94
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 14,
-  "rejected": 224,
-  "evaluated": 238
+  "rejected": 239,
+  "evaluated": 253
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 316,
+  "evaluated": 331,
   "filed": 0,
   "parked": 20,
-  "rejected": 296,
+  "rejected": 311,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -222,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T14:34:45Z",
-   "detail": "Employers 35/59"
+   "heartbeat_at": null,
+   "detail": "Employers 64/59"
   },
   "W17": {
    "label": "Technology",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "332 of 414 units done",
+   "detail": "338 of 414 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:31 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W16 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 8:37 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
