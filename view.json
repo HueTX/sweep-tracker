@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T06:47:33Z",
+ "generated_at": "2026-11-13T06:48:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "e65fe239",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-13T06:47:33Z",
   "last_activity_at": "2026-11-13T06:47:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 742,
+   "covered_units": 736,
    "total_units": 754,
    "pct": 98
   },
@@ -39,7 +39,9 @@
   "rejected": 0,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -55,13 +57,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 46,
+   "phase": "searching",
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Titles 46/58"
+   "heartbeat_at": "2026-11-13T06:48:50Z",
+   "detail": "Titles 40/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-13T06:47:33Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-13T06:47:33Z",
    "ended_at": null
@@ -299,8 +301,8 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "0 of 2 units done",
+   "state": "active",
+   "detail": "0 of 3 units done",
    "started_at": "2026-11-13T06:47:33Z",
    "ended_at": null
   },
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 12:47 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W8"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W8",
+  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
