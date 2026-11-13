@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T15:14:58Z",
+ "generated_at": "2026-11-13T15:17:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T15:03:18Z",
+  "last_activity_at": "2026-11-13T15:16:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 706,
@@ -28,18 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 14,
-  "rejected": 306,
-  "evaluated": 320
+  "rejected": 317,
+  "evaluated": 332
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 393,
+  "evaluated": 404,
   "filed": 0,
   "parked": 20,
-  "rejected": 373,
+  "rejected": 383,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W3",
   "W16",
   "W17"
  ],
@@ -102,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T15:17:47Z",
    "detail": "Employers 0/73"
   },
   "W4": {
@@ -228,8 +229,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T15:14:58Z",
-   "detail": "Employers 294/59"
+   "heartbeat_at": "2026-11-13T15:17:47Z",
+   "detail": "Employers 323/59"
   },
   "W17": {
    "label": "Technology",
@@ -239,7 +240,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T15:14:58Z",
+   "heartbeat_at": "2026-11-13T15:17:47Z",
    "detail": "Employers 309/54"
   },
   "W18": {
@@ -303,15 +304,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "398 of 489 units done",
+   "detail": "404 of 489 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "4 of 4 units done",
+   "state": "active",
+   "detail": "4 of 5 units done",
    "started_at": "2026-11-13T11:30:54Z",
-   "ended_at": "2026-11-13T13:56:05Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 9:03 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:16 AM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
