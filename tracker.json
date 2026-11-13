@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T10:42:46Z",
+ "generated_at": "2026-11-13T10:44:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "939e5ab6",
@@ -9,7 +9,7 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
@@ -18,9 +18,9 @@
   "last_activity_at": "2026-11-13T10:38:43Z",
   "progress": {
    "pools": 21,
-   "covered_units": 734,
+   "covered_units": 726,
    "total_units": 754,
-   "pct": 97
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,10 @@
   "rejected": 42,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -110,12 +113,12 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
-   "families_searched": 48,
+   "phase": "searching",
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T10:44:24Z",
    "detail": "Employers 64/32"
   },
   "W5": {
@@ -264,12 +267,12 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T10:44:24Z",
    "detail": "Employers 31/31"
   }
  },
@@ -300,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "39 of 53 units done",
+   "detail": "39 of 60 units done",
    "started_at": "2026-11-13T10:19:31Z",
    "ended_at": null
   },
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 4:38 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 4:38 AM CT · 7 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -2125,5 +2134,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T10:42:46Z"
+ "lists_generated_at": "2026-11-13T10:44:24Z"
 }
