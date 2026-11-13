@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T06:51:56Z",
+ "generated_at": "2026-11-13T06:53:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "e65fe239",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T06:47:33Z",
-  "last_activity_at": "2026-11-13T06:47:33Z",
+  "last_activity_at": "2026-11-13T06:53:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 724,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 1,
+  "rejected": 1,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 0,
+  "evaluated": 3,
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
+  "parked": 1,
+  "rejected": 1,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -62,7 +62,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T06:51:56Z",
+   "heartbeat_at": "2026-11-13T06:53:44Z",
    "detail": "Titles 28/58"
   },
   "W7": {
@@ -308,8 +308,8 @@
   },
   "sector_filing": {
    "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-13T06:53:24Z",
    "ended_at": null
   },
   "stall_watch": {
@@ -543,10 +543,10 @@
    }
   ]
  },
- "note": "Started 12:47 AM CT · 0 filed",
+ "note": "Last activity 12:53 AM CT · 3 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "primary": "W8 · Title 7 of 58 · Infrastructure Architect",
    "detail": "Families covered 58/58",
    "pool": "W8"
   }
@@ -554,7 +554,7 @@
  "now_viewing": {
   "live": true,
   "label": "W8",
-  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "headline": "W8 · Title 7 of 58 · Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -575,8 +575,28 @@
  "date": "2026-11-13",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
- "today_rejected": {},
+ "today_parked": {
+  "Web Catch-All (Dice)": [
+   {
+    "company": "IBSS",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-evaluated — Dice listing (fresh surface activity, Today/Yesterday): Job Title: Cloud Solutions Architect, Location: Remote within the USA, Salary Range: $150K-$170K, Clearance: Must be able to obtain a Public Trust Clearance, Application Deadline: November 30, 2026; IBSS is seeking a Cloud Solutions Architect to support the National Oceanic and Atmospheric Administration (NOAA). Full JD could not be loaded after a real attempt (Dice aggregate pages truncate the description and no detail page on IBSS's own site was located) - JD unread, no verdict on merits.",
+    "where": "Web Catch-All (Dice)",
+    "time": "12:53 AM"
+   }
+  ]
+ },
+ "today_rejected": {
+  "Web Catch-All": [
+   {
+    "company": "Booz Allen Hamilton",
+    "role": "Cloud Computing Infrastructure Architect",
+    "reason": "pay-outside-band — The projected compensation range for this position is $112,800.00 to $257,000.00 (annualized USD). Top of range $257,000 exceeds the $230,000 band ceiling. workarounds tried: (1) BuiltIn mirror of employer posting, (2) alternate routes ClearanceJobs and Simplify for the same req R0253065 - identical $112,800-$257,000 range on all, (3) no alternate posting of the same role with a different range found.",
+    "where": "Web Catch-All",
+    "time": "12:53 AM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1765,5 +1785,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T06:51:56Z"
+ "lists_generated_at": "2026-11-13T06:53:44Z"
 }
