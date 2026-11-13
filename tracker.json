@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:30:58Z",
+ "generated_at": "2026-11-13T11:32:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -15,19 +15,19 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T11:30:54Z",
+  "last_activity_at": "2026-11-13T11:31:49Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 706,
    "total_units": 754,
-   "pct": 95
+   "pct": 94
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
+  "parked": 1,
   "rejected": 4,
   "evaluated": 5
  },
@@ -35,7 +35,7 @@
   "date": "2026-11-13",
   "evaluated": 103,
   "filed": 0,
-  "parked": 8,
+  "parked": 9,
   "rejected": 94,
   "filed_by_source": {}
  },
@@ -92,7 +92,7 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "queued",
-   "families_searched": 38,
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -118,8 +118,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:30:58Z",
-   "detail": "Employers 15/32"
+   "heartbeat_at": "2026-11-13T11:32:15Z",
+   "detail": "Employers 30/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -272,8 +272,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:30:58Z",
-   "detail": "Employers 10/31"
+   "heartbeat_at": "2026-11-13T11:32:15Z",
+   "detail": "Employers 25/31"
   }
  },
  "stages": {
@@ -303,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 44 units done",
+   "detail": "11 of 52 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T11:30:54Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:31:50Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 5:30 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:31 AM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
@@ -634,6 +634,13 @@
     "reason": "stale-unverified — DOMICILE: This is a fully remote position that may be domiciled anywhere in the United States. Mirror detail page carries no posted date and no FedEx req ID; the role could not be confirmed on FedEx's own careers portal, so undated-live cannot be claimed from the employer's own detail page. Workarounds tried: (1) FedEx careers site search, (2) alternate mirror routes - neither confirmed liveness/date.",
     "where": "Employer sites",
     "time": "4:32 AM"
+   },
+   {
+    "company": "SelectHealth",
+    "role": "Enterprise Solutions Architect-Senior/Consultant",
+    "reason": "credential-needed — Intermountain — Workday; identity conflict flagged: Intermountain 21309",
+    "where": "Employer sites",
+    "time": "5:31 AM"
    }
   ],
   "USAJOBS": [
@@ -2483,7 +2490,8 @@
    "Banner Health",
    "Starbucks",
    "EPAM Systems",
-   "Technatomy"
+   "Technatomy",
+   "SelectHealth"
   ],
   "W9": [
    "Oracle",
@@ -2518,5 +2526,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:30:58Z"
+ "lists_generated_at": "2026-11-13T11:32:15Z"
 }
