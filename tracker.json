@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:45:30Z",
+ "generated_at": "2026-11-13T11:46:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T11:45:22Z",
+  "last_activity_at": "2026-11-13T11:46:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 704,
+   "covered_units": 714,
    "total_units": 754,
-   "pct": 93
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 23,
-  "evaluated": 26
+  "rejected": 42,
+  "evaluated": 45
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 118,
+  "evaluated": 136,
   "filed": 0,
   "parked": 8,
-  "rejected": 108,
+  "rejected": 126,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2"
+  "W2",
+  "W5",
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -91,12 +93,12 @@
    "label": "State & Local Gov",
    "sites": 39,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:45:30Z",
-   "detail": "Employers 117/39"
+   "heartbeat_at": "2026-11-13T11:46:59Z",
+   "detail": "Employers 147/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -123,23 +125,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T11:46:59Z",
    "detail": "Employers 0/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-13T11:46:59Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -302,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "52 of 96 units done",
+   "detail": "58 of 96 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -543,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 5:45 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:46 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
@@ -1201,6 +1203,13 @@
     "time": "5:40 AM"
    },
    {
+    "company": "ITC Federal",
+    "role": "ServiceNow Architect",
+    "reason": "clearance — CLEARANCE: Must have, at minimum, an active Interim Secret security clearance, with the ability to obtain and maintain a final Secret clearance.; Published: 2026-10-27",
+    "where": "ClearanceJobs",
+    "time": "5:46 AM"
+   },
+   {
     "company": "Valiant Solutions",
     "role": "Senior Systems Architect",
     "reason": "aws-first — Design, integrate, and govern enterprise cloud architecture solutions on AWS GovCloud, with focus on EKS, ECS, and containerized environments. Required Certification: AWS Solution Architect certification",
@@ -1213,6 +1222,29 @@
     "reason": "clearance — Top Secret or Q Clearance required. Job ID, 2025-15840, Work Type, On-Site, Pay Range, $195,00 - $220,000. Position is contingent upon contract award",
     "where": "ClearanceJobs",
     "time": "5:42 AM"
+   }
+  ],
+  "GovernmentJobs.com / NEOGOV agencies": [
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "stale — Reporting Location: 611 WALKER / 1200 TRAVIS; Published: 2026-10-19; workarounds tried: employer's own GovernmentJobs posting is the governing text checked",
+    "where": "GovernmentJobs.com / NEOGOV agencies",
+    "time": "5:46 AM"
+   },
+   {
+    "company": "NEOGOV",
+    "role": "Software Architect (Java)",
+    "reason": "stale — We are seeking a Software Architect to serve as the primary technical authority for our HRIS product domain; Published: 2026-06-04",
+    "where": "GovernmentJobs.com / NEOGOV agencies",
+    "time": "5:46 AM"
+   },
+   {
+    "company": "State of Colorado - Governor's Office of Information Technology",
+    "role": "Cloud Integrations Solutions Architect",
+    "reason": "closed — OPENING DATE 10/29/2026, CLOSING DATE 11/8/2026 at 11:59 PM Mountain Time; Salary $135,000.00 - $145,000.00 Annually; All remote work must be performed in Colorado and the candidate selected must relocate and reside in Colorado. Workarounds tried: employer's own GovernmentJobs.com detail page read directly.",
+    "where": "GovernmentJobs.com / NEOGOV agencies",
+    "time": "5:11 AM"
    }
   ],
   "Google Jobs": [
@@ -1384,13 +1416,38 @@
     "time": "3:21 AM"
    }
   ],
-  "GovernmentJobs.com / NEOGOV agencies": [
+  "Colorado state portal": [
    {
     "company": "State of Colorado - Governor's Office of Information Technology",
-    "role": "Cloud Integrations Solutions Architect",
-    "reason": "closed — OPENING DATE 10/29/2026, CLOSING DATE 11/8/2026 at 11:59 PM Mountain Time; Salary $135,000.00 - $145,000.00 Annually; All remote work must be performed in Colorado and the candidate selected must relocate and reside in Colorado. Workarounds tried: employer's own GovernmentJobs.com detail page read directly.",
-    "where": "GovernmentJobs.com / NEOGOV agencies",
-    "time": "5:11 AM"
+    "role": "Senior Technical Architect (Salesforce)",
+    "reason": "not-remote — All remote work must be performed from within the State of Colorado. If you live out of state and are selected for this position you must relocate to Colorado before commencing employment.; minimum five years dedicated experience architecting complex enterprise Salesforce platform solutions; workarounds tried: employer's own GovernmentJobs posting checked",
+    "where": "Colorado state portal",
+    "time": "5:46 AM"
+   },
+   {
+    "company": "State of Colorado Governor's Office of Information Technology",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "stale — A minimum of three (3) years of professional, hands-on experience designing, architecting, and deploying enterprise-grade solutions specifically on Google Cloud Platform (GCP) and Amazon Web Services (AWS); Published: 2026-10-28; All remote work must be performed in Colorado; workarounds tried: employer's own GovernmentJobs posting checked",
+    "where": "Colorado state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Virginia state portal": [
+   {
+    "company": "Virginia Information Technologies Agency",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Hiring Range: $124,000 - 149,000; Location: VA Information Technologies, Chesterfield, Virginia; Published: 2026-11-04",
+    "where": "Virginia state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "New York City portal": [
+   {
+    "company": "City of New York - Department of Social Services",
+    "role": "SENIOR IT SOLUTION ARCHITECT",
+    "reason": "stale — Hours/Shift: 9:00am-5:00pm; work location Manhattan; Published: 2026-10-29T11:23:18+00:00",
+    "where": "New York City portal",
+    "time": "5:46 AM"
    }
   ],
   "Web Catch-All": [
@@ -1411,13 +1468,112 @@
     "time": "12:56 AM"
    }
   ],
-  "GovernmentJobs.com (Michigan state portal)": [
+  "Michigan state portal": [
    {
     "company": "State of Michigan Department of Technology, Management and Budget",
     "role": "Information Technology Specialist 15 (Enterprise Architecture)",
-    "reason": "pay-outside-band — Salary: $41.93 - $61.95 Hourly (top approx $128,856/yr, below the $160,000 band floor); Location Dimondale, MI; Opening Date 11/02/2026, Closing Date 11/16/2026; The State of Michigan is not able to offer employment to out of-state applicants that do not plan to relocate. Workarounds tried: employer's own GovernmentJobs.com detail page read directly (governing text).",
-    "where": "GovernmentJobs.com (Michigan state portal)",
-    "time": "5:13 AM"
+    "reason": "not-remote — The State of Michigan is not able to offer employment to out of-state applicants that do not plan to relocate. The Department currently offers a hybrid work option which requires two days working on-site; Opening Date: 11/02/2026; Published: 2026-11-01",
+    "where": "Michigan state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Florida state portal": [
+   {
+    "company": "State of Florida Agency for Health Care Administration",
+    "role": "Info Tech Business Consultant Manager/Cloud Architect",
+    "reason": "pay-outside-band — Salary: $2,884.62 - $3,846.16 Biweekly; Posting Closing Date: 07/14/2026; 4100 University Center, Tallahassee, FL",
+    "where": "Florida state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "North Carolina state portal": [
+   {
+    "company": "North Carolina Department of Health and Human Services",
+    "role": "Enterprise Architect (IT Architect)",
+    "reason": "pay-outside-band — Salary Grade Range: $105,341.00 - $184,345.00 Recruitment Range: $105,341.00 - $155,000.00; This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC; Published: 2026-10-06",
+    "where": "North Carolina state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Georgia state portal": [
+   {
+    "company": "Georgia Department of Transportation",
+    "role": "IT Solutions and Integration Architect",
+    "reason": "not-remote — Location: Atlanta, GA. Hybrid; Rate: $83/hr on C2C; This is a hybrid job with time spent working remotely and on-site.",
+    "where": "Georgia state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Maricopa County portal": [
+   {
+    "company": "Maricopa County Community College District",
+    "role": "Data Architect Manager",
+    "reason": "pay-outside-band — Salary Range $104,361.28 - $135,699.26 DOE; This is a hybrid role with a minimum in-office expectation; Posted: October 09, 2026",
+    "where": "Maricopa County portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "King County portal": [
+   {
+    "company": "King County",
+    "role": "Network Fiber Architect",
+    "reason": "stale — The application period has now closed. These positions are only open to Internal King County employees.; KCIT works in a hybrid model; Published: 2026-10-07",
+    "where": "King County portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "LA County portal": [
+   {
+    "company": "Los Angeles County Office of Education",
+    "role": "Enterprise Data Architect - Technical Expert Roles",
+    "reason": "stale — These positions are hybrid, with periodic in-person meetings; candidates in the Los Angeles area are preferred.; Published: 2026-10-19",
+    "where": "LA County portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Oregon state portal": [
+   {
+    "company": "State of Oregon Department of Administrative Services",
+    "role": "Information Architect (Information Systems Spec.6)",
+    "reason": "pay-outside-band — Initial Posting Date: 10/19/2026 Application Deadline: 11/02/2026; Salary Range: $6,182 - $9,361; Salem, OR - Hybrid",
+    "where": "Oregon state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Maryland state portal": [
+   {
+    "company": "State of Maryland Department of Health",
+    "role": "LTSSMaryland Application Development Architect",
+    "reason": "stale — The position is eligible for Hybrid Telework.; LOCATION OF POSITION MDH Office of Enterprise Technology, Baltimore MD; Published: 2026-09-30",
+    "where": "Maryland state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Indiana state portal": [
+   {
+    "company": "State of Indiana Office of Technology",
+    "role": "Technology Architect Team Manager",
+    "reason": "not-remote — This is an onsite role at the Indiana Government Center in Indianapolis, Indiana.; The salary for this position traditionally starts at $93,002.00; Published: 2026-10-31",
+    "where": "Indiana state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Tennessee state portal": [
+   {
+    "company": "State of Tennessee Department of Finance and Administration",
+    "role": "AI Solutions Architect",
+    "reason": "pay-outside-band — AI SOLUTIONS ARCHITECT Nashville, TN Salary: $118,296.00- $154,146.00 Closing Date: 01/27/2026; This position may be eligible for a hybrid work schedule.",
+    "where": "Tennessee state portal",
+    "time": "5:46 AM"
+   }
+  ],
+  "Minnesota state portal": [
+   {
+    "company": "Minnesota IT Services",
+    "role": "Data Architect - Systems Architect",
+    "reason": "not-remote — This position requires an employee to be onsite at 445 Minnesota St, St Paul, Minnesota for 3 days per week; Salary Range: $42.70 - $72.87 / hourly; $89,157 - $152,152 / annually; Date Posted: 02/19/2026",
+    "where": "Minnesota state portal",
+    "time": "5:46 AM"
    }
   ]
  },
@@ -2612,5 +2768,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:45:30Z"
+ "lists_generated_at": "2026-11-13T11:46:59Z"
 }
