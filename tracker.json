@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T14:06:10Z",
+ "generated_at": "2026-11-13T14:08:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T14:04:17Z",
+  "last_activity_at": "2026-11-13T14:07:04Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 716,
    "total_units": 754,
-   "pct": 94
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 13,
-  "rejected": 179,
-  "evaluated": 192
+  "rejected": 192,
+  "evaluated": 205
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 276,
+  "evaluated": 287,
   "filed": 0,
   "parked": 20,
-  "rejected": 256,
+  "rejected": 267,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W17",
-  "W18",
-  "W19"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -236,34 +234,34 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 10,
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T14:06:10Z",
-   "detail": "Employers 0/54"
+   "heartbeat_at": "2026-11-13T14:08:57Z",
+   "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T14:06:10Z",
-   "detail": "Employers 265/45"
+   "heartbeat_at": null,
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T14:06:10Z",
-   "detail": "Employers 239/41"
+   "heartbeat_at": null,
+   "detail": "Employers 245/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "272 of 331 units done",
+   "detail": "278 of 331 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -545,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 8:04 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:07 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -779,6 +777,13 @@
     "time": "4:47 AM"
    },
    {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Cloud & AI Infrastructure",
+    "reason": "stale — We're looking for a Cloud Solution Architect to help customers migrate, modernize and secure their infrastructure, applications, and data on Microsoft Azure",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
     "company": "Molina Healthcare",
     "role": "Senior Architect, Information Systems - Databricks - Remote",
     "reason": "stale — Published: 2026-08-24",
@@ -905,6 +910,20 @@
     "time": "4:46 AM"
    },
    {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Enterprise Architect",
+    "reason": "stale — We are seeking a seasoned Enterprise Architect to join our team as a critical, highly technical resource focused on strategic accounts.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
+    "company": "NVIDIA",
+    "role": "Senior Solutions Architect, AI and HPC Infrastructure",
+    "reason": "stale — NVIDIA is seeking an outstanding AI Solutions Architect to assist and support energy-sector customers",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
     "company": "United Airlines",
     "role": "Principal Enterprise Architect",
     "reason": "not-remote — Please note that this role is hybrid and requires in office attendance 2-3 days per week in Chicago or Houston. The Principal Enterprise Architect will play a key role in influencing United Airline's IT digital strategy. The base pay range for this role is $137,275.00 to $178,670.00. A stated required hybrid office schedule is not 100% remote. Workarounds tried: (1) United's own posting text via board mirrors carries the same hybrid requirement (2) Out for Undergrad / CareerBuilder mirrors carry the same Chicago role (3) no fully remote alternate posting of the same role found.",
@@ -989,11 +1008,32 @@
     "time": "8:04 AM"
    },
    {
+    "company": "Tyson Foods",
+    "role": "Staff Enterprise Solution Architect (SAP/Transportation)",
+    "reason": "stale — The Staff Enterprise Solution Architect collaborates with Product Owners and Enterprise Technical Architects to design and implement project/product solutions that meet business needs",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
+    "company": "Chewy",
+    "role": "Staff Data Architect",
+    "reason": "stale — We're looking for a Staff Data Architect who is passionate about building data ecosystems that unlock insights and fuel smarter decisions.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
     "company": "Xylem",
     "role": "Enterprise Salesforce Architect",
     "reason": "not-remote — This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC.",
     "where": "Employer sites",
     "time": "7:19 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "AI Solutions Architect",
+    "reason": "stale — Architect end-to-end AI systems—including data ingestion, model training, inference pipelines, monitoring, and governance.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
    },
    {
     "company": "RTX",
@@ -1071,6 +1111,13 @@
     "reason": "closed — Job Number: EGB93858. Department: Governor's Office of Information Technology. Opening Date: 10/29/2026. Closing Date: 11/8/2026 11:59 PM Mountain (closed before 2026-11-13). Salary: $135,000.00 - $145,000.00 Annually. All remote work must be performed in Colorado; candidates must relocate and reside in Colorado. Detail page on governmentjobs.com governs liveness: closing date has passed, so the merits path never opens.",
     "where": "Employer sites",
     "time": "5:02 AM"
+   },
+   {
+    "company": "Salesforce",
+    "role": "Solution Architect",
+    "reason": "not-remote — Office hybrid in Dallas, Indianapolis, Seattle, Atlanta or McLean, VA",
+    "where": "Employer sites",
+    "time": "8:07 AM"
    },
    {
     "company": "Virginia state portal",
@@ -1227,6 +1274,13 @@
     "time": "7:19 AM"
    },
    {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Copilot",
+    "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
     "company": "CVS Health / Aetna",
     "role": "Distinguished Architect, Software Development - Claims Automation and Processor Enablement",
     "reason": "closed — We're sorry… the job you are trying to apply for has been filled.",
@@ -1379,6 +1433,13 @@
     "reason": "pay-outside-band — Salary Range: 127,600 – 157,600 USD.",
     "where": "Employer sites",
     "time": "8:04 AM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Data Security",
+    "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
    },
    {
     "company": "Apex Systems",
@@ -1673,6 +1734,20 @@
     "reason": "not-remote — #LI-Onsite",
     "where": "Employer sites",
     "time": "8:04 AM"
+   },
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Enterprise Architect, Public Sector, SLED",
+    "reason": "stale — This role has been designated as ‘Remote/Teleworker’, which means you will primarily work from home.",
+    "where": "Employer sites",
+    "time": "8:07 AM"
+   },
+   {
+    "company": "Dell Technologies",
+    "role": "Principal Engineer, Solutions Architecture",
+    "reason": "stale — We are seeking a highly experienced Senior Solution Architect (On-Site) to lead complex customer architecture engagements",
+    "where": "Employer sites",
+    "time": "8:07 AM"
    }
   ],
   "Halliburton careers": [
@@ -3870,5 +3945,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T14:06:10Z"
+ "lists_generated_at": "2026-11-13T14:08:57Z"
 }
