@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T09:45:09Z",
+ "generated_at": "2026-11-13T09:46:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "66363c63",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
    "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-13T09:13:43Z",
   "last_activity_at": "2026-11-13T09:21:03Z",
@@ -281,10 +281,10 @@
    "ended_at": "2026-11-13T09:13:43Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T09:13:43Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T09:45:26Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -311,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T09:46:45Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T09:46:45Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-13T09:46:45Z"
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -541,13 +541,19 @@
    }
   ]
  },
- "note": "Last activity 3:21 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 3:21 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "Sweep complete — all coverage fresh",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep complete — all coverage fresh",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -2060,5 +2066,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T09:45:09Z"
+ "lists_generated_at": "2026-11-13T09:46:45Z"
 }
