@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T07:18:09Z",
+ "generated_at": "2026-11-13T07:19:52Z",
  "lane_state_source": "model",
  "run": {
-  "id": "e65fe239",
+  "id": "82d1e5a0",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-13T06:47:33Z",
-  "last_activity_at": "2026-11-13T06:56:45Z",
+  "started_at": "2026-11-13T07:19:52Z",
+  "last_activity_at": "2026-11-13T07:19:52Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 720,
    "total_units": 754,
-   "pct": 100
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 2,
-  "evaluated": 4
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-13",
@@ -55,24 +55,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 58/58"
+   "detail": "Titles 48/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 34,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 58/58"
+   "detail": "Titles 34/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -276,15 +276,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 28 opened 12:47 AM CT",
-   "started_at": "2026-11-13T06:47:33Z",
-   "ended_at": "2026-11-13T06:47:33Z"
+   "detail": "Cycle 29 opened 1:19 AM CT",
+   "started_at": "2026-11-13T07:19:52Z",
+   "ended_at": "2026-11-13T07:19:52Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-13T06:47:33Z",
-   "ended_at": "2026-11-13T06:53:51Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-13T07:19:52Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "5 of 5 units done",
-   "started_at": "2026-11-13T06:47:33Z",
-   "ended_at": "2026-11-13T06:56:45Z"
+   "state": "pending",
+   "detail": "0 of 6 units done",
+   "started_at": "2026-11-13T07:19:52Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-13T06:53:24Z",
-   "ended_at": "2026-11-13T06:54:48Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T06:57:45Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T06:57:45Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-13T06:57:45Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 12:56 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 1:19 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
