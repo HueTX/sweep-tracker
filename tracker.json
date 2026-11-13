@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-13T11:28:55Z",
+ "generated_at": "2026-11-13T11:29:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "919acc26",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-13T11:23:00Z",
-  "last_activity_at": "2026-11-13T11:23:00Z",
+  "last_activity_at": "2026-11-13T11:29:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 714,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 4,
+  "evaluated": 4
  },
  "today": {
   "date": "2026-11-13",
-  "evaluated": 99,
+  "evaluated": 102,
   "filed": 0,
   "parked": 8,
-  "rejected": 91,
+  "rejected": 94,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -91,8 +91,8 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -114,12 +114,12 @@
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:28:55Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": "2026-11-13T11:29:51Z",
+   "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -268,12 +268,12 @@
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-13T11:28:55Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": "2026-11-13T11:29:51Z",
+   "detail": "Employers 10/31"
   }
  },
  "stages": {
@@ -284,10 +284,10 @@
    "ended_at": "2026-11-13T11:23:00Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-13T11:23:00Z",
-   "ended_at": null
+   "ended_at": "2026-11-13T11:29:39Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -303,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 28 units done",
+   "detail": "5 of 44 units done",
    "started_at": "2026-11-13T11:23:00Z",
    "ended_at": null
   },
@@ -544,18 +544,18 @@
    }
   ]
  },
- "note": "Started 5:23 AM CT · 0 filed",
+ "note": "Last activity 5:29 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W20",
+  "headline": "W20 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -656,6 +656,13 @@
     "time": "4:48 AM"
    },
    {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect - Remote",
+    "reason": "hands-on — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases",
+    "where": "Employer sites",
+    "time": "5:29 AM"
+   },
+   {
     "company": "The Cigna Group",
     "role": "Senior Director, Data & Digital Product Architecture",
     "reason": "pay-outside-band — For this position, we anticipate offering an annual salary of 184,400 - 307,400 USD / yearly",
@@ -737,7 +744,7 @@
     "role": "Principal Cloud Architect (Remote)",
     "reason": "pay-outside-band — Salary Range: $153,360 - $274,131",
     "where": "Employer sites",
-    "time": "4:32 AM"
+    "time": "5:29 AM"
    },
    {
     "company": "CareFirst",
@@ -1074,6 +1081,20 @@
     "reason": "pay-outside-band — Hiring Range: $124,000 - 149,000. Workarounds tried: employer's own ATS posting at jobs.virginia.gov read directly (governing text); pay top $149,000 is below the $160,000 band floor.",
     "where": "Employer sites",
     "time": "5:11 AM"
+   },
+   {
+    "company": "FedEx",
+    "role": "Platform Engineering Principal",
+    "reason": "not-remote — This is a hybrid position located in Plano, TX or Pittsburgh, PA or Memphis, TN. Candidates must live within 50 miles of the campus location. Employees will be required to work at the FedEx campus location several times per week.",
+    "where": "Employer sites",
+    "time": "5:29 AM"
+   },
+   {
+    "company": "UPS",
+    "role": "Lead AI Platform Engineer",
+    "reason": "hands-on — Strong hands-on experience administering Red Hat OpenShift container platforms, including OpenShift 3.x/4.x, Kubernetes, Docker, RHEL/CoreOS, and containerized application platforms.",
+    "where": "Employer sites",
+    "time": "5:29 AM"
    }
   ],
   "ClearanceJobs": [
@@ -2497,5 +2518,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-13T11:28:55Z"
+ "lists_generated_at": "2026-11-13T11:29:51Z"
 }
