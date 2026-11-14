@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T11:47:18Z",
+ "generated_at": "2026-11-14T11:48:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
@@ -9,8 +9,8 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
   "live": true,
   "stalled": null,
@@ -39,7 +39,9 @@
   "rejected": 140,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,12 +90,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T11:48:33Z",
    "detail": "Employers 148/39"
   },
   "W3": {
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 5:47 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:47 AM CT · 7 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -2829,5 +2837,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T11:47:18Z"
+ "lists_generated_at": "2026-11-14T11:48:33Z"
 }
