@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T11:17:31Z",
+ "generated_at": "2026-11-14T11:18:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T10:26:24Z",
-  "last_activity_at": "2026-11-14T11:12:10Z",
+  "last_activity_at": "2026-11-14T11:18:38Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 64,
-  "evaluated": 66
+  "rejected": 80,
+  "evaluated": 82
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 99,
+  "evaluated": 115,
   "filed": 0,
   "parked": 3,
-  "rejected": 96,
+  "rejected": 112,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T11:17:31Z",
-   "detail": "Employers 39/39"
+   "heartbeat_at": null,
+   "detail": "Employers 78/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "82 of 90 units done",
+   "state": "done",
+   "detail": "90 of 90 units done",
    "started_at": "2026-11-14T10:26:24Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T11:18:38Z"
   },
   "sector_filing": {
    "state": "done",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:12 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 5:18 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1176,6 +1168,15 @@
     "time": "2:31 AM"
    }
   ],
+  "Arizona state portal": [
+   {
+    "company": "State of Arizona - AHCCCS",
+    "role": "Enterprise Data and AI Platform Architect",
+    "reason": "pay-outside-band — Salary: $90,000 - $105,000; Posting Details: Must Reside in Arizona.",
+    "where": "Arizona state portal",
+    "time": "5:18 AM"
+   }
+  ],
   "Dice": [
    {
     "company": "Independence Blue Cross",
@@ -1190,6 +1191,15 @@
     "reason": "stale — Centene is seeking a Senior Enterprise Architect to shape enterprise technology strategy and guide complex modernization initiatives.",
     "where": "Dice",
     "time": "5:03 AM"
+   }
+  ],
+  "King County portal": [
+   {
+    "company": "King County",
+    "role": "Solutions Architect (Data)",
+    "reason": "stale — KCIT works in a hybrid model, with days in the office as well as telecommuting. The primary onsite location is the King Street Center, 201 S Jackson St, Seattle, WA 98104.",
+    "where": "King County portal",
+    "time": "5:18 AM"
    }
   ],
   "Texas WorkInTexas": [
@@ -1233,6 +1243,33 @@
     "time": "1:02 AM"
    }
   ],
+  "Virginia state portal": [
+   {
+    "company": "Virginia Retirement System",
+    "role": "Solution Architect (Hybrid Schedule)",
+    "reason": "not-remote — Title: Solution Architect (Hybrid Schedule); Hiring Range: 140,000-158,000 | workarounds tried: employer's own posting on jobs.virginia.gov (governing text), no alternate remote posting of this req found",
+    "where": "Virginia state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Maricopa County portal": [
+   {
+    "company": "Maricopa County",
+    "role": "Enterprise Architect (Infrastructure & Platform Domain)",
+    "reason": "stale — Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually",
+    "where": "Maricopa County portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "North Carolina state portal": [
+   {
+    "company": "North Carolina Department of Health and Human Services",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC | workarounds tried: employer's own NC state posting text (via Built In mirror of the state listing), no alternate remote posting of this req found",
+    "where": "North Carolina state portal",
+    "time": "5:18 AM"
+   }
+  ],
   "ClearanceJobs": [
    {
     "company": "DecisionPoint Corporation",
@@ -1240,6 +1277,13 @@
     "reason": "clearance — Candidates must meet all of the following requirements: - Active Secret clearance or higher.",
     "where": "ClearanceJobs",
     "time": "3:34 AM"
+   },
+   {
+    "company": "Leidos",
+    "role": "Cloud Data Architect",
+    "reason": "pay-outside-band — Pay Range: Pay Range $154,050.00 - $278,475.00",
+    "where": "ClearanceJobs",
+    "time": "5:18 AM"
    }
   ],
   "Web Catch-All (Swooped)": [
@@ -1249,6 +1293,51 @@
     "reason": "iac-whole-role — Strong programming skills in Python, TypeScript/JavaScript, Go, or C#",
     "where": "Web Catch-All (Swooped)",
     "time": "1:02 AM"
+   }
+  ],
+  "New York City portal": [
+   {
+    "company": "City of New York - Department of Social Services",
+    "role": "SENIOR IT SOLUTION ARCHITECT",
+    "reason": "pay-outside-band — Salary Min: $100,000.00 Salary Max: $150,000.00",
+    "where": "New York City portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Oregon state portal": [
+   {
+    "company": "Oregon Department of Administrative Services",
+    "role": "Information Architect (Information Systems Specialist 6)",
+    "reason": "not-remote — Hybrid Work Opportunity: This position supports a hybrid work schedule. You can expect to work in the office 1-2 days per week | workarounds tried: employer's own Oregon posting text (via Built In mirror of the state listing), no alternate remote posting of this req found",
+    "where": "Oregon state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "New York state portal": [
+   {
+    "company": "New York State Insurance Fund",
+    "role": "Information Technology Specialist 3 (Centralized Enterprise Architecture)",
+    "reason": "pay-outside-band — Salary Range From $90582 to $114585 Annually",
+    "where": "New York state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Washington state portal": [
+   {
+    "company": "Washington State Administrative Office of the Courts",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This position requires at least 2 days per week working onsite at AOC facilities in Olympia. | workarounds tried: employer's own posting on governmentjobs.com/courtswa (governing text, same hybrid/residency terms), no alternate remote posting of this req found",
+    "where": "Washington state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Colorado state portal": [
+   {
+    "company": "State of Colorado Governor's Office of Information Technology",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "closed — Closing Date: 11/8/2026 11:59 PM Mountain; Salary: $135,000.00 - $145,000.00 Annually; All remote work must be performed in Colorado",
+    "where": "Colorado state portal",
+    "time": "5:18 AM"
    }
   ],
   "Web Catch-All (Built In)": [
@@ -1301,6 +1390,51 @@
     "reason": "internal-only — Career Transition Assistance Plan Eligibles; OR Current Permanent Career and Career-Conditional Employees in HHS.",
     "where": "USAJOBS",
     "time": "3:34 AM"
+   }
+  ],
+  "Pennsylvania state portal": [
+   {
+    "company": "Commonwealth of Pennsylvania CEDC",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Urgent requirement for the position of \"Enterprise Architect \" - Remote (Local to PA only) | workarounds tried: employer's own Commonwealth posting text via staffing mirror, no alternate US-remote posting of this req found",
+    "where": "Pennsylvania state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Indiana state portal": [
+   {
+    "company": "Indiana Office of Technology",
+    "role": "Technology Architect Team Manager",
+    "reason": "not-remote — This is an onsite role at the Indiana Government Center in Indianapolis, Indiana. | workarounds tried: employer's own State of Indiana posting text via Dice (governing text), no alternate remote posting of this req found",
+    "where": "Indiana state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Michigan state portal": [
+   {
+    "company": "State of Michigan CEPI",
+    "role": "Cloud Architect",
+    "reason": "not-remote — Resource will be working a hybrid schedule. NO REMOTE ONLY OPTION. Will need to be onsite from day 1, two days a week (onsite days are Wednesdays and Thursdays) | workarounds tried: employer's own State of Michigan posting text via staffing mirror, no alternate remote posting of this req found",
+    "where": "Michigan state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "Louisiana state portal": [
+   {
+    "company": "Louisiana Division of Administration Office of Technology Services",
+    "role": "Core Operations Architect (IT Statewide Architect)",
+    "reason": "stale — Appointment Type: This vacancy will be filled by promotion of a current permanent status Office of Technology Services employee.",
+    "where": "Louisiana state portal",
+    "time": "5:18 AM"
+   }
+  ],
+  "City of Houston portal": [
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI and Innovation)",
+    "reason": "stale — Reporting Location: 611 WALKER / 1200 TRAVIS; Workdays & Hours: MONDAY - FRIDAY, Office Hours",
+    "where": "City of Houston portal",
+    "time": "5:18 AM"
    }
   ]
  },
@@ -2497,5 +2631,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T11:17:31Z"
+ "lists_generated_at": "2026-11-14T11:18:41Z"
 }
