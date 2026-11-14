@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T16:50:09Z",
+ "generated_at": "2026-11-14T16:51:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
-  "last_activity_at": "2026-11-14T16:49:28Z",
+  "last_activity_at": "2026-11-14T16:50:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 736,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 35,
-  "evaluated": 38
+  "rejected": 37,
+  "evaluated": 40
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 397,
+  "evaluated": 399,
   "filed": 0,
   "parked": 11,
-  "rejected": 386,
+  "rejected": 388,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T16:50:09Z",
-   "detail": "Employers 80/73"
+   "heartbeat_at": null,
+   "detail": "Employers 110/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "64 of 138 units done",
+   "detail": "70 of 138 units done",
    "started_at": "2026-11-14T16:16:10Z",
    "ended_at": null
   },
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 10:49 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 10:50 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1045,6 +1037,13 @@
     "reason": "stale — Domain area-focused architect responsible for defining solutions that align to enterprise strategies and standards.",
     "where": "Employer sites",
     "time": "5:06 AM"
+   },
+   {
+    "company": "Sanford Health",
+    "role": "Principal AI Architect",
+    "reason": "experience-mismatch — 3 years of experience designing AI, machine learning, analytics, or automation solutions. The Principal AI Architect designs and implements enterprise AI architectures supporting: Generative AI, Machine Learning, Conversational AI, Intelligent Automation, Predictive Analytics, and Clinical Decision Support.",
+    "where": "Employer sites",
+    "time": "10:50 AM"
    },
    {
     "company": "DTE Energy",
@@ -2748,6 +2747,36 @@
     "time": "9:41 AM"
    }
   ],
+  "Ladders": [
+   {
+    "company": "LifePoint Health",
+    "role": "Architect-Network Engineer",
+    "reason": "stale — The Network Security Architect is responsible for the enterprise architecture, design, and technical direction of Lifepoint Health's network infrastructure",
+    "where": "Ladders",
+    "time": "10:50 AM"
+   },
+   {
+    "company": "Accenture",
+    "role": "Cloud Enterprise Architect",
+    "reason": "clearance — Must have an active Top Secret clearance. Active Top Secret clearance required. Published 2026-11-05. Workarounds tried: gate fact - active clearance in the employer's own JD rejects on sight, no workaround owed.",
+    "where": "Ladders",
+    "time": "9:10 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Security Architect / Security Engineer",
+    "reason": "hands-on-coding — We're looking for a hands-on Security Architect / Security Engineer to design, build, and operationalize security capabilities across Agentic AI and Cloud Security. This is an implementation-focused role; Strong coding skills with experience delivering production systems, with Python, TypeScript, or Node preferred. Base pay top $235,000 also exceeds the $230,000 band top. Workarounds tried: full JD read via Ladders mirror of Zscaler's posting.",
+    "where": "Ladders",
+    "time": "9:01 AM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Consultant VI Principal Business & Technology Solutions Architect - Health Plan Operations",
+    "reason": "pay-outside-band — Pay Range: $178200 - $230560 / year",
+    "where": "Ladders",
+    "time": "10:48 AM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Experian",
@@ -3080,29 +3109,6 @@
     "reason": "stale — As an Identity Security Architect, you will design and govern enterprise identity and access management solutions that protect organizational assets while enabling secure access to business systems and applications.",
     "where": "Web Catch-All (CareerBuilder)",
     "time": "1:02 AM"
-   }
-  ],
-  "Ladders": [
-   {
-    "company": "Accenture",
-    "role": "Cloud Enterprise Architect",
-    "reason": "clearance — Must have an active Top Secret clearance. Active Top Secret clearance required. Published 2026-11-05. Workarounds tried: gate fact - active clearance in the employer's own JD rejects on sight, no workaround owed.",
-    "where": "Ladders",
-    "time": "9:10 AM"
-   },
-   {
-    "company": "Zscaler",
-    "role": "Security Architect / Security Engineer",
-    "reason": "hands-on-coding — We're looking for a hands-on Security Architect / Security Engineer to design, build, and operationalize security capabilities across Agentic AI and Cloud Security. This is an implementation-focused role; Strong coding skills with experience delivering production systems, with Python, TypeScript, or Node preferred. Base pay top $235,000 also exceeds the $230,000 band top. Workarounds tried: full JD read via Ladders mirror of Zscaler's posting.",
-    "where": "Ladders",
-    "time": "9:01 AM"
-   },
-   {
-    "company": "Kaiser Permanente",
-    "role": "Consultant VI Principal Business & Technology Solutions Architect - Health Plan Operations",
-    "reason": "pay-outside-band — Pay Range: $178200 - $230560 / year",
-    "where": "Ladders",
-    "time": "10:48 AM"
    }
   ],
   "Jobicy": [
@@ -4680,5 +4686,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T16:50:09Z"
+ "lists_generated_at": "2026-11-14T16:51:53Z"
 }
