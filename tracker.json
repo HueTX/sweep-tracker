@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T10:58:06Z",
+ "generated_at": "2026-11-14T10:59:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T10:26:24Z",
-  "last_activity_at": "2026-11-14T10:56:51Z",
+  "last_activity_at": "2026-11-14T10:59:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 716,
+   "covered_units": 736,
    "total_units": 754,
-   "pct": 95
+   "pct": 98
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 11,
-  "evaluated": 13
+  "rejected": 16,
+  "evaluated": 18
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 48,
+  "evaluated": 53,
   "filed": 0,
   "parked": 3,
-  "rejected": 45,
+  "rejected": 50,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T10:58:06Z",
-   "detail": "Employers 64/32"
+   "heartbeat_at": null,
+   "detail": "Employers 94/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 38,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T10:58:06Z",
-   "detail": "Employers 31/31"
+   "heartbeat_at": null,
+   "detail": "Employers 61/31"
   }
  },
  "stages": {
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "39 of 67 units done",
+   "detail": "51 of 67 units done",
    "started_at": "2026-11-14T10:26:24Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 4:56 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 4:59 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -639,6 +630,13 @@
     "reason": "stale — Serve as principal technical expert for cloud networks and develops secure, end-to-end cloud network architecture.",
     "where": "Employer sites",
     "time": "4:56 AM"
+   },
+   {
+    "company": "United Airlines",
+    "role": "Principal Architect - Information Technology",
+    "reason": "closed — we are no longer accepting new applications for this position",
+    "where": "Employer sites",
+    "time": "4:59 AM"
    },
    {
     "company": "Securities and Exchange Commission (SEC)",
@@ -737,6 +735,36 @@
     "reason": "experience-mismatch — Serve as an Architect in the Structural Design Section. Responsible for planning, designing, and constructing new, modified, and upgraded features of civil and military works projects.",
     "where": "Employer sites",
     "time": "4:56 AM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect",
+    "reason": "stale — Defines and maintains Molina's security architecture framework for artificial intelligence and machine learning systems",
+    "where": "Employer sites",
+    "time": "4:58 AM"
+   }
+  ],
+  "BuiltIn": [
+   {
+    "company": "CareSource",
+    "role": "Architect II",
+    "reason": "stale — Responsible for the definition, oversight, coordination and development of technology designs, along with the related road maps and lifecycle management.",
+    "where": "BuiltIn",
+    "time": "4:59 AM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Staff Software Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $106,605.00 - $260,590.00",
+    "where": "BuiltIn",
+    "time": "4:58 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect",
+    "reason": "hands-on-coding — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework",
+    "where": "BuiltIn",
+    "time": "4:58 AM"
    }
   ],
   "Google Jobs": [
@@ -2136,5 +2164,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T10:58:06Z"
+ "lists_generated_at": "2026-11-14T10:59:55Z"
 }
