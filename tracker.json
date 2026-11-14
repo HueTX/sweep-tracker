@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T17:00:15Z",
+ "generated_at": "2026-11-14T17:01:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
   "last_activity_at": "2026-11-14T16:58:45Z",
@@ -39,7 +39,9 @@
   "rejected": 390,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +101,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T17:01:36Z",
    "detail": "Employers 200/73"
   },
   "W4": {
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 10:58 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 10:58 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W3"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4700,5 +4708,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T17:00:15Z"
+ "lists_generated_at": "2026-11-14T17:01:36Z"
 }
