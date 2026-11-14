@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T16:28:29Z",
+ "generated_at": "2026-11-14T16:29:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
   "last_activity_at": "2026-11-14T16:25:09Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 696,
    "total_units": 754,
-   "pct": 94
+   "pct": 92
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,9 @@
   "rejected": 359,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -100,7 +102,7 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "queued",
-   "families_searched": 10,
+   "families_searched": 0,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -220,12 +222,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T16:29:47Z",
    "detail": "Employers 85/59"
   },
   "W17": {
@@ -300,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "17 of 123 units done",
+   "detail": "17 of 138 units done",
    "started_at": "2026-11-14T16:16:10Z",
    "ended_at": null
   },
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 10:25 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 10:25 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4468,5 +4476,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T16:28:29Z"
+ "lists_generated_at": "2026-11-14T16:29:47Z"
 }
