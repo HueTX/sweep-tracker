@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T08:00:49Z",
+ "generated_at": "2026-11-14T08:02:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "101f575c",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-14T07:55:45Z",
   "last_activity_at": "2026-11-14T07:55:45Z",
@@ -39,7 +39,9 @@
   "rejected": 19,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W7"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -66,12 +68,12 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T08:02:52Z",
    "detail": "Titles 30/58"
   },
   "W1": {
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-14T07:55:45Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-14T07:55:45Z",
    "ended_at": null
@@ -299,7 +301,7 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 5 units done",
    "started_at": "2026-11-14T07:55:45Z",
    "ended_at": null
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 1:55 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W7 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W7"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W7",
+  "headline": "W7 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
