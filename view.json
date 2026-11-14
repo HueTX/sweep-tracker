@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T14:37:04Z",
+ "generated_at": "2026-11-14T14:39:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "d6cb7a45",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-14T12:51:40Z",
   "last_activity_at": "2026-11-14T14:36:33Z",
   "progress": {
    "pools": 21,
-   "covered_units": 690,
+   "covered_units": 680,
    "total_units": 754,
-   "pct": 92
+   "pct": 90
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,11 @@
   "rejected": 282,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,12 +125,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T14:39:34Z",
    "detail": "Employers 216/44"
   },
   "W6": {
@@ -220,8 +224,8 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -242,23 +246,23 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T14:39:34Z",
    "detail": "Employers 220/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-14T14:39:34Z",
    "detail": "Employers 164/41"
   },
   "W20": {
@@ -300,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "169 of 242 units done",
+   "detail": "169 of 254 units done",
    "started_at": "2026-11-14T12:51:40Z",
    "ended_at": null
   },
@@ -541,13 +545,19 @@
    }
   ]
  },
- "note": "Last activity 8:36 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 8:36 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
