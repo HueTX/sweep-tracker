@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T12:15:44Z",
+ "generated_at": "2026-11-14T12:17:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-14T10:26:24Z",
-  "last_activity_at": "2026-11-14T11:53:45Z",
+  "last_activity_at": "2026-11-14T12:17:09Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
+  "parked": 4,
   "rejected": 132,
   "evaluated": 136
  },
@@ -35,7 +35,7 @@
   "date": "2026-11-14",
   "evaluated": 169,
   "filed": 0,
-  "parked": 4,
+  "parked": 5,
   "rejected": 164,
   "filed_by_source": {}
  },
@@ -305,28 +305,28 @@
    "ended_at": "2026-11-14T11:58:20Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "3 of 4 units done",
+   "state": "done",
+   "detail": "4 of 4 units done",
    "started_at": "2026-11-14T10:38:36Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T12:17:15Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T12:17:25Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T12:17:25Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T12:17:25Z"
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -541,13 +541,19 @@
    }
   ]
  },
- "note": "Last activity 5:53 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 6:17 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "Sweep complete — all coverage fresh",
+   "detail": "Families covered 58/58",
+   "pool": "LinkedIn"
+  }
+ ],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "",
-  "detail": ""
+  "headline": "Sweep complete — all coverage fresh",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -594,6 +600,13 @@
    }
   ],
   "ClearanceJobs": [
+   {
+    "company": "Leidos",
+    "role": "IT Solutions Architect",
+    "reason": "credential-needed — Filing attempted this wake: primary route ClearanceJobs (job 9299155, Original Posting November 6, 2026, Pay Range $107,900.00 - $195,050.00, Remote within CONUS) and the one alternate route, Leidos' own Workday ATS for req R-00196488, both terminate in authenticated apply flows (Leidos Workday candidate sign-in). This detached executor holds no retrievable Leidos Workday credentials and must not invent a password; Hubert's Leidos Workday password is vault-held, set by him for a different req. PASS stands; filing parked credential-needed. Workarounds tried: (1) employer's own ATS posting (Leidos Workday, governing route - sign-in wall), (2) alternate route ClearanceJobs listing for R-00196488 which routes back to the same Leidos ATS apply flow.",
+    "where": "ClearanceJobs",
+    "time": "6:17 AM"
+   },
    {
     "company": "Technatomy Corporation",
     "role": "Enterprise Solution Architect",
@@ -3006,5 +3019,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T12:15:44Z"
+ "lists_generated_at": "2026-11-14T12:17:25Z"
 }
