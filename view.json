@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T14:26:41Z",
+ "generated_at": "2026-11-14T14:28:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "d6cb7a45",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-14T12:51:40Z",
-  "last_activity_at": "2026-11-14T14:25:57Z",
+  "last_activity_at": "2026-11-14T14:28:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 702,
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 91,
-  "evaluated": 94
+  "rejected": 100,
+  "evaluated": 103
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 259,
+  "evaluated": 267,
   "filed": 0,
   "parked": 8,
-  "rejected": 251,
+  "rejected": 259,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -124,13 +121,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T14:26:41Z",
-   "detail": "Employers 142/44"
+   "heartbeat_at": null,
+   "detail": "Employers 172/44"
   },
   "W6": {
    "label": "Utilities",
@@ -256,13 +253,13 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T14:26:41Z",
-   "detail": "Employers 133/41"
+   "heartbeat_at": null,
+   "detail": "Employers 163/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "139 of 209 units done",
+   "detail": "151 of 209 units done",
    "started_at": "2026-11-14T12:51:40Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:25 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 8:28 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
