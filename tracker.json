@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T16:14:28Z",
+ "generated_at": "2026-11-14T16:16:10Z",
  "lane_state_source": "model",
  "run": {
-  "id": "d6cb7a45",
+  "id": "d1a2e4ad",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-14T12:51:40Z",
-  "last_activity_at": "2026-11-14T16:05:29Z",
+  "started_at": "2026-11-14T16:16:10Z",
+  "last_activity_at": "2026-11-14T16:16:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 716,
    "total_units": 754,
-   "pct": 100
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 5,
-  "rejected": 201,
-  "evaluated": 206
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-14",
@@ -127,7 +127,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 220/44"
+   "detail": "Employers 0/44"
   },
   "W6": {
    "label": "Utilities",
@@ -138,7 +138,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 220/44"
+   "detail": "Employers 0/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 118/59"
+   "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 324/54"
+   "detail": "Employers 0/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 270/45"
+   "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 246/41"
+   "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,15 +276,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 44 opened 6:51 AM CT",
-   "started_at": "2026-11-14T12:51:40Z",
-   "ended_at": "2026-11-14T12:51:40Z"
+   "detail": "Cycle 45 opened 10:16 AM CT",
+   "started_at": "2026-11-14T16:16:10Z",
+   "ended_at": "2026-11-14T16:16:10Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-14T12:51:40Z",
-   "ended_at": "2026-11-14T12:56:20Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-14T16:16:10Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "288 of 288 units done",
-   "started_at": "2026-11-14T12:51:40Z",
-   "ended_at": "2026-11-14T16:06:08Z"
+   "state": "pending",
+   "detail": "0 of 48 units done",
+   "started_at": "2026-11-14T16:16:10Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-14T13:34:02Z",
-   "ended_at": "2026-11-14T13:37:12Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-14T16:06:28Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-14T16:06:28Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-14T16:06:28Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 10:05 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 10:16 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -4453,5 +4447,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T16:14:28Z"
+ "lists_generated_at": "2026-11-14T16:16:10Z"
 }
