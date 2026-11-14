@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T17:14:28Z",
+ "generated_at": "2026-11-14T17:16:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
-  "last_activity_at": "2026-11-14T17:08:06Z",
+  "last_activity_at": "2026-11-14T17:16:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 744,
    "total_units": 754,
-   "pct": 98
+   "pct": 99
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,8 +28,8 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 65,
-  "evaluated": 69
+  "rejected": 66,
+  "evaluated": 70
  },
  "today": {
   "date": "2026-11-14",
@@ -102,12 +102,12 @@
    "label": "Healthcare Providers",
    "sites": 73,
    "phase": "searching",
-   "families_searched": 40,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T17:14:28Z",
-   "detail": "Employers 260/73"
+   "heartbeat_at": "2026-11-14T17:16:13Z",
+   "detail": "Employers 311/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "100 of 138 units done",
+   "detail": "111 of 138 units done",
    "started_at": "2026-11-14T16:16:10Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "done",
-   "detail": "1 of 1 units done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-14T16:31:47Z",
-   "ended_at": "2026-11-14T16:32:37Z"
+   "ended_at": "2026-11-14T17:16:10Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 11:08 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:16 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -576,34 +576,14 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
-  "Built In": [
+  "Employer sites": [
    {
     "company": "Intermountain Health",
     "role": "Enterprise Solutions Architect-Senior/Consultant",
-    "reason": "stale-unverified — Architect solutions using Azure cloud services and modern integration patterns. The hourly range for this position is listed below. $60.67 - $95.52",
-    "where": "Built In",
-    "time": "10:48 AM"
-   }
-  ],
-  "Google Jobs": [
-   {
-    "company": "SAIC",
-    "role": "Solutions Architect",
-    "reason": "not-evaluated — Job ID: 2618891 Location: Remote Work, VA, US Date Posted: 2026-11-06, USD 120,001.00 - 160,000.00 per year - full JD could not be read this wake: Dice mirrors truncate the description after 'translating complex requirements into compelling technical' and SAIC's own detail page was not retrieved; no merits verdict without the full JD.",
-    "where": "Google Jobs",
-    "time": "1:36 AM"
-   }
-  ],
-  "Indeed": [
-   {
-    "company": "Mayo Clinic",
-    "role": "IT Cloud Architect",
-    "reason": "stale-unverified — This position is 100% remote within the United States. Compensation Detail $134,888 - $195,624 / year. Demonstrated knowledge and experience with GCP and Azure cloud technologies and services (7+ years)",
-    "where": "Indeed",
-    "time": "10:48 AM"
-   }
-  ],
-  "Employer sites": [
+    "reason": "credential-needed — Filing route is Intermountain's Workday tenant (imh.wd108.myworkdayjobs.com/IntermountainCareers, per Intermountain's own careers notices). The application cannot proceed without a candidate Workday account sign-in; no Intermountain Workday credential is on file and account credentials are set by the candidate himself through the Secure Vault.",
+    "where": "Employer sites",
+    "time": "11:16 AM"
+   },
    {
     "company": "Zoetis",
     "role": "Manufacturing & Supply Enterprise Architect, Tech & Digital",
@@ -645,6 +625,24 @@
     "reason": "remote-unverified — As a Principal Solutions Architect, you will be responsible for designing and overseeing the implementation of cutting-edge customer technology solutions. | The expected salary range for this role is $168350 - $218860 per year (top in band); JD read in full on the employer's own SmartRecruiters ATS and is location-silent with no remote statement and no posted date - undated live posting, but remote status unverified for this req, so it cannot PASS the 100%-remote gate on its own text. Workarounds tried: (1) employer's own ATS posting (governing text) - location-silent; (2) alternate mirrors of McDonald's Principal Architect postings at the same $168,350-$218,860 band show Chicago, IL, In Person / three office days; (3) alternate posting of the same role family (Principal Architect - Enterprise Data, Analytics, & AI, SmartRecruiters 744000044027194) is a Chicago HQ global enterprise architecture role. Parked provisional pending a definitive location confirmation for this specific req.",
     "where": "Employer sites",
     "time": "8:55 AM"
+   }
+  ],
+  "Google Jobs": [
+   {
+    "company": "SAIC",
+    "role": "Solutions Architect",
+    "reason": "not-evaluated — Job ID: 2618891 Location: Remote Work, VA, US Date Posted: 2026-11-06, USD 120,001.00 - 160,000.00 per year - full JD could not be read this wake: Dice mirrors truncate the description after 'translating complex requirements into compelling technical' and SAIC's own detail page was not retrieved; no merits verdict without the full JD.",
+    "where": "Google Jobs",
+    "time": "1:36 AM"
+   }
+  ],
+  "Indeed": [
+   {
+    "company": "Mayo Clinic",
+    "role": "IT Cloud Architect",
+    "reason": "stale-unverified — This position is 100% remote within the United States. Compensation Detail $134,888 - $195,624 / year. Demonstrated knowledge and experience with GCP and Azure cloud technologies and services (7+ years)",
+    "where": "Indeed",
+    "time": "10:48 AM"
    }
   ],
   "ClearanceJobs": [
@@ -4230,6 +4228,7 @@
    "Submission state: UNKNOWN",
    "Brookhaven National Laboratory",
    "Farmers Insurance",
+   "Intermountain Health",
    "Advocate Health / Atrium Health",
    "GSK Solutions Inc.",
    "Highmark Health",
@@ -4897,5 +4896,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T17:14:28Z"
+ "lists_generated_at": "2026-11-14T17:16:13Z"
 }
