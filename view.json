@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T13:36:33Z",
+ "generated_at": "2026-11-14T13:38:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "d6cb7a45",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T12:51:40Z",
-  "last_activity_at": "2026-11-14T13:36:23Z",
+  "last_activity_at": "2026-11-14T13:37:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 734,
@@ -27,21 +27,20 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 38,
-  "evaluated": 39
+  "parked": 1,
+  "rejected": 41,
+  "evaluated": 42
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 212,
+  "evaluated": 215,
   "filed": 0,
-  "parked": 5,
-  "rejected": 206,
+  "parked": 6,
+  "rejected": 209,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
-  "W6",
+  "W18",
   "W19"
  ],
  "lanes": {
@@ -125,23 +124,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T13:36:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 83/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T13:36:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 83/44"
   },
   "W9": {
@@ -246,13 +245,13 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 65/45"
+   "heartbeat_at": "2026-11-14T13:38:08Z",
+   "detail": "Employers 70/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -262,8 +261,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T13:36:33Z",
-   "detail": "Employers 81/41"
+   "heartbeat_at": "2026-11-14T13:38:08Z",
+   "detail": "Employers 86/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -304,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "64 of 99 units done",
+   "detail": "66 of 99 units done",
    "started_at": "2026-11-14T12:51:40Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-14T13:34:02Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T13:37:12Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -545,10 +544,10 @@
    }
   ]
  },
- "note": "Last activity 7:36 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:37 AM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 11 of 58 · Domain Architect",
+   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
    "pool": "W19"
   }
@@ -556,7 +555,7 @@
  "now_viewing": {
   "live": true,
   "label": "W19",
-  "headline": "W19 · Title 11 of 58 · Domain Architect",
+  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
