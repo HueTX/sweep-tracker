@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T16:48:05Z",
+ "generated_at": "2026-11-14T16:50:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
-  "last_activity_at": "2026-11-14T16:42:03Z",
+  "last_activity_at": "2026-11-14T16:49:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 736,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 28,
-  "evaluated": 29
+  "parked": 3,
+  "rejected": 35,
+  "evaluated": 38
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 389,
+  "evaluated": 397,
   "filed": 0,
-  "parked": 10,
-  "rejected": 379,
+  "parked": 11,
+  "rejected": 386,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -106,8 +106,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T16:48:05Z",
-   "detail": "Employers 20/73"
+   "heartbeat_at": "2026-11-14T16:50:09Z",
+   "detail": "Employers 80/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -302,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "52 of 138 units done",
+   "detail": "64 of 138 units done",
    "started_at": "2026-11-14T16:16:10Z",
    "ended_at": null
   },
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 10:42 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:49 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -576,14 +576,34 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
-  "Employer sites": [
+  "Built In": [
    {
     "company": "Intermountain Health",
     "role": "Enterprise Solutions Architect-Senior/Consultant",
-    "reason": "credential-needed — Filing route is Intermountain's Workday tenant (imh.wd108.myworkdayjobs.com/IntermountainCareers, per Intermountain's own careers notices). The application cannot proceed without a candidate Workday account sign-in; no Intermountain Workday credential is on file and account credentials are set by the candidate himself through the Secure Vault - the sweep's ledger already re-verified this employer as a Workday credential park. Alternate-route attempt made: Built In, WhatJobs and HiringCafe mirrors of this same SelectHealth req all route back to the same Intermountain Workday tenant; no board carries an independent apply path for this req. PASS stands (disposition 11434); parked credential-needed at the ATS wall.",
-    "where": "Employer sites",
-    "time": "4:39 AM"
-   },
+    "reason": "stale-unverified — Architect solutions using Azure cloud services and modern integration patterns. The hourly range for this position is listed below. $60.67 - $95.52",
+    "where": "Built In",
+    "time": "10:48 AM"
+   }
+  ],
+  "Google Jobs": [
+   {
+    "company": "SAIC",
+    "role": "Solutions Architect",
+    "reason": "not-evaluated — Job ID: 2618891 Location: Remote Work, VA, US Date Posted: 2026-11-06, USD 120,001.00 - 160,000.00 per year - full JD could not be read this wake: Dice mirrors truncate the description after 'translating complex requirements into compelling technical' and SAIC's own detail page was not retrieved; no merits verdict without the full JD.",
+    "where": "Google Jobs",
+    "time": "1:36 AM"
+   }
+  ],
+  "Indeed": [
+   {
+    "company": "Mayo Clinic",
+    "role": "IT Cloud Architect",
+    "reason": "stale-unverified — This position is 100% remote within the United States. Compensation Detail $134,888 - $195,624 / year. Demonstrated knowledge and experience with GCP and Azure cloud technologies and services (7+ years)",
+    "where": "Indeed",
+    "time": "10:48 AM"
+   }
+  ],
+  "Employer sites": [
    {
     "company": "General Dynamics",
     "role": "Lead Cloud Architect",
@@ -620,15 +640,6 @@
     "time": "8:55 AM"
    }
   ],
-  "Google Jobs": [
-   {
-    "company": "SAIC",
-    "role": "Solutions Architect",
-    "reason": "not-evaluated — Job ID: 2618891 Location: Remote Work, VA, US Date Posted: 2026-11-06, USD 120,001.00 - 160,000.00 per year - full JD could not be read this wake: Dice mirrors truncate the description after 'translating complex requirements into compelling technical' and SAIC's own detail page was not retrieved; no merits verdict without the full JD.",
-    "where": "Google Jobs",
-    "time": "1:36 AM"
-   }
-  ],
   "ClearanceJobs": [
    {
     "company": "Leidos",
@@ -657,6 +668,13 @@
  },
  "today_rejected": {
   "Employer sites": [
+   {
+    "company": "Kaiser Permanente",
+    "role": "Architect V, Integration",
+    "reason": "stale — Job Number 1445903 Date Posted 09/17/2026 Salary $140800 - $182160 / year",
+    "where": "Employer sites",
+    "time": "10:48 AM"
+   },
    {
     "company": "UnitedHealth Group / Optum",
     "role": "Architect - Remote",
@@ -1211,6 +1229,13 @@
     "time": "5:49 AM"
    },
    {
+    "company": "Kaiser Permanente",
+    "role": "Azure Public Infrastructure as a Service Architect",
+    "reason": "not-remote — this position is designated as flexible (aka hybrid), and the expectation is that the selected candidate will report to the assigned office 3 days per week in Greensboro, North Carolina",
+    "where": "Employer sites",
+    "time": "10:48 AM"
+   },
+   {
     "company": "Health Care Service Corporation (BCBS)",
     "role": "Application Architect",
     "reason": "stale — The Application Architect will define and deliver scalable enterprise solutions for healthcare payment integrity, claims accuracy, and payment adjudication.",
@@ -1293,6 +1318,13 @@
     "reason": "pay-outside-band — Pay Type: Salaried, Minimum Pay Range: $105,000.00, Maximum Pay Range: $125,000.00 — top $125,000 is below the $160,000 band floor. Published: 2026-10-23 (also beyond the 7-day window). The Solutions Architect will serve as the technical lead in delivering the technical solution for new implementations or enhancements to existing customer implementations. Workarounds tried: (1) Ryder's own Workday posting via Built In/Jobgether mirrors — same pay range; pay is intrinsic to the posting.",
     "where": "Employer sites",
     "time": "5:10 AM"
+   },
+   {
+    "company": "Advocate Health / Atrium Health",
+    "role": "IT Technical Architect-Cloud & Virtualization",
+    "reason": "pay-outside-band — Pay Range: $47.50 - $71.25",
+    "where": "Employer sites",
+    "time": "10:48 AM"
    },
    {
     "company": "Eaton",
@@ -1573,6 +1605,13 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Employer sites",
     "time": "9:32 AM"
+   },
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Cloud Enterprise Architect",
+    "reason": "stale — Posted 7 months ago Job expired Published: 2026-04-02",
+    "where": "Employer sites",
+    "time": "10:49 AM"
    },
    {
     "company": "GDIT",
@@ -2373,6 +2412,24 @@
     "time": "10:39 AM"
    }
   ],
+  "Adzuna": [
+   {
+    "company": "Intermountain Health",
+    "role": "Salesforce Solutions Architect-Consultant",
+    "reason": "experience-mismatch — Minimum of 1-2 years of hands-on Salesforce Health Cloud experience in a production environment. Experience with OmniStudio (formerly Vlocity/Velocity managed package)",
+    "where": "Adzuna",
+    "time": "10:48 AM"
+   }
+  ],
+  "CareerBuilder": [
+   {
+    "company": "Banner Health",
+    "role": "Cybersecurity Architect",
+    "reason": "stale — As a Cybersecurity Architect, you will serve as the organization's senior-most individual contributor for cybersecurity architecture",
+    "where": "CareerBuilder",
+    "time": "10:48 AM"
+   }
+  ],
   "BuiltIn": [
    {
     "company": "CareSource",
@@ -3039,6 +3096,13 @@
     "reason": "hands-on-coding — We're looking for a hands-on Security Architect / Security Engineer to design, build, and operationalize security capabilities across Agentic AI and Cloud Security. This is an implementation-focused role; Strong coding skills with experience delivering production systems, with Python, TypeScript, or Node preferred. Base pay top $235,000 also exceeds the $230,000 band top. Workarounds tried: full JD read via Ladders mirror of Zscaler's posting.",
     "where": "Ladders",
     "time": "9:01 AM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Consultant VI Principal Business & Technology Solutions Architect - Health Plan Operations",
+    "reason": "pay-outside-band — Pay Range: $178200 - $230560 / year",
+    "where": "Ladders",
+    "time": "10:48 AM"
    }
   ],
   "Jobicy": [
@@ -3949,7 +4013,6 @@
    "Submission state: UNKNOWN",
    "Brookhaven National Laboratory",
    "Farmers Insurance",
-   "Intermountain Health",
    "Advocate Health / Atrium Health",
    "GSK Solutions Inc.",
    "Highmark Health",
@@ -4522,7 +4585,6 @@
    "UPS",
    "Truist",
    "UPMC",
-   "Mayo Clinic",
    "Kaiser Permanente",
    "AdventHealth",
    "SLB",
@@ -4558,6 +4620,7 @@
    "Elastic",
    "Biogen",
    "Providence",
+   "Mayo Clinic",
    "NASA",
    "Old Dominion Freight Line",
    "Knight-Swift Transportation",
@@ -4612,9 +4675,10 @@
   "W12": [],
   "W13": [],
   "W14": [
-   "Targa Resources"
+   "Targa Resources",
+   "Mayo Clinic"
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T16:48:05Z"
+ "lists_generated_at": "2026-11-14T16:50:09Z"
 }
