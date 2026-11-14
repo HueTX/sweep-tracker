@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T07:01:59Z",
+ "generated_at": "2026-11-14T07:03:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "fcd81b27",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-14T06:55:43Z",
-  "last_activity_at": "2026-11-14T06:59:54Z",
+  "last_activity_at": "2026-11-14T07:02:09Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 98
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 5,
-  "evaluated": 5
+  "rejected": 8,
+  "evaluated": 8
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 4,
+  "evaluated": 7,
   "filed": 0,
   "parked": 0,
-  "rejected": 4,
+  "rejected": 7,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T07:01:59Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "2 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-14T06:55:43Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T07:02:17Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -313,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T07:03:43Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T07:03:43Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T07:03:43Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 12:59 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:02 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 13 of 58 · IT/OT Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 13 of 58 · IT/OT Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -577,6 +575,24 @@
  "today_filed_by_source": {},
  "today_parked": {},
  "today_rejected": {
+  "Web Catch-All (CareerBuilder)": [
+   {
+    "company": "Stryker Corporation",
+    "role": "Architect, Cybersecurity, Identity Security - Remote",
+    "reason": "stale — As an Identity Security Architect, you will design and govern enterprise identity and access management solutions that protect organizational assets while enabling secure access to business systems and applications.",
+    "where": "Web Catch-All (CareerBuilder)",
+    "time": "1:02 AM"
+   }
+  ],
+  "Web Catch-All (Swooped)": [
+   {
+    "company": "Pulumi",
+    "role": "Principal Cloud Architect - Professional Services",
+    "reason": "iac-whole-role — Strong programming skills in Python, TypeScript/JavaScript, Go, or C#",
+    "where": "Web Catch-All (Swooped)",
+    "time": "1:02 AM"
+   }
+  ],
   "Web Catch-All (Built In)": [
    {
     "company": "TechInsights",
@@ -609,6 +625,15 @@
     "reason": "stale — 5+ years of pre-sales, solution architecture, or customer-facing technical experience in B2B SaaS with a highly technical ICP, with a focus on enterprise or mid-market accounts.",
     "where": "Web Catch-All (Insight Partners)",
     "time": "12:59 AM"
+   }
+  ],
+  "Web Catch-All (Remotive)": [
+   {
+    "company": "Bamboo Insurance",
+    "role": "Integration Architect Leader",
+    "reason": "stale — Bamboo Insurance is seeking an experienced Integration Architect to define, design, and guide delivery of secure, scalable, and reliable integrations across Guidewire InsuranceSuite and Bamboo's enterprise technology ecosystem.",
+    "where": "Web Catch-All (Remotive)",
+    "time": "1:02 AM"
    }
   ]
  },
@@ -1805,5 +1830,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T07:01:59Z"
+ "lists_generated_at": "2026-11-14T07:03:43Z"
 }
