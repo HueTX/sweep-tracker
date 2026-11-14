@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T11:46:22Z",
+ "generated_at": "2026-11-14T11:47:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T10:26:24Z",
-  "last_activity_at": "2026-11-14T11:43:44Z",
+  "last_activity_at": "2026-11-14T11:47:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 746,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 86,
-  "evaluated": 88
+  "rejected": 108,
+  "evaluated": 111
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 121,
+  "evaluated": 144,
   "filed": 0,
   "parked": 3,
-  "rejected": 118,
+  "rejected": 140,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T11:46:22Z",
-   "detail": "Employers 118/39"
+   "heartbeat_at": null,
+   "detail": "Employers 148/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -302,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "126 of 142 units done",
+   "detail": "132 of 142 units done",
    "started_at": "2026-11-14T10:26:24Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
+   "state": "active",
+   "detail": "2 of 3 units done",
    "started_at": "2026-11-14T10:38:36Z",
-   "ended_at": "2026-11-14T10:45:01Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:43 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 5:47 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -885,6 +877,27 @@
     "time": "5:10 AM"
    },
    {
+    "company": "Massachusetts Department of Transportation",
+    "role": "Sr. Cloud Architect",
+    "reason": "not-remote — The primary work location will be remote, with the requirement to be on-site at MassDOT headquarters at 10 Park Plaza, Boston MA, one day per week",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of New Jersey",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Location: Trenton, NJ (Hybrid)",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Maryland",
+    "role": "LTSS Maryland Application Development Architect",
+    "reason": "stale — The position is eligible for Hybrid Telework. LOCATION OF POSITION MDH Office of Enterprise Technology, Baltimore MD",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
     "company": "Norfolk Southern",
     "role": "Senior Director, Enterprise Architecture",
     "reason": "not-remote — Environment: Hybrid 2 days on-site and remote work 3 days per week. Nearest Major Market: Atlanta. Requisition 40281: B7 Senior Director, Enterprise Architecture — employer's own jobs.nscorp.com detail page (live, crawled within the hour) states the hybrid schedule; a stated required office schedule is not-remote. Workarounds tried: employer's own posting is the governing text; hybrid terms are intrinsic.",
@@ -897,6 +910,13 @@
     "reason": "not-remote — You will be required to report to an OPM assigned office.",
     "where": "Employer sites",
     "time": "4:56 AM"
+   },
+   {
+    "company": "State of Wisconsin Investment Board",
+    "role": "Senior Cloud Solutions Architect",
+    "reason": "not-remote — Pursuant to our Hybrid Remote Work Policy, all staff have the flexibility to work remotely, but are required to have a weekly presence in our offices",
+    "where": "Employer sites",
+    "time": "5:47 AM"
    },
    {
     "company": "Missouri state portal",
@@ -927,6 +947,13 @@
     "time": "5:05 AM"
    },
    {
+    "company": "TriTech Enterprise Systems",
+    "role": "Application Architect",
+    "reason": "not-remote — The candidate must live within 30 minutes of the City of New Orleans. All resumes are due to TriTech by noon on 11/13/2026. Note 2: This work can be performed off-site; however, the candidate needs to be in LA",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
     "company": "Colorado state portal",
     "role": "Cloud Integrations Solutions Architect",
     "reason": "closed — OPENING DATE 10/29/2026, CLOSING DATE 11/8/2026 at 11:59 PM Mountain Time — application window closed before today (2026-11-14); SALARY $135,000.00 - $145,000.00 Annually (top also below band floor); PRIMARY PHYSICAL WORK ADDRESS (Remote From Anywhere In CO) with relocation to Colorado required, and minimum qualifications require 3 years hands-on GCP and AWS. Detail page on governmentjobs.com (employer's own portal) governs.",
@@ -939,6 +966,13 @@
     "reason": "not-remote — Remote/Homebased – This recruitment is open to all Washington residents and those living near the Oregon or Idaho borders and has an in-person/in office expectation of 1-2 days per month for the first 6 months at the DOH office located in Tumwater, WA. Candidate is Texas-based and not a Washington resident; stated in-office expectation is a required office schedule. Workarounds tried: employer's own governmentjobs.com bulletin is the governing text; no alternate route changes residency/office terms.",
     "where": "Employer sites",
     "time": "5:10 AM"
+   },
+   {
+    "company": "GDIT",
+    "role": "Cloud Architect",
+    "reason": "clearance-required — Clearance Level Must Currently Possess: Secret; Security Clearance Requirement: Active Secret clearance",
+    "where": "Employer sites",
+    "time": "5:47 AM"
    },
    {
     "company": "UPS",
@@ -962,11 +996,32 @@
     "time": "5:03 AM"
    },
    {
+    "company": "State of Tennessee",
+    "role": "Enterprise Business Solutions Architect",
+    "reason": "pay-outside-band — Salary: $118,296.00- $154,140.00 annually; Hybrid.",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Missouri",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
     "company": "Highmark",
     "role": "Senior Solutions Architect (Interoperability & Data)",
     "reason": "stale — This position is responsible for providing senior architectural leadership, direction, and governance, specifically advising on and driving both provider and payer/provider interoperability initiatives and architectures.",
     "where": "Employer sites",
     "time": "5:03 AM"
+   },
+   {
+    "company": "State of Oklahoma",
+    "role": "Solution Architect of Data & AI",
+    "reason": "hands-on-coding — Design and code full-stack data and AI solutions (data ingestion, pipelines, model development, deployment, and integration into dashboards and applications)",
+    "where": "Employer sites",
+    "time": "5:47 AM"
    },
    {
     "company": "UnitedHealth Group / Optum",
@@ -981,6 +1036,20 @@
     "reason": "experience-mismatch — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases (e.g., SQLMI)",
     "where": "Employer sites",
     "time": "5:41 AM"
+   },
+   {
+    "company": "State of Louisiana - Office of Technology Services",
+    "role": "Core Operations Architect (IT Statewide Architect)",
+    "reason": "stale — This vacancy will be filled by promotion of a current permanent status Office of Technology Services employee",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Oklahoma - OMES",
+    "role": "Technical Architect I",
+    "reason": "not-remote — This is an on-site position located in Oklahoma City, OK. Salary is up to $90,000 based on education and experience.",
+    "where": "Employer sites",
+    "time": "5:47 AM"
    },
    {
     "company": "HHS / CMS",
@@ -1079,6 +1148,69 @@
     "reason": "stale — We are seeking an experienced Patient & Digital Experience Domain Architect to join our Clinical Systems Domain Architecture team.",
     "where": "Employer sites",
     "time": "5:06 AM"
+   },
+   {
+    "company": "Port of Portland",
+    "role": "Senior Hybrid-Cloud System Engineer (Security)",
+    "reason": "not-remote — this role requires an on-site presence at the Port of Portland for a minimum of 3 days a week and that the person hired must reside within commuting distance at the time of hire",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "Minnesota Department of Human Services",
+    "role": "Enterprise Architect",
+    "reason": "part-time — Duration: 10 months (Part-time 20 hours/ week); The Contractor shall provide part-time enterprise architecture consulting services averaging 20 hours per week",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "Information Technology Specialist 15 (Enterprise Architecture)",
+    "reason": "stale — Information Technology Specialist 15 (Enterprise Architecture) in Dimondale, MI",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "Information Technology Specialist 14 (Solutions Architect - MiCMS)",
+    "reason": "not-remote — The State of Michigan is not able to offer employment to out of-state applicants that do not plan to relocate. The Department of Technology Management and Budget currently offers a hybrid work option which requires two days working on-site at the official work location and three days of remote work per week.",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "Tennessee Department of Treasury",
+    "role": "Sr. Cloud Infrastructure Architect",
+    "reason": "not-remote — The successful candidate should live in Tennessee",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Connecticut DAS",
+    "role": "Director of Strategy and Enterprise Architecture",
+    "reason": "not-remote — Hybrid work environment (located at 55 Farmington Avenue, Hartford, CT)",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "S2Tech",
+    "role": "Curam Solution Architect - Medicaid / Eligibility Systems",
+    "reason": "experience-mismatch — 8+ years of experience with IBM Curam (now Merative Curam); Prior experience with the Missouri DSS / MEDES / MME ecosystem",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "CGI",
+    "role": "Senior Cloud Architect",
+    "reason": "not-remote — This position is located on-site in Lafayette, LA (Preferred), Cary, NC, Hartford, CT in a Hybrid working Model.",
+    "where": "Employer sites",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "State of Connecticut DAS",
+    "role": "Enterprise Applications Architect and Lead Developer",
+    "reason": "not-remote — Hybrid work environment (combination of on-site and remote work); Location: 460 Capitol Avenue in Hartford, CT",
+    "where": "Employer sites",
+    "time": "5:47 AM"
    }
   ],
   "BuiltIn": [
@@ -1234,6 +1366,20 @@
     "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite)",
     "where": "Dice",
     "time": "5:41 AM"
+   },
+   {
+    "company": "State of Wisconsin DOA",
+    "role": "Certified Cloud Architect",
+    "reason": "stale — Candidate MUST be a WI resident or willing to relocate to WI prior to starting the role at their own expense.",
+    "where": "Dice",
+    "time": "5:47 AM"
+   },
+   {
+    "company": "eGrove Systems Corporation",
+    "role": "Senior Cloud Architect/Engineer",
+    "reason": "not-remote — Work Location: Frankfort, KY (Hybrid; onsite for design reviews)",
+    "where": "Dice",
+    "time": "5:47 AM"
    }
   ],
   "King County portal": [
@@ -2683,5 +2829,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T11:46:22Z"
+ "lists_generated_at": "2026-11-14T11:47:18Z"
 }
