@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T16:21:18Z",
+ "generated_at": "2026-11-14T16:23:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "d1a2e4ad",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T16:16:10Z",
-  "last_activity_at": "2026-11-14T16:16:10Z",
+  "last_activity_at": "2026-11-14T16:22:03Z",
   "progress": {
    "pools": 21,
-   "covered_units": 716,
+   "covered_units": 676,
    "total_units": 754,
-   "pct": 95
+   "pct": 90
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 2,
+  "evaluated": 2
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 366,
+  "evaluated": 368,
   "filed": 0,
   "parked": 10,
-  "rejected": 356,
+  "rejected": 358,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -101,8 +101,8 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 18,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -227,7 +227,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T16:21:18Z",
+   "heartbeat_at": "2026-11-14T16:23:09Z",
    "detail": "Employers 0/59"
   },
   "W17": {
@@ -302,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 48 units done",
+   "detail": "0 of 108 units done",
    "started_at": "2026-11-14T16:16:10Z",
    "ended_at": null
   },
@@ -543,10 +543,10 @@
    }
   ]
  },
- "note": "Started 10:16 AM CT · 0 filed",
+ "note": "Last activity 10:22 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
    "pool": "W16"
   }
@@ -554,7 +554,7 @@
  "now_viewing": {
   "live": true,
   "label": "W16",
-  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "headline": "W16 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1659,6 +1659,13 @@
     "time": "9:32 AM"
    },
    {
+    "company": "Citigroup",
+    "role": "Lead Solutions Architect (VP)",
+    "reason": "hands-on — Proficiency in core programming languages such as Java, Python 3.10+, TypeScript, Go, or C++, with direct experience developing and maintaining high-throughput enterprise systems.",
+    "where": "Employer sites",
+    "time": "10:22 AM"
+   },
+   {
     "company": "State of Oklahoma",
     "role": "Solution Architect of Data & AI",
     "reason": "hands-on-coding — Design and code full-stack data and AI solutions (data ingestion, pipelines, model development, deployment, and integration into dashboards and applications)",
@@ -2245,6 +2252,13 @@
     "reason": "not-remote — This is an onsite role based in Irvine, CA.",
     "where": "Employer sites",
     "time": "9:35 AM"
+   },
+   {
+    "company": "JPMorgan Chase",
+    "role": "Lead Architect - Cloud Financial Management, Reporting and AI",
+    "reason": "hands-on — Advanced proficiency in Python and at least one additional programming language used for production services",
+    "where": "Employer sites",
+    "time": "10:22 AM"
    }
   ],
   "BuiltIn": [
@@ -4455,5 +4469,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T16:21:18Z"
+ "lists_generated_at": "2026-11-14T16:23:09Z"
 }
