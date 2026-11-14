@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T08:28:29Z",
+ "generated_at": "2026-11-14T08:31:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "fe813d9c",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-14T08:26:23Z",
-  "last_activity_at": "2026-11-14T08:26:23Z",
+  "last_activity_at": "2026-11-14T08:31:07Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 96
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 3,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 22,
+  "evaluated": 25,
   "filed": 0,
   "parked": 1,
-  "rejected": 21,
+  "rejected": 24,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,24 +55,24 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 40/58"
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 46,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T08:28:29Z",
-   "detail": "Titles 46/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -283,10 +281,10 @@
    "ended_at": "2026-11-14T08:26:23Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-14T08:26:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T08:30:31Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-14T08:26:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T08:31:08Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -313,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T08:31:53Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T08:31:53Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-14T08:31:53Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Started 2:26 AM CT · 0 filed",
+ "note": "Last activity 2:31 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W7"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -617,6 +615,13 @@
     "time": "1:36 AM"
    },
    {
+    "company": "Aon Corporation",
+    "role": "Principal Architect, Sales And Marketing Technologies",
+    "reason": "stale — Are you a Technology Architect with deep experience architecting enterprise Sales and Marketing technology ecosystems? As the lead architect for Aon's Sales & Marketing technology portfolio, you will:",
+    "where": "Google Jobs",
+    "time": "2:30 AM"
+   },
+   {
     "company": "AAA-The Auto Club Group",
     "role": "Cloud Architect",
     "reason": "stale — Published: 2026-11-04T02:17:18+00:00 (Remotive) - 10 days before 2026-11-14, outside the 7-day window; employer posting-period text carries no newer date.",
@@ -664,6 +669,20 @@
     "reason": "pay-outside-band — Salary: usd 182,400 - 250,800 per year - top $250,800 above the $230,000 band ceiling. Also an engineer-level individual-contributor role: You'll build the systems, tooling, and data models needed to make infrastructure spending more transparent. Workarounds tried: (1) Remotive full JD - governing pay figure; (2) no alternate posting with a different published range found.",
     "where": "Google Jobs",
     "time": "2:06 AM"
+   },
+   {
+    "company": "Deloitte",
+    "role": "Identity and Access Management Architect",
+    "reason": "stale — Partner with Senior IAM leadership team to define and own the enterprise IAM architecture, strategy, reference patterns, and roadmaps across authentication, authorization, identity lifecycle, privileged access, and account protection",
+    "where": "Google Jobs",
+    "time": "2:30 AM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Lead Director - Cloud & Platform Engineering",
+    "reason": "stale — Take ownership of the multi-cloud platform engineering strategy and roadmap for Health100 and PCW across GCP, AWS, and Azure. Lead the architecture, engineering, implementation, and lifecycle management of enterprise cloud platforms.",
+    "where": "Google Jobs",
+    "time": "2:31 AM"
    }
   ],
   "Web Catch-All": [
@@ -1945,5 +1964,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T08:28:29Z"
+ "lists_generated_at": "2026-11-14T08:31:53Z"
 }
