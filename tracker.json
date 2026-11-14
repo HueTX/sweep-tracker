@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-14T11:12:06Z",
+ "generated_at": "2026-11-14T11:13:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "214fd64b",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-14T10:26:24Z",
-  "last_activity_at": "2026-11-14T11:11:38Z",
+  "last_activity_at": "2026-11-14T11:12:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 62,
-  "evaluated": 64
+  "rejected": 64,
+  "evaluated": 66
  },
  "today": {
   "date": "2026-11-14",
-  "evaluated": 97,
+  "evaluated": 99,
   "filed": 0,
   "parked": 3,
-  "rejected": 94,
+  "rejected": 96,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -91,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T11:12:06Z",
-   "detail": "Employers 35/39"
+   "heartbeat_at": null,
+   "detail": "Employers 39/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-14T11:12:06Z",
-   "detail": "Employers 123/31"
+   "heartbeat_at": null,
+   "detail": "Employers 124/31"
   }
  },
  "stages": {
@@ -302,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "80 of 82 units done",
+   "state": "done",
+   "detail": "82 of 82 units done",
    "started_at": "2026-11-14T10:26:24Z",
-   "ended_at": null
+   "ended_at": "2026-11-14T11:12:11Z"
   },
   "sector_filing": {
    "state": "done",
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:11 AM CT · 3 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W20"
-  }
- ],
+ "note": "Last activity 5:12 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -900,6 +891,13 @@
     "time": "5:11 AM"
    },
    {
+    "company": "Utah state portal",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — Client: State of Utah Project/Position Title: Cloud Solutions Architect Job ID: UTA-JB-00011 Contract Term: 8/13/2027 (anticipated start 11/23/2026) Expected Weekly Hours: 20 hours per week Work Location: On-site Calvin Rampton Building (remote work not available; Utah residents only). A stated on-site-only, part-time contract engagement — not a 100% remote role. Workarounds tried: Dice vendor postings (VIVA and others) for the same State of Utah req UTA-JB-00011 carry identical on-site terms; terms are intrinsic to the req.",
+    "where": "Employer sites",
+    "time": "5:12 AM"
+   },
+   {
     "company": "Lyft",
     "role": "Staff Solutions Architect - Zuora",
     "reason": "not-remote — Lyft highly values having employees working in-office to foster a collaborative work environment and company culture. This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office 3 days per week on Mondays, Wednesdays, and Thursdays. (San Francisco; expected base pay $165,000 - $206,250.) Core duties also require 7-10 years implementing Zuora Billing/Revenue specifically — a platform-implementation specialty outside the candidate's Azure/enterprise architecture record. Workarounds tried: employer's own posting via startup.jobs mirror; hybrid schedule is intrinsic.",
@@ -933,6 +931,13 @@
     "reason": "pay-outside-band — UPS is seeking an Application Architect to lead the end-to-end architecture and modernization of enterprise applications incorporating Generative AI, agentic AI, cloud-native technologies, and enterprise systems.",
     "where": "Employer sites",
     "time": "5:03 AM"
+   },
+   {
+    "company": "City of Houston portal",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "stale — Published: 2026-10-19 on the employer's own governmentjobs.com City of Houston posting — 26 days old at verdict (2026-11-14), beyond the 7-day eligibility window. Posting also shows Reporting Location: 611 WALKER / 1200 TRAVIS, Workdays & Hours: MONDAY – FRIDAY, Office Hours (on-site).",
+    "where": "Employer sites",
+    "time": "5:12 AM"
    },
    {
     "company": "CVS Health / Aetna",
@@ -2484,5 +2489,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-14T11:12:06Z"
+ "lists_generated_at": "2026-11-14T11:13:20Z"
 }
