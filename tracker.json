@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T10:53:13Z",
+ "generated_at": "2026-11-15T10:54:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "b9ec7826",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T10:49:22Z",
-  "last_activity_at": "2026-11-15T10:52:53Z",
+  "last_activity_at": "2026-11-15T10:53:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 8,
-  "evaluated": 8
+  "rejected": 10,
+  "evaluated": 10
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 55,
+  "evaluated": 57,
   "filed": 0,
   "parked": 1,
-  "rejected": 54,
+  "rejected": 56,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T10:53:13Z",
-   "detail": "Employers 15/32"
+   "heartbeat_at": null,
+   "detail": "Employers 32/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T10:53:13Z",
-   "detail": "Employers 10/31"
+   "heartbeat_at": null,
+   "detail": "Employers 31/31"
   }
  },
  "stages": {
@@ -302,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "5 of 14 units done",
+   "state": "done",
+   "detail": "14 of 14 units done",
    "started_at": "2026-11-15T10:49:22Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T10:54:02Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -314,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T10:54:48Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T10:54:48Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T10:54:48Z"
   }
  },
  "titles": {
@@ -414,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -544,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 4:52 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:53 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 1 of 58 · Azure Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 1 of 58 · Azure Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -751,6 +748,20 @@
     "reason": "pay-outside-band — Salary Range: $153,360 - $274,131",
     "where": "Employer sites",
     "time": "4:52 AM"
+   },
+   {
+    "company": "Delta Air Lines",
+    "role": "Portfolio Architect",
+    "reason": "not-remote — Telecommuting permitted 2-3 days per week. 10-15% Domestic and international travel required.",
+    "where": "Employer sites",
+    "time": "4:53 AM"
+   },
+   {
+    "company": "Estes Express Lines",
+    "role": "Solution Architect II, Hub",
+    "reason": "stale — The Solution Architect II operates as a leader and change agent within a Hub organization. This position will participate in the delivery of business value within Estes",
+    "where": "Employer sites",
+    "time": "4:53 AM"
    },
    {
     "company": "GXO Logistics",
@@ -2193,5 +2204,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T10:53:13Z"
+ "lists_generated_at": "2026-11-15T10:54:48Z"
 }
