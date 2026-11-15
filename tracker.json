@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T09:38:57Z",
+ "generated_at": "2026-11-15T09:40:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "d9639754",
@@ -9,18 +9,18 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T09:37:29Z",
-  "last_activity_at": "2026-11-15T09:37:29Z",
+  "last_activity_at": "2026-11-15T09:40:09Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "rejected": 3,
+  "evaluated": 3
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 40,
+  "evaluated": 43,
   "filed": 0,
   "parked": 1,
-  "rejected": 39,
+  "rejected": 42,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -79,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T09:38:57Z",
-   "detail": "Employers 0/30"
+   "heartbeat_at": null,
+   "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 6 units done",
+   "state": "done",
+   "detail": "6 of 6 units done",
    "started_at": "2026-11-15T09:37:29Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T09:40:36Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Started 3:37 AM CT · 0 filed",
- "pill": [
-  {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W1"
-  }
- ],
+ "note": "Last activity 3:40 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -832,6 +824,29 @@
     "reason": "experience-mismatch — Salesforce Architecture Track Record: Minimum of 10 years of hands-on experience designing and delivering complex technical architectures across the Salesforce Platform (Field Service, Service Cloud, Experience Cloud); Deep Salesforce Field Service Domain Knowledge: Demonstrated mastery of core FSL architectural domains; Development & Platform Engineering: Advanced software engineering skills with Apex, Lightning Web Components, SOQL. Workarounds tried: (1) full JD on Remotive (published 2026-11-08, USA Only, remote flexible) identifying the employer as Coastal from the JD text, (2) no alternate route changes the Salesforce Field Service specialist core, which is a core mismatch with Hubert's Azure/cloud enterprise-architecture experience and includes hands-on Apex/LWC development.",
     "where": "Remotive",
     "time": "1:08 AM"
+   }
+  ],
+  "USAJOBS": [
+   {
+    "company": "Defense Logistics Agency (DLA)",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "stale — USAJOBS detail page Published: 11/06/2026 (9 days before 2026-11-15, outside 7-day window). Duties also GCP-first hands-on: 'Design, build, and directly deploy scalable enterprise cloud architectures with a specific focus on Google Cloud Platform (GCP)' and 'dual-hatted role, splitting their time between strategic Enterprise Architecture and hands-on cloud engineering (e.g., writing Infrastructure-as-Code, configuring GCP data pipelines)'. Locations are fixed DLA sites (Battle Creek, Columbus, Dayton, Fort Belvoir, etc.), no remote. Workarounds tried: employer's own USAJOBS detail page read in full (governing text).",
+    "where": "USAJOBS",
+    "time": "3:40 AM"
+   },
+   {
+    "company": "Social Security Administration (SSA)",
+    "role": "Solutions Architect (IT Specialist APPSW)",
+    "reason": "stale — USAJOBS detail page Published: 02/06/2026 (outside 7-day window). Duties are hands-on application development: 'Designing, architecting, and maintaining enterprise-grade solutions using modern technologies and frameworks, including Java, Spring Boot, React, and Node.js' with a CodeSignal live coding assessment. Workarounds tried: employer's own USAJOBS detail page read in full (governing text).",
+    "where": "USAJOBS",
+    "time": "3:40 AM"
+   },
+   {
+    "company": "Nuclear Regulatory Commission (NRC)",
+    "role": "Senior IT Specialist (Enterprise Cloud Architect)",
+    "reason": "stale — USAJOBS detail page Published: 10/28/2026 (18 days before 2026-11-15, outside 7-day window). Duties align ('Lead the development, implementation, and oversight of enterprise cloud strategies, policies, and roadmaps') but the posting date fails the freshness law; duty location Rockville, MD with no remote stated. Workarounds tried: employer's own USAJOBS detail page read in full (governing text).",
+    "where": "USAJOBS",
+    "time": "3:40 AM"
    }
   ],
   "CareerBuilder": [
@@ -2085,5 +2100,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T09:38:57Z"
+ "lists_generated_at": "2026-11-15T09:40:53Z"
 }
