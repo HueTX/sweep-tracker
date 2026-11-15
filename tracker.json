@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T17:00:33Z",
+ "generated_at": "2026-11-15T17:03:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T16:59:11Z",
+  "last_activity_at": "2026-11-15T17:01:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 4,
-  "rejected": 307,
-  "evaluated": 311
+  "rejected": 312,
+  "evaluated": 316
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 425,
+  "evaluated": 430,
   "filed": 0,
   "parked": 7,
-  "rejected": 418,
+  "rejected": 423,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -222,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T17:00:33Z",
-   "detail": "Employers 326/59"
+   "heartbeat_at": null,
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "348 of 354 units done",
+   "state": "done",
+   "detail": "354 of 354 units done",
    "started_at": "2026-11-15T12:47:40Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T17:01:43Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +311,22 @@
    "ended_at": "2026-11-15T15:24:33Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T17:03:03Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T17:03:03Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T17:03:03Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 10:59 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:01 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -636,6 +634,13 @@
  },
  "today_rejected": {
   "Employer sites": [
+   {
+    "company": "Marsh McLennan",
+    "role": "Senior Enterprise Architect",
+    "reason": "stale — Applications will be accepted until: October 30, 2026",
+    "where": "Employer sites",
+    "time": "11:01 AM"
+   },
    {
     "company": "BP",
     "role": "Senior Solution Architect",
@@ -1118,6 +1123,13 @@
     "reason": "pay-outside-band — The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market.",
     "where": "Employer sites",
     "time": "9:33 AM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Enterprise Solutions Architect: Salesforce",
+    "reason": "experience-mismatch — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise",
+    "where": "Employer sites",
+    "time": "11:01 AM"
    },
    {
     "company": "RTX",
@@ -1876,6 +1888,13 @@
     "time": "9:30 AM"
    },
    {
+    "company": "Edward Jones",
+    "role": "Senior Enterprise Architect - Application and Data Architecture",
+    "reason": "pay-outside-band — Hiring Maximum: $245100",
+    "where": "Employer sites",
+    "time": "11:01 AM"
+   },
+   {
     "company": "Slalom",
     "role": "Drupal Architect",
     "reason": "not-remote — Onsite - Drupal Architect Job at Slalom in Seattle, Washington, United States; Posted on: November 11, 2026",
@@ -1972,6 +1991,13 @@
     "reason": "pay-outside-band — $207.2k - $274.1k / year; Published: 2026-11-12; United States - Remote",
     "where": "Employer sites",
     "time": "9:33 AM"
+   },
+   {
+    "company": "Raymond James",
+    "role": "AWS Solutions Architect",
+    "reason": "not-remote — This position follows a hybrid work model, with an expectation to be in the office 3 days per week at the St. Petersburg, FL Corporate Office location.",
+    "where": "Employer sites",
+    "time": "11:01 AM"
    },
    {
     "company": "Atlassian",
@@ -2644,6 +2670,13 @@
     "reason": "not-remote — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday).",
     "where": "Employer sites",
     "time": "10:59 AM"
+   },
+   {
+    "company": "Global Payments",
+    "role": "Lead MuleSoft Platform & Integration Architect",
+    "reason": "stale — 10+ years of experience in enterprise technology, software engineering, or systems integration, including significant experience delivering MuleSoft solutions within complex enterprise environments.",
+    "where": "Employer sites",
+    "time": "11:01 AM"
    }
   ],
   "Google Jobs": [
@@ -4869,5 +4902,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T17:00:33Z"
+ "lists_generated_at": "2026-11-15T17:03:03Z"
 }
