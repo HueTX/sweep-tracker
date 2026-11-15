@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T14:42:25Z",
+ "generated_at": "2026-11-15T14:44:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T14:41:23Z",
+  "last_activity_at": "2026-11-15T14:42:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 736,
@@ -27,21 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 125,
-  "evaluated": 128
+  "parked": 3,
+  "rejected": 127,
+  "evaluated": 130
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 249,
+  "evaluated": 251,
   "filed": 0,
-  "parked": 5,
-  "rejected": 243,
+  "parked": 6,
+  "rejected": 245,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W5",
-  "W19"
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -129,8 +129,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:42:25Z",
-   "detail": "Employers 211/44"
+   "heartbeat_at": "2026-11-15T14:44:24Z",
+   "detail": "Employers 220/44"
   },
   "W6": {
    "label": "Utilities",
@@ -245,24 +245,24 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T14:44:24Z",
    "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:42:25Z",
-   "detail": "Employers 158/41"
+   "heartbeat_at": null,
+   "detail": "Employers 164/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -303,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "167 of 189 units done",
+   "detail": "171 of 189 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-15T14:41:22Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T14:42:52Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -544,10 +544,10 @@
    }
   ]
  },
- "note": "Last activity 8:41 AM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:42 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
    "pool": "W5"
   }
@@ -555,7 +555,7 @@
  "now_viewing": {
   "live": true,
   "label": "W5",
-  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -584,6 +584,13 @@
     "reason": "stale-unverified — Full JD read on DiversityJobs mirror (crawled 2026-11-13): duties are pure enterprise architecture - 'Define and evolve enterprise architecture and multi-year technology roadmaps aligned to Utility strategy' - aligned with candidate experience, no pay/date/work-mode stated, location Dayton, OH. Parked provisional: the posting could not be located on AES's own Workday detail page (aes.wd1.myworkdayjobs.com search surfaced other AES roles only), so per freshness law an undated-live merits verdict cannot be claimed from a mirror alone.",
     "where": "Employer sites",
     "time": "8:33 AM"
+   },
+   {
+    "company": "McDonald's",
+    "role": "Principal Architect",
+    "reason": "approval-blocked — Filing unit 6755 for PASS disposition 12176 (Principal Architect, SmartRecruiters requisition 744000029720924, undated live posting, $168,350-$218,860). Filing was not submitted in this executor wake: the SmartRecruiters application requires an interactive candidate sign-in/account step and a resume-upload approval in a live browser, which this event-hook executor cannot perform (no live-browser filing tool in this wake). Per the brief's park-on-approval rule the filing unit is parked approval-blocked rather than left waiting; no application submitted, no account created, no resume uploaded. The PASS stands and remains filing-ready for the main-agent filer (tailored resume + secondary check still required at filing).",
+    "where": "Employer sites",
+    "time": "8:42 AM"
    },
    {
     "company": "CMS Energy",
@@ -1142,6 +1149,13 @@
     "time": "7:20 AM"
    },
    {
+    "company": "eBay",
+    "role": "Cloud Architect",
+    "reason": "stale — Published: 2025-07-31 (outside 7-day window). TCGplayer (eBay subsidiary) Cloud Architect: 'Fully Remote (Within the United States)' but AWS-only scope: 'you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment' / 'Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS.' Base pay range $115,200 - $199,700.",
+    "where": "Employer sites",
+    "time": "8:42 AM"
+   },
+   {
     "company": "Kimberly-Clark",
     "role": "Azure Full Stack Architect",
     "reason": "hands-on — Whole role is hands-on development: '.NET Development Skills: Extensive hands-on experience in building scalable, high-performance applications using .NET technologies, with strong capabilities in C#, .NET Core, ASP.NET, and Entity Framework.' Also: 'This role is available for local candidates already authorized to work in the role's country only. Kimberly-Clark will not provide relocation support for this role.' Workarounds tried: (1) employer listing checked; (2) mirrors carry the same hands-on .NET requirements; (3) no alternate non-hands-on posting of the same role found.",
@@ -1259,6 +1273,13 @@
     "reason": "stale — I have experience with enterprise-scale data engineering orchestration frameworks/ELT tools and common data engineering Python libraries (dbt, pandas, great expectations, etc.).",
     "where": "Employer sites",
     "time": "7:25 AM"
+   },
+   {
+    "company": "Tyson Foods",
+    "role": "Global IT Network Architect",
+    "reason": "closed — 'Global IT Network Architect (Remote)' at Tyson in Springdale, Arkansas - 'We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site.' Job Posting 4828824, Posted Aug 29, 2026, Expires Sep 05, 2026 - expired before this cycle. Gate facts: expired posting and on-site requirement.",
+    "where": "Employer sites",
+    "time": "8:42 AM"
    },
    {
     "company": "City of Houston portal",
@@ -3512,6 +3533,7 @@
    "Priority Health",
    "FDIC",
    "ONEOK",
+   "McDonald's",
    "Intuit",
    "Dow",
    "Ecolab",
@@ -3538,7 +3560,6 @@
    "Old Dominion Freight Line",
    "Knight-Swift Transportation",
    "Altera Digital Health",
-   "McDonald's",
    "Franklin Templeton",
    "American Airlines",
    "United Airlines",
@@ -3592,5 +3613,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T14:42:25Z"
+ "lists_generated_at": "2026-11-15T14:44:24Z"
 }
