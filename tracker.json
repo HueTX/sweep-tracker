@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T14:34:28Z",
+ "generated_at": "2026-11-15T14:36:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T14:33:58Z",
+  "last_activity_at": "2026-11-15T14:35:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 734,
@@ -28,19 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 102,
-  "evaluated": 104
+  "rejected": 105,
+  "evaluated": 107
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 225,
+  "evaluated": 228,
   "filed": 0,
   "parked": 5,
-  "rejected": 220,
+  "rejected": 223,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W6"
+  "W5",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -123,24 +124,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T14:36:21Z",
    "detail": "Employers 176/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:34:28Z",
-   "detail": "Employers 246/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -255,12 +256,12 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T14:36:21Z",
    "detail": "Employers 123/41"
   },
   "W20": {
@@ -302,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "149 of 171 units done",
+   "detail": "153 of 171 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
@@ -543,18 +544,18 @@
    }
   ]
  },
- "note": "Last activity 8:33 AM CT · 4 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:35 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W5",
+  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -705,6 +706,20 @@
     "reason": "stale — Published: 2026-10-27; Core Cloud Engineer Responsibilities: Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform. Develop Terraform modules & pipelines to automate the deployment of resources. Workarounds tried: Built In detail page read JD-first (employer's governing listing route).",
     "where": "Employer sites",
     "time": "8:28 AM"
+   },
+   {
+    "company": "Black Hills Corporation",
+    "role": "Senior Information Security Architect",
+    "reason": "not-remote — Location: Rapid City, SD. Relocation Assistance: Relocation assistance is available based on individual circumstances - a fixed Rapid City work location with relocation offered, no remote or hybrid option stated anywhere in the full JD. Workarounds tried: (1) employer posting text via DiversityJobs full JD (careers.blackhillsenergy.com referenced as the employer's own site), (2) Black Hills careers search - no remote architect posting, (3) no remote alternate posting of this role.",
+    "where": "Employer sites",
+    "time": "8:35 AM"
+   },
+   {
+    "company": "Hawaiian Electric",
+    "role": "Operational Technology Solutions Architect – Oahu",
+    "reason": "pay-outside-band — Hiring Range: The hiring range for the Operational Technology Solutions Architect [Req ID 10296] position is $120,600.00 to $156,700.00 - top below the $160,000 band floor. Location: Honolulu - Oahu. Workarounds tried: (1) employer's own careers page carries this req, (2) GrabJobs/Jobright mirrors - same range, (3) no alternate posting with different pay.",
+    "where": "Employer sites",
+    "time": "8:35 AM"
    },
    {
     "company": "Shell",
@@ -1622,6 +1637,13 @@
     "reason": "hands-on — The Principal Technologist - API & Integration is responsible for designing, developing, and implementing integration solutions between SAP and non-SAP systems using SAP Cloud Integration (CI). 'Designing and implementing integration flows (iFlows) using SAP CI' - engineer-level hands-on implementation role under an engineer title, Camden, NJ. Workarounds tried: (1) employer posting text via GrabJobs and HiringCafe mirrors of Requisition ID 109472 - same duties, (2) no architect-level alternate posting of this req, (3) American Water architect search returned no other architect-level posting.",
     "where": "Employer sites",
     "time": "8:33 AM"
+   },
+   {
+    "company": "Avista",
+    "role": "Integrations Developer (Solution Architect level)",
+    "reason": "not-remote — Hybrid work options are available for this role. The successful candidate will be required to work at our Sprague office in Spokane, WA at least 3 days per week including Mondays and Tuesdays. Posting closes October 6, 2026. Workarounds tried: (1) employer posting text via GrabJobs full JD, (2) Avista careers search - no remote architect posting, (3) no remote alternate posting of this role.",
+    "where": "Employer sites",
+    "time": "8:35 AM"
    }
   ],
   "Google Jobs": [
@@ -3430,5 +3452,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T14:34:28Z"
+ "lists_generated_at": "2026-11-15T14:36:21Z"
 }
