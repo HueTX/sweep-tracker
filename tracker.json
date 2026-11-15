@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T14:27:06Z",
+ "generated_at": "2026-11-15T14:29:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T14:24:44Z",
+  "last_activity_at": "2026-11-15T14:29:03Z",
   "progress": {
    "pools": 21,
-   "covered_units": 726,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 96
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 86,
-  "evaluated": 86
+  "rejected": 95,
+  "evaluated": 95
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 211,
+  "evaluated": 216,
   "filed": 0,
   "parked": 3,
-  "rejected": 208,
+  "rejected": 213,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W6",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -135,13 +132,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:27:06Z",
-   "detail": "Employers 132/44"
+   "heartbeat_at": null,
+   "detail": "Employers 186/44"
   },
   "W9": {
    "label": "Dice",
@@ -245,13 +242,13 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:27:06Z",
-   "detail": "Employers 175/45"
+   "heartbeat_at": null,
+   "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -303,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "125 of 153 units done",
+   "detail": "137 of 153 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 8:24 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 8:29 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -664,6 +655,13 @@
     "time": "7:30 AM"
    },
    {
+    "company": "FirstEnergy",
+    "role": "Digital Technology Architect - Innovation & Digital Enablement Platform",
+    "reason": "stale — Published: 2026-10-27; Core Cloud Engineer Responsibilities: Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform. Develop Terraform modules & pipelines to automate the deployment of resources. Workarounds tried: Built In detail page read JD-first (employer's governing listing route).",
+    "where": "Employer sites",
+    "time": "8:28 AM"
+   },
+   {
     "company": "Shell",
     "role": "Senior Solution Architect - Endur",
     "reason": "not-remote — London ... Possesses extensive hands-on expertise with OpenLink Endur ... Brings a long-established background in Trading IT",
@@ -753,6 +751,20 @@
     "reason": "stale — The Domain Architect is part of Stanley Black & Decker's Corporate Information Technology team and works remotely in the United States.",
     "where": "Employer sites",
     "time": "7:20 AM"
+   },
+   {
+    "company": "CMS Energy",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This position is onsite at the One Energy Plaza located in Jackson, MI. The selected candidate must be within a commutable distance or willing to relocate (relocation package is available for those that qualify).",
+    "where": "Employer sites",
+    "time": "8:28 AM"
+   },
+   {
+    "company": "DTE Energy",
+    "role": "Expert Cloud Architect",
+    "reason": "not-remote — Hybrid Role: Must be able to come on-site periodically and reside a commutable distance from the assigned work location.",
+    "where": "Employer sites",
+    "time": "8:28 AM"
    },
    {
     "company": "Coca-Cola",
@@ -1175,6 +1187,13 @@
     "time": "5:44 AM"
    },
    {
+    "company": "Southern Company",
+    "role": "Windows & Endpoint Management Architect",
+    "reason": "not-remote — This position requires onsite work three (3) days per week at either our Atlanta, GA, or Birmingham, AL location.",
+    "where": "Employer sites",
+    "time": "8:28 AM"
+   },
+   {
     "company": "Eversource",
     "role": "IT Architect, Solution Architect, SAP FAR (Hybrid)",
     "reason": "not-remote — Current guidelines require employees to work at least three days in the office, including Tuesdays and Wednesdays ... The annual salary range for this position is: $133,450.00-$148,280.00",
@@ -1523,6 +1542,13 @@
     "reason": "non-US — Location: Brasil (BR) - São Paulo - Indaiatuba; Title: Solution Architect - Indaiatuba/SP - 125680 (Deere's own careers site)",
     "where": "Employer sites",
     "time": "8:21 AM"
+   },
+   {
+    "company": "PG&E",
+    "role": "Enterprise Architect, Principal - IT Operations",
+    "reason": "not-remote — Work Type: Hybrid; Job Location: Oakland; This position is hybrid, working from your remote office and 1-2 days per week at our Oakland Headquarters based on business need. Bay Area Max: $265,000.",
+    "where": "Employer sites",
+    "time": "8:29 AM"
    }
   ],
   "Google Jobs": [
@@ -3329,5 +3355,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T14:27:06Z"
+ "lists_generated_at": "2026-11-15T14:29:11Z"
 }
