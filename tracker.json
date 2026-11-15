@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T12:46:36Z",
+ "generated_at": "2026-11-15T12:47:40Z",
  "lane_state_source": "model",
  "run": {
-  "id": "5dc40733",
+  "id": "012b8b71",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-15T11:41:58Z",
-  "last_activity_at": "2026-11-15T12:04:22Z",
+  "started_at": "2026-11-15T12:47:40Z",
+  "last_activity_at": "2026-11-15T12:47:40Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 744,
    "total_units": 754,
-   "pct": 100
+   "pct": 99
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 2,
-  "rejected": 52,
-  "evaluated": 54
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-15",
@@ -94,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 156/39"
+   "detail": "Employers 0/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -116,13 +116,13 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 64/32"
+   "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -270,21 +270,21 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 62/31"
+   "detail": "Employers 0/31"
   }
  },
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 54 opened 5:41 AM CT",
-   "started_at": "2026-11-15T11:41:58Z",
-   "ended_at": "2026-11-15T11:41:58Z"
+   "detail": "Cycle 55 opened 6:47 AM CT",
+   "started_at": "2026-11-15T12:47:40Z",
+   "ended_at": "2026-11-15T12:47:40Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-15T11:41:58Z",
-   "ended_at": "2026-11-15T11:44:58Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-15T12:47:40Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "60 of 60 units done",
-   "started_at": "2026-11-15T11:41:58Z",
-   "ended_at": "2026-11-15T12:04:23Z"
+   "state": "pending",
+   "detail": "0 of 9 units done",
+   "started_at": "2026-11-15T12:47:40Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "2 of 2 units done",
-   "started_at": "2026-11-15T11:49:29Z",
-   "ended_at": "2026-11-15T11:51:56Z"
+   "state": "pending",
+   "detail": "",
+   "started_at": null,
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-15T12:05:29Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-15T12:05:29Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-15T12:05:29Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 6:04 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 6:47 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2758,5 +2752,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T12:46:36Z"
+ "lists_generated_at": "2026-11-15T12:47:40Z"
 }
