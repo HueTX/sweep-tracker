@@ -1,47 +1,45 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T11:51:40Z",
+ "generated_at": "2026-11-15T11:52:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "5dc40733",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T11:41:58Z",
-  "last_activity_at": "2026-11-15T11:50:44Z",
+  "last_activity_at": "2026-11-15T11:51:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 726,
+   "covered_units": 746,
    "total_units": 754,
-   "pct": 96
+   "pct": 99
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 19,
-  "evaluated": 21
+  "parked": 2,
+  "rejected": 22,
+  "evaluated": 24
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 98,
+  "evaluated": 101,
   "filed": 0,
-  "parked": 2,
-  "rejected": 95,
+  "parked": 3,
+  "rejected": 98,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T11:51:40Z",
-   "detail": "Employers 0/39"
+   "heartbeat_at": null,
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -302,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "28 of 52 units done",
+   "detail": "33 of 52 units done",
    "started_at": "2026-11-15T11:41:58Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "1 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-15T11:49:29Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T11:51:56Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:50 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 5:51 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -576,6 +568,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "DiversityJobs": [
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect - Artificial Intelligence",
+    "reason": "credential-needed — Workarounds tried: (1) Southwest careers posting verified live from the full JD (DiversityJobs mirror of Southwest's own posting, remote workplace, TX-eligible, $158,950-$176,600); (2) alternate route via Southwest's own careers portal - apply flow requires an applicant account sign-in; (3) no alternate posting of the same role with a direct-apply path found. This executor cannot create an account or submit through a live browser in this execution - parked credential-needed for the filing path.",
+    "where": "DiversityJobs",
+    "time": "5:51 AM"
+   }
+  ],
   "BuiltIn": [
    {
     "company": "SelectHealth",
@@ -1048,6 +1049,13 @@
     "reason": "experience-mismatch — Epic Ambulatory certification or Healthy Planet or Compass Rose (Required)",
     "where": "Simplify",
     "time": "5:49 AM"
+   },
+   {
+    "company": "North Carolina state portal",
+    "role": "Cloud Architect",
+    "reason": "pay-outside-band — Recruitment Range: $105,341.00 - $130,000.00",
+    "where": "Simplify",
+    "time": "5:51 AM"
    }
   ],
   "DiversityJobs": [
@@ -1194,6 +1202,15 @@
     "time": "1:44 AM"
    }
   ],
+  "CalCareers": [
+   {
+    "company": "California jobs.ca.gov",
+    "role": "Senior Application Solutions Architect",
+    "reason": "not-remote — All employees who telework are required to be California residents in accordance with Government Code 14200.",
+    "where": "CalCareers",
+    "time": "5:51 AM"
+   }
+  ],
   "Web Catch-All (Jobgether)": [
    {
     "company": "Allstate Identity Protection",
@@ -1303,6 +1320,15 @@
     "reason": "not-remote — Telecommute (Possible 2026 Return to office) - within Oregon, Washington, Idaho or Utah",
     "where": "Swooped",
     "time": "5:49 AM"
+   }
+  ],
+  "GovernmentJobs.com": [
+   {
+    "company": "GovernmentJobs.com / NEOGOV agencies",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Salary: Range 79: $113,736 - $149,244 per year (DOQ).",
+    "where": "GovernmentJobs.com",
+    "time": "5:51 AM"
    }
   ]
  },
@@ -2503,5 +2529,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T11:51:40Z"
+ "lists_generated_at": "2026-11-15T11:52:41Z"
 }
