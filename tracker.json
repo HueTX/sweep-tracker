@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T14:32:03Z",
+ "generated_at": "2026-11-15T14:34:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T14:29:53Z",
+  "last_activity_at": "2026-11-15T14:33:58Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 100
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 97,
-  "evaluated": 97
+  "parked": 2,
+  "rejected": 102,
+  "evaluated": 104
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 218,
+  "evaluated": 225,
   "filed": 0,
-  "parked": 3,
-  "rejected": 215,
+  "parked": 5,
+  "rejected": 220,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -123,8 +123,8 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -139,8 +139,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T14:32:03Z",
-   "detail": "Employers 216/44"
+   "heartbeat_at": "2026-11-15T14:34:28Z",
+   "detail": "Employers 246/44"
   },
   "W9": {
    "label": "Dice",
@@ -255,8 +255,8 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -302,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "143 of 153 units done",
+   "detail": "149 of 171 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
@@ -543,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 8:29 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:33 AM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -576,6 +576,22 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "Employer sites": [
+   {
+    "company": "The AES Corporation",
+    "role": "Enterprise Architect",
+    "reason": "stale-unverified — Full JD read on DiversityJobs mirror (crawled 2026-11-13): duties are pure enterprise architecture - 'Define and evolve enterprise architecture and multi-year technology roadmaps aligned to Utility strategy' - aligned with candidate experience, no pay/date/work-mode stated, location Dayton, OH. Parked provisional: the posting could not be located on AES's own Workday detail page (aes.wd1.myworkdayjobs.com search surfaced other AES roles only), so per freshness law an undated-live merits verdict cannot be claimed from a mirror alone.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
+   },
+   {
+    "company": "CMS Energy",
+    "role": "Enterprise Architect (Consumers Energy)",
+    "reason": "stale-unverified — Employer's own detail page (careers.consumersenergy.com/job/JACKSON-Enterprise-Architect-MI/1369552800/) is live on 2026-11-15 but its JD body does not render in text fetch (footer only), so date and work mode could not be confirmed from the employer's page; a mirror (Qureos) shows an expired version published 2026-03-03 listing onsite Jackson, MI. JD not verifiable - provisional park, not a merits verdict.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
+   }
+  ],
   "DiversityJobs": [
    {
     "company": "Southwest Airlines",
@@ -654,6 +670,20 @@
     "reason": "stale — Published: 2026-11-04; Requisition ID: 97109; Florida Power & Light Company; Seeking an experienced Principal IT Architect to lead architecture and technical design for SAP data and analytics solutions supporting Finance and IS-U Utilities; Juno Beach, Florida location.",
     "where": "Employer sites",
     "time": "8:29 AM"
+   },
+   {
+    "company": "Spire Inc",
+    "role": "Solutions Architect",
+    "reason": "stale — Solutions Architect - Date: Feb 25, 2026 - Location: Saint Louis, MO - Company: Spire Inc. - Job Req ID: 11522. Posting date is far outside the 7-day eligibility window. Workarounds tried: (1) employer careers route jobs.spireenergy.com referenced in the posting, (2) Career.io mirror is the same dated posting, (3) no fresher alternate posting of this role found.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
+   },
+   {
+    "company": "WEC Energy Group",
+    "role": "SAP Data Warehouse Developer and Architect",
+    "reason": "not-remote — This position currently offers flexibility for a hybrid work arrangement (remote/on-site) with time regularly spent in the office (Milwaukee, WI). Duties: 'Design, develop and maintain SAP Business Warehouse (BW) data models and ETL processes' - hands-on developer role. Pay Range Maximum: $135,761.08, also below band. Workarounds tried: (1) employer posting text via DiversityJobs mirror, (2) no remote alternate posting of this role found, (3) WEC careers search returned no remote architect posting.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
    },
    {
     "company": "DTE Energy",
@@ -780,6 +810,13 @@
     "reason": "not-remote — Hybrid Role: Must be able to come on-site periodically and reside a commutable distance from the assigned work location.",
     "where": "Employer sites",
     "time": "8:28 AM"
+   },
+   {
+    "company": "DTE Energy",
+    "role": "IT Specialist - Enterprise Architect",
+    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location. Workarounds tried: (1) employer posting text via DiversityJobs and Michigan Talent mirrors - both state hybrid, (2) alternate route mitalent.org job 340964922 - same hybrid statement, (3) alternate DTE architect posting (Expert Cloud Architect) - also hybrid Detroit.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
    },
    {
     "company": "Coca-Cola",
@@ -1571,6 +1608,20 @@
     "reason": "not-remote — Work Type: Hybrid; Job Location: Oakland; This position is hybrid, working from your remote office and 1-2 days per week at our Oakland Headquarters based on business need. Bay Area Max: $265,000.",
     "where": "Employer sites",
     "time": "8:29 AM"
+   },
+   {
+    "company": "PPL",
+    "role": "Senior Manager Modern Workplace Architecture",
+    "reason": "not-remote — NOTE: This role is hybrid requiring 3 days on-site to a local office. Locations: Allentown, PA; Louisville, KY or Providence, RI. Published: 2026-10-26. Workarounds tried: (1) PPL employer posting text via Monster mirror, (2) alternate PPL architect postings (Collaboration & Productivity Architect, System Architect - Development) - all hybrid 3 days on-site, (3) no remote alternate posting of this role.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
+   },
+   {
+    "company": "American Water Works",
+    "role": "Principal Solution Engineer (Integration)",
+    "reason": "hands-on — The Principal Technologist - API & Integration is responsible for designing, developing, and implementing integration solutions between SAP and non-SAP systems using SAP Cloud Integration (CI). 'Designing and implementing integration flows (iFlows) using SAP CI' - engineer-level hands-on implementation role under an engineer title, Camden, NJ. Workarounds tried: (1) employer posting text via GrabJobs and HiringCafe mirrors of Requisition ID 109472 - same duties, (2) no architect-level alternate posting of this req, (3) American Water architect search returned no other architect-level posting.",
+    "where": "Employer sites",
+    "time": "8:33 AM"
    }
   ],
   "Google Jobs": [
@@ -3259,6 +3310,7 @@
    "Southern Company",
    "Constellation Energy",
    "Berkshire Hathaway Energy",
+   "The AES Corporation",
    "Avista",
    "MDU Resources",
    "Portland General Electric",
@@ -3341,7 +3393,8 @@
    "Technatomy",
    "FedEx",
    "Carrier Global",
-   "Teva Pharmaceuticals"
+   "Teva Pharmaceuticals",
+   "CMS Energy"
   ],
   "W9": [
    "Oracle",
@@ -3377,5 +3430,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T14:32:03Z"
+ "lists_generated_at": "2026-11-15T14:34:28Z"
 }
