@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T15:21:07Z",
+ "generated_at": "2026-11-15T15:23:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
-  "last_activity_at": "2026-11-15T15:03:55Z",
+  "last_activity_at": "2026-11-15T15:22:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 710,
+   "covered_units": 718,
    "total_units": 754,
-   "pct": 94
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 3,
-  "rejected": 155,
-  "evaluated": 158
+  "rejected": 165,
+  "evaluated": 169
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 279,
+  "evaluated": 289,
   "filed": 0,
   "parked": 6,
-  "rejected": 273,
+  "rejected": 282,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
-  "W17",
-  "W18"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -125,13 +123,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T15:21:07Z",
-   "detail": "Employers 254/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W6": {
    "label": "Utilities",
@@ -236,23 +234,23 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 30,
+   "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T15:21:07Z",
-   "detail": "Employers 0/54"
+   "heartbeat_at": "2026-11-15T15:23:08Z",
+   "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T15:21:07Z",
-   "detail": "Employers 210/45"
+   "heartbeat_at": null,
+   "detail": "Employers 225/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -304,15 +302,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "193 of 249 units done",
+   "detail": "199 of 249 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
+   "state": "active",
+   "detail": "1 of 2 units done",
    "started_at": "2026-11-15T14:41:22Z",
-   "ended_at": "2026-11-15T14:42:52Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -545,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 9:03 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:22 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -1451,6 +1449,13 @@
     "time": "7:20 AM"
    },
    {
+    "company": "General Motors",
+    "role": "Propulsion System Architect",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week. Workarounds tried: employer's own GM careers posting (governing text), which is hybrid in Warren, Michigan; no remote alternate posting of the same req found.",
+    "where": "Employer sites",
+    "time": "9:22 AM"
+   },
+   {
     "company": "PACCAR",
     "role": "Data Architect (Technical Fellow, Enterprise Data Architecture)",
     "reason": "not-remote — Undated live posting on PACCAR's own jobs site (detail page carries no posted date and is live/applying): job location Renton, WA 98057, Nearest Major Market: Seattle, Nearest Secondary Market: Bellevue - no remote language anywhere in the posting. Workarounds tried: (1) employer's own posting is the governing text read here; (2) alternate-route search surfaced only this same Renton requisition; (3) no alternate remote posting of this role found.",
@@ -2178,6 +2183,15 @@
     "time": "5:49 AM"
    }
   ],
+  "Mediabistro": [
+   {
+    "company": "Enbridge",
+    "role": "Enterprise Portfolio Architect",
+    "reason": "not-remote — Enbridge's FlexWork (Hybrid Work Model) offers eligible employees the opportunity to work variable daily schedules with a flexible start or end time, to opt for a compressed workweek schedule or the option to work from home on Wednesdays and Fridays. #LI-Hybrid. Workarounds tried: employer's own posting text via Mediabistro mirror; FlexWork is hybrid, not 100% remote; posting end date March 19, 2026 also places it outside the window.",
+    "where": "Mediabistro",
+    "time": "9:22 AM"
+   }
+  ],
   "Indeed": [
    {
     "company": "Targa Resources",
@@ -2194,6 +2208,13 @@
     "reason": "not-remote — On-site ... Annual salary will vary based on a candidate's skills, qualifications, experience, and other factors: $106,400.00/Yr. - $146,300.00/Yr.",
     "where": "Dice",
     "time": "7:45 AM"
+   },
+   {
+    "company": "Sherwin-Williams",
+    "role": "Principal Practice Enterprise Architect Data",
+    "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify. Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog) and AI code assist tooling. Workarounds tried: employer's own JD via Dice (governing text, same requirements); fresh surface activity on Teal/DailyRemote Nov 12-14 makes it fresh, so verdicted on merits - his record has no Databricks data-platform production experience; core mismatch.",
+    "where": "Dice",
+    "time": "9:22 AM"
    },
    {
     "company": "State of Utah",
@@ -2355,6 +2376,31 @@
     "time": "1:44 AM"
    }
   ],
+  "Built In": [
+   {
+    "company": "3M",
+    "role": "Solutions Architect - Standards",
+    "reason": "pay-outside-band — Applicable to US Applicants Only:The expected compensation range for this position is $188,251 - $230,084, which includes base pay plus variable incentive pay, if eligible. Workarounds tried: employer's own listing via Built In and the FlexJobs mirror, both showing the same $188,251 - $230,084 range; top $230,084 exceeds the $230,000 band ceiling.",
+    "where": "Built In",
+    "time": "9:22 AM"
+   },
+   {
+    "company": "Ford Motor Company",
+    "role": "Principal AI Architect",
+    "reason": "gcp-first — Design and govern scalable AI applications and platforms on Google Cloud, with appropriate use of services such as Vertex AI, Gemini, GKE, Cloud Run, BigQuery, and Pub/Sub. This position is leadership level 6 and ranges from $132,800-$250,800. Workarounds tried: Built In mirror of Ford's own posting; the architecture is Google Cloud-first (Azure-excluded scope) and the pay top $250,800 is also above the $230,000 band ceiling.",
+    "where": "Built In",
+    "time": "9:22 AM"
+   }
+  ],
+  "Monster": [
+   {
+    "company": "Stanley Black & Decker",
+    "role": "Product Architect - AI & Digital Products",
+    "reason": "stale — As a Product Architect - AI & Digital Products, you'll be part of our Digital Product team working as a remote employee. The Salary range for this position is $110,600.00 - $178,000.00. Workarounds tried: Monster listing published 2026-10-15, outside the 7-day window; no refreshed employer posting found.",
+    "where": "Monster",
+    "time": "9:22 AM"
+   }
+  ],
   "Web Catch-All (Jobicy)": [
    {
     "company": "Datavant",
@@ -2412,6 +2458,15 @@
     "reason": "not-remote — All remote work must be performed in Colorado. While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position.",
     "where": "Colorado state portal",
     "time": "6:03 AM"
+   }
+  ],
+  "RemoteJobsFinder": [
+   {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. This position may require relocation and/or travel to work/project location. Workarounds tried: full JD via the finding listing (published 2026-11-07); top of every published range is below the $160,000 band floor.",
+    "where": "RemoteJobsFinder",
+    "time": "9:22 AM"
    }
   ],
   "Web Catch-All (Jobgether)": [
@@ -2487,6 +2542,15 @@
     "reason": "internal-only — Appointment Type: This vacancy will be filled by promotion of a current permanent status Office of Technology Services employee",
     "where": "Louisiana state portal",
     "time": "6:04 AM"
+   }
+  ],
+  "Jooble": [
+   {
+    "company": "Danaher",
+    "role": "Architect, Privileged Access Management",
+    "reason": "stale — Danaher is seeking an Architect, Privileged Access Management to design enterprise PAM architecture across regions and translate it into reference designs for privileged identities. Workarounds tried: Jooble listing (published 2026-11-06, outside the 7-day window at 2026-11-15) and Danaher search results; no repost or refreshed date found.",
+    "where": "Jooble",
+    "time": "9:22 AM"
    }
   ],
   "Job boards": [
@@ -2611,6 +2675,15 @@
     "reason": "stale — Published: 2024-10-28",
     "where": "Kentucky state portal",
     "time": "6:04 AM"
+   }
+  ],
+  "Teal": [
+   {
+    "company": "Capgemini",
+    "role": "PLM Enterprise Architect",
+    "reason": "not-remote — Capgemini Engineering is hiring an Enterprise Architect to own the end-to-end target architecture for a large, complex PLM modernization at a major Aerospace & Defense OEM. This is a hybrid opportunity in Seattle, Washington. Workarounds tried: Teal JD text for the Capgemini posting (fresh, 1 day old, Bellevue, WA, Hybrid); hybrid schedule is stated in the posting itself, no remote alternate route for the same req found.",
+    "where": "Teal",
+    "time": "9:22 AM"
    }
   ]
  },
@@ -3809,5 +3882,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T15:21:07Z"
+ "lists_generated_at": "2026-11-15T15:23:08Z"
 }
