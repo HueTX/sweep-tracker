@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T14:25:27Z",
+ "generated_at": "2026-11-15T14:27:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "012b8b71",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-15T12:47:40Z",
   "last_activity_at": "2026-11-15T14:24:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 726,
    "total_units": 754,
-   "pct": 99
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,7 +39,10 @@
   "rejected": 208,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -132,12 +135,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
-   "families_searched": 48,
+   "phase": "searching",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T14:27:06Z",
    "detail": "Employers 132/44"
   },
   "W9": {
@@ -242,12 +245,12 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T14:27:06Z",
    "detail": "Employers 175/45"
   },
   "W19": {
@@ -300,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "125 of 135 units done",
+   "detail": "125 of 153 units done",
    "started_at": "2026-11-15T12:47:40Z",
    "ended_at": null
   },
@@ -541,13 +544,19 @@
    }
   ]
  },
- "note": "Last activity 8:24 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 8:24 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W18"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W18",
+  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
