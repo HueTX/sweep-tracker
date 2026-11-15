@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T11:48:59Z",
+ "generated_at": "2026-11-15T11:50:12Z",
  "lane_state_source": "model",
  "run": {
   "id": "5dc40733",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T11:41:58Z",
-  "last_activity_at": "2026-11-15T11:45:39Z",
+  "last_activity_at": "2026-11-15T11:49:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 99
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 6,
-  "evaluated": 6
+  "rejected": 15,
+  "evaluated": 16
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 86,
+  "evaluated": 94,
   "filed": 0,
   "parked": 1,
-  "rejected": 85,
+  "rejected": 92,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W4",
   "W20"
  ],
  "lanes": {
@@ -91,8 +90,8 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -113,13 +112,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T11:48:59Z",
-   "detail": "Employers 47/32"
+   "heartbeat_at": null,
+   "detail": "Employers 64/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -268,12 +267,12 @@
    "label": "Transportation & Logistics",
    "sites": 31,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T11:48:59Z",
-   "detail": "Employers 31/31"
+   "heartbeat_at": "2026-11-15T11:50:12Z",
+   "detail": "Employers 41/31"
   }
  },
  "stages": {
@@ -303,14 +302,14 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "17 of 28 units done",
+   "detail": "23 of 44 units done",
    "started_at": "2026-11-15T11:41:58Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "",
-   "started_at": null,
+   "state": "active",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-15T11:49:29Z",
    "ended_at": null
   },
   "stall_watch": {
@@ -544,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:45 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:49 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W20 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W20",
+  "headline": "W20 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -755,9 +754,9 @@
    {
     "company": "Expeditors International",
     "role": "Architect (Solution) - EXP.O NOW, IS Customer Experience",
-    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate.",
     "where": "Employer sites",
-    "time": "5:18 AM"
+    "time": "5:49 AM"
    },
    {
     "company": "CareFirst",
@@ -799,7 +798,7 @@
     "role": "Principal Solutions Architect",
     "reason": "gcp-first — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake",
     "where": "Employer sites",
-    "time": "5:15 AM"
+    "time": "5:49 AM"
    },
    {
     "company": "Elevance Health",
@@ -807,6 +806,13 @@
     "reason": "not-remote — This role requires associates to be in-office 1-2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance.",
     "where": "Employer sites",
     "time": "4:52 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect (Dynamics 365) - Operational Accounting, IS Operational Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate.",
+    "where": "Employer sites",
+    "time": "5:49 AM"
    },
    {
     "company": "Massachusetts Department of Transportation",
@@ -1012,6 +1018,38 @@
     "time": "5:45 AM"
    }
   ],
+  "Simplify": [
+   {
+    "company": "Horizon Blue Cross Blue Shield of New Jersey",
+    "role": "Dir, Infrastructure Architect",
+    "reason": "not-remote — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware",
+    "where": "Simplify",
+    "time": "5:49 AM"
+   },
+   {
+    "company": "Sentara Health Plans",
+    "role": "Clinical Systems Domain Architect-Population Health",
+    "reason": "experience-mismatch — Epic Ambulatory certification or Healthy Planet or Compass Rose (Required)",
+    "where": "Simplify",
+    "time": "5:49 AM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "Medical Mutual of Ohio",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This is a hybridremote role based out of the Brooklyn, OH office, with the expectation to work onsite on designated inoffice days each week.",
+    "where": "DiversityJobs",
+    "time": "5:49 AM"
+   },
+   {
+    "company": "CareSource",
+    "role": "Configuration Architect (Benefit)",
+    "reason": "experience-mismatch — Minimum of seven (7) years of experience in advanced systems configuration, system/business solution analysis and business solutions development is required",
+    "where": "DiversityJobs",
+    "time": "5:49 AM"
+   }
+  ],
   "Web Catch-All": [
    {
     "company": "Leidos",
@@ -1213,6 +1251,24 @@
     "reason": "not-remote — This is a hybrid role based in the Warren, NJ office (3 days in office/2 days remote). Workarounds tried: (1) employer's own posting via Simplify (governing text, hybrid stated), (2) web re-search found no remote alternate route for this req, (3) no alternate remote posting of the same role.",
     "where": "Web Catch-All (Simplify)",
     "time": "1:44 AM"
+   }
+  ],
+  "Jobgether": [
+   {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Principal Business Architect",
+    "reason": "experience-mismatch — This is a senior-level role emphasizing business consulting, combined with components of strategy, business planning, business architecture management, process engineering, influence and leadership disciplines.",
+    "where": "Jobgether",
+    "time": "5:49 AM"
+   }
+  ],
+  "Swooped": [
+   {
+    "company": "Regence Blue Cross Blue Shield",
+    "role": "Semantic Architect",
+    "reason": "not-remote — Telecommute (Possible 2026 Return to office) - within Oregon, Washington, Idaho or Utah",
+    "where": "Swooped",
+    "time": "5:49 AM"
    }
   ]
  },
@@ -2375,7 +2431,6 @@
    "EPAM Systems",
    "Technatomy",
    "FedEx",
-   "SelectHealth",
    "Carrier Global",
    "Teva Pharmaceuticals"
   ],
@@ -2414,5 +2469,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T11:48:59Z"
+ "lists_generated_at": "2026-11-15T11:50:12Z"
 }
