@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T11:28:15Z",
+ "generated_at": "2026-11-15T11:29:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "96092309",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T10:57:35Z",
-  "last_activity_at": "2026-11-15T11:27:40Z",
+  "last_activity_at": "2026-11-15T11:28:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 20,
-  "evaluated": 20
+  "rejected": 26,
+  "evaluated": 26
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 75,
+  "evaluated": 81,
   "filed": 0,
   "parked": 1,
-  "rejected": 74,
+  "rejected": 80,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,13 +88,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T11:28:15Z",
-   "detail": "Employers 59/39"
+   "heartbeat_at": null,
+   "detail": "Employers 78/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "59 of 63 units done",
+   "state": "done",
+   "detail": "63 of 63 units done",
    "started_at": "2026-11-15T10:57:35Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T11:28:25Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -313,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T11:29:01Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T11:29:01Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T11:29:01Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 5:27 AM CT · 4 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:28 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -801,6 +799,13 @@
     "time": "4:52 AM"
    },
    {
+    "company": "Massachusetts Department of Transportation",
+    "role": "Sr. Cloud Architect",
+    "reason": "not-remote — The primary work location will be remote, with the requirement to be on-site at MassDOT headquarters at 10 Park Plaza, Boston MA, one day per week, depending on operational needs. Candidate must be a local to MA/NH/RI for hybrid",
+    "where": "Employer sites",
+    "time": "5:28 AM"
+   },
+   {
     "company": "Spectrum",
     "role": "Senior Lead Cloud Architect - AVD (RapidScale)",
     "reason": "experience-mismatch — You are comfortable operating at both the architecture and hands-on engineering levels; 3+ years of hands-on Azure Virtual Desktop (AVD) / Windows Virtual Desktop experience in enterprise environments; Demonstrated experience designing and implementing enterprise-scale AVD environments. CORRECTION with new evidence: the employer's own jobs.spectrum.com page for Req 2026-83466 now shows Date posted 11/12/2026 with an Apply Now path, superseding the earlier stale verdict based on the 2026-10-23 Built In date. On the merits the core of this role is hands-on AVD implementation (host pools, images, automation/CI-CD for AVD deployments), a specialist hands-on AVD core that does not align with Hubert's Azure/EA architecture experience (no AVD implementation record). Workarounds tried: (1) employer's own Spectrum posting (governing text, read in full), (2) Built In mirror of the same req, (3) no alternate posting of the same req changes the AVD hands-on core.",
@@ -848,6 +853,13 @@
     "reason": "pay-outside-band — Hiring Range: $124,000 - 149,000",
     "where": "Employer sites",
     "time": "5:27 AM"
+   },
+   {
+    "company": "Oregon Department of Administrative Services",
+    "role": "Enterprise Cloud Infrastructure and Platform Manager",
+    "reason": "not-remote — Enterprise Cloud Infrastructure and Platform Manager - Salem, OR - Hybrid",
+    "where": "Employer sites",
+    "time": "5:28 AM"
    },
    {
     "company": "Ardent",
@@ -953,6 +965,13 @@
     "reason": "not-remote — These positions are hybrid, with periodic in-person meetings; candidates in the Los Angeles area are preferred. Fully remote arrangements may be considered for exceptionally qualified candidates.",
     "where": "Employer sites",
     "time": "5:27 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "Cloud Architect - Operations Designer",
+    "reason": "not-remote — Location: Dimondale, Michigan (Hybrid Onsite)",
+    "where": "Employer sites",
+    "time": "5:28 AM"
    }
   ],
   "Web Catch-All": [
@@ -990,6 +1009,29 @@
     "reason": "non-US — Location & Working Hours: Canada - Fully Remote. Work from anywhere in Canada! Estimated annual base salary range $121,200.00 - $159,000.00 CAD. Canada-only, engineer-level role - outside US-only scope.",
     "where": "Web Catch-All",
     "time": "2:41 AM"
+   }
+  ],
+  "ClearanceJobs": [
+   {
+    "company": "Peraton",
+    "role": "Sr. AWS Cloud Architect",
+    "reason": "aws-first — 8 years of progressive experience in cloud infrastructure/architecture roles on AWS; Certification: AWS Certified Solutions Architect - Associate or Professional",
+    "where": "ClearanceJobs",
+    "time": "5:28 AM"
+   },
+   {
+    "company": "DecisionPoint",
+    "role": "Enterprise Architect (Senior)",
+    "reason": "active-clearance — Active Secret clearance or higher.",
+    "where": "ClearanceJobs",
+    "time": "5:28 AM"
+   },
+   {
+    "company": "Booz Allen",
+    "role": "Cloud Computing Infrastructure Architect",
+    "reason": "active-clearance — Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information; Secret clearance is required.",
+    "where": "ClearanceJobs",
+    "time": "5:28 AM"
    }
   ],
   "Web Catch-All (Remote Rocketship)": [
@@ -2334,5 +2376,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T11:28:15Z"
+ "lists_generated_at": "2026-11-15T11:29:01Z"
 }
