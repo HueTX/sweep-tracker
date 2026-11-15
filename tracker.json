@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T08:15:19Z",
+ "generated_at": "2026-11-15T08:16:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "9e34d306",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T08:08:11Z",
-  "last_activity_at": "2026-11-15T08:15:06Z",
+  "last_activity_at": "2026-11-15T08:15:39Z",
   "progress": {
    "pools": 21,
-   "covered_units": 726,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 96
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 0,
-  "rejected": 7,
-  "evaluated": 7
+  "rejected": 9,
+  "evaluated": 9
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 31,
+  "evaluated": 33,
   "filed": 0,
   "parked": 1,
-  "rejected": 30,
+  "rejected": 32,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W7"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -68,13 +66,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 30,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T08:15:19Z",
-   "detail": "Titles 30/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-15T08:08:11Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T08:15:55Z"
   },
   "sector_filing": {
    "state": "pending",
@@ -313,22 +311,22 @@
    "ended_at": null
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T08:16:51Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T08:16:51Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T08:16:51Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 2:15 AM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:15 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 55 of 58 · Enterprise Platform Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W7"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 55 of 58 · Enterprise Platform Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -622,6 +620,13 @@
     "reason": "stale — On-Call Support: Support a 24x7 operations environment with the ability to participate in an on-call rotation with some off-hours, weekends, and holidays as needed.",
     "where": "Google Jobs",
     "time": "1:44 AM"
+   },
+   {
+    "company": "Experian",
+    "role": "Platform Architect",
+    "reason": "hands-on — Experience and Skills: 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms; Proficiency in Terraform; Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm; expertise in Docker and Kubernetes along with building CI/CD pipelines for production environments. Whole role is platform engineering/building, not architect-level governance. Undated live posting on Experian's own careers detail page (jobs.experian.com), verdicted on merits per freshness law. Workarounds tried: employer detail page is the governing text; the Senior Platform Architect sibling posting (jid-1715) carries the same software-engineering core.",
+    "where": "Google Jobs",
+    "time": "2:15 AM"
    },
    {
     "company": "Toptal",
@@ -697,6 +702,13 @@
     "company": "Great Day Improvements",
     "role": "Enterprise Integration Architect",
     "reason": "hands-on — Integration Delivery & Technical Execution: Build and maintain complex Workato recipes, transformations, API endpoints, orchestrations, and automation flows. Required: Hands-on Workato experience, including recipe development, connectors, API integration, event streams (MuleSoft/Boomi hands-on accepted as substitute) - hands-on iPaaS building is a core duty and he has no Workato/MuleSoft/Boomi record. Undated live posting on Indeed (no date on the detail page), verdicted on merits per freshness law; remote USA, $150,000-$160,000 top in band. Workarounds tried: Indeed detail page is the governing text read in full; no architect-only alternate posting found.",
+    "where": "Google Jobs",
+    "time": "2:15 AM"
+   },
+   {
+    "company": "Wesco",
+    "role": "Data Platform Administration Architect",
+    "reason": "experience-mismatch — Qualifications require hands-on experience administering and supporting Databricks and Azure data platforms in enterprise production environments, production support / Major Incident Management / change and release ownership, and 9-10 years of hands-on experience in analysis, design, development, and deployment of large-scale Integration projects preferred. Core is data-platform administration and operations - outside his cloud/enterprise architecture record (no Databricks administration record). Full JD read on Remotive (published 2026-11-09, remote USA, $119,327-$161,092 top in band). Workarounds tried: no alternate architect-level posting of the same role found.",
     "where": "Google Jobs",
     "time": "2:15 AM"
    }
@@ -2020,5 +2032,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T08:15:19Z"
+ "lists_generated_at": "2026-11-15T08:16:51Z"
 }
