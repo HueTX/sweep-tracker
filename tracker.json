@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T07:07:52Z",
+ "generated_at": "2026-11-15T07:10:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "3190e8ca",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-15T07:01:37Z",
-  "last_activity_at": "2026-11-15T07:07:07Z",
+  "last_activity_at": "2026-11-15T07:08:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 736,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 98
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 4,
-  "evaluated": 5
+  "rejected": 5,
+  "evaluated": 6
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 5,
+  "evaluated": 6,
   "filed": 0,
   "parked": 1,
-  "rejected": 4,
+  "rejected": 5,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T07:07:52Z",
-   "detail": "Titles 40/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "2 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-15T07:01:37Z",
-   "ended_at": null
+   "ended_at": "2026-11-15T07:08:28Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +311,22 @@
    "ended_at": "2026-11-15T07:07:08Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T07:10:07Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T07:10:07Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-15T07:10:07Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 1:07 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:08 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 13 of 58 · IT/OT Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 13 of 58 · IT/OT Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -601,6 +599,15 @@
     "reason": "experience-mismatch — Required: Experience with Salesforce.com, ServiceMax, SAP S4/Hana; Experience supporting commercial technology capabilities such as sales enablement, territory management, incentive compensation, channel management, field service, case management, or order-to-cash processes. Workarounds tried: (1) employer's own Stryker careers page (governing text, read in full; posted 11/10/2026, Work flexibility: Remote, Req ID: R576300, Apply path present), (2) search mirror of the same req with identical required experience, (3) no alternate posting changes the required Salesforce/ServiceMax/SAP commercial-platform core, which is a core mismatch with Hubert's Azure/cloud/infrastructure enterprise-architecture experience.",
     "where": "Employer sites",
     "time": "1:06 AM"
+   }
+  ],
+  "Remotive": [
+   {
+    "company": "Coastal",
+    "role": "Principal Technical Architect - Field Service",
+    "reason": "experience-mismatch — Salesforce Architecture Track Record: Minimum of 10 years of hands-on experience designing and delivering complex technical architectures across the Salesforce Platform (Field Service, Service Cloud, Experience Cloud); Deep Salesforce Field Service Domain Knowledge: Demonstrated mastery of core FSL architectural domains; Development & Platform Engineering: Advanced software engineering skills with Apex, Lightning Web Components, SOQL. Workarounds tried: (1) full JD on Remotive (published 2026-11-08, USA Only, remote flexible) identifying the employer as Coastal from the JD text, (2) no alternate route changes the Salesforce Field Service specialist core, which is a core mismatch with Hubert's Azure/cloud enterprise-architecture experience and includes hands-on Apex/LWC development.",
+    "where": "Remotive",
+    "time": "1:08 AM"
    }
   ],
   "CareerBuilder": [
@@ -1820,5 +1827,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T07:07:52Z"
+ "lists_generated_at": "2026-11-15T07:10:07Z"
 }
