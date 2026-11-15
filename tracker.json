@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-15T11:50:12Z",
+ "generated_at": "2026-11-15T11:51:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "5dc40733",
@@ -15,32 +15,32 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-15T11:41:58Z",
-  "last_activity_at": "2026-11-15T11:49:29Z",
+  "last_activity_at": "2026-11-15T11:50:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 734,
+   "covered_units": 726,
    "total_units": 754,
-   "pct": 97
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 15,
-  "evaluated": 16
+  "parked": 1,
+  "rejected": 19,
+  "evaluated": 21
  },
  "today": {
   "date": "2026-11-15",
-  "evaluated": 94,
+  "evaluated": 98,
   "filed": 0,
-  "parked": 1,
-  "rejected": 92,
+  "parked": 2,
+  "rejected": 95,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W20"
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,12 +90,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
-   "families_searched": 38,
+   "phase": "searching",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-15T11:51:40Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -266,13 +266,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-15T11:50:12Z",
-   "detail": "Employers 41/31"
+   "heartbeat_at": null,
+   "detail": "Employers 62/31"
   }
  },
  "stages": {
@@ -302,13 +302,13 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "23 of 44 units done",
+   "detail": "28 of 52 units done",
    "started_at": "2026-11-15T11:41:58Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "active",
-   "detail": "0 of 1 units done",
+   "detail": "1 of 2 units done",
    "started_at": "2026-11-15T11:49:29Z",
    "ended_at": null
   },
@@ -543,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:49 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:50 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 11 of 58 · Domain Architect",
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 11 of 58 · Domain Architect",
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,6 +576,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "BuiltIn": [
+   {
+    "company": "SelectHealth",
+    "role": "Enterprise Solutions Architect-Senior/Consultant",
+    "reason": "credential-needed — Workarounds tried: (1) employer ATS posting (Intermountain Health careers, via BuiltIn) verified live and accepting applications today; (2) alternate route via WhatJobs mirror - routes to the same Intermountain apply flow; (3) no alternate posting of the same role with a direct-apply path found. The Intermountain apply flow requires an applicant account sign-in and this executor cannot create an account or submit through a live browser in this execution - parked credential-needed for the filing path.",
+    "where": "BuiltIn",
+    "time": "5:50 AM"
+   }
+  ],
   "Built In": [
    {
     "company": "Sutherland",
@@ -822,6 +831,13 @@
     "time": "5:28 AM"
    },
    {
+    "company": "Norfolk Southern",
+    "role": "Senior Director, Enterprise Architecture",
+    "reason": "not-remote — Environment: Hybrid 2 days on-site and remote work 3 days per week.",
+    "where": "Employer sites",
+    "time": "5:50 AM"
+   },
+   {
     "company": "Spectrum",
     "role": "Senior Lead Cloud Architect - AVD (RapidScale)",
     "reason": "experience-mismatch — You are comfortable operating at both the architecture and hands-on engineering levels; 3+ years of hands-on Azure Virtual Desktop (AVD) / Windows Virtual Desktop experience in enterprise environments; Demonstrated experience designing and implementing enterprise-scale AVD environments. CORRECTION with new evidence: the employer's own jobs.spectrum.com page for Req 2026-83466 now shows Date posted 11/12/2026 with an Apply Now path, superseding the earlier stale verdict based on the 2026-10-23 Built In date. On the merits the core of this role is hands-on AVD implementation (host pools, images, automation/CI-CD for AVD deployments), a specialist hands-on AVD core that does not align with Hubert's Azure/EA architecture experience (no AVD implementation record). Workarounds tried: (1) employer's own Spectrum posting (governing text, read in full), (2) Built In mirror of the same req, (3) no alternate posting of the same req changes the AVD hands-on core.",
@@ -1050,6 +1066,15 @@
     "time": "5:49 AM"
    }
   ],
+  "Out for Undergrad Job Board": [
+   {
+    "company": "United Airlines",
+    "role": "Principal Architect – IoT",
+    "reason": "aws-first — As a Principal Application Architect, you'll be responsible for engineering management, implementation, configuration and operationalization of a large AWS cloud-based enterprise application & services suite that orchestrates IoT data & sensor sources",
+    "where": "Out for Undergrad Job Board",
+    "time": "5:50 AM"
+   }
+  ],
   "Web Catch-All": [
    {
     "company": "Leidos",
@@ -1085,6 +1110,15 @@
     "reason": "non-US — Location & Working Hours: Canada - Fully Remote. Work from anywhere in Canada! Estimated annual base salary range $121,200.00 - $159,000.00 CAD. Canada-only, engineer-level role - outside US-only scope.",
     "where": "Web Catch-All",
     "time": "2:41 AM"
+   }
+  ],
+  "Haystack": [
+   {
+    "company": "Lyft",
+    "role": "Salesforce Architect",
+    "reason": "not-remote — This role will be in-office on a hybrid schedule — Team Members will be expected to work in the office at least 3 days per week, including on Mondays, Wednesdays, and Thursdays.",
+    "where": "Haystack",
+    "time": "5:50 AM"
    }
   ],
   "ClearanceJobs": [
@@ -1130,9 +1164,9 @@
    {
     "company": "Matson",
     "role": "Technical Architect - Copilot",
-    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite)",
+    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite) Job Type: Contract",
     "where": "Dice",
-    "time": "5:27 AM"
+    "time": "5:50 AM"
    }
   ],
   "Web Catch-All (Jobicy)": [
@@ -2469,5 +2503,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-15T11:50:12Z"
+ "lists_generated_at": "2026-11-15T11:51:40Z"
 }
