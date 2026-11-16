@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T08:15:09Z",
+ "generated_at": "2026-11-16T08:16:54Z",
  "lane_state_source": "model",
  "run": {
-  "id": "a350fadf",
+  "id": "5ab4c612",
   "kind": "cycle",
-  "status": "closed",
+  "status": "running",
   "state": "idle",
   "activity": {
    "searching": false,
@@ -14,22 +14,22 @@
   },
   "live": false,
   "stalled": null,
-  "started_at": "2026-11-16T07:45:24Z",
-  "last_activity_at": "2026-11-16T07:51:23Z",
+  "started_at": "2026-11-16T08:16:54Z",
+  "last_activity_at": "2026-11-16T08:16:54Z",
   "progress": {
    "pools": 21,
-   "covered_units": 754,
+   "covered_units": 726,
    "total_units": 754,
-   "pct": 100
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 6,
-  "evaluated": 7
+  "parked": 0,
+  "rejected": 0,
+  "evaluated": 0
  },
  "today": {
   "date": "2026-11-16",
@@ -66,13 +66,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Titles 58/58"
+   "detail": "Titles 30/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -276,15 +276,15 @@
  "stages": {
   "started": {
    "state": "done",
-   "detail": "Cycle 58 opened 1:45 AM CT",
-   "started_at": "2026-11-16T07:45:24Z",
-   "ended_at": "2026-11-16T07:45:24Z"
+   "detail": "Cycle 59 opened 2:16 AM CT",
+   "started_at": "2026-11-16T08:16:54Z",
+   "ended_at": "2026-11-16T08:16:54Z"
   },
   "prep": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-16T07:45:24Z",
-   "ended_at": "2026-11-16T07:51:41Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-16T08:16:54Z",
+   "ended_at": null
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -299,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "done",
-   "detail": "5 of 5 units done",
-   "started_at": "2026-11-16T07:45:24Z",
-   "ended_at": "2026-11-16T07:51:23Z"
+   "state": "pending",
+   "detail": "0 of 5 units done",
+   "started_at": "2026-11-16T08:16:54Z",
+   "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
-   "started_at": "2026-11-16T07:45:24Z",
-   "ended_at": "2026-11-16T07:48:26Z"
+   "state": "pending",
+   "detail": "0 of 1 units done",
+   "started_at": "2026-11-16T08:16:54Z",
+   "ended_at": null
   },
   "stall_watch": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-16T07:53:22Z"
+   "ended_at": null
   },
   "quality_check": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-16T07:53:22Z"
+   "ended_at": null
   },
   "delivered": {
-   "state": "done",
-   "detail": "cycle closed — all coverage fresh",
+   "state": "pending",
+   "detail": "",
    "started_at": null,
-   "ended_at": "2026-11-16T07:53:22Z"
+   "ended_at": null
   }
  },
  "titles": {
@@ -411,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "complete",
+  "sweep_state": "running",
   "pending": [],
   "acks": [
    {
@@ -541,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 1:51 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "Sweep complete — all coverage fresh",
-   "detail": "Families covered 58/58",
-   "pool": "LinkedIn"
-  }
- ],
+ "note": "Started 2:16 AM CT · 0 filed",
+ "pill": [],
  "now_viewing": {
   "live": false,
   "label": "",
-  "headline": "Sweep complete — all coverage fresh",
-  "detail": "Families covered 58/58"
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1833,5 +1827,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T08:15:09Z"
+ "lists_generated_at": "2026-11-16T08:16:54Z"
 }
