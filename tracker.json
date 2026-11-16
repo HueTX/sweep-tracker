@@ -1,24 +1,24 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T12:03:13Z",
+ "generated_at": "2026-11-16T12:04:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "97020ce1",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-16T11:46:41Z",
-  "last_activity_at": "2026-11-16T12:03:00Z",
+  "last_activity_at": "2026-11-16T12:04:26Z",
   "progress": {
    "pools": 21,
-   "covered_units": 746,
+   "covered_units": 744,
    "total_units": 754,
    "pct": 99
   },
@@ -28,18 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 2,
-  "rejected": 47,
-  "evaluated": 49
+  "rejected": 51,
+  "evaluated": 53
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 177,
+  "evaluated": 180,
   "filed": 0,
   "parked": 2,
-  "rejected": 175,
+  "rejected": 178,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,13 +90,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
-   "families_searched": 50,
+   "phase": "searching",
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 55/39"
+   "heartbeat_at": "2026-11-16T12:04:28Z",
+   "detail": "Employers 83/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -300,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "39 of 52 units done",
+   "detail": "45 of 60 units done",
    "started_at": "2026-11-16T11:46:41Z",
    "ended_at": null
   },
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 6:03 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 6:04 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1401,9 +1409,9 @@
    {
     "company": "City of Houston",
     "role": "IT Architect - Applications (Responsible AI & Innovation)",
-    "reason": "stale — Published: 2026-10-19 - outside the 7-day eligibility window at 2026-11-16. Posting also states 'Reporting Location: 611 WALKER / 1200 TRAVIS' and 'Workdays & Hours: MONDAY - FRIDAY, Office Hours' (Office of the CIO), i.e. office-based in Houston.",
+    "reason": "stale — Published: 2026-10-19",
     "where": "City of Houston portal",
-    "time": "5:39 AM"
+    "time": "6:04 AM"
    }
   ],
   "Google Jobs": [
@@ -1710,6 +1718,13 @@
     "reason": "pay-outside-band — 'Pay Rate Range, $112,000-$135,000' - top of range $135,000 is below the $160,000 band floor. Open Date 09/30/2026, Requisition Number PRN46359B, Salt Lake City, UT. Workarounds tried: (1) University of Utah posting via Dice (governing range); (2) no alternate posting of PRN46359B with a different range found.",
     "where": "Utah state portal",
     "time": "5:39 AM"
+   },
+   {
+    "company": "State of Utah - Department of Transportation (via CAI)",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only)",
+    "where": "Utah state portal",
+    "time": "6:04 AM"
    }
   ],
   "Virginia state portal": [
@@ -1783,6 +1798,20 @@
     "reason": "not-remote — 'The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.' Rolla, Missouri; Job ID 54229; anticipated hiring range $91,125-$165,000 also largely below band. Workarounds tried: (1) university posting text (governing); (2) no fully remote alternate posting of #00092272 found.",
     "where": "Missouri state portal",
     "time": "5:39 AM"
+   },
+   {
+    "company": "State of Missouri - Office of Administration, Information Technology Services Division",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Missouri state portal",
+    "time": "6:04 AM"
+   },
+   {
+    "company": "Missouri University of Science and Technology",
+    "role": "Enterprise Architect-Hybrid",
+    "reason": "not-remote — The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.",
+    "where": "Missouri state portal",
+    "time": "6:04 AM"
    }
   ],
   "USAJOBS / Employer sites": [
@@ -3040,5 +3069,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T12:03:13Z"
+ "lists_generated_at": "2026-11-16T12:04:28Z"
 }
