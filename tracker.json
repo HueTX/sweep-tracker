@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T10:56:56Z",
+ "generated_at": "2026-11-16T10:59:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "6b5bea84",
@@ -10,33 +10,33 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T10:46:30Z",
-  "last_activity_at": "2026-11-16T10:46:30Z",
+  "last_activity_at": "2026-11-16T10:57:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 95
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 1,
+  "rejected": 8,
+  "evaluated": 9
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 35,
+  "evaluated": 42,
   "filed": 0,
   "parked": 0,
-  "rejected": 35,
+  "rejected": 42,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -81,12 +81,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T10:56:56Z",
-   "detail": "Employers 0/30"
+   "heartbeat_at": "2026-11-16T10:59:14Z",
+   "detail": "Employers 10/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -114,12 +114,12 @@
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T10:56:56Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": "2026-11-16T10:59:14Z",
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -303,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 27 units done",
+   "detail": "4 of 27 units done",
    "started_at": "2026-11-16T10:46:30Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T10:46:30Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T10:57:33Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +544,7 @@
    }
   ]
  },
- "note": "Started 4:46 AM CT · 0 filed",
+ "note": "Last activity 4:57 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
@@ -699,6 +699,66 @@
     "time": "2:48 AM"
    }
   ],
+  "Dice": [
+   {
+    "company": "Independence Blue Cross",
+    "role": "Director, Enterprise IT Architecture",
+    "reason": "not-remote — Independence has implemented a 'Hybrid' model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday). This role is designated as a role that fits into the 'Hybrid' model. While associates may work remotely on our designated remote days, the work must be performed in the Tri-State Area of Delaware, New Jersey or Pennsylvania. A stated required office schedule plus a tri-state work location is not-remote for a Houston-based candidate. Listing refreshed on Dice within the last day (surface activity 2026-11-16); the hybrid model stated is the employer's own policy text carried in the posting — no fully-remote alternate posting of req 250852-1 was found.",
+    "where": "Dice",
+    "time": "4:57 AM"
+   }
+  ],
+  "Employer sites": [
+   {
+    "company": "Elevance Health",
+    "role": "Cloud & AI Security Architect",
+    "reason": "not-remote — Location: This role requires associates to be in-office 1-2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. A stated required office schedule is not-remote under the remote rule; candidates must also reside within a commuting distance of an office. Posting dated 2026-11-02 on the employer's posting as mirrored on Built In (governing terms); no fully-remote alternate posting of this role was found.",
+    "where": "Employer sites",
+    "time": "4:57 AM"
+   },
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "Principal Architect",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
+   },
+   {
+    "company": "GSA",
+    "role": "Cloud Security Engineer (Architect)",
+    "reason": "not-remote — Position can be filled in any of the following locations: Kansas City, MO; Fort Worth, TX; Washington, DC; Tacoma, WA; Lakewood, CO or Raleigh, NC.",
+    "where": "Employer sites",
+    "time": "4:15 AM"
+   },
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Lead Solution Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $106,605.00 - $260,590.00. Top of range $260,590 exceeds the $230,000 band ceiling. Source is CVS Health's own Workday posting (the governing text, workaround route 1, read in full 2026-11-16); the same JD also requires '5+ years of full stack development experience' and Java/Python development, which would independently fail the hands-on test. No alternate posting of R1048115 with a different range was found.",
+    "where": "Employer sites",
+    "time": "4:57 AM"
+   },
+   {
+    "company": "GSA",
+    "role": "Architecture Division Director",
+    "reason": "restricted-hiring-path — GSA employee - must be employed in the Office of Architecture & Engineering (OAE).",
+    "where": "Employer sites",
+    "time": "4:15 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director, Advisory Services - Cloud Architect",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. Top of range $230,800 exceeds the $230,000 band ceiling. Remote terms were otherwise eligible ('work remotely * from anywhere within the U.S.', Minneapolis/DC hires excepted; Hubert is Houston-based). Workarounds tried: employer's own posting text via the Built In mirror of the UHG/Optum posting (governing range); no alternate posting of Requisition 2390520 with a different range was found.",
+    "where": "Employer sites",
+    "time": "4:57 AM"
+   },
+   {
+    "company": "Molina Healthcare",
+    "role": "Architect, Information Security - DevSecOps/Application Security",
+    "reason": "devsecops — Title itself is a DevSecOps role, which is an absolute exclusion. JD: 'Partners with development teams, solution architects, DevOps teams, and security stakeholders to embed security controls across the Software Development Lifecycle (SDLC) and support a shift-left DevSecOps model' and 'Provides application security architecture and governance within an AppSec Center of Excellence.' Gate fact — rejected on sight, no workaround owed.",
+    "where": "Employer sites",
+    "time": "4:57 AM"
+   }
+  ],
   "Web Catch-All": [
    {
     "company": "Unqork",
@@ -792,43 +852,34 @@
     "time": "2:48 AM"
    }
   ],
-  "Employer sites": [
-   {
-    "company": "Office of Personnel Management (OPM)",
-    "role": "Principal Architect",
-    "reason": "not-remote — You will be required to report to an OPM assigned office.",
-    "where": "Employer sites",
-    "time": "4:16 AM"
-   },
+  "USAJOBS": [
    {
     "company": "HHS / CMS",
     "role": "IT Specialist (Solution/Platform Architect)",
-    "reason": "restricted-hiring-path — Career Transition Assistance Plan Eligibles; OR Current Permanent Career and Career-Conditional Employees in HHS.",
-    "where": "Employer sites",
-    "time": "4:15 AM"
+    "reason": "eligibility — This job is open to: Career Transition Assistance Plan Eligibles; OR Current Permanent Career and Career-Conditional Employees in HHS. The hiring path is closed to anyone who is not a current HHS federal employee or CTAP eligible; Hubert has never been a US government employee (standing answer), so he is ineligible regardless of the architect duties, which were read in full on USAJOBS (the governing source). Gate fact — no workaround route exists for a closed federal hiring path.",
+    "where": "USAJOBS",
+    "time": "4:57 AM"
    },
-   {
-    "company": "GSA",
-    "role": "Cloud Security Engineer (Architect)",
-    "reason": "not-remote — Position can be filled in any of the following locations: Kansas City, MO; Fort Worth, TX; Washington, DC; Tacoma, WA; Lakewood, CO or Raleigh, NC.",
-    "where": "Employer sites",
-    "time": "4:15 AM"
-   },
-   {
-    "company": "GSA",
-    "role": "Architecture Division Director",
-    "reason": "restricted-hiring-path — GSA employee - must be employed in the Office of Architecture & Engineering (OAE).",
-    "where": "Employer sites",
-    "time": "4:15 AM"
-   }
-  ],
-  "USAJOBS": [
    {
     "company": "Small Business Administration (SBA)",
     "role": "IT Specialist (Junior Solutions Architect)",
     "reason": "not-architect-level — Designs application, integration, data, and infrastructure components of moderately complex SBA IT solutions and produces architecture artifacts and decision records using SBA templates.",
     "where": "USAJOBS",
     "time": "3:46 AM"
+   },
+   {
+    "company": "NASA",
+    "role": "Public Notice - Information Technology Specialist (Direct Hire)",
+    "reason": "stale — USAJOBS announcement 874301200, Published: 06/26/2026 — well outside the 7-day eligibility window as of 2026-11-16. Announcement text: 'Positions advertised are in various organizations and locations. NASA may fill positions in any of the following grade levels listed in this announcement (GS-07/09/11/12/13/14/15 levels).' Read on USAJOBS, the governing source.",
+    "where": "USAJOBS",
+    "time": "4:57 AM"
+   },
+   {
+    "company": "DOJ / FBI",
+    "role": "IT Specialist (Application Architecture)",
+    "reason": "stale — USAJOBS announcement 891256300 (U.S. Attorney's Office, District of Columbia, DOJ), Published: 11/02/2026 — 14 days old on 2026-11-16, outside the 7-day eligibility window. The announcement is additionally restricted: 'Current Federal employees in permanent competitive service positions in the Department of Justice (status candidates) including well-qualified surplus and displaced DOJ employees (CTAP) in the local commuting area. Merit Promotions/Internal Employees/Agency Employees Only.' Read on USAJOBS, the governing source.",
+    "where": "USAJOBS",
+    "time": "4:57 AM"
    }
   ]
  },
@@ -2021,5 +2072,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T10:56:56Z"
+ "lists_generated_at": "2026-11-16T10:59:14Z"
 }
