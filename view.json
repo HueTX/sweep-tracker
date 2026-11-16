@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T13:42:05Z",
+ "generated_at": "2026-11-16T13:44:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "74787b87",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T13:27:11Z",
   "last_activity_at": "2026-11-16T13:40:11Z",
@@ -39,10 +39,7 @@
   "rejected": 209,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W6",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -135,13 +132,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T13:42:05Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 44/44"
   },
   "W9": {
    "label": "Dice",
@@ -256,13 +253,13 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T13:42:05Z",
-   "detail": "Employers 30/41"
+   "heartbeat_at": null,
+   "detail": "Employers 41/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -302,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "22 of 27 units done",
+   "state": "done",
+   "detail": "27 of 27 units done",
    "started_at": "2026-11-16T13:27:11Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:42:27Z"
   },
   "sector_filing": {
    "state": "done",
@@ -314,22 +311,22 @@
    "ended_at": "2026-11-16T13:35:01Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:44:50Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:44:50Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:44:50Z"
   }
  },
  "titles": {
@@ -414,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -544,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 7:40 AM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:40 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 1 of 58 · Azure Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 1 of 58 · Azure Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
