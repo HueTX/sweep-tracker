@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T13:33:18Z",
+ "generated_at": "2026-11-16T13:35:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "74787b87",
@@ -10,36 +10,37 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T13:27:11Z",
-  "last_activity_at": "2026-11-16T13:27:11Z",
+  "last_activity_at": "2026-11-16T13:34:57Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 96
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 1,
+  "rejected": 3,
+  "evaluated": 4
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 202,
+  "evaluated": 205,
   "filed": 0,
   "parked": 2,
-  "rejected": 200,
+  "rejected": 203,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W6",
   "W18"
  ],
  "lanes": {
@@ -134,12 +135,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T13:35:27Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -245,12 +246,12 @@
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T13:33:18Z",
-   "detail": "Employers 0/45"
+   "heartbeat_at": "2026-11-16T13:35:27Z",
+   "detail": "Employers 20/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -283,10 +284,10 @@
    "ended_at": "2026-11-16T13:27:11Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T13:27:11Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:35:01Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -302,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 27 units done",
+   "detail": "4 of 27 units done",
    "started_at": "2026-11-16T13:27:11Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T13:27:11Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:35:01Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -543,7 +544,7 @@
    }
   ]
  },
- "note": "Started 7:27 AM CT · 0 filed",
+ "note": "Last activity 7:34 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 1 of 58 · Azure Architect",
@@ -878,6 +879,13 @@
     "time": "4:57 AM"
    },
    {
+    "company": "Caterpillar",
+    "role": "Senior AI Cloud Solutions Architect",
+    "reason": "not-remote — This position requires working onsite five days a week.",
+    "where": "Employer sites",
+    "time": "7:34 AM"
+   },
+   {
     "company": "Molina Healthcare",
     "role": "AVP, Infrastructure (IaC / Multi-Cloud Architecture / AI) - REMOTE",
     "reason": "stale — Molina's own careers site dates this posting 08/28/2026 - outside the 7-day window. Pay $140,795-$274,550.26 also exceeds the band ceiling at the top, and the role centers on IaC: 'Strong background in Infrastructure as Code (IaC) and multi-cloud architecture design.' Workarounds tried: the employer's own careers posting is the governing text; no fresher alternate posting found.",
@@ -1067,6 +1075,13 @@
     "time": "6:09 AM"
    },
    {
+    "company": "Cummins",
+    "role": "IT Technical Architect - Senior",
+    "reason": "not-remote — Note: The work location for this role is Pune, and candidates are required to work from the Pune office in a hybrid model.",
+    "where": "Employer sites",
+    "time": "7:34 AM"
+   },
+   {
     "company": "Texas Health and Human Services Commission",
     "role": "Enterprise Architect - Lead Cloud Architect",
     "reason": "not-remote — Job Title: Enterprise Architect - Lead Cloud Architect; Location: Austin TX- Hybrid; ( TX-LOCALS NO RELOCATION)",
@@ -1184,6 +1199,13 @@
     "reason": "pay-outside-band — Salary: $41.93 - $61.95 Hourly ($87,214 - $128,856/yr, top below $160,000 band floor); Location: Dimondale, MI; The State of Michigan is not able to offer employment to out of-state applicants that do not plan to relocate.",
     "where": "Employer sites",
     "time": "6:10 AM"
+   },
+   {
+    "company": "RTX",
+    "role": "Associate Director, DT Portfolio Architect - Pursuit and Group Functions (Remote)",
+    "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD.",
+    "where": "Employer sites",
+    "time": "7:34 AM"
    },
    {
     "company": "GSA",
@@ -3227,5 +3249,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T13:33:18Z"
+ "lists_generated_at": "2026-11-16T13:35:27Z"
 }
