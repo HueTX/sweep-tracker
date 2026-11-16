@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T13:31:29Z",
+ "generated_at": "2026-11-16T13:33:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "74787b87",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-16T13:27:11Z",
   "last_activity_at": "2026-11-16T13:27:11Z",
@@ -39,7 +39,9 @@
   "rejected": 200,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -242,12 +244,12 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T13:33:18Z",
    "detail": "Employers 0/45"
   },
   "W19": {
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-16T13:27:11Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-16T13:27:11Z",
    "ended_at": null
@@ -299,13 +301,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 27 units done",
    "started_at": "2026-11-16T13:27:11Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-16T13:27:11Z",
    "ended_at": null
@@ -542,12 +544,18 @@
   ]
  },
  "note": "Started 7:27 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W18"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
