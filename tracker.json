@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T10:16:23Z",
+ "generated_at": "2026-11-16T10:17:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "4cea13fd",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T10:12:13Z",
-  "last_activity_at": "2026-11-16T10:15:59Z",
+  "last_activity_at": "2026-11-16T10:16:50Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 3,
-  "evaluated": 4
+  "rejected": 4,
+  "evaluated": 5
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 34,
+  "evaluated": 35,
   "filed": 0,
   "parked": 0,
-  "rejected": 34,
+  "rejected": 35,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -79,13 +77,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T10:16:23Z",
-   "detail": "Employers 20/30"
+   "heartbeat_at": null,
+   "detail": "Employers 60/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "4 of 12 units done",
+   "state": "done",
+   "detail": "12 of 12 units done",
    "started_at": "2026-11-16T10:12:13Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T10:17:21Z"
   },
   "sector_filing": {
    "state": "done",
@@ -313,22 +311,22 @@
    "ended_at": "2026-11-16T10:16:03Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T10:17:47Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T10:17:47Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T10:17:47Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 4:15 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:16 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 11 of 58 · Domain Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 11 of 58 · Domain Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -792,6 +790,13 @@
    }
   ],
   "Employer sites": [
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "Principal Architect",
+    "reason": "not-remote — You will be required to report to an OPM assigned office.",
+    "where": "Employer sites",
+    "time": "4:16 AM"
+   },
    {
     "company": "HHS / CMS",
     "role": "IT Specialist (Solution/Platform Architect)",
@@ -2013,5 +2018,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T10:16:23Z"
+ "lists_generated_at": "2026-11-16T10:17:47Z"
 }
