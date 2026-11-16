@@ -1,47 +1,45 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T07:13:59Z",
+ "generated_at": "2026-11-16T07:16:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "a0caab4e",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T07:08:51Z",
-  "last_activity_at": "2026-11-16T07:08:51Z",
+  "last_activity_at": "2026-11-16T07:15:46Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 96
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 1,
+  "rejected": 5,
+  "evaluated": 6
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 0,
+  "evaluated": 3,
   "filed": 0,
   "parked": 0,
-  "rejected": 0,
+  "rejected": 3,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W8"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -57,13 +55,13 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
-   "families_searched": 28,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T07:13:59Z",
-   "detail": "Titles 28/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -283,10 +281,10 @@
    "ended_at": "2026-11-16T07:08:51Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T07:08:51Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T07:15:06Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -301,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-16T07:08:51Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T07:15:46Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T07:08:51Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T07:15:07Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T07:16:07Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T07:16:07Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T07:16:07Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Started 1:08 AM CT · 0 filed",
+ "note": "Last activity 1:15 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 1 of 58 · Azure Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 1 of 58 · Azure Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,7 +574,31 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {},
- "today_rejected": {},
+ "today_rejected": {
+  "Web Catch-All": [
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, IT Architecture",
+    "reason": "hands-on-coding — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions.",
+    "where": "Web Catch-All",
+    "time": "1:14 AM"
+   },
+   {
+    "company": "Trimble",
+    "role": "Solutions Architect (Talent Pool)",
+    "reason": "pay-outside-band — Hiring Range, $99,600.00-$137,000.00, Pay Rate Type, Salary",
+    "where": "Web Catch-All",
+    "time": "1:14 AM"
+   },
+   {
+    "company": "LI-COR Biosciences",
+    "role": "Principal Engineer, Cloud Software",
+    "reason": "engineer-level — The Principal Engineer, Cloud Software provides technical direction and hands-on engineering for LI-COR Environmental's connected products and cloud platforms.",
+    "where": "Web Catch-All",
+    "time": "1:14 AM"
+   }
+  ]
+ },
  "lane_companies": {
   "W1": [
    "USAJOBS / DOE labs",
@@ -1767,5 +1789,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T07:13:59Z"
+ "lists_generated_at": "2026-11-16T07:16:07Z"
 }
