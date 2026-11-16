@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T19:23:04Z",
+ "generated_at": "2026-11-16T19:26:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T19:09:51Z",
+  "last_activity_at": "2026-11-16T19:26:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 10,
-  "rejected": 321,
-  "evaluated": 331
+  "parked": 11,
+  "rejected": 327,
+  "evaluated": 338
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 517,
+  "evaluated": 524,
   "filed": 0,
-  "parked": 9,
-  "rejected": 508,
+  "parked": 10,
+  "rejected": 514,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +101,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T19:26:09Z",
    "detail": "Employers 408/73"
   },
   "W4": {
@@ -541,13 +543,19 @@
    }
   ]
  },
- "note": "Last activity 1:09 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 1:26 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W3"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W3",
+  "headline": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
