@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T16:33:44Z",
+ "generated_at": "2026-11-16T16:36:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
@@ -10,33 +10,33 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T16:32:34Z",
+  "last_activity_at": "2026-11-16T16:34:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 724,
    "total_units": 754,
-   "pct": 95
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 3,
-  "rejected": 100,
-  "evaluated": 104
+  "parked": 5,
+  "rejected": 104,
+  "evaluated": 109
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 300,
+  "evaluated": 305,
   "filed": 0,
-  "parked": 4,
-  "rejected": 296,
+  "parked": 5,
+  "rejected": 300,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -226,12 +226,12 @@
    "label": "Financial Services",
    "sites": 59,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T16:33:44Z",
-   "detail": "Employers 35/59"
+   "heartbeat_at": "2026-11-16T16:36:26Z",
+   "detail": "Employers 64/59"
   },
   "W17": {
    "label": "Technology",
@@ -241,8 +241,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T16:33:44Z",
-   "detail": "Employers 84/54"
+   "heartbeat_at": "2026-11-16T16:36:26Z",
+   "detail": "Employers 108/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -252,7 +252,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T16:33:44Z",
+   "heartbeat_at": "2026-11-16T16:36:26Z",
    "detail": "Employers 210/45"
   },
   "W19": {
@@ -263,7 +263,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T16:33:44Z",
+   "heartbeat_at": "2026-11-16T16:36:26Z",
    "detail": "Employers 195/41"
   },
   "W20": {
@@ -305,15 +305,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "181 of 241 units done",
+   "detail": "192 of 241 units done",
    "started_at": "2026-11-16T14:04:52Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "3 of 4 units done",
+   "state": "done",
+   "detail": "4 of 4 units done",
    "started_at": "2026-11-16T14:04:52Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T16:33:46Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -546,7 +546,7 @@
    }
   ]
  },
- "note": "Last activity 10:32 AM CT · 11 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:34 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -579,16 +579,14 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
-  "DiversityJobs": [
-   {
-    "company": "MDU Resources",
-    "role": "Systems Architect",
-    "reason": "credential-needed — This position will be filled remotely. Salary: $135,760 - $169,700. APPLICATION DEADLINE - November 17, 2026",
-    "where": "DiversityJobs",
-    "time": "10:04 AM"
-   }
-  ],
   "Employer sites": [
+   {
+    "company": "Marsh McLennan",
+    "role": "Senior Enterprise Architect",
+    "reason": "stale-unverified — Mirrors of the MMA Senior Enterprise Architect posting (Remote work, #LI-REMOTE, base salary range $115,800 to $202,700) carry passed application deadlines - Applications will be accepted until: October 16, 2026 (Ladders) and October 30, 2026 (Monster) - while JobServe mirrors recirculated it 1-2 days ago. No matching posting could be found on the employer's own careers site to confirm or refute liveness. Workarounds tried: (1) employer-site search for the exact title returned no posting; (2) alternate routes Ladders/Monster/Jooble/Dice mirrors checked, all with passed deadlines; (3) no alternate live posting of the same req found.",
+    "where": "Employer sites",
+    "time": "10:34 AM"
+   },
    {
     "company": "SelectHealth",
     "role": "Enterprise Solutions Architect-Senior/Consultant",
@@ -602,6 +600,15 @@
     "reason": "credential-needed — Filing attempt: governing route is L3Harris's own jobs.l3harris.com portal (Phenom) for Job Code 46929, which requires a candidate account/sign-in before an application can be submitted; no L3Harris credentials are on hand and executors never invent a password. Alternate-route attempt made first per rule: searched Dice, JobServe, DailyRemote, Teal and Remote Rocketship for the same req 46929 - every mirror routes back to the same jobs.l3harris.com Apply path; no board-native apply route exists. Filing unit therefore parks credential-needed, silently, for Hubert to set credentials via Secure Vault.",
     "where": "Employer sites",
     "time": "10:17 AM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "MDU Resources",
+    "role": "Systems Architect",
+    "reason": "credential-needed — This position will be filled remotely. Salary: $135,760 - $169,700. APPLICATION DEADLINE - November 17, 2026",
+    "where": "DiversityJobs",
+    "time": "10:04 AM"
    }
   ],
   "Michigan state portal": [
@@ -979,6 +986,13 @@
     "reason": "duplicate — Otis is seeking a Cybersecurity Architect, Director to play a pivotal role in shaping the future of cybersecurity across our global organization. USD 170,000.00 - 212,000.00 per year, OTCTH: Connecticut Home Offices Remote Location — same req filed 2026-10-07 via Dice per application ledger (LinkedIn 4472119856); repost/relist 2026-11-11 does not reset duplicate gate. Workarounds tried: employer ATS posting checked (governing, same req), Dice route (already applied via Dice).",
     "where": "Employer sites",
     "time": "10:27 AM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Corporate Architect - AI Focused",
+    "reason": "not-remote — Workplace Arrangement: Hybrid - Location: Hartford, CT - Posted Date: October 2, 2026 - Salary Range $129,600.00 - $213,800.00. Workarounds tried: (1) employer's own careers.travelers.com posting is the governing source and states Hybrid; (2) alternate route Career.io mirror of Travelers architect postings shows the same Hartford-based arrangement; (3) no alternate remote posting of req R-52911 found.",
+    "where": "Employer sites",
+    "time": "10:33 AM"
    },
    {
     "company": "Centene",
@@ -1415,6 +1429,13 @@
     "time": "8:37 AM"
    },
    {
+    "company": "Palo Alto Networks",
+    "role": "Professional Services Staff Consultant",
+    "reason": "hands-on — The Professional Services Consultant for Cloud Security delivers hands-on architecture, deployment, integration, and configuration services for Palo Alto Networks virtualized security platforms. Architect & Deploy: Lead the end-to-end design, deployment, and configuration of Palo Alto Networks virtualized appliances (VM-Series, CN-Series, Prisma Cloud) across AWS, Azure, GCP, and private cloud infrastructures. Whole role is hands-on deployment/configuration professional services, not architect-level duties. Workarounds tried: (1) employer's own jobs.paloaltonetworks.com posting is the governing source; (2) no alternate posting of the same req with different duties found.",
+    "where": "Employer sites",
+    "time": "10:34 AM"
+   },
+   {
     "company": "Xcel Energy",
     "role": "Senior Data Architect",
     "reason": "not-remote — Xcel Energy supports a hybrid work model to enable collaboration and flexibility. Many roles are expected to work onsite three days per week (Tuesday-Thursday);",
@@ -1574,6 +1595,13 @@
     "reason": "not-remote — Location for this role is Irving, TX or Peoria, IL. Must be able to work 5 days ONSITE.",
     "where": "Employer sites",
     "time": "8:32 AM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Architect",
+    "reason": "experience-mismatch — Deep expertise in storage and compute for analytical data: columnar and open table formats, lake and lakehouse architecture, partitioning, indexing, query planning, and how the choices affect cost and performance at petabyte scale. Proficiency in one or more of Python, Java, and Go. Proven track record of architecting and delivering large-scale data platforms on cloud infrastructure such as AWS, deployed with Kubernetes, Terraform and Helm. Core duties are data-platform engine architecture (ClickHouse, Elasticsearch, Spark/Trino/Flink) - a core experience mismatch with Hubert's Azure/cloud/enterprise architecture record, and a required hands-on programming language. Workarounds tried: (1) employer's own Twilio posting text (via its careers posting) is the governing source; (2) alternate route Jobspresso mirror carries the same JD; (3) no alternate posting of the same role with different core duties found.",
+    "where": "Employer sites",
+    "time": "10:33 AM"
    },
    {
     "company": "Providence Health Plan",
@@ -2001,6 +2029,13 @@
     "reason": "not-remote — As a Software Architect Sr within PNC's Enterprise Technology (Automation & Platform) organization, you will be based in Dallas, TX. Senior hands-on technical leader responsible for architecting, engineering, and delivering enterprise-scale GenAI and Intelligent Automation solutions",
     "where": "Employer sites",
     "time": "10:29 AM"
+   },
+   {
+    "company": "Akamai Technologies",
+    "role": "Senior Solutions Architect",
+    "reason": "clearance-required — Hold active Secret clearance or ability to obtain one; the T-ICAM variant of the same role states: Hold active Secret clearance and maintain DoD 8140-compliant certification such as Security+ or CISSP. Gate fact - active clearance required, rejected on sight.",
+    "where": "Employer sites",
+    "time": "10:34 AM"
    }
   ],
   "Built In": [
@@ -3277,6 +3312,7 @@
    "Technatomy Corporation"
   ],
   "W8": [
+   "Marsh McLennan",
    "Submission state: UNKNOWN",
    "Brookhaven National Laboratory",
    "Farmers Insurance",
@@ -3839,7 +3875,6 @@
    "MassMutual",
    "TIAA",
    "Aon",
-   "Marsh McLennan",
    "Google",
    "Apple",
    "Adobe",
@@ -3942,5 +3977,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T16:33:44Z"
+ "lists_generated_at": "2026-11-16T16:36:26Z"
 }
