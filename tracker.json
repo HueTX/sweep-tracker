@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T15:20:14Z",
+ "generated_at": "2026-11-16T15:23:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T15:17:47Z",
+  "last_activity_at": "2026-11-16T15:22:36Z",
   "progress": {
    "pools": 21,
-   "covered_units": 724,
+   "covered_units": 706,
    "total_units": 754,
-   "pct": 96
+   "pct": 94
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 65,
-  "evaluated": 66
+  "rejected": 83,
+  "evaluated": 84
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 266,
+  "evaluated": 283,
   "filed": 0,
   "parked": 2,
-  "rejected": 264,
+  "rejected": 281,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
   "W6",
   "W18",
   "W19"
@@ -126,13 +125,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "queued",
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:20:14Z",
-   "detail": "Employers 68/44"
+   "heartbeat_at": null,
+   "detail": "Employers 88/44"
   },
   "W6": {
    "label": "Utilities",
@@ -142,8 +141,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:20:14Z",
-   "detail": "Employers 98/44"
+   "heartbeat_at": "2026-11-16T15:23:20Z",
+   "detail": "Employers 138/44"
   },
   "W9": {
    "label": "Dice",
@@ -248,11 +247,11 @@
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "searching",
-   "families_searched": 58,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:20:14Z",
+   "heartbeat_at": "2026-11-16T15:23:20Z",
    "detail": "Employers 120/45"
   },
   "W19": {
@@ -263,7 +262,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:20:14Z",
+   "heartbeat_at": "2026-11-16T15:23:20Z",
    "detail": "Employers 76/41"
   },
   "W20": {
@@ -305,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "74 of 126 units done",
+   "detail": "86 of 144 units done",
    "started_at": "2026-11-16T14:04:52Z",
    "ended_at": null
   },
@@ -546,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 9:17 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:22 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -634,6 +633,13 @@
     "reason": "stale — Published: 2026-11-02; Compensation Range: $113,000.00 - $197,700.00",
     "where": "Employer sites",
     "time": "5:55 AM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "SAP Solution Architect",
+    "reason": "experience-mismatch — 10+ years of SAP experience.",
+    "where": "Employer sites",
+    "time": "9:20 AM"
    },
    {
     "company": "Oscar Health",
@@ -746,6 +752,13 @@
     "reason": "stale — Published: 2026-09-25T22:03:12; ($143,250-$179,041); Minimum of 10+ years of experience in cybersecurity, with at least 5 years in a leadership role or as a cybersecurity architect.",
     "where": "Employer sites",
     "time": "5:57 AM"
+   },
+   {
+    "company": "Halliburton",
+    "role": "Brazil - Remote: Senior Software Solution Architect",
+    "reason": "stale — We are looking for a hands-on Senior Software Solution Architect to design and guide the build of performant, resilient, and scalable SaaS applications",
+    "where": "Employer sites",
+    "time": "9:20 AM"
    },
    {
     "company": "Ryder System",
@@ -998,6 +1011,13 @@
     "reason": "stale — Built In published 2026-10-05 - outside the 7-day window (opens 2026-11-09). The role itself is remote ('NOTE: This is a WFH role', performable from Texas) with pay $92,700-$167,500, so staleness is the only failing gate. Workarounds tried: Built In carries HCSC's syndicated posting; no fresher alternate posting of the same req found.",
     "where": "Employer sites",
     "time": "5:28 AM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior System Architect (Platform)",
+    "reason": "not-remote — Location: San Antonio, Texas - Additional locations: Findlay, Ohio, Houston, Texas",
+    "where": "Employer sites",
+    "time": "9:20 AM"
    },
    {
     "company": "Expeditors International",
@@ -1555,9 +1575,9 @@
    {
     "company": "Chevron",
     "role": "Principal Solution Architect",
-    "reason": "not-remote — Houston, Texas - Relocation will not be considered.",
+    "reason": "not-remote — Houston, Texas",
     "where": "Employer sites",
-    "time": "7:55 AM"
+    "time": "9:20 AM"
    },
    {
     "company": "The Home Depot",
@@ -1861,6 +1881,57 @@
     "time": "9:07 AM"
    }
   ],
+  "Built In": [
+   {
+    "company": "SLB",
+    "role": "Software Architect",
+    "reason": "stale — Senior data architecture experience, ideally within a federated / data-mesh or Google Cloud (BigQuery, Dataplex) environment",
+    "where": "Built In",
+    "time": "9:20 AM"
+   },
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect, Midstream Operations",
+    "reason": "not-remote — Location: San Antonio, Texas - Job Requisition ID: 00024521",
+    "where": "Built In",
+    "time": "9:20 AM"
+   },
+   {
+    "company": "Sempra",
+    "role": "Cybersecurity Architect - Enterprise Technology",
+    "reason": "stale — HYBRID: Work a combination of onsite and remote days each week, typically 4 days per week onsite.",
+    "where": "Built In",
+    "time": "9:17 AM"
+   },
+   {
+    "company": "American Electric Power",
+    "role": "Sr Architect Staff, Customer Digital Solutions",
+    "reason": "closed — Job Posting End Date 11-13-2026 - Please note the job posting will close on the day before the posting end date.",
+    "where": "Built In",
+    "time": "9:20 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Enterprise Salesforce Architect",
+    "reason": "stale — 10+ years of Salesforce experience, including 5+ years in an architect role",
+    "where": "Built In",
+    "time": "9:17 AM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Solutions Architect",
+    "reason": "stale — As a Solutions Architect, you will leverage your expertise in delivering high-quality technical designs with focus on converting complex business requirements into technical architecture solutions.",
+    "where": "Built In",
+    "time": "9:20 AM"
+   },
+   {
+    "company": "Eversource",
+    "role": "IT Senior Solution Architect - AMI/Metering (Hybrid)",
+    "reason": "stale — Leads enterprise solution architecture for utility metering and IT systems.",
+    "where": "Built In",
+    "time": "9:17 AM"
+   }
+  ],
   "ClearanceJobs": [
    {
     "company": "Guidehouse",
@@ -1949,6 +2020,33 @@
     "time": "6:04 AM"
    }
   ],
+  "HiringCafe": [
+   {
+    "company": "BP",
+    "role": "Lead solution architect",
+    "reason": "not-remote — Lead Solution Architect - Chicago or Houston Hybrid",
+    "where": "HiringCafe",
+    "time": "9:20 AM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "Occidental Petroleum",
+    "role": "ECM System Architect",
+    "reason": "stale — Extensive Experience in ECM Platforms - Minimum 7-10 years of hands-on experience with Enterprise Content Management platforms (e.g., IBM FileNet or similar).",
+    "where": "Simplify",
+    "time": "9:20 AM"
+   }
+  ],
+  "OilProfessionals": [
+   {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "not-remote — Location: Oklahoma City, OK, US - Job ID: 17677",
+    "where": "OilProfessionals",
+    "time": "9:20 AM"
+   }
+  ],
   "Indeed": [
    {
     "company": "Targa Resources",
@@ -1967,6 +2065,13 @@
     "time": "9:17 AM"
    },
    {
+    "company": "NextEra Energy",
+    "role": "Principal IT Architect",
+    "reason": "aws-first — Provide expert guidance for AWS and/or Google Cloud Platform infrastructure architectures, including compute, storage, networking, identity, security, observability, resiliency, disaster recovery, and cost optimization.",
+    "where": "Dice",
+    "time": "9:20 AM"
+   },
+   {
     "company": "Independence Blue Cross",
     "role": "Director, Enterprise IT Architecture",
     "reason": "not-remote — Independence has implemented a 'Hybrid' model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday). This role is designated as a role that fits into the 'Hybrid' model. While associates may work remotely on our designated remote days, the work must be performed in the Tri-State Area of Delaware, New Jersey or Pennsylvania. A stated required office schedule plus a tri-state work location is not-remote for a Houston-based candidate. Listing refreshed on Dice within the last day (surface activity 2026-11-16); the hybrid model stated is the employer's own policy text carried in the posting — no fully-remote alternate posting of req 250852-1 was found.",
@@ -1981,27 +2086,22 @@
     "time": "9:17 AM"
    }
   ],
-  "Built In": [
+  "CareerBuilder": [
    {
-    "company": "Sempra",
-    "role": "Cybersecurity Architect - Enterprise Technology",
-    "reason": "stale — HYBRID: Work a combination of onsite and remote days each week, typically 4 days per week onsite.",
-    "where": "Built In",
-    "time": "9:17 AM"
-   },
+    "company": "Avangrid",
+    "role": "Lead Cloud Architect",
+    "reason": "closed — Lead Cloud Architect - In office Location: Orange, CT",
+    "where": "CareerBuilder",
+    "time": "9:22 AM"
+   }
+  ],
+  "MiTalent": [
    {
-    "company": "Xylem",
-    "role": "Enterprise Salesforce Architect",
-    "reason": "stale — 10+ years of Salesforce experience, including 5+ years in an architect role",
-    "where": "Built In",
-    "time": "9:17 AM"
-   },
-   {
-    "company": "Eversource",
-    "role": "IT Senior Solution Architect - AMI/Metering (Hybrid)",
-    "reason": "stale — Leads enterprise solution architecture for utility metering and IT systems.",
-    "where": "Built In",
-    "time": "9:17 AM"
+    "company": "DTE Energy",
+    "role": "Software Platform Architect",
+    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location.",
+    "where": "MiTalent",
+    "time": "9:22 AM"
    }
   ],
   "Google Jobs": [
@@ -2125,6 +2225,31 @@
     "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date.",
     "where": "DailyRemote",
     "time": "8:27 AM"
+   }
+  ],
+  "Adzuna": [
+   {
+    "company": "PSEG",
+    "role": "IT Solution Architect Principal I",
+    "reason": "not-remote — Work Location Category: Hybrid Flexible",
+    "where": "Adzuna",
+    "time": "9:22 AM"
+   }
+  ],
+  "DiversityJobs": [
+   {
+    "company": "Diamondback Energy",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — We are seeking a highly skilled and experienced Enterprise Data Architect to join our dynamic team at Diamondback.",
+    "where": "DiversityJobs",
+    "time": "9:20 AM"
+   },
+   {
+    "company": "DTE Energy",
+    "role": "IT Specialist - Enterprise Architect",
+    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location.",
+    "where": "DiversityJobs",
+    "time": "9:22 AM"
    }
   ],
   "USAJOBS": [
@@ -2493,6 +2618,15 @@
     "reason": "stale — Opening Date: 10/29/2026",
     "where": "Washington state portal",
     "time": "6:05 AM"
+   }
+  ],
+  "Career.io": [
+   {
+    "company": "Entergy",
+    "role": "Senior AWS Solution Architect",
+    "reason": "aws-first — This is a hybrid position and can be located in The Woodlands, TX, West Monroe, LA, New Orleans, LA, Little Rock, AR or Jackson, MS.",
+    "where": "Career.io",
+    "time": "9:20 AM"
    }
   ]
  },
@@ -3686,5 +3820,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T15:20:14Z"
+ "lists_generated_at": "2026-11-16T15:23:20Z"
 }
