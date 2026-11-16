@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T11:54:33Z",
+ "generated_at": "2026-11-16T11:56:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "97020ce1",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T11:46:41Z",
-  "last_activity_at": "2026-11-16T11:52:39Z",
+  "last_activity_at": "2026-11-16T11:55:53Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 99
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 14,
-  "evaluated": 15
+  "rejected": 20,
+  "evaluated": 22
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 158,
+  "evaluated": 161,
   "filed": 0,
   "parked": 1,
-  "rejected": 157,
+  "rejected": 159,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -91,8 +88,8 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "done",
-   "families_searched": 58,
+   "phase": "queued",
+   "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
@@ -113,13 +110,13 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:54:33Z",
-   "detail": "Employers 42/32"
+   "heartbeat_at": null,
+   "detail": "Employers 64/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -267,13 +264,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:54:33Z",
-   "detail": "Employers 31/31"
+   "heartbeat_at": null,
+   "detail": "Employers 36/31"
   }
  },
  "stages": {
@@ -303,15 +300,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "16 of 28 units done",
+   "detail": "22 of 44 units done",
    "started_at": "2026-11-16T11:46:41Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "1 of 1 units done",
+   "state": "active",
+   "detail": "1 of 2 units done",
    "started_at": "2026-11-16T11:46:41Z",
-   "ended_at": "2026-11-16T11:50:37Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -544,19 +541,13 @@
    }
   ]
  },
- "note": "Last activity 5:52 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 5:55 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -620,16 +611,16 @@
    {
     "company": "CareSource",
     "role": "Architect II",
-    "reason": "stale — Built In published 2026-11-02 - outside the 7-day window (opens 2026-11-09). The role also requires hands-on coding: '3 years full Stack Development experience' and fluency in Python and server-side JavaScript/TypeScript. Workarounds tried: Built In carries CareSource's syndicated posting; Remote Rocketship's earlier first-seen (2026-09-29) is older still; no fresher alternate posting found.",
+    "reason": "stale — Published: 2026-11-02; Compensation Range: $113,000.00 - $197,700.00",
     "where": "Employer sites",
-    "time": "5:30 AM"
+    "time": "5:55 AM"
    },
    {
     "company": "Oscar Health",
     "role": "Salesforce Platform Solutions Architect",
-    "reason": "stale — Posting dated 2026-04-01 on the employer's job board — months outside the 7-day eligibility window as of 2026-11-16. The role is also metro-restricted ('This is a remote position, open to candidates who reside in: Atlanta, GA' / Dallas, TX listings; Houston is not an eligible metro) and Salesforce-platform-specific ('Salesforce certified Application Architect and System Architect' required), neither of which fits. Earliest gate recorded: stale, with the typed board date.",
+    "reason": "stale — Published: 2026-04-01T10:58:31.920Z; The base pay for this role is: $134,136.00 - $176,053.50 per year",
     "where": "Employer sites",
-    "time": "4:59 AM"
+    "time": "5:55 AM"
    },
    {
     "company": "Providence Health Plan",
@@ -700,6 +691,13 @@
     "reason": "stale — Built In NYC published 2025-11-25 - far outside the 7-day window. Pay $130,000-$150,000 is also below the band floor at the top. Workarounds tried: Built In carries Ryder's syndicated posting; no fresher alternate posting found.",
     "where": "Employer sites",
     "time": "5:30 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Principal Cloud Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131",
+    "where": "Employer sites",
+    "time": "5:55 AM"
    },
    {
     "company": "CareFirst",
@@ -893,9 +891,9 @@
    {
     "company": "Blue Cross Blue Shield of North Carolina",
     "role": "Senior Solution Architect",
-    "reason": "not-remote — The employer's own Workday posting (RQ0019600) is slugged 'Hybrid-Flex - Durham' and states: 'In a Hybrid-Flex role, you'll work in the office at least two days a week for collaboration and connection.' A stated required office schedule in Durham, NC is not-remote for a Houston-based candidate. Posting dated 2026-10-20 on the employer's Workday site, the governing source; no Remote-Flex alternate posting of this req was found.",
+    "reason": "stale — Published: 2026-10-23T16:27; $118,691.00 - $189,906.00",
     "where": "Employer sites",
-    "time": "4:59 AM"
+    "time": "5:55 AM"
    },
    {
     "company": "Horizon Blue Cross Blue Shield of New Jersey",
@@ -942,9 +940,9 @@
    {
     "company": "Sentara Health Plans",
     "role": "HR Technology Architect",
-    "reason": "stale — Posting dated 2026-10-23 (Jobgether mirror of Sentara's own careers posting) — 24 days old on 2026-11-16, outside the 7-day eligibility window. The role was otherwise in band ($153,670.40 - $228,009.60) and remote-eligible in Texas; freshness is the sole fail. No refreshed/reposted version surfaced in this unit's searches.",
+    "reason": "stale — Published: 2026-10-23T08:31:14.236Z; The base pay range for full-time employment is $153,670.40 - $228,009.60 annually.",
     "where": "Employer sites",
-    "time": "5:01 AM"
+    "time": "5:55 AM"
    },
    {
     "company": "Premera Blue Cross",
@@ -1008,6 +1006,13 @@
     "reason": "stale — 'Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually' - posting dated 2026-05-29, long outside the 7-day eligibility window and past its application deadline.",
     "where": "Employer sites",
     "time": "5:38 AM"
+   },
+   {
+    "company": "UPS",
+    "role": "Application Architect (AI & Cloud)",
+    "reason": "stale — Published: 2026-10-26T00:00:00Z; Experience architecting cloud-native solutions on GCP. Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run",
+    "where": "Employer sites",
+    "time": "5:55 AM"
    },
    {
     "company": "Providence Health Plan",
@@ -2909,5 +2914,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T11:54:33Z"
+ "lists_generated_at": "2026-11-16T11:56:02Z"
 }
