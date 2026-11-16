@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T13:49:31Z",
+ "generated_at": "2026-11-16T13:51:38Z",
  "lane_state_source": "model",
  "run": {
   "id": "d8b18bc9",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-16T13:49:31Z",
   "last_activity_at": "2026-11-16T13:49:31Z",
@@ -39,7 +39,10 @@
   "rejected": 209,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -121,23 +124,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T13:51:38Z",
    "detail": "Employers 0/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T13:51:38Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -281,7 +284,7 @@
    "ended_at": "2026-11-16T13:49:31Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-16T13:49:31Z",
    "ended_at": null
@@ -299,13 +302,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 18 units done",
    "started_at": "2026-11-16T13:49:31Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-16T13:49:31Z",
    "ended_at": null
@@ -542,12 +545,18 @@
   ]
  },
  "note": "Started 7:49 AM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -3282,5 +3291,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T13:49:31Z"
+ "lists_generated_at": "2026-11-16T13:51:38Z"
 }
