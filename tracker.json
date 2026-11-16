@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T11:38:27Z",
+ "generated_at": "2026-11-16T11:39:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "6b5bea84",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T10:46:30Z",
-  "last_activity_at": "2026-11-16T11:35:21Z",
+  "last_activity_at": "2026-11-16T11:38:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,21 +27,20 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 1,
-  "rejected": 99,
-  "evaluated": 100
+  "parked": 2,
+  "rejected": 113,
+  "evaluated": 115
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 131,
+  "evaluated": 146,
   "filed": 0,
-  "parked": 0,
-  "rejected": 131,
+  "parked": 1,
+  "rejected": 145,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W20"
+  "W2"
  ],
  "lanes": {
   "LinkedIn": {
@@ -96,8 +95,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:38:27Z",
-   "detail": "Employers 35/39"
+   "heartbeat_at": "2026-11-16T11:39:48Z",
+   "detail": "Employers 60/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -267,13 +266,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:38:27Z",
-   "detail": "Employers 123/31"
+   "heartbeat_at": null,
+   "detail": "Employers 124/31"
   }
  },
  "stages": {
@@ -303,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "80 of 90 units done",
+   "detail": "86 of 90 units done",
    "started_at": "2026-11-16T10:46:30Z",
    "ended_at": null
   },
@@ -544,18 +543,18 @@
    }
   ]
  },
- "note": "Last activity 5:35 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:38 AM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W2 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W2",
+  "headline": "W2 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,7 +575,17 @@
  "date": "2026-11-16",
  "today_filings": {},
  "today_filed_by_source": {},
- "today_parked": {},
+ "today_parked": {
+  "Michigan state portal": [
+   {
+    "company": "State of Michigan",
+    "role": "Cloud Architect (Remote)",
+    "reason": "not-evaluated — Aggregator listing (GSK Solutions Inc, $100/hr, 'Fully Remote position') states only: 'The State of Michigan is looking for three different candidates with a focus on cloud engineering Cloud deployment.' No full JD with duties was available on the listing to verdict on the merits - left not-evaluated rather than verdicted from a snippet.",
+    "where": "Michigan state portal",
+    "time": "5:38 AM"
+   }
+  ]
+ },
  "today_rejected": {
   "Employer sites": [
    {
@@ -972,6 +981,13 @@
     "time": "5:33 AM"
    },
    {
+    "company": "Maricopa County",
+    "role": "Enterprise Architect (Infrastructure & Platform Domain)",
+    "reason": "stale — 'Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually' - posting dated 2026-05-29, long outside the 7-day eligibility window and past its application deadline.",
+    "where": "Employer sites",
+    "time": "5:38 AM"
+   },
+   {
     "company": "Providence Health Plan",
     "role": "Principal IS Architect PHP",
     "reason": "not-remote — Req 421581: virtual/remote work is offered only to WA/OR/CA residents (one posting version limits it to within 75 miles of the Seattle/Renton/Redmond/Portland offices). Hubert is Houston, TX-based, so Texas is excluded from the remote eligibility - the role is not remote for him. Workarounds tried: Providence's own posting carries the same state restriction; no Texas-eligible alternate posting of the same req found.",
@@ -1012,6 +1028,20 @@
     "reason": "stale — Monster lists 'Posted 09/18/2026' (published 2026-09-19) - outside the 7-day window. The posting is also 'Position Type: Office- Hybrid' at 501 Penn Avenue, Pittsburgh, PA (Req J286829). Workarounds tried: Monster carries Highmark's own careers syndication; no fresher or fully-remote alternate posting found.",
     "where": "Employer sites",
     "time": "5:28 AM"
+   },
+   {
+    "company": "Maricopa County Community College District",
+    "role": "Data Architect Manager",
+    "reason": "pay-outside-band — 'Salary Range $104,361.28 - $135,699.26 DOE' - top of range $135,699 is below the $160,000 band floor. Job ID: 323397, Posted: October 09, 2026. Workarounds tried: employer's own posting via CareerBuilder mirror carries this range; no alternate posting with a different range found.",
+    "where": "Employer sites",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "King County",
+    "role": "Network Fiber Architect",
+    "reason": "stale — 'The application period has now closed. Only Priority Placement Program participant applications will be added to the candidate pool.' 'These positions are only open to Internal King County employees.' 'The primary onsite location is the Graybar Building, 416 Occidental Ave S, Seattle, WA 98104.' Published 2026-10-07, outside the 7-day window and closed. Classification: Solutions Architect (Job code: 743801).",
+    "where": "Employer sites",
+    "time": "5:38 AM"
    },
    {
     "company": "GSA",
@@ -1317,6 +1347,13 @@
     "reason": "not-remote — Independence has implemented a 'Hybrid' model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday). This role is designated as a role that fits into the 'Hybrid' model. While associates may work remotely on our designated remote days, the work must be performed in the Tri-State Area of Delaware, New Jersey or Pennsylvania. A stated required office schedule plus a tri-state work location is not-remote for a Houston-based candidate. Listing refreshed on Dice within the last day (surface activity 2026-11-16); the hybrid model stated is the employer's own policy text carried in the posting — no fully-remote alternate posting of req 250852-1 was found.",
     "where": "Dice",
     "time": "4:57 AM"
+   },
+   {
+    "company": "Matson",
+    "role": "Technical Architect - Copilot",
+    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite) Job Type: Contract; 'act as the trusted onsite point of continuity' for Matson leadership. Contract $70 - $80/hr also does not exceed the $85/hr contract floor. Workarounds tried: (1) Matson's own careers site searched 2026-11-16 - no direct Matson posting for this role; (2) Dice (the finding route) carries the onsite terms; (3) no alternate remote posting of Position Id 9127755 found.",
+    "where": "Dice",
+    "time": "5:38 AM"
    }
   ],
   "USAJOBS": [
@@ -1470,6 +1507,66 @@
     "time": "2:48 AM"
    }
   ],
+  "ClearanceJobs": [
+   {
+    "company": "Peraton",
+    "role": "Sr. AWS Cloud Architect",
+    "reason": "stale — Published: 2026-10-31 - outside the 7-day eligibility window at 2026-11-16. JD describes AWS (primary) and Azure (secondary), which would also fail cloud scope as AWS-first.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Cloud Architect-Forward Deployed Engineer (FDE)",
+    "reason": "not-remote — 'This is a HYBRID position that involves a combination of remote, in-office work and meetings at the client site. Candidates must reside or live in a commutable distance to St. Louis Mo.' Workarounds tried: ClearanceJobs detail page is the Oracle governing text; no fully remote alternate posting of this FDE role found.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Leidos",
+    "role": "IT Solutions Architect",
+    "reason": "stale — 'Original Posting: November 6, 2026' - 10 days old at 2026-11-16, outside the 7-day eligibility window. Pay Range $107,900.00 - $195,050.00 and remote within CONUS were otherwise noted on the ClearanceJobs detail page for R-00196488.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Leidos",
+    "role": "Cloud Data Architect",
+    "reason": "pay-outside-band — 'Pay Range: Pay Range $154,050.00 - $278,475.00' - top of range $278,475 exceeds the $230,000 band ceiling. Original Posting: November 10, 2026; remote within CONUS and Azure duties otherwise aligned. Workarounds tried: (1) ClearanceJobs detail page is the Leidos governing text for R-00196689; (2) no alternate posting of this req with a different range found.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "THOR Solutions, LLC",
+    "role": "Azure Solutions Architect",
+    "reason": "stale — Published: 2026-10-20 - outside the 7-day eligibility window at 2026-11-16. JD also states 'Hybrid from THOR office location in San Diego, CA is highly preferred' and 'Typical Pay Range: $85,000 - 105,000', which would independently fail remote and pay tests.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Linchpin Software",
+    "role": "Cloud & AI Solutions Architect",
+    "reason": "clearance — 'Active Top Secret, TS/SCI, or Intel Agency clearance' required; 'Clearance: active Top Secret, TS/SCI, or Intel Agency clearance required. We can't sponsor one for this role.' Location also 'Chantilly, VA (50% telework)'. Gate fact - reject on sight, no workaround owed.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Suvi Global Services",
+    "role": "Applications Architect (Enterprise Modernization & Cloud Migration)",
+    "reason": "stale — Published: 2026-11-05 - 11 days old at 2026-11-16, outside the 7-day eligibility window. JD also states 'This hybrid position requires applicants to be within a reasonable commuting distance of the work location.' Job ID 2026-26802, Pay Range $160,000 - $170,000.",
+    "where": "ClearanceJobs",
+    "time": "5:38 AM"
+   }
+  ],
+  "Massachusetts state portal": [
+   {
+    "company": "Massachusetts Department of Transportation",
+    "role": "Sr. Cloud Architect",
+    "reason": "not-remote — 'The primary work location will be remote, with the requirement to be on-site at MassDOT headquarters at 10 Park Plaza, Boston MA, one day per week' and 'Candidates hired for this position must reside in MA/NH/RI' - hybrid schedule, not 100% remote. Workarounds tried: (1) MassDOT state posting text via the direct-client listing (governing terms); (2) alternate listings of the same MassDOT req carry the same 1-day-per-week onsite requirement; (3) no fully remote alternate posting found.",
+    "where": "Massachusetts state portal",
+    "time": "5:38 AM"
+   }
+  ],
   "Texas WorkInTexas": [
    {
     "company": "Texas Health and Human Services Commission",
@@ -1493,6 +1590,22 @@
     "reason": "not-remote — INFORMATION AND TECHNOLOGY SERVICES, 400 7th Street SW, Washington, DC 20219, US — the posting's own USAJOBS detail page (read in full this wake, superseding the earlier not-evaluated park) states a Washington, DC duty station at OCC headquarters and offers no remote or telework eligibility anywhere in the announcement. Workarounds tried: (1) employer's own ATS posting (USAJOBS detail page) as governing text; (2) alternate-route search for the same req found no remote posting; (3) no alternate posting of the same role found.",
     "where": "USAJOBS / Employer sites",
     "time": "5:19 AM"
+   }
+  ],
+  "Michigan state portal": [
+   {
+    "company": "State of Michigan CEPI",
+    "role": "Cloud Architect",
+    "reason": "not-remote — 'Position location: Lansing, MI. Resource will be working a hybrid schedule. NO REMOTE ONLY OPTION. Will need to be onsite from day 1, two days a week (onsite days are Wednesdays and Thursdays)' - hybrid, not 100% remote. Pay $90/hr C2C / $85/hr W2 also does not exceed the contract floor on W2. Workarounds tried: (1) CEPI listing text (governing); (2) no fully remote alternate posting of this CEPI req found.",
+    "where": "Michigan state portal",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "State of Michigan",
+    "role": "Cloud Architect - Operations Designer",
+    "reason": "hands-on — Fully remote US role, but the whole role is delivery/operations engineering: 'Experience with Tooling and Automation to enable seamless automation of infrastructure provisioning and configuration', 'Pipeline Design and Architecture to improve development flow and delivery', 'Cloud Formation / automation / Ansible / Power / DSC / Comparable Linux scripting', 'Experience equivalent to site reliability engineering, DevOps, and/or DevSecOps', skill matrix headed 'Cloud Delivery Engineer / Architect'. Whole-role test fails - infrastructure provisioning/pipeline construction as the main output. Workarounds tried: (1) full JD text via the Michigan DTMB/PDSS listing (governing); (2) alternate GSK remote listing for a Michigan cloud role is a separate engineer-focused req; (3) no architect-level alternate posting of 124872 found.",
+    "where": "Michigan state portal",
+    "time": "5:38 AM"
    }
   ],
   "GovernmentJobs.com / NEOGOV agencies": [
@@ -2701,5 +2814,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T11:38:27Z"
+ "lists_generated_at": "2026-11-16T11:39:48Z"
 }
