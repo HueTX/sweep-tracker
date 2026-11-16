@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-16T22:17:23Z",
+ "generated_at": "2026-11-16T22:22:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "f9428648",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
    "searching": false,
-   "filing": true
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T22:06:43Z",
-  "last_activity_at": "2026-11-16T22:15:31Z",
+  "last_activity_at": "2026-11-16T22:22:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 0,
@@ -27,15 +27,15 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 14,
+  "parked": 32,
   "rejected": 4,
-  "evaluated": 18
+  "evaluated": 36
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 532,
+  "evaluated": 545,
   "filed": 1,
-  "parked": 17,
+  "parked": 30,
   "rejected": 514,
   "filed_by_source": {
    "ADP Career Center": 1
@@ -308,7 +308,7 @@
   },
   "sector_filing": {
    "state": "active",
-   "detail": "17 of 51 units done",
+   "detail": "35 of 51 units done",
    "started_at": "2026-11-16T22:06:43Z",
    "ended_at": null
   },
@@ -416,6 +416,16 @@
   "sweep_state": "running",
   "pending": [],
   "acks": [
+   {
+    "id": "noid-f59b6492908741da",
+    "actuated_at": "2026-11-16T22:22:44Z",
+    "effect": "unknown (recorded, no-op)"
+   },
+   {
+    "id": "noid-c25f25b757e184fd",
+    "actuated_at": "2026-11-16T22:22:44Z",
+    "effect": "unknown (recorded, no-op)"
+   },
    {
     "id": "a0aa2fd5-ff14-4624-b3a8-a5f46dc3f865",
     "actuated_at": "2026-11-10T06:28:33Z",
@@ -530,21 +540,11 @@
     "id": "gh-41547890370",
     "actuated_at": "2026-11-02T23:51:35Z",
     "effect": "sweep stop"
-   },
-   {
-    "id": "chat-stop-20261102-hubert-tap",
-    "actuated_at": "2026-11-02T22:18:22Z",
-    "effect": "sweep stop"
-   },
-   {
-    "id": "chat-start-20261028-employerlanes-v2",
-    "actuated_at": "2026-10-28T15:07:40Z",
-    "effect": "sweep start"
    }
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:15 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:22 PM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -814,11 +814,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 2819,
-   "unit_id": 18,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:49Z"
+   "winner_disposition_id": 13076,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:53Z"
   },
   {
    "lead_id": 2418,
@@ -828,11 +828,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2894,
-   "unit_id": 19,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:49Z"
+   "winner_disposition_id": 13077,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:53Z"
   },
   {
    "lead_id": 2419,
@@ -842,11 +842,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2895,
-   "unit_id": 20,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:49Z"
+   "winner_disposition_id": 13078,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:54Z"
   },
   {
    "lead_id": 2420,
@@ -856,11 +856,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2896,
-   "unit_id": 21,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:50Z"
+   "winner_disposition_id": 13079,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:54Z"
   },
   {
    "lead_id": 2421,
@@ -870,11 +870,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2897,
-   "unit_id": 22,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:50Z"
+   "winner_disposition_id": 13080,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:54Z"
   },
   {
    "lead_id": 2422,
@@ -884,11 +884,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2898,
-   "unit_id": 23,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:50Z"
+   "winner_disposition_id": 13081,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:18:54Z"
   },
   {
    "lead_id": 2423,
@@ -898,11 +898,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "Dice",
-   "winner_disposition_id": 2899,
-   "unit_id": 24,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:50Z"
+   "winner_disposition_id": 13082,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:43Z"
   },
   {
    "lead_id": 2687,
@@ -912,11 +912,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3162,
-   "unit_id": 25,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:50Z"
+   "winner_disposition_id": 13083,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:43Z"
   },
   {
    "lead_id": 2688,
@@ -926,11 +926,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3163,
-   "unit_id": 26,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:51Z"
+   "winner_disposition_id": 13084,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:43Z"
   },
   {
    "lead_id": 2689,
@@ -940,11 +940,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3164,
-   "unit_id": 27,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:51Z"
+   "winner_disposition_id": 13085,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:43Z"
   },
   {
    "lead_id": 2710,
@@ -955,10 +955,10 @@
    "deadline": null,
    "where": "TealHQ",
    "winner_disposition_id": 3222,
-   "unit_id": 28,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:51Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:44Z"
   },
   {
    "lead_id": 2758,
@@ -968,11 +968,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3287,
-   "unit_id": 29,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:51Z"
+   "winner_disposition_id": 13087,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:20:44Z"
   },
   {
    "lead_id": 2782,
@@ -983,10 +983,10 @@
    "deadline": null,
    "where": "LinkedIn",
    "winner_disposition_id": 3329,
-   "unit_id": 30,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:51Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:16Z"
   },
   {
    "lead_id": 2828,
@@ -996,11 +996,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3385,
-   "unit_id": 31,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:52Z"
+   "winner_disposition_id": 13089,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:16Z"
   },
   {
    "lead_id": 2875,
@@ -1010,11 +1010,11 @@
    "blocker": "approval-blocked",
    "deadline": null,
    "where": "LinkedIn",
-   "winner_disposition_id": 3464,
-   "unit_id": 32,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:52Z"
+   "winner_disposition_id": 13090,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:16Z"
   },
   {
    "lead_id": 3860,
@@ -1025,10 +1025,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 4797,
-   "unit_id": 33,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:52Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:17Z"
   },
   {
    "lead_id": 3864,
@@ -1039,10 +1039,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 4806,
-   "unit_id": 34,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:52Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:17Z"
   },
   {
    "lead_id": 3959,
@@ -1052,11 +1052,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "Employer sites",
-   "winner_disposition_id": 12895,
-   "unit_id": 35,
-   "unit_created_at": "2026-11-16T22:06:43Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-16T22:09:52Z"
+   "winner_disposition_id": 13093,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 2,
+   "last_attempt_at": "2026-11-16T22:22:17Z"
   },
   {
    "lead_id": 3974,
@@ -1340,9 +1340,9 @@
    {
     "company": "Sherwin-Williams",
     "role": "Principal Practice Enterprise Architect AI",
-    "reason": "credential-needed — Filing unit 7554 retry of the current-cycle PASS (disposition 12831, employer's Oracle careers job 2626549, published 2026-11-09, 100% remote, $153,842-$200,728): the only apply route is Sherwin-Williams' Oracle Candidate Experience portal, which requires a candidate account sign-in/creation before applying, and no Sherwin-Williams credentials are on record - never invent a password; Hubert sets credentials via the Secure Vault. Alternate-route attempt this wake: searched for the same req - Dice carries only the sibling Principal Practice Enterprise Architect Data role (47a4a734), Teal/DailyRemote route back to the same Oracle portal; no board-native apply route exists for this req. Same wall as the 2026-11-15 park (disposition 12226).",
+    "reason": "credential-needed — The only apply route is Sherwin-Williams' Oracle Candidate Experience portal, which requires a candidate account sign-in/creation before applying, and no Sherwin-Williams credentials are on record - never invent a password. Alternate routes route back to the same Oracle portal. Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
     "where": "Employer sites",
-    "time": "11:22 AM"
+    "time": "4:22 PM"
    },
    {
     "company": "Zoetis",
@@ -1396,6 +1396,55 @@
     "reason": "upload-approval-blocked — LinkedIn Easy Apply filing for posting 4477395279 reached a file-upload approval prompt (browser window state needs_user, waiting on approval card) with no user available in this detached run. Nothing submitted, no Applied proof obtained. Distinct posting from prior Tenth Revolution filings per do-not-reapply check.",
     "where": "LinkedIn",
     "time": "4:15 PM"
+   },
+   {
+    "company": "Concorde, Inc",
+    "role": "System Architect",
+    "reason": "credential-needed — LinkedIn Easy Apply modal could not be completed: the session hit a 1Password sign-in/approval prompt that never cleared, and the sign-in agent reported it could not sign in to LinkedIn using the existing saved sign-ins. Re-check 2026-11-16: parked blocker stands; no new credential/approval available, no submission attempted, no 'Applied' state exists.",
+    "where": "LinkedIn",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "Provisions Group",
+    "role": "Cloud Architecture Lead",
+    "reason": "credential-needed — Filing routes to Provisions Group's Workday tenant, which requires signing in to or creating a Workday candidate account; no credential for this tenant exists and no password was invented. Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:21 PM"
+   },
+   {
+    "company": "Tential Solutions",
+    "role": "Manager, Cloud Architecture (Azure-Focused)",
+    "reason": "credential-needed — External Apply routes to Tential's talent community portal, which requires creating/signing into a talent-community profile before any application form; no credential was invented and no profile was created. Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:21 PM"
+   },
+   {
+    "company": "Tential Solutions",
+    "role": "Solutions Architect, Cloud & Infrastructure",
+    "reason": "credential-needed — External Apply routed to the Tential talent-community wall, requiring creating/signing into a Tential talent-community profile before applying; no profile was created and no password invented. Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:21 PM"
+   },
+   {
+    "company": "Archer",
+    "role": "Solution Architect",
+    "reason": "credential-needed — LinkedIn Apply routed to hackajob external application; flow required creating a new hackajob account with a new password. Parked per rules: never invent a password. Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:21 PM"
+   },
+   {
+    "company": "Gainwell Technologies",
+    "role": "Lead Application Architect (Healthcare & Medicaid)",
+    "reason": "credential-needed — Apply routed to SAP SuccessFactors sign-in (career41.sapsf.com) - no saved login exists and account creation is prohibited (never invent a password). Re-check 2026-11-16: parked blocker stands; no new credential available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:22 PM"
+   },
+   {
+    "company": "LABUR",
+    "role": "Senior Business Architect",
+    "reason": "approval-blocked — LABUR portal application dialog: the 'Upload your resume' box exposes no accessible file-input control, so with no resume attached the SEND button stayed disabled and nothing was submitted; completing needs a manual resume attach. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "LinkedIn",
+    "time": "4:22 PM"
    }
   ],
   "UKG UltiPro": [
@@ -1441,6 +1490,50 @@
     "reason": "credential-needed — Log in with Facebook; Log in with Google; Log in with LinkedIn; Log in with Email; Log in with iCIMS account. Filing blocked at the iCIMS login wall for REQ_00246708 - never invent a password; park credential-needed. Nothing submitted.",
     "where": "iCIMS",
     "time": "4:15 PM"
+   }
+  ],
+  "Dice": [
+   {
+    "company": "Lumen",
+    "role": "Senior Lead Network Architect",
+    "reason": "approval-blocked — Dice apply wizard reached and stalled on upload approval card; per park-on-approval no submission was made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "DevCare Solutions",
+    "role": "Integration Architect",
+    "reason": "approval-blocked — Not attempted after Lumen Dice wizard in same batch proved upload-approval-blocked; tailored resume staged, no submission made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "Spruce Technology Inc.",
+    "role": "Remote - Workato Integration Architect with 10+years exp - USA",
+    "reason": "approval-blocked — Not attempted after Lumen Dice wizard in same batch proved upload-approval-blocked; tailored resume staged, no submission made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "Keypixel Software Solutions",
+    "role": "Azure Integration Architect",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven on the Lumen Dice wizard; resume staged, no submission made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "AKAASA Technologies",
+    "role": "Sr Integration Architect - Workday Financials || Remote",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven on the Lumen Dice wizard; resume staged, no submission made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:19 PM"
+   },
+   {
+    "company": "Bright Sol",
+    "role": "Senior Data Center Advisory Consultant with Hyperscale Data Centers and GPUs :: Remote",
+    "reason": "approval-blocked — Dice filing in a detached run is blocked at the resume-upload approval step, proven on the Lumen Dice wizard; resume staged, no submission made. Re-check 2026-11-16: parked blocker stands; no new approval available, no submission attempted.",
+    "where": "Dice",
+    "time": "4:21 PM"
    }
   ],
   "Indeed": [
@@ -6359,5 +6452,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T22:17:23Z"
+ "lists_generated_at": "2026-11-16T22:22:44Z"
 }
