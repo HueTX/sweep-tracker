@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T13:08:10Z",
+ "generated_at": "2026-11-16T13:10:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "f089b2ac",
   "kind": "cycle",
-  "status": "running",
-  "state": "active",
+  "status": "closed",
+  "state": "idle",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-16T13:02:35Z",
   "last_activity_at": "2026-11-16T13:07:57Z",
   "progress": {
    "pools": 21,
-   "covered_units": 744,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -39,9 +39,7 @@
   "rejected": 200,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -123,13 +121,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T13:08:10Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 44/44"
   },
   "W6": {
    "label": "Utilities",
@@ -283,10 +281,10 @@
    "ended_at": "2026-11-16T13:02:35Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T13:02:35Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:08:13Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -301,34 +299,34 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "0 of 9 units done",
+   "state": "done",
+   "detail": "9 of 9 units done",
    "started_at": "2026-11-16T13:02:35Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:09:21Z"
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T13:02:35Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T13:08:13Z"
   },
   "stall_watch": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:10:09Z"
   },
   "quality_check": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:10:09Z"
   },
   "delivered": {
-   "state": "pending",
-   "detail": "",
+   "state": "done",
+   "detail": "cycle closed — all coverage fresh",
    "started_at": null,
-   "ended_at": null
+   "ended_at": "2026-11-16T13:10:09Z"
   }
  },
  "titles": {
@@ -413,7 +411,7 @@
    "W20"
   ],
   "scoped_titles": null,
-  "sweep_state": "running",
+  "sweep_state": "complete",
   "pending": [],
   "acks": [
    {
@@ -543,18 +541,18 @@
    }
   ]
  },
- "note": "Last activity 7:07 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:07 AM CT · 0 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 11 of 58 · Domain Architect",
+   "primary": "Sweep complete — all coverage fresh",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "LinkedIn"
   }
  ],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 11 of 58 · Domain Architect",
+  "live": false,
+  "label": "",
+  "headline": "Sweep complete — all coverage fresh",
   "detail": "Families covered 58/58"
  },
  "rules": {
