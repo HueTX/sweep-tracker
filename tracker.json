@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T17:20:05Z",
+ "generated_at": "2026-11-16T17:23:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T17:15:40Z",
+  "last_activity_at": "2026-11-16T17:22:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 716,
    "total_units": 754,
-   "pct": 94
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 5,
-  "rejected": 160,
-  "evaluated": 166
+  "parked": 6,
+  "rejected": 172,
+  "evaluated": 178
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 360,
+  "evaluated": 372,
   "filed": 0,
-  "parked": 5,
-  "rejected": 354,
+  "parked": 6,
+  "rejected": 366,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -228,19 +228,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T17:20:05Z",
-   "detail": "Employers 98/59"
+   "heartbeat_at": "2026-11-16T17:23:01Z",
+   "detail": "Employers 103/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T17:20:05Z",
-   "detail": "Employers 255/54"
+   "heartbeat_at": "2026-11-16T17:23:01Z",
+   "detail": "Employers 265/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -303,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "234 of 300 units done",
+   "detail": "237 of 300 units done",
    "started_at": "2026-11-16T14:04:52Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "4 of 5 units done",
+   "state": "done",
+   "detail": "5 of 5 units done",
    "started_at": "2026-11-16T14:04:52Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T17:22:06Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 11:15 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:22 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 1 of 58 · Azure Architect",
@@ -584,6 +584,13 @@
     "reason": "stale-unverified — Mirrors of the MMA Senior Enterprise Architect posting (Remote work, #LI-REMOTE, base salary range $115,800 to $202,700) carry passed application deadlines - Applications will be accepted until: October 16, 2026 (Ladders) and October 30, 2026 (Monster) - while JobServe mirrors recirculated it 1-2 days ago. No matching posting could be found on the employer's own careers site to confirm or refute liveness. Workarounds tried: (1) employer-site search for the exact title returned no posting; (2) alternate routes Ladders/Monster/Jooble/Dice mirrors checked, all with passed deadlines; (3) no alternate live posting of the same req found.",
     "where": "Employer sites",
     "time": "10:34 AM"
+   },
+   {
+    "company": "Sherwin-Williams",
+    "role": "Principal Practice Enterprise Architect AI",
+    "reason": "credential-needed — Filing unit 7554 retry of the current-cycle PASS (disposition 12831, employer's Oracle careers job 2626549, published 2026-11-09, 100% remote, $153,842-$200,728): the only apply route is Sherwin-Williams' Oracle Candidate Experience portal, which requires a candidate account sign-in/creation before applying, and no Sherwin-Williams credentials are on record - never invent a password; Hubert sets credentials via the Secure Vault. Alternate-route attempt this wake: searched for the same req - Dice carries only the sibling Principal Practice Enterprise Architect Data role (47a4a734), Teal/DailyRemote route back to the same Oracle portal; no board-native apply route exists for this req. Same wall as the 2026-11-15 park (disposition 12226).",
+    "where": "Employer sites",
+    "time": "11:22 AM"
    },
    {
     "company": "SelectHealth",
@@ -909,6 +916,13 @@
     "time": "5:30 AM"
    },
    {
+    "company": "Fidelity Investments",
+    "role": "Director, Architecture",
+    "reason": "stale — Published: 2026-11-05; Fidelity is transitioning to a full-time onsite working model through a phased rollout across regions and roles. Location Durham, NC. Workarounds tried: employer's own ATS posting (jobs.fidelity.com) is the governing text checked; no alternate route changes the posted date or onsite model.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
     "company": "Sherwin-Williams",
     "role": "Principal Practice Enterprise Architect Data",
     "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify. Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog)",
@@ -984,6 +998,13 @@
     "reason": "not-remote — eQuest posting dated Friday 23 October 2026 (valid through 22 November 2026) for Jacksonville, FL; Teal (published 2026-10-21) lists the same role as Hybrid. A stated hybrid Jacksonville schedule fails the 100% remote rule. Workarounds tried: eQuest/Teal carry Crowley's syndicated posting; no fully-remote alternate posting found.",
     "where": "Employer sites",
     "time": "5:28 AM"
+   },
+   {
+    "company": "Intuit",
+    "role": "Principal Business Systems Solutions Architect",
+    "reason": "pay-outside-band — The expected base pay range for this position is: Bay Area California: $206,500 - $279,500; Southern California: $180,000 - $243,500 (both tops above $230,000 band ceiling); Location Mountain View, California; San Diego, California. Workarounds tried: employer's listing via AnitaB.org mirror checked; published ranges govern.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
    },
    {
     "company": "Mondelez International",
@@ -1215,6 +1236,13 @@
     "reason": "closed — Job Posting End Date: November 13, 2026",
     "where": "Employer sites",
     "time": "8:36 AM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Technical Solutions Architect - Aladdin Studio, Vice President",
+    "reason": "stale — Published: 2026-10-15; Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. Workarounds tried: employer-board mirror (Built In) checked; hybrid model is firm-wide in the JD text.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
    },
    {
     "company": "Blue Cross Blue Shield of North Carolina",
@@ -1539,6 +1567,13 @@
     "time": "8:58 AM"
    },
    {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "not-remote — This position may require relocation and/or travel to work/project location. Work Location Hartford, CT, Raleigh, NC, Reston, VA, Richardson, TX, Somerset, NJ, Tempe, AZ (employer's own digitalcareers.infosys.com posting, Requisition ID 155748BR). Workarounds tried: employer's own ATS posting is the governing text; no alternate route for this req is remote.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
     "company": "Johnson Controls",
     "role": "Sr. Director of Cloud Engineering",
     "reason": "pay-outside-band — HIRING SALARY RANGE: $170 - 240,000 (Salary to be determined by the education, experience, knowledge, skills, and abilities of the applicant, internal equity, and alignment with market data.)",
@@ -1651,6 +1686,13 @@
     "time": "8:34 AM"
    },
    {
+    "company": "Databricks",
+    "role": "Sr. Solutions Architect - AI Natives Business",
+    "reason": "pay-outside-band — Local Pay Range $219,100 - $301,300 USD (top $301,300 above $230,000 band ceiling); Posted 2026-11-05, updated 2026-11-11 on the employer's board listing. Workarounds tried: employer's own board via JoRoute mirror checked; pay range is the employer's published range.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
     "company": "Edward Jones",
     "role": "Senior Enterprise Architect - Application and Data Architecture",
     "reason": "pay-outside-band — Hiring Maximum: $245100",
@@ -1733,6 +1775,13 @@
     "reason": "not-remote — This position will operate as a Hybrid/Flex for Your Day work arrangement based on Target's needs. A Hybrid/Flex for Your Day work arrangement means the team member's core role will need to be performed both onsite at the Target HQ MN location the role is assigned to and virtually",
     "where": "Employer sites",
     "time": "9:45 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Managing Cloud Infrastructure Architect",
+    "reason": "not-remote — This is an onsite role based in Irvine, CA. Capgemini is seeking a senior, client-facing Lead Principal Cloud Architect to serve onsite in Irvine, CA. Workarounds tried: full JD read on the listing mirror; onsite requirement is intrinsic to the posting.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
    },
    {
     "company": "Nationwide",
@@ -2216,6 +2265,48 @@
     "reason": "non-US — Location: anywhere in EMEA where there is a Teradata presence",
     "where": "Employer sites",
     "time": "11:15 AM"
+   },
+   {
+    "company": "Charles Schwab",
+    "role": "Senior Software Architect",
+    "reason": "stale — Posted: 2026-01-20; We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s). Workarounds tried: alternate mirrors (Wellfound/The Muse) carry the same onsite text and date.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "T. Rowe Price",
+    "role": "Lead Enterprise Cloud Architect",
+    "reason": "closed — This position is no longer open. (employer's own gr8people posting page, Requisition Number 74611, Baltimore, Maryland US)",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "Databricks",
+    "role": "Applied AI Architect",
+    "reason": "experience-mismatch — 6+ years in solutions architecture, technical pre-sales, or a senior hands-on technical role in the following areas: ML Engineering: Building and maintaining cloud infrastructure (AWS, Azure, or GCP) supporting production ML applications and drift monitoring; AI Engineering: Working with LLMs and agentic systems. Core ML/AI engineering specialization does not align with his Azure/enterprise architecture experience. Workarounds tried: full JD read on the listing page; no alternate posting of this req changes its core duties.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "Workday",
+    "role": "Sr. Enterprise Architect",
+    "reason": "stale — Published: 2026-04-01; As a member of our diverse and skilled North America Presales team, you will have the opportunity to communicate and demonstrate the power of Workday's applications to prospects and customers alike.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "Infosys",
+    "role": "E2E Solution Architect",
+    "reason": "pay-outside-band — The estimated annual compensation for this role in Basking Ridge NJ, will be $112725 to $146543 (top $146,543 below $160,000 band floor); employer's own posting Requisition ID 155803BR also states the position may require relocation. Workarounds tried: employer's own ATS posting checked as governing text.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Invent - Cloud Architecture - Managing Consultant",
+    "reason": "pay-outside-band — The base compensation range for this role in the posted location is: $127,500-249,350 (top $249,350 above $230,000 band ceiling). Workarounds tried: full JD read on the listing mirror of Capgemini's posting; range is Capgemini's published range.",
+    "where": "Employer sites",
+    "time": "11:21 AM"
    }
   ],
   "Built In": [
@@ -4291,13 +4382,13 @@
    "Priority Health",
    "FDIC",
    "ONEOK",
+   "Sherwin-Williams",
    "McDonald's",
    "Intuit",
    "Dow",
    "Ecolab",
    "Procter & Gamble",
    "DTE Energy",
-   "Sherwin-Williams",
    "Expand Energy",
    "CSX",
    "Nestlé USA",
@@ -4369,5 +4460,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T17:20:05Z"
+ "lists_generated_at": "2026-11-16T17:23:01Z"
 }
