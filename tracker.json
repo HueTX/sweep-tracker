@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T18:02:56Z",
+ "generated_at": "2026-11-16T18:06:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T18:01:07Z",
+  "last_activity_at": "2026-11-16T18:05:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 746,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 99
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 6,
-  "rejected": 231,
-  "evaluated": 237
+  "rejected": 258,
+  "evaluated": 264
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 430,
+  "evaluated": 455,
   "filed": 0,
   "parked": 6,
-  "rejected": 424,
+  "rejected": 449,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W16",
+  "W3",
   "W17"
  ],
  "lanes": {
@@ -102,13 +102,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
-   "families_searched": 50,
+   "phase": "searching",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 0/73"
+   "heartbeat_at": "2026-11-16T18:06:31Z",
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -223,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T18:02:56Z",
-   "detail": "Employers 306/59"
+   "heartbeat_at": null,
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
@@ -239,7 +239,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T18:02:56Z",
+   "heartbeat_at": "2026-11-16T18:06:31Z",
    "detail": "Employers 294/54"
   },
   "W18": {
@@ -303,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "284 of 315 units done",
+   "detail": "296 of 315 units done",
    "started_at": "2026-11-16T14:04:52Z",
    "ended_at": null
   },
@@ -544,7 +544,7 @@
    }
   ]
  },
- "note": "Last activity 12:01 PM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:05 PM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 1 of 58 · Azure Architect",
@@ -636,6 +636,27 @@
     "time": "5:28 AM"
    },
    {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Solutions Architect - Barrow",
+    "reason": "not-remote — Shift, Day, Remote, No, Category, Clinical Informatics",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Senior Network Load Balancing Architect",
+    "reason": "stale — 10+ years of network engineering experience, including 5+ years in an architectural role designing mission-critical ADC systems across hybrid/multi-cloud platforms (F5 BIG-IP, Citrix NetScaler, VMware NSX ALB).",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Cleveland Clinic",
+    "role": "Azure Cloud Engineer II",
+    "reason": "not-remote — To be considered for this role, caregivers must reside in Ohio or Florida.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
     "company": "Highmark",
     "role": "Senior Enterprise Solution Architect",
     "reason": "stale — Built In published 2026-10-02 - outside the 7-day window. The posting is also 'Position Type: Office-Based' with pay $102,700-$164,600. Workarounds tried: Built In carries Highmark/enGen's syndicated posting; no fresher or fully-remote alternate posting found.",
@@ -704,6 +725,20 @@
     "reason": "pay-outside-band — Salary Range: $108,500-$155,500",
     "where": "Employer sites",
     "time": "12:01 PM"
+   },
+   {
+    "company": "Nasdaq",
+    "role": "Principal AI Solutions Architect",
+    "reason": "non-US — This position is based in London and offers a hybrid work environment with at least 3 days per week in-office, subject to change.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "Raymond James",
+    "role": "Principal Enterprise Data & AI Architect",
+    "reason": "not-remote — In office days will be 2-3 per week averaging 10-12 days per month in our St Petersburg, FL Corporate Office.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
    },
    {
     "company": "Oscar Health",
@@ -816,6 +851,20 @@
     "reason": "not-remote — position is located in Stamford CT /NYC office on hybrid basis.",
     "where": "Employer sites",
     "time": "12:01 PM"
+   },
+   {
+    "company": "Ally Financial",
+    "role": "Principal - Network Architect",
+    "reason": "stale — In this pivotal engineering role, you will design, build and implement network solutions, ensuring stability, performance and scalability.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "CommonSpirit Health",
+    "role": "Principal IT Solutions Architect",
+    "reason": "experience-mismatch — Demonstrated experience in healthcare IT, digital health platforms, or clinical systems integration required.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
    },
    {
     "company": "Exelon",
@@ -1084,6 +1133,13 @@
     "time": "8:37 AM"
    },
    {
+    "company": "The Travelers Companies",
+    "role": "Lead Architect, Claim",
+    "reason": "pay-outside-band — Lead Architect, Claim $169k-$280k/yr Hybrid Full Time",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
     "company": "NTT DATA",
     "role": "Enterprise Architect / Solution Executive (Large Deals - Public Sector)",
     "reason": "stale — Published: 2026-10-21; Req ID: 350188. Typed posted date outside the 7-day eligibility window ending 2026-11-16; gate fact, no workaround owed.",
@@ -1161,6 +1217,20 @@
     "time": "12:01 PM"
    },
    {
+    "company": "Global Payments",
+    "role": "Cloud Architect",
+    "reason": "stale — Global Payments' Platform team is seeking a Cloud Solution Architect to create and implement a strategy to move our merchant acquiring technology services to industry-leading cloud platforms.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Senior Enterprise Architect – Information Modelling, Cloud & Environmental Systems",
+    "reason": "stale — This is a hands-on role.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
     "company": "CME Group",
     "role": "Chief Architect",
     "reason": "stale — Published: 2026-01-22; The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100 (also above band). Typed posted date far outside the 7-day window; gate fact, no workaround owed.",
@@ -1236,6 +1306,20 @@
     "reason": "not-remote — Location: This role requires associates to be in-office 1-2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. A stated required office schedule is not-remote under the remote rule; candidates must also reside within a commuting distance of an office. Posting dated 2026-11-02 on the employer's posting as mirrored on Built In (governing terms); no fully-remote alternate posting of this role was found.",
     "where": "Employer sites",
     "time": "4:57 AM"
+   },
+   {
+    "company": "HCA Healthcare",
+    "role": "Product Architect Big Data Google Cloud Platform",
+    "reason": "gcp-first — Responsible for building and supporting a GCP based ecosystem designed for enterprise-wide analysis of structured, semi-structured, and unstructured data.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Kaiser Permanente",
+    "role": "Azure Public Infrastructure as a Service Architect",
+    "reason": "not-remote — this position is designated as flexible (aka hybrid), and the expectation is that the selected candidate will report to the assigned office 3 days per week in Greensboro, North Carolina.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
    },
    {
     "company": "Caterpillar",
@@ -1518,6 +1602,13 @@
     "time": "11:23 AM"
    },
    {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Solutions Architect: ERP and HCM Systems",
+    "reason": "experience-mismatch — Minimum of 6 years of experience in HCM or ERP migration to Oracle Fusion.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
     "company": "Highmark",
     "role": "Architect",
     "reason": "stale — Built In NYC published 2026-11-02 - outside the 7-day window (opens 2026-11-09). The posting is also 'Position Type: Office-based' with pay $86,400-$138,600, whose top is below the $160,000 band floor. Workarounds tried: Built In carries Highmark/enGen's syndicated posting; no fresher alternate posting found.",
@@ -1749,6 +1840,13 @@
     "time": "10:34 AM"
    },
    {
+    "company": "Jack Henry & Associates",
+    "role": "Solutions Architect III",
+    "reason": "not-remote — This is a remote position, and candidates must live within approximately a 70-mile radius of our office locations in Allen, TX; Lenexa, KS; Springfield, MO; or Monett, MO.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
     "company": "JPMorgan Chase",
     "role": "Principal Architect - Agentic Commerce transformation",
     "reason": "stale — Job Identification 210802370; Posting Date 10/26/2026; Locations 10 S Dearborn St, Chicago, IL, 60603, US; Base Pay/Salary Chicago,IL $175,750.00-$260,000.00. Typed posted date outside the 7-day window ending 2026-11-16; gate fact, no workaround owed.",
@@ -1889,6 +1987,27 @@
     "time": "11:00 AM"
    },
    {
+    "company": "Global Payments",
+    "role": "Salesforce Solutions Architect",
+    "reason": "stale — 5+ years as a Software Developer with knowledge in building Apex, LWC & Aura components",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "Discover Financial",
+    "role": "Expert Enterprise Architect (Oracle Fusion Cloud)",
+    "reason": "stale — 10+ years of technical and architecture experience, including 5+ years of experience with Oracle Fusion Cloud",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "Aon",
+    "role": "Principal Architect, Sales and Marketing Technologies",
+    "reason": "stale — Deep experience architecting enterprise Sales & Marketing technology ecosystems.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
     "company": "Wells Fargo",
     "role": "Principal Architect",
     "reason": "stale — Published: 2026-03-11; Posting End Date: 17 Mar 2026; Compensation for this role in Charlotte NC is between $159,000 and $254,000. Typed posted date far outside the 7-day window and the posting end date has passed; gate fact, no workaround owed.",
@@ -1950,6 +2069,13 @@
     "reason": "pay-outside-band — Hiring Maximum: $245100",
     "where": "Employer sites",
     "time": "11:00 AM"
+   },
+   {
+    "company": "Trinity Health",
+    "role": "Solutions Architect, Senior",
+    "reason": "experience-mismatch — At least five (5) years of experience in the health care industry and three (3) years in enterprise solution architecture.",
+    "where": "Employer sites",
+    "time": "12:05 PM"
    },
    {
     "company": "Washington State Administrative Office of the Courts",
@@ -2076,6 +2202,13 @@
     "reason": "hands-on-coding — Advanced proficiency in Python and at least one additional programming language used for production services; Hands-on experience building large language model-powered applications, such as retrieval-augmented generation or text-to-SQL solutions. This is a hands-on role that combines technical architecture with full product ownership. Candidate's hands-on coding answer is 0 years - core requirement mismatch under the whole-role test. Full JD read on Built In (Published: 2026-11-11). Workarounds tried: employer's posting text via Built In mirror read in full; requirements are intrinsic to the req.",
     "where": "Employer sites",
     "time": "11:25 AM"
+   },
+   {
+    "company": "Global Payments",
+    "role": "Solution Architect",
+    "reason": "stale — The pay range for this role is between $120k-$130kk per year.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
    },
    {
     "company": "GSA",
@@ -2706,6 +2839,50 @@
     "reason": "stale — 10+ years of software development and architecture experience, with 5+ years in a lead architect role.",
     "where": "Employer sites",
     "time": "12:01 PM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Senior Salesforce Technical Architect",
+    "reason": "stale — Provide technical leadership and guidance to development teams to build, support, and iteratively deploy enterprise level software.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "Moody's",
+    "role": "Senior Software Engineer/Architect",
+    "reason": "stale — you have significant (7+ years) production experience building scalable web applications and APIs hosted in a Cloud environment.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   },
+   {
+    "company": "Raymond James",
+    "role": "Lead Engineer / AWS Solutions Architect",
+    "reason": "not-remote — This position follows a hybrid work model, with an expectation to be in the office 3 days per week at the St. Petersburg, FL Corporate Office location.",
+    "where": "Employer sites",
+    "time": "12:03 PM"
+   }
+  ],
+  "Monster": [
+   {
+    "company": "HCA Healthcare",
+    "role": "Senior Solution Architect",
+    "reason": "hands-on-coding — 5+ years of experience a Software development or engineering roles required",
+    "where": "Monster",
+    "time": "12:05 PM"
+   },
+   {
+    "company": "Slalom",
+    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
+    "reason": "stale — Employment Type: Project-based contract",
+    "where": "Monster",
+    "time": "11:12 AM"
+   },
+   {
+    "company": "Slalom",
+    "role": "AIML Architect - Principal US - EAST",
+    "reason": "not-remote — This role is not eligible for 100% remote work. Employees must live within a commutable distance of a Slalom Office and must be willing to be onsite at the client and/or Slalom office when needed up to 3 days a week.",
+    "where": "Monster",
+    "time": "11:12 AM"
    }
   ],
   "Built In": [
@@ -3004,6 +3181,13 @@
     "time": "9:20 AM"
    },
    {
+    "company": "Aon",
+    "role": "Data and AI Solutions Architect",
+    "reason": "pay-outside-band — USD 130,000.00 - 150,000.00 per year",
+    "where": "Dice",
+    "time": "12:03 PM"
+   },
+   {
     "company": "Independence Blue Cross",
     "role": "Director, Enterprise IT Architecture",
     "reason": "not-remote — Independence has implemented a 'Hybrid' model which consists of Associates working in the office 3 days a week (Tuesday, Wednesday & Thursday) and remotely 2 days a week (Monday & Friday). This role is designated as a role that fits into the 'Hybrid' model. While associates may work remotely on our designated remote days, the work must be performed in the Tri-State Area of Delaware, New Jersey or Pennsylvania. A stated required office schedule plus a tri-state work location is not-remote for a Houston-based candidate. Listing refreshed on Dice within the last day (surface activity 2026-11-16); the hybrid model stated is the employer's own policy text carried in the posting — no fully-remote alternate posting of req 250852-1 was found.",
@@ -3023,6 +3207,13 @@
     "reason": "pay-outside-band — USD 165,000.00 - 255,000.00 per year",
     "where": "Dice",
     "time": "11:12 AM"
+   },
+   {
+    "company": "CME Group",
+    "role": "Senior Cloud Platform Engineer",
+    "reason": "pay-outside-band — USD 145,700.00 - 242,900.00 per year",
+    "where": "Dice",
+    "time": "12:03 PM"
    },
    {
     "company": "AMD",
@@ -3463,22 +3654,6 @@
     "reason": "pay-outside-band — 'Salary Range: $105,951 - $157,400/year - plus State of Connecticut benefits.' Top of range $157,400 is below the $160,000 band floor. Workarounds tried: (1) Connecticut Judicial Branch posting text (governing range); (2) no alternate posting of 25-4000-016 with a different range found.",
     "where": "Connecticut state portal",
     "time": "5:39 AM"
-   }
-  ],
-  "Monster": [
-   {
-    "company": "Slalom",
-    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
-    "reason": "stale — Employment Type: Project-based contract",
-    "where": "Monster",
-    "time": "11:12 AM"
-   },
-   {
-    "company": "Slalom",
-    "role": "AIML Architect - Principal US - EAST",
-    "reason": "not-remote — This role is not eligible for 100% remote work. Employees must live within a commutable distance of a Slalom Office and must be willing to be onsite at the client and/or Slalom office when needed up to 3 days a week.",
-    "where": "Monster",
-    "time": "11:12 AM"
    }
   ],
   "Worqstrap": [
@@ -4763,7 +4938,6 @@
    "Morgan Stanley",
    "MassMutual",
    "TIAA",
-   "Aon",
    "Google",
    "Apple",
    "Adobe",
@@ -4866,5 +5040,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T18:02:56Z"
+ "lists_generated_at": "2026-11-16T18:06:31Z"
 }
