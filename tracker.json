@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T11:29:59Z",
+ "generated_at": "2026-11-16T11:31:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "6b5bea84",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T10:46:30Z",
-  "last_activity_at": "2026-11-16T11:28:56Z",
+  "last_activity_at": "2026-11-16T11:30:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 726,
@@ -28,18 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 73,
-  "evaluated": 74
+  "rejected": 90,
+  "evaluated": 91
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 106,
+  "evaluated": 123,
   "filed": 0,
   "parked": 0,
-  "rejected": 106,
+  "rejected": 123,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W2",
   "W4",
   "W20"
  ],
@@ -91,12 +92,12 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 38,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-16T11:31:26Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -118,8 +119,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:29:59Z",
-   "detail": "Employers 106/32"
+   "heartbeat_at": "2026-11-16T11:31:26Z",
+   "detail": "Employers 121/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -272,8 +273,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T11:29:59Z",
-   "detail": "Employers 67/31"
+   "heartbeat_at": "2026-11-16T11:31:26Z",
+   "detail": "Employers 82/31"
   }
  },
  "stages": {
@@ -303,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "56 of 90 units done",
+   "detail": "62 of 90 units done",
    "started_at": "2026-11-16T10:46:30Z",
    "ended_at": null
   },
@@ -544,7 +545,7 @@
    }
   ]
  },
- "note": "Last activity 5:28 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:30 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -608,6 +609,13 @@
     "time": "4:59 AM"
    },
    {
+    "company": "CareSource",
+    "role": "Architect II",
+    "reason": "stale — Built In published 2026-11-02 - outside the 7-day window (opens 2026-11-09). The role also requires hands-on coding: '3 years full Stack Development experience' and fluency in Python and server-side JavaScript/TypeScript. Workarounds tried: Built In carries CareSource's syndicated posting; Remote Rocketship's earlier first-seen (2026-09-29) is older still; no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
     "company": "Oscar Health",
     "role": "Salesforce Platform Solutions Architect",
     "reason": "stale — Posting dated 2026-04-01 on the employer's job board — months outside the 7-day eligibility window as of 2026-11-16. The role is also metro-restricted ('This is a remote position, open to candidates who reside in: Atlanta, GA' / Dallas, TX listings; Houston is not an eligible metro) and Salesforce-platform-specific ('Salesforce certified Application Architect and System Architect' required), neither of which fits. Earliest gate recorded: stale, with the typed board date.",
@@ -650,6 +658,62 @@
     "time": "5:25 AM"
    },
    {
+    "company": "Expeditors International",
+    "role": "Architect (Solution) - EXP.O NOW, IS Customer Experience",
+    "reason": "not-remote — Expeditors' own SmartRecruiters posting: 'This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.' Workarounds tried: the employer's own ATS posting is the governing text; no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Schneider National",
+    "role": "IT Enterprise Architect Master",
+    "reason": "not-remote — Fresh posting (recruitment began November 10, 2026) but Green Bay-based hybrid: 'Location: Green Bay, WI, USA' / 'Work model: Hybrid' / 'Schneider is seeking a Master Enterprise Architect in Green Bay to oversee Schneider's future-state enterprise architecture, technology strategy and roadmaps'. A stated hybrid schedule in Green Bay fails the 100% remote rule. Workarounds tried: the posting's own terms are hybrid; no fully-remote alternate posting of the same role found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect (Solutions) - Information Services, Operational Experience",
+    "reason": "not-remote — Expeditors' own SmartRecruiters posting: 'This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.' Hubert is Houston-based and not willing to relocate. Expected base salary $100,000 is also below the band floor. Workarounds tried: the employer's own ATS posting is the governing text; no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Old Dominion Freight Line",
+    "role": "Security Architect",
+    "reason": "stale — The Ladders published 2026-09-25 - outside the 7-day window. The same role is mirrored per terminal city (Dothan AL, Rock Island IL, Elgin IL, Troy MI, Vidalia GA), i.e. location-based rather than remote; pay $143,250-$179,041. Workarounds tried: The Ladders carries Old Dominion's syndicated posting; no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Ryder System",
+    "role": "Cloud Architect",
+    "reason": "stale — Built In NYC published 2025-11-25 - far outside the 7-day window. Pay $130,000-$150,000 is also below the band floor at the top. Workarounds tried: Built In carries Ryder's syndicated posting; no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Domain Principal Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $155,600-$278,135 - top $278,135 exceeds the $230,000 band ceiling. The role is also a single-platform specialization: 'Serves as the enterprise ServiceNow Domain Architect responsible for establishing and governing the architectural vision, principles, standards, roadmaps, and reference architectures for the ServiceNow platform', requiring 'significant experience with the ServiceNow platform'. Workarounds tried: The Ladders carries CareFirst's syndicated posting; no alternate posting in band found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Clover Health",
+    "role": "Business Systems Solution Architect",
+    "reason": "stale — Built In San Francisco published 2026-02-14 - outside the 7-day window. Pay is also out of band: 'A reasonable estimate of the base salary range for this role is $130,000 to $150,000' - top $150,000 is below the $160,000 band floor. Workarounds tried: Built In carries Clover's syndicated posting; no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Ryder System",
+    "role": "System Engineering Architect",
+    "reason": "stale — Built In NYC published 2025-10-30 - far outside the 7-day window. Pay $130,000-$150,000 is also below the band floor at the top. Workarounds tried: Built In carries Ryder's syndicated posting; no fresher alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
     "company": "Estes Express Lines",
     "role": "Solution Architect II, Hub",
     "reason": "stale — Published: 2026-10-21 - outside the 7-day eligibility window. Richmond, VA role with no remote terms: 'The Solution Architect II operates as a leader and change agent within a Hub organization... partner with Solution Architects, developers, engineers, IT leaders and business stakeholders to identify future state architectures.' Workarounds tried: Teal mirror carries the same 2026-10-20/21 dates; no fresher alternate posting found.",
@@ -662,6 +726,13 @@
     "reason": "pay-outside-band — JetBlue's own careers page (detail page opened): '#LI-Hybrid' / 'Work Environment: Traditional office environment' / Locations Long Island City, NY, Washington, DC, Salt Lake City, UT, Orlando, FL. 'The base pay range for this position is between $105,600.00 and $150,400.00 per year.' Top $150,400 is below the $160,000 band floor. Workarounds tried: employer's own detail page is the governing text; mirrors carry the same $105,600-$150,400 range.",
     "where": "Employer sites",
     "time": "5:25 AM"
+   },
+   {
+    "company": "Blue Shield of California",
+    "role": "Enterprise Architect",
+    "reason": "stale — JobSpider lists this San Francisco posting as 'Posted: 2/16/2026' - far outside the 7-day window. Workarounds tried: JobSpider carries Blue Shield of California's syndicated posting; no fresher alternate posting of the same req found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
    },
    {
     "company": "Southwest Airlines",
@@ -769,6 +840,13 @@
     "time": "5:28 AM"
    },
    {
+    "company": "Expeditors International",
+    "role": "Architect (Dynamics 365) - Operational Accounting, IS Operational Experience",
+    "reason": "not-remote — Expeditors' own SmartRecruiters posting: 'This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.' Expected base salary $165,000-$240,000 also exceeds the band ceiling at the top. Workarounds tried: the employer's own ATS posting is the governing text; no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
     "company": "Ryder System",
     "role": "Solutions Architect",
     "reason": "stale — Published: 2026-11-02 - outside the 7-day eligibility window (window opens 2026-11-09). 'Minimum Pay Range: $105,000.00 Maximum Pay Range: $125,000.00' - top $125,000 also below the $160,000 band floor; work mode Hybrid, Dover, DE. Workarounds tried: (1) Ryder Workday req mirrored on CareerBuilder/Monster/Jobgether with the same dates and pay; (2) no fresher alternate posting of the same req found.",
@@ -788,6 +866,13 @@
     "reason": "not-remote — Published: 2026-10-19. 'Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware.' Simplify lists the role as Hybrid, Newark, NJ. Salary Range: $123,000 - $167,895. Hubert is Houston, TX based - outside the permitted states and the role is hybrid. Workarounds tried: Monster/GrabJobs mirrors carry the same residency restriction and terms; no fully-remote alternate posting found.",
     "where": "Employer sites",
     "time": "5:25 AM"
+   },
+   {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Sr Business Architect",
+    "reason": "pay-outside-band — Salary Range $84,000.00-$152,200.00 - top $152,200 is below the $160,000 band floor. Workarounds tried: DiversityJobs carries Blue Cross NC's syndicated posting; no alternate posting in band found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
    },
    {
     "company": "Healthfirst",
@@ -860,6 +945,13 @@
     "time": "5:28 AM"
    },
    {
+    "company": "Blue Cross Blue Shield of North Carolina",
+    "role": "Director, Enterprise Architecture",
+    "reason": "pay-outside-band — Salary $191,153.00-$305,845.00 - top $305,845 exceeds the $230,000 band ceiling. The role also demands healthcare-domain leadership Hubert does not have (healthcare industry years: 0): 'Domain Expertise: Demonstrated success leading technology strategy and enterprise architecture in complex environments, within healthcare, including experience with payer and provider organizations.' Workarounds tried: DiversityJobs carries Blue Cross NC's syndicated posting; no alternate posting in band found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
     "company": "FedEx",
     "role": "Business Architect Advisor",
     "reason": "not-remote — The desired location for this position is Memphis, TN (MEM) location. Employees will be required to work at the FedEx location five days a week. A required five-day on-site schedule is not-remote. Source is FedEx's own careers site (the governing text); the posting also closed Wednesday, November 4, 2026, and its monthly pay ($6,854.33 - $11,309.65, ~$135,716 annualized at top) sits below the band floor.",
@@ -872,6 +964,13 @@
     "reason": "not-remote — Req 421581: virtual/remote work is offered only to WA/OR/CA residents (one posting version limits it to within 75 miles of the Seattle/Renton/Redmond/Portland offices). Hubert is Houston, TX-based, so Texas is excluded from the remote eligibility - the role is not remote for him. Workarounds tried: Providence's own posting carries the same state restriction; no Texas-eligible alternate posting of the same req found.",
     "where": "Employer sites",
     "time": "5:28 AM"
+   },
+   {
+    "company": "Expeditors International",
+    "role": "Architect - Ocean & OM Products, IS Operational Experience",
+    "reason": "not-remote — Expeditors' own SmartRecruiters posting: 'This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.' Expected base salary $165,000-$240,000 also exceeds the band ceiling at the top. Workarounds tried: the employer's own ATS posting is the governing text; no remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
    },
    {
     "company": "CVS Health",
@@ -1033,6 +1132,27 @@
     "reason": "stale — Published: 2026-10-18 - outside the 7-day window. Annualized Salary Range $180,000-$292,500 also exceeds the $230,000 band ceiling at the top. Workarounds tried: The Ladders carries Florida Blue's syndicated posting; no fresher alternate posting of the same req found.",
     "where": "Employer sites",
     "time": "5:28 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Senior Solutions Architect (Hybrid)",
+    "reason": "not-remote — CareerBuilder listing (Job ID 22689) is titled 'Senior Solutions Architect (Hybrid)', Reston, VA - 'Campus: Reston, VA'. A stated hybrid schedule fails the 100% remote rule. Salary Range $126,864-$251,966 also exceeds the band ceiling at the top. Workarounds tried: CareerBuilder carries CareFirst's syndicated posting; no fully-remote alternate posting of the same req found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "Blue Cross Blue Shield of Michigan",
+    "role": "Guidewire Architect",
+    "reason": "not-remote — JobLeads lists the role as 'On-site' (United States), USD $83,000-$217,000: 'AF Group seeks an Architecture Leader to guide core Guidewire platforms (PolicyCenter, BillingCenter, ClaimCenter, ContactManager) and Cloud initiatives.' An on-site role fails the 100% remote rule; the core is also Guidewire InsuranceSuite platform work ('Experience with Guidewire InsuranceSuite including PolicyCenter, BillingCenter, ClaimCenter, and ContactManager') that Hubert has no background in. Workarounds tried: JobLeads carries the AF Group/BCBSM syndicated posting; no fully-remote alternate posting found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
+   },
+   {
+    "company": "CareSource",
+    "role": "Enterprise Business Architecture III",
+    "reason": "experience-mismatch — Remote role with pay $108,600-$190,000 (top in band), but it requires healthcare-industry experience Hubert does not have (healthcare industry years: 0): 'A minimum of seven (7) years of experience in healthcare working directly with business/functional stakeholders' plus 'A minimum of four (4) years of experience as an Enterprise Architect, Business Architect, IT Architect, or Business Analyst'. Workarounds tried: DiversityJobs carries CareSource's own posting text; no alternate posting of the role without the healthcare-experience requirement found.",
+    "where": "Employer sites",
+    "time": "5:30 AM"
    }
   ],
   "Google Jobs": [
@@ -2522,5 +2642,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T11:29:59Z"
+ "lists_generated_at": "2026-11-16T11:31:26Z"
 }
