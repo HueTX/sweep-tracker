@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T15:05:33Z",
+ "generated_at": "2026-11-16T15:07:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "918d4676",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T14:04:52Z",
-  "last_activity_at": "2026-11-16T15:02:23Z",
+  "last_activity_at": "2026-11-16T15:07:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 706,
@@ -28,21 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 1,
-  "rejected": 45,
-  "evaluated": 46
+  "rejected": 53,
+  "evaluated": 54
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 251,
+  "evaluated": 258,
   "filed": 0,
   "parked": 2,
-  "rejected": 249,
+  "rejected": 256,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
-  "W6",
-  "W18"
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -130,19 +128,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:05:33Z",
+   "heartbeat_at": "2026-11-16T15:07:39Z",
    "detail": "Employers 68/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:05:33Z",
-   "detail": "Employers 64/44"
+   "heartbeat_at": null,
+   "detail": "Employers 79/44"
   },
   "W9": {
    "label": "Dice",
@@ -246,13 +244,13 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T15:05:33Z",
-   "detail": "Employers 100/45"
+   "heartbeat_at": null,
+   "detail": "Employers 115/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -304,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "63 of 126 units done",
+   "detail": "69 of 126 units done",
    "started_at": "2026-11-16T14:04:52Z",
    "ended_at": null
   },
@@ -545,7 +543,7 @@
    }
   ]
  },
- "note": "Last activity 9:02 AM CT · 10 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:07 AM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W5 · Title 1 of 58 · Azure Architect",
@@ -696,6 +694,20 @@
     "reason": "closed — Job post no longer accepts applications",
     "where": "Employer sites",
     "time": "9:02 AM"
+   },
+   {
+    "company": "Spire Inc",
+    "role": "Solutions Architect",
+    "reason": "stale — Spire is seeking a Solutions Architect to support Enterprise Asset Management and Field Technologies.",
+    "where": "Employer sites",
+    "time": "9:07 AM"
+   },
+   {
+    "company": "FirstEnergy",
+    "role": "Digital Technology Architect - Innovation & Digital Enablement Platform",
+    "reason": "stale — Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform.",
+    "where": "Employer sites",
+    "time": "9:07 AM"
    },
    {
     "company": "Exelon",
@@ -850,6 +862,13 @@
     "reason": "stale — Published: 2026-09-01 - outside the 7-day eligibility window. 'Compensation Range: $135,600.00 - $237,400.00' - top $237,400 also exceeds the $230,000 band ceiling. 'The Architect III - Cloud, DevOps, and SRE is responsible for partnering with many internal CareSource IT teams to design and implement critical outcomes in the Cloud, DevOps, and SRE domains.' Workarounds tried: Dice mirrors carry the same September posting and range; no fresher alternate posting found.",
     "where": "Employer sites",
     "time": "5:25 AM"
+   },
+   {
+    "company": "NiSource",
+    "role": "Sr Enterprise Architect - Cloud and Infrastructure",
+    "reason": "not-remote — Way of Work: Hybrid, 3 days on location",
+    "where": "Employer sites",
+    "time": "9:07 AM"
    },
    {
     "company": "Sherwin-Williams",
@@ -1104,6 +1123,13 @@
     "time": "5:28 AM"
    },
    {
+    "company": "OGE Energy",
+    "role": "Site Reliability Architect Sr",
+    "reason": "stale — The Site Reliability Architect is responsible for providing continuous feedback of site health, reliability, availability, and user experience for all core products.",
+    "where": "Employer sites",
+    "time": "9:07 AM"
+   },
+   {
     "company": "Ford Motor Company",
     "role": "Salesforce Application Architect",
     "reason": "stale",
@@ -1265,6 +1291,13 @@
     "time": "9:00 AM"
    },
    {
+    "company": "Ford Motor Company",
+    "role": "Principal AI Architect",
+    "reason": "gcp-first — Design and govern scalable AI applications and platforms on Google Cloud, with appropriate use of services such as Vertex AI, Gemini, GKE, Cloud Run, BigQuery, and Pub/Sub.",
+    "where": "Employer sites",
+    "time": "9:07 AM"
+   },
+   {
     "company": "Providence Health Plan",
     "role": "Principal IS Architect PHP",
     "reason": "not-remote — Req 421581: virtual/remote work is offered only to WA/OR/CA residents (one posting version limits it to within 75 miles of the Seattle/Renton/Redmond/Portland offices). Hubert is Houston, TX-based, so Texas is excluded from the remote eligibility - the role is not remote for him. Workarounds tried: Providence's own posting carries the same state restriction; no Texas-eligible alternate posting of the same req found.",
@@ -1319,6 +1352,13 @@
     "reason": "pay-outside-band — THE SELECTED CANDIDATE WILL BE OFFERED A SALARY BETWEEN $118,000.00-$128,000.00",
     "where": "Employer sites",
     "time": "5:33 AM"
+   },
+   {
+    "company": "Danaher",
+    "role": "Principal Architect, Security Operations",
+    "reason": "stale — The annual salary range $200,000 - $250,000",
+    "where": "Employer sites",
+    "time": "9:07 AM"
    },
    {
     "company": "Plains All American Pipeline",
@@ -1795,6 +1835,13 @@
     "reason": "stale — Johnson Controls International is seeking an AI Solution Architect to design and govern enterprise AI solutions across generative AI, agentic AI, machine learning, RAG, enterprise search and intelligent automation.",
     "where": "Employer sites",
     "time": "9:00 AM"
+   },
+   {
+    "company": "Stanley Black & Decker",
+    "role": "Sr. Architect, Generative AI & Search",
+    "reason": "hands-on-coding — Lead the end-to-end development of Generative AI application, including data collection, indexing strategy, front end and backend development",
+    "where": "Employer sites",
+    "time": "9:07 AM"
    }
   ],
   "ClearanceJobs": [
@@ -3576,5 +3623,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-16T15:05:33Z"
+ "lists_generated_at": "2026-11-16T15:07:39Z"
 }
