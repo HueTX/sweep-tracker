@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "5.0.0-sweepv4",
- "generated_at": "2026-11-16T10:56:56Z",
+ "generated_at": "2026-11-16T10:59:14Z",
  "lane_state_source": "model",
  "run": {
   "id": "6b5bea84",
@@ -10,33 +10,33 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-16T10:46:30Z",
-  "last_activity_at": "2026-11-16T10:46:30Z",
+  "last_activity_at": "2026-11-16T10:57:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 734,
    "total_units": 754,
-   "pct": 95
+   "pct": 97
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 0,
-  "rejected": 0,
-  "evaluated": 0
+  "parked": 1,
+  "rejected": 8,
+  "evaluated": 9
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 35,
+  "evaluated": 42,
   "filed": 0,
   "parked": 0,
-  "rejected": 35,
+  "rejected": 42,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -81,12 +81,12 @@
    "label": "Federal Gov",
    "sites": 30,
    "phase": "searching",
-   "families_searched": 48,
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T10:56:56Z",
-   "detail": "Employers 0/30"
+   "heartbeat_at": "2026-11-16T10:59:14Z",
+   "detail": "Employers 10/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -114,12 +114,12 @@
    "label": "Healthcare Insurers",
    "sites": 32,
    "phase": "searching",
-   "families_searched": 38,
+   "families_searched": 48,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-16T10:56:56Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": "2026-11-16T10:59:14Z",
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -303,15 +303,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 27 units done",
+   "detail": "4 of 27 units done",
    "started_at": "2026-11-16T10:46:30Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "0 of 1 units done",
+   "state": "done",
+   "detail": "1 of 1 units done",
    "started_at": "2026-11-16T10:46:30Z",
-   "ended_at": null
+   "ended_at": "2026-11-16T10:57:33Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -544,7 +544,7 @@
    }
   ]
  },
- "note": "Started 4:46 AM CT · 0 filed",
+ "note": "Last activity 4:57 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
