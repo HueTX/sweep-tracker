@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:07:56Z",
+ "generated_at": "2026-11-17T07:09:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -9,44 +9,37 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:06:58Z",
+  "last_activity_at": "2026-11-17T07:09:29Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 94
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 15,
+  "parked": 17,
   "rejected": 63,
-  "evaluated": 78
+  "evaluated": 80
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 120,
+  "evaluated": 122,
   "filed": 0,
-  "parked": 15,
+  "parked": 17,
   "rejected": 105,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -139,13 +132,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": null,
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,57 +220,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/59"
+   "heartbeat_at": null,
+   "detail": "Employers 30/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/54"
+   "heartbeat_at": null,
+   "detail": "Employers 30/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/45"
+   "heartbeat_at": null,
+   "detail": "Employers 30/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/41"
+   "heartbeat_at": null,
+   "detail": "Employers 30/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 50,
+   "phase": "queued",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:07:56Z",
-   "detail": "Employers 25/31"
+   "heartbeat_at": null,
+   "detail": "Employers 30/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "80 of 632 units done",
+   "detail": "86 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:06 AM CT · 8 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 1:09 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1101,6 +1088,22 @@
     "reason": "not-evaluated — This role will work closely with global ZTD towers, GMS automation teams, the ZTD GMS PMO office, enterprise and cloud architects to deliver enterprise level, fully integrated solutions across Zoetis manufacturing sites.",
     "where": "DiversityJobs",
     "time": "12:03 AM"
+   }
+  ],
+  "talenthub.aeroselect.io (RTX mirror)": [
+   {
+    "company": "RTX",
+    "role": "Senior Manager, Solutions Architect - Data, Analytics & AI/ML Platforms",
+    "reason": "title-not-covered — Our Pratt & Whitney Digital Technology team has an exciting new remote job opportunity for a Senior Manager, Solutions Architect for Data, Analytics & AI/ML Platforms. The salary range for this role is 132,400 USD - 251,600 USD.",
+    "where": "talenthub.aeroselect.io (RTX mirror)",
+    "time": "1:09 AM"
+   },
+   {
+    "company": "RTX",
+    "role": "Associate Director, DT Portfolio Architect - Pursuit and Group Functions",
+    "reason": "title-not-covered — Our Pratt & Whitney DT Enterprise Architecture and Strategy team has an exciting new remote opportunity for an Associate Director, DT Portfolio Architect - Pursuit and Group Functions. The salary range for this role is 157,200 USD - 298,800 USD.",
+    "where": "talenthub.aeroselect.io (RTX mirror)",
+    "time": "1:09 AM"
    }
   ],
   "Teal": [
@@ -3222,5 +3225,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T07:07:56Z"
+ "lists_generated_at": "2026-11-17T07:09:33Z"
 }
