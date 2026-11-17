@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:49:16Z",
+ "generated_at": "2026-11-17T07:52:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:49:09Z",
+  "last_activity_at": "2026-11-17T07:51:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 43,
-  "rejected": 131,
-  "evaluated": 174
+  "parked": 53,
+  "rejected": 135,
+  "evaluated": 188
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 202,
+  "evaluated": 213,
   "filed": 0,
-  "parked": 35,
-  "rejected": 167,
+  "parked": 43,
+  "rejected": 170,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W3",
   "W4",
   "W5",
   "W6",
-  "W16"
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,18 +90,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/30"
+   "detail": "Employers 100/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/39"
+   "heartbeat_at": null,
+   "detail": "Employers 100/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/73"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/32"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,19 +232,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:49:16Z",
-   "detail": "Employers 90/59"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 90/54"
+   "heartbeat_at": "2026-11-17T07:52:07Z",
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/45"
+   "detail": "Employers 95/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/41"
+   "detail": "Employers 95/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/31"
+   "detail": "Employers 95/31"
   }
  },
  "stages": {
@@ -307,13 +307,13 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "219 of 632 units done",
+   "detail": "231 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "active",
-   "detail": "21 of 31 units done",
+   "detail": "29 of 31 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:49 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:51 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 1 of 58 · Azure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -909,11 +909,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13600,
-   "unit_id": 2754,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:47Z"
+   "winner_disposition_id": 14484,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:49:18Z"
   },
   {
    "lead_id": 5826,
@@ -923,11 +923,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13601,
-   "unit_id": 2755,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:48Z"
+   "winner_disposition_id": 14485,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:49:18Z"
   },
   {
    "lead_id": 5900,
@@ -938,10 +938,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 8315,
-   "unit_id": 2741,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:48Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:49:18Z"
   },
   {
    "lead_id": 5935,
@@ -951,11 +951,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13603,
-   "unit_id": 2756,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:48Z"
+   "winner_disposition_id": 14487,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:49:19Z"
   },
   {
    "lead_id": 6359,
@@ -965,11 +965,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13604,
-   "unit_id": 2757,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:48Z"
+   "winner_disposition_id": 14488,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:49:19Z"
   },
   {
    "lead_id": 6609,
@@ -979,11 +979,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "W8",
-   "winner_disposition_id": 13605,
-   "unit_id": 2758,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:49Z"
+   "winner_disposition_id": 14491,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:50:25Z"
   },
   {
    "lead_id": 6787,
@@ -996,8 +996,8 @@
    "winner_disposition_id": 13608,
    "unit_id": 2759,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:49Z"
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:50:26Z"
   },
   {
    "lead_id": 6812,
@@ -1007,11 +1007,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13609,
-   "unit_id": 2760,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:49Z"
+   "winner_disposition_id": 14493,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:50:26Z"
   },
   {
    "lead_id": 6817,
@@ -1024,8 +1024,8 @@
    "winner_disposition_id": 13610,
    "unit_id": 2761,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:50Z"
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:50:26Z"
   },
   {
    "lead_id": 6991,
@@ -1035,11 +1035,25 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 13611,
-   "unit_id": 2762,
-   "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T07:10:50Z"
+   "winner_disposition_id": 14495,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-17T07:50:27Z"
+  },
+  {
+   "lead_id": 7258,
+   "employer": "Technatomy",
+   "title": "Enterprise Solution Architect",
+   "status": "parked",
+   "blocker": "credential-needed",
+   "deadline": null,
+   "where": null,
+   "winner_disposition_id": 14494,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 0,
+   "last_attempt_at": null
   }
  ],
  "headline": {
@@ -1049,9 +1063,9 @@
  "funnel": {
   "candidates_open": 0,
   "verify_open": 0,
-  "pass_awaiting_attempt": 0,
-  "pass_oldest_age_hours": 0.0,
-  "attempted_today": 82,
+  "pass_awaiting_attempt": 1,
+  "pass_oldest_age_hours": 0.01,
+  "attempted_today": 92,
   "filed_today": 0
  },
  "date": "2026-11-17",
@@ -1146,6 +1160,55 @@
     "reason": "code-blocked — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13599): liveness pre-check 2026-11-17 - the Staff Enterprise Architect role is live on Coinbase's own careers page (crawled 1 day ago, Job ID P78309, Remote - USA, published 2026-11-03): 'Annual base salary range (excluding equity and bonus): $193,970 - $228,200 USD' (top inside the $160K-$230K band). The application runs through Greenhouse's email verification-code flow; the form was completed with the tailored resume staged in a prior cycle, but the codes repeatedly died in transit and the one-resend limit is long consumed (6 attempts on record) - no new code was triggered this wake and no code arrived. Nothing submitted. Park stands silently; filing remains owed.",
     "where": "",
     "time": "1:49 AM"
+   },
+   {
+    "company": "Broadcom",
+    "role": "Solutions Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13600): liveness pre-check 2026-11-17 - web search surfaced only older Broadcom Solutions Architect mirrors (crawled 222-305 days ago), so this specific requisition's liveness could not be freshly confirmed either way; search results are not employer-page evidence of closure, so no closed verdict is recorded. The standing blocker is unchanged and well documented: no working Broadcom candidate account exists under Hubert's application email and the password reset never arrived - a new password must be set by Hubert via secure form before any filing can proceed. No new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:50 AM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Lead Cloud Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13601): liveness pre-check 2026-11-17 - Built In mirror crawled 1 day ago still lists GDIT's Lead Cloud Architect live, published 2026-11-07, remote: 'The likely salary range for this position is $170,144 - $230,000' (top exactly at the band ceiling, eligible), Public Trust BI Full 6C (T4) only - no active clearance required. Applying runs through GDIT's candidate account; that credential wall stands (password to be set by Hubert via secure card), no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:50 AM"
+   },
+   {
+    "company": "Edward Jones",
+    "role": "Senior Technical Architect- Technology Architecture",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13603): liveness pre-check 2026-11-17 - the Ladders mirror crawled 1 day ago carries the full live JD for Senior Technical Architect- Technology Architecture ('The Technology Architecture team, within Enterprise Architecture, is seeking a highly skilled Senior Technical Architect to support the firm's strategic infrastructure resiliency objectives'), and Edward Jones' own careers site is actively listing sibling Technical Architect roles. Filing history: an earlier attempt reached the profile steps with sign-in working and stopped before the resume upload - nothing was ever submitted. The standing blocker on record remains credential-needed and no new credential arrived this wake. Nothing submitted. Park stands silently; filing remains owed and is a clean-rerun candidate for the main filer.",
+    "where": "",
+    "time": "1:50 AM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud and AI Senior Partner Solution Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13604): liveness pre-check 2026-11-17 - Built In mirror crawled 4 days ago carries the exact live posting, Cloud and AI Senior Partner Solution Architect at Microsoft, published 2026-11-10: 'As a Cloud and AI Senior Partner Solution Architect (PSA) for Software Development Companies (SDCs) within the Microsoft EPS CTO group, you play a pivotal role in enabling the technical transformation of the most strategic and influential Global SDC partners', with the US IC4 range $106,400 - $203,600 (top inside the $160K-$230K band) and applications accepted on an ongoing basis. Applying runs through a Microsoft Careers account; that credential wall stands, no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:50 AM"
+   },
+   {
+    "company": "SelectHealth",
+    "role": "Enterprise Solutions Architect-Senior/Consultant",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13609): liveness pre-check 2026-11-17 - Built In mirror (crawled 3 days ago; the same posting the main filer crawled live at 07:04 UTC today for the sibling Intermountain unit) still lists Enterprise Solutions Architect-Senior/Consultant at SelectHealth - Murray live: hourly range $60.67 - $95.52 (top annualized ~$198,681, inside the $160K-$230K band), and Texas is not in the posting's excluded-states list. The filing route is Intermountain's Workday tenant (imh.wd108.myworkdayjobs.com/IntermountainCareers); the Workday candidate sign-in wall stands, no stored Intermountain Workday credential, no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:51 AM"
+   },
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, Data Architect - Business Solution Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13611): liveness pre-check 2026-11-17 - the Lead, Data Architect - Business Solution Architect role is live on L3Harris' OWN jobs site (jobs.l3harris.com, crawled 1 day ago, Job Code 46929, 'Job Location: Melbourne, FL; Remote Opportunity'); Remote Rocketship checked 1 hour ago reports it still open on L3Harris' site. The employer's pay-transparency ranges are location-dependent and the checked text states no Texas range, so no pay verdict is taken from it here. Applying runs through the L3Harris careers candidate account; that credential wall stands, no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:51 AM"
+   },
+   {
+    "company": "Technatomy",
+    "role": "Enterprise Solution Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13610): liveness pre-check 2026-11-17 - the Enterprise Solution Architect role is live on Technatomy's OWN Taleo Career Center (crawled 3 days ago, published 2026-11-06, Job Code 26-202, 1 opening): 'Technatomy is seeking an Enterprise Solution Architect to define application, integration, data, and security architecture for the Department of Veterans Affairs (VA) pharmacy traceability project', work location Remote, Public Trust obtainable (no active clearance required). Salary unpublished on the employer's page (eligible). Applying runs through the Taleo candidate account; that credential wall stands, no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "",
+    "time": "1:51 AM"
    }
   ],
   "dice.com": [
@@ -1286,6 +1349,15 @@
     "time": "12:43 AM"
    }
   ],
+  "W8": [
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Lead Cloud Architect",
+    "reason": "credential-needed — Filer wake f4bf19b1 re-affirming standing park (winner disposition 13605): liveness pre-check 2026-11-17 - this is the second lead for GDIT's Lead Cloud Architect role (found via the W8 board lane); the Built In mirror checked this same wake (crawled 1 day ago) still lists the role live, published 2026-11-07, remote: 'The likely salary range for this position is $170,144 - $230,000' (top exactly at the band ceiling, eligible), Public Trust BI Full 6C (T4) only - no active clearance required. Applying runs through GDIT's candidate account; that credential wall stands (password to be set by Hubert via secure card), no new credential arrived. Nothing submitted. Park stands silently; filing remains owed.",
+    "where": "W8",
+    "time": "1:51 AM"
+   }
+  ],
   "Ashby (employer's own ATS)": [
    {
     "company": "Allwyn Corporation",
@@ -1409,6 +1481,13 @@
     "reason": "not-remote — This is a hybrid role based in the Warren, NJ office (3 days in office/2 days remote). | workarounds tried: (1) employer's own ATS posting sought via web search - same hybrid Warren NJ text, (2) alternate route Simplify Jobs full JD, (3) no alternate remote posting of this role found",
     "where": "Simplify Jobs",
     "time": "12:43 AM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — Key has implemented an approach to employee workspaces which prioritizes in-office presence - #LI-Hybrid - Location: 4910 Tiedeman Road, Brooklyn Ohio. workarounds tried: Simplify full JD and Built In mirror agree on Brooklyn Ohio hybrid/in-office location; posting expiration 10/30/2026 has also passed",
+    "where": "Simplify Jobs",
+    "time": "1:49 AM"
    },
    {
     "company": "Regeneron Pharmaceuticals",
@@ -2081,6 +2160,15 @@
     "time": "1:46 AM"
    }
   ],
+  "Remote Rocketship / Fortive careers": [
+   {
+    "company": "Fortive",
+    "role": "Principal Cloud Architect",
+    "reason": "cloud-mismatch — Define and own Intelex's cloud architecture vision, standards, and roadmap for AWS-first, multi-cloud-aware infrastructure - 5+ years of hands-on AWS architecture experience. workarounds tried: sourced from Fortive's own careers page (governing text) via Remote Rocketship; no Azure-first alternate posting of this role found",
+    "where": "Remote Rocketship / Fortive careers",
+    "time": "1:50 AM"
+   }
+  ],
   "DiversityJobs": [
    {
     "company": "Intercontinental Exchange",
@@ -2352,6 +2440,15 @@
     "reason": "pay-outside-band — Total Base Pay Range 121,900.00 - 262,100.00 USD Annual workarounds tried: (1) employer's own posting carries this range; (2) Dice full JD read; (3) no alternate posting with a different published range found",
     "where": "dice.com",
     "time": "1:42 AM"
+   }
+  ],
+  "Qureos": [
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Cloud Enterprise Architect",
+    "reason": "stale — Posted 8 months ago - Job expired - The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions. workarounds tried: Qureos full JD shows expired; no fresher Baylor posting for this role found on alternate routes",
+    "where": "Qureos",
+    "time": "1:49 AM"
    }
   ],
   "GovernmentJobs.com (Colorado state portal)": [
@@ -3902,5 +3999,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T07:49:16Z"
+ "lists_generated_at": "2026-11-17T07:52:07Z"
 }
