@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T17:46:13Z",
+ "generated_at": "2026-11-17T17:48:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "9d1c1d45",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T13:49:28Z",
-  "last_activity_at": "2026-11-17T17:44:53Z",
+  "last_activity_at": "2026-11-17T17:47:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 90,
-  "rejected": 357,
-  "evaluated": 448
+  "parked": 91,
+  "rejected": 360,
+  "evaluated": 451
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 977,
+  "evaluated": 978,
   "filed": 2,
-  "parked": 179,
-  "rejected": 793,
+  "parked": 180,
+  "rejected": 794,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -105,13 +102,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:46:13Z",
-   "detail": "Employers 350/73"
+   "heartbeat_at": null,
+   "detail": "Employers 390/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -226,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:46:13Z",
-   "detail": "Employers 342/59"
+   "heartbeat_at": null,
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
@@ -306,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "609 of 632 units done",
+   "detail": "620 of 632 units done",
    "started_at": "2026-11-17T13:49:28Z",
    "ended_at": null
   },
@@ -548,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:44 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 11:47 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1060,8 +1051,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 169,
@@ -1733,6 +1724,15 @@
     "reason": "stale-unverified — The Senior Enterprise Solutions Architect: Salesforce is the strategic design authority across the platform and as the enterprise representative. This role ensures that multi-cloud, multi-org, and multi-integration implementations are architected for scale, compliance, and longevity. This position may be worked remotely within the United States, with the exception of California. No typed posting date could be verified on any surface (Dice mirror crawl is months old), so no stale verdict is written; core duties are Salesforce-ecosystem specific (Apex, Experience Cloud, Salesforce Application/System Architect certs).",
     "where": "Dice / diversityjobs (Jack Henry JD mirrors)",
     "time": "7:35 AM"
+   }
+  ],
+  "DiversityJobs (Zoetis mirror); employer page not found": [
+   {
+    "company": "Zoetis",
+    "role": "Manufacturing & Supply Enterprise Architect, Tech & Digital",
+    "reason": "not-evaluated — Base Pay Range: $160,000 - $230,000 (Colorado) / Base Pay Range: $170,000 - $260,000 (California, NJ Remote, NY Remote, or Washington) — verify: Zoetis's own careers/Workday page for this role could not be located; only the DiversityJobs mirror exists, undated, and no published range governs a Texas candidate, so the employer's own page cannot price or confirm this role",
+    "where": "DiversityJobs (Zoetis mirror); employer page not found",
+    "time": "11:46 AM"
    }
   ],
   "Built In (Neurocrine Biosciences mirror)": [
@@ -2667,9 +2667,9 @@
    {
     "company": "Medtronic",
     "role": "Sr. Principal Clinical Data and Solutions Architect",
-    "reason": "pay-outside-band — Salary ranges for U.S (excl. PR) locations (USD):$166,400.00 - $249,600.00. workarounds tried: (1) employer own channel - JD states apply only through official Medtronic channels, same range in the mirrored full JD; (2) alternate route VisaSponsor mirror req R79614, same role; (3) no in-band alternate posting of this role found. Application window also stated to close 13 Nov 2026.",
+    "reason": "closed — We anticipate the application window for this opening will close on - 13 Nov 2026",
     "where": "Built In",
-    "time": "3:35 AM"
+    "time": "11:47 AM"
    },
    {
     "company": "Biogen",
@@ -2733,6 +2733,13 @@
     "reason": "not-remote — We're working onsite 4 days a week as part of our commitment to fostering a culture of professional growth and cross-functional collaboration. workarounds tried: (1) employer own channel - JD states apply only through official Medtronic channels, mirrored full JD carries the same onsite-4-days text; (2) alternate route Built In full JD, same site-based terms for Mounds View/Mansfield; (3) other Medtronic architect postings found are site-based or closed (window closed 31 Oct 2026), no remote alternate posting of this role.",
     "where": "Built In",
     "time": "3:36 AM"
+   },
+   {
+    "company": "Baxter International",
+    "role": "Senior AI Security Architect",
+    "reason": "stale — This is a remote U.S.-based role with quarterly travel to Baxter's Deerfield, IL headquarters. — workarounds tried: Built In full JD dated 2026-10-26 and Baxter's own jobs site searched; no fresher posting of this role found",
+    "where": "Built In",
+    "time": "11:47 AM"
    },
    {
     "company": "Centene",
@@ -4435,6 +4442,13 @@
     "time": "2:41 AM"
    },
    {
+    "company": "Synchrony Financial",
+    "role": "VP, Enterprise Cloud Architect",
+    "reason": "pay-outside-band — The salary range for this position is 170,000.00 - 290,000.00 USD Annual — workarounds tried: Built In full JD, same range; role is primarily AWS (primarily AWS, with exposure to Azure and GCP)",
+    "where": "Built In NYC",
+    "time": "11:46 AM"
+   },
+   {
     "company": "Ryder System",
     "role": "Cloud Architect",
     "reason": "pay-outside-band — Minimum Pay Range : $130,000.00 Maximum Pay Range : $150,000.00 | workarounds tried: Built In NYC mirror of Ryder posting checked, no alternate pay range found",
@@ -5268,36 +5282,6 @@
     "reason": "not-remote — Offices continue to be central to collaboration and Uber's cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. workarounds tried: (1) jobs.uber.com own board, (2) AnitaB/Career.io alternates, (3) no remote repost found",
     "where": "AnitaB",
     "time": "6:37 AM"
-   }
-  ],
-  "builtinnyc.com": [
-   {
-    "company": "Synchrony Financial",
-    "role": "VP, Enterprise Cloud Architect",
-    "reason": "cloud-mismatch — We are seeking an Enterprise Cloud Architect to lead complex application migration initiatives from traditional on-premises or data center environments to modern cloud platforms (primarily AWS, with exposure to Azure and GCP). — AWS-first posting; salary also 170,000.00 - 290,000.00 USD Annual, top outside band, and published 2025-12-17. Workarounds tried: (1) Synchrony Workday careers search, (2) Built In NYC mirror carrying the full JD — same AWS-first text",
-    "where": "builtinnyc.com",
-    "time": "7:44 AM"
-   },
-   {
-    "company": "Pfizer",
-    "role": "Senior Cloud Engineering Lead",
-    "reason": "not-remote — Work Location Assignment: Hybrid - New York, NY, United States — workarounds tried: (1) Built In NYC full JD, (2) Monster alternate posting of same req stating 'This role is NOT remote' and 'Must be able to work in assigned Pfizer office 2-3 days per week', (3) no fully-remote alternate posting found",
-    "where": "builtinnyc.com",
-    "time": "11:23 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Principal Cloud Practice Architect",
-    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300. — workarounds tried: (1) Built In full JD, (2) alternate mirrors Swooped/Employbl showing same range, (3) no alternate posting with a different range found; top $268,300 exceeds $230,000 band top",
-    "where": "builtinnyc.com",
-    "time": "11:21 AM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Principal Enterprise Security Architect (SME)",
-    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
-    "where": "builtinnyc.com",
-    "time": "1:33 AM"
    }
   ],
   "jobs.lifepointhealth.net (employer's own ATS)": [
@@ -6279,6 +6263,29 @@
     "reason": "not-remote — Work location: Remote (you must live in Poland). We are seeking a Lead Platform Engineer with skills in AWS, and experience of running public infrastructure to support and operate complex hybrid environments for large enterprises. — US-only remote rule fails (Poland-based). Workarounds tried: (1) employer's own JD text via Working Nomads full listing, (2) alternate search routes, same Poland requirement, (3) no alternate US posting of this req found",
     "where": "Working Nomads / Rackspace JD",
     "time": "7:25 AM"
+   }
+  ],
+  "builtinnyc.com": [
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "not-remote — Work Location Assignment: Hybrid - New York, NY, United States — workarounds tried: (1) Built In NYC full JD, (2) Monster alternate posting of same req stating 'This role is NOT remote' and 'Must be able to work in assigned Pfizer office 2-3 days per week', (3) no fully-remote alternate posting found",
+    "where": "builtinnyc.com",
+    "time": "11:23 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Principal Cloud Practice Architect",
+    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300. — workarounds tried: (1) Built In full JD, (2) alternate mirrors Swooped/Employbl showing same range, (3) no alternate posting with a different range found; top $268,300 exceeds $230,000 band top",
+    "where": "builtinnyc.com",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Principal Enterprise Security Architect (SME)",
+    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
+    "where": "builtinnyc.com",
+    "time": "1:33 AM"
    }
   ],
   "Built In (S&P Global JD mirror)": [
@@ -10166,5 +10173,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T17:46:13Z"
+ "lists_generated_at": "2026-11-17T17:48:10Z"
 }
