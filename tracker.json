@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:28:40Z",
+ "generated_at": "2026-11-17T21:30:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:27:34Z",
+  "last_activity_at": "2026-11-17T21:29:16Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,24 @@
  "counts": {
   "filed": 2,
   "parked": 202,
-  "rejected": 943,
-  "evaluated": 1149
+  "rejected": 944,
+  "evaluated": 1150
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1149,
+  "evaluated": 1150,
   "filed": 2,
   "parked": 202,
-  "rejected": 943,
+  "rejected": 944,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W3",
   "W5",
+  "W6",
+  "W16",
   "W17",
   "W18",
   "W19"
@@ -108,13 +109,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:28:40Z",
-   "detail": "Employers 255/73"
+   "heartbeat_at": null,
+   "detail": "Employers 265/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -135,19 +136,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:28:40Z",
-   "detail": "Employers 252/44"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 252/44"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 256/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,13 +230,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/59"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 260/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,8 +246,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:28:40Z",
-   "detail": "Employers 250/54"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 260/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -256,8 +257,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:28:40Z",
-   "detail": "Employers 250/45"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -267,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:28:40Z",
-   "detail": "Employers 242/41"
+   "heartbeat_at": "2026-11-17T21:30:59Z",
+   "detail": "Employers 244/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -309,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "542 of 632 units done",
+   "detail": "553 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -551,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:27 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:29 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W5",
+  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2317,13 +2318,13 @@
     "time": "9:55 AM"
    }
   ],
-  "curaiz.com": [
+  "jobspresso.co": [
    {
     "company": "Twilio",
     "role": "Architect",
-    "reason": "title-not-covered — Join the team as Twilio’s next Architect on our Data Substrate team — You’ll own the technical strategy for our data platform, spanning storage, lake and lakehouse architecture, catalog and governance, and privacy-by-design.",
-    "where": "curaiz.com",
-    "time": "11:21 AM"
+    "reason": "title-not-covered — You'll own the technical strategy for our data platform, spanning storage, lake and lakehouse architecture, catalog and governance, and privacy-by-design. This role will be remote, and based in the United States.",
+    "where": "jobspresso.co",
+    "time": "3:29 PM"
    }
   ],
   "Cognizant Careers (employer site)": [
@@ -6039,9 +6040,9 @@
    {
     "company": "Rackspace Technology",
     "role": "Cloud Architect (Azure)",
-    "reason": "pay-outside-band — The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. | Top of published range $158,000 is below the $160,000 band floor. workarounds tried: (1) Rackspace's own posting sought via search - same Azure Cloud Architect role and range; (2) DiversityJobs mirror carries the full JD; (3) no alternate posting with a different range found",
+    "reason": "pay-outside-band — The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. | workarounds tried: (1) employer's own posting text via DiversityJobs mirror, (2) alternate route search, (3) alternate posting - same published range",
     "where": "diversityjobs.com",
-    "time": "11:17 AM"
+    "time": "3:29 PM"
    },
    {
     "company": "Intercontinental Exchange",
@@ -8229,6 +8230,22 @@
     "time": "7:31 AM"
    }
   ],
+  "jobgether.com": [
+   {
+    "company": "Rackspace Technology",
+    "role": "Network Architect",
+    "reason": "pay-outside-band — The compensation range for this position ranges from $165,830.00/year in our lowest geographic market up to 243,141.80 USD/year in our highest geographic market. | workarounds tried: (1) employer's own posting text via Jobgether mirror, (2) alternate route search, (3) alternate posting - same published range",
+    "where": "jobgether.com",
+    "time": "3:29 PM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Google Cloud Lead Engineer (GCP)",
+    "reason": "cloud-mismatch — New York Life is seeking an experienced Google Cloud Lead Engineer to drive enterprise-scale cloud architecture, modernization, and operational excellence across our Google Cloud Platform (GCP) environment.",
+    "where": "jobgether.com",
+    "time": "3:02 PM"
+   }
+  ],
   "Palo Alto Networks careers (employer's own page)": [
    {
     "company": "Palo Alto Networks",
@@ -10280,15 +10297,6 @@
     "time": "3:02 PM"
    }
   ],
-  "jobgether.com": [
-   {
-    "company": "New York Life",
-    "role": "Corporate Vice President - Google Cloud Lead Engineer (GCP)",
-    "reason": "cloud-mismatch — New York Life is seeking an experienced Google Cloud Lead Engineer to drive enterprise-scale cloud architecture, modernization, and operational excellence across our Google Cloud Platform (GCP) environment.",
-    "where": "jobgether.com",
-    "time": "3:02 PM"
-   }
-  ],
   "refresh.cv": [
    {
     "company": "Capgemini",
@@ -11504,5 +11512,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T21:28:40Z"
+ "lists_generated_at": "2026-11-17T21:30:59Z"
 }
