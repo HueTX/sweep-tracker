@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:12:58Z",
+ "generated_at": "2026-11-17T21:15:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:12:53Z",
+  "last_activity_at": "2026-11-17T21:14:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,21 @@
  "counts": {
   "filed": 2,
   "parked": 194,
-  "rejected": 931,
-  "evaluated": 1129
+  "rejected": 934,
+  "evaluated": 1133
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1129,
+  "evaluated": 1133,
   "filed": 2,
   "parked": 194,
-  "rejected": 931,
+  "rejected": 934,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -97,24 +91,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:12:58Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": null,
+   "detail": "Employers 226/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:12:58Z",
-   "detail": "Employers 215/73"
+   "heartbeat_at": null,
+   "detail": "Employers 225/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -130,24 +124,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:12:58Z",
-   "detail": "Employers 215/44"
+   "heartbeat_at": null,
+   "detail": "Employers 225/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:12:58Z",
-   "detail": "Employers 215/44"
+   "heartbeat_at": null,
+   "detail": "Employers 225/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:12:58Z",
-   "detail": "Employers 215/59"
+   "heartbeat_at": null,
+   "detail": "Employers 225/59"
   },
   "W17": {
    "label": "Technology",
@@ -246,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 215/54"
+   "detail": "Employers 225/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -257,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 215/45"
+   "detail": "Employers 225/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 215/41"
+   "detail": "Employers 225/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -309,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "484 of 632 units done",
+   "detail": "501 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -551,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:12 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 3:14 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1077,7 +1065,7 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
+  "candidates_open": 1,
   "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
@@ -2124,15 +2112,6 @@
     "time": "2:59 PM"
    }
   ],
-  "Vaia": [
-   {
-    "company": "Tyson Foods",
-    "role": "Global IT Network Architect",
-    "reason": "title-not-covered — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site.",
-    "where": "Vaia",
-    "time": "11:05 AM"
-   }
-  ],
   "GovernmentJobs / City of Houston": [
    {
     "company": "City of Houston portal",
@@ -2221,6 +2200,15 @@
     "reason": "title-not-covered — Lead the migration of enterprise customers to modern infrastructure and applications, including cloud native applications, data warehouse and analytics modernization",
     "where": "Google careers (employer's own board)",
     "time": "12:55 PM"
+   }
+  ],
+  "careers.epam.com": [
+   {
+    "company": "EPAM Systems",
+    "role": "System Architect",
+    "reason": "title-not-covered — We are looking for a System Architect with strong expertise in Microsoft Azure to design and guide the implementation of secure, scalable, and reliable cloud solutions. Title System Architect matches no listed family in this unit; duties are architect-level Azure, parked title-not-covered, not force-fit.",
+    "where": "careers.epam.com",
+    "time": "3:14 PM"
    }
   ],
   "Adzuna": [
@@ -3111,6 +3099,13 @@
     "time": "2:38 PM"
    },
    {
+    "company": "eBay",
+    "role": "Cloud Architect",
+    "reason": "cloud-mismatch — As a Cloud Architect, you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment. Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) employer posting text via Built In mirror, (2) alternate eBay/TCGplayer routes same AWS role, (3) no Azure alternate posting for this role",
+    "where": "Built In",
+    "time": "3:14 PM"
+   },
+   {
     "company": "Lockheed Martin",
     "role": "Enterprise Architect",
     "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 — workarounds tried: (1) employer's own JD text as reproduced on Built In publishes GeoZone ranges whose tops ($247,900-$344,400 in every zone, including GeoZone 3 Dallas-Fort Worth) all exceed the $230,000 band ceiling; the role's core is also MBSE/Cameo systems architecture, not IT cloud architecture; (2) Glassdoor mirror carries the same ranges; (3) no alternate posting with a different salary found",
@@ -3179,6 +3174,13 @@
     "reason": "stale — As we build our footprint for our “Next-Gen” Gilead Capabilities Center — workarounds tried: Built In full JD and startup.jobs mirror, same posting dated 2026-11-03",
     "where": "Built In",
     "time": "11:44 AM"
+   },
+   {
+    "company": "DXC Technology",
+    "role": "Global Azure Cloud Architect",
+    "reason": "not-remote — Candidate must be based in the Miami area Location: MIAMI, FL. workarounds tried: (1) employer posting text via Built In mirror, (2) alternate Recruit.net route same Miami role, (3) no remote alternate posting found",
+    "where": "Built In",
+    "time": "3:14 PM"
    },
    {
     "company": "CVS Health / Aetna",
@@ -4145,13 +4147,6 @@
     "time": "2:51 PM"
    },
    {
-    "company": "Texas Children's Hospital",
-    "role": "Sr. Data Security Architect",
-    "reason": "stale — Published: 2026-11-05 - posting date is 12 days before 2026-11-17, outside the 7-day eligibility window; workarounds tried: (1) employer board texaschildrenspeople.org sought via search, same Nov 5 listing; (2) Built In mirror is the finding surface; (3) no fresher repost found",
-    "where": "builtin.com",
-    "time": "11:14 AM"
-   },
-   {
     "company": "Molina Healthcare",
     "role": "Architect, Information Security - DevSecOps/Application Security",
     "reason": "devsecops-title — Architect, Information Security - DevSecOps/Application Security - Remote. Provides application security architecture and governance within an AppSec Center of Excellence. Partners with development, DevOps, and security teams to advance DevSecOps adoption",
@@ -4686,6 +4681,13 @@
     "time": "1:31 PM"
    },
    {
+    "company": "Textron",
+    "role": "Sr. Cloud Solutions Architect",
+    "reason": "not-remote — Textron Augusta, MN (Onsite) Full-Time Primary Location, : US-Georgia-Augusta. workarounds tried: (1) employer posting text via Career.io/CareerBuilder mirrors, (2) alternate Dice route same Augusta role, (3) no remote alternate posting found",
+    "where": "CareerBuilder",
+    "time": "3:14 PM"
+   },
+   {
     "company": "Kaiser Permanente",
     "role": "Azure Public Infrastructure as a Service Architect",
     "reason": "not-remote — Please note, this position is designated as flexible (aka hybrid), and the expectation is that the selected candidate will report to the assigned office 3 days per week in Greensboro, North Carolina. workarounds tried: (1) employer's own Kaiser posting text via CareerBuilder mirror - same hybrid terms, (2) Kaiser Permanente jobs site search - no remote variant of this role found, (3) no alternate remote posting of the same role found",
@@ -4833,13 +4835,6 @@
     "reason": "not-remote — This is a hybrid role located on our campus in Mountlake Terrace, Washington. workarounds tried: (1) employer's own posting classification is Hybrid, (2) alternate routes BuiltIn full JD, SonicJobs and Monster mirrors all state hybrid, (3) alternate posting - no remote version found",
     "where": "BuiltIn",
     "time": "2:44 PM"
-   },
-   {
-    "company": "eBay",
-    "role": "Cloud Architect",
-    "reason": "cloud-mismatch — As a Cloud Architect, you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment. workarounds tried: (1) BuiltIn full JD for TCGplayer/eBay checked, (2) alternate routes searched, (3) no Azure-led alternate posting found; AWS-first role",
-    "where": "BuiltIn",
-    "time": "11:10 AM"
    },
    {
     "company": "General Dynamics",
@@ -5112,6 +5107,13 @@
     "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office. Alternate Locations: Radnor, PA (Pennsylvania); Charlotte, NC (North Carolina); Fort Wayne, IN (Indiana); Greensboro, NC (North Carolina). workarounds tried: (1) employer's own posting text for Requisition #76522 read in full via its Talents/Vaia mirror; (2) alternate route search listings for the same req checked, same hybrid terms; (3) no alternate posting of this req is fully remote.",
     "where": "talents.vaia.com",
     "time": "2:51 PM"
+   },
+   {
+    "company": "Tyson Foods",
+    "role": "Global IT Network Architect",
+    "reason": "not-remote — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site. workarounds tried: (1) employer listing via Vaia mirror, (2) alternate Tyson searches same onsite Springdale role, (3) no remote alternate posting found",
+    "where": "talents.vaia.com",
+    "time": "3:14 PM"
    },
    {
     "company": "Lincoln Financial",
@@ -8222,6 +8224,15 @@
     "time": "2:55 PM"
    }
   ],
+  "Jooble / Texas Childrens Oracle careers": [
+   {
+    "company": "Texas Children's Hospital",
+    "role": "Sr. Data Security Architect",
+    "reason": "not-remote — Location: Houston, TX, United States Workplace: Hybrid Schedule: Full time, Day Posted: 2026-11-05. workarounds tried: (1) employer own Oracle careers page job 427927 checked, (2) alternate Jooble/Built In mirrors same hybrid Houston role, (3) no remote alternate posting found",
+    "where": "Jooble / Texas Childrens Oracle careers",
+    "time": "3:14 PM"
+   }
+  ],
   "SmartRecruiters (Visa ATS)": [
    {
     "company": "Visa",
@@ -8602,15 +8613,6 @@
     "reason": "pay-outside-band — Salary Range: $109000 - $133000 a year — top $133,000 below $160,000 band floor; Location, Reston, VA — workarounds tried: (1) employer-surface search for TCS Enterprise Architect, (2) diversityjobs full JD (this page), (3) alternate posting search — no in-band remote variant found",
     "where": "diversityjobs.com (TCS full JD mirror)",
     "time": "10:57 AM"
-   }
-  ],
-  "EPAM Careers": [
-   {
-    "company": "EPAM Systems",
-    "role": "System Architect",
-    "reason": "stale — Published: 2026-11-06 — workarounds tried: employer's own EPAM careers page opened in full (governing text, Azure system architecture duties), no fresher repost of the same role found on alternate routes",
-    "where": "EPAM Careers",
-    "time": "2:59 AM"
    }
   ],
   "RemoteJobsFinder (Coastal)": [
@@ -9103,6 +9105,22 @@
     "time": "2:03 PM"
    }
   ],
+  "Jooble": [
+   {
+    "company": "Johnson Controls",
+    "role": "Sr. Solution Architect",
+    "reason": "not-remote — SALARY RANGE: $140,000 - $160,000 #LI-HYBRID Johnson Controls International plc. Location: Milwaukee-Wisconsin-United States of America; Dallas-Texas-United States of America. workarounds tried: (1) employer careers text via Jooble mirror, (2) alternate Johnson Controls listings same hybrid tag, (3) no remote alternate posting found",
+    "where": "Jooble",
+    "time": "3:14 PM"
+   },
+   {
+    "company": "BayOne Solutions",
+    "role": "Senior AWS Cloud Transformation Architect",
+    "reason": "cloud-mismatch — We are looking for a seasoned AWS Cloud Architect to lead enterprise-wide cloud transformation initiatives and accelerate the modernization of business-critical applications. | AWS Certified Solutions Architect – Professional (Required) | workarounds tried: (1) employer's own posting sought via web search - same AWS-only text, (2) alternate routes Jooble and TheBigJobSite full JDs - both AWS-first, (3) no alternate Azure posting of this role found",
+    "where": "Jooble",
+    "time": "12:47 AM"
+   }
+  ],
   "McDonald's careers (employer own ATS)": [
    {
     "company": "McDonald's",
@@ -9319,15 +9337,6 @@
     "role": "Solutions Architect II",
     "reason": "experience-mismatch — Utility CIS implementation experience and a consulting background are non-negotiable. | 5+ years implementing enterprise utility software, including 4+ end-to-end CIS utility billing implementations (water, gas, or electric). CIS experience is required. | workarounds tried: (1) employer's own posting sought via web search - same CIS requirement, (2) alternate route Job Sea full JD, (3) no alternate posting of this role found",
     "where": "Job Sea",
-    "time": "12:47 AM"
-   }
-  ],
-  "Jooble": [
-   {
-    "company": "BayOne Solutions",
-    "role": "Senior AWS Cloud Transformation Architect",
-    "reason": "cloud-mismatch — We are looking for a seasoned AWS Cloud Architect to lead enterprise-wide cloud transformation initiatives and accelerate the modernization of business-critical applications. | AWS Certified Solutions Architect – Professional (Required) | workarounds tried: (1) employer's own posting sought via web search - same AWS-only text, (2) alternate routes Jooble and TheBigJobSite full JDs - both AWS-first, (3) no alternate Azure posting of this role found",
-    "where": "Jooble",
     "time": "12:47 AM"
    }
   ],
@@ -11350,5 +11359,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T21:12:58Z"
+ "lists_generated_at": "2026-11-17T21:15:08Z"
 }
