@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T03:41:08Z",
+ "generated_at": "2026-11-17T03:42:50Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T03:40:50Z",
+  "last_activity_at": "2026-11-17T03:42:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,28 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 62,
-  "rejected": 115,
-  "evaluated": 177
+  "parked": 63,
+  "rejected": 128,
+  "evaluated": 191
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 877,
+  "evaluated": 881,
   "filed": 1,
-  "parked": 64,
-  "rejected": 812,
+  "parked": 65,
+  "rejected": 815,
   "filed_by_source": {
    "ADP Career Center": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -92,7 +85,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/30"
+   "detail": "Employers 45/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -103,51 +96,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/39"
+   "detail": "Employers 45/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/73"
+   "heartbeat_at": null,
+   "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/32"
+   "heartbeat_at": null,
+   "detail": "Employers 40/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 40/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 40/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,24 +222,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/59"
+   "heartbeat_at": null,
+   "detail": "Employers 40/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:41:08Z",
-   "detail": "Employers 35/54"
+   "heartbeat_at": null,
+   "detail": "Employers 40/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -257,7 +250,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 35/45"
+   "detail": "Employers 40/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,7 +261,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 35/41"
+   "detail": "Employers 40/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,7 +272,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 35/31"
+   "detail": "Employers 40/31"
   }
  },
  "stages": {
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "99 of 632 units done",
+   "detail": "111 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -551,19 +544,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:40 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 9:42 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1841,6 +1828,15 @@
     "where": "W20",
     "time": "9:24 PM"
    }
+  ],
+  "Teal": [
+   {
+    "company": "Eversource",
+    "role": "Principal Engineer, System Planning",
+    "reason": "not-evaluated — This position follows a hybrid schedule. Current guidelines require at least three office days per week, including Tuesdays and Wednesdays. Fly title (Principal Engineer) found in W6 lane, not among the unit families.",
+    "where": "Teal",
+    "time": "9:41 PM"
+   }
   ]
  },
  "today_rejected": {
@@ -2565,13 +2561,6 @@
     "reason": "not-remote — Location: San Antonio, Texas - Additional locations: Findlay, Ohio, Houston, Texas",
     "where": "Employer sites",
     "time": "9:20 AM"
-   },
-   {
-    "company": "Expeditors International",
-    "role": "Architect - Configuration and Deployment Services, IS Core",
-    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position.",
-    "where": "Employer sites",
-    "time": "5:50 AM"
    },
    {
     "company": "Expeditors International",
@@ -4345,6 +4334,50 @@
     "time": "12:53 PM"
    }
   ],
+  "Remotive": [
+   {
+    "company": "Molina Healthcare",
+    "role": "AVP, Infrastructure",
+    "reason": "pay-outside-band — Molina Healthcare is hiring a remote AVP, Infrastructure. Salary: usd 140,795 - 274,550.26 per year",
+    "where": "Remotive",
+    "time": "9:41 PM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "Digital Technology Senior Specialist - Enterprise Architecture",
+    "reason": "non-US — Be aware of the location restriction for this remote position: India",
+    "where": "Remotive",
+    "time": "9:41 PM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Data Platform Cloud Architect",
+    "reason": "pay-outside-band — Oracle is hiring a remote Data Platform Cloud Architect. Salary: usd 147,300 - 243,800 per year",
+    "where": "Remotive",
+    "time": "9:40 PM"
+   },
+   {
+    "company": "IBM",
+    "role": "Managing Consultant, Data Architect",
+    "reason": "experience-mismatch — 5+ years hands-on at advanced depth on at least one modern cloud data platform: Snowflake or Databricks, with working knowledge of the other; workarounds tried: (1) IBM posting via Remotive full JD, (2) no alternate route changes the Snowflake/Databricks data-platform core",
+    "where": "Remotive",
+    "time": "9:40 PM"
+   },
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, IT Architecture",
+    "reason": "hands-on — Hands On Technical Expertise: You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions.; workarounds tried: (1) employer posting via Remotive full JD, (2) no alternate posting - the hands-on build/operate core is posting-intrinsic",
+    "where": "Remotive",
+    "time": "9:42 PM"
+   },
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Federal Enterprise Architect - DOD",
+    "reason": "pay-outside-band — Salary: usd 166,500 - 390,500 per year",
+    "where": "Remotive",
+    "time": "5:26 PM"
+   }
+  ],
   "W4": [
    {
     "company": "CVS Health / Aetna",
@@ -4397,9 +4430,9 @@
    {
     "company": "Marathon Petroleum",
     "role": "Senior Solution Architect, Midstream Operations",
-    "reason": "stale — The Senior Solution Architect plays a critical role in designing and implementing innovative digital solutions to enhance the performance and reliability of MPC’s Operational Facilities.",
+    "reason": "not-remote — Location: San Antonio, Texas - Location Address: 19100 Ridgewood Pkwy; workarounds tried: (1) employer posting via Built In full JD - location-bound, no remote arrangement stated, (2) no alternate remote posting of req 00024521 found",
     "where": "Built In",
-    "time": "7:09 PM"
+    "time": "9:41 PM"
    },
    {
     "company": "CVS Health / Aetna",
@@ -4439,9 +4472,9 @@
    {
     "company": "Cleveland Clinic",
     "role": "Cybersecurity Architect",
-    "reason": "stale — A caregiver in this position works remotely Monday - Friday 8:00am-5:00pm EST (Flexible).",
+    "reason": "stale — As a Cybersecurity Architect at Cleveland Clinic, you will help safeguard information technology assets and protect systems from intentional or inadvertent access.",
     "where": "Built In",
-    "time": "5:52 PM"
+    "time": "9:42 PM"
    },
    {
     "company": "Old Dominion Freight Line",
@@ -4530,9 +4563,9 @@
    {
     "company": "Highmark Health",
     "role": "Principal Architect",
-    "reason": "pay-outside-band — Pay Range Minimum: $142,000.00 Pay Range Maximum: $236,000.00 | workarounds tried: Built In full JD reproducing Highmark/enGen posting; top of range $236,000 is above the $230,000 band top on any route",
+    "reason": "pay-outside-band — Pay Range Minimum: $142,000.00 Pay Range Maximum: $236,000.00",
     "where": "Built In",
-    "time": "7:30 PM"
+    "time": "9:41 PM"
    },
    {
     "company": "Health Care Service Corporation",
@@ -4836,43 +4869,6 @@
     "reason": "experience-mismatch — 10+ years of SAP experience.",
     "where": "Halliburton jobs",
     "time": "9:37 PM"
-   }
-  ],
-  "Remotive": [
-   {
-    "company": "Baker Hughes",
-    "role": "Digital Technology Senior Specialist - Enterprise Architecture",
-    "reason": "non-US — Be aware of the location restriction for this remote position: India",
-    "where": "Remotive",
-    "time": "7:09 PM"
-   },
-   {
-    "company": "Oracle",
-    "role": "Data Platform Cloud Architect",
-    "reason": "pay-outside-band — Oracle is hiring a remote Data Platform Cloud Architect. Salary: usd 147,300 - 243,800 per year",
-    "where": "Remotive",
-    "time": "9:40 PM"
-   },
-   {
-    "company": "IBM",
-    "role": "Managing Consultant, Data Architect",
-    "reason": "experience-mismatch — 5+ years hands-on at advanced depth on at least one modern cloud data platform: Snowflake or Databricks, with working knowledge of the other; workarounds tried: (1) IBM posting via Remotive full JD, (2) no alternate route changes the Snowflake/Databricks data-platform core",
-    "where": "Remotive",
-    "time": "9:40 PM"
-   },
-   {
-    "company": "L3Harris Technologies",
-    "role": "Lead, IT Architecture",
-    "reason": "hands-on — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions.",
-    "where": "Remotive",
-    "time": "7:09 PM"
-   },
-   {
-    "company": "Hewlett Packard Enterprise",
-    "role": "Federal Enterprise Architect - DOD",
-    "reason": "pay-outside-band — Salary: usd 166,500 - 390,500 per year",
-    "where": "Remotive",
-    "time": "5:26 PM"
    }
   ],
   "Google Jobs": [
@@ -5689,20 +5685,20 @@
     "time": "5:58 PM"
    }
   ],
-  "TalentAlly / Capital One": [
+  "TalentAlly": [
    {
     "company": "Capital One",
     "role": "Sr. Mgr, Solutions Architect (Customer Engineering) - Capital One Software (Remote)",
     "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch",
-    "where": "TalentAlly / Capital One",
-    "time": "7:09 PM"
+    "where": "TalentAlly",
+    "time": "9:41 PM"
    },
    {
-    "company": "Capital One",
-    "role": "Sr. Mgr, Solutions Architect (Customer Engineering) - Capital One Software",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch",
-    "where": "TalentAlly / Capital One",
-    "time": "5:48 PM"
+    "company": "CareFirst",
+    "role": "Domain Principal Architect",
+    "reason": "pay-outside-band — Salary Range: $152,080 - $271,843",
+    "where": "TalentAlly",
+    "time": "5:52 AM"
    }
   ],
   "DiversityJobs": [
@@ -6005,6 +6001,15 @@
     "time": "9:27 PM"
    }
   ],
+  "Teal": [
+   {
+    "company": "Caterpillar",
+    "role": "Principal Systems Architect - Marketing Technology",
+    "reason": "pay-outside-band — Principal Systems Architect - Marketing Technology - Caterpillar Inc. - Peoria, IL - $159,120 - $258,570",
+    "where": "Teal",
+    "time": "9:42 PM"
+   }
+  ],
   "careerbuilder.com": [
    {
     "company": "Schneider National",
@@ -6014,29 +6019,22 @@
     "time": "5:43 PM"
    }
   ],
-  "Jobgether": [
+  "Halliburton Careers": [
    {
     "company": "Halliburton",
     "role": "Senior Software Solution Architect",
-    "reason": "non-US — This a Full Remote job, the offer is available from: South America, Latin America, Brazil",
-    "where": "Jobgether",
-    "time": "7:09 PM"
-   },
-   {
-    "company": "Akamai",
-    "role": "Senior Cloud Architect, Data Services",
-    "reason": "stale — For US based candidates only - the base salary for this position ranges from $169,300 - $304,700/year",
-    "where": "Jobgether",
-    "time": "11:15 AM"
+    "reason": "non-US — Rio de Janeiro, Rio de Janeiro, Brazil - We are looking for a hands-on Senior Software Solution Architect",
+    "where": "Halliburton Careers",
+    "time": "9:41 PM"
    }
   ],
-  "usajobs.gov": [
+  "USAJobs": [
    {
     "company": "NASA",
     "role": "Information Technology Specialist (Enterprise Architecture) (Direct Hire)",
-    "reason": "stale — Serves as the NASA technology domain enterprise architect providing creation, iteration, and maintenance of enterprise architectures that embody key principles, methods, and models to describe current/future state aligned to business outcomes",
-    "where": "usajobs.gov",
-    "time": "5:34 PM"
+    "reason": "stale — Serves as the NASA technology domain enterprise architect providing creation, iteration, and maintenance of enterprise architectures that embody key principles, methods, and models",
+    "where": "USAJobs",
+    "time": "9:42 PM"
    }
   ],
   "USAJOBS / GSA": [
@@ -6203,6 +6201,15 @@
     "reason": "stale — you will act as a primary technical deal architect and domain expert, driving pre-sales architecture, technical discovery, proof-of-concept (POC) validations, and database modernization strategies",
     "where": "TheBigJobSite",
     "time": "11:12 AM"
+   }
+  ],
+  "Jobgether": [
+   {
+    "company": "Akamai",
+    "role": "Senior Cloud Architect, Data Services",
+    "reason": "stale — For US based candidates only - the base salary for this position ranges from $169,300 - $304,700/year",
+    "where": "Jobgether",
+    "time": "11:15 AM"
    }
   ],
   "DiversityJobs / Providence": [
@@ -6521,6 +6528,15 @@
     "reason": "stale — The Forge Platform team is seeking a visionary and hands-on Principal Platform Architect to define and drive the platform architecture strategy.",
     "where": "Simplify Jobs (Honeywell)",
     "time": "7:23 PM"
+   }
+  ],
+  "SmartRecruiters": [
+   {
+    "company": "Expeditors International",
+    "role": "Architect - Configuration and Deployment Services, IS Core",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA area at one of the following locations depending on availability. Candidates must be local or willing to relocate.; workarounds tried: (1) employer's own SmartRecruiters posting (governing text), (2) no alternate remote posting of this req found",
+    "where": "SmartRecruiters",
+    "time": "9:42 PM"
    }
   ],
   "careers.caterpillar.com": [
@@ -7468,15 +7484,6 @@
     "time": "5:35 AM"
    }
   ],
-  "TalentAlly": [
-   {
-    "company": "CareFirst",
-    "role": "Domain Principal Architect",
-    "reason": "pay-outside-band — Salary Range: $152,080 - $271,843",
-    "where": "TalentAlly",
-    "time": "5:52 AM"
-   }
-  ],
   "Washington state portal": [
    {
     "company": "Washington State Department of Commerce",
@@ -7690,6 +7697,15 @@
     "role": "IT Senior Solution Architect - AMI/Metering",
     "reason": "not-remote — IT Senior Solution Architect - AMI/Metering (Hybrid)",
     "where": "Eversource Careers",
+    "time": "5:48 PM"
+   }
+  ],
+  "TalentAlly / Capital One": [
+   {
+    "company": "Capital One",
+    "role": "Sr. Mgr, Solutions Architect (Customer Engineering) - Capital One Software",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch",
+    "where": "TalentAlly / Capital One",
     "time": "5:48 PM"
    }
   ],
@@ -7982,6 +7998,15 @@
     "reason": "experience-mismatch — Working knowledge of FP&A (budgeting, forecasting, variance analysis, close), Treasury (cash, liquidity, FX, intercompany), and Management Reporting (aggregation, allocation, multi-dimensional reporting) processes and their data dependencies",
     "where": "Citi / Built In",
     "time": "9:36 PM"
+   }
+  ],
+  "L3Harris Careers": [
+   {
+    "company": "L3Harris Technologies",
+    "role": "Scientist, Ground Systems Architect",
+    "reason": "clearance — Job Location: Palm Bay, Florida - Active TS/SCI clearance",
+    "where": "L3Harris Careers",
+    "time": "9:42 PM"
    }
   ]
  },
@@ -9163,5 +9188,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T03:41:08Z"
+ "lists_generated_at": "2026-11-17T03:42:50Z"
 }
