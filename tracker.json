@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T08:11:21Z",
+ "generated_at": "2026-11-17T08:13:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T08:10:11Z",
+  "last_activity_at": "2026-11-17T08:13:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,21 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 64,
-  "rejected": 176,
-  "evaluated": 240
+  "rejected": 184,
+  "evaluated": 248
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 263,
+  "evaluated": 271,
   "filed": 0,
   "parked": 54,
-  "rejected": 209,
+  "rejected": 217,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
   "W2",
-  "W17",
+  "W3",
   "W18",
   "W19",
   "W20"
@@ -89,8 +89,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 125/30"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 130/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,19 +100,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 125/39"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 130/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 125/73"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 130/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,7 +123,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/32"
+   "detail": "Employers 130/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,7 +134,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/44"
+   "detail": "Employers 130/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +145,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/44"
+   "detail": "Employers 130/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,18 +233,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 125/59"
+   "detail": "Employers 130/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 120/54"
+   "heartbeat_at": null,
+   "detail": "Employers 130/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 120/45"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 125/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 120/41"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 125/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:11:21Z",
-   "detail": "Employers 120/31"
+   "heartbeat_at": "2026-11-17T08:13:55Z",
+   "detail": "Employers 125/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "291 of 632 units done",
+   "detail": "303 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:10 AM CT · 8 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:13 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1064,7 +1064,7 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.33,
+  "pass_oldest_age_hours": 0.38,
   "attempted_today": 92,
   "filed_today": 0
  },
@@ -2438,6 +2438,15 @@
     "time": "2:07 AM"
    }
   ],
+  "Built In / DuPont": [
+   {
+    "company": "DuPont",
+    "role": "Cloud Architect - IT Technology Solutions",
+    "reason": "not-remote — This is an onsite position. Team members work 3 days onsite and 2 days remote. Candidates must be within a commutable distance to Wilmington, DE. workarounds tried: (1) employer's own posting text carried in Built In mirror with same onsite terms, (2) alternate route search for same DuPont Cloud Architect role, (3) no alternate remote posting of same role found",
+    "where": "Built In / DuPont",
+    "time": "2:12 AM"
+   }
+  ],
   "GovernmentJobs / King County": [
    {
     "company": "King County",
@@ -2445,6 +2454,33 @@
     "reason": "not-remote — The work associated with this position will be performed through a combination of onsite work and telecommuting. Employees will have access to shared workspaces at various King County facilities. — workarounds tried: (1) employer's own King County job bulletin on governmentjobs.com (governing text), (2) alternate county portal mirrors show same hybrid arrangement, (3) no alternate fully remote posting of same role found",
     "where": "GovernmentJobs / King County",
     "time": "2:06 AM"
+   }
+  ],
+  "Built In Toronto / Workday": [
+   {
+    "company": "Workday",
+    "role": "Sr Principal, AI Architect",
+    "reason": "not-remote — Primary Location: CAN.ON.Toronto. spend at least half (50%) of our time each quarter in the office or in the field. workarounds tried: (1) employer's own posting text carried in Built In Toronto mirror with same Toronto location and Flex Work terms, (2) alternate route search for a US remote posting of same role, (3) no alternate US remote posting found",
+    "where": "Built In Toronto / Workday",
+    "time": "2:12 AM"
+   }
+  ],
+  "Built In / Snowflake": [
+   {
+    "company": "Snowflake",
+    "role": "Principal Data Cloud Architect - SI Partners",
+    "reason": "stale — Expertise in data science programming languages including Python, SQL, Scala, and/or Spark. Published: 2026-08-13, more than 7 days before 2026-11-17 with no repost found. workarounds tried: (1) employer's own Snowflake Careers posting carried in Built In mirror, (2) alternate route Career.io mirror with same August 2026 posting, (3) no fresher repost of same role found",
+    "where": "Built In / Snowflake",
+    "time": "2:13 AM"
+   }
+  ],
+  "Built In / Sherwin-Williams": [
+   {
+    "company": "Sherwin-Williams",
+    "role": "Principal Enterprise Architect, Strategic Initiatives - ERP Program",
+    "reason": "experience-mismatch — Lead architect on at least one full-lifecycle, multi-wave Oracle Fusion Cloud ERP or SCM program at enterprise scale (Financials, Procurement, Order Management, Supply Chain Planning, Manufacturing, Inventory), through go-live and hypercare. Advisory-only program experience does not qualify. workarounds tried: (1) employer's own posting text carried in Built In mirror, (2) alternate route Ladders posting with same Oracle Fusion lead requirement, (3) no alternate posting of same role without that requirement found",
+    "where": "Built In / Sherwin-Williams",
+    "time": "2:12 AM"
    }
   ],
   "Teradata careers (employer page)": [
@@ -2738,6 +2774,24 @@
     "reason": "stale — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware. Published 2026-10-19 on Built In, more than 7 days before 2026-11-17 with no repost or fresh surface activity found. workarounds tried: (1) employer's own board search for same title, (2) alternate route Built In mirror, (3) alternate posting Cloud Architect at Horizon dated 2025, also stale",
     "where": "Built In / Horizon BCBSNJ",
     "time": "2:10 AM"
+   }
+  ],
+  "Built In / Coca-Cola": [
+   {
+    "company": "The Coca-Cola Company",
+    "role": "Director, Cloud Software Architect",
+    "reason": "closed — Job Posting End Date: November 13, 2026",
+    "where": "Built In / Coca-Cola",
+    "time": "2:12 AM"
+   }
+  ],
+  "Built In / Ecolab": [
+   {
+    "company": "Ecolab",
+    "role": "Lead Solution Architect",
+    "reason": "pay-outside-band — The base salary range for this position is $153,900.00 - $230,800.00. workarounds tried: (1) employer's own posting text carried in Built In mirror with same range, (2) alternate route Wellfound listing with same $153,900.00 - $230,800.00 range, (3) no alternate posting of same role with a different range found",
+    "where": "Built In / Ecolab",
+    "time": "2:12 AM"
    }
   ],
   "Built In / Maricopa County": [
@@ -3241,6 +3295,24 @@
     "reason": "not-remote — This position reports to the Senior Director, Digital Technology and is part of the Digital Team located in Cambridge, UK and will be an on-site role. — workarounds tried: (1) employer's own Danaher/Abcam posting text via HiringCafe (governing), (2) alternate mirrors show same Cambridge UK on-site role, (3) no alternate US remote posting of same role found",
     "where": "HiringCafe",
     "time": "2:07 AM"
+   }
+  ],
+  "Career.io / Consumers Energy": [
+   {
+    "company": "Consumers Energy",
+    "role": "Prin Cloud Engineer (Server/Storage)",
+    "reason": "not-remote — This is a hybrid (virtual/onsite) position with required onsite days on Monday, Tuesday and Thursday assigned to One Energy Plaza located in Jackson, MI. workarounds tried: (1) employer's own posting text carried in Career.io/MiTalent mirrors with same hybrid location, (2) alternate route DiversityJobs listing with same hybrid terms, (3) no alternate remote posting of same role found",
+    "where": "Career.io / Consumers Energy",
+    "time": "2:13 AM"
+   }
+  ],
+  "Built In Chicago / BlackRock": [
+   {
+    "company": "BlackRock",
+    "role": "Director, Principal Platform Engineer (Compute)",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) employer's own Careers.BlackRock.com posting carried in Built In mirror with same hybrid model, (2) alternate route search for a remote posting of same role, (3) no alternate remote posting found",
+    "where": "Built In Chicago / BlackRock",
+    "time": "2:13 AM"
    }
   ]
  },
@@ -4421,5 +4493,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T08:11:21Z"
+ "lists_generated_at": "2026-11-17T08:13:55Z"
 }
