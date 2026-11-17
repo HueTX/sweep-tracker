@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T12:39:37Z",
+ "generated_at": "2026-11-17T12:42:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T12:39:33Z",
+  "last_activity_at": "2026-11-17T12:40:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 93,
-  "rejected": 276,
-  "evaluated": 371
+  "parked": 92,
+  "rejected": 280,
+  "evaluated": 374
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 686,
+  "evaluated": 688,
   "filed": 0,
-  "parked": 135,
-  "rejected": 547,
+  "parked": 134,
+  "rejected": 550,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W4",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,35 +95,35 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T12:42:13Z",
    "detail": "Employers 180/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/73"
+   "heartbeat_at": "2026-11-17T12:42:13Z",
+   "detail": "Employers 180/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/32"
+   "heartbeat_at": "2026-11-17T12:42:13Z",
+   "detail": "Employers 180/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -127,7 +134,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/44"
+   "detail": "Employers 180/44"
   },
   "W6": {
    "label": "Utilities",
@@ -138,7 +145,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/44"
+   "detail": "Employers 180/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,7 +233,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/59"
+   "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,39 +244,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/54"
+   "detail": "Employers 180/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T12:42:13Z",
    "detail": "Employers 175/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T12:42:13Z",
    "detail": "Employers 175/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T12:42:13Z",
    "detail": "Employers 175/31"
   }
  },
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "407 of 632 units done",
+   "detail": "413 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:39 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 6:40 AM CT · 7 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W18"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W18",
+  "headline": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -619,8 +632,8 @@
    "winner_disposition_id": 14794,
    "unit_id": 3443,
    "unit_created_at": "2026-11-17T11:05:36Z",
-   "attempts": 4,
-   "last_attempt_at": "2026-11-17T12:10:06Z"
+   "attempts": 5,
+   "last_attempt_at": "2026-11-17T12:41:32Z"
   },
   {
    "lead_id": 476,
@@ -1080,7 +1093,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 135,
+  "attempted_today": 136,
   "filed_today": 0
  },
  "date": "2026-11-17",
@@ -1688,15 +1701,6 @@
     "reason": "title-not-covered — This position is the principal technical authority for enterprise data and AI platforms across a portfolio of client engagements, with Snowflake and Databricks and cloud-native services on AWS, Azure, and GCP alongside it.",
     "where": "remotive.com",
     "time": "1:20 AM"
-   }
-  ],
-  "Tier One Technologies iCIMS careers": [
-   {
-    "company": "Tier One Technologies",
-    "role": "Principal Enterprise Security Architect",
-    "reason": "not-evaluated — PASS evidence found on employer page https://careers-tier1.icims.com/jobs/22229/principal-enterprise-security-architect-%28remote%29/job : 'Serve as the strategic and technical bridge between Security Operations, CISO leadership, and Enterprise Infrastructure teams.' and 'Must be able to obtain Public Trust Clearance.' PASS record refused by engine: cross-cycle-flip-needs-correction (prior cycle REJECTED) — main-filer correction required; executor parks not-evaluated pending that correction.",
-    "where": "Tier One Technologies iCIMS careers",
-    "time": "6:32 AM"
    }
   ],
   "Swooped (Wellstar mirror)": [
@@ -4720,6 +4724,15 @@
     "time": "2:41 AM"
    }
   ],
+  "BuiltIn (MetLife mirror)": [
+   {
+    "company": "MetLife",
+    "role": "Sr Principal Enterprise Data Architect - AI & Innovation",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife posting via BuiltIn governing text, (2) BuiltIn Colorado alternate route same hybrid JD, (3) no alternate remote posting found",
+    "where": "BuiltIn (MetLife mirror)",
+    "time": "6:40 AM"
+   }
+  ],
   "Indeed": [
    {
     "company": "NYU Langone Health",
@@ -5050,6 +5063,15 @@
     "reason": "not-remote — This hybrid position requires applicants to be within a reasonable commuting distance of the work location. Job ID, 2026-26802, Work Type, Hybrid, Pay Range, $160,000 - $170,000. workarounds tried: (1) ClearanceJobs full JD (governing surface), (2) alternate web search, (3) no fully remote alternate posting found.",
     "where": "clearancejobs.com",
     "time": "2:17 AM"
+   }
+  ],
+  "careers-tier1.icims.com": [
+   {
+    "company": "Tier One Technologies",
+    "role": "Principal Enterprise Security Architect",
+    "reason": "experience-mismatch — Certifications Required: CCIE and CISSP.",
+    "where": "careers-tier1.icims.com",
+    "time": "6:39 AM"
    }
   ],
   "Built In Colorado (Center for Internet Security mirror)": [
@@ -5590,13 +5612,13 @@
     "time": "5:54 AM"
    }
   ],
-  "Nutanix careers via Kaplan Community": [
+  "Simplify (Nutanix mirror)": [
    {
     "company": "Nutanix",
     "role": "Enterprise Architect",
-    "reason": "pay-outside-band — The pay range for this position at commencement of employment is expected to be between USD $ 128,000 and USD $ 240,000 per year. — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
-    "where": "Nutanix careers via Kaplan Community",
-    "time": "2:41 AM"
+    "reason": "stale — Drive innovative architectural solutions by assessing customer needs and aligning them with Nutanix capabilities. workarounds tried: (1) Nutanix posting via Simplify governing text dated 1/26/2026, (2) CareerBuilder alternate routes same posting 30+ days ago, (3) no fresher alternate posting found",
+    "where": "Simplify (Nutanix mirror)",
+    "time": "6:40 AM"
    }
   ],
   "Worqstrap (Aflac mirror)": [
@@ -6647,6 +6669,15 @@
     "reason": "not-remote — Full Time, On Site, Senior. Design and deploy scalable, secure, and cost-effective cloud architectures across public, private, and hybrid environments. workarounds tried: (1) CSX careers via mirror governing, (2) LinkedIn/Dice search, (3) alternate Data Streaming variant — both Jacksonville on-site",
     "where": "AiApply",
     "time": "6:37 AM"
+   }
+  ],
+  "Simplify (Healthfirst mirror)": [
+   {
+    "company": "Healthfirst",
+    "role": "Senior Enterprise Data Architect",
+    "reason": "experience-mismatch — Modern AWS Lakehouse architect who defines target state, publishes reusable patterns, and delivers data products/semantic/metrics layers with SLAs. workarounds tried: (1) Healthfirst posting via Simplify governing text, (2) Jobright alternate route (marked closed, older), (3) no alternate posting with Azure/infrastructure core found",
+    "where": "Simplify (Healthfirst mirror)",
+    "time": "6:40 AM"
    }
   ]
  },
@@ -7823,5 +7854,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T12:39:37Z"
+ "lists_generated_at": "2026-11-17T12:42:13Z"
 }
