@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:57:38Z",
+ "generated_at": "2026-11-17T19:00:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T18:55:40Z",
+  "last_activity_at": "2026-11-17T18:58:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 192,
+  "parked": 193,
   "rejected": 843,
   "evaluated": 1040
  },
@@ -35,7 +35,7 @@
   "date": "2026-11-17",
   "evaluated": 1040,
   "filed": 2,
-  "parked": 192,
+  "parked": 193,
   "rejected": 843,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
@@ -47,7 +47,8 @@
   "W5",
   "W6",
   "W16",
-  "W17"
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -124,7 +125,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:57:38Z",
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 50/32"
   },
   "W5": {
@@ -135,7 +136,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:57:38Z",
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 50/44"
   },
   "W6": {
@@ -146,7 +147,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:57:38Z",
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 50/44"
   },
   "W9": {
@@ -234,7 +235,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:57:38Z",
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 50/59"
   },
   "W17": {
@@ -245,18 +246,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:57:38Z",
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T19:00:26Z",
    "detail": "Employers 55/45"
   },
   "W19": {
@@ -314,10 +315,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "32 of 33 units done",
+   "state": "done",
+   "detail": "33 of 33 units done",
    "started_at": "2026-11-17T18:00:45Z",
-   "ended_at": null
+   "ended_at": "2026-11-17T18:58:50Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -551,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:55 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:58 PM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -608,20 +609,6 @@
    "unit_created_at": null,
    "attempts": 4,
    "last_attempt_at": "2026-11-17T18:04:21Z"
-  },
-  {
-   "lead_id": 7836,
-   "employer": "Microsoft",
-   "title": "Senior Cloud Solution Architect, AI Solutions",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Microsoft careers (employer's own board)",
-   "winner_disposition_id": 15925,
-   "unit_id": 4813,
-   "unit_created_at": "2026-11-17T18:55:40Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-17T18:56:15Z"
   },
   {
    "lead_id": 476,
@@ -1070,6 +1057,20 @@
    "unit_created_at": null,
    "attempts": 11,
    "last_attempt_at": "2026-11-17T18:05:35Z"
+  },
+  {
+   "lead_id": 7836,
+   "employer": "Microsoft",
+   "title": "Senior Cloud Solution Architect, AI Solutions",
+   "status": "parked",
+   "blocker": "credential-needed",
+   "deadline": null,
+   "where": "Microsoft careers (employer's own board)",
+   "winner_disposition_id": 15926,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 1,
+   "last_attempt_at": "2026-11-17T18:56:15Z"
   }
  ],
  "headline": {
