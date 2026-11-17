@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:26:03Z",
+ "generated_at": "2026-11-17T21:28:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:24:55Z",
+  "last_activity_at": "2026-11-17T21:27:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 203,
-  "rejected": 940,
-  "evaluated": 1147
+  "parked": 202,
+  "rejected": 943,
+  "evaluated": 1149
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1147,
+  "evaluated": 1149,
   "filed": 2,
-  "parked": 203,
-  "rejected": 940,
+  "parked": 202,
+  "rejected": 943,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -45,8 +45,7 @@
  "searching_lanes": [
   "W3",
   "W5",
-  "W6",
-  "W16",
+  "W17",
   "W18",
   "W19"
  ],
@@ -114,8 +113,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": "2026-11-17T21:28:40Z",
+   "detail": "Employers 255/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -136,19 +135,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-17T21:28:40Z",
+   "detail": "Employers 252/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 248/44"
+   "heartbeat_at": null,
+   "detail": "Employers 252/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,23 +229,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 250/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 255/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T21:28:40Z",
    "detail": "Employers 250/54"
   },
   "W18": {
@@ -257,8 +256,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 245/45"
+   "heartbeat_at": "2026-11-17T21:28:40Z",
+   "detail": "Employers 250/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,8 +267,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:26:03Z",
-   "detail": "Employers 241/41"
+   "heartbeat_at": "2026-11-17T21:28:40Z",
+   "detail": "Employers 242/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -310,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "536 of 632 units done",
+   "detail": "542 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -552,18 +551,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:24 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:27 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 11 of 58 · Domain Architect",
+   "primary": "W17 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 11 of 58 · Domain Architect",
+  "label": "W17",
+  "headline": "W17 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1079,7 +1078,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 203,
