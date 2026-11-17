@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T06:57:31Z",
+ "generated_at": "2026-11-17T06:59:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -9,44 +9,37 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
-   "filing": true
+   "searching": false,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T06:54:16Z",
+  "last_activity_at": "2026-11-17T06:59:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 366,
+   "covered_units": 426,
    "total_units": 754,
-   "pct": 49
+   "pct": 56
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 12,
-  "rejected": 50,
-  "evaluated": 62
+  "parked": 14,
+  "rejected": 56,
+  "evaluated": 70
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 104,
+  "evaluated": 112,
   "filed": 0,
-  "parked": 12,
-  "rejected": 92,
+  "parked": 14,
+  "rejected": 98,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -117,35 +110,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/32"
+   "heartbeat_at": null,
+   "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,35 +220,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/59"
+   "heartbeat_at": null,
+   "detail": "Employers 15/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/54"
+   "heartbeat_at": null,
+   "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 20,
+   "phase": "queued",
+   "families_searched": 30,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:57:31Z",
-   "detail": "Employers 10/45"
+   "heartbeat_at": null,
+   "detail": "Employers 15/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -307,12 +300,12 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "45 of 632 units done",
+   "detail": "51 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 31 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:54 AM CT · 26 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 12:59 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1112,6 +1099,15 @@
     "time": "12:43 AM"
    }
   ],
+  "builtin.com": [
+   {
+    "company": "Boeing",
+    "role": "Software Architect",
+    "reason": "title-not-covered — Directs the design, development, test, debugging and maintenance of software that is integrated into embedded devices and systems",
+    "where": "builtin.com",
+    "time": "12:59 AM"
+   }
+  ],
   "Ashby (employer's own ATS)": [
    {
     "company": "Allwyn Corporation",
@@ -1135,6 +1131,15 @@
     "reason": "cognizant-manual-only — As a Solution Architect – Java, you will make an impact for our client by owning end-to-end architecture and leading the design of scalable, API-first Java and Spring Boot microservices solutions on Azure. Work model: Remote. Cognizant is manual-only per standing exclusion — never PASS from executor.",
     "where": "Cognizant Careers (employer site)",
     "time": "12:34 AM"
+   }
+  ],
+  "dice.com": [
+   {
+    "company": "Southern Company",
+    "role": "Application Solutions Architect, Sr.",
+    "reason": "title-not-covered — The Solutions Architect leads end-to-end solution delivery and architectural governance for large, complex initiatives",
+    "where": "dice.com",
+    "time": "12:59 AM"
    }
   ],
   "Jobvectora (mirror)": [
@@ -1360,6 +1365,22 @@
     "reason": "location-non-us — Location: Bangalore, Karnataka, IN",
     "where": "Novo Nordisk careers (employer page)",
     "time": "12:01 AM"
+   }
+  ],
+  "careers.unitedhealthgroup.com": [
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect - Remote",
+    "reason": "hands-on — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud | workarounds tried: (1) employer's own ATS posting opened at careers.unitedhealthgroup.com (governing text), (2) Built In mirror of UHG Architect roles checked, (3) alternate UHG Architect posting (Optum AI) opened - same Java-development core",
+    "where": "careers.unitedhealthgroup.com",
+    "time": "12:59 AM"
+   },
+   {
+    "company": "UnitedHealth Group",
+    "role": "Program Architect - Remote",
+    "reason": "stale — The Program Architect provides strategic guidance to program and product leadership on adoption of best practices in the areas of technology integration, cloud computing, process improvement, technology innovation and implementation. workarounds tried: (1) employer's own careers page opened directly — Published: 2026-10-27, outside the 7-day eligibility window; (2) alternate routes show the same Oct 27 posting; (3) no refreshed/reposted version found",
+    "where": "careers.unitedhealthgroup.com",
+    "time": "12:50 AM"
    }
   ],
   "SheCanCode (mirror of Shell posting)": [
@@ -1643,6 +1664,50 @@
     "time": "12:36 AM"
    }
   ],
+  "builtin.com": [
+   {
+    "company": "RTX",
+    "role": "Sr. Multi-Disciplined Systems Architect (REMOTE)",
+    "reason": "pay-outside-band — The salary range for this role is 132,400 USD - 251,600 USD. | workarounds tried: (1) employer's own RTX posting mirrored in full on Built In (governing pay text), (2) alternate RTX architect posting checked - Associate Director Enterprise Architect Lead tops at 298,800 USD, also out of band, (3) no in-band alternate posting found; also posted 2026-10-16",
+    "where": "builtin.com",
+    "time": "12:59 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Staff Systems Architect",
+    "reason": "experience-mismatch — Drive system/subsystem architecture definition activities utilizing MBSE tools | core duties are MBSE/systems-engineering V-diagram work (Cameo, Rhapsody, DOORS) for battle-management systems, not Azure cloud/infrastructure architecture; workarounds tried: (1) Built In full JD read mirroring employer's posting, (2) alternate Lockheed Systems Architect posting on Career.io checked - hybrid telework with TS/SCI, (3) no cloud/infrastructure-aligned alternate posting found",
+    "where": "builtin.com",
+    "time": "12:59 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UHG salary band is the published range in the JD; (2) alternate route Built In mirror shows the identical $134,600 - $230,800 range; (3) no alternate posting with a different range found — top $230,800 exceeds the $230,000 band ceiling",
+    "where": "builtin.com",
+    "time": "12:50 AM"
+   },
+   {
+    "company": "The Home Depot",
+    "role": "Senior Principal Software Engineer - Generative AI & Mobile Platforms (Remote)",
+    "reason": "pay-outside-band — The pay range for this position is between $170,000.00 - $280,000.00. workarounds tried: (1) employer's published range appears identically on Built In and Monster mirrors of the Home Depot posting — top $280,000 exceeds the $230,000 ceiling, and the role is a software-engineering role that creates foundational code; (2) alternate routes show the same range; (3) no alternate posting with a different range found",
+    "where": "builtin.com",
+    "time": "12:54 AM"
+   },
+   {
+    "company": "Centene",
+    "role": "Lead Identity Architect",
+    "reason": "stale — Published: 2025-09-16 | workarounds tried: (1) employer's own board route via Built In full JD read - same 2025-09-16 date, (2) alternate surfaces (Dice/Jobgether) checked for a fresher Centene/CVS posting, (3) no refreshed or reposted Centene Identity Architect posting found",
+    "where": "builtin.com",
+    "time": "12:59 AM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Principal Systems Architect",
+    "reason": "pay-outside-band — Software Engineering IC5 - The typical base pay range for this role across the U.S. is USD $142,800 - $274,800 per year. | workarounds tried: (1) employer's own Microsoft Careers surface searched - no in-band Systems/Chief Architect posting, (2) Built In full JD read (governing pay text), (3) no alternate in-band posting of this role found; also posted 2026-09-29 and requires coding in C, C++, C#, Java, JavaScript, or Python",
+    "where": "builtin.com",
+    "time": "12:59 AM"
+   }
+  ],
   "The Ladders / Monster (mirrors)": [
    {
     "company": "Huntington Bancshares",
@@ -1806,31 +1871,6 @@
     "time": "12:50 AM"
    }
   ],
-  "builtin.com": [
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UHG salary band is the published range in the JD; (2) alternate route Built In mirror shows the identical $134,600 - $230,800 range; (3) no alternate posting with a different range found — top $230,800 exceeds the $230,000 band ceiling",
-    "where": "builtin.com",
-    "time": "12:50 AM"
-   },
-   {
-    "company": "The Home Depot",
-    "role": "Senior Principal Software Engineer - Generative AI & Mobile Platforms (Remote)",
-    "reason": "pay-outside-band — The pay range for this position is between $170,000.00 - $280,000.00. workarounds tried: (1) employer's published range appears identically on Built In and Monster mirrors of the Home Depot posting — top $280,000 exceeds the $230,000 ceiling, and the role is a software-engineering role that creates foundational code; (2) alternate routes show the same range; (3) no alternate posting with a different range found",
-    "where": "builtin.com",
-    "time": "12:54 AM"
-   }
-  ],
-  "careers.unitedhealthgroup.com": [
-   {
-    "company": "UnitedHealth Group",
-    "role": "Program Architect - Remote",
-    "reason": "stale — The Program Architect provides strategic guidance to program and product leadership on adoption of best practices in the areas of technology integration, cloud computing, process improvement, technology innovation and implementation. workarounds tried: (1) employer's own careers page opened directly — Published: 2026-10-27, outside the 7-day eligibility window; (2) alternate routes show the same Oct 27 posting; (3) no refreshed/reposted version found",
-    "where": "careers.unitedhealthgroup.com",
-    "time": "12:50 AM"
-   }
-  ],
   "GovernmentJobs.com": [
    {
     "company": "Colorado Governor's Office of Information Technology",
@@ -1910,6 +1950,15 @@
     "reason": "not-remote — State of Florida • Tallahassee, FL — $57,667 - $65,000 • Onsite. The selected candidate must attend an in-person Skills Verification Test in Tallahassee. workarounds tried: (1) full JD read on Teal — onsite Tallahassee role, top pay $65,000 also below the band floor; (2) alternate route search returned the same Florida posting; (3) no remote alternate posting found",
     "where": "tealhq.com",
     "time": "12:54 AM"
+   }
+  ],
+  "jpmc.fa.oraclecloud.com": [
+   {
+    "company": "JPMorgan Chase",
+    "role": "Vice President - Senior Lead Architect",
+    "reason": "not-remote — Jersey City, NJ, United States | employer's own page lists only office locations with no remote eligibility; workarounds tried: (1) employer's own Oracle careers page opened (governing text), (2) Dice and HiringCafe listings for the same Jersey City Senior Lead Architect role show Onsite, (3) no remote alternate posting of this req found",
+    "where": "jpmc.fa.oraclecloud.com",
+    "time": "12:59 AM"
    }
   ]
  },
@@ -3088,5 +3137,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T06:57:31Z"
+ "lists_generated_at": "2026-11-17T06:59:30Z"
 }
