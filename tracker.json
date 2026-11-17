@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T15:15:19Z",
+ "generated_at": "2026-11-17T15:18:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "9d1c1d45",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T13:49:28Z",
-  "last_activity_at": "2026-11-17T15:11:27Z",
+  "last_activity_at": "2026-11-17T15:18:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 59,
-  "rejected": 124,
-  "evaluated": 183
+  "parked": 61,
+  "rejected": 133,
+  "evaluated": 194
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 854,
+  "evaluated": 861,
   "filed": 2,
-  "parked": 171,
-  "rejected": 679,
+  "parked": 173,
+  "rejected": 684,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,24 +80,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 95/30"
+   "heartbeat_at": null,
+   "detail": "Employers 100/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 95/39"
+   "heartbeat_at": null,
+   "detail": "Employers 100/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -115,7 +108,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/73"
+   "detail": "Employers 100/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,7 +119,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/32"
+   "detail": "Employers 100/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/44"
+   "detail": "Employers 100/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/44"
+   "detail": "Employers 100/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,51 +229,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/59"
+   "detail": "Employers 100/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 90/54"
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 90/45"
+   "heartbeat_at": null,
+   "detail": "Employers 95/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 90/41"
+   "heartbeat_at": null,
+   "detail": "Employers 95/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T15:15:19Z",
-   "detail": "Employers 90/31"
+   "heartbeat_at": null,
+   "detail": "Employers 95/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "225 of 632 units done",
+   "detail": "236 of 632 units done",
    "started_at": "2026-11-17T13:49:28Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:11 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 9:18 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1587,6 +1574,15 @@
     "time": "5:49 AM"
    }
   ],
+  "Vaia Talents": [
+   {
+    "company": "Delta Air Lines",
+    "role": "Portfolio Architect",
+    "reason": "title-not-covered — Delta Air Lines, Inc. has multiple openings for Portfolio Architects in Bloomington, Minnesota. Telecommuting permitted 2-3 days per week.",
+    "where": "Vaia Talents",
+    "time": "9:16 AM"
+   }
+  ],
   "Out for Undergrad Job Board": [
    {
     "company": "United Airlines",
@@ -2537,6 +2533,15 @@
     "where": "MiTalent (Molina listing)",
     "time": "8:44 AM"
    }
+  ],
+  "Qureos (Houston Methodist posting)": [
+   {
+    "company": "Houston Methodist",
+    "role": "Solution Architect (Hybrid) - EPIC Certified",
+    "reason": "title-not-covered — Solution Architect (Hybrid) - EPIC Certified - This Solution Architect role will provide strategic and technical leadership for IT Revenue Cycle Systems, with primary responsibility for designing, optimizing, and integrating workflows and applications to support enterprise-wide operational and financial performance. Specific knowledge and experience with Epic Systems is important.",
+    "where": "Qureos (Houston Methodist posting)",
+    "time": "9:18 AM"
+   }
   ]
  },
  "today_rejected": {
@@ -2554,6 +2559,13 @@
     "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). workarounds tried: (1) full JD on Monster for Qualcomm Incorporated, (2) Teal and WeAreDevelopers alternate routes state the same full-time onsite San Diego requirement, (3) no remote alternate posting of the same role found",
     "where": "Monster",
     "time": "1:54 AM"
+   },
+   {
+    "company": "Stanley Black & Decker",
+    "role": "Principal Engineering AI Solution Architect",
+    "reason": "not-remote — As Principal Engineering AI Solution Architect, you'll be part of our Electronics & Electrical team working as a hybrid employee. workarounds tried: (1) Monster full JD for Stanley Black & Decker (employer's JD text), (2) Simplify / alternate listings for the same employer, (3) no fully remote alternate posting of the same req found",
+    "where": "Monster",
+    "time": "9:16 AM"
    },
    {
     "company": "Slalom",
@@ -3018,6 +3030,13 @@
     "reason": "stale — Published: 2026-10-20 — workarounds tried: (1) bank-lane employer-route search, (2) alternate mirrors BuiltIn/Dice for JPMorgan cloud roles, (3) no fresher repost of this role found in this wake; the posting's own date is 28 days before 2026-11-17, outside the 7-day eligibility window.",
     "where": "Built In",
     "time": "8:14 AM"
+   },
+   {
+    "company": "3M",
+    "role": "Solutions Architect-Physical Networking",
+    "reason": "experience-mismatch — Bachelor's degree or higher in Electrical Engineering, Optical/Photonics Engineering, Computer Engineering, or other technical field (completed and verified prior to start) - Five (5) years of experience working with hyperscale datacenter customers, AI architectures, optical interconnect, or co-packaged optics (CPO) technologies in a private, public, government or military environment. workarounds tried: (1) 3M JD text on Built In (employer's JD reproduced), (2) TheLadders mirror of the same 3M posting, (3) no alternate posting of the same role with different core requirements found",
+    "where": "Built In",
+    "time": "9:16 AM"
    }
   ],
   "Working Nomads": [
@@ -3984,6 +4003,13 @@
     "reason": "not-remote — Hybrid role (3 days/week in office) at our Burlington, Renton, Spokane, Vancouver, Portland, Medford, Salt Lake City, Boise, Lewiston, or Fargo offices. workarounds tried: (1) CareerBuilder full JD, (2) Built In/Ladders Cambia routes, (3) alternate Cambia postings — all hybrid 3 days/week",
     "where": "CareerBuilder",
     "time": "6:32 AM"
+   },
+   {
+    "company": "Estes Express Lines",
+    "role": "Solution Architect II, Hub",
+    "reason": "stale — Regular attendance is required. Job in Richmond, VA - Estes Express Lines Inc",
+    "where": "CareerBuilder",
+    "time": "9:16 AM"
    },
    {
     "company": "Nutanix",
@@ -5196,13 +5222,13 @@
     "time": "8:55 AM"
    }
   ],
-  "callcenterjob.co.in mirror of United Airlines posting": [
+  "Out for Undergrad Job Board (United Airlines posting)": [
    {
     "company": "United Airlines",
     "role": "Principal Enterprise Architect",
-    "reason": "not-remote — Please note that this role is hybrid and requires in office attendance 2-3 days per week in Chicago or Houston. The base pay range for this role is $137,275.00 to $187,000.00. Workarounds tried: full JD read on mirror (callcenterjob.co.in, crawled 2026-11-10); the hybrid requirement is stated in the employer's own JD text and governs on any route.",
-    "where": "callcenterjob.co.in mirror of United Airlines posting",
-    "time": "6:10 AM"
+    "reason": "cloud-mismatch — Experience with AWS application migration and implementations - AWS Certified Solution Architect - Professional certification or better (Solution Architect, Developer, or SysOps) - 3+ years of AWS and/or Enterprise Architecture experience. No Azure is mentioned in the JD; the cloud requirements are AWS-specific. workarounds tried: (1) full JD on the Out for Undergrad board reproducing United's own posting, (2) Dice aggregate listings for United architect roles, (3) no Azure-based alternate posting of the same req found",
+    "where": "Out for Undergrad Job Board (United Airlines posting)",
+    "time": "9:16 AM"
    }
   ],
   "BuiltIn NYC": [
@@ -6036,13 +6062,13 @@
     "time": "5:53 AM"
    }
   ],
-  "simplify.jobs / Qualcomm": [
+  "Qualcomm Careers": [
    {
     "company": "Qualcomm",
     "role": "Cloud Architect, Senior Staff",
-    "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). — workarounds tried: (1) employer's own posting text via Simplify mirror shows full-time onsite, (2) alternate search returned same onsite San Diego posting, (3) no alternate remote posting of same role found",
-    "where": "simplify.jobs / Qualcomm",
-    "time": "5:53 AM"
+    "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). workarounds tried: (1) employer's own careers.qualcomm.com posting (governing text), (2) Dice mirror listing for the same role, (3) no alternate remote posting of the same req found",
+    "where": "Qualcomm Careers",
+    "time": "9:16 AM"
    }
   ],
   "careers.nordstrom.com": [
@@ -8008,6 +8034,24 @@
     "where": "JobLeads",
     "time": "8:20 AM"
    }
+  ],
+  "TheLadders": [
+   {
+    "company": "AMD",
+    "role": "Senior / Principal Solutions Architect, Global Systems Integrators (GSI)",
+    "reason": "stale — LOCATION: New York, New York or Santa Clara, California",
+    "where": "TheLadders",
+    "time": "9:16 AM"
+   }
+  ],
+  "Built In (Cepheid / Beckman Coulter Diagnostics, a Danaher operating company)": [
+   {
+    "company": "Danaher",
+    "role": "Senior Staff, Dx Platform Enterprise Architect",
+    "reason": "stale — This position is part of the Dx Platform reporting to the Dx Platform and Bec Dx CIO and will be a remote role.",
+    "where": "Built In (Cepheid / Beckman Coulter Diagnostics, a Danaher operating company)",
+    "time": "9:16 AM"
+   }
   ]
  },
  "lane_companies": {
@@ -9185,5 +9229,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T15:15:19Z"
+ "lists_generated_at": "2026-11-17T15:18:25Z"
 }
