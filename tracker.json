@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T05:22:36Z",
+ "generated_at": "2026-11-17T05:24:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T05:21:35Z",
+  "last_activity_at": "2026-11-17T05:24:27Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 69,
-  "rejected": 479,
-  "evaluated": 549
+  "rejected": 484,
+  "evaluated": 554
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 1115,
+  "evaluated": 1119,
   "filed": 2,
   "parked": 70,
-  "rejected": 1043,
+  "rejected": 1047,
   "filed_by_source": {
    "ADP Career Center": 1,
    "Inceed (jobs.inceed.com)": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -98,57 +91,57 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 195/39"
+   "heartbeat_at": null,
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 195/73"
+   "heartbeat_at": null,
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 186/32"
+   "heartbeat_at": null,
+   "detail": "Employers 188/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:22:36Z",
-   "detail": "Employers 195/59"
+   "heartbeat_at": null,
+   "detail": "Employers 200/59"
   },
   "W17": {
    "label": "Technology",
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "446 of 632 units done",
+   "detail": "452 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:21 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 11:24 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1780,13 +1767,6 @@
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. The expected salary range for this position is $135,000 - $175,000. Workarounds tried: (1) employer's own MetLife careers postings for its enterprise architecture roles state the same hybrid expectation; (2) alternate route Built In mirror of this posting states hybrid; (3) no alternate remote posting of the same role found.",
     "where": "Employer sites",
     "time": "10:32 AM"
-   },
-   {
-    "company": "New York Life",
-    "role": "Senior Associate, Actuarial Data Engineer/Cloud Architect",
-    "reason": "pay-outside-band — Salary Range: $108,500-$155,500",
-    "where": "Employer sites",
-    "time": "12:01 PM"
    },
    {
     "company": "Nasdaq",
@@ -4687,6 +4667,15 @@
     "time": "11:16 PM"
    }
   ],
+  "Lincoln Financial careers": [
+   {
+    "company": "Lincoln Financial",
+    "role": "Lead Risk Data Engineer and Architect",
+    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office",
+    "where": "Lincoln Financial careers",
+    "time": "11:24 PM"
+   }
+  ],
   "builtin.com / Nationwide": [
    {
     "company": "Nationwide",
@@ -4694,6 +4683,15 @@
     "reason": "stale — We currently anticipate accepting applications until 10/22/2026. However, we encourage early submissions, as the posting may close sooner if a strong candidate slate is identified before the deadline.",
     "where": "builtin.com / Nationwide",
     "time": "11:21 PM"
+   }
+  ],
+  "Built In / New York Life": [
+   {
+    "company": "New York Life",
+    "role": "Senior Associate, Actuarial Data Engineer/Cloud Architect",
+    "reason": "stale — Design and implement cloud-native data pipelines in AWS using tools such as Glue, Lambda, Step Functions, Redshift, and S3.",
+    "where": "Built In / New York Life",
+    "time": "11:24 PM"
    }
   ],
   "Google Jobs": [
@@ -7768,6 +7766,15 @@
     "time": "11:20 PM"
    }
   ],
+  "Johns Hopkins Medicine careers": [
+   {
+    "company": "Johns Hopkins Medicine",
+    "role": "IT Assistant Director - Cloud Data Platform",
+    "reason": "hands-on — 7+ years of hands-on experience architecting and developing data warehousing and business intelligence solutions to meet the needs for high quality data utilizing Databricks, AWS Gov, Azure Gov, PySpark, SparkSQL, Collibra, Informatica, ER Studio, SSIS, SSAS, SSRS and SharePoint technologies.",
+    "where": "Johns Hopkins Medicine careers",
+    "time": "11:24 PM"
+   }
+  ],
   "Johns Hopkins hiring.jhu.edu": [
    {
     "company": "Johns Hopkins University",
@@ -9738,6 +9745,24 @@
     "where": "diversityjobs.com / New York Life",
     "time": "11:19 PM"
    }
+  ],
+  "Career.io / UPMC": [
+   {
+    "company": "UPMC Health Plan",
+    "role": "Senior AI Architect, IT",
+    "reason": "hands-on — Experience in software development and coding in various languages (C#, .NET, Java etc.)",
+    "where": "Career.io / UPMC",
+    "time": "11:24 PM"
+   }
+  ],
+  "New York Life careers": [
+   {
+    "company": "New York Life",
+    "role": "Senior Associate - Senior GCP Security Engineer",
+    "reason": "hands-on — This role is GCP-first. Familiarity with AWS and Azure is a plus, but your day-to-day will be deep in Google Cloud: securing GKE workloads, governing AI pipelines on Vertex AI",
+    "where": "New York Life careers",
+    "time": "11:24 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -10917,5 +10942,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T05:22:36Z"
+ "lists_generated_at": "2026-11-17T05:24:40Z"
 }
