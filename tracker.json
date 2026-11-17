@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T17:20:42Z",
+ "generated_at": "2026-11-17T17:23:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "9d1c1d45",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T13:49:28Z",
-  "last_activity_at": "2026-11-17T17:17:30Z",
+  "last_activity_at": "2026-11-17T17:23:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 89,
-  "rejected": 307,
-  "evaluated": 396
+  "parked": 90,
+  "rejected": 316,
+  "evaluated": 406
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 958,
+  "evaluated": 963,
   "filed": 2,
-  "parked": 181,
-  "rejected": 773,
+  "parked": 182,
+  "rejected": 777,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -109,13 +102,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": null,
+   "detail": "Employers 260/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -137,18 +130,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 248/44"
+   "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 256/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,46 +223,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 245/59"
+   "heartbeat_at": null,
+   "detail": "Employers 260/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 245/54"
+   "heartbeat_at": null,
+   "detail": "Employers 260/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 245/45"
+   "heartbeat_at": null,
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T17:20:42Z",
-   "detail": "Employers 241/41"
+   "heartbeat_at": null,
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "533 of 632 units done",
+   "detail": "551 of 632 units done",
    "started_at": "2026-11-17T13:49:28Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:17 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 11:23 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2180,6 +2167,15 @@
     "time": "8:55 AM"
    }
   ],
+  "curaiz.com": [
+   {
+    "company": "Twilio",
+    "role": "Architect",
+    "reason": "title-not-covered — Join the team as Twilio’s next Architect on our Data Substrate team — You’ll own the technical strategy for our data platform, spanning storage, lake and lakehouse architecture, catalog and governance, and privacy-by-design.",
+    "where": "curaiz.com",
+    "time": "11:21 AM"
+   }
+  ],
   "Cognizant Careers (employer site)": [
    {
     "company": "Cognizant",
@@ -3690,9 +3686,9 @@
    {
     "company": "Pfizer",
     "role": "Director, Senior Technical Architect",
-    "reason": "not-remote — Work Location Assignment: On Premise. The annual base salary for this position ranges from $162,900.00 to $271,500.00. workarounds tried: (1) employer's own Pfizer JD text via Built In; (2) alternate Built In LA mirror carries the same On Premise assignment.",
+    "reason": "not-remote — On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote. Work Location Assignment: On Premise — workarounds tried: (1) Built In full JD, (2) Built In LA alternate posting of same role with same on-premise text, (3) no remote alternate posting found",
     "where": "builtin.com",
-    "time": "3:10 AM"
+    "time": "11:21 AM"
    },
    {
     "company": "Fiserv",
@@ -5076,6 +5072,78 @@
     "time": "5:09 AM"
    }
   ],
+  "diversityjobs.com": [
+   {
+    "company": "Portland General Electric",
+    "role": "Senior Cyber Security Networking Solutions Architect",
+    "reason": "not-remote — Driving/travel/commute: Daily within service territory - Frequently (at least once a week or more) — Environment- Indoor/Outdoor: Office, Plant, Field; workarounds tried: (1) full JD on diversityjobs (PGE governing text as mirrored), (2) alternate PGE architect posting via nvoids showing Hybrid [3 days on site a week], (3) no remote alternate posting of this role found",
+    "where": "diversityjobs.com",
+    "time": "11:22 AM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Cloud Enterprise Architect - Azure",
+    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. Workarounds tried: (1) full JD on diversityjobs mirror; (2) NYU Langone's own postings carry the same New York salary-transparency range; (3) no alternate posting of this role with a different published range found.",
+    "where": "diversityjobs.com",
+    "time": "6:56 AM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect - Artificial Intelligence",
+    "reason": "experience-mismatch — They'll define the AI architecture by adding tools and processes, participate in the design and implementation of enterprise artificial intelligence solutions - core duties are AI/ML architecture, not Hubert's Azure infrastructure/DR core. workarounds tried: (1) employer own careers site searched, no matching live listing; (2) full JD read on mirror",
+    "where": "diversityjobs.com",
+    "time": "9:44 AM"
+   },
+   {
+    "company": "DTE Energy",
+    "role": "Expert Cloud Architect",
+    "reason": "not-remote — Hybrid Role: Must be able to come on-site periodically and reside a commutable distance from the assigned work location. workarounds tried: (1) DiversityJobs full JD; (2) other DTE architect listings, all hybrid with in-person schedule at assigned work location",
+    "where": "diversityjobs.com",
+    "time": "6:16 AM"
+   },
+   {
+    "company": "CareSource",
+    "role": "Solutions Architect III - Provider Systems",
+    "reason": "experience-mismatch — At least three (3) years in HealthCare Payer IT. workarounds tried: (1) CareSource posting text via DiversityJobs full JD (Remote, $110,800-$193,800), (2) alternate web search for CareSource architect roles, (3) no alternate posting without the healthcare payer IT requirement.",
+    "where": "diversityjobs.com",
+    "time": "2:18 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Architect (Azure)",
+    "reason": "pay-outside-band — The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. | Top of published range $158,000 is below the $160,000 band floor. workarounds tried: (1) Rackspace's own posting sought via search - same Azure Cloud Architect role and range; (2) DiversityJobs mirror carries the full JD; (3) no alternate posting with a different range found",
+    "where": "diversityjobs.com",
+    "time": "11:17 AM"
+   },
+   {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Principal Engineer, Cloud Infrastructure",
+    "reason": "hands-on — Automation & Infrastructure as Code ( IaC ) : Drive automation-first initiatives across all infrastructure operations using tools such as Terraform, Azure DevOps, PowerShell, and Python. — engineer-level Principal Engineer role whose whole remit is hands-on IaC/automation and infrastructure implementation at Boston, MA (Vertex Headquarters), Hybrid-Eligible Or On-Site Eligible, not an architect-level role. Workarounds tried: (1) Vertex careers surface search, (2) diversityjobs mirror carrying the full JD — same text",
+    "where": "diversityjobs.com",
+    "time": "7:44 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Senior Cloud Solutions Architect",
+    "reason": "cloud-mismatch — Be an AWS evangelist by educating a variety of customers on the value of AWS. Must have hands-on architecting, designing or developing applications on AWS (other hyperscalers is nice to have). Work Location: Remote. workarounds tried: (1) employer's own Rackspace JD text via DiversityJobs/Swooped/WorkingNomads mirrors all carry the same AWS-first requirement; Azure is not a named platform for this role.",
+    "where": "diversityjobs.com",
+    "time": "3:10 AM"
+   },
+   {
+    "company": "Intercontinental Exchange",
+    "role": "Java Solutions Architect",
+    "reason": "not-remote — This role offers work from home flexibility of one day per week. — Jacksonville, FL based with 4 days/week in office implied; core is also Java application architecture. Workarounds tried: (1) ICE careers surface search, (2) diversityjobs mirror carrying the full JD — no remote variant of this req found",
+    "where": "diversityjobs.com",
+    "time": "7:41 AM"
+   },
+   {
+    "company": "AHEAD",
+    "role": "Principal Technical Consultant, Lead - Cloud Networking",
+    "reason": "hands-on — Hands-on experience in programming with Java, Python or any development language. workarounds tried: (1) full JD on diversityjobs mirror shows design-and-implement duties; (2) no employer-page alternate with architect-only duties found; (3) no alternate posting found",
+    "where": "diversityjobs.com",
+    "time": "8:03 AM"
+   }
+  ],
   "Built In (Citi mirror)": [
    {
     "company": "Citigroup",
@@ -5144,6 +5212,20 @@
     "time": "7:44 AM"
    },
    {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "not-remote — Work Location Assignment: Hybrid - New York, NY, United States — workarounds tried: (1) Built In NYC full JD, (2) Monster alternate posting of same req stating 'This role is NOT remote' and 'Must be able to work in assigned Pfizer office 2-3 days per week', (3) no fully-remote alternate posting found",
+    "where": "builtinnyc.com",
+    "time": "11:23 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Principal Cloud Practice Architect",
+    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300. — workarounds tried: (1) Built In full JD, (2) alternate mirrors Swooped/Employbl showing same range, (3) no alternate posting with a different range found; top $268,300 exceeds $230,000 band top",
+    "where": "builtinnyc.com",
+    "time": "11:21 AM"
+   },
+   {
     "company": "General Dynamics Information Technology",
     "role": "Principal Enterprise Security Architect (SME)",
     "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
@@ -5178,69 +5260,20 @@
     "time": "7:05 AM"
    }
   ],
-  "diversityjobs.com": [
+  "glassdoor.com": [
    {
-    "company": "NYU Langone Health",
-    "role": "Cloud Enterprise Architect - Azure",
-    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. Workarounds tried: (1) full JD on diversityjobs mirror; (2) NYU Langone's own postings carry the same New York salary-transparency range; (3) no alternate posting of this role with a different published range found.",
-    "where": "diversityjobs.com",
-    "time": "6:56 AM"
+    "company": "AbbVie",
+    "role": "Architect, Application (Remote)",
+    "reason": "experience-mismatch — Laboratory Information Management Systems (LIMS): Proficiency with commercial LIMS software, such as LabWare, or Thermo Fisher’s SampleManager. — workarounds tried: (1) Glassdoor full JD, (2) alternate AbbVie surfaces in search (BioSpace), (3) no alternate posting of this lab role without the LIMS core requirement found; Hubert's core is Azure/infrastructure architecture, no LIMS experience on record",
+    "where": "glassdoor.com",
+    "time": "11:21 AM"
    },
    {
-    "company": "Southwest Airlines",
-    "role": "Solutions Architect - Artificial Intelligence",
-    "reason": "experience-mismatch — They'll define the AI architecture by adding tools and processes, participate in the design and implementation of enterprise artificial intelligence solutions - core duties are AI/ML architecture, not Hubert's Azure infrastructure/DR core. workarounds tried: (1) employer own careers site searched, no matching live listing; (2) full JD read on mirror",
-    "where": "diversityjobs.com",
-    "time": "9:44 AM"
-   },
-   {
-    "company": "DTE Energy",
-    "role": "Expert Cloud Architect",
-    "reason": "not-remote — Hybrid Role: Must be able to come on-site periodically and reside a commutable distance from the assigned work location. workarounds tried: (1) DiversityJobs full JD; (2) other DTE architect listings, all hybrid with in-person schedule at assigned work location",
-    "where": "diversityjobs.com",
-    "time": "6:16 AM"
-   },
-   {
-    "company": "CareSource",
-    "role": "Solutions Architect III - Provider Systems",
-    "reason": "experience-mismatch — At least three (3) years in HealthCare Payer IT. workarounds tried: (1) CareSource posting text via DiversityJobs full JD (Remote, $110,800-$193,800), (2) alternate web search for CareSource architect roles, (3) no alternate posting without the healthcare payer IT requirement.",
-    "where": "diversityjobs.com",
-    "time": "2:18 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Cloud Architect (Azure)",
-    "reason": "pay-outside-band — The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. | Top of published range $158,000 is below the $160,000 band floor. workarounds tried: (1) Rackspace's own posting sought via search - same Azure Cloud Architect role and range; (2) DiversityJobs mirror carries the full JD; (3) no alternate posting with a different range found",
-    "where": "diversityjobs.com",
-    "time": "11:17 AM"
-   },
-   {
-    "company": "Vertex Pharmaceuticals",
-    "role": "Principal Engineer, Cloud Infrastructure",
-    "reason": "hands-on — Automation & Infrastructure as Code ( IaC ) : Drive automation-first initiatives across all infrastructure operations using tools such as Terraform, Azure DevOps, PowerShell, and Python. — engineer-level Principal Engineer role whose whole remit is hands-on IaC/automation and infrastructure implementation at Boston, MA (Vertex Headquarters), Hybrid-Eligible Or On-Site Eligible, not an architect-level role. Workarounds tried: (1) Vertex careers surface search, (2) diversityjobs mirror carrying the full JD — same text",
-    "where": "diversityjobs.com",
-    "time": "7:44 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Senior Cloud Solutions Architect",
-    "reason": "cloud-mismatch — Be an AWS evangelist by educating a variety of customers on the value of AWS. Must have hands-on architecting, designing or developing applications on AWS (other hyperscalers is nice to have). Work Location: Remote. workarounds tried: (1) employer's own Rackspace JD text via DiversityJobs/Swooped/WorkingNomads mirrors all carry the same AWS-first requirement; Azure is not a named platform for this role.",
-    "where": "diversityjobs.com",
-    "time": "3:10 AM"
-   },
-   {
-    "company": "Intercontinental Exchange",
-    "role": "Java Solutions Architect",
-    "reason": "not-remote — This role offers work from home flexibility of one day per week. — Jacksonville, FL based with 4 days/week in office implied; core is also Java application architecture. Workarounds tried: (1) ICE careers surface search, (2) diversityjobs mirror carrying the full JD — no remote variant of this req found",
-    "where": "diversityjobs.com",
-    "time": "7:41 AM"
-   },
-   {
-    "company": "AHEAD",
-    "role": "Principal Technical Consultant, Lead - Cloud Networking",
-    "reason": "hands-on — Hands-on experience in programming with Java, Python or any development language. workarounds tried: (1) full JD on diversityjobs mirror shows design-and-implement duties; (2) no employer-page alternate with architect-only duties found; (3) no alternate posting found",
-    "where": "diversityjobs.com",
-    "time": "8:03 AM"
+    "company": "AbbVie",
+    "role": "Architect, Application",
+    "reason": "experience-mismatch — Experience working with Laboratory Information Management Systems (LIMS), Chromatography Data Systems (CDS), or Scientific Data Management Systems (SDMS). workarounds tried: (1) employer JD reproduced on Glassdoor, (2) alternate search routes, (3) no alternate posting removes required LIMS/lab-informatics core",
+    "where": "glassdoor.com",
+    "time": "3:12 AM"
    }
   ],
   "SmartRecruiters (employer ATS)": [
@@ -6149,6 +6182,13 @@
     "time": "11:17 AM"
    },
    {
+    "company": "Atlassian",
+    "role": "Senior Enterprise Technical Architect",
+    "reason": "stale — To help our teams work together effectively, this role is fully remote, but requires you to be located in AMER. — Published: 2025-10-26; workarounds tried: (1) Built In SF full JD, (2) Built In Boston alternate mirror with same 2025-10-26 date, (3) no fresher repost of this req found; posting date is outside 7-day eligibility",
+    "where": "builtinsf.com",
+    "time": "11:22 AM"
+   },
+   {
     "company": "RTX",
     "role": "Associate Director, Enterprise Architect Lead (Applications/Compliance)",
     "reason": "stale — RTX anticipates the application window closing approximately 40 days from the date the notice was posted. | workarounds tried: (1) RTX JD full text via Built In mirror, (2) alternate RTX routes checked in lane search - no refreshed repost of this role, (3) no alternate posting of same role found",
@@ -6170,15 +6210,6 @@
     "reason": "not-remote — Work location: Remote (you must live in Poland). We are seeking a Lead Platform Engineer with skills in AWS, and experience of running public infrastructure to support and operate complex hybrid environments for large enterprises. — US-only remote rule fails (Poland-based). Workarounds tried: (1) employer's own JD text via Working Nomads full listing, (2) alternate search routes, same Poland requirement, (3) no alternate US posting of this req found",
     "where": "Working Nomads / Rackspace JD",
     "time": "7:25 AM"
-   }
-  ],
-  "BuiltIn NYC / Pfizer JD": [
-   {
-    "company": "Pfizer",
-    "role": "Senior Cloud Engineering Lead",
-    "reason": "cloud-mismatch — This role requires a strategic technical leader with deep expertise in Google Cloud Platform (GCP), a strong emphasis on security, automation, and infrastructure as code. Work Location Assignment: Hybrid - New York, NY, United States — GCP-first role (Azure-excluded in practice) and hybrid. Workarounds tried: (1) employer's own JD text via BuiltIn NYC full JD, (2) alternate search routes, same GCP JD, (3) no alternate Azure/multi-cloud posting of this req found",
-    "where": "BuiltIn NYC / Pfizer JD",
-    "time": "7:24 AM"
    }
   ],
   "Built In (S&P Global JD mirror)": [
@@ -6640,9 +6671,9 @@
    {
     "company": "Visa",
     "role": "Systems Architect - Sr. Consultant level",
-    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week. workarounds tried: (1) employer's own SmartRecruiters posting is governing text, (2) alternate routes in search show same hybrid role, (3) no alternate remote posting of same req",
+    "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs. — this is Visa's own SmartRecruiters posting (governing text); workarounds tried: (1) employer's own ATS page, (2) alternate search routes for same req, (3) no fully-remote alternate posting found",
     "where": "jobs.smartrecruiters.com",
-    "time": "3:13 AM"
+    "time": "11:22 AM"
    }
   ],
   "TheLadders": [
@@ -6772,6 +6803,22 @@
     "reason": "hands-on-coding — Proficiency in Python, Java, Powershell, C# .Net Bash, PowerShell, or Go. workarounds tried: (1) employer's own ATS posting at jobs.rsmus.com (JR120924) - governing text carries the same hands-on language; (2) alternate route Dice listing for the same req - same duties; (3) alternate posting of the same role - none with different duties found.",
     "where": "RSM Careers",
     "time": "5:09 AM"
+   }
+  ],
+  "startup.jobs": [
+   {
+    "company": "Visa",
+    "role": "Senior Director, Cloud Architect",
+    "reason": "pay-outside-band — The estimated salary range for a new hire into this position is 153,800.00 to 250,000.00 USD per year — workarounds tried: (1) employer/mirror JD on startup.jobs, (2) alternate surfaces in search (Dice cloud listings), (3) no alternate posting with a different range found; top $250,000 exceeds $230,000 band top",
+    "where": "startup.jobs",
+    "time": "11:21 AM"
+   },
+   {
+    "company": "Zoom",
+    "role": "Staff Infrastructure Engineer (IAM and Cloud Services)",
+    "reason": "hands-on — Developing and maintaining Terraform modules and Ansible playbooks to automate the provisioning of cloud resources, Kubernetes (EKS) clusters, and configuration management. Hold extensive experience creating tools and automation services with Python or Golang. workarounds tried: (1) employer's own careers site (careers.zoom.us) searched - no matching listing found, (2) alternate surfaces startup.jobs and Built In searched, (3) no alternate posting of the same role found. Also pay top $271,200 above $230,000 band and engineer-level whole role.",
+    "where": "startup.jobs",
+    "time": "3:16 AM"
    }
   ],
   "Jobgether": [
@@ -6935,22 +6982,13 @@
     "time": "6:50 AM"
    }
   ],
-  "BioSpace / AbbVie JD": [
+  "jobs.biospace.com": [
    {
     "company": "AbbVie",
     "role": "Security Application Solution Architect",
-    "reason": "pay-outside-band — Salary: $137,500 - $261,000 — top of published range $261,000 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's own posting text as carried in the full BioSpace JD (same range), (2) alternate route BioSpace full JD read, (3) no alternate posting with a different published range found",
-    "where": "BioSpace / AbbVie JD",
-    "time": "7:23 AM"
-   }
-  ],
-  "glassdoor.com": [
-   {
-    "company": "AbbVie",
-    "role": "Architect, Application",
-    "reason": "experience-mismatch — Experience working with Laboratory Information Management Systems (LIMS), Chromatography Data Systems (CDS), or Scientific Data Management Systems (SDMS). workarounds tried: (1) employer JD reproduced on Glassdoor, (2) alternate search routes, (3) no alternate posting removes required LIMS/lab-informatics core",
-    "where": "glassdoor.com",
-    "time": "3:12 AM"
+    "reason": "pay-outside-band — Salary: $137,500 - $261,000 — workarounds tried: (1) BioSpace full JD, (2) alternate AbbVie surfaces in search, (3) no alternate posting with a different range found; top $261,000 exceeds $230,000 band top",
+    "where": "jobs.biospace.com",
+    "time": "11:21 AM"
    }
   ],
   "nvoids.com": [
@@ -7669,15 +7707,6 @@
     "time": "7:38 AM"
    }
   ],
-  "Jobspresso / Twilio JD": [
-   {
-    "company": "Twilio",
-    "role": "Architect",
-    "reason": "experience-mismatch — You'll own the technical strategy for our data platform, spanning storage, lake and lakehouse architecture, catalog and governance, and privacy-by-design. Proven track record of architecting and delivering large-scale data platforms and setting their technical strategy, on cloud infrastructure such as AWS — core duties are data-platform/lakehouse architecture, not Hubert's Azure/infrastructure/M&A/DR experience. Workarounds tried: (1) Twilio's own JD text via Jobspresso full JD, (2) alternate search routes, same data-substrate JD, (3) no alternate posting of this role with different core duties found",
-    "where": "Jobspresso / Twilio JD",
-    "time": "7:23 AM"
-   }
-  ],
   "jobrise/himalayas": [
    {
     "company": "New York Life",
@@ -8354,15 +8383,6 @@
     "reason": "not-remote — Workplace Arrangement: Hybrid | workarounds tried: (1) employer's own ATS posting at careers.travelers.com - governing text shows Hybrid in Hartford, CT; (2) alternate routes via search mirrors show same hybrid Hartford role; (3) no alternate remote posting of this role found",
     "where": "careers.travelers.com",
     "time": "11:14 AM"
-   }
-  ],
-  "startup.jobs": [
-   {
-    "company": "Zoom",
-    "role": "Staff Infrastructure Engineer (IAM and Cloud Services)",
-    "reason": "hands-on — Developing and maintaining Terraform modules and Ansible playbooks to automate the provisioning of cloud resources, Kubernetes (EKS) clusters, and configuration management. Hold extensive experience creating tools and automation services with Python or Golang. workarounds tried: (1) employer's own careers site (careers.zoom.us) searched - no matching listing found, (2) alternate surfaces startup.jobs and Built In searched, (3) no alternate posting of the same role found. Also pay top $271,200 above $230,000 band and engineer-level whole role.",
-    "where": "startup.jobs",
-    "time": "3:16 AM"
    }
   ],
   "dailyremote.com": [
@@ -10040,5 +10060,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T17:20:42Z"
+ "lists_generated_at": "2026-11-17T17:23:34Z"
 }
