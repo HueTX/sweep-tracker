@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:08:34Z",
+ "generated_at": "2026-11-17T18:12:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T18:07:42Z",
+  "last_activity_at": "2026-11-17T18:12:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 42,
+   "covered_units": 90,
    "total_units": 754,
-   "pct": 6
+   "pct": 12
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 34,
-  "rejected": 4,
-  "evaluated": 39
+  "parked": 35,
+  "rejected": 9,
+  "evaluated": 44
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 982,
+  "evaluated": 986,
   "filed": 2,
-  "parked": 180,
-  "rejected": 797,
+  "parked": 181,
+  "rejected": 801,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,8 +44,12 @@
  },
  "searching_lanes": [
   "W8",
+  "W7",
   "W4",
-  "W5"
+  "W5",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -67,18 +71,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -122,7 +126,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -133,7 +137,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -145,7 +149,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/59"
+   "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,39 +248,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/54"
+   "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/31"
   }
  },
@@ -307,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 632 units done",
+   "detail": "11 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -549,7 +553,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:07 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:12 PM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W8 · Title 13 of 58 · IT/OT Architect",
@@ -1061,8 +1065,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 201,
@@ -2084,6 +2088,15 @@
     "time": "12:05 PM"
    }
   ],
+  "careers.centerpointenergy.com": [
+   {
+    "company": "CenterPoint Energy",
+    "role": "Manager IT Enterprise Architecture",
+    "reason": "title-not-covered — The Manager of Enterprise Architecture is responsible for leading a team of enterprise architects, domain architects, solutions architects, and platform architects to define and implement the enterprise architecture vision, strategy, and governance.",
+    "where": "careers.centerpointenergy.com",
+    "time": "12:12 PM"
+   }
+  ],
   "DiversityJobs (CenterPoint Energy mirror)": [
    {
     "company": "CenterPoint Energy",
@@ -2671,6 +2684,20 @@
     "reason": "not-remote — Work Flexibility: This role is eligible for hybrid work, with up to three days per week from home. Hybrid work schedule - Baltimore, MD, Owings Mills, MD. workarounds tried: (1) T. Rowe Price own careers posting checked via Monster employer link (req 82392), (2) alternate routes Monster checked, (3) alternate T. Rowe architect postings checked - all hybrid Baltimore/Owings Mills.",
     "where": "Monster",
     "time": "9:55 AM"
+   },
+   {
+    "company": "Oracle",
+    "role": "Oracle Cloud Technical Delivery Lead",
+    "reason": "stale — Published: 2026-10-13T00:00:00 - posting date outside 7-day eligibility on 2026-11-17. workarounds tried: Monster listing (this source), Dice duplicate listing, employer's Oracle Cloud SaaS/OCI role is Oracle-first not Azure",
+    "where": "Monster",
+    "time": "12:12 PM"
+   },
+   {
+    "company": "SoftServe",
+    "role": "NVIDIA Solutions Architect (P&U)",
+    "reason": "stale — Published: 2026-11-01T00:00:00 - posting date outside 7-day eligibility on 2026-11-17. workarounds tried: Monster listing (this source), alternate Monster San Jose duplicate listing with same 2026-11-01 date",
+    "where": "Monster",
+    "time": "12:12 PM"
    }
   ],
   "Built In": [
@@ -4346,6 +4373,13 @@
     "reason": "not-remote — Location: Bengaluru. About Chubb India. workarounds tried: (1) BuiltIn full JD checked, (2) alternate Chubb US listings searched, (3) no US-remote alternate posting of this role found; role is based in Bengaluru, India, not US remote",
     "where": "BuiltIn",
     "time": "11:11 AM"
+   },
+   {
+    "company": "Wells Fargo",
+    "role": "Lead Solutions Architect",
+    "reason": "not-remote — This position offers a hybrid work schedule - ability to work in office is required. workarounds tried: BuiltIn listing (this source), alternate BuiltIn duplicate listing, JobServe/Monster search - all hybrid Iselin NJ",
+    "where": "BuiltIn",
+    "time": "12:12 PM"
    },
    {
     "company": "Bristol Myers Squibb",
@@ -8544,6 +8578,15 @@
     "time": "11:55 AM"
    }
   ],
+  "jobs.spectrum.com": [
+   {
+    "company": "Spectrum",
+    "role": "Senior Lead Cloud Architect - AVD (RapidScale) (Remote)",
+    "reason": "experience-mismatch — 3+ years of hands-on Azure Virtual Desktop (AVD) / Windows Virtual Desktop experience in enterprise environments. | Demonstrated experience designing and implementing enterprise-scale AVD environments. | Verify on employer's own jobs.spectrum.com page (full JD, posted 11/12/2026, Req 2026-83466): the role is an AVD-specialist architect role and AVD delivery is its core specialty; Hubert's record (Azure 13y, VMware 5y, infrastructure/DR) carries no AVD experience, so the gap is core, not minor - consistent with the prior cycle's verify REJECTED experience-mismatch, which governs absent a main-filer correction. workarounds tried: (1) employer's own jobs.spectrum.com posting read in full (governing); (2) search alternate route for requisition 2026-83466 returned the same posting; (3) no alternate posting of this role without the AVD requirement found",
+    "where": "jobs.spectrum.com",
+    "time": "12:09 PM"
+   }
+  ],
   "Upwork": [
    {
     "company": "UK insurance group (Upwork client)",
@@ -10210,5 +10253,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T18:08:34Z"
+ "lists_generated_at": "2026-11-17T18:12:45Z"
 }
