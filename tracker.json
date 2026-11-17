@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:59:28Z",
+ "generated_at": "2026-11-17T08:02:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:59:24Z",
+  "last_activity_at": "2026-11-17T08:01:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 57,
-  "rejected": 150,
-  "evaluated": 207
+  "parked": 58,
+  "rejected": 156,
+  "evaluated": 214
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 231,
+  "evaluated": 238,
   "filed": 0,
-  "parked": 47,
-  "rejected": 184,
+  "parked": 48,
+  "rejected": 190,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/30"
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/39"
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/73"
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -116,7 +123,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/32"
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -127,18 +134,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "detail": "Employers 115/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,57 +227,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/59"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/54"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/45"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/41"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/31"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "255 of 632 units done",
+   "detail": "267 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:59 AM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 2:01 AM CT · 8 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1051,7 +1064,7 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.14,
+  "pass_oldest_age_hours": 0.19,
   "attempted_today": 92,
   "filed_today": 0
  },
@@ -1212,6 +1225,15 @@
     "reason": "title-not-covered — The Solutions Architect leads end-to-end solution delivery and architectural governance for large, complex initiatives",
     "where": "dice.com",
     "time": "12:59 AM"
+   }
+  ],
+  "grabjobs.co": [
+   {
+    "company": "Excellus BlueCross BlueShield",
+    "role": "Information Security Architect",
+    "reason": "not-evaluated — Please note: There may be opportunity for remote work within all jobs posted by the Excellus Talent Acquisition team. Remote status and level/pay assignment not confirmed on the mirror JD - provisional park, not evaluated.",
+    "where": "grabjobs.co",
+    "time": "2:01 AM"
    }
   ],
   "Workday": [
@@ -2139,6 +2161,13 @@
     "time": "12:59 AM"
    },
    {
+    "company": "Nike",
+    "role": "Senior Principal, Solution Architect (Cloud & Engineering Excellence)",
+    "reason": "stale — The annual base salary for this position ranges from $166,100.00 in our lowest geographic market to $392,700.00 in our highest geographic market. AWS cloud architecture (AWS Solutions Architecture) Or AWS DevOps Engineer certification is required; Published: 2025-05-30 workarounds tried: full JD read on Built In mirror of employer's posting.",
+    "where": "builtin.com",
+    "time": "2:00 AM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UHG salary band is the published range in the JD; (2) alternate route Built In mirror shows the identical $134,600 - $230,800 range; (3) no alternate posting with a different range found — top $230,800 exceeds the $230,000 band ceiling",
@@ -2254,6 +2283,24 @@
     "reason": "not-remote — Hybrid In-person collaboration and connection is important to our culture. Work is performed onsite, minimum 4 days per week. workarounds tried: employer's own posting (careers.lululemon.com, governing text) checked directly.",
     "where": "careers.lululemon.com",
     "time": "1:59 AM"
+   }
+  ],
+  "jobspider.com": [
+   {
+    "company": "Blue Shield of California",
+    "role": "Enterprise Architect",
+    "reason": "stale — Posted: 2/16/2026; The Enterprise Architect is a strategic individual contributor role reporting to the Director of Enterprise Architecture. workarounds tried: full JD read on JobSpider mirror of employer's posting.",
+    "where": "jobspider.com",
+    "time": "2:01 AM"
+   }
+  ],
+  "builtincolorado.com": [
+   {
+    "company": "Geisinger",
+    "role": "Business Architect Associate",
+    "reason": "stale — Location: Work from home (Pennsylvania); Published: 2026-05-20 workarounds tried: full JD read on Built In mirror of employer's posting.",
+    "where": "builtincolorado.com",
+    "time": "2:01 AM"
    }
   ],
   "DiversityJobs": [
@@ -2461,6 +2508,13 @@
     "time": "1:40 AM"
    },
    {
+    "company": "KeyCorp",
+    "role": "Infrastructure Optimization & AI Technical Lead",
+    "reason": "cloud-mismatch — Cloud Architecture & GCP Expertise: 4+ years of hands-on architecture and engineering experience on Google Cloud Platform (GCP). workarounds tried: full JD read on Ladders and Built In mirrors (identical governing text across both routes).",
+    "where": "theladders.com",
+    "time": "2:00 AM"
+   },
+   {
     "company": "Honeywell",
     "role": "Principal IT Architect - SAP Commerce Cloud",
     "reason": "not-remote — You will report directly to our IT leadership and you'll work out of our Charlotte, NC, or Atlanta, GA or Houston, TX location on a hybrid work schedule. Hybrid Work Schedule Note: For the first 90 days, New Hires must be prepared to work 100% onsite M-F | workarounds tried: (1) full JD on Ladders mirrors Honeywell's own posting text with hybrid schedule and Job Posting Date September 9, 2026; (2) alternate mirrors jobright/career.io for Honeywell Principal IT Architect roles are likewise onsite/hybrid; (3) no remote alternate posting of this role found.",
@@ -2590,6 +2644,15 @@
     "reason": "not-remote — Position Type Office-Based Physical work site required Yes Pay Range Maximum: $164,600.00",
     "where": "Built In (Highmark mirror)",
     "time": "1:11 AM"
+   }
+  ],
+  "builtinboston.com": [
+   {
+    "company": "Stanley Black & Decker",
+    "role": "PLM Integrations Architect",
+    "reason": "stale — PLM Integrations Architect – Outdoor Systems - Remote; Published: 2026-03-05 workarounds tried: full JD read on Built In mirror of employer's posting.",
+    "where": "builtinboston.com",
+    "time": "2:00 AM"
    }
   ],
   "UnitedHealth Group Careers (employer site)": [
@@ -2960,6 +3023,15 @@
     "reason": "pay-outside-band — Salary Range: $170,000 - $267,500 Annual workarounds tried: (1) full JD on Career.io for State Street Wealth R&D, Boston, shows this range, (2) no alternate posting of the same role with a different range found, (3) no alternate route changes the published top of range",
     "where": "Career.io / State Street",
     "time": "1:56 AM"
+   }
+  ],
+  "twiglia.com": [
+   {
+    "company": "Lululemon",
+    "role": "Lead Architect - Identity",
+    "reason": "stale — This role is classified as In Person under our SSC Workplace Policy: In-Person; Work is mainly performed onsite, 4-5 days per week; Published: 2025-04-30 workarounds tried: full JD read on mirror of employer's careers posting (careers.lululemon.com text via Twiglia).",
+    "where": "twiglia.com",
+    "time": "2:00 AM"
    }
   ]
  },
@@ -4140,5 +4212,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T07:59:28Z"
+ "lists_generated_at": "2026-11-17T08:02:57Z"
 }
