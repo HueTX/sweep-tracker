@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:22:02Z",
+ "generated_at": "2026-11-17T07:24:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:20:36Z",
+  "last_activity_at": "2026-11-17T07:23:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 20,
-  "rejected": 86,
-  "evaluated": 106
+  "rejected": 92,
+  "evaluated": 112
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 146,
+  "evaluated": 152,
   "filed": 0,
   "parked": 19,
-  "rejected": 127,
+  "rejected": 133,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W3",
   "W4",
   "W5",
   "W6",
-  "W16"
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,18 +90,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/30"
+   "detail": "Employers 55/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/39"
+   "heartbeat_at": null,
+   "detail": "Employers 55/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/73"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/32"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,19 +232,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:22:02Z",
-   "detail": "Employers 45/59"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/54"
+   "heartbeat_at": "2026-11-17T07:24:44Z",
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/45"
+   "detail": "Employers 50/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/41"
+   "detail": "Employers 50/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/31"
+   "detail": "Employers 50/31"
   }
  },
  "stages": {
@@ -288,7 +288,7 @@
    "ended_at": "2026-11-17T06:31:09Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "120 of 632 units done",
+   "detail": "132 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:20 AM CT · 28 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:23 AM CT · 26 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W3",
+  "headline": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1048,7 +1048,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 62,
@@ -1649,6 +1649,42 @@
     "time": "1:06 AM"
    }
   ],
+  "careerservices.hsutx.edu (Handshake mirror)": [
+   {
+    "company": "Schneider National",
+    "role": "IT Enterprise Architect Master",
+    "reason": "not-remote — Location: Green Bay, WI, USA. Work model: Hybrid. Schneider is seeking a Master Enterprise Architect in Green Bay to oversee Schneider's future-state enterprise architecture, technology strategy and roadmaps | workarounds tried: (1) full JD read on the Handshake career-center mirror of Schneider's own posting (PI288306717, recruitment began November 10, 2026) - Green Bay hybrid, 1st shift on-site schedule; (2) Schneider jobs site referenced in the posting carries the same Green Bay role; (3) no remote alternate posting found.",
+    "where": "careerservices.hsutx.edu (Handshake mirror)",
+    "time": "1:23 AM"
+   }
+  ],
+  "careers.molinahealthcare.com": [
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
+    "reason": "stale — Job Type Full Time Posting Date 10/28/2026 | workarounds tried: (1) employer's own careers.molinahealthcare.com page (Job ID 2039774) is the governing text and carries the 10/28/2026 posting date, 20 days before this Nov 17 search with no fresher activity; (2) alternate mirrors jobgether and ladders carry the same 2026-10-28 date; (3) no repost or refreshed req within 7 days found.",
+    "where": "careers.molinahealthcare.com",
+    "time": "1:22 AM"
+   }
+  ],
+  "jobs.mayoclinic.org": [
+   {
+    "company": "Mayo Clinic",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus for occasional on-site expectations based on business needs. | workarounds tried: (1) employer's own jobs.mayoclinic.org page is the governing text - Remote NO, hybrid, compensation top $236,745 also above band; (2) alternate route employer page itself checked directly; (3) no remote alternate posting of this req found.",
+    "where": "jobs.mayoclinic.org",
+    "time": "1:22 AM"
+   }
+  ],
+  "jobs.smartrecruiters.com (Expeditors own board)": [
+   {
+    "company": "Expeditors International",
+    "role": "Architect (Solutions) - Information Services, Operational Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position. | workarounds tried: (1) employer's own SmartRecruiters posting is the governing text - on-site Seattle; expected base salary $100,000 also below the band floor; (2) alternate Expeditors Architect postings on the same board (Dynamics 365, Configuration and Deployment Services) are likewise on-site Seattle; (3) no remote alternate posting found.",
+    "where": "jobs.smartrecruiters.com (Expeditors own board)",
+    "time": "1:23 AM"
+   }
+  ],
   "Jobspresso (Adobe mirror)": [
    {
     "company": "Adobe",
@@ -1886,6 +1922,15 @@
     "time": "1:11 AM"
    }
   ],
+  "builtinnyc.com": [
+   {
+    "company": "General Dynamics",
+    "role": "Cloud Solutions Architect",
+    "reason": "pay-outside-band — The likely salary range for this position is $207,400 - $280,600. | workarounds tried: (1) full JD read on BuiltIn mirror of GDIT's own posting - remote but salary top $280,600 above the $230,000 band ceiling; role is also AWS-first (AWS Certified Solutions Architect Professional, AWS service depth throughout, no Azure) and published 2026-10-30; (2) alternate GDIT postings checked in search (Lead Cloud Architect $170,144-$230,000 is a different req, already standing in this cycle); (3) no alternate posting of this req with an in-band salary found.",
+    "where": "builtinnyc.com",
+    "time": "1:23 AM"
+   }
+  ],
   "builtin.com": [
    {
     "company": "RTX",
@@ -1928,6 +1973,13 @@
     "reason": "pay-outside-band — Software Engineering IC5 - The typical base pay range for this role across the U.S. is USD $142,800 - $274,800 per year. | workarounds tried: (1) employer's own Microsoft Careers surface searched - no in-band Systems/Chief Architect posting, (2) Built In full JD read (governing pay text), (3) no alternate in-band posting of this role found; also posted 2026-09-29 and requires coding in C, C++, C#, Java, JavaScript, or Python",
     "where": "builtin.com",
     "time": "12:59 AM"
+   },
+   {
+    "company": "Eversource Energy",
+    "role": "IT Senior Solution Architect (Hybrid)",
+    "reason": "not-remote — This is a hybrid role. The first three months are fulltime in the office. The annual salary range for this position is: $142,920.00-$158,800.00 | workarounds tried: (1) full JD read on BuiltIn mirror of Eversource's own posting - hybrid with travel between MA/CT/NH required; pay top $158,800 also below the $160,000 band floor; (2) alternate Simplify mirror confirms Hybrid role, first three months in office; (3) no remote alternate posting found.",
+    "where": "builtin.com",
+    "time": "1:22 AM"
    }
   ],
   "GovernmentJobs.com (Colorado state portal)": [
@@ -3438,5 +3490,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T07:22:02Z"
+ "lists_generated_at": "2026-11-17T07:24:44Z"
 }
