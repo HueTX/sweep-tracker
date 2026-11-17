@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T13:30:37Z",
+ "generated_at": "2026-11-17T13:32:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T13:30:13Z",
+  "last_activity_at": "2026-11-17T13:32:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -26,26 +26,25 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 119,
-  "rejected": 340,
-  "evaluated": 461
+  "rejected": 344,
+  "evaluated": 465
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 746,
-  "filed": 0,
+  "evaluated": 748,
+  "filed": 1,
   "parked": 154,
-  "rejected": 588,
-  "filed_by_source": {}
+  "rejected": 590,
+  "filed_by_source": {
+   "globallogic.com": 1
+  }
  },
  "searching_lanes": [
   "W3",
-  "W6",
   "W16",
-  "W17",
-  "W18",
-  "W19"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -111,8 +110,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 270/73"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 275/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -139,13 +138,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 260/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,8 +231,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/59"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 270/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,30 +242,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/54"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 270/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/45"
+   "heartbeat_at": null,
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 245/41"
+   "heartbeat_at": null,
+   "detail": "Employers 246/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,15 +306,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "561 of 632 units done",
+   "detail": "567 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "33 of 34 units done",
+   "state": "done",
+   "detail": "34 of 34 units done",
    "started_at": "2026-11-17T11:00:15Z",
-   "ended_at": null
+   "ended_at": "2026-11-17T13:32:04Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -549,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:30 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:32 AM CT · 6 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -620,20 +619,6 @@
    "unit_created_at": null,
    "attempts": 2,
    "last_attempt_at": "2026-11-17T11:02:55Z"
-  },
-  {
-   "lead_id": 7670,
-   "employer": "Hitachi",
-   "title": "Senior Cloud Architect (AWS ,Azure, GCP)",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Hitachi Careers (GlobalLogic)",
-   "winner_disposition_id": 14794,
-   "unit_id": 3443,
-   "unit_created_at": "2026-11-17T11:05:36Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T13:12:45Z"
   },
   {
    "lead_id": 476,
@@ -1094,11 +1079,23 @@
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 137,
-  "filed_today": 0
+  "filed_today": 1
  },
  "date": "2026-11-17",
- "today_filings": {},
- "today_filed_by_source": {},
+ "today_filings": {
+  "globallogic.com": [
+   {
+    "company": "Hitachi",
+    "role": "Senior Cloud Architect (AWS ,Azure, GCP)",
+    "where": "globallogic.com",
+    "time": "7:32 AM",
+    "check": "Employer's own post-submit confirmation page (globallogic.com/career-thank-you) displayed 'Application Submitted!' for req IRC306159 immediately after submission at 13:31 UTC 2026-11-17; guest application - no ATS account or application-history portal exists, so the confirmation page is the employer's verification of record."
+   }
+  ]
+ },
+ "today_filed_by_source": {
+  "globallogic.com": 1
+ },
  "today_parked": {
   "DailyRemote": [
    {
@@ -2574,6 +2571,13 @@
     "time": "6:37 AM"
    },
    {
+    "company": "Xylem",
+    "role": "Enterprise Salesforce Architect",
+    "reason": "not-remote — This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC. Role also requires 10+ years of Salesforce experience, including 5+ years in an architect role, a domain Hubert has no record in. workarounds tried: (1) full JD read on Built In reproducing Xylem's posting; (2) alternate Adzuna and Mediabistro mirrors of the same Enterprise Salesforce Architect req show the same Charlotte hybrid-first model.",
+    "where": "Built In",
+    "time": "7:31 AM"
+   },
+   {
     "company": "Fiserv",
     "role": "Solutions Architect",
     "reason": "stale — Published: 2026-02-10 workarounds tried: (1) Fiserv posting text via Built In full JD, (2) alternate board routes searched for a fresher repost of this Solutions Architect req, (3) no repost within 7 days found",
@@ -2859,6 +2863,13 @@
     "reason": "stale — Works in an office environment. Strong PL/SQL development skills; five years of experience in software programming. Workarounds tried: (1) employer surface search returned only this Built In mirror, (2) alternate route Built In listing, (3) no alternate remote posting of same role found.",
     "where": "Built In",
     "time": "6:50 AM"
+   },
+   {
+    "company": "Fiserv",
+    "role": "Infrastructure Platform Architect",
+    "reason": "pay-outside-band — Salary Range $186,000.00 - $285,600.00. Published top $285,600 is above the $230,000 band ceiling. workarounds tried: (1) full JD read on Built In reproducing Fiserv's posting; (2) alternate mirrors Career.io, SonicJobs and GrabJobs for the same Fiserv Infrastructure Platform Architect req show the identical $186,000.00 - $285,600.00 range.",
+    "where": "Built In",
+    "time": "7:31 AM"
    }
   ],
   "Working Nomads": [
@@ -3015,13 +3026,6 @@
     "reason": "experience-mismatch — Lead architect on at least one full-lifecycle, multi-wave Oracle Fusion Cloud ERP or SCM program at enterprise scale (Financials, Procurement, Order Management, Supply Chain Planning, Manufacturing, Inventory), through go-live and hypercare. Advisory-only program experience does not qualify workarounds tried: (1) Built In full JD - remote stated, pay unpublished, but core duty is Oracle Fusion ERP program leadership with no counterpart in Hubert's Azure/infrastructure experience",
     "where": "builtin.com",
     "time": "6:16 AM"
-   },
-   {
-    "company": "Xylem",
-    "role": "Enterprise Salesforce Architect",
-    "reason": "not-remote — This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC. Compensation Range: $180-200k + 20% AIP. Published: 2026-07-31. workarounds tried: (1) employer's own Xylem JD text via Built In/Adzuna mirrors carries the same Hybrid-First Charlotte terms.",
-    "where": "builtin.com",
-    "time": "3:10 AM"
    },
    {
     "company": "AbbVie",
@@ -4006,6 +4010,13 @@
     "reason": "pay-outside-band — Zone C: $193,500 - $252,625. Every U.S. pay zone for this role tops above $230,000 (Zone A: $233,100 - $304,325; Zone B: $210,600 - $274,950), so the published top is outside the $160,000-$230,000 band in all zones. workarounds tried: (1) full JD read on Built In SF; (2) alternate Built In mirrors show the same zone ranges.",
     "where": "Built In San Francisco",
     "time": "7:30 AM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Sr. Cloud Principal Design Architect",
+    "reason": "pay-outside-band — Remote - United States - US: $193,040 - $233,913. Published top $233,913 is above the $230,000 band ceiling. Role is also AWS-first: 'This position is for a Senior Sr. Principal Cloud Design Architect on our Cloud Engineering team, supporting AWS' and 'Automate infrastructure deployment activities with tools like CloudFormation, Terraform, and Python'. workarounds tried: (1) full JD read on Built In SF reproducing BMS's posting; (2) alternate Swooped/Outscal mirrors for BMS cloud architect roles show the same AWS-first platform duties.",
+    "where": "Built In San Francisco",
+    "time": "7:31 AM"
    }
   ],
   "Jobgether mirror of CVS Health posting": [
@@ -4835,13 +4846,6 @@
     "reason": "experience-mismatch — Demonstrate experience architecting complex GPU and AI workloads, including GPU clusters, for model training and execution. | workarounds tried: (1) employer's own posting text via Built In SF mirror, (2) alternate route via DailyRemote/Haystack mirrors of Akamai TSA roles with same GPU/AI core, (3) no Azure/infrastructure-core alternate for this role found",
     "where": "Built In SF",
     "time": "3:25 AM"
-   },
-   {
-    "company": "Bristol Myers Squibb",
-    "role": "Sr. Cloud Principal Design Architect",
-    "reason": "pay-outside-band — Remote - United States - US: $193,040 - $233,913 | workarounds tried: (1) employer's own careers.bms.com posting text via Built In SF mirror, (2) alternate route via Career.io BMS Senior Cloud Architect Princeton listing $169,150-$204,970 which is site-based Princeton, (3) no in-band remote alternate for this design architect role found",
-    "where": "Built In SF",
-    "time": "3:23 AM"
    }
   ],
   "JobzMall": [
@@ -5868,6 +5872,15 @@
     "reason": "stale — Architect Infrastructure as Code modules (Terraform/OpenTofu) for Azure App Services, Container Apps, and Function Apps, as well as Azure SQL, Azure Cosmos DB, and Azure Postgres - Published: 2026-10-30 | workarounds tried: (1) employer own EPAM careers page governing - same IaC-module role and date, (2) Jobgether mirrors - same role published 2026-10-26, (3) no fresher US-remote alternate posting found",
     "where": "EPAM careers (employer own)",
     "time": "7:02 AM"
+   }
+  ],
+  "Hawaiian Electric careers (employer site)": [
+   {
+    "company": "Hawaiian Electric",
+    "role": "Principal, IT Technical Architect",
+    "reason": "pay-outside-band — Hiring Range: The hiring range for the Principal, IT Technical Architect [Req ID 10762] position is $109,900.00 to $142,600.00. Top of range is below the $160,000 band floor; location is also Honolulu - Oahu and the JD lists 'Ability to design, code, test, and implement programs in one or more of the following languages/systems: Python, Go, R, Swift, Dart, Rust, MATLAB, Kotlin, Scala, C/C++/C#, shell scripting'. workarounds tried: (1) this is the employer's own careers page, the governing text; no alternate posting can change the published hiring range.",
+    "where": "Hawaiian Electric careers (employer site)",
+    "time": "7:31 AM"
    }
   ],
   "UnitedHealth Group Careers (employer site)": [
@@ -8322,5 +8335,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T13:30:37Z"
+ "lists_generated_at": "2026-11-17T13:32:28Z"
 }
