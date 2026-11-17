@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T13:18:20Z",
+ "generated_at": "2026-11-17T13:21:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T13:17:19Z",
+  "last_activity_at": "2026-11-17T13:20:29Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,23 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 112,
-  "rejected": 320,
-  "evaluated": 435
+  "parked": 115,
+  "rejected": 324,
+  "evaluated": 441
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 728,
+  "evaluated": 731,
   "filed": 0,
-  "parked": 149,
-  "rejected": 574,
+  "parked": 151,
+  "rejected": 576,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W3",
+  "W5",
   "W6",
   "W16",
   "W17",
-  "W18",
   "W19"
  ],
  "lanes": {
@@ -105,13 +106,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 245/73"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 250/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,13 +128,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 244/44"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
@@ -143,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:18:20Z",
-   "detail": "Employers 240/44"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -231,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:18:20Z",
-   "detail": "Employers 240/59"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 250/59"
   },
   "W17": {
    "label": "Technology",
@@ -242,19 +243,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:18:20Z",
-   "detail": "Employers 240/54"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 250/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:18:20Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": null,
+   "detail": "Employers 250/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -264,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:18:20Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": "2026-11-17T13:21:32Z",
+   "detail": "Employers 241/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "526 of 632 units done",
+   "detail": "537 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:17 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:20 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 1 of 58 · Azure Architect",
+   "primary": "W19 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 1 of 58 · Azure Architect",
+  "label": "W19",
+  "headline": "W19 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1088,8 +1089,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 137,
@@ -1679,6 +1680,29 @@
     "time": "7:02 AM"
    }
   ],
+  "Dice": [
+   {
+    "company": "Atlassian",
+    "role": "Senior Partner Solutions Architect - Cloud Platform",
+    "reason": "title-not-covered — Atlassian is looking for a Partner Solutions Architect - Accenture, reporting to the Head of Partner Solutions - AMER.",
+    "where": "Dice",
+    "time": "7:20 AM"
+   },
+   {
+    "company": "Vaco",
+    "role": "Cloud Architect (Azure)",
+    "reason": "not-evaluated — We are seeking a Cloud Infrastructure Architect to serve as a senior technical leader responsible for shaping and advancing the organization’s Microsoft Azure cloud environment. Verify note: the hiring employer is an unnamed Vaco client; no posting for this role exists on Vaco's own job board or any employer's own careers/ATS page - Dice is the only source, so the employer's own page cannot be opened.",
+    "where": "Dice",
+    "time": "5:11 AM"
+   },
+   {
+    "company": "Info Dinamica Inc",
+    "role": "Azure System Solution Architect",
+    "reason": "not-evaluated — Responsible for designing scalable, secure, and resilient technology solutions that are in alignment with organization's business objectives and enterprise standards. Verify note: no posting for this role exists on Info Dinamica's own site or any employer's own careers/ATS page - Dice is the only source, so the employer's own page cannot be opened.",
+    "where": "Dice",
+    "time": "5:11 AM"
+   }
+  ],
   "Expertini India (Organon mirror)": [
    {
     "company": "Organon",
@@ -2209,22 +2233,6 @@
     "time": "5:11 AM"
    }
   ],
-  "Dice": [
-   {
-    "company": "Vaco",
-    "role": "Cloud Architect (Azure)",
-    "reason": "not-evaluated — We are seeking a Cloud Infrastructure Architect to serve as a senior technical leader responsible for shaping and advancing the organization’s Microsoft Azure cloud environment. Verify note: the hiring employer is an unnamed Vaco client; no posting for this role exists on Vaco's own job board or any employer's own careers/ATS page - Dice is the only source, so the employer's own page cannot be opened.",
-    "where": "Dice",
-    "time": "5:11 AM"
-   },
-   {
-    "company": "Info Dinamica Inc",
-    "role": "Azure System Solution Architect",
-    "reason": "not-evaluated — Responsible for designing scalable, secure, and resilient technology solutions that are in alignment with organization's business objectives and enterprise standards. Verify note: no posting for this role exists on Info Dinamica's own site or any employer's own careers/ATS page - Dice is the only source, so the employer's own page cannot be opened.",
-    "where": "Dice",
-    "time": "5:11 AM"
-   }
-  ],
   "Simplify Jobs (mirror; employer page not opened)": [
    {
     "company": "Stanley Black & Decker",
@@ -2347,6 +2355,15 @@
     "reason": "stale-unverified — This Principal level CIAM Architect will lead the design and implementation of secure, scalable Customer Identity and Access Management solutions. Develop end-to-end CIAM architectures for customer-facing applications, ensuring security, scalability, and compliance. - no typed posting date on the listing (crawled 240 days ago), freshness unproven, parked stale-unverified",
     "where": "Mediabistro",
     "time": "7:06 AM"
+   }
+  ],
+  "Dice (verify attempted on employer's own page)": [
+   {
+    "company": "Otis Worldwide",
+    "role": "Cybersecurity Architect, Director",
+    "reason": "not-evaluated — Date Posted: 2026-11-11 Country: United States of America Location: OTCTH: Connecticut Home Offices Remote Location, Remote City, CT, 06032 USA Otis is seeking a Cybersecurity Architect, Director to play a pivotal role in shaping the future of cybersecurity across our global organization. Employer's own posting page could not be opened: otis.com careers search and multiple web searches surfaced only Dice/Lensa/JobServe syndications of the posting, no individual Otis ATS page.",
+    "where": "Dice (verify attempted on employer's own page)",
+    "time": "7:19 AM"
    }
   ],
   "Built In Boston": [
@@ -2532,6 +2549,13 @@
     "time": "6:37 AM"
    },
    {
+    "company": "Fiserv",
+    "role": "Solutions Architect",
+    "reason": "stale — Published: 2026-02-10 workarounds tried: (1) Fiserv posting text via Built In full JD, (2) alternate board routes searched for a fresher repost of this Solutions Architect req, (3) no repost within 7 days found",
+    "where": "Built In",
+    "time": "7:19 AM"
+   },
+   {
     "company": "S&P Global",
     "role": "Senior Enterprise Architect – Information Modelling, Cloud & Environmental Systems",
     "reason": "experience-mismatch — Deep expertise and proven ownership of information modelling and data architecture practices, including metadata management, conceptual/logical/physical modelling, and data governance. | This is a hands-on role. | workarounds tried: (1) employer's own posting text via Built In mirror, (2) alternate route via Dice S&P listings, (3) alternate S&P architect postings are Salesforce-specific or below band, no Azure/infrastructure-core alternate found",
@@ -2600,6 +2624,13 @@
     "reason": "stale — Published: 2026-08-14; The pay range for the role is $159,300 to $270,700. — workarounds tried: Built In finding route and SonicJobs alternate route, same August 2026 posting",
     "where": "Built In",
     "time": "2:59 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Director, Principal Technical Architect",
+    "reason": "closed — Last Date to Apply for Job: 8/25/2026",
+    "where": "Built In",
+    "time": "7:20 AM"
    },
    {
     "company": "Sentara Health",
@@ -3050,13 +3081,6 @@
     "reason": "pay-outside-band — The salary range for this role is 132,400 USD - 251,600 USD. | workarounds tried: (1) employer's own RTX posting mirrored in full on Built In (governing pay text), (2) alternate RTX architect posting checked - Associate Director Enterprise Architect Lead tops at 298,800 USD, also out of band, (3) no in-band alternate posting found; also posted 2026-10-16",
     "where": "builtin.com",
     "time": "12:59 AM"
-   },
-   {
-    "company": "Pfizer",
-    "role": "Senior Director, Principal Technical Architect",
-    "reason": "pay-outside-band — Work Location Assignment: Hybrid. Last Date to Apply for Job: 8/25/2026. The annual base salary for this position ranges from $214,900.00 to $358,100.00. workarounds tried: (1) employer's own Pfizer JD text via Built In is the governing text; top $358,100 exceeds the $230,000 band ceiling and the apply-by date has passed.",
-    "where": "builtin.com",
-    "time": "3:10 AM"
    },
    {
     "company": "Chubb",
@@ -3649,6 +3673,13 @@
     "reason": "not-remote — 4 Days in the office from any of our locations in RI, MA, or Phoenix AZ and couple other locations | workarounds tried: Built In mirrors in three regions checked, all carry the same 4-days-in-office requirement, no remote alternate found",
     "where": "Built In NYC",
     "time": "5:40 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Cloud Architect (Azure)",
+    "reason": "stale — Published: 2026-02-26 workarounds tried: (1) Rackspace posting text via Built In NYC full JD, (2) alternate routes Built In / DiversityJobs listings of Rackspace cloud architect roles, (3) no fresher repost of this Azure Cloud Architect req found",
+    "where": "Built In NYC",
+    "time": "7:19 AM"
    },
    {
     "company": "Ryder System",
@@ -5000,22 +5031,6 @@
     "time": "3:09 AM"
    }
   ],
-  "builtinnyc.com": [
-   {
-    "company": "Rackspace Technology",
-    "role": "Cloud Architect (Azure)",
-    "reason": "stale — Published: 2026-02-26. The base pay for this position ranges from $129,000/year in our lowest geographic market up to $158,000/year in our highest geographic market. If located near a Rackspace office, you'll work a hybrid schedule. workarounds tried: (1) employer's own Rackspace JD text via Built In NYC; (2) no fresh repost of this Azure req found within 7 days.",
-    "where": "builtinnyc.com",
-    "time": "3:10 AM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Principal Enterprise Security Architect (SME)",
-    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
-    "where": "builtinnyc.com",
-    "time": "1:33 AM"
-   }
-  ],
   "Teradata careers (employer page)": [
    {
     "company": "Teradata",
@@ -5676,6 +5691,15 @@
     "reason": "experience-mismatch — Experience working with Laboratory Information Management Systems (LIMS), Chromatography Data Systems (CDS), or Scientific Data Management Systems (SDMS). workarounds tried: (1) employer JD reproduced on Glassdoor, (2) alternate search routes, (3) no alternate posting removes required LIMS/lab-informatics core",
     "where": "glassdoor.com",
     "time": "3:12 AM"
+   }
+  ],
+  "nvoids": [
+   {
+    "company": "Portland General Electric",
+    "role": "Senior Solutions Architect",
+    "reason": "not-remote — Hybrid [3 days on site a week] workarounds tried: (1) employer's own ATS searched for this Senior Solutions Architect role - only the agency mirror carries the full text, (2) alternate route nvoids full JD, (3) no remote alternate posting of the same PGE role found",
+    "where": "nvoids",
+    "time": "7:19 AM"
    }
   ],
   "Remotive (Crosslake Technologies mirror)": [
@@ -6592,6 +6616,15 @@
     "reason": "not-remote — Work will be on-site in Pasadena, CA and candidates must reside in the area. No relocation assistance will be provided. GDIT is seeking an experienced Systems Architect to support our NASA Business Area. workarounds tried: (1) employer GDIT Workday posting - on-site Pasadena stated, (2) alternate route Simplify mirror same text, (3) alternate posting - none remote",
     "where": "GDIT Workday (NASA support)",
     "time": "1:17 AM"
+   }
+  ],
+  "builtinnyc.com": [
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Principal Enterprise Security Architect (SME)",
+    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
+    "where": "builtinnyc.com",
+    "time": "1:33 AM"
    }
   ],
   "City of New York Jobs (NYCHA)": [
@@ -8143,6 +8176,7 @@
    "Lorven Technologies, Inc.",
    "Calance",
    "Microsoft",
+   "Atlassian",
    "NTT DATA",
    "Steel Dynamics",
    "Vaco",
@@ -8165,5 +8199,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T13:18:20Z"
+ "lists_generated_at": "2026-11-17T13:21:32Z"
 }
