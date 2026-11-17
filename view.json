@@ -1,26 +1,26 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T03:18:07Z",
+ "generated_at": "2026-11-17T03:19:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T03:17:44Z",
+  "last_activity_at": "2026-11-17T03:19:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 264,
+   "covered_units": 312,
    "total_units": 754,
-   "pct": 35
+   "pct": 41
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,25 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 55,
-  "rejected": 42,
-  "evaluated": 97
+  "rejected": 53,
+  "evaluated": 108
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 835,
+  "evaluated": 842,
   "filed": 1,
   "parked": 58,
-  "rejected": 776,
+  "rejected": 783,
   "filed_by_source": {
    "ADP Career Center": 1
   }
  },
- "searching_lanes": [
-  "W7",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -73,13 +68,13 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 36,
+   "phase": "queued",
+   "families_searched": 54,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:18:07Z",
-   "detail": "Titles 36/58"
+   "heartbeat_at": null,
+   "detail": "Titles 54/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -227,35 +222,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:18:07Z",
-   "detail": "Employers 5/59"
+   "heartbeat_at": null,
+   "detail": "Employers 10/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:18:07Z",
-   "detail": "Employers 5/54"
+   "heartbeat_at": null,
+   "detail": "Employers 10/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 10,
+   "phase": "queued",
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:18:07Z",
-   "detail": "Employers 5/45"
+   "heartbeat_at": null,
+   "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -307,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "33 of 632 units done",
+   "detail": "39 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -549,19 +544,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:17 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W7 · Title 37 of 58 · Cloud Practice Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W7"
-  }
- ],
+ "note": "Last activity 9:19 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W7",
-  "headline": "W7 · Title 37 of 58 · Cloud Practice Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
