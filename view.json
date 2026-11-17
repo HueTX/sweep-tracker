@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:08:34Z",
+ "generated_at": "2026-11-17T18:12:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T18:07:42Z",
+  "last_activity_at": "2026-11-17T18:12:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 42,
+   "covered_units": 90,
    "total_units": 754,
-   "pct": 6
+   "pct": 12
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 34,
-  "rejected": 4,
-  "evaluated": 39
+  "parked": 35,
+  "rejected": 9,
+  "evaluated": 44
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 982,
+  "evaluated": 986,
   "filed": 2,
-  "parked": 180,
-  "rejected": 797,
+  "parked": 181,
+  "rejected": 801,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,8 +44,12 @@
  },
  "searching_lanes": [
   "W8",
+  "W7",
   "W4",
-  "W5"
+  "W5",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -67,18 +71,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -122,7 +126,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/32"
   },
   "W5": {
@@ -133,7 +137,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:08:34Z",
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -145,7 +149,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/44"
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/59"
+   "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,39 +248,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/54"
+   "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:12:45Z",
    "detail": "Employers 0/31"
   }
  },
@@ -307,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 632 units done",
+   "detail": "11 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -549,7 +553,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:07 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:12 PM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W8 · Title 13 of 58 · IT/OT Architect",
@@ -1061,8 +1065,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 201,
