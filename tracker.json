@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T13:42:00Z",
+ "generated_at": "2026-11-17T13:44:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -15,7 +15,7 @@
   "live": false,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T13:41:53Z",
+  "last_activity_at": "2026-11-17T13:44:01Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -26,18 +26,19 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 1,
-  "parked": 122,
-  "rejected": 373,
-  "evaluated": 497
+  "filed": 2,
+  "parked": 121,
+  "rejected": 384,
+  "evaluated": 508
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 771,
-  "filed": 1,
+  "evaluated": 774,
+  "filed": 2,
   "parked": 157,
-  "rejected": 610,
+  "rejected": 613,
   "filed_by_source": {
+   "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
@@ -107,7 +108,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 320/73"
+   "detail": "Employers 345/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -228,18 +229,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 320/59"
+   "detail": "Employers 342/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 316/54"
+   "detail": "Employers 324/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -302,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "596 of 632 units done",
+   "detail": "608 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -544,7 +545,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:41 AM CT · 0 workers in flight · 1 filed this cycle",
+ "note": "Last activity 7:44 AM CT · 0 workers in flight · 2 filed this cycle",
  "pill": [],
  "now_viewing": {
   "live": false,
@@ -581,20 +582,6 @@
    "unit_created_at": null,
    "attempts": 1,
    "last_attempt_at": "2026-11-17T12:14:09Z"
-  },
-  {
-   "lead_id": 6238,
-   "employer": "Edward Jones",
-   "title": "Technical Architect – Privileged Access Mgmt. & Non-Human Identity",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "careers.edwardjones.com",
-   "winner_disposition_id": 14726,
-   "unit_id": null,
-   "unit_created_at": null,
-   "attempts": 4,
-   "last_attempt_at": "2026-11-17T11:02:55Z"
   },
   {
    "lead_id": 7094,
@@ -1069,10 +1056,19 @@
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 137,
-  "filed_today": 1
+  "filed_today": 2
  },
  "date": "2026-11-17",
  "today_filings": {
+  "sjobs.brassring.com": [
+   {
+    "company": "Edward Jones",
+    "role": "Technical Architect – Privileged Access Mgmt. & Non-Human Identity",
+    "where": "sjobs.brassring.com",
+    "time": "7:42 AM",
+    "check": "BrassRing My Applications dashboard read back after submission: Submitted Applications (2) includes 'Technical Architect – Privileged Access Mgmt. & Non-Human Identity — 116613BR — Status: Applied-17-Nov-2026'. Confirmation page also displayed 'Your application has been submitted.' BrassRing issues no confirmation number."
+   }
+  ],
   "globallogic.com": [
    {
     "company": "Hitachi",
@@ -1084,6 +1080,7 @@
   ]
  },
  "today_filed_by_source": {
+  "sjobs.brassring.com": 1,
   "globallogic.com": 1
  },
  "today_parked": {
@@ -2455,13 +2452,6 @@
     "time": "3:35 AM"
    },
    {
-    "company": "Biogen",
-    "role": "Senior IT Architect, Veeva Domain",
-    "reason": "experience-mismatch — 8+ years of experience in Veeva System Configuration/Design, Solution Architecture for Life Sciences, and/or IT Consulting within Life Sciences.",
-    "where": "Built In",
-    "time": "12:03 AM"
-   },
-   {
     "company": "Sanofi",
     "role": "Research and Development Solution Architect Digital Lab Operations",
     "reason": "not-remote — Job Title: Research and Development Solution Architect - Digital Lab Operations Location: Morristown, NJ -Cambridge, MA | #LI-Onsite | workarounds tried: (1) employer's own posting text via Built In mirror showing #LI-Onsite, (2) alternate route via Dice listings of Sanofi R&D Solution Architect roles in Morristown, (3) alternate Sanofi Digital Solution Architect - LMS is also #LI-Onsite Morristown/Cambridge, no remote alternate found",
@@ -2516,13 +2506,6 @@
     "reason": "hands-on — Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform. Build, maintain, and support CI/CD pipelines to automate provisioning, deployment, and configuration of cloud resources. workarounds tried: (1) employer's own posting text via Built In mirror, (2) Career.io alternate route shows same Core Cloud Engineer responsibilities, (3) no alternate architect-level posting of this req found",
     "where": "Built In",
     "time": "6:21 AM"
-   },
-   {
-    "company": "Synchrony Financial",
-    "role": "VP, Enterprise Cloud Architect",
-    "reason": "cloud-mismatch — modern cloud platforms (primarily AWS, with exposure to Azure and GCP). workarounds tried: (1) employer own ATS - searched Synchrony Workday, its cloud reqs carry the same AWS-first data core; (2) alternate route Built In full JD, same AWS-first text and 170k-290k range; (3) no Azure-first alternate posting of this role found.",
-    "where": "Built In",
-    "time": "3:35 AM"
    },
    {
     "company": "Medtronic",
@@ -2607,13 +2590,6 @@
     "reason": "stale — As the VP, Chief Enterprise Architect, you will set the vision for enterprise-wide architecture—driving digital and AI-enabled transformation, and influencing business strategy at the highest levels.",
     "where": "Built In",
     "time": "12:02 AM"
-   },
-   {
-    "company": "Akamai",
-    "role": "Senior Enterprise Architect",
-    "reason": "pay-outside-band — the base salary for this position ranges from $139,300 - $250,700/year",
-    "where": "Built In",
-    "time": "12:01 AM"
    },
    {
     "company": "Marsh McLennan",
@@ -3052,6 +3028,13 @@
     "time": "3:10 AM"
    },
    {
+    "company": "Akamai",
+    "role": "Senior Enterprise Architect",
+    "reason": "stale — As a Senior Enterprise Architect, you will advise and lead technical design for key decision-makers. You will guide customers' business strategies and help them maximize Akamai's products, emphasizing AI and emerging technologies. Posting published 2026-09-22, outside the 7-day eligibility window at 2026-11-17; base salary also $139,300 - $250,700/year, top above the $230,000 band ceiling. Workarounds tried: (1) Akamai careers surface search, (2) Built In mirror carrying the full JD, (3) JobServe mirror — no fresher posting found",
+    "where": "builtin.com",
+    "time": "7:42 AM"
+   },
+   {
     "company": "GE Aerospace",
     "role": "Sr Staff Enterprise Architect",
     "reason": "stale — Lead the technical execution of a cloud migration factory, migrating multiple applications and data from on-prem data centers into the AWS cloud in a strict timeline. | workarounds tried: (1) GE Aerospace JD full text via Built In mirror, (2) lane search for refreshed GE Aerospace enterprise architect postings - none, (3) no alternate posting of same role found",
@@ -3199,13 +3182,6 @@
     "time": "2:16 AM"
    },
    {
-    "company": "MongoDB",
-    "role": "Senior Solutions Architect (Pre-Sales)",
-    "reason": "not-remote — We are looking to speak to candidates who are based in Chicago for our hybrid working model. workarounds tried: BuiltIn full JD mirrors the employer's Greenhouse posting with the same hybrid Chicago model; no remote alternate posting of this req found.",
-    "where": "builtin.com",
-    "time": "3:28 AM"
-   },
-   {
     "company": "Akamai",
     "role": "Senior Enterprise Security Architect",
     "reason": "experience-mismatch — Have 12 years in a technical pre-sales, solution architecture, or related role in cybersecurity or API-related fields; Demonstrate expertise in Agentic Security, API and AI runtime security, network firewalls, WAF, CNAPP, and SecOps tools like SIEM/SOAR. workarounds tried: BuiltIn full JD mirrors Akamai's own posting; no alternate posting of this req with different core requirements found.",
@@ -3262,13 +3238,6 @@
     "reason": "not-remote — This position is for full-time, onsite employment at the Family Dollar Chesapeake, VA Store Support Center. — workarounds tried: (1) employer's own listings via Built In / Dollar Tree careers show the same Chesapeake onsite role, (2) Simplify mirror full JD (this page) confirms onsite, (3) no remote alternate posting of the same role found; projected salary $97,000-$135,000 also below band",
     "where": "Simplify Jobs",
     "time": "1:36 AM"
-   },
-   {
-    "company": "Vertex Pharmaceuticals",
-    "role": "Senior Director, Solution Architect - Core Technology",
-    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000",
-    "where": "Simplify Jobs",
-    "time": "12:03 AM"
    },
    {
     "company": "Sutter Health",
@@ -3350,6 +3319,13 @@
     "time": "6:17 AM"
    },
    {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Senior Director, Solution Architect - Core Technology",
+    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000 — top $342,000 above the $230,000 band ceiling; flex designation also Hybrid-Eligible Or On-Site Eligible, Boston, MA. Workarounds tried: (1) Vertex careers surface search, (2) Ladders mirror carrying the full JD, (3) Simplify mirror — same published range",
+    "where": "theladders.com",
+    "time": "7:44 AM"
+   },
+   {
     "company": "KeyCorp",
     "role": "Infrastructure Optimization & AI Technical Lead",
     "reason": "cloud-mismatch — Cloud Architecture & GCP Expertise: 4+ years of hands-on architecture and engineering experience on Google Cloud Platform (GCP). workarounds tried: full JD read on Ladders and Built In mirrors (identical governing text across both routes).",
@@ -3362,6 +3338,13 @@
     "reason": "not-remote — You will report directly to our IT leadership and you'll work out of our Charlotte, NC, or Atlanta, GA or Houston, TX location on a hybrid work schedule. Hybrid Work Schedule Note: For the first 90 days, New Hires must be prepared to work 100% onsite M-F | workarounds tried: (1) full JD on Ladders mirrors Honeywell's own posting text with hybrid schedule and Job Posting Date September 9, 2026; (2) alternate mirrors jobright/career.io for Honeywell Principal IT Architect roles are likewise onsite/hybrid; (3) no remote alternate posting of this role found.",
     "where": "theladders.com",
     "time": "1:20 AM"
+   },
+   {
+    "company": "Ally Financial",
+    "role": "Fellow Solution Architect",
+    "reason": "pay-outside-band — Base Pay Range $135,000.00 - $235,000.00 — top $235,000 above the $230,000 band ceiling; role is also Hybrid, Detroit, MI / Charlotte, NC. Workarounds tried: (1) Ally careers surface search, (2) Ladders mirror carrying the full JD, (3) O*NET jobinfo mirror — same published range",
+    "where": "theladders.com",
+    "time": "7:44 AM"
    },
    {
     "company": "Raymond James",
@@ -3383,6 +3366,15 @@
     "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office). workarounds tried: (1) full JD on Ladders states the hybrid Sterling office schedule explicitly; (2) alternate route search returned the same hybrid posting; (3) no fully-remote alternate posting of this role found",
     "where": "theladders.com",
     "time": "12:50 AM"
+   }
+  ],
+  "jobgether.com": [
+   {
+    "company": "Biogen",
+    "role": "Senior IT Architect, Veeva Domain",
+    "reason": "stale — 8+ years of experience in Veeva System Configuration/Design, Solution Architecture for Life Sciences, and/or IT Consulting within Life Sciences. Posting published 2026-08-25, outside the 7-day eligibility window at 2026-11-17. Workarounds tried: (1) Biogen Workday careers search, (2) Jobgether mirror carrying the full JD — no fresher posting of this role found",
+    "where": "jobgether.com",
+    "time": "7:44 AM"
    }
   ],
   "The Ladders": [
@@ -3422,13 +3414,6 @@
     "time": "6:52 AM"
    },
    {
-    "company": "Ally Financial",
-    "role": "Fellow Solution Architect",
-    "reason": "pay-outside-band — Base Pay Range $135,000.00 - $235,000.00",
-    "where": "The Ladders",
-    "time": "12:03 AM"
-   },
-   {
     "company": "Amazon",
     "role": "Senior Solutions Architect, Great Lakes Higher Education",
     "reason": "cloud-mismatch — Amazon Web Services is looking for a highly motivated Solutions Architect to help accelerate our growing business as part of the World Wide Public Sector practice. | build broad use of Amazon's utility computing web services (e.g., AWS EC2, AWS S3, AWS RDS, and AWS CloudFront) | workarounds tried: (1) employer's own Amazon Jobs posting sought via web search - same AWS-first text, (2) alternate route The Ladders full JD, (3) no alternate Azure posting of this role found",
@@ -3443,41 +3428,13 @@
     "time": "6:37 AM"
    }
   ],
-  "The Muse": [
+  "biibhr.wd3.myworkdayjobs.com": [
    {
     "company": "Biogen",
     "role": "Associate Director, Enterprise Architecture, Global Commercial & Medical IT",
-    "reason": "not-remote — #LI-Hybrid. workarounds tried: (1) employer own ATS - Biogen Workday version of this role is hybrid job mode; (2) alternate routes The Muse/Ladders/Jobsora all carry #LI-Hybrid; (3) alternate postings AAPC/Jooble reposts, same hybrid role, no remote alternate posting.",
-    "where": "The Muse",
-    "time": "3:34 AM"
-   },
-   {
-    "company": "TJX Companies",
-    "role": "Senior Enterprise Architect - ServiceNow",
-    "reason": "stale — This position has a starting salary range of $124,800.00 to $162,300.00 per year.",
-    "where": "The Muse",
-    "time": "5:40 AM"
-   },
-   {
-    "company": "TJX Companies",
-    "role": "Senior Enterprise Architect - ServiceNow - Remote US available",
-    "reason": "stale — Posted: 2026-01-17T18:46:09 - We are seeking a Senior Enterprise Architect with deep ServiceNow experience to lead the design, architecture, and governance of our enterprise ServiceNow platform. workarounds tried: The Muse full JD, Career.io and SonicJobs mirrors carry same January 2026 posting, no fresher repost found",
-    "where": "The Muse",
-    "time": "1:49 AM"
-   },
-   {
-    "company": "Prudential Financial",
-    "role": "Vice President, Data and AI Architect",
-    "reason": "pay-outside-band — The salary range for this role is from $221,900.00 to $333,000.00. — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
-    "where": "The Muse",
-    "time": "2:41 AM"
-   },
-   {
-    "company": "Autodesk",
-    "role": "Identity Architect",
-    "reason": "pay-outside-band — For U.S.-based roles, we expect a starting base salary between $159,800 and $258,500. workarounds tried: Muse + Mediabistro same req/same range; Autodesk careers — no fresher repost with different range",
-    "where": "The Muse",
-    "time": "6:37 AM"
+    "reason": "not-remote — Please note that the role requires a candidate to be a holder of work permit & residency in Poland. — Warsaw, Poland based hybrid role; Hubert's hunt is 100% remote US only. Workarounds tried: (1) employer's own Workday posting (governing text), (2) Glassdoor and Muse mirrors — same Poland residency requirement",
+    "where": "biibhr.wd3.myworkdayjobs.com",
+    "time": "7:44 AM"
    }
   ],
   "Novartis careers (employer's own page)": [
@@ -4392,6 +4349,22 @@
     "time": "6:37 AM"
    }
   ],
+  "builtinnyc.com": [
+   {
+    "company": "Synchrony Financial",
+    "role": "VP, Enterprise Cloud Architect",
+    "reason": "cloud-mismatch — We are seeking an Enterprise Cloud Architect to lead complex application migration initiatives from traditional on-premises or data center environments to modern cloud platforms (primarily AWS, with exposure to Azure and GCP). — AWS-first posting; salary also 170,000.00 - 290,000.00 USD Annual, top outside band, and published 2025-12-17. Workarounds tried: (1) Synchrony Workday careers search, (2) Built In NYC mirror carrying the full JD — same AWS-first text",
+    "where": "builtinnyc.com",
+    "time": "7:44 AM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Principal Enterprise Security Architect (SME)",
+    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
+    "where": "builtinnyc.com",
+    "time": "1:33 AM"
+   }
+  ],
   "Ladders": [
    {
     "company": "NTT DATA, Inc.",
@@ -4479,6 +4452,13 @@
     "time": "2:18 AM"
    },
    {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Principal Engineer, Cloud Infrastructure",
+    "reason": "hands-on — Automation & Infrastructure as Code ( IaC ) : Drive automation-first initiatives across all infrastructure operations using tools such as Terraform, Azure DevOps, PowerShell, and Python. — engineer-level Principal Engineer role whose whole remit is hands-on IaC/automation and infrastructure implementation at Boston, MA (Vertex Headquarters), Hybrid-Eligible Or On-Site Eligible, not an architect-level role. Workarounds tried: (1) Vertex careers surface search, (2) diversityjobs mirror carrying the full JD — same text",
+    "where": "diversityjobs.com",
+    "time": "7:44 AM"
+   },
+   {
     "company": "Rackspace Technology",
     "role": "Senior Cloud Solutions Architect",
     "reason": "cloud-mismatch — Be an AWS evangelist by educating a variety of customers on the value of AWS. Must have hands-on architecting, designing or developing applications on AWS (other hyperscalers is nice to have). Work Location: Remote. workarounds tried: (1) employer's own Rackspace JD text via DiversityJobs/Swooped/WorkingNomads mirrors all carry the same AWS-first requirement; Azure is not a named platform for this role.",
@@ -4516,6 +4496,13 @@
     "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date. U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance",
     "where": "dailyremote.com",
     "time": "5:50 AM"
+   },
+   {
+    "company": "MongoDB",
+    "role": "Senior Solutions Architect (Pre-Sales)",
+    "reason": "stale — MongoDB Pre-Sales Solution Architects are responsible for guiding our customers and users to design and build reliable, scalable systems using our data platform. Posting published 2026-08-26, outside the 7-day eligibility window at 2026-11-17. Workarounds tried: (1) MongoDB careers surface search, (2) dailyremote mirror carrying the full JD, (3) Built In mirrors — no fresher US posting of this role found",
+    "where": "dailyremote.com",
+    "time": "7:42 AM"
    }
   ],
   "Built In (mirror)": [
@@ -4673,6 +4660,36 @@
     "reason": "stale — 4+ years' experience hands-on architecting and/or implementing three or more of the following Adobe Experience Cloud solution categories: Adobe Analytics or Customer Journey Analytics; Adobe Journey Optimizer, Adobe Campaign or Marketo Engage; Adobe Real-Time CDP or Audience Manager; Adobe Experience Manager (AEM)",
     "where": "Jobspresso (Adobe mirror)",
     "time": "1:12 AM"
+   }
+  ],
+  "The Muse": [
+   {
+    "company": "TJX Companies",
+    "role": "Senior Enterprise Architect - ServiceNow",
+    "reason": "stale — This position has a starting salary range of $124,800.00 to $162,300.00 per year.",
+    "where": "The Muse",
+    "time": "5:40 AM"
+   },
+   {
+    "company": "TJX Companies",
+    "role": "Senior Enterprise Architect - ServiceNow - Remote US available",
+    "reason": "stale — Posted: 2026-01-17T18:46:09 - We are seeking a Senior Enterprise Architect with deep ServiceNow experience to lead the design, architecture, and governance of our enterprise ServiceNow platform. workarounds tried: The Muse full JD, Career.io and SonicJobs mirrors carry same January 2026 posting, no fresher repost found",
+    "where": "The Muse",
+    "time": "1:49 AM"
+   },
+   {
+    "company": "Prudential Financial",
+    "role": "Vice President, Data and AI Architect",
+    "reason": "pay-outside-band — The salary range for this role is from $221,900.00 to $333,000.00. — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
+    "where": "The Muse",
+    "time": "2:41 AM"
+   },
+   {
+    "company": "Autodesk",
+    "role": "Identity Architect",
+    "reason": "pay-outside-band — For U.S.-based roles, we expect a starting base salary between $159,800 and $258,500. workarounds tried: Muse + Mediabistro same req/same range; Autodesk careers — no fresher repost with different range",
+    "where": "The Muse",
+    "time": "6:37 AM"
    }
   ],
   "abilitycareers.com": [
@@ -5832,6 +5849,15 @@
     "time": "7:19 AM"
    }
   ],
+  "careers.regeneron.com": [
+   {
+    "company": "Regeneron Pharmaceuticals",
+    "role": "Executive Director: Data Management, Analytics, AI & Architecture",
+    "reason": "not-remote — This is an on-site position 4 days/week, primarily based at our Sleepy Hollow, NY or Warren, NJ office. If eligible, we can offer relocation benefits; we cannot offer a fully remote option. — workarounds tried: (1) employer's own posting at careers.regeneron.com (governing text), (2) Built In mirror — same on-site terms",
+    "where": "careers.regeneron.com",
+    "time": "7:42 AM"
+   }
+  ],
   "Remotive (Crosslake Technologies mirror)": [
    {
     "company": "Crosslake Technologies",
@@ -5969,6 +5995,22 @@
     "role": "Executive Director Enterprise Architect",
     "reason": "not-remote — This is an on-site position 4 days/week, primarily based at our Sleepy Hollow, NY or Warren, NJ office. If eligible, we can offer relocation benefits; we cannot offer a fully remote option. — workarounds tried: (1) employer's own careers site careers.regeneron.com, (2) Built In mirror, (3) Simplify mirror — all show the same on-site terms; salary also $285,600.00 - $475,900.00, top outside band",
     "where": "builtin.com / careers.regeneron.com",
+    "time": "7:41 AM"
+   }
+  ],
+  "careers.edwardjones.com": [
+   {
+    "company": "Edward Jones",
+    "role": "Technical Architect - Threat Vulnerability Management Engineering",
+    "reason": "stale — Lead the adoption of cloud infrastructure platforms and the integration of a hybrid architecture — posting anticipated to remain open for 30 days from 30-Oct-2026 on the employer's page (posted 2026-10-30), and the role's own date is outside the past-7-day fresh window as a new discovery at 2026-11-17 with no repost activity shown. Workarounds tried: (1) employer's own posting at careers.edwardjones.com (governing text), (2) Career.io mirror — same dates",
+    "where": "careers.edwardjones.com",
+    "time": "7:42 AM"
+   },
+   {
+    "company": "Edward Jones",
+    "role": "Senior Enterprise Architect - Application and Data Architecture",
+    "reason": "pay-outside-band — Hiring Maximum: $245100 — workarounds tried: employer's own ATS posting at careers.edwardjones.com (governing text, this page), which carries the published range $144000-$245100 with top above the $230,000 band ceiling",
+    "where": "careers.edwardjones.com",
     "time": "7:41 AM"
    }
   ],
@@ -6302,15 +6344,6 @@
     "time": "12:01 AM"
    }
   ],
-  "careers.edwardjones.com": [
-   {
-    "company": "Edward Jones",
-    "role": "Senior Enterprise Architect - Application and Data Architecture",
-    "reason": "pay-outside-band — Hiring Maximum: $245100 — workarounds tried: employer's own ATS posting at careers.edwardjones.com (governing text, this page), which carries the published range $144000-$245100 with top above the $230,000 band ceiling",
-    "where": "careers.edwardjones.com",
-    "time": "7:41 AM"
-   }
-  ],
   "EPAM Careers": [
    {
     "company": "EPAM Systems",
@@ -6514,13 +6547,13 @@
     "time": "6:50 AM"
    }
   ],
-  "Synchrony Workday (employer own)": [
+  "synchronyfinancial.wd5.myworkdayjobs.com": [
    {
     "company": "Synchrony Financial",
     "role": "VP, Cloud Solution Architect",
-    "reason": "pay-outside-band — The salary range for this position is 155,000.00 - 260,000.00 USD Annual. workarounds tried: (1) employer own ATS - this Workday page is the governing text, opened in full; (2) alternate routes Built In/Dice/Jooble show the same 155k-260k range; (3) alternate posting Grade 12 VP Cloud Data Architect is a different req, no in-band alternate posting of req 2602530.",
-    "where": "Synchrony Workday (employer own)",
-    "time": "3:34 AM"
+    "reason": "pay-outside-band — The salary range for this position is 155,000.00 - 260,000.00 USD Annual — top $260,000 above the $230,000 band ceiling. Workarounds tried: (1) employer's own Workday posting (governing text, this page), (2) Simplify mirror — same published range",
+    "where": "synchronyfinancial.wd5.myworkdayjobs.com",
+    "time": "7:44 AM"
    }
   ],
   "ihispano (Moody's JD mirror)": [
@@ -6861,15 +6894,6 @@
     "reason": "not-remote — Work will be on-site in Pasadena, CA and candidates must reside in the area. No relocation assistance will be provided. GDIT is seeking an experienced Systems Architect to support our NASA Business Area. workarounds tried: (1) employer GDIT Workday posting - on-site Pasadena stated, (2) alternate route Simplify mirror same text, (3) alternate posting - none remote",
     "where": "GDIT Workday (NASA support)",
     "time": "1:17 AM"
-   }
-  ],
-  "builtinnyc.com": [
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Principal Enterprise Security Architect (SME)",
-    "reason": "experience-mismatch — Required Certifications: CCIE, CISSP - 15+ years with strong experience with Edge and Perimeter Protection solutions and designs - IDS/IPS, WAF/WAAP, SDWAN remote security; 15+ years with hands-on architectural experience across the entire technical scope: PKI, NDR, NGFW, WAAP, EDR/XDR, and SIEM | workarounds tried: (1) employer's own GDIT JD text reproduced in full on Built In - core is network/edge security SME work, not Hubert's Azure architecture record, and CCIE is required; (2) alternate mirrors carried the same requirements; (3) no alternate posting found",
-    "where": "builtinnyc.com",
-    "time": "1:33 AM"
    }
   ],
   "City of New York Jobs (NYCHA)": [
@@ -8534,5 +8558,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T13:42:00Z"
+ "lists_generated_at": "2026-11-17T13:44:41Z"
 }
