@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T20:44:34Z",
+ "generated_at": "2026-11-17T20:47:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T20:44:10Z",
+  "last_activity_at": "2026-11-17T20:46:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 2,
   "parked": 193,
-  "rejected": 910,
-  "evaluated": 1107
+  "rejected": 914,
+  "evaluated": 1111
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1107,
+  "evaluated": 1111,
   "filed": 2,
   "parked": 193,
-  "rejected": 910,
+  "rejected": 914,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W1",
   "W2",
-  "W17",
+  "W3",
+  "W4",
   "W18",
   "W19",
   "W20"
@@ -87,13 +87,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 175/30"
+   "heartbeat_at": null,
+   "detail": "Employers 180/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -103,30 +103,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 175/39"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 180/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/73"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 180/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/32"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 180/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +137,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/44"
+   "detail": "Employers 180/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +148,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/44"
+   "detail": "Employers 180/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,18 +236,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/59"
+   "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 170/54"
+   "heartbeat_at": null,
+   "detail": "Employers 180/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -257,8 +257,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 170/45"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 175/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 170/41"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 175/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,8 +279,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:44:34Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": "2026-11-17T20:47:07Z",
+   "detail": "Employers 175/31"
   }
  },
  "stages": {
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "401 of 632 units done",
+   "detail": "413 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:44 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:46 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W18",
+  "headline": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -3554,6 +3554,13 @@
     "time": "3:23 AM"
    },
    {
+    "company": "Accenture",
+    "role": "Cloud Solution Architect for D365",
+    "reason": "not-remote — Accenture Flex employees work in their local metro area onsite at the project, significantly reducing and/or eliminating the demands to travel. workarounds tried: (1) employer's own Accenture posting route - Flex roles are local onsite by design, (2) alternate route Dice full listing opened with On-site work type, (3) alternate posting - no remote version found",
+    "where": "Dice",
+    "time": "2:45 PM"
+   },
+   {
     "company": "PepsiCo",
     "role": "AI Enterprise Platform Architect",
     "reason": "stale — The expected compensation range for this position is between $123,500 - $206,750. Location Plano, TX — posting dated 2026-05-10, outside the 7-day eligibility window; workarounds tried: (1) employer's own posting text via Dice mirror, (2) alternate routes for same req, (3) no fresher alternate posting found",
@@ -4918,6 +4925,13 @@
     "reason": "not-remote — This is a full-time onsite role based in Sunnyvale, California; remote and hybrid options are not available. workarounds tried: BuiltIn listing (this source), Ladders duplicate listing, employer's own Walmart posting pattern - all onsite Sunnyvale",
     "where": "BuiltIn",
     "time": "12:14 PM"
+   },
+   {
+    "company": "Sentara Healthcare",
+    "role": "Principal Enterprise Architect - AI",
+    "reason": "experience-mismatch — 8+ years in enterprise architecture or solution architecture roles, with a minimum of 4 years focused on AI/ML initiatives in healthcare or similarly regulated industries. workarounds tried: (1) employer's own Sentara JD text mirrored in full on BuiltIn, (2) alternate routes BuiltIn full JD, Career.io and GrabJobs mirrors same AI/ML requirement, (3) alternate posting - Sentara Principal Enterprise Architect Clinical Systems requires clinical Epic/PACS experience instead",
+    "where": "BuiltIn",
+    "time": "2:46 PM"
    }
   ],
   "Kidab / SheCanCode": [
@@ -5490,6 +5504,13 @@
     "reason": "not-remote — This position follows a hybrid work model and requires regular in-office collaboration at our Glendale, WI location. | workarounds tried: (1) Simplify full JD mirroring Johnson Controls careers text, (2) Johnson Controls careers site referenced in JD, (3) no remote alternate posting of this Data Platform Enterprise Architect req found",
     "where": "Simplify",
     "time": "11:05 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Staff Solutions Architect",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week workarounds tried: (1) employer's own GM JD text mirrored in full on Simplify states hybrid categorization, (2) alternate route Simplify full JD opened, (3) alternate posting - GM Staff Cloud and AI Solutions Architect posting carries the same $189,300 to $290,700 range",
+    "where": "Simplify",
+    "time": "2:45 PM"
    },
    {
     "company": "Stanley Black & Decker",
@@ -10001,6 +10022,15 @@
     "where": "Tenet Healthcare careers",
     "time": "2:44 PM"
    }
+  ],
+  "Greenhouse - Accenture Federal Services": [
+   {
+    "company": "Accenture",
+    "role": "Master Enterprise Architect",
+    "reason": "clearance — An active Top Secret federal security clearance is required",
+    "where": "Greenhouse - Accenture Federal Services",
+    "time": "2:46 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -11179,5 +11209,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T20:44:34Z"
+ "lists_generated_at": "2026-11-17T20:47:07Z"
 }
