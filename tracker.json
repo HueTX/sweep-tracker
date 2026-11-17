@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T06:45:12Z",
+ "generated_at": "2026-11-17T06:47:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T06:43:12Z",
+  "last_activity_at": "2026-11-17T06:47:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 184,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 8,
-  "rejected": 35,
-  "evaluated": 44
+  "parked": 11,
+  "rejected": 41,
+  "evaluated": 52
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 88,
+  "evaluated": 95,
   "filed": 0,
-  "parked": 9,
-  "rejected": 78,
+  "parked": 11,
+  "rejected": 84,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -75,7 +75,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:45:12Z",
+   "heartbeat_at": "2026-11-17T06:47:42Z",
    "detail": "Titles 6/58"
   },
   "W1": {
@@ -97,7 +97,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:45:12Z",
+   "heartbeat_at": "2026-11-17T06:47:42Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -108,7 +108,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T06:45:12Z",
+   "heartbeat_at": "2026-11-17T06:47:42Z",
    "detail": "Employers 5/73"
   },
   "W4": {
@@ -546,7 +546,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:43 AM CT · 27 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:47 AM CT · 27 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W7 · Title 7 of 58 · Infrastructure Architect",
@@ -1044,7 +1044,7 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
+  "candidates_open": 0,
   "verify_open": 2,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
@@ -1055,6 +1055,15 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
+  "DailyRemote": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Architect",
+    "reason": "title-not-covered — AJO Expertise: Deep knowledge of Adobe Journey Optimizer, including orchestration, decisioning, and real-time personalization. | As a Principal Architect, you will coordinate the implementation and integration of applications.",
+    "where": "DailyRemote",
+    "time": "12:47 AM"
+   }
+  ],
   "Dice (mirror)": [
    {
     "company": "Ascension",
@@ -1089,6 +1098,15 @@
     "reason": "title-not-covered — As our Atlassian Platform Architect, you will own the technical direction, architecture, health, and evolution of Jira, Jira Service Management, Confluence, and the broader Atlassian ecosystem.",
     "where": "Jobicy",
     "time": "12:43 AM"
+   }
+  ],
+  "Ashby (employer's own ATS)": [
+   {
+    "company": "Allwyn Corporation",
+    "role": "Senior Enterprise Solutions Architect",
+    "reason": "not-evaluated — Verify: employer's own Ashby board (jobs.ashbyhq.com/allwyn-corp) was searched by title and employer; the Ashby posting linked from the employer's careers page resolves to a different role, 'Senior Technical Lead / Observability Specialist (Dynatrace)', and no Ashby page for the Senior Enterprise Solutions Architect posting itself could be opened. The mirror listing (Remote Rocketship, from Allwyn's careers page) remains live, but a PASS requires the employer's own posting page.",
+    "where": "Ashby (employer's own ATS)",
+    "time": "12:47 AM"
    }
   ],
   "Cognizant Careers (employer site)": [
@@ -1203,6 +1221,13 @@
     "reason": "experience-mismatch — 8+ years of experience in Veeva System Configuration/Design, Solution Architecture for Life Sciences, and/or IT Consulting within Life Sciences.",
     "where": "Built In",
     "time": "12:03 AM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Cloud Transformation Architect",
+    "reason": "stale — Job Title: Cloud Transformation Architect | Location: 100% Remote (U.S.) | Salary Range: $150,000–$175,000 Annually | Published: 2026-10-28 - posting date is 20 days before this 2026-11-17 search, outside the 7-day eligibility window, with no repost or fresher surface date on any route checked. workarounds tried: (1) employer's own bvteck careers mirrors on Built In, (2) alternate routes Teal and Remoshift - all carry the same late-October 2026 dates, (3) no refreshed or reposted version found",
+    "where": "Built In",
+    "time": "12:47 AM"
    },
    {
     "company": "GSK",
@@ -1547,6 +1572,15 @@
     "time": "12:03 AM"
    }
   ],
+  "nvoids (Texas state solicitation mirror)": [
+   {
+    "company": "Texas Health and Human Services Commission",
+    "role": "Cloud Solutions Architect 3",
+    "reason": "not-remote — Position is HYBRID at the location listed above - Onsite (Mon &Wed) and Remote all other three days. Client will only allow candidates who are LOCAL TO THE AUSTIN AREA (50 mile radius). | workarounds tried: (1) the Texas HHSC solicitation text itself (governing) - hybrid Austin locals only, (2) alternate route nvoids solicitation mirror, (3) no alternate fully-remote posting of this solicitation found",
+    "where": "nvoids (Texas state solicitation mirror)",
+    "time": "12:47 AM"
+   }
+  ],
   "GovernmentJobs.com / NEOGOV": [
    {
     "company": "Washington State Department of Health",
@@ -1681,6 +1715,15 @@
     "time": "12:03 AM"
    }
   ],
+  "youhired.me": [
+   {
+    "company": "Ten Mile Square",
+    "role": "Solution Architect",
+    "reason": "hands-on-coding — Perform hands-on application programming with an emphasis on backend and integration systems development using GraphQL, Apollo, Node.js, TypeScript, JavaScript, Python, RESTful APIs, and data pipelines | Expected work breakdown is 70% system design, 30% hands-on development. | workarounds tried: (1) original posting text reproduced in full on the finding surface - same hands-on programming duties, (2) alternate search routes checked for the same Ten Mile Square role, (3) no alternate architect-only posting found",
+    "where": "youhired.me",
+    "time": "12:47 AM"
+   }
+  ],
   "ExxonMobil Jobs (employer site)": [
    {
     "company": "ExxonMobil",
@@ -1713,6 +1756,15 @@
     "reason": "hands-on — Design, provision, configure, and operate cloud or infrastructure components using approved architecture patterns | Automate repeatable provisioning, deployment, configuration, and operational tasks | Investigate incidents, capacity issues, vulnerabilities, and performance problems | workarounds tried: (1) employer's own careers page (source of this listing per Remote Rocketship) - same provision/operate duties, (2) alternate routes Built In and Teal mirrors of Bright Vision architect postings, (3) no alternate architect-level posting of this role found",
     "where": "Remote Rocketship (employer's careers page)",
     "time": "12:43 AM"
+   }
+  ],
+  "GovernmentJobs.com": [
+   {
+    "company": "Colorado Governor's Office of Information Technology",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "closed — Closing Date 11/8/2026 11:59 PM Mountain | All remote work must be performed in Colorado. | While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position.",
+    "where": "GovernmentJobs.com",
+    "time": "12:47 AM"
    }
   ],
   "SkillUp Coalition": [
@@ -1758,6 +1810,24 @@
     "reason": "not-remote — Work mode Hybrid. Location Herndon, VA, United States. Amazon Web Services (AWS) is seeking a Senior Solutions Architect to support our National Security Customers. Workarounds tried: (1) Haystack mirror of the AWS posting (governing text) states Hybrid work mode in Herndon, VA.",
     "where": "Haystack (mirror)",
     "time": "12:37 AM"
+   }
+  ],
+  "Job Sea": [
+   {
+    "company": "SpryPoint",
+    "role": "Solutions Architect II",
+    "reason": "experience-mismatch — Utility CIS implementation experience and a consulting background are non-negotiable. | 5+ years implementing enterprise utility software, including 4+ end-to-end CIS utility billing implementations (water, gas, or electric). CIS experience is required. | workarounds tried: (1) employer's own posting sought via web search - same CIS requirement, (2) alternate route Job Sea full JD, (3) no alternate posting of this role found",
+    "where": "Job Sea",
+    "time": "12:47 AM"
+   }
+  ],
+  "Jooble": [
+   {
+    "company": "BayOne Solutions",
+    "role": "Senior AWS Cloud Transformation Architect",
+    "reason": "cloud-mismatch — We are looking for a seasoned AWS Cloud Architect to lead enterprise-wide cloud transformation initiatives and accelerate the modernization of business-critical applications. | AWS Certified Solutions Architect – Professional (Required) | workarounds tried: (1) employer's own posting sought via web search - same AWS-only text, (2) alternate routes Jooble and TheBigJobSite full JDs - both AWS-first, (3) no alternate Azure posting of this role found",
+    "where": "Jooble",
+    "time": "12:47 AM"
    }
   ]
  },
@@ -2936,5 +3006,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T06:45:12Z"
+ "lists_generated_at": "2026-11-17T06:47:42Z"
 }
