@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T22:24:36Z",
+ "generated_at": "2026-11-17T22:27:46Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-17T22:23:47Z",
+  "last_activity_at": "2026-11-17T22:25:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 308,
+   "covered_units": 368,
    "total_units": 754,
-   "pct": 41
+   "pct": 49
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 2,
-  "parked": 202,
-  "rejected": 969,
-  "evaluated": 1175
+  "parked": 203,
+  "rejected": 970,
+  "evaluated": 1177
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1175,
+  "evaluated": 1177,
   "filed": 2,
-  "parked": 202,
-  "rejected": 969,
+  "parked": 203,
+  "rejected": 970,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,12 +44,14 @@
  },
  "searching_lanes": [
   "W7",
+  "W1",
+  "W2",
   "W3",
   "W4",
   "W5",
-  "W6",
-  "W16",
-  "W17"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -82,29 +84,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Employers 15/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Employers 15/39"
   },
   "W3": {
@@ -115,8 +117,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 5/73"
+   "heartbeat_at": "2026-11-17T22:27:46Z",
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,8 +128,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": "2026-11-17T22:27:46Z",
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,19 +139,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": "2026-11-17T22:27:46Z",
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -231,56 +233,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 10/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T22:24:36Z",
-   "detail": "Employers 10/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 15/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 15/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Employers 10/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T22:27:46Z",
    "detail": "Employers 10/31"
   }
  },
@@ -292,7 +294,7 @@
    "ended_at": "2026-11-17T21:58:14Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
@@ -311,7 +313,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "38 of 632 units done",
+   "detail": "44 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -553,7 +555,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:23 PM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:25 PM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -2419,6 +2421,15 @@
     "time": "5:21 AM"
    }
   ],
+  "careers.cognizant.com": [
+   {
+    "company": "Cognizant",
+    "role": "Principal AI Technical Architect (AWS Bedrock & Agentic AI)",
+    "reason": "cognizant-manual-only — We are looking for strong AI Technical Architect to drive our innovation strategy using Amazon Web Services.",
+    "where": "careers.cognizant.com",
+    "time": "4:25 PM"
+   }
+  ],
   "Haystack": [
    {
     "company": "3Cloud",
@@ -3400,9 +3411,9 @@
    {
     "company": "UnitedHealth Group / Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own text via Built In full JD (governing range $134,600-$230,800, top above $230,000 ceiling), (2) UnitedHealth Group careers route for same req 2390520 - same range, (3) no alternate posting with in-band pay found",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth Group careers text for Optum architect roles carries the same $230,800 top, (2) alternate route Built In carries the same range, (3) alternate Optum architect postings carry the same $134,600 - $230,800 range",
     "where": "Built In",
-    "time": "12:37 PM"
+    "time": "4:25 PM"
    },
    {
     "company": "BAE Systems, Inc.",
@@ -4102,6 +4113,15 @@
     "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD. workarounds tried: (1) full JD on Dice (alternate route) shows same range, (2) BuiltIn RTX alternate Enterprise Architect listings show same 157,200-298,800 range, (3) no alternate posting with a different range found",
     "where": "Dice",
     "time": "8:25 AM"
+   }
+  ],
+  "commonspirit.careers": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "Solution Architect I",
+    "reason": "not-remote — Not a Remote Position. Must be Local in Phoenix, AZ workarounds tried: (1) employer's own page at commonspirit.careers is the governing text and states Remote, No, (2) alternate iCIMS route carries the same Phoenix local requirement, (3) no remote alternate posting of the same role was found",
+    "where": "commonspirit.careers",
+    "time": "4:25 PM"
    }
   ],
   "CommonSpirit Careers": [
@@ -11699,5 +11719,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T22:24:36Z"
+ "lists_generated_at": "2026-11-17T22:27:46Z"
 }
