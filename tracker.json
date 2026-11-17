@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:37:26Z",
+ "generated_at": "2026-11-17T18:40:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,41 +15,39 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T18:34:30Z",
+  "last_activity_at": "2026-11-17T18:39:57Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 724,
    "total_units": 754,
-   "pct": 94
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
-  "parked": 43,
-  "rejected": 35,
-  "evaluated": 78
+  "filed": 2,
+  "parked": 188,
+  "rejected": 824,
+  "evaluated": 1016
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1003,
+  "evaluated": 1016,
   "filed": 2,
-  "parked": 187,
-  "rejected": 812,
+  "parked": 188,
+  "rejected": 824,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W8",
-  "W4",
-  "W5",
-  "W6",
   "W16",
   "W17",
-  "W18"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -66,12 +64,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
+   "heartbeat_at": null,
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -121,35 +119,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
-   "detail": "Employers 35/32"
+   "heartbeat_at": null,
+   "detail": "Employers 40/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 40/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 40/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,7 +234,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
+   "heartbeat_at": "2026-11-17T18:40:15Z",
    "detail": "Employers 30/59"
   },
   "W17": {
@@ -247,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
+   "heartbeat_at": "2026-11-17T18:40:15Z",
    "detail": "Employers 30/54"
   },
   "W18": {
@@ -258,29 +256,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:37:26Z",
+   "heartbeat_at": "2026-11-17T18:40:15Z",
    "detail": "Employers 30/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:40:15Z",
    "detail": "Employers 35/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:40:15Z",
    "detail": "Employers 35/31"
   }
  },
@@ -292,7 +290,7 @@
    "ended_at": "2026-11-17T18:00:45Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
@@ -311,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "94 of 632 units done",
+   "detail": "100 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -553,7 +551,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:34 PM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:39 PM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W16 · Title 41 of 58 · Infrastructure Modernization Lead",
@@ -2055,6 +2053,15 @@
     "time": "7:10 AM"
    }
   ],
+  "HiringCafe": [
+   {
+    "company": "Xcel Energy",
+    "role": "Senior Data Architect",
+    "reason": "title-not-covered — The Senior Data Architect is a key role within the IT organization and a hands-on architecture partner to delivery teams. Title matches no listed family for this unit; role also hybrid - Xcel Energy supports a hybrid work model and many roles are expected to work onsite three days per week.",
+    "where": "HiringCafe",
+    "time": "12:39 PM"
+   }
+  ],
   "careers.ford.com": [
    {
     "company": "Ford Motor Company",
@@ -2778,6 +2785,13 @@
     "time": "3:22 AM"
    },
    {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect - Remote",
+    "reason": "stale — As part of the Optum Health Financial Tech team, the Architect will define and own the end-to-end architecture for AI-enabled and Generative AI solutions aligned with business outcomes, scalability, security, and enterprise compliance. workarounds tried: (1) Built In full JD - published 2026-11-07, outside 7-day eligibility on 2026-11-17, (2) UnitedHealth Group careers route - same req 2386731, no fresher date, (3) no repost found",
+    "where": "Built In",
+    "time": "12:37 PM"
+   },
+   {
     "company": "SLB",
     "role": "Software Architect",
     "reason": "stale — Senior data architecture experience, ideally within a federated / data-mesh or Google Cloud (BigQuery, Dataplex) environment",
@@ -2855,6 +2869,13 @@
     "time": "8:19 AM"
    },
    {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Technical Integration Architect - Remote",
+    "reason": "stale — We are looking for a Technical Integration Architect to join our leadership team. workarounds tried: (1) Built In full JD - published 2026-01-29, outside 7-day eligibility, (2) UnitedHealth Group careers route - no fresher date for this role, (3) no repost found",
+    "where": "Built In",
+    "time": "12:39 PM"
+   },
+   {
     "company": "Caterpillar",
     "role": "Enterprise Architect - Data Platform, Business Intelligence, AI",
     "reason": "not-remote — This position is currently a hybrid in-office work model, requiring 3-day weekly office presence onsite at our (location) office and remote work for the remaining days. — workarounds tried: (1) Caterpillar's own careers posting is mirrored on Built In with the same hybrid model; (2) alternate routes carry the same Caterpillar JD text; (3) alternate Caterpillar architect postings are likewise hybrid or onsite five days a week.",
@@ -2916,6 +2937,13 @@
     "reason": "stale — As the VP, Chief Enterprise Architect, you will set the vision for enterprise-wide architecture—driving digital and AI-enabled transformation, and influencing business strategy at the highest levels.",
     "where": "Built In",
     "time": "12:02 AM"
+   },
+   {
+    "company": "Elevance Health",
+    "role": "Enterprise Architect Principal",
+    "reason": "not-remote — Hybrid 1: This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. workarounds tried: (1) employer's own text via Built In full JD - hybrid governing, (2) Elevance careers route - same hybrid terms, (3) no fully remote alternate posting found; anticipated end date 2026-11-06 also passed",
+    "where": "Built In",
+    "time": "12:37 PM"
    },
    {
     "company": "Health Care Service Corporation (BCBS)",
@@ -3002,6 +3030,13 @@
     "time": "11:44 AM"
    },
    {
+    "company": "CVS Health / Aetna",
+    "role": "Lead Solutions Architect - HR Technology & AI",
+    "reason": "pay-outside-band — The typical pay range for this role is: $106,605.00 - $284,280.00 workarounds tried: (1) employer's own text via Built In full JD - top $284,280 above $230,000 ceiling, (2) CVS Health careers route - same HR Technology role and range, (3) no alternate posting with in-band pay found",
+    "where": "Built In",
+    "time": "12:37 PM"
+   },
+   {
     "company": "Johnson Controls",
     "role": "IT Technical Application Architect",
     "reason": "not-remote — Job Title: IT Technical Application Architect Location: Bangalore, India Company: Johnson Controls The .NET Technical Architect with minimum 12 years of total work experience and is responsible for designing, implementing, and overseeing cloud-native solutions | workarounds tried: (1) Built In listing governing - Bangalore, India location, published 2026-01-08, (2) Johnson Controls careers search for a US-remote version - none found, (3) no alternate US posting of the same role found",
@@ -3074,9 +3109,9 @@
    {
     "company": "UnitedHealth Group / Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) Built In full JD mirroring the UHG posting, (2) no alternate posting with a different range found",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own text via Built In full JD (governing range $134,600-$230,800, top above $230,000 ceiling), (2) UnitedHealth Group careers route for same req 2390520 - same range, (3) no alternate posting with in-band pay found",
     "where": "Built In",
-    "time": "7:54 AM"
+    "time": "12:37 PM"
    },
    {
     "company": "BAE Systems, Inc.",
@@ -3962,6 +3997,13 @@
     "reason": "not-remote — Canada - Fully Remote - Work from anywhere in Canada! workarounds tried: (1) employer's posting as carried on Ladders - Canada-only remote; (2) alternate route RemoteRocketship listing - same Canada-only scope and salary; (3) alternate US posting of the same role - none found.",
     "where": "Ladders",
     "time": "5:09 AM"
+   },
+   {
+    "company": "REI Systems",
+    "role": "Chief Architect",
+    "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office) workarounds tried: (1) Ladders full JD carrying REI text - hybrid governing, (2) REI Systems careers route - same Chief Architect role, (3) no fully remote alternate found",
+    "where": "Ladders",
+    "time": "12:39 PM"
    }
   ],
   "The Ladders": [
@@ -4104,13 +4146,6 @@
     "time": "7:41 AM"
    },
    {
-    "company": "REI Systems",
-    "role": "Chief Architect",
-    "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office). workarounds tried: (1) full JD on Ladders states the hybrid Sterling office schedule explicitly; (2) alternate route search returned the same hybrid posting; (3) no fully-remote alternate posting of this role found",
-    "where": "theladders.com",
-    "time": "12:50 AM"
-   },
-   {
     "company": "The Home Depot",
     "role": "Cybersecurity Principal | Domain Architecture & Data Science (Remote)",
     "reason": "stale — Published: 2026-09-22T12:39:44. workarounds tried: (1) Ladders full JD dated 2026-09-22, outside 7-day eligibility on 2026-11-17; (2) no fresher Home Depot repost found in search; (3) no alternate posting found",
@@ -4189,22 +4224,6 @@
     "reason": "not-remote — Position Type Office-based Physical work site required Yes workarounds tried: (1) BuiltIn full JD of enGen/Highmark posting - summary calls it remote but working conditions state Office-based with physical work site required, (2) search for alternate posting of same role with remote terms - none found, (3) no repost found",
     "where": "BuiltIn (Highmark/enGen posting)",
     "time": "5:26 AM"
-   }
-  ],
-  "careers.unitedhealthgroup.com": [
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Architect - Remote",
-    "reason": "hands-on — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud | workarounds tried: (1) employer's own ATS posting opened at careers.unitedhealthgroup.com (governing text), (2) Built In mirror of UHG Architect roles checked, (3) alternate UHG Architect posting (Optum AI) opened - same Java-development core",
-    "where": "careers.unitedhealthgroup.com",
-    "time": "12:59 AM"
-   },
-   {
-    "company": "UnitedHealth Group",
-    "role": "Program Architect - Remote",
-    "reason": "stale — The Program Architect provides strategic guidance to program and product leadership on adoption of best practices in the areas of technology integration, cloud computing, process improvement, technology innovation and implementation. workarounds tried: (1) employer's own careers page opened directly — Published: 2026-10-27, outside the 7-day eligibility window; (2) alternate routes show the same Oct 27 posting; (3) no refreshed/reposted version found",
-    "where": "careers.unitedhealthgroup.com",
-    "time": "12:50 AM"
    }
   ],
   "Capital Blue Cross careers (iCIMS, employer own page)": [
@@ -4563,6 +4582,15 @@
     "reason": "non-US — Shell in The United Kingdom; London - Shell Centre",
     "where": "Kidab / SheCanCode",
     "time": "8:14 AM"
+   }
+  ],
+  "energyjobsearch.com": [
+   {
+    "company": "BP",
+    "role": "Senior Solution Architect",
+    "reason": "closed — Job post no longer accepts applications",
+    "where": "energyjobsearch.com",
+    "time": "12:39 PM"
    }
   ],
   "jobs.halliburton.com": [
@@ -4996,6 +5024,13 @@
     "reason": "pay-outside-band — Salary Range: $153,360 - $274,131 workarounds tried: (1) employer's own ATS posting (carefirstcareers.ttcportals.com) is the governing text and carries this salary; no alternate route changes a published pay band",
     "where": "carefirstcareers.ttcportals.com",
     "time": "8:49 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Principal Cloud Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131 workarounds tried: (1) employer's own CareFirst careers page (governing text, this page) - top $274,131 above $230,000 ceiling, (2) no alternate route for same req, (3) no alternate posting with in-band pay found",
+    "where": "carefirstcareers.ttcportals.com",
+    "time": "12:39 PM"
    }
   ],
   "Simplify": [
@@ -5079,6 +5114,13 @@
     "time": "9:55 AM"
    },
    {
+    "company": "Sempra",
+    "role": "Cybersecurity Architect - Enterprise Technology",
+    "reason": "not-remote — HYBRID: Work a combination of onsite and remote days each week, typically 4 days per week onsite. workarounds tried: (1) employer's own text via DiversityJobs full JD - hybrid 4 days governing, (2) Sempra careers route - same Houston hybrid role, (3) no fully remote alternate found",
+    "where": "DiversityJobs",
+    "time": "12:39 PM"
+   },
+   {
     "company": "WEC Energy Group",
     "role": "SAP Data Warehouse Developer and Architect",
     "reason": "pay-outside-band — Pay Range Maximum: $135,761.08. This position currently offers flexibility for a hybrid work arrangement (remote/on-site) with time regularly spent in the office. workarounds tried: (1) Dice mirror — identical hybrid/pay, (2) WEC careers — no remote alternate, (3) no repost with different pay found",
@@ -5119,6 +5161,13 @@
     "reason": "pay-outside-band — The expected base salary for this role, if located in Illinois, is between $180,000 and $252,000 USD.",
     "where": "DiversityJobs",
     "time": "12:01 AM"
+   },
+   {
+    "company": "NRG Energy",
+    "role": "Principal Solutions Architect & Set-Up",
+    "reason": "not-remote — Position requires in-office presence in Seattle, WA on a hybrid schedule for Monday, Tuesday, Wednesday, and Thursday with a work from home day on Friday. workarounds tried: (1) employer's own text via DiversityJobs full JD - hybrid governing, (2) Ladders alternate - same hybrid Seattle terms, (3) no fully remote alternate posting found",
+    "where": "DiversityJobs",
+    "time": "12:39 PM"
    },
    {
     "company": "OGE Energy",
@@ -5648,11 +5697,25 @@
     "time": "8:15 AM"
    },
    {
+    "company": "Eversource",
+    "role": "IT Senior Architect, Security, Operational Technology (Hybrid)",
+    "reason": "not-remote — Current guidelines require employees to work at least three days in the office, including Tuesdays and Wednesdays, with the third day set by the employee and supervisor based on department needs. workarounds tried: (1) employer's own text via Built In Boston full JD - hybrid 3 days governing, (2) Eversource careers route - same hybrid OT role, (3) no fully remote alternate found; posting also dated 2026-02-12",
+    "where": "Built In Boston",
+    "time": "12:37 PM"
+   },
+   {
     "company": "Autodesk",
     "role": "Senior Data Architect – Enterprise Data Strategy",
     "reason": "pay-outside-band — For U.S.-based roles, we expect a starting base salary between $143,000 and $256,520. — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
     "where": "Built In Boston",
     "time": "2:41 AM"
+   },
+   {
+    "company": "IQVIA",
+    "role": "Application Architect (React and Node JS) Remote",
+    "reason": "stale — Architect and implement scalable web and data management platforms in cloud environments (Azure/AWS). workarounds tried: (1) Built In Boston full JD - published 2026-03-04, outside 7-day eligibility, (2) IQVIA jobs route - no fresher posting for this role, (3) no repost found; pay range also $136,800.00 - $254,000.00, top above band",
+    "where": "Built In Boston",
+    "time": "12:39 PM"
    }
   ],
   "careerbuilder.com": [
@@ -5810,6 +5873,20 @@
     "time": "8:42 AM"
    },
    {
+    "company": "The Cigna Group",
+    "role": "Senior Principal, Enterprise Identity & Access Management Architect",
+    "reason": "pay-outside-band — For this position, we anticipate offering an annual salary of 174,800 - 291,300 USD / yearly, depending on relevant factors, including experience and geographic location. workarounds tried: (1) DailyRemote full JD carrying Cigna text - top $291,300 above $230,000 ceiling, (2) Cigna Group careers route - same IAM role, (3) no alternate posting with in-band pay found; posting also dated 2026-10-07",
+    "where": "DailyRemote",
+    "time": "12:37 PM"
+   },
+   {
+    "company": "AECOM",
+    "role": "Senior Architect (Licensed Building Architect), Data Centers - Remote (U.S.)",
+    "reason": "experience-mismatch — Active U.S. Architectural license. Lead architectural design for large scale hyperscale cloud data center and colocation projects, from early concept through construction administration and closeout. workarounds tried: (1) DailyRemote full JD - licensed building/facility architecture, not IT architecture, (2) Himalayas AECOM mirror - same licensed-architect terms, (3) no IT-architecture alternate posting for this req found",
+    "where": "DailyRemote",
+    "time": "12:39 PM"
+   },
+   {
     "company": "Tyson Foods",
     "role": "Lead Development Engineer",
     "reason": "not-remote — This position is based out of our Tyson Emma office in Springdale, Arkansas. Candidates residing within a 50-mile radius of the Springdale office will be expected to work onsite. workarounds tried: (1) Tyson own JD via DailyRemote/GrabJobs mirrors with same onsite text, (2) alternate Dice/BuiltIn routes are different onsite data roles, (3) no fully remote alternate posting of this role found",
@@ -5861,15 +5938,6 @@
     "reason": "pay-outside-band — For U.S.-based roles, we expect a starting base salary between $159,800 and $258,500. workarounds tried: Muse + Mediabistro same req/same range; Autodesk careers — no fresher repost with different range",
     "where": "The Muse",
     "time": "6:37 AM"
-   }
-  ],
-  "CareFirst careers (employer own)": [
-   {
-    "company": "CareFirst",
-    "role": "Principal Cloud Architect (Remote)",
-    "reason": "pay-outside-band — Salary Range: $153,360 - $274,131 workarounds tried: (1) employer's own CareFirst careers portal posting (governing text)",
-    "where": "CareFirst careers (employer own)",
-    "time": "7:55 AM"
    }
   ],
   "abilitycareers.com": [
@@ -7381,6 +7449,13 @@
     "reason": "hands-on — Architect Infrastructure as Code modules (Terraform/OpenTofu) for Azure App Services, Container Apps, and Function Apps, as well as Azure SQL, Azure Cosmos DB, and Azure Postgres. Deep expertise in Terraform/OpenTofu for Azure infrastructure automation, including module design, state management, and CI/CD-driven deployment pipelines (Azure DevOps). workarounds tried: (1) employer's own careers page checked - governing text, (2) alternate EPAM listings searched, (3) no non-IaC-building alternate posting found; whole role is IaC module building for an Internal Developer Platform",
     "where": "careers.epam.com",
     "time": "11:11 AM"
+   },
+   {
+    "company": "EPAM",
+    "role": "System Architect",
+    "reason": "stale — We are looking for a System Architect with strong expertise in Microsoft Azure to design and guide the implementation of secure, scalable, and reliable cloud solutions. workarounds tried: (1) EPAM's own careers page (governing text, this page) - published 2026-11-06, outside 7-day eligibility on 2026-11-17, (2) no alternate route for same vacancy, (3) no repost found",
+    "where": "careers.epam.com",
+    "time": "12:39 PM"
    }
   ],
   "InsideHigherEd Careers (Johns Hopkins University posting)": [
@@ -7576,6 +7651,15 @@
     "reason": "pay-outside-band — $180,812 to $247,200 per year. | workarounds tried: (1) JD itself directs to IBM careers JobDetail jobId=138214 - same requisition; (2) alternate route haystack full JD read shows salary $180.8k-$247.2k, top $247,200 above the $230,000 band ceiling, work mode Hybrid in Armonk, NY; (3) no alternate posting with a different salary found.",
     "where": "haystackapp.io",
     "time": "1:20 AM"
+   }
+  ],
+  "careers.amtrak.com": [
+   {
+    "company": "Amtrak",
+    "role": "Sr Principal Cloud Platform Architect - Remote",
+    "reason": "not-remote — Work Arrangement: 06-Onsite 4/5 Days workarounds tried: (1) employer's own Amtrak careers page (governing text, this page) - onsite 4/5 days despite Remote in the title, (2) no alternate Amtrak posting for req 166748 with remote terms, (3) no repost found",
+    "where": "careers.amtrak.com",
+    "time": "12:37 PM"
    }
   ],
   "Built In NYC (mirror)": [
@@ -8406,6 +8490,15 @@
     "reason": "pay-outside-band — Jersey City,NJ $175,750.00 - $260,000.00 / year | workarounds tried: (1) employer own ATS search for the same Senior Lead Architect family, (2) alternate route - Glassdoor and GrabJobs mirrors show the same Jersey City architect roles, (3) alternate posting - no remote in-band version of this role found",
     "where": "Monster (JPMorgan Chase mirror)",
     "time": "5:19 AM"
+   }
+  ],
+  "careers.unitedhealthgroup.com": [
+   {
+    "company": "UnitedHealth Group",
+    "role": "Program Architect - Remote",
+    "reason": "stale — The Program Architect provides strategic guidance to program and product leadership on adoption of best practices in the areas of technology integration, cloud computing, process improvement, technology innovation and implementation. workarounds tried: (1) employer's own careers page opened directly — Published: 2026-10-27, outside the 7-day eligibility window; (2) alternate routes show the same Oct 27 posting; (3) no refreshed/reposted version found",
+    "where": "careers.unitedhealthgroup.com",
+    "time": "12:50 AM"
    }
   ],
   "Simplify / AMD": [
@@ -10379,5 +10472,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T18:37:26Z"
+ "lists_generated_at": "2026-11-17T18:40:15Z"
 }
