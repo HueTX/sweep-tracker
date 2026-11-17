@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T13:09:35Z",
+ "generated_at": "2026-11-17T13:12:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T13:06:37Z",
+  "last_activity_at": "2026-11-17T13:12:01Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 107,
-  "rejected": 308,
-  "evaluated": 417
+  "rejected": 315,
+  "evaluated": 424
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 713,
+  "evaluated": 720,
   "filed": 0,
   "parked": 144,
-  "rejected": 565,
+  "rejected": 572,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -101,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 226/39"
+   "detail": "Employers 230/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 230/73"
+   "detail": "Employers 235/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/44"
+   "heartbeat_at": null,
+   "detail": "Employers 235/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/44"
+   "heartbeat_at": null,
+   "detail": "Employers 235/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,46 +220,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/59"
+   "heartbeat_at": null,
+   "detail": "Employers 235/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/54"
+   "heartbeat_at": null,
+   "detail": "Employers 235/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/45"
+   "heartbeat_at": null,
+   "detail": "Employers 230/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:09:35Z",
-   "detail": "Employers 225/41"
+   "heartbeat_at": null,
+   "detail": "Employers 230/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "502 of 632 units done",
+   "detail": "514 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:06 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 7:12 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1616,13 +1603,6 @@
     "time": "2:31 AM"
    },
    {
-    "company": "City of Houston portal",
-    "role": "IT ARCHITECT- APPLICATIONS",
-    "reason": "stale-unverified — The IT Architect - Fire Applications will serve as a technical leader responsible for designing, implementing, and transforming enterprise application architectures to meet the City of Houston and Houston Fire Department's evolving technology landscape. Reporting Location: 611 Walker, Houston, TX 77002 - no typed posting date on the mirror (crawled 296 days ago), freshness unproven, parked stale-unverified",
-    "where": "Career.io",
-    "time": "7:05 AM"
-   },
-   {
     "company": "The Travelers Companies",
     "role": "Senior Digital Solutions Architect",
     "reason": "stale-unverified — Travelers is seeking a Senior Application Digital Solution Architect to join our Enterprise Technology Solutions organization. This is a hands-on application architecture role focused on designing, documenting, and guiding the technical direction of software systems that support business transformation. Salary Range $139,400.00 - $230,000.00 - no typed posting date on the mirror (crawled 230 days ago), freshness unproven, parked stale-unverified",
@@ -1866,6 +1846,15 @@
     "reason": "not-evaluated — Verify attempted: employer's own Leidos careers page for R-00196488 could not be located or opened via search (site:careers.leidos.com returned no result); mirrors (ClearanceJobs, DailyRemote, Fairygodboss) reproduce the same JD text - Remote within CONUS, Azure/cloud design, VA Public Trust only, $107,900-$195,050 - but a PASS requires the employer's own page, so this verify parks not-evaluated.",
     "where": "clearancejobs.com",
     "time": "2:18 AM"
+   }
+  ],
+  "Glassdoor": [
+   {
+    "company": "EPAM Systems",
+    "role": "Cloud Engagement Lead - Remote",
+    "reason": "not-evaluated — JD could not be fully opened on Glassdoor; only search snippets visible: Partner with EPAM's Business Units to drive high-quality Cloud engagement within the portfolio; Salary range: $133k - $210k; Remote - West Coast United States",
+    "where": "Glassdoor",
+    "time": "7:10 AM"
    }
   ],
   "careers.ford.com": [
@@ -3171,6 +3160,13 @@
     "time": "1:49 AM"
    },
    {
+    "company": "DXC Technology",
+    "role": "Google Cloud Practice Leader",
+    "reason": "cloud-mismatch — lead DXC's Google Cloud Practice in DXC. This role will be responsible for driving the business, developing our go to market, leading customer engagements, designing enterprise-grade cloud architectures, and implementing comprehensive cloud solutions on Google Cloud Platform. Required: Google Cloud Professional Cloud Architect (required), Google Cloud Professional DevOps Engineer (required). workarounds tried: (1) DXC own posting sought via Simplify mirror of DXC JD, (2) BuiltIn and Jooble mirrors same GCP-first text, (3) no Azure-first alternate posting found",
+    "where": "Simplify Jobs",
+    "time": "7:10 AM"
+   },
+   {
     "company": "Regeneron Pharmaceuticals",
     "role": "Executive Director Enterprise Architect",
     "reason": "not-remote — This is an on-site position 4 days/week, primarily based at our Sleepy Hollow, NY or Warren, NJ office. If eligible, we can offer relocation benefits; we cannot offer a fully remote option.",
@@ -3483,6 +3479,20 @@
     "reason": "not-remote — This is a hybrid role located on our campus in Mountlake Terrace, Washington. Workarounds tried: (1) employer posting via BuiltIn mirror of Premera JD, (2) SonicJobs alternate route for same req, (3) no alternate remote posting found. National Plus Salary Range: $150,300.00 - $270,500.00",
     "where": "BuiltIn",
     "time": "6:27 AM"
+   },
+   {
+    "company": "eBay",
+    "role": "Lead Full Stack Platform Engineer",
+    "reason": "hands-on — In this role, you will serve as the hands-on technical lead for our platform engineering team in Austin. You will stay close to the code while helping guide technical decisions, designing core microservices and scaling platform capabilities. Architect scalable microservices and platform APIs using Java or Kotlin to support core developer workflows. workarounds tried: (1) eBay own posting sought, BuiltIn/Dice mirrors carry same R0076721 JD, (2) Dice alternate route same hands-on Java/Kotlin duties, (3) no architect-only alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:10 AM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "Sr. Director of Cloud Engineering",
+    "reason": "pay-outside-band — HIRING SALARY RANGE: $170 - 240,000 (Salary to be determined by the education, experience, knowledge, skills, and abilities of the applicant, internal equity, and alignment with market data.) workarounds tried: (1) employer's own careers site referenced in JD, same range on mirrors, (2) Jobgether alternate route shows same $170-240,000 range, (3) Teal mirror shows $170,000 - $240,000 - top $240,000 exceeds $230,000 band top on all routes",
+    "where": "BuiltIn",
+    "time": "7:10 AM"
    },
    {
     "company": "Autodesk",
@@ -4207,6 +4217,15 @@
     "reason": "experience-mismatch — Minimum of ten (10) years of experience as a Network Engineer in a large-scale inter-network environment with proven complex network design experience. workarounds tried: (1) LifePoint's own careers surface searched for the same role, (2) DailyRemote mirror read in full, (3) Teal mirror of the same posting — the core is deep network engineering (routing, switching, SD-WAN), not Hubert's Azure/infrastructure architecture core",
     "where": "DailyRemote (LifePoint mirror)",
     "time": "6:32 AM"
+   }
+  ],
+  "Jobgether / DailyRemote": [
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Oracle HCM Cloud Technical Architect(Product Owner III) - Digital and Technology Partners - Remote",
+    "reason": "stale — Published: 2026-10-22T23:31:18.375Z. workarounds tried: (1) employer's own posting sought, Jobgether/DailyRemote mirrors carry same Mount Sinai JD and date, (2) DailyRemote alternate route same date, (3) no fresher repost found",
+    "where": "Jobgether / DailyRemote",
+    "time": "7:12 AM"
    }
   ],
   "MD Anderson careers (employer own)": [
@@ -5017,6 +5036,13 @@
     "reason": "pay-outside-band — United States of America: Annual Salary USD 146,000 - 343,000 in New Jersey | workarounds tried: DailyRemote mirror of HPE posting checked, no alternate pay range found",
     "where": "DailyRemote",
     "time": "5:38 AM"
+   },
+   {
+    "company": "Tyson Foods",
+    "role": "Lead Development Engineer",
+    "reason": "not-remote — This position is based out of our Tyson Emma office in Springdale, Arkansas. Candidates residing within a 50-mile radius of the Springdale office will be expected to work onsite. workarounds tried: (1) Tyson own JD via DailyRemote/GrabJobs mirrors with same onsite text, (2) alternate Dice/BuiltIn routes are different onsite data roles, (3) no fully remote alternate posting of this role found",
+    "where": "DailyRemote",
+    "time": "7:10 AM"
    }
   ],
   "builtinsf.com": [
@@ -5664,6 +5690,15 @@
     "time": "2:16 AM"
    }
   ],
+  "Career.io / City of Houston": [
+   {
+    "company": "City of Houston portal",
+    "role": "IT ARCHITECT- APPLICATIONS",
+    "reason": "not-remote — Reporting Location: 611 Walker, Houston, TX 77002 - Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM. Department: Houston Information Technology Services. workarounds tried: (1) employer's own portal posting at houstontx.gov via Career.io mirror (governing location/hours), (2) Jobright alternate route same City of Houston onsite role, (3) no remote alternate posting found",
+    "where": "Career.io / City of Houston",
+    "time": "7:12 AM"
+   }
+  ],
   "EPAM careers (employer own)": [
    {
     "company": "EPAM Systems",
@@ -5827,6 +5862,15 @@
     "reason": "not-remote — Hybrid: This role is categorized as hybrid. This means the successful candidate is expected to report to the Sunnyvale or Austin office three times per week, at minimum. workarounds tried: (1) employer's own careers page at search-careers.gm.com read — governing text states the hybrid schedule, (2) alternate route search returned the same jr-202605742 posting, (3) no alternate fully-remote posting of the same role found",
     "where": "General Motors careers (employer ATS)",
     "time": "6:35 AM"
+   }
+  ],
+  "Tallocate": [
+   {
+    "company": "Kyndryl",
+    "role": "Infrastructure/Cloud Architect",
+    "reason": "stale — Published: 2026-07-23. The compensation range for the position in the U.S. is - $115,080 to $218,520 based on a full-time schedule. workarounds tried: (1) employer's own posting sought, Tallocate/The Muse mirrors carry Kyndryl JD, (2) The Muse alternate routes are older/non-US postings, (3) no fresher US repost found",
+    "where": "Tallocate",
+    "time": "7:12 AM"
    }
   ],
   "governmentjobs.com": [
@@ -8042,7 +8086,8 @@
    "J2B Global LLC"
   ],
   "W11": [
-   "Intact Insurance Specialty Solutions"
+   "Intact Insurance Specialty Solutions",
+   "EPAM Systems"
   ],
   "W12": [
    "CHRISTUS Health"
@@ -8053,5 +8098,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T13:09:35Z"
+ "lists_generated_at": "2026-11-17T13:12:03Z"
 }
