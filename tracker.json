@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T20:53:51Z",
+ "generated_at": "2026-11-17T20:56:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T20:52:48Z",
+  "last_activity_at": "2026-11-17T20:55:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,27 @@
  "counts": {
   "filed": 2,
   "parked": 193,
-  "rejected": 916,
-  "evaluated": 1113
+  "rejected": 920,
+  "evaluated": 1117
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1113,
+  "evaluated": 1117,
   "filed": 2,
   "parked": 193,
-  "rejected": 916,
+  "rejected": 920,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6",
   "W16",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -98,56 +98,56 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 195/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 190/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T20:56:27Z",
    "detail": "Employers 190/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T20:56:27Z",
    "detail": "Employers 184/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T20:56:27Z",
    "detail": "Employers 190/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T20:56:27Z",
    "detail": "Employers 190/44"
   },
   "W9": {
@@ -235,8 +235,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 185/59"
+   "heartbeat_at": "2026-11-17T20:56:27Z",
+   "detail": "Employers 190/59"
   },
   "W17": {
    "label": "Technology",
@@ -246,41 +246,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 185/54"
+   "heartbeat_at": "2026-11-17T20:56:27Z",
+   "detail": "Employers 190/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 185/45"
+   "heartbeat_at": null,
+   "detail": "Employers 190/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 185/41"
+   "heartbeat_at": null,
+   "detail": "Employers 190/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:53:51Z",
-   "detail": "Employers 181/31"
+   "heartbeat_at": null,
+   "detail": "Employers 182/31"
   }
  },
  "stages": {
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "431 of 632 units done",
+   "detail": "437 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:52 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:55 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "label": "W3",
+  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -3154,13 +3154,6 @@
     "time": "6:32 AM"
    },
    {
-    "company": "Kimberly-Clark",
-    "role": "Solution Architect S/4 HANA - Dropship (Remote)",
-    "reason": "not-remote — (REMOTE LOCATION FOR BRAZIL AND ARGENTINA) — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
-    "where": "Built In",
-    "time": "2:43 AM"
-   },
-   {
     "company": "Chubb",
     "role": "Enterprise Strategy Architect",
     "reason": "pay-outside-band — The pay range for the role is $240,000 to $255,000. workarounds tried: (1) employer's own posting via Built In mirror of Chubb careers text, (2) alternate route Career.io listing of same role with same $240,000 to $255,000 range, (3) no alternate posting with a different range found",
@@ -5076,13 +5069,13 @@
     "time": "3:08 AM"
    }
   ],
-  "jobs.lincolnfinancial.com": [
+  "Lincoln Financial careers (employer's own ATS)": [
    {
     "company": "Lincoln Financial",
     "role": "Lead Enterprise Architect",
-    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office — workarounds tried: (1) employer's own posting at jobs.lincolnfinancial.com (governing text, Hybrid 3 days/week), (2) alternate mirror Simplify with same Hybrid arrangement and Nov 3 listing, (3) no alternate remote posting of req 76261 found",
-    "where": "jobs.lincolnfinancial.com",
-    "time": "2:51 AM"
+    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office — workarounds tried: (1) employer's own ATS posting (this page, governing text), (2) alternate route via search results for same req 76261, (3) no alternate remote posting of same role found",
+    "where": "Lincoln Financial careers (employer's own ATS)",
+    "time": "2:54 PM"
    }
   ],
   "talents.vaia.com": [
@@ -5092,6 +5085,31 @@
     "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office. Alternate Locations: Radnor, PA (Pennsylvania); Charlotte, NC (North Carolina); Fort Wayne, IN (Indiana); Greensboro, NC (North Carolina). workarounds tried: (1) employer's own posting text for Requisition #76522 read in full via its Talents/Vaia mirror; (2) alternate route search listings for the same req checked, same hybrid terms; (3) no alternate posting of this req is fully remote.",
     "where": "talents.vaia.com",
     "time": "2:51 PM"
+   }
+  ],
+  "Built In (Nationwide posting)": [
+   {
+    "company": "Nationwide",
+    "role": "Consultant, Product Architect",
+    "reason": "closed — We currently anticipate accepting applications until 10/22/2026. However, we encourage early submissions, as the posting may close sooner if a strong candidate slate is identified before the deadline.",
+    "where": "Built In (Nationwide posting)",
+    "time": "2:54 PM"
+   }
+  ],
+  "Built In (New York Life posting)": [
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Integration Platform Architect",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week — workarounds tried: (1) employer's own posting text via Built In mirror of NYL req 95104, (2) alternate route via Built In NYC duplicate of same req, (3) no alternate remote posting of same role found",
+    "where": "Built In (New York Life posting)",
+    "time": "2:54 PM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Domain Architect",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week — workarounds tried: (1) employer's posting text via Built In mirrors (multiple regional Built In sites carry identical governing text); (2) alternate routes SonicJobs/Career.io for New York Life architect roles show the same Hybrid - 3 days per week designation; (3) no alternate fully-remote posting of this role found.",
+    "where": "Built In (New York Life posting)",
+    "time": "10:46 AM"
    }
   ],
   "talentally (Moody's JD mirror)": [
@@ -7594,6 +7612,22 @@
     "time": "10:53 AM"
    }
   ],
+  "Infosys careers (employer's own ATS)": [
+   {
+    "company": "Infosys",
+    "role": "DevOPs/ Cloud Architect",
+    "reason": "not-remote — Work Location Austin, TX — This position may require relocation and/or travel to work/project location. — workarounds tried: (1) employer's own ATS posting (this page, governing text), (2) alternate route via Teal/BigJobSite mirrors of same req 154951BR, (3) no alternate remote posting of same role found",
+    "where": "Infosys careers (employer's own ATS)",
+    "time": "2:55 PM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — workarounds tried: (1) employer's own ATS posting (this page, governing text), (2) alternate route via search results for same req 155748BR, (3) no alternate posting with different pay found",
+    "where": "Infosys careers (employer's own ATS)",
+    "time": "2:55 PM"
+   }
+  ],
   "Johns Hopkins University careers (employer own page)": [
    {
     "company": "Johns Hopkins Medicine",
@@ -8131,6 +8165,15 @@
     "time": "10:26 AM"
    }
   ],
+  "Built In (Kimberly-Clark posting)": [
+   {
+    "company": "Kimberly-Clark",
+    "role": "Solution Architect S/4 HANA - Dropship (Remote)",
+    "reason": "not-remote — (REMOTE LOCATION FOR BRAZIL AND ARGENTINA) LOCATION: Brazil or Argentina — workarounds tried: (1) employer's own posting text via Built In mirror, (2) alternate route via search results for same role, (3) no US-remote alternate posting found; US-only rule fails",
+    "where": "Built In (Kimberly-Clark posting)",
+    "time": "2:55 PM"
+   }
+  ],
   "SmartRecruiters (Visa ATS)": [
    {
     "company": "Visa",
@@ -8297,22 +8340,6 @@
     "reason": "not-remote — Hybrid: This role is categorized as hybrid. This means the successful candidate is expected to report to the Sunnyvale or Austin office three times per week, at minimum. workarounds tried: (1) employer's own careers page at search-careers.gm.com read — governing text states the hybrid schedule, (2) alternate route search returned the same jr-202605742 posting, (3) no alternate fully-remote posting of the same role found",
     "where": "General Motors careers (employer ATS)",
     "time": "6:35 AM"
-   }
-  ],
-  "Infosys digitalcareers (employer own ATS)": [
-   {
-    "company": "Infosys",
-    "role": "Application Enterprise Architect",
-    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — published tops $155,298 / $146,543 below $160,000 band floor — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search, (3) alternate posting search — no in-band variant found",
-    "where": "Infosys digitalcareers (employer own ATS)",
-    "time": "10:59 AM"
-   },
-   {
-    "company": "Infosys",
-    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
-    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 — top $256,667 above $230,000 band ceiling — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search for this req, (3) alternate posting search — no in-band variant found",
-    "where": "Infosys digitalcareers (employer own ATS)",
-    "time": "10:57 AM"
    }
   ],
   "Tallocate": [
@@ -8690,6 +8717,15 @@
     "reason": "not-remote — This is an onsite role based in Atlanta, GA / Dallas, TX /Chicago, IL — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
     "where": "GrabJobs / Capgemini",
     "time": "2:43 AM"
+   }
+  ],
+  "Infosys digitalcareers (employer own ATS)": [
+   {
+    "company": "Infosys",
+    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
+    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 — top $256,667 above $230,000 band ceiling — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search for this req, (3) alternate posting search — no in-band variant found",
+    "where": "Infosys digitalcareers (employer own ATS)",
+    "time": "10:57 AM"
    }
   ],
   "Remotive (StackAdapt mirror)": [
@@ -9164,15 +9200,6 @@
     "reason": "not-remote — This is a hybrid (virtual/onsite) position with required onsite days on Monday, Tuesday and Thursday assigned to One Energy Plaza located in Jackson, MI. workarounds tried: (1) employer's own Consumers Energy posting text via RoleWatcher mirror, (2) alternate routes Career.io/GrabJobs show same Jackson onsite/hybrid terms, (3) no alternate remote posting of this req found",
     "where": "RoleWatcher",
     "time": "6:21 AM"
-   }
-  ],
-  "Built In (New York Life posting)": [
-   {
-    "company": "New York Life",
-    "role": "Corporate Vice President - Domain Architect",
-    "reason": "not-remote — Location Designation: Hybrid - 3 days per week — workarounds tried: (1) employer's posting text via Built In mirrors (multiple regional Built In sites carry identical governing text); (2) alternate routes SonicJobs/Career.io for New York Life architect roles show the same Hybrid - 3 days per week designation; (3) no alternate fully-remote posting of this role found.",
-    "where": "Built In (New York Life posting)",
-    "time": "10:46 AM"
    }
   ],
   "Hershey careers (careers.thehersheycompany.com)": [
@@ -10042,6 +10069,15 @@
     "reason": "clearance — An active Top Secret federal security clearance is required",
     "where": "Greenhouse - Accenture Federal Services",
     "time": "2:46 PM"
+   }
+  ],
+  "Glassdoor (Wipro posting, Denver)": [
+   {
+    "company": "Wipro",
+    "role": "Technical Architect",
+    "reason": "pay-outside-band — The expected compensation for this role ranges from $80,000 to $158,000 . — workarounds tried: (1) employer's own posting text via Glassdoor mirror of Wipro posting, (2) alternate route via The Muse Wipro Technology Architect postings with same $80,000-$158,000 range, (3) no alternate posting with different pay found",
+    "where": "Glassdoor (Wipro posting, Denver)",
+    "time": "2:55 PM"
    }
   ]
  },
@@ -11221,5 +11257,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T20:53:51Z"
+ "lists_generated_at": "2026-11-17T20:56:27Z"
 }
