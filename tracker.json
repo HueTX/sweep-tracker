@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T03:51:16Z",
+ "generated_at": "2026-11-17T03:51:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
   "last_activity_at": "2026-11-17T03:50:43Z",
@@ -41,7 +41,14 @@
    "ADP Career Center": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -134,12 +141,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/44"
   },
   "W9": {
@@ -222,56 +229,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T03:51:24Z",
    "detail": "Employers 55/31"
   }
  },
@@ -544,13 +551,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:50 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:50 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -9166,5 +9179,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T03:51:16Z"
+ "lists_generated_at": "2026-11-17T03:51:24Z"
 }
