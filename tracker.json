@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T00:36:58Z",
+ "generated_at": "2026-11-17T00:38:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "b2a987f7",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T00:12:00Z",
-  "last_activity_at": "2026-11-17T00:32:10Z",
+  "last_activity_at": "2026-11-17T00:37:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 190,
+   "covered_units": 222,
    "total_units": 754,
-   "pct": 25
+   "pct": 29
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 46,
-  "rejected": 57,
-  "evaluated": 103
+  "rejected": 71,
+  "evaluated": 117
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 738,
+  "evaluated": 746,
   "filed": 1,
   "parked": 55,
-  "rejected": 682,
+  "rejected": 690,
   "filed_by_source": {
    "ADP Career Center": 1
   }
@@ -46,8 +46,9 @@
   "W7",
   "W1",
   "W2",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -69,19 +70,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Titles 46/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
    "phase": "searching",
-   "families_searched": 24,
+   "families_searched": 36,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
-   "detail": "Titles 24/58"
+   "heartbeat_at": "2026-11-17T00:38:37Z",
+   "detail": "Titles 36/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -91,7 +92,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -102,7 +103,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -119,34 +120,34 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
-   "detail": "Employers 5/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T00:36:58Z",
-   "detail": "Employers 5/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
-   "families_searched": 10,
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "queued",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 10,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Employers 5/44"
   },
   "W9": {
@@ -229,23 +230,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:38:37Z",
    "detail": "Employers 5/54"
   },
   "W18": {
@@ -290,7 +291,7 @@
    "ended_at": "2026-11-17T00:12:00Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-17T00:12:00Z",
    "ended_at": null
@@ -309,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "24 of 632 units done",
+   "detail": "28 of 632 units done",
    "started_at": "2026-11-17T00:12:00Z",
    "ended_at": null
   },
@@ -551,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:32 PM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:37 PM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 1 of 58 · Azure Architect",
@@ -2491,13 +2492,6 @@
     "time": "5:28 AM"
    },
    {
-    "company": "Elevance Health",
-    "role": "Cloud & AI Security Architect",
-    "reason": "not-remote — Location: This role requires associates to be in-office 1-2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. A stated required office schedule is not-remote under the remote rule; candidates must also reside within a commuting distance of an office. Posting dated 2026-11-02 on the employer's posting as mirrored on Built In (governing terms); no fully-remote alternate posting of this role was found.",
-    "where": "Employer sites",
-    "time": "4:57 AM"
-   },
-   {
     "company": "HCA Healthcare",
     "role": "Product Architect Big Data Google Cloud Platform",
     "reason": "gcp-first — Responsible for building and supporting a GCP based ecosystem designed for enterprise-wide analysis of structured, semi-structured, and unstructured data.",
@@ -3096,13 +3090,6 @@
     "company": "Discover Financial",
     "role": "Expert Enterprise Architect (Oracle Fusion Cloud)",
     "reason": "stale — 10+ years of technical and architecture experience, including 5+ years of experience with Oracle Fusion Cloud",
-    "where": "Employer sites",
-    "time": "12:03 PM"
-   },
-   {
-    "company": "Aon",
-    "role": "Principal Architect, Sales and Marketing Technologies",
-    "reason": "stale — Deep experience architecting enterprise Sales & Marketing technology ecosystems.",
     "where": "Employer sites",
     "time": "12:03 PM"
    },
@@ -4131,6 +4118,15 @@
     "time": "6:22 PM"
    }
   ],
+  "CVS Health careers": [
+   {
+    "company": "CVS Health / Aetna",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "CVS Health careers",
+    "time": "6:37 PM"
+   }
+  ],
   "jobs.exxonmobil.com": [
    {
     "company": "ExxonMobil",
@@ -4140,13 +4136,223 @@
     "time": "5:32 PM"
    }
   ],
-  "shecancode.io": [
+  "Google Jobs": [
    {
     "company": "Shell",
     "role": "Principal Enterprise Architect",
-    "reason": "not-remote — Shell in The United Kingdom",
-    "where": "shecancode.io",
-    "time": "5:32 PM"
+    "reason": "non-US — Shell in The United Kingdom",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Enterprise Solutions Architect",
+    "reason": "do-not-reapply — Enterprise Solutions Architect – Remote",
+    "where": "Google Jobs",
+    "time": "4:53 PM"
+   },
+   {
+    "company": "Experian",
+    "role": "Platform Architect, Remote",
+    "reason": "hands-on — 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms. Proficiency in Terraform and a understanding of modern software development practices. Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm. Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments - whole role is hands-on platform engineering/IaC and pipeline building under an architect title. Undated live posting: the employer's own detail page (jobs.experian.com, jid-1716) carries no posted date and no closed banner, so it was verdicted on the merits per the freshness law. Workarounds tried: employer's own ATS posting is the governing text read here; mirrors carry the same requirements.",
+    "where": "Google Jobs",
+    "time": "2:23 AM"
+   },
+   {
+    "company": "CDW",
+    "role": "Enterprise Strategist - Chief Architect - AI",
+    "reason": "pay-outside-band — Pay range: $168,000 - $240,000 depending on experience and skill set",
+    "where": "Google Jobs",
+    "time": "4:55 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Transformation Architect - Enterprise, Central",
+    "reason": "pay-outside-band — $175,875 — $251,250 USD",
+    "where": "Google Jobs",
+    "time": "4:54 PM"
+   },
+   {
+    "company": "Booz Allen Hamilton",
+    "role": "Digital Transformation Architect",
+    "reason": "clearance — Secret clearance is required.",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Sr Principal Cloud Architect",
+    "reason": "aws-first — GDIT's Emerge Labs is seeking a senior-level Cloud and Identity Engineer to architect, deploy, and support modern multi-cloud environments with a primary focus on AWS.",
+    "where": "Google Jobs",
+    "time": "1:51 AM"
+   },
+   {
+    "company": "Mutual of Omaha",
+    "role": "Business Architect III",
+    "reason": "stale — Business Architect III: $130,000 - $140,000, plus annual bonus opportunity. Published: 2026-11-06 - 10 days old at the 2026-11-16 search, outside the 7-day eligibility window (the published pay top $140,000 is also below the $160,000 band floor).",
+    "where": "Google Jobs",
+    "time": "2:23 AM"
+   },
+   {
+    "company": "Liatrio",
+    "role": "Enterprise Cloud Architect",
+    "reason": "hands-on-coding — Application development and testing with Go, Java, Javascript, .NET or Python",
+    "where": "Google Jobs",
+    "time": "4:53 PM"
+   },
+   {
+    "company": "Frontline Education",
+    "role": "Enterprise Data Architect",
+    "reason": "stale — As an Enterprise Data Architect within Platform Engineering, you will help define and evolve the architecture behind Frontline's enterprise Data Platform, AI capabilities, and reusable platform services. Published: 2026-11-02 - 14 days old at the 2026-11-16 search, outside the 7-day eligibility window, with no fresher surface activity.",
+    "where": "Google Jobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "Aon",
+    "role": "Principal Architect, Sales and Marketing Technologies",
+    "reason": "experience-mismatch — Are you a Technology Architect with deep experience architecting enterprise Sales and Marketing technology ecosystems?",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "Bold New Solutions - BNS Power",
+    "role": "Chief Architect Critical Infrastructure Solutions",
+    "reason": "experience-mismatch — Advanced knowledge of fiber and copper cabling, network equipment installation, and supporting power systems",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "Workday",
+    "role": "Enterprise Architect (Solutions Engineer), Identity",
+    "reason": "not-remote — spend at least half (50%) of our time each quarter in the office or in the field",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "StackAdapt",
+    "role": "Staff Infrastructure Engineer",
+    "reason": "hands-on — Strong background in infrastructure, platform, or cloud engineering, with experience owning or influencing infrastructure strategy and technical decisions. Deep understanding of AWS or comparable cloud environments, including infrastructure architecture, resource utilization, and cost drivers. - Engineer-level individual-contributor role (infrastructure cost optimization engineering), not an architect-level role. Workarounds tried: LandEarly and HiringCafe mirrors of the same posting carry the same engineer-level terms.",
+    "where": "Google Jobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Lead Director - Cloud & Platform Engineering",
+    "reason": "not-remote — This is a fully remote position, open to applicants in New York.",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "Akamai Technologies",
+    "role": "Principal Enterprise Architect - Remote",
+    "reason": "pay-outside-band — the base salary for this position ranges from $159,600 - $287,400/year",
+    "where": "Google Jobs",
+    "time": "4:54 PM"
+   },
+   {
+    "company": "Peraton",
+    "role": "Security Architect",
+    "reason": "experience-mismatch — One or more of the following relevant certifications: CISSP, CISM, CASP, CCISO, Security+, or CAP. Experience designing Zero Trust and identity-centric architectures, including FICAM-aligned identity, credential and access management. FedRAMP and AWS GovCloud or Azure Government experience - federal security-architecture core (required security certification, NIST/FedRAMP, threat modeling) does not align with the candidate's Azure/cloud enterprise architecture record. Workarounds tried: employer's own posting via Built In (governing text, Published: 2026-11-10); same requirements on Peraton mirrors.",
+    "where": "Google Jobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "CSAA Insurance Group",
+    "role": "Data Solutions Architect - Remote",
+    "reason": "stale — We are seeking an Enterprise Data Architect to lead the strategy and architecture for enterprise data, ontology, and AI platforms. This job posting will be unposted on Fri, 13 Nov 2026. Published: 2026-10-16 - typed date far outside the 7-day window and the posting window has now closed.",
+    "where": "Google Jobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "ASRC Federal",
+    "role": "Cloud Solutions Architect, Senior",
+    "reason": "hands-on-coding — 7 years software development experience. Capable of independently applying a wide set of engineering disciplines for planning, design, analysis, coding, testing, roll-out and support of information systems architectures.",
+    "where": "Google Jobs",
+    "time": "1:50 AM"
+   },
+   {
+    "company": "MetaRPO",
+    "role": "Principal Enterprise Data Architect, 100% Remote",
+    "reason": "experience-mismatch — Proven experience as a Data Architect, Information Architect, Data Scientist, Data Analyst, or similar data or architecture role. Demonstrated knowledge of healthcare payer business processes and information domains. - Core duties are enterprise data/information architecture (canonical models, master data, FHIR/HL7/X12 interoperability) for a healthcare payer; the candidate's record is Azure/cloud/enterprise infrastructure architecture with 0 healthcare-industry years - core mismatch. Workarounds tried: Dice is the finding route; the end client is unnamed in the posting, so no employer ATS posting exists to check; no alternate posting of the same role found.",
+    "where": "Google Jobs",
+    "time": "2:22 AM"
+   },
+   {
+    "company": "Blue Yonder",
+    "role": "Network Principal Technical Architect – Supply chain",
+    "reason": "hands-on-coding — Hands-on coding experience in Java and Microservices architecture",
+    "where": "Google Jobs",
+    "time": "2:48 AM"
+   },
+   {
+    "company": "Stryker",
+    "role": "Principal EDT Enterprise Architect",
+    "reason": "experience-mismatch — Experience with Salesforce.com, ServiceMax, SAP S4/Hana",
+    "where": "Google Jobs",
+    "time": "2:48 AM"
+   },
+   {
+    "company": "Stryker",
+    "role": "Architect, Cybersecurity, Identity Security",
+    "reason": "stale — Work Flexibility: Remote",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Digital Transformation Solution Architect (Remote)",
+    "reason": "pay-outside-band — The starting pay range for this remote role is $157,005-$363,438.00.",
+    "where": "Google Jobs",
+    "time": "4:54 PM"
+   },
+   {
+    "company": "Empower",
+    "role": "Enterprise Architect - Integration",
+    "reason": "non-US — Be aware of the location restriction for this remote position: India",
+    "where": "Google Jobs",
+    "time": "4:53 PM"
+   },
+   {
+    "company": "Tier One Technologies",
+    "role": "Principal Enterprise Security Architect (remote)",
+    "reason": "clearance-required — SELECTED CANDIDATES WITHOUT REQUIRED CLEARANCE WILL BE SUBJECT TO A FEDERAL GOVERNMENT BACKGROUND INVESTIGATION TO RECEIVE IT.",
+    "where": "Google Jobs",
+    "time": "4:53 PM"
+   },
+   {
+    "company": "AECOM",
+    "role": "Senior Architect (Licensed Building Architect), Data Centers - Remote (U.S.)",
+    "reason": "not-architect-level — Active U.S. Architectural license.",
+    "where": "Google Jobs",
+    "time": "4:54 PM"
+   },
+   {
+    "company": "Stryker",
+    "role": "Architect, Cybersecurity, Identity Security - Remote",
+    "reason": "experience-mismatch — Minimum 8 years of experience in cybersecurity or identity management.",
+    "where": "Google Jobs",
+    "time": "4:55 PM"
+   },
+   {
+    "company": "Legion",
+    "role": "Chief Architect",
+    "reason": "pay-outside-band — Salary Range: Base Salary Range $300,000- $385,000 + Bonus + Stock Equity.",
+    "where": "Google Jobs",
+    "time": "4:55 PM"
+   },
+   {
+    "company": "Healthesystems",
+    "role": "Cloud and AI Platform Architect",
+    "reason": "stale — The role is responsible for guiding cloud transformation, infrastructure optimization, resiliency and disaster recovery design, and AI enablement.",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "ComPsych",
+    "role": "Lead Cloud Infrastructure Engineer",
+    "reason": "hands-on — This is a hands-on Lead role, not an architect who hands off a diagram or a manager who runs a plan from a distance.",
+    "where": "Google Jobs",
+    "time": "6:37 PM"
    }
   ],
   "Built In": [
@@ -4240,6 +4446,13 @@
     "reason": "not-remote — Position is hybrid and will require to work 2 to 3 days per week site",
     "where": "Built In",
     "time": "12:53 PM"
+   },
+   {
+    "company": "Elevance Health",
+    "role": "Cloud & AI Security Architect",
+    "reason": "not-remote — This role requires associates to be in-office 1-2 days per week",
+    "where": "Built In",
+    "time": "6:37 PM"
    },
    {
     "company": "Salesforce",
@@ -4531,169 +4744,6 @@
     "reason": "hands-on — This hands-on role builds and operates secure, scalable infrastructure for AI and machine learning workloads across AWS and approved on-premises environments. | workarounds tried: employer's own AEP posting via Remotive mirror reviewed; Dice/BuiltIn AEP listings reviewed; no architect-level alternate posting of the same role found.",
     "where": "remotive.com",
     "time": "6:12 PM"
-   }
-  ],
-  "Google Jobs": [
-   {
-    "company": "Bright Vision Technologies",
-    "role": "Enterprise Solutions Architect",
-    "reason": "do-not-reapply — Enterprise Solutions Architect – Remote",
-    "where": "Google Jobs",
-    "time": "4:53 PM"
-   },
-   {
-    "company": "Experian",
-    "role": "Platform Architect, Remote",
-    "reason": "hands-on — 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms. Proficiency in Terraform and a understanding of modern software development practices. Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm. Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments - whole role is hands-on platform engineering/IaC and pipeline building under an architect title. Undated live posting: the employer's own detail page (jobs.experian.com, jid-1716) carries no posted date and no closed banner, so it was verdicted on the merits per the freshness law. Workarounds tried: employer's own ATS posting is the governing text read here; mirrors carry the same requirements.",
-    "where": "Google Jobs",
-    "time": "2:23 AM"
-   },
-   {
-    "company": "CDW",
-    "role": "Enterprise Strategist - Chief Architect - AI",
-    "reason": "pay-outside-band — Pay range: $168,000 - $240,000 depending on experience and skill set",
-    "where": "Google Jobs",
-    "time": "4:55 PM"
-   },
-   {
-    "company": "Zscaler",
-    "role": "Transformation Architect - Enterprise, Central",
-    "reason": "pay-outside-band — $175,875 — $251,250 USD",
-    "where": "Google Jobs",
-    "time": "4:54 PM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Sr Principal Cloud Architect",
-    "reason": "aws-first — GDIT's Emerge Labs is seeking a senior-level Cloud and Identity Engineer to architect, deploy, and support modern multi-cloud environments with a primary focus on AWS.",
-    "where": "Google Jobs",
-    "time": "1:51 AM"
-   },
-   {
-    "company": "Mutual of Omaha",
-    "role": "Business Architect III",
-    "reason": "stale — Business Architect III: $130,000 - $140,000, plus annual bonus opportunity. Published: 2026-11-06 - 10 days old at the 2026-11-16 search, outside the 7-day eligibility window (the published pay top $140,000 is also below the $160,000 band floor).",
-    "where": "Google Jobs",
-    "time": "2:23 AM"
-   },
-   {
-    "company": "Liatrio",
-    "role": "Enterprise Cloud Architect",
-    "reason": "hands-on-coding — Application development and testing with Go, Java, Javascript, .NET or Python",
-    "where": "Google Jobs",
-    "time": "4:53 PM"
-   },
-   {
-    "company": "Frontline Education",
-    "role": "Enterprise Data Architect",
-    "reason": "stale — As an Enterprise Data Architect within Platform Engineering, you will help define and evolve the architecture behind Frontline's enterprise Data Platform, AI capabilities, and reusable platform services. Published: 2026-11-02 - 14 days old at the 2026-11-16 search, outside the 7-day eligibility window, with no fresher surface activity.",
-    "where": "Google Jobs",
-    "time": "2:22 AM"
-   },
-   {
-    "company": "StackAdapt",
-    "role": "Staff Infrastructure Engineer",
-    "reason": "hands-on — Strong background in infrastructure, platform, or cloud engineering, with experience owning or influencing infrastructure strategy and technical decisions. Deep understanding of AWS or comparable cloud environments, including infrastructure architecture, resource utilization, and cost drivers. - Engineer-level individual-contributor role (infrastructure cost optimization engineering), not an architect-level role. Workarounds tried: LandEarly and HiringCafe mirrors of the same posting carry the same engineer-level terms.",
-    "where": "Google Jobs",
-    "time": "2:22 AM"
-   },
-   {
-    "company": "Akamai Technologies",
-    "role": "Principal Enterprise Architect - Remote",
-    "reason": "pay-outside-band — the base salary for this position ranges from $159,600 - $287,400/year",
-    "where": "Google Jobs",
-    "time": "4:54 PM"
-   },
-   {
-    "company": "Peraton",
-    "role": "Security Architect",
-    "reason": "experience-mismatch — One or more of the following relevant certifications: CISSP, CISM, CASP, CCISO, Security+, or CAP. Experience designing Zero Trust and identity-centric architectures, including FICAM-aligned identity, credential and access management. FedRAMP and AWS GovCloud or Azure Government experience - federal security-architecture core (required security certification, NIST/FedRAMP, threat modeling) does not align with the candidate's Azure/cloud enterprise architecture record. Workarounds tried: employer's own posting via Built In (governing text, Published: 2026-11-10); same requirements on Peraton mirrors.",
-    "where": "Google Jobs",
-    "time": "2:22 AM"
-   },
-   {
-    "company": "CSAA Insurance Group",
-    "role": "Data Solutions Architect - Remote",
-    "reason": "stale — We are seeking an Enterprise Data Architect to lead the strategy and architecture for enterprise data, ontology, and AI platforms. This job posting will be unposted on Fri, 13 Nov 2026. Published: 2026-10-16 - typed date far outside the 7-day window and the posting window has now closed.",
-    "where": "Google Jobs",
-    "time": "2:22 AM"
-   },
-   {
-    "company": "ASRC Federal",
-    "role": "Cloud Solutions Architect, Senior",
-    "reason": "hands-on-coding — 7 years software development experience. Capable of independently applying a wide set of engineering disciplines for planning, design, analysis, coding, testing, roll-out and support of information systems architectures.",
-    "where": "Google Jobs",
-    "time": "1:50 AM"
-   },
-   {
-    "company": "MetaRPO",
-    "role": "Principal Enterprise Data Architect, 100% Remote",
-    "reason": "experience-mismatch — Proven experience as a Data Architect, Information Architect, Data Scientist, Data Analyst, or similar data or architecture role. Demonstrated knowledge of healthcare payer business processes and information domains. - Core duties are enterprise data/information architecture (canonical models, master data, FHIR/HL7/X12 interoperability) for a healthcare payer; the candidate's record is Azure/cloud/enterprise infrastructure architecture with 0 healthcare-industry years - core mismatch. Workarounds tried: Dice is the finding route; the end client is unnamed in the posting, so no employer ATS posting exists to check; no alternate posting of the same role found.",
-    "where": "Google Jobs",
-    "time": "2:22 AM"
-   },
-   {
-    "company": "Blue Yonder",
-    "role": "Network Principal Technical Architect – Supply chain",
-    "reason": "hands-on-coding — Hands-on coding experience in Java and Microservices architecture",
-    "where": "Google Jobs",
-    "time": "2:48 AM"
-   },
-   {
-    "company": "Stryker",
-    "role": "Principal EDT Enterprise Architect",
-    "reason": "experience-mismatch — Experience with Salesforce.com, ServiceMax, SAP S4/Hana",
-    "where": "Google Jobs",
-    "time": "2:48 AM"
-   },
-   {
-    "company": "Stryker",
-    "role": "Architect, Cybersecurity, Identity Security",
-    "reason": "stale",
-    "where": "Google Jobs",
-    "time": "2:48 AM"
-   },
-   {
-    "company": "NTT DATA",
-    "role": "Digital Transformation Solution Architect (Remote)",
-    "reason": "pay-outside-band — The starting pay range for this remote role is $157,005-$363,438.00.",
-    "where": "Google Jobs",
-    "time": "4:54 PM"
-   },
-   {
-    "company": "Empower",
-    "role": "Enterprise Architect - Integration",
-    "reason": "non-US — Be aware of the location restriction for this remote position: India",
-    "where": "Google Jobs",
-    "time": "4:53 PM"
-   },
-   {
-    "company": "Tier One Technologies",
-    "role": "Principal Enterprise Security Architect (remote)",
-    "reason": "clearance-required — SELECTED CANDIDATES WITHOUT REQUIRED CLEARANCE WILL BE SUBJECT TO A FEDERAL GOVERNMENT BACKGROUND INVESTIGATION TO RECEIVE IT.",
-    "where": "Google Jobs",
-    "time": "4:53 PM"
-   },
-   {
-    "company": "AECOM",
-    "role": "Senior Architect (Licensed Building Architect), Data Centers - Remote (U.S.)",
-    "reason": "not-architect-level — Active U.S. Architectural license.",
-    "where": "Google Jobs",
-    "time": "4:54 PM"
-   },
-   {
-    "company": "Stryker",
-    "role": "Architect, Cybersecurity, Identity Security - Remote",
-    "reason": "experience-mismatch — Minimum 8 years of experience in cybersecurity or identity management.",
-    "where": "Google Jobs",
-    "time": "4:55 PM"
-   },
-   {
-    "company": "Legion",
-    "role": "Chief Architect",
-    "reason": "pay-outside-band — Salary Range: Base Salary Range $300,000- $385,000 + Bonus + Stock Equity.",
-    "where": "Google Jobs",
-    "time": "4:55 PM"
    }
   ],
   "W8": [
@@ -5248,6 +5298,13 @@
     "reason": "stale — #LI-Remote - This is a remote position; listing Published: 2025-07-31, outside the 7-day eligibility window",
     "where": "Built In Boston",
     "time": "4:46 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Principal Domain Solutions Architect",
+    "reason": "pay-outside-band — Pay Range: $146,000.00 - $269,600.00 per year",
+    "where": "Built In Boston",
+    "time": "6:37 PM"
    }
   ],
   "W18": [
@@ -6463,15 +6520,6 @@
     "time": "9:17 AM"
    }
   ],
-  "Remotery": [
-   {
-    "company": "CVS Health",
-    "role": "Lead Director - Cloud & Platform Engineering",
-    "reason": "not-remote — This is a fully remote position, open to applicants in New York. workarounds tried: CVS Health Careers via Remotery mirror; no US-wide alternate posting of same role found in search",
-    "where": "Remotery",
-    "time": "5:20 PM"
-   }
-  ],
   "Built In / GE Aerospace careers": [
    {
     "company": "GE Aerospace",
@@ -6515,13 +6563,13 @@
     "time": "6:22 PM"
    }
   ],
-  "careers.chevron.com": [
+  "Chevron careers": [
    {
     "company": "Chevron",
     "role": "Principal Solution Architect",
-    "reason": "not-remote — Houston, Texas Relocation will not be considered. workarounds tried: employer's own Chevron careers page (governing text, Houston location, no remote language); no remote alternate posting of R000075003 found",
-    "where": "careers.chevron.com",
-    "time": "5:22 PM"
+    "reason": "not-remote — Houston, Texas",
+    "where": "Chevron careers",
+    "time": "6:37 PM"
    }
   ],
   "careers.dominionenergy.com": [
@@ -6905,6 +6953,15 @@
     "reason": "pay-outside-band — $120k - $150k / year; Design, implement, and govern Hitachi Vantara's multi-cloud foundation across AWS and GCP",
     "where": "Web catch-all (Remote Rocketship / Hitachi careers)",
     "time": "6:22 PM"
+   }
+  ],
+  "UnitedHealth Group careers": [
+   {
+    "company": "UnitedHealth Group",
+    "role": "Program Architect - Remote",
+    "reason": "stale — The salary for this role will range from $112,700 - $193,200 annually based on full-time employment.",
+    "where": "UnitedHealth Group careers",
+    "time": "6:37 PM"
    }
   ]
  },
@@ -8091,5 +8148,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T00:36:58Z"
+ "lists_generated_at": "2026-11-17T00:38:37Z"
 }
