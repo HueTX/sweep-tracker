@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T20:33:28Z",
+ "generated_at": "2026-11-17T20:37:05Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T20:33:13Z",
+  "last_activity_at": "2026-11-17T20:34:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -43,8 +43,8 @@
   }
  },
  "searching_lanes": [
+  "W1",
   "W2",
-  "W6",
   "W16",
   "W17",
   "W18",
@@ -88,13 +88,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 160/30"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 165/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -104,8 +104,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/39"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -116,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 160/73"
+   "detail": "Employers 165/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,7 +127,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 160/32"
+   "detail": "Employers 165/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -138,18 +138,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 160/44"
+   "detail": "Employers 165/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/44"
+   "heartbeat_at": null,
+   "detail": "Employers 165/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,8 +236,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/59"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,8 +247,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/54"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,8 +258,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/45"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,8 +269,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/41"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,8 +280,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:33:28Z",
-   "detail": "Employers 155/31"
+   "heartbeat_at": "2026-11-17T20:37:05Z",
+   "detail": "Employers 160/31"
   }
  },
  "stages": {
@@ -311,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "365 of 632 units done",
+   "detail": "377 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -553,7 +553,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:33 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:34 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
@@ -4720,13 +4720,6 @@
     "time": "10:21 AM"
    },
    {
-    "company": "MetLife",
-    "role": "Principal Architect - AI Platform & Solutions",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. Workarounds tried: (1) MetLife careers posting referenced via BuiltIn JD, (2) alternate BuiltIn route, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "6:27 AM"
-   },
-   {
     "company": "Chubb",
     "role": "Senior Solution Architect",
     "reason": "hands-on — Hands-on experience with cloud platforms and integration technologies, including Azure, AWS, Kafka, MQ, Service Bus, and API mediation, plus coding proficiency in C#, Java, JavaScript, Angular, and/or Node.js | workarounds tried: (1) BuiltIn full JD, (2) Dice and Monster routes for same role showing same coding proficiency, (3) alternate Chubb architect postings show same hands-on coding pattern",
@@ -4879,13 +4872,6 @@
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own posting searched by requisition 2390520, (2) BuiltIn and Dice mirrors checked - same published range, (3) no alternate posting with a different range found",
     "where": "BuiltIn",
     "time": "12:16 PM"
-   },
-   {
-    "company": "Autodesk",
-    "role": "Senior Principal Cloud Architect",
-    "reason": "cloud-mismatch — Deep and extensive experience architecting, designing, and implementing solutions on Amazon Web Services (AWS) is essential; Familiarity with Microsoft Azure architecture and services is a plus. Workarounds tried: (1) Autodesk posting via BuiltIn JD, (2) alternate search routes, (3) no Azure-first alternate posting found",
-    "where": "BuiltIn",
-    "time": "6:29 AM"
    },
    {
     "company": "Eversource Energy",
@@ -6861,6 +6847,15 @@
     "time": "10:40 AM"
    }
   ],
+  "Built In (MetLife mirror)": [
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - AI Platform & Solutions",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers text via BuiltIn mirror checked, (2) alternate routes MetLife own careers site for other Principal Architect roles checked - also hybrid, (3) alternate posting of same role checked - no remote variant found.",
+    "where": "Built In (MetLife mirror)",
+    "time": "2:34 PM"
+   }
+  ],
   "BuiltIn (MetLife mirror)": [
    {
     "company": "MetLife",
@@ -7036,13 +7031,6 @@
     "reason": "experience-mismatch — accountable to gather requirement and map business process with the suitable design in SAP systems. workarounds tried: (1) employer's own jobs.organon.com search - no US architect posting in scope, (2) Expertini mirror full JD (this page), (3) no alternate posting found; core duties are SAP FI/CO consulting, India-based",
     "where": "Expertini",
     "time": "7:48 AM"
-   },
-   {
-    "company": "General Motors",
-    "role": "Staff Software Engineer – Cloud Architect",
-    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week. Workarounds tried: (1) GM careers JD via Expertini mirror, (2) JobzMall alternate route, (3) no alternate remote posting found",
-    "where": "Expertini",
-    "time": "6:28 AM"
    }
   ],
   "Monster (Alkermes mirror)": [
@@ -9306,6 +9294,15 @@
     "time": "2:30 AM"
    }
   ],
+  "Built In (Autodesk mirror)": [
+   {
+    "company": "Autodesk",
+    "role": "Senior Principal Cloud Architect",
+    "reason": "cloud-mismatch — You will be the go-to expert for our public cloud environments, with a primary focus on Amazon Web Services (AWS), significant involvement in Google Cloud Platform (GCP). Familiarity with Microsoft Azure architecture and services is a plus. workarounds tried: (1) Autodesk own careers text via BuiltIn mirror checked, (2) alternate routes WorkingNomads checked, (3) alternate posting of same role checked - AWS-first in all.",
+    "where": "Built In (Autodesk mirror)",
+    "time": "2:34 PM"
+   }
+  ],
   "USAJOBS / OPM": [
    {
     "company": "Office of Personnel Management (OPM)",
@@ -9547,6 +9544,15 @@
     "reason": "not-remote — Location : Dimondale, Michigan (Hybrid Onsite) workarounds tried: (1) employer/state portal listing via search, (2) alternate mirror jobs.nvoids.com for same req, (3) no alternate remote posting found",
     "where": "Michigan state portal search",
     "time": "6:27 AM"
+   }
+  ],
+  "Michigan Talent (GM mirror)": [
+   {
+    "company": "General Motors",
+    "role": "Staff Software Engineer – Cloud Architect",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week. workarounds tried: (1) GM careers text via Michigan Talent mirror checked, (2) alternate routes JobzMall checked, (3) alternate posting of same role checked - no remote variant found.",
+    "where": "Michigan Talent (GM mirror)",
+    "time": "2:34 PM"
    }
   ],
   "Jobright": [
@@ -11091,5 +11097,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T20:33:28Z"
+ "lists_generated_at": "2026-11-17T20:37:05Z"
 }
