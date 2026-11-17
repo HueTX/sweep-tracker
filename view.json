@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:10:18Z",
+ "generated_at": "2026-11-17T21:12:58Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:09:45Z",
+  "last_activity_at": "2026-11-17T21:12:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,22 +27,28 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 195,
-  "rejected": 928,
-  "evaluated": 1128
+  "parked": 194,
+  "rejected": 931,
+  "evaluated": 1129
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1128,
+  "evaluated": 1129,
   "filed": 2,
-  "parked": 195,
-  "rejected": 928,
+  "parked": 194,
+  "rejected": 931,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W5",
+  "W6",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -91,23 +97,23 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T21:12:58Z",
    "detail": "Employers 214/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T21:12:58Z",
    "detail": "Employers 215/73"
   },
   "W4": {
@@ -124,23 +130,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T21:12:58Z",
    "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T21:12:58Z",
    "detail": "Employers 215/44"
   },
   "W9": {
@@ -223,12 +229,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T21:12:58Z",
    "detail": "Employers 215/59"
   },
   "W17": {
@@ -545,13 +551,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:09 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 3:12 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1065,7 +1077,7 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
+  "candidates_open": 0,
   "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
