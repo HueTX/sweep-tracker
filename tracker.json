@@ -1,18 +1,18 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:00:45Z",
+ "generated_at": "2026-11-17T18:04:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
   "last_activity_at": "2026-11-17T18:00:45Z",
@@ -42,7 +42,12 @@
    "globallogic.com": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W8",
+  "W1",
+  "W2",
+  "W3"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -58,12 +63,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:04:35Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -80,34 +85,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:04:35Z",
    "detail": "Employers 0/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:04:35Z",
    "detail": "Employers 0/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:04:35Z",
    "detail": "Employers 0/73"
   },
   "W4": {
@@ -284,7 +289,7 @@
    "ended_at": "2026-11-17T18:00:45Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
@@ -302,13 +307,13 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 32 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
@@ -546,12 +551,18 @@
   "headline_state": "in-progress"
  },
  "note": "Started 12:00 PM CT · 0 filed",
- "pill": [],
+ "pill": [
+  {
+   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W1"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W1",
+  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -580,8 +591,8 @@
    "winner_disposition_id": 14984,
    "unit_id": 4787,
    "unit_created_at": "2026-11-17T18:00:45Z",
-   "attempts": 2,
-   "last_attempt_at": "2026-11-17T13:50:46Z"
+   "attempts": 3,
+   "last_attempt_at": "2026-11-17T18:04:08Z"
   },
   {
    "lead_id": 7094,
@@ -594,8 +605,8 @@
    "winner_disposition_id": 14601,
    "unit_id": 4786,
    "unit_created_at": "2026-11-17T18:00:45Z",
-   "attempts": 3,
-   "last_attempt_at": "2026-11-17T13:50:46Z"
+   "attempts": 4,
+   "last_attempt_at": "2026-11-17T18:04:21Z"
   },
   {
    "lead_id": 476,
@@ -1055,7 +1066,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 169,
+  "attempted_today": 171,
   "filed_today": 2
  },
  "date": "2026-11-17",
@@ -10195,5 +10206,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T18:00:45Z"
+ "lists_generated_at": "2026-11-17T18:04:35Z"
 }
