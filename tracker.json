@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T11:44:48Z",
+ "generated_at": "2026-11-17T11:46:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T11:44:31Z",
+  "last_activity_at": "2026-11-17T11:45:31Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 50,
-  "rejected": 119,
-  "evaluated": 170
+  "rejected": 122,
+  "evaluated": 173
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 537,
+  "evaluated": 540,
   "filed": 0,
   "parked": 98,
-  "rejected": 436,
+  "rejected": 439,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
   "W6",
+  "W16",
   "W18",
   "W19",
   "W20"
@@ -87,13 +87,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/30"
+   "heartbeat_at": null,
+   "detail": "Employers 85/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -103,8 +103,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/39"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,8 +114,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/73"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,8 +125,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/32"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,8 +136,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/44"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,8 +147,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 75/44"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,13 +230,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 75/59"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 80/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,7 +247,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 75/54"
+   "detail": "Employers 80/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -257,8 +257,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 70/45"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 75/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 70/41"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 75/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,8 +279,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:44:48Z",
-   "detail": "Employers 70/31"
+   "heartbeat_at": "2026-11-17T11:46:39Z",
+   "detail": "Employers 75/31"
   }
  },
  "stages": {
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "182 of 632 units done",
+   "detail": "194 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -552,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:44 AM CT · 10 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:45 AM CT · 10 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -4396,6 +4396,15 @@
     "time": "2:31 AM"
    }
   ],
+  "NY Attorney General vacancy announcement": [
+   {
+    "company": "New York State Attorney General",
+    "role": "Information Technology Architect 1 - Cloud Operations Lead",
+    "reason": "not-remote — Workplace flexibilities include multiple options for employees, including telecommuting (up to two days per week) | workarounds tried: (1) employer's own vacancy announcement PDF (Vacancy ID 225343) is the governing text and caps telework at two days per week with Latham location, (2) no alternate route changes the schedule, (3) no fully-remote alternate posting found; salary SG25 ($100,671-$126,875) also below band",
+    "where": "NY Attorney General vacancy announcement",
+    "time": "5:45 AM"
+   }
+  ],
   "Built In (NC DHHS mirror)": [
    {
     "company": "North Carolina Department of Health and Human Services",
@@ -5469,6 +5478,24 @@
     "reason": "not-remote — This role may be located only in Minnesota, Chicago or Kansas City | Compensation Range $127,500.00 - $295,900.00 | workarounds tried: (1) employer own route - C.H. Robinson requisition text reproduced in full on Built In, (2) alternate route - Teal mirror shows the same Minnesota/Chicago/Kansas City restriction, (3) alternate posting - no remote version found",
     "where": "Built In (C.H. Robinson mirror)",
     "time": "5:21 AM"
+   }
+  ],
+  "CareFirst posting mirror": [
+   {
+    "company": "CareFirst",
+    "role": "Lead Software Engineer",
+    "reason": "hands-on — Performs and leads the detail technical design, coding, code review and testing of new applications and enhancements of existing applications. | workarounds tried: (1) employer's own CareFirst posting text (mirrored in full) makes coding the core duty, (2) alternate TalentAlly route same Facets software-engineering core, (3) no architect-level alternate posting of this role found",
+    "where": "CareFirst posting mirror",
+    "time": "5:45 AM"
+   }
+  ],
+  "RVC / Clover Health": [
+   {
+    "company": "Clover Health",
+    "role": "Engineering Lead, Growth",
+    "reason": "pay-outside-band — A reasonable estimate of the base salary range for this role is: $223,100 — $290,000 USD",
+    "where": "RVC / Clover Health",
+    "time": "5:45 AM"
    }
   ]
  },
@@ -6645,5 +6672,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T11:44:48Z"
+ "lists_generated_at": "2026-11-17T11:46:39Z"
 }
