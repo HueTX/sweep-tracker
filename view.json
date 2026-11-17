@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T13:30:37Z",
+ "generated_at": "2026-11-17T13:32:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T11:00:15Z",
-  "last_activity_at": "2026-11-17T13:30:13Z",
+  "last_activity_at": "2026-11-17T13:32:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -26,26 +26,25 @@
   "families_total": 58
  },
  "counts": {
-  "filed": 0,
+  "filed": 1,
   "parked": 119,
-  "rejected": 340,
-  "evaluated": 461
+  "rejected": 344,
+  "evaluated": 465
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 746,
-  "filed": 0,
+  "evaluated": 748,
+  "filed": 1,
   "parked": 154,
-  "rejected": 588,
-  "filed_by_source": {}
+  "rejected": 590,
+  "filed_by_source": {
+   "globallogic.com": 1
+  }
  },
  "searching_lanes": [
   "W3",
-  "W6",
   "W16",
-  "W17",
-  "W18",
-  "W19"
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -111,8 +110,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 270/73"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 275/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -139,13 +138,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 260/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,8 +231,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/59"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 270/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,30 +242,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/54"
+   "heartbeat_at": "2026-11-17T13:32:28Z",
+   "detail": "Employers 270/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 265/45"
+   "heartbeat_at": null,
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T13:30:37Z",
-   "detail": "Employers 245/41"
+   "heartbeat_at": null,
+   "detail": "Employers 246/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,15 +306,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "561 of 632 units done",
+   "detail": "567 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "33 of 34 units done",
+   "state": "done",
+   "detail": "34 of 34 units done",
    "started_at": "2026-11-17T11:00:15Z",
-   "ended_at": null
+   "ended_at": "2026-11-17T13:32:04Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -549,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:30 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:32 AM CT · 6 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -620,20 +619,6 @@
    "unit_created_at": null,
    "attempts": 2,
    "last_attempt_at": "2026-11-17T11:02:55Z"
-  },
-  {
-   "lead_id": 7670,
-   "employer": "Hitachi",
-   "title": "Senior Cloud Architect (AWS ,Azure, GCP)",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Hitachi Careers (GlobalLogic)",
-   "winner_disposition_id": 14794,
-   "unit_id": 3443,
-   "unit_created_at": "2026-11-17T11:05:36Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-17T13:12:45Z"
   },
   {
    "lead_id": 476,
@@ -1094,6 +1079,6 @@
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 137,
-  "filed_today": 0
+  "filed_today": 1
  }
 }
