@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T08:31:11Z",
+ "generated_at": "2026-11-17T08:32:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T08:30:50Z",
+  "last_activity_at": "2026-11-17T08:32:21Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 70,
-  "rejected": 221,
-  "evaluated": 291
+  "parked": 71,
+  "rejected": 225,
+  "evaluated": 297
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 313,
+  "evaluated": 319,
   "filed": 0,
-  "parked": 60,
-  "rejected": 253,
+  "parked": 61,
+  "rejected": 257,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -84,68 +77,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/30"
+   "heartbeat_at": null,
+   "detail": "Employers 165/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/39"
+   "heartbeat_at": null,
+   "detail": "Employers 160/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/73"
+   "heartbeat_at": null,
+   "detail": "Employers 160/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/32"
+   "heartbeat_at": null,
+   "detail": "Employers 160/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/44"
+   "heartbeat_at": null,
+   "detail": "Employers 160/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T08:31:11Z",
-   "detail": "Employers 155/44"
+   "heartbeat_at": null,
+   "detail": "Employers 160/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,7 +226,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/59"
+   "detail": "Employers 160/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/54"
+   "detail": "Employers 160/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/45"
+   "detail": "Employers 160/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/41"
+   "detail": "Employers 160/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/31"
+   "detail": "Employers 160/31"
   }
  },
  "stages": {
@@ -307,13 +300,13 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "361 of 632 units done",
+   "detail": "373 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "active",
-   "detail": "29 of 31 units done",
+   "detail": "29 of 32 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:30 AM CT · 8 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W1 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W1"
-  }
- ],
+ "note": "Last activity 2:32 AM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -579,6 +566,20 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "filer_queue": [
+  {
+   "lead_id": 7094,
+   "employer": "Blue Cross Blue Shield of North Carolina",
+   "title": "Principal Business Architect",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "Blue Cross NC careers (Workday)",
+   "winner_disposition_id": 14601,
+   "unit_id": 2771,
+   "unit_created_at": "2026-11-17T08:31:17Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-17T08:31:29Z"
+  },
   {
    "lead_id": 476,
    "employer": "Intermountain Health",
@@ -1064,8 +1065,8 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.66,
-  "attempted_today": 94,
+  "pass_oldest_age_hours": 0.69,
+  "attempted_today": 95,
   "filed_today": 0
  },
  "date": "2026-11-17",
@@ -1367,6 +1368,15 @@
     "time": "2:21 AM"
    }
   ],
+  "Career.io": [
+   {
+    "company": "Tenet Healthcare",
+    "role": "Active Directory Architect",
+    "reason": "title-not-covered — Tenet Healthcare is seeking an experienced Active Directory Architect responsible for designing, implementing and maintaining Tenet's AD infrastructure",
+    "where": "Career.io",
+    "time": "2:31 AM"
+   }
+  ],
   "DiversityJobs": [
    {
     "company": "Zoetis",
@@ -1487,15 +1497,6 @@
     "time": "1:15 AM"
    }
   ],
-  "Blue Cross NC Workday (employer own ATS, attempted)": [
-   {
-    "company": "Blue Cross Blue Shield of North Carolina",
-    "role": "Principal Business Architect",
-    "reason": "not-evaluated — All our career opportunities are published on https://bcbsnc.wd5.myworkdayjobs.com/en-US/BCBSNC. Verify attempt: employer Workday search page loads JS-only (no readable posting text) and no direct Workday URL for this req is indexed; mirrors were read at discover stage only, so the employer's own posting page could not be opened or read for a definitive verdict.",
-    "where": "Blue Cross NC Workday (employer own ATS, attempted)",
-    "time": "2:27 AM"
-   }
-  ],
   "RemoteRocketship / Memorial Hermann careers page": [
    {
     "company": "Memorial Hermann",
@@ -1566,6 +1567,15 @@
     "reason": "title-not-covered — drive strategic cloud initiatives, be responsible for adoption of our cloud platforms, drive cloud financials (FinOps), and enhance overall cloud engagement with platform consumers. This role requires a deep understanding of multi-cloud environments (AWS, Azure, GCP)",
     "where": "SmartRecruiters (McDonald's own ATS)",
     "time": "2:22 AM"
+   }
+  ],
+  "PACCAR Jobs": [
+   {
+    "company": "PACCAR",
+    "role": "Data Architect",
+    "reason": "title-not-covered — The Technical Fellow, Enterprise Data Architecture is PACCAR's highest level individual contributor within the data and analytics discipline.",
+    "where": "PACCAR Jobs",
+    "time": "2:32 AM"
    }
   ]
  },
@@ -2010,6 +2020,36 @@
     "reason": "stale — The Program Architect provides strategic guidance to program and product leadership on adoption of best practices in the areas of technology integration, cloud computing, process improvement, technology innovation and implementation. workarounds tried: (1) employer's own careers page opened directly — Published: 2026-10-27, outside the 7-day eligibility window; (2) alternate routes show the same Oct 27 posting; (3) no refreshed/reposted version found",
     "where": "careers.unitedhealthgroup.com",
     "time": "12:50 AM"
+   }
+  ],
+  "BuiltIn": [
+   {
+    "company": "Sentara Health Plans",
+    "role": "ServiceNow Principal Domain Architect - Remote",
+    "reason": "experience-mismatch — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required). workarounds tried: (1) BuiltIn full JD for Sentara's own posting, (2) DailyRemote/GrabJobs alternate routes - same ServiceNow requirement, (3) no alternate posting with different core duties",
+    "where": "BuiltIn",
+    "time": "2:31 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - Finance Modernization & ERP Transformation",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers listing in search results, (2) BuiltIn mirror - both hybrid, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "2:30 AM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - AI Platform & Solutions",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers search, (2) BuiltIn mirror - both hybrid, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "2:30 AM"
+   },
+   {
+    "company": "Autodesk",
+    "role": "Senior Principal Cloud Architect",
+    "reason": "cloud-mismatch — primary focus on Amazon Web Services (AWS), significant involvement in Google Cloud Platform (GCP). Deep and extensive experience architecting, designing, and implementing solutions on Amazon Web Services (AWS) is essential. Familiarity with Microsoft Azure architecture and services is a plus. workarounds tried: (1) BuiltIn full JD, (2) web search alternate routes - same AWS-first req 25WD88046, (3) no Azure alternate posting",
+    "where": "BuiltIn",
+    "time": "2:32 AM"
    }
   ],
   "SheCanCode (mirror of Shell posting)": [
@@ -2675,22 +2715,6 @@
     "time": "2:30 AM"
    }
   ],
-  "BuiltIn": [
-   {
-    "company": "MetLife",
-    "role": "Principal Architect - Finance Modernization & ERP Transformation",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers listing in search results, (2) BuiltIn mirror - both hybrid, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "2:30 AM"
-   },
-   {
-    "company": "MetLife",
-    "role": "Principal Architect - AI Platform & Solutions",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers search, (2) BuiltIn mirror - both hybrid, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "2:30 AM"
-   }
-  ],
   "Teradata careers (employer page)": [
    {
     "company": "Teradata",
@@ -3057,6 +3081,15 @@
     "reason": "closed — Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually",
     "where": "Built In / Maricopa County",
     "time": "1:55 AM"
+   }
+  ],
+  "Nvoids / State of Michigan": [
+   {
+    "company": "Michigan state portal",
+    "role": "Cloud Architect",
+    "reason": "not-remote — Position location: Lansing, MI. Resource will be working a hybrid schedule. NO REMOTE ONLY OPTION. Will need to be onsite from day 1, two days a week. workarounds tried: (1) State of Michigan DTMB/CEPI posting via vendor mirror with full JD, (2) alternate vendor routes for same req 139342 - same hybrid text, (3) repost 140999 - same",
+    "where": "Nvoids / State of Michigan",
+    "time": "2:31 AM"
    }
   ],
   "Built In (NC DHHS mirror)": [
@@ -3657,6 +3690,15 @@
     "reason": "experience-mismatch — Must have skills : SAP BTP Application Development. workarounds tried: (1) Accenture's own careers page (governing text, opened, US-en version of same req is Hyderabad-based in in-en version), (2) Simplify mirror - same SAP BTP core, (3) no alternate Azure posting for this req",
     "where": "Accenture Careers",
     "time": "2:30 AM"
+   }
+  ],
+  "USAJOBS / OPM": [
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "Enterprise Architect, Products and Applications",
+    "reason": "not-remote — You will be required to report to an OPM assigned office. This announcement is open to current Career or Career-Conditional OPM employees. workarounds tried: (1) OPM's own USAJOBS announcement (governing text, opened via search), (2) no alternate public/remote route for this announcement, (3) no alternate posting",
+    "where": "USAJOBS / OPM",
+    "time": "2:32 AM"
    }
   ]
  },
@@ -4837,5 +4879,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T08:31:11Z"
+ "lists_generated_at": "2026-11-17T08:32:28Z"
 }
