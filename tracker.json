@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T04:48:09Z",
+ "generated_at": "2026-11-17T04:49:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T04:46:33Z",
+  "last_activity_at": "2026-11-17T04:48:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 69,
-  "rejected": 386,
-  "evaluated": 456
+  "rejected": 390,
+  "evaluated": 460
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 1053,
+  "evaluated": 1055,
   "filed": 2,
   "parked": 70,
-  "rejected": 981,
+  "rejected": 983,
   "filed_by_source": {
    "ADP Career Center": 1,
    "Inceed (jobs.inceed.com)": 1
   }
  },
- "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -93,7 +86,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 140/30"
+   "detail": "Employers 145/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -104,7 +97,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 140/39"
+   "detail": "Employers 145/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -115,40 +108,40 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 140/73"
+   "detail": "Employers 145/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/32"
+   "heartbeat_at": null,
+   "detail": "Employers 145/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/44"
+   "heartbeat_at": null,
+   "detail": "Employers 145/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/44"
+   "heartbeat_at": null,
+   "detail": "Employers 145/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,35 +223,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/59"
+   "heartbeat_at": null,
+   "detail": "Employers 145/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/54"
+   "heartbeat_at": null,
+   "detail": "Employers 145/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:48:09Z",
-   "detail": "Employers 135/45"
+   "heartbeat_at": null,
+   "detail": "Employers 145/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/41"
+   "detail": "Employers 145/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,7 +273,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/31"
+   "detail": "Employers 140/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "320 of 632 units done",
+   "detail": "338 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:46 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 10:48 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2286,13 +2273,6 @@
     "time": "8:36 AM"
    },
    {
-    "company": "Coca-Cola",
-    "role": "Director, Cloud Software Architect",
-    "reason": "closed — Job Posting End Date: November 13, 2026",
-    "where": "Employer sites",
-    "time": "8:36 AM"
-   },
-   {
     "company": "Blue Cross Blue Shield of North Carolina",
     "role": "Sr Business Architect",
     "reason": "pay-outside-band — Salary Range $84,000.00-$152,200.00 - top $152,200 is below the $160,000 band floor. Workarounds tried: DiversityJobs carries Blue Cross NC's syndicated posting; no alternate posting in band found.",
@@ -3318,13 +3298,6 @@
     "company": "T. Rowe Price",
     "role": "Lead Enterprise Cloud Architect",
     "reason": "closed — This position is no longer open. (employer's own gr8people posting page, Requisition Number 74611, Baltimore, Maryland US)",
-    "where": "Employer sites",
-    "time": "11:21 AM"
-   },
-   {
-    "company": "Databricks",
-    "role": "Applied AI Architect",
-    "reason": "experience-mismatch — 6+ years in solutions architecture, technical pre-sales, or a senior hands-on technical role in the following areas: ML Engineering: Building and maintaining cloud infrastructure (AWS, Azure, or GCP) supporting production ML applications and drift monitoring; AI Engineering: Working with LLMs and agentic systems. Core ML/AI engineering specialization does not align with his Azure/enterprise architecture experience. Workarounds tried: full JD read on the listing page; no alternate posting of this req changes its core duties.",
     "where": "Employer sites",
     "time": "11:21 AM"
    },
@@ -7461,6 +7434,15 @@
     "time": "10:39 PM"
    }
   ],
+  "Built In / Coca-Cola": [
+   {
+    "company": "Coca-Cola",
+    "role": "Director, Cloud Software Architect",
+    "reason": "closed — Job Posting End Date: November 13, 2026",
+    "where": "Built In / Coca-Cola",
+    "time": "10:48 PM"
+   }
+  ],
   "CareerBuilder / Built In NYC (BlackRock)": [
    {
     "company": "BlackRock",
@@ -8408,6 +8390,15 @@
     "time": "10:00 PM"
    }
   ],
+  "Jobspresso / Databricks": [
+   {
+    "company": "Databricks",
+    "role": "Applied AI Architect",
+    "reason": "experience-mismatch — ML Engineering: Building and maintaining cloud infrastructure (AWS, Azure, or GCP) supporting production ML applications and drift monitoring",
+    "where": "Jobspresso / Databricks",
+    "time": "10:48 PM"
+   }
+  ],
   "ITDiversityCareers": [
    {
     "company": "Baylor Scott & White Health",
@@ -9213,6 +9204,24 @@
     "reason": "not-architect-level — You will be a hands-on, technical people manager responsible for leading teams of engineers who are charged with the effective and efficient delivery of cloud platforms to meet business needs.",
     "where": "Simplify (Federal Reserve System careers)",
     "time": "10:46 PM"
+   }
+  ],
+  "RoleWatcher / Consumers Energy": [
+   {
+    "company": "CMS Energy",
+    "role": "Prin Enterprise Architect (Cloud)",
+    "reason": "not-remote — This is a hybrid (virtual/onsite) position with required onsite days on Monday, Tuesday and Thursday assigned to One Energy Plaza located in Jackson, MI.",
+    "where": "RoleWatcher / Consumers Energy",
+    "time": "10:48 PM"
+   }
+  ],
+  "Jobicy / Databricks": [
+   {
+    "company": "Databricks",
+    "role": "Lead Solutions Architect – Generative AI (EMEA Emerging DNB)",
+    "reason": "not-remote — The role is UK-based and supports customers across EMEA time zones.",
+    "where": "Jobicy / Databricks",
+    "time": "10:48 PM"
    }
   ]
  },
@@ -10393,5 +10402,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T04:48:09Z"
+ "lists_generated_at": "2026-11-17T04:49:44Z"
 }
