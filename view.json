@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:51:42Z",
+ "generated_at": "2026-11-17T21:53:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:51:32Z",
+  "last_activity_at": "2026-11-17T21:52:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 203,
-  "rejected": 962,
+  "parked": 202,
+  "rejected": 963,
   "evaluated": 1169
  },
  "today": {
   "date": "2026-11-17",
   "evaluated": 1169,
   "filed": 2,
-  "parked": 203,
-  "rejected": 962,
+  "parked": 202,
+  "rejected": 963,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -104,13 +102,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:51:42Z",
-   "detail": "Employers 375/73"
+   "heartbeat_at": null,
+   "detail": "Employers 405/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -305,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "617 of 632 units done",
+   "detail": "623 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -547,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:51 PM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 3:52 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
