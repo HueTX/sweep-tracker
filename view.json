@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T03:45:06Z",
+ "generated_at": "2026-11-17T03:46:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T03:42:30Z",
+  "last_activity_at": "2026-11-17T03:46:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,20 @@
  "counts": {
   "filed": 0,
   "parked": 63,
-  "rejected": 128,
-  "evaluated": 191
+  "rejected": 143,
+  "evaluated": 206
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 881,
+  "evaluated": 887,
   "filed": 1,
   "parked": 65,
-  "rejected": 815,
+  "rejected": 821,
   "filed_by_source": {
    "ADP Career Center": 1
   }
  },
- "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -119,35 +112,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/32"
+   "heartbeat_at": null,
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/44"
+   "heartbeat_at": null,
+   "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/44"
+   "heartbeat_at": null,
+   "detail": "Employers 45/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,35 +222,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/59"
+   "heartbeat_at": null,
+   "detail": "Employers 45/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/54"
+   "heartbeat_at": null,
+   "detail": "Employers 45/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T03:45:06Z",
-   "detail": "Employers 40/45"
+   "heartbeat_at": null,
+   "detail": "Employers 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -309,7 +302,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "111 of 632 units done",
+   "detail": "117 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -551,19 +544,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:42 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 9:46 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
