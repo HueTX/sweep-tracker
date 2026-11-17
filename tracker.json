@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T04:57:56Z",
+ "generated_at": "2026-11-17T04:59:32Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T04:57:08Z",
+  "last_activity_at": "2026-11-17T04:59:21Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 68,
-  "rejected": 407,
-  "evaluated": 476
+  "rejected": 415,
+  "evaluated": 484
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 1067,
+  "evaluated": 1071,
   "filed": 2,
   "parked": 69,
-  "rejected": 996,
+  "rejected": 1000,
   "filed_by_source": {
    "ADP Career Center": 1,
    "Inceed (jobs.inceed.com)": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -93,62 +86,62 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 160/30"
+   "detail": "Employers 165/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/39"
+   "heartbeat_at": null,
+   "detail": "Employers 165/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/73"
+   "heartbeat_at": null,
+   "detail": "Employers 160/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/32"
+   "heartbeat_at": null,
+   "detail": "Employers 160/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/44"
+   "heartbeat_at": null,
+   "detail": "Employers 160/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/44"
+   "heartbeat_at": null,
+   "detail": "Employers 160/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:57:56Z",
-   "detail": "Employers 155/59"
+   "heartbeat_at": null,
+   "detail": "Employers 160/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/54"
+   "detail": "Employers 160/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/45"
+   "detail": "Employers 160/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/41"
+   "detail": "Employers 160/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,7 +273,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/31"
+   "detail": "Employers 160/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "362 of 632 units done",
+   "detail": "374 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:57 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 10:59 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2039,13 +2026,6 @@
     "time": "11:21 AM"
    },
    {
-    "company": "Mondelez International",
-    "role": "EOP Global Solution Architect",
-    "reason": "stale",
-    "where": "Employer sites",
-    "time": "8:37 AM"
-   },
-   {
     "company": "MetLife",
     "role": "Principal Architect - Finance Modernization & ERP Transformation",
     "reason": "not-remote — Hybrid Hybrid role requiring at least 3 days per week in the Tampa office.",
@@ -2284,13 +2264,6 @@
     "time": "5:25 AM"
    },
    {
-    "company": "Sentara Health Plans",
-    "role": "PRINCIPAL ENTERPRISE ARCHITECT - Clinical Systems",
-    "reason": "pay-outside-band — Published: 2026-09-27 - also outside the 7-day window. 'The base pay range for full-time employment is $160,513.60 - $238,409.60 annually.' Top $238,409.60 exceeds the $230,000 band ceiling. Role also requires clinical-systems application experience: 'Experience in Patient care, Clinical Support, Pharmacy and Revenue cycle management applications is required (e.g., Epic, PACS, Waystar etc.)' Workarounds tried: Sentara's own careers syndication carries the same range; no alternate posting in band found.",
-    "where": "Employer sites",
-    "time": "5:25 AM"
-   },
-   {
     "company": "NetApp",
     "role": "Senior Solutions Architect - AI, HPC, & Lustre",
     "reason": "pay-outside-band — The target salary range for this position is 197,200 - 255,200 USD.",
@@ -2317,13 +2290,6 @@
     "reason": "not-remote — This position is hybrid and requires your on-site presence on a reoccurring weekly basis 3 days per week.",
     "where": "Employer sites",
     "time": "12:01 PM"
-   },
-   {
-    "company": "Ford Motor Company",
-    "role": "Salesforce Application Architect",
-    "reason": "stale",
-    "where": "Employer sites",
-    "time": "8:37 AM"
    },
    {
     "company": "Office of Personnel Management (OPM)",
@@ -2406,13 +2372,6 @@
     "company": "Highmark",
     "role": "Architect",
     "reason": "stale — Built In NYC published 2026-11-02 - outside the 7-day window (opens 2026-11-09). The posting is also 'Position Type: Office-based' with pay $86,400-$138,600, whose top is below the $160,000 band floor. Workarounds tried: Built In carries Highmark/enGen's syndicated posting; no fresher alternate posting found.",
-    "where": "Employer sites",
-    "time": "5:28 AM"
-   },
-   {
-    "company": "CSX",
-    "role": "Systems Architect II (Azure Cloud Infrastructure, IaC, Networking & Security)",
-    "reason": "not-remote — AiApply listing for Jacksonville, FL shows the role as 'On Site'. The role title itself is IaC-centered: 'Systems Architect II (Azure Cloud Infrastructure, IaC, Networking & Security)'. Workarounds tried: AiApply is CSX's syndicated posting; no fully-remote alternate posting of the same role found.",
     "where": "Employer sites",
     "time": "5:28 AM"
    },
@@ -5889,6 +5848,15 @@
     "time": "9:55 PM"
    }
   ],
+  "AnitaB.org / Prudential Financial": [
+   {
+    "company": "Prudential Financial",
+    "role": "Lead, Software Engineer Data Solution Architect (AWS)",
+    "reason": "not-remote — This position is hybrid and requires your on-site presence on a reoccurring weekly basis at least 3 days per week. This role is based in our office in Newark, NJ. workarounds tried: employer's own posting via AnitaB board, alternate route - same hybrid terms",
+    "where": "AnitaB.org / Prudential Financial",
+    "time": "10:58 PM"
+   }
+  ],
   "DiversityJobs": [
    {
     "company": "NYU Langone Health",
@@ -6887,6 +6855,24 @@
     "time": "10:57 PM"
    }
   ],
+  "Career.io / Mondelez International": [
+   {
+    "company": "Mondelez International",
+    "role": "EOP Global Solution Architect",
+    "reason": "not-remote — EOP Global Solution Architect in Mumbai, MH, IN. You will serve as the Solution Architect for the o9 EOP platform, owning the end-to-end technical architecture, security framework, and integration landscape. workarounds tried: employer's own posting via Career.io and Simplify, alternate route - same Mumbai location",
+    "where": "Career.io / Mondelez International",
+    "time": "10:59 PM"
+   }
+  ],
+  "Career.io / Tenet Healthcare": [
+   {
+    "company": "Tenet Healthcare",
+    "role": "Integration Architect",
+    "reason": "experience-mismatch — Minimum 2 years of experience in implementation, deployment, or technical customer support with Oracle Cerner Millennium. Proficient in Core Cerner Millennium modules: Revenue Cycle, Midcycle, Coding, Interoperability, and Integration. workarounds tried: employer's own posting via Career.io, alternate route - same Cerner requirement",
+    "where": "Career.io / Tenet Healthcare",
+    "time": "10:58 PM"
+   }
+  ],
   "Built In / MetLife": [
    {
     "company": "MetLife",
@@ -7518,6 +7504,24 @@
     "time": "10:45 PM"
    }
   ],
+  "Jobgether / Sentara Healthcare": [
+   {
+    "company": "Sentara Health Plans",
+    "role": "PRINCIPAL ENTERPRISE ARCHITECT - Clinical Systems",
+    "reason": "experience-mismatch — With a primary focus on Clinical Systems, and supporting other enterprise initiatives as capacity allows, the Principal Enterprise Architect collaborates across application, domain, solution, infrastructure, and security architecture teams. Preferred AWS/Azure/Google Professional Architect, Certified Health Data Analyst (CHDA). workarounds tried: employer's own posting via Jobgether, alternate route - same clinical-systems focus",
+    "where": "Jobgether / Sentara Healthcare",
+    "time": "10:58 PM"
+   }
+  ],
+  "Ford careers (employer ATS)": [
+   {
+    "company": "Ford Motor Company",
+    "role": "Salesforce Application Architect",
+    "reason": "experience-mismatch — 3 years of experience with each of the following skills is required: 1. Utilizing Salesforce configurations and customizations. 2. Implementing Salesforce Data Cloud for personalizations, dynamic segmentations, campaign automations. workarounds tried: employer's own careers.ford.com posting (governing text)",
+    "where": "Ford careers (employer ATS)",
+    "time": "10:59 PM"
+   }
+  ],
   "Utah state portal": [
    {
     "company": "State of Utah",
@@ -7539,6 +7543,15 @@
     "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only)",
     "where": "Utah state portal",
     "time": "6:04 AM"
+   }
+  ],
+  "AiApply / CSX Transportation": [
+   {
+    "company": "CSX",
+    "role": "Systems Architect II (Azure Cloud Infrastructure, IaC, Networking & Security)",
+    "reason": "not-remote — Jacksonville, Florida, United States. Full Time, On Site, Senior. The role involves designing, deploying, and securing scalable cloud architectures across multiple cloud platforms. workarounds tried: employer's own posting via AiApply, alternate route - same on-site Jacksonville terms",
+    "where": "AiApply / CSX Transportation",
+    "time": "10:59 PM"
    }
   ],
   "FedEx Careers": [
@@ -8292,6 +8305,15 @@
     "reason": "not-remote — This role requires working from a U.S. Bank location three (3) or more days per week",
     "where": "Built In (U.S. Bank)",
     "time": "7:21 PM"
+   }
+  ],
+  "Career.io / NetApp": [
+   {
+    "company": "NetApp",
+    "role": "Cloud Solutions Architect",
+    "reason": "pay-outside-band — The target salary range for this position is 205,700 - 266,200 USD. We are seeking a talented and driven Cloud Solutions Architect to join our remote AWS Cloud Solutions Architect (CSA) team. workarounds tried: employer's own posting via Career.io, alternate route - same pay range",
+    "where": "Career.io / NetApp",
+    "time": "10:59 PM"
    }
   ],
   "USAJOBS (cms.usajobs.gov)": [
@@ -9329,6 +9351,15 @@
     "reason": "experience-mismatch — Active Red Hat Certified Specialist in Ansible Automation or Red Hat Certified Architect (RHCA). You will work remotely and on-site to design, deliver, and operationalize resilient, secure, and reusable automation solutions. workarounds tried: employer's own listing via FlexJobs, alternate route - same Ansible specialist requirement",
     "where": "FlexJobs / Red Hat",
     "time": "10:57 PM"
+   }
+  ],
+  "Michigan Talent / Ford Motor Company": [
+   {
+    "company": "Ford Motor Company",
+    "role": "GCP Cloud Engineer/Architect",
+    "reason": "hands-on-coding — Hands-on experience with application development experience leveraging technologies such as Java, Springboot, Python, etc. 5+ Experience working with cloud native GCP and hybrid cloud environments. This position is hybrid. workarounds tried: employer's own posting via Michigan Talent mirror, alternate route - same GCP-first hands-on terms",
+    "where": "Michigan Talent / Ford Motor Company",
+    "time": "10:59 PM"
    }
   ]
  },
@@ -10509,5 +10540,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T04:57:56Z"
+ "lists_generated_at": "2026-11-17T04:59:32Z"
 }
