@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T00:40:27Z",
+ "generated_at": "2026-11-17T00:42:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "b2a987f7",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T00:12:00Z",
-  "last_activity_at": "2026-11-17T00:39:45Z",
+  "last_activity_at": "2026-11-17T00:41:10Z",
   "progress": {
    "pools": 21,
-   "covered_units": 264,
+   "covered_units": 294,
    "total_units": 754,
-   "pct": 35
+   "pct": 39
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,26 +28,31 @@
  "counts": {
   "filed": 0,
   "parked": 46,
-  "rejected": 80,
-  "evaluated": 126
+  "rejected": 86,
+  "evaluated": 132
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 751,
+  "evaluated": 756,
   "filed": 1,
   "parked": 54,
-  "rejected": 696,
+  "rejected": 701,
   "filed_by_source": {
    "ADP Career Center": 1
   }
  },
  "searching_lanes": [
   "W8",
-  "W7",
   "W1",
   "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17",
   "W18",
-  "W19"
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -69,19 +74,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Titles 46/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
-   "families_searched": 48,
+   "phase": "done",
+   "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
-   "detail": "Titles 48/58"
+   "heartbeat_at": null,
+   "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
@@ -91,7 +96,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -102,51 +107,51 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/44"
   },
   "W9": {
@@ -229,56 +234,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 10/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
    "phase": "searching",
-   "families_searched": 10,
+   "families_searched": 20,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
-   "detail": "Employers 5/45"
+   "heartbeat_at": "2026-11-17T00:42:44Z",
+   "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
+   "phase": "queued",
+   "families_searched": 20,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
    "phase": "searching",
    "families_searched": 10,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T00:40:27Z",
-   "detail": "Employers 5/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
-   "phase": "queued",
-   "families_searched": 10,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T00:42:44Z",
    "detail": "Employers 5/31"
   }
  },
@@ -309,7 +314,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "33 of 632 units done",
+   "detail": "37 of 632 units done",
    "started_at": "2026-11-17T00:12:00Z",
    "ended_at": null
   },
@@ -551,7 +556,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:39 PM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:41 PM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 1 of 58 · Azure Architect",
@@ -3952,6 +3957,13 @@
     "reason": "not-remote — This role is not eligible for 100% remote work. Employees must live within a commutable distance of a Slalom Office and must be willing to be onsite at the client and/or Slalom office when needed up to 3 days a week.",
     "where": "Monster",
     "time": "11:12 AM"
+   },
+   {
+    "company": "The Home Depot",
+    "role": "Senior Principal Software Engineer - Generative AI & Mobile Platforms (Remote)",
+    "reason": "pay-outside-band — The pay range for this position is between $170,000.00 - $280,000.00",
+    "where": "Monster",
+    "time": "6:41 PM"
    }
   ],
   "DailyRemote": [
@@ -4149,11 +4161,32 @@
     "time": "2:23 AM"
    },
    {
+    "company": "Everest Global Services, Inc.",
+    "role": "Chief Enterprise Architect",
+    "reason": "not-remote — This is a hybrid role based in the Warren, NJ office (3 days in office/2 days remote).",
+    "where": "Google Jobs",
+    "time": "6:41 PM"
+   },
+   {
     "company": "CDW",
     "role": "Enterprise Strategist - Chief Architect - AI",
     "reason": "pay-outside-band — Pay range: $168,000 - $240,000 depending on experience and skill set",
     "where": "Google Jobs",
     "time": "4:55 PM"
+   },
+   {
+    "company": "Commerce",
+    "role": "Principal Business Systems Architect",
+    "reason": "experience-mismatch — You are the final architectural authority across our CRM, billing, and integration systems and the technical counterpart to stakeholders in Go to Market, Finance, and Marketing.",
+    "where": "Google Jobs",
+    "time": "6:41 PM"
+   },
+   {
+    "company": "Center for Internet Security",
+    "role": "Chief Architect - Remote",
+    "reason": "pay-outside-band — Compensation Range: USD$153,100.00 - $275,500.00",
+    "where": "Google Jobs",
+    "time": "6:41 PM"
    },
    {
     "company": "Zscaler",
@@ -4251,7 +4284,7 @@
     "role": "Principal Enterprise Architect - Remote",
     "reason": "pay-outside-band — the base salary for this position ranges from $159,600 - $287,400/year",
     "where": "Google Jobs",
-    "time": "4:54 PM"
+    "time": "6:41 PM"
    },
    {
     "company": "Peraton",
@@ -4737,6 +4770,13 @@
     "reason": "stale — Published: 2026-04-10 - outside the 7-day eligibility window. Salary range: $110,000 - $135,000",
     "where": "Built In",
     "time": "6:23 PM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Cloud Architect Sr",
+    "reason": "clearance — This position requires a government security clearance; you must be a U.S. Citizen for consideration.",
+    "where": "Built In",
+    "time": "6:41 PM"
    }
   ],
   "jobs.halliburton.com": [
@@ -8180,5 +8220,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T00:40:27Z"
+ "lists_generated_at": "2026-11-17T00:42:44Z"
 }
