@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T18:29:14Z",
+ "generated_at": "2026-11-17T18:31:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T18:28:18Z",
+  "last_activity_at": "2026-11-17T18:30:40Z",
   "progress": {
    "pools": 21,
-   "covered_units": 630,
+   "covered_units": 678,
    "total_units": 754,
-   "pct": 84
+   "pct": 90
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 39,
-  "rejected": 27,
-  "evaluated": 66
+  "rejected": 30,
+  "evaluated": 69
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 997,
+  "evaluated": 999,
   "filed": 2,
   "parked": 185,
-  "rejected": 808,
+  "rejected": 810,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,13 +44,15 @@
  },
  "searching_lanes": [
   "W8",
+  "W1",
+  "W2",
+  "W3",
   "W4",
   "W5",
-  "W6",
   "W16",
   "W17",
   "W18",
-  "W19"
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -72,7 +74,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -89,34 +91,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Employers 30/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Employers 30/73"
   },
   "W4": {
@@ -127,7 +129,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Employers 25/32"
   },
   "W5": {
@@ -138,19 +140,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 20/44"
+   "heartbeat_at": "2026-11-17T18:31:28Z",
+   "detail": "Employers 25/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": null,
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -237,8 +239,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 20/59"
+   "heartbeat_at": "2026-11-17T18:31:28Z",
+   "detail": "Employers 25/59"
   },
   "W17": {
    "label": "Technology",
@@ -248,8 +250,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 20/54"
+   "heartbeat_at": "2026-11-17T18:31:28Z",
+   "detail": "Employers 25/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -259,29 +261,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 20/45"
+   "heartbeat_at": "2026-11-17T18:31:28Z",
+   "detail": "Employers 25/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T18:29:14Z",
-   "detail": "Employers 25/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 30/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T18:31:28Z",
    "detail": "Employers 25/31"
   }
  },
@@ -312,7 +314,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "71 of 632 units done",
+   "detail": "77 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -554,7 +556,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:28 PM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:30 PM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W8 · Title 13 of 58 · IT/OT Architect",
@@ -2807,6 +2809,13 @@
     "time": "6:21 AM"
    },
    {
+    "company": "Wells Fargo",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — $159,000.00 - $305,000.00 — workarounds tried: (1) employer's own JD text as reproduced on Built In publishes this range, top $305,000 above the $230,000 band ceiling; the same JD also states onsite presence in a hybrid work schedule is required and a Posting End Date of 27 Jan 2026; (2) alternate mirrors carry the same range; (3) no alternate posting with a different salary found",
+    "where": "Built In",
+    "time": "12:30 PM"
+   },
+   {
     "company": "Medtronic",
     "role": "Senior Principal IT Enterprise Architect - Infrastructure and Security",
     "reason": "not-remote — We're working onsite 4 days a week as part of our commitment to fostering a culture of professional growth and cross-functional collaboration. workarounds tried: (1) employer own channel - JD states apply only through official Medtronic channels, mirrored full JD carries the same onsite-4-days text; (2) alternate route Built In full JD, same site-based terms for Mounds View/Mansfield; (3) other Medtronic architect postings found are site-based or closed (window closed 31 Oct 2026), no remote alternate posting of this role.",
@@ -2924,6 +2933,13 @@
     "reason": "pay-outside-band — The projected compensation range for this position is $112,900.00 to $257,000.00 (annualized USD). workarounds tried: (1) employer's own ATS posting carries the same published range, (2) alternate route BuiltIn/Ladders for the same req, (3) alternate posting of the same role — top $257,000 is above the $230,000 band ceiling on every route.",
     "where": "Built In",
     "time": "8:19 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 — workarounds tried: (1) employer's own JD text as reproduced on Built In publishes GeoZone ranges whose tops ($247,900-$344,400 in every zone, including GeoZone 3 Dallas-Fort Worth) all exceed the $230,000 band ceiling; the role's core is also MBSE/Cameo systems architecture, not IT cloud architecture; (2) Glassdoor mirror carries the same ranges; (3) no alternate posting with a different salary found",
+    "where": "Built In",
+    "time": "12:30 PM"
    },
    {
     "company": "RTX",
@@ -3990,6 +4006,13 @@
     "reason": "experience-mismatch — The professional we seek is an enterprise Unix & Linux architect with these qualifications. Deep expertise in enterprise Linux architecture, including Red Hat Enterprise Linux, Ubuntu, and or Amazon Linux, operating-system internals, system hardening, patching, upgrades, performance tuning, capacity management. workarounds tried: (1) employer's own Amgen careers/Workday route searched for R-256614 - mirrors (Indeed, FreeHire, RemoteRocketship 'Still open on Amgen's site. Checked 5 hours ago') confirm the same Unix/Linux-core JD; (2) no alternate posting of this role with a broader cloud-architecture core found",
     "where": "Indeed",
     "time": "11:34 AM"
+   },
+   {
+    "company": "BP",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — This position is a hybrid of office/remote working — workarounds tried: (1) the full JD text (BP's own posting fields: Entity Technology, IT&S Group, Remote Type) on Indeed states hybrid office/remote working for a Houston, TX 77002 role with no fully-remote option; (2) career.io mirror of the same Houston posting carries the same hybrid text; (3) no fully-remote posting of the same role found. JD also requires over 10 years of experience in cybersecurity as its core.",
+    "where": "Indeed",
+    "time": "12:30 PM"
    }
   ],
   "Amgen Workday careers": [
@@ -4387,13 +4410,6 @@
     "reason": "pay-outside-band — The likely salary range for this position is $207,400 - $280,600. workarounds tried: (1) full JD on BuiltIn (GDIT) shows this range, (2) no alternate GDIT posting of this role with a different range found in search, (3) no repost with an in-band range found",
     "where": "BuiltIn",
     "time": "8:28 AM"
-   },
-   {
-    "company": "Lockheed Martin",
-    "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 workarounds tried: (1) full JD on BuiltIn shows all geozone tops above $230,000 (lowest $247,900), (2) Glassdoor alternate listing same role, (3) no alternate posting with an in-band range found",
-    "where": "BuiltIn",
-    "time": "8:25 AM"
    },
    {
     "company": "Highmark Health",
@@ -10338,5 +10354,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T18:29:14Z"
+ "lists_generated_at": "2026-11-17T18:31:28Z"
 }
