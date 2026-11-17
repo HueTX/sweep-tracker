@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T05:26:47Z",
+ "generated_at": "2026-11-17T05:29:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T05:25:42Z",
+  "last_activity_at": "2026-11-17T05:28:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,25 @@
  "counts": {
   "filed": 1,
   "parked": 69,
-  "rejected": 487,
-  "evaluated": 557
+  "rejected": 491,
+  "evaluated": 561
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 1122,
+  "evaluated": 1125,
   "filed": 2,
   "parked": 70,
-  "rejected": 1050,
+  "rejected": 1053,
   "filed_by_source": {
    "ADP Career Center": 1,
    "Inceed (jobs.inceed.com)": 1
   }
  },
  "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
   "W19",
   "W20"
  ],
@@ -98,49 +98,38 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 205/39"
+   "heartbeat_at": null,
+   "detail": "Employers 210/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 205/73"
+   "heartbeat_at": null,
+   "detail": "Employers 210/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 190/32"
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 205/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -148,6 +137,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 210/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T05:29:04Z",
    "detail": "Employers 205/44"
   },
   "W9": {
@@ -230,34 +230,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T05:29:04Z",
    "detail": "Employers 205/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T05:29:04Z",
    "detail": "Employers 205/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T05:29:04Z",
    "detail": "Employers 205/45"
   },
   "W19": {
@@ -268,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 200/41"
+   "heartbeat_at": "2026-11-17T05:29:04Z",
+   "detail": "Employers 205/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -279,8 +279,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T05:26:47Z",
-   "detail": "Employers 184/31"
+   "heartbeat_at": "2026-11-17T05:29:04Z",
+   "detail": "Employers 185/31"
   }
  },
  "stages": {
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "464 of 632 units done",
+   "detail": "470 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:25 PM CT · 6 workers in flight · 1 filed this cycle",
+ "note": "Last activity 11:28 PM CT · 6 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W6",
+  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -7779,6 +7779,50 @@
     "time": "11:21 PM"
    }
   ],
+  "Missouri state portal": [
+   {
+    "company": "Missouri state portal",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Missouri state portal",
+    "time": "11:28 PM"
+   },
+   {
+    "company": "State of Missouri",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — 'Job Location: The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.' - office-based position at the state office building, not 100% remote. Workarounds tried: (1) Missouri OA-ITSD posting text (governing); (2) Jobright mirror carries the same Jefferson City office location; (3) no remote alternate posting of #2999041 found.",
+    "where": "Missouri state portal",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "S2Tech",
+    "role": "Curam Solution Architect - Medicaid / Eligibility Systems",
+    "reason": "experience-mismatch — 'Serve as technical SME for Curam-based eligibility systems, including architecture, design, and integration'; Required: '8+ years of experience with IBM Curam (now Merative Curam)' and 'Medicaid / public assistance eligibility systems' knowledge (MAGI eligibility, SNAP, TANF). Core duty is Curam eligibility-system expertise for the State of Missouri - no Curam or Medicaid eligibility experience in his record (healthcare industry years: 0); core mismatch, not a minor gap. Remote US and published 2026-11-15 were otherwise eligible; pay unpublished. Workarounds tried: (1) full JD read on the S2Tech listing (governing text); (2) no alternate posting of this req with different core duties found.",
+    "where": "Missouri state portal",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "Missouri University of Science and Technology",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — 'The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.' Rolla, Missouri; Job ID 54229; anticipated hiring range $91,125-$165,000 also largely below band. Workarounds tried: (1) university posting text (governing); (2) no fully remote alternate posting of #00092272 found.",
+    "where": "Missouri state portal",
+    "time": "5:39 AM"
+   },
+   {
+    "company": "State of Missouri - Office of Administration, Information Technology Services Division",
+    "role": "Senior Enterprise Architect",
+    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
+    "where": "Missouri state portal",
+    "time": "6:04 AM"
+   },
+   {
+    "company": "Missouri University of Science and Technology",
+    "role": "Enterprise Architect-Hybrid",
+    "reason": "not-remote — The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.",
+    "where": "Missouri state portal",
+    "time": "6:04 AM"
+   }
+  ],
   "hiring.jhu.edu / Johns Hopkins": [
    {
     "company": "Johns Hopkins Medicine",
@@ -7786,6 +7830,15 @@
     "reason": "hands-on — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security. The candidate must possess a strong background in workload containerization, infrastructure and application security, server deployment/management, automated scripting, web programming languages. This position will design and integrate best security practices by using DevSecOps principles, processes and tools.",
     "where": "hiring.jhu.edu / Johns Hopkins",
     "time": "11:20 PM"
+   }
+  ],
+  "jobs.colgate.com": [
+   {
+    "company": "Colgate-Palmolive",
+    "role": "Solution Architect (Digital Marketing Professional Engagement)",
+    "reason": "pay-outside-band — Salary Range $110,000.00 - $150,000.00 USD; workarounds tried: employer's own ATS posting (governing text), alternate routes checked",
+    "where": "jobs.colgate.com",
+    "time": "11:28 PM"
    }
   ],
   "Johns Hopkins Medicine careers": [
@@ -8339,43 +8392,6 @@
     "reason": "not-remote — New York City residency is generally required within 90 days of appointment.",
     "where": "New York City portal",
     "time": "6:05 AM"
-   }
-  ],
-  "Missouri state portal": [
-   {
-    "company": "State of Missouri",
-    "role": "Senior Enterprise Architect",
-    "reason": "not-remote — 'Job Location: The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.' - office-based position at the state office building, not 100% remote. Workarounds tried: (1) Missouri OA-ITSD posting text (governing); (2) Jobright mirror carries the same Jefferson City office location; (3) no remote alternate posting of #2999041 found.",
-    "where": "Missouri state portal",
-    "time": "5:39 AM"
-   },
-   {
-    "company": "S2Tech",
-    "role": "Curam Solution Architect - Medicaid / Eligibility Systems",
-    "reason": "experience-mismatch — 'Serve as technical SME for Curam-based eligibility systems, including architecture, design, and integration'; Required: '8+ years of experience with IBM Curam (now Merative Curam)' and 'Medicaid / public assistance eligibility systems' knowledge (MAGI eligibility, SNAP, TANF). Core duty is Curam eligibility-system expertise for the State of Missouri - no Curam or Medicaid eligibility experience in his record (healthcare industry years: 0); core mismatch, not a minor gap. Remote US and published 2026-11-15 were otherwise eligible; pay unpublished. Workarounds tried: (1) full JD read on the S2Tech listing (governing text); (2) no alternate posting of this req with different core duties found.",
-    "where": "Missouri state portal",
-    "time": "5:39 AM"
-   },
-   {
-    "company": "Missouri University of Science and Technology",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — 'The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.' Rolla, Missouri; Job ID 54229; anticipated hiring range $91,125-$165,000 also largely below band. Workarounds tried: (1) university posting text (governing); (2) no fully remote alternate posting of #00092272 found.",
-    "where": "Missouri state portal",
-    "time": "5:39 AM"
-   },
-   {
-    "company": "State of Missouri - Office of Administration, Information Technology Services Division",
-    "role": "Senior Enterprise Architect",
-    "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
-    "where": "Missouri state portal",
-    "time": "6:04 AM"
-   },
-   {
-    "company": "Missouri University of Science and Technology",
-    "role": "Enterprise Architect-Hybrid",
-    "reason": "not-remote — The Enterprise Architect (EA) is a hybrid position requiring two days a week on-site.",
-    "where": "Missouri state portal",
-    "time": "6:04 AM"
    }
   ],
   "Built In / CVS Health": [
@@ -9803,6 +9819,15 @@
     "where": "Built In / Nationwide",
     "time": "11:25 PM"
    }
+  ],
+  "careers.thehersheycompany.com": [
+   {
+    "company": "Hershey",
+    "role": "Staff AI Solution Architect",
+    "reason": "pay-outside-band — The anticipated base salary range for this role is $111,600 to $139,500 per year.",
+    "where": "careers.thehersheycompany.com",
+    "time": "11:28 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -10982,5 +11007,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T05:26:47Z"
+ "lists_generated_at": "2026-11-17T05:29:04Z"
 }
