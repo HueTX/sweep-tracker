@@ -1,66 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
-    <meta name="color-scheme" content="light dark" />
-    <!-- Empty inline icon: stops the browser fetching /favicon.ico, which
-         lives outside the space's routes and fails auth. -->
-    <link rel="icon" href="data:," />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
-    <title>Sweep Tracker</title>
-    <link rel="stylesheet" crossorigin href="./assets/app.css?v=20261106-4" />
-    <!-- Standalone data source: the embedded fallback snapshot and the
-         fetch shim (v2) that answers the page's own ./actions calls
-         from the HueTX/sweep-tracker repo on GitHub — tracker.json's
-         retooled view-model passes through as the page's view/lists,
-         control requests go to control-requests.json under their own tap ids
-         and stay "Requested" until their own ack. These two classic
-         scripts are the only additions to the live page; the bundle
-         below is the live sweep-tracker's own, with standalone
-         patches (fixed 2026-11-06): a running sweep can never
-         headline "Sweep complete" from lane/stage states alone;
-         a present-tense activity headline can never contradict
-         the master switch ("Sweep is off" wins, and the live
-         pill requires the switch on); and the titles pill, card
-         legend, family list and counts all derive from the live
-         view's own titles (58 families when the view carries 58),
-         not the stale 48-family set or the today counter. The
-         shim adds the matching reconciliation: with the switch
-         off, the view's frozen searching lanes/stages are
-         downgraded to their stopped record before rendering —
-         including the run's own status (view, run and snapshot
-         status all read "stopped", so the run clock freezes at
-         the last update and no "stalled" diagnosis fires) and
-         the now-searching pill, which the bundle gates only on
-         document freshness, never on the switch. One more patch
-         (fixed 2026-11-06): the lane restart controls — the bulk
-         "Restart selected searches" button and the per-lane /
-         per-board restart buttons — are no longer disabled by
-         that same stale-data pause. The pause (view older than
-         10 minutes, snapshot older than 15) locked every control
-         whenever the tracker data aged, which is exactly when
-         stopped lanes need restarting, so the recovery action
-         was unreachable in the state it exists for; restart taps
-         still stay disabled while a restart for the same lanes
-         is already requested or actuating, and all other
-         controls keep the pause. The ?v= stamps
-         on the asset URLs are bumped with each fix so a cached
-         copy of an older bundle cannot keep rendering on a
-         reader's device after the fix ships. -->
-    <script src="./assets/fallback.js?v=20261106-4"></script>
-    <script src="./assets/shim.js?v=20261106-4"></script>
-  </head>
-  <body>
-    <div
-      data-generated-space-root=""
-      data-generated-space-slug="sweep-tracker-standalone"
-    ></div>
-    <!-- The live page loads this bundle as a deferred module; here it
-         loads as a classic script at the end of the body so the root
-         element above exists when it runs. -->
-    <script src="./assets/app.js?v=20261106-4"></script>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweep Tracker</title>
+<link rel="stylesheet" href="./assets/app.css?v=20261116-5">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div class="brand">
+      <h1>Sweep Tracker</h1>
+      <div id="headline" class="headline"><span class="dot dot-idle"></span><span id="headline-label">Loading…</span></div>
+    </div>
+    <div class="top-actions">
+      <span id="freshness" class="freshness"></span>
+      <button id="theme-toggle" class="btn btn-ghost" type="button" aria-label="Toggle dark mode">◐</button>
+    </div>
+  </header>
+
+  <div id="pill-row" class="pill-row"></div>
+  <p id="note-line" class="note-line"></p>
+  <div id="alerts"></div>
+
+  <section class="card" id="controls-card">
+    <div class="card-head">
+      <h2>Sweep controls</h2>
+      <span id="sweep-state" class="chip"></span>
+    </div>
+    <div class="controls-row">
+      <button id="btn-start" class="btn btn-primary" type="button">Start sweep</button>
+      <button id="btn-stop" class="btn btn-danger" type="button">Stop sweep</button>
+      <span id="control-status" class="control-status"></span>
+    </div>
+    <div id="pending-list" class="pending-list"></div>
+    <div class="token-row">
+      <label for="token-input">GitHub token for controls</label>
+      <div class="token-input-row">
+        <input id="token-input" type="password" autocomplete="off" spellcheck="false"
+               placeholder="Fine-grained token · HueTX/sweep-tracker · Contents read/write">
+        <button id="btn-token-save" class="btn" type="button">Save token</button>
+        <button id="btn-token-clear" class="btn btn-ghost" type="button">Clear</button>
+      </div>
+      <p class="hint" id="token-hint">Stored only in this browser. Needed for Start / Stop / Restart / Priority taps to reach the sweep.</p>
+    </div>
+  </section>
+
+  <section class="grid grid-top">
+    <div class="card" id="progress-card">
+      <div class="card-head"><h2>Run progress</h2><span id="run-started" class="sub"></span></div>
+      <div class="progress-wrap">
+        <div class="ring" id="ring"><span id="ring-pct">–</span></div>
+        <div class="progress-facts">
+          <div><span class="fact-num" id="prog-units">–</span><span class="fact-label">units covered</span></div>
+          <div><span class="fact-num" id="prog-families">–</span><span class="fact-label">title families covered</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="card" id="today-card">
+      <div class="card-head"><h2>Today</h2><span id="today-date" class="sub"></span></div>
+      <div class="stat-row" id="today-stats"></div>
+      <div class="card-head sub-head"><h3>This cycle</h3></div>
+      <div class="stat-row" id="cycle-stats"></div>
+    </div>
+  </section>
+
+  <section class="card" id="stages-card">
+    <div class="card-head"><h2>Step by step</h2></div>
+    <ol id="stages-list" class="stages"></ol>
+  </section>
+
+  <section class="card" id="lanes-card">
+    <div class="card-head"><h2>Search lanes</h2><span id="lanes-sub" class="sub"></span></div>
+    <div id="lane-grid" class="lane-grid"></div>
+    <div id="lane-detail" class="lane-detail" hidden></div>
+  </section>
+
+  <section class="card" id="titles-card">
+    <div class="card-head"><h2>Titles searched</h2><span id="titles-sub" class="sub"></span></div>
+    <div id="title-chips" class="chips"></div>
+  </section>
+
+  <section class="card" id="filer-card">
+    <div class="card-head"><h2>Filings owed</h2><span id="filer-sub" class="sub"></span></div>
+    <div id="filer-list"></div>
+  </section>
+
+  <section class="card" id="sources-card">
+    <div class="card-head"><h2>Filings by source — today</h2></div>
+    <div id="source-rows"></div>
+  </section>
+
+  <section class="card" id="tables-card">
+    <div class="card-head"><h2>Today's lists</h2></div>
+    <div class="tabs">
+      <button class="tab active" data-tab="filings" type="button">Filed</button>
+      <button class="tab" data-tab="parked" type="button">Parked</button>
+      <button class="tab" data-tab="rejected" type="button">Rejected</button>
+    </div>
+    <div id="table-wrap"></div>
+  </section>
+
+  <section class="card" id="rules-card">
+    <div class="card-head"><h2>Rules in effect</h2></div>
+    <div id="rules-body"></div>
+  </section>
+
+  <footer class="foot"><span id="foot-line"></span></footer>
+</div>
+<script src="./assets/app.js?v=20261116-5"></script>
+</body>
 </html>
