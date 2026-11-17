@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T09:31:12Z",
+ "generated_at": "2026-11-17T09:33:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
-   "filing": false
+   "searching": true,
+   "filing": true
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T09:30:51Z",
+  "last_activity_at": "2026-11-17T09:32:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 0,
   "parked": 91,
-  "rejected": 317,
+  "rejected": 316,
   "evaluated": 409
  },
  "today": {
@@ -36,10 +36,13 @@
   "evaluated": 425,
   "filed": 0,
   "parked": 79,
-  "rejected": 345,
+  "rejected": 344,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +102,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T09:33:30Z",
    "detail": "Employers 340/73"
   },
   "W4": {
@@ -220,12 +223,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T09:33:30Z",
    "detail": "Employers 334/59"
   },
   "W17": {
@@ -305,10 +308,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "32 of 32 units done",
+   "state": "active",
+   "detail": "32 of 33 units done",
    "started_at": "2026-11-17T06:31:09Z",
-   "ended_at": "2026-11-17T08:52:06Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -542,13 +545,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:30 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 3:32 AM CT · 7 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -566,6 +575,20 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "filer_queue": [
+  {
+   "lead_id": 6238,
+   "employer": "Edward Jones",
+   "title": "Technical Architect – Privileged Access Mgmt. & Non-Human Identity",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "careers.edwardjones.com",
+   "winner_disposition_id": 14726,
+   "unit_id": 2774,
+   "unit_created_at": "2026-11-17T09:32:53Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-17T09:33:06Z"
+  },
   {
    "lead_id": 7094,
    "employer": "Blue Cross Blue Shield of North Carolina",
@@ -1038,7 +1061,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 95,
+  "attempted_today": 96,
   "filed_today": 0
  },
  "date": "2026-11-17",
@@ -3836,15 +3859,6 @@
     "time": "2:27 AM"
    }
   ],
-  "careers.edwardjones.com": [
-   {
-    "company": "Edward Jones",
-    "role": "Technical Architect – Privileged Access Mgmt. & Non-Human Identity",
-    "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week effective June 1, 2026. workarounds tried: employer's own careers page is the governing text and was read directly. Note for main filer: PASS was refused cross-cycle-flip-needs-correction — on the merits this JD is architecture-focused (quote: 'This is an architecture-focused role, not an engineering implementation position.'), pay top $204,300 in band, employer page https://careers.edwardjones.com/job/23605272/ — a correction with employer_page evidence is the route if the prior-cycle REJECTED is to be flipped.",
-    "where": "careers.edwardjones.com",
-    "time": "3:29 AM"
-   }
-  ],
   "haystackapp.io": [
    {
     "company": "Percona",
@@ -5707,5 +5721,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T09:31:12Z"
+ "lists_generated_at": "2026-11-17T09:33:30Z"
 }
