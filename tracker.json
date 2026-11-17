@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:05:08Z",
+ "generated_at": "2026-11-17T21:07:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:02:24Z",
+  "last_activity_at": "2026-11-17T21:07:26Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 194,
-  "rejected": 924,
-  "evaluated": 1122
+  "parked": 195,
+  "rejected": 926,
+  "evaluated": 1125
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1122,
+  "evaluated": 1125,
   "filed": 2,
-  "parked": 194,
-  "rejected": 924,
+  "parked": 195,
+  "rejected": 926,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -98,57 +91,57 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 205/39"
+   "heartbeat_at": null,
+   "detail": "Employers 210/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 205/73"
+   "heartbeat_at": null,
+   "detail": "Employers 210/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 190/32"
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 205/44"
+   "heartbeat_at": null,
+   "detail": "Employers 210/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 205/44"
+   "heartbeat_at": null,
+   "detail": "Employers 210/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,13 +223,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:05:08Z",
-   "detail": "Employers 205/59"
+   "heartbeat_at": null,
+   "detail": "Employers 210/59"
   },
   "W17": {
    "label": "Technology",
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "466 of 632 units done",
+   "detail": "472 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:02 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 3:07 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1616,6 +1603,13 @@
     "reason": "stale-unverified — While this Architect position is fully remote within the US, this person must be able to work and support Central time zone working hours (8am-5pm) to efficiently support the end-client. This position is targeted to start in May 2026. - no typed posting date on the page (mirror crawled 2026-02-19), freshness unproven, parked stale-unverified",
     "where": "Career.io",
     "time": "7:02 AM"
+   },
+   {
+    "company": "UPMC",
+    "role": "Senior AI Architect, IT",
+    "reason": "title-not-covered — Fully Remote Opportunity! Must be able to work eastern standard time. — The Senior AI Architect position requires a high degree of technical expertise in at least 2 relevant domains such as AI solution development, data science, security, cloud, integrations, Healthcare IT or similar. Title matches no listed family in unit 4612; duties are architect-level.",
+    "where": "Career.io",
+    "time": "3:07 PM"
    }
   ],
   "Monster": [
@@ -2465,13 +2459,13 @@
     "time": "11:00 AM"
    }
   ],
-  "hiring.jhu.edu (employer own board) searched; discovery surface anitab.org": [
+  "anitab.org job board": [
    {
     "company": "Johns Hopkins University",
     "role": "Enterprise IT Architect",
-    "reason": "not-evaluated — Employer's own hiring.jhu.edu searched: classified title Enterprise IT Architect appears there only as other working titles (Enterprise Web and DevOps Architect, Req 122909, Cloud & Virtualization Services; Research Computing, hybrid). The Deputy CIO enterprise-portal posting syndicated on anitab.org (Location: Remote; Starting Salary Range: $116,600 - $204,000 Annually; Department name: IT@JH Office of the Deputy CIO) could not be located or opened on the employer's own board, so no employer_page can be verified for this lead.",
-    "where": "hiring.jhu.edu (employer own board) searched; discovery surface anitab.org",
-    "time": "6:56 AM"
+    "reason": "title-not-covered — Location: Remote — Starting Salary Range: $116,600 - $204,000 Annually — IT@JH Office of the Deputy CIO is seeking an IT Enterprise Architect who will shape the future of how Johns Hopkins connects and empowers its global community through cutting-edge enterprise portal solutions. Title matches no listed family in unit 4611; duties are architect-level.",
+    "where": "anitab.org job board",
+    "time": "3:07 PM"
    }
   ],
   "bnl.wd1.myworkdayjobs.com": [
@@ -3554,6 +3548,13 @@
     "reason": "hands-on — Design, build, and maintain enterprise-grade Infrastructure-as-Code (IaC), configuration templates (principally using Terraform, Kubernetes Config Connector [KCC], and Helm Charts), and for Google Cloud Platform (Google Cloud Platform). | workarounds tried: (1) employer's own posting text via Dice detail page, (2) alternate route via Jobstore/JobServe mirrors with same GCP/IaC text, (3) no alternate non-IaC architect posting for this role found; pay range $145,700-$242,900 also above band",
     "where": "Dice",
     "time": "3:23 AM"
+   },
+   {
+    "company": "Penn Medicine",
+    "role": "Sr Principal Enterprise Architect Data Architecture and Strategy",
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — The Senior Principal Enterprise Architect - Data Architecture & Strategy is a senior individual contributor within the Enterprise Architecture team. workarounds tried: Dice full JD + Penn Medicine careers listing for the same family of reqs.",
+    "where": "Dice",
+    "time": "3:07 PM"
    },
    {
     "company": "Accenture",
@@ -5384,13 +5385,13 @@
     "time": "12:43 PM"
    }
   ],
-  "Penn Medicine careers (careers.pennmedicine.org)": [
+  "Penn Medicine careers": [
    {
     "company": "Penn Medicine",
     "role": "Senior Principal Enterprise Architect",
-    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — Work Schedule: Hybrid. workarounds tried: (1) employer's own careers.pennmedicine.org posting (Job ID 327781) is the governing text and states the same hybrid Philadelphia location, (2) alternate route Dice carries the same role with the same hybrid location, (3) no alternate remote posting of this role found",
-    "where": "Penn Medicine careers (careers.pennmedicine.org)",
-    "time": "10:53 AM"
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — Work Schedule: Hybrid. workarounds tried: employer's own careers page (governing text) + Dice mirror for the same req.",
+    "where": "Penn Medicine careers",
+    "time": "3:07 PM"
    }
   ],
   "careers.pennmedicine.org": [
@@ -9089,6 +9090,15 @@
     "time": "6:38 AM"
    }
   ],
+  "New York Life careers": [
+   {
+    "company": "New York Life",
+    "role": "VP / Head of Enterprise Architecture",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week — Salary Range: $250,000 -$300,000 — The Head of Enterprise Architecture (EA) will be part of the Enterprise Technology Services team, reporting directly to the Chief Technology Officer. workarounds tried: employer's own careers page (governing text) + CareerBuilder mirror for the same req.",
+    "where": "New York Life careers",
+    "time": "3:07 PM"
+   }
+  ],
   "Jobvectora": [
    {
     "company": "Insight Global",
@@ -11300,5 +11310,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T21:05:08Z"
+ "lists_generated_at": "2026-11-17T21:07:36Z"
 }
