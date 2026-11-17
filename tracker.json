@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv5",
- "generated_at": "2026-11-17T04:44:50Z",
+ "generated_at": "2026-11-17T04:46:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac37a10d",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T02:49:31Z",
-  "last_activity_at": "2026-11-17T04:43:59Z",
+  "last_activity_at": "2026-11-17T04:46:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,28 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 69,
-  "rejected": 371,
-  "evaluated": 441
+  "rejected": 386,
+  "evaluated": 456
  },
  "today": {
   "date": "2026-11-16",
-  "evaluated": 1045,
+  "evaluated": 1053,
   "filed": 2,
   "parked": 70,
-  "rejected": 973,
+  "rejected": 981,
   "filed_by_source": {
    "ADP Career Center": 1,
    "Inceed (jobs.inceed.com)": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -93,7 +86,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/30"
+   "detail": "Employers 140/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -104,51 +97,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/39"
+   "detail": "Employers 140/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/73"
+   "heartbeat_at": null,
+   "detail": "Employers 140/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/32"
+   "heartbeat_at": null,
+   "detail": "Employers 135/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/44"
+   "heartbeat_at": null,
+   "detail": "Employers 135/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/44"
+   "heartbeat_at": null,
+   "detail": "Employers 135/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,24 +223,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/59"
+   "heartbeat_at": null,
+   "detail": "Employers 135/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T04:44:50Z",
-   "detail": "Employers 130/54"
+   "heartbeat_at": null,
+   "detail": "Employers 135/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 130/45"
+   "detail": "Employers 135/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 130/41"
+   "detail": "Employers 135/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,7 +273,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 130/31"
+   "detail": "Employers 135/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "308 of 632 units done",
+   "detail": "320 of 632 units done",
    "started_at": "2026-11-17T02:49:31Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:43 PM CT · 6 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 10:46 PM CT · 0 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1775,13 +1762,6 @@
     "time": "9:07 PM"
    },
    {
-    "company": "CareSource",
-    "role": "Architect II",
-    "reason": "stale — Published: 2026-11-02; Compensation Range: $113,000.00 - $197,700.00",
-    "where": "Employer sites",
-    "time": "5:55 AM"
-   },
-   {
     "company": "MetLife",
     "role": "Director - Enterprise Architecture",
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. The expected salary range for this position is $135,000 - $175,000. Workarounds tried: (1) employer's own MetLife careers postings for its enterprise architecture roles state the same hybrid expectation; (2) alternate route Built In mirror of this posting states hybrid; (3) no alternate remote posting of the same role found.",
@@ -1990,13 +1970,6 @@
     "reason": "stale — Published: 2026-11-05; Fidelity is transitioning to a full-time onsite working model through a phased rollout across regions and roles. Location Durham, NC. Workarounds tried: employer's own ATS posting (jobs.fidelity.com) is the governing text checked; no alternate route changes the posted date or onsite model.",
     "where": "Employer sites",
     "time": "11:21 AM"
-   },
-   {
-    "company": "Sherwin-Williams",
-    "role": "Principal Practice Enterprise Architect Data",
-    "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify. Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog)",
-    "where": "Employer sites",
-    "time": "10:49 AM"
    },
    {
     "company": "Ecolab",
@@ -2305,13 +2278,6 @@
     "reason": "closed — Job Posting End Date: November 13, 2026",
     "where": "Employer sites",
     "time": "8:36 AM"
-   },
-   {
-    "company": "BlackRock",
-    "role": "Technical Solutions Architect - Aladdin Studio, Vice President",
-    "reason": "stale — Published: 2026-10-15; Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. Workarounds tried: employer-board mirror (Built In) checked; hybrid model is firm-wide in the JD text.",
-    "where": "Employer sites",
-    "time": "11:21 AM"
    },
    {
     "company": "Blue Cross Blue Shield of North Carolina",
@@ -2711,13 +2677,6 @@
     "reason": "not-remote — Work Arrangement: Hybrid: This role is categorized as hybrid. This means the successful candidate is expected to report to Markham or Oshawa office three times per week, at minimum.",
     "where": "Employer sites",
     "time": "8:37 AM"
-   },
-   {
-    "company": "Dow",
-    "role": "Enterprise AI Architect",
-    "reason": "not-remote — Dow has an exciting opportunity for an Enterprise AI Architect located in Midland, MI or Houston, TX",
-    "where": "Employer sites",
-    "time": "9:55 AM"
    },
    {
     "company": "Palo Alto Networks",
@@ -4001,6 +3960,15 @@
     "time": "12:53 PM"
    }
   ],
+  "Remote Rocketship (OhioHealth careers page)": [
+   {
+    "company": "OhioHealth",
+    "role": "IT Tech Lead - Enterprise Automation",
+    "reason": "stale — Remote work eligibility from Ohio",
+    "where": "Remote Rocketship (OhioHealth careers page)",
+    "time": "10:46 PM"
+   }
+  ],
   "Glassdoor": [
    {
     "company": "Amgen",
@@ -4098,6 +4066,15 @@
     "reason": "experience-mismatch — Strong domain knowledge of healthcare payer operations, including claims, eligibility, benefits, provider networks, and care management",
     "where": "Capital Blue Cross careers via remoterocketship.com",
     "time": "10:38 PM"
+   }
+  ],
+  "Built In (CareSource)": [
+   {
+    "company": "CareSource",
+    "role": "Architect II",
+    "reason": "stale — Responsible for the definition, oversight, coordination and development of technology designs, along with the related road maps and lifecycle management.",
+    "where": "Built In (CareSource)",
+    "time": "10:45 PM"
    }
   ],
   "jobs.exxonmobil.com": [
@@ -4642,6 +4619,15 @@
     "time": "9:37 PM"
    }
   ],
+  "Built In (BlackRock)": [
+   {
+    "company": "BlackRock",
+    "role": "Enterprise Architect, Aladdin Engineering, Director",
+    "reason": "stale — As Director, Enterprise Architecture within Aladdin Engineering group, you will define and drive strategic architecture across the asset management platform",
+    "where": "Built In (BlackRock)",
+    "time": "10:45 PM"
+   }
+  ],
   "Google Jobs": [
    {
     "company": "Bright Vision Technologies",
@@ -5089,6 +5075,13 @@
     "reason": "stale — Original Posting: November 6, 2026",
     "where": "ClearanceJobs",
     "time": "10:43 PM"
+   },
+   {
+    "company": "Computer World Services",
+    "role": "Cloud / System Engineering Lead (Senior)",
+    "reason": "clearance — Active Secret clearance or higher is required.",
+    "where": "ClearanceJobs",
+    "time": "10:46 PM"
    },
    {
     "company": "DecisionPoint Corporation",
@@ -5684,13 +5677,13 @@
     "time": "9:17 PM"
    }
   ],
-  "MiTalent": [
+  "Michigan Talent / Career.io (DTE Energy)": [
    {
     "company": "DTE Energy",
     "role": "Software Platform Architect",
     "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location.",
-    "where": "MiTalent",
-    "time": "9:22 AM"
+    "where": "Michigan Talent / Career.io (DTE Energy)",
+    "time": "10:45 PM"
    }
   ],
   "BuiltIn": [
@@ -5911,13 +5904,6 @@
     "reason": "experience-mismatch — Minimum of ten (10+) years of experience in data architecture, data management, or related roles, preferably in the oil and gas industry | workarounds tried: DiversityJobs full JD (Workday text) checked, alternate routes searched, no alternate posting with an infrastructure/cloud core found",
     "where": "DiversityJobs",
     "time": "10:34 PM"
-   },
-   {
-    "company": "DTE Energy",
-    "role": "IT Specialist - Enterprise Architect",
-    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location.",
-    "where": "DiversityJobs",
-    "time": "9:22 AM"
    },
    {
     "company": "Northwell Health",
@@ -6699,6 +6685,15 @@
     "time": "10:20 PM"
    }
   ],
+  "Sherwin-Williams Oracle careers / Dice": [
+   {
+    "company": "Sherwin-Williams",
+    "role": "Principal Practice Enterprise Architect Data",
+    "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify | workarounds tried: employer's own Oracle careers page (published 2026-11-09) and Dice mirror - same Databricks production requirement",
+    "where": "Sherwin-Williams Oracle careers / Dice",
+    "time": "10:46 PM"
+   }
+  ],
   "Qureos / Simplify (Ecolab)": [
    {
     "company": "Ecolab",
@@ -6753,41 +6748,31 @@
     "time": "10:39 PM"
    }
   ],
-  "W8": [
+  "Michigan Talent / diversityjobs (DTE Energy)": [
+   {
+    "company": "DTE Energy",
+    "role": "IT Specialist - Enterprise Architect",
+    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location. Any remote work is expected to be performed from an employee's primary residence",
+    "where": "Michigan Talent / diversityjobs (DTE Energy)",
+    "time": "10:45 PM"
+   }
+  ],
+  "Career.io (PepsiCo)": [
+   {
+    "company": "PepsiCo",
+    "role": "Application Architect Sr. Manager",
+    "reason": "not-remote — Telecommuting permitted 50%: work may be performed within normal commuting distance from the PepsiCo office in Chicago, IL.",
+    "where": "Career.io (PepsiCo)",
+    "time": "10:46 PM"
+   }
+  ],
+  "CareerBuilder / ClearanceJobs surface (Leidos)": [
    {
     "company": "Leidos",
     "role": "Cloud Engineering Lead",
     "reason": "clearance — CLEARANCE REQUIREMENT: Must possess an Active SECRET or above DoD clearance to be considered. (US Citizenship required)",
-    "where": "W8",
-    "time": "6:27 PM"
-   },
-   {
-    "company": "Booz Allen Hamilton",
-    "role": "Cloud Engineering Lead",
-    "reason": "pay-outside-band — The projected compensation range for this position is $112,900.00 to $257,000.00 (annualized USD). — workarounds tried: Built In full JD and Ladders mirror of the same Booz Allen role — same range",
-    "where": "W8",
-    "time": "6:27 PM"
-   },
-   {
-    "company": "Leidos",
-    "role": "Cloud Data Architect",
-    "reason": "pay-outside-band — $154.1k - $278.5k / year",
-    "where": "W8",
-    "time": "4:28 PM"
-   },
-   {
-    "company": "RSM",
-    "role": "Cloud Delivery Lead",
-    "reason": "hands-on — Experience delivering engineering solutions as code on client cloud platforms to include, to Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) — workarounds tried: full JD via Ladders mirror of RSM's own posting; also: Proficiency in Python, Java, Powershell, C# .Net Bash, PowerShell, or Go.",
-    "where": "W8",
-    "time": "6:28 PM"
-   },
-   {
-    "company": "Bright Vision Technologies",
-    "role": "Azure Cloud Architect",
-    "reason": "do-not-reapply — Bright Vision Technologies is a technology consulting and software development company - employer is on the do-not-reapply exclusion list, rejected on sight",
-    "where": "W8",
-    "time": "9:02 PM"
+    "where": "CareerBuilder / ClearanceJobs surface (Leidos)",
+    "time": "10:46 PM"
    }
   ],
   "Built In / Ladders (Sherwin-Williams)": [
@@ -7340,6 +7325,36 @@
     "time": "4:46 PM"
    }
   ],
+  "W8": [
+   {
+    "company": "Booz Allen Hamilton",
+    "role": "Cloud Engineering Lead",
+    "reason": "pay-outside-band — The projected compensation range for this position is $112,900.00 to $257,000.00 (annualized USD). — workarounds tried: Built In full JD and Ladders mirror of the same Booz Allen role — same range",
+    "where": "W8",
+    "time": "6:27 PM"
+   },
+   {
+    "company": "Leidos",
+    "role": "Cloud Data Architect",
+    "reason": "pay-outside-band — $154.1k - $278.5k / year",
+    "where": "W8",
+    "time": "4:28 PM"
+   },
+   {
+    "company": "RSM",
+    "role": "Cloud Delivery Lead",
+    "reason": "hands-on — Experience delivering engineering solutions as code on client cloud platforms to include, to Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) — workarounds tried: full JD via Ladders mirror of RSM's own posting; also: Proficiency in Python, Java, Powershell, C# .Net Bash, PowerShell, or Go.",
+    "where": "W8",
+    "time": "6:28 PM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Azure Cloud Architect",
+    "reason": "do-not-reapply — Bright Vision Technologies is a technology consulting and software development company - employer is on the do-not-reapply exclusion list, rejected on sight",
+    "where": "W8",
+    "time": "9:02 PM"
+   }
+  ],
   "Simplify Jobs (KeyBank posting mirror)": [
    {
     "company": "KeyCorp",
@@ -7431,6 +7446,15 @@
     "reason": "not-remote — Location: DFW Headquarters Building 7 (DFW-SV07); Cities: Dallas - TX",
     "where": "grabjobs.co",
     "time": "10:39 PM"
+   }
+  ],
+  "CareerBuilder / Built In NYC (BlackRock)": [
+   {
+    "company": "BlackRock",
+    "role": "Technical Solutions Architect - Aladdin Studio, Vice President",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week.",
+    "where": "CareerBuilder / Built In NYC (BlackRock)",
+    "time": "10:45 PM"
    }
   ],
   "Utah state portal": [
@@ -7971,6 +7995,24 @@
     "reason": "stale — Design and govern enterprise-scale solutions utilizing modern Data Lakehouse architectures, cloud-native services, and complex data exchange standards.",
     "where": "Monster / Highmark Health careers",
     "time": "7:09 PM"
+   }
+  ],
+  "Adzuna / Dow Workday careers": [
+   {
+    "company": "Dow",
+    "role": "Enterprise AI Architect",
+    "reason": "not-remote — Schedule: Full time Date Posted: 11/04/2026 Job Number: R2069067 Position Type: Regular Workplace Type: Onsite",
+    "where": "Adzuna / Dow Workday careers",
+    "time": "10:46 PM"
+   }
+  ],
+  "Jobgether (Fidelity Investments)": [
+   {
+    "company": "Fidelity Investments",
+    "role": "VP, Architecture - Security",
+    "reason": "stale — Fidelity Enterprise Security Solution Architecture team is seeking a Vice President of Security Architecture to define and drive secure identity architecture providing cross cutting designs, patterns, standards and guidelines.",
+    "where": "Jobgether (Fidelity Investments)",
+    "time": "10:45 PM"
    }
   ],
   "wd1.myworkdaysite.com": [
@@ -9106,6 +9148,13 @@
     "reason": "pay-outside-band — Compensation Range: $189K - $281.1K | workarounds tried: employer's own careers site referenced in posting, SOAR/Dice mirrors - same range",
     "where": "SOAR Kentucky / Snowflake careers mirror",
     "time": "10:43 PM"
+   },
+   {
+    "company": "Snowflake",
+    "role": "Senior Principal Architect, Global Manufacturing",
+    "reason": "stale — Snowflake is actively seeking a Manufacturing Industry Architect to join our Field CTO Organization.",
+    "where": "SOAR Kentucky / Snowflake careers mirror",
+    "time": "10:45 PM"
    }
   ],
   "startup.jobs / Palantir": [
@@ -9133,6 +9182,24 @@
     "reason": "not-remote — The selected candidate will reside within a reasonable commuting distance, as defined by the employing Reserve Bank, and will work full-time onsite.",
     "where": "Built In / Teal (Federal Reserve careers)",
     "time": "10:43 PM"
+   }
+  ],
+  "Intuit careers (jobs.intuit.com)": [
+   {
+    "company": "Intuit",
+    "role": "Staff AI Solution Architect",
+    "reason": "stale — You will spend time with the marketers who own a channel, watch how they work, map where the time goes, and find the high-volume, repeatable steps where an agent changes the economics.",
+    "where": "Intuit careers (jobs.intuit.com)",
+    "time": "10:45 PM"
+   }
+  ],
+  "Simplify (Federal Reserve System careers)": [
+   {
+    "company": "Federal Reserve Bank of St. Louis",
+    "role": "Platform Engineering Manager",
+    "reason": "not-architect-level — You will be a hands-on, technical people manager responsible for leading teams of engineers who are charged with the effective and efficient delivery of cloud platforms to meet business needs.",
+    "where": "Simplify (Federal Reserve System careers)",
+    "time": "10:46 PM"
    }
   ]
  },
@@ -10313,5 +10380,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T04:44:50Z"
+ "lists_generated_at": "2026-11-17T04:46:47Z"
 }
