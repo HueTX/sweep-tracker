@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T11:06:53Z",
+ "generated_at": "2026-11-17T11:08:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "72f6e8fa",
@@ -18,9 +18,9 @@
   "last_activity_at": "2026-11-17T11:06:55Z",
   "progress": {
    "pools": 21,
-   "covered_units": 64,
+   "covered_units": 112,
    "total_units": 754,
-   "pct": 8
+   "pct": 15
   },
   "families_covered": 58,
   "families_total": 58
@@ -41,9 +41,9 @@
  },
  "searching_lanes": [
   "W8",
-  "W5",
-  "W6",
-  "W16"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -65,7 +65,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:06:53Z",
+   "heartbeat_at": "2026-11-17T11:08:31Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -126,24 +126,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:06:53Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:06:53Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -225,45 +225,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T11:06:53Z",
-   "detail": "Employers 0/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T11:08:31Z",
    "detail": "Employers 0/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T11:08:31Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T11:08:31Z",
    "detail": "Employers 0/41"
   },
   "W20": {
@@ -305,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "8 of 632 units done",
+   "detail": "14 of 632 units done",
    "started_at": "2026-11-17T11:00:15Z",
    "ended_at": null
   },
@@ -550,15 +550,15 @@
  "note": "Last activity 5:06 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 1 of 58 · Azure Architect",
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 1 of 58 · Azure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -616,8 +616,8 @@
    "winner_disposition_id": 14794,
    "unit_id": 3443,
    "unit_created_at": "2026-11-17T11:05:36Z",
-   "attempts": 0,
-   "last_attempt_at": null
+   "attempts": 2,
+   "last_attempt_at": "2026-11-17T11:08:10Z"
   },
   {
    "lead_id": 476,
@@ -1075,9 +1075,9 @@
  "funnel": {
   "candidates_open": 0,
   "verify_open": 0,
-  "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.02,
-  "attempted_today": 130,
+  "pass_awaiting_attempt": 0,
+  "pass_oldest_age_hours": 0.0,
+  "attempted_today": 132,
   "filed_today": 0
  },
  "date": "2026-11-17",
@@ -5974,5 +5974,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T11:06:53Z"
+ "lists_generated_at": "2026-11-17T11:08:31Z"
 }
