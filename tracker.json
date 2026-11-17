@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T20:56:27Z",
+ "generated_at": "2026-11-17T20:59:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T20:55:53Z",
+  "last_activity_at": "2026-11-17T20:59:02Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 193,
+  "parked": 194,
   "rejected": 920,
-  "evaluated": 1117
+  "evaluated": 1118
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1117,
+  "evaluated": 1118,
   "filed": 2,
-  "parked": 193,
+  "parked": 194,
   "rejected": 920,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -104,51 +97,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 195/39"
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 190/73"
+   "heartbeat_at": null,
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 184/32"
+   "heartbeat_at": null,
+   "detail": "Employers 186/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 190/44"
+   "heartbeat_at": null,
+   "detail": "Employers 195/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 190/44"
+   "heartbeat_at": null,
+   "detail": "Employers 195/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,24 +223,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 190/59"
+   "heartbeat_at": null,
+   "detail": "Employers 195/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T20:56:27Z",
-   "detail": "Employers 190/54"
+   "heartbeat_at": null,
+   "detail": "Employers 195/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,7 +251,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/45"
+   "detail": "Employers 195/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -269,7 +262,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/41"
+   "detail": "Employers 195/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -280,7 +273,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 182/31"
+   "detail": "Employers 183/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "437 of 632 units done",
+   "detail": "448 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:55 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 2:59 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2125,6 +2112,15 @@
     "reason": "title-not-covered — The Principal Industrial Systems Architect provides global leadership to a team of more than 40 architects who build and manage systems across the industrial platform. This role is on-site in Dearborn, Michigan.",
     "where": "careers.ford.com",
     "time": "6:43 AM"
+   }
+  ],
+  "Built In (Plains posting mirror; employer page not found)": [
+   {
+    "company": "Plains All American Pipeline",
+    "role": "Solution Architect, Cyber Security",
+    "reason": "not-evaluated — Mirrors (Built In, Glassdoor, JobServe) carry the posting as Houston, TX, posted 2026-11-03, but Plains' own careers posting page could not be located or opened in this verify pass — verify verdict cannot be priced without the employer's own page.",
+    "where": "Built In (Plains posting mirror; employer page not found)",
+    "time": "2:59 PM"
    }
   ],
   "Vaia": [
@@ -4116,13 +4112,6 @@
     "reason": "stale — Published: 2026-11-05 - posting date is 12 days before 2026-11-17, outside the 7-day eligibility window; workarounds tried: (1) employer board texaschildrenspeople.org sought via search, same Nov 5 listing; (2) Built In mirror is the finding surface; (3) no fresher repost found",
     "where": "builtin.com",
     "time": "11:14 AM"
-   },
-   {
-    "company": "Plains All American Pipeline",
-    "role": "Solution Architect, Cyber Security",
-    "reason": "stale — Develop and implement a comprehensive IT/OT cybersecurity architecture that is defensible to protect critical on premise or cloud-based infrastructure and data. workarounds tried: (1) employer's posting text opened in full via Built In mirror; (2) alternate routes searched via web search; (3) no fresher alternate posting found. Published 2026-11-03, outside 7-day eligibility.",
-    "where": "builtin.com",
-    "time": "6:44 AM"
    },
    {
     "company": "Molina Healthcare",
@@ -7603,13 +7592,13 @@
     "time": "6:35 AM"
    }
   ],
-  "Built In (TIAA posting)": [
+  "Built In NYC (TIAA posting)": [
    {
     "company": "TIAA",
     "role": "Director, Solutions Architect - Legal, Risk & Compliance",
-    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr — workarounds tried: (1) TIAA's own posting text via Built In/Dice mirrors shows the same range, an Iselin/Charlotte hybrid-onsite location, and an anticipated posting end date of 2026-11-02, (2) alternate routes Teal and Dice carry the same role with the same range, (3) no alternate posting of this role with different terms found",
-    "where": "Built In (TIAA posting)",
-    "time": "10:53 AM"
+    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr — workarounds tried: (1) employer's own posting text via Built In NYC mirror, (2) alternate route via search results for same Director LRC role, (3) no alternate posting with different pay found",
+    "where": "Built In NYC (TIAA posting)",
+    "time": "2:57 PM"
    }
   ],
   "Infosys careers (employer's own ATS)": [
@@ -10079,6 +10068,15 @@
     "where": "Glassdoor (Wipro posting, Denver)",
     "time": "2:55 PM"
    }
+  ],
+  "Monster (Capgemini posting)": [
+   {
+    "company": "Capgemini",
+    "role": "Capgemini Invent - Cloud Architecture - Managing Consultant",
+    "reason": "pay-outside-band — The base compensation range for this role in the posted location is: $127,500-249,350 — workarounds tried: (1) employer's own Capgemini Invent posting text via Monster mirror, (2) alternate route via Teal/WhatJobs mirrors of same role with same range, (3) no alternate posting with different pay found",
+    "where": "Monster (Capgemini posting)",
+    "time": "2:57 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -11257,5 +11255,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T20:56:27Z"
+ "lists_generated_at": "2026-11-17T20:59:30Z"
 }
