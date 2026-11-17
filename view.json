@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:59:28Z",
+ "generated_at": "2026-11-17T08:02:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:59:24Z",
+  "last_activity_at": "2026-11-17T08:01:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 57,
-  "rejected": 150,
-  "evaluated": 207
+  "parked": 58,
+  "rejected": 156,
+  "evaluated": 214
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 231,
+  "evaluated": 238,
   "filed": 0,
-  "parked": 47,
-  "rejected": 184,
+  "parked": 48,
+  "rejected": 190,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/30"
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/39"
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/73"
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -116,7 +123,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/32"
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -127,18 +134,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "detail": "Employers 115/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,57 +227,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/59"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/54"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/45"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/41"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/31"
+   "heartbeat_at": "2026-11-17T08:02:57Z",
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "255 of 632 units done",
+   "detail": "267 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:59 AM CT · 2 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 2:01 AM CT · 8 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W6"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W6",
+  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1051,7 +1064,7 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.14,
+  "pass_oldest_age_hours": 0.19,
   "attempted_today": 92,
   "filed_today": 0
  }
