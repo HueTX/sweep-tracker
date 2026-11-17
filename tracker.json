@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T16:57:55Z",
+ "generated_at": "2026-11-17T17:01:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "9d1c1d45",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T13:49:28Z",
-  "last_activity_at": "2026-11-17T16:57:46Z",
+  "last_activity_at": "2026-11-17T17:00:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 83,
-  "rejected": 278,
-  "evaluated": 362
+  "parked": 85,
+  "rejected": 282,
+  "evaluated": 367
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 948,
+  "evaluated": 949,
   "filed": 2,
   "parked": 181,
-  "rejected": 763,
+  "rejected": 764,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -98,35 +91,35 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 205/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 205/73"
-  },
-  "W4": {
-   "label": "Healthcare Insurers",
-   "sites": 32,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/32"
+   "detail": "Employers 214/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 215/73"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "detail": "Employers 210/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,51 +229,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/59"
+   "detail": "Employers 210/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 200/54"
+   "heartbeat_at": null,
+   "detail": "Employers 210/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 200/45"
+   "heartbeat_at": null,
+   "detail": "Employers 210/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 200/41"
+   "heartbeat_at": null,
+   "detail": "Employers 210/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T16:57:55Z",
-   "detail": "Employers 184/31"
+   "heartbeat_at": null,
+   "detail": "Employers 186/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "462 of 632 units done",
+   "detail": "479 of 632 units done",
    "started_at": "2026-11-17T13:49:28Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:57 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W20"
-  }
- ],
+ "note": "Last activity 11:00 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1065,7 +1052,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 169,
@@ -2349,13 +2336,13 @@
     "time": "2:32 AM"
    }
   ],
-  "Career.io (Goodyear mirror, Akron OH)": [
+  "career.io (Goodyear full JD mirror)": [
    {
     "company": "Goodyear",
     "role": "Senior Director Enterprise Architecture",
-    "reason": "title-not-covered — Architects and executes technology strategy across Goodyear's global enterprise.",
-    "where": "Career.io (Goodyear mirror, Akron OH)",
-    "time": "2:48 AM"
+    "reason": "stale-unverified — Architects and executes technology strategy across Goodyear's global enterprise. — no posted date on the posting page (career.io crawl 229 days ago) and no salary or remote statement; date and liveness unverified, parked provisional",
+    "where": "career.io (Goodyear full JD mirror)",
+    "time": "11:00 AM"
    }
   ],
   "hiring.jhu.edu (employer own board) searched; discovery surface anitab.org": [
@@ -3387,13 +3374,6 @@
     "time": "12:03 AM"
    },
    {
-    "company": "State of Utah",
-    "role": "Cloud Solutions Architect",
-    "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only) — workarounds tried: Dice finding route and Utah state portal alternate search, same on-site terms",
-    "where": "Dice",
-    "time": "2:57 AM"
-   },
-   {
     "company": "Alaska Airlines",
     "role": "Senior Principal Mobile Solutions Architect",
     "reason": "pay-outside-band — Salary Range $178,300-$276,350 / year. workarounds tried: (1) employer's own posting text via Dice mirror, (2) Career.io alternate route, (3) no alternate posting of this req with a different range found",
@@ -4407,13 +4387,13 @@
     "time": "2:51 AM"
    }
   ],
-  "talents.vaia.com": [
+  "Vaia Talents (Lincoln Financial full JD mirror)": [
    {
     "company": "Lincoln Financial",
     "role": "Lead Cloud Architect",
-    "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office workarounds tried: (1) employer's posting text opened in full via Vaia mirror (Requisition #:76522); (2) alternate routes searched via web search; (3) no remote alternate posting of the same role found.",
-    "where": "talents.vaia.com",
-    "time": "6:44 AM"
+    "reason": "not-remote — Work Arrangement: Hybrid : Employee will work 3 days a week in a Lincoln office — Alternate Locations: Radnor, PA; Charlotte, NC; Fort Wayne, IN; Greensboro, NC — workarounds tried: (1) Lincoln careers surface search, (2) Vaia full JD (this page, Requisition 76522), (3) alternate posting search — no remote variant found",
+    "where": "Vaia Talents (Lincoln Financial full JD mirror)",
+    "time": "10:59 AM"
    }
   ],
   "The Ladders (Raymond James full JD)": [
@@ -4802,13 +4782,6 @@
     "reason": "experience-mismatch — Required to have experience in Epic Integrations. workarounds tried: (1) employer page referenced in JD (sentaracareers.com, keyword JR-57826), (2) DiversityJobs full JD, (3) alternate Clinical Systems variants also require Epic certification/experience",
     "where": "DiversityJobs",
     "time": "10:21 AM"
-   },
-   {
-    "company": "NYU Langone Health",
-    "role": "Enterprise Cloud Architect - AWS",
-    "reason": "cloud-mismatch — 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture - Preferred certification: AWS certified Cloud Architect Professional | workarounds tried: (1) DiversityJobs full JD governing, (2) Indeed mirror - same AWS-titled role in New York, NY 10016, (3) no Azure-inclusive alternate posting of the same role found",
-    "where": "DiversityJobs",
-    "time": "7:02 AM"
    },
    {
     "company": "Intercontinental Exchange",
@@ -6062,6 +6035,15 @@
     "time": "6:40 AM"
    }
   ],
+  "diversityjobs.com (NYU Langone Health full JD mirror)": [
+   {
+    "company": "NYU Langone Health",
+    "role": "Enterprise Cloud Architect - AWS",
+    "reason": "cloud-mismatch — 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture — Preferred certification: AWS certified Cloud Architect Professional — In Depth experience with AWS Cloud Multi-Tenant implementation design by using key cloud resources — AWS-first role (title: Enterprise Cloud Architect - AWS); Azure appears only in a passing cloud-native list — workarounds tried: (1) NYU Langone careers surface search, (2) diversityjobs full JD (this page), (3) alternate posting search — no Azure-led variant found",
+    "where": "diversityjobs.com (NYU Langone Health full JD mirror)",
+    "time": "11:00 AM"
+   }
+  ],
   "Travelers careers (employer own ATS)": [
    {
     "company": "The Travelers Companies",
@@ -6703,6 +6685,15 @@
     "time": "10:42 AM"
    }
   ],
+  "Dice (State of Utah / CAI full JD)": [
+   {
+    "company": "State of Utah",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only) — This position is on-site, limited to Utah residents, and approximately 20 hours per week. — workarounds tried: (1) Utah state portal surface search, (2) Dice full JD (this page, Job ID UTA-JB-00011, client State of Utah / UDOT via CAI), (3) alternate posting search — no remote variant found",
+    "where": "Dice (State of Utah / CAI full JD)",
+    "time": "11:00 AM"
+   }
+  ],
   "RSM Careers": [
    {
     "company": "RSM US LLP",
@@ -7273,6 +7264,22 @@
     "time": "6:35 AM"
    }
   ],
+  "Infosys digitalcareers (employer own ATS)": [
+   {
+    "company": "Infosys",
+    "role": "Application Enterprise Architect",
+    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — published tops $155,298 / $146,543 below $160,000 band floor — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search, (3) alternate posting search — no in-band variant found",
+    "where": "Infosys digitalcareers (employer own ATS)",
+    "time": "10:59 AM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
+    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 — top $256,667 above $230,000 band ceiling — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search for this req, (3) alternate posting search — no in-band variant found",
+    "where": "Infosys digitalcareers (employer own ATS)",
+    "time": "10:57 AM"
+   }
+  ],
   "Tallocate": [
    {
     "company": "Kyndryl",
@@ -7625,15 +7632,6 @@
     "reason": "not-remote — This is an onsite role based in Atlanta, GA / Dallas, TX /Chicago, IL — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
     "where": "GrabJobs / Capgemini",
     "time": "2:43 AM"
-   }
-  ],
-  "Infosys digitalcareers (employer own ATS)": [
-   {
-    "company": "Infosys",
-    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
-    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 — top $256,667 above $230,000 band ceiling — workarounds tried: (1) employer's own posting at digitalcareers.infosys.com (governing text, this page), (2) alternate route search for this req, (3) alternate posting search — no in-band variant found",
-    "where": "Infosys digitalcareers (employer own ATS)",
-    "time": "10:57 AM"
    }
   ],
   "Remotive (StackAdapt mirror)": [
@@ -9962,5 +9960,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T16:57:55Z"
+ "lists_generated_at": "2026-11-17T17:01:04Z"
 }
