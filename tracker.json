@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T21:51:42Z",
+ "generated_at": "2026-11-17T21:53:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "fbc42930",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T18:00:45Z",
-  "last_activity_at": "2026-11-17T21:51:32Z",
+  "last_activity_at": "2026-11-17T21:52:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 203,
-  "rejected": 962,
+  "parked": 202,
+  "rejected": 963,
   "evaluated": 1169
  },
  "today": {
   "date": "2026-11-17",
   "evaluated": 1169,
   "filed": 2,
-  "parked": 203,
-  "rejected": 962,
+  "parked": 202,
+  "rejected": 963,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -104,13 +102,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T21:51:42Z",
-   "detail": "Employers 375/73"
+   "heartbeat_at": null,
+   "detail": "Employers 405/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -305,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "617 of 632 units done",
+   "detail": "623 of 632 units done",
    "started_at": "2026-11-17T18:00:45Z",
    "ended_at": null
   },
@@ -547,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:51 PM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 3:52 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2196,15 +2188,6 @@
     "time": "10:40 AM"
    }
   ],
-  "MilwaukeeJobs (BioMarin mirror)": [
-   {
-    "company": "BioMarin",
-    "role": "Associate Director, Solutions Architect, PTD",
-    "reason": "title-not-covered — We are seeking an experienced SAP Solution Architect to spearhead the Plan to Deliver workstream, focusing on Manufacturing (In-house and Contract), Quality Processes, Inventory Management and Global Logistics",
-    "where": "MilwaukeeJobs (BioMarin mirror)",
-    "time": "3:40 AM"
-   }
-  ],
   "W8": [
    {
     "company": "General Dynamics Information Technology",
@@ -2277,13 +2260,13 @@
     "time": "7:03 AM"
    }
   ],
-  "Incyte careers (employer own)": [
+  "Remotive (Incyte careers mirror)": [
    {
     "company": "Incyte",
     "role": "Manager, Microsoft Cloud Services",
-    "reason": "title-not-covered — The Manager, Microsoft Cloud Services is accountable for the strategy, architecture, governance, security, lifecycle, financial stewardship, and engineering direction of the organization's Microsoft cloud environment, including Microsoft Azure",
-    "where": "Incyte careers (employer own)",
-    "time": "11:55 AM"
+    "reason": "title-not-covered — Define and govern the Azure enterprise architecture, including management groups, subscriptions, landing zones, resource organization, naming and tagging, Azure Policy, RBAC, shared services, connectivity, DNS, private endpoints, logging architecture, and hybrid integration.",
+    "where": "Remotive (Incyte careers mirror)",
+    "time": "3:52 PM"
    }
   ],
   "Ashby (employer's own ATS)": [
@@ -5875,6 +5858,13 @@
     "time": "3:50 PM"
    },
    {
+    "company": "BioMarin",
+    "role": "Associate Director, Solutions Architect, PTD",
+    "reason": "experience-mismatch — Support both in-house and contract manufacturing operations by configuring SAP solutions to manage production schedules, capacity planning, and material traceability. | workarounds tried: (1) employer careers.biomarin.com posting text via DiversityJobs/MilwaukeeJobs full JD, (2) alternate mirrors, (3) no alternate infrastructure/cloud posting of same req found; core is SAP PP/QM/MM configuration - 7+ years of experience as an SAP Business Analyst",
+    "where": "DiversityJobs",
+    "time": "3:52 PM"
+   },
+   {
     "company": "Federal Express Corporation",
     "role": "Solutions Architect",
     "reason": "not-remote — This hybrid position will be domiciled in New Berlin, WI or Pittsburgh, PA. | workarounds tried: (1) employer's own FedEx posting sought via web search - same hybrid domicile text for this req, (2) alternate route DiversityJobs full JD, (3) an alternate FedEx Solutions Architect posting (Orlando req) is fully remote but is a different requisition, recorded separately as CANDIDATE",
@@ -8562,20 +8552,13 @@
     "time": "3:35 AM"
    }
   ],
-  "MilwaukeeJobs (BioMarin mirror, Jobvite JD text)": [
+  "Career.io / MilwaukeeJobs": [
    {
     "company": "BioMarin",
     "role": "Enterprise Architect, Commercial, Digital & Data",
-    "reason": "experience-mismatch — 10+ years of experience in IT or Enterprise Architecture, with a strong focus on Commercial or customer-facing domains. | workarounds tried: (1) employer own ATS - BioMarin Jobvite JD text reproduced in full on MilwaukeeJobs mirror, core duties are Commercial landscape blueprint, Salesforce/Veeva/Adobe/Model N platforms and Commercial business processes, not Azure infrastructure/M&A/DR architecture, (2) alternate route - Career.io/DiversityJobs mirrors carry the same JD, (3) alternate posting - no alternate posting of this req with infrastructure-focused duties found",
-    "where": "MilwaukeeJobs (BioMarin mirror, Jobvite JD text)",
-    "time": "11:55 AM"
-   },
-   {
-    "company": "BioMarin",
-    "role": "Associate Director, SAP Technical Architect: Basis, GRC, Security & Technical Strategy",
-    "reason": "not-remote — This role typically operates in a hybrid work environment, combining remote and onsite collaboration. | workarounds tried: (1) employer own ATS - BioMarin Jobvite JD text reproduced in full on MilwaukeeJobs mirror, same hybrid work environment statement, (2) alternate route - MilwaukeeJobs/DiversityJobs mirrors carry the same JD, (3) alternate posting - no fully remote version of this SAP Technical Architect req found",
-    "where": "MilwaukeeJobs (BioMarin mirror, Jobvite JD text)",
-    "time": "11:55 AM"
+    "reason": "experience-mismatch — 10+ years of experience in IT or Enterprise Architecture, with a strong focus on Commercial or customer-facing domains. | workarounds tried: (1) employer posting text via Career.io/MilwaukeeJobs full JD, (2) alternate mirrors Jobright/SonicJobs, (3) no alternate infrastructure-focused posting found; role is San Rafael, CA commercial/marketing architecture",
+    "where": "Career.io / MilwaukeeJobs",
+    "time": "3:52 PM"
    }
   ],
   "haystackapp.io": [
@@ -8786,6 +8769,15 @@
     "reason": "not-remote — Location: Sofia, Bulgaria, 1407. We are looking for motivated and experienced candidates for the position of PAM Architect, based in Sofia, Bulgaria. We are seeking a highly skilled and motivated PAM Architect (hybrid role). workarounds tried: (1) the only posting found for this req is the Sofia-based hybrid posting; no US-remote alternate posting exists.",
     "where": "expertini.com",
     "time": "7:46 AM"
+   }
+  ],
+  "MilwaukeeJobs (BioMarin mirror, Jobvite JD text)": [
+   {
+    "company": "BioMarin",
+    "role": "Associate Director, SAP Technical Architect: Basis, GRC, Security & Technical Strategy",
+    "reason": "not-remote — This role typically operates in a hybrid work environment, combining remote and onsite collaboration. | workarounds tried: (1) employer own ATS - BioMarin Jobvite JD text reproduced in full on MilwaukeeJobs mirror, same hybrid work environment statement, (2) alternate route - MilwaukeeJobs/DiversityJobs mirrors carry the same JD, (3) alternate posting - no fully remote version of this SAP Technical Architect req found",
+    "where": "MilwaukeeJobs (BioMarin mirror, Jobvite JD text)",
+    "time": "11:55 AM"
    }
   ],
   "treasury-occ.usajobs.gov": [
@@ -11660,5 +11652,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-17T21:51:42Z"
+ "lists_generated_at": "2026-11-17T21:53:03Z"
 }
