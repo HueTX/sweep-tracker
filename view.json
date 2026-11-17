@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-17T07:43:05Z",
+ "generated_at": "2026-11-17T07:45:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "5493b6db",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T06:31:09Z",
-  "last_activity_at": "2026-11-17T07:42:15Z",
+  "last_activity_at": "2026-11-17T07:45:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 24,
-  "rejected": 121,
-  "evaluated": 145
+  "parked": 23,
+  "rejected": 123,
+  "evaluated": 146
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 182,
+  "evaluated": 183,
   "filed": 0,
   "parked": 23,
-  "rejected": 159,
+  "rejected": 160,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -84,60 +84,49 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 80/30"
+   "heartbeat_at": null,
+   "detail": "Employers 85/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 80/39"
+   "heartbeat_at": null,
+   "detail": "Employers 85/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 80/73"
+   "heartbeat_at": null,
+   "detail": "Employers 85/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 80/32"
+   "heartbeat_at": null,
+   "detail": "Employers 85/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 80/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -145,6 +134,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 85/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-17T07:45:45Z",
    "detail": "Employers 80/44"
   },
   "W9": {
@@ -227,45 +227,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T07:45:45Z",
    "detail": "Employers 80/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T07:45:45Z",
    "detail": "Employers 80/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T07:45:45Z",
    "detail": "Employers 80/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-17T07:45:45Z",
    "detail": "Employers 80/41"
   },
   "W20": {
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-17T07:43:05Z",
-   "detail": "Employers 75/31"
+   "heartbeat_at": "2026-11-17T07:45:45Z",
+   "detail": "Employers 80/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "195 of 632 units done",
+   "detail": "201 of 632 units done",
    "started_at": "2026-11-17T06:31:09Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:42 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:45 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W6",
+  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -604,8 +604,8 @@
    "winner_disposition_id": 13564,
    "unit_id": 2742,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 4,
-   "last_attempt_at": "2026-11-17T07:10:39Z"
+   "attempts": 5,
+   "last_attempt_at": "2026-11-17T07:45:12Z"
   },
   {
    "lead_id": 1865,
@@ -618,8 +618,8 @@
    "winner_disposition_id": 2119,
    "unit_id": 2733,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 4,
-   "last_attempt_at": "2026-11-17T07:10:40Z"
+   "attempts": 5,
+   "last_attempt_at": "2026-11-17T07:45:12Z"
   },
   {
    "lead_id": 1867,
@@ -632,8 +632,8 @@
    "winner_disposition_id": 13567,
    "unit_id": 2743,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 4,
-   "last_attempt_at": "2026-11-17T07:10:40Z"
+   "attempts": 5,
+   "last_attempt_at": "2026-11-17T07:45:12Z"
   },
   {
    "lead_id": 1879,
@@ -646,8 +646,8 @@
    "winner_disposition_id": 2192,
    "unit_id": 2734,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 5,
-   "last_attempt_at": "2026-11-17T07:10:41Z"
+   "attempts": 6,
+   "last_attempt_at": "2026-11-17T07:45:13Z"
   },
   {
    "lead_id": 1882,
@@ -688,8 +688,8 @@
    "winner_disposition_id": 2322,
    "unit_id": 2735,
    "unit_created_at": "2026-11-17T06:31:09Z",
-   "attempts": 5,
-   "last_attempt_at": "2026-11-17T07:10:41Z"
+   "attempts": 6,
+   "last_attempt_at": "2026-11-17T07:45:13Z"
   },
   {
    "lead_id": 2174,
@@ -1051,7 +1051,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 62,
+  "attempted_today": 67,
   "filed_today": 0
  }
 }
