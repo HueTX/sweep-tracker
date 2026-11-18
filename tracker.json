@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T08:25:26Z",
+ "generated_at": "2026-11-18T08:27:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T08:24:25Z",
+  "last_activity_at": "2026-11-18T08:27:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 46,
-  "rejected": 319,
-  "evaluated": 365
+  "parked": 48,
+  "rejected": 320,
+  "evaluated": 368
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 365,
+  "evaluated": 368,
   "filed": 0,
-  "parked": 46,
-  "rejected": 319,
+  "parked": 48,
+  "rejected": 320,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W3",
-  "W5",
   "W6",
   "W16",
+  "W17",
+  "W18",
   "W19"
  ],
  "lanes": {
@@ -95,13 +95,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 226/39"
+   "heartbeat_at": null,
+   "detail": "Employers 234/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 230/73"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 240/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,13 +128,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 230/44"
+   "heartbeat_at": null,
+   "detail": "Employers 240/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 230/44"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 235/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,30 +232,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 230/59"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 235/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 230/54"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 235/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 230/45"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 235/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:25:26Z",
-   "detail": "Employers 225/41"
+   "heartbeat_at": "2026-11-18T08:27:33Z",
+   "detail": "Employers 235/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "507 of 632 units done",
+   "detail": "519 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:24 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:27 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W6",
+  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1310,6 +1310,15 @@
     "time": "2:12 AM"
    }
   ],
+  "governmentjobs.com - City of Houston": [
+   {
+    "company": "City of Houston portal",
+    "role": "IT Architect - Applications (Responsible AI & Innovation)",
+    "reason": "title-not-covered — The IT Architect – Applications (Responsible AI and Innovation) serves as the City’s enterprise leader for artificial intelligence strategy, governance, and adoption.",
+    "where": "governmentjobs.com - City of Houston",
+    "time": "2:27 AM"
+   }
+  ],
   "W8": [
    {
     "company": "General Dynamics Information Technology",
@@ -1362,6 +1371,15 @@
     "reason": "not-evaluated — JD could not be opened on Trinity Health's own careers board; only aggregator snippets accessible — parked not-evaluated per JD-first rule",
     "where": "Recruit.net / RemoteRocketship snippets only",
     "time": "12:30 AM"
+   }
+  ],
+  "Adzuna / GrabJobs - Mount Sinai": [
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Cyber Security Architect - TSIII",
+    "reason": "title-not-covered — The Technology Specialist III – Cyber Security Architect is responsible for the design, implementation, and governance of enterprise security architecture solutions that protect Mount Sinai Health System’s users, applications, and data.",
+    "where": "Adzuna / GrabJobs - Mount Sinai",
+    "time": "2:27 AM"
    }
   ],
   "Cognizant Careers": [
@@ -2535,6 +2553,15 @@
     "reason": "not-remote — Enterprise Access Solutions Architect - Medical Group (Hybrid) Job - Baylor Scott & White Health - Dallas, TX workarounds tried: (1) employer ATS search for Baylor Scott & White architect roles, (2) Monster mirror read in full, (3) alternate posting search - no remote version found",
     "where": "Monster",
     "time": "1:40 AM"
+   }
+  ],
+  "diversityjobs / NYU Langone posting": [
+   {
+    "company": "NYU Langone Health",
+    "role": "Cloud Enterprise Architect - Azure",
+    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. workarounds tried: (1) employer-family listing on Indeed for Enterprise Cloud Architect at NYU Langone, (2) mirror JD full read on diversityjobs reproducing NYU posting - same published range, top $240,240 exceeds $230,000 band top",
+    "where": "diversityjobs / NYU Langone posting",
+    "time": "2:26 AM"
    }
   ],
   "builtincharlotte.com": [
@@ -5211,5 +5238,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T08:25:26Z"
+ "lists_generated_at": "2026-11-18T08:27:33Z"
 }
