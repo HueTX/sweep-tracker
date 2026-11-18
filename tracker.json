@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:42:34Z",
+ "generated_at": "2026-11-18T03:44:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:42:30Z",
+  "last_activity_at": "2026-11-18T03:44:12Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -42,7 +42,13 @@
    "globallogic.com": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,7 +92,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/30"
+   "detail": "Employers 50/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -97,7 +103,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/39"
+   "detail": "Employers 50/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -108,39 +114,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/73"
+   "detail": "Employers 50/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:44:41Z",
    "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:44:41Z",
    "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:44:41Z",
    "detail": "Employers 45/44"
   },
   "W9": {
@@ -223,23 +229,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:44:41Z",
    "detail": "Employers 45/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:44:41Z",
    "detail": "Employers 45/54"
   },
   "W18": {
@@ -251,7 +257,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/45"
+   "detail": "Employers 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -262,7 +268,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/41"
+   "detail": "Employers 45/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -273,7 +279,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/31"
+   "detail": "Employers 45/31"
   }
  },
  "stages": {
@@ -303,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "116 of 632 units done",
+   "detail": "122 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -545,13 +551,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:42 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:44 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1052,7 +1064,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 268,
@@ -9080,13 +9092,6 @@
     "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position. workarounds tried: (1) employer's own ATS posting at jobs.smartrecruiters.com read in full - governing on-site terms; (2) alternate route Built In mirror checked; (3) no remote alternate posting of this req found",
     "where": "jobs.smartrecruiters.com (Expeditors ATS)",
     "time": "5:36 AM"
-   },
-   {
-    "company": "Expeditors International",
-    "role": "Architect (Dynamics 365) - Operational Accounting, IS Operational Experience",
-    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. Relocation assistance is not offered for this position. workarounds tried: (1) employer's own ATS posting at jobs.smartrecruiters.com read in full - governing on-site terms; (2) alternate Expeditors architect postings on the same ATS are likewise on-site Seattle; (3) no remote alternate posting of this req found",
-    "where": "jobs.smartrecruiters.com (Expeditors ATS)",
-    "time": "5:36 AM"
    }
   ],
   "Caterpillar Careers": [
@@ -9132,6 +9137,15 @@
     "reason": "clearance — Clearance Level Must Currently Possess: Secret - Security Clearance Requirement: Active Secret clearance",
     "where": "jobs.soar-ky.org (GDIT mirror)",
     "time": "9:41 PM"
+   }
+  ],
+  "SmartRecruiters (employer ATS)": [
+   {
+    "company": "Expeditors International",
+    "role": "Architect (Dynamics 365) - Operational Accounting, IS Operational Experience",
+    "reason": "not-remote — This position is on-site and will reside in the greater Seattle, WA. area at one of the following locations depending on availability. Candidates must be local or willing to relocate. workarounds tried: (1) employer's own ATS posting on SmartRecruiters opened - governing text shows on-site; (2) alternate route - same SmartRecruiters listing is the employer route; (3) no alternate remote posting found for same req.",
+    "where": "SmartRecruiters (employer ATS)",
+    "time": "9:44 PM"
    }
   ],
   "energynews.pro": [
@@ -9592,13 +9606,13 @@
     "time": "5:45 AM"
    }
   ],
-  "us.thebigjobsite.com": [
+  "thebigjobsite / 84.51 Kroger": [
    {
     "company": "Kroger",
     "role": "Solution Architect (P4643)",
-    "reason": "pay-outside-band — Pay Range $162,000 - $262,200 USD. Top of published range $262,200 is above the $230,000 band top. Solution Architect (P4643) Cincinnati, OH; Chicago, IL - 84.51 is a retail data science company helping The Kroger Co.; Solutions Architect to design and deliver the technical foundations that power AI enabled products across the Kroger Precision Marketing portfolio. workarounds tried: (1) employer's own posting via 84.51 Greenhouse board (job-boards.greenhouse.io/8451) carries the same P4643 role; (2) alternate route thebigjobsite mirror opened with the published pay range; (3) no alternate posting of P4643 with a different published range found.",
-    "where": "us.thebigjobsite.com",
-    "time": "5:11 PM"
+    "reason": "not-remote — 84.51° follows a 5 day in-office work schedule to support collaboration, alignment, and team connection. workarounds tried: (1) employer's own posting via 84.51/Kroger subsidiary - in-office schedule stated; (2) alternate route - Built In / mirror listings reviewed, same in-office req; (3) no alternate remote posting found for same req P4643.",
+    "where": "thebigjobsite / 84.51 Kroger",
+    "time": "9:44 PM"
    }
   ],
   "Built In (Lockheed Martin JD mirror)": [
@@ -13748,5 +13762,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T03:42:34Z"
+ "lists_generated_at": "2026-11-18T03:44:41Z"
 }
