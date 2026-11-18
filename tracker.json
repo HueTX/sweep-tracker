@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:50:08Z",
+ "generated_at": "2026-11-18T03:51:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:48:54Z",
+  "last_activity_at": "2026-11-18T03:51:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,28 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 232,
-  "rejected": 1211,
-  "evaluated": 1448
+  "parked": 233,
+  "rejected": 1212,
+  "evaluated": 1449
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1448,
+  "evaluated": 1449,
   "filed": 2,
-  "parked": 232,
-  "rejected": 1211,
+  "parked": 233,
+  "rejected": 1212,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,35 +80,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:50:08Z",
-   "detail": "Employers 55/30"
+   "heartbeat_at": null,
+   "detail": "Employers 60/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:50:08Z",
-   "detail": "Employers 55/39"
+   "heartbeat_at": null,
+   "detail": "Employers 60/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:50:08Z",
-   "detail": "Employers 55/73"
+   "heartbeat_at": null,
+   "detail": "Employers 60/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,7 +119,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/32"
+   "detail": "Employers 60/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/44"
+   "detail": "Employers 60/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/44"
+   "detail": "Employers 60/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,7 +229,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/59"
+   "detail": "Employers 60/59"
   },
   "W17": {
    "label": "Technology",
@@ -246,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/54"
+   "detail": "Employers 60/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -257,29 +251,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 55/45"
+   "detail": "Employers 60/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:50:08Z",
-   "detail": "Employers 50/41"
+   "heartbeat_at": null,
+   "detail": "Employers 55/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:50:08Z",
-   "detail": "Employers 50/31"
+   "heartbeat_at": null,
+   "detail": "Employers 55/31"
   }
  },
  "stages": {
@@ -309,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "139 of 632 units done",
+   "detail": "150 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -551,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:48 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W19"
-  }
- ],
+ "note": "Last activity 9:51 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1063,8 +1051,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 268,
@@ -1340,6 +1328,15 @@
     "reason": "stale-unverified — The Principal Application Architect serves as a strategic leader within the Enterprise Architecture Center of Excellence, responsible for shaping the application technology landscape across Sanford Healthcare. Mirror page crawled 228 days ago; no posting date could be verified on any surface.",
     "where": "GrabJobs",
     "time": "9:55 AM"
+   }
+  ],
+  "Marathon Petroleum Workday (employer own board, unreadable)": [
+   {
+    "company": "Marathon Petroleum",
+    "role": "Senior Solution Architect, Midstream Operations",
+    "reason": "not-evaluated — Employer's own posting is on MPC's Workday board (mpc.wd1.myworkdayjobs.com), linked from marathonpetroleum.com/Jobs as APPLY TODAY; the individual req page could not be opened or read via available fetch, so the verify verdict cannot be priced on the employer's own page.",
+    "where": "Marathon Petroleum Workday (employer own board, unreadable)",
+    "time": "9:50 PM"
    }
   ],
   "Swooped / United Therapeutics careers": [
@@ -3744,9 +3741,9 @@
    {
     "company": "Truist",
     "role": "Principal Enterprise Architect - Fraud & AML Technology",
-    "reason": "pay-outside-band — The annual base salary for this position is $157,000 - $262,000. workarounds tried: (1) Ladders mirror of Truist posting, (2) search for alternate Truist posting/route for same role, (3) no alternate posting with different pay found - top $262,000 is above $230,000 band top",
+    "reason": "pay-outside-band — The annual base salary for this position is $157,000 - $262,000",
     "where": "Ladders",
-    "time": "6:10 PM"
+    "time": "9:51 PM"
    },
    {
     "company": "M&T Bank",
@@ -4049,6 +4046,13 @@
     "reason": "stale — 7+ years designing enterprise AI/ML systems; 1+ years hands-on with GenAI, agentic workflows, RAG, LLM-based integrations, or multi-agent systems.",
     "where": "BuiltIn",
     "time": "5:57 PM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Business Architect",
+    "reason": "stale — This job supports a broad, enterprise-wide view of the business and varying degrees of appreciation for strategy, processes and various platform capabilities, enabling technologies, and governance.",
+    "where": "BuiltIn",
+    "time": "9:51 PM"
    },
    {
     "company": "M&T Bank",
@@ -7776,9 +7780,9 @@
    {
     "company": "NASA",
     "role": "Information Technology Specialist (Enterprise Architecture) (Direct Hire)",
-    "reason": "stale — Serves as the NASA technology domain enterprise architect providing creation, iteration, and maintenance of enterprise architectures that embody key principles, methods, and models to describe current/future state aligned to business outcomes workarounds tried: (1) USAJOBS announcement (employer's own federal portal, governing text) - published 05/14/2026, outside 7-day eligibility, (2) no alternate route for same announcement, (3) no repost found",
+    "reason": "stale — Serves as the NASA technology domain enterprise architect providing creation, iteration, and maintenance of enterprise architectures that embody key principles, methods, and models to describe current/future state aligned to business outcomes",
     "where": "USAJOBS",
-    "time": "12:43 PM"
+    "time": "9:50 PM"
    },
    {
     "company": "Securities and Exchange Commission (SEC)",
@@ -10961,13 +10965,13 @@
     "time": "8:19 AM"
    }
   ],
-  "GovernmentJobs (Washington Courts)": [
+  "governmentjobs.com Washington Courts portal": [
    {
     "company": "Washington Administrative Office of the Courts",
     "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Enterprise Architect, Information Services Division. Job #: 2026-84. Location: Olympia, Washington. Salary: Range 79: $113,736 - $149,244 per year (DOQ). Opens: November 6, 2026. Top $149,244 is below the $160,000 band floor. workarounds tried: (1) state portal posting on governmentjobs.com opened, (2) alternate surfaces searched, (3) no alternate posting with different pay found.",
-    "where": "GovernmentJobs (Washington Courts)",
-    "time": "1:28 AM"
+    "reason": "pay-outside-band — Salary: Range 79: $113,736 - $149,244 per year (DOQ). Opens: November 6, 2026 Location: Olympia, Washington",
+    "where": "governmentjobs.com Washington Courts portal",
+    "time": "9:50 PM"
    }
   ],
   "BuiltIn (Ford mirror)": [
@@ -13771,5 +13775,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T03:50:08Z"
+ "lists_generated_at": "2026-11-18T03:51:41Z"
 }
