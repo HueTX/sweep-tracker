@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T23:18:32Z",
+ "generated_at": "2026-11-18T23:20:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T23:18:27Z",
+  "last_activity_at": "2026-11-18T23:19:53Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,23 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 199,
-  "rejected": 1145,
+  "parked": 198,
+  "rejected": 1146,
   "evaluated": 1344
  },
  "today": {
   "date": "2026-11-18",
   "evaluated": 1344,
   "filed": 0,
-  "parked": 199,
-  "rejected": 1145,
+  "parked": 198,
+  "rejected": 1146,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W3",
-  "W5",
   "W6",
   "W16",
+  "W17",
+  "W18",
   "W19"
  ],
  "lanes": {
@@ -110,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T23:18:32Z",
-   "detail": "Employers 255/73"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 265/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,13 +128,13 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T23:18:32Z",
-   "detail": "Employers 252/44"
+   "heartbeat_at": null,
+   "detail": "Employers 260/44"
   },
   "W6": {
    "label": "Utilities",
@@ -143,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T23:18:32Z",
-   "detail": "Employers 252/44"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 256/44"
   },
   "W9": {
    "label": "Dice",
@@ -231,30 +232,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T23:18:32Z",
-   "detail": "Employers 255/59"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 260/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/54"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 260/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/45"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -264,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T23:18:32Z",
-   "detail": "Employers 242/41"
+   "heartbeat_at": "2026-11-18T23:20:23Z",
+   "detail": "Employers 244/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "544 of 632 units done",
+   "detail": "554 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:18 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:19 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W6",
+  "headline": "W6 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1075,7 +1076,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 2,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 215,
@@ -2262,15 +2263,6 @@
     "reason": "title-not-covered — Define and maintain the global network strategy, target-state architecture, architectural principles and multi-year roadmap. Act as senior design authority for enterprise networking",
     "where": "RemoteRocketship / Johnson Controls careers",
     "time": "12:51 PM"
-   }
-  ],
-  "Jobspresso": [
-   {
-    "company": "Twilio",
-    "role": "Architect",
-    "reason": "title-not-covered — You'll own the technical strategy for our data platform, spanning storage, lake and lakehouse architecture, catalog and governance, and privacy-by-design. This role will be remote, and based in the United States. Title 'Architect' matches no listed title family - fly-title park, duties architect-level.",
-    "where": "Jobspresso",
-    "time": "1:06 PM"
    }
   ],
   "Remotery / CVS Health Careers": [
@@ -9918,6 +9910,15 @@
     "time": "12:25 PM"
    }
   ],
+  "Jobspresso (mirror of Twilio careers)": [
+   {
+    "company": "Twilio",
+    "role": "Architect",
+    "reason": "pay-outside-band — Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $207,200 - $233,100. Based in New York, New Jersey, Washington State, or California: $219,360 - $246,780. Based in the San Francisco Bay area, California: $243,680 - $274,140. Every published range tops above the $230,000 ceiling. Also required: 'Proficiency in one or more of Python, Java, and Go' and a data-platform (lakehouse/ClickHouse/Elasticsearch on AWS) core. Workarounds tried: (1) Twilio's own careers posting text via Jobspresso mirror (posting is on Twilio's careers page per RemoteRocketship, same $207.2k-$274.1k range); (2) alternate route RemoteRocketship listing — same pay; (3) no alternate posting with different pay found.",
+    "where": "Jobspresso (mirror of Twilio careers)",
+    "time": "5:19 PM"
+   }
+  ],
   "Built In (New York Life mirror)": [
    {
     "company": "New York Life",
@@ -13009,5 +13010,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T23:18:32Z"
+ "lists_generated_at": "2026-11-18T23:20:23Z"
 }
