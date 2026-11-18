@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T09:37:13Z",
+ "generated_at": "2026-11-18T09:39:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T09:36:06Z",
+  "last_activity_at": "2026-11-18T09:39:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 61,
-  "rejected": 444,
-  "evaluated": 505
+  "rejected": 447,
+  "evaluated": 508
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 505,
+  "evaluated": 508,
   "filed": 0,
   "parked": 61,
-  "rejected": 444,
+  "rejected": 447,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,62 +83,62 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/30"
+   "detail": "Employers 50/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/39"
+   "heartbeat_at": null,
+   "detail": "Employers 50/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/73"
+   "heartbeat_at": null,
+   "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/32"
+   "heartbeat_at": null,
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/44"
+   "heartbeat_at": null,
+   "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/44"
+   "heartbeat_at": null,
+   "detail": "Employers 45/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:37:13Z",
-   "detail": "Employers 40/59"
+   "heartbeat_at": null,
+   "detail": "Employers 45/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/54"
+   "detail": "Employers 45/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/45"
+   "detail": "Employers 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/41"
+   "detail": "Employers 45/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/31"
+   "detail": "Employers 45/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "109 of 632 units done",
+   "detail": "121 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:36 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 3:39 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1805,6 +1792,13 @@
     "time": "3:36 AM"
    },
    {
+    "company": "Molina Healthcare",
+    "role": "Architect, Information Security - DevSecOps/Application Security - Remote",
+    "reason": "devsecops-title — Partners with development teams, solution architects, DevOps teams, and security stakeholders to embed security controls across the Software Development Lifecycle (SDLC) and support a shift-left DevSecOps model. Title contains DevSecOps — gate fact, never PASS per protocol rule 8.",
+    "where": "builtin.com",
+    "time": "3:38 AM"
+   },
+   {
     "company": "JPMorgan Chase",
     "role": "Lead Architect - Cloud Financial Management, Reporting and AI",
     "reason": "hands-on — Advanced proficiency in Python and at least one additional programming language used for production services. workarounds tried: (1) searched JPMorgan Chase's own careers site for the same Lead Architect - Cloud Financial Management role - no own listing found, (2) alternate route Built In full JD checked.",
@@ -1873,6 +1867,13 @@
     "reason": "cloud-mismatch — Advanced skills in Cloud Solutions including AWS, S3, EC2, Python, Snowflake, SQL, ETL/ELT, Data Warehouse solutions and databases; Amazon Web Services (AWS) – Cloud Practitioner certification required — AWS-first with Python hands-on skills, no Azure. workarounds tried: (1) employer's own Baxter posting sought, BuiltIn full JD read; (2) no alternate Azure-based posting of this req found. Searched W3 employers Baxter International, Medtronic, Siemens Healthineers, Teva Pharmaceuticals, Viatris for IT Architecture Lead, Application Architect, Integration Architect, Data Center Architect, Digital Transformation Architect, Systems Architect, Identity Architect, Technology Architect, Network Security Architect and Chief Architect families.",
     "where": "builtin.com",
     "time": "2:51 AM"
+   },
+   {
+    "company": "U.S. Bank",
+    "role": "Technology Architect (AI & Data)",
+    "reason": "not-remote — This role requires working from a U.S. Bank location three (3) or more days per week. — workarounds tried: (1) full JD on BuiltIn mirroring employer posting, (2) alternate Simplify listing of the related Principal Solutions Architect shows the same three-or-more-days-per-week location requirement, (3) no remote alternate posting found",
+    "where": "builtin.com",
+    "time": "3:38 AM"
    }
   ],
   "onetonline.org": [
@@ -2250,6 +2251,13 @@
     "reason": "non-US — Be aware of the location restriction for this remote position: India",
     "where": "remotive.com",
     "time": "12:28 AM"
+   },
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, IT Architecture",
+    "reason": "hands-on — Hands On Technical Expertise: You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions. This role uniquely blends hands-on technical architecture (60%) with strategic program management and stakeholder engagement (40%). — workarounds tried: (1) full JD on Remotive mirroring employer posting, (2) Adzuna mirror of same Lead, IT Architecture role confirms remote IT infrastructure architect scope without changing the hands-on builder duties, (3) no alternate non-hands-on posting found",
+    "where": "remotive.com",
+    "time": "3:39 AM"
    }
   ],
   "DailyRemote": [
@@ -3168,9 +3176,9 @@
    {
     "company": "Halliburton",
     "role": "Senior Software Solution Architect",
-    "reason": "non-US — Rio de Janeiro, Rio de Janeiro, Brazil",
+    "reason": "not-remote — Rio de Janeiro, Rio de Janeiro, Brazil — employer's own careers page; role is Brazil-remote, not US remote. Also hands-on: Fluency in one or more of: Node.js, Python; Hands-On Delivery: Actively contribute to development. Workarounds tried: (1) employer's own page (governing), (2) Jobgether mirror confirms offer available from South America, Latin America, Brazil, (3) no US posting of same role found",
     "where": "careers.halliburton.com",
-    "time": "12:28 AM"
+    "time": "3:38 AM"
    },
    {
     "company": "Halliburton",
@@ -3705,29 +3713,6 @@
     "reason": "not-remote — Remote/Homebased – This recruitment is open to all Washington residents and those living near the Oregon or Idaho borders and has an in-person/in office expectation of 1-2 days per month for the first 6 months at the DOH office located in Tumwater, WA. workarounds tried: (1) employer's own GovernmentJobs bulletin carries these terms, (2) no alternate fully remote posting of this role found",
     "where": "GovernmentJobs.com sector / Washington DOH (employer own bulletin)",
     "time": "3:14 AM"
-   }
-  ],
-  "Remotive": [
-   {
-    "company": "L3Harris Technologies",
-    "role": "Lead, IT Architecture",
-    "reason": "hands-on — You will be writing code, building infrastructure, and directly implementing platform solutions. — workarounds tried: (1) full JD on Remotive mirror read, (2) alternate route search for same role, (3) no alternate non-hands-on posting found",
-    "where": "Remotive",
-    "time": "12:14 AM"
-   },
-   {
-    "company": "CVS Health / Aetna Technology",
-    "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00 — top above $230,000 cap; workarounds tried: (1) full JD read on Remotive mirror of CVS careers",
-    "where": "Remotive",
-    "time": "12:30 AM"
-   },
-   {
-    "company": "L3Harris Technologies",
-    "role": "Lead, IT Architecture (Platform Architect)",
-    "reason": "hands-on — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions. — workarounds tried: (1) full JD read on Remotive mirror",
-    "where": "Remotive",
-    "time": "12:42 AM"
    }
   ],
   "WeAreDevelopers": [
@@ -4451,15 +4436,6 @@
     "time": "2:53 AM"
    }
   ],
-  "W4": [
-   {
-    "company": "Molina Healthcare",
-    "role": "Architect, Information Security - DevSecOps/Application Security - Remote",
-    "reason": "devsecops-title — Partners with development teams, solution architects, DevOps teams, and security stakeholders to embed security controls across the Software Development Lifecycle (SDLC) and support a shift-left DevSecOps model — title contains DevSecOps (never PASS per standing exclusions)",
-    "where": "W4",
-    "time": "12:36 AM"
-   }
-  ],
   "Remocate": [
    {
     "company": "BP",
@@ -4539,6 +4515,13 @@
     "reason": "not-remote — This position requires at least 2 days per week working onsite at AOC facilities in Olympia. workarounds tried: (1) employer's own posting on the Washington state portal (governmentjobs.com/courtswa) reviewed as governing text; (2) alternate state-portal route is the same posting; (3) no alternate remote posting of this role found",
     "where": "governmentjobs.com",
     "time": "3:31 AM"
+   },
+   {
+    "company": "State of Colorado",
+    "role": "Senior Technical Architect (Salesforce) Remote From Anywhere In Colorado",
+    "reason": "not-remote — All remote work must be performed in Colorado. While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. — workarounds tried: (1) employer's own posting on governmentjobs.com (governing text), (2) Monster mirror of same announcement shows same Colorado-only terms, (3) no alternate posting found",
+    "where": "governmentjobs.com",
+    "time": "3:38 AM"
    }
   ],
   "Simplify Jobs": [
@@ -4938,6 +4921,22 @@
     "time": "12:44 AM"
    }
   ],
+  "Remotive": [
+   {
+    "company": "CVS Health / Aetna Technology",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00 — top above $230,000 cap; workarounds tried: (1) full JD read on Remotive mirror of CVS careers",
+    "where": "Remotive",
+    "time": "12:30 AM"
+   },
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, IT Architecture (Platform Architect)",
+    "reason": "hands-on — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions. — workarounds tried: (1) full JD read on Remotive mirror",
+    "where": "Remotive",
+    "time": "12:42 AM"
+   }
+  ],
   "Built In Boston": [
    {
     "company": "Centene",
@@ -5195,6 +5194,15 @@
     "reason": "not-remote — This is a hybrid position located in Memphis, TN; Plano, TX; or Pittsburgh, PA. Candidates must live within 50 miles of the campus location. — workarounds tried: employer's own careers page (governing text) checked directly.",
     "where": "FedEx careers (employer's own page)",
     "time": "3:27 AM"
+   }
+  ],
+  "devopsjobs.io": [
+   {
+    "company": "State of Georgia",
+    "role": "Info Technology Architect (Cloud Engineer)",
+    "reason": "not-remote — This is an onsite in office position located in Conyers, GA. Must be able to work onsite at DDS headquarters in Conyers, GA. Compensation Details: $95,000 - $110,000 — workarounds tried: (1) full announcement text mirrored from the State of Georgia posting, (2) no alternate remote route for this req found in lane search, (3) no alternate posting found",
+    "where": "devopsjobs.io",
+    "time": "3:39 AM"
    }
   ]
  },
@@ -6375,5 +6383,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T09:37:13Z"
+ "lists_generated_at": "2026-11-18T09:39:39Z"
 }
