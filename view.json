@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:19:44Z",
+ "generated_at": "2026-11-18T19:22:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:18:58Z",
+  "last_activity_at": "2026-11-18T19:21:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 141,
-  "rejected": 1029,
-  "evaluated": 1170
+  "rejected": 1033,
+  "evaluated": 1175
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1170,
+  "evaluated": 1175,
   "filed": 0,
   "parked": 141,
-  "rejected": 1029,
+  "rejected": 1033,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -108,7 +108,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:19:44Z",
+   "heartbeat_at": "2026-11-18T19:22:59Z",
    "detail": "Employers 300/73"
   },
   "W4": {
@@ -229,7 +229,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:19:44Z",
+   "heartbeat_at": "2026-11-18T19:22:59Z",
    "detail": "Employers 300/59"
   },
   "W17": {
@@ -240,7 +240,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:19:44Z",
+   "heartbeat_at": "2026-11-18T19:22:59Z",
    "detail": "Employers 300/54"
   },
   "W18": {
@@ -309,10 +309,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "34 of 34 units done",
+   "state": "active",
+   "detail": "34 of 35 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": "2026-11-18T19:17:30Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -546,10 +546,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:18 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:21 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
    "pool": "W3"
   }
@@ -557,7 +557,7 @@
  "now_viewing": {
   "live": true,
   "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -576,6 +576,20 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "filer_queue": [
+  {
+   "lead_id": 591,
+   "employer": "Amgen",
+   "title": "Principal IS Architect",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "Amgen Workday careers (employer's own ATS)",
+   "winner_disposition_id": 19331,
+   "unit_id": 8898,
+   "unit_created_at": "2026-11-18T19:20:26Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-18T19:21:28Z"
+  },
   {
    "lead_id": 5499,
    "employer": "Blue Cross Blue Shield of North Carolina",
@@ -1090,7 +1104,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 177,
+  "attempted_today": 178,
   "filed_today": 0
  }
 }
