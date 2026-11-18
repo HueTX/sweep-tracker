@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T16:54:25Z",
+ "generated_at": "2026-11-18T16:57:48Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T16:54:08Z",
+  "last_activity_at": "2026-11-18T16:57:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 714,
@@ -28,22 +28,26 @@
  "counts": {
   "filed": 0,
   "parked": 137,
-  "rejected": 917,
-  "evaluated": 1055
+  "rejected": 920,
+  "evaluated": 1058
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1055,
+  "evaluated": 1058,
   "filed": 0,
   "parked": 137,
-  "rejected": 917,
+  "rejected": 920,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
   "W2",
+  "W3",
+  "W4",
   "W17",
-  "W18"
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -87,7 +91,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:54:25Z",
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/30"
   },
   "W2": {
@@ -98,29 +102,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:54:25Z",
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 45/32"
   },
   "W5": {
@@ -241,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:54:25Z",
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/54"
   },
   "W18": {
@@ -252,29 +256,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:54:25Z",
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:57:48Z",
    "detail": "Employers 40/31"
   }
  },
@@ -547,7 +551,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:54 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:57 AM CT · 11 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
@@ -1088,7 +1092,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 172,
@@ -3425,9 +3429,23 @@
    {
     "company": "Mayo Clinic",
     "role": "Distinguished Enterprise Architect - Robotics",
-    "reason": "not-remote — This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus for occasional on-site expectations based on business needs. workarounds tried: employer's own jobs.mayoclinic.org posting opened in full (governing text); pay top $277,867.20 also outside band",
+    "reason": "not-remote — This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus for occasional on-site expectations based on business needs. workarounds tried: (1) employer's own ATS posting opened - governing text above; (2) alternate Mayo remote architect postings checked; (3) no alternate remote posting of this req found.",
     "where": "jobs.mayoclinic.org",
-    "time": "3:47 AM"
+    "time": "10:57 AM"
+   },
+   {
+    "company": "Mayo Clinic",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus for occasional on-site expectations based on business needs. workarounds tried: (1) employer's own ATS posting opened - governing text above; (2) alternate Mayo remote architect postings checked on jobs.mayoclinic.org; (3) no alternate remote posting of this req found.",
+    "where": "jobs.mayoclinic.org",
+    "time": "10:57 AM"
+   },
+   {
+    "company": "Mayo Clinic",
+    "role": "Solution Architect, Revenue Cycle - Remote",
+    "reason": "experience-mismatch — A minimum of three Epic certifications, at least one of which is related to Patient Access/Front-end Revenue Cycle (Prelude, Referrals, Identity) workarounds tried: (1) employer's own ATS posting opened - governing text above; (2) alternate routes checked on Mayo careers list; (3) no alternate posting of this role without the Epic core requirement found.",
+    "where": "jobs.mayoclinic.org",
+    "time": "10:57 AM"
    }
   ],
   "CareerBuilder": [
@@ -4276,13 +4294,6 @@
     "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week effective June 1, 2026. Before June 1, 2026, candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office three days per week, with preference for Tuesday through Thursday. Workarounds tried: (1) full JD on Ladders (employer mirror), (2) alternate Edward Jones NHI postings carry the same office-days text, (3) no alternate fully-remote posting.",
     "where": "Ladders",
     "time": "9:16 AM"
-   },
-   {
-    "company": "Mayo Clinic",
-    "role": "Principal Enterprise Architect",
-    "reason": "not-remote — This is a hybrid position and must be located within 100 miles of a Mayo Clinic campus for occasional on-site expectations based on business needs. — workarounds tried: (1) Mayo's own jobs site carries the same hybrid terms for its Principal Enterprise Architect postings, (2) alternate routes Ladders and ONet mirrors show the same hybrid requirement, (3) no remote alternate posting of the same role found",
-    "where": "Ladders",
-    "time": "6:41 AM"
    },
    {
     "company": "Old Dominion Freight Line",
@@ -5890,6 +5901,13 @@
   ],
   "FlexJobs": [
    {
+    "company": "Molina Healthcare",
+    "role": "Senior Architect, Artificial Intelligence Security - AI Implementation",
+    "reason": "experience-mismatch — Proven, hands-on experience securing AI/ML workloads and data pipelines within Microsoft Azure and Databricks platforms. Proficient in Python and familiarity with data science and AI libraries. workarounds tried: (1) employer's own posting text as carried on FlexJobs with Job ID 2036524; (2) alternate search route for the same req; (3) no alternate posting changing the AI/ML-security core found.",
+    "where": "FlexJobs",
+    "time": "10:57 AM"
+   },
+   {
     "company": "State of Arizona - AHCCCS",
     "role": "Enterprise Data and AI Platform Architect",
     "reason": "not-remote — Posting Details: Must Reside in Arizona. — also pay $90,000-$105,000 below band; workarounds tried: (1) full JD read on FlexJobs mirror of state posting",
@@ -6707,13 +6725,13 @@
     "time": "6:44 AM"
    }
   ],
-  "WeAreDevelopers": [
+  "wearedevelopers.com": [
    {
     "company": "Molina Healthcare",
     "role": "AVP, Infrastructure (IaC / Multi-Cloud Architecture / AI) - REMOTE",
-    "reason": "pay-outside-band — Pay Range: $140,795 - $274,550.26 / ANNUAL — published top $274,550.26 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's JD text as carried in full on WeAreDevelopers, (2) no alternate route for the same req found, (3) no alternate posting with an in-band top.",
-    "where": "WeAreDevelopers",
-    "time": "6:27 AM"
+    "reason": "pay-outside-band — Pay Range: $140,795 - $274,550.26 / ANNUAL workarounds tried: (1) employer's own posting text as carried on the hosting mirror showing the same pay range; (2) alternate listing/search route showing the same $140,795 - $274,550 range; (3) no alternate posting with a different in-band range found.",
+    "where": "wearedevelopers.com",
+    "time": "10:57 AM"
    }
   ],
   "W16": [
@@ -7328,6 +7346,13 @@
     "time": "12:28 AM"
    },
    {
+    "company": "State of Colorado",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "closed — Closing Date 11/8/2026 11:59 PM Mountain A minimum of three (3) years of professional, hands-on experience designing, architecting, and deploying enterprise-grade solutions specifically on Google Cloud Platform (GCP) and Amazon Web Services (AWS)",
+    "where": "GovernmentJobs.com",
+    "time": "10:57 AM"
+   },
+   {
     "company": "Washington State Department of Transportation",
     "role": "TSD Ferries Infrastructure Supervisor (IT Architecture - Senior/Specialist)",
     "reason": "not-remote — This position offers flexible/hybrid remote work options and may require fieldwork that is performed in active traffic areas, aboard operating ferries, and within shipyard environments. — workarounds tried: (1) employer's own GovernmentJobs posting read in full",
@@ -7483,15 +7508,6 @@
     "reason": "not-remote — Solutions Architect Hybrid [3 days on site a week] Portland, OR | Portland General Electric (PGE) is seeking a skilled Senior Solutions architect | workarounds tried: (1) PGE posting via nvoids listing opened in search as governing text checked, (2) alternate PGE postings checked - hybrid/on-site Portland, (3) no remote alternate found",
     "where": "nvoids.com",
     "time": "8:52 AM"
-   }
-  ],
-  "GovernmentJobs.com / NEOGOV agencies": [
-   {
-    "company": "State of Colorado",
-    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
-    "reason": "not-remote — While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. | workarounds tried: (1) employer own ATS - this quote is from governmentjobs.com, the governing state posting, all remote work must be performed in Colorado, (2) alternate route Texas/California/Florida/New York state portals searched, no US-wide remote version of this req, (3) alternate posting - no alternate posting of this req found",
-    "where": "GovernmentJobs.com / NEOGOV agencies",
-    "time": "3:06 AM"
    }
   ],
   "airemotejobs (Google Jobs surface)": [
@@ -9553,6 +9569,15 @@
     "where": "TalentAlly (Capital One mirror)",
     "time": "10:47 AM"
    }
+  ],
+  "Jobsora": [
+   {
+    "company": "Walgreens Boots Alliance",
+    "role": "Principal Systems Engineer I - Power Platform",
+    "reason": "not-remote — Location: This position is based in Deerfield, Illinois, with four days in the office and one day remote each week workarounds tried: (1) full JD opened on the listing route - text above; (2) Walgreens careers route referenced in the JD (jobs.walgreens.com); (3) no alternate fully-remote posting of this role found.",
+    "where": "Jobsora",
+    "time": "10:57 AM"
+   }
   ]
  },
  "lane_companies": {
@@ -10735,5 +10760,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T16:54:25Z"
+ "lists_generated_at": "2026-11-18T16:57:48Z"
 }
