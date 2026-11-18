@@ -1,52 +1,45 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T06:16:35Z",
+ "generated_at": "2026-11-18T06:17:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T06:16:00Z",
+  "last_activity_at": "2026-11-18T06:17:07Z",
   "progress": {
    "pools": 21,
-   "covered_units": 366,
+   "covered_units": 426,
    "total_units": 754,
-   "pct": 49
+   "pct": 56
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 28,
-  "rejected": 32,
-  "evaluated": 60
+  "parked": 29,
+  "rejected": 33,
+  "evaluated": 62
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 60,
+  "evaluated": 62,
   "filed": 0,
-  "parked": 28,
-  "rejected": 32,
+  "parked": 29,
+  "rejected": 33,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -117,35 +110,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/32"
+   "heartbeat_at": null,
+   "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,35 +220,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/59"
+   "heartbeat_at": null,
+   "detail": "Employers 15/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/54"
+   "heartbeat_at": null,
+   "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:16:35Z",
-   "detail": "Employers 10/45"
+   "heartbeat_at": null,
+   "detail": "Employers 15/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "45 of 632 units done",
+   "detail": "51 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:16 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 12:17 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
