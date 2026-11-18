@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T23:03:08Z",
+ "generated_at": "2026-11-18T23:05:17Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T23:02:55Z",
+  "last_activity_at": "2026-11-18T23:03:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 197,
-  "rejected": 1142,
-  "evaluated": 1339
+  "rejected": 1143,
+  "evaluated": 1340
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1339,
+  "evaluated": 1340,
   "filed": 0,
   "parked": 197,
-  "rejected": 1142,
+  "rejected": 1143,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,23 +95,23 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T23:05:17Z",
    "detail": "Employers 226/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T23:05:17Z",
    "detail": "Employers 230/73"
   },
   "W4": {
@@ -121,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 225/44"
+   "heartbeat_at": "2026-11-18T23:05:17Z",
+   "detail": "Employers 230/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 225/44"
+   "heartbeat_at": "2026-11-18T23:05:17Z",
+   "detail": "Employers 230/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,24 +227,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 225/59"
+   "heartbeat_at": "2026-11-18T23:05:17Z",
+   "detail": "Employers 230/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 225/54"
+   "heartbeat_at": "2026-11-18T23:05:17Z",
+   "detail": "Employers 230/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 225/45"
+   "detail": "Employers 230/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 225/41"
+   "detail": "Employers 230/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "502 of 632 units done",
+   "detail": "508 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:02 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:03 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -7731,13 +7744,13 @@
     "time": "4:38 PM"
    }
   ],
-  "Career.io / Travelers": [
+  "Swooped / Travelers": [
    {
     "company": "The Travelers Companies",
     "role": "Lead Architect, Claim",
-    "reason": "pay-outside-band — Salary Range $169,400.00 - $279,600.00 — workarounds tried: (1) Travelers posting text via Career.io mirror carries the nationwide range, top $279,600 above $230,000 ceiling; (2) other Travelers architect mirrors show same range structure; (3) no alternate posting with in-band pay found",
-    "where": "Career.io / Travelers",
-    "time": "12:54 PM"
+    "reason": "pay-outside-band — Salary Range $169,400.00 - $279,600.00; Hybrid - CT - Hartford. workarounds tried: (1) Travelers posting text via Swooped/Indeed mirrors, (2) alternate route Dice/Career.io for same Lead Architect Claim req, (3) alternate posting search - all carry same $279,600 top and hybrid Hartford arrangement",
+    "where": "Swooped / Travelers",
+    "time": "5:03 PM"
    }
   ],
   "GovernmentJobs (State of Nevada portal)": [
@@ -9221,6 +9234,15 @@
     "time": "8:41 AM"
    }
   ],
+  "Michigan Talent / Slalom": [
+   {
+    "company": "Slalom",
+    "role": "Cloud Leader - Senior Principal - Great Lakes",
+    "reason": "not-remote — This role is not eligible for 100% remote work. Employees must live within a commutable distance of the Detroit office and must be willing to be onsite at the client and/or Slalom office when needed. workarounds tried: (1) Slalom posting text via Michigan Talent mirror, (2) alternate route search for same Cloud Leader Senior Principal Great Lakes role, (3) alternate posting search - no fully remote version found",
+    "where": "Michigan Talent / Slalom",
+    "time": "5:03 PM"
+   }
+  ],
   "EPAM Careers": [
    {
     "company": "EPAM Systems",
@@ -9910,13 +9932,13 @@
     "time": "12:37 PM"
    }
   ],
-  "careers.travelers.com": [
+  "Monster / Travelers": [
    {
     "company": "The Travelers Companies",
     "role": "Lead Architect - Database and Data Platform",
-    "reason": "pay-outside-band — Salary Range $173,700.00 – $286,600.00 | Workplace Arrangement: Hybrid | workarounds tried: (1) employer's own ATS posting at careers.travelers.com opened as governing text, (2) alternate route via search mirrors checked, (3) alternate Travelers architect postings checked - same pay/hybrid pattern",
-    "where": "careers.travelers.com",
-    "time": "8:48 AM"
+    "reason": "pay-outside-band — Salary Range $169,400.00 - $279,600.00; Architect cloud-native data and database solutions primarily on AWS, with knowledge of Azure and GCP as a plus. workarounds tried: (1) Travelers posting text via Monster/Career.io mirrors, (2) alternate route search, (3) alternate posting search - same published range",
+    "where": "Monster / Travelers",
+    "time": "5:03 PM"
    }
   ],
   "JPMorgan Chase sector / Monster (JPMorgan mirror)": [
@@ -11604,9 +11626,9 @@
    {
     "company": "Kyndryl",
     "role": "Director, Enterprise Architecture and Technology Strategy",
-    "reason": "pay-outside-band — The compensation range for this position in the US is $179,760 to $341,520 based on a full-time schedule. The Director of Enterprise Architecture & Technology Strategy is responsible for defining and governing the organization’s technology vision, architecture standards, and long-term strategic roadmap. — workarounds tried: (1) Kyndryl posting text via Tallocate mirror carries the U.S. range, top $341,520 above $230,000 ceiling; (2) other Kyndryl mirrors show same director role; (3) no alternate posting with in-band pay found",
+    "reason": "stale — The Director of Enterprise Architecture & Technology Strategy is responsible for defining and governing the organization's technology vision, architecture standards, and long-term strategic roadmap. The compensation range for this position in the US is $179,760 to $341,520 based on a full-time schedule.",
     "where": "Tallocate / Kyndryl",
-    "time": "12:52 PM"
+    "time": "5:03 PM"
    }
   ],
   "Monster / Kyndryl": [
@@ -12960,5 +12982,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T23:03:08Z"
+ "lists_generated_at": "2026-11-18T23:05:17Z"
 }
