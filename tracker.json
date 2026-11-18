@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T04:24:39Z",
+ "generated_at": "2026-11-18T04:27:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T04:24:26Z",
+  "last_activity_at": "2026-11-18T04:26:32Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,22 +27,29 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 236,
-  "rejected": 1238,
+  "parked": 235,
+  "rejected": 1239,
   "evaluated": 1478
  },
  "today": {
   "date": "2026-11-17",
   "evaluated": 1478,
   "filed": 2,
-  "parked": 236,
-  "rejected": 1238,
+  "parked": 235,
+  "rejected": 1239,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,7 +93,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/30"
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -97,7 +104,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/39"
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -108,7 +115,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/73"
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -119,29 +126,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/32"
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/44"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/44"
   },
   "W9": {
    "label": "Dice",
@@ -223,46 +230,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/59"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/54"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/45"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/41"
+   "heartbeat_at": "2026-11-18T04:27:36Z",
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -273,7 +280,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/31"
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -303,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "254 of 632 units done",
+   "detail": "266 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -545,13 +552,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:24 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 10:26 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1763,13 +1776,6 @@
     "reason": "title-not-covered — Design and oversee the implementation of robust IT systems and infrastructure.",
     "where": "theladders.com",
     "time": "6:17 AM"
-   },
-   {
-    "company": "KeyCorp",
-    "role": "Infrastructure Optimization & AI Technical Lead",
-    "reason": "title-not-covered — Fly title not in the unit's listed families (Technical Lead). JD read: We are seeking a Technical Lead who bridges the gap between high-level enterprise architecture and hands-on software development. Develop high-performance, containerized microservices using Python on GCP Cloud Run. 4+ years of hands-on architecture and engineering experience on Google Cloud Platform (GCP). Provisional park per fly-title rule, not a rejection for its title.",
-    "where": "theladders.com",
-    "time": "6:47 PM"
    },
    {
     "company": "HCA Healthcare",
@@ -4301,6 +4307,13 @@
     "reason": "pay-outside-band — S&P Global states that the anticipated base salary range for this position is $220,000 to $350,000. | Architect and operate S&P Global's hybrid, multi-cloud estate across Google Cloud, AWS, and Azure | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate S&P architect postings checked (tops $280,000-$325,000), (3) no in-band alternate posting found",
     "where": "BuiltIn",
     "time": "8:38 PM"
+   },
+   {
+    "company": "KeyCorp",
+    "role": "Infrastructure Optimization & AI Technical Lead",
+    "reason": "cloud-mismatch — We are seeking a Technical Lead who bridges the gap between high-level enterprise architecture and hands-on software development. In this role, you will define and implement scalable GCP architectures while actively writing and reviewing high-quality production code. workarounds tried: (1) employer own ATS posting sought - same JD text carried on BuiltIn/Ladders mirrors, (2) alternate route BuiltIn/Ladders/Dice search for same req, (3) alternate posting of same role on BuiltIn NYC with identical GCP/Python duties and $96,000-$181,000 range",
+    "where": "BuiltIn",
+    "time": "10:26 PM"
    },
    {
     "company": "Johnson Controls",
@@ -14018,5 +14031,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T04:24:39Z"
+ "lists_generated_at": "2026-11-18T04:27:36Z"
 }
