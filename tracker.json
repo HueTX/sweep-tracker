@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T05:07:56Z",
+ "generated_at": "2026-11-18T05:09:56Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T05:07:49Z",
+  "last_activity_at": "2026-11-18T05:08:31Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -43,8 +43,9 @@
   }
  },
  "searching_lanes": [
-  "W2",
-  "W3",
+  "W6",
+  "W16",
+  "W17",
   "W18",
   "W19",
   "W20"
@@ -97,24 +98,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:07:56Z",
-   "detail": "Employers 190/39"
+   "heartbeat_at": null,
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:07:56Z",
-   "detail": "Employers 190/73"
+   "heartbeat_at": null,
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,7 +126,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 184/32"
+   "detail": "Employers 188/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,18 +137,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/44"
+   "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/44"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 195/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,24 +230,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/59"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 195/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/54"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 195/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -256,8 +257,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:07:56Z",
-   "detail": "Employers 185/45"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 195/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -267,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:07:56Z",
-   "detail": "Employers 185/41"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 195/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -278,8 +279,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:07:56Z",
-   "detail": "Employers 181/31"
+   "heartbeat_at": "2026-11-18T05:09:56Z",
+   "detail": "Employers 183/31"
   }
  },
  "stages": {
@@ -309,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "433 of 632 units done",
+   "detail": "450 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -551,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:07 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:08 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 11 of 58 · Domain Architect",
+   "primary": "W6 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 11 of 58 · Domain Architect",
+  "label": "W6",
+  "headline": "W6 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -10759,13 +10760,20 @@
     "time": "6:35 AM"
    }
   ],
-  "Infosys careers (employer's own ATS)": [
+  "Infosys careers": [
    {
     "company": "Infosys",
     "role": "Application Enterprise Architect",
-    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — workarounds tried: (1) employer's own ATS posting (this page, governing text), (2) alternate route via search results for same req 155748BR, (3) no alternate posting with different pay found",
-    "where": "Infosys careers (employer's own ATS)",
-    "time": "2:55 PM"
+    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. workarounds tried: employer own ATS (governing text)",
+    "where": "Infosys careers",
+    "time": "11:08 PM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
+    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 workarounds tried: employer own ATS (governing text)",
+    "where": "Infosys careers",
+    "time": "11:07 PM"
    }
   ],
   "Tallocate": [
@@ -11154,15 +11162,6 @@
     "reason": "not-remote — This is an onsite role based in Atlanta, GA / Dallas, TX /Chicago, IL — workarounds tried: (1) employer's own ATS/careers posting checked as governing text, (2) alternate route mirrors for the same req checked, (3) no alternate posting of the same role with different terms found. ",
     "where": "GrabJobs / Capgemini",
     "time": "2:43 AM"
-   }
-  ],
-  "Infosys careers": [
-   {
-    "company": "Infosys",
-    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal",
-    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 workarounds tried: employer own ATS (governing text)",
-    "where": "Infosys careers",
-    "time": "11:07 PM"
    }
   ],
   "Remotive (StackAdapt mirror)": [
@@ -14313,5 +14312,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T05:07:56Z"
+ "lists_generated_at": "2026-11-18T05:09:56Z"
 }
