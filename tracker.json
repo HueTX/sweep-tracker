@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T05:14:35Z",
+ "generated_at": "2026-11-18T05:16:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T05:13:50Z",
+  "last_activity_at": "2026-11-18T05:15:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,27 +28,27 @@
  "counts": {
   "filed": 2,
   "parked": 239,
-  "rejected": 1275,
-  "evaluated": 1518
+  "rejected": 1276,
+  "evaluated": 1519
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1518,
+  "evaluated": 1519,
   "filed": 2,
   "parked": 239,
-  "rejected": 1275,
+  "rejected": 1276,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W2",
-  "W3",
   "W5",
   "W6",
-  "W19",
-  "W20"
+  "W16",
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -98,24 +98,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 210/39"
+   "heartbeat_at": null,
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 210/73"
+   "heartbeat_at": null,
+   "detail": "Employers 220/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -136,8 +136,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 210/44"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,8 +147,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 210/44"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,35 +230,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 210/59"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 210/54"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 210/45"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,19 +268,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 205/41"
+   "heartbeat_at": "2026-11-18T05:16:59Z",
+   "detail": "Employers 215/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T05:14:35Z",
-   "detail": "Employers 185/31"
+   "heartbeat_at": null,
+   "detail": "Employers 186/31"
   }
  },
  "stages": {
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "474 of 632 units done",
+   "detail": "486 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:13 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:15 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W5 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W5",
+  "headline": "W5 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -3385,6 +3385,13 @@
     "time": "3:09 AM"
    },
    {
+    "company": "eBay",
+    "role": "Cloud Architect",
+    "reason": "cloud-mismatch — As a Cloud Architect, you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment. Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) full JD read on Built In and Simplify mirrors of the eBay/TCGplayer posting, (2) alternate eBay architect postings checked (Principal Cloud Security Architect is security-specialist), (3) no Azure-led variant found - this role is AWS-first",
+    "where": "builtin.com",
+    "time": "11:15 PM"
+   },
+   {
     "company": "Pfizer",
     "role": "Senior Director, Principal Technical Architect",
     "reason": "not-remote — Work Location Assignment: Hybrid. On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote. workarounds tried: (1) Pfizer own posting via Built In mirror read in full - governing hybrid terms; (2) alternate Built In Chicago route, same terms; (3) no remote alternate posting of this role found.",
@@ -3401,9 +3408,9 @@
    {
     "company": "Kimberly-Clark",
     "role": "Principal Enterprise Architect, Merges and Acquisitions",
-    "reason": "stale — Principal Enterprise Architect, Merges and Acquisitions(Remote) - Primary Location No-KC Site Brazil; Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA. Published: 2025-06-15 - the finding listing's own date is more than 7 days before 2026-11-17, its locations are outside the United States, and no surface shows activity within 7 days.",
+    "reason": "not-remote — Primary Location No-KC Site Brazil; Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA; #LI-Hybrid. workarounds tried: (1) full JD read on Built In mirror of Kimberly-Clark posting, (2) alternate search routes for a US-remote variant of this M&A architect req found none, (3) no alternate US posting of the same role found",
     "where": "builtin.com",
-    "time": "2:51 PM"
+    "time": "11:14 PM"
    },
    {
     "company": "NTT DATA",
@@ -5306,13 +5313,6 @@
     "time": "6:38 PM"
    },
    {
-    "company": "eBay",
-    "role": "Cloud Architect",
-    "reason": "stale — Published: 2025-07-31. Also AWS-first: Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) Built In full JD read as finding surface, (2) eBay/TCGplayer careers site referenced in the JD, (3) no fresher alternate posting of this role found in search",
-    "where": "Built In",
-    "time": "8:13 PM"
-   },
-   {
     "company": "Chubb",
     "role": "Chief Architect, Global Platforms",
     "reason": "stale — Published: 2026-08-14; The pay range for the role is $159,300 to $270,700. — workarounds tried: Built In finding route and SonicJobs alternate route, same August 2026 posting",
@@ -5325,13 +5325,6 @@
     "reason": "not-remote — Position Type Office-Based Physical work site required Yes workarounds tried: (1) Built In full JD carrying Highmark/enGen text - office-based governing, (2) Highmark careers route - same office-based role, (3) no fully remote alternate found",
     "where": "Built In",
     "time": "12:43 PM"
-   },
-   {
-    "company": "The Hartford",
-    "role": "Sr. Cloud Architect",
-    "reason": "hands-on — This will be a HANDS-ON role building IaC and Cloud platforms to support POCs of new technologies. Create architecture patterns for Cloud Data ecosystems (including AWS Cloud, PySpark, Snowflake, Tableau and ThoughtSpot). workarounds tried: (1) employer posting text via Built In mirror, (2) alternate routes searched same Hartford role, (3) no alternate posting removing hands-on IaC/PySpark core",
-    "where": "Built In",
-    "time": "3:12 PM"
    },
    {
     "company": "Regeneron Pharmaceuticals",
@@ -6839,13 +6832,6 @@
     "time": "10:21 AM"
    },
    {
-    "company": "NYU Langone Health",
-    "role": "Enterprise Cloud Architect - AWS",
-    "reason": "cloud-mismatch — 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture — Preferred certification: AWS certified Cloud Architect Professional. workarounds tried: DiversityJobs full JD + Indeed full JD for the same req.",
-    "where": "DiversityJobs",
-    "time": "3:08 PM"
-   },
-   {
     "company": "Rackspace Technology",
     "role": "Senior Cloud Solutions Architect - Network Specialist",
     "reason": "pay-outside-band — The base pay for this position ranges from $ 161,000/year in our lowest geographic market up to $ 275,000/year in our highest geographic market. | Hands-On Technical Implementation - Develop, configure and deploy cloud infrastructure using Infrastructure as Code (Terraform, CloudFormation, ARM templates) | workarounds tried: (1) employer posting text via DiversityJobs mirror checked, (2) alternate Rackspace postings checked, (3) no in-band alternate posting found",
@@ -7179,6 +7165,13 @@
     "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location. — workarounds tried: (1) employer's own DTE posting, governing hybrid text, Detroit, Michigan; (2) alternate route diversityjobs, same hybrid text; (3) alternate posting of same role, none remote found",
     "where": "diversityjobs.com",
     "time": "10:34 PM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Enterprise Cloud Architect - AWS",
+    "reason": "cloud-mismatch — 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture; Preferred certification: AWS certified Cloud Architect Professional; In Depth experience with AWS Cloud Multi-Tenant implementation. workarounds tried: (1) full JD read on diversityjobs mirror of NYU Langone posting, (2) alternate NYU Langone architect postings checked in search (Sr Network Multi Cloud Engineer is engineer-level, not this req), (3) no Azure-led variant of this role found - the role is AWS-first by title and requirements",
+    "where": "diversityjobs.com",
+    "time": "11:14 PM"
    },
    {
     "company": "Rackspace Technology",
@@ -9036,13 +9029,6 @@
     "reason": "pay-outside-band — The U.S. pay range for this position is $199,700 - $334,150 annually. workarounds tried: (1) Jobgether full JD read mirroring Adobe's own posting with same range, (2) RemoteRocketship mirror of Adobe's careers page shows same role, (3) no alternate posting with a different range found - top $334,150 exceeds the $230,000 band ceiling",
     "where": "Jobgether",
     "time": "9:40 PM"
-   },
-   {
-    "company": "EPAM Systems",
-    "role": "Azure Cloud Architect",
-    "reason": "not-remote — This a Full Remote job, the offer is available from: Europe, EMEA, Ukraine — workarounds tried: Jobgether finding route and EPAM alternate listings (Azure Systems Architect, same Europe/EMEA availability), no US-remote posting of the role",
-    "where": "Jobgether",
-    "time": "2:57 AM"
    }
   ],
   "Working Nomads / Rackspace JD": [
@@ -10447,6 +10433,13 @@
     "time": "3:29 PM"
    },
    {
+    "company": "EPAM Systems",
+    "role": "Azure Cloud Architect",
+    "reason": "not-remote — This a Full Remote job, the offer is available from: Europe, EMEA, Ukraine. workarounds tried: (1) full listing read on Jobgether (EPAM's mirror), (2) JobzMall EPAM Azure Cloud Architect listing checked - 100% remote with no US location, (3) no US-based variant of this EPAM req found; the role is not open to US-based remote workers",
+    "where": "jobgether.com",
+    "time": "11:15 PM"
+   },
+   {
     "company": "New York Life",
     "role": "Corporate Vice President - Google Cloud Lead Engineer (GCP)",
     "reason": "cloud-mismatch — New York Life is seeking an experienced Google Cloud Lead Engineer to drive enterprise-scale cloud architecture, modernization, and operational excellence across our Google Cloud Platform (GCP) environment.",
@@ -10461,6 +10454,22 @@
     "reason": "pay-outside-band — Hiring Range: The hiring range for the Principal, IT Technical Architect [Req ID 10762] position is $109,900.00 to $142,600.00. Location: Honolulu - Oahu. workarounds tried: (1) employer's own careers page read in full - governing text, same range; (2) Dice alternate route, same req 10762; (3) no alternate posting with a different range found.",
     "where": "careers.hawaiianelectric.com",
     "time": "8:27 PM"
+   }
+  ],
+  "builtinchicago.org": [
+   {
+    "company": "The Hartford",
+    "role": "Sr. Cloud Architect",
+    "reason": "stale — The Hartford's Data Analytics and AI Office (DAIO) - and Data Platform Services (DPS) Team is seeking a Senior Cloud Architect. Published: 2025-12-11 - posting date is outside the 7-day eligibility window with no fresher repost found. workarounds tried: (1) full JD read on Built In Chicago mirror, (2) alternate Hartford architect postings searched, (3) no refreshed/reposted variant of req IE07NE found",
+    "where": "builtinchicago.org",
+    "time": "11:15 PM"
+   },
+   {
+    "company": "Fortive",
+    "role": "Lead Data Engineer",
+    "reason": "stale — In this position, you'd lead a team of data engineers providing direction, training, and guidance to implement software solutions. — the Built In listing shows this Fortive posting published 2026-02-14, far outside the 7-day eligibility window, with no newer surface activity",
+    "where": "builtinchicago.org",
+    "time": "9:26 AM"
    }
   ],
   "Palo Alto Networks careers (employer's own page)": [
@@ -10595,13 +10604,6 @@
     "reason": "not-remote — Location: Houston, TX, United States Workplace: Hybrid Schedule: Full time, Day Posted: 2026-11-05. workarounds tried: (1) Jooble full JD read, (2) employer's own Oracle candidate page for job 427927 checked in search, (3) Built In alternate posting of the same Sr. Data Security Architect role",
     "where": "Jooble",
     "time": "8:14 PM"
-   },
-   {
-    "company": "Johnson Controls",
-    "role": "Sr. Solution Architect",
-    "reason": "not-remote — SALARY RANGE: $140,000 - $160,000 #LI-HYBRID Johnson Controls International plc. Location: Milwaukee-Wisconsin-United States of America; Dallas-Texas-United States of America. workarounds tried: (1) employer careers text via Jooble mirror, (2) alternate Johnson Controls listings same hybrid tag, (3) no remote alternate posting found",
-    "where": "Jooble",
-    "time": "3:14 PM"
    },
    {
     "company": "BayOne Solutions",
@@ -11614,6 +11616,22 @@
     "time": "1:25 PM"
    }
   ],
+  "jooble.org": [
+   {
+    "company": "Johnson Controls",
+    "role": "Sr. Solution Architect",
+    "reason": "not-remote — #LI-HYBRID; Location: Milwaukee-Wisconsin-United States of America; Dallas-Texas-United States of America. workarounds tried: (1) full JD read on Jooble mirror of Johnson Controls posting (reposted 2026-11-17), (2) Johnson Controls careers site referenced in the JD carries the same hybrid designation, (3) no remote variant of this AI Solution Architect role found",
+    "where": "jooble.org",
+    "time": "11:15 PM"
+   },
+   {
+    "company": "Banner Health",
+    "role": "Solution Architect",
+    "reason": "experience-mismatch — As a Solution Architect , you will oversee the health, performance, and scalability of the organization's end-to-end data ecosystem, ensuring seamless operation across all layers of the data architecture. workarounds tried: (1) employer text via Jooble mirror of Banner posting, (2) alternate Banner route via Simplify (different req, Technical Solution Architect 2, recorded separately), (3) no alternate posting of this Rev Cycle Analytics req found",
+    "where": "jooble.org",
+    "time": "9:54 PM"
+   }
+  ],
   "BuiltIn Chicago (MetLife mirror)": [
    {
     "company": "MetLife",
@@ -11836,6 +11854,15 @@
     "reason": "pay-outside-band — The anticipated base salary range for this role is $111,600 to $139,500 per year. — workarounds tried: (1) employer's own careers posting is the governing text, shows the same range, Dallas TX preferred location and #LI-Hybrid, (2) no alternate route for req 130698 found, (3) no alternate posting of this role with different terms found",
     "where": "Hershey careers (careers.thehersheycompany.com)",
     "time": "10:51 AM"
+   }
+  ],
+  "careersingovernment.com": [
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Fire Applications)",
+    "reason": "not-remote — Reporting Location: 500 Jefferson, Houston, TX 77002; Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM. workarounds tried: (1) employer's own portal governmentjobs.com/careers/houston is the governing source and lists an on-site reporting location with no remote option, (2) alternate mirrors careersingovernment.com and career.io carry the same on-site terms, (3) no remote variant of this posting found",
+    "where": "careersingovernment.com",
+    "time": "11:14 PM"
    }
   ],
   "TechnipFMC careers": [
@@ -12525,15 +12552,6 @@
     "time": "9:26 AM"
    }
   ],
-  "builtinchicago.org": [
-   {
-    "company": "Fortive",
-    "role": "Lead Data Engineer",
-    "reason": "stale — In this position, you'd lead a team of data engineers providing direction, training, and guidance to implement software solutions. — the Built In listing shows this Fortive posting published 2026-02-14, far outside the 7-day eligibility window, with no newer surface activity",
-    "where": "builtinchicago.org",
-    "time": "9:26 AM"
-   }
-  ],
   "Columbus Job Board": [
    {
     "company": "Aflac",
@@ -13043,15 +13061,6 @@
     "reason": "stale — The Principal Engineer will provide technical leadership for the DNA ARC Cloud platform, a mission critical regulatory reporting system that supports high volume workloads, including the Consolidated Audit Trail (CAT) program. This role offers a unique opportunity to lead one of the Bank's most visible cloud transformation initiatives, helping shape the migration of a strategic regulatory platform to AWS. Published: 2026-09-09 — more than 7 days before 2026-11-17, no fresher repost found. Workarounds tried: (1) employer's own Bank of America careers page (job 26033125) carries the same September date; (2) alternate route BuiltIn mirror carries the same JD; (3) no refreshed posting found.",
     "where": "Bank of America careers (employer's own page)",
     "time": "9:27 PM"
-   }
-  ],
-  "jooble.org": [
-   {
-    "company": "Banner Health",
-    "role": "Solution Architect",
-    "reason": "experience-mismatch — As a Solution Architect , you will oversee the health, performance, and scalability of the organization's end-to-end data ecosystem, ensuring seamless operation across all layers of the data architecture. workarounds tried: (1) employer text via Jooble mirror of Banner posting, (2) alternate Banner route via Simplify (different req, Technical Solution Architect 2, recorded separately), (3) no alternate posting of this Rev Cycle Analytics req found",
-    "where": "jooble.org",
-    "time": "9:54 PM"
    }
   ],
   "flexjobs.com": [
@@ -14350,5 +14359,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T05:14:35Z"
+ "lists_generated_at": "2026-11-18T05:16:59Z"
 }
