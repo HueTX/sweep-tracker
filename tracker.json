@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T06:27:10Z",
+ "generated_at": "2026-11-18T06:29:18Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,38 +15,40 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T06:26:45Z",
+  "last_activity_at": "2026-11-18T06:28:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 706,
+   "covered_units": 722,
    "total_units": 754,
-   "pct": 94
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 28,
-  "rejected": 49,
-  "evaluated": 77
+  "parked": 29,
+  "rejected": 60,
+  "evaluated": 90
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 77,
+  "evaluated": 90,
   "filed": 0,
-  "parked": 28,
-  "rejected": 49,
+  "parked": 29,
+  "rejected": 60,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W2",
   "W3",
   "W4",
   "W5",
   "W6",
-  "W16"
+  "W17",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,19 +92,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 30/30"
+   "heartbeat_at": "2026-11-18T06:29:18Z",
+   "detail": "Employers 35/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 25/39"
+   "heartbeat_at": null,
+   "detail": "Employers 35/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,8 +114,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 25/73"
+   "heartbeat_at": "2026-11-18T06:29:18Z",
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,8 +125,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 25/32"
+   "heartbeat_at": "2026-11-18T06:29:18Z",
+   "detail": "Employers 30/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,8 +136,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": "2026-11-18T06:29:18Z",
+   "detail": "Employers 30/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,8 +147,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 25/44"
+   "heartbeat_at": "2026-11-18T06:29:18Z",
+   "detail": "Employers 30/44"
   },
   "W9": {
    "label": "Dice",
@@ -228,56 +230,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 35/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:27:10Z",
-   "detail": "Employers 30/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:29:18Z",
    "detail": "Employers 30/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:29:18Z",
    "detail": "Employers 30/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:29:18Z",
    "detail": "Employers 30/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:29:18Z",
    "detail": "Employers 30/31"
   }
  },
@@ -308,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "81 of 632 units done",
+   "detail": "89 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -550,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:26 AM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:28 AM CT · 10 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1062,8 +1064,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 32,
@@ -1239,6 +1241,15 @@
     "time": "12:14 AM"
    }
   ],
+  "theladders.com": [
+   {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
+    "reason": "title-not-covered — Defines and maintains Molina's security architecture framework for artificial intelligence and machine learning systems, evolving it as capabilities, deployment approaches, and threats change.",
+    "where": "theladders.com",
+    "time": "12:28 AM"
+   }
+  ],
   "UnitedHealth Group careers": [
    {
     "company": "UnitedHealth Group / Optum",
@@ -1302,6 +1313,66 @@
     "reason": "stale — The Principal Architect coordinates the implementation and integration of complex application solutions while providing technical leadership and subject matter expertise.",
     "where": "DailyRemote (CommonSpirit Health mirror)",
     "time": "12:09 AM"
+   }
+  ],
+  "builtin.com": [
+   {
+    "company": "Highmark",
+    "role": "Senior Enterprise Solution Architect",
+    "reason": "not-remote — Position Type Office-Based Physical work site required Yes workarounds tried: (1) Highmark/enGen careers searches, (2) BuiltIn mirror (this page, full JD), (3) alternate searches for same role - no remote version found.",
+    "where": "builtin.com",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "Citigroup",
+    "role": "Senior Platform Architect",
+    "reason": "pay-outside-band — Primary Location Full Time Salary Range:$156,160.00 - $234,240.00 workarounds tried: (1) Citigroup careers searches, (2) BuiltIn mirror (this page, governing salary shown), (3) alternate searches for same role - no in-band version found.",
+    "where": "builtin.com",
+    "time": "12:26 AM"
+   },
+   {
+    "company": "JPMorgan Chase",
+    "role": "Sr Principal Infrastructure Architect - Infrastructure Platform",
+    "reason": "stale — Published: 2026-10-22 workarounds tried: (1) JPMorgan Chase careers searches, (2) BuiltIn mirror (this page), (3) alternate searches for same role - no fresher repost found.",
+    "where": "builtin.com",
+    "time": "12:26 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Full-time salary range (GEOZONE 4): :$133500.00 - $247900.00 workarounds tried: (1) Lockheed Martin careers searches, (2) BuiltIn mirror (this page), (3) alternate searches - all geozone tops exceed $230,000.",
+    "where": "builtin.com",
+    "time": "12:26 AM"
+   },
+   {
+    "company": "JPMorgan Chase",
+    "role": "Lead Architect - Cloud Financial Management, Reporting and AI",
+    "reason": "hands-on — Advanced proficiency in Python and at least one additional programming language used for production services. workarounds tried: (1) searched JPMorgan Chase's own careers site for the same Lead Architect - Cloud Financial Management role - no own listing found, (2) alternate route Built In full JD checked.",
+    "where": "builtin.com",
+    "time": "12:20 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (2) alternate route Built In full JD checked, reproducing employer requisition 2390520; top $230,800 is above the $230,000 band top.",
+    "where": "builtin.com",
+    "time": "12:22 AM"
+   },
+   {
+    "company": "Walmart",
+    "role": "(USA) Staff, Systems and Infrastructure Engineer",
+    "reason": "stale — Published: 2026-09-23 workarounds tried: (1) Walmart careers search for Staff Infrastructure Engineer, (2) BuiltIn mirror (this page), (3) alternate searches - no fresher repost found.",
+    "where": "builtin.com",
+    "time": "12:25 AM"
+   }
+  ],
+  "remotive.com": [
+   {
+    "company": "Baker Hughes",
+    "role": "Digital Technology Senior Specialist - Enterprise Architecture",
+    "reason": "non-US — Be aware of the location restriction for this remote position: India",
+    "where": "remotive.com",
+    "time": "12:28 AM"
    }
   ],
   "Gainwell careers": [
@@ -1388,6 +1459,24 @@
     "time": "12:25 AM"
    }
   ],
+  "careers.halliburton.com": [
+   {
+    "company": "Halliburton",
+    "role": "Senior Software Solution Architect",
+    "reason": "non-US — Rio de Janeiro, Rio de Janeiro, Brazil",
+    "where": "careers.halliburton.com",
+    "time": "12:28 AM"
+   }
+  ],
+  "talentally.com": [
+   {
+    "company": "Capital One",
+    "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) Capital One careers searches, (2) TalentAlly mirror (this page, full JD), (3) alternate Capital One postings of same role - same out-of-band range.",
+    "where": "talentally.com",
+    "time": "12:28 AM"
+   }
+  ],
   "CareFirst careers (employer own)": [
    {
     "company": "CareFirst",
@@ -1406,50 +1495,6 @@
     "time": "12:00 AM"
    }
   ],
-  "builtin.com": [
-   {
-    "company": "Citigroup",
-    "role": "Senior Platform Architect",
-    "reason": "pay-outside-band — Primary Location Full Time Salary Range:$156,160.00 - $234,240.00 workarounds tried: (1) Citigroup careers searches, (2) BuiltIn mirror (this page, governing salary shown), (3) alternate searches for same role - no in-band version found.",
-    "where": "builtin.com",
-    "time": "12:26 AM"
-   },
-   {
-    "company": "JPMorgan Chase",
-    "role": "Sr Principal Infrastructure Architect - Infrastructure Platform",
-    "reason": "stale — Published: 2026-10-22 workarounds tried: (1) JPMorgan Chase careers searches, (2) BuiltIn mirror (this page), (3) alternate searches for same role - no fresher repost found.",
-    "where": "builtin.com",
-    "time": "12:26 AM"
-   },
-   {
-    "company": "Lockheed Martin",
-    "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Full-time salary range (GEOZONE 4): :$133500.00 - $247900.00 workarounds tried: (1) Lockheed Martin careers searches, (2) BuiltIn mirror (this page), (3) alternate searches - all geozone tops exceed $230,000.",
-    "where": "builtin.com",
-    "time": "12:26 AM"
-   },
-   {
-    "company": "JPMorgan Chase",
-    "role": "Lead Architect - Cloud Financial Management, Reporting and AI",
-    "reason": "hands-on — Advanced proficiency in Python and at least one additional programming language used for production services. workarounds tried: (1) searched JPMorgan Chase's own careers site for the same Lead Architect - Cloud Financial Management role - no own listing found, (2) alternate route Built In full JD checked.",
-    "where": "builtin.com",
-    "time": "12:20 AM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (2) alternate route Built In full JD checked, reproducing employer requisition 2390520; top $230,800 is above the $230,000 band top.",
-    "where": "builtin.com",
-    "time": "12:22 AM"
-   },
-   {
-    "company": "Walmart",
-    "role": "(USA) Staff, Systems and Infrastructure Engineer",
-    "reason": "stale — Published: 2026-09-23 workarounds tried: (1) Walmart careers search for Staff Infrastructure Engineer, (2) BuiltIn mirror (this page), (3) alternate searches - no fresher repost found.",
-    "where": "builtin.com",
-    "time": "12:25 AM"
-   }
-  ],
   "jobs.gxo.com": [
    {
     "company": "GXO Logistics",
@@ -1466,6 +1511,43 @@
     "reason": "pay-outside-band — $128,172 - $272,736. Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run, AlloyDB, BigQuery, Pub/Sub, and Eventarc. workarounds tried: (1) employer's own UPS careers search found no alternate posting of this Flex role with a different range, (2) alternate route via Teal full-JD mirror with the same range and GCP-first design, (3) no alternate posting of this role with a different range found",
     "where": "Teal (UPS mirror)",
     "time": "12:07 AM"
+   }
+  ],
+  "GovernmentJobs.com": [
+   {
+    "company": "Washington State Department of Health",
+    "role": "Sr Enterprise Architect – National 988 Crisis System Project",
+    "reason": "not-remote — Remote/Homebased – This recruitment is open to all Washington residents and those living near the Oregon or Idaho borders and has an in-person/in office expectation of 1-2 days per month for the first 6 months at the DOH office located in Tumwater, WA. — workarounds tried: (1) employer's own GovernmentJobs posting read in full",
+    "where": "GovernmentJobs.com",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "Los Angeles County Office of Education",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — These positions are hybrid, with periodic in-person meetings; candidates in the Los Angeles area are preferred. Fully remote arrangements may be considered for exceptionally qualified candidates. — workarounds tried: (1) employer's own GovernmentJobs posting read in full",
+    "where": "GovernmentJobs.com",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "State of Colorado Governor's Office of Information Technology",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "cloud-mismatch — A minimum of three (3) years of professional, hands-on experience designing, architecting, and deploying enterprise-grade solutions specifically on Google Cloud Platform (GCP) and Amazon Web Services (AWS)",
+    "where": "GovernmentJobs.com",
+    "time": "12:00 AM"
+   },
+   {
+    "company": "NEOGOV",
+    "role": "Software Architect",
+    "reason": "hands-on — As an Architect you will define and maintain the technical vision while staying deeply hands-on - writing production-ready code alongside your teams across several of our SaaS products. This role is approximately 50-75% hands-on development",
+    "where": "GovernmentJobs.com",
+    "time": "12:00 AM"
+   },
+   {
+    "company": "King County, WA",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — The work associated with this position will be performed through a combination of onsite work and telecommuting. Employees will have access to shared workspaces at various King County facilities. Employees must reside in Washington state and within a reasonable distance to their King County worksite — workarounds tried: (1) employer's own GovernmentJobs posting read in full",
+    "where": "GovernmentJobs.com",
+    "time": "12:28 AM"
    }
   ],
   "Remotive": [
@@ -1540,22 +1622,6 @@
     "time": "12:25 AM"
    }
   ],
-  "GovernmentJobs.com": [
-   {
-    "company": "State of Colorado Governor's Office of Information Technology",
-    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
-    "reason": "cloud-mismatch — A minimum of three (3) years of professional, hands-on experience designing, architecting, and deploying enterprise-grade solutions specifically on Google Cloud Platform (GCP) and Amazon Web Services (AWS)",
-    "where": "GovernmentJobs.com",
-    "time": "12:00 AM"
-   },
-   {
-    "company": "NEOGOV",
-    "role": "Software Architect",
-    "reason": "hands-on — As an Architect you will define and maintain the technical vision while staying deeply hands-on - writing production-ready code alongside your teams across several of our SaaS products. This role is approximately 50-75% hands-on development",
-    "where": "GovernmentJobs.com",
-    "time": "12:00 AM"
-   }
-  ],
   "Workday careers (employer own)": [
    {
     "company": "Workday",
@@ -1615,6 +1681,34 @@
     "reason": "not-remote — THIS POSITION IS NOT ELIGIBILE FOR REMOTE TELEWORK.",
     "where": "USAJOBS",
     "time": "12:00 AM"
+   },
+   {
+    "company": "Defense Logistics Agency",
+    "role": "IT Specialist (ENTARCH)",
+    "reason": "cloud-mismatch — Design, build, and directly deploy scalable enterprise cloud architectures with a specific focus on Google Cloud Platform (GCP), ensuring strict alignment with DoW mission objectives — workarounds tried: (1) employer's own USAJOBS posting read in full",
+    "where": "USAJOBS",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "Department of Defense - NC3 Enterprise Center",
+    "role": "IT SPECIALIST (ENTARCH)",
+    "reason": "clearance — The incumbent will be required to obtain and maintain a Top Secret/Sensitive Compartmented Information (TS/SCI) security clearance as a condition of employment.",
+    "where": "USAJOBS",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "U.S. Department of Education - Federal Student Aid",
+    "role": "IT Specialist (ENTARCH), GS-14 FPL GS-14 (DH)",
+    "reason": "stale — This position is eligible for Remote/Virtual work. However, this position may fall under the Presidential Memorandum titled \"Return to In-Person Work\" — posting dated 2026-08-25, outside 7-day eligibility, no repost evidence",
+    "where": "USAJOBS",
+    "time": "12:28 AM"
+   },
+   {
+    "company": "Department of Veterans Affairs",
+    "role": "IT Specialist (Enterprise Architecture)",
+    "reason": "stale — Remote: Yes — posting dated 2024-11-25, outside 7-day eligibility",
+    "where": "USAJOBS",
+    "time": "12:28 AM"
    }
   ],
   "insightglobal.com/jobs (employer's own portal)": [
@@ -2896,5 +2990,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T06:27:10Z"
+ "lists_generated_at": "2026-11-18T06:29:18Z"
 }
