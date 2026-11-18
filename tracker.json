@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:22:35Z",
+ "generated_at": "2026-11-18T03:24:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -15,19 +15,19 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:20:48Z",
+  "last_activity_at": "2026-11-18T03:23:37Z",
   "progress": {
    "pools": 21,
-   "covered_units": 396,
+   "covered_units": 406,
    "total_units": 754,
-   "pct": 53
+   "pct": 54
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 2,
-  "parked": 226,
+  "parked": 227,
   "rejected": 1194,
   "evaluated": 1425
  },
@@ -35,7 +35,7 @@
   "date": "2026-11-17",
   "evaluated": 1425,
   "filed": 2,
-  "parked": 226,
+  "parked": 227,
   "rejected": 1194,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
@@ -45,7 +45,6 @@
  "searching_lanes": [
   "W16",
   "W17",
-  "W18",
   "W19",
   "W20"
  ],
@@ -234,7 +233,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:22:35Z",
+   "heartbeat_at": "2026-11-18T03:24:40Z",
    "detail": "Employers 10/59"
   },
   "W17": {
@@ -245,19 +244,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:22:35Z",
+   "heartbeat_at": "2026-11-18T03:24:40Z",
    "detail": "Employers 10/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:22:35Z",
-   "detail": "Employers 10/45"
+   "heartbeat_at": null,
+   "detail": "Employers 15/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -267,7 +266,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:22:35Z",
+   "heartbeat_at": "2026-11-18T03:24:40Z",
    "detail": "Employers 10/41"
   },
   "W20": {
@@ -278,7 +277,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:22:35Z",
+   "heartbeat_at": "2026-11-18T03:24:40Z",
    "detail": "Employers 10/31"
   }
  },
@@ -309,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "48 of 632 units done",
+   "detail": "49 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -551,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:20 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:23 PM CT · 4 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W16 · Title 21 of 58 · IT Architecture Lead",
@@ -1063,8 +1062,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 268,
@@ -2981,6 +2980,15 @@
     "where": "JobLeads",
     "time": "9:19 PM"
    }
+  ],
+  "W1": [
+   {
+    "company": "GDIT",
+    "role": "Multi-Cloud Lead Architect - FinOps & Cloud Platforms",
+    "reason": "not-evaluated — Employer's own GDIT careers page for RQ215962 could not be located or opened via GDIT careers search; mirrors (Career.io/Jobright) show the full JD with 100% remote, $170,000 - $230,000, Public Trust NACI (T1) only, but a PASS requires the employer's own page, so parked not-evaluated.",
+    "where": "W1",
+    "time": "9:23 PM"
+   }
   ]
  },
  "today_rejected": {
@@ -4599,13 +4607,6 @@
     "time": "8:13 PM"
    },
    {
-    "company": "RTX",
-    "role": "Sr. Multi-Disciplined Systems Architect (REMOTE)",
-    "reason": "clearance — Security Clearance Status: Active and existing security clearance required after day 1; Active and existing Secret security clearance (within the last 24 months)",
-    "where": "Built In",
-    "time": "8:12 AM"
-   },
-   {
     "company": "Chubb",
     "role": "Chief Architect, Global Platforms",
     "reason": "stale — Published: 2026-08-14; The pay range for the role is $159,300 to $270,700. — workarounds tried: Built In finding route and SonicJobs alternate route, same August 2026 posting",
@@ -5327,13 +5328,6 @@
     "reason": "clearance — TS//SCI Clearance",
     "where": "BuiltIn",
     "time": "9:10 PM"
-   },
-   {
-    "company": "Lockheed Martin",
-    "role": "Staff Systems Architect",
-    "reason": "stale — Published: 2026-11-04 | Full-time salary range (GEOZONE 1): $150800.00 - $280000.00 | Posting date 2026-11-04 is 13 days before the 2026-11-17 sweep date, outside the 7-day eligibility window, with no repost activity shown on the finding surface.",
-    "where": "BuiltIn",
-    "time": "4:34 PM"
    },
    {
     "company": "Palo Alto Networks",
@@ -9563,13 +9557,22 @@
     "time": "5:02 PM"
    }
   ],
-  "RTX careers (employer's own board)": [
+  "BuiltIn (RTX mirror)": [
+   {
+    "company": "RTX",
+    "role": "Sr. Multi-Disciplined Systems Architect (REMOTE)",
+    "reason": "pay-outside-band — The salary range for this role is 132,400 USD - 251,600 USD. Workarounds tried: (1) employer's own RTX careers page checked — this req was not surfaced there, the RTX architect posting found was closed; (2) alternate route BuiltIn mirror carries the full JD; (3) no alternate posting of the same role found. Duties are also hands-on Linux/NetApp systems administration, not architect-level Azure/infrastructure.",
+    "where": "BuiltIn (RTX mirror)",
+    "time": "9:23 PM"
+   }
+  ],
+  "RTX careers (employer's own page)": [
    {
     "company": "RTX",
     "role": "Senior Solutions IT Architect supporting Capacity Growth - Remote, Domestic US Locations",
-    "reason": "clearance — This role requires an Active Secret clearance prior to starting employment",
-    "where": "RTX careers (employer's own board)",
-    "time": "12:55 PM"
+    "reason": "closed — We're sorry…this posting is no longer available.",
+    "where": "RTX careers (employer's own page)",
+    "time": "9:23 PM"
    }
   ],
   "Dice / Fifth Third careers mirror": [
@@ -10316,6 +10319,15 @@
     "reason": "pay-outside-band — The expected salary range for this role is $219,522-$274,403 per year — workarounds tried: employer's own jobs.mcdonalds.com posting is the governing text and carries this range; top $274,403 exceeds the $230,000 band ceiling.",
     "where": "McDonald's careers",
     "time": "10:14 AM"
+   }
+  ],
+  "BuiltIn (Lockheed Martin mirror)": [
+   {
+    "company": "Lockheed Martin",
+    "role": "Staff Systems Architect",
+    "reason": "experience-mismatch — Drive system/subsystem architecture definition activities utilizing MBSE tools — Experience in MBSE (Cameo, Rhapsody); designs system and subsystem architectures for CommandIQ battle management and command-and-control capabilities. Workarounds tried: (1) employer's own Lockheed board not surfaced for this req in search; (2) alternate route BuiltIn mirror carries the full JD; (3) no alternate posting found. Core duties are MBSE/battle-management systems engineering, not Hubert's Azure cloud/infrastructure architecture.",
+    "where": "BuiltIn (Lockheed Martin mirror)",
+    "time": "9:23 PM"
    }
   ],
   "Built In (Fortinet JD mirror)": [
@@ -13590,5 +13602,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T03:22:35Z"
+ "lists_generated_at": "2026-11-18T03:24:40Z"
 }
