@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T21:06:28Z",
+ "generated_at": "2026-11-18T21:08:57Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T21:06:18Z",
+  "last_activity_at": "2026-11-18T21:08:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 185,
-  "rejected": 1102,
-  "evaluated": 1287
+  "parked": 189,
+  "rejected": 1103,
+  "evaluated": 1292
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1287,
+  "evaluated": 1292,
   "filed": 0,
-  "parked": 185,
-  "rejected": 1102,
+  "parked": 189,
+  "rejected": 1103,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/30"
+   "detail": "Employers 100/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/39"
+   "detail": "Employers 100/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/73"
+   "detail": "Employers 100/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,29 +116,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/32"
+   "detail": "Employers 100/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 100/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,46 +220,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/59"
+   "heartbeat_at": null,
+   "detail": "Employers 95/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/54"
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/45"
+   "heartbeat_at": null,
+   "detail": "Employers 95/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:06:28Z",
-   "detail": "Employers 90/41"
+   "heartbeat_at": null,
+   "detail": "Employers 95/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/31"
+   "detail": "Employers 95/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "222 of 632 units done",
+   "detail": "234 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:06 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 3:08 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1134,6 +1121,15 @@
     "time": "2:50 PM"
    }
   ],
+  "houstonmethodistcareers.org": [
+   {
+    "company": "Houston Methodist",
+    "role": "Solution Architect - Revenue Cycle Systems",
+    "reason": "title-not-covered — Location: Hybrid, 2550 Holly Hall, Houston TX, 77054. At Houston Methodist, the Solution Architect position is responsible for the implementation, maintenance and management of Information Technology (IT systems).",
+    "where": "houstonmethodistcareers.org",
+    "time": "3:08 PM"
+   }
+  ],
   "BigJobSite": [
    {
     "company": "Houston Methodist",
@@ -1202,6 +1198,15 @@
     "reason": "title-not-covered — This is a senior individual-contributor architecture role. You will own architecture direction for major platform capabilities and cross-domain initiatives",
     "where": "DiversityJobs",
     "time": "3:06 PM"
+   }
+  ],
+  "OilProfessionals (Devon Energy posting)": [
+   {
+    "company": "Devon Energy",
+    "role": "Solution Architecture Advisor",
+    "reason": "title-not-covered — Independently performs broad solution design, enterprise architecture and solution development activities, as well as acting as a technical advisor to teams executing Devon's most strategic technology projects.",
+    "where": "OilProfessionals (Devon Energy posting)",
+    "time": "3:07 PM"
    }
   ],
   "SmartRecruiters": [
@@ -1486,6 +1491,13 @@
     "time": "10:11 AM"
    },
    {
+    "company": "Stanley Black & Decker",
+    "role": "Security Architect (Cloud Security & Compliance)",
+    "reason": "title-not-covered — Security Architect (Cloud Security & Compliance) - Hybrid. As a Security Architect (Cloud Security & Compliance), you'll be part of our Information Technology team working as a hybrid employee.",
+    "where": "Built In",
+    "time": "3:07 PM"
+   },
+   {
     "company": "Johnson Controls",
     "role": "Principal Architect - Cloud",
     "reason": "title-not-covered — We are seeking a highly skilled and experienced Principal Cloud Architect to join our Global Hosting Team. The ideal candidate will have extensive experience in cloud architecture and design",
@@ -1632,13 +1644,13 @@
     "time": "7:22 AM"
    }
   ],
-  "Illinois JobLink / Out for Undergrad": [
+  "Out for Undergrad Job Board (United Airlines posting)": [
    {
     "company": "United Airlines",
     "role": "Principal Architect - Information Technology",
-    "reason": "title-not-covered — The Principal Architect will be responsible for leading the architectural design and strategy for Baggage Scanning suite applications. The role will lead the design, implementation, deployment, and maintenance. On site in Denver or Chicago on Tuesdays and Wednesdays and as needed",
-    "where": "Illinois JobLink / Out for Undergrad",
-    "time": "4:20 AM"
+    "reason": "title-not-covered — On site in Denver or Chicago on Tuesdays and Wednesdays and as needed. The base pay range for this role is $137,275.00 to $178,670.00.",
+    "where": "Out for Undergrad Job Board (United Airlines posting)",
+    "time": "3:08 PM"
    }
   ],
   "Ladders": [
@@ -1662,6 +1674,15 @@
     "reason": "stale-unverified — Cloud Solutions Architect will provide complex level design and deployment of the Enterprise IT Azure cloud functions including system wide security, critical infrastructure, applications, data, and cloud environments. Develops, manages and maintains cloud enterprise architecture aligned to support business strategy for multiple environments including test, development, production and disaster recovery. LOCATION: Bismarck, ND or in a geographic location near a Knife River location. This role has the opportunity to be on-site, remote, or hybrid depending on location. Published 2026-10-23 - outside the 7-day window on its own date, but the listing is live on Ladders today (crawled 2026-11-18); remote is conditional on location, so freshness and remote both unverified - parked provisional, not verdicted on merits. Knife River is an MDU Resources company (lane employer MDU Resources).",
     "where": "Ladders",
     "time": "5:16 AM"
+   }
+  ],
+  "GovernmentJobs.com (King County portal)": [
+   {
+    "company": "King County",
+    "role": "Solutions Architect (Data)",
+    "reason": "title-not-covered — KCIT works in a hybrid model, with days in the office as well as telecommuting. The ratio of remote to onsite work will be dependent on business needs and is subject to change. The primary onsite location is the King Street Center, 201 S Jackson St, Seattle, WA 98104.",
+    "where": "GovernmentJobs.com (King County portal)",
+    "time": "3:08 PM"
    }
   ],
   "BuiltIn": [
@@ -4324,6 +4345,13 @@
     "time": "7:37 AM"
    },
    {
+    "company": "Northern Trust",
+    "role": "SVP AI Enterprise Architect",
+    "reason": "pay-outside-band — Salary Range: $137,400 - 240,400 USD. workarounds tried: (1) employer's own careers text reproduced on Built In showing the same range, (2) Dice and SonicJobs mirrors showing the same $137,400 - 240,400 range, (3) alternate Northern Trust posting Principal - Enterprise Architect carries a different, lower range for a different Chicago-based req.",
+    "where": "Built In",
+    "time": "3:07 PM"
+   },
+   {
     "company": "Genentech",
     "role": "Research & Early Development Enterprise Architect",
     "reason": "not-remote — Onsite presence, on our South San Francisco campus, is expected for at least 3 days a week. The expected salary range for this position based on the primary location of South San Francisco, California is $189,300 - $351,500 (Senior Principal Engineer) and $217,400 - $403,700 (Enterprise Architect). Workarounds tried: (1) full JD on Built In, (2) GrabJobs and Career.io mirrors carry the same onsite text, (3) no alternate remote posting.",
@@ -4565,15 +4593,6 @@
     "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) CareerBuilder full JD carrying BlackRock hybrid model text; (2) no alternate remote posting of same role found; (3) no repost found",
     "where": "CareerBuilder",
     "time": "11:54 AM"
-   }
-  ],
-  "Houston Methodist careers": [
-   {
-    "company": "Houston Methodist",
-    "role": "Solution Architect - Revenue Cycle Systems",
-    "reason": "not-remote — Location: Hybrid, 2550 Holly Hall, Houston TX, 77054 Job Ref: JR-13397. workarounds tried: (1) employer's own houstonmethodistcareers.org posting (governing text, opened in full - Hybrid), (2) alternate routes Simplify and JobLeads for same req - both hybrid/same role, no remote alternate, (3) alternate posting search - none remote found",
-    "where": "Houston Methodist careers",
-    "time": "11:31 AM"
    }
   ],
   "Monster": [
@@ -5617,6 +5636,15 @@
     "time": "8:48 AM"
    }
   ],
+  "GovernmentJobs.com (King County portal)": [
+   {
+    "company": "King County",
+    "role": "Identity and Access Management (IAM) Solutions Architect",
+    "reason": "closed — NOTE: The application period has now closed. Only Priority Placement Program participant applications will be added to the candidate pool.",
+    "where": "GovernmentJobs.com (King County portal)",
+    "time": "3:08 PM"
+   }
+  ],
   "careers.pennmedicine.org": [
    {
     "company": "Penn Medicine",
@@ -6232,15 +6260,6 @@
     "reason": "pay-outside-band — United States of America: Annual Salary USD 153,500 - 298,500 in Colorado // 146,000 - 343,000 in Arizona & Nevada & New Jersey & Texas — published top is above the $230,000 ceiling in every location range. Workarounds tried: (1) Simplify mirror carrying HPE's own JD text, (2) Talentora alternate mirror of the same req, (3) no in-band alternate posting found.",
     "where": "Simplify",
     "time": "2:58 PM"
-   }
-  ],
-  "OilProfessionals": [
-   {
-    "company": "Devon Energy",
-    "role": "Solution Architecture Advisor",
-    "reason": "hands-on-coding — Reading and writing software in modern languages such as C#.NET, Java, Javascript, SQL, etc. - Large-scale analytics tools/capabilities/languages such as DataBricks, Spark, Python, Scala. workarounds tried: (1) employer's posting via OilProfessionals mirror with Devon Job ID 17677 (full JD opened), (2) web search for alternate Devon posting of same role - none with different duties found, (3) alternate posting search - none found",
-    "where": "OilProfessionals",
-    "time": "11:31 AM"
    }
   ],
   "DiversityJobs (Enbridge posting text)": [
@@ -7239,6 +7258,15 @@
     "reason": "closed — This job is expired.",
     "where": "Black Career Network / BSWH search",
     "time": "4:25 AM"
+   }
+  ],
+  "careers.lululemon.com": [
+   {
+    "company": "Lululemon",
+    "role": "Senior Solution Architect - Retail Services (Performance Engineering)",
+    "reason": "not-remote — In-person collaboration and connection is important to our culture. Work is performed onsite, minimum 4 days per week. workarounds tried: (1) employer's own careers page at careers.lululemon.com opened as governing text with the same onsite requirement, (2) Business of Fashion mirror of lululemon architect postings showing the same onsite minimum 4 days per week, (3) alternate lululemon posting Senior Solution Architect - Retail Services (Performance Engineering) also carries #LI-Onsite with work performed onsite minimum 4 days per week.",
+    "where": "careers.lululemon.com",
+    "time": "3:07 PM"
    }
   ],
   "WorkingNomads/Remotive": [
@@ -12578,5 +12606,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T21:06:28Z"
+ "lists_generated_at": "2026-11-18T21:08:57Z"
 }
