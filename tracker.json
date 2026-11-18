@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T20:48:28Z",
+ "generated_at": "2026-11-18T20:51:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T20:48:04Z",
+  "last_activity_at": "2026-11-18T20:50:57Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 179,
-  "rejected": 1092,
-  "evaluated": 1271
+  "parked": 182,
+  "rejected": 1096,
+  "evaluated": 1278
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1271,
+  "evaluated": 1278,
   "filed": 0,
-  "parked": 179,
-  "rejected": 1092,
+  "parked": 182,
+  "rejected": 1096,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/30"
+   "detail": "Employers 75/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/39"
+   "detail": "Employers 75/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/73"
+   "detail": "Employers 75/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/32"
+   "detail": "Employers 75/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,18 +127,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/44"
+   "detail": "Employers 75/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/44"
+   "heartbeat_at": null,
+   "detail": "Employers 75/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,57 +220,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/59"
+   "heartbeat_at": null,
+   "detail": "Employers 70/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/54"
+   "heartbeat_at": null,
+   "detail": "Employers 70/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/45"
+   "heartbeat_at": null,
+   "detail": "Employers 70/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/41"
+   "heartbeat_at": null,
+   "detail": "Employers 70/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:48:28Z",
-   "detail": "Employers 65/31"
+   "heartbeat_at": null,
+   "detail": "Employers 70/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "168 of 632 units done",
+   "detail": "180 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:48 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 2:50 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1125,6 +1112,15 @@
     "time": "2:33 PM"
    }
   ],
+  "Sutter Health Careers (employer page)": [
+   {
+    "company": "Sutter Health",
+    "role": "EPIC - AI Solutions Architect",
+    "reason": "title-not-covered — EPIC - AI Solutions Architect — the posting's real title matches no title family in this W3 unit (IT Architecture Lead / Application Architect / Integration Architect / Data Center Architect / Digital Transformation Architect / Systems Architect / Identity Architect / Technology Architect / Network Security Architect / Chief Architect), so it is parked as a fly-title, not force-fit. For the record, Sutter Health's own page for R-110410 states 'We're Sorry, This Job Is Inactive — This opportunity has passed.'",
+    "where": "Sutter Health Careers (employer page)",
+    "time": "2:50 PM"
+   }
+  ],
   "BigJobSite": [
    {
     "company": "Houston Methodist",
@@ -1577,6 +1573,22 @@
     "time": "2:25 PM"
    }
   ],
+  "Career.io": [
+   {
+    "company": "TJX Companies",
+    "role": "Senior Enterprise Architect - ServiceNow",
+    "reason": "stale-unverified — The Career.io page for this TJX Senior Enterprise Architect - ServiceNow posting carries no published/posted date anywhere in the full JD read, so no typed posted_date exists for a stale verdict; parked stale-unverified rather than guessed. Full JD read on Career.io: ServiceNow platform architecture core, salary range $124,800.00 to $162,300.00 on the page.",
+    "where": "Career.io",
+    "time": "2:49 PM"
+   },
+   {
+    "company": "Banner Health",
+    "role": "Cybersecurity IAM Architect",
+    "reason": "stale-unverified — The Career.io page for this Banner Health Cybersecurity IAM Architect posting carries no published/posted date anywhere in the full JD read — only an 'Anticipated Closing Window (actual close date may be sooner): 2026-06-17' — so no typed posted_date exists for a stale verdict; parked stale-unverified rather than guessed. Full JD read on Career.io: remote position (TX among eligible states), Estimated Pay Range $57.38 - $95.64 / hour.",
+    "where": "Career.io",
+    "time": "2:50 PM"
+   }
+  ],
   "Vaia (Delta mirror)": [
    {
     "company": "Delta Air Lines",
@@ -1584,15 +1596,6 @@
     "reason": "title-not-covered — Own technical decisions and directions for assigned portfolio of architecture which includes App/Integration, DevSecOps, Site Reliability, Platform, and Security.",
     "where": "Vaia (Delta mirror)",
     "time": "7:22 AM"
-   }
-  ],
-  "Built In NYC": [
-   {
-    "company": "Ryder System",
-    "role": "System Engineering Architect",
-    "reason": "title-not-covered — Fly title: real title 'System Engineering Architect' matches no listed title family in this unit (Azure/Cloud/Enterprise/Infrastructure/Platform/Solutions Architect families). Duties are architect-level: The Systems Engineering Architect is a senior technical leader responsible for the design, standardization, and strategic oversight of Ryder's infrastructure platforms across on-premises and multi-cloud environments. Parked for title coverage, not rejected for its title. Pay on the posting is $130,000-$150,000.",
-    "where": "Built In NYC",
-    "time": "3:56 AM"
    }
   ],
   "Illinois JobLink / Out for Undergrad": [
@@ -2062,6 +2065,15 @@
     "reason": "title-not-covered — Establish and lead the enterprise architecture function, including architecture principles, standards, reference architectures, and technology roadmaps.",
     "where": "USAJOBS (OCC)",
     "time": "1:33 AM"
+   }
+  ],
+  "jobs.virginia.gov (Virginia state portal)": [
+   {
+    "company": "VA Information Tech Agency",
+    "role": "Enterprise Architect",
+    "reason": "title-not-covered — Enterprise Architect — the posting's real title matches no title family in this W2 unit (Cloud Engineering Lead / Platform Engineering Lead / Cloud Transformation Lead / Technology Strategy Lead / Enterprise Technology Lead / Infrastructure Strategy Lead / Cloud Practice Lead / Cloud Center of Excellence Lead / Cloud Enablement Lead / Cloud Adoption Lead), so it is parked as a fly-title, not force-fit and not rejected for its title. Full JD read on Virginia's own jobs portal for the record: 'Hiring Range: $124,000 - 149,000' (top below the $160,000 band floor) and 'This position is telework eligible.'",
+    "where": "jobs.virginia.gov (Virginia state portal)",
+    "time": "2:50 PM"
    }
   ],
   "careers.centerpointenergy.com": [
@@ -3662,13 +3674,6 @@
     "time": "1:32 AM"
    },
    {
-    "company": "Citizens Financial",
-    "role": "Principal Architect",
-    "reason": "hands-on — Programming in Java, NodeJS, Java Script, Type Script, Python and design, develop, and construct applications leveraging Big Data Map Reduce, Pig, Hive",
-    "where": "Built In",
-    "time": "11:14 AM"
-   },
-   {
     "company": "BlackRock",
     "role": "Enterprise Architect – Aladdin Platform Engineering, DIR",
     "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) Built In full JD mirrors BlackRock careers text, (2) alternate BlackRock enterprise architect postings show same hybrid model, (3) no remote alternate found",
@@ -3755,9 +3760,9 @@
    {
     "company": "Rockwell Automation",
     "role": "AI Engineer / Architect – IFS Cloud",
-    "reason": "pay-outside-band — For this role, the total target compensation is from $106,480.00 - $159,720.00 USD Annual for US Based candidates",
+    "reason": "stale — Published: 2026-07-03 — on the Built In posting of Rockwell Automation's role; posting date 2026-07-03 is far outside the 7-day eligibility window. The JD also publishes total target compensation '$106,480.00 - $159,720.00 USD Annual for US Based candidates', top below band, noted secondarily.",
     "where": "Built In",
-    "time": "11:15 AM"
+    "time": "2:49 PM"
    },
    {
     "company": "Texas Instruments",
@@ -4395,6 +4400,13 @@
     "reason": "pay-outside-band — Annualized Salary Range: $141,700 - $230,200 workarounds tried: (1) Built In posting text for GuideWell/Florida Blue governs, (2) alternate routes searched for GuideWell Enterprise Cloud Architect, (3) no alternate posting with in-band pay found",
     "where": "Built In",
     "time": "2:36 PM"
+   },
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Senior Presales Technical Architect - Compute : Cloud Solution Provider",
+    "reason": "pay-outside-band — United States of America: Annual Salary USD 172,000 - 355,000 in California — published top $355,000 is above the $230,000 ceiling (range is combined base + target sales compensation, per the JD). Full JD read on Built In carrying HPE's own posting text. Workarounds tried: (1) Built In carries HPE's governing JD text with that range, (2) alternate surfaces carry the same HPE range, (3) no in-band alternate posting of this role found. Verdict is pay only; the pre-sales bar is off and was not used.",
+    "where": "Built In",
+    "time": "2:49 PM"
    }
   ],
   "Dice/Himalayas": [
@@ -6128,6 +6140,13 @@
     "time": "12:42 AM"
    },
    {
+    "company": "CareFirst",
+    "role": "Enterprise Integration Architect, Domain Principal (Remote)",
+    "reason": "pay-outside-band — Salary Range: $152,080 - $271,843 — published top $271,843 is above the $230,000 ceiling (REQNUMBER: 21644). Full JD read on Career.io carrying CareFirst's own Resp & Qualifications text. Workarounds tried: (1) the JD directs applicants to CareFirst's own careers (www.carefirst.com/careers) with the same range in mirrors, (2) alternate surfaces (Talentally) carry the same $152,080-$271,843 range for this req, (3) no in-band alternate posting of this role found. Undated on the page read and live there, verdicted on merits.",
+    "where": "Career.io",
+    "time": "2:50 PM"
+   },
+   {
     "company": "Federal Reserve Board",
     "role": "Principal Cloud Architect - Division of Information Technology",
     "reason": "stale — Directs others and/or contributes to project planning, defining, designing, managing, and supporting cloud computing applications. workarounds tried: (1) employer's own Federal Reserve Board posting text via Career.io mirror, posting date Jan 16, 2026, (2) alternate JobLeads route - same posting, 14 days+ with Jan 16 2026 posting date, (3) no fresher repost within 7 days found",
@@ -6186,9 +6205,9 @@
    {
     "company": "Hewlett Packard Enterprise",
     "role": "Enterprise Architect - Illinois",
-    "reason": "pay-outside-band — United States of America: Annual Salary USD 161,000 - 378,000 in Illinois — top $378,000 is above the $230,000 band top. Workarounds tried: (1) employer JD text via Career.io mirror, (2) HPE Workday Texas/Illinois variant shows $166,500 - 390,500, (3) no in-band alternate posting found.",
+    "reason": "pay-outside-band — United States of America: Annual Salary USD 161,000 - 378,000 in Illinois — published top $378,000 is above the $230,000 ceiling. Full JD read on Career.io carrying HPE's own job text. Workarounds tried: (1) the JD is HPE's own posting text (governing terms), (2) alternate HPE mirrors (freehire) carry the same role, (3) no in-band alternate posting of this role found. The Career.io page carries no typed posting date, so the verdict rests on pay, on the merits.",
     "where": "Career.io",
-    "time": "3:55 AM"
+    "time": "2:49 PM"
    },
    {
     "company": "CareFirst",
@@ -6326,27 +6345,59 @@
     "time": "12:34 AM"
    }
   ],
-  "TealHQ": [
+  "Built In Colorado": [
+   {
+    "company": "PNC Financial",
+    "role": "Solution Architect",
+    "reason": "stale — Published: 2025-05-30 — on the Built In Colorado posting of PNC's role, with 'this opening is expected to be posted for two business days from 05/20/2025'; posting date 2025-05-30 is far outside the 7-day eligibility window. Full JD read on Built In Colorado (Salesforce solution architecture core noted for the record).",
+    "where": "Built In Colorado",
+    "time": "2:49 PM"
+   },
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Principal Network Architect",
+    "reason": "pay-outside-band — Annual Salary USD 142,000 - 270,000 in Colorado // 135,000 - 310,500 in Minnesota & Texas & Wisconsin — top $310,500 is above the $230,000 band top. This role has been designated as 'Remote/Teleworker', which means you will primarily work from home. Workarounds tried: (1) employer JD text via Built In mirror, (2) Built In Austin mirror same role, (3) no in-band alternate posting found.",
+    "where": "Built In Colorado",
+    "time": "3:58 AM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Principal Enterprise Architect",
+    "reason": "closed — Expected Close Date of Job Posting is:03-22-2026. The base salary range for this position for all U.S. candidates is $170,000 - $260,000 per year. Published: 2026-05-16 — closing date on the detail page has passed.",
+    "where": "Built In Colorado",
+    "time": "9:15 AM"
+   }
+  ],
+  "Teal": [
    {
     "company": "M&T Bank",
     "role": "Cloud & Infrastructure Solution Architect",
-    "reason": "not-remote — Regular travel to the Buffalo, NY (Seneca One) hub is required, with an expectation of working onsite one week per month. workarounds tried: (1) employer's M&T posting text via Teal mirror stating Hybrid/onsite, (2) alternate Teal duplicate listing checked - same onsite expectation, (3) no fully remote alternate posting of same role found",
-    "where": "TealHQ",
-    "time": "4:07 AM"
+    "reason": "not-remote — Regular travel to the Buffalo, NY (Seneca One) hub is required, with an expectation of working onsite one week per month. — listed as Hybrid on Teal; a stated required onsite schedule is not-remote under the remote rule. Workarounds tried: (1) full JD read on Teal carrying M&T's own posting text, (2) alternate surfaces carry the same Buffalo hybrid terms, (3) no fully-remote alternate posting of this role found.",
+    "where": "Teal",
+    "time": "2:49 PM"
    },
    {
-    "company": "State Street",
-    "role": "Enterprise Integration Security Architect",
-    "reason": "not-remote — This is a hybrid position under State Street's hybrid work model, with standard business hours and flexibility to support global stakeholders across multiple time zones. workarounds tried: (1) employer's own State Street posting text via Teal mirror stating hybrid (governing text), (2) alternate routes searched for same role, (3) no fully remote alternate posting of same role found",
-    "where": "TealHQ",
-    "time": "7:20 AM"
+    "company": "Charles Schwab",
+    "role": "Director, Architect Principal - Capacity Planning",
+    "reason": "not-remote — The selected candidate is expected to work on site in the specified location(s). — workarounds tried: (1) employer's own posting text via Teal, Austin TX onsite, (2) alternate route same onsite requirement, (3) no remote alternate posting of same role",
+    "where": "Teal",
+    "time": "7:29 AM"
+   }
+  ],
+  "Remoteworks": [
+   {
+    "company": "Citizens Financial",
+    "role": "Principal Architect",
+    "reason": "cloud-mismatch — extensive experience with microservices, AWS, Java, NodeJS, Python, Kubernetes, and cloud-native development — the role is an AWS-first software-development architect position (8 years as Principal Architect 'or related position involving software development'); Azure appears only as peripheral skills (Azure SQL Server, Vnet) and hands-on Java/Python/NodeJS are core requirements, not Hubert's Azure architecture core. Workarounds tried: (1) full JD read on the Remoteworks posting, which directs applicants to Citizens' own jobs.citizensbank.com (Job ID: 49905) with the same requirements, (2) alternate search surfaces carry the same AWS/Java/Python core, (3) no Azure-first alternate posting of this req found.",
+    "where": "Remoteworks",
+    "time": "2:49 PM"
    },
    {
-    "company": "Northern Trust",
-    "role": "ServiceNow Platform Architect",
-    "reason": "experience-mismatch — at least five years as a ServiceNow Architect in a large enterprise environment focused on platform security, access control, and administration. The stated salary range is $137,400-$233,600 USD. workarounds tried: (1) employer route via TealHQ/Northern Trust posting read in full, (2) alternate surfaces searched, (3) no alternate posting of same role found",
-    "where": "TealHQ",
-    "time": "11:49 AM"
+    "company": "Emphasys PHA",
+    "role": "Systems Architect",
+    "reason": "experience-mismatch — SQL Server: Expert-level understanding of SQL Server, including query optimization, schema design, and reporting infrastructure. Experience with SSRS & SSIS is required. — plus Windows desktop application design/shipping as core duties; the role's core is software-product and SQL data engineering architecture for a housing-authority software product, not Azure infrastructure architecture. Workarounds tried: (1) employer's own channel (Emphasys/Constellation posting as carried on Remoteworks, full JD read), (2) no alternate route for the same req found, (3) no alternate posting of this role.",
+    "where": "Remoteworks",
+    "time": "6:03 AM"
    }
   ],
   "Talentally (Capital One posting mirror)": [
@@ -6645,6 +6696,13 @@
    },
    {
     "company": "M&T Bank",
+    "role": "Solution Architect Manager",
+    "reason": "stale — Published: 2026-08-13T02:30:48.594Z — on the Jobgether posting; posting date 2026-08-13 is far outside the 7-day eligibility window. The JD also publishes 'The pay range for this position is $139,700.00 - $232,900.00 Annual (USD)', top above the $230,000 ceiling, noted secondarily.",
+    "where": "Jobgether",
+    "time": "2:49 PM"
+   },
+   {
+    "company": "M&T Bank",
     "role": "Enterprise Architect - Consumer Banking & Marketing",
     "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, New York, for one week per month. workarounds tried: (1) Ladders alternate listing carried same on-site requirement, (2) Jobgether full JD read, (3) no fully-remote alternate posting of same role found",
     "where": "Jobgether",
@@ -6852,6 +6910,13 @@
     "reason": "cloud-mismatch — 2+ years of hands-on experience with cloud platforms such as AWS, Azure, or GCP, with a preference for Google Cloud Platform (GCP). — workarounds tried: (1) full JD read on Built In NYC mirror",
     "where": "Built In NYC",
     "time": "12:37 AM"
+   },
+   {
+    "company": "Ryder System",
+    "role": "System Engineering Architect",
+    "reason": "stale — Published: 2025-10-30 — on the Built In NYC posting of Ryder's Systems Engineering Architect role; posting date 2025-10-30 is far outside the 7-day eligibility window. The JD also publishes 'Minimum Pay Range : $130,000.00 Maximum Pay Range : $150,000.00', top below band, noted secondarily.",
+    "where": "Built In NYC",
+    "time": "2:49 PM"
    },
    {
     "company": "Ryder System",
@@ -8110,15 +8175,6 @@
     "time": "7:15 AM"
    }
   ],
-  "Teal": [
-   {
-    "company": "Charles Schwab",
-    "role": "Director, Architect Principal - Capacity Planning",
-    "reason": "not-remote — The selected candidate is expected to work on site in the specified location(s). — workarounds tried: (1) employer's own posting text via Teal, Austin TX onsite, (2) alternate route same onsite requirement, (3) no remote alternate posting of same role",
-    "where": "Teal",
-    "time": "7:29 AM"
-   }
-  ],
   "CrawlJobs": [
    {
     "company": "Charles Schwab",
@@ -9278,22 +9334,6 @@
     "time": "9:08 AM"
    }
   ],
-  "Built In Colorado": [
-   {
-    "company": "Hewlett Packard Enterprise",
-    "role": "Principal Network Architect",
-    "reason": "pay-outside-band — Annual Salary USD 142,000 - 270,000 in Colorado // 135,000 - 310,500 in Minnesota & Texas & Wisconsin — top $310,500 is above the $230,000 band top. This role has been designated as 'Remote/Teleworker', which means you will primarily work from home. Workarounds tried: (1) employer JD text via Built In mirror, (2) Built In Austin mirror same role, (3) no in-band alternate posting found.",
-    "where": "Built In Colorado",
-    "time": "3:58 AM"
-   },
-   {
-    "company": "CrowdStrike",
-    "role": "Principal Enterprise Architect",
-    "reason": "closed — Expected Close Date of Job Posting is:03-22-2026. The base salary range for this position for all U.S. candidates is $170,000 - $260,000 per year. Published: 2026-05-16 — closing date on the detail page has passed.",
-    "where": "Built In Colorado",
-    "time": "9:15 AM"
-   }
-  ],
   "BuiltIn / Cisco mirrors (employer Workday board searched)": [
    {
     "company": "Cisco",
@@ -9346,15 +9386,6 @@
     "reason": "experience-mismatch — Expert technical proficiency in multi-cloud environments (OCI, GCP, Azure), Oracle ADW (23c/26ai), Databricks, and Apache Iceberg or Delta Lake table formats. — the role is the technical lead for Data Platform Engineering (enterprise analytical and AI platforms / 10-Layer Modern Data Operating System), a data-platform core that does not align with Hubert's experience (Azure infrastructure architecture, DR/resilience, M&A separations; no data-platform engineering record). Workarounds tried: (1) full JD read on CareerBuilder and Built In postings of Avery Dennison's req, same data-platform core, (2) alternate surfaces carry the same requirements, (3) no alternate posting with an infrastructure-architecture core found. Pay $141,825 - $211,792 was in band.",
     "where": "CareerBuilder (Google Jobs surface)",
     "time": "1:52 PM"
-   }
-  ],
-  "Virginia state portal (jobs.virginia.gov)": [
-   {
-    "company": "VA Information Tech Agency",
-    "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Hiring Range: $124,000 - 149,000 — workarounds tried: (1) employer's own Virginia state portal posting opened, this range governs; (2) no alternate route for this req found; (3) no alternate posting of the same role found",
-    "where": "Virginia state portal (jobs.virginia.gov)",
-    "time": "6:57 AM"
    }
   ],
   "BuiltIn / Premera": [
@@ -10344,6 +10375,22 @@
     "time": "7:14 AM"
    }
   ],
+  "TealHQ": [
+   {
+    "company": "State Street",
+    "role": "Enterprise Integration Security Architect",
+    "reason": "not-remote — This is a hybrid position under State Street's hybrid work model, with standard business hours and flexibility to support global stakeholders across multiple time zones. workarounds tried: (1) employer's own State Street posting text via Teal mirror stating hybrid (governing text), (2) alternate routes searched for same role, (3) no fully remote alternate posting of same role found",
+    "where": "TealHQ",
+    "time": "7:20 AM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "ServiceNow Platform Architect",
+    "reason": "experience-mismatch — at least five years as a ServiceNow Architect in a large enterprise environment focused on platform security, access control, and administration. The stated salary range is $137,400-$233,600 USD. workarounds tried: (1) employer route via TealHQ/Northern Trust posting read in full, (2) alternate surfaces searched, (3) no alternate posting of same role found",
+    "where": "TealHQ",
+    "time": "11:49 AM"
+   }
+  ],
   "Accenture careers": [
    {
     "company": "Accenture",
@@ -10752,15 +10799,6 @@
     "reason": "experience-mismatch — Domain Expertise: Proven expertise architecting composable/MACH commerce solutions spanning Omni experiences (Endless Aisle, BORIS, Ship from Store, Pick up in Store), Retail, and commerce platforms (eg SFCC, Shopify, CommerceTools, etc). 2+ years of experience with various programming languages such as Node.js, Next.js, Nest.js including CI/CD pipelines and code repositories like Github. — full JD read on Under Armour's own ATS: salary $161,629.60 - $222,240.70 top in band and Remote, but the core domain is digital commerce/MACH with programming-language experience, mismatching Hubert's Azure infrastructure architecture experience. workarounds tried: (1) employer's own ATS posting is the governing text read; (2) alternate routes carry the same commerce core; (3) no alternate posting with a different core found.",
     "where": "Under Armour Careers (Jobs2Web)",
     "time": "5:56 AM"
-   }
-  ],
-  "Remoteworks": [
-   {
-    "company": "Emphasys PHA",
-    "role": "Systems Architect",
-    "reason": "experience-mismatch — SQL Server: Expert-level understanding of SQL Server, including query optimization, schema design, and reporting infrastructure. Experience with SSRS & SSIS is required. — plus Windows desktop application design/shipping as core duties; the role's core is software-product and SQL data engineering architecture for a housing-authority software product, not Azure infrastructure architecture. Workarounds tried: (1) employer's own channel (Emphasys/Constellation posting as carried on Remoteworks, full JD read), (2) no alternate route for the same req found, (3) no alternate posting of this role.",
-    "where": "Remoteworks",
-    "time": "6:03 AM"
    }
   ],
   "YouHired": [
@@ -12465,5 +12503,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T20:48:28Z"
+ "lists_generated_at": "2026-11-18T20:51:09Z"
 }
