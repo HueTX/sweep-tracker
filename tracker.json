@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T12:49:27Z",
+ "generated_at": "2026-11-18T12:52:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T12:48:58Z",
+  "last_activity_at": "2026-11-18T12:51:15Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 98,
-  "rejected": 728,
-  "evaluated": 826
+  "rejected": 731,
+  "evaluated": 829
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 826,
+  "evaluated": 829,
   "filed": 0,
   "parked": 98,
-  "rejected": 728,
+  "rejected": 731,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
-  "W6"
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -84,13 +84,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/30"
+   "heartbeat_at": null,
+   "detail": "Employers 80/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,8 +100,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/39"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/73"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/32"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:49:27Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 70/59"
+   "heartbeat_at": "2026-11-18T12:52:06Z",
+   "detail": "Employers 75/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/54"
+   "detail": "Employers 75/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/45"
+   "detail": "Employers 75/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/41"
+   "detail": "Employers 75/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 70/31"
+   "detail": "Employers 75/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "174 of 632 units done",
+   "detail": "186 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:48 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:51 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2935,6 +2935,13 @@
     "time": "3:18 AM"
    },
    {
+    "company": "Fifth Third Bank",
+    "role": "Commercial Credit IT Architect",
+    "reason": "pay-outside-band — Commercial Credit IT Architect Total Base Pay Range 121,900.00 - 262,100.00 USD Annual. workarounds tried: employer's own posting text via Built In mirror, alternate routes checked - same published range, top above $230,000; location Cincinnati, Ohio 45202",
+    "where": "builtin.com",
+    "time": "6:51 AM"
+   },
+   {
     "company": "PNC Financial",
     "role": "Infrastructure Architect Sr, Cloud/Azure/AWS",
     "reason": "not-remote — PNC is an in-office company that fosters a supportive culture where employees can thrive and achieve balance. workarounds tried: employer's own ATS text via Built In mirror, alternate routes checked - based in Dallas, TX, Phoenix AZ, Birmingham AL, Strongsville OH or Pittsburgh, PA",
@@ -4760,6 +4767,13 @@
     "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) employer's own published salary range in the full JD reviewed as governing text; (2) Talentally full-JD mirror checked; (3) no alternate posting of this role with a different published range found",
     "where": "talentally.com",
     "time": "3:33 AM"
+   },
+   {
+    "company": "CareFirst",
+    "role": "Senior Domain Architect (Remote)",
+    "reason": "pay-outside-band — Salary Range: $122,040 - $242,385. workarounds tried: employer's own careers site referenced in posting (www.carefirst.com/careers), alternate mirror routes checked - same published range, top above $230,000",
+    "where": "talentally.com",
+    "time": "6:50 AM"
    }
   ],
   "Jobgether": [
@@ -5629,6 +5643,15 @@
     "reason": "pay-outside-band — Maximum Pay Range: $125,000.00. workarounds tried: employer's own posting text via Jobgether mirror, alternate routes checked - same published range, top below $160,000",
     "where": "jobgether.com",
     "time": "6:48 AM"
+   }
+  ],
+  "ssai.usajobs.gov": [
+   {
+    "company": "SSA",
+    "role": "IT Specialist (APPSW) Solutions Architect",
+    "reason": "hands-on — Designing, architecting, and maintaining enterprise-grade solutions using modern technologies and frameworks, including Java, Spring Boot, React, and Node.js. workarounds tried: employer's own posting (USAJobs, governing text), alternate routes checked - same hands-on development frameworks in qualifications",
+    "where": "ssai.usajobs.gov",
+    "time": "6:51 AM"
    }
   ],
   "ClearanceJobs": [
@@ -8920,5 +8943,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T12:49:27Z"
+ "lists_generated_at": "2026-11-18T12:52:06Z"
 }
