@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:04:36Z",
+ "generated_at": "2026-11-18T11:06:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:04:11Z",
+  "last_activity_at": "2026-11-18T11:05:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 82,
-  "rejected": 553,
-  "evaluated": 636
+  "rejected": 558,
+  "evaluated": 640
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 636,
+  "evaluated": 640,
   "filed": 0,
   "parked": 82,
-  "rejected": 553,
+  "rejected": 558,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -94,56 +95,56 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 190/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 185/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 182/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/44"
   },
   "W9": {
@@ -226,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/59"
   },
   "W17": {
@@ -242,41 +243,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/54"
+   "heartbeat_at": "2026-11-18T11:06:16Z",
+   "detail": "Employers 185/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/45"
+   "heartbeat_at": null,
+   "detail": "Employers 185/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/41"
+   "heartbeat_at": null,
+   "detail": "Employers 185/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/31"
+   "heartbeat_at": null,
+   "detail": "Employers 181/31"
   }
  },
  "stages": {
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "422 of 632 units done",
+   "detail": "427 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:04 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:05 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1060,8 +1061,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 65,
@@ -2341,6 +2342,13 @@
     "time": "4:38 AM"
    },
    {
+    "company": "Kimberly-Clark",
+    "role": "Senior Enterprise Architect - IFP",
+    "reason": "not-remote — Primary Location: IT Centre Bengaluru GDTC. Additional Locations: Buenos Aires - ITS Design Center. workarounds tried: (1) Built In full JD mirroring Kimberly-Clark's own posting, (2) alternate Kimberly-Clark architect postings checked - the S/4 HANA Solution Architect role is likewise restricted to Brazil/Argentina, (3) no US-remote posting of this role found",
+    "where": "Built In",
+    "time": "5:05 AM"
+   },
+   {
     "company": "Hewlett Packard Enterprise",
     "role": "Enterprise Architect, Public Sector, SLED",
     "reason": "pay-outside-band — United States of America: Annual Salary USD 161,000 - 378,000 in Alabama & Georgia & Mississippi & South Carolina & Tennessee workarounds tried: Built In full JD mirror of HPE posting",
@@ -3118,6 +3126,13 @@
     "time": "1:36 AM"
    },
    {
+    "company": "Whirlpool",
+    "role": "Manager - Network Architect",
+    "reason": "not-remote — Whirlpool Corporation is seeking a visionary, growth-minded leader for the role of Manager, Network Architecture and operations at our Global Headquarters in Benton Harbor, Michigan. Operating on-site five days a week. While employees in this role work in-person Monday through Friday. workarounds tried: (1) Dice full JD for the Whirlpool role, (2) O*NET mirror of the same Whirlpool posting checked - same Benton Harbor on-site terms, (3) no remote alternate posting of this role found",
+    "where": "Dice",
+    "time": "5:05 AM"
+   },
+   {
     "company": "Alaska Airlines",
     "role": "Senior Principal Mobile Solutions Architect",
     "reason": "pay-outside-band — Salary Range $178,300-$276,350 / year workarounds tried: (1) Dice posting of the employer role, (2) Alaska Airlines iCIMS employer board listing the same title, (3) no alternate posting with a different range found",
@@ -3399,6 +3414,13 @@
     "reason": "hands-on — Please apply if you have around 4 years of experience building enterprise applications with Java, web services, CSS, XML/XSLT, HTML, JSON, Junit, UI frameworks, and modern web technologies. Whole role is building enterprise applications in Java - hands-on coding as the main output, at a 4-year (non-architect-senior) level. workarounds tried: (1) employer's own posting via Simplify mirror - same Java-building requirement, (2) alternate mirrors - same text, (3) no alternate architect-level posting of this role found.",
     "where": "Simplify Jobs",
     "time": "4:31 AM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "CX Solution Architect, Google Gemini Enterprise",
+    "reason": "not-remote — This is a hybrid role based in one of the preferred locations - Atlanta, GA / New York, NY / Bridgewater, NJ / Chicago, IL / Dallas, TX / San Francisco, CA. Deep expertise in Google Cloud Platform, Customer Experience, and Generative AI technology stack. workarounds tried: (1) Simplify full JD mirroring Capgemini's own posting, (2) Teal hybrid cloud solution architect listings for Capgemini checked - same hybrid terms, (3) no remote alternate posting of this role found",
+    "where": "Simplify Jobs",
+    "time": "5:05 AM"
    },
    {
     "company": "Nutanix",
@@ -4242,13 +4264,6 @@
     "reason": "pay-outside-band — Local Pay Range $180,000-$247,500 USD - workarounds tried: (1) employer's own careers posting carries the same published range, (2) Monster mirror (this page) carries the same range, (3) no alternate posting of the same role with a different published range found",
     "where": "monster.com",
     "time": "1:44 AM"
-   },
-   {
-    "company": "Colgate-Palmolive",
-    "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Salary Range $96,800.00 - $137,000.00 USD #LI-Hybrid workarounds tried: (1) employer's own posting via Monster mirror - governing text above, Piscataway, NJ hybrid, top $137,000 below $160,000 band floor; (2) HiringCafe mirror same req $97k-$137k/yr Hybrid; (3) no alternate posting found.",
-    "where": "monster.com",
-    "time": "2:16 AM"
    }
   ],
   "Career.io (PepsiCoJobs req 435498 mirror)": [
@@ -4690,13 +4705,13 @@
     "time": "2:11 AM"
    }
   ],
-  "builtin.com (Whirlpool)": [
+  "HiringCafe (Colgate-Palmolive careers mirror)": [
    {
-    "company": "Whirlpool",
-    "role": "Manager - Network Architect",
-    "reason": "not-remote — Operating on-site five days a week to foster high-energy, in-person collaboration and innovation — workarounds tried: (1) employer's posting via Built In/Dice mirrors (same on-site terms), (2) no alternate remote posting found",
-    "where": "builtin.com (Whirlpool)",
-    "time": "2:20 AM"
+    "company": "Colgate-Palmolive",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Hybrid. No Relocation Assistance Offered. Job Number #176112 - Piscataway, New Jersey, United States. #LI-Hybrid. Salary Range $96,800.00 - $137,000.00 USD. workarounds tried: (1) HiringCafe full JD sourced from Colgate-Palmolive's own jobs.colgate.com posting 176112, (2) ZipRecruiter listing of the same role checked - Piscataway, NJ, Hybrid, (3) no remote alternate posting of job 176112 found",
+    "where": "HiringCafe (Colgate-Palmolive careers mirror)",
+    "time": "5:05 AM"
    }
   ],
   "Career.io (State of Missouri)": [
@@ -5005,6 +5020,15 @@
     "reason": "not-remote — Providence Health Plan supports 100% virtual work for residents located in the following States: - Washington - Oregon - California — workarounds tried: (1) employer's own Providence posting carries same state restriction, (2) alternate route DiversityJobs mirror opened in full, (3) other Providence reqs 421581/420852 carry same WA/OR/CA restriction; Hubert is Texas-based, excluded",
     "where": "DiversityJobs / Providence Health Plan",
     "time": "2:14 AM"
+   }
+  ],
+  "Verify - mirrors of MassMutual's own posting (Built In Austin / GrabJobs / Career.io)": [
+   {
+    "company": "MassMutual",
+    "role": "Enterprise Architect - Investment Management",
+    "reason": "experience-mismatch — The Minimum Qualifications: 5+ years of Investment Management experience. Experience with IM Business Platforms: Eagle, Aladdin, Clearwater, SimCorp, Calypso, Murex or similar. Verify note: MassMutual's own careers page for this role could not be surfaced directly; the governing minimum-qualifications text above is consistent across the Built In Austin, GrabJobs, Career.io Springfield and TheBigJobSite mirrors of MassMutual's posting, and a CareerBuilder listing of the same role shows Hartford, CT (Onsite). Hubert has no investment-management experience on record, and the role's entire scope is the Investment Management corporate function (Portfolio Management, Derivatives, Credit & Market Risk).",
+    "where": "Verify - mirrors of MassMutual's own posting (Built In Austin / GrabJobs / Career.io)",
+    "time": "5:05 AM"
    }
   ],
   "simplify.jobs (Johnson Controls)": [
@@ -5770,6 +5794,29 @@
     "time": "3:06 AM"
    }
   ],
+  "TheBigJobSite": [
+   {
+    "company": "Lear Corporation",
+    "role": "Enterprise Palantir Solutions Architect",
+    "reason": "experience-mismatch — Serve as Lear's enterprise authority for Palantir Foundry and AIP, including Ontology, Object Types, Transformations, Feature Sets, AIP Agents, Solution Designer, and developer tooling. Southfield, MI - World Headquarters. workarounds tried: (1) TheBigJobSite full JD for the Lear role, (2) DiversityJobs posting of the same Lear role checked - same Palantir Foundry/AIP core, (3) no alternate posting changing the Palantir-platform core duties found",
+    "where": "TheBigJobSite",
+    "time": "5:05 AM"
+   },
+   {
+    "company": "Salesforce",
+    "role": "Lead Qualified Success Architect",
+    "reason": "pay-outside-band — The typical base salary range for this position is $171,200 - $273,000 annually — top above $230,000 cap; workarounds tried: (1) full JD read on mirror of Salesforce posting",
+    "where": "TheBigJobSite",
+    "time": "12:42 AM"
+   },
+   {
+    "company": "Salesforce",
+    "role": "Qualified Success Architect / Sr. Success Architect",
+    "reason": "experience-mismatch — Architect and implement Qualified solutions that integrate deeply with Salesforce, marketing automation platforms, routing workflows, and GTM systems — core is Salesforce marketing/GTM, not Azure infrastructure; workarounds tried: (1) full JD read on mirror of Salesforce posting",
+    "where": "TheBigJobSite",
+    "time": "12:42 AM"
+   }
+  ],
   "ServiceNow Careers": [
    {
     "company": "ServiceNow",
@@ -5961,22 +6008,6 @@
     "role": "Success Architect - Data Cloud",
     "reason": "not-remote — This role is office-flexible, and the expectation is to work from the office three days per week. — workarounds tried: (1) employer's own Salesforce Workday page read in full",
     "where": "Salesforce Workday",
-    "time": "12:42 AM"
-   }
-  ],
-  "TheBigJobSite": [
-   {
-    "company": "Salesforce",
-    "role": "Lead Qualified Success Architect",
-    "reason": "pay-outside-band — The typical base salary range for this position is $171,200 - $273,000 annually — top above $230,000 cap; workarounds tried: (1) full JD read on mirror of Salesforce posting",
-    "where": "TheBigJobSite",
-    "time": "12:42 AM"
-   },
-   {
-    "company": "Salesforce",
-    "role": "Qualified Success Architect / Sr. Success Architect",
-    "reason": "experience-mismatch — Architect and implement Qualified solutions that integrate deeply with Salesforce, marketing automation platforms, routing workflows, and GTM systems — core is Salesforce marketing/GTM, not Azure infrastructure; workarounds tried: (1) full JD read on mirror of Salesforce posting",
-    "where": "TheBigJobSite",
     "time": "12:42 AM"
    }
   ],
@@ -6248,6 +6279,15 @@
     "reason": "experience-mismatch — This role requires deep expertise in modern Data and AI architecture. 7+ years of professional experience with 5+ of those years designing and implementing enterprise-scale data architectures, with expertise across modern cloud/data platforms, data engineering, analytics, AI/ML, Generative AI, and/or emerging AI technologies. Use Python for prototyping, automation, integrations, and technical validation. workarounds tried: (1) JobStore full JD mirroring the Nestle Purina posting for req 424016, (2) Nestle's own jobdetails site checked for its Senior Director Enterprise Architecture posting - page did not render a JD, (3) no alternate posting changing the data/AI-engineering core duties found",
     "where": "JobStore (Nestlé Purina mirror)",
     "time": "5:01 AM"
+   }
+  ],
+  "CareerBuilder (Capgemini Government Solutions)": [
+   {
+    "company": "Capgemini",
+    "role": "Azure Cloud - Senior Infrastructure Architect",
+    "reason": "clearance — Must Active Top-Secret Clearance or higher. US Citizenship is required. Experience working with DOD or other Federal Government environment.",
+    "where": "CareerBuilder (Capgemini Government Solutions)",
+    "time": "5:05 AM"
    }
   ]
  },
@@ -7429,5 +7469,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T11:04:36Z"
+ "lists_generated_at": "2026-11-18T11:06:16Z"
 }
