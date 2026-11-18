@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:19:33Z",
+ "generated_at": "2026-11-18T11:20:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:19:31Z",
+  "last_activity_at": "2026-11-18T11:20:05Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 85,
-  "rejected": 574,
-  "evaluated": 659
+  "parked": 87,
+  "rejected": 576,
+  "evaluated": 663
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 659,
+  "evaluated": 663,
   "filed": 0,
-  "parked": 85,
-  "rejected": 574,
+  "parked": 87,
+  "rejected": 576,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W5",
+  "W6",
+  "W16",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,24 +95,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:20:59Z",
    "detail": "Employers 222/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 220/73"
+   "heartbeat_at": "2026-11-18T11:20:59Z",
+   "detail": "Employers 225/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -121,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 220/44"
+   "heartbeat_at": "2026-11-18T11:20:59Z",
+   "detail": "Employers 225/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 220/44"
+   "heartbeat_at": "2026-11-18T11:20:59Z",
+   "detail": "Employers 225/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 220/59"
+   "heartbeat_at": "2026-11-18T11:20:59Z",
+   "detail": "Employers 225/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 220/54"
+   "detail": "Employers 225/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,17 +255,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 220/45"
+   "detail": "Employers 225/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:20:59Z",
    "detail": "Employers 220/41"
   },
   "W20": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "493 of 632 units done",
+   "detail": "499 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:19 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 5:20 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W19 · Title 21 of 58 · IT Architecture Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W19"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W19",
+  "headline": "W19 · Title 21 of 58 · IT Architecture Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1408,6 +1421,15 @@
     "time": "3:56 AM"
    }
   ],
+  "Remotive": [
+   {
+    "company": "Kyndryl",
+    "role": "Modernization Architect",
+    "reason": "title-not-covered — As a Modernization Architect at Kyndryl, you'll be the person who turns that chance into reality. Design target-state cloud-native and AI-native architectures. Define modernization solutions that combine application, infrastructure, agentic SDLC, and platform engineering expertise. Architect-level duties but the Modernization Architect title matches no listed family for this unit - fly title, parked not force-fit.",
+    "where": "Remotive",
+    "time": "5:20 AM"
+   }
+  ],
   "jobs.dow.com": [
    {
     "company": "Dow",
@@ -1579,6 +1601,22 @@
     "time": "2:58 AM"
    }
   ],
+  "The Ladders": [
+   {
+    "company": "Chubb",
+    "role": "Application Delivery Network Architect",
+    "reason": "title-not-covered — Seeking a senior level Application Delivery architect with extensive experience in architecting and designing global Application Delivery solutions for large scale global enterprises. The role of the Application Delivery Network Architect is focused on the proper design and implementation of the global Application Delivery framework for the firm. The pay range for the role is $125,400 to $182,600. Architect-level duties but this title matches no listed family for this unit - fly title, parked not force-fit.",
+    "where": "The Ladders",
+    "time": "5:20 AM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "CLM Platform Lead",
+    "reason": "title-not-covered — Serve as the Technical Advisor/Solution Architect for enterprise CLM, owning the end-to-end solution across architecture, implementation, integrations, data, AI, security, operations, and platform evolution. Title 'CLM Platform Lead' matches no listed Lead family in this unit; duties are architect-level, so parked as fly-title rather than force-fit or title-rejected. Location/remote terms not stated in the JD read.",
+    "where": "The Ladders",
+    "time": "3:41 AM"
+   }
+  ],
   "Remote Rocketship / Memorial Hermann careers page": [
    {
     "company": "Memorial Hermann Health System",
@@ -1712,15 +1750,6 @@
     "reason": "cognizant-manual-only — As an Enterprise Applications Technical Lead, you will make an impact by leading the design, development, modernization, and delivery of enterprise applications that support critical Life & Annuities insurance operations.",
     "where": "Google Jobs / Cognizant careers (employer own page)",
     "time": "3:12 AM"
-   }
-  ],
-  "The Ladders": [
-   {
-    "company": "Baker Hughes",
-    "role": "CLM Platform Lead",
-    "reason": "title-not-covered — Serve as the Technical Advisor/Solution Architect for enterprise CLM, owning the end-to-end solution across architecture, implementation, integrations, data, AI, security, operations, and platform evolution. Title 'CLM Platform Lead' matches no listed Lead family in this unit; duties are architect-level, so parked as fly-title rather than force-fit or title-rejected. Location/remote terms not stated in the JD read.",
-    "where": "The Ladders",
-    "time": "3:41 AM"
    }
   ],
   "Built In NYC (AIS/USDA)": [
@@ -3644,6 +3673,15 @@
     "time": "3:08 AM"
    }
   ],
+  "SmartRecruiters (Weatherford)": [
+   {
+    "company": "Weatherford",
+    "role": "OTM Application Architect",
+    "reason": "experience-mismatch — Weatherford is seeking an experienced IT Applications Architect - Oracle Transportation Management System (OTM) to lead the design, implementation, and management of OTM solutions that support our logistics operations. 10 years of related experience working with JD Edwards / Oracle Enterprise One in a technical role is also required. Core duties are OTM/JD Edwards specialization, which does not align with Hubert's Azure cloud/infrastructure architecture experience. workarounds tried: (1) employer's own SmartRecruiters posting (governing text, this page, undated and live), (2) web search for other Weatherford architect postings, (3) no alternate Azure/infrastructure posting of this role found.",
+    "where": "SmartRecruiters (Weatherford)",
+    "time": "5:20 AM"
+   }
+  ],
   "NextEra Energy careers (employer own)": [
    {
     "company": "NextEra Energy",
@@ -4068,6 +4106,13 @@
     "reason": "pay-outside-band — Minimum Pay Range: $130,000.00 Maximum Pay Range: $150,000.00 — top $150,000 is below the $160,000 band floor. The Cloud Architect will play a pivotal role in shaping Ryder's cloud strategy and operational excellence. Workarounds tried: (1) employer JD text via Adzuna mirror, (2) alternate surfaces same range, (3) no in-band alternate posting found.",
     "where": "Adzuna",
     "time": "3:56 AM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Cyber Security Architect - TSIII - Digital and Technology Partners",
+    "reason": "stale — The Technology Specialist III - Cyber Security Architect is responsible for the design, implementation, and governance of enterprise security architecture solutions that protect Mount Sinai Health System's users, applications, and data. Published 2026-09-06, outside the 7-day eligibility window at 2026-11-18. workarounds tried: (1) full JD via Adzuna (this page), (2) GrabJobs and Remotive alternate mirrors - same September 2026 dates, (3) no fresher repost found.",
+    "where": "Adzuna",
+    "time": "5:20 AM"
    }
   ],
   "Ross Stores careers (employer own)": [
@@ -7599,5 +7644,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T11:19:33Z"
+ "lists_generated_at": "2026-11-18T11:20:59Z"
 }
