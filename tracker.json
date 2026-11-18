@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:25:42Z",
+ "generated_at": "2026-11-18T19:28:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:25:37Z",
+  "last_activity_at": "2026-11-18T19:26:56Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 141,
-  "rejected": 1035,
-  "evaluated": 1176
+  "rejected": 1036,
+  "evaluated": 1177
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1176,
+  "evaluated": 1177,
   "filed": 0,
   "parked": 141,
-  "rejected": 1035,
+  "rejected": 1036,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,12 +103,12 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T19:28:04Z",
    "detail": "Employers 330/73"
   },
   "W4": {
@@ -220,23 +224,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T19:28:04Z",
    "detail": "Employers 330/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T19:28:04Z",
    "detail": "Employers 320/54"
   },
   "W18": {
@@ -305,10 +309,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "34 of 35 units done",
+   "state": "done",
+   "detail": "35 of 35 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": null
+   "ended_at": "2026-11-18T19:26:56Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -542,13 +546,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:25 PM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 1:26 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W17"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W17",
+  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4392,9 +4402,9 @@
    {
     "company": "Amgen",
     "role": "Principal IS Architect",
-    "reason": "duplicate — Principal IS Architect | R-256615 | Application Received | Date Submitted October 15, 2026",
+    "reason": "closed — Principal IS Architect | R-256615 | Application Received | Date Submitted October 15, 2026",
     "where": "Amgen Workday careers (employer's own ATS)",
-    "time": "1:24 PM"
+    "time": "1:26 PM"
    }
   ],
   "Novartis careers (employer site)": [
@@ -8158,6 +8168,15 @@
     "time": "1:03 PM"
    }
   ],
+  "Edward Jones BrassRing portal (employer's own ATS)": [
+   {
+    "company": "Edward Jones",
+    "role": "Senior Technical Architect- Technology Architecture",
+    "reason": "pay-outside-band — $144,000-$245,100 (Edward Jones req 117069BR published range, read by the main filer on Edward Jones' own BrassRing portal 2026-11-17) — top exceeds the $230,000 pay-band ceiling.",
+    "where": "Edward Jones BrassRing portal (employer's own ATS)",
+    "time": "1:26 PM"
+   }
+  ],
   "airemotejobs (Google Jobs surface)": [
    {
     "company": "CSAA Insurance Group",
@@ -11680,5 +11699,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T19:25:42Z"
+ "lists_generated_at": "2026-11-18T19:28:04Z"
 }
