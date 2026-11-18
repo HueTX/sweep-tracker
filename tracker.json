@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:14:30Z",
+ "generated_at": "2026-11-18T03:16:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:13:49Z",
+  "last_activity_at": "2026-11-18T03:16:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 206,
+   "covered_units": 248,
    "total_units": 754,
-   "pct": 27
+   "pct": 33
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 2,
-  "parked": 226,
-  "rejected": 1185,
-  "evaluated": 1415
+  "parked": 225,
+  "rejected": 1187,
+  "evaluated": 1416
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1415,
+  "evaluated": 1416,
   "filed": 2,
-  "parked": 226,
-  "rejected": 1185,
+  "parked": 225,
+  "rejected": 1187,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,9 +44,9 @@
  },
  "searching_lanes": [
   "W7",
-  "W3",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -79,7 +79,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -107,38 +107,27 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/73"
+   "heartbeat_at": null,
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -146,6 +135,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/44"
   },
   "W9": {
@@ -228,23 +228,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/54"
   },
   "W18": {
@@ -308,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "26 of 632 units done",
+   "detail": "31 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:13 PM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:16 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
+   "primary": "W7 · Title 49 of 58 · Enterprise Solutions Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W7"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
+  "label": "W7",
+  "headline": "W7 · Title 49 of 58 · Enterprise Solutions Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1553,15 +1553,6 @@
     "reason": "stale-unverified — We anticipate the application window for this opening will close on: 11/09/2026 — mirror shows a closing date already passed at discovery (2026-11-17); employer's own page not yet verified for liveness, so provisional park rather than a closed verdict. Pay $92,700-$185,400 top in band and full remote on the mirror.",
     "where": "Jobgether",
     "time": "8:19 AM"
-   }
-  ],
-  "Experian Careers": [
-   {
-    "company": "Experian",
-    "role": "Platform Architect, Remote",
-    "reason": "not-evaluated — We are looking for a Platform Architect with a platform engineering mindset to help define and guide the evolution of our enterprise-wide platform capabilities. Architect foundational platform components that span the entire product lifecycle. Flexible work environment, ability to work remote, hybrid or in-office. NOTE: PASS attempted on employer's own page was refused cross-cycle-flip-needs-correction - prior cycles resolved this lead REJECTED; a PASS now requires a main-filer correction with employer_page evidence. Employer page: https://jobs.experian.com/job/platform-architect-remote-in-united-states-jid-1716",
-    "where": "Experian Careers",
-    "time": "9:13 PM"
    }
   ],
   "haystackapp.io": [
@@ -3669,13 +3660,76 @@
     "time": "4:25 PM"
    }
   ],
-  "DailyRemote (CommonSpirit Health mirror)": [
+  "Ladders": [
    {
     "company": "CommonSpirit Health",
     "role": "IT Principal Architect",
-    "reason": "stale — Deep knowledge of Adobe Journey Optimizer, including orchestration, decisioning, and real-time personalization.",
-    "where": "DailyRemote (CommonSpirit Health mirror)",
-    "time": "4:45 PM"
+    "reason": "experience-mismatch — AJO Expertise: Deep knowledge of Adobe Journey Optimizer, including orchestration, decisioning, and real-time personalization. Adobe Experience Platform (AEP): Strong understanding of AEP, including data ingestion, schemas, and identity resolution. workarounds tried: (1) employer's own CommonSpirit careers posting sought - same Adobe AJO/AEP core requirements, (2) Ladders/DailyRemote full JD reads with same requirements, (3) no alternate posting of this role with a different core found - Hubert has no Adobe Journey Optimizer / AEP experience, core mismatch",
+    "where": "Ladders",
+    "time": "9:14 PM"
+   },
+   {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Senior Director, Core Technology Architect",
+    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000 — published top $342,000 is above the $230,000 band top. Flex Designation: Hybrid-Eligible Or On-Site Eligible; Hybrid: work remotely up to two days per week. workarounds tried: (1) Vertex careers search for a remote/in-band variant, (2) Ladders mirror of Vertex's own posting (this page), (3) no alternate posting with different terms found.",
+    "where": "Ladders",
+    "time": "8:49 PM"
+   },
+   {
+    "company": "Raymond James",
+    "role": "Principal Enterprise Data & AI Architect",
+    "reason": "not-remote — This position follows our hybrid-friendly schedule, so you get the best of both worlds - flexibility and collaboration. In office days will be 2-3 per week averaging 10-12 days per month in our St Petersburg, FL Corporate Office. workarounds tried: (1) Raymond James careers search for a remote variant of the same req, (2) Ladders and Dice mirrors with the same hybrid terms, (3) no remote alternate posting found.",
+    "where": "Ladders",
+    "time": "8:48 PM"
+   },
+   {
+    "company": "NTT DATA, Inc.",
+    "role": "Principal AI & Salesforce Architect - Remote in US",
+    "reason": "pay-outside-band — The starting pay range for this remote role is $128,858.00 - $238,625.00. workarounds tried: (1) NTT DATA posting text via Ladders full JD, (2) alternate route Dice listing of same Req ID 393533 with same range, (3) no alternate posting with a different range found",
+    "where": "Ladders",
+    "time": "7:17 AM"
+   },
+   {
+    "company": "Truist",
+    "role": "Principal Enterprise Architect - Fraud & AML Technology",
+    "reason": "pay-outside-band — The annual base salary for this position is $157,000 - $262,000. workarounds tried: (1) Ladders mirror of Truist posting, (2) search for alternate Truist posting/route for same role, (3) no alternate posting with different pay found - top $262,000 is above $230,000 band top",
+    "where": "Ladders",
+    "time": "6:10 PM"
+   },
+   {
+    "company": "M&T Bank",
+    "role": "Enterprise Architect - Consumer Banking & Marketing",
+    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, New York, for one week per month. — workarounds tried: (1) employer's own ATS posting carries same on-site requirement, (2) alternate routes Ladders/Jobgether/BuiltIn all show same one-week-per-month on-site rule and $139,700-$232,900 range, (3) no alternate fully-remote posting of same role found",
+    "where": "Ladders",
+    "time": "1:13 PM"
+   },
+   {
+    "company": "M&T Bank",
+    "role": "Enterprise Architect for Finance & Corp Functions",
+    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, NY, for one week per month. | workarounds tried: Ladders full JD checked, no fully remote alternate posting found",
+    "where": "Ladders",
+    "time": "5:38 AM"
+   },
+   {
+    "company": "Morgan Stanley",
+    "role": "Cloud & Digital Assets Platform Engineering Lead",
+    "reason": "pay-outside-band — Expected base pay rates for the role will be between $195,000 and $275,000 per year at the commencement of employment. workarounds tried: (1) full JD on Ladders, (2) alternate route BuiltIn NYC listing same pay range, (3) alternate posting - same $195,000-$275,000 range",
+    "where": "Ladders",
+    "time": "5:31 AM"
+   },
+   {
+    "company": "Varicent",
+    "role": "Staff Cloud Engineer",
+    "reason": "not-remote — Canada - Fully Remote - Work from anywhere in Canada! workarounds tried: (1) employer's posting as carried on Ladders - Canada-only remote; (2) alternate route RemoteRocketship listing - same Canada-only scope and salary; (3) alternate US posting of the same role - none found.",
+    "where": "Ladders",
+    "time": "5:09 AM"
+   },
+   {
+    "company": "REI Systems",
+    "role": "Cloud Architect",
+    "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office) workarounds tried: (1) employer's own REI posting sought - same hybrid location, (2) Ladders full JD read, (3) no alternate remote posting of this role found",
+    "where": "Ladders",
+    "time": "9:12 PM"
    }
   ],
   "CommonSpirit Careers": [
@@ -4104,71 +4158,6 @@
     "reason": "not-remote — Hybrid schedule: at least 4 days per week in the office and 1 day working from home. workarounds tried: (1) employer JD text via Simplify, (2) Built In Platform Engineering Director alternate posting, (3) The Ladders Lead Java Developer alternate - BlackRock's hybrid work model stated, no remote alternate found",
     "where": "Simplify Jobs",
     "time": "7:19 PM"
-   }
-  ],
-  "Ladders": [
-   {
-    "company": "Vertex Pharmaceuticals",
-    "role": "Senior Director, Core Technology Architect",
-    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000 — published top $342,000 is above the $230,000 band top. Flex Designation: Hybrid-Eligible Or On-Site Eligible; Hybrid: work remotely up to two days per week. workarounds tried: (1) Vertex careers search for a remote/in-band variant, (2) Ladders mirror of Vertex's own posting (this page), (3) no alternate posting with different terms found.",
-    "where": "Ladders",
-    "time": "8:49 PM"
-   },
-   {
-    "company": "Raymond James",
-    "role": "Principal Enterprise Data & AI Architect",
-    "reason": "not-remote — This position follows our hybrid-friendly schedule, so you get the best of both worlds - flexibility and collaboration. In office days will be 2-3 per week averaging 10-12 days per month in our St Petersburg, FL Corporate Office. workarounds tried: (1) Raymond James careers search for a remote variant of the same req, (2) Ladders and Dice mirrors with the same hybrid terms, (3) no remote alternate posting found.",
-    "where": "Ladders",
-    "time": "8:48 PM"
-   },
-   {
-    "company": "NTT DATA, Inc.",
-    "role": "Principal AI & Salesforce Architect - Remote in US",
-    "reason": "pay-outside-band — The starting pay range for this remote role is $128,858.00 - $238,625.00. workarounds tried: (1) NTT DATA posting text via Ladders full JD, (2) alternate route Dice listing of same Req ID 393533 with same range, (3) no alternate posting with a different range found",
-    "where": "Ladders",
-    "time": "7:17 AM"
-   },
-   {
-    "company": "Truist",
-    "role": "Principal Enterprise Architect - Fraud & AML Technology",
-    "reason": "pay-outside-band — The annual base salary for this position is $157,000 - $262,000. workarounds tried: (1) Ladders mirror of Truist posting, (2) search for alternate Truist posting/route for same role, (3) no alternate posting with different pay found - top $262,000 is above $230,000 band top",
-    "where": "Ladders",
-    "time": "6:10 PM"
-   },
-   {
-    "company": "M&T Bank",
-    "role": "Enterprise Architect - Consumer Banking & Marketing",
-    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, New York, for one week per month. — workarounds tried: (1) employer's own ATS posting carries same on-site requirement, (2) alternate routes Ladders/Jobgether/BuiltIn all show same one-week-per-month on-site rule and $139,700-$232,900 range, (3) no alternate fully-remote posting of same role found",
-    "where": "Ladders",
-    "time": "1:13 PM"
-   },
-   {
-    "company": "M&T Bank",
-    "role": "Enterprise Architect for Finance & Corp Functions",
-    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, NY, for one week per month. | workarounds tried: Ladders full JD checked, no fully remote alternate posting found",
-    "where": "Ladders",
-    "time": "5:38 AM"
-   },
-   {
-    "company": "Morgan Stanley",
-    "role": "Cloud & Digital Assets Platform Engineering Lead",
-    "reason": "pay-outside-band — Expected base pay rates for the role will be between $195,000 and $275,000 per year at the commencement of employment. workarounds tried: (1) full JD on Ladders, (2) alternate route BuiltIn NYC listing same pay range, (3) alternate posting - same $195,000-$275,000 range",
-    "where": "Ladders",
-    "time": "5:31 AM"
-   },
-   {
-    "company": "Varicent",
-    "role": "Staff Cloud Engineer",
-    "reason": "not-remote — Canada - Fully Remote - Work from anywhere in Canada! workarounds tried: (1) employer's posting as carried on Ladders - Canada-only remote; (2) alternate route RemoteRocketship listing - same Canada-only scope and salary; (3) alternate US posting of the same role - none found.",
-    "where": "Ladders",
-    "time": "5:09 AM"
-   },
-   {
-    "company": "REI Systems",
-    "role": "Cloud Architect",
-    "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office) workarounds tried: (1) employer's own REI posting sought - same hybrid location, (2) Ladders full JD read, (3) no alternate remote posting of this role found",
-    "where": "Ladders",
-    "time": "9:12 PM"
    }
   ],
   "Built In": [
@@ -4682,13 +4671,6 @@
     "reason": "stale — workarounds tried: (1) GDIT posting via Built In full JD, (2) alternate Built In Charlotte mirror same posting and date, (3) no refreshed repost found. Published: 2026-10-19, outside 7-day eligibility at 2026-11-17; engineer-level role: Develops automation using Bash, PowerShell, and Python",
     "where": "Built In",
     "time": "6:04 PM"
-   },
-   {
-    "company": "Optum",
-    "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment.",
-    "where": "Built In",
-    "time": "8:14 AM"
    },
    {
     "company": "BAE Systems, Inc.",
@@ -5218,6 +5200,13 @@
     "time": "9:10 PM"
    },
    {
+    "company": "Brain Corp",
+    "role": "Senior Staff Software Engineer - Cloud (Technical Lead Manager)",
+    "reason": "stale — Published: 2026-07-18 workarounds tried: (1) employer's own posting sought, (2) BuiltIn full JD read with same 2026-07-18 date, (3) no fresh repost within 7 days found",
+    "where": "BuiltIn",
+    "time": "9:14 PM"
+   },
+   {
     "company": "Williams",
     "role": "IT Architect V",
     "reason": "not-remote — Hybrid work schedule: 4 days in-office and 1 day remote weekly. Workarounds tried: BuiltIn full JD read via search (Williams corporate headquarters, Tulsa, Oklahoma); no fully-remote posting of the same role found.",
@@ -5328,6 +5317,13 @@
     "reason": "experience-mismatch — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud; 15+ years of professional experience in software/application development, including substantial experience designing and delivering enterprise-scale Java applications. workarounds tried: (1) employer's own posting searched by requisition 2391622, (2) BuiltIn mirror full JD read, (3) no alternate posting of same req with infrastructure-focused duties found",
     "where": "BuiltIn",
     "time": "12:16 PM"
+   },
+   {
+    "company": "Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth/Optum careers posting sought with same range, (2) BuiltIn full JD read with same $134,600-$230,800 range, (3) no alternate posting with a different range found - top $230,800 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "9:14 PM"
    },
    {
     "company": "UnitedHealth Group / Optum",
@@ -7204,6 +7200,15 @@
     "reason": "not-remote — Position requires in-office presence in Seattle, WA on a hybrid schedule for Monday, Tuesday, Wednesday, and Thursday with a work from home day on Friday. The position will start remote and then will move into the hybrid schedule. Vivint Smart Home (NRG) is hiring a Principal Solutions Architect. workarounds tried: (1) employer's own NRG/Vivint posting searched; (2) alternate route Ladders carries the full JD verbatim and was opened in full; (3) no remote alternate posting of this role found.",
     "where": "theladders.com",
     "time": "5:08 PM"
+   }
+  ],
+  "jobs.experian.com": [
+   {
+    "company": "Experian",
+    "role": "Platform Architect, Remote",
+    "reason": "hands-on — 6+ years of software engineering experience, with a emphasis on building scalable, enterprise-grade platforms. Proficiency in Terraform and a understanding of modern software development practices. Hands-on experience with cloud platforms (preferably AWS) and Infrastructure-as-Code tools such as Terraform and Helm. Expertise in containerization and orchestration technologies, including Docker and Kubernetes, along with building CI/CD pipelines for production environments",
+    "where": "jobs.experian.com",
+    "time": "9:16 PM"
    }
   ],
   "Startup.jobs": [
@@ -13530,5 +13535,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T03:14:30Z"
+ "lists_generated_at": "2026-11-18T03:16:16Z"
 }
