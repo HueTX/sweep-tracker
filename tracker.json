@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:30:44Z",
+ "generated_at": "2026-11-18T11:32:19Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:29:46Z",
+  "last_activity_at": "2026-11-18T11:30:54Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,21 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 88,
-  "rejected": 599,
-  "evaluated": 688
+  "rejected": 603,
+  "evaluated": 691
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 688,
+  "evaluated": 691,
   "filed": 0,
   "parked": 88,
-  "rejected": 599,
+  "rejected": 603,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W3",
   "W5",
-  "W6",
+  "W16",
+  "W17",
   "W18",
   "W19"
  ],
@@ -110,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:30:44Z",
-   "detail": "Employers 245/73"
+   "heartbeat_at": "2026-11-18T11:32:19Z",
+   "detail": "Employers 250/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -132,19 +133,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:30:44Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": "2026-11-18T11:32:19Z",
+   "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:30:44Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,23 +227,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:32:19Z",
    "detail": "Employers 245/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:32:19Z",
    "detail": "Employers 245/54"
   },
   "W18": {
@@ -253,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:30:44Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": "2026-11-18T11:32:19Z",
+   "detail": "Employers 245/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -264,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:30:44Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": "2026-11-18T11:32:19Z",
+   "detail": "Employers 241/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "529 of 632 units done",
+   "detail": "534 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:29 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:30 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1060,8 +1061,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 65,
@@ -1893,13 +1894,6 @@
     "company": "PayPal",
     "role": "Enterprise Architect",
     "reason": "pay-outside-band — New York City, New York | ($242,000.00 - $359,150.00 Annually)",
-    "where": "builtin.com",
-    "time": "2:29 AM"
-   },
-   {
-    "company": "Xylem",
-    "role": "Enterprise Salesforce Architect",
-    "reason": "not-remote — This role follows Xylem’s Hybrid-First work model and is based in Charlotte, NC.",
     "where": "builtin.com",
     "time": "2:29 AM"
    },
@@ -2784,6 +2778,13 @@
     "reason": "not-remote — DePuy Synthes is recruiting for a Manager, Enterprise & Integration Architect, located in New Jersey. #LI-Hybrid — workarounds tried: (1) BuiltIn full JD read (J&J's own posting text), (2) J&J careers surface searched; the hybrid New Jersey basis is stated on the JD itself",
     "where": "BuiltIn",
     "time": "5:27 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Director, Principal Technical Architect",
+    "reason": "not-remote — Work Location Assignment: Hybrid. Additional Posting Locations: Tampa, FL, Collegeville, PA, Groton, CT, La Jolla, CA, Bothell, WA and Walton Oaks (UK). The annual base salary for this position ranges from $214,900.00 to $358,100.00 — hybrid assignment and a published top of $358,100 (above the $230,000 ceiling) both fail. JD also calls for a senior, hands-on technical leader with deep, hands-on technical expertise in modern engineering practices. Workarounds tried: (1) employer's syndicated full JD via BuiltIn; (2) alternate routes carry the same hybrid assignment; (3) no remote or in-band posting of this role found.",
+    "where": "BuiltIn",
+    "time": "5:30 AM"
    },
    {
     "company": "Red Hat",
@@ -3824,6 +3825,15 @@
     "time": "1:30 AM"
    }
   ],
+  "GrabJobs (employer JD mirror)": [
+   {
+    "company": "Hawaiian Electric",
+    "role": "Operational Technology Solutions Architect – Oahu",
+    "reason": "pay-outside-band — Location: Honolulu – Oahu. Hiring Range: The hiring range for the Operational Technology Solutions Architect [Req ID 10296] position is $120,600.00 to $156,700.00. — published top $156,700 is below the $160,000 band floor; the role is also Honolulu-based OT/EMS architecture, not remote. Workarounds tried: (1) employer's own careers text replicated across mirrors (career.io/GrabJobs carry the employer's JD verbatim); (2) alternate routes carry the same range; (3) no alternate posting of this req found.",
+    "where": "GrabJobs (employer JD mirror)",
+    "time": "5:30 AM"
+   }
+  ],
   "Built In (Wells Fargo JD mirror)": [
    {
     "company": "Wells Fargo",
@@ -4242,6 +4252,13 @@
     "reason": "stale — The Technology Specialist III - Cyber Security Architect is responsible for the design, implementation, and governance of enterprise security architecture solutions that protect Mount Sinai Health System's users, applications, and data. Published 2026-09-06, outside the 7-day eligibility window at 2026-11-18. workarounds tried: (1) full JD via Adzuna (this page), (2) GrabJobs and Remotive alternate mirrors - same September 2026 dates, (3) no fresher repost found.",
     "where": "Adzuna",
     "time": "5:20 AM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Sr. Client Solutions Architect",
+    "reason": "pay-outside-band — Salary: The estimated salary range for this position is $120,000 to $150,000 plus bonus. — published top $150,000 is below the $160,000 band floor. Role is a client-facing solutions architect for the Xylem Vue water analytics platform requiring 3+ years of water/wastewater operations, SCADA, or data analytics experience. Workarounds tried: (1) full JD via Adzuna mirror of the employer's posting; (2) alternate routes carry the same range; (3) no in-band posting of this role found.",
+    "where": "Adzuna",
+    "time": "5:30 AM"
    }
   ],
   "Ross Stores careers (employer own)": [
@@ -4565,13 +4582,31 @@
     "time": "4:47 AM"
    }
   ],
-  "builtinla.com": [
+  "metroseattlejob.com (FIS syndication mirror)": [
+   {
+    "company": "FIS",
+    "role": "Digital Solutions Architect",
+    "reason": "hands-on-coding — Expertise in cloud platforms (AWS and Azure) and cloud-native services (Lambda, DynamoDB, S3, EventBridge), with experience in serverless architectures using Node.js or Python. Hands-on experience with microservices and event-driven architectures, leveraging Kafka, SNS/SQS, or Kinesis for distributed, scalable processing. Strong background in React/React Native, ensuring seamless, high-performance web and mobile user experiences. — Verify-stage verdict: the role's core duties are hands-on application building (Node.js/Python serverless, React front ends, AWS services first), which hard-rejects under the whole-role test and mismatches Hubert's Azure infrastructure architecture experience. FIS's own careers page for this req could not be surfaced by search; the full JD was verified verbatim-identical across two independent FIS syndication mirrors (metroseattlejob.com and the DiversityJobs network), and every sibling FIS Digital Architect req carries the same JD structure. Workarounds tried: (1) employer's own ATS sought directly; (2) alternate routes — SmartRecruiters/JobsForHumanity carries a different req (10+ yrs, 15-25% travel); (3) no alternate posting of this req changes the hands-on duties.",
+    "where": "metroseattlejob.com (FIS syndication mirror)",
+    "time": "5:30 AM"
+   }
+  ],
+  "SonicJobs": [
+   {
+    "company": "Xylem",
+    "role": "Enterprise Salesforce Architect",
+    "reason": "not-remote — The position is based in Charlotte, NC, follows a Hybrid-First work model, and may require periodic travel for global project support. This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC. Compensation $180,000-$200,000 is in band; hybrid is the killer, and the role is Salesforce-platform-specific (10+ years of Salesforce experience). Workarounds tried: (1) full JD via SonicJobs mirror of the employer's posting; (2) alternate routes carry the same Hybrid-First terms; (3) no remote posting of this role found.",
+    "where": "SonicJobs",
+    "time": "5:30 AM"
+   }
+  ],
+  "BuiltIn Los Angeles": [
    {
     "company": "Pfizer",
     "role": "Director, Senior Technical Architect",
-    "reason": "not-remote — Work Location Assignment: On Premise",
-    "where": "builtinla.com",
-    "time": "2:31 AM"
+    "reason": "not-remote — Additional Posting Locations: Tampa, FL, Collegeville, PA, Groton, CT, La Jolla, CA, Bothell, WA and Walton Oaks (UK). On site strongly preferred. Remote locations will only be considered for internal candidates. — external candidates must be on site; not 100% remote. JD is also AI-program architecture with deep, hands-on technical expertise in modern engineering practices and AI/ML services. Workarounds tried: (1) employer's syndicated full JD via BuiltIn Los Angeles; (2) alternate routes carry the same on-site preference; (3) no remote posting of this role found.",
+    "where": "BuiltIn Los Angeles",
+    "time": "5:30 AM"
    }
   ],
   "rackspace.wd1.myworkdayjobs.com (employer's own board)": [
@@ -7821,5 +7856,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T11:30:44Z"
+ "lists_generated_at": "2026-11-18T11:32:19Z"
 }
