@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T12:09:43Z",
+ "generated_at": "2026-11-18T12:11:36Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,35 +15,36 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T12:04:44Z",
+  "last_activity_at": "2026-11-18T12:10:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 206,
+   "covered_units": 244,
    "total_units": 754,
-   "pct": 27
+   "pct": 32
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 93,
-  "rejected": 659,
-  "evaluated": 752
+  "parked": 94,
+  "rejected": 668,
+  "evaluated": 762
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 752,
+  "evaluated": 762,
   "filed": 0,
-  "parked": 93,
-  "rejected": 659,
+  "parked": 94,
+  "rejected": 668,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W7",
   "W2",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -76,7 +77,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:09:43Z",
+   "heartbeat_at": "2026-11-18T12:11:36Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -98,7 +99,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:09:43Z",
+   "heartbeat_at": "2026-11-18T12:11:36Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -115,27 +116,16 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:09:43Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T12:09:43Z",
-   "detail": "Employers 5/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -143,6 +133,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T12:11:36Z",
    "detail": "Employers 5/44"
   },
   "W9": {
@@ -225,23 +226,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:11:36Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:11:36Z",
    "detail": "Employers 5/54"
   },
   "W18": {
@@ -305,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "26 of 632 units done",
+   "detail": "31 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -547,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:04 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:10 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1074,7 +1075,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 98,
@@ -1518,6 +1519,15 @@
     "reason": "title-not-covered — Dow has an exciting opportunity for an Enterprise AI Architect located in Midland, MI or Houston, TX.",
     "where": "jobs.dow.com",
     "time": "4:34 AM"
+   }
+  ],
+  "Cognizant Careers (employer page)": [
+   {
+    "company": "Cognizant",
+    "role": "VMware & Windows Infrastructure Architect",
+    "reason": "cognizant-manual-only — We are seeking a highly experienced VMware & Windows Infrastructure Solution Architect to join our CIO IT Solution Design team. — Cognizant posting: manual-only under Hubert's standing rule, parked cognizant-manual-only, never PASS, regardless of merits (remote USA; $100,000 to $115,000 also below the band floor).",
+    "where": "Cognizant Careers (employer page)",
+    "time": "6:10 AM"
    }
   ],
   "W8": [
@@ -2406,6 +2416,13 @@
     "time": "5:57 AM"
    },
    {
+    "company": "Centene",
+    "role": "Lead Domain Solutions Architect",
+    "reason": "stale — Pay Range: $119,100.00 - $220,500.00 per year — full JD read on BuiltIn; the posting's own date is 2025-06-13, well outside the 7-day eligibility window, with no fresher repost activity for this req. Workarounds tried: (1) employer's own ATS posting — no fresher version found, (2) alternate routes BuiltIn / BuiltIn Austin carry the same 2025 posting, (3) no refreshed repost of this req found. Stale verdict carries the typed posted_date.",
+    "where": "BuiltIn",
+    "time": "6:10 AM"
+   },
+   {
     "company": "Alliant Energy",
     "role": "Senior Cloud Engineer",
     "reason": "stale — The Senior Cloud Engineer is responsible for designing, building, and supporting hybrid-cloud infrastructure across Azure, AWS, and on-prem virtualization platforms such as Nutanix. Pay Range: $85,000-$116,000. Published: 2026-07-10, outside 7-day eligibility and engineer-level. workarounds tried: (1) BuiltIn employer mirror, (2) Career.io alternate route same posting/date, (3) no fresher alternate posting found.",
@@ -2481,6 +2498,13 @@
     "reason": "stale — Rockwell Automation's hybrid policy aligns that employees are expected to work at a Rockwell location at least Mondays, Tuesdays, and Thursdays unless they have a business obligation out of the office. workarounds tried: (1) employer's Rockwell posting text via BuiltIn mirror published 2026-03-28, (2) alternate Dice route for Rockwell architect roles also hybrid, (3) no fresher fully remote repost found",
     "where": "BuiltIn",
     "time": "4:07 AM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Enterprise Data Architect",
+    "reason": "do-not-reapply — Bright Vision Technologies - no further applications, employer-wide (standing DNR)",
+    "where": "BuiltIn",
+    "time": "6:10 AM"
    },
    {
     "company": "Sentara Health Plans",
@@ -2635,6 +2659,13 @@
     "reason": "stale — The Applic/ Solutions Architect is an information technology professional who functionally designs systems, applications and user interfaces for a solution that supports a specific business process. — full JD read on BuiltIn; posting Published: 2026-04-06, outside the 7-day eligibility window with no fresher repost found. workarounds tried: (1) employer's own posting text on BuiltIn; (2) alternate routes show the same April posting; (3) no refreshed/reposted version found.",
     "where": "BuiltIn",
     "time": "5:55 AM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Lead Domain Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $106,605.00 - $260,590.00 — published top $260,590 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's own JD text as carried in full on BuiltIn (CVS Health), (2) alternate route Dice carries CVS Health architect postings with the same published range structure, (3) no alternate posting of this req with an in-band top found.",
+    "where": "BuiltIn",
+    "time": "6:10 AM"
    }
   ],
   "DailyRemote (CommonSpirit Health mirror)": [
@@ -3843,6 +3874,13 @@
     "time": "12:30 AM"
    },
    {
+    "company": "ConocoPhillips",
+    "role": "Cloud Data and AI Architect",
+    "reason": "closed — Apply By: Mar 30, 2026 — passed application deadline on the posting's own detail text is a gate fact (closed). The role is also Houston-based data / AI architecture whose title matches no listed family in this unit.",
+    "where": "Career.io",
+    "time": "6:10 AM"
+   },
+   {
     "company": "Sherwin-Williams",
     "role": "Solution Architect - Shared Data Platform",
     "reason": "not-remote — This role is not remote/hybrid. This role will report to our office in Cleveland, OH. workarounds tried: (1) employer's Sherwin-Williams posting text via Career.io mirror stating not remote/hybrid, (2) alternate SonicJobs/CareerBuilder routes - same Cleveland onsite role, (3) no fully remote alternate posting of same role found",
@@ -4161,6 +4199,43 @@
     "reason": "stale — The Identity Architect is responsible for designing, implementing, and evolving the organization's enterprise identity and access management (IAM) strategy. workarounds tried: (1) alternate routes Freehire and Simplify both carry the October 2026 posting, (2) no fresher repost of this role found",
     "where": "Google Jobs / Freehire (Loenbro mirror)",
     "time": "3:11 AM"
+   }
+  ],
+  "Remotive": [
+   {
+    "company": "CVS Health",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00. — published top $288,400 exceeds the $230,000 band ceiling; the role is also AWS-primary ('Own the Aetna Technology cloud reference architectures — landing zones, account/subscription structure, networking, identity, and workload patterns — with AWS as primary and GCP/Azure supported by exception'). Workarounds tried: (1) employer's own JD text as carried in full on Remotive, (2) alternate route BuiltIn carries the same CVS / Aetna role, (3) no alternate posting with an in-band top.",
+    "where": "Remotive",
+    "time": "6:10 AM"
+   },
+   {
+    "company": "JumpCloud",
+    "role": "Chief Architect",
+    "reason": "not-remote — Be aware of the location restriction for this remote position: India — Must be located in and authorized to work in the country noted in the job description (India). US-only remote rule fails. Workarounds tried: (1) employer's own posting as carried on BuiltIn Singapore confirms 'Chief Architect - India', (2) alternate route Remotive carries the same India restriction, (3) no US-based posting of this role.",
+    "where": "Remotive",
+    "time": "6:03 AM"
+   },
+   {
+    "company": "AAA-The Auto Club Group",
+    "role": "Cloud Architect",
+    "reason": "cloud-mismatch — Act as subject matter expert on Amazon Web Services (AWS) and Google Cloud Platform (GCP). — full JD read on Remotive: the role is AWS/GCP-first ('GCP or AWS certification is a must', '5+ years of hands-on Google Cloud Platform (GCP) experience' preferred), Azure is never mentioned, so it fails the Azure-included test. Salary $121,035.20 to $174,834.40 top is in band and remote USA, cloud focus is the sole killer. workarounds tried: (1) employer's own JD text via Remotive full JD; (2) alternate route DailyRemote carries the same AWS/GCP JD; (3) no Azure-inclusive posting of this role found.",
+    "where": "Remotive",
+    "time": "5:55 AM"
+   },
+   {
+    "company": "CVS Health / Aetna Technology",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00 — top above $230,000 cap; workarounds tried: (1) full JD read on Remotive mirror of CVS careers",
+    "where": "Remotive",
+    "time": "12:30 AM"
+   },
+   {
+    "company": "L3Harris Technologies",
+    "role": "Lead, IT Architecture (Platform Architect)",
+    "reason": "hands-on — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions. — workarounds tried: (1) full JD read on Remotive mirror",
+    "where": "Remotive",
+    "time": "12:42 AM"
    }
   ],
   "builtincharlotte.com": [
@@ -5416,6 +5491,13 @@
     "time": "1:42 AM"
    },
    {
+    "company": "Energy Exemplar",
+    "role": "Director Cloud Architecture & Delivery",
+    "reason": "experience-mismatch — Experience designing AI agent engineering in production, including LLM application and agent orchestration frameworks, retrieval and tool integration — plus energy-market simulation platforms (PLEXOS, Aurora, Adapt2) as the product core. Hubert's experience is Azure infrastructure / enterprise architecture and DR, with no production AI-agent engineering or energy-market simulation platform background — core mismatch. Workarounds tried: (1) employer's own JD text as carried in full on Jobicy, (2) alternate search routes carry the same Energy Exemplar JD, (3) no alternate posting with a different core.",
+    "where": "Jobicy",
+    "time": "6:10 AM"
+   },
+   {
     "company": "Collibra",
     "role": "Senior Federal Enterprise Solution Architect",
     "reason": "clearance — Because this role supports the U.S. government, it is required that the candidate be a US citizen who resides on US soil candidate and holds an active Top Secret Polygraph Lifestyle Security Clearance — gate fact: active clearance required in the JD; also 'Willing to be on site 100% of the time.' in Chantilly, Virginia.",
@@ -5427,9 +5509,9 @@
    {
     "company": "RSM US LLP",
     "role": "Cloud Delivery Lead",
-    "reason": "not-remote — Most roles at RSM follow a hybrid workstyle, which means team members are aligned to an RSM office and come together in person when it best supports clients, teams, development or relationship-building.",
+    "reason": "not-remote — We believe flexibility and in-person connection both play an important role in how we work and grow. Most roles at RSM follow a hybrid workstyle, which means team members are aligned to an RSM office and come together in person when it best supports clients, teams, development or relationship-building. — hybrid workstyle stated in the full JD read on The Ladders. Workarounds tried: (1) employer's own JD text as carried in full on The Ladders, (2) no alternate fully-remote route for the same req found, (3) no alternate posting of this role.",
     "where": "The Ladders",
-    "time": "12:02 AM"
+    "time": "6:10 AM"
    },
    {
     "company": "REI Systems",
@@ -5437,6 +5519,15 @@
     "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office) #LI-Hybrid — stated required hybrid office schedule. Workarounds tried: (1) employer's own JD text as carried in full on The Ladders, (2) no alternate fully-remote route for the same req, (3) no alternate posting of this role.",
     "where": "The Ladders",
     "time": "6:03 AM"
+   }
+  ],
+  "Luxoft Careers (employer page)": [
+   {
+    "company": "DXC Luxoft",
+    "role": "Modernization Lead/Architect",
+    "reason": "hands-on — Experience as a modern stack developer is mandatory — plus 'Recent hands on experience in development and readiness to work with hands' and 'Proficiency in mainframe tech (COBOL, DB2, CICS) and modern stacks (Java, Spring, microservices)'. Hands-on development is a mandatory core of the role, hard-reject. Workarounds tried: (1) employer's own Luxoft careers page (governing text, full JD read), (2) alternate mirrors carry the same mandatory-developer text, (3) no alternate posting without the developer core.",
+    "where": "Luxoft Careers (employer page)",
+    "time": "6:10 AM"
    }
   ],
   "monster.com (Travelers)": [
@@ -5717,36 +5808,6 @@
     "reason": "not-remote — While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. | workarounds tried: (1) employer own ATS - this quote is from governmentjobs.com, the governing state posting, all remote work must be performed in Colorado, (2) alternate route Texas/California/Florida/New York state portals searched, no US-wide remote version of this req, (3) alternate posting - no alternate posting of this req found",
     "where": "GovernmentJobs.com / NEOGOV agencies",
     "time": "3:06 AM"
-   }
-  ],
-  "Remotive": [
-   {
-    "company": "JumpCloud",
-    "role": "Chief Architect",
-    "reason": "not-remote — Be aware of the location restriction for this remote position: India — Must be located in and authorized to work in the country noted in the job description (India). US-only remote rule fails. Workarounds tried: (1) employer's own posting as carried on BuiltIn Singapore confirms 'Chief Architect - India', (2) alternate route Remotive carries the same India restriction, (3) no US-based posting of this role.",
-    "where": "Remotive",
-    "time": "6:03 AM"
-   },
-   {
-    "company": "AAA-The Auto Club Group",
-    "role": "Cloud Architect",
-    "reason": "cloud-mismatch — Act as subject matter expert on Amazon Web Services (AWS) and Google Cloud Platform (GCP). — full JD read on Remotive: the role is AWS/GCP-first ('GCP or AWS certification is a must', '5+ years of hands-on Google Cloud Platform (GCP) experience' preferred), Azure is never mentioned, so it fails the Azure-included test. Salary $121,035.20 to $174,834.40 top is in band and remote USA, cloud focus is the sole killer. workarounds tried: (1) employer's own JD text via Remotive full JD; (2) alternate route DailyRemote carries the same AWS/GCP JD; (3) no Azure-inclusive posting of this role found.",
-    "where": "Remotive",
-    "time": "5:55 AM"
-   },
-   {
-    "company": "CVS Health / Aetna Technology",
-    "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00 — top above $230,000 cap; workarounds tried: (1) full JD read on Remotive mirror of CVS careers",
-    "where": "Remotive",
-    "time": "12:30 AM"
-   },
-   {
-    "company": "L3Harris Technologies",
-    "role": "Lead, IT Architecture (Platform Architect)",
-    "reason": "hands-on — You must be able to architect, build, deploy, and operate solutions until handoff. This is not a purely advisory role. You will be writing code, building infrastructure, and directly implementing platform solutions. — workarounds tried: (1) full JD read on Remotive mirror",
-    "where": "Remotive",
-    "time": "12:42 AM"
    }
   ],
   "Google Jobs - AI Remote Jobs (CSAA mirror)": [
@@ -6303,13 +6364,22 @@
     "time": "4:40 AM"
    }
   ],
-  "Chevron Careers": [
+  "Stryker Careers (employer page)": [
+   {
+    "company": "Stryker",
+    "role": "Principal EDT Enterprise Architect (Remote)",
+    "reason": "experience-mismatch — Experience with Salesforce.com, ServiceMax, SAP S4/Hana — the role sets direction for Instruments & Customer Solutions (EDT) built on Salesforce / ServiceMax / SAP platforms Hubert has no experience with; core platform mismatch despite generic enterprise-architecture duties. Workarounds tried: (1) employer's own Workday posting (governing text, full JD read), (2) alternate route careers.stryker.com carries the same req R576300, (3) no alternate posting with a different platform core.",
+    "where": "Stryker Careers (employer page)",
+    "time": "6:10 AM"
+   }
+  ],
+  "Chevron Careers (employer page)": [
    {
     "company": "Chevron",
     "role": "Principal Solution Architect",
-    "reason": "not-remote — Houston, Texas. Relocation will not be considered. Chevron is accepting online applications for the position Principal Solution Architect through December 4th, 2026. The employer's own page lists only a Houston, Texas work location with no remote or hybrid arrangement offered. workarounds tried: (1) employer's own careers page (governing text, quoted); (2) alternate route — same req R000075003 only; (3) alternate posting of the same role — none found.",
-    "where": "Chevron Careers",
-    "time": "3:00 AM"
+    "reason": "not-remote — Houston, Texas — Chevron's own posting lists Houston, Texas as the position location with no remote or hybrid language anywhere in the full JD (accepting applications through December 4th, 2026); a Houston-based role, not 100% remote. Workarounds tried: (1) employer's own careers posting (governing text, full JD read), (2) alternate mirrors carry the same Houston location, (3) no remote alternate posting of req R000075003.",
+    "where": "Chevron Careers (employer page)",
+    "time": "6:10 AM"
    }
   ],
   "careers.dominionenergy.com": [
@@ -7162,6 +7232,15 @@
     "reason": "experience-mismatch — Domain Expertise: Proven expertise architecting composable/MACH commerce solutions spanning Omni experiences (Endless Aisle, BORIS, Ship from Store, Pick up in Store), Retail, and commerce platforms (eg SFCC, Shopify, CommerceTools, etc). 2+ years of experience with various programming languages such as Node.js, Next.js, Nest.js including CI/CD pipelines and code repositories like Github. — full JD read on Under Armour's own ATS: salary $161,629.60 - $222,240.70 top in band and Remote, but the core domain is digital commerce/MACH with programming-language experience, mismatching Hubert's Azure infrastructure architecture experience. workarounds tried: (1) employer's own ATS posting is the governing text read; (2) alternate routes carry the same commerce core; (3) no alternate posting with a different core found.",
     "where": "Under Armour Careers (Jobs2Web)",
     "time": "5:56 AM"
+   }
+  ],
+  "YouHired": [
+   {
+    "company": "Chickasaw Nation Industries, Inc.",
+    "role": "Data Architect",
+    "reason": "pay-outside-band — The estimated pay range for this role is $100,000 to $130,000, with the final offer contingent on location, skillset, and experience. — published top $130,000 is below the $160,000 band floor. Workarounds tried: (1) employer's JD text as carried in full on YouHired (Chickasaw Nation Industries), (2) alternate route Relomote carries the identical $100K-$130K range, (3) no alternate posting with an in-band range.",
+    "where": "YouHired",
+    "time": "6:10 AM"
    }
   ]
  },
@@ -8345,5 +8424,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T12:09:43Z"
+ "lists_generated_at": "2026-11-18T12:11:36Z"
 }
