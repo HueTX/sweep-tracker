@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T08:09:01Z",
+ "generated_at": "2026-11-18T08:11:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T08:08:56Z",
+  "last_activity_at": "2026-11-18T08:11:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 43,
-  "rejected": 299,
-  "evaluated": 342
+  "parked": 44,
+  "rejected": 303,
+  "evaluated": 347
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 342,
+  "evaluated": 347,
   "filed": 0,
-  "parked": 43,
-  "rejected": 299,
+  "parked": 44,
+  "rejected": 303,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -110,34 +116,34 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:11:34Z",
    "detail": "Employers 180/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:11:34Z",
    "detail": "Employers 180/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:11:34Z",
    "detail": "Employers 180/44"
   },
   "W9": {
@@ -220,23 +226,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:11:34Z",
    "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:11:34Z",
    "detail": "Employers 180/54"
   },
   "W18": {
@@ -542,13 +548,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:08 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 2:11 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W4 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1315,6 +1327,15 @@
     "time": "12:16 AM"
    }
   ],
+  "careers.nationwide.com": [
+   {
+    "company": "Nationwide",
+    "role": "Consultant, Data Product Architect",
+    "reason": "title-not-covered — The role follows our SuccessFlex model, which includes three remote workdays and two in-office days per week for team collaboration.",
+    "where": "careers.nationwide.com",
+    "time": "2:11 AM"
+   }
+  ],
   "Recruit.net / RemoteRocketship snippets only": [
    {
     "company": "Trinity Health",
@@ -1924,6 +1945,31 @@
     "reason": "pay-outside-band — The pay range for this position is $95,100.00 - $135,800.00 per year — workarounds tried: (1) employer's own Gainwell careers page opened as governing text with same pay, (2) Monster mirror confirmed same pay range, (3) no alternate in-band posting found",
     "where": "Gainwell careers",
     "time": "12:14 AM"
+   }
+  ],
+  "jobs.lincolnfinancial.com": [
+   {
+    "company": "Lincoln Financial",
+    "role": "Lead Enterprise Architect",
+    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office. workarounds tried: (1) employer own ATS posting is the source read (governing text), (2) alternate surfaces confirm same hybrid arrangement, (3) no alternate remote posting of same req found.",
+    "where": "jobs.lincolnfinancial.com",
+    "time": "2:11 AM"
+   },
+   {
+    "company": "Lincoln Financial",
+    "role": "Lead Cloud Architect",
+    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office. workarounds tried: (1) employer own ATS posting is the source read (governing text), (2) alternate mirror Vaia confirms Hybrid 3 days, (3) no alternate remote posting of same req found.",
+    "where": "jobs.lincolnfinancial.com",
+    "time": "2:11 AM"
+   }
+  ],
+  "builtin.com (New York Life mirror)": [
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Integration Platform Architect",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week. workarounds tried: (1) employer posting text via Built In mirror of NYL careers, (2) alternate mirrors Levels.fyi and Adzuna confirm same Hybrid - 3 days per week designation, (3) no alternate remote posting of req 95104 found.",
+    "where": "builtin.com (New York Life mirror)",
+    "time": "2:11 AM"
    }
   ],
   "EnergyJobSearch": [
@@ -3157,6 +3203,15 @@
     "reason": "clearance — Must have an active Top Secret clearance",
     "where": "Accenture Federal Services careers via RemoteRocketship",
     "time": "1:59 AM"
+   }
+  ],
+  "builtin.com (TIAA mirror)": [
+   {
+    "company": "TIAA",
+    "role": "Director, Solutions Architect - Legal, Risk & Compliance",
+    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr. workarounds tried: (1) TIAA careers text via Built In mirror, (2) Dice mirror confirms same $165,000.00 - 255,000.00 range, (3) no alternate posting with different pay found. Anticipated Posting End Date: 2026-11-02 also passed.",
+    "where": "builtin.com (TIAA mirror)",
+    "time": "2:11 AM"
    }
   ],
   "Career.io (State of Missouri)": [
@@ -4997,5 +5052,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T08:09:01Z"
+ "lists_generated_at": "2026-11-18T08:11:34Z"
 }
