@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T21:44:58Z",
+ "generated_at": "2026-11-18T21:49:06Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T21:41:22Z",
+  "last_activity_at": "2026-11-18T21:47:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 189,
+  "parked": 190,
   "rejected": 1123,
-  "evaluated": 1312
+  "evaluated": 1313
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1312,
+  "evaluated": 1313,
   "filed": 0,
-  "parked": 189,
+  "parked": 190,
   "rejected": 1123,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
   "W6",
   "W16",
   "W17",
   "W18",
-  "W19"
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/30"
+   "detail": "Employers 155/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/39"
+   "detail": "Employers 155/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/73"
+   "detail": "Employers 155/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,18 +123,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/32"
+   "detail": "Employers 155/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/44"
+   "heartbeat_at": null,
+   "detail": "Employers 155/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/44"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/59"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,8 +243,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/54"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/45"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,19 +265,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T21:44:58Z",
-   "detail": "Employers 145/41"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 145/31"
+   "heartbeat_at": "2026-11-18T21:49:06Z",
+   "detail": "Employers 150/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "343 of 632 units done",
+   "detail": "355 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:41 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:47 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1423,6 +1423,15 @@
     "reason": "credential-needed — Blocker persists: credential-needed - parked",
     "where": "",
     "time": "1:43 PM"
+   }
+  ],
+  "dailyremote.com": [
+   {
+    "company": "LifePoint Health",
+    "role": "Architect-Network Engineer",
+    "reason": "title-not-covered — The Architect-Network Engineer leads the design, planning, and technical direction of enterprise network infrastructure across routing, switching, and cloud connectivity.",
+    "where": "dailyremote.com",
+    "time": "3:47 PM"
    }
   ],
   "Built In": [
@@ -5280,6 +5289,13 @@
     "time": "1:21 PM"
    },
    {
+    "company": "Sherwin-Williams",
+    "role": "Principal Practice Enterprise Architect Data",
+    "reason": "experience-mismatch — Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog) and AI code assist tooling; evaluates platforms directly rather than through vendor material — plus: Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify — workarounds tried: (1) employer's own Oracle careers page for this role (job 2626554) carries the same role; (2) alternate routes Teal and Jooble listings for the same req show the same Databricks data-platform core; (3) no alternate posting of this role with a different core found. Core duties are hands-on Databricks data engineering/platform work, which does not align with Hubert's Azure infrastructure architecture experience.",
+    "where": "dice.com",
+    "time": "3:45 PM"
+   },
+   {
     "company": "Marsh McLennan",
     "role": "Enterprise Architect",
     "reason": "stale — Applications will be accepted until: March 20, 2026",
@@ -5652,6 +5668,13 @@
     "reason": "not-remote — Providence welcomes virtual work for applicants who reside within 75 miles of one of the following office locations — workarounds tried: employer's own ATS posting, alternate route for same req, alternate posting of same role; virtual work is restricted to WA/OR office footprints, Hubert is Houston, TX based",
     "where": "diversityjobs.com",
     "time": "12:32 PM"
+   },
+   {
+    "company": "Enbridge",
+    "role": "Senior Specialist Enterprise Architect",
+    "reason": "closed — Posting End Date: March 22, 2026",
+    "where": "diversityjobs.com",
+    "time": "3:45 PM"
    },
    {
     "company": "Portland General Electric",
@@ -6389,15 +6412,6 @@
     "time": "2:58 PM"
    }
   ],
-  "DiversityJobs (Enbridge posting text)": [
-   {
-    "company": "Enbridge",
-    "role": "Senior Specialist Enterprise Architect",
-    "reason": "closed — Posting End Date: March 22, 2026. Join our Strategy Planning team as a Senior Specialist Enterprise Architect, where you will shape enterprise-wide architecture and roadmaps across security, networks, application development, data & analytics, databases, and integration middleware.",
-    "where": "DiversityJobs (Enbridge posting text)",
-    "time": "7:35 AM"
-   }
-  ],
   "Simplify (Enbridge JD mirror)": [
    {
     "company": "Enbridge",
@@ -6779,15 +6793,6 @@
     "reason": "pay-outside-band — Compensation: $230,000 $280,000 base salary + bonus — published top $280,000 is above the $230,000 ceiling. Workarounds tried: (1) full JD read on Dice (the posting surface), (2) alternate surfaces carry the same $196,000-$280,000 estimates, (3) no alternate posting of this role in band found.",
     "where": "Dice (Google Jobs surface)",
     "time": "1:52 PM"
-   }
-  ],
-  "The Ladders / Dice": [
-   {
-    "company": "LifePoint Health",
-    "role": "Architect-Network Engineer",
-    "reason": "experience-mismatch — Minimum of ten (10) years of experience as a Network Engineer in a large-scale inter-network environment with proven complex network design experience. | The Network Security Architect is responsible for responsible for the enterprise architecture, design, and technical direction of Lifepoint Health's network infrastructure across routing, switching, wireless, SD-WAN, data center, and cloud connectivity | workarounds tried: (1) employer's own careers search - same 10-year network engineer core requirement, (2) alternate routes Ladders, Dice, Teal and GrabJobs mirrors (quoted from Ladders/Dice full JD), (3) alternate posting search - same network architect role only",
-    "where": "The Ladders / Dice",
-    "time": "12:24 PM"
    }
   ],
   "GovernmentJobs.com (Colorado employer portal)": [
@@ -7493,15 +7498,6 @@
     "reason": "hands-on — The Solution Architect will play a hands-on role driving the overall technical architecture. Demonstrated software development experience with expertise in client-side technologies (Angular/React, JavaScript/TypeScript) and strong experience using Java, Java EE/Jakarta EE, Spring Framework/Spring Boot. workarounds tried: (1) employer's own Fidelity Careers posting (governing text), (2) alternate route search, (3) alternate posting - same hands-on development requirements",
     "where": "Fidelity Careers",
     "time": "12:04 PM"
-   }
-  ],
-  "Sherwin-Williams Careers / Dice": [
-   {
-    "company": "Sherwin-Williams",
-    "role": "Principal Practice Enterprise Architect Data",
-    "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify — workarounds tried: (1) employer's own OracleCloud careers page job 2626554 (published 2026-11-09) same role; (2) Dice mirror full JD same Databricks production requirement; (3) no alternate posting without that core requirement found.",
-    "where": "Sherwin-Williams Careers / Dice",
-    "time": "1:55 AM"
    }
   ],
   "DiversityJobs (PPG posting text)": [
@@ -9491,6 +9487,13 @@
     "reason": "cloud-mismatch — Strong knowledge of cloud solution architecture within GCP. A minimum of 2 years spent working as an engineer or architect on Google Cloud Platform. workarounds tried: (1) employer's own jobs.mcdonalds.com posting is the governing text, (2) Career.io Sr Platform Architect mirror shows the same GCP preference, (3) no Azure-first alternate posting found",
     "where": "jobs.mcdonalds.com",
     "time": "4:34 AM"
+   },
+   {
+    "company": "McDonald's",
+    "role": "Sr Director, Enterprise Architecture",
+    "reason": "pay-outside-band — The expected salary range for this role is $219,522-$274,403 per year — workarounds tried: (1) this is the employer's own jobs.mcdonalds.com posting, the governing text; (2) alternate route SmartRecruiters/Discover Technata mirrors of McDonald's architecture roles carry different roles, not this req; (3) no alternate posting of this Sr Director req with an in-band range found. Top $274,403 exceeds the $230,000 ceiling.",
+    "where": "jobs.mcdonalds.com",
+    "time": "3:45 PM"
    },
    {
     "company": "McDonald's",
@@ -12784,5 +12787,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T21:44:58Z"
+ "lists_generated_at": "2026-11-18T21:49:06Z"
 }
