@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T10:24:35Z",
+ "generated_at": "2026-11-18T10:26:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T10:22:59Z",
+  "last_activity_at": "2026-11-18T10:26:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 73,
-  "rejected": 487,
-  "evaluated": 560
+  "parked": 75,
+  "rejected": 492,
+  "evaluated": 567
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 560,
+  "evaluated": 567,
   "filed": 0,
-  "parked": 73,
-  "rejected": 487,
+  "parked": 75,
+  "rejected": 492,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,62 +83,62 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 115/30"
+   "detail": "Employers 120/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/39"
+   "heartbeat_at": null,
+   "detail": "Employers 120/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/73"
+   "heartbeat_at": null,
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/32"
+   "heartbeat_at": null,
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/44"
+   "heartbeat_at": null,
+   "detail": "Employers 115/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/44"
+   "heartbeat_at": null,
+   "detail": "Employers 115/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T10:24:35Z",
-   "detail": "Employers 110/59"
+   "heartbeat_at": null,
+   "detail": "Employers 115/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +237,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/54"
+   "detail": "Employers 115/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +248,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/45"
+   "detail": "Employers 115/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +259,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/41"
+   "detail": "Employers 115/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/31"
+   "detail": "Employers 115/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "263 of 632 units done",
+   "detail": "275 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:22 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W2"
-  }
- ],
+ "note": "Last activity 4:26 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1292,13 +1279,13 @@
     "time": "3:56 AM"
    }
   ],
-  "DiversityJobs": [
+  "DiversityJobs / Diamondback Energy search": [
    {
     "company": "Diamondback Energy",
     "role": "Enterprise Data Architect",
-    "reason": "stale-unverified — This position is not eligible for relocation assistance.",
-    "where": "DiversityJobs",
-    "time": "1:40 AM"
+    "reason": "stale-unverified — designing, implementing, and managing the organization's data architecture, ensuring the efficient and effective use of data across all business functions",
+    "where": "DiversityJobs / Diamondback Energy search",
+    "time": "4:25 AM"
    }
   ],
   "Illinois JobLink / Out for Undergrad": [
@@ -1326,6 +1313,15 @@
     "reason": "title-not-covered — You'll enjoy the flexibility to work remotely* from anywhere within the U.S. as you take on some tough challenges.",
     "where": "UnitedHealth Group careers (employer's own page)",
     "time": "3:26 AM"
+   }
+  ],
+  "Dice / Northern Trust search": [
+   {
+    "company": "Northern Trust",
+    "role": "Principal Cloud Architect",
+    "reason": "stale-unverified — Define and evolve the enterprise cloud strategy, standards, and best practices. Salary Range: $137,400 - 233,600 USD",
+    "where": "Dice / Northern Trust search",
+    "time": "4:25 AM"
    }
   ],
   "JobBoardSearch": [
@@ -1538,6 +1534,15 @@
     "reason": "cognizant-manual-only — As a Solution Architect – Java, you will make an impact for our client by owning end-to-end architecture and leading the design of scalable, API-first Java and Spring Boot microservices solutions on Azure. Work model: Remote",
     "where": "Cognizant Careers",
     "time": "2:58 AM"
+   }
+  ],
+  "Remote Rocketship / Memorial Hermann careers page": [
+   {
+    "company": "Memorial Hermann Health System",
+    "role": "Ambulatory Application Architect",
+    "reason": "title-not-covered — Work across multiple solutions and interact with solution teams throughout project phases; Participate in the architect community and perform other assigned duties",
+    "where": "Remote Rocketship / Memorial Hermann careers page",
+    "time": "4:25 AM"
    }
   ],
   "Microsoft careers (employer's own board)": [
@@ -2922,13 +2927,6 @@
     "time": "2:42 AM"
    },
    {
-    "company": "Northern Trust",
-    "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — Salary Range: $137,400 - 233,600 USD - top $233,600 exceeds $230,000 band top. workarounds tried: (1) employer posting via Dice, (2) alternate route BigJobSite/Swooped mirrors with same range, (3) no alternate posting with different range found.",
-    "where": "Dice",
-    "time": "1:35 AM"
-   },
-   {
     "company": "State Street",
     "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
     "reason": "stale — We are seeking an experienced, hands-on Solution Architect for AI and Cloud Systems to support State Street's Anti-Money Laundering (AML) Compliance Technology team. Experience with Python, APIs, microservices, containers, Kubernetes, and event-driven architecture. Published: 2026-10-15, outside 7-day eligibility. workarounds tried: (1) Dice employer posting, (2) StateStreet.com/careers route referenced in posting, (3) no fresher alternate posting found.",
@@ -3785,6 +3783,15 @@
     "time": "1:36 AM"
    }
   ],
+  "Black Career Network / BSWH search": [
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Sr. Cloud Security Architect",
+    "reason": "closed — This job is expired.",
+    "where": "Black Career Network / BSWH search",
+    "time": "4:25 AM"
+   }
+  ],
   "WorkingNomads/Remotive": [
    {
     "company": "Fortive",
@@ -3812,13 +3819,22 @@
     "time": "1:35 AM"
    }
   ],
-  "jobspider.com": [
+  "MetroPhoenixJob mirror / BNY Mellon search": [
+   {
+    "company": "BNY Mellon",
+    "role": "Senior Director, Fellow, Enterprise Architect",
+    "reason": "pay-outside-band — The base salary for this position is expected to be between $136,500 and $300,000 per year at the commencement of employment. workarounds tried: employer's own board search, alternate route (mirror), alternate posting search - same role/salary only",
+    "where": "MetroPhoenixJob mirror / BNY Mellon search",
+    "time": "4:25 AM"
+   }
+  ],
+  "JobSpider / Blue Shield of California search": [
    {
     "company": "Blue Shield of California",
     "role": "Enterprise Architect",
-    "reason": "stale — Posted: 2/16/2026. The Enterprise Architect is a strategic individual contributor role reporting to the Director of Enterprise Architecture.",
-    "where": "jobspider.com",
-    "time": "1:22 AM"
+    "reason": "stale — Posted: 2/16/2026; The Enterprise Architect is a strategic individual contributor role reporting to the Director of Enterprise Architecture. workarounds tried: employer's own ATS search, alternate route (JobSpider mirror), alternate posting search - same Feb 2026 posting only",
+    "where": "JobSpider / Blue Shield of California search",
+    "time": "4:25 AM"
    }
   ],
   "jobs.mitalent.org": [
@@ -3837,6 +3853,15 @@
     "reason": "experience-mismatch — Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify — workarounds tried: (1) employer's own OracleCloud careers page job 2626554 (published 2026-11-09) same role; (2) Dice mirror full JD same Databricks production requirement; (3) no alternate posting without that core requirement found.",
     "where": "Sherwin-Williams Careers / Dice",
     "time": "1:55 AM"
+   }
+  ],
+  "GovernmentJobs / King County portal": [
+   {
+    "company": "King County",
+    "role": "Enterprise Data Architect",
+    "reason": "not-remote — The work associated with this position will be performed through a combination of onsite work and telecommuting. Employees must reside in Washington state and within a reasonable distance to their King County worksite to respond to workplace reporting requirements. workarounds tried: employer's own GovernmentJobs bulletin (governing text), alternate route search, alternate posting search - same bulletin only",
+    "where": "GovernmentJobs / King County portal",
+    "time": "4:26 AM"
    }
   ],
   "worqstrap.com": [
@@ -4149,13 +4174,13 @@
     "time": "4:14 AM"
    }
   ],
-  "Simplify/BuiltIn": [
+  "Built In / KeyBank search": [
    {
     "company": "KeyCorp",
     "role": "Lead Enterprise Architect, Infrastructure",
-    "reason": "stale — The Lead Enterprise Architect (with infrastructure focus) defines target-state and implementation architectures for Key’s most critical initiatives, aligning business strategy, application and data architecture, and the underlying technology platforms (cloud, network, compute, storage, and automation) required to deliver them. Published 2026-10-23, outside 7-day eligibility. workarounds tried: (1) employer posting via Simplify mirror, (2) alternate route BuiltIn/Dice same req, (3) alternate posting same date - no fresher posting found.",
-    "where": "Simplify/BuiltIn",
-    "time": "1:35 AM"
+    "reason": "closed — Job Posting Expiration Date: 07/02/2026",
+    "where": "Built In / KeyBank search",
+    "time": "4:25 AM"
    }
   ],
   "Lululemon careers (employer's own page)": [
@@ -4399,6 +4424,15 @@
     "reason": "not-remote — The work associated with this position will be performed through a combination of onsite work and telecommuting. Employees will have access to shared workspaces at various King County facilities. Employees must reside in Washington state and within a reasonable distance to their King County worksite — workarounds tried: (1) employer's own GovernmentJobs posting read in full",
     "where": "GovernmentJobs.com",
     "time": "12:28 AM"
+   }
+  ],
+  "Built In / Maricopa County portal search": [
+   {
+    "company": "Maricopa County",
+    "role": "Enterprise Architect (Infrastructure & Platform Domain)",
+    "reason": "closed — Posting Date, 05/29/26, Application Deadline, 06/12/26",
+    "where": "Built In / Maricopa County portal search",
+    "time": "4:25 AM"
    }
   ],
   "builtinnyc.com / governmentjobs.com (NC state portal)": [
@@ -5165,6 +5199,15 @@
     "time": "3:11 AM"
    }
   ],
+  "Canada Job Bank / Lululemon search": [
+   {
+    "company": "Lululemon",
+    "role": "Senior Solution Architect",
+    "reason": "not-remote — The candidate will work in a hybrid work environment. The candidate will be required to work onsite a minimum of four days per week to support collaboration and team connectivity. workarounds tried: employer's own careers search, alternate route (Canada Job Bank mirror), alternate posting search - same hybrid Vancouver role only",
+    "where": "Canada Job Bank / Lululemon search",
+    "time": "4:26 AM"
+   }
+  ],
   "USAJOBS - employer own page, governing text, workaround 1 tried": [
    {
     "company": "Office of Personnel Management (OPM)",
@@ -5233,6 +5276,15 @@
     "reason": "stale — Published: 2025-11-10 — posting date is over a year before this 2026-11-18 sweep, outside the 7-day eligibility window. Role at Kroger subsidiary 84.51: Lead Cloud Engineer, AI Enablement; technical responsibilities are Terraform infrastructure deployment and CI/CD pipelines. workarounds tried: (1) finding surface Built In carries the employer's full JD with that date; (2) searches for Kroger/84.51 Lead-family postings found no fresher repost of P946; (3) no refreshed req found.",
     "where": "Built In (84.51 / Kroger)",
     "time": "3:43 AM"
+   }
+  ],
+  "Vaia / Cook County portal search": [
+   {
+    "company": "Cook County Government",
+    "role": "Technology and Infrastructure Architect - Bureau of Technology (Actively Recruited)",
+    "reason": "stale — Job Posting Aug 6, 2025, 3:30:06 PM Organization Offices Under the President Work Locations Cook County Administration 161 N. Clark St. workarounds tried: employer's own portal search, alternate route (Vaia/LinkedIn mirror), alternate posting search - same 2025 posting only",
+    "where": "Vaia / Cook County portal search",
+    "time": "4:25 AM"
    }
   ],
   "Built In (workarounds tried: (1) employer's own posting via search, (2) alternate route Built In full JD, (3) no remote alternate posting found)": [
@@ -6833,5 +6885,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T10:24:35Z"
+ "lists_generated_at": "2026-11-18T10:26:29Z"
 }
