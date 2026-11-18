@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:16:23Z",
+ "generated_at": "2026-11-18T11:17:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:15:37Z",
+  "last_activity_at": "2026-11-18T11:16:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 83,
-  "rejected": 567,
-  "evaluated": 650
+  "parked": 84,
+  "rejected": 569,
+  "evaluated": 653
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 650,
+  "evaluated": 653,
   "filed": 0,
-  "parked": 83,
-  "rejected": 567,
+  "parked": 84,
+  "rejected": 569,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
   "W3",
   "W5",
-  "W6",
-  "W16",
-  "W20"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -100,8 +100,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 210/39"
+   "heartbeat_at": "2026-11-18T11:17:31Z",
+   "detail": "Employers 214/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 210/73"
+   "heartbeat_at": "2026-11-18T11:17:31Z",
+   "detail": "Employers 215/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -133,19 +133,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 210/44"
+   "heartbeat_at": "2026-11-18T11:17:31Z",
+   "detail": "Employers 215/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 210/44"
+   "heartbeat_at": null,
+   "detail": "Employers 215/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,57 +227,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 210/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 215/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T11:17:31Z",
    "detail": "Employers 210/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 210/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 210/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:16:23Z",
-   "detail": "Employers 185/31"
+   "heartbeat_at": "2026-11-18T11:17:31Z",
+   "detail": "Employers 210/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T11:17:31Z",
+   "detail": "Employers 210/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 186/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "475 of 632 units done",
+   "detail": "481 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:15 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:16 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W17 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W17",
+  "headline": "W17 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1527,6 +1527,15 @@
     "reason": "title-not-covered — You will shape the future of R&D PLM architecture across MedTech, helping define how PLM capabilities, engineering systems, lifecycle data, and connected enterprise processes should evolve.",
     "where": "careers.jnj.com (employer own page)",
     "time": "2:27 AM"
+   }
+  ],
+  "Ladders": [
+   {
+    "company": "Knife River Corporation",
+    "role": "Cloud Solutions Architect",
+    "reason": "stale-unverified — Cloud Solutions Architect will provide complex level design and deployment of the Enterprise IT Azure cloud functions including system wide security, critical infrastructure, applications, data, and cloud environments. Develops, manages and maintains cloud enterprise architecture aligned to support business strategy for multiple environments including test, development, production and disaster recovery. LOCATION: Bismarck, ND or in a geographic location near a Knife River location. This role has the opportunity to be on-site, remote, or hybrid depending on location. Published 2026-10-23 - outside the 7-day window on its own date, but the listing is live on Ladders today (crawled 2026-11-18); remote is conditional on location, so freshness and remote both unverified - parked provisional, not verdicted on merits. Knife River is an MDU Resources company (lane employer MDU Resources).",
+    "where": "Ladders",
+    "time": "5:16 AM"
    }
   ],
   "Recruit.net / RemoteRocketship snippets only": [
@@ -3230,6 +3239,13 @@
     "time": "2:01 AM"
    },
    {
+    "company": "NYU Langone Health",
+    "role": "Cloud Enterprise Architect - Azure",
+    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. workarounds tried: (1) employer's own posting - NYU Langone careers search surfaced this role only via the DiversityJobs full-JD mirror carrying the employer's salary transparency text; (2) alternate route - Indeed and other mirrors carry the sibling AWS role, not this Azure req; (3) alternate posting - no repost with a different published range found. Published top $240,240 exceeds the $230,000 band top.",
+    "where": "DiversityJobs",
+    "time": "5:16 AM"
+   },
+   {
     "company": "Diamondback Energy",
     "role": "Enterprise Data Architect",
     "reason": "experience-mismatch — Minimum of ten (10+) years of experience in data architecture, data management, or related roles, preferably in the oil and gas industry; Proficiency in data analysis, data modeling, database design, ETL and ELT processes, and data warehousing. workarounds tried: (1) employer's own Workday text via DiversityJobs mirror - same data-architecture core, (2) alternate route via search mirrors - same JD, (3) no alternate posting of this role with an infrastructure core found. Hubert's core is Azure/infrastructure architecture, not data architecture/ETL.",
@@ -3270,6 +3286,13 @@
     "reason": "hands-on — Ability to contribute code to get new initiatives off the ground. workarounds tried: (1) employer's own CareSource posting text via DiversityJobs mirror, (2) alternate routes searched for same role, (3) no alternate posting without code-contribution duties found; tech stack also lists .NET, Java, Go",
     "where": "DiversityJobs",
     "time": "4:40 AM"
+   },
+   {
+    "company": "NYU Langone Health",
+    "role": "Enterprise Cloud Architect - AWS",
+    "reason": "cloud-mismatch — 15 years in technology management in related specialties with intimate knowledge of distributed systems technologies such as server storage desktop enterprise monitoring tools architecture 8 years of AWS cloud architecture. Preferred certification: AWS certified Cloud Architect Professional. workarounds tried: (1) employer's own posting - NYU Langone careers search surfaced this role only via the DiversityJobs/Indeed full-JD mirrors; (2) alternate route - Indeed mirror carries the same AWS-first requirements; (3) alternate posting - the sibling Azure req at the same employer is a different role and was verdicted separately on pay. This req is AWS-first with Azure only one of several clouds listed.",
+    "where": "DiversityJobs",
+    "time": "5:16 AM"
    },
    {
     "company": "Providence",
@@ -3784,15 +3807,6 @@
     "reason": "stale — Own end-to-end architecture for AI and generative AI solutions, including LLM, RAG, agent, and model integration architectures. workarounds tried: (1) alternate route Built In carries the November 7, 2026 posting date, (2) no fresher repost of this role found",
     "where": "UnitedHealth Group / Optum sector / Built In (Optum mirror)",
     "time": "3:15 AM"
-   }
-  ],
-  "diversityjobs / NYU Langone posting": [
-   {
-    "company": "NYU Langone Health",
-    "role": "Cloud Enterprise Architect - Azure",
-    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. workarounds tried: (1) employer-family listing on Indeed for Enterprise Cloud Architect at NYU Langone, (2) mirror JD full read on diversityjobs reproducing NYU posting - same published range, top $240,240 exceeds $230,000 band top",
-    "where": "diversityjobs / NYU Langone posting",
-    "time": "2:26 AM"
    }
   ],
   "Google Jobs / Freehire (Loenbro mirror)": [
@@ -4410,6 +4424,13 @@
     "reason": "closed — The application window for this position is anticipated to close on May-20-2025.",
     "where": "BuiltIn Chicago",
     "time": "2:43 AM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Sr. Cloud Architect",
+    "reason": "hands-on — This will be a HANDS-ON role building IaC and Cloud platforms to support POCs of new technologies. Create architecture patterns for Cloud Data ecosystems (including AWS Cloud, PySpark, Snowflake, Tableau and ThoughtSpot). workarounds tried: (1) employer's own posting - Hartford careers search surfaced this role via the BuiltIn full-JD mirror (Sr Cloud Engineer - IE07NE); (2) alternate route - web search returned only this mirror; (3) alternate posting - no repost found. Also Published 2025-12-11 and AWS/GCP-only, no Azure.",
+    "where": "BuiltIn Chicago",
+    "time": "5:16 AM"
    },
    {
     "company": "CrowdStrike",
@@ -7543,5 +7564,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T11:16:23Z"
+ "lists_generated_at": "2026-11-18T11:17:31Z"
 }
