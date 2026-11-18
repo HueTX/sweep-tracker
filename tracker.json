@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:53:01Z",
+ "generated_at": "2026-11-18T19:55:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
@@ -15,38 +15,36 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T19:52:39Z",
+  "last_activity_at": "2026-11-18T19:53:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 152,
+   "covered_units": 200,
    "total_units": 754,
-   "pct": 20
+   "pct": 27
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 149,
-  "rejected": 1053,
-  "evaluated": 1203
+  "parked": 158,
+  "rejected": 1047,
+  "evaluated": 1206
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1203,
+  "evaluated": 1206,
   "filed": 0,
-  "parked": 149,
-  "rejected": 1053,
+  "parked": 158,
+  "rejected": 1047,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
   "W7",
   "W2",
-  "W3",
-  "W4",
-  "W5",
   "W6",
+  "W16",
   "W17"
  ],
  "lanes": {
@@ -69,7 +67,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -80,7 +78,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -102,41 +100,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/73"
+   "heartbeat_at": null,
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,7 +144,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -229,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 5/59"
   },
   "W17": {
@@ -245,7 +243,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -309,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "19 of 632 units done",
+   "detail": "25 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -551,7 +549,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:52 PM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:53 PM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1094,7 +1092,7 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.01,
+  "pass_oldest_age_hours": 0.05,
   "attempted_today": 214,
   "filed_today": 0
  },
@@ -1102,16 +1100,14 @@
  "today_filings": {},
  "today_filed_by_source": {},
  "today_parked": {
-  "BigJobSite": [
-   {
-    "company": "Houston Methodist",
-    "role": "Information Security Architect",
-    "reason": "title-not-covered — At Houston Methodist, the Information Security Architect position is responsible for designing, building, testing and implementing systems within the Houston Methodist IT network.",
-    "where": "BigJobSite",
-    "time": "1:33 AM"
-   }
-  ],
   "DailyRemote": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Architect",
+    "reason": "title-not-covered — AJO Expertise: Deep knowledge of Adobe Journey Optimizer, including orchestration, decisioning, and real-time personalization. — plus Adobe Experience Platform (AEP) and Snowflake integration requirements. The posting's real title (IT Principal Architect) matches no title family in this W3 unit; parked as a fly-title, never force-fit. Published 2026-10-08 on DailyRemote / 2026-10-10 on Ladders.",
+    "where": "DailyRemote",
+    "time": "1:53 PM"
+   },
    {
     "company": "3Cloud",
     "role": "Senior Principal Architect - Enterprise Solutions Architecture",
@@ -1132,6 +1128,15 @@
     "reason": "title-not-covered — The Principal Architect owns the enterprise architecture and reference designs for the Security Operations technology stack, including SIEM, SOAR, and data pipelines.",
     "where": "DailyRemote",
     "time": "7:22 AM"
+   }
+  ],
+  "BigJobSite": [
+   {
+    "company": "Houston Methodist",
+    "role": "Information Security Architect",
+    "reason": "title-not-covered — At Houston Methodist, the Information Security Architect position is responsible for designing, building, testing and implementing systems within the Houston Methodist IT network.",
+    "where": "BigJobSite",
+    "time": "1:33 AM"
    }
   ],
   "Workday": [
@@ -1343,6 +1348,92 @@
     "time": "1:43 PM"
    }
   ],
+  "Built In": [
+   {
+    "company": "Optum",
+    "role": "Chief Enterprise Collaboration Architect (Remote)",
+    "reason": "title-not-covered — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases (e.g., SQLMI) — the posting's real title (Architect) matches no title family in this W4 unit; parked as a fly-title, never force-fit. Published 2026-11-07, requisition 2386731.",
+    "where": "Built In",
+    "time": "1:53 PM"
+   },
+   {
+    "company": "Intermountain Health",
+    "role": "Data Architect – Senior",
+    "reason": "title-not-covered — Fly title: real title 'Data Architect Senior' matches no listed title family in this unit (Domain/Resiliency/IT-OT/Cloud Transformation/Principal Cloud Engineer/Principal Technical Architect families). Duties are architect-level: The Data Architect leads the development of enterprise-level data integration strategies, ensuring data quality and performance across the organization. Parked for title coverage, not rejected for its title. Finding surface published it 2026-04-17.",
+    "where": "Built In",
+    "time": "3:56 AM"
+   },
+   {
+    "company": "Danaher",
+    "role": "Principal Data & Analytics Architect - USA Remote",
+    "reason": "title-not-covered — The Principal Data & Analytics Architect is responsible for designing and improving Danaher's data management & analytics function.",
+    "where": "Built In",
+    "time": "7:22 AM"
+   },
+   {
+    "company": "Health Care Service Corporation (BCBS)",
+    "role": "Application Architect",
+    "reason": "title-not-covered — Application Architect — the posting's real title matches no title family in this W4 unit (Azure/Azure Solutions/Azure Cloud/Cloud/Cloud Solutions/Enterprise/Infrastructure/Platform/Solutions/Solution Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record: 'The Application Architect will define and deliver scalable enterprise solutions for healthcare payment integrity, claims accuracy, and payment adjudication', WFH remote in the continental US excluding CA/NY/AK/HI, Base Pay Range $92,700.00 - $167,500.00, Published 2026-10-05.",
+    "where": "Built In",
+    "time": "10:47 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Automation Architect",
+    "reason": "title-not-covered — Design and build automation in Python, including integrations with the platforms and systems the team depends on.",
+    "where": "Built In",
+    "time": "1:01 PM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Copilot",
+    "reason": "title-not-covered — Cloud Solution Architect - Copilot — the posting's real title matches no title family in this W17 unit, so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (published 2026-11-16): 'This role is flexible in that you can work up to 50% from home.' (not 100% remote), pay in band ('Cloud Solution Architecture IC4 - The typical base pay range for this role across the U.S. is USD $106,400 - $203,600 per year'), and the core is Copilot/AI adoption and change management rather than Hubert's infrastructure architecture experience, noted for the main agent.",
+    "where": "Built In",
+    "time": "10:27 AM"
+   },
+   {
+    "company": "AIG",
+    "role": "Principal Technology Architect - GenAI",
+    "reason": "title-not-covered — As our Principal Technology Architect - GenAI, you will have the opportunity to make a meaningful impact, leveraging and further developing your skills to guide groundbreaking AI initiatives.",
+    "where": "Built In",
+    "time": "8:35 AM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Cloud Solution Architect - Data Security",
+    "reason": "title-not-covered — Cloud Solution Architect - Data Security — the posting's real title matches no title family in this W17 unit (IT Architecture Lead / Application Architect / Integration Architect / Data Center Architect / Digital Transformation Architect / Systems Architect / Identity Architect / Technology Architect / Network Security Architect / Chief Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (published 2026-11-11): 'This role is flexible in that you can work up to 50% from home.' (not 100% remote), pay in band ('Cloud Solution Architecture IC4 - The typical base pay range for this role across the U.S. is USD $106,400 - $203,600 per year'), and the core is Azure/M365 security architecture ('drive our customer's security transformation on the Microsoft Azure and Microsoft 365 Platforms').",
+    "where": "Built In",
+    "time": "10:31 AM"
+   },
+   {
+    "company": "Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "title-not-covered — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. — the posting's real title (Director, Advisory Services - Cloud Architect) matches no title family in this W4 unit; parked as a fly-title, never force-fit. Noted for the next stage: the published top $230,800 is $800 above the $230,000 ceiling. Published 2026-11-10, requisition 2390520.",
+    "where": "Built In",
+    "time": "1:53 PM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Lead Cloud Platform Engineer (Automation / Migration)",
+    "reason": "cognizant-manual-only — The Lead Cloud Platform Engineer at 3Cloud is responsible for technical leadership in client engagements, coaching team members, managing expectations, and ensuring alignment in project deliverables using Azure technologies.",
+    "where": "Built In",
+    "time": "10:11 AM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "Principal Architect - Cloud",
+    "reason": "title-not-covered — We are seeking a highly skilled and experienced Principal Cloud Architect to join our Global Hosting Team. The ideal candidate will have extensive experience in cloud architecture and design",
+    "where": "Built In",
+    "time": "8:35 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Principal ServiceNow / ITSM Modernization Architect - Remote",
+    "reason": "title-not-covered — Principal ServiceNow / ITSM Modernization Architect — the posting's real title matches no title family in this W4 unit (IT Architecture Lead / Application Architect / Integration Architect / Data Center Architect / Digital Transformation Architect / Systems Architect / Identity Architect / Technology Architect / Network Security Architect / Chief Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (req 2395087, published 2026-11-14, remote from anywhere within the U.S. for a Texas-based applicant): 'The salary for this role will range from $134,600 - $230,800 annually' — published top $230,800 is above the $230,000 ceiling, noted for the main agent; the role also requires '5+ years of hands-on experience designing and deploying ServiceNow platform solutions across ITSM, CMDB, and SecOps'.",
+    "where": "Built In",
+    "time": "10:29 AM"
+   }
+  ],
   "jobs.smartrecruiters.com": [
    {
     "company": "Biogen",
@@ -1359,20 +1450,13 @@
     "time": "6:31 AM"
    }
   ],
-  "Haystack (3Cloud mirror)": [
+  "Haystack (Google Jobs surface)": [
    {
     "company": "3Cloud",
     "role": "Architect - Enterprise Solutions Architecture",
-    "reason": "cognizant-manual-only — As an Architect, you build on your established domain expertise to lead solution architecture and delivery for modern, cloud-native applications on Azure.",
-    "where": "Haystack (3Cloud mirror)",
-    "time": "12:11 AM"
-   },
-   {
-    "company": "3Cloud",
-    "role": "Cloud Architect - Networking",
-    "reason": "cognizant-manual-only — Cloud Architect – Networking. At 3Cloud, we hire people who aren’t afraid to experiment or fail.",
-    "where": "Haystack (3Cloud mirror)",
-    "time": "12:09 AM"
+    "reason": "cognizant-manual-only — Architect - Enterprise Solutions Architecture at 3Cloud - Remote - US — 3Cloud is a Cognizant arm and manual-only per standing orders: parked cognizant-manual-only, never PASS. Base Salary Range $145,200 - $187,800 USD; the Haystack posting also states: This Job Posting will expire on Monday, November 16th, 2026.",
+    "where": "Haystack (Google Jobs surface)",
+    "time": "1:53 PM"
    }
   ],
   "Dice": [
@@ -1446,78 +1530,6 @@
     "reason": "title-not-covered — Fly title: real title 'System Engineering Architect' matches no listed title family in this unit (Azure/Cloud/Enterprise/Infrastructure/Platform/Solutions Architect families). Duties are architect-level: The Systems Engineering Architect is a senior technical leader responsible for the design, standardization, and strategic oversight of Ryder's infrastructure platforms across on-premises and multi-cloud environments. Parked for title coverage, not rejected for its title. Pay on the posting is $130,000-$150,000.",
     "where": "Built In NYC",
     "time": "3:56 AM"
-   }
-  ],
-  "Built In": [
-   {
-    "company": "Intermountain Health",
-    "role": "Data Architect – Senior",
-    "reason": "title-not-covered — Fly title: real title 'Data Architect Senior' matches no listed title family in this unit (Domain/Resiliency/IT-OT/Cloud Transformation/Principal Cloud Engineer/Principal Technical Architect families). Duties are architect-level: The Data Architect leads the development of enterprise-level data integration strategies, ensuring data quality and performance across the organization. Parked for title coverage, not rejected for its title. Finding surface published it 2026-04-17.",
-    "where": "Built In",
-    "time": "3:56 AM"
-   },
-   {
-    "company": "Danaher",
-    "role": "Principal Data & Analytics Architect - USA Remote",
-    "reason": "title-not-covered — The Principal Data & Analytics Architect is responsible for designing and improving Danaher's data management & analytics function.",
-    "where": "Built In",
-    "time": "7:22 AM"
-   },
-   {
-    "company": "Health Care Service Corporation (BCBS)",
-    "role": "Application Architect",
-    "reason": "title-not-covered — Application Architect — the posting's real title matches no title family in this W4 unit (Azure/Azure Solutions/Azure Cloud/Cloud/Cloud Solutions/Enterprise/Infrastructure/Platform/Solutions/Solution Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record: 'The Application Architect will define and deliver scalable enterprise solutions for healthcare payment integrity, claims accuracy, and payment adjudication', WFH remote in the continental US excluding CA/NY/AK/HI, Base Pay Range $92,700.00 - $167,500.00, Published 2026-10-05.",
-    "where": "Built In",
-    "time": "10:47 AM"
-   },
-   {
-    "company": "Eli Lilly and Company",
-    "role": "Automation Architect",
-    "reason": "title-not-covered — Design and build automation in Python, including integrations with the platforms and systems the team depends on.",
-    "where": "Built In",
-    "time": "1:01 PM"
-   },
-   {
-    "company": "Microsoft",
-    "role": "Cloud Solution Architect - Copilot",
-    "reason": "title-not-covered — Cloud Solution Architect - Copilot — the posting's real title matches no title family in this W17 unit, so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (published 2026-11-16): 'This role is flexible in that you can work up to 50% from home.' (not 100% remote), pay in band ('Cloud Solution Architecture IC4 - The typical base pay range for this role across the U.S. is USD $106,400 - $203,600 per year'), and the core is Copilot/AI adoption and change management rather than Hubert's infrastructure architecture experience, noted for the main agent.",
-    "where": "Built In",
-    "time": "10:27 AM"
-   },
-   {
-    "company": "AIG",
-    "role": "Principal Technology Architect - GenAI",
-    "reason": "title-not-covered — As our Principal Technology Architect - GenAI, you will have the opportunity to make a meaningful impact, leveraging and further developing your skills to guide groundbreaking AI initiatives.",
-    "where": "Built In",
-    "time": "8:35 AM"
-   },
-   {
-    "company": "Microsoft",
-    "role": "Cloud Solution Architect - Data Security",
-    "reason": "title-not-covered — Cloud Solution Architect - Data Security — the posting's real title matches no title family in this W17 unit (IT Architecture Lead / Application Architect / Integration Architect / Data Center Architect / Digital Transformation Architect / Systems Architect / Identity Architect / Technology Architect / Network Security Architect / Chief Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (published 2026-11-11): 'This role is flexible in that you can work up to 50% from home.' (not 100% remote), pay in band ('Cloud Solution Architecture IC4 - The typical base pay range for this role across the U.S. is USD $106,400 - $203,600 per year'), and the core is Azure/M365 security architecture ('drive our customer's security transformation on the Microsoft Azure and Microsoft 365 Platforms').",
-    "where": "Built In",
-    "time": "10:31 AM"
-   },
-   {
-    "company": "3Cloud",
-    "role": "Lead Cloud Platform Engineer (Automation / Migration)",
-    "reason": "cognizant-manual-only — The Lead Cloud Platform Engineer at 3Cloud is responsible for technical leadership in client engagements, coaching team members, managing expectations, and ensuring alignment in project deliverables using Azure technologies.",
-    "where": "Built In",
-    "time": "10:11 AM"
-   },
-   {
-    "company": "Johnson Controls",
-    "role": "Principal Architect - Cloud",
-    "reason": "title-not-covered — We are seeking a highly skilled and experienced Principal Cloud Architect to join our Global Hosting Team. The ideal candidate will have extensive experience in cloud architecture and design",
-    "where": "Built In",
-    "time": "8:35 AM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Principal ServiceNow / ITSM Modernization Architect - Remote",
-    "reason": "title-not-covered — Principal ServiceNow / ITSM Modernization Architect — the posting's real title matches no title family in this W4 unit (IT Architecture Lead / Application Architect / Integration Architect / Data Center Architect / Digital Transformation Architect / Systems Architect / Identity Architect / Technology Architect / Network Security Architect / Chief Architect), so it is parked as a fly-title, not force-fit. Full JD read on Built In for the record (req 2395087, published 2026-11-14, remote from anywhere within the U.S. for a Texas-based applicant): 'The salary for this role will range from $134,600 - $230,800 annually' — published top $230,800 is above the $230,000 ceiling, noted for the main agent; the role also requires '5+ years of hands-on experience designing and deploying ServiceNow platform solutions across ITSM, CMDB, and SecOps'.",
-    "where": "Built In",
-    "time": "10:29 AM"
    }
   ],
   "Illinois JobLink / Out for Undergrad": [
@@ -1639,6 +1651,15 @@
     "reason": "title-not-covered — Serve as the Technical Advisor/Solution Architect for enterprise CLM, owning the end-to-end solution across architecture, implementation, integrations, data, AI, security, operations, and platform evolution. Title 'CLM Platform Lead' matches no listed Lead family in this unit; duties are architect-level, so parked as fly-title rather than force-fit or title-rejected. Location/remote terms not stated in the JD read.",
     "where": "The Ladders",
     "time": "3:41 AM"
+   }
+  ],
+  "Energy Job Search (Shell listing)": [
+   {
+    "company": "Shell",
+    "role": "Sr. Solution Architect - Endur",
+    "reason": "title-not-covered — Minimum of 10 years' experience with OpenLink Endur v14+ — plus: Expert in one or more of the programming languages (Node.js, .Net, .Net Core, Python etc) with Cloud Native Platform Development (Azure/AWS). The posting's real title (Sr. Solution Architect - Endur) matches no title family in this W5 unit; parked as a fly-title, never force-fit. Posting Start Date: October 25, 2026 on Shell's own listing; base salary $149,000 - $223,000 was in band.",
+    "where": "Energy Job Search (Shell listing)",
+    "time": "1:53 PM"
    }
   ],
   "jobs.mayoclinic.org": [
@@ -2032,6 +2053,15 @@
     "time": "5:49 AM"
    }
   ],
+  "Chevron Careers (employer page)": [
+   {
+    "company": "Chevron",
+    "role": "Principal Solution Architect",
+    "reason": "title-not-covered — The solution architect role involves designing and overseeing the implementation of homegrown and commercial off-the-shelf IT solutions using Microsoft Azure — the posting's real title (Principal Solution Architect) matches no title family in this W5 unit; parked as a fly-title, never force-fit. On Chevron's own careers page the role is located in Houston, Texas with no remote designation (applications through December 4th, 2026). Published 2026-11-13, req R000075003.",
+    "where": "Chevron Careers (employer page)",
+    "time": "1:53 PM"
+   }
+  ],
   "Recruit.net / RemoteRocketship snippets only": [
    {
     "company": "Trinity Health",
@@ -2084,6 +2114,15 @@
     "reason": "not-evaluated — The Azure Enterprise Architect will perform advanced analysis and design work involving all technical aspects of supporting, improving, and enhancing RRCs mainframe modernization project.",
     "where": "nvoids (Texas state solicitation mirror) — full governing JD not readable on the agency surface",
     "time": "3:26 AM"
+   }
+  ],
+  "Haystack (3Cloud mirror)": [
+   {
+    "company": "3Cloud",
+    "role": "Cloud Architect - Networking",
+    "reason": "cognizant-manual-only — Cloud Architect – Networking. At 3Cloud, we hire people who aren’t afraid to experiment or fail.",
+    "where": "Haystack (3Cloud mirror)",
+    "time": "12:09 AM"
    }
   ],
   "Cognizant Careers": [
@@ -2266,6 +2305,15 @@
     "time": "5:15 AM"
    }
   ],
+  "DailyRemote (Google Jobs surface)": [
+   {
+    "company": "PFH Technology Group",
+    "role": "Senior Cloud Operations Transformation Consultant",
+    "reason": "title-not-covered — Location: Remote within Ireland — the posting's real title (Senior Cloud Operations Transformation Consultant) matches no title family in this W7 unit; parked as a fly-title, never force-fit. Published 2026-09-08; non-US (Ireland) role.",
+    "where": "DailyRemote (Google Jobs surface)",
+    "time": "1:53 PM"
+   }
+  ],
   "Google Jobs (Karkidi mirror of JPMorgan Chase listings)": [
    {
     "company": "JPMorgan Chase",
@@ -2343,6 +2391,33 @@
     "reason": "title-not-covered — Tech Lead/Senior Developer — A technical leader and senior hands-on developer who guides application and architecture and delivery, mentors engineers, and provides advanced operational leadership for production systems. The posting's real title matches no title family in this W1 unit; parked as a fly-title, never force-fit (duties are also hands-on development on AWS). Published: 10/27/2026 on USAJOBS.",
     "where": "USAJOBS",
     "time": "1:52 PM"
+   }
+  ],
+  "SmartRecruiters (Google Jobs surface)": [
+   {
+    "company": "Deutsche Telekom IT Solutions Slovakia",
+    "role": "Principal Cloud Consultant (Cloud Transformation & Governance - CProServ)",
+    "reason": "title-not-covered — Please be informed that our remote working possibility is only available within Slovakia due to European taxation regulation. — the posting's real title (Principal Cloud Consultant (Cloud Transformation & Governance)) matches no title family in this W7 unit; parked as a fly-title, never force-fit. Location: Remote from Slovakia (non-US role).",
+    "where": "SmartRecruiters (Google Jobs surface)",
+    "time": "1:53 PM"
+   }
+  ],
+  "Index Ventures (Google Jobs surface)": [
+   {
+    "company": "AHEAD",
+    "role": "Senior Technical Consultant - AI Platform Engineer",
+    "reason": "title-not-covered — Lead customer workshops, technical discovery, architecture discussions, and solution design. — plus: Design and implement scalable platforms for cloud-native applications, data platforms, infrastructure services, and AI-enabled workloads. The posting's real title (Senior Technical Consultant - AI Platform Engineer) matches no title family in this W7 unit; parked as a fly-title, never force-fit. Published 2026-11-17.",
+    "where": "Index Ventures (Google Jobs surface)",
+    "time": "1:53 PM"
+   }
+  ],
+  "Zuhlke Workday (employer page)": [
+   {
+    "company": "Zuhlke",
+    "role": "Lead Consultant - Cloud & Engineering",
+    "reason": "title-not-covered — As a Lead Consultant for Cloud & Engineering, you will provide senior technical and engineering leadership across complex client engagements. — the posting's real title matches no title family in this W7 unit; parked as a fly-title, never force-fit. Published 2026-11-03 on Zuhlke's own Workday board, London location.",
+    "where": "Zuhlke Workday (employer page)",
+    "time": "1:53 PM"
    }
   ]
  },
@@ -2845,13 +2920,6 @@
     "time": "5:48 AM"
    },
    {
-    "company": "CommonSpirit Health",
-    "role": "IT Principal Architect",
-    "reason": "stale — Designs, develops, configures, and implements complex application solutions to address technical and business needs across multiple functions and major application environments.",
-    "where": "DailyRemote",
-    "time": "10:11 AM"
-   },
-   {
     "company": "The Cigna Group",
     "role": "Senior Director, Data & Digital Product Architecture",
     "reason": "pay-outside-band — For this position, we anticipate offering an annual salary of 184,400 - 307,400 USD / yearly, depending on relevant factors, including experience and geographic location. — top above $230,000 cap; workarounds tried: (1) full JD read on DailyRemote mirror; also listed on Cigna careers",
@@ -2885,13 +2953,6 @@
     "reason": "hands-on — Designs software architecture. Delivers high-complexity development tasks as part of a team. — with 'Designing, coding, and debugging applications' and C/C++ in a Unix Environment as the technical core: a hands-on software development role, not architect-level. Full JD read on DailyRemote (published 2026-10-16, pay $129,000.00 - $215,000.00). Workarounds tried: alternate surfaces carry the same Tyson JD; no alternate posting without the coding core found.",
     "where": "DailyRemote",
     "time": "8:41 AM"
-   },
-   {
-    "company": "PFH Technology Group",
-    "role": "Senior Cloud Operations Transformation Consultant",
-    "reason": "non-US — Location: Remote within Ireland — full JD read via DailyRemote search JD: Senior Cloud Operations Transformation Consultant for a large public sector customer, remote only within Ireland; Hubert's hunt is US only. workarounds tried: (1) employer's JD text via DailyRemote/Jobgether full JD; (2) both routes state Ireland-only remote; (3) no US posting of this role found.",
-    "where": "DailyRemote",
-    "time": "5:57 AM"
    },
    {
     "company": "Palyrian",
@@ -3976,13 +4037,6 @@
     "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 — every GeoZone range in the JD tops above the $230,000 ceiling (lowest GeoZone 4 top $247,900). Workarounds tried: (1) full JD read on Built In (Lockheed-sourced listing), (2) alternate surfaces carry the same GeoZone ranges, (3) no alternate posting of this role in band found. Role is also hands-on: Lead hands-on full-stack solution design and development from prototype through production",
     "where": "Built In",
     "time": "1:49 PM"
-   },
-   {
-    "company": "Optum",
-    "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment.",
-    "where": "Built In",
-    "time": "10:11 AM"
    },
    {
     "company": "Optum",
@@ -6132,15 +6186,6 @@
     "time": "8:28 AM"
    }
   ],
-  "UnitedHealth Group / Optum sector / Built In (Optum mirror)": [
-   {
-    "company": "Optum",
-    "role": "Chief Enterprise Collaboration Architect (Remote)",
-    "reason": "stale — Own end-to-end architecture for AI and generative AI solutions, including LLM, RAG, agent, and model integration architectures. workarounds tried: (1) alternate route Built In carries the November 7, 2026 posting date, (2) no fresher repost of this role found",
-    "where": "UnitedHealth Group / Optum sector / Built In (Optum mirror)",
-    "time": "3:15 AM"
-   }
-  ],
   "Teal / Mount Sinai": [
    {
     "company": "Mount Sinai Health System",
@@ -6601,13 +6646,6 @@
     "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, New York, for one week per month. workarounds tried: (1) Ladders alternate listing carried same on-site requirement, (2) Jobgether full JD read, (3) no fully-remote alternate posting of same role found",
     "where": "Jobgether",
     "time": "11:10 AM"
-   },
-   {
-    "company": "BMO Harris Bank",
-    "role": "Senior Enterprise Solutions Architect",
-    "reason": "non-US — This a Full Remote job, the offer is available from: North America, Canada — full JD read on Jobgether: the Senior Enterprise Solutions Architect role is a Canada (Ontario, 'VIRTUAL59 - REMOTE/TELETRAVAIL - ON - BMO') posting; Hubert's hunt is US only. Salary $85,500.00 - $185,000.00 would be in band, location is the sole killer. workarounds tried: (1) employer's own JD text via Jobgether full JD (jobs.bmo.com/ca); (2) no US posting of this role found; (3) no alternate US route found.",
-    "where": "Jobgether",
-    "time": "5:57 AM"
    },
    {
     "company": "Sentara Health Plans",
@@ -7398,15 +7436,6 @@
     "time": "3:27 AM"
    }
   ],
-  "Energy Job Search": [
-   {
-    "company": "Shell",
-    "role": "Sr. Solution Architect - Endur",
-    "reason": "stale — Posting Start Date: October 25, 2026 — the posting's own start date in the JD header is 24 days before today (2026-11-18), outside the 7-day eligibility window, with no activity within 7 days shown. Full JD read on Energy Job Search (Shell's JD text) for the record: pay $149,000 - $223,000 was in band, but the role requires 'Minimum of 10 years' experience with OpenLink Endur v14+' and 'Expert in one or more of the programming languages (Node.js, .Net, .Net Core, Python etc)', both noted secondarily. Stale verdict carries the typed posted_date.",
-    "where": "Energy Job Search",
-    "time": "10:29 AM"
-   }
-  ],
   "GXO Careers (employer page)": [
    {
     "company": "GXO Logistics",
@@ -7635,6 +7664,15 @@
     "reason": "clearance — The successful candidate must have an active U.S. Government Top Secret Clearance with access to Sensitive Compartmented Information (SCI) based on a Single Scope Background Investigation (SSBI) with Polygraph.",
     "where": "ClearanceJobs",
     "time": "4:34 AM"
+   }
+  ],
+  "Jobgether (Google Jobs surface)": [
+   {
+    "company": "BMO Harris Bank",
+    "role": "Senior Enterprise Solutions Architect",
+    "reason": "stale — Published: 2026-10-22 on the Jobgether posting of BMO's req — posting date 2026-10-22 is outside the 7-day eligibility window (today 2026-11-18). Full JD read on Jobgether: The Senior Enterprise Solutions Architect is a senior individual contributor responsible for designing and governing enterprise technology solutions; address VIRTUAL59 - REMOTE/TELETRAVAIL - ON - BMO (Ontario, Canada).",
+    "where": "Jobgether (Google Jobs surface)",
+    "time": "1:53 PM"
    }
   ],
   "do-not-reapply.md (standing employer-wide DNR)": [
@@ -9143,15 +9181,6 @@
     "reason": "experience-mismatch — Experience with Salesforce.com, ServiceMax, SAP S4/Hana — the role sets direction for Instruments & Customer Solutions (EDT) built on Salesforce / ServiceMax / SAP platforms Hubert has no experience with; core platform mismatch despite generic enterprise-architecture duties. Workarounds tried: (1) employer's own Workday posting (governing text, full JD read), (2) alternate route careers.stryker.com carries the same req R576300, (3) no alternate posting with a different platform core.",
     "where": "Stryker Careers (employer page)",
     "time": "6:10 AM"
-   }
-  ],
-  "Chevron Careers": [
-   {
-    "company": "Chevron",
-    "role": "Principal Solution Architect",
-    "reason": "not-remote — Houston, Texas",
-    "where": "Chevron Careers",
-    "time": "10:12 AM"
    }
   ],
   "Kraft Heinz careers (jobs.kraftheinz.com)": [
@@ -11914,5 +11943,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T19:53:01Z"
+ "lists_generated_at": "2026-11-18T19:55:03Z"
 }
