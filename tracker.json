@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T02:12:06Z",
+ "generated_at": "2026-11-18T02:14:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T02:09:11Z",
+  "last_activity_at": "2026-11-18T02:13:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 225,
-  "rejected": 1122,
-  "evaluated": 1351
+  "parked": 224,
+  "rejected": 1128,
+  "evaluated": 1356
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1351,
+  "evaluated": 1356,
   "filed": 2,
-  "parked": 225,
-  "rejected": 1122,
+  "parked": 224,
+  "rejected": 1128,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -45,8 +45,8 @@
  "searching_lanes": [
   "W2",
   "W3",
-  "W5",
-  "W6",
+  "W16",
+  "W17",
   "W18",
   "W19"
  ],
@@ -103,8 +103,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": "2026-11-18T02:14:42Z",
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,8 +114,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 215/73"
+   "heartbeat_at": "2026-11-18T02:14:42Z",
+   "detail": "Employers 220/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -131,24 +131,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 215/44"
+   "heartbeat_at": null,
+   "detail": "Employers 220/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 215/44"
+   "heartbeat_at": null,
+   "detail": "Employers 220/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,23 +230,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:14:42Z",
    "detail": "Employers 215/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:14:42Z",
    "detail": "Employers 215/54"
   },
   "W18": {
@@ -257,8 +257,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 210/45"
+   "heartbeat_at": "2026-11-18T02:14:42Z",
+   "detail": "Employers 215/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -268,8 +268,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:12:06Z",
-   "detail": "Employers 210/41"
+   "heartbeat_at": "2026-11-18T02:14:42Z",
+   "detail": "Employers 215/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "482 of 632 units done",
+   "detail": "488 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:09 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:13 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1804,13 +1804,6 @@
     "reason": "title-not-covered — The Principal AI Architect designs and implements enterprise AI architectures supporting: Generative AI, Machine Learning, Conversational AI, Intelligent Automation, Predictive Analytics, and Clinical Decision Support.",
     "where": "Built In",
     "time": "7:02 PM"
-   },
-   {
-    "company": "Tyson Foods",
-    "role": "Staff Enterprise Solution Architect (SAP/Transportation)",
-    "reason": "not-evaluated — The Staff Enterprise Solution Architect collaborates with Product Owners and Enterprise Technical Architects to design and implement project/product solutions that meet business needs while adhering to established technology standards. Experience with configuration, integration, and implementation of SAP Transportation solutions. Springdale, AR based; remote status not confirmed on employer's own page.",
-    "where": "Built In",
-    "time": "3:21 PM"
    },
    {
     "company": "Johnson & Johnson",
@@ -3290,6 +3283,13 @@
     "time": "2:39 PM"
    },
    {
+    "company": "Tyson Foods",
+    "role": "Staff Enterprise Solution Architect (SAP/Transportation)",
+    "reason": "stale — Published: 2026-02-12. Core is SAP Product Suite (TM, EM, GTS, BTP, etc.) transportation systems. workarounds tried: (1) Built In full JD read, (2) alternate Career.io posting of the same role, (3) alternate SonicJobs posting of the same role",
+    "where": "Built In",
+    "time": "8:13 PM"
+   },
+   {
     "company": "Ameren",
     "role": "Senior Director, Digital Emerging Solutions & Transformation",
     "reason": "stale — This role is located at Ameren's corporate headquarters in downtown St. Louis, MO. workarounds tried: (1) Built In employer mirror, (2) alternate Ameren architect searches, (3) no repost found",
@@ -3467,9 +3467,9 @@
    {
     "company": "eBay",
     "role": "Cloud Architect",
-    "reason": "cloud-mismatch — As a Cloud Architect, you will play a critical role in designing, implementing, and optimizing solutions in our AWS environment. Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) employer posting text via Built In mirror, (2) alternate eBay/TCGplayer routes same AWS role, (3) no Azure alternate posting for this role",
+    "reason": "stale — Published: 2025-07-31. Also AWS-first: Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) Built In full JD read as finding surface, (2) eBay/TCGplayer careers site referenced in the JD, (3) no fresher alternate posting of this role found in search",
     "where": "Built In",
-    "time": "3:14 PM"
+    "time": "8:13 PM"
    },
    {
     "company": "RTX",
@@ -4332,6 +4332,13 @@
     "time": "3:23 AM"
    },
    {
+    "company": "MD Anderson Cancer Center",
+    "role": "Software Integration Architect - ServiceNow Architect",
+    "reason": "not-remote — Work Location: Hybrid onsite/remote. workarounds tried: (1) Dice full JD read as finding surface, (2) search for alternate MD Anderson architect postings, (3) no fully remote alternate posting of this ServiceNow role found",
+    "where": "Dice",
+    "time": "8:13 PM"
+   },
+   {
     "company": "Penn Medicine",
     "role": "Sr Principal Enterprise Architect Data Architecture and Strategy",
     "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — The Senior Principal Enterprise Architect - Data Architecture & Strategy is a senior individual contributor within the Enterprise Architecture team. workarounds tried: Dice full JD + Penn Medicine careers listing for the same family of reqs.",
@@ -4720,6 +4727,13 @@
     "reason": "cloud-mismatch — lead DXC's Google Cloud Practice in DXC. This role will be responsible for driving the business, developing our go to market, leading customer engagements, designing enterprise-grade cloud architectures, and implementing comprehensive cloud solutions on Google Cloud Platform. Required: Google Cloud Professional Cloud Architect (required), Google Cloud Professional DevOps Engineer (required). workarounds tried: (1) DXC own posting sought via Simplify mirror of DXC JD, (2) BuiltIn and Jooble mirrors same GCP-first text, (3) no Azure-first alternate posting found",
     "where": "Simplify Jobs",
     "time": "7:10 AM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "AI Solution Architect",
+    "reason": "not-remote — #LI-HYBRID. workarounds tried: (1) employer's own Johnson Controls Careers site referenced in the JD, (2) alternate Jooble posting of the same role, also #LI-HYBRID for Milwaukee/Dallas, (3) Simplify full JD read",
+    "where": "Simplify Jobs",
+    "time": "8:13 PM"
    },
    {
     "company": "Vertex Pharmaceuticals",
@@ -6713,9 +6727,9 @@
    {
     "company": "Weatherford",
     "role": "OTM Application Architect",
-    "reason": "experience-mismatch — 10 years of related experience working with JD Edwards / Oracle Enterprise One in a technical role is also required. Advanced functional and technical expertise in Oracle Transportation Management (OTM), including setup, integration, and optimization for logistics and transportation. workarounds tried: (1) employer ATS SmartRecruiters page is governing, (2) alternate Monster/Jobright mirrors are different older roles, (3) no alternate posting removing JDE/OTM core",
+    "reason": "experience-mismatch — Advanced functional and technical expertise in Oracle Transportation Management (OTM), including setup, integration, and optimization for logistics and transportation. 10 years of related experience working with JD Edwards / Oracle Enterprise One in a technical role is also required. workarounds tried: (1) SmartRecruiters full JD, which is Weatherford's own ATS posting, (2) search for alternate Weatherford architect postings, (3) no alternate posting changes the Oracle OTM/JD Edwards core",
     "where": "SmartRecruiters",
-    "time": "3:12 PM"
+    "time": "8:13 PM"
    }
   ],
   "career.io": [
@@ -6891,6 +6905,13 @@
     "time": "2:17 PM"
    },
    {
+    "company": "Johnson Controls",
+    "role": "Azure DevOps Architect",
+    "reason": "hands-on — Johnson Controls is seeking a Principal Azure DevOps Engineer with deep experience deploying complex systems to the cloud. Build and maintain CI/CD pipelines using tools like GitHub Actions. Architect and automate infrastructure using Terraform, ARM, Helm, Ansible, CloudFormation, Vagrant. Strong scripting skills: Bash, PowerShell, Python, JavaScript. workarounds tried: (1) Johnson Controls Careers site referenced in the JD, (2) DiversityJobs full JD read, (3) alternate Career.io posting of the same Senior Software Architect / DevOps role",
+    "where": "diversityjobs.com",
+    "time": "8:13 PM"
+   },
+   {
     "company": "Intercontinental Exchange",
     "role": "Java Solutions Architect",
     "reason": "not-remote — This role offers work from home flexibility of one day per week. — Jacksonville, FL based with 4 days/week in office implied; core is also Java application architecture. Workarounds tried: (1) ICE careers surface search, (2) diversityjobs mirror carrying the full JD — no remote variant of this req found",
@@ -6935,6 +6956,13 @@
     "reason": "pay-outside-band — Salary Range: $155,600 - $278,135 workarounds tried: (1) Teal full JD mirroring CareFirst own posting, (2) Ladders mirror shows same range, (3) no alternate posting with different range found",
     "where": "TealHQ",
     "time": "6:16 PM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Oracle HCM Cloud Technical Architect (Product Owner III)",
+    "reason": "experience-mismatch — At least 5 years supporting Oracle HCM Cloud environments. At least 3 years implementing or supporting Oracle Learning Cloud. workarounds tried: (1) Teal full JD read, (2) search for alternate Mount Sinai architect postings, (3) similar Oracle HCM roles on other surfaces are the same Oracle-core requirement; also published 2026-10-22, outside 7-day eligibility",
+    "where": "TealHQ",
+    "time": "8:13 PM"
    }
   ],
   "Remoteworks / Citizens Bank": [
@@ -10783,6 +10811,15 @@
     "time": "10:51 AM"
    }
   ],
+  "TechnipFMC careers": [
+   {
+    "company": "TechnipFMC",
+    "role": "Head Software Architect",
+    "reason": "closed — Sorry, this position has been filled.",
+    "where": "TechnipFMC careers",
+    "time": "8:13 PM"
+   }
+  ],
   "jobs.anitab.org": [
    {
     "company": "PayPal",
@@ -13080,5 +13117,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T02:12:06Z"
+ "lists_generated_at": "2026-11-18T02:14:42Z"
 }
