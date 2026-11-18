@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T12:16:28Z",
+ "generated_at": "2026-11-18T12:18:45Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,38 +15,38 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T12:13:57Z",
+  "last_activity_at": "2026-11-18T12:18:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 346,
+   "covered_units": 466,
    "total_units": 754,
-   "pct": 46
+   "pct": 62
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 97,
-  "rejected": 679,
-  "evaluated": 776
+  "parked": 96,
+  "rejected": 688,
+  "evaluated": 784
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 776,
+  "evaluated": 784,
   "filed": 0,
-  "parked": 97,
-  "rejected": 679,
+  "parked": 96,
+  "rejected": 688,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
-  "W3",
   "W4",
   "W5",
   "W6",
   "W16",
-  "W17"
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -91,7 +91,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 15/30"
+   "detail": "Employers 20/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,19 +101,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/39"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/73"
+   "heartbeat_at": null,
+   "detail": "Employers 20/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,8 +123,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/32"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,8 +134,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,8 +145,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,8 +233,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/59"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,19 +244,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:16:28Z",
-   "detail": "Employers 10/54"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 10/45"
+   "heartbeat_at": "2026-11-18T12:18:45Z",
+   "detail": "Employers 15/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -267,7 +267,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 10/41"
+   "detail": "Employers 15/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -278,7 +278,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 10/31"
+   "detail": "Employers 15/31"
   }
  },
  "stages": {
@@ -289,7 +289,7 @@
    "ended_at": "2026-11-18T11:52:59Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 1 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
@@ -308,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "43 of 632 units done",
+   "detail": "55 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -550,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:13 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:18 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1600,15 +1600,6 @@
     "time": "2:52 AM"
    }
   ],
-  "USAJOBS (CMS announcement)": [
-   {
-    "company": "HHS / CMS",
-    "role": "IT Specialist (Solution/Platform Architect)",
-    "reason": "title-not-covered — Serve as senior technical authority in solution and platform architecture, focusing on applications and services that are hosted or planning to be hosted in the CMS Hybrid Cloud ecosystem.",
-    "where": "USAJOBS (CMS announcement)",
-    "time": "3:26 AM"
-   }
-  ],
   "Business of Fashion / FashionJobs": [
    {
     "company": "Lululemon",
@@ -1936,13 +1927,6 @@
     "reason": "not-remote — To be considered for this role, caregivers must reside in Ohio or Florida. — workarounds tried: (1) full JD read on Built In mirror",
     "where": "Built In",
     "time": "12:35 AM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Architect - Remote",
-    "reason": "hands-on — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases (e.g., SQLMI) — workarounds tried: (1) full JD read on Built In mirror",
-    "where": "Built In",
-    "time": "12:30 AM"
    },
    {
     "company": "BlackRock",
@@ -3107,6 +3091,15 @@
     "time": "3:38 AM"
    }
   ],
+  "careers.unitedhealthgroup.com (employer page)": [
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect - Remote",
+    "reason": "hands-on — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud workarounds tried: (1) employer's own ATS posting (careers.unitedhealthgroup.com) is the governing text read here, (2) alternate route (Built In mirror) carries the same Java requirement, (3) no alternate posting of the same req found without it.",
+    "where": "careers.unitedhealthgroup.com (employer page)",
+    "time": "6:16 AM"
+   }
+  ],
   "remotive.com": [
    {
     "company": "CVS Health / Aetna",
@@ -3292,20 +3285,13 @@
     "time": "2:58 AM"
    }
   ],
-  "careers.hcahealthcare.com": [
+  "careers.hcahealthcare.com (employer page)": [
    {
     "company": "HCA Healthcare",
     "role": "Consulting Application Architect",
-    "reason": "closed — This job posting is no longer active. — on HCA Healthcare's own careers page for this posting, a gate fact under the detail-page-governs-liveness rule.",
-    "where": "careers.hcahealthcare.com",
-    "time": "3:18 AM"
-   },
-   {
-    "company": "HCA Healthcare",
-    "role": "Consulting Business Intelligence Architect",
-    "reason": "experience-mismatch — The Consulting BI Architect is responsible for the architecture, design, governance, and performance of enterprise HR analytical data models, including the Lakehouse gold layer and Power BI semantic models. — core is BI / analytical data modeling, DAX and Power BI semantic models and Google Cloud BigQuery, not Hubert's Azure infrastructure, M&A and DR architecture; location Nashville, Tennessee. workarounds tried: (1) employer's own HCA careers page 18430172 read as governing text; (2) no alternate posting with different core duties found; (3) no other HCA posting in the searched families survived. Searched W3 employers HCA Healthcare, CommonSpirit Health, Ascension, Trinity Health, Providence for Cloud Engineering Lead, Platform Engineering Lead, Cloud Transformation Lead, Technology Strategy Lead, Enterprise Technology Lead, Infrastructure Strategy Lead, Cloud Practice Lead, Cloud Center of Excellence Lead, Cloud Enablement Lead and Cloud Adoption Lead families.",
-    "where": "careers.hcahealthcare.com",
-    "time": "3:18 AM"
+    "reason": "closed — This job posting is no longer active.",
+    "where": "careers.hcahealthcare.com (employer page)",
+    "time": "6:16 AM"
    }
   ],
   "Providence sector / DiversityJobs (Providence mirror)": [
@@ -3955,13 +3941,6 @@
     "time": "6:12 AM"
    },
    {
-    "company": "Exelon",
-    "role": "Sr. Architect (EAM)",
-    "reason": "not-remote — Note: This is a hybrid position (in-office with remote flexibility). Employees are required to be in office at least three days per week (Tuesday, Wednesday, and Thursday).",
-    "where": "Career.io",
-    "time": "12:03 AM"
-   },
-   {
     "company": "Spire Inc",
     "role": "Solutions Architect",
     "reason": "stale — Date: Feb 25, 2026. Location: Saint Louis, MO, US, 63101 Birmingham, AL, US, 35203 Kansas City, MO, US, 64129. Hybrid Remote/Office environment, preferred. workarounds tried: (1) employer's own posting - Spire directs applicants to jobs.spireenergy.com; the full JD text available is the Career.io mirror carrying the Feb 25, 2026 date; (2) alternate route - web search returned only this mirror; (3) alternate posting - no refreshed repost found.",
@@ -4072,6 +4051,15 @@
     "reason": "pay-outside-band — The base pay range for this position is between $105,600.00 and $150,400.00 per year. workarounds tried: (1) Career.io full posting, (2) Adzuna and JobzMall mirrors showing the same range and #LI-Hybrid, (3) no alternate posting with a different range found",
     "where": "Career.io",
     "time": "4:34 AM"
+   }
+  ],
+  "Career.io (Exelon full JD mirror)": [
+   {
+    "company": "Exelon",
+    "role": "Sr. Architect (EAM)",
+    "reason": "not-remote — Note: This is a hybrid position (in-office with remote flexibility). Employees are required to be in office at least three days per week (Tuesday, Wednesday, and Thursday). workarounds tried: (1) employer's own JD text via the Career.io full-JD mirror, (2) alternate route search, (3) alternate posting search — same hybrid requirement; pay top $146,300 also below the $160K band floor.",
+    "where": "Career.io (Exelon full JD mirror)",
+    "time": "6:16 AM"
    }
   ],
   "Simplify Jobs (CenterPoint Energy mirror)": [
@@ -5275,13 +5263,22 @@
     "time": "3:04 AM"
    }
   ],
-  "Teal (UPS mirror)": [
+  "TealHQ (UPS full JD mirror)": [
    {
     "company": "UPS",
     "role": "Application Architect (AI & Cloud) - Flex",
-    "reason": "pay-outside-band — $128,172 - $272,736. Design cloud-native architectures on GCP using services such as Vertex AI, GKE, Cloud Run, AlloyDB, BigQuery, Pub/Sub, and Eventarc. workarounds tried: (1) employer's own UPS careers search found no alternate posting of this Flex role with a different range, (2) alternate route via Teal full-JD mirror with the same range and GCP-first design, (3) no alternate posting of this role with a different range found",
-    "where": "Teal (UPS mirror)",
-    "time": "12:07 AM"
+    "reason": "pay-outside-band — UPS Supply Chain Solutions — $128,172 - $272,736. Published top $272,736 is above the $230,000 band ceiling. workarounds tried: (1) employer's own posting text via the TealHQ full-JD mirror of the UPS req, (2) alternate route search for the same req, (3) alternate posting search — same published range throughout.",
+    "where": "TealHQ (UPS full JD mirror)",
+    "time": "6:18 AM"
+   }
+  ],
+  "Ladders (Elevance Health full JD)": [
+   {
+    "company": "Elevance Health",
+    "role": "Cloud & AI Security Architect",
+    "reason": "not-remote — Location: This role requires associates to be in-office 1-2 days per week workarounds tried: (1) employer's own JD text via the Ladders full-JD mirror, (2) alternate route search for the same req, (3) alternate posting search — hybrid 1-2 days/week in-office in every version.",
+    "where": "Ladders (Elevance Health full JD)",
+    "time": "6:16 AM"
    }
   ],
   "GovernmentJobs.com sector / Washington DOH (employer own bulletin)": [
@@ -5882,6 +5879,15 @@
     "time": "12:07 AM"
    }
   ],
+  "Built In (RTX full JD mirror)": [
+   {
+    "company": "RTX",
+    "role": "Sr. Multi-Disciplined Systems Architect (REMOTE)",
+    "reason": "active-clearance — Security Clearance Status: Active and existing security clearance required after day 1 — Active and existing Secret security clearance (within the last 24 months). Gate fact: active clearance required in the employer's own JD text (via Built In mirror); rejects on sight, no workaround pass.",
+    "where": "Built In (RTX full JD mirror)",
+    "time": "6:18 AM"
+   }
+  ],
   "Qureos": [
    {
     "company": "Baylor Scott & White Health",
@@ -6140,6 +6146,15 @@
     "time": "3:04 AM"
    }
   ],
+  "Monster (Northrop Grumman full JD)": [
+   {
+    "company": "Northrop Grumman",
+    "role": "Chief Technical Architect (Sr Staff Systems Architect)",
+    "reason": "active-clearance — Active DoD Secret (or higher) clearance. Gate fact: active clearance required for start (CLEARANCE REQUIRED FOR START: Yes, CLEARANCE TYPE: Secret) in the employer's JD via Monster; rejects on sight, no workaround pass. Role is also on-site in Warner Robins, GA.",
+    "where": "Monster (Northrop Grumman full JD)",
+    "time": "6:18 AM"
+   }
+  ],
   "Amtrak Careers": [
    {
     "company": "Amtrak",
@@ -6352,6 +6367,15 @@
     "time": "2:24 AM"
    }
   ],
+  "Built In (Trinity Health JD mirror)": [
+   {
+    "company": "Trinity Health",
+    "role": "Solutions Architect, Senior",
+    "reason": "hands-on — Applies SQL and Python to data transformation, integration, and analysis. workarounds tried: (1) employer's own posting text via the Built In mirror of the Trinity Health JD, (2) alternate route search for the same req, (3) alternate posting search — same Python/SQL duty and 5-year healthcare-industry requirement throughout; Hubert has 0 healthcare-industry years and Python-as-duty hard-rejects.",
+    "where": "Built In (Trinity Health JD mirror)",
+    "time": "6:16 AM"
+   }
+  ],
   "hiringcafe.com": [
    {
     "company": "Siemens Healthineers",
@@ -6438,6 +6462,15 @@
     "reason": "stale — Published: 2025-12-13 — posting date is well outside the 7-day eligibility window for this 2026-11-18 sweep, with no repost activity shown. This position is for a Senior Sr. Principal Cloud Design Architect on our Cloud Engineering team, supporting AWS. Remote - United States - US: $193,040 - $233,913. workarounds tried: (1) Built In carries the full JD with that December 2025 date as governing text; (2) alternate surfaces (HiringCafe BMS listings) show only hybrid/onsite BMS cloud architect roles, no fresher remote repost of this req; (3) no refreshed req found.",
     "where": "Built In (Bristol Myers Squibb)",
     "time": "5:37 AM"
+   }
+  ],
+  "USAJOBS (CMS announcement, employer page)": [
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (Solution/Platform Architect)",
+    "reason": "hiring-path-restricted — Career Transition Assistance Plan Eligibles; OR Current Permanent Career and Career-Conditional Employees in HHS. Gate fact on the employer's own USAJOBS announcement: the hiring path is restricted to CTAP eligibles and current permanent HHS employees; Hubert has never been a US government employee, so he is outside the hiring path regardless of the (otherwise aligned) duties.",
+    "where": "USAJOBS (CMS announcement, employer page)",
+    "time": "6:18 AM"
    }
   ],
   "GrabJobs/Jooble (Danaher JD)": [
@@ -6657,6 +6690,15 @@
     "reason": "pay-outside-band — USD $94,150.00 - USD $140,000.00 /Yr. — published top $140,000 below the $160,000 band floor, on the Dice full JD for this remote Senior Enterprise Architect supporting the US Courts. workarounds tried: (1) employer's own GovCIO iCIMS posting sought, Dice full JD read; (2) Career.io mirrors show the same $94,150-$140,000 range; (3) no alternate posting with a different range found. Searched W2 employers GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, Florida state portal, New York state portal for Infrastructure Modernization Lead, Technology Modernization Lead, Cloud Delivery Lead, Enterprise Technology Consultant, Cloud Advisory Consultant, Technology Transformation Consultant, Staff Cloud Engineer, Staff Infrastructure Engineer, Enterprise Solutions Architect and Enterprise Cloud Architect families.",
     "where": "dice.com",
     "time": "3:22 AM"
+   }
+  ],
+  "jobs.citi.com (employer page)": [
+   {
+    "company": "Citigroup",
+    "role": "Lead Architect - C++ and Java - Vice President",
+    "reason": "not-remote — Location(s): Pune, Maharashtra, India Job Type: Hybrid workarounds tried: (1) employer's own page (jobs.citi.com) is the governing text — Pune, India, hybrid, and hands-on lead engineer for C++/Java, (2) alternate route search, (3) alternate posting search — the Chennai Senior Architect sibling req is likewise India/hybrid.",
+    "where": "jobs.citi.com (employer page)",
+    "time": "6:16 AM"
    }
   ],
   "Indeed (ServiceMac / First American)": [
@@ -7189,6 +7231,15 @@
     "time": "3:18 AM"
    }
   ],
+  "careers.hcahealthcare.com": [
+   {
+    "company": "HCA Healthcare",
+    "role": "Consulting Business Intelligence Architect",
+    "reason": "experience-mismatch — The Consulting BI Architect is responsible for the architecture, design, governance, and performance of enterprise HR analytical data models, including the Lakehouse gold layer and Power BI semantic models. — core is BI / analytical data modeling, DAX and Power BI semantic models and Google Cloud BigQuery, not Hubert's Azure infrastructure, M&A and DR architecture; location Nashville, Tennessee. workarounds tried: (1) employer's own HCA careers page 18430172 read as governing text; (2) no alternate posting with different core duties found; (3) no other HCA posting in the searched families survived. Searched W3 employers HCA Healthcare, CommonSpirit Health, Ascension, Trinity Health, Providence for Cloud Engineering Lead, Platform Engineering Lead, Cloud Transformation Lead, Technology Strategy Lead, Enterprise Technology Lead, Infrastructure Strategy Lead, Cloud Practice Lead, Cloud Center of Excellence Lead, Cloud Enablement Lead and Cloud Adoption Lead families.",
+    "where": "careers.hcahealthcare.com",
+    "time": "3:18 AM"
+   }
+  ],
   "FedEx careers (employer's own page)": [
    {
     "company": "FedEx",
@@ -7331,6 +7382,33 @@
     "reason": "pay-outside-band — The estimated pay range for this role is $100,000 to $130,000, with the final offer contingent on location, skillset, and experience. — published top $130,000 is below the $160,000 band floor. Workarounds tried: (1) employer's JD text as carried in full on YouHired (Chickasaw Nation Industries), (2) alternate route Relomote carries the identical $100K-$130K range, (3) no alternate posting with an in-band range.",
     "where": "YouHired",
     "time": "6:10 AM"
+   }
+  ],
+  "careers.chevron.com (employer page)": [
+   {
+    "company": "Chevron",
+    "role": "Architect - Mobility",
+    "reason": "not-remote — The Chevron Engineering and Innovation Excellence Center (ENGINE) in Bengaluru India brings together the resources and expertise of the Chevron global network workarounds tried: (1) employer's own page (careers.chevron.com) is the governing text — Bengaluru, India based, standard India work week, (2) alternate route search, (3) alternate posting search — no US-remote version of this req.",
+    "where": "careers.chevron.com (employer page)",
+    "time": "6:16 AM"
+   }
+  ],
+  "GrabJobs (Wells Fargo full JD mirror)": [
+   {
+    "company": "Wells Fargo",
+    "role": "Lead Systems Architect - IAM",
+    "reason": "not-remote — This position offers a hybrid work schedule workarounds tried: (1) employer's own JD text via the GrabJobs full-JD mirror, (2) alternate route (Career.io mirror) carries the same hybrid schedule, (3) alternate posting search — no remote version; posting end date 23 Apr 2026 has also passed.",
+    "where": "GrabJobs (Wells Fargo full JD mirror)",
+    "time": "6:16 AM"
+   }
+  ],
+  "Northwest Arkansas Job Board (Walmart JD mirror)": [
+   {
+    "company": "Walmart",
+    "role": "(USA) Senior Distinguished Technical Architect",
+    "reason": "not-remote — Flexible, hybrid work: We use a hybrid way of working that is primarily in office coupled with virtual when not onsite. workarounds tried: (1) employer's own JD text via the Northwest Arkansas / Walmart careers mirror, (2) alternate route (Simplify mirror of Walmart architect reqs), (3) alternate posting search — Walmart architect reqs are Bentonville/Sunnyvale campus hybrid throughout.",
+    "where": "Northwest Arkansas Job Board (Walmart JD mirror)",
+    "time": "6:18 AM"
    }
   ]
  },
@@ -8515,5 +8593,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T12:16:28Z"
+ "lists_generated_at": "2026-11-18T12:18:45Z"
 }
