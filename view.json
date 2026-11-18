@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T06:01:19Z",
+ "generated_at": "2026-11-18T06:03:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,34 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T06:00:40Z",
+  "last_activity_at": "2026-11-18T06:02:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 42,
+   "covered_units": 80,
    "total_units": 754,
-   "pct": 6
+   "pct": 11
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 22,
-  "rejected": 7,
-  "evaluated": 30
+  "parked": 23,
+  "rejected": 10,
+  "evaluated": 33
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 30,
+  "evaluated": 33,
   "filed": 0,
-  "parked": 22,
-  "rejected": 7,
+  "parked": 23,
+  "rejected": 10,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -64,7 +65,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:01:19Z",
+   "heartbeat_at": "2026-11-18T06:03:09Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -114,27 +115,16 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:01:19Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T06:01:19Z",
-   "detail": "Employers 0/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -142,6 +132,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T06:03:09Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -224,23 +225,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:03:09Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:03:09Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -304,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "5 of 632 units done",
+   "detail": "10 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -546,18 +547,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:00 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:02 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W8 · Title 43 of 58 · Cloud Delivery Lead",
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W8"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W8",
-  "headline": "W8 · Title 43 of 58 · Cloud Delivery Lead",
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1058,8 +1059,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 32,
