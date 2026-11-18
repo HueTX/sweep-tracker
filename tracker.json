@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T14:56:17Z",
+ "generated_at": "2026-11-18T14:59:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T14:52:11Z",
+  "last_activity_at": "2026-11-18T14:58:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 118,
-  "rejected": 833,
-  "evaluated": 951
+  "rejected": 838,
+  "evaluated": 956
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 951,
+  "evaluated": 956,
   "filed": 0,
   "parked": 118,
-  "rejected": 833,
+  "rejected": 838,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W5",
-  "W6",
-  "W16",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -106,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 245/73"
+   "heartbeat_at": null,
+   "detail": "Employers 260/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 252/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +220,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 245/59"
+   "heartbeat_at": null,
+   "detail": "Employers 255/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,29 +237,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 245/54"
+   "detail": "Employers 255/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": null,
+   "detail": "Employers 255/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:56:17Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": null,
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "529 of 632 units done",
+   "detail": "547 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:52 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 8:58 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2716,6 +2703,27 @@
     "time": "5:25 AM"
    },
    {
+    "company": "Xylem",
+    "role": "AI Solutions Architect",
+    "reason": "stale — Strong hands-on foundations in Python and modern AI/ML frameworks (PyTorch, TensorFlow, scikit-learn) | workarounds tried: (1) employer-site/web search for a fresher Xylem posting - none found, (2) BuiltIn and Simplify mirrors both carry the same posting published 2026-05-02, (3) no refreshed repost found",
+    "where": "BuiltIn",
+    "time": "8:56 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Staff Platform Engineer, AI/ML Infrastructure",
+    "reason": "stale — Architect, build, and operate scalable cloud platforms using AWS services such as EKS, ECS Fargate, Lambda, DynamoDB, S3, OpenSearch, Secrets Manager, CloudWatch, ALB, and MWAA. | workarounds tried: (1) Pfizer careers/web search - no fresher posting, (2) BuiltIn full JD read, published 2026-09-11, (3) no repost found; also engineer-level build/operate role, not architect-level",
+    "where": "BuiltIn",
+    "time": "8:56 AM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "not-remote — Work Location Assignment: Hybrid. Must be able to work in assigned Pfizer office 2-3 days per week, or as needed by the business. - This role is NOT remote | workarounds tried: (1) Pfizer careers/web search - all routes show the same New York hybrid posting, (2) BuiltIn and Monster full JDs read as alternate routes, (3) no remote alternate posting of the same role found",
+    "where": "BuiltIn",
+    "time": "8:58 AM"
+   },
+   {
     "company": "Eli Lilly and Company",
     "role": "Platform Architect",
     "reason": "stale — We are seeking a highly skilled IT Systems Architect to provide both strategic and technical leadership for a cloud-based SaaS platform that supports key business functions, including contract management, pricing, and rebate reimbursement. — workarounds tried: (1) BuiltIn and Career.io mirrors read, (2) Lilly careers surface searched; no fresher repost found, posting date 2026-03-04 is outside the 7-day eligibility window",
@@ -2819,6 +2827,13 @@
     "reason": "stale — As a Senior Enterprise Architect at NTT DATA, you will lead the design of complex managed service solutions for our largest enterprise clients. — workarounds tried: (1) NTT DATA careers search, (2) BuiltIn and Career.io mirrors read; no fresher repost found, posting date 2026-08-23 is outside the 7-day eligibility window",
     "where": "BuiltIn",
     "time": "5:25 AM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Principal Security Architect",
+    "reason": "pay-outside-band — The anticipated wage for this position is $163,500 - $297,000 | workarounds tried: (1) employer careers search - no alternate posting with a different range found, (2) BuiltIn full JD read as alternate route, (3) no repost with an in-band range found; top $297,000 exceeds $230,000 band top",
+    "where": "BuiltIn",
+    "time": "8:56 AM"
    },
    {
     "company": "Chubb",
@@ -3029,6 +3044,13 @@
     "reason": "pay-outside-band — Salary Range: $185,000-$264,500 - Job Requisition ID: 92159 - Location Designation: Hybrid - 3 days per quarter - workarounds tried: (1) employer's own careers search, (2) alternate route BuiltIn SF mirror (this posting) with same salary range, (3) no alternate posting with different pay found; top $264,500 is above $230,000 band top",
     "where": "BuiltIn",
     "time": "8:23 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Principal Solution Architect",
+    "reason": "stale — In this role, you'll be part of the Solution Architect organization within Sales and Success, focusing on Atlassian's Strategy Collection: Jira Align, Focus, Talent, and Rovo. | workarounds tried: (1) Atlassian careers/web search - no fresher US posting, (2) BuiltIn full JD read, published 2026-08-21, (3) no repost or refreshed req found",
+    "where": "BuiltIn",
+    "time": "8:57 AM"
    }
   ],
   "DailyRemote (CommonSpirit Health mirror)": [
@@ -4829,13 +4851,6 @@
     "time": "6:28 AM"
    },
    {
-    "company": "Pfizer",
-    "role": "Senior Cloud Engineering Lead",
-    "reason": "cloud-mismatch — We are seeking a Senior Cloud Engineering Lead to join our growing team at Pfizer's Digital hub in New York, NY, United States. This role requires a strategic technical leader with deep expertise in Google Cloud Platform (GCP)",
-    "where": "builtinnyc.com",
-    "time": "5:33 AM"
-   },
-   {
     "company": "Zscaler",
     "role": "Zero Trust Networking, Principal Architect",
     "reason": "pay-outside-band — Base Pay Range $210,000 — $262,500 USD. workarounds tried: (1) Built In full JD, (2) alternate Zscaler routes via search, (3) no alternate posting with different range found",
@@ -4855,13 +4870,6 @@
     "reason": "stale — Published: 2026-02-19 | workarounds tried: (1) employer's own posting text carried on the Built In mirror (Principal Technical Architect, AI Platforms and Services), (2) alternate Highmark architect postings checked - the November Principal Architect postings are a different front-office req, not a refresh of this AIPS req, (3) no refreshed/reposted posting of this req found",
     "where": "builtinnyc.com",
     "time": "6:29 AM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Principal Cloud Practice Architect",
-    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300.",
-    "where": "builtinnyc.com",
-    "time": "5:32 AM"
    }
   ],
   "Built In / Centene": [
@@ -5671,6 +5679,13 @@
     "reason": "not-remote — The position is based in Charlotte, NC, follows a Hybrid-First work model, and may require periodic travel for global project support. This role follows Xylem's Hybrid-First work model and is based in Charlotte, NC. Compensation $180,000-$200,000 is in band; hybrid is the killer, and the role is Salesforce-platform-specific (10+ years of Salesforce experience). Workarounds tried: (1) full JD via SonicJobs mirror of the employer's posting; (2) alternate routes carry the same Hybrid-First terms; (3) no remote posting of this role found.",
     "where": "SonicJobs",
     "time": "5:30 AM"
+   },
+   {
+    "company": "Hawaiian Electric",
+    "role": "Operational Technology Solutions Architect",
+    "reason": "pay-outside-band — The hiring range for the Operational Technology Solutions Architect [Req ID 10296] position is $120,600.00 to $156,700.00. | workarounds tried: (1) employer posting text via SonicJobs full JD read, (2) web search for an alternate posting - none with a different range, (3) no repost found; top $156,700 is below the $160,000 band floor and location is Honolulu - Oahu",
+    "where": "SonicJobs",
+    "time": "8:56 AM"
    }
   ],
   "Dice (Dover Corporation)": [
@@ -5732,6 +5747,29 @@
     "reason": "pay-outside-band — Zone A: $205,200 - $267,900",
     "where": "builtinboston.com",
     "time": "2:31 AM"
+   }
+  ],
+  "BuiltIn NYC": [
+   {
+    "company": "Mastercard",
+    "role": "Infrastructure Platform Architect",
+    "reason": "not-remote — WORK LOCATION: Mexico City | workarounds tried: (1) Mastercard careers/web search - no US-remote posting of this role found, (2) BuiltIn NYC full JD read as alternate route, (3) no alternate US posting found; role is located in Mexico City, not 100% remote US",
+    "where": "BuiltIn NYC",
+    "time": "8:58 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Principal Cloud Practice Architect",
+    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300. | workarounds tried: (1) Rackspace Lever posting referenced in search results carries the same range, (2) BuiltIn NYC and Swooped full JDs read as alternate routes, (3) no repost with an in-band range found; top $268,300 exceeds $230,000 band top",
+    "where": "BuiltIn NYC",
+    "time": "8:57 AM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
+    "reason": "hands-on-coding — writing production-grade code (with a focus on Python) for custom automation, application logic, and integration layers workarounds tried: (1) BuiltIn NYC full JD, (2) BuiltIn search mirror, (3) employer-name search - same Innovation Team JD with Python coding as a core duty and GCP preferred",
+    "where": "BuiltIn NYC",
+    "time": "2:42 AM"
    }
   ],
   "Built In (GSK mirror)": [
@@ -6475,22 +6513,29 @@
     "time": "2:20 AM"
    }
   ],
-  "worqstrap.com": [
+  "Worqstrap": [
    {
     "company": "PayPal",
     "role": "Distinguished Software Architect",
-    "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150",
-    "where": "worqstrap.com",
-    "time": "5:33 AM"
+    "reason": "pay-outside-band — The US national annual pay range for this role is $209,000 to $359,150 | workarounds tried: (1) web search for PayPal's own posting - mirror JD is the governing text available, (2) Worqstrap full JD read as alternate route, (3) no alternate posting with an in-band range found; top $359,150 exceeds $230,000 band top",
+    "where": "Worqstrap",
+    "time": "8:56 AM"
+   },
+   {
+    "company": "Salesforce",
+    "role": "MuleSoft Senior Success Architect",
+    "reason": "not-remote — Full time Hybrid — workarounds tried: (1) full JD read on Worqstrap mirror of Salesforce careers",
+    "where": "Worqstrap",
+    "time": "12:42 AM"
    }
   ],
   "startup.jobs": [
    {
     "company": "Visa",
     "role": "Senior Director, Cloud Architect",
-    "reason": "pay-outside-band — This is a remote position. U.S. APPLICANTS ONLY: The estimated salary range for a new hire into this position is 153,800.00 to 250,000.00 USD per year — published top $250,000 exceeds the $230,000 band ceiling. Workarounds tried: (1) employer's own ATS mirrors (SmartRecruiters) for Visa cloud roles show equal or higher tops; (2) alternate route — startup.jobs full JD; (3) alternate posting of the same role (5394925, hybrid, $192,300-$250,000) also over band.",
+    "reason": "pay-outside-band — The estimated salary range for a new hire into this position is 153,800.00 to 250,000.00 USD per year | workarounds tried: (1) site:visa.com careers search returned no matching posting, (2) startup.jobs full JD read as alternate route, (3) no alternate posting with an in-band range found; top $250,000 exceeds $230,000 band top",
     "where": "startup.jobs",
-    "time": "5:29 AM"
+    "time": "8:56 AM"
    },
    {
     "company": "Visa",
@@ -6681,15 +6726,6 @@
     "time": "3:47 AM"
    }
   ],
-  "grabjobs.co": [
-   {
-    "company": "Hawaiian Electric",
-    "role": "Operational Technology Solutions Architect",
-    "reason": "pay-outside-band — The hiring range for the Operational Technology Solutions Architect [Req ID 10296] position is $120,600.00 to $156,700.00.",
-    "where": "grabjobs.co",
-    "time": "2:31 AM"
-   }
-  ],
   "Amazon.jobs (employer own)": [
    {
     "company": "Amazon",
@@ -6755,9 +6791,9 @@
    {
     "company": "AbbVie",
     "role": "Security Application Solution Architect",
-    "reason": "pay-outside-band — The compensation range described below is the range of possible base pay compensation that the Company believes in good faith it will pay for this role at the time of this posting based on the job grade for this position. Salary: $137,500 - $261,000",
+    "reason": "pay-outside-band — Salary: $137,500 - $261,000 | workarounds tried: (1) AbbVie careers-origin posting mirrored on BioSpace - full JD read, (2) alternate BioSpace listing of the same role carries the same range, (3) no repost with an in-band range found; top $261,000 exceeds $230,000 band top",
     "where": "BioSpace",
-    "time": "5:27 AM"
+    "time": "8:57 AM"
    }
   ],
   "nvoids.com": [
@@ -7108,15 +7144,6 @@
     "reason": "pay-outside-band — The expected compensation range for this position is between $132,200 - $262,400. The North America Supply Chain Domain Architect is responsible for defining and governing the supply chain solution architecture strategy, standards compliance, and technology roadmaps. Workarounds tried: (1) Simplify carries PepsiCo's own posting text — the published top $262,400 is above the $230,000 band ceiling on the governing text; (2) no alternate posting of this role with an in-band range found.",
     "where": "Simplify (PepsiCo posting text)",
     "time": "7:39 AM"
-   }
-  ],
-  "BuiltIn NYC": [
-   {
-    "company": "Palo Alto Networks",
-    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
-    "reason": "hands-on-coding — writing production-grade code (with a focus on Python) for custom automation, application logic, and integration layers workarounds tried: (1) BuiltIn NYC full JD, (2) BuiltIn search mirror, (3) employer-name search - same Innovation Team JD with Python coding as a core duty and GCP preferred",
-    "where": "BuiltIn NYC",
-    "time": "2:42 AM"
    }
   ],
   "Built In Colorado": [
@@ -8209,15 +8236,6 @@
     "reason": "hands-on — Develops, configures, or modifies basic to moderately complex integrated business and/or enterprise application solutions within various computing environments by designing and coding component-based applications using programming languages. — workarounds tried: (1) employer's own Kaiser jobs page read in full",
     "where": "Kaiser Permanente jobs",
     "time": "12:35 AM"
-   }
-  ],
-  "Worqstrap": [
-   {
-    "company": "Salesforce",
-    "role": "MuleSoft Senior Success Architect",
-    "reason": "not-remote — Full time Hybrid — workarounds tried: (1) full JD read on Worqstrap mirror of Salesforce careers",
-    "where": "Worqstrap",
-    "time": "12:42 AM"
    }
   ],
   "Salesforce Workday": [
@@ -9948,5 +9966,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T14:56:17Z"
+ "lists_generated_at": "2026-11-18T14:59:07Z"
 }
