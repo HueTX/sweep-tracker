@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T16:38:36Z",
+ "generated_at": "2026-11-18T16:40:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -10,17 +10,17 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T16:37:02Z",
+  "last_activity_at": "2026-11-18T16:39:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 456,
+   "covered_units": 526,
    "total_units": 754,
-   "pct": 60
+   "pct": 70
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,23 +28,27 @@
  "counts": {
   "filed": 0,
   "parked": 134,
-  "rejected": 904,
-  "evaluated": 1039
+  "rejected": 905,
+  "evaluated": 1040
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1039,
+  "evaluated": 1040,
   "filed": 0,
   "parked": 134,
-  "rejected": 904,
+  "rejected": 905,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
-  "W6"
+  "W6",
+  "W16",
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -83,12 +87,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:40:43Z",
    "detail": "Employers 20/30"
   },
   "W2": {
@@ -99,7 +103,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:38:36Z",
+   "heartbeat_at": "2026-11-18T16:40:43Z",
    "detail": "Employers 15/39"
   },
   "W3": {
@@ -110,8 +114,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:38:36Z",
-   "detail": "Employers 15/73"
+   "heartbeat_at": "2026-11-18T16:40:43Z",
+   "detail": "Employers 20/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -121,8 +125,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:38:36Z",
-   "detail": "Employers 15/32"
+   "heartbeat_at": "2026-11-18T16:40:43Z",
+   "detail": "Employers 20/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -132,8 +136,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:38:36Z",
-   "detail": "Employers 15/44"
+   "heartbeat_at": "2026-11-18T16:40:43Z",
+   "detail": "Employers 20/44"
   },
   "W6": {
    "label": "Utilities",
@@ -143,8 +147,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:38:36Z",
-   "detail": "Employers 15/44"
+   "heartbeat_at": "2026-11-18T16:40:43Z",
+   "detail": "Employers 20/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,34 +230,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 15/59"
+   "heartbeat_at": "2026-11-18T16:40:43Z",
+   "detail": "Employers 20/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:40:43Z",
    "detail": "Employers 15/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:40:43Z",
    "detail": "Employers 15/45"
   },
   "W19": {
@@ -265,7 +269,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 15/41"
+   "detail": "Employers 20/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,7 +280,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 15/31"
+   "detail": "Employers 20/31"
   }
  },
  "stages": {
@@ -306,15 +310,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "54 of 632 units done",
+   "detail": "61 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "33 of 33 units done",
+   "state": "active",
+   "detail": "33 of 34 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": "2026-11-18T16:09:28Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -548,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:37 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:39 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
@@ -605,6 +609,20 @@
    "unit_created_at": null,
    "attempts": 11,
    "last_attempt_at": "2026-11-18T16:13:43Z"
+  },
+  {
+   "lead_id": 8233,
+   "employer": "Inviso Corporation",
+   "title": "Cloud Solution Architect",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "Built In (Inviso company job board)",
+   "winner_disposition_id": 19002,
+   "unit_id": 8887,
+   "unit_created_at": "2026-11-18T16:39:04Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-18T16:40:08Z"
   },
   {
    "lead_id": 476,
@@ -1074,11 +1092,11 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 171,
+  "attempted_today": 172,
   "filed_today": 0
  },
  "date": "2026-11-18",
@@ -4061,20 +4079,13 @@
     "time": "7:27 AM"
    }
   ],
-  "SheCanCode": [
+  "SheCanCode (Shell mirror)": [
    {
     "company": "Shell",
     "role": "Principal Enterprise Architect",
-    "reason": "non-US — Shell in The United Kingdom — full JD read on SheCanCode: the role is a UK Shell posting ('Shell UK remains one of the North Sea's biggest producers'), with only 'the possibility of remote/mobile working' in the UK; Hubert's hunt is 100% remote US only. workarounds tried: (1) employer's own JD text via SheCanCode mirror, Published 2026-11-16; (2) no US posting of this Principal Enterprise Architect role found; (3) no alternate US route found.",
-    "where": "SheCanCode",
-    "time": "5:55 AM"
-   },
-   {
-    "company": "Shell",
-    "role": "Principal Enterprise Architect (Global Lubricants / CRM)",
-    "reason": "not-remote — Shell in The United Kingdom — UK role, not US remote; workarounds tried: (1) full Shell JD read on SheCanCode mirror, Adzuna copy confirms London - Shell Centre",
-    "where": "SheCanCode",
-    "time": "12:30 AM"
+    "reason": "non-US — Shell in The United Kingdom — Shell UK remains one of the North Sea's biggest producers, supplying around 10% of the UK's total oil and gas needs. The role sits in Shell's UK organisation (London, Shell Centre per the mirror listing) — not a US role; Hubert's hunt is US-only. Full JD read on the SheCanCode mirror of Shell's posting.",
+    "where": "SheCanCode (Shell mirror)",
+    "time": "10:39 AM"
    }
   ],
   "bp careers": [
@@ -5502,6 +5513,15 @@
     "reason": "stale — The typical starting salary range for this role is: $107,500 — $170,100 USD",
     "where": "builtinnyc.com",
     "time": "9:21 AM"
+   }
+  ],
+  "AnitaB.org Job Board (Walmart mirror)": [
+   {
+    "company": "Walmart",
+    "role": "Distinguished, Software Engineer Solution Architect",
+    "reason": "pay-outside-band — Bentonville, Arkansas US-10467: The annual salary range for this position is $130,000.00-$260,000.00 — published top $260,000 is above the $230,000 ceiling (Sunnyvale range tops at $338,000). Primary Location: 2901 Se I Street, Ste Tbd, Bentonville, AR 72712-0000, United States of America — also a site-based role, not remote. Full JD read on the AnitaB.org job board carrying Walmart's own posting text.",
+    "where": "AnitaB.org Job Board (Walmart mirror)",
+    "time": "10:39 AM"
    }
   ],
   "Built In / Centene": [
@@ -8791,6 +8811,15 @@
     "time": "6:42 AM"
    }
   ],
+  "SheCanCode": [
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect (Global Lubricants / CRM)",
+    "reason": "not-remote — Shell in The United Kingdom — UK role, not US remote; workarounds tried: (1) full Shell JD read on SheCanCode mirror, Adzuna copy confirms London - Shell Centre",
+    "where": "SheCanCode",
+    "time": "12:30 AM"
+   }
+  ],
   "jobs.exxonmobil.com": [
    {
     "company": "ExxonMobil",
@@ -10600,5 +10629,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T16:38:36Z"
+ "lists_generated_at": "2026-11-18T16:40:43Z"
 }
