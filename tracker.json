@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T01:25:50Z",
+ "generated_at": "2026-11-18T01:28:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T01:25:09Z",
+  "last_activity_at": "2026-11-18T01:26:13Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 2,
   "parked": 219,
-  "rejected": 1106,
-  "evaluated": 1329
+  "rejected": 1107,
+  "evaluated": 1330
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1329,
+  "evaluated": 1330,
   "filed": 2,
   "parked": 219,
-  "rejected": 1106,
+  "rejected": 1107,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -45,9 +45,8 @@
  "searching_lanes": [
   "W1",
   "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
   "W17",
   "W18",
   "W19",
@@ -95,8 +94,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 140/30"
+   "heartbeat_at": "2026-11-18T01:28:31Z",
+   "detail": "Employers 145/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -106,44 +105,33 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 140/39"
+   "heartbeat_at": "2026-11-18T01:28:31Z",
+   "detail": "Employers 145/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 145/73"
+   "heartbeat_at": null,
+   "detail": "Employers 150/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 145/32"
+   "heartbeat_at": null,
+   "detail": "Employers 150/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 145/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -151,6 +139,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 150/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T01:28:31Z",
    "detail": "Employers 145/44"
   },
   "W9": {
@@ -233,12 +232,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T01:28:31Z",
    "detail": "Employers 145/59"
   },
   "W17": {
@@ -249,7 +248,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
+   "heartbeat_at": "2026-11-18T01:28:31Z",
    "detail": "Employers 140/54"
   },
   "W18": {
@@ -260,7 +259,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
+   "heartbeat_at": "2026-11-18T01:28:31Z",
    "detail": "Employers 140/45"
   },
   "W19": {
@@ -271,7 +270,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
+   "heartbeat_at": "2026-11-18T01:28:31Z",
    "detail": "Employers 140/41"
   },
   "W20": {
@@ -282,8 +281,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:25:50Z",
-   "detail": "Employers 135/31"
+   "heartbeat_at": "2026-11-18T01:28:31Z",
+   "detail": "Employers 140/31"
   }
  },
  "stages": {
@@ -313,7 +312,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "332 of 632 units done",
+   "detail": "338 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -555,7 +554,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:25 PM CT · 12 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:26 PM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 11 of 58 · Domain Architect",
@@ -3081,9 +3080,9 @@
    {
     "company": "Horizon Blue Cross Blue Shield of New Jersey",
     "role": "Enterprise Architect",
-    "reason": "not-remote — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware — workarounds tried: (1) employer's own posting text via Built In/DiversityJobs mirrors, (2) alternate routes for same req, (3) no alternate remote posting found; Hubert is Texas-based",
+    "reason": "stale — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware. Salary Range: $135,900 - $185,535. Posting published 2025-05-04, far outside the 7-day eligibility window with no repost.",
     "where": "Built In",
-    "time": "2:28 PM"
+    "time": "7:26 PM"
    },
    {
     "company": "Enbridge",
@@ -4422,9 +4421,9 @@
    {
     "company": "JetBlue",
     "role": "Enterprise Security Architect, Cloud Architect",
-    "reason": "pay-outside-band — The base pay range for this position is between $105,600.00 and $150,400.00 per year.",
+    "reason": "pay-outside-band — The base pay range for this position is between $105,600.00 and $150,400.00 per year. #LI-Hybrid. Position Title: Enterprise Security Architect, Cloud Architect, Long Island City, New York. Published top $150,400 is below the $160,000 band floor.",
     "where": "Adzuna",
-    "time": "2:03 PM"
+    "time": "7:26 PM"
    },
    {
     "company": "Albertsons",
@@ -5716,6 +5715,13 @@
     "time": "10:11 AM"
    },
    {
+    "company": "Booz Allen Hamilton",
+    "role": "Cloud Computing Infrastructure Architect",
+    "reason": "active-clearance — Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information; Secret clearance is required. You Have: Secret clearance. The projected compensation range for this position is $112,800.00 to $257,000.00.",
+    "where": "ClearanceJobs",
+    "time": "7:26 PM"
+   },
+   {
     "company": "Valiant Solutions",
     "role": "Senior Systems Architect",
     "reason": "cloud-mismatch — Design, integrate, and govern enterprise cloud architecture solutions on AWS GovCloud, with focus on EKS, ECS, and containerized environments. workarounds tried: (1) employer's own careers posting searched - no Azure/multi-cloud variant found, (2) alternate routes ClearanceJobs/Dice checked, (3) alternate posting of same role checked - AWS GovCloud core in all.",
@@ -6268,9 +6274,9 @@
    {
     "company": "Enbridge",
     "role": "Senior Specialist Enterprise Architect",
-    "reason": "not-remote — Enbridge's FlexWork (Hybrid Work Model) offers eligible employees the opportunity to work variable daily schedules with a flexible start or end time, to opt for a compressed workweek schedule or the option to work from home on Wednesdays and Fridays. workarounds tried: (1) Enbridge own careers posting checked, (2) alternate routes DiversityJobs/MediaBistro checked, (3) alternate Enbridge architect postings checked - all FlexWork hybrid.",
+    "reason": "closed — Posting End Date: March 22, 2026. Join our Strategy Planning team as a Senior Specialist Enterprise Architect, where you will shape enterprise-wide architecture and roadmaps across security, networks, application development, data & analytics, databases, and integration middleware. Posting end date has passed as of 2026-11-17.",
     "where": "DiversityJobs",
-    "time": "9:55 AM"
+    "time": "7:26 PM"
    },
    {
     "company": "ChampionX",
@@ -12915,5 +12921,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T01:25:50Z"
+ "lists_generated_at": "2026-11-18T01:28:31Z"
 }
