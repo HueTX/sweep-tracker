@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:11:31Z",
+ "generated_at": "2026-11-18T19:14:00Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:11:14Z",
+  "last_activity_at": "2026-11-18T19:12:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -39,7 +39,11 @@
   "rejected": 1021,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 265/73"
+   "heartbeat_at": "2026-11-18T19:14:00Z",
+   "detail": "Employers 275/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -121,24 +125,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 260/44"
+   "detail": "Employers 264/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 260/44"
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,46 +224,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 260/59"
+   "heartbeat_at": "2026-11-18T19:14:00Z",
+   "detail": "Employers 270/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 260/54"
+   "heartbeat_at": "2026-11-18T19:14:00Z",
+   "detail": "Employers 270/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 260/45"
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 244/41"
+   "detail": "Employers 246/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "555 of 632 units done",
+   "detail": "567 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -542,13 +546,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:11 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 1:12 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4022,9 +4032,9 @@
    {
     "company": "Fiserv",
     "role": "Solutions Architect",
-    "reason": "stale — This role is currently 100% Remote, Monday through Friday. | Published: 2026-02-10 | workarounds tried: (1) Fiserv posting text via BuiltIn full JD opened, (2) alternate Fiserv Cloud Solutions Architect posting checked - fully on-site, (3) no refreshed posting found",
+    "reason": "stale — Published: 2026-02-10 — workarounds tried: (1) employer's own ATS posting searched, no fresher version found, (2) alternate routes Built In / Fiserv careers searched, (3) no repost or refreshed posting of same role found",
     "where": "builtin.com",
-    "time": "8:52 AM"
+    "time": "1:12 PM"
    },
    {
     "company": "Marsh McLennan",
@@ -6873,9 +6883,9 @@
    {
     "company": "Johnson & Johnson",
     "role": "Principal Architect, MedTech Technology R&D Product Lifecycle Management",
-    "reason": "not-remote — We are searching for the best talent for a Principal Architect, MedTech Technology R&D Product Lifecycle Management to be located in Raritan, NJ, Belgium or the United Kingdom.",
+    "reason": "not-remote — We are searching for the best talent for a Principal Architect, MedTech Technology R&D Product Lifecycle Management to be located in Raritan, NJ, Belgium or the United Kingdom. #LI-Hybrid — workarounds tried: (1) this is the employer's own careers page, governing text, (2) alternate routes searched, no remote US version, (3) no alternate remote posting found",
     "where": "careers.jnj.com",
-    "time": "5:32 AM"
+    "time": "1:12 PM"
    }
   ],
   "Built In San Francisco": [
@@ -11584,5 +11594,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T19:11:31Z"
+ "lists_generated_at": "2026-11-18T19:14:00Z"
 }
