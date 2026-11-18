@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T00:54:22Z",
+ "generated_at": "2026-11-18T00:56:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T00:53:12Z",
+  "last_activity_at": "2026-11-18T00:56:36Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 220,
-  "rejected": 1080,
-  "evaluated": 1304
+  "parked": 222,
+  "rejected": 1083,
+  "evaluated": 1309
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1304,
+  "evaluated": 1309,
   "filed": 2,
-  "parked": 220,
-  "rejected": 1080,
+  "parked": 222,
+  "rejected": 1083,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,46 +80,46 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 110/30"
+   "heartbeat_at": null,
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 110/39"
+   "heartbeat_at": null,
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 110/73"
+   "heartbeat_at": null,
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 110/32"
+   "heartbeat_at": null,
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/44"
+   "detail": "Employers 115/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/44"
+   "detail": "Employers 115/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,7 +229,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/59"
+   "detail": "Employers 115/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,7 +240,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/54"
+   "detail": "Employers 115/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -258,29 +251,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/45"
+   "detail": "Employers 115/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 105/41"
+   "heartbeat_at": null,
+   "detail": "Employers 115/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T00:54:22Z",
-   "detail": "Employers 105/31"
+   "heartbeat_at": null,
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "260 of 632 units done",
+   "detail": "272 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:53 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W19"
-  }
- ],
+ "note": "Last activity 6:56 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2950,6 +2937,24 @@
     "where": "jobright.ai",
     "time": "6:47 PM"
    }
+  ],
+  "CareerBuilder (United Airlines mirror)": [
+   {
+    "company": "United Airlines",
+    "role": "Principal Architect - IT",
+    "reason": "title-not-covered — The Principal Architect will lead the architectural design and strategy for applications within the DT Tech Ops & Safety portfolio. In this role, you will collaborate with the United Airlines Enterprise team to ensure compliance with architectural standards.",
+    "where": "CareerBuilder (United Airlines mirror)",
+    "time": "6:54 PM"
+   }
+  ],
+  "Vaia / LinkedIn mirror (Cook County Government)": [
+   {
+    "company": "Cook County Government",
+    "role": "Technology and Infrastructure Architect - Bureau of Technology (Actively Recruited)",
+    "reason": "title-not-covered — Lead and support Enterprise Architecture (EA) activities that guide the development and management of technical and infrastructure solutions.",
+    "where": "Vaia / LinkedIn mirror (Cook County Government)",
+    "time": "6:54 PM"
+   }
   ]
  },
  "today_rejected": {
@@ -3571,13 +3576,6 @@
     "reason": "pay-outside-band — Base Pay Range $194,250 — $277,500 USD | workarounds tried: (1) employer's own posting text via Built In mirror, (2) alternate route via Built In NYC mirror of same role, (3) alternate Zscaler Specialist Solution Architect - ZT Cloud $195,000 — $243,750 USD also above band, no in-band alternate found",
     "where": "Built In",
     "time": "3:22 AM"
-   },
-   {
-    "company": "Nike",
-    "role": "Senior Principal, Solution Architect (Cloud & Engineering Excellence)",
-    "reason": "stale — Published: 2025-05-30 - The annual base salary for this position ranges from $166,100.00 in our lowest geographic market to $392,700.00 in our highest geographic market. workarounds tried: (1) Built In full JD checked; (2) no fresher repost of same role found; (3) no alternate posting found",
-    "where": "Built In",
-    "time": "1:32 PM"
    },
    {
     "company": "General Dynamics",
@@ -4477,13 +4475,6 @@
     "reason": "pay-outside-band — Salary Range: $137,400 - 233,600 USD. Northern Trust is seeking a visionary and highly experienced Principal Cloud Architect to lead the design, development, and implementation of scalable, secure, and resilient cloud solutions. workarounds tried: (1) employer's own Northern Trust posting text via Dice mirror opened in full; (2) alternate route Swooped carries the same Principal Cloud Architect posting with the same $137,400 - $233,600 range; (3) no alternate posting of this role with a different published range found.",
     "where": "dice.com",
     "time": "6:47 PM"
-   },
-   {
-    "company": "State Street",
-    "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
-    "reason": "cloud-mismatch — You will bring strong solution architecture expertise and practical experience in generative AI, agentic AI, AWS, Databricks, data platforms, and cloud-native application development.; Hands-on knowledge of AWS services, including Bedrock, S3, EC2, Lambda, API Gateway, IAM, and PostgreSQL-based platforms.; Deep architecture and engineering expertise, with the ability to translate strategy into working solutions through design, prototyping, hands-on coding, and technical leadership. AWS-first role with no Azure; also published 2026-10-15 (outside 7-day eligibility). Workarounds tried: (1) Dice full JD opened (employer JD reproduction, governing text available there), (2) wearedevelopers mirror same JD, (3) no Azure-inclusive alternate posting found.",
-    "where": "dice.com",
-    "time": "1:40 PM"
    },
    {
     "company": "Huntington Bancshares",
@@ -7665,6 +7656,15 @@
     "time": "1:59 AM"
    }
   ],
+  "Lululemon careers (employer's own page)": [
+   {
+    "company": "Lululemon",
+    "role": "Senior Technology Manager - Enterprise Cloud Platforms",
+    "reason": "not-remote — In-person collaboration and connection is important to our culture. Work is performed onsite, minimum 4 days per week. workarounds tried: (1) employer's own lululemon careers page (JobDetail 54322) is the governing text and states onsite minimum 4 days per week, (2) alternate routes via web search for this req - no alternate posting found, (3) no alternate fully remote posting of this role found",
+    "where": "Lululemon careers (employer's own page)",
+    "time": "6:54 PM"
+   }
+  ],
   "careers.outforundergrad.org (United Airlines JD mirror)": [
    {
     "company": "United Airlines",
@@ -7681,6 +7681,15 @@
     "reason": "pay-outside-band — The base salary for this position is expected to be between $136,500 and $300,000 per year at the commencement of employment. This role is located in New York City. workarounds tried: (1) employer's own careers text as syndicated carries the same $136,500-$300,000 range; (2) alternate routes DiversityJobs and MetroPhoenixJob full JDs, same range; (3) no alternate posting of the same role with a different published range found.",
     "where": "DiversityJobs (BNY mirror)",
     "time": "9:36 AM"
+   }
+  ],
+  "Ladders (Danaher mirror)": [
+   {
+    "company": "Danaher",
+    "role": "IT Enterprise Architect",
+    "reason": "not-remote — This position reports to VP, Business Transformation and IT and is part of the IT Organization located in Coralville, IA or Fargo, ND and will be on-site in either of these two locations. workarounds tried: (1) employer's own Danaher posting text mirrored verbatim on Built In and Ladders with the same on-site Coralville/Fargo requirement, (2) alternate route via Ladders mirror - same on-site terms, (3) no alternate fully remote posting of this role found",
+    "where": "Ladders (Danaher mirror)",
+    "time": "6:56 PM"
    }
   ],
   "jobspider.com": [
@@ -8498,6 +8507,15 @@
     "time": "6:37 PM"
    }
   ],
+  "Dice (State Street mirror)": [
+   {
+    "company": "State Street",
+    "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
+    "reason": "stale — Lead the end-to-end architecture and design of enterprise AI, cloud, data, and application solutions.",
+    "where": "Dice (State Street mirror)",
+    "time": "6:56 PM"
+   }
+  ],
   "mediabistro.com": [
    {
     "company": "Huntington Bancshares",
@@ -9053,6 +9071,15 @@
     "time": "1:09 PM"
    }
   ],
+  "Built In (Consolidated Edison mirror)": [
+   {
+    "company": "Consolidated Edison",
+    "role": "AI Solutions Architect - Power Platform & Copilot Studio",
+    "reason": "stale — The Center of Excellence AI Solutions Architect Power Platform & Copilot Studio, designs, governs, and enables the delivery of secure, scalable AI assistants and agentic workflows across strategic low code/no code enterprise platforms: Microsoft Copilot Studio and Google Gemini Enterprise.",
+    "where": "Built In (Consolidated Edison mirror)",
+    "time": "6:56 PM"
+   }
+  ],
   "State Street careers (employer's own page)": [
    {
     "company": "State Street",
@@ -9071,13 +9098,13 @@
     "time": "9:36 AM"
    }
   ],
-  "app.qureos.com": [
+  "Qureos (Baylor Scott & White Health mirror)": [
    {
     "company": "Baylor Scott & White Health",
     "role": "Cloud Enterprise Architect",
-    "reason": "stale — Published: 2026-04-02 | workarounds tried: (1) Baylor posting text via Qureos checked - page states Job expired, posted 8 months ago, (2) alternate routes searched, (3) alternate Baylor architect postings checked - Senior Enterprise Infrastructure Architect summary only, no fresh full JD",
-    "where": "app.qureos.com",
-    "time": "1:27 PM"
+    "reason": "stale — The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions that are secure, scalable, and highly available. Qureos mirror states: Posted 8 months ago - Job expired",
+    "where": "Qureos (Baylor Scott & White Health mirror)",
+    "time": "6:54 PM"
    }
   ],
   "Simplify (Kimberly-Clark careers mirror)": [
@@ -10111,6 +10138,15 @@
     "reason": "pay-outside-band — The pay range for this position is between $250,000.00 - $350,000.00. workarounds tried: employer's own posting range confirmed via Remotive mirror of Home Depot posting.",
     "where": "Remotive mirror of Home Depot posting",
     "time": "1:04 AM"
+   }
+  ],
+  "Built In (Nike mirror)": [
+   {
+    "company": "Nike",
+    "role": "Senior Principal, Solution Architect (Cloud & Engineering Excellence)",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $166,100.00 in our lowest geographic market to $392,700.00 in our highest geographic market. workarounds tried: (1) employer's own Nike posting text mirrored verbatim on Built In with the same range (top $392,700 above the $230,000 band top), (2) alternate routes via web search for this role - no alternate posting with a different range found, (3) no alternate posting of this role with an in-band range found",
+    "where": "Built In (Nike mirror)",
+    "time": "6:56 PM"
    }
   ],
   "Dominion Energy careers": [
@@ -12711,5 +12747,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T00:54:22Z"
+ "lists_generated_at": "2026-11-18T00:56:44Z"
 }
