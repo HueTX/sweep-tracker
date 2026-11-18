@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T08:27:33Z",
+ "generated_at": "2026-11-18T08:29:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T08:27:03Z",
+  "last_activity_at": "2026-11-18T08:27:41Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,20 +27,20 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 48,
-  "rejected": 320,
-  "evaluated": 368
+  "parked": 51,
+  "rejected": 321,
+  "evaluated": 372
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 368,
+  "evaluated": 372,
   "filed": 0,
-  "parked": 48,
-  "rejected": 320,
+  "parked": 51,
+  "rejected": 321,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
+  "W5",
   "W6",
   "W16",
   "W17",
@@ -106,13 +106,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 240/73"
+   "heartbeat_at": null,
+   "detail": "Employers 245/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,12 +128,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T08:29:08Z",
    "detail": "Employers 240/44"
   },
   "W6": {
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 235/44"
+   "heartbeat_at": "2026-11-18T08:29:08Z",
+   "detail": "Employers 240/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 235/59"
+   "heartbeat_at": "2026-11-18T08:29:08Z",
+   "detail": "Employers 240/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,8 +243,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 235/54"
+   "heartbeat_at": "2026-11-18T08:29:08Z",
+   "detail": "Employers 240/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 235/45"
+   "heartbeat_at": "2026-11-18T08:29:08Z",
+   "detail": "Employers 240/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T08:27:33Z",
-   "detail": "Employers 235/41"
+   "heartbeat_at": "2026-11-18T08:29:08Z",
+   "detail": "Employers 240/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "519 of 632 units done",
+   "detail": "525 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -552,15 +552,15 @@
  "note": "Last activity 2:27 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W5 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W5"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W5",
+  "headline": "W5 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1274,6 +1274,15 @@
     "time": "1:40 AM"
    }
   ],
+  "Built In / Ladders - Pfizer": [
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "title-not-covered — We are seeking a Senior Cloud Engineering Lead to join our growing team in New York. This role requires a strategic technical leader proficient in multi-cloud environments with a strong emphasis on security, automation, and infrastructure as code.",
+    "where": "Built In / Ladders - Pfizer",
+    "time": "2:27 AM"
+   }
+  ],
   "UnitedHealth Group careers": [
    {
     "company": "UnitedHealth Group / Optum",
@@ -1362,6 +1371,15 @@
     "reason": "title-not-covered — The role follows our SuccessFlex model, which includes three remote workdays and two in-office days per week for team collaboration.",
     "where": "careers.nationwide.com",
     "time": "2:11 AM"
+   }
+  ],
+  "careers.jnj.com (employer own page)": [
+   {
+    "company": "Johnson & Johnson",
+    "role": "Principal Architect, MedTech Technology R&D Product Lifecycle Management",
+    "reason": "title-not-covered — You will shape the future of R&D PLM architecture across MedTech, helping define how PLM capabilities, engineering systems, lifecycle data, and connected enterprise processes should evolve.",
+    "where": "careers.jnj.com (employer own page)",
+    "time": "2:27 AM"
    }
   ],
   "Recruit.net / RemoteRocketship snippets only": [
@@ -1470,6 +1488,15 @@
     "reason": "not-evaluated — Employer's own careers page (Eightfold) did not render the JD body in text fetch; full JD could not be read, so not evaluated. Search listing shows Job ID 3063253, San Diego.",
     "where": "Qualcomm careers",
     "time": "1:25 AM"
+   }
+  ],
+  "careers.epam.com (employer own page)": [
+   {
+    "company": "EPAM Systems",
+    "role": "Solution Architect (AWS)",
+    "reason": "title-not-covered — We are looking for a highly skilled and visionary Solution Architect specializing in AWS Cloud, who will play a key role in designing, delivering, and advocating innovative cloud solutions for global clients.",
+    "where": "careers.epam.com (employer own page)",
+    "time": "2:27 AM"
    }
   ]
  },
@@ -4059,6 +4086,15 @@
     "where": "BuiltIn/Career.io",
     "time": "2:23 AM"
    }
+  ],
+  "Built In - The Hartford": [
+   {
+    "company": "The Hartford",
+    "role": "IT Business Architect - Insurance Claims & Operations",
+    "reason": "not-remote — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday). workarounds tried: (1) Hartford JD text via Built In, (2) alternate routes Career.io and The Muse for the same BS07GE req - all reproduce the same hybrid schedule, (3) no alternate remote posting of the same role found",
+    "where": "Built In - The Hartford",
+    "time": "2:27 AM"
+   }
   ]
  },
  "lane_companies": {
@@ -5238,5 +5274,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T08:27:33Z"
+ "lists_generated_at": "2026-11-18T08:29:08Z"
 }
