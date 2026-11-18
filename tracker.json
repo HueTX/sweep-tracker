@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:11:03Z",
+ "generated_at": "2026-11-18T11:12:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:08:38Z",
+  "last_activity_at": "2026-11-18T11:11:43Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 84,
-  "rejected": 562,
+  "parked": 83,
+  "rejected": 563,
   "evaluated": 646
  },
  "today": {
   "date": "2026-11-18",
   "evaluated": 646,
   "filed": 0,
-  "parked": 84,
-  "rejected": 562,
+  "parked": 83,
+  "rejected": 563,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -106,46 +99,46 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 200/73"
+   "heartbeat_at": null,
+   "detail": "Employers 205/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 188/32"
+   "heartbeat_at": null,
+   "detail": "Employers 190/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 200/44"
+   "heartbeat_at": null,
+   "detail": "Employers 205/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 200/44"
+   "heartbeat_at": null,
+   "detail": "Employers 205/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 200/59"
+   "heartbeat_at": null,
+   "detail": "Employers 205/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:11:03Z",
-   "detail": "Employers 200/54"
+   "heartbeat_at": null,
+   "detail": "Employers 205/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "457 of 632 units done",
+   "detail": "463 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:08 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 5:11 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1376,15 +1363,6 @@
     "reason": "title-not-covered — We are seeking a Principal AI Security Architect to help define and operationalize the security architecture, governance patterns, and technology guardrails that support enterprise AI platforms, agentic systems, digital coworkers, and emerging technologies.",
     "where": "JobBoardSearch",
     "time": "4:20 AM"
-   }
-  ],
-  "hiring.jhu.edu": [
-   {
-    "company": "Johns Hopkins University",
-    "role": "Enterprise Web and DevOps Architect (IT@JH Cloud & Virtualization Services)",
-    "reason": "title-not-covered — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security. The candidate must possess a strong background in workload containerization, infrastructure and application security, server deployment/management, automated scripting, web programming languages, web site tooling, database architecture, and DevOps/SecOps/CI/CD toolsets.",
-    "where": "hiring.jhu.edu",
-    "time": "2:12 AM"
    }
   ],
   "Monster": [
@@ -2814,13 +2792,13 @@
     "time": "12:37 AM"
    }
   ],
-  "jobs.lincolnfinancial.com": [
+  "Lincoln Financial careers (employer's own)": [
    {
     "company": "Lincoln Financial",
     "role": "Lead Enterprise Architect",
-    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office. workarounds tried: (1) employer own ATS posting is the source read (governing text), (2) alternate surfaces confirm same hybrid arrangement, (3) no alternate remote posting of same req found.",
-    "where": "jobs.lincolnfinancial.com",
-    "time": "2:11 AM"
+    "reason": "not-remote — Hybrid : Employee will work 3 days a week in a Lincoln office. workarounds tried: (1) employer's own ATS posting (governing text) - hybrid stated there; (2) alternate route search mirrors same Lincoln posting; (3) no alternate remote posting of req 76261 found.",
+    "where": "Lincoln Financial careers (employer's own)",
+    "time": "5:11 AM"
    }
   ],
   "Vaia / Talents (Lincoln Financial mirror)": [
@@ -4758,6 +4736,15 @@
     "reason": "not-remote — The office for this position is located at the Harry S. Truman State Office Building, 301 W High Street, Jefferson City, MO. 65101.",
     "where": "Career.io (State of Missouri)",
     "time": "2:08 AM"
+   }
+  ],
+  "Ladders mirror of Johns Hopkins University hiring page": [
+   {
+    "company": "Johns Hopkins University",
+    "role": "Enterprise Web and DevOps Architect (IT@JH Cloud & Virtualization Services)",
+    "reason": "iac — The candidate will build automation/ infrastructure as code within CI/CD Pipelines to enforce cloud infrastructure security. Microsoft Azure and/or Amazon Web Services cloud management and administration including environment provisioning, configuration, performance monitoring and information security. Set up a highly automated, easy-to-use Dev/SecOps pipelines to meet necessary compliance requirements. workarounds tried: (1) employer's own page hiring.jhu.edu req 122909 - same remote modality, $119,515-$209,100 range and provisioning duties in its snippet; (2) alternate route Ladders/Chronicle mirrors - same JD; (3) no alternate posting of same role with architect-only duties found.",
+    "where": "Ladders mirror of Johns Hopkins University hiring page",
+    "time": "5:11 AM"
    }
   ],
   "jobs.lear.com": [
@@ -7513,5 +7500,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T11:11:03Z"
+ "lists_generated_at": "2026-11-18T11:12:10Z"
 }
