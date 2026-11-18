@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T20:46:21Z",
+ "generated_at": "2026-11-18T20:48:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T20:44:45Z",
+  "last_activity_at": "2026-11-18T20:48:04Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 179,
-  "rejected": 1091,
-  "evaluated": 1270
+  "rejected": 1092,
+  "evaluated": 1271
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1270,
+  "evaluated": 1271,
   "filed": 0,
   "parked": 179,
-  "rejected": 1091,
+  "rejected": 1092,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -84,60 +84,49 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 65/30"
+   "heartbeat_at": null,
+   "detail": "Employers 70/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 65/39"
+   "heartbeat_at": null,
+   "detail": "Employers 70/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 65/73"
+   "heartbeat_at": null,
+   "detail": "Employers 70/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 65/32"
+   "heartbeat_at": null,
+   "detail": "Employers 70/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 65/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -145,6 +134,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 70/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T20:48:28Z",
    "detail": "Employers 65/44"
   },
   "W9": {
@@ -227,45 +227,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T20:48:28Z",
    "detail": "Employers 65/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T20:48:28Z",
    "detail": "Employers 65/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T20:48:28Z",
    "detail": "Employers 65/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T20:48:28Z",
    "detail": "Employers 65/41"
   },
   "W20": {
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T20:46:21Z",
-   "detail": "Employers 60/31"
+   "heartbeat_at": "2026-11-18T20:48:28Z",
+   "detail": "Employers 65/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "162 of 632 units done",
+   "detail": "168 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:44 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:48 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 11 of 58 · Domain Architect",
+   "primary": "W6 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 11 of 58 · Domain Architect",
+  "label": "W6",
+  "headline": "W6 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1211,6 +1211,13 @@
     "reason": "stale-unverified — Full-Time Updated 1 year ago; The Cloud Architect drives development of the overall application, data, and infrastructure blueprints and standards in relation to cloud technologies.; At least 3+ years experience in public cloud technology operations (2 years of that must be in Microsoft Azure); no typed posting date available on the posting - stale verdict unverified",
     "where": "Simplify",
     "time": "4:56 AM"
+   },
+   {
+    "company": "Advocate Health / Atrium Health",
+    "role": "IT Technical Architect-Cloud & Virtualization",
+    "reason": "stale-unverified — Cloud Engineering Posted on Jul 14 — the Simplify posting of this Advocate Health / Atrium Health role gives only 'Jul 14' with no year or complete date on the page read, so no typed posted_date exists for a stale verdict; parked stale-unverified rather than guessed. Full JD read on Simplify: remote in USA, virtualization/cloud design duties.",
+    "where": "Simplify",
+    "time": "2:48 PM"
    },
    {
     "company": "Stanley Black & Decker",
@@ -1978,15 +1985,6 @@
     "time": "1:01 PM"
    }
   ],
-  "USAJOBS (SSA)": [
-   {
-    "company": "SSA",
-    "role": "Cloud/Infrastructure Engineer - DHA",
-    "reason": "title-not-covered — Fly title: posting name 'Cloud/Infrastructure Engineer - DHA' (IT Specialist (Network), GS-14, SSA) matches no listed title family in this unit (Domain/Resiliency/IT-OT/Cloud Transformation/Principal Cloud Engineer/Principal Infrastructure Engineer/Cloud Architecture Lead families). Duties include merging hybrid cloud technologies incorporating on-premises and public cloud infrastructure and developing enterprise standards for cloud infrastructures. Parked for title coverage, not rejected for its title.",
-    "where": "USAJOBS (SSA)",
-    "time": "3:56 AM"
-   }
-  ],
   "MilwaukeeJobs / Career.io mirrors": [
    {
     "company": "BioMarin",
@@ -2616,13 +2614,6 @@
     "reason": "not-remote — Hybrid Hybrid role requiring at least 3 days per week in the Tampa office. Workarounds tried: (1) MetLife posting via Simplify full summary — hybrid Tampa terms; (2) alternate surfaces show same role, no remote variant; (3) no fully-remote alternate posting found. Families searched on W16 for Franklin Templeton, Prudential Financial, MetLife, Aflac, Principal Financial: Cloud Engineering Lead, Platform Engineering Lead, Cloud Transformation Lead, Technology Strategy Lead, Enterprise Technology Lead, Infrastructure Strategy Lead, Cloud Practice Lead, Cloud Center of Excellence Lead, Cloud Enablement Lead, Cloud Adoption Lead — no other fresh fully-remote leads.",
     "where": "Simplify Jobs",
     "time": "12:28 PM"
-   },
-   {
-    "company": "Advocate Health / Atrium Health",
-    "role": "IT Technical Architect-Cloud & Virtualization",
-    "reason": "pay-outside-band — Pay Range: $47.50 - $71.25",
-    "where": "Simplify Jobs",
-    "time": "11:15 AM"
    },
    {
     "company": "Sutter Health",
@@ -3963,13 +3954,6 @@
     "reason": "experience-mismatch — We are seeking a strategic and innovative Application Architect to play a key role in advancing our Payment Integrity Product portfolio. — core is claims/payment-integrity product architecture; workarounds tried: (1) full JD read on Built In mirror",
     "where": "Built In",
     "time": "12:37 AM"
-   },
-   {
-    "company": "Ryder System",
-    "role": "Solutions Architect",
-    "reason": "pay-outside-band — Minimum Pay Range : $105,000.00 Maximum Pay Range : $125,000.00 workarounds tried: (1) Built In full JD read, (2) Monster and Jobgether alternate listings carried the same $105,000-$125,000 range, (3) no alternate posting of same role with an in-band range found",
-    "where": "Built In",
-    "time": "11:11 AM"
    },
    {
     "company": "NVIDIA",
@@ -6294,6 +6278,13 @@
     "reason": "pay-outside-band — Pay Range: $91,500 - $126,000 | workarounds tried: (1) employer own careers search, (2) Swooped alternate route (this full JD), (3) alternate posting search - no posting with a different published range found",
     "where": "Swooped",
     "time": "1:30 AM"
+   },
+   {
+    "company": "Ryder System",
+    "role": "Cloud Architect",
+    "reason": "pay-outside-band — Minimum Pay Range: $130,000.00 Maximum Pay Range: $150,000.00 — published top $150,000 is below the $160,000 band floor. Full JD read on Swooped (Ryder Supply Chain Solutions). Workarounds tried: (1) JD directs applicants to Ryder's own careers at www.ryder.com/careers with the same compensation ranges, (2) alternate mirrors carry the same $130k-$150k range, (3) no alternate posting of this role in band found. Undated on the mirror and live there, verdicted on merits.",
+    "where": "Swooped",
+    "time": "2:48 PM"
    }
   ],
   "MDU Resources": [
@@ -6660,6 +6651,13 @@
     "time": "11:10 AM"
    },
    {
+    "company": "Ryder System",
+    "role": "Solutions Architect",
+    "reason": "pay-outside-band — Minimum Pay Range: $105,000.00 Maximum Pay Range: $125,000.00 — published top $125,000 is below the $160,000 band floor. Full JD read on Jobgether (Ryder careers-sourced). Workarounds tried: (1) employer's own careers route is named in the JD (www.ryder.com/careers) with the same ranges in mirrors, (2) alternate routes RemoteRocketship and Monster carry the same $105k-$125k posting first seen October 22 and still open, (3) no alternate posting of this role in band found.",
+    "where": "Jobgether",
+    "time": "2:48 PM"
+   },
+   {
     "company": "Sentara Health Plans",
     "role": "PRINCIPAL ENTERPRISE ARCHITECT - Clinical Systems",
     "reason": "stale — The Principal Enterprise Architect provides strategic and technical leadership in the development and evolution of enterprise architecture frameworks that align information systems, infrastructure, and applications with business processes and data.",
@@ -6695,6 +6693,13 @@
     "reason": "stale — This announcement is open to current employees of the Administrative Office of the U.S. Courts only. — Published: 04/09/2025 on USAJOBS (the employer's own federal portal, governing text). Posting date 2025-04-09 is far outside the 7-day eligibility window; also internal-only for an applicant who has never been a US government employee, and the JD seeks 'development expertise in multiple languages and platforms'.",
     "where": "USAJOBS",
     "time": "10:19 AM"
+   },
+   {
+    "company": "SSA",
+    "role": "Cloud/Infrastructure Engineer - DHA",
+    "reason": "stale — Published: 03/09/2026 — on USAJOBS (the employer's own federal portal, governing text). Posting date 2026-03-09 is far outside the 7-day eligibility window. The announcement is for IT Specialist (Network) Cloud/Infrastructure Engineer positions at SSA, with duties including 'Merging hybrid cloud technologies incorporating on-premises and public cloud infrastructure.'",
+    "where": "USAJOBS",
+    "time": "2:48 PM"
    },
    {
     "company": "Centers for Medicare & Medicaid Services (CMS)",
@@ -6850,13 +6855,6 @@
    },
    {
     "company": "Ryder System",
-    "role": "Cloud Architect",
-    "reason": "pay-outside-band — Minimum Pay Range : $130,000.00 Maximum Pay Range : $150,000.00 — workarounds tried: (1) Built In full JD read for Ryder Supply Chain Solutions; (2) no alternate posting of this Cloud Architect role with different pay found; (3) role also requires Ten (10) years or more in software development, software engineering, and platform architecture",
-    "where": "Built In NYC",
-    "time": "6:46 AM"
-   },
-   {
-    "company": "Ryder System",
     "role": "Systems Engineering Architect",
     "reason": "pay-outside-band — Minimum Pay Range : $130,000.00 Maximum Pay Range : $150,000.00. workarounds tried: (1) full JD mirror on Built In NYC carrying Ryder's own compensation text, (2) alternate Ryder routes on Jobgether/RemoteRocketship show only lower $105,000-$125,000 Solutions Architect range, (3) no alternate posting of this role with in-band pay found.",
     "where": "Built In NYC",
@@ -6993,13 +6991,13 @@
     "time": "10:37 AM"
    }
   ],
-  "talentally.com": [
+  "Talentally": [
    {
     "company": "CareFirst",
     "role": "Senior Domain Architect (Remote)",
-    "reason": "pay-outside-band — Salary Range: $122,040 - $242,385. workarounds tried: employer's own careers site referenced in posting (www.carefirst.com/careers), alternate mirror routes checked - same published range, top above $230,000",
-    "where": "talentally.com",
-    "time": "6:50 AM"
+    "reason": "pay-outside-band — Salary Range: $122,040 - $242,385 — published top $242,385 is above the $230,000 ceiling. Full JD read on Talentally carrying CareFirst's own Resp & Qualifications text. Workarounds tried: (1) CareFirst's own careers route is named in the JD (www.carefirst.com/careers) with the same range in mirrors, (2) alternate surfaces carry the same $122,040-$242,385 range, (3) no alternate posting of this role in band found.",
+    "where": "Talentally",
+    "time": "2:48 PM"
    }
   ],
   "Out for Undergrad Job Board": [
@@ -7946,13 +7944,13 @@
     "time": "3:56 AM"
    }
   ],
-  "Sutter Health jobs (employer own)": [
+  "Sutter Health Careers (employer page)": [
    {
     "company": "Sutter Health",
     "role": "Epic Solutions Architect III",
-    "reason": "closed — We're Sorry, This Job Is Inactive — This opportunity has passed, but your future hasn't. New positions open regularly. (employer's own jobs.sutterhealth.org page for Epic Solutions Architect III, R-144466)",
-    "where": "Sutter Health jobs (employer own)",
-    "time": "4:12 AM"
+    "reason": "closed — We're Sorry, This Job Is Inactive — This opportunity has passed, but your future hasn't. On Sutter Health's own jobs page (governing text); no live Apply path on the employer's own detail page is a gate fact under the freshness law.",
+    "where": "Sutter Health Careers (employer page)",
+    "time": "2:48 PM"
    }
   ],
   "HPE Workday careers": [
@@ -9056,6 +9054,15 @@
     "reason": "not-remote — Work Arrangement:06-Onsite 4/5 Days. The salary/hourly range is $149,400.00 – $193,644.00. workarounds tried: (1) employer's own careers page (careers.amtrak.com, governing text, quoted) — the posting title says Remote but its own work-arrangement field requires onsite 4/5 days; (2) alternate route — same req 166748 only; (3) alternate posting of the same role — none found.",
     "where": "Amtrak Careers",
     "time": "2:59 AM"
+   }
+  ],
+  "GovernmentJobs.com / NEOGOV (Virginia portal)": [
+   {
+    "company": "City of Alexandria",
+    "role": "Cloud Architect Engineer",
+    "reason": "not-remote — REMOTE EMPLOYMENT, Flexible/Hybrid, JOB NUMBER, 2027-00559 — the Virginia portal posting is Flexible/Hybrid in Alexandria, VA, not 100% remote, and its CLOSING DATE was 10/11/2026 11:59 PM Eastern. Salary also $82,050.02 - $144,390.48 Annually, top below band. Verdicted on the state's own GovernmentJobs/NEOGOV bulletin (governing text, workaround step 1).",
+    "where": "GovernmentJobs.com / NEOGOV (Virginia portal)",
+    "time": "2:48 PM"
    }
   ],
   "Vaia / Workiva": [
@@ -12458,5 +12465,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T20:46:21Z"
+ "lists_generated_at": "2026-11-18T20:48:28Z"
 }
