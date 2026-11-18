@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:14:30Z",
+ "generated_at": "2026-11-18T03:16:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -15,28 +15,28 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:13:49Z",
+  "last_activity_at": "2026-11-18T03:16:06Z",
   "progress": {
    "pools": 21,
-   "covered_units": 206,
+   "covered_units": 248,
    "total_units": 754,
-   "pct": 27
+   "pct": 33
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 2,
-  "parked": 226,
-  "rejected": 1185,
-  "evaluated": 1415
+  "parked": 225,
+  "rejected": 1187,
+  "evaluated": 1416
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1415,
+  "evaluated": 1416,
   "filed": 2,
-  "parked": 226,
-  "rejected": 1185,
+  "parked": 225,
+  "rejected": 1187,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
@@ -44,9 +44,9 @@
  },
  "searching_lanes": [
   "W7",
-  "W3",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -79,7 +79,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -107,38 +107,27 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/73"
+   "heartbeat_at": null,
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T03:14:30Z",
-   "detail": "Employers 5/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -146,6 +135,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/44"
   },
   "W9": {
@@ -228,23 +228,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T03:16:16Z",
    "detail": "Employers 5/54"
   },
   "W18": {
@@ -308,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "26 of 632 units done",
+   "detail": "31 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -550,18 +550,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:13 PM CT · 5 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:16 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
+   "primary": "W7 · Title 49 of 58 · Enterprise Solutions Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W7"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
+  "label": "W7",
+  "headline": "W7 · Title 49 of 58 · Enterprise Solutions Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
