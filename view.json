@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T06:03:09Z",
+ "generated_at": "2026-11-18T06:04:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T06:02:06Z",
+  "last_activity_at": "2026-11-18T06:03:36Z",
   "progress": {
    "pools": 21,
-   "covered_units": 80,
+   "covered_units": 128,
    "total_units": 754,
-   "pct": 11
+   "pct": 17
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 23,
-  "rejected": 10,
-  "evaluated": 33
+  "rejected": 13,
+  "evaluated": 36
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 33,
+  "evaluated": 36,
   "filed": 0,
   "parked": 23,
-  "rejected": 10,
+  "rejected": 13,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W6",
-  "W16",
-  "W17"
+  "W7",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -65,18 +66,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:03:09Z",
+   "heartbeat_at": "2026-11-18T06:04:44Z",
    "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:04:44Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -137,13 +138,13 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:03:09Z",
-   "detail": "Employers 0/44"
+   "heartbeat_at": null,
+   "detail": "Employers 5/44"
   },
   "W9": {
    "label": "Dice",
@@ -225,56 +226,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T06:03:09Z",
-   "detail": "Employers 0/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T06:03:09Z",
-   "detail": "Employers 0/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T06:04:44Z",
    "detail": "Employers 0/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:04:44Z",
    "detail": "Employers 0/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:04:44Z",
    "detail": "Employers 0/31"
   }
  },
@@ -305,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "10 of 632 units done",
+   "detail": "16 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -547,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:02 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:03 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 1 of 58 · Azure Architect",
+   "primary": "W18 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 1 of 58 · Azure Architect",
+  "label": "W18",
+  "headline": "W18 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
