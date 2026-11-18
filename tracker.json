@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:22:59Z",
+ "generated_at": "2026-11-18T19:25:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:21:36Z",
+  "last_activity_at": "2026-11-18T19:25:37Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 141,
-  "rejected": 1033,
-  "evaluated": 1175
+  "rejected": 1035,
+  "evaluated": 1176
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1175,
+  "evaluated": 1176,
   "filed": 0,
   "parked": 141,
-  "rejected": 1033,
+  "rejected": 1035,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W3",
-  "W16",
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +99,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:22:59Z",
-   "detail": "Employers 300/73"
+   "heartbeat_at": null,
+   "detail": "Employers 330/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -224,24 +220,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:22:59Z",
-   "detail": "Employers 300/59"
+   "heartbeat_at": null,
+   "detail": "Employers 330/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:22:59Z",
-   "detail": "Employers 300/54"
+   "heartbeat_at": null,
+   "detail": "Employers 320/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "584 of 632 units done",
+   "detail": "601 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -546,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:21 PM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 1:25 PM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -576,20 +566,6 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "filer_queue": [
-  {
-   "lead_id": 591,
-   "employer": "Amgen",
-   "title": "Principal IS Architect",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Amgen Workday careers (employer's own ATS)",
-   "winner_disposition_id": 19331,
-   "unit_id": 8898,
-   "unit_created_at": "2026-11-18T19:20:26Z",
-   "attempts": 1,
-   "last_attempt_at": "2026-11-18T19:21:28Z"
-  },
   {
    "lead_id": 5499,
    "employer": "Blue Cross Blue Shield of North Carolina",
@@ -3443,13 +3419,6 @@
     "time": "5:04 AM"
    },
    {
-    "company": "Akamai",
-    "role": "Principal Enterprise Architect - Remote",
-    "reason": "pay-outside-band — For US based candidates only - the base salary for this position ranges from $159,600 - $287,400/year — top $287,400 is above the $230,000 ceiling. Workarounds tried: (1) full JD on Built In, (2) Built In NYC, DailyRemote, Haystack and Levels.fyi mirrors all show the same $159,600-$287,400 range, (3) no alternate posting with a different range.",
-    "where": "Built In",
-    "time": "9:16 AM"
-   },
-   {
     "company": "MongoDB",
     "role": "Senior Solutions Architect",
     "reason": "non-US — This role will be based remotely in Switzerland. Req ID: 427004. Published: 2026-11-05 — US-only hunt; this posting is Switzerland-based.",
@@ -3539,13 +3508,6 @@
     "reason": "pay-outside-band — United States of America: Annual Salary USD 161,000 - 378,000 in Alabama & Georgia & Mississippi & South Carolina & Tennessee workarounds tried: Built In full JD mirror of HPE posting",
     "where": "Built In",
     "time": "12:51 AM"
-   },
-   {
-    "company": "Akamai",
-    "role": "Principal Architect",
-    "reason": "pay-outside-band — For US based candidates only - the base salary for this position ranges from $200,000 - $360,000/year — top $360,000 is above the $230,000 ceiling. Workarounds tried: (1) full JD on Built In, (2) RemoteJobsFinder mirror shows the same $200,000-$360,000 range, (3) no alternate posting with a different range.",
-    "where": "Built In",
-    "time": "9:16 AM"
    },
    {
     "company": "Workday",
@@ -3693,13 +3655,6 @@
     "reason": "hands-on-coding — Strong programming skills in Python, Java, or Go, sufficient to build working prototypes. Hands-on experience designing and building LLM-based applications, AI agents, or agentic workflows. Workarounds tried: (1) employer's own posting via Built In full JD (governing text), (2) alternate mirrors carry the same programming requirement, (3) no alternate posting without the hands-on programming core.",
     "where": "Built In",
     "time": "9:15 AM"
-   },
-   {
-    "company": "Raymond James",
-    "role": "Principal Engineer, Technology",
-    "reason": "not-remote — This position will follow our hybrid work model, we expect the selected candidate to be in office 3 days a week at one of the following office locations: St. Petersburg, FL; Workarounds tried: (1) full JD on Built In (employer mirror), (2) alternate mirrors carry the same hybrid text, (3) no alternate fully-remote posting of this role.",
-    "where": "Built In",
-    "time": "9:16 AM"
    },
    {
     "company": "JPMorganChase",
@@ -4079,6 +4034,13 @@
     "time": "9:22 AM"
    },
    {
+    "company": "Roche / Genentech",
+    "role": "Research & Early Development Enterprise Architect",
+    "reason": "not-remote — Onsite presence, on our South San Francisco campus, is expected for at least 3 days a week. The expected salary range for this position based on the primary location of South San Francisco, California is $189,300 - $351,500 (Senior Principal Engineer) and $217,400 - $403,700 (Enterprise Architect). workarounds tried: (1) BuiltIn full JD (this page), (2) Mediabistro mirror with same onsite text, (3) no remote alternate posting found",
+    "where": "builtin.com",
+    "time": "1:24 PM"
+   },
+   {
     "company": "Medtronic",
     "role": "Senior Principal IT Enterprise Architect - Infrastructure and Security",
     "reason": "closed — We anticipate the application window for this opening will close on - 31 Oct 2026",
@@ -4240,6 +4202,13 @@
     "time": "1:21 PM"
    },
    {
+    "company": "Akamai",
+    "role": "Principal Enterprise Architect - Remote",
+    "reason": "pay-outside-band — the base salary for this position ranges from $159,600 - $287,400/year. workarounds tried: (1) BuiltIn full JD (this page), (2) Haystack mirror with same $159.6k - $287.4k range, (3) no alternate posting with a different published range found",
+    "where": "builtin.com",
+    "time": "1:24 PM"
+   },
+   {
     "company": "Marsh McLennan",
     "role": "Lead Solution Architect",
     "reason": "stale — Marsh McLennan, the world's leading professional services firm in risk, strategy and people, is looking for a “Lead Solution Architect” to join the Global Technology Engineering & Enterprise Architecture team (TE2A).",
@@ -4259,6 +4228,13 @@
     "reason": "not-remote — Primary Location IT Centre Bengaluru GDTC Additional Locations Buenos Aires - ITS Design Center — workarounds tried: (1) employer's posting as mirrored on Built In (governing location text, non-US primary location), (2) alternate KC architect postings found were also non-US (Brazil/Argentina/Bengaluru), (3) no US remote posting of this role found",
     "where": "builtin.com",
     "time": "8:28 AM"
+   },
+   {
+    "company": "Akamai",
+    "role": "Principal Architect",
+    "reason": "pay-outside-band — the base salary for this position ranges from $200,000 - $360,000/year. workarounds tried: (1) BuiltIn full JD (this page), (2) DailyRemote mirror with same $200,000 - $360,000 range, (3) no alternate posting with a different published range found",
+    "where": "builtin.com",
+    "time": "1:23 PM"
    },
    {
     "company": "Akamai Technologies",
@@ -4352,6 +4328,13 @@
     "time": "6:28 AM"
    },
    {
+    "company": "Raymond James",
+    "role": "Principal Engineer, Technology",
+    "reason": "not-remote — This position will follow our hybrid work model, we expect the selected candidate to be in office 3 days a week at one of the following office locations: St. Petersburg, FL; Stay hands-on in coding and development: write high-quality, production-ready code alongside the team. workarounds tried: (1) BuiltIn full JD (this page, employer's posting text), (2) Raymond James hybrid pattern confirmed on its other architect postings, (3) no remote alternate posting found",
+    "where": "builtin.com",
+    "time": "1:23 PM"
+   },
+   {
     "company": "Marsh McLennan",
     "role": "Senior Technical Architect",
     "reason": "stale — This role will be based in Mexico City. This is a hybrid role that has a requirement of working at least three days a week in the office.",
@@ -4405,6 +4388,15 @@
     "time": "9:23 AM"
    }
   ],
+  "Amgen Workday careers (employer's own ATS)": [
+   {
+    "company": "Amgen",
+    "role": "Principal IS Architect",
+    "reason": "duplicate — Principal IS Architect | R-256615 | Application Received | Date Submitted October 15, 2026",
+    "where": "Amgen Workday careers (employer's own ATS)",
+    "time": "1:24 PM"
+   }
+  ],
   "Novartis careers (employer site)": [
    {
     "company": "Novartis",
@@ -4428,6 +4420,15 @@
     "reason": "cloud-mismatch — AWS Certified Solutions Architect required with real, hands-on experience designing secure, resilient, scalable cloud-native solutions on AWS. — workarounds tried: (1) employer's own jobs.sanofi.com page opened and governs (Morristown, NJ / Cambridge, MA, AWS/Salesforce/Snowflake stack, no Azure), (2) no alternate route changes the AWS-first requirement, (3) no alternate Azure-inclusive posting of this role found",
     "where": "Sanofi careers (employer site)",
     "time": "9:08 AM"
+   }
+  ],
+  "grabjobs.co": [
+   {
+    "company": "GSK",
+    "role": "Director, Enterprise Architect - Recovery and Resiliency",
+    "reason": "closed — This role offers a hybrid working model, with a mix of on-site and remote work. Fully remote or home-working arrangements are not available for this role. Closing Date for Applications – 1 November 2026 EOD",
+    "where": "grabjobs.co",
+    "time": "1:23 PM"
    }
   ],
   "careers.novonordisk.com": [
@@ -4550,13 +4551,6 @@
     "reason": "pay-outside-band — Pay Range: $178200 - $230560 / year — top $230,560 above $230,000 cap; workarounds tried: (1) full JD read on Ladders mirror of Kaiser JD",
     "where": "Ladders",
     "time": "12:35 AM"
-   },
-   {
-    "company": "Edward Jones",
-    "role": "Senior Enterprise Architect - Application and Data Architecture",
-    "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week effective June 1, 2026. Before June 1, 2026, candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office three days per week, with preference for Tuesday through Thursday. Workarounds tried: (1) full JD on Ladders (employer mirror), (2) Jooble mirror carries the same office-days text, (3) no alternate fully-remote posting of this req.",
-    "where": "Ladders",
-    "time": "9:15 AM"
    },
    {
     "company": "AMD",
@@ -6077,15 +6071,6 @@
     "role": "Senior Principal Architect, Knowledge Graphs & Streaming Platforms",
     "reason": "experience-mismatch — Lead hands-on development and integration of streaming solutions using Databricks for real-time analytics and data processing. Basic qualifications include: 6+ years of experience in a programming language: Python, Java, or Scala; 4+ years of experience developing solutions on Kafka, Azure IoT, and Databricks; 4+ years of experience developing solutions on Anzo, Neo4J and Stardog. The core is hands-on knowledge-graph/streaming data development (Neo4J/Anzo/Stardog, Databricks) - not Hubert's Azure infrastructure/M&A/DR architecture core, and programming is a basic qualification. workarounds tried: (1) GSK's own posting text is reproduced in this mirror; (2) alternate surfaces checked in search, same hands-on data core; (3) no alternate posting with a different core found.",
     "where": "IotaJobs (GSK mirror)",
-    "time": "5:42 AM"
-   }
-  ],
-  "Career.io (Genentech mirror)": [
-   {
-    "company": "Roche / Genentech",
-    "role": "Research & Early Development Enterprise Architect",
-    "reason": "not-remote — This position requires onsite work 3 days per week. The expected salary range for this position based on the primary location of South San Francisco, California is $217,400-403,700 (Research & Early Development Enterprise Architect) - top also above the $230,000 band ceiling. workarounds tried: (1) Genentech's own posting text is reproduced in this mirror with the same onsite requirement; (2) alternate surfaces checked in search, no fully-remote posting of this role; (3) no remote repost found.",
-    "where": "Career.io (Genentech mirror)",
     "time": "5:42 AM"
    }
   ],
@@ -8756,6 +8741,15 @@
     "reason": "not-remote — This position offers a hybrid work schedule - ability to work in office is required workarounds tried: (1) employer's own Wells Fargo posting text mirrored on Built In carries the same hybrid terms, (2) no fully remote alternate posting of this role found",
     "where": "Wells Fargo sector / Built In (Wells Fargo mirror)",
     "time": "3:15 AM"
+   }
+  ],
+  "careers.edwardjones.com": [
+   {
+    "company": "Edward Jones",
+    "role": "Senior Enterprise Architect - Application and Data Architecture",
+    "reason": "pay-outside-band — Hiring Minimum: $144000 Hiring Maximum: $245100. workarounds tried: (1) employer's own careers page (governing text, this page), (2) Ladders mirror with same role, (3) no alternate posting with a different published range found",
+    "where": "careers.edwardjones.com",
+    "time": "1:25 PM"
    }
   ],
   "hiringcafe.com": [
@@ -11686,5 +11680,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T19:22:59Z"
+ "lists_generated_at": "2026-11-18T19:25:42Z"
 }
