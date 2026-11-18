@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T12:13:47Z",
+ "generated_at": "2026-11-18T12:16:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,37 +15,38 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T12:12:30Z",
+  "last_activity_at": "2026-11-18T12:13:57Z",
   "progress": {
    "pools": 21,
-   "covered_units": 292,
+   "covered_units": 346,
    "total_units": 754,
-   "pct": 39
+   "pct": 46
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 96,
-  "rejected": 675,
-  "evaluated": 771
+  "parked": 97,
+  "rejected": 679,
+  "evaluated": 776
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 771,
+  "evaluated": 776,
   "filed": 0,
-  "parked": 96,
-  "rejected": 675,
+  "parked": 97,
+  "rejected": 679,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W7",
-  "W1",
   "W2",
-  "W18",
-  "W19",
-  "W20"
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -73,24 +74,24 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
+   "heartbeat_at": null,
    "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
-   "detail": "Employers 10/30"
+   "heartbeat_at": null,
+   "detail": "Employers 15/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,51 +101,51 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
-   "detail": "Employers 5/39"
+   "heartbeat_at": "2026-11-18T12:16:28Z",
+   "detail": "Employers 10/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
    "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
    "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
    "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
    "detail": "Employers 10/44"
   },
   "W9": {
@@ -227,57 +228,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
    "detail": "Employers 10/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T12:16:28Z",
+   "detail": "Employers 10/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 10/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
-   "detail": "Employers 5/45"
+   "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
-   "detail": "Employers 5/41"
+   "heartbeat_at": null,
+   "detail": "Employers 10/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:13:47Z",
-   "detail": "Employers 5/31"
+   "heartbeat_at": null,
+   "detail": "Employers 10/31"
   }
  },
  "stages": {
@@ -307,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "37 of 632 units done",
+   "detail": "43 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -549,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:12 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:13 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1334,6 +1335,13 @@
     "reason": "stale-unverified — 10 years' experience with Salesforce development and 5 years' experience with .Net, Java, or similar programming languages and 5 years' experience with Lightning, Visual Force and APEX development. — full JD read on Dice: a Salesforce-development-heavy role apparent on its face, but the Dice page was crawled 246 days ago (2026-03-16) and carries no posted date, so freshness cannot be verified — parked provisional, not verdicted on merits.",
     "where": "Dice",
     "time": "5:56 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Field CTO",
+    "reason": "cognizant-manual-only — Proven experience as a Field CTO, Principal CTO, Chief Architect, Distinguished Architect, or equivalent external-facing technology leader for an enterprise modernization, cloud, AI, or technology transformation practice. — 3Cloud is a Cognizant company and manual-only under Hubert's standing rule: parked cognizant-manual-only, never PASS, regardless of merits.",
+    "where": "Dice",
+    "time": "6:13 AM"
    },
    {
     "company": "JPMorgan Chase",
@@ -2352,6 +2360,13 @@
     "time": "12:30 AM"
    },
    {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Federal Enterprise Architect - DOD",
+    "reason": "pay-outside-band — United States of America: Annual Salary USD 175,500 - 339,500 in Colorado // 166,500 - 390,500 in Alabama & Ohio & Texas — published tops ($339,500 / $390,500) exceed the $230,000 band ceiling for this Federal Enterprise Architect – DOD role (Remote/Teleworker, US citizen required, travel 50%+). Workarounds tried: (1) employer's own JD text as carried in full on DailyRemote, (2) no alternate route for the same req found, (3) no alternate posting with an in-band top.",
+    "where": "DailyRemote",
+    "time": "6:13 AM"
+   },
+   {
     "company": "PFH Technology Group",
     "role": "Senior Cloud Operations Transformation Consultant",
     "reason": "non-US — Location: Remote within Ireland — full JD read via DailyRemote search JD: Senior Cloud Operations Transformation Consultant for a large public sector customer, remote only within Ireland; Hubert's hunt is US only. workarounds tried: (1) employer's JD text via DailyRemote/Jobgether full JD; (2) both routes state Ireland-only remote; (3) no US posting of this role found.",
@@ -2552,6 +2567,13 @@
     "time": "5:27 AM"
    },
    {
+    "company": "North Carolina Department of Health and Human Services",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC — stated hybrid / onsite reporting in the full JD read on BuiltIn; recruitment range $105,341.00 - $155,000.00 also tops below the band floor. Workarounds tried: (1) employer's own JD text as carried in full on BuiltIn (Position Number 65023247), (2) no alternate fully-remote route for the same req, (3) no alternate posting of this role.",
+    "where": "BuiltIn",
+    "time": "6:13 AM"
+   },
+   {
     "company": "RTX",
     "role": "Senior Solutions IT Architect supporting Capacity Growth - Remote, Domestic US Locations",
     "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date. U.S. citizenship is required, as only U.S. citizens are eligible for a security clearance — Security Clearance Type: Secret - Current; Active and existing security clearance required on day 1. Gate fact in the employer's own JD text; reject on sight, no workaround owed.",
@@ -2592,6 +2614,13 @@
     "reason": "stale — The Solutions Architect provides technical leadership and strategic guidance to enterprise customers adopting VMware by Broadcom solutions. With a primary focus on VMware Cloud Foundation (VCF), the role translates business priorities into secure, scalable and resilient private cloud architectures. Published: 2026-11-04, outside 7-day eligibility on 2026-11-18. workarounds tried: (1) BuiltIn employer mirror, (2) DailyRemote alternate route same posting/date, (3) UAE remote variant is non-US, no fresher US posting found.",
     "where": "BuiltIn",
     "time": "1:35 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Cloud Architect Sr - E3",
+    "reason": "clearance — TS//SCI Clearance — Basic Qualifications in the employer's own JD text on BuiltIn (Cloud Architect Sr - E3, classified cloud environments); an active clearance requirement is a gate fact, reject on sight, no workaround owed.",
+    "where": "BuiltIn",
+    "time": "6:13 AM"
    },
    {
     "company": "Fortinet",
@@ -2641,6 +2670,20 @@
     "reason": "do-not-reapply — Bright Vision Technologies - no further applications, employer-wide (standing DNR)",
     "where": "BuiltIn",
     "time": "6:04 AM"
+   },
+   {
+    "company": "Walmart",
+    "role": "(USA) Principal, Software Engineer",
+    "reason": "not-remote — We use a hybrid way of working with primary in office presence coupled with an optimal mix of virtual presence. — plus Primary Location 2501 Se J St, Bentonville, AR in the full JD read on BuiltIn: a stated hybrid / in-office schedule, not 100% remote (the role is also a hands-on Principal Software Engineer, not an architect role). Workarounds tried: (1) employer's own JD text as carried in full on BuiltIn, (2) alternate route Monster carries the same Bentonville Walmart role, (3) no fully-remote alternate posting.",
+    "where": "BuiltIn",
+    "time": "6:13 AM"
+   },
+   {
+    "company": "Northrop Grumman",
+    "role": "Cloud Security Architect - Level 3/4 (AHT)",
+    "reason": "clearance — Active Secret clearance required at the time of application — Basic Qualifications in the employer's own JD text on BuiltIn (Cloud Security Architect - Level 3/4, Redondo Beach, CA); an active clearance requirement is a gate fact, reject on sight, no workaround owed.",
+    "where": "BuiltIn",
+    "time": "6:13 AM"
    },
    {
     "company": "General Dynamics Information Technology",
@@ -2768,6 +2811,13 @@
     "reason": "stale — Must also possess ten plus years' experience in a healthcare environment or an equivalent combination of relevant education, technical, business and healthcare experience with one-year experience being in cybersecurity architecture at the enterprise-scale, preferably in healthcare. workarounds tried: (1) employer posting mirrored on CareerBuilder/Monster with same 2026-10-03 date, (2) alternate route Monster listing checked, (3) no fresher repost found",
     "where": "CareerBuilder",
     "time": "4:04 AM"
+   },
+   {
+    "company": "FedEx",
+    "role": "Domain Architect",
+    "reason": "not-remote — Domain Architect — FedEx — New Berlin, WI (Onsite) Full-Time: 'Lead the long range planning for the business, application, data and technical architecture for the solutions in a specific domain.' The listing is explicitly Onsite, not remote. Workarounds tried: (1) employer's listing as indexed in full on CareerBuilder shows Onsite in New Berlin, WI, (2) alternate FedEx cloud roles found are likewise hybrid campus roles in Plano / Memphis / Pittsburgh, (3) no fully-remote alternate posting of this Domain Architect role.",
+    "where": "CareerBuilder",
+    "time": "6:13 AM"
    },
    {
     "company": "Schneider National",
@@ -3683,6 +3733,13 @@
     "time": "5:22 AM"
    },
    {
+    "company": "Spear Staffing",
+    "role": "AWS Cloud Technical Enablement Lead",
+    "reason": "cloud-mismatch — The team is in the early stages of building out a new AWS environment, beginning with an initial AWS 1.0 setup, followed by a broader migration into a more mature AWS 2.0 environment. — AWS-only modernization and enablement scope with Azure excluded, cloud-mismatch. Workarounds tried: (1) employer's JD text as carried in full on Dice, (2) alternate route Gardner Resources Consulting's Dice posting carries the same AWS enablement scope, (3) no Azure-inclusive alternate posting of this role.",
+    "where": "Dice",
+    "time": "6:13 AM"
+   },
+   {
     "company": "Molina Healthcare",
     "role": "Senior Engineer, Cloud - IT Resiliency Solutions - Remote",
     "reason": "hands-on — Develop scripts to automate deployment of cloud resources and services using Ansible, Terraform and PowerShell playbooks. — engineer-level whole-role build work; workarounds tried: (1) full JD read on Dice",
@@ -3931,6 +3988,13 @@
     "reason": "experience-mismatch — Minimum 2 years of experience in implementation, deployment, or technical customer support with Oracle Cerner Millennium; 7+ years of experience with integrated healthcare information systems and technology delivery in an acute care clinical setting; workarounds tried: (1) employer ATS search, (2) Career.io full JD opened, (3) Monster mirror - same Cerner-mandatory requirements",
     "where": "Career.io",
     "time": "4:54 AM"
+   },
+   {
+    "company": "Amazon Web Services",
+    "role": "Enterprise Architect, Strategic Customer Engagements",
+    "reason": "cloud-mismatch — We are seeking Principal Enterprise Architects to join our Strategic Customer Engagements (SCE) team to work on AWS's most complex commercial pursuits. — the role is AWS-platform-only (Amazon Web Services) with Azure excluded, cloud-mismatch; location pay ranges also reach $252,900. Workarounds tried: (1) employer's JD text as carried in full on Career.io (Job ID: A3187399), (2) no Azure-inclusive alternate posting of this SCE role, (3) no alternate route for the same req.",
+    "where": "Career.io",
+    "time": "6:13 AM"
    },
    {
     "company": "ConocoPhillips",
@@ -5749,9 +5813,9 @@
    {
     "company": "State of Colorado - Governor's Office of Information Technology",
     "role": "Senior Technical Architect (Salesforce)",
-    "reason": "not-remote — All remote work must be performed in Colorado. — candidate must relocate and reside in Colorado; workarounds tried: (1) employer's own GovernmentJobs posting read in full",
+    "reason": "not-remote — All remote work must be performed in Colorado. While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. — remote-in-Colorado-only with mandatory relocation; Hubert is Texas-based and not willing to relocate, so not-remote for this hunt. The core is also Salesforce platform architecture (CTA), not Azure infrastructure. Workarounds tried: (1) employer's own GovernmentJobs.com posting (governing text, full JD read), (2) no alternate route for the same req, (3) no alternate posting without the Colorado residency requirement.",
     "where": "GovernmentJobs.com",
-    "time": "12:35 AM"
+    "time": "6:13 AM"
    },
    {
     "company": "Washington State Department of Transportation",
@@ -5789,15 +5853,6 @@
     "reason": "closed — Posting Date, 05/29/26, Application Deadline, 06/12/26",
     "where": "Built In / Maricopa County portal search",
     "time": "4:25 AM"
-   }
-  ],
-  "builtinnyc.com / governmentjobs.com (NC state portal)": [
-   {
-    "company": "North Carolina Department of Health and Human Services",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC workarounds tried: state posting text via Built In/governmentjobs mirror opened in full; recruitment range top $155,000 also below band",
-    "where": "builtinnyc.com / governmentjobs.com (NC state portal)",
-    "time": "3:47 AM"
    }
   ],
   "thebigjobsite.com (84.51/Kroger)": [
@@ -6137,15 +6192,6 @@
     "reason": "not-remote — Senior Application Solutions Architect - Job Details: Full Time, On-site, Birmingham, AL, US workarounds tried: (1) alternate route Dice carries the on-site Birmingham terms, (2) no fully remote alternate posting of this role found",
     "where": "Southern Company sector / Dice (Southern Company mirror)",
     "time": "3:15 AM"
-   }
-  ],
-  "Lockheed Martin sector / Built In (Lockheed mirror)": [
-   {
-    "company": "Lockheed Martin",
-    "role": "Cloud Architect Sr - E3",
-    "reason": "clearance — Requires TS/SCI clearance, cloud networking experience, and Security+ certification or ability to obtain it. Basic Qualifications TS//SCI Clearance",
-    "where": "Lockheed Martin sector / Built In (Lockheed mirror)",
-    "time": "3:11 AM"
    }
   ],
   "career41.sapsf.com (Eaton careers)": [
@@ -6604,15 +6650,6 @@
     "time": "3:15 AM"
    }
   ],
-  "Walmart sector / Built In (Walmart mirror)": [
-   {
-    "company": "Walmart",
-    "role": "(USA) Principal, Software Engineer",
-    "reason": "not-remote — We use a hybrid way of working with primary in office presence coupled with an optimal mix of virtual presence. workarounds tried: (1) alternate routes Built In and Himalayas both carry the same hybrid terms, (2) no fully remote alternate posting of this role found",
-    "where": "Walmart sector / Built In (Walmart mirror)",
-    "time": "3:11 AM"
-   }
-  ],
   "dice.com": [
    {
     "company": "GovCIO",
@@ -6655,15 +6692,6 @@
     "role": "Full Stack Architect | Cloud Ecosystem",
     "reason": "hands-on — Expert in one or more of the programming languages (Node.js, .Net, .Net Core, Python etc) with Cloud Native Platform Development (Azure) This is a Houston based eleven month contract role workarounds tried: (1) employer's client Shell posting text mirrored on Career.io and GrabJobs carries the same programming-language expertise requirement, (2) no alternate posting of this role without that requirement found",
     "where": "Shell sector / Career.io (ECI Group for Shell mirror)",
-    "time": "3:15 AM"
-   }
-  ],
-  "Northrop Grumman sector / Built In (Northrop mirror)": [
-   {
-    "company": "Northrop Grumman",
-    "role": "Cloud Security Architect - Level 3/4 (AHT)",
-    "reason": "clearance — CLEARANCE REQUIRED FOR START: Yes CLEARANCE TYPE: Secret - Active Secret clearance required at the time of application",
-    "where": "Northrop Grumman sector / Built In (Northrop mirror)",
     "time": "3:15 AM"
    }
   ],
@@ -8461,6 +8489,7 @@
    "Chubb",
    "CommonSpirit Health",
    "NTT DATA",
+   "3Cloud",
    "Steel Dynamics",
    "Vaco",
    "Info Dinamica Inc",
@@ -8486,5 +8515,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T12:13:47Z"
+ "lists_generated_at": "2026-11-18T12:16:28Z"
 }
