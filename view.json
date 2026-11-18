@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T08:43:30Z",
+ "generated_at": "2026-11-18T08:45:29Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T08:43:31Z",
+  "last_activity_at": "2026-11-18T08:44:18Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 52,
-  "rejected": 353,
-  "evaluated": 405
+  "rejected": 357,
+  "evaluated": 409
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 405,
+  "evaluated": 409,
   "filed": 0,
   "parked": 52,
-  "rejected": 353,
+  "rejected": 357,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,13 +103,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 310/73"
+   "heartbeat_at": "2026-11-18T08:45:29Z",
+   "detail": "Employers 320/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -220,24 +224,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 305/59"
+   "heartbeat_at": "2026-11-18T08:45:29Z",
+   "detail": "Employers 315/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 304/54"
+   "heartbeat_at": "2026-11-18T08:45:29Z",
+   "detail": "Employers 312/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -300,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "588 of 632 units done",
+   "detail": "594 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -542,13 +546,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:43 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 2:44 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
