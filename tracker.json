@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T16:57:48Z",
+ "generated_at": "2026-11-18T17:00:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T16:57:38Z",
+  "last_activity_at": "2026-11-18T17:00:23Z",
   "progress": {
    "pools": 21,
-   "covered_units": 714,
+   "covered_units": 754,
    "total_units": 754,
-   "pct": 95
+   "pct": 100
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,26 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 137,
-  "rejected": 920,
-  "evaluated": 1058
+  "rejected": 922,
+  "evaluated": 1060
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1058,
+  "evaluated": 1060,
   "filed": 0,
   "parked": 137,
-  "rejected": 920,
+  "rejected": 922,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
   "W2",
-  "W3",
-  "W4",
   "W17",
-  "W18",
-  "W19",
-  "W20"
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -91,8 +87,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/30"
+   "heartbeat_at": "2026-11-18T17:00:44Z",
+   "detail": "Employers 50/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -102,30 +98,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/39"
+   "heartbeat_at": "2026-11-18T17:00:44Z",
+   "detail": "Employers 50/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 45/73"
+   "heartbeat_at": null,
+   "detail": "Employers 55/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 45/32"
+   "heartbeat_at": null,
+   "detail": "Employers 50/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,7 +132,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,7 +143,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,7 +231,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/59"
+   "detail": "Employers 50/59"
   },
   "W17": {
    "label": "Technology",
@@ -245,8 +241,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/54"
+   "heartbeat_at": "2026-11-18T17:00:44Z",
+   "detail": "Employers 45/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -256,30 +252,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/45"
+   "heartbeat_at": "2026-11-18T17:00:44Z",
+   "detail": "Employers 45/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/41"
+   "heartbeat_at": null,
+   "detail": "Employers 50/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:57:48Z",
-   "detail": "Employers 40/31"
+   "heartbeat_at": null,
+   "detail": "Employers 50/31"
   }
  },
  "stages": {
@@ -290,10 +286,10 @@
    "ended_at": "2026-11-18T16:05:47Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "1 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": null
+   "ended_at": "2026-11-18T16:59:14Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -309,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "113 of 632 units done",
+   "detail": "129 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -551,7 +547,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:57 AM CT · 11 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:00 AM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
@@ -1092,7 +1088,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 172,
@@ -2917,6 +2913,13 @@
     "time": "12:37 AM"
    },
    {
+    "company": "Caterpillar",
+    "role": "Enterprise Architect - Data Platform, Business Intelligence, AI",
+    "reason": "not-remote — This position is currently a hybrid in-office work model, requiring 3-day weekly office presence onsite at our (location) office and remote work for the remaining days. Summary Pay Range: $135,240.00 - $237,564.00 workarounds tried: (1) full JD opened on Built In carrying Caterpillar's posting - governing text above; (2) alternate search route for this req; (3) no alternate fully-remote posting found.",
+    "where": "Built In",
+    "time": "11:00 AM"
+   },
+   {
     "company": "Sutter Health",
     "role": "Solutions Architect III",
     "reason": "not-remote — REQUIRES IN OFFICE 2 DAYS A WEEK IN SACRAMENTO — workarounds tried: (1) Built In full JD read; (2) alternate Sutter architect postings reviewed (Principal Architect also hybrid Sacramento); (3) no fully-remote alternate posting of this role found",
@@ -3416,13 +3419,13 @@
     "time": "6:21 AM"
    }
   ],
-  "Kaiser Permanente Jobs": [
+  "kaiserpermanentejobs.org": [
    {
     "company": "Kaiser Permanente",
     "role": "Healthcare Technology Solutions Architect",
-    "reason": "stale — Date Posted 09/10/2026 — the posting's own date on Kaiser Permanente's own jobs site is 2026-09-10, outside the 7-day eligibility window, with no fresher repost; the core is also clinical-applications / Healthcare Technology Management architecture, outside Hubert's infrastructure record (0 healthcare years). Workarounds tried: (1) employer's own kaiserpermanentejobs.org posting (governing text), (2) no alternate fresher route for the same req found, (3) no refreshed repost found. Stale verdict carries the typed posted_date.",
-    "where": "Kaiser Permanente Jobs",
-    "time": "6:31 AM"
+    "reason": "experience-mismatch — A Solutions Architect for clinical applications within a healthcare organization bridges the gap between technology and care by driving clinical engagement, capturing vital voice of the customer requirements to optimize solutions alongside vendors and Healthcare Technology Management (HTM) partners. workarounds tried: (1) employer's own kaiserpermanentejobs.org posting opened - governing text above; (2) alternate Kaiser architect postings checked; (3) no alternate posting removing the clinical-applications core found.",
+    "where": "kaiserpermanentejobs.org",
+    "time": "11:00 AM"
    }
   ],
   "jobs.mayoclinic.org": [
@@ -4183,9 +4186,9 @@
    {
     "company": "Baker Hughes",
     "role": "Digital Technology Senior Specialist - Enterprise Architecture",
-    "reason": "not-remote — Be aware of the location restriction for this remote position: India — remote restricted to India; this hunt is 100% remote US-only. Workarounds tried: (1) employer's JD text as carried in full on Remotive, (2) no alternate US-remote route for the same req found, (3) no alternate US posting of this role.",
+    "reason": "not-remote — Be aware of the location restriction for this remote position: India workarounds tried: (1) full JD opened on Remotive - location restriction above; (2) Baker Hughes search route checked; (3) no US posting of this role found.",
     "where": "Remotive",
-    "time": "6:27 AM"
+    "time": "10:59 AM"
    },
    {
     "company": "CVS Health",
@@ -4336,6 +4339,13 @@
     "reason": "stale — Published: 2026-10-20T23:13:00 — the posting's own date is 29 days before today (2026-11-18), outside the 7-day eligibility window, with no finding-surface activity within 7 days shown. Full JD read on Ladders: Cloud Delivery Lead for RSM's Security and Privacy Services Consulting practice, compensation $101,000 - $203,000 (top in band), hybrid workstyle noted ('Most roles at RSM follow a hybrid workstyle'). The stale date governs; stale verdict carries the typed posted_date.",
     "where": "Ladders",
     "time": "10:21 AM"
+   },
+   {
+    "company": "Honeywell",
+    "role": "Principal IT Architect - SAP Commerce Cloud",
+    "reason": "not-remote — You will report directly to our IT leadership and you'll work out of our Charlotte, NC, or Atlanta, GA or Houston, TX location on a hybrid work schedule. Hybrid Work Schedule Note: For the first 90 days, New Hires must be prepared to work 100% onsite M-F workarounds tried: (1) full JD opened on Ladders carrying Honeywell's own text; (2) alternate search route; (3) no alternate fully-remote posting found.",
+    "where": "Ladders",
+    "time": "11:00 AM"
    },
    {
     "company": "Kaiser Permanente",
@@ -4588,9 +4598,9 @@
    {
     "company": "Halliburton",
     "role": "Cloud Domain Architect",
-    "reason": "closed — Job post no longer accepts applications",
+    "reason": "closed — Job post no longer accepts applications Own the cloud infrastructure domain architecture for Azure (primary) and AWS (secondary), including networking, identity, governance, and management services.",
     "where": "energyjobsearch.com",
-    "time": "6:29 AM"
+    "time": "10:59 AM"
    },
    {
     "company": "Constellation Energy",
@@ -5412,13 +5422,6 @@
     "time": "10:52 AM"
    },
    {
-    "company": "Capital One",
-    "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) employer's own published salary range in the full JD reviewed as governing text; (2) Talentally full-JD mirror checked; (3) no alternate posting of this role with a different published range found",
-    "where": "talentally.com",
-    "time": "3:33 AM"
-   },
-   {
     "company": "CareFirst",
     "role": "Senior Domain Architect (Remote)",
     "reason": "pay-outside-band — Salary Range: $122,040 - $242,385. workarounds tried: employer's own careers site referenced in posting (www.carefirst.com/careers), alternate mirror routes checked - same published range, top above $230,000",
@@ -5897,6 +5900,15 @@
     "reason": "closed — Job expired | workarounds tried: Qureos full JD shows expired status; Mediabistro mirror is the same HPC role",
     "where": "qureos.com",
     "time": "6:35 AM"
+   }
+  ],
+  "TalentAlly": [
+   {
+    "company": "Capital One",
+    "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) full JD opened on TalentAlly carrying Capital One's own salary table; (2) Capital One Careers route referenced in the JD; (3) no alternate posting with an in-band top found.",
+    "where": "TalentAlly",
+    "time": "10:59 AM"
    }
   ],
   "FlexJobs": [
@@ -10760,5 +10772,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T16:57:48Z"
+ "lists_generated_at": "2026-11-18T17:00:44Z"
 }
