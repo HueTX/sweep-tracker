@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T10:22:15Z",
+ "generated_at": "2026-11-18T10:24:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T10:21:58Z",
+  "last_activity_at": "2026-11-18T10:22:59Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 72,
-  "rejected": 486,
-  "evaluated": 559
+  "parked": 73,
+  "rejected": 487,
+  "evaluated": 560
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 559,
+  "evaluated": 560,
   "filed": 0,
-  "parked": 72,
-  "rejected": 486,
+  "parked": 73,
+  "rejected": 487,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,61 +90,61 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/30"
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T10:24:35Z",
    "detail": "Employers 110/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T10:24:35Z",
    "detail": "Employers 110/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T10:24:35Z",
    "detail": "Employers 110/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T10:24:35Z",
    "detail": "Employers 110/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T10:24:35Z",
    "detail": "Employers 110/44"
   },
   "W9": {
@@ -220,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 105/59"
+   "heartbeat_at": "2026-11-18T10:24:35Z",
+   "detail": "Employers 110/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/54"
+   "detail": "Employers 110/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/45"
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/41"
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 105/31"
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "257 of 632 units done",
+   "detail": "263 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:21 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 4:22 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1048,8 +1061,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 65,
@@ -1340,6 +1353,13 @@
     "reason": "title-not-covered — This is a hybrid role located on our campus in Mountlake Terrace, Washington.",
     "where": "BuiltIn",
     "time": "2:03 AM"
+   },
+   {
+    "company": "Nordstrom",
+    "role": "Director of Engineering - Platform Services, Developer Platform",
+    "reason": "title-not-covered — Leads engineering teams responsible for Kubernetes, Airflow, Kafka, Temporal, and machine learning platforms. Sets platform strategy, architecture, roadmaps, success metrics, and organizational talent plans.",
+    "where": "BuiltIn",
+    "time": "4:22 AM"
    }
   ],
   "hiring.jhu.edu": [
@@ -2580,13 +2600,6 @@
     "reason": "hands-on-coding — This role is a hands-on engineering and architecture position that requires development and/or DevOps abilities. workarounds tried: (1) BuiltIn full JD, (2) employer-name search for Fortinet cloud architect, (3) alternate mirrors - same AWS-focused JD requiring 5+ years development/scripting in Python, Node.js, C#, C++, C, Ruby, Perl",
     "where": "BuiltIn",
     "time": "2:42 AM"
-   },
-   {
-    "company": "Nordstrom",
-    "role": "Director of Engineering - Platform Services, Developer Platform",
-    "reason": "not-remote — Director of Engineering - Platform Services, Developer Platform (Hybrid - Seattle, WA) - #LI-Hybrid - $200,500.00 - $332,000.00 Annual. workarounds tried: (1) BuiltIn employer mirror, (2) Nordstrom careers search same hybrid posting, (3) no fully remote alternate posting found.",
-    "where": "BuiltIn",
-    "time": "1:35 AM"
    },
    {
     "company": "Akamai",
@@ -5179,6 +5192,15 @@
     "time": "3:06 AM"
    }
   ],
+  "ServiceNow Careers": [
+   {
+    "company": "ServiceNow",
+    "role": "Partner Technology Architect",
+    "reason": "experience-mismatch — 8+ years pre-sales, solution architecture, or technical consulting experience with proven success in ITSM, ITOM, employee experience, or enterprise service management solutions. 5+ years deep domain expertise in IT service management, IT operations, HR service delivery, or enterprise workflow automation platforms. workarounds tried: (1) employer's own ATS page (this req, 744000160278956) is the governing text and carries these requirements; (2) Haystack alternate route for the same title carries the same pre-sales requirement; (3) alternate same-title posting on the employer's own board (744000157860360, Risk/Security practice) requires the same pre-sales/channel background and pays $198,900-$328,200. Note: a PASS attempt was refused cross-cycle-flip-needs-correction (prior cycle REJECTED stands); this REJECTED is the verify terminal record.",
+    "where": "ServiceNow Careers",
+    "time": "4:22 AM"
+   }
+  ],
   "Oracle Careers": [
    {
     "company": "Oracle",
@@ -5621,6 +5643,15 @@
     "reason": "closed — Applicants must meet all qualifications and eligibility requirements by the closing date of the announcement, 10/26/2026 — employer's own USAJobs detail page shows the closing date has passed (today 2026-11-18); position located in U.S. Department of Agriculture (USDA), Office of the Chief Financial Officer, in New Orleans, Louisiana, providing enterprise architecture governance for OCFO-led technology modernization initiatives",
     "where": "USAJobs",
     "time": "4:11 AM"
+   }
+  ],
+  "JobLeads / Career.io": [
+   {
+    "company": "Huntington Bancshares",
+    "role": "IS Tech Lead (Cloud)",
+    "reason": "not-remote — Workplace Type: Office. Compensation Range: 70,000.00 - 140,000.00 USD Annual. workarounds tried: (1) employer's own Huntington posting text as mirrored on JobLeads states Workplace Type Office / Hybrid Charlotte; (2) Career.io alternate route for the same IS Tech Lead (Cloud) role states Workplace Type: Office with the same $70,000-$140,000 range; (3) Dice alternate Huntington cloud postings show the same office-based workplace model.",
+    "where": "JobLeads / Career.io",
+    "time": "4:22 AM"
    }
   ]
  },
@@ -6802,5 +6833,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T10:22:15Z"
+ "lists_generated_at": "2026-11-18T10:24:35Z"
 }
