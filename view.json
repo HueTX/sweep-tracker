@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T16:09:20Z",
+ "generated_at": "2026-11-18T16:12:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -10,42 +10,41 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T16:09:22Z",
+  "last_activity_at": "2026-11-18T16:11:17Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 48,
    "total_units": 754,
-   "pct": 0
+   "pct": 6
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 124,
-  "rejected": 882,
-  "evaluated": 1006
+  "parked": 126,
+  "rejected": 885,
+  "evaluated": 1013
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1006,
+  "evaluated": 1013,
   "filed": 0,
-  "parked": 124,
-  "rejected": 882,
+  "parked": 126,
+  "rejected": 885,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
   "W1",
   "W2",
-  "W3",
-  "W4",
-  "W5"
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -67,7 +66,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
+   "heartbeat_at": "2026-11-18T16:12:21Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -89,7 +88,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
+   "heartbeat_at": "2026-11-18T16:12:21Z",
    "detail": "Employers 0/30"
   },
   "W2": {
@@ -100,44 +99,33 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
+   "heartbeat_at": "2026-11-18T16:12:21Z",
    "detail": "Employers 0/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-18T16:09:20Z",
-   "detail": "Employers 0/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -145,6 +133,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-18T16:12:21Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -227,12 +226,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T16:12:21Z",
    "detail": "Employers 0/59"
   },
   "W17": {
@@ -307,15 +306,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 632 units done",
+   "detail": "6 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "21 of 33 units done",
+   "state": "done",
+   "detail": "33 of 33 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": null
+   "ended_at": "2026-11-18T16:09:28Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -549,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:09 AM CT · 13 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:11 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 1 of 58 · Azure Architect",
@@ -590,8 +589,8 @@
    "winner_disposition_id": 14984,
    "unit_id": null,
    "unit_created_at": null,
-   "attempts": 9,
-   "last_attempt_at": "2026-11-18T16:09:03Z"
+   "attempts": 10,
+   "last_attempt_at": "2026-11-18T16:11:41Z"
   },
   {
    "lead_id": 7094,
@@ -923,9 +922,9 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18365,
-   "unit_id": 8871,
-   "unit_created_at": "2026-11-18T16:05:47Z",
+   "winner_disposition_id": 18916,
+   "unit_id": null,
+   "unit_created_at": null,
    "attempts": 17,
    "last_attempt_at": "2026-11-18T16:09:22Z"
   },
@@ -937,11 +936,11 @@
    "blocker": "code-blocked",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18366,
-   "unit_id": 8872,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:55Z"
+   "winner_disposition_id": 18917,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:23Z"
   },
   {
    "lead_id": 5462,
@@ -951,11 +950,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18367,
-   "unit_id": 8873,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:56Z"
+   "winner_disposition_id": 18918,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:24Z"
   },
   {
    "lead_id": 5826,
@@ -965,11 +964,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18368,
-   "unit_id": 8874,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:57Z"
+   "winner_disposition_id": 18919,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:25Z"
   },
   {
    "lead_id": 5900,
@@ -980,10 +979,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 8315,
-   "unit_id": 8857,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:57Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:25Z"
   },
   {
    "lead_id": 6359,
@@ -993,11 +992,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18370,
-   "unit_id": 8875,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:58Z"
+   "winner_disposition_id": 18921,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:25Z"
   },
   {
    "lead_id": 6609,
@@ -1007,11 +1006,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "W8",
-   "winner_disposition_id": 18371,
-   "unit_id": 8876,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:54:59Z"
+   "winner_disposition_id": 18922,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:26Z"
   },
   {
    "lead_id": 6812,
@@ -1021,11 +1020,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18372,
-   "unit_id": 8877,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:55:00Z"
+   "winner_disposition_id": 18923,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:26Z"
   },
   {
    "lead_id": 6991,
@@ -1035,11 +1034,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18373,
-   "unit_id": 8878,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 15,
-   "last_attempt_at": "2026-11-18T11:55:01Z"
+   "winner_disposition_id": 18924,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 16,
+   "last_attempt_at": "2026-11-18T16:09:27Z"
   },
   {
    "lead_id": 7258,
@@ -1049,11 +1048,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 18374,
-   "unit_id": 8879,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 16,
-   "last_attempt_at": "2026-11-18T11:55:02Z"
+   "winner_disposition_id": 18925,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 17,
+   "last_attempt_at": "2026-11-18T16:09:27Z"
   },
   {
    "lead_id": 7836,
@@ -1063,11 +1062,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "Microsoft careers (employer's own board)",
-   "winner_disposition_id": 18375,
-   "unit_id": 8880,
-   "unit_created_at": "2026-11-18T16:05:47Z",
-   "attempts": 6,
-   "last_attempt_at": "2026-11-18T11:55:02Z"
+   "winner_disposition_id": 18926,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 7,
+   "last_attempt_at": "2026-11-18T16:09:28Z"
   }
  ],
  "headline": {
@@ -1075,11 +1074,11 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 2,
+  "verify_open": 3,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 128,
+  "attempted_today": 139,
   "filed_today": 0
  }
 }
