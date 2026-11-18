@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T14:28:24Z",
+ "generated_at": "2026-11-18T14:30:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T14:23:17Z",
+  "last_activity_at": "2026-11-18T14:29:08Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 115,
-  "rejected": 814,
-  "evaluated": 929
+  "rejected": 816,
+  "evaluated": 931
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 929,
+  "evaluated": 931,
   "filed": 0,
   "parked": 115,
-  "rejected": 814,
+  "rejected": 816,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
   "W3",
-  "W4",
-  "W18",
-  "W19",
+  "W5",
+  "W6",
+  "W16",
   "W20"
  ],
  "lanes": {
@@ -100,8 +100,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 205/39"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 210/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,41 +111,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 205/73"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 210/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 190/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 210/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 210/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/59"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 210/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,29 +244,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/54"
+   "detail": "Employers 210/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 200/45"
+   "heartbeat_at": null,
+   "detail": "Employers 210/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 200/41"
+   "heartbeat_at": null,
+   "detail": "Employers 210/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:28:24Z",
-   "detail": "Employers 184/31"
+   "heartbeat_at": "2026-11-18T14:30:53Z",
+   "detail": "Employers 185/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "463 of 632 units done",
+   "detail": "475 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:23 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:29 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W20",
+  "headline": "W20 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2425,13 +2425,6 @@
     "time": "4:38 AM"
    },
    {
-    "company": "Kimberly-Clark",
-    "role": "Senior Enterprise Architect - IFP",
-    "reason": "not-remote — Primary Location: IT Centre Bengaluru GDTC. Additional Locations: Buenos Aires - ITS Design Center. workarounds tried: (1) Built In full JD mirroring Kimberly-Clark's own posting, (2) alternate Kimberly-Clark architect postings checked - the S/4 HANA Solution Architect role is likewise restricted to Brazil/Argentina, (3) no US-remote posting of this role found",
-    "where": "Built In",
-    "time": "5:05 AM"
-   },
-   {
     "company": "Hewlett Packard Enterprise",
     "role": "Enterprise Architect, Public Sector, SLED",
     "reason": "pay-outside-band — United States of America: Annual Salary USD 161,000 - 378,000 in Alabama & Georgia & Mississippi & South Carolina & Tennessee workarounds tried: Built In full JD mirror of HPE posting",
@@ -3264,6 +3257,13 @@
     "time": "2:53 AM"
    },
    {
+    "company": "TIAA",
+    "role": "Enterprise Architect",
+    "reason": "closed — Anticipated Posting End Date: 2025-05-07",
+    "where": "builtin.com",
+    "time": "8:29 AM"
+   },
+   {
     "company": "Centene",
     "role": "Lead Application Architect",
     "reason": "stale — Published: 2025-07-30 — posting's own date on Built In is well outside the 7-day eligibility window; Pay Range: $119,100.00 - $220,500.00 per year and core is database / Healthcare EDI architecture. workarounds tried: (1) employer's own Centene posting sought, Built In full JD read; (2) no fresher repost of this role found; (3) no alternate fresh posting of the same role found.",
@@ -3402,6 +3402,13 @@
     "reason": "cloud-mismatch — PEArch is seeking a Cloud Platform Engineering Architect to support the ETRADE Cloud program. The role will contribute to the design and evolution of secure, resilient, scalable, automated, and well-governed platform capabilities, with primary expertise in Google Cloud Platform (GCP). — workarounds tried: (1) full JD on BuiltIn mirroring employer posting, (2) web search for Morgan Stanley careers alternate posting, none found, (3) no Azure-inclusive alternate posting found",
     "where": "builtin.com",
     "time": "3:36 AM"
+   },
+   {
+    "company": "Kimberly-Clark",
+    "role": "Senior Enterprise Architect - IFP",
+    "reason": "not-remote — Primary Location IT Centre Bengaluru GDTC Additional Locations Buenos Aires - ITS Design Center — workarounds tried: (1) employer's posting as mirrored on Built In (governing location text, non-US primary location), (2) alternate KC architect postings found were also non-US (Brazil/Argentina/Bengaluru), (3) no US remote posting of this role found",
+    "where": "builtin.com",
+    "time": "8:28 AM"
    },
    {
     "company": "JPMorgan Chase",
@@ -3792,13 +3799,13 @@
     "time": "6:48 AM"
    }
   ],
-  "Penn Medicine careers (employer's own page)": [
+  "careers.pennmedicine.org": [
    {
     "company": "Penn Medicine",
     "role": "Senior Principal Enterprise Architect",
-    "reason": "not-remote — Work Schedule: Hybrid. Location: Hybrid, 3535 Market St, Philadelphia, PA 19104. workarounds tried: (1) employer's own careers.pennmedicine.org posting opened as governing text, (2) Dice posting of the same Penn Medicine role checked - same hybrid location term, (3) no remote alternate posting of this role found",
-    "where": "Penn Medicine careers (employer's own page)",
-    "time": "5:04 AM"
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — workarounds tried: (1) employer's own ATS posting (governing text, this page), (2) alternate search mirrors show same Hybrid work schedule, (3) no alternate remote posting of this role found",
+    "where": "careers.pennmedicine.org",
+    "time": "8:28 AM"
    }
   ],
   "Penn Medicine careers": [
@@ -4652,6 +4659,15 @@
     "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). workarounds tried: (1) employer's own careers text via Glassdoor/ONET mirrors - same onsite requirement, (2) alternate mirrors - same text, (3) no remote alternate posting of this role found. Pay $192,600.00 - $289,000.00 also exceeds band top.",
     "where": "Glassdoor (Qualcomm careers)",
     "time": "4:29 AM"
+   }
+  ],
+  "indeed.com": [
+   {
+    "company": "Penn Medicine",
+    "role": "Senior Enterprise Cybersecurity Architect",
+    "reason": "not-remote — Location: 3535 Market Street/hybrid — workarounds tried: (1) searched employer's own careers site for this role (no remote version found; mirrors carry the governing hybrid location), (2) alternate routes Indeed and Ladders both show 3535 Market Street/hybrid, (3) no alternate remote posting of this role found",
+    "where": "indeed.com",
+    "time": "8:28 AM"
    }
   ],
   "UnitedHealth Group / Optum sector / Built In (Optum mirror)": [
@@ -9676,7 +9692,6 @@
    "PNC Financial",
    "Morgan Stanley",
    "MassMutual",
-   "TIAA",
    "Marsh McLennan",
    "Google",
    "Apple",
@@ -9777,5 +9792,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T14:28:24Z"
+ "lists_generated_at": "2026-11-18T14:30:53Z"
 }
