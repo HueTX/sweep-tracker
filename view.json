@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:14:00Z",
+ "generated_at": "2026-11-18T19:17:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:12:36Z",
+  "last_activity_at": "2026-11-18T19:17:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 141,
-  "rejected": 1021,
-  "evaluated": 1163
+  "rejected": 1025,
+  "evaluated": 1166
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1163,
+  "evaluated": 1166,
   "filed": 0,
   "parked": 141,
-  "rejected": 1021,
+  "rejected": 1025,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -108,8 +108,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 275/73"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 285/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -229,8 +229,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 270/59"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 280/59"
   },
   "W17": {
    "label": "Technology",
@@ -240,8 +240,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 270/54"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 280/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,15 +304,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "567 of 632 units done",
+   "detail": "573 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "33 of 34 units done",
+   "state": "done",
+   "detail": "34 of 34 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": null
+   "ended_at": "2026-11-18T19:17:30Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -546,10 +546,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:12 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:17 PM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
    "pool": "W16"
   }
@@ -557,7 +557,7 @@
  "now_viewing": {
   "live": true,
   "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "headline": "W16 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -603,20 +603,6 @@
    "unit_created_at": null,
    "attempts": 11,
    "last_attempt_at": "2026-11-18T16:13:43Z"
-  },
-  {
-   "lead_id": 8233,
-   "employer": "Inviso Corporation",
-   "title": "Cloud Solution Architect",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Built In (Inviso company job board)",
-   "winner_disposition_id": 19002,
-   "unit_id": 8887,
-   "unit_created_at": "2026-11-18T16:39:04Z",
-   "attempts": 5,
-   "last_attempt_at": "2026-11-18T18:44:23Z"
   },
   {
    "lead_id": 476,
@@ -1079,6 +1065,20 @@
    "unit_created_at": null,
    "attempts": 8,
    "last_attempt_at": "2026-11-18T16:13:57Z"
+  },
+  {
+   "lead_id": 8233,
+   "employer": "Inviso Corporation",
+   "title": "Cloud Solution Architect",
+   "status": "parked",
+   "blocker": "credential-needed",
+   "deadline": null,
+   "where": "Built In (Inviso company job board)",
+   "winner_disposition_id": 19324,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 6,
+   "last_attempt_at": "2026-11-18T19:15:34Z"
   }
  ],
  "headline": {
@@ -1090,7 +1090,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 176,
+  "attempted_today": 177,
   "filed_today": 0
  }
 }
