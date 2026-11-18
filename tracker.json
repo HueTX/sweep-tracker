@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T18:04:17Z",
+ "generated_at": "2026-11-18T18:07:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T18:02:39Z",
+  "last_activity_at": "2026-11-18T18:06:29Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,21 +27,21 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 139,
-  "rejected": 953,
-  "evaluated": 1093
+  "parked": 137,
+  "rejected": 960,
+  "evaluated": 1098
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1093,
+  "evaluated": 1098,
   "filed": 0,
-  "parked": 139,
-  "rejected": 953,
+  "parked": 137,
+  "rejected": 960,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W16",
+  "W2",
   "W17",
   "W18",
   "W19",
@@ -89,19 +89,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 135/30"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 140/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 135/39"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 140/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/73"
+   "detail": "Employers 140/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,7 +123,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/32"
+   "detail": "Employers 140/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,7 +134,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/44"
+   "detail": "Employers 140/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +145,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/44"
+   "detail": "Employers 140/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 130/59"
+   "heartbeat_at": null,
+   "detail": "Employers 140/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,8 +243,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 130/54"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 135/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 130/45"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 135/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 130/41"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 135/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:04:17Z",
-   "detail": "Employers 130/31"
+   "heartbeat_at": "2026-11-18T18:07:41Z",
+   "detail": "Employers 135/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "312 of 632 units done",
+   "detail": "324 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:02 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:06 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W17",
+  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1194,29 +1194,6 @@
     "reason": "title-not-covered — Blue Cross NC is seeking a Manager of Solution Architecture to lead a high-performing team of Solution Architects that partner with business and technology leaders to deliver complex, enterprise-scale solutions. Proven experience in data solution architecture (platforms, modeling, governance, analytics) or equivalent expertise mentoring data architects. Salary $143,616.00 - $229,786.00.",
     "where": "Simplify",
     "time": "7:34 AM"
-   }
-  ],
-  "The Ladders": [
-   {
-    "company": "PPL",
-    "role": "System Architect - Development",
-    "reason": "title-not-covered — NOTE: This role is hybrid requiring 3 days on-site at one of our locations: Louisville, KY; Allentown, PA or Providence, RI.",
-    "where": "The Ladders",
-    "time": "7:23 AM"
-   },
-   {
-    "company": "Chubb",
-    "role": "Application Delivery Network Architect",
-    "reason": "title-not-covered — Seeking a senior level Application Delivery architect with extensive experience in architecting and designing global Application Delivery solutions for large scale global enterprises. The role of the Application Delivery Network Architect is focused on the proper design and implementation of the global Application Delivery framework for the firm. The pay range for the role is $125,400 to $182,600. Architect-level duties but this title matches no listed family for this unit - fly title, parked not force-fit.",
-    "where": "The Ladders",
-    "time": "5:20 AM"
-   },
-   {
-    "company": "Baker Hughes",
-    "role": "CLM Platform Lead",
-    "reason": "title-not-covered — Serve as the Technical Advisor/Solution Architect for enterprise CLM, owning the end-to-end solution across architecture, implementation, integrations, data, AI, security, operations, and platform evolution. Title 'CLM Platform Lead' matches no listed Lead family in this unit; duties are architect-level, so parked as fly-title rather than force-fit or title-rejected. Location/remote terms not stated in the JD read.",
-    "where": "The Ladders",
-    "time": "3:41 AM"
    }
   ],
   "MDU Resources": [
@@ -2030,6 +2007,22 @@
     "time": "2:58 AM"
    }
   ],
+  "The Ladders": [
+   {
+    "company": "Chubb",
+    "role": "Application Delivery Network Architect",
+    "reason": "title-not-covered — Seeking a senior level Application Delivery architect with extensive experience in architecting and designing global Application Delivery solutions for large scale global enterprises. The role of the Application Delivery Network Architect is focused on the proper design and implementation of the global Application Delivery framework for the firm. The pay range for the role is $125,400 to $182,600. Architect-level duties but this title matches no listed family for this unit - fly title, parked not force-fit.",
+    "where": "The Ladders",
+    "time": "5:20 AM"
+   },
+   {
+    "company": "Baker Hughes",
+    "role": "CLM Platform Lead",
+    "reason": "title-not-covered — Serve as the Technical Advisor/Solution Architect for enterprise CLM, owning the end-to-end solution across architecture, implementation, integrations, data, AI, security, operations, and platform evolution. Title 'CLM Platform Lead' matches no listed Lead family in this unit; duties are architect-level, so parked as fly-title rather than force-fit or title-rejected. Location/remote terms not stated in the JD read.",
+    "where": "The Ladders",
+    "time": "3:41 AM"
+   }
+  ],
   "memorialhermann.wd5.myworkdayjobs.com": [
    {
     "company": "Memorial Hermann Health System",
@@ -2037,15 +2030,6 @@
     "reason": "not-evaluated — Employer Workday page could not be read: text fetch returned no extractable content from memorialhermann.wd5.myworkdayjobs.com/external/job/home-office---tx/ambulatory-application-architect_100189010. Mirror (Remote Rocketship, checked employer's site 35 minutes ago) shows remote home-office role with unpublished pay, but a PASS cannot be certified without reading the employer's own page.",
     "where": "memorialhermann.wd5.myworkdayjobs.com",
     "time": "11:38 AM"
-   }
-  ],
-  "Simplify Jobs": [
-   {
-    "company": "Ochsner Health",
-    "role": "Cisco Architect",
-    "reason": "title-not-covered — Serves as the lead architect for the organization's Cisco Webex Contact Center platform (WxCC), the cloud system that routes and manages incoming patient and customer calls. Title 'Cisco Architect' matches no title family in this unit; duties are architect-level, recorded as fly-title per protocol.",
-    "where": "Simplify Jobs",
-    "time": "4:38 AM"
    }
   ],
   "Microsoft careers (employer's own board)": [
@@ -2540,13 +2524,6 @@
     "reason": "stale — Location: Work from home (Pennsylvania)",
     "where": "BuiltIn",
     "time": "11:47 AM"
-   },
-   {
-    "company": "ONEOK",
-    "role": "Cloud Engineer",
-    "reason": "pay-outside-band — $102,000.00 - $154,000.00 workarounds tried: (1) employer's own posting sought - BuiltIn carries the employer's full JD and salary range; (2) alternate search routes found no alternate posting with a different range; (3) no repost or refreshed req of this role found. Role is also engineer-level, not architect-level.",
-    "where": "BuiltIn",
-    "time": "4:43 AM"
    },
    {
     "company": "MetLife",
@@ -3078,9 +3055,9 @@
    {
     "company": "Southwest Airlines",
     "role": "Solutions Architect",
-    "reason": "not-remote — This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus for training, meetings, and business needs. workarounds tried: (1) Built In mirror of the employer posting, (2) JobzMall alternate posting showing the same Dallas location, (3) no fully remote alternate posting found",
+    "reason": "not-remote — This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus for training, meetings, and business needs. workarounds tried: (1) employer's own posting via Built In (governing text), (2) alternate route DiversityJobs ATM Domain posting - same DFW remote restriction, (3) alternate posting - DFW-area restriction is intrinsic; Hubert is Houston-based",
     "where": "Built In",
-    "time": "4:34 AM"
+    "time": "12:04 PM"
    },
    {
     "company": "OhioHealth",
@@ -3102,6 +3079,13 @@
     "reason": "pay-outside-band — Compensation Range: $135,600.00 - $237,400.00 — workarounds tried: (1) employer's own ATS careers.caresource.com searched, no matching posting surfaced; (2) alternate route Built In full JD read; (3) alternate postings at same employer reviewed",
     "where": "Built In",
     "time": "7:46 AM"
+   },
+   {
+    "company": "ONEOK",
+    "role": "Cloud Engineer",
+    "reason": "pay-outside-band — $102,000.00 - $154,000.00 workarounds tried: (1) employer's own posting via Built In (governing compensation text), (2) alternate route Swooped mirror, (3) alternate Network Architect posting - different role; this Cloud Engineer range top is below the $160,000 band floor",
+    "where": "Built In",
+    "time": "12:06 PM"
    },
    {
     "company": "Sherwin-Williams",
@@ -3232,9 +3216,9 @@
    {
     "company": "Horizon Blue Cross Blue Shield of New Jersey",
     "role": "Specialist, Infrastructure Architect",
-    "reason": "stale — Published: 2026-10-19. Salary Range: $123,000 - $167,895. Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware. Workarounds tried: (1) employer mirrors checked — Monster, Built In, GrabJobs all carry the same 2026-10-19 posting with no fresher repost; (2) no alternate posting of the same role found.",
+    "reason": "not-remote — Horizon BCBSNJ employees must live in New Jersey, New York, Pennsylvania, Connecticut or Delaware. workarounds tried: (1) employer's own posting via Built In (governing text), (2) alternate route Monster/GrabJobs mirrors, (3) alternate Cloud Architect posting - same five-state residency restriction; Hubert is Houston-based",
     "where": "Built In",
-    "time": "7:34 AM"
+    "time": "12:06 PM"
    },
    {
     "company": "The Coca-Cola Company",
@@ -4457,6 +4441,13 @@
     "time": "9:16 AM"
    },
    {
+    "company": "PPL",
+    "role": "System Architect - Development",
+    "reason": "not-remote — NOTE: This role is hybrid requiring 3 days on-site at one of our locations: Louisville, KY; Allentown, PA or Providence, RI. workarounds tried: (1) employer's own posting via Ladders (governing text), (2) alternate route Simplify Collaboration Architect posting - same hybrid terms, (3) alternate posting - hybrid requirement is intrinsic",
+    "where": "Ladders",
+    "time": "12:06 PM"
+   },
+   {
     "company": "Old Dominion Freight Line",
     "role": "Security Architect",
     "reason": "experience-mismatch — Minimum of 10+ years of experience in cybersecurity, with at least 5 years in a leadership role or as a cybersecurity architect. — core cybersecurity-leadership requirement outside Hubert's record; workarounds tried: (1) full JD read on Ladders mirror",
@@ -4875,6 +4866,13 @@
     "time": "5:23 AM"
    },
    {
+    "company": "Snowflake",
+    "role": "Solutions Architect, Migrations",
+    "reason": "hands-on — Our teams of Solutions Architects demonstrate technical leadership everyday by writing code, constructing solution architectures. Extensive hands-on expertise with SQL and SQL analytics and scripting languages like Python, Bash, Shell etc. workarounds tried: (1) employer's own posting via DiversityJobs/Built In mirrors, (2) alternate route search, (3) alternate Midwest posting - same writing-code / Python requirements",
+    "where": "DiversityJobs",
+    "time": "12:04 PM"
+   },
+   {
     "company": "NYU Langone Health",
     "role": "Cloud Enterprise Architect - Azure",
     "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. workarounds tried: (1) employer's own posting - NYU Langone careers search surfaced this role only via the DiversityJobs full-JD mirror carrying the employer's salary transparency text; (2) alternate route - Indeed and other mirrors carry the sibling AWS role, not this Azure req; (3) alternate posting - no repost with a different published range found. Published top $240,240 exceeds the $230,000 band top.",
@@ -5085,6 +5083,13 @@
     "reason": "not-remote — This role requires full-time onsite work in San Diego, CA (5 days per week). workarounds tried: (1) Dice full JD opened for Qualcomm Technologies role, (2) alternate route search for same Sr Staff Cloud Architect role - none remote found, (3) alternate posting search - none remote found",
     "where": "Dice",
     "time": "11:32 AM"
+   },
+   {
+    "company": "Ecolab",
+    "role": "ServiceNow Principal Architect - Remote",
+    "reason": "pay-outside-band — The base salary range for this position is $166,300.00 - $249,600.00. workarounds tried: (1) employer's own posting via Dice (governing compensation text), (2) alternate route Monster ServiceNow Architect posting, (3) alternate posting - principal role range is intrinsic",
+    "where": "Dice",
+    "time": "12:04 PM"
    },
    {
     "company": "Whirlpool",
@@ -5324,6 +5329,13 @@
     "time": "1:35 AM"
    },
    {
+    "company": "Ochsner Health",
+    "role": "Cisco Architect",
+    "reason": "not-remote — Full-time New Orleans, LA, USA No salary listed In-person. Serve as the lead architect for the organization's Cisco Webex Contact Center platform, designing scalable, secure, and reliable call routing in Cisco's Flow Designer. workarounds tried: (1) employer's own posting via Simplify (governing text), (2) alternate route search, (3) alternate AVP Hybrid Cloud posting - separate role, this Cisco role is in-person",
+    "where": "Simplify",
+    "time": "12:06 PM"
+   },
+   {
     "company": "ServiceNow",
     "role": "Executive Enterprise Architect",
     "reason": "pay-outside-band — For positions in this location, we offer a base pay of $149,250 - $246,300, plus equity (when applicable), variable/incentive compensation and benefits. workarounds tried: (1) employer's own ServiceNow posting text via Simplify mirror with same range (top $246,300 above $230,000 band top), (2) alternate routes searched for same role, (3) no in-band alternate posting of same role found",
@@ -5416,6 +5428,13 @@
     "reason": "stale — Directs others and/or contributes to project planning, defining, designing, managing, and supporting cloud computing applications. workarounds tried: (1) employer's own Federal Reserve Board posting text via Career.io mirror, posting date Jan 16, 2026, (2) alternate JobLeads route - same posting, 14 days+ with Jan 16 2026 posting date, (3) no fresher repost within 7 days found",
     "where": "Career.io",
     "time": "7:22 AM"
+   },
+   {
+    "company": "PepsiCo",
+    "role": "Application Architect Sr. Manager",
+    "reason": "not-remote — Telecommuting permitted 50%: work may be performed within normal commuting distance from the PepsiCo office in Chicago, IL. workarounds tried: (1) employer's own posting via Career.io/Dice mirrors (governing text, req 435498), (2) alternate route search, (3) alternate posting - same 50% telecommuting limit",
+    "where": "Career.io",
+    "time": "12:04 PM"
    },
    {
     "company": "Johnson Controls",
@@ -6459,6 +6478,15 @@
     "time": "4:43 AM"
    }
   ],
+  "Fidelity Careers": [
+   {
+    "company": "Fidelity Investments",
+    "role": "Director, Architecture",
+    "reason": "hands-on — The Solution Architect will play a hands-on role driving the overall technical architecture. Demonstrated software development experience with expertise in client-side technologies (Angular/React, JavaScript/TypeScript) and strong experience using Java, Java EE/Jakarta EE, Spring Framework/Spring Boot. workarounds tried: (1) employer's own Fidelity Careers posting (governing text), (2) alternate route search, (3) alternate posting - same hands-on development requirements",
+    "where": "Fidelity Careers",
+    "time": "12:04 PM"
+   }
+  ],
   "Sherwin-Williams Careers / Dice": [
    {
     "company": "Sherwin-Williams",
@@ -6502,15 +6530,6 @@
     "reason": "hands-on-coding — Designs and develops software applications with programming languages and deploys Application Program Interfaces (APIs) in the cloud through automation with integrated security and testing. Demonstrated Expertise building applications in Python, Go workarounds tried: (1) employer's own jobs.fidelity.com posting is the governing text, (2) Worqstrap mirror showing the same Westlake hybrid Principal Cloud Engineer role",
     "where": "jobs.fidelity.com",
     "time": "4:35 AM"
-   }
-  ],
-  "Career.io (PepsiCoJobs req 435498 mirror)": [
-   {
-    "company": "PepsiCo",
-    "role": "Application Architect Sr. Manager",
-    "reason": "not-remote — Telecommuting permitted 50%: work may be performed within normal commuting distance from the PepsiCo office in Chicago, IL. Workarounds tried: (1) employer's own PepsiCoJobs req 435498 text is the source of this posting and states 50% telecommuting within commuting distance of Chicago, (2) alternate routes (Career.io mirror of the same req) carry the same terms, (3) no fully remote alternate posting of req 435498 found.",
-    "where": "Career.io (PepsiCoJobs req 435498 mirror)",
-    "time": "4:46 AM"
    }
   ],
   "anitab.org Job Board": [
@@ -7240,6 +7259,15 @@
     "time": "10:27 AM"
    }
   ],
+  "CrawlJobs": [
+   {
+    "company": "Charles Schwab",
+    "role": "Cloud Architect (AWS)",
+    "reason": "hands-on — 8+ years highly technical experience with designing and hands on development Sprint Boot Restful services in Amazon Web Services (AWS). workarounds tried: (1) employer's own posting via CrawlJobs mirror (governing text), (2) alternate route search, (3) alternate Director Architect Principal posting - different role; this role's hands-on AWS development requirement is intrinsic",
+    "where": "CrawlJobs",
+    "time": "12:06 PM"
+   }
+  ],
   "jobs.smartrecruiters.com": [
    {
     "company": "McDonald's",
@@ -7897,13 +7925,13 @@
     "time": "1:22 AM"
    }
   ],
-  "NVoids": [
+  "nvoids": [
    {
     "company": "Federal Reserve Board",
     "role": "Cloud Architect",
-    "reason": "not-remote — Hybrid Work Schedule 1 day Week Onsite LOCAL ONLY! workarounds tried: (1) Federal Reserve Board Cloud Architecture team posting text via NVoids mirror stating hybrid 1 day/week onsite, Washington DC local only (governing text), (2) alternate NVoids route for same team - same hybrid DC terms, (3) no fully remote alternate posting of same role found",
-    "where": "NVoids",
-    "time": "7:22 AM"
+    "reason": "not-remote — Washington DC 20006 - Hybrid Work Schedule 1 day Week Onsite LOCAL ONLY! workarounds tried: (1) employer's own board posting via nvoids mirror (governing text), (2) alternate route search, (3) alternate Principal Cloud Architect posting - on-site Washington, same location restriction",
+    "where": "nvoids",
+    "time": "12:04 PM"
    }
   ],
   "Built In (mirror of Kimberly-Clark posting), cross-checked BuscoJobs": [
@@ -9829,6 +9857,15 @@
     "where": "startup.jobs/Braintrust",
     "time": "11:47 AM"
    }
+  ],
+  "JobApsCloud - State of Maryland": [
+   {
+    "company": "Maryland state portal",
+    "role": "Public Cloud Solution/Lead Engineer",
+    "reason": "stale — Cloud Lead Engineer is responsible for guiding clients through their cloud transformation journeys by designing distributed solutions using cloud-native platforms. Published: 2024-09-06 - posting is from 2024, outside the 7-day eligibility window. workarounds tried: (1) state's own JobApsCloud posting (governing text), (2) alternate JobsEQ mirror, (3) alternate posting - same 2024 announcement",
+    "where": "JobApsCloud - State of Maryland",
+    "time": "12:06 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -11011,5 +11048,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T18:04:17Z"
+ "lists_generated_at": "2026-11-18T18:07:41Z"
 }
