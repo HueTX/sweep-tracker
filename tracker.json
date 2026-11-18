@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T02:51:42Z",
+ "generated_at": "2026-11-18T02:53:53Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T02:49:52Z",
+  "last_activity_at": "2026-11-18T02:52:33Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,23 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 225,
-  "rejected": 1167,
-  "evaluated": 1396
+  "parked": 224,
+  "rejected": 1168,
+  "evaluated": 1397
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1396,
+  "evaluated": 1397,
   "filed": 2,
-  "parked": 225,
-  "rejected": 1167,
+  "parked": 224,
+  "rejected": 1168,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
  "searching_lanes": [
-  "W3",
-  "W16"
+  "W3"
  ],
  "lanes": {
   "LinkedIn": {
@@ -110,8 +109,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:51:42Z",
-   "detail": "Employers 345/73"
+   "heartbeat_at": "2026-11-18T02:53:53Z",
+   "detail": "Employers 360/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -226,13 +225,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:51:42Z",
-   "detail": "Employers 342/59"
+   "heartbeat_at": null,
+   "detail": "Employers 354/59"
   },
   "W17": {
    "label": "Technology",
@@ -306,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "608 of 632 units done",
+   "detail": "614 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -548,10 +547,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:49 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:52 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
    "pool": "W3"
   }
@@ -559,7 +558,7 @@
  "now_viewing": {
   "live": true,
   "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1074,8 +1073,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 236,
@@ -1981,15 +1980,6 @@
     "reason": "not-evaluated — Employer's own Rackspace careers page for this role could not be located or opened in search - only mirrors (diversityjobs, BuiltIn NYC, Torre, Vaia) were found, and mirrors conflict on freshness (BuiltIn: Published: 2025-11-09). Verify cannot be priced on the employer's own page, so not evaluated.",
     "where": "verify-employer-page-search",
     "time": "3:33 PM"
-   }
-  ],
-  "Zoetis careers (employer page not found); mirror DiversityJobs": [
-   {
-    "company": "Zoetis",
-    "role": "Manufacturing & Supply Enterprise Architect, Tech & Digital",
-    "reason": "not-evaluated — Employer's own posting page could not be located or opened: search of zoetis.com/careers returned only the DiversityJobs mirror; no employer-page URL for this title could be opened to confirm location-specific pay (mirror lists $160,000-$230,000 for Colorado and $170,000-$260,000 for California/NJ/NY/Washington, none covering Texas) or liveness.",
-    "where": "Zoetis careers (employer page not found); mirror DiversityJobs",
-    "time": "3:51 PM"
    }
   ],
   "DiversityJobs (Neurocrine Biosciences mirror)": [
@@ -3496,13 +3486,6 @@
     "time": "12:03 AM"
    },
    {
-    "company": "Becton Dickinson (BD)",
-    "role": "Remote Sr. Staff Cloud Architect - AWS",
-    "reason": "hands-on — Proficiency in software development in at least one of these languages - Java, Go, or Python.",
-    "where": "Built In",
-    "time": "11:44 AM"
-   },
-   {
     "company": "Molina Healthcare",
     "role": "Architect, Information Security - DevSecOps/Application Security - Remote",
     "reason": "devsecops-title — Acts as a subject matter expert for application security and DevSecOps practices",
@@ -4002,6 +3985,13 @@
     "reason": "active-clearance — TS//SCI Clearance",
     "where": "builtin.com",
     "time": "4:50 PM"
+   },
+   {
+    "company": "Becton Dickinson (BD)",
+    "role": "Remote Sr. Staff Cloud Architect - AWS",
+    "reason": "cloud-mismatch — Expert experience working with various AWS Cloud Infrastructure, glue, EMR, Step Functions, Cloud Formation, open search, etc. — AWS-first role; also requires Proficiency in software development in at least one of these languages - Java, Go, or Python. Workarounds tried: BuiltIn full JD (2)",
+    "where": "builtin.com",
+    "time": "8:52 PM"
    },
    {
     "company": "Boeing",
@@ -4560,6 +4550,13 @@
     "time": "9:23 AM"
    },
    {
+    "company": "Vertex Pharmaceuticals",
+    "role": "Senior Director, Solution Architect - Core Technology",
+    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000 — workarounds tried: Simplify full JD (2), Ladders mirror same range and Hybrid-Eligible designation (3)",
+    "where": "simplify.jobs",
+    "time": "8:52 PM"
+   },
+   {
     "company": "Starbucks",
     "role": "Principal Enterprise Architect, Partner Technology",
     "reason": "not-remote — We believe we do our best work when we're together, which is why we're onsite four days a week. As the Principal Enterprise Architect, Partner Technology, you will define and drive the future-state architecture that enables the partner experience across the enterprise. workarounds tried: (1) employer's own Starbucks posting text via Simplify mirror opened in full; (2) alternate route Levels.fyi carries the same onsite posting; (3) no remote alternate posting of this role found.",
@@ -4607,6 +4604,13 @@
     "reason": "not-remote — This role requires working from a U.S. Bank location, listed in the posting, three (3) or more days per week. Pay Range: $159,970.00 - $188,200.00. workarounds tried: (1) employer's own U.S. Bank posting text via Simplify mirror with full JD; (2) alternate route Career.io/Dice U.S. Bank architect postings carry the same in-office expectation of 3 or more days per week; (3) no remote alternate posting found.",
     "where": "simplify.jobs",
     "time": "5:09 PM"
+   },
+   {
+    "company": "Gilead Sciences",
+    "role": "Workday Solutions Architect",
+    "reason": "not-remote — Hybrid schedule: Tuesday, Wednesday, and Thursday in office — workarounds tried: Simplify full JD (2), search mirrors show same Foster City hybrid schedule (3)",
+    "where": "simplify.jobs",
+    "time": "8:52 PM"
    }
   ],
   "Monster": [
@@ -7140,13 +7144,20 @@
     "time": "3:44 PM"
    }
   ],
-  "SmartRecruiters (employer ATS)": [
+  "jobs.smartrecruiters.com": [
    {
     "company": "Biogen",
     "role": "Enterprise Cyber Security Architect",
-    "reason": "experience-mismatch — CISSP Certification. workarounds tried: (1) employer own ATS - this SmartRecruiters page is Biogen's own posting, opened in full; (2) alternate routes - no mirror with different core duties found; (3) no alternate posting of this security-architect role found. Core is enterprise security architecture with AWS security solutions, not Azure infrastructure architecture.",
-    "where": "SmartRecruiters (employer ATS)",
-    "time": "3:35 AM"
+    "reason": "experience-mismatch — 5-10 Years of combined experience in Information Security or Cloud Computing — CISSP Certification required; core is enterprise security architecture/InfoSec, not Hubert's Azure cloud/infrastructure architecture experience. Workarounds tried: Biogen SmartRecruiters ATS page opened as governing text",
+    "where": "jobs.smartrecruiters.com",
+    "time": "8:52 PM"
+   },
+   {
+    "company": "McDonald's",
+    "role": "Senior Solutions Architect",
+    "reason": "closed — 110 N Carpenter St, Chicago, IL 60607, USA",
+    "where": "jobs.smartrecruiters.com",
+    "time": "2:22 PM"
    }
   ],
   "Ladders / jobs.baxter.com": [
@@ -8513,15 +8524,6 @@
     "time": "12:03 AM"
    }
   ],
-  "Simplify/Ladders": [
-   {
-    "company": "Vertex Pharmaceuticals",
-    "role": "Senior Director, Solution Architect - Core Technology",
-    "reason": "pay-outside-band — Pay Range: $228,000 - $342,000 | workarounds tried: (1) employer posting via Simplify/Ladders mirrors carrying full JD, (2) alternate mirrors BuiltIn/Simplify, (3) no alternate in-band posting found",
-    "where": "Simplify/Ladders",
-    "time": "3:50 PM"
-   }
-  ],
   "Built In Colorado": [
    {
     "company": "Marsh McLennan",
@@ -8991,15 +8993,6 @@
     "reason": "stale — This position serves as a primary technical lead within the Framework pillar of OTHS. workarounds tried: Maryland portal JD governing; no alternate/repost found",
     "where": "Maryland state portal",
     "time": "6:29 AM"
-   }
-  ],
-  "jobs.smartrecruiters.com": [
-   {
-    "company": "McDonald's",
-    "role": "Senior Solutions Architect",
-    "reason": "closed — 110 N Carpenter St, Chicago, IL 60607, USA",
-    "where": "jobs.smartrecruiters.com",
-    "time": "2:22 PM"
    }
   ],
   "SonicJobs": [
@@ -10194,13 +10187,13 @@
     "time": "10:27 AM"
    }
   ],
-  "O*NET/Ladders": [
+  "onetonline.org": [
    {
     "company": "Ally Financial",
     "role": "Fellow Solution Architect",
-    "reason": "pay-outside-band — Base Pay Range $135,000.00 - $235,000.00 | workarounds tried: (1) employer posting via O*NET/Ladders full JD, (2) alternate mirrors, (3) no alternate in-band posting found; role is also Hybrid, Detroit, MI, Charlotte, NC",
-    "where": "O*NET/Ladders",
-    "time": "3:50 PM"
+    "reason": "not-remote — Hybrid, Detroit, MI, Charlotte, NC, Full time, R2600844 — workarounds tried: O*NET/Ally posting full JD (2), Ladders mirror shows same hybrid Detroit/Charlotte role (3); pay top $235,000 also above band",
+    "where": "onetonline.org",
+    "time": "8:52 PM"
    }
   ],
   "Bank of America careers (employer own)": [
@@ -10584,13 +10577,13 @@
     "time": "6:50 AM"
    }
   ],
-  "Synchrony Workday (employer ATS)": [
+  "synchronyfinancial.wd5.myworkdayjobs.com": [
    {
     "company": "Synchrony Financial",
     "role": "VP, Cloud Solution Architect",
-    "reason": "pay-outside-band — The salary range for this position is 155,000.00 - 260,000.00 USD Annual | workarounds tried: (1) employer's own Workday posting (governing text, this page), (2) Simplify/BuiltIn mirrors, (3) no alternate in-band posting found",
-    "where": "Synchrony Workday (employer ATS)",
-    "time": "3:50 PM"
+    "reason": "pay-outside-band — The salary range for this position is 155,000.00 - 260,000.00 USD Annual — workarounds tried: employer's own Workday posting opened as governing text (1); same range on BuiltIn/Simplify mirrors (2/3)",
+    "where": "synchronyfinancial.wd5.myworkdayjobs.com",
+    "time": "8:52 PM"
    }
   ],
   "Built In Austin": [
@@ -13407,5 +13400,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T02:51:42Z"
+ "lists_generated_at": "2026-11-18T02:53:53Z"
 }
