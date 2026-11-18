@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T01:59:58Z",
+ "generated_at": "2026-11-18T02:03:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T01:57:33Z",
+  "last_activity_at": "2026-11-18T02:02:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -45,10 +45,10 @@
  "searching_lanes": [
   "W2",
   "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16"
+  "W17",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -103,8 +103,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 195/39"
+   "heartbeat_at": "2026-11-18T02:03:34Z",
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,41 +114,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 195/73"
+   "heartbeat_at": "2026-11-18T02:03:34Z",
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 186/32"
+   "heartbeat_at": null,
+   "detail": "Employers 188/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 195/44"
+   "heartbeat_at": null,
+   "detail": "Employers 200/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,56 +230,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 200/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:59:58Z",
-   "detail": "Employers 195/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:03:34Z",
    "detail": "Employers 195/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:03:34Z",
    "detail": "Employers 195/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:03:34Z",
    "detail": "Employers 195/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T02:03:34Z",
    "detail": "Employers 183/31"
   }
  },
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "446 of 632 units done",
+   "detail": "452 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -552,18 +552,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:57 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:02 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W2"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W2",
-  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "label": "W17",
+  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -6041,19 +6041,19 @@
    {
     "company": "Penn Medicine",
     "role": "Senior Principal Enterprise Architect",
-    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — Work Schedule: Hybrid. workarounds tried: employer's own careers page (governing text) + Dice mirror for the same req.",
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104. Work Schedule: Hybrid. workarounds tried: (1) employer's own careers page (governing text, hybrid), (2) Dice mirror search, (3) no alternate remote posting found",
     "where": "Penn Medicine careers",
-    "time": "3:07 PM"
-   }
-  ],
-  "careers.pennmedicine.org": [
+    "time": "8:02 PM"
+   },
    {
     "company": "Penn Medicine",
     "role": "Corporate Director Enterprise Cloud Architecture",
-    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — workarounds tried: (1) employer's own ATS posting at careers.pennmedicine.org (governing text, Hybrid), (2) alternate route Dice mirror showing same Hybrid location, (3) no alternate remote posting of same role found",
-    "where": "careers.pennmedicine.org",
-    "time": "2:50 AM"
-   },
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104. Work Schedule: Hybrid. workarounds tried: (1) employer's own careers page (governing text, hybrid), (2) Dice mirror - same hybrid location, (3) no alternate remote posting found",
+    "where": "Penn Medicine careers",
+    "time": "8:02 PM"
+   }
+  ],
+  "careers.pennmedicine.org": [
    {
     "company": "Penn Medicine",
     "role": "Senior Principal EA Infrastructure and DR Strategy",
@@ -6062,13 +6062,13 @@
     "time": "2:52 PM"
    }
   ],
-  "uclahealth.avature.net": [
+  "UCLA Health Avature": [
    {
     "company": "UCLA Health",
     "role": "Senior Data Architect",
-    "reason": "not-remote — This flexible hybrid role allows for a blend of remote and on-site work, requiring presence on-site at least 10% of the time, and as needed by operational requirements. workarounds tried: (1) employer's own posting at uclahealth.avature.net opened and governing; (2) alternate route Career.io mirror for the same UCLA Health data architect role checked, same flexible hybrid terms; (3) no alternate posting of this role is fully remote.",
-    "where": "uclahealth.avature.net",
-    "time": "2:49 PM"
+    "reason": "not-remote — This flexible hybrid role allows for a blend of remote and on-site work, requiring presence on-site at least 10% of the time, and as needed by operational requirements. workarounds tried: (1) employer's own Avature page (governing text, hybrid), (2) Career.io mirror - also flexible hybrid, (3) no alternate remote posting found; salary range also $132,300 - $307,100, top above band",
+    "where": "UCLA Health Avature",
+    "time": "8:02 PM"
    }
   ],
   "sonicjobs.com": [
@@ -13066,5 +13066,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T01:59:58Z"
+ "lists_generated_at": "2026-11-18T02:03:34Z"
 }
