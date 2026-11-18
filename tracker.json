@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T02:37:51Z",
+ "generated_at": "2026-11-18T02:39:27Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T02:36:51Z",
+  "last_activity_at": "2026-11-18T02:38:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,29 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 224,
+  "parked": 225,
   "rejected": 1151,
-  "evaluated": 1379
+  "evaluated": 1380
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1379,
+  "evaluated": 1380,
   "filed": 2,
-  "parked": 224,
+  "parked": 225,
   "rejected": 1151,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -115,7 +108,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 270/73"
+   "detail": "Employers 280/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -131,24 +124,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 260/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 260/44"
+   "heartbeat_at": null,
+   "detail": "Employers 264/44"
   },
   "W9": {
    "label": "Dice",
@@ -230,46 +223,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 265/59"
+   "heartbeat_at": null,
+   "detail": "Employers 280/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 265/54"
+   "heartbeat_at": null,
+   "detail": "Employers 280/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 265/45"
+   "heartbeat_at": null,
+   "detail": "Employers 270/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T02:37:51Z",
-   "detail": "Employers 245/41"
+   "heartbeat_at": null,
+   "detail": "Employers 246/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "560 of 632 units done",
+   "detail": "572 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:36 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 8:38 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1967,6 +1954,15 @@
     "reason": "title-not-covered — We are seeking a Solution Architect to become a key member of our architecture team, driving the design and implementation of sophisticated, enterprise-level technology solutions.",
     "where": "EPAM Careers (employer's own page)",
     "time": "7:17 AM"
+   }
+  ],
+  "SonicJobs": [
+   {
+    "company": "Xylem",
+    "role": "Enterprise Data Architect",
+    "reason": "stale-unverified — Xylem is seeking an Enterprise Data Architect to design and guide the evolution of our enterprise-wide data architecture across both legacy and modern cloud platforms. | Expertise across: Databricks (Delta Lake, Unity Catalog, Lakehouse) - Legacy BI & DBMS (Oracle, Cognos, Business Objects, SAP BW) | No posting date on the detail page and no remote statement - provisional park, date and work model unverified",
+    "where": "SonicJobs",
+    "time": "8:38 PM"
    }
   ],
   "verify-employer-page-search": [
@@ -4253,6 +4249,13 @@
     "time": "1:16 AM"
    },
    {
+    "company": "Dover Corporation",
+    "role": "Sr Security Architect, Cloud & Network",
+    "reason": "not-remote — Role is based in Downers Grove, Illinois (Hybrid). | Work Arrangement: Hybrid | Pay Range: $150,000.00 - $180,000.00 annually | workarounds tried: (1) employer posting text via Dice detail page checked, (2) alternate routes searched, (3) no remote alternate posting found",
+    "where": "Dice",
+    "time": "8:38 PM"
+   },
+   {
     "company": "Becton Dickinson (BD)",
     "role": "Director of Platform Engineering & Cloud Operations",
     "reason": "not-remote — This role is on-site 5 days per week.",
@@ -5146,9 +5149,9 @@
    {
     "company": "S&P Global",
     "role": "Global Head of Cloud & Infrastructure",
-    "reason": "pay-outside-band — S&P Global states that the anticipated base salary range for this position is $220,000 to $350,000. workarounds tried: BuiltIn mirror of employer's posting, top $350,000 above $230,000 band top",
+    "reason": "pay-outside-band — S&P Global states that the anticipated base salary range for this position is $220,000 to $350,000. | Architect and operate S&P Global's hybrid, multi-cloud estate across Google Cloud, AWS, and Azure | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate S&P architect postings checked (tops $280,000-$325,000), (3) no in-band alternate posting found",
     "where": "BuiltIn",
-    "time": "3:37 PM"
+    "time": "8:38 PM"
    },
    {
     "company": "Johnson Controls",
@@ -6146,13 +6149,6 @@
     "reason": "experience-mismatch — Advanced proficiency and extensive hands-on SAP experience, including S/4HANA, ECC architecture, and landscape design. This role will shape the long-term strategy of its enterprise ERP ecosystem. workarounds tried: (1) employer's own ATS posting searched for Phillips 66 ERP Platform Architect; (2) alternate route SonicJobs mirror opened with full JD text; (3) no alternate non-SAP posting of this role found.",
     "where": "sonicjobs.com",
     "time": "5:08 PM"
-   },
-   {
-    "company": "Xylem",
-    "role": "Enterprise Data Architect",
-    "reason": "experience-mismatch — 8+ years of experience in enterprise data architecture across both legacy and cloud-native environments. Expertise across: Databricks (Delta Lake, Unity Catalog, Lakehouse), Legacy BI & DBMS (Oracle, Cognos, Business Objects, SAP BW), Azure Data Services (ADF, Data Lake, Synapse, Azure SQL). workarounds tried: (1) Xylem own JD text on this mirror is Charlotte, NC based with no remote offer and a data-architecture core; (2) alternate search routes returned no remote version; (3) no alternate posting with an infrastructure core found. Hubert's core is Azure infrastructure architecture, not enterprise data architecture/Databricks.",
-    "where": "sonicjobs.com",
-    "time": "3:34 PM"
    }
   ],
   "builtinsf.com": [
@@ -7167,6 +7163,13 @@
     "reason": "pay-outside-band — The pay range for this position at commencement of employment is expected to be between USD $ 239,000 and USD $ 359,000 per year.",
     "where": "Startup.jobs",
     "time": "6:37 AM"
+   },
+   {
+    "company": "Cloudflare",
+    "role": "Principal Solutions Architect",
+    "reason": "pay-outside-band — For Chicago Atlanta, based hires: Estimated annual salary of $248,000 - $275,000 - For Florida,NC based hires: Estimated annual salary of $216,000 - $264,000 - For New York City, Washington D.C. and Seattle based hires: Estimated annual salary of $257,000 - $314,000. - For San Francisco based hires: Estimated annual salary of $270,000 - $330,000. | Available Location:Remote, US | workarounds tried: (1) employer posting text via Startup.jobs/Swooped mirrors checked, (2) BuiltIn alternate routes checked, (3) all geographic ranges carry tops above $230,000",
+    "where": "Startup.jobs",
+    "time": "8:38 PM"
    },
    {
     "company": "Novartis",
@@ -9134,13 +9137,6 @@
     "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs. The estimated salary range for a new hire into this position is 163,500.00 to 212,500.00 USD per year.",
     "where": "startup.jobs",
     "time": "3:24 PM"
-   },
-   {
-    "company": "Cloudflare",
-    "role": "Principal Solutions Architect",
-    "reason": "experience-mismatch — You are a customer facing hands-on technologist with credibility built on domain expertise across Cloudflare portfolio. Experience with Application, Security, Performance and Reliability products such as WAF, Bot Management, DDOS, Firewall, DNS and CDN. workarounds tried: (1) Cloudflare own JD text reproduced on startup.jobs/swooped carries same Cloudflare-portfolio domain core; (2) alternate swooped route same text; (3) no alternate posting with Azure infrastructure core found. Also all published location pay tops exceed $230,000 ($264,000-$330,000). Core is CDN/WAF/security-product domain, not Hubert's Azure infrastructure architecture.",
-    "where": "startup.jobs",
-    "time": "3:34 PM"
    },
    {
     "company": "Zoom",
@@ -11685,9 +11681,9 @@
    {
     "company": "CrowdStrike",
     "role": "Sr. Cloud Security Architect, GCP",
-    "reason": "cloud-mismatch — CrowdStrike is looking for a Sr. Cloud Security Architect to serve as the primary technical authority for our Google Cloud Platform (GCP) ecosystem. Expert-Level GCP: Deep, hands-on experience securing Google Cloud (Organization hierarchy, Workload Identity, Cloud Armor, and KMS). workarounds tried: (1) BuiltIn SF employer listing, governing GCP-first text; (2) no Azure-first alternate posting of this role found",
+    "reason": "cloud-mismatch — CrowdStrike is looking for a Sr. Cloud Security Architect to serve as the primary technical authority for our Google Cloud Platform (GCP) ecosystem. | Expert-Level GCP: Deep, hands-on experience securing Google Cloud (Organization hierarchy, Workload Identity, Cloud Armor, and KMS). | The base salary range for this position for all U.S. candidates is $125,000 - $180,000 per year | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate routes searched, (3) GCP-first scope is posting-intrinsic",
     "where": "BuiltIn SF",
-    "time": "11:32 AM"
+    "time": "8:38 PM"
    }
   ],
   "USAJobs (OPM)": [
@@ -11843,13 +11839,13 @@
     "time": "3:02 PM"
    }
   ],
-  "Mastercard careers (employer page)": [
+  "careers.mastercard.com (employer's own page)": [
    {
     "company": "Mastercard",
     "role": "Senior Platform Architect (Infrastructure Design, IaaS, Cloud Architecture, F5, Network Security)",
-    "reason": "not-remote — Senior Platform Architect (Infrastructure Design, IaaS, Cloud Architecture, F5, Network Security) in Pune, India, 411006 at Mastercard. The Infrastructure Engineering team is looking for a Senior Platform Architect to lead the design and evolution of secure, scalable, and resilient enterprise infrastructure platforms. Published: 2026-11-01 on the employer's own careers site; location is Pune, India, not US remote.",
-    "where": "Mastercard careers (employer page)",
-    "time": "3:24 PM"
+    "reason": "closed — We're sorry…this specific position is no longer available, but there may be a similar role that is of interest to you. | Senior Platform Architect (Infrastructure Design, IaaS, Cloud Architecture, F5, Network Security) in Pune, India, 411006 at Mastercard",
+    "where": "careers.mastercard.com (employer's own page)",
+    "time": "8:38 PM"
    }
   ],
   "recruit.net": [
@@ -13282,5 +13278,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T02:37:51Z"
+ "lists_generated_at": "2026-11-18T02:39:27Z"
 }
