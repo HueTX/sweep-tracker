@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T18:44:26Z",
+ "generated_at": "2026-11-18T18:47:11Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T18:42:22Z",
+  "last_activity_at": "2026-11-18T18:45:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 137,
-  "rejected": 997,
-  "evaluated": 1135
+  "rejected": 999,
+  "evaluated": 1137
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1135,
+  "evaluated": 1137,
   "filed": 0,
   "parked": 137,
-  "rejected": 997,
+  "rejected": 999,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
   "W3",
-  "W4",
-  "W18",
+  "W5",
+  "W6",
+  "W16",
   "W19",
   "W20"
  ],
@@ -100,8 +101,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 200/39"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 205/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,41 +112,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 205/73"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 210/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
+   "phase": "done",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 192/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 190/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 210/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/44"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 210/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +228,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 205/59"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 210/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,18 +245,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 205/54"
+   "detail": "Employers 210/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 200/45"
+   "heartbeat_at": null,
+   "detail": "Employers 210/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +266,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 195/41"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 205/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,8 +277,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:44:26Z",
-   "detail": "Employers 183/31"
+   "heartbeat_at": "2026-11-18T18:47:11Z",
+   "detail": "Employers 184/31"
   }
  },
  "stages": {
@@ -307,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "460 of 632 units done",
+   "detail": "472 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -549,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:42 PM CT · 10 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:45 PM CT · 10 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W19 · Title 1 of 58 · Azure Architect",
@@ -3314,6 +3315,13 @@
     "time": "12:25 PM"
    },
    {
+    "company": "Kimberly-Clark",
+    "role": "Principal Enterprise Architect, Merges and Acquisitions",
+    "reason": "non-US — Primary Location No-KC Site Brazil - Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA - K-C requires that an employee have authorization to work in the country in which the role is based. Role is based outside the US (Brazil/Argentina/India), not US-remote.",
+    "where": "Built In",
+    "time": "12:45 PM"
+   },
+   {
     "company": "Chubb",
     "role": "Lead Solution Architect",
     "reason": "stale — As a Lead Solution Architect on our North America Commercial Insurance Solution Architecture and Engineering team, you will turn complex business and insurance strategy into scalable, secure, and resilient technology solutions. Published 2026-10-28, outside 7-day eligibility. workarounds tried: (1) employer's own ATS posting (Chubb careers), (2) alternate route Built In full JD read, (3) alternate postings of same role — no fresher posting found",
@@ -3522,6 +3530,13 @@
     "reason": "not-remote — Location: USA Home Office Framingham MA 770 Cochituate Rd. This position has a starting salary range of $138,400.00 to $179,900.00 per year. CareerBuilder lists the same TJX Principal Architect role in Framingham, MA as Onsite, Full-Time. Workarounds tried: (1) employer JD text via Built In/Simplify mirrors showing the Framingham home-office location, (2) CareerBuilder mirror marked Onsite, (3) no remote alternate posting of this Oracle Retail role found.",
     "where": "Built In",
     "time": "3:58 AM"
+   },
+   {
+    "company": "Goodyear",
+    "role": "Senior AWS Application Development Architect",
+    "reason": "hands-on — Contribute directly to critical application components and complex features - plus: Expertise in Python 3.X, Django 3.2.x, Django Rest Framework 3.14.x (edited), Celery, Flask, or Node.js. Hands-on Development is a named section of the role; AWS-only application development, not Azure architecture. Workarounds tried: (1) full JD on Built In, (2) Qureos mirror carries the same Goodyear application-development duties, (3) no alternate architect-level posting found.",
+    "where": "Built In",
+    "time": "12:45 PM"
    },
    {
     "company": "Highmark Health",
@@ -3739,6 +3754,13 @@
     "reason": "cloud-mismatch — We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions for large-scale enterprise environments. — AWS-first role (Amazon VPC, PrivateLink, AWS CDK); Azure excluded from the core. Full JD read on Monster (Slalom Flex project-based contract, Ref # 2425, posted 2026-10-19; contract range 100-120/hr would clear the contract floor, so cloud platform is the verdict). Workarounds tried: alternate surfaces carry the same AWS-networking JD; no Azure-led alternate posting found.",
     "where": "Monster",
     "time": "8:39 AM"
+   },
+   {
+    "company": "Providence Health Plan",
+    "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
+    "reason": "not-remote — Providence welcomes virtual work for applicants who reside in one of the following States: Washington Oregon California - virtual work restricted to WA/OR/CA; Hubert resides in Texas. Workarounds tried: (1) full JD on Monster, (2) DiversityJobs mirrors carry the same WA/OR/CA restriction for req 397307, (3) no Texas-eligible alternate posting found.",
+    "where": "Monster",
+    "time": "12:45 PM"
    },
    {
     "company": "Slalom",
@@ -5438,6 +5460,13 @@
     "reason": "hands-on — As an Expert Cloud Solution Architect, you will use your experience and expertise within API Solution Architecture, design and implementation using Python, to support enterprise-level analytics solutions.; Experience with Pyspark, Shell Scripting, Azure Databricks; workarounds tried: (1) employer's own nestlejobs.com requisition 357965 referenced in JD, (2) Simplify full JD opened, (3) alternate listings - same Python/PySpark implementation duties",
     "where": "Simplify",
     "time": "4:54 AM"
+   },
+   {
+    "company": "Carrier Global",
+    "role": "Associate Director - Enterprise Architecture",
+    "reason": "cloud-mismatch — Provide expert-level guidance on the design and implementation of complex, large-scale solutions on AWS and GCP. AWS/GCP only, Azure excluded; also listed In-person in Palm Beach Gardens, FL. Workarounds tried: (1) full JD on Simplify, (2) search mirrors carry the same AWS/GCP scope, (3) no Azure-inclusive alternate posting found.",
+    "where": "Simplify",
+    "time": "12:45 PM"
    }
   ],
   "OilProfessionals": [
@@ -8610,15 +8639,6 @@
     "time": "7:55 AM"
    }
   ],
-  "DiversityJobs (mirror of Providence Jobs posting), cross-checked second mirror": [
-   {
-    "company": "Providence Health Plan",
-    "role": "Principal IS Architect PHP, Healthcare Technology Solutions",
-    "reason": "not-remote — Providence welcomes virtual work for applicants who reside in one of the following States: Washington - Oregon - California — workarounds tried: (1) employer's own Providence Jobs posting text reproduced in full on the mirror (Requisition ID 397307, Workplace Type: Remote, states WA/OR/CA only), (2) alternate Beaverton, OR mirror of the same req shows the same state restriction, (3) no Texas-eligible alternate posting of the same role found; Hubert resides in Texas, so the role is not remote-eligible for him",
-    "where": "DiversityJobs (mirror of Providence Jobs posting), cross-checked second mirror",
-    "time": "8:16 AM"
-   }
-  ],
   "GrabJobs/Jooble (Danaher JD)": [
    {
     "company": "Danaher",
@@ -9768,15 +9788,6 @@
     "reason": "clearance — Must Active Top-Secret Clearance or higher. US Citizenship is required. Experience working with DOD or other Federal Government environment.",
     "where": "CareerBuilder (Capgemini Government Solutions)",
     "time": "5:05 AM"
-   }
-  ],
-  "Built In (mirror of Goodyear posting), cross-checked Career.io/Adzuna": [
-   {
-    "company": "Goodyear",
-    "role": "Senior AWS Application Development Architect",
-    "reason": "hands-on — Expertise in Python 3.X, Django 3.2.x, Django Rest Framework 3.14.x (edited), Celery, Flask, or Node.js — Hands On Development: Contribute directly to critical application components and complex features; 8-12+ years of software engineering experience — workarounds tried: (1) employer's own careers search (jobs.goodyear.com) did not surface a different governing text, (2) alternate routes Career.io/Adzuna mirrors of the same JD show the same Python/Django hands-on duties, (3) no alternate posting of the same role without hands-on coding duties found",
-    "where": "Built In (mirror of Goodyear posting), cross-checked Career.io/Adzuna",
-    "time": "8:14 AM"
    }
   ],
   "Career.io (Gilead mirror)": [
@@ -11365,5 +11376,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T18:44:26Z"
+ "lists_generated_at": "2026-11-18T18:47:11Z"
 }
