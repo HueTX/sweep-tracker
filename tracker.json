@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T04:59:46Z",
+ "generated_at": "2026-11-18T05:02:13Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T04:59:03Z",
+  "last_activity_at": "2026-11-18T05:01:40Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,21 +28,28 @@
  "counts": {
   "filed": 2,
   "parked": 238,
-  "rejected": 1266,
-  "evaluated": 1508
+  "rejected": 1267,
+  "evaluated": 1509
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1508,
+  "evaluated": 1509,
   "filed": 2,
   "parked": 238,
-  "rejected": 1266,
+  "rejected": 1267,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W1",
+  "W2",
+  "W3",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -80,35 +87,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T05:02:13Z",
    "detail": "Employers 175/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T05:02:13Z",
    "detail": "Employers 175/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 170/73"
+   "heartbeat_at": "2026-11-18T05:02:13Z",
+   "detail": "Employers 175/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -119,7 +126,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/32"
+   "detail": "Employers 175/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -130,7 +137,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/44"
+   "detail": "Employers 175/44"
   },
   "W6": {
    "label": "Utilities",
@@ -141,7 +148,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/44"
+   "detail": "Employers 175/44"
   },
   "W9": {
    "label": "Dice",
@@ -229,7 +236,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/59"
+   "detail": "Employers 175/59"
   },
   "W17": {
    "label": "Technology",
@@ -240,39 +247,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 170/54"
+   "detail": "Employers 175/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T05:02:13Z",
    "detail": "Employers 170/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T05:02:13Z",
    "detail": "Employers 170/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T05:02:13Z",
    "detail": "Employers 170/31"
   }
  },
@@ -303,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "396 of 632 units done",
+   "detail": "402 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -545,13 +552,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:59 PM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 11:01 PM CT · 7 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W18 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W18"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W18",
+  "headline": "W18 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4048,6 +4061,13 @@
     "reason": "stale — The FICO Solution Architect will focus on defining solution strategy and design principles, ensuring the alignment between the business needs and technical solutions.",
     "where": "BuiltIn",
     "time": "7:31 PM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - AI Platform & Solutions",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) employer's own posting text via BuiltIn mirror carries same hybrid requirement, (2) alternate routes checked - same posting, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "11:01 PM"
    },
    {
     "company": "The Hartford",
@@ -8869,15 +8889,6 @@
     "time": "7:46 PM"
    }
   ],
-  "Built In (MetLife mirror)": [
-   {
-    "company": "MetLife",
-    "role": "Principal Architect - AI Platform & Solutions",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) MetLife careers text via BuiltIn mirror checked, (2) alternate routes MetLife own careers site for other Principal Architect roles checked - also hybrid, (3) alternate posting of same role checked - no remote variant found.",
-    "where": "Built In (MetLife mirror)",
-    "time": "2:34 PM"
-   }
-  ],
   "Built In NYC / MetLife": [
    {
     "company": "MetLife",
@@ -10499,13 +10510,13 @@
     "time": "1:09 PM"
    }
   ],
-  "RemoteRocketship": [
+  "boards.greenhouse.io/accenturefederalservices (employer's own ATS)": [
    {
     "company": "Accenture Federal Services",
     "role": "Enterprise Integration Gateway Platform Architect",
-    "reason": "duplicate — Lead the architecture and technical roadmap for the Azure Enterprise Integration Gateway",
-    "where": "RemoteRocketship",
-    "time": "10:26 AM"
+    "reason": "duplicate — Microsoft Enterprise Integration Gateway Platform Architect - Accenture Federal Services, Greenhouse job 4726524006 (the role filed 2026-11-09, filings row 645)",
+    "where": "boards.greenhouse.io/accenturefederalservices (employer's own ATS)",
+    "time": "11:00 PM"
    }
   ],
   "Built In (Kimberly-Clark posting)": [
@@ -11432,13 +11443,13 @@
     "time": "10:36 PM"
    }
   ],
-  "RemoteRocketship / Accenture Federal Services careers (Greenhouse)": [
+  "Accenture Federal Services careers via RemoteRocketship": [
    {
     "company": "Accenture Federal Services",
     "role": "Cloud Enterprise Architect",
     "reason": "clearance — Must have an active Top Secret clearance",
-    "where": "RemoteRocketship / Accenture Federal Services careers (Greenhouse)",
-    "time": "7:41 PM"
+    "where": "Accenture Federal Services careers via RemoteRocketship",
+    "time": "11:01 PM"
    }
   ],
   "DiversityJobs (Capgemini Government Solutions posting)": [
@@ -13083,6 +13094,15 @@
     "where": "Minnesota Technology Job Board",
     "time": "10:57 PM"
    }
+  ],
+  "Accenture careers": [
+   {
+    "company": "Accenture",
+    "role": "AWS Cloud-Native Pre-Sales Solution Architect",
+    "reason": "cloud-mismatch — Minimum 10 of years of AWS systems engineering skills in support of estimating Application modernization, Data Modernization, containerization, and re-engineering solutions on AWS. workarounds tried: (1) employer's own Accenture careers page is the governing text and is AWS-specialized throughout, (2) alternate routes carry same AWS-centric req, (3) no Azure/multi-cloud alternate posting found; also published ranges reach $434,000, above the $230,000 band top",
+    "where": "Accenture careers",
+    "time": "11:01 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -14262,5 +14282,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T04:59:46Z"
+ "lists_generated_at": "2026-11-18T05:02:13Z"
 }
