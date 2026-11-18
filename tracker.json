@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T09:07:51Z",
+ "generated_at": "2026-11-18T09:10:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -15,35 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T09:06:43Z",
+  "last_activity_at": "2026-11-18T09:08:32Z",
   "progress": {
    "pools": 21,
-   "covered_units": 232,
+   "covered_units": 280,
    "total_units": 754,
-   "pct": 31
+   "pct": 37
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 57,
-  "rejected": 401,
-  "evaluated": 458
+  "parked": 58,
+  "rejected": 406,
+  "evaluated": 464
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 458,
+  "evaluated": 464,
   "filed": 0,
-  "parked": 57,
-  "rejected": 401,
+  "parked": 58,
+  "rejected": 406,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W7",
-  "W5",
-  "W6",
-  "W16"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -76,7 +76,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:07:51Z",
+   "heartbeat_at": "2026-11-18T09:10:25Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -126,24 +126,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:07:51Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:07:51Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W9": {
    "label": "Dice",
@@ -225,45 +225,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T09:07:51Z",
-   "detail": "Employers 5/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T09:10:25Z",
    "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T09:10:25Z",
    "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T09:10:25Z",
    "detail": "Employers 5/41"
   },
   "W20": {
@@ -305,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "29 of 632 units done",
+   "detail": "35 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -547,10 +547,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:06 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:08 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W7 · Title 19 of 58 · Principal Technical Architect",
+   "primary": "W7 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
    "pool": "W7"
   }
@@ -558,7 +558,7 @@
  "now_viewing": {
   "live": true,
   "label": "W7",
-  "headline": "W7 · Title 19 of 58 · Principal Technical Architect",
+  "headline": "W7 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1261,6 +1261,15 @@
     "reason": "stale-unverified — As a Senior Lead Architect at JPMorganChase within Corporate Technology's Enterprise Architecture team, you are an integral part of a team that develops high-quality architecture solutions for software applications and platform products.",
     "where": "Dice",
     "time": "12:14 AM"
+   }
+  ],
+  "UpsilonJobs (Southern Company mirror)": [
+   {
+    "company": "Southern Company",
+    "role": "Cyber Security Architect - Azure Cloud Specialist",
+    "reason": "title-not-covered — Southern Company, a major U.S. energy firm, is seeking a highly skilled cloud security architect and technical leader, to design creative solutions and reduce risk.",
+    "where": "UpsilonJobs (Southern Company mirror)",
+    "time": "3:08 AM"
    }
   ],
   "theladders.com": [
@@ -2186,6 +2195,15 @@
     "time": "12:30 AM"
    }
   ],
+  "SheCanCode (Shell mirror)": [
+   {
+    "company": "Shell",
+    "role": "Principal Enterprise Architect",
+    "reason": "not-remote — Shell in The United Kingdom | workarounds tried: (1) employer own ATS - Shell careers carries this Principal Enterprise Architect req for its UK business (London - Shell Centre), not a US remote role, (2) alternate route SheCanCode / KIDAB mirrors checked in full, both UK-based, (3) alternate posting - no US-remote alternate posting of this req found",
+    "where": "SheCanCode (Shell mirror)",
+    "time": "3:08 AM"
+   }
+  ],
   "Halliburton careers": [
    {
     "company": "Halliburton",
@@ -2728,6 +2746,15 @@
     "reason": "pay-outside-band — Salary Range: $181,400 - $235,800 USD - top $235,800 exceeds $230,000 band. As a Sr. Staff Engineer, you'll lead the evolution and modernization of our GitHub infrastructure in collaboration with other engineering platform teams. workarounds tried: (1) Career.io employer mirror, (2) SonicJobs alternate route same range, (3) no alternate posting with different range found.",
     "where": "Career.io",
     "time": "1:37 AM"
+   }
+  ],
+  "Simplify Jobs (CenterPoint Energy mirror)": [
+   {
+    "company": "CenterPoint Energy",
+    "role": "IT Enterprise Architect",
+    "reason": "closed — Posting End Date: 10/03/2025",
+    "where": "Simplify Jobs (CenterPoint Energy mirror)",
+    "time": "3:08 AM"
    }
   ],
   "jobs.nexteraenergy.com": [
@@ -3950,6 +3977,15 @@
     "time": "3:06 AM"
    }
   ],
+  "Google Jobs - AI Remote Jobs (CSAA mirror)": [
+   {
+    "company": "CSAA Insurance Group",
+    "role": "Enterprise AI Security Architect - Enterprise Architecture - Remote",
+    "reason": "pay-outside-band — The starting pay range for this position across all the states we hire in is $186,660.00-$248,750.00. | workarounds tried: (1) employer own ATS - CSAA's Workday posting for requisition R7975 carries the same $186,660-$248,750 all-states range, top above the $230,000 band ceiling, (2) alternate route AI Remote Jobs / WeAreDevelopers mirrors checked in full with the same range, (3) alternate posting - no in-band alternate posting of this req found",
+    "where": "Google Jobs - AI Remote Jobs (CSAA mirror)",
+    "time": "3:08 AM"
+   }
+  ],
   "DiversityJobs / Providence Health Plan": [
    {
     "company": "Providence Health Plan",
@@ -4146,6 +4182,15 @@
     "reason": "not-remote — Bank of America is committed to an in-office culture with specific requirements for office-based attendance and which allows for an appropriate level of flexibility for our teammates and businesses based on role-specific considerations. workarounds tried: (1) employer's own ATS posting (this page, governing), (2) BuiltIn mirror of same role, (3) alternate searches - no remote version found.",
     "where": "careers.bankofamerica.com",
     "time": "12:25 AM"
+   }
+  ],
+  "Ladders (Wells Fargo mirror)": [
+   {
+    "company": "Wells Fargo",
+    "role": "Principal Architect",
+    "reason": "not-remote — Required to work in the office as per the organization's Return-to-Office policy | workarounds tried: (1) employer own ATS - Wells Fargo careers carries the same Principal Architect req for Charlotte / Boston with the same return-to-office expectation, (2) alternate route Ladders mirror checked in full, (3) alternate posting - no remote alternate posting of this req found",
+    "where": "Ladders (Wells Fargo mirror)",
+    "time": "3:08 AM"
    }
   ],
   "CenterPoint careers": [
@@ -4394,6 +4439,15 @@
     "reason": "pay-outside-band — Compensation includes a base salary of $175,300.00 - $292,100.00. | workarounds tried: (1) employer own ATS - Cox / RapidScale careers carries the same Practice Lead req with the same compensation and Hybrid flexible work option, (2) alternate route Accel job board checked in full, (3) alternate posting - no in-band, fully remote alternate posting of this req found",
     "where": "Google Jobs - Accel Job Board (Cox / RapidScale)",
     "time": "3:06 AM"
+   }
+  ],
+  "Google Jobs - Remotive (Empower mirror)": [
+   {
+    "company": "Empower",
+    "role": "Enterprise Architect - Integration",
+    "reason": "not-remote — Be aware of the location restriction for this remote position: India | workarounds tried: (1) employer own ATS - Empower careers carries this integration architect req for India, not the US, (2) alternate route Remotive mirror checked in full, location India, (3) alternate posting - no US alternate posting of this req found",
+    "where": "Google Jobs - Remotive (Empower mirror)",
+    "time": "3:08 AM"
    }
   ],
   "Indeed (ServiceMac / First American)": [
@@ -5964,5 +6018,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T09:07:51Z"
+ "lists_generated_at": "2026-11-18T09:10:25Z"
 }
