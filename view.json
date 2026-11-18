@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:53:01Z",
+ "generated_at": "2026-11-18T19:55:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "a4303f85",
@@ -15,38 +15,36 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T19:38:05Z",
-  "last_activity_at": "2026-11-18T19:52:39Z",
+  "last_activity_at": "2026-11-18T19:53:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 152,
+   "covered_units": 200,
    "total_units": 754,
-   "pct": 20
+   "pct": 27
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 149,
-  "rejected": 1053,
-  "evaluated": 1203
+  "parked": 158,
+  "rejected": 1047,
+  "evaluated": 1206
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1203,
+  "evaluated": 1206,
   "filed": 0,
-  "parked": 149,
-  "rejected": 1053,
+  "parked": 158,
+  "rejected": 1047,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
   "W7",
   "W2",
-  "W3",
-  "W4",
-  "W5",
   "W6",
+  "W16",
   "W17"
  ],
  "lanes": {
@@ -69,7 +67,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -80,7 +78,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -102,41 +100,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/73"
+   "heartbeat_at": null,
+   "detail": "Employers 10/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
@@ -146,7 +144,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -229,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 5/59"
   },
   "W17": {
@@ -245,7 +243,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:53:01Z",
+   "heartbeat_at": "2026-11-18T19:55:03Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -309,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "19 of 632 units done",
+   "detail": "25 of 632 units done",
    "started_at": "2026-11-18T19:38:05Z",
    "ended_at": null
   },
@@ -551,7 +549,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:52 PM CT · 15 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:53 PM CT · 15 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1094,7 +1092,7 @@
   "candidates_open": 0,
   "verify_open": 0,
   "pass_awaiting_attempt": 1,
-  "pass_oldest_age_hours": 0.01,
+  "pass_oldest_age_hours": 0.05,
   "attempted_today": 214,
   "filed_today": 0
  }
