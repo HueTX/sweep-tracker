@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T18:54:26Z",
+ "generated_at": "2026-11-18T18:57:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T18:54:01Z",
+  "last_activity_at": "2026-11-18T18:56:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,7 +27,7 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 135,
+  "parked": 136,
   "rejected": 1015,
   "evaluated": 1152
  },
@@ -35,15 +35,16 @@
   "date": "2026-11-18",
   "evaluated": 1152,
   "filed": 0,
-  "parked": 135,
+  "parked": 136,
   "rejected": 1015,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W2",
   "W3",
-  "W5",
-  "W6",
+  "W16",
+  "W17",
+  "W18",
   "W19",
   "W20"
  ],
@@ -100,8 +101,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
-   "detail": "Employers 217/39"
+   "heartbeat_at": "2026-11-18T18:57:01Z",
+   "detail": "Employers 221/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +112,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
-   "detail": "Employers 225/73"
+   "heartbeat_at": "2026-11-18T18:57:01Z",
+   "detail": "Employers 230/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,24 +129,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
-   "detail": "Employers 225/44"
+   "heartbeat_at": null,
+   "detail": "Employers 230/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
-   "detail": "Employers 225/44"
+   "heartbeat_at": null,
+   "detail": "Employers 230/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,34 +228,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T18:57:01Z",
    "detail": "Employers 225/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T18:57:01Z",
    "detail": "Employers 225/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T18:57:01Z",
    "detail": "Employers 225/45"
   },
   "W19": {
@@ -265,8 +266,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
-   "detail": "Employers 215/41"
+   "heartbeat_at": "2026-11-18T18:57:01Z",
+   "detail": "Employers 220/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,7 +277,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T18:54:26Z",
+   "heartbeat_at": "2026-11-18T18:57:01Z",
    "detail": "Employers 185/31"
   }
  },
@@ -307,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "496 of 632 units done",
+   "detail": "501 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
@@ -549,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:54 PM CT · 10 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:56 PM CT · 10 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W19 · Title 1 of 58 · Azure Architect",
@@ -1089,8 +1090,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 176,
@@ -1518,6 +1519,13 @@
     "reason": "title-not-covered — Design and oversee the implementation of robust IT systems and infrastructure.",
     "where": "Ladders",
     "time": "11:55 AM"
+   },
+   {
+    "company": "eBay",
+    "role": "Software Architect - Cloud Security",
+    "reason": "title-not-covered — Define and evolve enterprise-wide identity and access management architecture and standards. As a senior technical leader in the Identity domain, this role will shape the future of authentication, authorization, federation, and identity lifecycle management across eBay. Title 'Software Architect - Cloud Security' matches no family in this unit; duties are identity-architecture level - recorded as fly-title per protocol, not force-fit into Identity Architect.",
+    "where": "Ladders",
+    "time": "12:56 PM"
    },
    {
     "company": "Knife River Corporation",
@@ -5243,13 +5251,6 @@
     "reason": "stale — A reasonable estimate of the current compensation range for this position is $105,500 - $195,900. Published: 2026-11-02 on Dice, outside 7-day eligibility with no repost activity shown",
     "where": "Dice",
     "time": "12:51 PM"
-   },
-   {
-    "company": "eBay",
-    "role": "Software Architect - Cloud Security",
-    "reason": "pay-outside-band — The base pay range for this position is expected in the range below: $156,800 - $255,300 — workarounds tried: (1) employer own board searched for R0076944, no alternate range found; (2) alternate routes Dice, Ladders, Vaia, Wellfound, BigJobSite all show same $156,800-$255,300 range; (3) no alternate posting of same role with different pay found.",
-    "where": "Dice",
-    "time": "5:22 AM"
    },
    {
     "company": "Alaska Airlines",
@@ -10319,6 +10320,15 @@
     "where": "jobs.service.gov.uk / DXC Technology",
     "time": "12:54 PM"
    }
+  ],
+  "EPAM careers (employer own board)": [
+   {
+    "company": "EPAM Systems",
+    "role": "System Architect - Secure AI Productivity & Modern Endpoints",
+    "reason": "not-remote — This is a fully remote position that offers you the flexibility to work from any location in Armenia, whether it's your home or well-equipped offices in Yerevan or Gyumri. workarounds tried: (1) employer's own EPAM careers board - all variants of this exact title are location-restricted outside the US (Armenia variant published 2026-10-30; Latin America variant; two 2026-11-16 variants carry the same JD with no US eligibility), (2) alternate route Jobgether mirror lists availability only from South America, North America (Latin America countries), Brazil, Colombia, Argentina, Chile, Mexico - no United States, (3) alternate postings of same role on EPAM board checked - no US-eligible posting exists. US-only remote rule fails.",
+    "where": "EPAM careers (employer own board)",
+    "time": "12:55 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -11501,5 +11511,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T18:54:26Z"
+ "lists_generated_at": "2026-11-18T18:57:01Z"
 }
