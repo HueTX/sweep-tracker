@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T14:59:07Z",
+ "generated_at": "2026-11-18T15:02:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": false,
-   "filing": true
+   "searching": true,
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T14:58:43Z",
+  "last_activity_at": "2026-11-18T15:02:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -39,7 +39,14 @@
   "rejected": 838,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W3",
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -99,13 +106,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 260/73"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 265/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -121,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 256/44"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 260/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 252/44"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 260/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,24 +227,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/59"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 265/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 255/54"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 265/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,18 +255,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 255/45"
+   "detail": "Employers 265/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 243/41"
+   "heartbeat_at": "2026-11-18T15:02:33Z",
+   "detail": "Employers 244/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "547 of 632 units done",
+   "detail": "558 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:58 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:02 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W19"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W19",
+  "headline": "W19 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -9966,5 +9979,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T14:59:07Z"
+ "lists_generated_at": "2026-11-18T15:02:33Z"
 }
