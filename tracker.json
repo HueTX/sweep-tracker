@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T06:10:18Z",
+ "generated_at": "2026-11-18T06:12:01Z",
  "lane_state_source": "model",
  "run": {
   "id": "e8c30105",
@@ -15,35 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T05:57:15Z",
-  "last_activity_at": "2026-11-18T06:09:29Z",
+  "last_activity_at": "2026-11-18T06:11:01Z",
   "progress": {
    "pools": 21,
-   "covered_units": 222,
+   "covered_units": 270,
    "total_units": 754,
-   "pct": 29
+   "pct": 36
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 24,
-  "rejected": 25,
-  "evaluated": 49
+  "parked": 26,
+  "rejected": 27,
+  "evaluated": 53
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 49,
+  "evaluated": 53,
   "filed": 0,
-  "parked": 24,
-  "rejected": 25,
+  "parked": 26,
+  "rejected": 27,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W7",
-  "W4",
-  "W5",
-  "W6"
+  "W16",
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -76,7 +76,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:10:18Z",
+   "heartbeat_at": "2026-11-18T06:12:01Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -115,35 +115,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:10:18Z",
-   "detail": "Employers 5/32"
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:10:18Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T06:10:18Z",
-   "detail": "Employers 5/44"
+   "heartbeat_at": null,
+   "detail": "Employers 10/44"
   },
   "W9": {
    "label": "Dice",
@@ -225,34 +225,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:12:01Z",
    "detail": "Employers 5/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:12:01Z",
    "detail": "Employers 5/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T06:12:01Z",
    "detail": "Employers 5/45"
   },
   "W19": {
@@ -305,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "28 of 632 units done",
+   "detail": "34 of 632 units done",
    "started_at": "2026-11-18T05:57:15Z",
    "ended_at": null
   },
@@ -547,18 +547,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:09 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:11 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 11 of 58 · Domain Architect",
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 11 of 58 · Domain Architect",
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1204,6 +1204,22 @@
     "time": "12:00 AM"
    }
   ],
+  "Haystack (3Cloud mirror)": [
+   {
+    "company": "3Cloud",
+    "role": "Architect - Enterprise Solutions Architecture",
+    "reason": "cognizant-manual-only — As an Architect, you build on your established domain expertise to lead solution architecture and delivery for modern, cloud-native applications on Azure.",
+    "where": "Haystack (3Cloud mirror)",
+    "time": "12:11 AM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Cloud Architect - Networking",
+    "reason": "cognizant-manual-only — Cloud Architect – Networking. At 3Cloud, we hire people who aren’t afraid to experiment or fail.",
+    "where": "Haystack (3Cloud mirror)",
+    "time": "12:09 AM"
+   }
+  ],
   "Dice": [
    {
     "company": "Ascension",
@@ -1231,15 +1247,6 @@
     "time": "12:02 AM"
    }
   ],
-  "Haystack (3Cloud mirror)": [
-   {
-    "company": "3Cloud",
-    "role": "Cloud Architect - Networking",
-    "reason": "cognizant-manual-only — Cloud Architect – Networking. At 3Cloud, we hire people who aren’t afraid to experiment or fail.",
-    "where": "Haystack (3Cloud mirror)",
-    "time": "12:09 AM"
-   }
-  ],
   "Cognizant Careers": [
    {
     "company": "Cognizant",
@@ -1256,6 +1263,15 @@
     "reason": "credential-needed — Blocker persists: credential-needed - no credential on file / credential rejected in prior attempts, parked",
     "where": "Microsoft careers (employer's own board)",
     "time": "12:00 AM"
+   }
+  ],
+  "Monster (West Monroe mirror)": [
+   {
+    "company": "West Monroe Partners",
+    "role": "Google Cloud Client Solutions Architect",
+    "reason": "title-not-covered — West Monroe is seeking a Google Cloud Client Solutions Architect to help organizations solve complex business and technology challenges through the Google Cloud Platform (GCP).",
+    "where": "Monster (West Monroe mirror)",
+    "time": "12:11 AM"
    }
   ]
  },
@@ -1454,6 +1470,15 @@
     "time": "12:09 AM"
    }
   ],
+  "Built In (Optum mirror)": [
+   {
+    "company": "Optum",
+    "role": "Principal Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth Group / Optum posting text on Built In with this range, (2) alternate route via Built In NYC and Ladders mirrors showing the same Optum Principal Architect ranges, (3) no alternate posting of requisition 2379705 with a different range found",
+    "where": "Built In (Optum mirror)",
+    "time": "12:11 AM"
+   }
+  ],
   "EmployDiversity (Zendesk mirror)": [
    {
     "company": "Zendesk",
@@ -1479,6 +1504,15 @@
     "reason": "pay-outside-band — Salary: $120,000 – $140,000 / year. workarounds tried: (1) employer's own Mind Computing posting text on the TotalH mirror with this salary, (2) alternate route via web search for the same VA Principal Solutions Architect role found no different salary, (3) no alternate posting of this role with a different range found",
     "where": "TotalH (Mind Computing mirror, VA focus)",
     "time": "12:09 AM"
+   }
+  ],
+  "AIRemoteJobs (CSAA mirror)": [
+   {
+    "company": "CSAA Insurance Group",
+    "role": "Enterprise AI Security Architect – Enterprise Architecture",
+    "reason": "stale — The Principal Enterprise Architect serves as a member of the CTO office or a senior staff within each of the individual business or technology domains within IT.",
+    "where": "AIRemoteJobs (CSAA mirror)",
+    "time": "12:11 AM"
    }
   ]
  },
@@ -2660,5 +2694,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T06:10:18Z"
+ "lists_generated_at": "2026-11-18T06:12:01Z"
 }
