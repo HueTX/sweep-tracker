@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T03:41:05Z",
+ "generated_at": "2026-11-18T03:42:34Z",
  "lane_state_source": "model",
  "run": {
   "id": "12245a04",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-18T03:01:00Z",
-  "last_activity_at": "2026-11-18T03:40:02Z",
+  "last_activity_at": "2026-11-18T03:42:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,28 +27,22 @@
  },
  "counts": {
   "filed": 2,
-  "parked": 233,
-  "rejected": 1205,
-  "evaluated": 1442
+  "parked": 232,
+  "rejected": 1210,
+  "evaluated": 1446
  },
  "today": {
   "date": "2026-11-17",
-  "evaluated": 1442,
+  "evaluated": 1446,
   "filed": 2,
-  "parked": 233,
-  "rejected": 1205,
+  "parked": 232,
+  "rejected": 1210,
   "filed_by_source": {
    "sjobs.brassring.com": 1,
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -86,24 +80,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:41:05Z",
-   "detail": "Employers 40/30"
+   "heartbeat_at": null,
+   "detail": "Employers 45/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:41:05Z",
-   "detail": "Employers 40/39"
+   "heartbeat_at": null,
+   "detail": "Employers 45/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,7 +108,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/73"
+   "detail": "Employers 45/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,7 +119,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/32"
+   "detail": "Employers 45/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -136,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "detail": "Employers 45/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/44"
+   "detail": "Employers 45/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,7 +229,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/59"
+   "detail": "Employers 45/59"
   },
   "W17": {
    "label": "Technology",
@@ -246,40 +240,40 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 40/54"
+   "detail": "Employers 45/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:41:05Z",
-   "detail": "Employers 35/45"
+   "heartbeat_at": null,
+   "detail": "Employers 40/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:41:05Z",
-   "detail": "Employers 35/41"
+   "heartbeat_at": null,
+   "detail": "Employers 40/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T03:41:05Z",
-   "detail": "Employers 35/31"
+   "heartbeat_at": null,
+   "detail": "Employers 40/31"
   }
  },
  "stages": {
@@ -309,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "105 of 632 units done",
+   "detail": "116 of 632 units done",
    "started_at": "2026-11-18T03:01:00Z",
    "ended_at": null
   },
@@ -551,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:40 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 11 of 58 · Domain Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 9:42 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 11 of 58 · Domain Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1064,7 +1052,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 268,
@@ -1995,15 +1983,6 @@
     "reason": "title-not-covered — UPS is seeking an Application Architect to lead the end-to-end architecture and modernization of enterprise applications incorporating Generative AI, agentic AI, cloud-native technologies, and enterprise systems.",
     "where": "Teal",
     "time": "12:43 AM"
-   }
-  ],
-  "Built In (HCSC)": [
-   {
-    "company": "Health Care Service Corporation (BCBS)",
-    "role": "Application Architect",
-    "reason": "title-not-covered — The Application Architect will define and deliver scalable enterprise solutions for healthcare payment integrity, claims accuracy, and payment adjudication.",
-    "where": "Built In (HCSC)",
-    "time": "5:18 PM"
    }
   ],
   "remotive.com": [
@@ -3834,6 +3813,652 @@
     "time": "9:34 PM"
    }
   ],
+  "BuiltIn": [
+   {
+    "company": "Cleveland Clinic",
+    "role": "Azure Cloud Engineer II",
+    "reason": "not-remote — To be considered for this role, caregivers must reside in Ohio or Florida. workarounds tried: (1) BuiltIn full JD read mirroring Cleveland Clinic's own posting - remote only for OH/FL residents, Hubert is Texas-based, (2) the sibling AWS Cloud Engineer II posting carries the same OH/FL residency term, (3) no US-wide remote alternate posting found. Role is also engineer-level hands-on implementation, not architect-level.",
+    "where": "BuiltIn",
+    "time": "9:42 PM"
+   },
+   {
+    "company": "Biogen",
+    "role": "Sr. IT Solution Architect, Access Automation",
+    "reason": "not-remote — This is a hybrid role requiring on site presence 3 days per week in our offices. | workarounds tried: (1) employer Workday board checked via search, (2) BuiltIn/Jooble mirrors carry same hybrid term, (3) no alternate remote posting of same req found",
+    "where": "BuiltIn",
+    "time": "3:50 PM"
+   },
+   {
+    "company": "Sentara Health Plans",
+    "role": "ServiceNow Principal Domain Architect - Remote",
+    "reason": "experience-mismatch — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required). workarounds tried: (1) BuiltIn full JD for Sentara's own posting, (2) DailyRemote/GrabJobs alternate routes - same ServiceNow requirement, (3) no alternate posting with different core duties",
+    "where": "BuiltIn",
+    "time": "2:31 AM"
+   },
+   {
+    "company": "BlackRock",
+    "role": "Enterprise Architect, Aladdin Engineering, Director",
+    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) searched employer's own careers site for this role - no remote version found, (2) BuiltIn mirror route, (3) no alternate remote posting found; also salary USD$215,000.00 - USD$275,000.00 top out of band",
+    "where": "BuiltIn",
+    "time": "7:28 PM"
+   },
+   {
+    "company": "NiSource",
+    "role": "Principal Enterprise Architect - Cloud and Infrastructure",
+    "reason": "not-remote — Way of Work: Hybrid, 3 days on location. workarounds tried: (1) BuiltIn full JD, (2) CareerBuilder/Monster mirrors, both hybrid/onsite, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "10:21 AM"
+   },
+   {
+    "company": "Citizens Financial",
+    "role": "Distinguished Architect-Consumer Banking",
+    "reason": "not-remote — 4 Days in the office from any of our locations in Johnston RI, Dallas TX, Iselin NJ, Short Hills NJ, Westwood or Medford MA, or Phoenix AZ and couple other locations — workarounds tried: (1) employer's own page via jobs.citizensbank.com mirrors same terms, (2) alternate routes BuiltIn/Monster/Simplify all show same 4-day office requirement and $182,000-$254,000 range (top also above $230k band), (3) no alternate remote/in-band posting of same role found",
+    "where": "BuiltIn",
+    "time": "1:13 PM"
+   },
+   {
+    "company": "New York Life",
+    "role": "Corporate Vice President - Technical Enterprise Architect (Insurance Industry)",
+    "reason": "not-remote — Location Designation: Hybrid - 3 days per week. Job Requisition ID: 92638. Salary Range: $147,500-$211,000. workarounds tried: (1) BuiltIn mirror with full JD, (2) CareerBuilder alternate listings - same hybrid role, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "7:48 PM"
+   },
+   {
+    "company": "Roche / Genentech",
+    "role": "Research & Early Development Enterprise Architect",
+    "reason": "not-remote — Onsite presence, on our South San Francisco campus, is expected for at least 3 days a week. workarounds tried: BuiltIn and Mediabistro mirrors both state onsite 3 days per week; pay range $217,400 - $403,700 also above band",
+    "where": "BuiltIn",
+    "time": "3:40 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Senior Solutions IT Architect supporting Capacity Growth",
+    "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date. Active and existing security clearance required on day 1",
+    "where": "BuiltIn",
+    "time": "9:10 PM"
+   },
+   {
+    "company": "RTX",
+    "role": "Associate Director, Enterprise Architect Lead (Applications/Compliance) (REMOTE)",
+    "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD. workarounds tried: (1) employer's own RTX posting via BuiltIn San Francisco mirror (full JD read, Date Posted: 2026-04-24); (2) no alternate posting with a different range found",
+    "where": "BuiltIn",
+    "time": "5:23 AM"
+   },
+   {
+    "company": "Caterpillar",
+    "role": "Enterprise Architect - Data Platform, Business Intelligence, AI",
+    "reason": "not-remote — This position is currently a hybrid in-office work model, requiring 3-day weekly office presence onsite at our (location) office and remote work for the remaining days. workarounds tried: (1) Caterpillar posting text via BuiltIn mirror of the Caterpillar req (hybrid 3-day office stated; pay top $237,564 also above band); (2) no fully remote alternate posting of this req found.",
+    "where": "BuiltIn",
+    "time": "5:57 PM"
+   },
+   {
+    "company": "Rockwell Automation",
+    "role": "AI Engineer / Architect – IFS Cloud",
+    "reason": "pay-outside-band — For this role, the total target compensation is from $106,480.00 - $159,720.00 USD Annual for US Based candidates - top $159,720 is below the $160,000 band floor. Workarounds tried: BuiltIn full JD; Simplify mirror with the same pay range; no in-band posting of the same role found.",
+    "where": "BuiltIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "Databricks",
+    "role": "Sr. Solutions Architect",
+    "reason": "pay-outside-band — Zone 2 Pay Range $196,200 — $274,650 USD - Production programming experience in Python, R, Scala or Java. workarounds tried: (1) Databricks own Greenhouse careers posting checked via BuiltIn employer link, (2) alternate route BuiltIn checked, (3) alternate Databricks postings checked - same published zone ranges, top above $230,000 band.",
+    "where": "BuiltIn",
+    "time": "9:58 AM"
+   },
+   {
+    "company": "DuPont",
+    "role": "Cloud Architect - IT Technology Solutions",
+    "reason": "not-remote — This is an onsite position. Team members work 3 days onsite and 2 days remote. Candidates must be within a commutable distance to Wilmington, DE. workarounds tried: (1) DuPont posting text via BuiltIn, (2) no alternate route found, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "2:22 PM"
+   },
+   {
+    "company": "Southwest Airlines",
+    "role": "Solutions Architect",
+    "reason": "stale — Published: 2025-08-29. This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
+    "where": "BuiltIn",
+    "time": "7:08 PM"
+   },
+   {
+    "company": "Snowflake",
+    "role": "Principal Enterprise Architect",
+    "reason": "stale — Snowflake is seeking a Principal Enterprise Architect to spearhead the incubation and socialization of a customer transformation framework tailored for US Majors Acquisition.",
+    "where": "BuiltIn",
+    "time": "7:28 PM"
+   },
+   {
+    "company": "Horizon Blue Cross Blue Shield of New Jersey",
+    "role": "Cloud Architect",
+    "reason": "stale — Published: 2025-05-04. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
+    "where": "BuiltIn",
+    "time": "7:11 PM"
+   },
+   {
+    "company": "CareSource",
+    "role": "EDI Application Architect II",
+    "reason": "hands-on — C# programming experience - This position is expected to read/create code for prototypes and lead. workarounds tried: (1) CareSource careers site searched, (2) alternate routes BuiltIn/DiversityJobs checked, (3) alternate CareSource architect postings (Facets/EDI variants) checked - same .NET/C# hands-on must-haves.",
+    "where": "BuiltIn",
+    "time": "9:55 AM"
+   },
+   {
+    "company": "NiSource",
+    "role": "Sr Enterprise Architect - Cloud and Infrastructure",
+    "reason": "not-remote — Way of Work: Hybrid, 3 days on location. workarounds tried: (1) BuiltIn full JD, (2) BuiltIn Chicago and DiversityJobs mirrors, both hybrid 3 days on location, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "10:21 AM"
+   },
+   {
+    "company": "Patterson-UTI",
+    "role": "Senior DevOps Engineer NEX",
+    "reason": "hands-on — The ideal candidate is a hands-on engineer with strong experience in cloud infrastructure, Infrastructure as Code, CI/CD, Linux, containers, automation, networking, observability, and production operations. workarounds tried: (1) BuiltIn full JD, (2) no alternate route for same req found, (3) no architect-level alternate posting at Patterson-UTI found",
+    "where": "BuiltIn",
+    "time": "10:21 AM"
+   },
+   {
+    "company": "BorgWarner",
+    "role": "ATR Solution Architect (Remote)",
+    "reason": "stale — The FICO Solution Architect will focus on defining solution strategy and design principles, ensuring the alignment between the business needs and technical solutions.",
+    "where": "BuiltIn",
+    "time": "7:31 PM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "API Management Platform - Cloud Reliability Engineering Lead",
+    "reason": "pay-outside-band — The annualized base pay range for this role is: $164,800 - $247,200 workarounds tried: (1) employer-own Hartford posting text mirrored on BuiltIn with the same range, (2) Career.io alternate postings of the same role with the same $164,800-$247,200 range, (3) BuiltIn finding posting published 2026-03-27 - top $247,200 exceeds the $230,000 band ceiling on every route.",
+    "where": "BuiltIn",
+    "time": "8:19 PM"
+   },
+   {
+    "company": "Mastercard",
+    "role": "Lead Cloud Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform)",
+    "reason": "hands-on — Cloud Infrastructure Engineers at Mastercard design, build, and operate the foundational platforms | Extensive hands-on experience designing, building, and operating Azure-based cloud infrastructure at scale | Deep expertise with Infrastructure-as-Code and automation, using tools such as ARM, Bicep, Terraform | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate Mastercard architect postings checked (Dublin hybrid), (3) no architect-level non-hands-on alternate found",
+    "where": "BuiltIn",
+    "time": "8:36 PM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Enterprise Salesforce Architect",
+    "reason": "not-remote — This role follows Xylem’s Hybrid-First work model and is based in Charlotte, NC. workarounds tried: (1) employer's own posting text mirrored on BuiltIn full JD read, (2) alternate BuiltIn Xylem architect postings - all hybrid/on-site based, (3) no fully remote alternate posting of this role found",
+    "where": "BuiltIn",
+    "time": "8:31 PM"
+   },
+   {
+    "company": "Xylem",
+    "role": "Endpoint Cybersecurity Architect",
+    "reason": "stale — Published: 2026-05-21 workarounds tried: (1) BuiltIn full JD read as finding surface, (2) Xylem careers search - no fresher repost of this role, (3) no alternate posting with activity within 7 days of 2026-11-17 found",
+    "where": "BuiltIn",
+    "time": "8:31 PM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Director, Senior Technical Architect",
+    "reason": "not-remote — On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote. Work Location Assignment: On Premise workarounds tried: (1) BuiltIn full JD read mirroring Pfizer's own posting, (2) Pfizer careers search - same on-premise assignment, (3) no external remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "8:31 PM"
+   },
+   {
+    "company": "CME Group",
+    "role": "Chief Architect",
+    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100. workarounds tried: (1) BuiltIn full JD read mirroring CME Group's own posting with same range, (2) alternate CME architect postings - no different range, (3) no alternate posting with a lower top found - top $349,100 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "8:41 PM"
+   },
+   {
+    "company": "Akamai",
+    "role": "Senior Technical Solutions Architect - Remote",
+    "reason": "stale — Published: 2026-05-29 workarounds tried: (1) BuiltIn full JD read mirroring Akamai's own posting - same 2026-05-29 date, salary $108,900 - $226,100 in band, (2) Akamai careers / Haystack alternate - same California technical solutions role dated September 2026 at latest, (3) no alternate posting with activity within 7 days of 2026-11-17 found for this remote role",
+    "where": "BuiltIn",
+    "time": "8:44 PM"
+   },
+   {
+    "company": "Health Care Service Corporation (BCBS)",
+    "role": "Application Architect",
+    "reason": "experience-mismatch — You will serve as a subject matter expert for payment integrity technologies, ensuring seamless integration of applications, databases, and middleware solutions that support critical claims and payment accuracy initiatives. Preferred: Deep understanding of Payment Integrity functions, including pre-payment and post payment editing, coding validation, reimbursement methodologies, provider billing compliance, and claims adjudication workflows. workarounds tried: (1) BuiltIn full JD read mirroring HCSC's own careers posting, (2) web search for an HCSC infrastructure/cloud architect version - none found, (3) no alternate posting removing the payment-integrity/claims core found - Hubert's core is Azure infrastructure architecture, healthcare industry years 0",
+    "where": "BuiltIn",
+    "time": "9:42 PM"
+   },
+   {
+    "company": "Highmark Health",
+    "role": "Principal Architect",
+    "reason": "pay-outside-band — Pay Range Maximum: $236,000.00 workarounds tried: (1) BuiltIn full JD read mirroring Highmark/enGen's own posting with same $142,000-$236,000 range, (2) BuiltIn Chicago/NYC mirrors show same range, (3) no alternate posting with a different range found - top $236,000 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "9:40 PM"
+   },
+   {
+    "company": "Kroger",
+    "role": "AI Architect",
+    "reason": "stale — 7+ years designing enterprise AI/ML systems; 1+ years hands-on with GenAI, agentic workflows, RAG, LLM-based integrations, or multi-agent systems.",
+    "where": "BuiltIn",
+    "time": "5:57 PM"
+   },
+   {
+    "company": "M&T Bank",
+    "role": "Lead Cloud Platform Engineer",
+    "reason": "not-remote — This role is four days onsite at our Seneca One Buffalo, NY location, with the flexibility to work from home one day per week | workarounds tried: (1) employer own ATS search for same role, (2) alternate routes Dice and Ladders for same req, (3) alternate BuiltIn NYC posting - all show same four days onsite text",
+    "where": "BuiltIn",
+    "time": "6:30 PM"
+   },
+   {
+    "company": "NVIDIA",
+    "role": "Senior Software and System Architect",
+    "reason": "hands-on-coding — 5+ years of experience as a Software Architect or Systems Architect; Within that, strong experience as a Software Developer. Requires strong C, Python, Linux, networking, cloud, system architecture, and software development experience. Workarounds tried: BuiltIn and BuiltIn NYC full JDs read via search with the same developer requirements; no non-coding posting of the same role found.",
+    "where": "BuiltIn",
+    "time": "6:28 PM"
+   },
+   {
+    "company": "Rockwell Automation",
+    "role": "Senior Solution Architect",
+    "reason": "not-remote — Rockwell Automation's hybrid policy aligns that employees are expected to work at a Rockwell location at least Mondays, Tuesdays, and Thursdays unless they have a business obligation out of the office. Workarounds tried: BuiltIn full JD read via search; Dice mirrors show the same hybrid policy; no fully-remote posting of the same role found.",
+    "where": "BuiltIn",
+    "time": "6:26 PM"
+   },
+   {
+    "company": "3M",
+    "role": "Solutions Architect - Standards",
+    "reason": "pay-outside-band — Applicable to US Applicants Only:The expected compensation range for this position is $188,251 - $230,084, which includes base pay plus variable incentive pay, if eligible. workarounds tried: (1) 3M careers/Workday sought - mirrors are the text found, (2) Ladders/FlexJobs mirrors - same range, (3) no alternate posting with a different range found",
+    "where": "BuiltIn",
+    "time": "6:42 PM"
+   },
+   {
+    "company": "3M",
+    "role": "Solutions Architect",
+    "reason": "experience-mismatch — Five (5) years of experience working with hyperscale datacenter customers, AI architectures, optical interconnect, or co-packaged optics (CPO) technologies in a private, public, government or military environment. Good Faith Posting Date Range 11/12/2026 To 12/12/2026. Expected compensation range $164,612 - $201,193. workarounds tried: (1) 3M careers/Workday sought - BuiltIn mirror is the text found, (2) JobLeads mirror, (3) no alternate cloud/infrastructure architect posting found",
+    "where": "BuiltIn",
+    "time": "6:42 PM"
+   },
+   {
+    "company": "The Coca-Cola Company",
+    "role": "Director, Cloud Software Architect",
+    "reason": "stale — Published: 2026-10-21; Job Posting End Date: November 13, 2026. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
+    "where": "BuiltIn",
+    "time": "7:08 PM"
+   },
+   {
+    "company": "Ecolab",
+    "role": "Lead Solution Architect",
+    "reason": "pay-outside-band — The base salary range for this position is $153,900.00 - $230,800.00. workarounds tried: (1) employer's own Ecolab Career text via BuiltIn mirror, (2) alternate routes searched, (3) no alternate posting with an in-band range found",
+    "where": "BuiltIn",
+    "time": "7:08 PM"
+   },
+   {
+    "company": "Enbridge",
+    "role": "Specialist I TIS OT Systems Architect",
+    "reason": "stale — Published: 2025-08-26; Posting End Date: September 08, 2025. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
+    "where": "BuiltIn",
+    "time": "7:11 PM"
+   },
+   {
+    "company": "Autodesk",
+    "role": "Software Architect",
+    "reason": "stale — The Chief Operating Officer (COO) division at Autodesk is looking for a Software Architect with extensive experience in developing modern, scalable, maintainable, and secure cloud-native experiences.",
+    "where": "BuiltIn",
+    "time": "7:31 PM"
+   },
+   {
+    "company": "Premera Blue Cross",
+    "role": "Solution Architect V",
+    "reason": "not-remote — This is a hybrid role located on our campus in Mountlake Terrace, Washington. workarounds tried: (1) BuiltIn employer mirror, (2) Monster and Career.io alternate routes showing same hybrid terms, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "7:34 PM"
+   },
+   {
+    "company": "PayPal",
+    "role": "Distinguished Software Architect",
+    "reason": "pay-outside-band — New York City, New York | ($242,000.00 - $359,150.00 Annually) For the majority of employees, PayPal's balanced hybrid work model offers 3 days in the office workarounds tried: (1) BuiltIn full JD read mirroring PayPal's own posting with same range, (2) SonicJobs alternate Enterprise Architect posting with same $242,000-$359,150 range, (3) no alternate posting with a different range found - top $359,150 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "8:32 PM"
+   },
+   {
+    "company": "Eli Lilly and Company",
+    "role": "Automation Architect",
+    "reason": "hands-on — You will write production-quality Python and build systems rather than scripts | Design and build automation in Python, including integrations with the platforms and systems the team depends on. | You will stay hands-on in the code while managing a small team of engineers | The anticipated wage for this position is $129,000 - $253,000 | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate routes checked, (3) hands-on Python build duties are posting-intrinsic",
+    "where": "BuiltIn",
+    "time": "8:36 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Security Architect / Security Engineer",
+    "reason": "pay-outside-band — Base Pay Range $164,500 — $235,000 USD workarounds tried: (1) BuiltIn full JD read mirroring Zscaler's own posting with same range, (2) Ladders alternate posting with same $164,500-$235,000 range, (3) no alternate posting with a lower top found - top $235,000 exceeds the $230,000 band ceiling; JD also states Strong coding skills with experience delivering production systems, with Python, TypeScript, or Node preferred",
+    "where": "BuiltIn",
+    "time": "8:41 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Sr Principal Cloud Architect",
+    "reason": "cloud-mismatch — GDIT's Emerge Labs is seeking a senior-level Cloud and Identity Engineer to architect, deploy, and support modern multi-cloud environments with a primary focus on AWS. workarounds tried: (1) BuiltIn full JD read mirroring GDIT's own posting - AWS-primary, Azure only one of several secondary clouds, (2) alternate GDIT cloud architect postings are likewise AWS-focused, (3) no Azure-first or Azure-equal alternate posting of this role found",
+    "where": "BuiltIn",
+    "time": "9:41 PM"
+   },
+   {
+    "company": "Workday",
+    "role": "Senior/Principal Solution Architect - Identity & Governance",
+    "reason": "pay-outside-band — Primary Location Base Pay Range: $165,800 USD - $248,600 USD Additional US Location(s) Base Pay Range: $130,400 USD - $231,700 USD workarounds tried: (1) employer's own Workday careers posting sought with same ranges, (2) BuiltIn full JD read with same ranges, (3) no alternate posting with a lower top found - tops $248,600/$231,700 exceed the $230,000 band ceiling; also spend at least half (50%) of our time each quarter in the office",
+    "where": "BuiltIn",
+    "time": "9:11 PM"
+   },
+   {
+    "company": "North Carolina Department of Health and Human Services",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC. workarounds tried: (1) NC DHHS posting via BuiltIn mirror of the state req (hybrid with Raleigh onsite reporting stated; recruitment range top $155,000 also below band); (2) no fully remote alternate posting of position 65023247 found.",
+    "where": "BuiltIn",
+    "time": "6:01 PM"
+   },
+   {
+    "company": "Caterpillar",
+    "role": "Principal Digital Architect",
+    "reason": "not-remote — This position requires the candidate to be based in either Chicago, IL ; Peoria, IL Dallas, TX; or Denver, CO workarounds tried: (1) BuiltIn full JD read mirroring Caterpillar's own posting - location-based, posting dates February 23, 2026 - March 8, 2026, (2) web search for a remote Caterpillar principal architect version - none found, (3) no fully remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "9:41 PM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Cloud Solutions Architect",
+    "reason": "pay-outside-band — The likely salary range for this position is $207,400 - $280,600. workarounds tried: (1) full JD on BuiltIn (GDIT) shows this range, (2) no alternate GDIT posting of this role with a different range found in search, (3) no repost with an in-band range found",
+    "where": "BuiltIn",
+    "time": "8:28 AM"
+   },
+   {
+    "company": "Weatherford",
+    "role": "Cloud Operations Lead",
+    "reason": "stale — Weatherford have a great opportunity for a Cloud Operations Lead to join the Team in Houston. workarounds tried: (1) employer-own Weatherford careers search - no fresher version of this role found, (2) Dice alternate posting of the same role published 2026-08-30, (3) BuiltIn finding posting published 2026-10-26 - both routes are more than 7 days old at the 2026-11-17 sweep, no repost within 7 days.",
+    "where": "BuiltIn",
+    "time": "8:19 PM"
+   },
+   {
+    "company": "Honeywell",
+    "role": "Sr Manager Software Architect",
+    "reason": "pay-outside-band — The annual base salary range for this position is $215,000 - $250,000. workarounds tried: (1) Honeywell posting via BuiltIn mirror (also hybrid New Jersey, first 90 days 100% onsite); (2) no alternate posting with a different range found.",
+    "where": "BuiltIn",
+    "time": "5:57 PM"
+   },
+   {
+    "company": "Microsoft",
+    "role": "Principal Cloud Solution Architect, Cloud and Agentic AI Solutions - New York",
+    "reason": "pay-outside-band — Cloud Solution Architecture IC5 - The typical base pay range for this role across the U.S. is USD $130,900 - $251,900 per year. workarounds tried: (1) employer's own Microsoft careers posting sought with same IC5 range, (2) Monster alternate route with same $130,900-$251,900 range, (3) no alternate posting with a different range found - top $251,900 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "9:10 PM"
+   },
+   {
+    "company": "Brain Corp",
+    "role": "Senior Staff Software Engineer - Cloud (Technical Lead Manager)",
+    "reason": "stale — Published: 2026-07-18 workarounds tried: (1) employer's own posting sought, (2) BuiltIn full JD read with same 2026-07-18 date, (3) no fresh repost within 7 days found",
+    "where": "BuiltIn",
+    "time": "9:14 PM"
+   },
+   {
+    "company": "Williams",
+    "role": "IT Architect V",
+    "reason": "not-remote — Hybrid work schedule: 4 days in-office and 1 day remote weekly. Workarounds tried: BuiltIn full JD read via search (Williams corporate headquarters, Tulsa, Oklahoma); no fully-remote posting of the same role found.",
+    "where": "BuiltIn",
+    "time": "6:28 PM"
+   },
+   {
+    "company": "Sentara Health",
+    "role": "ServiceNow Principal Domain Architect",
+    "reason": "stale — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required) workarounds tried: (1) BuiltIn employer mirror, (2) GrabJobs alternate route for same role, (3) no refreshed posting found",
+    "where": "BuiltIn",
+    "time": "7:34 PM"
+   },
+   {
+    "company": "Ford Motor Company",
+    "role": "GCP Cloud Infrastructure Architect",
+    "reason": "cloud-mismatch — 5+ Experience working with cloud native Google Cloud Platform (GCP) and hybrid cloud environments such as researching the best use of cloud products and the ecosystem, designing, developing, implementing, and managing Google Cloud Platform infrastructure. workarounds tried: (1) BuiltIn employer mirror, (2) SonicJobs alternate route showing same GCP terms, (3) no Azure alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:35 PM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Staff Enterprise Architect - GM Defense IT",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week {or other frequency dictated by their manager}. workarounds tried: (1) BuiltIn mirror with full JD, (2) Dice alternate listing - same GM Defense role, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "7:46 PM"
+   },
+   {
+    "company": "eBay",
+    "role": "Lead Full Stack Platform Engineer",
+    "reason": "hands-on — In this role, you will serve as the hands-on technical lead for our platform engineering team in Austin. You will stay close to the code while helping guide technical decisions, designing core microservices and scaling platform capabilities. Architect scalable microservices and platform APIs using Java or Kotlin to support core developer workflows. workarounds tried: (1) eBay own posting sought, BuiltIn/Dice mirrors carry same R0076721 JD, (2) Dice alternate route same hands-on Java/Kotlin duties, (3) no architect-only alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:10 AM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Global Head of Cloud & Infrastructure",
+    "reason": "pay-outside-band — S&P Global states that the anticipated base salary range for this position is $220,000 to $350,000. | Architect and operate S&P Global's hybrid, multi-cloud estate across Google Cloud, AWS, and Azure | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate S&P architect postings checked (tops $280,000-$325,000), (3) no in-band alternate posting found",
+    "where": "BuiltIn",
+    "time": "8:38 PM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "Sr. Director of Cloud Engineering",
+    "reason": "pay-outside-band — HIRING SALARY RANGE: $170 - 240,000 (Salary to be determined by the education, experience, knowledge, skills, and abilities of the applicant, internal equity, and alignment with market data.) | workarounds tried: (1) BuiltIn full JD, (2) Jobgether route showing same $170-240,000 range, (3) no alternate posting of this role with a different range found",
+    "where": "BuiltIn",
+    "time": "11:05 AM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Cloud Architect Sr - E3",
+    "reason": "clearance — TS//SCI Clearance",
+    "where": "BuiltIn",
+    "time": "9:10 PM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
+    "reason": "pay-outside-band — the starting base salary (for non-sales roles) or base salary + commission target (for sales/commissioned roles) is expected to be between $170,000-270,000/YR. workarounds tried: BuiltIn, Dice and CareerBuilder mirrors all show $170,000-$270,000/$277,000 ranges, tops above $230,000 band top",
+    "where": "BuiltIn",
+    "time": "3:39 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Solutions Architect - SecOps",
+    "reason": "pay-outside-band — Base Pay Range $183,000 — $262,500 USD workarounds tried: BuiltIn mirror of employer's posting shows same range, top $262,500 above $230,000 band top",
+    "where": "BuiltIn",
+    "time": "3:37 PM"
+   },
+   {
+    "company": "Morgan Stanley",
+    "role": "Cloud Platform Architect",
+    "reason": "cloud-mismatch — with primary expertise in Google Cloud Platform (GCP). The primary focus is enabling ETRADE workloads on GCP while supporting integration with existing enterprise environments and, where applicable, AWS services. workarounds tried: (1) BuiltIn full JD read mirroring Morgan Stanley's own posting - GCP-first, Azure not mentioned as a platform for this role, (2) other Morgan Stanley cloud postings found are also GCP/AWS engineering-focused, (3) no Azure-inclusive alternate posting of this role found",
+    "where": "BuiltIn",
+    "time": "9:40 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Software Architect",
+    "reason": "pay-outside-band — Summary Pay Range for Senior level (Level 6): $249,900-$338,100 | Applications for this position will be accepted until Nov. 16, 2026 | workarounds tried: (1) employer's own Boeing careers req is the source of the BuiltIn/Dice full-JD mirrors, same AvionX role and same pay range; (2) alternate route Dice full JD carries the same $249,900-$338,100 range; (3) no alternate posting of this role with in-band pay found. Published top $338,100 is above the $230,000 band top.",
+    "where": "BuiltIn",
+    "time": "4:34 PM"
+   },
+   {
+    "company": "Honeywell",
+    "role": "Sr Solution Consultant",
+    "reason": "experience-mismatch — 5+ years of experience with Building Automation Systems (BAS), Building Management Systems (BMS), or Energy Management Systems (EMS). workarounds tried: (1) Honeywell posting via BuiltIn mirror dated Nov 5, 2026 (BMS/EMS architecture core; Hubert's record has no building-automation history); (2) second BuiltIn listing of the same role (12105627) carries identical BAS/BMS/EMS core requirements; (3) no alternate posting with a different core found.",
+    "where": "BuiltIn",
+    "time": "5:57 PM"
+   },
+   {
+    "company": "Kimberly-Clark",
+    "role": "Senior Enterprise Architect - IFP",
+    "reason": "not-remote — Primary Location IT Centre Bengaluru GDTC. #LI-Hybrid. You will experience Flex That Works: flexible (hybrid) work arrangements that empower you to have purposeful time in the office. workarounds tried: (1) BuiltIn mirror with full JD, (2) web search for a US-based variant, (3) no US remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:50 PM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Sr. Cloud Principal Design Architect",
+    "reason": "cloud-mismatch — This position is for a Senior Sr. Principal Cloud Design Architect on our Cloud Engineering team, supporting AWS. Design and secure AWS cloud environments globally using Transit Gateway, Cloud WAN, and advanced networking architectures. workarounds tried: (1) BMS careers route via BuiltIn listing pointing to careers.bms.com, same AWS role; (2) BuiltIn SF alternate listing, same AWS role and Remote - United States - US: $193,040 - $233,913 range (top also above $230k band); (3) no alternate Azure-first posting of this role found",
+    "where": "BuiltIn",
+    "time": "11:32 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect",
+    "reason": "experience-mismatch — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud; 15+ years of professional experience in software/application development, including substantial experience designing and delivering enterprise-scale Java applications. workarounds tried: (1) employer's own posting searched by requisition 2391622, (2) BuiltIn mirror full JD read, (3) no alternate posting of same req with infrastructure-focused duties found",
+    "where": "BuiltIn",
+    "time": "12:16 PM"
+   },
+   {
+    "company": "Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth/Optum careers posting sought with same range, (2) BuiltIn full JD read with same $134,600-$230,800 range, (3) no alternate posting with a different range found - top $230,800 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "9:14 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director, Advisory Services - Cloud Architect",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own posting searched by requisition 2390520, (2) BuiltIn and Dice mirrors checked - same published range, (3) no alternate posting with a different range found",
+    "where": "BuiltIn",
+    "time": "12:16 PM"
+   },
+   {
+    "company": "Sherwin-Williams",
+    "role": "Cloud Architect",
+    "reason": "not-remote — This position is not hybrid/remote and will be located at our Cleveland Headquarters office. workarounds tried: (1) employer's own posting text via BuiltIn and Career.io mirrors, (2) alternate routes Dice/Career.io, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:08 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "AI Engineer/Architect",
+    "reason": "clearance-required — Security clearance level: Secret clearance required to start with the ability to obtain & maintain a Top Secret",
+    "where": "BuiltIn",
+    "time": "5:57 PM"
+   },
+   {
+    "company": "Autodesk",
+    "role": "Senior Principal Cloud Architect",
+    "reason": "cloud-mismatch — Serve as the primary technical leader for our AWS environment, providing deep architectural guidance and best practices for design, deployment, and operations workarounds tried: (1) BuiltIn employer mirror, (2) alternate Autodesk careers route, (3) no Azure-first alternate posting found",
+    "where": "BuiltIn",
+    "time": "7:35 PM"
+   },
+   {
+    "company": "Eversource Energy",
+    "role": "Lead Cloud Engineer (Azure)",
+    "reason": "not-remote — HYBRID Schedule - Current guidelines require employees to work at least three days in the office, including Tuesdays and Wednesdays. The role is based in Berlin, CT. Workarounds tried: (1) BuiltIn reproduces Eversource's own posting text including the hybrid guideline; (2) alternate surfaces checked, no fully-remote posting of this role; (3) no alternate req found.",
+    "where": "BuiltIn",
+    "time": "8:38 AM"
+   },
+   {
+    "company": "Highmark Health",
+    "role": "Principal Enterprise Cloud Architect",
+    "reason": "stale — This job is responsible for providing executive level leadership, direction, and governance for Highmark's multi-cloud strategy. Oversees enterprise cloud architecture strategy and drives the adoption of cloud services. Published: 2025-07-07 - posting date is more than a year before this check and outside the 7-day eligibility window. Workarounds tried: (1) employer-surface search for a current Highmark posting of this role found none fresher; (2) BuiltIn mirror carries the same 2025-07-07 date; (3) no repost or refreshed req found.",
+    "where": "BuiltIn",
+    "time": "8:39 AM"
+   },
+   {
+    "company": "Vanguard",
+    "role": "Lead Solutions Architect – Martech & Customer Platforms",
+    "reason": "not-remote — This position is hybrid and would require you to be in our office 3 days per week. workarounds tried: (1) Vanguard own careers posting searched, (2) alternate route BuiltIn checked, (3) alternate posting of same role checked - same hybrid requirement.",
+    "where": "BuiltIn",
+    "time": "9:55 AM"
+   },
+   {
+    "company": "Sentara Healthcare",
+    "role": "ServiceNow Principal Domain Architect",
+    "reason": "experience-mismatch — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required) workarounds tried: (1) employer's own Sentara posting text mirrored in full JD, (2) alternate routes BuiltIn full JD, Career.io and GrabJobs mirrors same ServiceNow requirement, (3) alternate posting - no version without the 10-12 year ServiceNow core found",
+    "where": "BuiltIn",
+    "time": "2:44 PM"
+   },
+   {
+    "company": "The Hartford",
+    "role": "Principal Cloud Engineer",
+    "reason": "cloud-mismatch — Optimize The Hartford's AWS cloud infrastructure for performance, scalability, and cost-efficiency. | workarounds tried: (1) BuiltIn full JD, (2) The Muse Hartford listings show AWS/GCP focus with no Azure, (3) no Azure-inclusive alternate posting of this Principal Cloud Engineer req found",
+    "where": "BuiltIn",
+    "time": "11:06 AM"
+   },
+   {
+    "company": "Walmart",
+    "role": "Distinguished, Software Engineer (Architect)",
+    "reason": "not-remote — This is a full-time onsite role based in Sunnyvale, California; remote and hybrid options are not available. workarounds tried: BuiltIn listing (this source), Ladders duplicate listing, employer's own Walmart posting pattern - all onsite Sunnyvale",
+    "where": "BuiltIn",
+    "time": "12:14 PM"
+   },
+   {
+    "company": "Sentara Healthcare",
+    "role": "Principal Enterprise Architect - AI",
+    "reason": "experience-mismatch — 8+ years in enterprise architecture or solution architecture roles, with a minimum of 4 years focused on AI/ML initiatives in healthcare or similarly regulated industries. workarounds tried: (1) employer's own Sentara JD text mirrored in full on BuiltIn, (2) alternate routes BuiltIn full JD, Career.io and GrabJobs mirrors same AI/ML requirement, (3) alternate posting - Sentara Principal Enterprise Architect Clinical Systems requires clinical Epic/PACS experience instead",
+    "where": "BuiltIn",
+    "time": "2:46 PM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Cloud Data Architect",
+    "reason": "stale — Designs and supports scalable cloud data warehouses for CMS healthcare fraud, waste, and abuse analytics.",
+    "where": "BuiltIn",
+    "time": "6:01 PM"
+   },
+   {
+    "company": "Intermountain Health",
+    "role": "Software Engineer - Tech Lead",
+    "reason": "not-remote — This position will be in person for the first 6 months and then hybrid after that! workarounds tried: (1) employer Workday portal sought - mirror JD is the text found, (2) BuiltIn/Indeed mirrors, (3) no alternate remote posting found",
+    "where": "BuiltIn",
+    "time": "6:33 PM"
+   },
+   {
+    "company": "Citizens Financial",
+    "role": "Principal Architect, Enterprise Security (Commercial Banking & Payments)",
+    "reason": "not-remote — Remote work is not available for this position. Candidates must be willing to commute to one of the following hub locations and work a hybrid schedule consisting of 4 days onsite and 1 day remote per week. workarounds tried: (1) employer listing on jobs.citizensbank.com, (2) BuiltIn/Ladders mirrors - same hybrid terms, (3) no remote alternate posting found",
+    "where": "BuiltIn",
+    "time": "6:37 PM"
+   },
+   {
+    "company": "FirstEnergy",
+    "role": "Digital Technology Architect",
+    "reason": "iac — Develop Terraform modules & pipelines to automate the deployment of resources and associated configurations. Core Cloud Engineer Responsibilities: Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no architect-level alternate posting found; also Published: 2026-10-27",
+    "where": "BuiltIn",
+    "time": "7:11 PM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Senior MarTech Solutions Architect",
+    "reason": "stale — Extensive experience (5+ yrs) in Adobe Experience Platform and Adobe Campaign solutions on-prem and cloud architecture and implementations.",
+    "where": "BuiltIn",
+    "time": "7:35 PM"
+   },
+   {
+    "company": "MetLife",
+    "role": "Mainframe Application Architect",
+    "reason": "stale — 10+ years working with mainframe middleware (CICS, DB2, MQ, IMS) in both sysplex and monoplex configurations",
+    "where": "BuiltIn",
+    "time": "7:36 PM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Senior Solutions Architect & Customer Advisor – Hybrid Cloud, Data and AI",
+    "reason": "stale — Published: 2026-01-30 workarounds tried: (1) BuiltIn full JD read as finding surface, (2) Rackspace careers / Adzuna alternate posting showing $161,000 - $268,300 with no repost within 7 days, (3) no fresher alternate posting of this role found - more than 7 days old at the 2026-11-17 sweep",
+    "where": "BuiltIn",
+    "time": "8:32 PM"
+   },
+   {
+    "company": "Global Payments",
+    "role": "Chief Enterprise Architect",
+    "reason": "stale — Published: 2025-12-07 workarounds tried: (1) BuiltIn full JD read mirroring Global Payments' own posting - same 2025-12-07 date, (2) Global Payments careers search - no refreshed Chief Enterprise Architect req, (3) no alternate posting with activity within 7 days of 2026-11-17 found",
+    "where": "BuiltIn",
+    "time": "8:43 PM"
+   },
+   {
+    "company": "Health Choice Network",
+    "role": "Application Architect",
+    "reason": "experience-mismatch — A current Epic PB Claims certification is required. Minimum of 7 years of experience in Epic architecture, development, or systems design, preferably within healthcare IT. workarounds tried: (1) employer's own posting sought - BuiltIn mirror is the full JD with Epic PB requirement, (2) alternate routes searched, (3) no alternate posting of this role without the Epic certification requirement found - Hubert has no Epic experience/certification, core mismatch",
+    "where": "BuiltIn",
+    "time": "9:11 PM"
+   },
+   {
+    "company": "Apartment List",
+    "role": "Revenue Systems Architect",
+    "reason": "stale — Published: 2026-09-24 workarounds tried: (1) employer's own posting sought, (2) BuiltIn full JD read with same Salesforce revenue-systems scope and 2026-09-24 date, (3) no fresh repost within 7 days found",
+    "where": "BuiltIn",
+    "time": "9:11 PM"
+   },
+   {
+    "company": "Capital One",
+    "role": "Director, Customer Solutions Architecture- Capital One Software, Databolt (Remote)",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $244,700 - $279,200 for Director, Solutions Architecture workarounds tried: (1) BuiltIn full JD read mirroring Capital One's own posting with same range, (2) web search for alternate Capital One Databolt postings - same range, (3) no alternate posting with a different range found - top $279,200 exceeds the $230,000 band ceiling",
+    "where": "BuiltIn",
+    "time": "9:40 PM"
+   }
+  ],
   "Adzuna": [
    {
     "company": "Intermountain Health",
@@ -4981,631 +5606,6 @@
     "time": "9:29 PM"
    }
   ],
-  "BuiltIn": [
-   {
-    "company": "Biogen",
-    "role": "Sr. IT Solution Architect, Access Automation",
-    "reason": "not-remote — This is a hybrid role requiring on site presence 3 days per week in our offices. | workarounds tried: (1) employer Workday board checked via search, (2) BuiltIn/Jooble mirrors carry same hybrid term, (3) no alternate remote posting of same req found",
-    "where": "BuiltIn",
-    "time": "3:50 PM"
-   },
-   {
-    "company": "Sentara Health Plans",
-    "role": "ServiceNow Principal Domain Architect - Remote",
-    "reason": "experience-mismatch — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required). workarounds tried: (1) BuiltIn full JD for Sentara's own posting, (2) DailyRemote/GrabJobs alternate routes - same ServiceNow requirement, (3) no alternate posting with different core duties",
-    "where": "BuiltIn",
-    "time": "2:31 AM"
-   },
-   {
-    "company": "BlackRock",
-    "role": "Enterprise Architect, Aladdin Engineering, Director",
-    "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) searched employer's own careers site for this role - no remote version found, (2) BuiltIn mirror route, (3) no alternate remote posting found; also salary USD$215,000.00 - USD$275,000.00 top out of band",
-    "where": "BuiltIn",
-    "time": "7:28 PM"
-   },
-   {
-    "company": "NiSource",
-    "role": "Principal Enterprise Architect - Cloud and Infrastructure",
-    "reason": "not-remote — Way of Work: Hybrid, 3 days on location. workarounds tried: (1) BuiltIn full JD, (2) CareerBuilder/Monster mirrors, both hybrid/onsite, (3) no remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "10:21 AM"
-   },
-   {
-    "company": "Citizens Financial",
-    "role": "Distinguished Architect-Consumer Banking",
-    "reason": "not-remote — 4 Days in the office from any of our locations in Johnston RI, Dallas TX, Iselin NJ, Short Hills NJ, Westwood or Medford MA, or Phoenix AZ and couple other locations — workarounds tried: (1) employer's own page via jobs.citizensbank.com mirrors same terms, (2) alternate routes BuiltIn/Monster/Simplify all show same 4-day office requirement and $182,000-$254,000 range (top also above $230k band), (3) no alternate remote/in-band posting of same role found",
-    "where": "BuiltIn",
-    "time": "1:13 PM"
-   },
-   {
-    "company": "New York Life",
-    "role": "Corporate Vice President - Technical Enterprise Architect (Insurance Industry)",
-    "reason": "not-remote — Location Designation: Hybrid - 3 days per week. Job Requisition ID: 92638. Salary Range: $147,500-$211,000. workarounds tried: (1) BuiltIn mirror with full JD, (2) CareerBuilder alternate listings - same hybrid role, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "7:48 PM"
-   },
-   {
-    "company": "Roche / Genentech",
-    "role": "Research & Early Development Enterprise Architect",
-    "reason": "not-remote — Onsite presence, on our South San Francisco campus, is expected for at least 3 days a week. workarounds tried: BuiltIn and Mediabistro mirrors both state onsite 3 days per week; pay range $217,400 - $403,700 also above band",
-    "where": "BuiltIn",
-    "time": "3:40 PM"
-   },
-   {
-    "company": "RTX",
-    "role": "Senior Solutions IT Architect supporting Capacity Growth",
-    "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date. Active and existing security clearance required on day 1",
-    "where": "BuiltIn",
-    "time": "9:10 PM"
-   },
-   {
-    "company": "RTX",
-    "role": "Associate Director, Enterprise Architect Lead (Applications/Compliance) (REMOTE)",
-    "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD. workarounds tried: (1) employer's own RTX posting via BuiltIn San Francisco mirror (full JD read, Date Posted: 2026-04-24); (2) no alternate posting with a different range found",
-    "where": "BuiltIn",
-    "time": "5:23 AM"
-   },
-   {
-    "company": "Caterpillar",
-    "role": "Enterprise Architect - Data Platform, Business Intelligence, AI",
-    "reason": "not-remote — This position is currently a hybrid in-office work model, requiring 3-day weekly office presence onsite at our (location) office and remote work for the remaining days. workarounds tried: (1) Caterpillar posting text via BuiltIn mirror of the Caterpillar req (hybrid 3-day office stated; pay top $237,564 also above band); (2) no fully remote alternate posting of this req found.",
-    "where": "BuiltIn",
-    "time": "5:57 PM"
-   },
-   {
-    "company": "Rockwell Automation",
-    "role": "AI Engineer / Architect – IFS Cloud",
-    "reason": "pay-outside-band — For this role, the total target compensation is from $106,480.00 - $159,720.00 USD Annual for US Based candidates - top $159,720 is below the $160,000 band floor. Workarounds tried: BuiltIn full JD; Simplify mirror with the same pay range; no in-band posting of the same role found.",
-    "where": "BuiltIn",
-    "time": "6:26 PM"
-   },
-   {
-    "company": "Databricks",
-    "role": "Sr. Solutions Architect",
-    "reason": "pay-outside-band — Zone 2 Pay Range $196,200 — $274,650 USD - Production programming experience in Python, R, Scala or Java. workarounds tried: (1) Databricks own Greenhouse careers posting checked via BuiltIn employer link, (2) alternate route BuiltIn checked, (3) alternate Databricks postings checked - same published zone ranges, top above $230,000 band.",
-    "where": "BuiltIn",
-    "time": "9:58 AM"
-   },
-   {
-    "company": "DuPont",
-    "role": "Cloud Architect - IT Technology Solutions",
-    "reason": "not-remote — This is an onsite position. Team members work 3 days onsite and 2 days remote. Candidates must be within a commutable distance to Wilmington, DE. workarounds tried: (1) DuPont posting text via BuiltIn, (2) no alternate route found, (3) no remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "2:22 PM"
-   },
-   {
-    "company": "Southwest Airlines",
-    "role": "Solutions Architect",
-    "reason": "stale — Published: 2025-08-29. This role allows for voluntary remote work for the majority of your working time within the Dallas-Fort Worth area, with occasional on-site presence at our Corporate Campus. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
-    "where": "BuiltIn",
-    "time": "7:08 PM"
-   },
-   {
-    "company": "Snowflake",
-    "role": "Principal Enterprise Architect",
-    "reason": "stale — Snowflake is seeking a Principal Enterprise Architect to spearhead the incubation and socialization of a customer transformation framework tailored for US Majors Acquisition.",
-    "where": "BuiltIn",
-    "time": "7:28 PM"
-   },
-   {
-    "company": "Horizon Blue Cross Blue Shield of New Jersey",
-    "role": "Cloud Architect",
-    "reason": "stale — Published: 2025-05-04. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
-    "where": "BuiltIn",
-    "time": "7:11 PM"
-   },
-   {
-    "company": "CareSource",
-    "role": "EDI Application Architect II",
-    "reason": "hands-on — C# programming experience - This position is expected to read/create code for prototypes and lead. workarounds tried: (1) CareSource careers site searched, (2) alternate routes BuiltIn/DiversityJobs checked, (3) alternate CareSource architect postings (Facets/EDI variants) checked - same .NET/C# hands-on must-haves.",
-    "where": "BuiltIn",
-    "time": "9:55 AM"
-   },
-   {
-    "company": "NiSource",
-    "role": "Sr Enterprise Architect - Cloud and Infrastructure",
-    "reason": "not-remote — Way of Work: Hybrid, 3 days on location. workarounds tried: (1) BuiltIn full JD, (2) BuiltIn Chicago and DiversityJobs mirrors, both hybrid 3 days on location, (3) no remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "10:21 AM"
-   },
-   {
-    "company": "Patterson-UTI",
-    "role": "Senior DevOps Engineer NEX",
-    "reason": "hands-on — The ideal candidate is a hands-on engineer with strong experience in cloud infrastructure, Infrastructure as Code, CI/CD, Linux, containers, automation, networking, observability, and production operations. workarounds tried: (1) BuiltIn full JD, (2) no alternate route for same req found, (3) no architect-level alternate posting at Patterson-UTI found",
-    "where": "BuiltIn",
-    "time": "10:21 AM"
-   },
-   {
-    "company": "BorgWarner",
-    "role": "ATR Solution Architect (Remote)",
-    "reason": "stale — The FICO Solution Architect will focus on defining solution strategy and design principles, ensuring the alignment between the business needs and technical solutions.",
-    "where": "BuiltIn",
-    "time": "7:31 PM"
-   },
-   {
-    "company": "The Hartford",
-    "role": "API Management Platform - Cloud Reliability Engineering Lead",
-    "reason": "pay-outside-band — The annualized base pay range for this role is: $164,800 - $247,200 workarounds tried: (1) employer-own Hartford posting text mirrored on BuiltIn with the same range, (2) Career.io alternate postings of the same role with the same $164,800-$247,200 range, (3) BuiltIn finding posting published 2026-03-27 - top $247,200 exceeds the $230,000 band ceiling on every route.",
-    "where": "BuiltIn",
-    "time": "8:19 PM"
-   },
-   {
-    "company": "Mastercard",
-    "role": "Lead Cloud Infrastructure Architect / Engineer (Azure, DevOps, Kubernetes, Terraform)",
-    "reason": "hands-on — Cloud Infrastructure Engineers at Mastercard design, build, and operate the foundational platforms | Extensive hands-on experience designing, building, and operating Azure-based cloud infrastructure at scale | Deep expertise with Infrastructure-as-Code and automation, using tools such as ARM, Bicep, Terraform | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate Mastercard architect postings checked (Dublin hybrid), (3) no architect-level non-hands-on alternate found",
-    "where": "BuiltIn",
-    "time": "8:36 PM"
-   },
-   {
-    "company": "Xylem",
-    "role": "Enterprise Salesforce Architect",
-    "reason": "not-remote — This role follows Xylem’s Hybrid-First work model and is based in Charlotte, NC. workarounds tried: (1) employer's own posting text mirrored on BuiltIn full JD read, (2) alternate BuiltIn Xylem architect postings - all hybrid/on-site based, (3) no fully remote alternate posting of this role found",
-    "where": "BuiltIn",
-    "time": "8:31 PM"
-   },
-   {
-    "company": "Xylem",
-    "role": "Endpoint Cybersecurity Architect",
-    "reason": "stale — Published: 2026-05-21 workarounds tried: (1) BuiltIn full JD read as finding surface, (2) Xylem careers search - no fresher repost of this role, (3) no alternate posting with activity within 7 days of 2026-11-17 found",
-    "where": "BuiltIn",
-    "time": "8:31 PM"
-   },
-   {
-    "company": "Pfizer",
-    "role": "Director, Senior Technical Architect",
-    "reason": "not-remote — On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote. Work Location Assignment: On Premise workarounds tried: (1) BuiltIn full JD read mirroring Pfizer's own posting, (2) Pfizer careers search - same on-premise assignment, (3) no external remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "8:31 PM"
-   },
-   {
-    "company": "CME Group",
-    "role": "Chief Architect",
-    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100. workarounds tried: (1) BuiltIn full JD read mirroring CME Group's own posting with same range, (2) alternate CME architect postings - no different range, (3) no alternate posting with a lower top found - top $349,100 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "8:41 PM"
-   },
-   {
-    "company": "Akamai",
-    "role": "Senior Technical Solutions Architect - Remote",
-    "reason": "stale — Published: 2026-05-29 workarounds tried: (1) BuiltIn full JD read mirroring Akamai's own posting - same 2026-05-29 date, salary $108,900 - $226,100 in band, (2) Akamai careers / Haystack alternate - same California technical solutions role dated September 2026 at latest, (3) no alternate posting with activity within 7 days of 2026-11-17 found for this remote role",
-    "where": "BuiltIn",
-    "time": "8:44 PM"
-   },
-   {
-    "company": "Highmark Health",
-    "role": "Principal Architect",
-    "reason": "pay-outside-band — Pay Range Maximum: $236,000.00 workarounds tried: (1) BuiltIn full JD read mirroring Highmark/enGen's own posting with same $142,000-$236,000 range, (2) BuiltIn Chicago/NYC mirrors show same range, (3) no alternate posting with a different range found - top $236,000 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "9:40 PM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Cloud Architect",
-    "reason": "clearance — Clearance: Must possess and maintain an Active Secret or higher clearance",
-    "where": "BuiltIn",
-    "time": "4:14 PM"
-   },
-   {
-    "company": "Kroger",
-    "role": "AI Architect",
-    "reason": "stale — 7+ years designing enterprise AI/ML systems; 1+ years hands-on with GenAI, agentic workflows, RAG, LLM-based integrations, or multi-agent systems.",
-    "where": "BuiltIn",
-    "time": "5:57 PM"
-   },
-   {
-    "company": "M&T Bank",
-    "role": "Lead Cloud Platform Engineer",
-    "reason": "not-remote — This role is four days onsite at our Seneca One Buffalo, NY location, with the flexibility to work from home one day per week | workarounds tried: (1) employer own ATS search for same role, (2) alternate routes Dice and Ladders for same req, (3) alternate BuiltIn NYC posting - all show same four days onsite text",
-    "where": "BuiltIn",
-    "time": "6:30 PM"
-   },
-   {
-    "company": "NVIDIA",
-    "role": "Senior Software and System Architect",
-    "reason": "hands-on-coding — 5+ years of experience as a Software Architect or Systems Architect; Within that, strong experience as a Software Developer. Requires strong C, Python, Linux, networking, cloud, system architecture, and software development experience. Workarounds tried: BuiltIn and BuiltIn NYC full JDs read via search with the same developer requirements; no non-coding posting of the same role found.",
-    "where": "BuiltIn",
-    "time": "6:28 PM"
-   },
-   {
-    "company": "Rockwell Automation",
-    "role": "Senior Solution Architect",
-    "reason": "not-remote — Rockwell Automation's hybrid policy aligns that employees are expected to work at a Rockwell location at least Mondays, Tuesdays, and Thursdays unless they have a business obligation out of the office. Workarounds tried: BuiltIn full JD read via search; Dice mirrors show the same hybrid policy; no fully-remote posting of the same role found.",
-    "where": "BuiltIn",
-    "time": "6:26 PM"
-   },
-   {
-    "company": "3M",
-    "role": "Solutions Architect - Standards",
-    "reason": "pay-outside-band — Applicable to US Applicants Only:The expected compensation range for this position is $188,251 - $230,084, which includes base pay plus variable incentive pay, if eligible. workarounds tried: (1) 3M careers/Workday sought - mirrors are the text found, (2) Ladders/FlexJobs mirrors - same range, (3) no alternate posting with a different range found",
-    "where": "BuiltIn",
-    "time": "6:42 PM"
-   },
-   {
-    "company": "3M",
-    "role": "Solutions Architect",
-    "reason": "experience-mismatch — Five (5) years of experience working with hyperscale datacenter customers, AI architectures, optical interconnect, or co-packaged optics (CPO) technologies in a private, public, government or military environment. Good Faith Posting Date Range 11/12/2026 To 12/12/2026. Expected compensation range $164,612 - $201,193. workarounds tried: (1) 3M careers/Workday sought - BuiltIn mirror is the text found, (2) JobLeads mirror, (3) no alternate cloud/infrastructure architect posting found",
-    "where": "BuiltIn",
-    "time": "6:42 PM"
-   },
-   {
-    "company": "The Coca-Cola Company",
-    "role": "Director, Cloud Software Architect",
-    "reason": "stale — Published: 2026-10-21; Job Posting End Date: November 13, 2026. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
-    "where": "BuiltIn",
-    "time": "7:08 PM"
-   },
-   {
-    "company": "Ecolab",
-    "role": "Lead Solution Architect",
-    "reason": "pay-outside-band — The base salary range for this position is $153,900.00 - $230,800.00. workarounds tried: (1) employer's own Ecolab Career text via BuiltIn mirror, (2) alternate routes searched, (3) no alternate posting with an in-band range found",
-    "where": "BuiltIn",
-    "time": "7:08 PM"
-   },
-   {
-    "company": "Enbridge",
-    "role": "Specialist I TIS OT Systems Architect",
-    "reason": "stale — Published: 2025-08-26; Posting End Date: September 08, 2025. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no fresher repost found",
-    "where": "BuiltIn",
-    "time": "7:11 PM"
-   },
-   {
-    "company": "Autodesk",
-    "role": "Software Architect",
-    "reason": "stale — The Chief Operating Officer (COO) division at Autodesk is looking for a Software Architect with extensive experience in developing modern, scalable, maintainable, and secure cloud-native experiences.",
-    "where": "BuiltIn",
-    "time": "7:31 PM"
-   },
-   {
-    "company": "Premera Blue Cross",
-    "role": "Solution Architect V",
-    "reason": "not-remote — This is a hybrid role located on our campus in Mountlake Terrace, Washington. workarounds tried: (1) BuiltIn employer mirror, (2) Monster and Career.io alternate routes showing same hybrid terms, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "7:34 PM"
-   },
-   {
-    "company": "PayPal",
-    "role": "Distinguished Software Architect",
-    "reason": "pay-outside-band — New York City, New York | ($242,000.00 - $359,150.00 Annually) For the majority of employees, PayPal's balanced hybrid work model offers 3 days in the office workarounds tried: (1) BuiltIn full JD read mirroring PayPal's own posting with same range, (2) SonicJobs alternate Enterprise Architect posting with same $242,000-$359,150 range, (3) no alternate posting with a different range found - top $359,150 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "8:32 PM"
-   },
-   {
-    "company": "Eli Lilly and Company",
-    "role": "Automation Architect",
-    "reason": "hands-on — You will write production-quality Python and build systems rather than scripts | Design and build automation in Python, including integrations with the platforms and systems the team depends on. | You will stay hands-on in the code while managing a small team of engineers | The anticipated wage for this position is $129,000 - $253,000 | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate routes checked, (3) hands-on Python build duties are posting-intrinsic",
-    "where": "BuiltIn",
-    "time": "8:36 PM"
-   },
-   {
-    "company": "Zscaler",
-    "role": "Security Architect / Security Engineer",
-    "reason": "pay-outside-band — Base Pay Range $164,500 — $235,000 USD workarounds tried: (1) BuiltIn full JD read mirroring Zscaler's own posting with same range, (2) Ladders alternate posting with same $164,500-$235,000 range, (3) no alternate posting with a lower top found - top $235,000 exceeds the $230,000 band ceiling; JD also states Strong coding skills with experience delivering production systems, with Python, TypeScript, or Node preferred",
-    "where": "BuiltIn",
-    "time": "8:41 PM"
-   },
-   {
-    "company": "Workday",
-    "role": "Senior/Principal Solution Architect - Identity & Governance",
-    "reason": "pay-outside-band — Primary Location Base Pay Range: $165,800 USD - $248,600 USD Additional US Location(s) Base Pay Range: $130,400 USD - $231,700 USD workarounds tried: (1) employer's own Workday careers posting sought with same ranges, (2) BuiltIn full JD read with same ranges, (3) no alternate posting with a lower top found - tops $248,600/$231,700 exceed the $230,000 band ceiling; also spend at least half (50%) of our time each quarter in the office",
-    "where": "BuiltIn",
-    "time": "9:11 PM"
-   },
-   {
-    "company": "North Carolina Department of Health and Human Services",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC. workarounds tried: (1) NC DHHS posting via BuiltIn mirror of the state req (hybrid with Raleigh onsite reporting stated; recruitment range top $155,000 also below band); (2) no fully remote alternate posting of position 65023247 found.",
-    "where": "BuiltIn",
-    "time": "6:01 PM"
-   },
-   {
-    "company": "General Dynamics",
-    "role": "Cloud Solutions Architect",
-    "reason": "pay-outside-band — The likely salary range for this position is $207,400 - $280,600. workarounds tried: (1) full JD on BuiltIn (GDIT) shows this range, (2) no alternate GDIT posting of this role with a different range found in search, (3) no repost with an in-band range found",
-    "where": "BuiltIn",
-    "time": "8:28 AM"
-   },
-   {
-    "company": "Weatherford",
-    "role": "Cloud Operations Lead",
-    "reason": "stale — Weatherford have a great opportunity for a Cloud Operations Lead to join the Team in Houston. workarounds tried: (1) employer-own Weatherford careers search - no fresher version of this role found, (2) Dice alternate posting of the same role published 2026-08-30, (3) BuiltIn finding posting published 2026-10-26 - both routes are more than 7 days old at the 2026-11-17 sweep, no repost within 7 days.",
-    "where": "BuiltIn",
-    "time": "8:19 PM"
-   },
-   {
-    "company": "Honeywell",
-    "role": "Sr Manager Software Architect",
-    "reason": "pay-outside-band — The annual base salary range for this position is $215,000 - $250,000. workarounds tried: (1) Honeywell posting via BuiltIn mirror (also hybrid New Jersey, first 90 days 100% onsite); (2) no alternate posting with a different range found.",
-    "where": "BuiltIn",
-    "time": "5:57 PM"
-   },
-   {
-    "company": "Microsoft",
-    "role": "Principal Cloud Solution Architect, Cloud and Agentic AI Solutions - New York",
-    "reason": "pay-outside-band — Cloud Solution Architecture IC5 - The typical base pay range for this role across the U.S. is USD $130,900 - $251,900 per year. workarounds tried: (1) employer's own Microsoft careers posting sought with same IC5 range, (2) Monster alternate route with same $130,900-$251,900 range, (3) no alternate posting with a different range found - top $251,900 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "9:10 PM"
-   },
-   {
-    "company": "Brain Corp",
-    "role": "Senior Staff Software Engineer - Cloud (Technical Lead Manager)",
-    "reason": "stale — Published: 2026-07-18 workarounds tried: (1) employer's own posting sought, (2) BuiltIn full JD read with same 2026-07-18 date, (3) no fresh repost within 7 days found",
-    "where": "BuiltIn",
-    "time": "9:14 PM"
-   },
-   {
-    "company": "Williams",
-    "role": "IT Architect V",
-    "reason": "not-remote — Hybrid work schedule: 4 days in-office and 1 day remote weekly. Workarounds tried: BuiltIn full JD read via search (Williams corporate headquarters, Tulsa, Oklahoma); no fully-remote posting of the same role found.",
-    "where": "BuiltIn",
-    "time": "6:28 PM"
-   },
-   {
-    "company": "Sentara Health",
-    "role": "ServiceNow Principal Domain Architect",
-    "reason": "stale — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required) workarounds tried: (1) BuiltIn employer mirror, (2) GrabJobs alternate route for same role, (3) no refreshed posting found",
-    "where": "BuiltIn",
-    "time": "7:34 PM"
-   },
-   {
-    "company": "Ford Motor Company",
-    "role": "GCP Cloud Infrastructure Architect",
-    "reason": "cloud-mismatch — 5+ Experience working with cloud native Google Cloud Platform (GCP) and hybrid cloud environments such as researching the best use of cloud products and the ecosystem, designing, developing, implementing, and managing Google Cloud Platform infrastructure. workarounds tried: (1) BuiltIn employer mirror, (2) SonicJobs alternate route showing same GCP terms, (3) no Azure alternate posting found",
-    "where": "BuiltIn",
-    "time": "7:35 PM"
-   },
-   {
-    "company": "General Motors",
-    "role": "Staff Enterprise Architect - GM Defense IT",
-    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week {or other frequency dictated by their manager}. workarounds tried: (1) BuiltIn mirror with full JD, (2) Dice alternate listing - same GM Defense role, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "7:46 PM"
-   },
-   {
-    "company": "eBay",
-    "role": "Lead Full Stack Platform Engineer",
-    "reason": "hands-on — In this role, you will serve as the hands-on technical lead for our platform engineering team in Austin. You will stay close to the code while helping guide technical decisions, designing core microservices and scaling platform capabilities. Architect scalable microservices and platform APIs using Java or Kotlin to support core developer workflows. workarounds tried: (1) eBay own posting sought, BuiltIn/Dice mirrors carry same R0076721 JD, (2) Dice alternate route same hands-on Java/Kotlin duties, (3) no architect-only alternate posting found",
-    "where": "BuiltIn",
-    "time": "7:10 AM"
-   },
-   {
-    "company": "S&P Global",
-    "role": "Global Head of Cloud & Infrastructure",
-    "reason": "pay-outside-band — S&P Global states that the anticipated base salary range for this position is $220,000 to $350,000. | Architect and operate S&P Global's hybrid, multi-cloud estate across Google Cloud, AWS, and Azure | workarounds tried: (1) employer posting text via BuiltIn mirror checked, (2) alternate S&P architect postings checked (tops $280,000-$325,000), (3) no in-band alternate posting found",
-    "where": "BuiltIn",
-    "time": "8:38 PM"
-   },
-   {
-    "company": "Johnson Controls",
-    "role": "Sr. Director of Cloud Engineering",
-    "reason": "pay-outside-band — HIRING SALARY RANGE: $170 - 240,000 (Salary to be determined by the education, experience, knowledge, skills, and abilities of the applicant, internal equity, and alignment with market data.) | workarounds tried: (1) BuiltIn full JD, (2) Jobgether route showing same $170-240,000 range, (3) no alternate posting of this role with a different range found",
-    "where": "BuiltIn",
-    "time": "11:05 AM"
-   },
-   {
-    "company": "Lockheed Martin",
-    "role": "Cloud Architect Sr - E3",
-    "reason": "clearance — TS//SCI Clearance",
-    "where": "BuiltIn",
-    "time": "9:10 PM"
-   },
-   {
-    "company": "Palo Alto Networks",
-    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
-    "reason": "pay-outside-band — the starting base salary (for non-sales roles) or base salary + commission target (for sales/commissioned roles) is expected to be between $170,000-270,000/YR. workarounds tried: BuiltIn, Dice and CareerBuilder mirrors all show $170,000-$270,000/$277,000 ranges, tops above $230,000 band top",
-    "where": "BuiltIn",
-    "time": "3:39 PM"
-   },
-   {
-    "company": "Zscaler",
-    "role": "Solutions Architect - SecOps",
-    "reason": "pay-outside-band — Base Pay Range $183,000 — $262,500 USD workarounds tried: BuiltIn mirror of employer's posting shows same range, top $262,500 above $230,000 band top",
-    "where": "BuiltIn",
-    "time": "3:37 PM"
-   },
-   {
-    "company": "Morgan Stanley",
-    "role": "Cloud Platform Architect",
-    "reason": "cloud-mismatch — with primary expertise in Google Cloud Platform (GCP). The primary focus is enabling ETRADE workloads on GCP while supporting integration with existing enterprise environments and, where applicable, AWS services. workarounds tried: (1) BuiltIn full JD read mirroring Morgan Stanley's own posting - GCP-first, Azure not mentioned as a platform for this role, (2) other Morgan Stanley cloud postings found are also GCP/AWS engineering-focused, (3) no Azure-inclusive alternate posting of this role found",
-    "where": "BuiltIn",
-    "time": "9:40 PM"
-   },
-   {
-    "company": "Boeing",
-    "role": "Software Architect",
-    "reason": "pay-outside-band — Summary Pay Range for Senior level (Level 6): $249,900-$338,100 | Applications for this position will be accepted until Nov. 16, 2026 | workarounds tried: (1) employer's own Boeing careers req is the source of the BuiltIn/Dice full-JD mirrors, same AvionX role and same pay range; (2) alternate route Dice full JD carries the same $249,900-$338,100 range; (3) no alternate posting of this role with in-band pay found. Published top $338,100 is above the $230,000 band top.",
-    "where": "BuiltIn",
-    "time": "4:34 PM"
-   },
-   {
-    "company": "Honeywell",
-    "role": "Sr Solution Consultant",
-    "reason": "experience-mismatch — 5+ years of experience with Building Automation Systems (BAS), Building Management Systems (BMS), or Energy Management Systems (EMS). workarounds tried: (1) Honeywell posting via BuiltIn mirror dated Nov 5, 2026 (BMS/EMS architecture core; Hubert's record has no building-automation history); (2) second BuiltIn listing of the same role (12105627) carries identical BAS/BMS/EMS core requirements; (3) no alternate posting with a different core found.",
-    "where": "BuiltIn",
-    "time": "5:57 PM"
-   },
-   {
-    "company": "Kimberly-Clark",
-    "role": "Senior Enterprise Architect - IFP",
-    "reason": "not-remote — Primary Location IT Centre Bengaluru GDTC. #LI-Hybrid. You will experience Flex That Works: flexible (hybrid) work arrangements that empower you to have purposeful time in the office. workarounds tried: (1) BuiltIn mirror with full JD, (2) web search for a US-based variant, (3) no US remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "7:50 PM"
-   },
-   {
-    "company": "Bristol Myers Squibb",
-    "role": "Sr. Cloud Principal Design Architect",
-    "reason": "cloud-mismatch — This position is for a Senior Sr. Principal Cloud Design Architect on our Cloud Engineering team, supporting AWS. Design and secure AWS cloud environments globally using Transit Gateway, Cloud WAN, and advanced networking architectures. workarounds tried: (1) BMS careers route via BuiltIn listing pointing to careers.bms.com, same AWS role; (2) BuiltIn SF alternate listing, same AWS role and Remote - United States - US: $193,040 - $233,913 range (top also above $230k band); (3) no alternate Azure-first posting of this role found",
-    "where": "BuiltIn",
-    "time": "11:32 AM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Architect",
-    "reason": "experience-mismatch — 10+ years of hands-on experience developing and architecting Java applications using the Spring Framework, including technologies such as Spring Boot and Spring Cloud; 15+ years of professional experience in software/application development, including substantial experience designing and delivering enterprise-scale Java applications. workarounds tried: (1) employer's own posting searched by requisition 2391622, (2) BuiltIn mirror full JD read, (3) no alternate posting of same req with infrastructure-focused duties found",
-    "where": "BuiltIn",
-    "time": "12:16 PM"
-   },
-   {
-    "company": "Optum",
-    "role": "Director, Advisory Services - Cloud Architect - Remote",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth/Optum careers posting sought with same range, (2) BuiltIn full JD read with same $134,600-$230,800 range, (3) no alternate posting with a different range found - top $230,800 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "9:14 PM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Director, Advisory Services - Cloud Architect",
-    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own posting searched by requisition 2390520, (2) BuiltIn and Dice mirrors checked - same published range, (3) no alternate posting with a different range found",
-    "where": "BuiltIn",
-    "time": "12:16 PM"
-   },
-   {
-    "company": "Sherwin-Williams",
-    "role": "Cloud Architect",
-    "reason": "not-remote — This position is not hybrid/remote and will be located at our Cleveland Headquarters office. workarounds tried: (1) employer's own posting text via BuiltIn and Career.io mirrors, (2) alternate routes Dice/Career.io, (3) no remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "7:08 PM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "AI Engineer/Architect",
-    "reason": "clearance-required — Security clearance level: Secret clearance required to start with the ability to obtain & maintain a Top Secret",
-    "where": "BuiltIn",
-    "time": "5:57 PM"
-   },
-   {
-    "company": "Autodesk",
-    "role": "Senior Principal Cloud Architect",
-    "reason": "cloud-mismatch — Serve as the primary technical leader for our AWS environment, providing deep architectural guidance and best practices for design, deployment, and operations workarounds tried: (1) BuiltIn employer mirror, (2) alternate Autodesk careers route, (3) no Azure-first alternate posting found",
-    "where": "BuiltIn",
-    "time": "7:35 PM"
-   },
-   {
-    "company": "Eversource Energy",
-    "role": "Lead Cloud Engineer (Azure)",
-    "reason": "not-remote — HYBRID Schedule - Current guidelines require employees to work at least three days in the office, including Tuesdays and Wednesdays. The role is based in Berlin, CT. Workarounds tried: (1) BuiltIn reproduces Eversource's own posting text including the hybrid guideline; (2) alternate surfaces checked, no fully-remote posting of this role; (3) no alternate req found.",
-    "where": "BuiltIn",
-    "time": "8:38 AM"
-   },
-   {
-    "company": "Highmark Health",
-    "role": "Principal Enterprise Cloud Architect",
-    "reason": "stale — This job is responsible for providing executive level leadership, direction, and governance for Highmark's multi-cloud strategy. Oversees enterprise cloud architecture strategy and drives the adoption of cloud services. Published: 2025-07-07 - posting date is more than a year before this check and outside the 7-day eligibility window. Workarounds tried: (1) employer-surface search for a current Highmark posting of this role found none fresher; (2) BuiltIn mirror carries the same 2025-07-07 date; (3) no repost or refreshed req found.",
-    "where": "BuiltIn",
-    "time": "8:39 AM"
-   },
-   {
-    "company": "Vanguard",
-    "role": "Lead Solutions Architect – Martech & Customer Platforms",
-    "reason": "not-remote — This position is hybrid and would require you to be in our office 3 days per week. workarounds tried: (1) Vanguard own careers posting searched, (2) alternate route BuiltIn checked, (3) alternate posting of same role checked - same hybrid requirement.",
-    "where": "BuiltIn",
-    "time": "9:55 AM"
-   },
-   {
-    "company": "Sentara Healthcare",
-    "role": "ServiceNow Principal Domain Architect",
-    "reason": "experience-mismatch — 10 to 12 years of ServiceNow experience over all ServiceNow experience (Required) workarounds tried: (1) employer's own Sentara posting text mirrored in full JD, (2) alternate routes BuiltIn full JD, Career.io and GrabJobs mirrors same ServiceNow requirement, (3) alternate posting - no version without the 10-12 year ServiceNow core found",
-    "where": "BuiltIn",
-    "time": "2:44 PM"
-   },
-   {
-    "company": "The Hartford",
-    "role": "Principal Cloud Engineer",
-    "reason": "cloud-mismatch — Optimize The Hartford's AWS cloud infrastructure for performance, scalability, and cost-efficiency. | workarounds tried: (1) BuiltIn full JD, (2) The Muse Hartford listings show AWS/GCP focus with no Azure, (3) no Azure-inclusive alternate posting of this Principal Cloud Engineer req found",
-    "where": "BuiltIn",
-    "time": "11:06 AM"
-   },
-   {
-    "company": "Walmart",
-    "role": "Distinguished, Software Engineer (Architect)",
-    "reason": "not-remote — This is a full-time onsite role based in Sunnyvale, California; remote and hybrid options are not available. workarounds tried: BuiltIn listing (this source), Ladders duplicate listing, employer's own Walmart posting pattern - all onsite Sunnyvale",
-    "where": "BuiltIn",
-    "time": "12:14 PM"
-   },
-   {
-    "company": "Sentara Healthcare",
-    "role": "Principal Enterprise Architect - AI",
-    "reason": "experience-mismatch — 8+ years in enterprise architecture or solution architecture roles, with a minimum of 4 years focused on AI/ML initiatives in healthcare or similarly regulated industries. workarounds tried: (1) employer's own Sentara JD text mirrored in full on BuiltIn, (2) alternate routes BuiltIn full JD, Career.io and GrabJobs mirrors same AI/ML requirement, (3) alternate posting - Sentara Principal Enterprise Architect Clinical Systems requires clinical Epic/PACS experience instead",
-    "where": "BuiltIn",
-    "time": "2:46 PM"
-   },
-   {
-    "company": "General Dynamics Information Technology",
-    "role": "Cloud Data Architect",
-    "reason": "stale — Designs and supports scalable cloud data warehouses for CMS healthcare fraud, waste, and abuse analytics.",
-    "where": "BuiltIn",
-    "time": "6:01 PM"
-   },
-   {
-    "company": "Intermountain Health",
-    "role": "Software Engineer - Tech Lead",
-    "reason": "not-remote — This position will be in person for the first 6 months and then hybrid after that! workarounds tried: (1) employer Workday portal sought - mirror JD is the text found, (2) BuiltIn/Indeed mirrors, (3) no alternate remote posting found",
-    "where": "BuiltIn",
-    "time": "6:33 PM"
-   },
-   {
-    "company": "Citizens Financial",
-    "role": "Principal Architect, Enterprise Security (Commercial Banking & Payments)",
-    "reason": "not-remote — Remote work is not available for this position. Candidates must be willing to commute to one of the following hub locations and work a hybrid schedule consisting of 4 days onsite and 1 day remote per week. workarounds tried: (1) employer listing on jobs.citizensbank.com, (2) BuiltIn/Ladders mirrors - same hybrid terms, (3) no remote alternate posting found",
-    "where": "BuiltIn",
-    "time": "6:37 PM"
-   },
-   {
-    "company": "FirstEnergy",
-    "role": "Digital Technology Architect",
-    "reason": "iac — Develop Terraform modules & pipelines to automate the deployment of resources and associated configurations. Core Cloud Engineer Responsibilities: Design, deploy, and support Azure cloud infrastructure using infrastructure-as-code practices with Terraform. workarounds tried: (1) employer's own posting text via BuiltIn mirror, (2) alternate routes searched, (3) no architect-level alternate posting found; also Published: 2026-10-27",
-    "where": "BuiltIn",
-    "time": "7:11 PM"
-   },
-   {
-    "company": "General Motors",
-    "role": "Senior MarTech Solutions Architect",
-    "reason": "stale — Extensive experience (5+ yrs) in Adobe Experience Platform and Adobe Campaign solutions on-prem and cloud architecture and implementations.",
-    "where": "BuiltIn",
-    "time": "7:35 PM"
-   },
-   {
-    "company": "MetLife",
-    "role": "Mainframe Application Architect",
-    "reason": "stale — 10+ years working with mainframe middleware (CICS, DB2, MQ, IMS) in both sysplex and monoplex configurations",
-    "where": "BuiltIn",
-    "time": "7:36 PM"
-   },
-   {
-    "company": "Rackspace Technology",
-    "role": "Senior Solutions Architect & Customer Advisor – Hybrid Cloud, Data and AI",
-    "reason": "stale — Published: 2026-01-30 workarounds tried: (1) BuiltIn full JD read as finding surface, (2) Rackspace careers / Adzuna alternate posting showing $161,000 - $268,300 with no repost within 7 days, (3) no fresher alternate posting of this role found - more than 7 days old at the 2026-11-17 sweep",
-    "where": "BuiltIn",
-    "time": "8:32 PM"
-   },
-   {
-    "company": "Global Payments",
-    "role": "Chief Enterprise Architect",
-    "reason": "stale — Published: 2025-12-07 workarounds tried: (1) BuiltIn full JD read mirroring Global Payments' own posting - same 2025-12-07 date, (2) Global Payments careers search - no refreshed Chief Enterprise Architect req, (3) no alternate posting with activity within 7 days of 2026-11-17 found",
-    "where": "BuiltIn",
-    "time": "8:43 PM"
-   },
-   {
-    "company": "Health Choice Network",
-    "role": "Application Architect",
-    "reason": "experience-mismatch — A current Epic PB Claims certification is required. Minimum of 7 years of experience in Epic architecture, development, or systems design, preferably within healthcare IT. workarounds tried: (1) employer's own posting sought - BuiltIn mirror is the full JD with Epic PB requirement, (2) alternate routes searched, (3) no alternate posting of this role without the Epic certification requirement found - Hubert has no Epic experience/certification, core mismatch",
-    "where": "BuiltIn",
-    "time": "9:11 PM"
-   },
-   {
-    "company": "Apartment List",
-    "role": "Revenue Systems Architect",
-    "reason": "stale — Published: 2026-09-24 workarounds tried: (1) employer's own posting sought, (2) BuiltIn full JD read with same Salesforce revenue-systems scope and 2026-09-24 date, (3) no fresh repost within 7 days found",
-    "where": "BuiltIn",
-    "time": "9:11 PM"
-   },
-   {
-    "company": "Capital One",
-    "role": "Director, Customer Solutions Architecture- Capital One Software, Databolt (Remote)",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $244,700 - $279,200 for Director, Solutions Architecture workarounds tried: (1) BuiltIn full JD read mirroring Capital One's own posting with same range, (2) web search for alternate Capital One Databolt postings - same range, (3) no alternate posting with a different range found - top $279,200 exceeds the $230,000 band ceiling",
-    "where": "BuiltIn",
-    "time": "9:40 PM"
-   }
-  ],
   "biibhr.wd3.myworkdayjobs.com": [
    {
     "company": "Biogen",
@@ -6365,9 +6365,9 @@
    {
     "company": "GSA",
     "role": "IT Specialist (ENTARCH)",
-    "reason": "stale — The incumbent will serve as an IT Specialist (ENTARCH). Serving as authoritative advisor on enterprise (business, data, applications, and technology) architecture principles, processes, and practices.",
+    "reason": "stale — Published: 10/17/2022 - The incumbent will serve as an IT Specialist (ENTARCH). Serving as authoritative advisor on enterprise architecture principles. workarounds tried: (1) USAJobs announcement read as finding surface, (2) search for a fresher GSA enterprise architect announcement within 7 days of 2026-11-17 - none found, (3) no alternate posting with recent activity found",
     "where": "USAJobs",
-    "time": "6:01 PM"
+    "time": "9:41 PM"
    },
    {
     "company": "CFPB",
@@ -6524,6 +6524,13 @@
     "reason": "not-remote — While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. workarounds tried: (1) employer's own governmentjobs.com announcement (governing text, this page) - relocation to Colorado required and Hubert is not willing to relocate; all remote work must be performed in Colorado, (2) Monster mirror - same terms, closing 11/1/2026, (3) no alternate posting without the relocation requirement found; salary also $134,000-$149,000, top below the $160,000 band floor",
     "where": "governmentjobs.com",
     "time": "12:43 PM"
+   },
+   {
+    "company": "Colorado Governor's Office of Information Technology",
+    "role": "Senior Technical Architect (Salesforce) Remote From Anywhere In Colorado",
+    "reason": "not-remote — All remote work must be performed in Colorado. While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. workarounds tried: (1) employer's own governmentjobs.com posting opened in full - governing text, Colorado-residency required, Hubert is Texas-based and not willing to relocate, (2) alternate state-portal postings in WA/CO/AZ/NC/GA searched - no US-remote version of this role, (3) no alternate posting removing the residency requirement found",
+    "where": "governmentjobs.com",
+    "time": "9:41 PM"
    }
   ],
   "General Catalyst Job Board": [
@@ -9116,6 +9123,15 @@
     "reason": "not-remote — Office hybrid in Dallas, Indianapolis, Seattle, Atlanta or McLean, VA | workarounds tried: (1) Salesforce JD text via Worqstrap mirror checked - Hybrid, also pay $167,300-$253,000 top above band, (2) alternate routes searched, (3) alternate Salesforce postings checked - LATAM remote variant is outside US",
     "where": "worqstrap.com",
     "time": "1:25 PM"
+   }
+  ],
+  "jobs.soar-ky.org (GDIT mirror)": [
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Cloud Architect",
+    "reason": "clearance — Clearance Level Must Currently Possess: Secret - Security Clearance Requirement: Active Secret clearance",
+    "where": "jobs.soar-ky.org (GDIT mirror)",
+    "time": "9:41 PM"
    }
   ],
   "energynews.pro": [
@@ -13732,5 +13748,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T03:41:05Z"
+ "lists_generated_at": "2026-11-18T03:42:34Z"
 }
