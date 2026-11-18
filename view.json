@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T11:04:36Z",
+ "generated_at": "2026-11-18T11:06:16Z",
  "lane_state_source": "model",
  "run": {
   "id": "400ecf99",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T08:55:51Z",
-  "last_activity_at": "2026-11-18T11:04:11Z",
+  "last_activity_at": "2026-11-18T11:05:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 82,
-  "rejected": 553,
-  "evaluated": 636
+  "rejected": 558,
+  "evaluated": 640
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 636,
+  "evaluated": 640,
   "filed": 0,
   "parked": 82,
-  "rejected": 553,
+  "rejected": 558,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -94,56 +95,56 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 190/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 185/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 182/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/44"
   },
   "W9": {
@@ -226,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T11:06:16Z",
    "detail": "Employers 185/59"
   },
   "W17": {
@@ -242,41 +243,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/54"
+   "heartbeat_at": "2026-11-18T11:06:16Z",
+   "detail": "Employers 185/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/45"
+   "heartbeat_at": null,
+   "detail": "Employers 185/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/41"
+   "heartbeat_at": null,
+   "detail": "Employers 185/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T11:04:36Z",
-   "detail": "Employers 180/31"
+   "heartbeat_at": null,
+   "detail": "Employers 181/31"
   }
  },
  "stages": {
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "422 of 632 units done",
+   "detail": "427 of 632 units done",
    "started_at": "2026-11-18T08:55:51Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:04 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:05 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1060,8 +1061,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 65,
