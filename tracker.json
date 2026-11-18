@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T01:38:01Z",
+ "generated_at": "2026-11-18T01:40:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "ac7291b4",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-17T21:58:14Z",
-  "last_activity_at": "2026-11-18T01:36:20Z",
+  "last_activity_at": "2026-11-18T01:39:46Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -42,14 +42,7 @@
    "globallogic.com": 1
   }
  },
- "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -87,35 +80,35 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 160/30"
+   "heartbeat_at": null,
+   "detail": "Employers 170/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 160/39"
+   "heartbeat_at": null,
+   "detail": "Employers 170/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 165/73"
+   "heartbeat_at": null,
+   "detail": "Employers 170/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,7 +119,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 165/32"
+   "detail": "Employers 170/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -137,7 +130,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 165/44"
+   "detail": "Employers 170/44"
   },
   "W6": {
    "label": "Utilities",
@@ -148,7 +141,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 165/44"
+   "detail": "Employers 170/44"
   },
   "W9": {
    "label": "Dice",
@@ -236,7 +229,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 165/59"
+   "detail": "Employers 170/59"
   },
   "W17": {
    "label": "Technology",
@@ -247,40 +240,40 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 160/54"
+   "detail": "Employers 170/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 155/45"
+   "heartbeat_at": null,
+   "detail": "Employers 170/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 155/41"
+   "heartbeat_at": null,
+   "detail": "Employers 165/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T01:38:01Z",
-   "detail": "Employers 155/31"
+   "heartbeat_at": null,
+   "detail": "Employers 165/31"
   }
  },
  "stages": {
@@ -310,7 +303,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "374 of 632 units done",
+   "detail": "392 of 632 units done",
    "started_at": "2026-11-17T21:58:14Z",
    "ended_at": null
   },
@@ -552,19 +545,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:36 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W18"
-  }
- ],
+ "note": "Last activity 7:39 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -3258,13 +3245,6 @@
     "reason": "stale — BorgWarner is currently seeking a cloud architect and platform engineer who has experience in designing, developing, and deploying cloud-native applications and solutions. using Azure. workarounds tried: (1) BorgWarner careers search surfaced no current version of this posting, (2) Built In mirror read in full (Published: 2025-07-02), (3) no alternate/reposted posting of the same role found",
     "where": "Built In",
     "time": "6:32 AM"
-   },
-   {
-    "company": "MetLife",
-    "role": "Principal Architect - Finance Modernization & ERP Transformation",
-    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. — workarounds tried: (1) employer's own posting text via Built In full JD, (2) alternate routes for same req, (3) no alternate fully remote posting found",
-    "where": "Built In",
-    "time": "2:30 PM"
    },
    {
     "company": "MetLife",
@@ -8064,6 +8044,15 @@
     "time": "10:40 AM"
    }
   ],
+  "Simplify (MetLife)": [
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - Finance Modernization & ERP Transformation",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: (1) employer's own posting via Simplify/MetLife listing opened as governing text - hybrid stated; (2) alternate route via web search returned the same hybrid listing; (3) no alternate remote posting of the same role found.",
+    "where": "Simplify (MetLife)",
+    "time": "7:39 PM"
+   }
+  ],
   "Built In (MetLife mirror)": [
    {
     "company": "MetLife",
@@ -8825,13 +8814,13 @@
     "time": "2:33 PM"
    }
   ],
-  "Ford Careers": [
+  "Ford careers": [
    {
     "company": "Ford Motor Company",
     "role": "Salesforce Application Architect",
-    "reason": "experience-mismatch — Lead the technical design and implementation of Salesforce solutions, Marketing Cloud, Data Cloud, including configuration, customization, integration, and data migration. workarounds tried: (1) employer's own careers.ford.com page opened as governing text, (2) Ladders mirror same req, (3) Teal mirrors same req/salary - core is 3 years Salesforce/Data Cloud/Marketing Cloud, no Salesforce experience on Hubert's record",
-    "where": "Ford Careers",
-    "time": "2:38 PM"
+    "reason": "stale — Lead the technical design and implementation of Salesforce solutions, Marketing Cloud, Data Cloud, including configuration, customization, integration, and data migration. workarounds tried: (1) employer's own Ford careers page opened as governing text, published 2026-11-04, outside 7-day eligibility; (2) alternate route via web search returned the same Ford page; (3) no alternate fresher posting of the same role found.",
+    "where": "Ford careers",
+    "time": "7:38 PM"
    }
   ],
   "Weekday": [
@@ -12972,5 +12961,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T01:38:01Z"
+ "lists_generated_at": "2026-11-18T01:40:03Z"
 }
