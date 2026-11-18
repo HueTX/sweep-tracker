@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T12:04:06Z",
+ "generated_at": "2026-11-18T12:07:37Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T12:03:38Z",
+  "last_activity_at": "2026-11-18T12:04:44Z",
   "progress": {
    "pools": 21,
-   "covered_units": 158,
+   "covered_units": 206,
    "total_units": 754,
-   "pct": 21
+   "pct": 27
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 93,
-  "rejected": 658,
-  "evaluated": 751
+  "rejected": 659,
+  "evaluated": 752
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 751,
+  "evaluated": 752,
   "filed": 0,
   "parked": 93,
-  "rejected": 658,
+  "rejected": 659,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W7",
-  "W1",
   "W2",
-  "W3"
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -76,19 +76,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:04:06Z",
+   "heartbeat_at": "2026-11-18T12:07:37Z",
    "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:04:06Z",
-   "detail": "Employers 5/30"
+   "heartbeat_at": null,
+   "detail": "Employers 10/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -98,40 +98,40 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:04:06Z",
-   "detail": "Employers 0/39"
+   "heartbeat_at": "2026-11-18T12:07:37Z",
+   "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/73"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T12:04:06Z",
-   "detail": "Employers 5/73"
-  },
-  "W4": {
-   "label": "Healthcare Insurers",
-   "sites": 32,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:07:37Z",
    "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T12:07:37Z",
    "detail": "Employers 5/44"
   },
   "W6": {
@@ -305,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "20 of 632 units done",
+   "detail": "26 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -547,7 +547,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:03 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:04 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1074,7 +1074,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 98,
@@ -2586,6 +2586,13 @@
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. — published top $230,800 exceeds the $230,000 band ceiling. workarounds tried: (1) employer's own posting text read in full on BuiltIn (UnitedHealth Group JD, Requisition Number: 2390520); (2) alternate routes carry the same published range; (3) no alternate posting of this role with a different range found.",
     "where": "BuiltIn",
     "time": "5:55 AM"
+   },
+   {
+    "company": "Bright Vision Technologies",
+    "role": "Azure Solutions Architect",
+    "reason": "do-not-reapply — Bright Vision Technologies - no further applications, employer-wide (standing DNR)",
+    "where": "BuiltIn",
+    "time": "6:04 AM"
    },
    {
     "company": "Danaher",
@@ -8338,5 +8345,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T12:04:06Z"
+ "lists_generated_at": "2026-11-18T12:07:37Z"
 }
