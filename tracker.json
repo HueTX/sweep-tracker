@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T14:09:05Z",
+ "generated_at": "2026-11-18T14:11:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "88caeb21",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T11:52:59Z",
-  "last_activity_at": "2026-11-18T14:08:05Z",
+  "last_activity_at": "2026-11-18T14:10:41Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,23 +27,23 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 111,
-  "rejected": 801,
-  "evaluated": 912
+  "parked": 112,
+  "rejected": 802,
+  "evaluated": 914
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 912,
+  "evaluated": 914,
   "filed": 0,
-  "parked": 111,
-  "rejected": 801,
+  "parked": 112,
+  "rejected": 802,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
-  "W3",
-  "W4",
+  "W16",
+  "W17",
+  "W18",
   "W19",
   "W20"
  ],
@@ -84,13 +84,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 175/30"
+   "heartbeat_at": null,
+   "detail": "Employers 180/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,30 +100,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 175/39"
+   "heartbeat_at": "2026-11-18T14:11:25Z",
+   "detail": "Employers 185/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 175/73"
+   "heartbeat_at": null,
+   "detail": "Employers 185/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 175/32"
+   "heartbeat_at": null,
+   "detail": "Employers 182/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,7 +134,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/44"
+   "detail": "Employers 185/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +145,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 180/44"
+   "detail": "Employers 185/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,34 +227,34 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T14:11:25Z",
    "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T14:11:25Z",
    "detail": "Employers 180/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-18T14:11:25Z",
    "detail": "Employers 180/45"
   },
   "W19": {
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 175/41"
+   "heartbeat_at": "2026-11-18T14:11:25Z",
+   "detail": "Employers 180/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T14:09:05Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": "2026-11-18T14:11:25Z",
+   "detail": "Employers 180/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "409 of 632 units done",
+   "detail": "421 of 632 units done",
    "started_at": "2026-11-18T11:52:59Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:08 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:10 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W16 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W16",
+  "headline": "W16 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1523,6 +1523,15 @@
     "reason": "title-not-covered — Design solutions using ReactJS for front-end, Django for back-end, and PostgreSQL for persistence.",
     "where": "Weekday / MetLife Legal Plans",
     "time": "7:50 AM"
+   }
+  ],
+  "hiring.jhu.edu (employer's own careers page) — fly title: classified as Enterprise IT Architect, remote, $119,515 - $209,100; working title matches no listed family in this unit": [
+   {
+    "company": "Johns Hopkins Medicine",
+    "role": "Enterprise Web and DevOps Architect (IT@JH Cloud & Virtualization Services)",
+    "reason": "title-not-covered — leading the architecture planning, security, implementation, maintenance and support efforts of highly integrated and complex web and database hosting services within our public cloud providers",
+    "where": "hiring.jhu.edu (employer's own careers page) — fly title: classified as Enterprise IT Architect, remote, $119,515 - $209,100; working title matches no listed family in this unit",
+    "time": "8:10 AM"
    }
   ],
   "Monster": [
@@ -3347,6 +3356,13 @@
     "time": "12:20 AM"
    },
    {
+    "company": "Federal Reserve System",
+    "role": "Sr. Integration Architect",
+    "reason": "not-remote — workarounds tried: (1) employer's own posting text via BuiltIn mirror of the Federal Reserve System posting (employer directs applicants to Federal Reserve System Careers on Workday — same onsite terms); (2) alternate route TealHQ listing for the same Sr. Integration Architect role states the role is Onsite; (3) no alternate remote posting of the same role found. Verbatim JD: The selected candidate will reside within a reasonable commuting distance, as defined by the employing Reserve Bank, and will work full-time onsite.",
+    "where": "builtin.com",
+    "time": "8:09 AM"
+   },
+   {
     "company": "AbbVie",
     "role": "Domain Architect, Salesforce Ecosystem",
     "reason": "experience-mismatch — 10+ years of progressive experience in enterprise, domain, or solution architecture, with at least 5 years architecting on the Salesforce platform at enterprise scale.",
@@ -4499,13 +4515,6 @@
     "reason": "not-remote — Regular travel to the Buffalo, NY (Seneca One) hub is required, with an expectation of working onsite one week per month. workarounds tried: (1) employer's M&T posting text via Teal mirror stating Hybrid/onsite, (2) alternate Teal duplicate listing checked - same onsite expectation, (3) no fully remote alternate posting of same role found",
     "where": "TealHQ",
     "time": "4:07 AM"
-   },
-   {
-    "company": "Federal Reserve System",
-    "role": "Sr. Integration Architect",
-    "reason": "not-remote — The selected candidate works full-time onsite within reasonable commuting distance of an eligible hiring location. workarounds tried: (1) employer's Federal Reserve posting text via Teal mirror stating full-time onsite, (2) alternate routes searched for same role, (3) no fully remote alternate posting of same role found; pay top $234,300 also above band",
-    "where": "TealHQ",
-    "time": "4:41 AM"
    },
    {
     "company": "State Street",
@@ -6814,6 +6823,15 @@
     "reason": "closed — Senior Technical Architect (Salesforce) Remote From Anywhere In Colorado — Closing Date 11/1/2026 11:59 PM Mountain — Opening Date 10/23/2026",
     "where": "W2",
     "time": "12:36 AM"
+   }
+  ],
+  "clearancejobs.com": [
+   {
+    "company": "DecisionPoint",
+    "role": "Cloud / System Engineering Lead (Senior)",
+    "reason": "clearance — Active Secret clearance or higher.",
+    "where": "clearancejobs.com",
+    "time": "8:09 AM"
    }
   ],
   "digitalcareers.infosys.com": [
@@ -9628,5 +9646,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T14:09:05Z"
+ "lists_generated_at": "2026-11-18T14:11:25Z"
 }
