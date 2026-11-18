@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-18T19:14:00Z",
+ "generated_at": "2026-11-18T19:17:40Z",
  "lane_state_source": "model",
  "run": {
   "id": "aef87363",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-18T16:05:47Z",
-  "last_activity_at": "2026-11-18T19:12:36Z",
+  "last_activity_at": "2026-11-18T19:17:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 141,
-  "rejected": 1021,
-  "evaluated": 1163
+  "rejected": 1025,
+  "evaluated": 1166
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1163,
+  "evaluated": 1166,
   "filed": 0,
   "parked": 141,
-  "rejected": 1021,
+  "rejected": 1025,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -108,8 +108,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 275/73"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 285/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -229,8 +229,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 270/59"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 280/59"
   },
   "W17": {
    "label": "Technology",
@@ -240,8 +240,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-18T19:14:00Z",
-   "detail": "Employers 270/54"
+   "heartbeat_at": "2026-11-18T19:17:40Z",
+   "detail": "Employers 280/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -304,15 +304,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "567 of 632 units done",
+   "detail": "573 of 632 units done",
    "started_at": "2026-11-18T16:05:47Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "33 of 34 units done",
+   "state": "done",
+   "detail": "34 of 34 units done",
    "started_at": "2026-11-18T16:05:47Z",
-   "ended_at": null
+   "ended_at": "2026-11-18T19:17:30Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -546,10 +546,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:12 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:17 PM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
    "pool": "W16"
   }
@@ -557,7 +557,7 @@
  "now_viewing": {
   "live": true,
   "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
+  "headline": "W16 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -603,20 +603,6 @@
    "unit_created_at": null,
    "attempts": 11,
    "last_attempt_at": "2026-11-18T16:13:43Z"
-  },
-  {
-   "lead_id": 8233,
-   "employer": "Inviso Corporation",
-   "title": "Cloud Solution Architect",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "Built In (Inviso company job board)",
-   "winner_disposition_id": 19002,
-   "unit_id": 8887,
-   "unit_created_at": "2026-11-18T16:39:04Z",
-   "attempts": 5,
-   "last_attempt_at": "2026-11-18T18:44:23Z"
   },
   {
    "lead_id": 476,
@@ -1079,6 +1065,20 @@
    "unit_created_at": null,
    "attempts": 8,
    "last_attempt_at": "2026-11-18T16:13:57Z"
+  },
+  {
+   "lead_id": 8233,
+   "employer": "Inviso Corporation",
+   "title": "Cloud Solution Architect",
+   "status": "parked",
+   "blocker": "credential-needed",
+   "deadline": null,
+   "where": "Built In (Inviso company job board)",
+   "winner_disposition_id": 19324,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 6,
+   "last_attempt_at": "2026-11-18T19:15:34Z"
   }
  ],
  "headline": {
@@ -1090,7 +1090,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 176,
+  "attempted_today": 177,
   "filed_today": 0
  },
  "date": "2026-11-18",
@@ -1584,15 +1584,6 @@
     "reason": "title-not-covered — We are seeking a Solution Architect to become a key member of our architecture team, driving the design and implementation of sophisticated, enterprise-level technology solutions. The right candidate is skilled at architecting resilient production systems. Architect-level duties, but the Solution Architect title matches none of this unit's listed families (Domain/Resiliency/IT-OT/Cloud Transformation/Principal/Lead families) - fly title for this unit, parked not force-fit.",
     "where": "EPAM careers (careers.epam.com)",
     "time": "5:19 AM"
-   }
-  ],
-  "diversityjobs.com / Dice mirror of Jack Henry careers": [
-   {
-    "company": "Jack Henry & Associates",
-    "role": "Senior Enterprise Solutions Architect: Salesforce",
-    "reason": "stale-unverified — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise — no posting date on any mirror found (Dice crawl 314 days old, diversityjobs crawl 12 days old), so no stale verdict is possible and the Salesforce-core requirement cannot be dated or confirmed fresh; date unverified",
-    "where": "diversityjobs.com / Dice mirror of Jack Henry careers",
-    "time": "9:10 AM"
    }
   ],
   "diversityjobs.com": [
@@ -2243,6 +2234,15 @@
     "reason": "not-evaluated — You'll enjoy the flexibility to work remotely * from anywhere within the U.S. as you take on some tough challenges.",
     "where": "UnitedHealth Group careers (own page not locatable for this req; JD read on Built In)",
     "time": "10:12 AM"
+   }
+  ],
+  "Built In (Inviso company job board)": [
+   {
+    "company": "Inviso Corporation",
+    "role": "Cloud Solution Architect",
+    "reason": "credential-needed — This role is 100% remote and requires availability during US time-zone work hours. On-Target Earnings (OTE) for this role ranges from $135,000 to $185,000 annually — top $185,000 in the $160K-$230K band.",
+    "where": "Built In (Inviso company job board)",
+    "time": "1:17 PM"
    }
   ],
   "Dice (verify: no matching posting found on Illumen Group's own Paylocity careers board)": [
@@ -3156,6 +3156,27 @@
     "time": "1:03 PM"
    },
    {
+    "company": "CME Group",
+    "role": "Chief Architect",
+    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100. workarounds tried: (1) Built In full JD, (2) alternate search routes for same role, (3) no alternate posting with different pay found",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Solution Architect, Integration Partners (Remote)",
+    "reason": "stale — Expected Close Date of Job Posting is:05-18-2026. workarounds tried: (1) Built In full JD, (2) Built In SF mirror of same role, (3) no fresher repost found in lane search",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Zero Trust Networking, Principal Architect",
+    "reason": "pay-outside-band — Base Pay Range $210,000 — $262,500 USD. workarounds tried: (1) Built In full JD, (2) Built In NYC mirror, (3) no alternate posting with different pay found",
+    "where": "Built In",
+    "time": "1:16 PM"
+   },
+   {
     "company": "GSK",
     "role": "VP, Chief Enterprise Architect",
     "reason": "stale — As the VP, Chief Enterprise Architect, you will set the vision for enterprise-wide architecture—driving digital and AI-enabled transformation, and influencing business strategy at the highest levels. Published: 2026-09-15 — posting date is well outside the 7-day eligibility window.",
@@ -3422,6 +3443,27 @@
     "time": "10:14 AM"
    },
    {
+    "company": "Palo Alto Networks",
+    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
+    "reason": "hands-on — writing production-grade code (with a focus on Python) for custom automation, application logic, and integration layers. workarounds tried: (1) Built In full JD, (2) alternate search routes, (3) no alternate posting found",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Sr. Cloud Security Architect, GCP (Remote)",
+    "reason": "cloud-mismatch — CrowdStrike is looking for a Sr. Cloud Security Architect to serve as the primary technical authority for our Google Cloud Platform (GCP) ecosystem. Expert-Level GCP: Deep, hands-on experience securing Google Cloud. workarounds tried: (1) Built In full JD, (2) Accel board mirror, (3) no Azure-inclusive alternate posting found",
+    "where": "Built In",
+    "time": "1:16 PM"
+   },
+   {
+    "company": "Fortinet",
+    "role": "Consulting Cloud Architect (Remote, US)",
+    "reason": "hands-on — This role is a hands-on engineering and architecture position that requires development and/or DevOps abilities. workarounds tried: (1) Built In full JD, (2) alternate search routes, (3) no alternate posting of same role found",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
     "company": "BlackRock",
     "role": "Enterprise Architect, Aladdin Engineering - Investor Solutions, Director",
     "reason": "not-remote — Employees are currently required to work at least 4 days in the office per week, with the flexibility to work from home 1 day a week. workarounds tried: (1) employer's own BlackRock posting text via Built In mirror stating the hybrid work model (governing text), (2) alternate Career.io route - same hybrid model and $215,000-$275,000 range, (3) no fully remote alternate posting of same role found",
@@ -3478,6 +3520,20 @@
     "time": "10:27 AM"
    },
    {
+    "company": "Zscaler",
+    "role": "Specialist Solution Architect - ZT Cloud",
+    "reason": "pay-outside-band — Base Pay Range $195,000 — $243,750 USD. workarounds tried: (1) Built In full JD, (2) alternate search routes, (3) no alternate posting with different pay found",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Sr. Cloud Principal Design Architect",
+    "reason": "cloud-mismatch — This position is for a Senior Sr. Principal Cloud Design Architect on our Cloud Engineering team, supporting AWS. Remote - United States - US: $193,040 - $233,913. workarounds tried: (1) Built In full JD, (2) Built In SF mirror, (3) no alternate Azure-first posting found",
+    "where": "Built In",
+    "time": "1:15 PM"
+   },
+   {
     "company": "Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment.",
@@ -3490,6 +3546,13 @@
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth Group/Optum posting route — the same published range appears across this req's surfaces (Built In full JD quoted, req 2390520); (2) alternate routes Built In / DiversityJobs / Career.io mirrors checked — same range; (3) alternate posting of the same role — none with an in-band range. Published top $230,800 exceeds the $230,000 band ceiling.",
     "where": "Built In",
     "time": "3:00 AM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Senior Salesforce Technical Architect",
+    "reason": "experience-mismatch — 10+ years of Salesforce CRM experience with deep understanding of Object oriented programming. workarounds tried: (1) Built In full JD, (2) alternate search routes for same role, (3) no alternate fresh posting found",
+    "where": "Built In",
+    "time": "1:15 PM"
    },
    {
     "company": "Hewlett Packard Enterprise",
@@ -5285,6 +5348,13 @@
     "time": "1:36 AM"
    },
    {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Enterprise Solutions Architect: Salesforce",
+    "reason": "experience-mismatch — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise. workarounds tried: (1) Dice full JD (finding route), (2) diversityjobs mirror of same role, (3) no alternate fresh posting of same role found in lane search",
+    "where": "Dice",
+    "time": "1:15 PM"
+   },
+   {
     "company": "State Street",
     "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
     "reason": "stale — We are seeking an experienced, hands-on Solution Architect for AI and Cloud Systems to support State Street's Anti-Money Laundering (AML) Compliance Technology team. Experience with Python, APIs, microservices, containers, Kubernetes, and event-driven architecture. Published: 2026-10-15, outside 7-day eligibility. workarounds tried: (1) Dice employer posting, (2) StateStreet.com/careers route referenced in posting, (3) no fresher alternate posting found.",
@@ -5965,13 +6035,6 @@
     "time": "6:28 AM"
    },
    {
-    "company": "Zscaler",
-    "role": "Zero Trust Networking, Principal Architect",
-    "reason": "pay-outside-band — Base Pay Range $210,000 — $262,500 USD. workarounds tried: (1) Built In full JD, (2) alternate Zscaler routes via search, (3) no alternate posting with different range found",
-    "where": "builtinnyc.com",
-    "time": "2:39 AM"
-   },
-   {
     "company": "General Dynamics Information Technology",
     "role": "Senior Principal Cloud Engineer",
     "reason": "active-clearance — Clearance Level Must Currently Possess: Secret. Secret security clearance with the ability to obtain Top Secret.",
@@ -6483,13 +6546,6 @@
     "reason": "pay-outside-band — A reasonable estimate of the base salary range for this role is $130,000 to $150,000. workarounds tried: (1) employer text via BuiltIn SF mirror, (2) alternate routes searched for same Clover role, (3) no alternate posting with different pay found; also published 2026-02-14",
     "where": "BuiltIn SF",
     "time": "4:04 AM"
-   },
-   {
-    "company": "CrowdStrike",
-    "role": "Sr. Cloud Security Architect, GCP (Remote)",
-    "reason": "cloud-mismatch — CrowdStrike is looking for a Sr. Cloud Security Architect to serve as the primary technical authority for our Google Cloud Platform (GCP) ecosystem. workarounds tried: (1) BuiltIn SF full JD, (2) employer-name search, (3) alternate mirrors - GCP is primary, secondary clouds are AWS and OCI, Azure is not part of the role",
-    "where": "BuiltIn SF",
-    "time": "2:42 AM"
    }
   ],
   "Out for Undergrad Job Board": [
@@ -6970,15 +7026,6 @@
     "reason": "hands-on — This is a hands-on role. — workarounds tried: (1) S&P Global careers text via Built In full JD opened, (2) alternate Built In NYC/Austin mirrors checked, (3) no alternate non-hands-on posting of this role found; posting also dated 2025-05-08",
     "where": "Built In mirror of S&P Global careers",
     "time": "9:08 AM"
-   }
-  ],
-  "Built In mirror of CME Group careers": [
-   {
-    "company": "CME Group",
-    "role": "Chief Architect",
-    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100. — workarounds tried: (1) CME posting text via Built In full JD opened, (2) alternate search routes checked, (3) no alternate posting with an in-band range found; role is also Google Cloud partnership / GCP-first: Through the CME Group and Google Cloud strategic partnership , CME Group is transforming how financial services operate",
-    "where": "Built In mirror of CME Group careers",
-    "time": "9:10 AM"
    }
   ],
   "DiversityJobs (ICE mirror)": [
@@ -7736,6 +7783,13 @@
     "reason": "pay-outside-band — MongoDB's base salary range for this role in the U.S. is: $137,000—$270,000 USD — workarounds tried: (1) employer's own MongoDB posting text mirrored on startup.jobs/diversityjobs; (2) alternate route diversityjobs checked; (3) no alternate posting changes the published top",
     "where": "startup.jobs",
     "time": "9:21 AM"
+   },
+   {
+    "company": "Cloudflare",
+    "role": "Security Architect (Infrastructure/Network)",
+    "reason": "not-remote — Available Locations: Austin, Texas, San Francisco, USA, DC, USA, London, UK, Lisbon, Portugal. workarounds tried: (1) startup.jobs full JD, (2) alternate search routes, (3) no remote posting of same role found",
+    "where": "startup.jobs",
+    "time": "1:16 PM"
    }
   ],
   "Built In Charlotte": [
@@ -8497,24 +8551,6 @@
     "time": "7:39 AM"
    }
   ],
-  "Built In NYC mirror of Palo Alto Networks careers": [
-   {
-    "company": "Palo Alto Networks",
-    "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
-    "reason": "hands-on-coding — writing production-grade code (with a focus on Python) for custom automation, application logic, and integration layers — workarounds tried: (1) employer posting text via Built In NYC full JD opened, (2) alternate Built In mirrors checked, (3) no alternate posting without the production-code duty found; also GCP preferred and $170,000-270,000/YR top above band",
-    "where": "Built In NYC mirror of Palo Alto Networks careers",
-    "time": "9:08 AM"
-   }
-  ],
-  "Built In mirror of Fortinet careers": [
-   {
-    "company": "Fortinet",
-    "role": "Consulting Cloud Architect (Remote, US)",
-    "reason": "hands-on-coding — This role is a hands-on engineering and architecture position that requires development and/or DevOps abilities. — workarounds tried: (1) Fortinet posting text via Built In full JD opened, (2) alternate search routes checked, no alternate posting without development duties found, (3) no refreshed posting found; also on target earnings $228,100 - $253,400, top above band, and AWS focus",
-    "where": "Built In mirror of Fortinet careers",
-    "time": "9:08 AM"
-   }
-  ],
   "Built In LA mirror of Cloudflare careers": [
    {
     "company": "Cloudflare",
@@ -8761,24 +8797,6 @@
     "reason": "pay-outside-band — Base Pay/Salary Jersey City,NJ $232,750.00 - $325,000.00 / year workarounds tried: (1) alternate routes Monster and Built In both carry the same published range, (2) no alternate posting of this role with a different published range found",
     "where": "JPMorgan Chase sector / Monster (JPMorgan mirror)",
     "time": "3:15 AM"
-   }
-  ],
-  "Built In mirror of Zscaler careers": [
-   {
-    "company": "Zscaler",
-    "role": "Specialist Solution Architect - ZT Cloud",
-    "reason": "pay-outside-band — Base Pay Range $195,000 — $243,750 USD — workarounds tried: (1) Zscaler posting text via Built In full JD opened, (2) alternate route Built In Boston mirror with the same range, (3) no alternate posting with an in-band range found",
-    "where": "Built In mirror of Zscaler careers",
-    "time": "9:08 AM"
-   }
-  ],
-  "Built In mirror of BMS careers": [
-   {
-    "company": "Bristol Myers Squibb",
-    "role": "Sr. Cloud Principal Design Architect",
-    "reason": "pay-outside-band — Remote - United States - US: $193,040 - $233,913 — workarounds tried: (1) careers.bms.com searched (no direct hit returned), (2) alternate route Built In full JD opened with the same range, (3) no alternate posting with an in-band range found; role is also AWS-first: Design and secure AWS cloud environments globally using Transit Gateway, Cloud WAN",
-    "where": "Built In mirror of BMS careers",
-    "time": "9:08 AM"
    }
   ],
   "Remotery": [
@@ -11594,5 +11612,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-18T19:14:00Z"
+ "lists_generated_at": "2026-11-18T19:17:40Z"
 }
