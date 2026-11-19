@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T04:10:59Z",
+ "generated_at": "2026-11-19T04:12:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T04:10:50Z",
+  "last_activity_at": "2026-11-19T04:12:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,19 +27,26 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 203,
-  "rejected": 1299,
-  "evaluated": 1502
+  "parked": 207,
+  "rejected": 1300,
+  "evaluated": 1507
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1502,
+  "evaluated": 1507,
   "filed": 0,
-  "parked": 203,
-  "rejected": 1299,
+  "parked": 207,
+  "rejected": 1300,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W5",
+  "W6",
+  "W16",
+  "W17"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,23 +95,23 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T04:12:44Z",
    "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T04:12:44Z",
    "detail": "Employers 220/73"
   },
   "W4": {
@@ -121,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 215/44"
+   "heartbeat_at": "2026-11-19T04:12:44Z",
+   "detail": "Employers 220/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 215/44"
+   "heartbeat_at": "2026-11-19T04:12:44Z",
+   "detail": "Employers 220/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,24 +227,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 215/59"
+   "heartbeat_at": "2026-11-19T04:12:44Z",
+   "detail": "Employers 220/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 215/54"
+   "heartbeat_at": "2026-11-19T04:12:44Z",
+   "detail": "Employers 220/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 215/45"
+   "detail": "Employers 220/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 215/41"
+   "detail": "Employers 220/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "486 of 632 units done",
+   "detail": "492 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:10 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 10:12 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
