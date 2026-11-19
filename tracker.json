@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:54:55Z",
+ "generated_at": "2026-11-19T08:56:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:53:37Z",
+  "last_activity_at": "2026-11-19T08:56:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 70,
-  "rejected": 285,
-  "evaluated": 355
+  "rejected": 290,
+  "evaluated": 360
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 355,
+  "evaluated": 360,
   "filed": 0,
   "parked": 70,
-  "rejected": 285,
+  "rejected": 290,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/30"
+   "detail": "Employers 55/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/39"
+   "detail": "Employers 55/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/73"
+   "detail": "Employers 55/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,24 +121,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/44"
+   "heartbeat_at": null,
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,46 +220,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/59"
+   "heartbeat_at": null,
+   "detail": "Employers 50/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/54"
+   "heartbeat_at": null,
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/45"
+   "heartbeat_at": null,
+   "detail": "Employers 50/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:54:55Z",
-   "detail": "Employers 45/41"
+   "heartbeat_at": null,
+   "detail": "Employers 50/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +270,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/31"
+   "detail": "Employers 50/31"
   }
  },
  "stages": {
@@ -289,7 +282,7 @@
   },
   "prep": {
    "state": "active",
-   "detail": "0 of 2 units done",
+   "detail": "1 of 2 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "122 of 632 units done",
+   "detail": "133 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:53 AM CT · 7 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W5"
-  }
- ],
+ "note": "Last activity 2:56 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1766,6 +1753,27 @@
     "reason": "hands-on — Design and implement platform automation solutions using TypeScript, Terraform, and GitLab CI/CD pipelines. workarounds tried: (1) employer route searched via Centene careers title search - same AWS/TypeScript text on mirrors, (2) alternate route Dice posting 29ef6828bcd71bb504947741c8adac04 with same duties, (3) alternate posting BuiltIn Austin same role and duties",
     "where": "Built In",
     "time": "2:43 AM"
+   },
+   {
+    "company": "Morgan Stanley",
+    "role": "Lead Platform Engineer - Parametric",
+    "reason": "not-remote — This role is part of Parametric's hybrid working model, which includes working in the office 3 days a week and choosing to work remotely or in the office the remaining days of the week. workarounds tried: checked alternate listings (Ladders, GrabJobs, Built In) for same Parametric role - all state same hybrid model; whole role is also hands-on platform engineering/IaC pipelines.",
+    "where": "Built In",
+    "time": "2:55 AM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Lead Platform Engineer",
+    "reason": "clearance — Clearance Level Must Currently Possess: Secret; DoD Secret Security Clearance with ability to obtain TS.",
+    "where": "Built In",
+    "time": "2:55 AM"
+   },
+   {
+    "company": "SLB",
+    "role": "Cloud Development Technical Lead",
+    "reason": "not-remote — Telecommuting permitted less than 50% per week within the same geographic location as the assigned Schlumberger Office location. workarounds tried: employer-surface search and alternate listings (Built In/Wellfound mirrors of same SLB posting) show same Houston office location and <50% telecommuting; role also requires hands-on Golang/Python cloud programming.",
+    "where": "Built In",
+    "time": "2:55 AM"
    },
    {
     "company": "Yum! Brands",
@@ -3529,6 +3537,15 @@
     "time": "1:49 AM"
    }
   ],
+  "The Muse": [
+   {
+    "company": "Morgan Stanley",
+    "role": "Cloud & Digital Assets Platform Engineering Lead",
+    "reason": "pay-outside-band — Expected base pay rates for the role will be between $195,000 and $275,000 per year at the commencement of employment. workarounds tried: checked employer-surface summary via The Muse/JobLookup listings of same Morgan Stanley role - same $195k-$275k range, top above $230k ceiling; role is also AWS/GCP hands-on infrastructure, Azure not named.",
+    "where": "The Muse",
+    "time": "2:55 AM"
+   }
+  ],
   "Jobspresso (Twilio mirror)": [
    {
     "company": "Twilio",
@@ -4005,6 +4022,15 @@
     "reason": "stale — This role, specializing in Oracle Cloud Infrastructure (OCI) and PaaS solutions, is responsible for designing, developing, implementing, supporting, and optimizing architecture strategies to meet diverse business capabilities and needs.",
     "where": "Built In NYC",
     "time": "2:47 AM"
+   }
+  ],
+  "GovernmentJobs.com": [
+   {
+    "company": "GovernmentJobs.com / NEOGOV agencies",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "closed — SALARY $135,000.00 - $145,000.00 Annually; OPENING DATE 10/29/2026; CLOSING DATE 11/8/2026 at 11:59 PM Mountain Time (US & Canada); All remote work must be performed in Colorado.",
+    "where": "GovernmentJobs.com",
+    "time": "2:56 AM"
    }
   ]
  },
@@ -5191,5 +5217,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:54:55Z"
+ "lists_generated_at": "2026-11-19T08:56:22Z"
 }
