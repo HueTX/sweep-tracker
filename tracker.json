@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T06:52:38Z",
+ "generated_at": "2026-11-19T06:54:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T06:47:35Z",
+  "last_activity_at": "2026-11-19T06:54:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 23,
-  "rejected": 79,
-  "evaluated": 102
+  "parked": 25,
+  "rejected": 82,
+  "evaluated": 107
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 102,
+  "evaluated": 107,
   "filed": 0,
-  "parked": 23,
-  "rejected": 79,
+  "parked": 25,
+  "rejected": 82,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
-  "W20"
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -84,13 +84,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 175/30"
+   "heartbeat_at": null,
+   "detail": "Employers 180/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,8 +100,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 175/39"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 175/73"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 175/32"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,19 +133,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 175/44"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/44"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 175/59"
+   "heartbeat_at": "2026-11-19T06:54:33Z",
+   "detail": "Employers 180/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/54"
+   "detail": "Employers 180/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/45"
+   "detail": "Employers 180/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,18 +266,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 175/41"
+   "detail": "Employers 180/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:52:38Z",
-   "detail": "Employers 170/31"
+   "heartbeat_at": null,
+   "detail": "Employers 180/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "404 of 632 units done",
+   "detail": "416 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:47 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:54 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W2 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W2",
+  "headline": "W2 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1118,6 +1118,13 @@
     "time": "12:47 AM"
    },
    {
+    "company": "Premera Blue Cross",
+    "role": "Solution Architect V",
+    "reason": "title-not-covered — This is a hybrid role located on our campus in Mountlake Terrace, Washington.",
+    "where": "Built In",
+    "time": "12:53 AM"
+   },
+   {
     "company": "Red Hat",
     "role": "Telco Infrastructure Architect - Cloud/Automation",
     "reason": "title-not-covered — Designs cloud, automation, virtualization, networking, storage, and telecommunications architectures for enterprise customers.",
@@ -1209,6 +1216,15 @@
     "reason": "stale-unverified — Minimum 2 years of experience in implementation, deployment, or technical customer support with Oracle Cerner Millennium",
     "where": "Career.io",
     "time": "12:47 AM"
+   }
+  ],
+  "Simplify": [
+   {
+    "company": "MetLife",
+    "role": "Principal Architect - Finance Modernization & ERP Transformation",
+    "reason": "title-not-covered — Serve as the lead architect supporting the Finance Modernization and ERP Transformation Program.",
+    "where": "Simplify",
+    "time": "12:54 AM"
    }
   ],
   "Vaia / Cook County Government": [
@@ -1508,6 +1524,13 @@
     "reason": "not-remote — We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on site in the specified location(s) | workarounds tried: (1) Glassdoor full listing of Schwab req 2026-128901 (Westlake/Austin/San Francisco, on site), (2) Schwab's other current architect listing (AI Integration Architect, req 2026-128942) carries the same on-site statement, (3) no remote alternate posting of this role found; pay range USD $148,000.00 - $269,000.00 also tops above band and application deadline 2026-11-09 has passed",
     "where": "Glassdoor",
     "time": "12:38 AM"
+   },
+   {
+    "company": "Norfolk Southern",
+    "role": "Enterprise Cloud Architect",
+    "reason": "not-remote — Environment: Hybrid on-site (2) days and remote work (3) days per week. workarounds tried: (1) employer's own jobs.nscorp.com board checked - no remote version of requisition 40380, (2) Glassdoor and CareerArc mirrors show the same hybrid terms, (3) no alternate remote posting of this requisition found",
+    "where": "Glassdoor",
+    "time": "12:53 AM"
    }
   ],
   "Built In / Career.io": [
@@ -1818,6 +1841,15 @@
     "time": "12:10 AM"
    }
   ],
+  "Remote Rocketship / Accenture Federal Services careers": [
+   {
+    "company": "Accenture Federal Services",
+    "role": "Cloud Enterprise Architect",
+    "reason": "clearance — Must have an active Top Secret clearance",
+    "where": "Remote Rocketship / Accenture Federal Services careers",
+    "time": "12:54 AM"
+   }
+  ],
   "Remote Rocketship": [
    {
     "company": "Memorial Hermann",
@@ -1906,6 +1938,15 @@
     "reason": "not-remote — This is a hybrid (virtual/onsite) position with required onsite days on Monday, Tuesday and Thursday assigned to One Energy Plaza located in Jackson, MI. The selected candidate must be within a commutable distance or willing to relocate | workarounds tried: (1) employer posting text via Jooble, (2) alternate mirror RoleWatcher, (3) sibling Cloud posting - all show the same hybrid schedule",
     "where": "Jooble",
     "time": "12:35 AM"
+   }
+  ],
+  "USAJobs": [
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "Enterprise Architect, Platforms and Infrastructure",
+    "reason": "not-remote — You will be required to report to an OPM assigned office. workarounds tried: (1) employer's own USAJobs posting is the governing text and states office reporting, (2) alternate USAJobs OPM posting 891011100 states the same, (3) no alternate remote posting of this role found",
+    "where": "USAJobs",
+    "time": "12:53 AM"
    }
   ],
   "Careerbyte": [
@@ -3145,5 +3186,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T06:52:38Z"
+ "lists_generated_at": "2026-11-19T06:54:33Z"
 }
