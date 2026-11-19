@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T05:32:59Z",
+ "generated_at": "2026-11-19T05:35:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T05:32:52Z",
+  "last_activity_at": "2026-11-19T05:33:38Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 220,
-  "rejected": 1347,
-  "evaluated": 1567
+  "rejected": 1348,
+  "evaluated": 1568
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1567,
+  "evaluated": 1568,
   "filed": 0,
   "parked": 220,
-  "rejected": 1347,
+  "rejected": 1348,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/30"
+   "detail": "Employers 55/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/39"
+   "detail": "Employers 55/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 50/73"
+   "detail": "Employers 55/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -116,29 +123,29 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/32"
+   "detail": "Employers 55/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/44"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,46 +227,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/59"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/54"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/45"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 45/41"
+   "heartbeat_at": "2026-11-19T05:35:08Z",
+   "detail": "Employers 50/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 45/31"
+   "detail": "Employers 50/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "122 of 632 units done",
+   "detail": "134 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:32 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 11:33 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -5470,6 +5483,13 @@
     "reason": "not-remote — This position requires working onsite five days a week. workarounds tried: (1) Built In mirror carrying Caterpillar's own JD text, (2) alternate Caterpillar architect postings in same search all also onsite five days a week, (3) no remote posting of same role found.",
     "where": "builtin.com",
     "time": "11:32 PM"
+   },
+   {
+    "company": "Morgan Stanley",
+    "role": "Director, Lead Cloud & Infrastructure Engineering",
+    "reason": "not-remote — Telecommuting permitted up to 60% of time. workarounds tried: (1) Built In full JD carrying Morgan Stanley's own posting text for the Alpharetta, GA role, (2) alternate Morgan Stanley cloud lead postings in same search are hybrid in Montreal, (3) no fully remote posting of same role found.",
+    "where": "builtin.com",
+    "time": "11:33 PM"
    }
   ],
   "jobgether.com": [
@@ -5585,9 +5605,9 @@
    {
     "company": "Baker Hughes",
     "role": "Digital Technology Senior Specialist - Enterprise Architecture",
-    "reason": "non-US — Be aware of the location restriction for this remote position: India",
+    "reason": "not-remote — Be aware of the location restriction for this remote position: India. Published: 2026-10-19. workarounds tried: Remotive full listing carrying Baker Hughes JD text shows India-only remote; no US-remote posting of same role found in the lane search.",
     "where": "remotive.com",
-    "time": "8:20 PM"
+    "time": "11:33 PM"
    }
   ],
   "monster.com": [
@@ -7593,6 +7613,13 @@
     "time": "8:19 PM"
    },
    {
+    "company": "Capital One",
+    "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) Talentally full JD carrying Capital One's own posting text and salary, (2) Capital One Careers linked as governing source in the JD with same role, (3) no alternate posting with a different published range found.",
+    "where": "talentally.com",
+    "time": "11:33 PM"
+   },
+   {
     "company": "CareFirst",
     "role": "Senior Domain Architect",
     "reason": "pay-outside-band — Salary Range: $122,040 - $242,385 | workarounds tried: Talentally mirror of the employer's own CareFirst posting carries the same range, and the employer's careers site is the apply route; top $242,385 is above the $230,000 ceiling",
@@ -8248,22 +8275,6 @@
     "reason": "pay-outside-band — The base pay range for this role is between $201,300 and $367,400 — published top $367,400 is above the $230,000 ceiling. Full JD read on Qureos (Apple-sourced): minimum qualifications include 'Development: Strong coding ability in complied language (eg. Go, Java) and software engineering best practices'. Workarounds tried: (1) Qureos full JD read, (2) Mediabistro / The Muse mirrors of Apple role 200635095-3337 carry the same $201,300-$367,400 range, (3) no in-band alternate posting found. Published 2026-04-09.",
     "where": "Qureos",
     "time": "7:50 PM"
-   }
-  ],
-  "TalentAlly": [
-   {
-    "company": "Capital One",
-    "role": "Sr. Manager, Solutions Architect (Customer Engineering)(Remote)",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch workarounds tried: (1) full JD opened on TalentAlly carrying Capital One's own salary table; (2) Capital One Careers route referenced in the JD; (3) no alternate posting with an in-band top found.",
-    "where": "TalentAlly",
-    "time": "10:59 AM"
-   },
-   {
-    "company": "Capital One",
-    "role": "Sr. Manager, Solutions Architect (Customer Engineering)",
-    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch. Top of published range $233,800 exceeds the $230,000 ceiling. Workarounds tried: full JD on TalentAlly mirror of Capital One's own posting; published range is the employer's.",
-    "where": "TalentAlly",
-    "time": "8:10 PM"
    }
   ],
   "jobspresso.co": [
@@ -9556,9 +9567,9 @@
    {
     "company": "Molina Healthcare",
     "role": "AVP, Infrastructure (IaC / Multi-Cloud Architecture / AI) - REMOTE",
-    "reason": "pay-outside-band — Pay Range: $140,795 - $274,550.26 / ANNUAL workarounds tried: (1) employer's own Molina Healthcare posting text as carried on the finding surface (governing text, same pay range), (2) Career.io Molina routes for related roles, (3) no alternate posting of this AVP role with a different salary found",
+    "reason": "pay-outside-band — Pay Range: $140,795 - $274,550.26 / ANNUAL - Provides strategy and leadership to team responsible for enterprise infrastructure operations, technology platforms, and engineering across all lines of business. workarounds tried: (1) WeAreDevelopers full listing carrying Molina's own JD and pay range, (2) other Molina architect postings in same search carry different ranges for different roles, (3) no alternate posting of this AVP req with an in-band range found.",
     "where": "wearedevelopers.com",
-    "time": "8:25 PM"
+    "time": "11:33 PM"
    }
   ],
   "W18": [
@@ -13071,6 +13082,15 @@
     "time": "2:17 PM"
    }
   ],
+  "TalentAlly": [
+   {
+    "company": "Capital One",
+    "role": "Sr. Manager, Solutions Architect (Customer Engineering)",
+    "reason": "pay-outside-band — Remote (Regardless of Location): $204,900 - $233,800 for Sr. Manager, Solution Arch. Top of published range $233,800 exceeds the $230,000 ceiling. Workarounds tried: full JD on TalentAlly mirror of Capital One's own posting; published range is the employer's.",
+    "where": "TalentAlly",
+    "time": "8:10 PM"
+   }
+  ],
   "Jobsora": [
    {
     "company": "Walgreens Boots Alliance",
@@ -14709,5 +14729,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T05:32:59Z"
+ "lists_generated_at": "2026-11-19T05:35:08Z"
 }
