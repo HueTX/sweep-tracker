@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T22:34:41Z",
+ "generated_at": "2026-11-19T22:37:35Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T22:31:35Z",
+  "last_activity_at": "2026-11-19T22:37:28Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 1,
   "parked": 158,
-  "rejected": 1400,
-  "evaluated": 1560
+  "rejected": 1401,
+  "evaluated": 1561
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1560,
+  "evaluated": 1561,
   "filed": 1,
   "parked": 158,
-  "rejected": 1400,
+  "rejected": 1401,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
@@ -44,7 +44,7 @@
  "searching_lanes": [
   "W2",
   "W3",
-  "W4",
+  "W16",
   "W17",
   "W18",
   "W19",
@@ -103,8 +103,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
-   "detail": "Employers 195/39"
+   "heartbeat_at": "2026-11-19T22:37:35Z",
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,19 +114,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
-   "detail": "Employers 195/73"
+   "heartbeat_at": "2026-11-19T22:37:35Z",
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
-   "detail": "Employers 188/32"
+   "heartbeat_at": null,
+   "detail": "Employers 190/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -230,12 +230,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T22:37:35Z",
    "detail": "Employers 200/59"
   },
   "W17": {
@@ -246,7 +246,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
+   "heartbeat_at": "2026-11-19T22:37:35Z",
    "detail": "Employers 195/54"
   },
   "W18": {
@@ -257,7 +257,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
+   "heartbeat_at": "2026-11-19T22:37:35Z",
    "detail": "Employers 195/45"
   },
   "W19": {
@@ -268,7 +268,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
+   "heartbeat_at": "2026-11-19T22:37:35Z",
    "detail": "Employers 190/41"
   },
   "W20": {
@@ -279,7 +279,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:34:41Z",
+   "heartbeat_at": "2026-11-19T22:37:35Z",
    "detail": "Employers 183/31"
   }
  },
@@ -310,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "451 of 632 units done",
+   "detail": "454 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -552,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:31 PM CT · 10 workers in flight · 1 filed this cycle",
+ "note": "Last activity 4:37 PM CT · 13 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W19 · Title 11 of 58 · Domain Architect",
@@ -1093,7 +1093,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 113,
