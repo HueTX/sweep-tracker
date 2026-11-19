@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T10:42:34Z",
+ "generated_at": "2026-11-19T10:43:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,38 +15,34 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T10:42:32Z",
+  "last_activity_at": "2026-11-19T10:43:51Z",
   "progress": {
    "pools": 21,
-   "covered_units": 114,
+   "covered_units": 204,
    "total_units": 754,
-   "pct": 15
+   "pct": 27
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 113,
-  "rejected": 506,
-  "evaluated": 619
+  "parked": 114,
+  "rejected": 510,
+  "evaluated": 624
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 619,
+  "evaluated": 624,
   "filed": 0,
-  "parked": 113,
-  "rejected": 506,
+  "parked": 114,
+  "rejected": 510,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W7",
-  "W1",
-  "W2",
   "W3",
-  "W6",
-  "W20"
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -68,41 +64,41 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
+   "heartbeat_at": "2026-11-19T10:43:54Z",
    "detail": "Titles 58/58"
   },
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
+   "heartbeat_at": null,
    "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
-   "detail": "Employers 5/30"
+   "heartbeat_at": null,
+   "detail": "Employers 10/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
-   "detail": "Employers 5/39"
+   "heartbeat_at": null,
+   "detail": "Employers 10/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,8 +108,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": "2026-11-19T10:43:54Z",
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -124,7 +120,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 5/32"
+   "detail": "Employers 10/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -135,7 +131,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 5/44"
+   "detail": "Employers 10/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +141,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
+   "heartbeat_at": "2026-11-19T10:43:54Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -272,13 +268,13 @@
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:42:34Z",
-   "detail": "Employers 0/31"
+   "heartbeat_at": null,
+   "detail": "Employers 5/31"
   }
  },
  "stages": {
@@ -308,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "14 of 632 units done",
+   "detail": "25 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -550,7 +546,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:42 AM CT · 14 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:43 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 1 of 58 · Azure Architect",
@@ -1091,7 +1087,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 69,
@@ -1303,6 +1299,13 @@
     "reason": "not-evaluated — Murphy Oil is seeking an experienced Data & Integration Architect to lead the design, architecture, and delivery of enterprise grade data engineering and integration solutions. Full JD could not be opened - only Dice aggregation snippets (crawled 73-75 days ago) found; employer's own posting not located.",
     "where": "Dice",
     "time": "2:07 AM"
+   },
+   {
+    "company": "Ascension",
+    "role": "Cloud Strategist / Architect",
+    "reason": "title-not-covered — The Cloud Strategist Architect strategizes, designs and implements medium, complex, and highly complex cloud technology solutions that meet business requirements that are fully aligned with enterprise cloud strategy and architecture guidelines.",
+    "where": "Dice",
+    "time": "4:43 AM"
    },
    {
     "company": "UnivEdge Consulting LLC",
@@ -3220,11 +3223,25 @@
     "time": "4:41 AM"
    },
    {
+    "company": "Optum",
+    "role": "Director, Advisory Services - Cloud Architect - Remote",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. | workarounds tried: (1) employer's own sector search for UnitedHealth Group / Optum, (2) alternate route BuiltIn full JD carrying the salary range, (3) alternate Optum Principal Architect postings carry the same $134,600 - $230,800 range",
+    "where": "BuiltIn",
+    "time": "4:43 AM"
+   },
+   {
     "company": "Sherwin-Williams",
     "role": "Cloud Architect",
     "reason": "not-remote — This position is not hybrid/remote and will be located at our Cleveland Headquarters office. workarounds tried: (1) employer's own OracleCloud careers posting job 2629046 - same role, (2) BuiltIn alternate route, (3) alternate postings of same role - all Cleveland headquarters on-site",
     "where": "BuiltIn",
     "time": "3:27 AM"
+   },
+   {
+    "company": "General Dynamics Information Technology",
+    "role": "Cloud Engineer Principal",
+    "reason": "stale — Designs, architects, deploys and maintains cloud solutions",
+    "where": "BuiltIn",
+    "time": "4:43 AM"
    }
   ],
   "Swooped": [
@@ -4004,6 +4021,20 @@
     "reason": "pay-outside-band — Pay Range $131,300.00 - $237,350.00 | workarounds tried: (1) employer's own posting text via Dice full JD, (2) alternate board route searched, (3) no alternate posting with different pay found",
     "where": "Dice",
     "time": "4:41 AM"
+   },
+   {
+    "company": "Integral",
+    "role": "Data/Integration Architect",
+    "reason": "stale — The Data/Integration Architect provides enterprise-level data architecture and integration strategy across the Department of Veterans Affairs (VA), Office of Information and Technology (OIT)",
+    "where": "Dice",
+    "time": "4:43 AM"
+   },
+   {
+    "company": "HPTech Inc.",
+    "role": "Google Cloud Platform Architect",
+    "reason": "cloud-mismatch — We are looking for a senior-level architect with 15+ years of IT experience, strong expertise in Google Cloud Platform (Google Cloud Platform), and proven experience leading large-scale SAS to Google Cloud Platform migration and modernization initiatives.",
+    "where": "Dice",
+    "time": "4:43 AM"
    }
   ],
   "talents.vaia.com mirror of LinkedIn listing; employer and alternate surfaces searched, no fully-remote alternate posting found": [
@@ -7266,5 +7297,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T10:42:34Z"
+ "lists_generated_at": "2026-11-19T10:43:54Z"
 }
