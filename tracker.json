@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T03:12:54Z",
+ "generated_at": "2026-11-19T03:15:52Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T03:12:09Z",
+  "last_activity_at": "2026-11-19T03:14:30Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 192,
-  "rejected": 1252,
-  "evaluated": 1445
+  "parked": 193,
+  "rejected": 1253,
+  "evaluated": 1446
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1445,
+  "evaluated": 1446,
   "filed": 0,
-  "parked": 192,
-  "rejected": 1252,
+  "parked": 193,
+  "rejected": 1253,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
   "W4",
   "W5",
   "W6",
   "W16",
-  "W17"
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -90,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/30"
+   "detail": "Employers 125/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,18 +101,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 120/39"
+   "detail": "Employers 125/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/73"
+   "heartbeat_at": null,
+   "detail": "Employers 125/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/32"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/44"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/44"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/44"
   },
   "W9": {
    "label": "Dice",
@@ -232,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/59"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,19 +243,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T03:12:54Z",
-   "detail": "Employers 115/54"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 115/45"
+   "heartbeat_at": "2026-11-19T03:15:52Z",
+   "detail": "Employers 120/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 115/41"
+   "detail": "Employers 120/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 115/31"
+   "detail": "Employers 120/31"
   }
  },
  "stages": {
@@ -307,15 +307,15 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "275 of 632 units done",
+   "detail": "287 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
   "sector_filing": {
-   "state": "active",
-   "detail": "33 of 34 units done",
+   "state": "done",
+   "detail": "34 of 34 units done",
    "started_at": "2026-11-19T01:19:48Z",
-   "ended_at": null
+   "ended_at": "2026-11-19T03:14:30Z"
   },
   "stall_watch": {
    "state": "pending",
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:12 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:14 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+   "primary": "W4 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W4"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 51 of 58 · Enterprise Infrastructure Architect",
+  "label": "W4",
+  "headline": "W4 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -606,20 +606,6 @@
    "unit_created_at": null,
    "attempts": 13,
    "last_attempt_at": "2026-11-19T01:21:53Z"
-  },
-  {
-   "lead_id": 8335,
-   "employer": "RapidScale",
-   "title": "Senior Lead Cloud Architect - AVD (Remote)",
-   "status": "pass",
-   "blocker": null,
-   "deadline": null,
-   "where": "jobs.spectrum.com",
-   "winner_disposition_id": 19942,
-   "unit_id": 10254,
-   "unit_created_at": "2026-11-19T01:36:52Z",
-   "attempts": 4,
-   "last_attempt_at": "2026-11-19T03:10:34Z"
   },
   {
    "lead_id": 476,
@@ -1082,6 +1068,20 @@
    "unit_created_at": null,
    "attempts": 8,
    "last_attempt_at": "2026-11-19T01:22:20Z"
+  },
+  {
+   "lead_id": 8335,
+   "employer": "RapidScale",
+   "title": "Senior Lead Cloud Architect - AVD (Remote)",
+   "status": "parked",
+   "blocker": "captcha-blocked",
+   "deadline": null,
+   "where": "jobs.spectrum.com (Spectrum, RapidScale's parent) -> Charter iCIMS",
+   "winner_disposition_id": 20164,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 4,
+   "last_attempt_at": "2026-11-19T03:10:34Z"
   }
  ],
  "headline": {
@@ -2669,6 +2669,15 @@
     "time": "5:30 PM"
    }
   ],
+  "jobs.spectrum.com (Spectrum, RapidScale's parent) -> Charter iCIMS": [
+   {
+    "company": "RapidScale",
+    "role": "Senior Lead Cloud Architect - AVD (Remote)",
+    "reason": "captcha-blocked — Full Time Raleigh, North Carolina Date posted 11/12/2026 Business unit: Spectrum Business Areas of interest: RapidScale Requisition Number: 2026-83466 — with a live APPLY NOW path; Spectrum mirror postings of this same requisition state: The base pay for this position generally is between $64,500.00 and $182,900.00 (top $182,900, inside the $160,000-$230,000 band).",
+    "where": "jobs.spectrum.com (Spectrum, RapidScale's parent) -> Charter iCIMS",
+    "time": "9:14 PM"
+   }
+  ],
   "FlexJobs": [
    {
     "company": "Cognizant",
@@ -3916,13 +3925,6 @@
     "time": "1:36 AM"
    },
    {
-    "company": "Geisinger",
-    "role": "Business Architect Associate",
-    "reason": "stale — Location: Work from home (Pennsylvania)",
-    "where": "BuiltIn",
-    "time": "11:47 AM"
-   },
-   {
     "company": "DuPont",
     "role": "Business Technology Architect",
     "reason": "stale — Business Technology Architect provides leadership in Information Technology, contributing to the development of long-range strategic plans and directing implementation of near-term IT strategies. Published: 2026-03-15",
@@ -4124,13 +4126,6 @@
     "reason": "cloud-mismatch — Expert experience working with various AWS Cloud Infrastructure, glue, EMR, Step Functions, Cloud Formation, open search, etc.; Preferable to have Cloud certifications in AWS Certified Solutions Architect; Proficiency in software development in at least one of these languages - Java, Go, or Python. — AWS-only role, no Azure. workarounds tried: (1) BuiltIn full JD, (2) BD careers surface search, (3) Career.io mirror of BD Cloud Architect roles",
     "where": "BuiltIn",
     "time": "5:36 PM"
-   },
-   {
-    "company": "Nike",
-    "role": "Senior Principal, Solution Architect (Cloud & Engineering Excellence)",
-    "reason": "pay-outside-band — The annual base salary for this position ranges from $166,100.00 in our lowest geographic market to $392,700.00 in our highest geographic market. workarounds tried: (1) employer route via BuiltIn Nike posting read in full, (2) alternate surfaces searched, (3) no alternate posting of same role found",
-    "where": "BuiltIn",
-    "time": "11:47 AM"
    },
    {
     "company": "UnitedHealth Group / Optum",
@@ -5014,6 +5009,13 @@
     "reason": "hands-on — Advanced proficiency in Python and at least one additional programming language used for production services. workarounds tried: (1) searched JPMorgan Chase's own careers site for the same Lead Architect - Cloud Financial Management role - no own listing found, (2) alternate route Built In full JD checked.",
     "where": "builtin.com",
     "time": "12:20 AM"
+   },
+   {
+    "company": "Nike",
+    "role": "Senior Principal, Solution Architect (Cloud & Engineering Excellence)",
+    "reason": "pay-outside-band — The annual base salary for this position ranges from $166,100.00 in our lowest geographic market to $392,700.00 in our highest geographic market. workarounds tried: (1) employer's own Nike careers posting via Built In full JD, (2) Built In alternate route, (3) no alternate posting with different pay found - top $392,700 exceeds $230,000 ceiling",
+    "where": "builtin.com",
+    "time": "9:13 PM"
    },
    {
     "company": "Federal Reserve System",
@@ -6982,6 +6984,13 @@
     "time": "9:22 AM"
    },
    {
+    "company": "Qualcomm",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — USD 192,600.00 - 289,000.00 per year. workarounds tried: (1) employer's own Qualcomm careers Enterprise Architect posting, (2) Dice alternate route for same role, (3) no alternate posting with different pay found - top $289,000 exceeds $230,000 ceiling",
+    "where": "dice.com",
+    "time": "9:13 PM"
+   },
+   {
     "company": "Matson",
     "role": "Technical Architect - Copilot",
     "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite). Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) employer's own posting route via Dice listing, (2) alternate route search, (3) alternate posting search - onsite Walnut Creek stands; contract rate 70-80/hr also at/below the $85/hr contract floor",
@@ -8109,13 +8118,20 @@
     "time": "11:15 AM"
    }
   ],
-  "Career.io (United Airlines mirror)": [
+  "careers.outforundergrad.org": [
    {
     "company": "United Airlines",
     "role": "Principal Enterprise Architect",
-    "reason": "cloud-mismatch — Experience with AWS application migration and implementations | workarounds tried: (1) employer United posting text via Career.io mirror, (2) alternate route search (Snagajob/Jobright mirrors, same AWS-centered JD with no Azure), (3) alternate posting search — AWS-first on all routes",
-    "where": "Career.io (United Airlines mirror)",
-    "time": "7:04 AM"
+    "reason": "not-remote — Please note that this role is hybrid and requires in office attendance 2-3 days per week in Chicago or Houston. workarounds tried: (1) employer's own United careers posting text via job board full JD, (2) Career.io and Out for Undergrad alternate routes showing on-site Chicago/Houston attendance, (3) no fully remote alternate posting found",
+    "where": "careers.outforundergrad.org",
+    "time": "9:13 PM"
+   },
+   {
+    "company": "United Airlines",
+    "role": "Principal Architect - Information Technology",
+    "reason": "not-remote — On site in Denver or Chicago on Tuesdays and Wednesdays and as needed. workarounds tried: (1) Out for Undergrad full JD (same on-site requirement, pay $137,275-$178,670 in band), (2) IllinoisJobLink alternate route (same Principal Architect role, Chicago), (3) Career.io alternate posting (same role, Chicago, IL)",
+    "where": "careers.outforundergrad.org",
+    "time": "8:56 PM"
    }
   ],
   "MassTech Health IT Job Board": [
@@ -8181,15 +8197,6 @@
     "time": "7:12 AM"
    }
   ],
-  "careers.outforundergrad.org": [
-   {
-    "company": "United Airlines",
-    "role": "Principal Architect - Information Technology",
-    "reason": "not-remote — On site in Denver or Chicago on Tuesdays and Wednesdays and as needed. workarounds tried: (1) Out for Undergrad full JD (same on-site requirement, pay $137,275-$178,670 in band), (2) IllinoisJobLink alternate route (same Principal Architect role, Chicago), (3) Career.io alternate posting (same role, Chicago, IL)",
-    "where": "careers.outforundergrad.org",
-    "time": "8:56 PM"
-   }
-  ],
   "careerbuilder.com": [
    {
     "company": "Estes Express Lines",
@@ -8233,6 +8240,15 @@
     "reason": "stale — Posted: 2/16/2026; The Enterprise Architect is a strategic individual contributor role reporting to the Director of Enterprise Architecture. workarounds tried: employer's own ATS search, alternate route (JobSpider mirror), alternate posting search - same Feb 2026 posting only",
     "where": "JobSpider / Blue Shield of California search",
     "time": "4:25 AM"
+   }
+  ],
+  "builtincolorado.com": [
+   {
+    "company": "Geisinger",
+    "role": "Business Architect Associate",
+    "reason": "stale — Location: Work from home (Pennsylvania) - Published: 2026-05-20. workarounds tried: (1) employer's own Geisinger posting via Built In (governing), (2) alternate Built In route, (3) no fresher alternate posting found - posting date is 2026-05-20, well over 7 days old",
+    "where": "builtincolorado.com",
+    "time": "9:13 PM"
    }
   ],
   "DiversityJobs (Consumers Energy / CMS Energy)": [
@@ -10035,13 +10051,20 @@
     "time": "1:22 AM"
    }
   ],
-  "nvoids": [
+  "nvoids.com": [
    {
     "company": "Federal Reserve Board",
     "role": "Cloud Architect",
-    "reason": "not-remote — Cloud Architect, Federal, Reserve, Board - Washington DC 20006 - Hybrid Work Schedule 1 day Week Onsite - LOCAL ONLY! The Cloud Architecture and Administration team is seeking cloud professionals proficient in administering either AWS GovCloud and/or Azure cloud service platforms. workarounds tried: (1) full posting text via jobs.nvoids.com for the Federal Reserve Board role, (2) second nvoids mirror listing confirming Washington DC (Hybrid 1 days in a week), (3) no fully remote variant of this posting found",
-    "where": "nvoids",
-    "time": "3:19 PM"
+    "reason": "not-remote — Location: Washington DC (Hybrid 1 days in a week)",
+    "where": "nvoids.com",
+    "time": "9:13 PM"
+   },
+   {
+    "company": "State of Wisconsin",
+    "role": "Systems Architect III",
+    "reason": "pay-outside-band — Rate: Up to $75/hr. Candidate must be a Wisconsin resident or willing to relocate to Wisconsin within 30 days of start date (at own expense). All work must be performed in Wisconsin. workarounds tried: (1) nvoids full JD for the Wisconsin DCF contract posting, (2) no alternate route changes the published $75/hr contract top (band requires strictly above $85/hr), (3) no alternate posting of this role at a different rate found",
+    "where": "nvoids.com",
+    "time": "3:56 PM"
    }
   ],
   "BuiltIn (Kimberly-Clark mirror)": [
@@ -12497,15 +12520,6 @@
     "time": "3:37 PM"
    }
   ],
-  "nvoids.com": [
-   {
-    "company": "State of Wisconsin",
-    "role": "Systems Architect III",
-    "reason": "pay-outside-band — Rate: Up to $75/hr. Candidate must be a Wisconsin resident or willing to relocate to Wisconsin within 30 days of start date (at own expense). All work must be performed in Wisconsin. workarounds tried: (1) nvoids full JD for the Wisconsin DCF contract posting, (2) no alternate route changes the published $75/hr contract top (band requires strictly above $85/hr), (3) no alternate posting of this role at a different rate found",
-    "where": "nvoids.com",
-    "time": "3:56 PM"
-   }
-  ],
   "iCIMS (State Farm)": [
    {
     "company": "State Farm",
@@ -13761,5 +13775,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T03:12:54Z"
+ "lists_generated_at": "2026-11-19T03:15:52Z"
 }
