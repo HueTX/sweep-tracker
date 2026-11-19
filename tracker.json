@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T18:09:50Z",
+ "generated_at": "2026-11-19T18:12:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T18:09:17Z",
+  "last_activity_at": "2026-11-19T18:11:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,22 +27,21 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 159,
-  "rejected": 1165,
-  "evaluated": 1328
+  "parked": 160,
+  "rejected": 1167,
+  "evaluated": 1330
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1328,
+  "evaluated": 1330,
   "filed": 1,
-  "parked": 159,
-  "rejected": 1165,
+  "parked": 160,
+  "rejected": 1167,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
  },
  "searching_lanes": [
-  "W2",
   "W3",
   "W4",
   "W6",
@@ -98,13 +97,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
-   "detail": "Employers 75/39"
+   "heartbeat_at": null,
+   "detail": "Employers 80/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -114,7 +113,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 65/73"
   },
   "W4": {
@@ -125,7 +124,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 65/32"
   },
   "W5": {
@@ -147,7 +146,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 70/44"
   },
   "W9": {
@@ -235,7 +234,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 70/59"
   },
   "W17": {
@@ -246,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 70/54"
   },
   "W18": {
@@ -257,7 +256,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:09:50Z",
+   "heartbeat_at": "2026-11-19T18:12:15Z",
    "detail": "Employers 70/45"
   },
   "W19": {
@@ -310,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "177 of 632 units done",
+   "detail": "178 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -552,7 +551,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:09 PM CT · 15 workers in flight · 1 filed this cycle",
+ "note": "Last activity 12:11 PM CT · 13 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -1078,8 +1077,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 3,
-  "verify_open": 6,
+  "candidates_open": 2,
+  "verify_open": 5,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 104,
@@ -2185,6 +2184,15 @@
     "reason": "not-evaluated — Employer's own Hershey careers page for req 1244544300 confirmed live 2026-11-19 (page title 'Solution Architect, Supply Chain Planning Solutions Job Details') but renders only navigation and AI-tools boilerplate - no JD body, location, salary or posted date retrievable in text fetch; no mirror carrying the full JD found in search, so the JD could not be read this pass.",
     "where": "careers.thehersheycompany.com",
     "time": "8:35 AM"
+   }
+  ],
+  "Dice / Illumen Group Paylocity board search": [
+   {
+    "company": "Illumen Group, Inc",
+    "role": "Cloud Architect, Lead",
+    "reason": "not-evaluated — Verify 2026-11-19: full JD live on Dice (Posted 7 days ago): 'The Cloud Architect (Lead) provides overall technical leadership for USDA Rural Development's IT system portfolio migration to a secure, scalable, and cost-effective government cloud environment.' 'This role is primarily remote.' 'Design secure government cloud architectures, including landing zones, hub-and-spoke networking, RBAC, policy enforcement, key management, and hybrid integration' No salary published, so pay-eligible; duties align. BUT no PASS can be recorded: Illumen Group's own careers board (Paylocity) could not be opened to a detail page for this exact role - board search surfaces only other Illumen roles (e.g. PHP Developer); Dice is the only source carrying this posting. No employer_page exists, so verdict stays provisional not-evaluated.",
+    "where": "Dice / Illumen Group Paylocity board search",
+    "time": "12:10 PM"
    }
   ],
   "USAJobs": [
@@ -11508,6 +11516,22 @@
     "where": "Scout",
     "time": "11:55 AM"
    }
+  ],
+  "cityjobs.nyc.gov": [
+   {
+    "company": "City of New York (HRA)",
+    "role": "Application Architect",
+    "reason": "hands-on — Full JD on the employer's own portal cityjobs.nyc.gov: 'APPLICANTS MUST BE PERMANENT IN THE COMPUTER SPECIALIST CIVIL SERVICE TITLE' 'The Office of Revenue Management & Development (ORMD)/ Strategic Enterprise Analysis & Development (SEAD) is recruiting for (1) one Computer Specialist (SW) II to function as the Application Architect who will:' 'Provide .NET C# development or demonstrate experience as an object-oriented Java developer.' 'Perform SQL development, including coding SQL stored procedures and designing SQL Server databases with necessary constraints.' 'Develop using Microsoft Reporting Services.' Hands-on programming languages (C#, SQL coding) as duties hard-reject even under an Architect title. workarounds tried: (1) the employer's own NYC portal posting is the governing text; (2) no alternate remote route for this civil-service req found; (3) no alternate posting of the same role without the coding duties found.",
+    "where": "cityjobs.nyc.gov",
+    "time": "12:11 PM"
+   },
+   {
+    "company": "New York City Housing Authority",
+    "role": "Integration Architect",
+    "reason": "hands-on — Full JD on the employer's own portal cityjobs.nyc.gov: 'Integration Architect is a hands-on role responsible for the planning, coordination, development, and supervision of all activities related to the integration of software applications' 'The Integration architect plays a pivotal role in designing and developing scalable integration solutions on MuleSoft/Oracle SOA and others' 'Perform hands-on development and integration work when required.' 'Experience in both MuleSoft and Oracle SOA web services (BPEL & ESB) is required.' Hands-on development as a stated duty hard-rejects. workarounds tried: (1) the employer's own NYC portal posting is the governing text; (2) no alternate remote route for this req found; (3) no alternate posting of the same role without the hands-on duties found.",
+    "where": "cityjobs.nyc.gov",
+    "time": "12:11 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -12688,5 +12712,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T18:09:50Z"
+ "lists_generated_at": "2026-11-19T18:12:15Z"
 }
