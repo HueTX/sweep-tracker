@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T12:44:20Z",
+ "generated_at": "2026-11-19T12:46:09Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T12:41:29Z",
+  "last_activity_at": "2026-11-19T12:45:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,22 +27,22 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 142,
-  "rejected": 783,
-  "evaluated": 925
+  "parked": 140,
+  "rejected": 789,
+  "evaluated": 929
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 925,
+  "evaluated": 929,
   "filed": 0,
-  "parked": 142,
-  "rejected": 783,
+  "parked": 140,
+  "rejected": 789,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2",
   "W3",
-  "W5",
+  "W6",
+  "W16",
   "W17",
   "W18",
   "W19"
@@ -95,13 +95,13 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 230/39"
+   "heartbeat_at": null,
+   "detail": "Employers 234/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 235/73"
+   "heartbeat_at": "2026-11-19T12:46:09Z",
+   "detail": "Employers 240/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,23 +128,23 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 235/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 240/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T12:46:09Z",
    "detail": "Employers 235/44"
   },
   "W9": {
@@ -227,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T12:46:09Z",
    "detail": "Employers 235/59"
   },
   "W17": {
@@ -243,8 +243,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 230/54"
+   "heartbeat_at": "2026-11-19T12:46:09Z",
+   "detail": "Employers 235/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +254,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 230/45"
+   "heartbeat_at": "2026-11-19T12:46:09Z",
+   "detail": "Employers 235/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T12:44:20Z",
-   "detail": "Employers 230/41"
+   "heartbeat_at": "2026-11-19T12:46:09Z",
+   "detail": "Employers 235/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "513 of 632 units done",
+   "detail": "519 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:41 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 6:45 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W6",
+  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1824,15 +1824,6 @@
     "time": "6:40 AM"
    }
   ],
-  "DailyRemote": [
-   {
-    "company": "Mount Sinai Health System",
-    "role": "Oracle HCM Cloud Technical Architect (Product Owner III)",
-    "reason": "title-not-covered — Mount Sinai Health System is seeking an experienced Oracle HCM & Learning Management Technical Lead to lead the architecture, integration, security, reporting, and optimization of Oracle HCM Cloud and Oracle Learning Cloud.",
-    "where": "DailyRemote",
-    "time": "1:14 AM"
-   }
-  ],
   "jobs.johnsoncontrols.com": [
    {
     "company": "Johnson Controls",
@@ -1858,15 +1849,6 @@
     "reason": "not-evaluated — This a Full Remote job, the offer is available from: Europe, Asia, European Union, EMEA, APAC, Armenia, Georgia (country), Romania, Uzbekistan, Kazakhstan, Kyrgyzstan — verify note: employer's own careers.epam.com page for this exact role could not be located/opened (site search returned no listing for it); mirrors conflict on location (FlexJobs lists Atlanta US / Georgia, Jobgether's EPAM-feed listing lists Europe/Asia/Georgia-country only, no US), so US-remote eligibility cannot be confirmed on the employer's own page and no PASS can be recorded.",
     "where": "EPAM careers search / Jobgether mirror",
     "time": "2:28 AM"
-   }
-  ],
-  "Slalom careers (jobs.slalom.com)": [
-   {
-    "company": "Slalom",
-    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
-    "reason": "title-not-covered — We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions for large-scale enterprise environments. | Fly title: 'Senior Cloud Architect' matches none of this unit's listed Lead title families; duties are cloud-architecture level but AWS-first. Also noted on Slalom's own page: project-based contract, 12+ months, base pay range 100-120/hr (contract top above $85/hr), Location: Remote, EST hours, date posted Monday, October 19, 2026 — outside the 7-day window",
-    "where": "Slalom careers (jobs.slalom.com)",
-    "time": "4:05 AM"
    }
   ],
   "Career.io / MilwaukeeJobs, San Rafael CA, no posting date verified, mirrors conflict on age": [
@@ -2885,13 +2867,6 @@
     "time": "5:53 AM"
    },
    {
-    "company": "DXC Technology",
-    "role": "Senior Data & AI Solution Architect",
-    "reason": "pay-outside-band — A reasonable estimate of the current compensation range for this position is $158,300 - $293,900. workarounds tried: (1) employer careers route via DXC listing mirrors, (2) Built In full JD, (3) Career.io alternate posting - all show the same $158,300-$293,900 range, top $293,900 above the $230,000 ceiling",
-    "where": "Built In",
-    "time": "4:08 AM"
-   },
-   {
     "company": "Chubb",
     "role": "Senior Solution Architect",
     "reason": "hands-on — Hands-on experience with cloud platforms and integration technologies, including Azure, AWS, Kafka, MQ, Service Bus, and API mediation, plus coding proficiency in C#, Java, JavaScript, Angular, and/or Node.js | Partner with developers to review code, enforce best practices across API-based, microservices, cloud environments, debug critical issues workarounds tried: (1) employer's own ATS posting checked as governing text where available; (2) alternate route (mirror/ATS direct) reviewed; (3) no alternate posting of same role without the failing condition found.",
@@ -3810,6 +3785,13 @@
     "time": "3:28 AM"
    },
    {
+    "company": "DXC Technology",
+    "role": "Senior Data & AI Solution Architect",
+    "reason": "pay-outside-band — A reasonable estimate of the current compensation range for this position is $158,300 - $293,900.",
+    "where": "BuiltIn",
+    "time": "6:45 AM"
+   },
+   {
     "company": "Northrop Grumman",
     "role": "Business Capability Architect - Enterprise Focused",
     "reason": "pay-outside-band — Primary Level Salary Range: $161,000.00 - $241,400.00 | workarounds tried: (1) employer's own sector search for Northrop Grumman, (2) alternate route BuiltIn full JD carrying the salary range, (3) alternate posting Architecture Operations and Enablement Lead carries same $161k-$241k range",
@@ -4284,6 +4266,13 @@
     "time": "3:15 AM"
    },
    {
+    "company": "Howmet Aerospace",
+    "role": "IT Business Architect – Supply Chain",
+    "reason": "not-remote — This will be hybrid role with a 3 day in office expectation. | workarounds tried: Simplify mirror (marked Inactive), alternate Howmet postings - same hybrid expectation",
+    "where": "Simplify",
+    "time": "6:45 AM"
+   },
+   {
     "company": "NTT DATA",
     "role": "Enterprise Architect",
     "reason": "pay-outside-band — Where required by law, NTT DATA provides a reasonable range of compensation for specific roles. The starting pay range for this remote role is $175k to $250K. workarounds tried: (1) NTT DATA careers req 340780 text via Simplify mirror, (2) alternate NTT DATA Enterprise Architect postings checked - same employer pay practice, top $250,000 above the $230,000 ceiling",
@@ -4467,13 +4456,6 @@
     "company": "MD Anderson Cancer Center",
     "role": "Enterprise Data Architect",
     "reason": "closed — Thanks for your interest in the Enterprise Data Architect position. Unfortunately this position has been closed — stated on MD Anderson's own careers page for Requisition # 106788, with no Apply path on that page: a gate fact under the detail-page liveness rule, rejected closed on sight.",
-    "where": "MD Anderson Careers (employer page)",
-    "time": "1:28 AM"
-   },
-   {
-    "company": "MD Anderson Cancer Center",
-    "role": "Executive Director, Digital Enterprise Architect",
-    "reason": "closed — Thanks for your interest in the Executive Director, Digital Enterprise Architect position. Unfortunately this position has been closed — stated on MD Anderson's own careers page for Requisition # 179574, with no Apply path on that page: a gate fact under the detail-page liveness rule, rejected closed on sight.",
     "where": "MD Anderson Careers (employer page)",
     "time": "1:28 AM"
    }
@@ -5736,13 +5718,22 @@
     "time": "6:07 AM"
    }
   ],
-  "EPAM Careers (employer page)": [
+  "SonicJobs": [
+   {
+    "company": "Tyson Foods",
+    "role": "Staff Enterprise Solution Architect (SAP/Transportation)",
+    "reason": "experience-mismatch — Experience with configuration, integration, and implementation of SAP Transportation solutions as well as carrier connectivity solutions (EDI/API), visibility platforms, and optimization engines. | workarounds tried: SonicJobs mirror, Swooped alternate Tyson architect posting, employer Springdale-based postings - SAP Transportation core throughout",
+    "where": "SonicJobs",
+    "time": "6:45 AM"
+   }
+  ],
+  "EPAM Careers (employer site)": [
    {
     "company": "EPAM Systems",
     "role": "Solution Architect",
-    "reason": "stale — Published: 2026-11-09 on EPAM's own careers page — 10 days before 2026-11-19, outside the 7-day eligibility window, with no repost or fresher listing found. Workarounds tried: (1) employer's own careers page read in full (governing text), (2) search mirrors carry the same 2026-11-09 date, (3) no refreshed posting of this vacancy found.",
-    "where": "EPAM Careers (employer page)",
-    "time": "1:28 AM"
+    "reason": "hands-on-coding — 7+ years of hands-on development experience across various solution types (web applications, web services, desktop applications, native mobile applications) on J2EE or .NET platforms (JavaScript experience is a plus) | workarounds tried: employer's own careers page (governing text), Jobgether/FlexJobs alternate routes, alternate EPAM postings - same hands-on development core",
+    "where": "EPAM Careers (employer site)",
+    "time": "6:45 AM"
    }
   ],
   "Careers in Government / City of Houston portal": [
@@ -6106,13 +6097,6 @@
     "reason": "not-remote — Telecommuting permitted less than 50% per week within the same geographic location as the assigned Schlumberger Office location. Job Location: 1430 Enclave Pkwy, Houston, TX 77077. workarounds tried: (1) employer posting text via Wellfound, (2) alternate surfaces in search, (3) no fully remote posting of this role found",
     "where": "Wellfound",
     "time": "5:10 AM"
-   },
-   {
-    "company": "eBay",
-    "role": "Software Architect - Cloud Security",
-    "reason": "pay-outside-band — The base pay range for this position is expected in the range below: $156,800 - $255,300 — published top $255,300 is above the $230,000 ceiling. Full JD read on Wellfound carrying eBay's own JD text (Identity team role: 'Define and evolve enterprise-wide identity and access management architecture'). Workarounds tried: (1) eBay JD text read in full including the pay range, (2) alternate surfaces in search carry the same role, (3) no alternate posting of this role in band found.",
-    "where": "Wellfound",
-    "time": "1:20 AM"
    }
   ],
   "BuiltIn NYC": [
@@ -6242,6 +6226,13 @@
     "reason": "iac-whole-role — Develop Infrastructure as Code (IaC) and automation frameworks using tools such as Terraform, CloudFormation, or Ansible. | Working with application teams to define CI/CD pipelines from scratch. Proficiency with scripting and automation using Python language. Whole-role IaC/pipeline building. workarounds tried: (1) employer's own ATS posting checked as governing text where available; (2) alternate route (mirror/ATS direct) reviewed; (3) no alternate posting of same role without the failing condition found.",
     "where": "Monster",
     "time": "6:40 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Public Cloud Architect (AWS-Focused) - Remote (US)",
+    "reason": "pay-outside-band — The starting pay range for this remote role is $104,000 - $153,000. This range reflects the minimum and maximum target compensation for the position across all US locations.",
+    "where": "Monster",
+    "time": "6:45 AM"
    },
    {
     "company": "The Travelers Companies",
@@ -6569,6 +6560,15 @@
     "time": "6:40 AM"
    }
   ],
+  "Dice / Ladders": [
+   {
+    "company": "eBay",
+    "role": "Software Architect - Cloud Security",
+    "reason": "pay-outside-band — The base pay range for this position is expected in the range below: $156,800 - $255,300",
+    "where": "Dice / Ladders",
+    "time": "6:45 AM"
+   }
+  ],
   "GovernmentJobs.com (LA County portal)": [
    {
     "company": "Los Angeles County Office of Education",
@@ -6628,6 +6628,15 @@
     "reason": "stale — Job Posting Expiration Date: 10/30/2026 | Published: 2026-10-23T13:20 | The Lead Enterprise Architect (with infrastructure focus) defines target-state and implementation architectures for Key's most critical initiatives | workarounds tried: (1) Simplify carries KeyBank's own posting text with that publication and expiration, (2) alternate KeyCorp architect routes searched, (3) no live fresher posting of this role found",
     "where": "Simplify / KeyBank",
     "time": "5:33 AM"
+   }
+  ],
+  "Mount Sinai Careers (employer site)": [
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Oracle HCM Cloud Technical Architect (Product Owner III)",
+    "reason": "experience-mismatch — Experience with BIP/OTBI Reports, designing UX using Oracle VBCS is required. | workarounds tried: employer's own careers page (governing text) - Oracle HCM/Learning platform core throughout",
+    "where": "Mount Sinai Careers (employer site)",
+    "time": "6:45 AM"
    }
   ],
   "Built In (Pfizer posting text)": [
@@ -6850,6 +6859,15 @@
     "time": "6:41 AM"
    }
   ],
+  "Slalom Careers (employer site) / Monster": [
+   {
+    "company": "Slalom",
+    "role": "Slalom Flex Project Based - Sr Cloud Architect AWS Networking & Connectivity",
+    "reason": "cloud-mismatch — We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions for large-scale enterprise environments.",
+    "where": "Slalom Careers (employer site) / Monster",
+    "time": "6:45 AM"
+   }
+  ],
   "careers.edwardjones.com": [
    {
     "company": "Edward Jones",
@@ -6920,13 +6938,13 @@
     "time": "6:36 AM"
    }
   ],
-  "jooble.org": [
+  "BuiltIn / Jooble": [
    {
     "company": "Texas Children's Hospital",
     "role": "Sr. Data Security Architect",
-    "reason": "not-remote — Location: Houston, TX, United StatesWorkplace: HybridSchedule: Full time, DayPosted: 2026-11-05 workarounds tried: (1) employer's own texaschildrenspeople.org surface carries the same Houston hybrid role (Job-ID 427927); (2) Built In mirror shows the same JD with no remote arrangement; (3) no remote alternate posting of this role found.",
-    "where": "jooble.org",
-    "time": "4:01 AM"
+    "reason": "not-remote — Location: Houston, TX, United States Workplace: Hybrid Schedule: Full time, Day Posted: 2026-11-05 | workarounds tried: BuiltIn full JD, Jooble mirror (hybrid stated), employer's own texaschildrenspeople.org careers site referenced - hybrid stands",
+    "where": "BuiltIn / Jooble",
+    "time": "6:45 AM"
    }
   ],
   "GrabJobs (Avista mirror)": [
@@ -7254,6 +7272,15 @@
     "time": "2:39 AM"
    }
   ],
+  "GovernmentJobs (employer portal)": [
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI and Innovation)",
+    "reason": "stale — Reporting Location: 611 WALKER / 1200 TRAVIS",
+    "where": "GovernmentJobs (employer portal)",
+    "time": "6:45 AM"
+   }
+  ],
   "rvc.global": [
    {
     "company": "RTX",
@@ -7538,13 +7565,13 @@
     "time": "6:31 AM"
    }
   ],
-  "Careers in Government (City of Houston portal mirror)": [
+  "Careers in Government / GovernmentJobs": [
    {
     "company": "City of Houston",
     "role": "IT Architect - Applications (Fire Applications)",
-    "reason": "not-remote — Reporting Location: 500 Jefferson, Houston, TX 77002; Workdays & Hours: MONDAY - FRIDAY 8:00 AM - 5:00 PM — and WORKING CONDITIONS: 'essentially normal office environment'. On-site office schedule stated in the JD, no remote arrangement. Workarounds tried: (1) the posting directs applicants to the City of Houston Careers site (governmentjobs.com/careers/houston), the employer's own portal carrying the same on-site posting, (2) alternate route Careers in Government mirrors the same JD, (3) no remote alternate posting of this role found.",
-    "where": "Careers in Government (City of Houston portal mirror)",
-    "time": "1:21 AM"
+    "reason": "not-remote — Reporting Location: 500 Jefferson, Houston, TX 77002 | workarounds tried: employer's own GovernmentJobs portal (governing text), Careers in Government mirror, alternate Houston IT Architect posting - same onsite reporting location",
+    "where": "Careers in Government / GovernmentJobs",
+    "time": "6:45 AM"
    }
   ],
   "Monster (Chubb JD)": [
@@ -7895,6 +7922,15 @@
     "reason": "clearance — To be eligible for this position you must hold an active TS/SCI clearance. Active TS/SCI U.S. Security Clearance. Gate fact — active clearance required in the posting; no workaround pass. Also 100% onsite in Sterling, VA.",
     "where": "clearancejobs.com",
     "time": "12:25 AM"
+   }
+  ],
+  "MD Anderson Careers (employer site)": [
+   {
+    "company": "MD Anderson Cancer Center",
+    "role": "Executive Director, Digital Enterprise Architect",
+    "reason": "closed — Unfortunately this position has been closed but you can search our 358 open jobs by clicking here.",
+    "where": "MD Anderson Careers (employer site)",
+    "time": "6:45 AM"
    }
   ],
   "Built In Chicago": [
@@ -9616,5 +9652,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T12:44:20Z"
+ "lists_generated_at": "2026-11-19T12:46:09Z"
 }
