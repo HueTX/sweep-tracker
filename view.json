@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:26:25Z",
+ "generated_at": "2026-11-19T08:27:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T08:17:05Z",
+  "last_activity_at": "2026-11-19T08:27:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 39,
-  "rejected": 224,
-  "evaluated": 263
+  "rejected": 230,
+  "evaluated": 270
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 263,
+  "evaluated": 270,
   "filed": 0,
   "parked": 39,
-  "rejected": 224,
+  "rejected": 230,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:26:25Z",
-   "detail": "Employers 319/54"
+   "heartbeat_at": null,
+   "detail": "Employers 324/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "631 of 632 units done",
+   "state": "done",
+   "detail": "632 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-19T08:27:39Z"
   },
   "sector_filing": {
    "state": "done",
@@ -544,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:17 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 2:27 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1084,8 +1076,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 0,
