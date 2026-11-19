@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T10:57:08Z",
+ "generated_at": "2026-11-19T10:58:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T10:56:08Z",
+  "last_activity_at": "2026-11-19T10:58:24Z",
   "progress": {
    "pools": 21,
-   "covered_units": 694,
+   "covered_units": 720,
    "total_units": 754,
-   "pct": 92
+   "pct": 95
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,15 +28,15 @@
  "counts": {
   "filed": 0,
   "parked": 116,
-  "rejected": 548,
-  "evaluated": 664
+  "rejected": 551,
+  "evaluated": 667
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 664,
+  "evaluated": 667,
   "filed": 0,
   "parked": 116,
-  "rejected": 548,
+  "rejected": 551,
   "filed_by_source": {}
  },
  "searching_lanes": [
@@ -44,10 +44,7 @@
   "W1",
   "W2",
   "W3",
-  "W4",
-  "W6",
-  "W19",
-  "W20"
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -69,7 +66,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
+   "heartbeat_at": "2026-11-19T10:58:41Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -91,7 +88,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
+   "heartbeat_at": "2026-11-19T10:58:41Z",
    "detail": "Employers 30/30"
   },
   "W2": {
@@ -102,7 +99,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
+   "heartbeat_at": "2026-11-19T10:58:41Z",
    "detail": "Employers 30/39"
   },
   "W3": {
@@ -113,19 +110,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
-   "detail": "Employers 25/73"
+   "heartbeat_at": "2026-11-19T10:58:41Z",
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
-   "detail": "Employers 30/32"
+   "heartbeat_at": null,
+   "detail": "Employers 35/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -146,7 +143,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
+   "heartbeat_at": "2026-11-19T10:58:41Z",
    "detail": "Employers 25/44"
   },
   "W9": {
@@ -262,24 +259,24 @@
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
-   "detail": "Employers 25/41"
+   "heartbeat_at": null,
+   "detail": "Employers 30/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:57:08Z",
-   "detail": "Employers 25/31"
+   "heartbeat_at": null,
+   "detail": "Employers 30/31"
   }
  },
  "stages": {
@@ -290,7 +287,7 @@
    "ended_at": "2026-11-19T10:33:09Z"
   },
   "prep": {
-   "state": "active",
+   "state": "pending",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
@@ -309,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "78 of 632 units done",
+   "detail": "82 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -551,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:56 AM CT · 14 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:58 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 1 of 58 · Azure Architect",
@@ -1092,7 +1089,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 69,
@@ -2102,13 +2099,6 @@
     "time": "4:26 AM"
    },
    {
-    "company": "Highmark",
-    "role": "Principal Architect",
-    "reason": "pay-outside-band — Pay Range Minimum: $142,000.00 | Pay Range Maximum: $236,000.00 | This role serves as a thought leader and strategic advisor, shaping and driving the evolution of complex architecture strategies across multiple domains. workarounds tried: (1) employer's own enGen/Highmark JD carried in full on Built In (governing text, published 2026-11-13); (2) alternate route Built In NYC carried the same $142,000-$236,000 range; (3) no alternate posting of this role with a different pay range found. Top $236,000 exceeds the $230,000 band top.",
-    "where": "builtin.com",
-    "time": "2:52 AM"
-   },
-   {
     "company": "BlackRock",
     "role": "Enterprise Architect, Aladdin Engineering, Director",
     "reason": "stale — For New York, NY Only the salary range for this position is USD$215,000.00 - USD$275,000.00. Published: 2026-09-08 — outside the 7-day eligibility window, no fresher repost found; the $275,000 range top also exceeds the $230,000 band top. workarounds tried: (1) BuiltIn posting with full JD, (2) Career.io mirror of the same Director role, (3) no fresher posting found",
@@ -2533,6 +2523,13 @@
     "time": "1:57 AM"
    },
    {
+    "company": "Highmark",
+    "role": "Principal Architect",
+    "reason": "pay-outside-band — Pay Range Minimum: $142,000.00 Pay Range Maximum: $236,000.00. This role serves as a thought leader and strategic advisor, shaping and driving the evolution of complex architecture strategies across multiple domains. Workarounds tried: (1) Built In full JD opened (enGen, Highmark's subsidiary board mirror); (2) Jooble mirror of Req ID: J287455 showed the same $142,000-$236,000 range, published 2026-11-17.",
+    "where": "Built In",
+    "time": "4:58 AM"
+   },
+   {
     "company": "New York Life",
     "role": "Senior Associate, Actuarial Data Engineer/Cloud Architect",
     "reason": "pay-outside-band — Salary Range: $108,500-$155,500 — top of published range is below the $160,000 band floor. Also hands-on/AWS-first on the full JD: 'Design and implement cloud-native data pipelines in AWS' and 'Develop efficient data models, transformations, and APIs using Python, SQL, and PySpark.' Workarounds tried: (1) employer's own careers posting searched — same req 93095 range, (2) Built In full JD opened (governing mirror of req 93095), (3) alternate Built In SF posting of same req — identical range and duties.",
@@ -2559,6 +2556,13 @@
     "reason": "stale — Drive automation-first engineering using Infrastructure as Code (Terraform, ARM/Bicep, CloudFormation) across cloud and on-prem environments. Published: 2026-05-06 — workarounds tried: (1) Built In full JD titled Temporary FT & Onsite, (2) search for a refreshed posting of this role found none, (3) no alternate posting found",
     "where": "Built In",
     "time": "4:32 AM"
+   },
+   {
+    "company": "Highmark",
+    "role": "Principal Enterprise Cloud Architect",
+    "reason": "stale — Published: 2025-07-07. Pay Range Maximum: $201,800.00. Position Type Office- or Remote- based. Workarounds tried: (1) searched Highmark's own careers via web search - no current listing for this title surfaced, only Built In mirrors carrying the 2025-07-07 date; (2) Built In Chicago mirror showed the same role published 2025-06-03.",
+    "where": "Built In",
+    "time": "4:58 AM"
    },
    {
     "company": "NiSource",
@@ -4698,6 +4702,15 @@
     "time": "2:36 AM"
    }
   ],
+  "GXO Careers": [
+   {
+    "company": "GXO Logistics",
+    "role": "Principal Solutions Architect",
+    "reason": "cloud-mismatch — Translate complex business requirements into scalable, secure, and cost-optimized cloud-native architectures using GCP and Snowflake. Deep expertise in GCP services (BigQuery, Dataflow, Pub/Sub, Dataproc, Cloud Composer, IAM, Cloud Storage, monitoring/logging). Advanced SQL and strong Python skills (PySpark, Pandas). Workarounds tried: (1) employer's own page at jobs.gxo.com opened - governing text is GCP-first with no Azure; (2) no alternate Azure-based posting of this req found.",
+    "where": "GXO Careers",
+    "time": "4:58 AM"
+   }
+  ],
   "governmentjobs.com": [
    {
     "company": "Washington State Department of Health",
@@ -4761,6 +4774,15 @@
     "reason": "not-remote — While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. | All remote work must be performed in Colorado. | workarounds tried: (1) GovernmentJobs.com posting is the State of Colorado's own official announcement (governing text); (2) alternate routes returned the same Colorado OIT posting; (3) no alternate posting of this role permitting Texas-based remote work found. Hubert is not willing to relocate.",
     "where": "governmentjobs.com",
     "time": "4:36 AM"
+   }
+  ],
+  "WeAreDevelopers": [
+   {
+    "company": "Molina Healthcare",
+    "role": "AVP, Infrastructure (IaC / Multi-Cloud Architecture / AI) - REMOTE",
+    "reason": "pay-outside-band — Pay Range: $140,795 - $274,550.26 / ANNUAL. Workarounds tried: (1) employer's own Molina posting text via external mirror showing the same pay range; (2) no alternate posting of this role with a different published range found.",
+    "where": "WeAreDevelopers",
+    "time": "4:58 AM"
    }
   ],
   "BuiltIn NYC": [
@@ -7600,5 +7622,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T10:57:08Z"
+ "lists_generated_at": "2026-11-19T10:58:41Z"
 }
