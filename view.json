@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T04:25:47Z",
+ "generated_at": "2026-11-19T04:27:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T04:24:55Z",
+  "last_activity_at": "2026-11-19T04:26:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -29,11 +29,11 @@
   "filed": 0,
   "parked": 212,
   "rejected": 1302,
-  "evaluated": 1514
+  "evaluated": 1515
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1514,
+  "evaluated": 1515,
   "filed": 0,
   "parked": 212,
   "rejected": 1302,
@@ -41,8 +41,7 @@
  },
  "searching_lanes": [
   "W3",
-  "W5",
-  "W6",
+  "W16",
   "W17",
   "W18",
   "W19"
@@ -111,8 +110,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 245/73"
+   "heartbeat_at": "2026-11-19T04:27:42Z",
+   "detail": "Employers 250/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -128,24 +127,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 244/44"
+   "heartbeat_at": null,
+   "detail": "Employers 248/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,12 +226,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T04:27:42Z",
    "detail": "Employers 245/59"
   },
   "W17": {
@@ -243,8 +242,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 240/54"
+   "heartbeat_at": "2026-11-19T04:27:42Z",
+   "detail": "Employers 245/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,8 +253,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 240/45"
+   "heartbeat_at": "2026-11-19T04:27:42Z",
+   "detail": "Employers 245/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -265,8 +264,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:25:47Z",
-   "detail": "Employers 240/41"
+   "heartbeat_at": "2026-11-19T04:27:42Z",
+   "detail": "Employers 241/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "528 of 632 units done",
+   "detail": "534 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -549,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:24 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:26 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W17 · Title 1 of 58 · Azure Architect",
+   "primary": "W16 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W17"
+   "pool": "W16"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 1 of 58 · Azure Architect",
+  "label": "W16",
+  "headline": "W16 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1089,8 +1088,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 252,
