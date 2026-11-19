@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T01:52:02Z",
+ "generated_at": "2026-11-19T01:55:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,35 +15,37 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T01:50:22Z",
+  "last_activity_at": "2026-11-19T01:52:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 416,
+   "covered_units": 456,
    "total_units": 754,
-   "pct": 55
+   "pct": 60
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 200,
+  "parked": 201,
   "rejected": 1186,
-  "evaluated": 1387
+  "evaluated": 1388
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1387,
+  "evaluated": 1388,
   "filed": 0,
-  "parked": 200,
+  "parked": 201,
   "rejected": 1186,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W18",
-  "W19",
-  "W20"
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -82,67 +84,67 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 20/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
    "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:52:02Z",
-   "detail": "Employers 15/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "queued",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/44"
   },
   "W9": {
@@ -225,12 +227,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:55:04Z",
    "detail": "Employers 15/59"
   },
   "W17": {
@@ -247,35 +249,35 @@
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:52:02Z",
-   "detail": "Employers 10/45"
+   "heartbeat_at": null,
+   "detail": "Employers 15/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:52:02Z",
-   "detail": "Employers 10/41"
+   "heartbeat_at": null,
+   "detail": "Employers 15/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:52:02Z",
-   "detail": "Employers 10/31"
+   "heartbeat_at": null,
+   "detail": "Employers 15/31"
   }
  },
  "stages": {
@@ -286,10 +288,10 @@
    "ended_at": "2026-11-19T01:19:48Z"
   },
   "prep": {
-   "state": "active",
-   "detail": "0 of 2 units done",
+   "state": "done",
+   "detail": "2 of 2 units done",
    "started_at": "2026-11-19T01:19:48Z",
-   "ended_at": null
+   "ended_at": "2026-11-19T01:52:46Z"
   },
   "linkedin_discovery": {
    "state": "pending",
@@ -305,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "50 of 632 units done",
+   "detail": "54 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -547,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:50 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:52 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
    "detail": "Families covered 58/58",
-   "pool": "W18"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W18",
-  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W2",
+  "headline": "W2 · Title 41 of 58 · Infrastructure Modernization Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1682,6 +1684,13 @@
     "reason": "cognizant-manual-only — Set credible technology vision and multi-year transformation strategy that executives can fund, sequence, and govern. This Job Posting will expire on Monday, November 16th, 2026. 3Cloud is Cognizant-owned and manual-only per Hubert's standing rule - parked for manual handling, never PASS.",
     "where": "Dice",
     "time": "1:58 PM"
+   },
+   {
+    "company": "Boeing",
+    "role": "Software Architect",
+    "reason": "title-not-covered — Software Architect — the posting's real title matches no title family in this W18 unit, so it is parked as a fly-title. Full JD read on Dice: the role directs 'the design, development, test, debugging and maintenance of software that is integrated into embedded devices and systems', with 'Experience with certifying software in alignment with DO-178C' and C++ simulations; Summary Pay Range for Senior level (Level 6): $249,900-$338,100. Clearance is post-start obtainable ('An interim and/or final U.S. Secret Clearance Post-Start is required'), not an active-clearance gate. Published 2026-11-07.",
+    "where": "Dice",
+    "time": "7:52 PM"
    },
    {
     "company": "JPMorgan Chase",
@@ -3555,13 +3564,6 @@
     "time": "12:02 PM"
    },
    {
-    "company": "Boeing",
-    "role": "Software Architect",
-    "reason": "pay-outside-band — Summary Pay Range for Senior level (Level 6): $249,900-$338,100 — published top $338,100 is above the $230,000 ceiling. Workarounds tried: (1) full JD read on Built In carrying Boeing's own JD text (published 2026-11-13), (2) the Dice posting of the same role carries the identical '$249,900-$338,100' range, (3) no alternate posting with an in-band top found. Also noted: applications were accepted only until Nov. 16, 2026, the work is embedded software development leadership ('Directs the design, development, test, debugging and maintenance of software that is integrated into embedded devices'), and clearance is only ability-to-obtain, which does not reject.",
-    "where": "Built In",
-    "time": "10:31 AM"
-   },
-   {
     "company": "Wells Fargo",
     "role": "Lead Solutions Architect",
     "reason": "not-remote — This position offers a hybrid work schedule - ability to work in office is required. Also a hands-on practitioner role (5+ years of hands-on software development experience) with Posting End Date 13 Nov 2026. Workarounds tried: full JD opened on Built In carrying Wells Fargo's own posting text; the hybrid in-office requirement is intrinsic to the posting.",
@@ -3595,6 +3597,13 @@
     "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 — every GeoZone range in the JD tops above the $230,000 ceiling (lowest GeoZone 4 top $247,900). Workarounds tried: (1) full JD read on Built In (Lockheed-sourced listing), (2) alternate surfaces carry the same GeoZone ranges, (3) no alternate posting of this role in band found. Role is also hands-on: Lead hands-on full-stack solution design and development from prototype through production",
     "where": "Built In",
     "time": "1:49 PM"
+   },
+   {
+    "company": "Lockheed Martin",
+    "role": "Systems Architect Sr - E3",
+    "reason": "clearance — This position is located at a facility that requires special access. The selected candidate must have active secret clearance. — an ACTIVE US security clearance requirement, a gate-fact reject. Also: 'This position is in Fort Worth, TX'. Full JD read on Built In; salary $98,100-$182,100. Published 2026-11-04.",
+    "where": "Built In",
+    "time": "7:52 PM"
    },
    {
     "company": "Optum",
@@ -4164,13 +4173,6 @@
     "reason": "cloud-mismatch — Expert experience working with various AWS Cloud Infrastructure, glue, EMR, Step Functions, Cloud Formation, open search, etc.; Preferable to have Cloud certifications in AWS Certified Solutions Architect; Proficiency in software development in at least one of these languages - Java, Go, or Python. — AWS-only role, no Azure. workarounds tried: (1) BuiltIn full JD, (2) BD careers surface search, (3) Career.io mirror of BD Cloud Architect roles",
     "where": "BuiltIn",
     "time": "5:36 PM"
-   },
-   {
-    "company": "Lockheed Martin",
-    "role": "Systems Architect Sr - E3",
-    "reason": "clearance — Interim Secret clearance required to start.",
-    "where": "BuiltIn",
-    "time": "2:02 PM"
    },
    {
     "company": "Nike",
@@ -5767,9 +5769,9 @@
    {
     "company": "Costco Wholesale",
     "role": "System Architect - eCommerce Platform and Products",
-    "reason": "stale — Job Posted February 20th, 2023",
+    "reason": "stale — Job Posted February 20th, 2023 — the posting's own date is far outside the 7-day eligibility window; location 'This job is located at Issaquah, WA, USA'. Workarounds tried: (1) full JD read on JobzMall (Costco-sourced listing), (2) alternate surfaces in search carry the same February 2023 Costco eCommerce System Architect posting, (3) no refreshed posting of this role found.",
     "where": "JobzMall",
-    "time": "10:14 AM"
+    "time": "7:52 PM"
    }
   ],
   "ClearanceJobs": [
@@ -12165,6 +12167,15 @@
     "where": "Apple Careers (employer page)",
     "time": "7:50 PM"
    }
+  ],
+  "UPS Jobs (employer page)": [
+   {
+    "company": "UPS",
+    "role": "Manager, Software Engineering",
+    "reason": "closed — We're sorry… the job you are trying to apply for has been filled. — UPS's own careers page shows no live apply path for R26034724, a gate fact (closed). The search listing for the same req described a hybrid Atlanta/Maryland role; title Manager, Software Engineering also matches no W20 Lead family. Published 2026-11-16.",
+    "where": "UPS Jobs (employer page)",
+    "time": "7:52 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -13319,6 +13330,7 @@
    "CommonSpirit Health",
    "NTT DATA",
    "3Cloud",
+   "Boeing",
    "Steel Dynamics",
    "Vaco",
    "Info Dinamica Inc",
@@ -13348,5 +13360,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T01:52:02Z"
+ "lists_generated_at": "2026-11-19T01:55:04Z"
 }
