@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T22:24:33Z",
+ "generated_at": "2026-11-19T22:26:03Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T22:20:45Z",
+  "last_activity_at": "2026-11-19T22:25:22Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,21 @@
  "counts": {
   "filed": 1,
   "parked": 160,
-  "rejected": 1396,
-  "evaluated": 1558
+  "rejected": 1398,
+  "evaluated": 1560
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1558,
+  "evaluated": 1560,
   "filed": 1,
   "parked": 160,
-  "rejected": 1396,
+  "rejected": 1398,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
  },
  "searching_lanes": [
   "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
   "W17",
   "W18"
  ],
@@ -114,40 +110,40 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": "2026-11-19T22:26:03Z",
    "detail": "Employers 195/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 188/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 200/44"
   },
   "W9": {
@@ -230,12 +226,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": null,
    "detail": "Employers 200/59"
   },
   "W17": {
@@ -246,7 +242,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": "2026-11-19T22:26:03Z",
    "detail": "Employers 190/54"
   },
   "W18": {
@@ -257,7 +253,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T22:24:33Z",
+   "heartbeat_at": "2026-11-19T22:26:03Z",
    "detail": "Employers 190/45"
   },
   "W19": {
@@ -552,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:20 PM CT · 9 workers in flight · 1 filed this cycle",
+ "note": "Last activity 4:25 PM CT · 5 workers in flight · 1 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W3",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -593,8 +589,8 @@
    "winner_disposition_id": 22570,
    "unit_id": 12994,
    "unit_created_at": "2026-11-19T18:17:23Z",
-   "attempts": 8,
-   "last_attempt_at": "2026-11-19T21:54:22Z"
+   "attempts": 9,
+   "last_attempt_at": "2026-11-19T22:24:59Z"
   },
   {
    "lead_id": 5499,
@@ -1096,7 +1092,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 112,
+  "attempted_today": 113,
   "filed_today": 1
  },
  "date": "2026-11-19",
@@ -10972,13 +10968,20 @@
     "time": "9:14 AM"
    }
   ],
-  "careers.capgemini.com": [
+  "Capgemini Careers (employer ATS)": [
    {
     "company": "Capgemini",
     "role": "GCP Cloud Architect",
-    "reason": "cloud-mismatch — Capgemini is seeking an experienced GCP Cloud Architect to lead the design, implementation, and optimization of cloud solutions on Google Cloud Platform (GCP). workarounds tried: (1) employer's own Capgemini careers page (governing text, GCP-first), (2) cloudcomputingjobs mirror, (3) no Azure-first alternate posting found",
-    "where": "careers.capgemini.com",
-    "time": "12:58 AM"
+    "reason": "cloud-mismatch — Capgemini is seeking an experienced GCP Cloud Architect to lead the design, implementation, and optimization of cloud solutions on Google Cloud Platform (GCP). Extensive hands-on experience with Google Cloud Platform (GCP) services, including Compute Engine, Kubernetes Engine (GKE), and App Engine. Hands-on knowledge on IaaC build using Terraform and DevOps principles. Location: Atlanta, GA, Dallas, TX, Nashville, TN, Chicago, IL, Brigewater, NJ, New York, NY. Workarounds tried: (1) employer's own careers page - governing text, GCP-first throughout; (2) Dice mirror - same GCP Cloud Architect role. Undated but live on the employer's own page; verdicted on merits.",
+    "where": "Capgemini Careers (employer ATS)",
+    "time": "4:25 PM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Capgemini - Cloud Architecture - Director",
+    "reason": "pay-outside-band — The base compensation range for this role in the posted location is: $159.375 to $311,680. You'll lead our cloud architecture portfolio, setting technical direction for clients' most consequential platform decisions. Set architecture direction for multi-year, multi-cloud transformations, including sovereignty, resilience, and regulatory constraints. Workarounds tried: (1) employer's own careers page - governing pay text; no alternate route or repost of this req found showing a different range. Undated but live on the employer's own page; verdicted on merits.",
+    "where": "Capgemini Careers (employer ATS)",
+    "time": "4:25 PM"
    }
   ],
   "startup.jobs (Elastic Greenhouse mirror, full JD)": [
@@ -11679,6 +11682,15 @@
     "reason": "stale — As a Security Architect (Cloud Security & Compliance), you'll be part of our Information Technology team working as a hybrid employee.",
     "where": "Built In mirror",
     "time": "3:19 AM"
+   }
+  ],
+  "Wipro Careers (employer ATS)": [
+   {
+    "company": "Wipro",
+    "role": "INFRASTRUCTURE DOMAIN ARCHITECT L1(CONTRACT)",
+    "reason": "stale — Posting Start Date: 10/30/26 (Glassdoor mirror; Wipro's own page carries no date). The expected compensation for this role ranges from $60,000 to $135,000. Senior Cross Functional Systems Engineer: The individual should be proficient in Engineering solutions across Compute, Storage, Network, Database Management Systems, Identity & Access Management, Amazon Web Services & Kubernetes based compute. City: Dallas, Texas. Workarounds tried: (1) employer's own ATS (careers.wipro.com) - governing text, hands-on AWS engineering, contract role; (2) Glassdoor mirror - same posting start date, pay, and Dallas location.",
+    "where": "Wipro Careers (employer ATS)",
+    "time": "4:25 PM"
    }
   ],
   "Johns Hopkins hiring.jhu.edu (employer's own board)": [
@@ -14450,5 +14462,5 @@
   "W14": [],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T22:24:33Z"
+ "lists_generated_at": "2026-11-19T22:26:03Z"
 }
