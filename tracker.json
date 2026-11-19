@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T03:59:24Z",
+ "generated_at": "2026-11-19T04:01:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T03:59:17Z",
+  "last_activity_at": "2026-11-19T04:00:03Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 200,
-  "rejected": 1286,
-  "evaluated": 1486
+  "rejected": 1288,
+  "evaluated": 1488
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1486,
+  "evaluated": 1488,
   "filed": 0,
   "parked": 200,
-  "rejected": 1286,
+  "rejected": 1288,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W6",
+  "W16"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -88,57 +95,57 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 195/39"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 200/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 195/73"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 200/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 184/32"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 188/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/44"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 200/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/44"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 200/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 190/59"
+   "heartbeat_at": "2026-11-19T04:01:33Z",
+   "detail": "Employers 200/59"
   },
   "W17": {
    "label": "Technology",
@@ -237,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/54"
+   "detail": "Employers 200/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -248,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/45"
+   "detail": "Employers 200/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 190/41"
+   "detail": "Employers 200/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 182/31"
+   "detail": "Employers 184/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "438 of 632 units done",
+   "detail": "456 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:59 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 10:00 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 11 of 58 · Domain Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 11 of 58 · Domain Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -4994,6 +5007,13 @@
     "time": "3:22 PM"
    },
    {
+    "company": "TIAA",
+    "role": "Solution Architect, Insurance Solutions and New Markets",
+    "reason": "stale — Anticipated Posting End Date: 2026-09-18; Base Pay Range: $165,000/yr - $255,000/yr. workarounds tried: (1) employer's own listing text via Built In mirror (posting end date passed, no refreshed repost found)",
+    "where": "builtin.com",
+    "time": "10:00 PM"
+   },
+   {
     "company": "Microsoft",
     "role": "Principal Cloud Solution Architect, Cloud and Agentic AI Solutions - New York",
     "reason": "pay-outside-band — Cloud Solution Architecture IC5 - The typical base pay range for this role across the U.S. is USD $130,900 - $251,900 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $165,600 - $272,300 per year. — both tops above the $230,000 band top. workarounds tried: (1) employer's own Microsoft careers posting sought, Built In full JD read carrying the Microsoft text; (2) no alternate posting of this role with a different range found; (3) other Microsoft CSA postings found carry the same IC5 range. Searched W17 employers Microsoft, Amazon Web Services, Google, Apple, Meta for Cloud Engineering Lead, Platform Engineering Lead, Cloud Transformation Lead, Technology Strategy Lead, Enterprise Technology Lead, Infrastructure Strategy Lead, Cloud Practice Lead, Cloud Center of Excellence Lead, Cloud Enablement Lead and Cloud Adoption Lead families.",
@@ -7197,9 +7217,9 @@
    {
     "company": "Spire Inc",
     "role": "Solutions Architect",
-    "reason": "stale — Date: Feb 25, 2026 — workarounds tried: (1) full JD read on career.io mirror of Spire req 11522 dated Feb 25, 2026; (2) searched for a fresher or reposted Spire Solutions Architect posting — none found; (3) no alternate posting of the same role found",
+    "reason": "stale — Date: Feb 25, 2026 Location: Saint Louis, MO, US, 63101 Birmingham, AL, US, 35203 Kansas City, MO, US, 64129 Company: Spire Inc. workarounds tried: (1) employer's own career site jobs.spireenergy.com referenced in the JD; mirror carries Feb 25 2026 date, no fresher repost found",
     "where": "career.io",
-    "time": "4:43 PM"
+    "time": "10:00 PM"
    },
    {
     "company": "Eversource",
@@ -7675,6 +7695,13 @@
     "reason": "not-remote — This position offers a hybrid work schedule - ability to work in office workarounds tried: (1) employer's own Workday Principal Architect posting (office-required), (2) BuiltIn mirror (this page), (3) alternate searches - no fully remote version found.",
     "where": "builtincharlotte.com",
     "time": "12:25 AM"
+   },
+   {
+    "company": "TIAA",
+    "role": "Sr. Director, Senior IT Solution Architect",
+    "reason": "stale — Anticipated Posting End Date: 2026-09-11. workarounds tried: (1) employer's own listing text via Built In Charlotte mirror (posting end date passed, no refreshed repost found)",
+    "where": "builtincharlotte.com",
+    "time": "10:00 PM"
    }
   ],
   "W5": [
@@ -14064,5 +14091,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T03:59:24Z"
+ "lists_generated_at": "2026-11-19T04:01:33Z"
 }
