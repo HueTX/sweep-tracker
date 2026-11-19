@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T02:53:08Z",
+ "generated_at": "2026-11-19T02:55:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T02:52:55Z",
+  "last_activity_at": "2026-11-19T02:54:40Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 191,
-  "rejected": 1241,
-  "evaluated": 1433
+  "parked": 192,
+  "rejected": 1243,
+  "evaluated": 1436
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1433,
+  "evaluated": 1436,
   "filed": 0,
-  "parked": 191,
-  "rejected": 1241,
+  "parked": 192,
+  "rejected": 1243,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
+  "W1",
+  "W2",
+  "W3",
+  "W4",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -83,68 +84,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
    "detail": "Employers 95/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
    "detail": "Employers 95/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
    "detail": "Employers 95/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
+   "detail": "Employers 95/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 95/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T02:53:08Z",
-   "detail": "Employers 90/44"
+   "detail": "Employers 95/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T02:53:08Z",
-   "detail": "Employers 90/44"
+   "heartbeat_at": null,
+   "detail": "Employers 95/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,56 +227,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T02:53:08Z",
-   "detail": "Employers 90/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T02:53:08Z",
-   "detail": "Employers 90/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T02:53:08Z",
-   "detail": "Employers 90/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 95/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 95/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 95/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
    "detail": "Employers 90/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T02:55:31Z",
    "detail": "Employers 90/31"
   }
  },
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "222 of 632 units done",
+   "detail": "227 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:52 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 8:54 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W5 · Title 1 of 58 · Azure Architect",
+   "primary": "W19 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W5"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W5",
-  "headline": "W5 · Title 1 of 58 · Azure Architect",
+  "label": "W19",
+  "headline": "W19 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1089,7 +1090,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 251,
@@ -1247,13 +1248,13 @@
     "time": "3:06 PM"
    }
   ],
-  "OilProfessionals (Devon Energy posting)": [
+  "oilprofessionals.com": [
    {
     "company": "Devon Energy",
     "role": "Solution Architecture Advisor",
     "reason": "title-not-covered — Independently performs broad solution design, enterprise architecture and solution development activities, as well as acting as a technical advisor to teams executing Devon's most strategic technology projects.",
-    "where": "OilProfessionals (Devon Energy posting)",
-    "time": "3:07 PM"
+    "where": "oilprofessionals.com",
+    "time": "8:54 PM"
    }
   ],
   "Monster": [
@@ -2686,6 +2687,15 @@
     "reason": "not-evaluated — Employer's own Eightfold careers page for job 687238372709 rendered as unreadable script/theme data in text fetch - full JD could not be read, so not evaluated",
     "where": "Eaton Eightfold careers",
     "time": "8:49 PM"
+   }
+  ],
+  "careers.amd.com": [
+   {
+    "company": "AMD",
+    "role": "AI Collaboration Solutions Architect",
+    "reason": "title-not-covered — Join a global technology leader as an Enterprise AI & Collaboration Architect, where you will help shape the future of AI-powered productivity and collaboration across the enterprise. Architect AI-enabled collaboration and productivity solutions across Microsoft 365 (Teams, SharePoint, OneDrive, Exchange, Power Platform) and integrate them with existing enterprise applications.",
+    "where": "careers.amd.com",
+    "time": "8:54 PM"
    }
   ]
  },
@@ -4598,6 +4608,13 @@
     "time": "9:23 AM"
    },
    {
+    "company": "Northern Trust",
+    "role": "Principal – Enterprise Architect",
+    "reason": "stale — IT Project Management Posted on Sep 11, 2025. Full-time Chicago, IL, USA In-person. workarounds tried: (1) employer's own route named in the posting itself (careers.northerntrust.com, requisition R147298), (2) Simplify alternate route (same R147298 posting, In-person, Chicago), (3) Swooped alternate Northern Trust architect posting (different AI Enterprise Architect role, also Chicago-based)",
+    "where": "simplify.jobs",
+    "time": "8:54 PM"
+   },
+   {
     "company": "Synchrony Financial",
     "role": "AVP, Solution Architect",
     "reason": "hands-on — Minimum of 7 years of full stack development using Spring, other JEE technologies, API, microservices and UI technologies and frameworks — workarounds tried: (1) employer's own Synchrony posting text mirrored on Simplify; (2) alternate BuiltIn Synchrony architect postings checked; (3) no alternate posting removes the full-stack development requirement",
@@ -4775,6 +4792,13 @@
     "reason": "stale — Published: 2026-07-03",
     "where": "builtin.com",
     "time": "8:32 PM"
+   },
+   {
+    "company": "3M",
+    "role": "Cloud Architect",
+    "reason": "not-remote — Our Infrastructure Team is seeking a Cloud Architect based in Shanghai to lead the architectural design, governance, and operation of cutting-edge cloud strategies for our top-tier business operations. workarounds tried: (1) Built In full JD (3M Cloud Architect, based in Shanghai - outside US-only scope), (2) web search for a US-based 3M Cloud Architect alternate posting (none found; other 3M architect listings were unrelated US retail-style mirrors), (3) 3M Enterprise Architect alternate listings checked (no US remote cloud architect posting)",
+    "where": "builtin.com",
+    "time": "8:54 PM"
    },
    {
     "company": "DuPont",
@@ -6923,20 +6947,48 @@
     "time": "3:18 PM"
    }
   ],
-  "Avangrid Workday (Iberdrola)": [
+  "dice.com": [
    {
     "company": "Avangrid",
     "role": "Lead Cloud Architect",
-    "reason": "closed — The page you are looking for doesn't exist.",
-    "where": "Avangrid Workday (Iberdrola)",
-    "time": "11:41 AM"
+    "reason": "not-remote — Location: In Office, Orange CT, Boston MA. #LI-Onsite. workarounds tried: (1) Dice full JD (Iberdrola/Avangrid posting, In Office, #LI-Onsite), (2) Glassdoor alternate route (same Lead Cloud Architect, In Office, Orange CT), (3) search for alternate remote posting of same role (none found)",
+    "where": "dice.com",
+    "time": "8:54 PM"
    },
    {
-    "company": "Avangrid",
-    "role": "Lead Engineer - Cloud & Gen AI",
-    "reason": "not-remote — Location: In Office, Orange CT, Boston MA #LI-Onsite — workarounds tried: (1) employer's own Workday posting (governing text, Iberdrola/Avangrid board) shows In Office; (2) Career.io mirror shows same In Office Boston MA, Orange CT location; (3) no alternate remote posting of this role found",
-    "where": "Avangrid Workday (Iberdrola)",
-    "time": "11:41 AM"
+    "company": "Sherwin-Williams",
+    "role": "Principal Practice Enterprise Architect Data",
+    "reason": "experience-mismatch — Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog) and AI code assist tooling; evaluates platforms directly rather than through vendor material — plus: Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify — workarounds tried: (1) employer's own Oracle careers page for this role (job 2626554) carries the same role; (2) alternate routes Teal and Jooble listings for the same req show the same Databricks data-platform core; (3) no alternate posting of this role with a different core found. Core duties are hands-on Databricks data engineering/platform work, which does not align with Hubert's Azure infrastructure architecture experience.",
+    "where": "dice.com",
+    "time": "3:45 PM"
+   },
+   {
+    "company": "Marsh McLennan",
+    "role": "Enterprise Architect",
+    "reason": "stale — Applications will be accepted until: March 20, 2026",
+    "where": "dice.com",
+    "time": "9:22 AM"
+   },
+   {
+    "company": "Matson",
+    "role": "Technical Architect - Copilot",
+    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite). Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) employer's own posting route via Dice listing, (2) alternate route search, (3) alternate posting search - onsite Walnut Creek stands; contract rate 70-80/hr also at/below the $85/hr contract floor",
+    "where": "dice.com",
+    "time": "4:39 PM"
+   },
+   {
+    "company": "TIAA",
+    "role": "Director, LRC Solutions Architect",
+    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr — workarounds tried: (1) full JD read on Dice detail page; (2) alternate Dice city listings for the same role show the same $165,000-$255,000 range and Hybrid locations; (3) no alternate posting with a different pay range found; anticipated posting end date 2026-11-02 also passed",
+    "where": "dice.com",
+    "time": "4:43 PM"
+   },
+   {
+    "company": "GovCIO",
+    "role": "Senior Enterprise Architect - CHNO Infrastructure",
+    "reason": "pay-outside-band — USD $94,150.00 - USD $140,000.00 /Yr. — published top $140,000 below the $160,000 band floor, on the Dice full JD for this remote Senior Enterprise Architect supporting the US Courts. workarounds tried: (1) employer's own GovCIO iCIMS posting sought, Dice full JD read; (2) Career.io mirrors show the same $94,150-$140,000 range; (3) no alternate posting with a different range found. Searched W2 employers GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, Florida state portal, New York state portal for Infrastructure Modernization Lead, Technology Modernization Lead, Cloud Delivery Lead, Enterprise Technology Consultant, Cloud Advisory Consultant, Technology Transformation Consultant, Staff Cloud Engineer, Staff Infrastructure Engineer, Enterprise Solutions Architect and Enterprise Cloud Architect families.",
+    "where": "dice.com",
+    "time": "3:22 AM"
    }
   ],
   "Swooped": [
@@ -8099,6 +8151,15 @@
     "time": "3:16 PM"
    }
   ],
+  "Avangrid Workday (Iberdrola)": [
+   {
+    "company": "Avangrid",
+    "role": "Lead Engineer - Cloud & Gen AI",
+    "reason": "not-remote — Location: In Office, Orange CT, Boston MA #LI-Onsite — workarounds tried: (1) employer's own Workday posting (governing text, Iberdrola/Avangrid board) shows In Office; (2) Career.io mirror shows same In Office Boston MA, Orange CT location; (3) no alternate remote posting of this role found",
+    "where": "Avangrid Workday (Iberdrola)",
+    "time": "11:41 AM"
+   }
+  ],
   "Business of Fashion / lululemon": [
    {
     "company": "Lululemon",
@@ -8178,43 +8239,6 @@
     "reason": "hands-on — The Solution Architect will play a hands-on role driving the overall technical architecture. Demonstrated software development experience with expertise in client-side technologies (Angular/React, JavaScript/TypeScript) and strong experience using Java, Java EE/Jakarta EE, Spring Framework/Spring Boot. workarounds tried: (1) employer's own Fidelity Careers posting (governing text), (2) alternate route search, (3) alternate posting - same hands-on development requirements",
     "where": "Fidelity Careers",
     "time": "12:04 PM"
-   }
-  ],
-  "dice.com": [
-   {
-    "company": "Sherwin-Williams",
-    "role": "Principal Practice Enterprise Architect Data",
-    "reason": "experience-mismatch — Current hands-on use of Databricks (notebooks, SQL, workflows, Unity Catalog) and AI code assist tooling; evaluates platforms directly rather than through vendor material — plus: Production experience designing and governing enterprise data platforms at scale on Databricks: lakehouse and medallion architecture, Delta Lake, Unity Catalog governance, data modeling, master data management, analytics and data products. Advisory-only data experience does not qualify — workarounds tried: (1) employer's own Oracle careers page for this role (job 2626554) carries the same role; (2) alternate routes Teal and Jooble listings for the same req show the same Databricks data-platform core; (3) no alternate posting of this role with a different core found. Core duties are hands-on Databricks data engineering/platform work, which does not align with Hubert's Azure infrastructure architecture experience.",
-    "where": "dice.com",
-    "time": "3:45 PM"
-   },
-   {
-    "company": "Marsh McLennan",
-    "role": "Enterprise Architect",
-    "reason": "stale — Applications will be accepted until: March 20, 2026",
-    "where": "dice.com",
-    "time": "9:22 AM"
-   },
-   {
-    "company": "Matson",
-    "role": "Technical Architect - Copilot",
-    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite). Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) employer's own posting route via Dice listing, (2) alternate route search, (3) alternate posting search - onsite Walnut Creek stands; contract rate 70-80/hr also at/below the $85/hr contract floor",
-    "where": "dice.com",
-    "time": "4:39 PM"
-   },
-   {
-    "company": "TIAA",
-    "role": "Director, LRC Solutions Architect",
-    "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr — workarounds tried: (1) full JD read on Dice detail page; (2) alternate Dice city listings for the same role show the same $165,000-$255,000 range and Hybrid locations; (3) no alternate posting with a different pay range found; anticipated posting end date 2026-11-02 also passed",
-    "where": "dice.com",
-    "time": "4:43 PM"
-   },
-   {
-    "company": "GovCIO",
-    "role": "Senior Enterprise Architect - CHNO Infrastructure",
-    "reason": "pay-outside-band — USD $94,150.00 - USD $140,000.00 /Yr. — published top $140,000 below the $160,000 band floor, on the Dice full JD for this remote Senior Enterprise Architect supporting the US Courts. workarounds tried: (1) employer's own GovCIO iCIMS posting sought, Dice full JD read; (2) Career.io mirrors show the same $94,150-$140,000 range; (3) no alternate posting with a different range found. Searched W2 employers GovernmentJobs.com / NEOGOV agencies, Texas WorkInTexas, California jobs.ca.gov, Florida state portal, New York state portal for Infrastructure Modernization Lead, Technology Modernization Lead, Cloud Delivery Lead, Enterprise Technology Consultant, Cloud Advisory Consultant, Technology Transformation Consultant, Staff Cloud Engineer, Staff Infrastructure Engineer, Enterprise Solutions Architect and Enterprise Cloud Architect families.",
-    "where": "dice.com",
-    "time": "3:22 AM"
    }
   ],
   "DiversityJobs (PPG posting text)": [
@@ -13670,5 +13694,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T02:53:08Z"
+ "lists_generated_at": "2026-11-19T02:55:31Z"
 }
