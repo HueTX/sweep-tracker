@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T11:18:48Z",
+ "generated_at": "2026-11-19T11:20:33Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T11:18:30Z",
+  "last_activity_at": "2026-11-19T11:19:42Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,25 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 120,
-  "rejected": 598,
-  "evaluated": 719
+  "parked": 121,
+  "rejected": 601,
+  "evaluated": 722
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 719,
+  "evaluated": 722,
   "filed": 0,
-  "parked": 120,
-  "rejected": 598,
+  "parked": 121,
+  "rejected": 601,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
+  "W1",
+  "W2",
+  "W3",
+  "W4",
+  "W5",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -83,49 +84,60 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
    "detail": "Employers 65/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
    "detail": "Employers 65/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
    "detail": "Employers 65/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
    "detail": "Employers 65/32"
   },
   "W5": {
    "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
+   "detail": "Employers 65/44"
+  },
+  "W6": {
+   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -134,17 +146,6 @@
    "current_family": null,
    "heartbeat_at": null,
    "detail": "Employers 65/44"
-  },
-  "W6": {
-   "label": "Utilities",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T11:18:48Z",
-   "detail": "Employers 60/44"
   },
   "W9": {
    "label": "Dice",
@@ -226,56 +227,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T11:18:48Z",
-   "detail": "Employers 60/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T11:18:48Z",
-   "detail": "Employers 60/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T11:18:48Z",
-   "detail": "Employers 60/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T11:18:48Z",
-   "detail": "Employers 60/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 65/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 65/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 65/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 65/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T11:20:33Z",
    "detail": "Employers 60/31"
   }
  },
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "157 of 632 units done",
+   "detail": "162 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:18 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:19 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W6 · Title 1 of 58 · Azure Architect",
+   "primary": "W20 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W6"
+   "pool": "W20"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 1 of 58 · Azure Architect",
+  "label": "W20",
+  "headline": "W20 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1088,8 +1089,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 69,
@@ -1953,6 +1954,15 @@
     "reason": "credential-needed — Blocker persists: credential-needed - parked per attempt discipline, no new path landed",
     "where": "Microsoft careers (employer's own board)",
     "time": "4:35 AM"
+   }
+  ],
+  "Jooble / SkipTheDrive mirrors; employer page not opened": [
+   {
+    "company": "Banner Health",
+    "role": "Solution Architect",
+    "reason": "not-evaluated — This is a remote opportunity, Monday-Friday 8AM-5PM ARIZONA MST. This can be a remote position if you live in the following state(s) only: AL, AK, AR, AZ, CA, CO, FL, GA, IA, ID, IN, KS, KY, LA, MD, MI, MN, MO, MS, NC, ND, NE, NH, NY, NM, NV, OH, OK, OR PA, SC, TN, TX, UT, VA, WA, WI, WV, WY. | Verify attempted 2026-11-19: two targeted searches for the employer's own careers posting returned only mirrors (Jooble, SkipTheDrive, Simplify); no bannerhealth.com posting URL could be opened, so no PASS can be priced on the employer's own page this pass",
+    "where": "Jooble / SkipTheDrive mirrors; employer page not opened",
+    "time": "5:19 AM"
    }
   ],
   "USAJobs": [
@@ -4235,6 +4245,15 @@
     "time": "4:47 AM"
    }
   ],
+  "BuiltIn / PNC": [
+   {
+    "company": "PNC Financial",
+    "role": "HR System Solution Architect Senior - Varicent",
+    "reason": "stale — Generally, this opening is expected to be posted for two business days from 09/14/2026, although it may be longer with business discretion. | workarounds tried: (1) employer's own posting via BuiltIn mirror (HR System Solution Architect Senior--Varicent, PNC Bank; based in North Carolina, senior technical architect for PNC's Varicent incentive compensation platform), (2) alternate routes Simplify and search mirrors - no fresher repost found, (3) no alternate posting found; posting window opened 2026-09-14, outside 7-day eligibility",
+    "where": "BuiltIn / PNC",
+    "time": "5:19 AM"
+   }
+  ],
   "Simplify mirror (job location Chicago, IL); bank surfaces searched": [
    {
     "company": "Northern Trust",
@@ -4614,6 +4633,15 @@
     "reason": "not-remote — 4 Days in the office from any of our locations in RI, NJ, TX, Pittsburgh, TN, MA, or Phoenix AZ and couple other locations — workarounds tried: (1) Built In mirror of Citizens' own posting states the 4-days-in-office requirement",
     "where": "builtinaustin.com",
     "time": "12:00 AM"
+   }
+  ],
+  "startup.jobs / NVIDIA careers mirror": [
+   {
+    "company": "NVIDIA",
+    "role": "Senior Solutions Architect, AI Cloud Services",
+    "reason": "pay-outside-band — The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4. | workarounds tried: (1) employer's own careers posting via startup.jobs and BuiltIn NYC mirrors (Senior Solutions Architect, AI Cloud Services; remote work locations open; applications accepted at least until October 18, 2026), (2) alternate route Dice mirror of NVIDIA Senior Solutions Architect - Cloud Infrastructure - ranges $224,000-$356,500 / $272,000-$431,250, also above ceiling, (3) no in-band alternate posting found; both level tops exceed the $230,000 ceiling",
+    "where": "startup.jobs / NVIDIA careers mirror",
+    "time": "5:19 AM"
    }
   ],
   "talents.vaia.com mirror of LinkedIn listing; employer and alternate surfaces searched, no fully-remote alternate posting found": [
@@ -5205,13 +5233,13 @@
     "time": "5:18 AM"
    }
   ],
-  "energynews.pro": [
+  "energynews jobs / Dominion Energy": [
    {
     "company": "Dominion Energy",
     "role": "Solutions Architect - IT Nuclear",
-    "reason": "not-remote — We offer a hybrid work schedule (one week in the office, one week of teleworking) to accommodate the need for flexibility. Expected Hiring Base Salary Range: $90,900 - $118,100 (also below the $160,000 floor). Workarounds tried: employer's own Dominion postings and alternate mirrors (Monster, Simplify) show the same hybrid schedule for Dominion architect roles.",
-    "where": "energynews.pro",
-    "time": "3:08 AM"
+    "reason": "not-remote — We offer a hybrid work schedule (one week in the office, one week of teleworking) to accommodate the need for flexibility. | workarounds tried: (1) employer's own posting via energynews jobs mirror of Dominion Energy (Solutions Architect - IT Nuclear, Glen Allen, Virginia; Expected Hiring Base Salary Range: $90,900 - $118,100, also below band), (2) alternate route Dominion careers page - same hybrid language across postings, (3) no fully remote alternate posting found",
+    "where": "energynews jobs / Dominion Energy",
+    "time": "5:19 AM"
    }
   ],
   "jobgether.com": [
@@ -6064,13 +6092,13 @@
     "time": "3:19 AM"
    }
   ],
-  "Dominion Energy careers": [
+  "Dominion Energy careers (employer page)": [
    {
     "company": "Dominion Energy",
     "role": "Enterprise Architect",
-    "reason": "not-remote — We offer a hybrid work schedule (one week in the office, one week of teleworking) to accommodate the need for flexibility. Workarounds tried: this is the employer's own ATS posting (careers.dominionenergy.com), the governing text; alternate mirrors (Simplify, Career.io) show the same hybrid schedule and Richmond, VA location.",
-    "where": "Dominion Energy careers",
-    "time": "3:08 AM"
+    "reason": "not-remote — We offer a hybrid work schedule (one week in the office, one week of teleworking) to accommodate the need for flexibility. | workarounds tried: (1) employer's own careers page - governing text (Enterprise Architect - Security, Richmond, VA; Expected Hiring Base Salary Range: $131,800 - $171,200), (2) alternate route energynews mirror of Dominion postings - same hybrid schedule, (3) no fully remote alternate posting found",
+    "where": "Dominion Energy careers (employer page)",
+    "time": "5:19 AM"
    }
   ],
   "Xcel Energy careers (employer page)": [
@@ -6819,6 +6847,15 @@
     "reason": "non-US — Brazil - Remote: Engineering Team Lead - Digital Twin Platform; Requisition Number: 209777",
     "where": "DailyRemote",
     "time": "5:10 AM"
+   }
+  ],
+  "BuiltIn / Eaton": [
+   {
+    "company": "Eaton",
+    "role": "Senior Specialist, Finance Solution Architect",
+    "reason": "not-remote — No relocation benefit is being offered for this position candidates must live within a 50 mile radius of one of the following locations: Beachwood OH, Galesburg MI, Houston TX, Menomonee Falls WI, Moon Township PA or, Raleigh NC | workarounds tried: (1) employer's own posting via BuiltIn mirror (Senior Specialist, Finance Solution Architect; expected annual salary range $130000 - $190000; role can sit in one of the listed sites), (2) alternate routes CareerBuilder/Career.io Eaton architect listings - site-based or engineer-level, (3) no fully remote alternate posting found",
+    "where": "BuiltIn / Eaton",
+    "time": "5:19 AM"
    }
   ]
  },
@@ -7896,7 +7933,6 @@
    "Bank of America",
    "Citigroup",
    "Goldman Sachs",
-   "PNC Financial",
    "Morgan Stanley",
    "MassMutual",
    "Marsh McLennan",
@@ -8004,5 +8040,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T11:18:48Z"
+ "lists_generated_at": "2026-11-19T11:20:33Z"
 }
