@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:44:41Z",
+ "generated_at": "2026-11-19T08:46:28Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -15,32 +15,38 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:44:27Z",
+  "last_activity_at": "2026-11-19T08:45:56Z",
   "progress": {
    "pools": 21,
-   "covered_units": 626,
+   "covered_units": 680,
    "total_units": 754,
-   "pct": 83
+   "pct": 90
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 66,
-  "rejected": 261,
-  "evaluated": 327
+  "parked": 67,
+  "rejected": 262,
+  "evaluated": 329
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 327,
+  "evaluated": 329,
   "filed": 0,
-  "parked": 66,
-  "rejected": 261,
+  "parked": 67,
+  "rejected": 262,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2"
+  "W2",
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18"
  ],
  "lanes": {
   "LinkedIn": {
@@ -85,7 +91,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 25/30"
+   "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -95,8 +101,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:44:41Z",
-   "detail": "Employers 20/39"
+   "heartbeat_at": "2026-11-19T08:46:28Z",
+   "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -107,39 +113,39 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 25/73"
+   "detail": "Employers 30/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:46:28Z",
    "detail": "Employers 25/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:46:28Z",
    "detail": "Employers 25/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:46:28Z",
    "detail": "Employers 25/44"
   },
   "W9": {
@@ -222,35 +228,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:46:28Z",
    "detail": "Employers 25/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:46:28Z",
    "detail": "Employers 25/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 20/45"
+   "heartbeat_at": "2026-11-19T08:46:28Z",
+   "detail": "Employers 25/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -261,7 +267,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/41"
+   "detail": "Employers 25/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -272,7 +278,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 20/31"
+   "detail": "Employers 25/31"
   }
  },
  "stages": {
@@ -302,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "71 of 632 units done",
+   "detail": "77 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -544,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:44 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:45 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1425,6 +1431,15 @@
     "reason": "title-not-covered — The IT Architect - Fire Applications will serve as a technical leader responsible for designing, implementing, and transforming enterprise application architectures to meet the City of Houston and Houston Fire Department’s evolving technology landscape.",
     "where": "Careers in Government / City of Houston portal",
     "time": "1:13 AM"
+   }
+  ],
+  "careers.walmart.com": [
+   {
+    "company": "Walmart",
+    "role": "(USA) Senior Distinguished I, Architect",
+    "reason": "title-not-covered — The (USA) Senior Distinguished I, Architect leads the design and implementation of comprehensive architecture strategies across multiple products and platforms within the domain.",
+    "where": "careers.walmart.com",
+    "time": "2:45 AM"
    }
   ],
   "Vaia / Cook County Government": [
@@ -3077,6 +3092,13 @@
     "reason": "not-remote — You will be required to report to an OPM assigned office. workarounds tried: employer's own ATS (USAJOBS) governing text checked; no alternate route changes required office report",
     "where": "USAJOBS",
     "time": "12:41 AM"
+   },
+   {
+    "company": "HHS / CMS",
+    "role": "IT Specialist (Solution/Platform Architect)",
+    "reason": "internal-only — Career Transition Assistance Plan Eligibles; OR Current Permanent Career and Career-Conditional Employees in HHS.",
+    "where": "USAJOBS",
+    "time": "2:45 AM"
    },
    {
     "company": "Small Business Administration (SBA)",
@@ -4972,5 +4994,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:44:41Z"
+ "lists_generated_at": "2026-11-19T08:46:28Z"
 }
