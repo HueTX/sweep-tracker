@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T10:35:44Z",
+ "generated_at": "2026-11-19T10:37:15Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T10:35:30Z",
+  "last_activity_at": "2026-11-19T10:37:14Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 32,
    "total_units": 754,
-   "pct": 0
+   "pct": 4
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,21 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 112,
-  "rejected": 489,
-  "evaluated": 601
+  "rejected": 492,
+  "evaluated": 605
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 601,
+  "evaluated": 605,
   "filed": 0,
   "parked": 112,
-  "rejected": 489,
+  "rejected": 492,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W1",
-  "W2"
+  "W3",
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -64,7 +65,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T10:35:44Z",
+   "heartbeat_at": "2026-11-19T10:37:15Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -81,56 +82,56 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T10:35:44Z",
-   "detail": "Employers 0/30"
-  },
-  "W2": {
-   "label": "State & Local Gov",
-   "sites": 39,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T10:35:44Z",
-   "detail": "Employers 0/39"
-  },
-  "W3": {
-   "label": "Healthcare Providers",
-   "sites": 73,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/30"
+  },
+  "W2": {
+   "label": "State & Local Gov",
+   "sites": 39,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 5/39"
+  },
+  "W3": {
+   "label": "Healthcare Providers",
+   "sites": 73,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T10:37:15Z",
    "detail": "Employers 0/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T10:37:15Z",
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T10:37:15Z",
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -304,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "0 of 632 units done",
+   "detail": "4 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -546,18 +547,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 4:35 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 4:37 AM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W3"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "label": "W3",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1086,8 +1087,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 2,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 69,
@@ -2375,6 +2376,13 @@
     "reason": "stale — Published: 2026-04-09 Location: USA Home Office Framingham MA 770 Cochituate Rd This position has a starting salary range of $138,400.00 to $179,900.00 per year. workarounds tried: (1) employer's own JD text carried in full on Built In (governing text, dated 2026-04-09, outside the 7-day eligibility window); (2) alternate Simplify route shows the same TJX Principal Architect posting dated 2/28/2026; (3) no fresher repost of this role found within 7 days",
     "where": "builtin.com",
     "time": "3:05 AM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Director, Advisory Services - Cloud Architect",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. | workarounds tried: (1) Built In carries UnitedHealth Group/Optum's own full JD text incl. salary (governing text, Requisition Number: 2390520); (2) alternate routes returned the same Optum posting; (3) no alternate posting of this req with a different range found. Published top $230,800 exceeds the $230,000 band ceiling.",
+    "where": "builtin.com",
+    "time": "4:37 AM"
    },
    {
     "company": "BAE Systems, Inc.",
@@ -4368,6 +4376,13 @@
     "time": "2:52 AM"
    },
    {
+    "company": "NEOGOV",
+    "role": "Enterprise Architect, Platform",
+    "reason": "hands-on — Proven success designing and implementing enterprise-scale, cloud-native architectures leveraging both .NET (Core/C#) and Java ecosystems. | 8+ years of software-engineering experience, including 5+ years in a Senior or Lead Architect role within a SaaS environment | workarounds tried: (1) GovernmentJobs.com is NEOGOV's own careers portal — governing JD text; (2) alternate routes returned the same NEOGOV posting; (3) no alternate posting of this role without the .NET/Java engineering core found. Hubert is not a programmer; hands-on programming-language ecosystems are the role's core requirement. Posting is live on NEOGOV's own portal today (existing vacancy).",
+    "where": "governmentjobs.com",
+    "time": "4:36 AM"
+   },
+   {
     "company": "King County",
     "role": "Cloud Solutions Architect",
     "reason": "closed — OPENING DATE 07/20/2015 CLOSING DATE 8/2/2015 4:30 PM Pacific — The Cloud Solutions Architect will serve as the technical expert on design and solutions necessary to leverage the power of cloud resources.",
@@ -4380,6 +4395,13 @@
     "reason": "not-remote — This position requires at least 2 days per week working onsite at AOC facilities in Olympia. Salary: Range 79: $113,736 - $149,244 per year (DOQ). workarounds tried: (1) employer's own governmentjobs.com posting opened — governing text; (2) alternate route courts.wa.gov carries the same Enterprise Architect class specification; (3) no remote alternate posting found",
     "where": "governmentjobs.com",
     "time": "2:58 AM"
+   },
+   {
+    "company": "State of Colorado Governor's Office of Information Technology (OIT)",
+    "role": "Cloud Integrations Solutions Architect (Remote From Anywhere In CO)",
+    "reason": "not-remote — While candidates from out of state will be considered for this role, the candidate selected for the position must relocate and reside in Colorado on the first day of their new position. | All remote work must be performed in Colorado. | workarounds tried: (1) GovernmentJobs.com posting is the State of Colorado's own official announcement (governing text); (2) alternate routes returned the same Colorado OIT posting; (3) no alternate posting of this role permitting Texas-based remote work found. Hubert is not willing to relocate.",
+    "where": "governmentjobs.com",
+    "time": "4:36 AM"
    }
   ],
   "BuiltIn NYC": [
@@ -4908,6 +4930,13 @@
     "reason": "stale — Published: 04/02/2026 Administering and supporting enterprise Linux environments (e.g., RHEL) Implementing and maintaining Infrastructure as Code (IaC) solutions using Terraform and/or Bicep to provision. Administering and supporting Azure IaaS and PaaS services workarounds tried: (1) employer's own USAJobs announcement opened (governing text, dated 04/02/2026, outside the 7-day eligibility window); (2) alternate USDA FSIS Enterprise Architecture announcement is likewise dated 05/13/2026; (3) no fresher repost of this role found within 7 days",
     "where": "usajobs.gov",
     "time": "3:04 AM"
+   },
+   {
+    "company": "U.S. Office of Personnel Management (OPM)",
+    "role": "Enterprise Architect (IT Specialist ENTARCH, GS-2210-15)",
+    "reason": "not-remote — You will be required to report to an OPM assigned office. | workarounds tried: (1) employer's own USAJOBS announcement is the governing text and states the office-reporting condition; (2) alternate route: the same announcement is the sole application route for both companion Enterprise Architect positions; (3) no remote alternate posting of these positions found. Hubert is 100% remote only and not willing to relocate.",
+    "where": "usajobs.gov",
+    "time": "4:36 AM"
    }
   ],
   "Ford careers (employer own)": [
@@ -5241,22 +5270,6 @@
     "time": "4:13 AM"
    }
   ],
-  "Employer sites": [
-   {
-    "company": "Chevron",
-    "role": "Principal Solution Architect",
-    "reason": "not-remote — Houston, Texas. Relocation will not be considered. The employer's own page lists Houston, Texas as the job location twice and states no remote or hybrid eligibility anywhere in the posting. workarounds tried: (1) employer's own Chevron careers page (governing text), (2) alternate route search of careers.chevron.com for this req - only the Houston listing exists, (3) no alternate remote posting of R000075003 found.",
-    "where": "Employer sites",
-    "time": "2:33 AM"
-   },
-   {
-    "company": "Spectrum",
-    "role": "Senior Lead Cloud Architect - AVD (RapidScale) (Remote)",
-    "reason": "experience-mismatch — 3+ years of hands-on Azure Virtual Desktop (AVD) / Windows Virtual Desktop experience in enterprise environments. Demonstrated experience designing and implementing enterprise-scale AVD environments. workarounds tried: (1) employer's own Spectrum jobs page (governing), (2) alternate route Built In - same requisition 2026-83466, same AVD core, (3) no alternate posting of this role with a different core found.",
-    "where": "Employer sites",
-    "time": "2:32 AM"
-   }
-  ],
   "Business of Fashion": [
    {
     "company": "Lululemon",
@@ -5449,6 +5462,15 @@
     "reason": "not-remote — The Federal Reserve Bank of St Louis is an Equal Opportunity Employer. #LI-Onsite | This position may be based in our St. Louis, MO, Kansas City, MO, or Cleveland, OH, location. workarounds tried: (1) employer's own FRS careers referenced in JD as governing source, same onsite posting; (2) Monster alternate returned same posting; (3) no remote alternate posting found",
     "where": "indeed.com",
     "time": "3:35 AM"
+   }
+  ],
+  "Employer sites": [
+   {
+    "company": "Spectrum",
+    "role": "Senior Lead Cloud Architect - AVD (RapidScale) (Remote)",
+    "reason": "experience-mismatch — 3+ years of hands-on Azure Virtual Desktop (AVD) / Windows Virtual Desktop experience in enterprise environments. Demonstrated experience designing and implementing enterprise-scale AVD environments. workarounds tried: (1) employer's own Spectrum jobs page (governing), (2) alternate route Built In - same requisition 2026-83466, same AVD core, (3) no alternate posting of this role with a different core found.",
+    "where": "Employer sites",
+    "time": "2:32 AM"
    }
   ],
   "Careerbyte": [
@@ -7123,5 +7145,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T10:35:44Z"
+ "lists_generated_at": "2026-11-19T10:37:15Z"
 }
