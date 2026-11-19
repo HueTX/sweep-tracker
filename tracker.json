@@ -1,45 +1,47 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:28:47Z",
+ "generated_at": "2026-11-19T08:30:08Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:28:47Z",
+  "last_activity_at": "2026-11-19T08:29:53Z",
   "progress": {
    "pools": 21,
-   "covered_units": 0,
+   "covered_units": 22,
    "total_units": 754,
-   "pct": 0
+   "pct": 3
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 40,
-  "rejected": 230,
-  "evaluated": 270
+  "parked": 41,
+  "rejected": 232,
+  "evaluated": 273
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 270,
+  "evaluated": 273,
   "filed": 0,
-  "parked": 40,
-  "rejected": 230,
+  "parked": 41,
+  "rejected": 232,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W2"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,17 +85,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/30"
+   "detail": "Employers 5/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:30:08Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -281,7 +283,7 @@
    "ended_at": "2026-11-19T08:28:47Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
@@ -299,8 +301,8 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "pending",
-   "detail": "0 of 632 units done",
+   "state": "active",
+   "detail": "3 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -542,13 +544,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Started 2:28 AM CT · 0 filed",
- "pill": [],
+ "note": "Last activity 2:29 AM CT · 3 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W2 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W2"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W2",
+  "headline": "W2 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1167,6 +1175,13 @@
     "reason": "not-evaluated — Murphy Oil is seeking an experienced Data & Integration Architect to lead the design, architecture, and delivery of enterprise grade data engineering and integration solutions. Full JD could not be opened - only Dice aggregation snippets (crawled 73-75 days ago) found; employer's own posting not located.",
     "where": "Dice",
     "time": "2:07 AM"
+   },
+   {
+    "company": "VDart, Inc.",
+    "role": "Cloud Solution Architect (Infrastructure)/Cloud Migration Architect (Azure)/Cloud Network Architect (Azure)",
+    "reason": "stale-unverified — We are seeking an experienced Infrastructure Solution Architect (Azure) to lead the architecture, design, and governance of enterprise-scale infrastructure solutions. — PARKED stale-unverified: the Dice detail page carries only relative dates ('Posted 15 days ago, Updated 1 hour ago') and the fetched copy is a February 2026 cache, so no typed current posted date could be verified; contract rate is unpublished ('Depends on Experience'), so no pay verdict taken either.",
+    "where": "Dice",
+    "time": "2:29 AM"
    }
   ],
   "SmartRecruiters (Weatherford ATS)": [
@@ -1658,6 +1673,13 @@
     "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only) workarounds tried: (1) employer's own route via CAI/Dice posting for State of Utah UDOT, (2) alternate Dice posting of same req UTA-JB-00011, (3) Haystack mirror of same req - all state on-site, remote work not available",
     "where": "Dice",
     "time": "1:13 AM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Solutions Architect Principal",
+    "reason": "pay-outside-band — Target salary range: $100,001 - $140,000. — top of the published range is below the $160,000 band floor. Workarounds tried: (1) employer's own SAIC posting searched for the same Job ID 2617962, (2) alternate Dice route for the same req, (3) no alternate posting with in-band pay found. Role was otherwise 100% remote Azure: 'This is a 100% Remote role.' / 'Proven track record of designing, deploying, and managing Azure infrastructure and services.'",
+    "where": "Dice",
+    "time": "2:29 AM"
    },
    {
     "company": "MD Anderson Cancer Center",
@@ -2734,6 +2756,13 @@
     "reason": "stale — This position is located in the Small Business Administration, Office of the Chief Information Officer in Washington, DC.",
     "where": "USAJOBS",
     "time": "12:41 AM"
+   },
+   {
+    "company": "Defense Logistics Agency",
+    "role": "IT Specialist (ENT ARCH)",
+    "reason": "stale — Position will be filled at any of the locations listed below. Site specific salary information as follows: Battle Creek, MI: $125,776- $163,514 Columbus, OH: $131,245- $170,624 Dayton, OH: $130,461 - $169,604 Fort Belvoir, VA: $143,913- $187,093 — Published: 11/06/2026, outside the 7-day eligibility window; duty is at a listed site on a set schedule, no remote/telework offer in the announcement. Workarounds tried: (1) this is the employer's own USAJOBS announcement (governing text), (2) alternate federal surfaces searched for same ENT ARCH role, (3) no fresh repost found.",
+    "where": "USAJOBS",
+    "time": "2:29 AM"
    }
   ],
   "Ford careers (employer own)": [
@@ -4483,7 +4512,8 @@
    "Info Dinamica Inc",
    "JPMorgan Chase",
    "Illumen Group, Inc",
-   "AQUA Information Systems, Inc."
+   "AQUA Information Systems, Inc.",
+   "VDart, Inc."
   ],
   "W10": [
    "Berkley Technology Services",
@@ -4508,5 +4538,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:28:47Z"
+ "lists_generated_at": "2026-11-19T08:30:08Z"
 }
