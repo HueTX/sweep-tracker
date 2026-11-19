@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T01:50:15Z",
+ "generated_at": "2026-11-19T01:52:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,37 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T01:44:40Z",
+  "last_activity_at": "2026-11-19T01:50:22Z",
   "progress": {
    "pools": 21,
-   "covered_units": 356,
+   "covered_units": 416,
    "total_units": 754,
-   "pct": 47
+   "pct": 55
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 197,
-  "rejected": 1181,
-  "evaluated": 1379
+  "parked": 200,
+  "rejected": 1186,
+  "evaluated": 1387
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1379,
+  "evaluated": 1387,
   "filed": 0,
-  "parked": 197,
-  "rejected": 1181,
+  "parked": 200,
+  "rejected": 1186,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
+  "W1",
+  "W18",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -84,12 +82,12 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:52:02Z",
    "detail": "Employers 15/30"
   },
   "W2": {
@@ -106,46 +104,46 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/73"
+   "heartbeat_at": null,
+   "detail": "Employers 15/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/32"
+   "heartbeat_at": null,
+   "detail": "Employers 15/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/44"
+   "heartbeat_at": null,
+   "detail": "Employers 15/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,56 +225,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T01:50:15Z",
-   "detail": "Employers 10/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 15/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 15/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T01:52:02Z",
    "detail": "Employers 10/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:52:02Z",
    "detail": "Employers 10/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:52:02Z",
    "detail": "Employers 10/31"
   }
  },
@@ -288,7 +286,7 @@
    "ended_at": "2026-11-19T01:19:48Z"
   },
   "prep": {
-   "state": "pending",
+   "state": "active",
    "detail": "0 of 2 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
@@ -307,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "44 of 632 units done",
+   "detail": "50 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -549,18 +547,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:44 PM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:50 PM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 21 of 58 · IT Architecture Lead",
+   "primary": "W18 · Title 21 of 58 · IT Architecture Lead",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W18"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 21 of 58 · IT Architecture Lead",
+  "label": "W18",
+  "headline": "W18 · Title 21 of 58 · IT Architecture Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1596,6 +1594,20 @@
     "time": "10:31 AM"
    },
    {
+    "company": "Trinity Health",
+    "role": "Solutions Architect, Senior",
+    "reason": "title-not-covered — Solutions Architect, Senior — the posting's real title matches no title family in this W3 unit, so it is parked as a fly-title. Full JD read on Built In: 'Applies Python and SQL to support healthcare operations' and 'At least five (5) years of experience in the health care industry and three (3) years in enterprise solution architecture.' Pay grade range 122,855.2166-202,711.1074 (top in band). Published 2026-11-04.",
+    "where": "Built In",
+    "time": "7:50 PM"
+   },
+   {
+    "company": "UnitedHealth Group / Optum",
+    "role": "Architect",
+    "reason": "title-not-covered — The JD's real role, 'A System Claims Architect is a strategic resource for UnitedHealth Group', matches no title family in this W4 unit, so it is parked as a fly-title. Full JD read on Built In: '10+ years of hands-on experience developing and architecting Java applications using the Spring Framework' and 'You'll enjoy the flexibility to work remotely * from anywhere within the U.S.' Salary $112,700 - $193,200 (top in band). Published 2026-11-09.",
+    "where": "Built In",
+    "time": "7:50 PM"
+   },
+   {
     "company": "Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
     "reason": "title-not-covered — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. — the posting's real title (Director, Advisory Services - Cloud Architect) matches no title family in this W4 unit; parked as a fly-title, never force-fit. Noted for the next stage: the published top $230,800 is $800 above the $230,000 ceiling. Published 2026-11-10, requisition 2390520.",
@@ -1867,9 +1879,9 @@
    {
     "company": "Shell",
     "role": "Sr. Solution Architect - Endur",
-    "reason": "title-not-covered — Minimum of 10 years' experience with OpenLink Endur v14+ — plus: Expert in one or more of the programming languages (Node.js, .Net, .Net Core, Python etc) with Cloud Native Platform Development (Azure/AWS). The posting's real title (Sr. Solution Architect - Endur) matches no title family in this W5 unit; parked as a fly-title, never force-fit. Posting Start Date: October 25, 2026 on Shell's own listing; base salary $149,000 - $223,000 was in band.",
+    "reason": "title-not-covered — Sr. Solution Architect - Endur — the posting's real title matches no title family in this W5 unit, so it is parked as a fly-title. Full JD read: 'Minimum of 10 years' experience with OpenLink Endur v14+' and 'The base salary range for this position is $149,000 - $223,000 per year.' Posting Start Date: October 25, 2026 (outside the 7-day window, noted for the verify stage).",
     "where": "Energy Job Search (Shell listing)",
-    "time": "1:53 PM"
+    "time": "7:50 PM"
    }
   ],
   "Jobstore": [
@@ -2252,6 +2264,15 @@
     "reason": "title-not-covered — Define and maintain the global network strategy, target-state architecture, architectural principles and multi-year roadmap. Act as senior design authority for enterprise networking",
     "where": "RemoteRocketship / Johnson Controls careers",
     "time": "12:51 PM"
+   }
+  ],
+  "Glassdoor": [
+   {
+    "company": "Southern Company",
+    "role": "Windows & Endpoint Management Architect",
+    "reason": "title-not-covered — Windows & Endpoint Management Architect — the posting's real title matches no title family in this W6 unit, so it is parked as a fly-title. Full JD read on Glassdoor: 'This position requires onsite work three (3) days per week at either our Atlanta, GA, or Birmingham, AL location.' Published 2026-11-03.",
+    "where": "Glassdoor",
+    "time": "7:50 PM"
    }
   ],
   "Remotery / CVS Health Careers": [
@@ -3548,13 +3569,6 @@
     "time": "7:29 PM"
    },
    {
-    "company": "Trinity Health",
-    "role": "Solutions Architect, Senior",
-    "reason": "not-remote — This position operates in a typical office environment.",
-    "where": "Built In",
-    "time": "10:11 AM"
-   },
-   {
     "company": "Molina Healthcare",
     "role": "Architect, Information Security - DevSecOps/Application Security - Remote",
     "reason": "devsecops-title — Acts as a subject matter expert for application security and DevSecOps practices - title contains DevSecOps, a gate fact: never PASS per standing rules. Full JD read on Built In; Molina's own careers listing confirms the same title and 11/12/2026 date.",
@@ -3620,9 +3634,9 @@
    {
     "company": "Microsoft",
     "role": "Principal Systems Architect",
-    "reason": "stale — Optimizes, debugs, refactors, and reuses code to improve performance and maintainability, effectiveness, and return on investment (ROI).",
+    "reason": "pay-outside-band — The typical base pay range for this role across the U.S. is USD $142,800 - $274,800 per year — published top $274,800 is above the $230,000 ceiling. Full JD read on Built In; required qualifications also state '6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python' and duties include 'Optimizes, debugs, refactors, and reuses code'. Workarounds tried: (1) Built In listing is Microsoft-sourced text, (2) Built In NYC mirror carries the same $142,800-$274,800 range, (3) no in-band alternate posting of this role found. Published 2026-09-29.",
     "where": "Built In",
-    "time": "12:17 AM"
+    "time": "7:50 PM"
    },
    {
     "company": "Autodesk",
@@ -3840,6 +3854,13 @@
     "reason": "pay-outside-band — Base Salary Range: The expected base salary range for this position is $210,000 - $255,000 per year — published top $255,000 exceeds the $230,000 band top; the role is also AWS-only ('10+ years of architecting, building, and operating solutions on AWS', AWS Solutions Architect - Professional required). Workarounds tried: (1) Caylent posting text carried in full on Built In, (2) alternate surfaces carry the same range and AWS requirement, (3) no alternate posting of this role with an in-band range found.",
     "where": "Built In",
     "time": "7:38 PM"
+   },
+   {
+    "company": "Wells Fargo",
+    "role": "Lead Security Architect (Application Security)",
+    "reason": "closed — Posting End Date: 12 Oct 2026 — the closing date on the posting has passed (today is 2026-11-18), a gate fact. Full JD read on Built In: the role is 'Lead Systems Architect - Application Security' (Systems Architect family) and 'This position offers a hybrid work schedule'. Published 2026-09-30.",
+    "where": "Built In",
+    "time": "7:50 PM"
    }
   ],
   "BuiltIn": [
@@ -4143,13 +4164,6 @@
     "reason": "cloud-mismatch — Expert experience working with various AWS Cloud Infrastructure, glue, EMR, Step Functions, Cloud Formation, open search, etc.; Preferable to have Cloud certifications in AWS Certified Solutions Architect; Proficiency in software development in at least one of these languages - Java, Go, or Python. — AWS-only role, no Azure. workarounds tried: (1) BuiltIn full JD, (2) BD careers surface search, (3) Career.io mirror of BD Cloud Architect roles",
     "where": "BuiltIn",
     "time": "5:36 PM"
-   },
-   {
-    "company": "UnitedHealth Group / Optum",
-    "role": "Architect",
-    "reason": "experience-mismatch — 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks, and relational/non-relational databases (e.g., SQLMI) — full JD read on BuiltIn: the role's core is hands-on software engineering for LLM/RAG AI solutions (Java/Spring Boot engineering experience required), which mismatches Hubert's Azure infrastructure architecture experience; he is not a programmer and has 0 healthcare industry years. workarounds tried: (1) employer's own posting text read in full on BuiltIn (Requisition Number: 2386731); (2) alternate routes (Dice mirror of Optum AI roles) carry the same Java/LLM core; (3) no alternate posting of this req with different core duties found.",
-    "where": "BuiltIn",
-    "time": "5:55 AM"
    },
    {
     "company": "Lockheed Martin",
@@ -4807,13 +4821,6 @@
     "reason": "stale — The OWG Tech department is seeking a highly skilled and experienced Lead Domain Solutions Architect to join our team.",
     "where": "builtin.com",
     "time": "9:22 AM"
-   },
-   {
-    "company": "Citigroup",
-    "role": "Senior Platform Architect",
-    "reason": "pay-outside-band — Primary Location Full Time Salary Range:$156,160.00 - $234,240.00 workarounds tried: (1) Citigroup careers searches, (2) BuiltIn mirror (this page, governing salary shown), (3) alternate searches for same role - no in-band version found.",
-    "where": "builtin.com",
-    "time": "12:26 AM"
    },
    {
     "company": "JPMorgan Chase",
@@ -5617,6 +5624,13 @@
     "time": "4:53 AM"
    },
    {
+    "company": "JPMorgan Chase",
+    "role": "Lead Software Engineer - Application Architect",
+    "reason": "hands-on — We're looking for a hands-on engineering leader — 'You'll own the architecture of mission-critical hybrid-cloud platforms, stay close to the code' and 'Stay hands-on - Contribute directly to code and solution design'; required: 'hands-on coding expertise in Java or Python'. The whole role is a Lead Software Engineer who codes. Workarounds tried: (1) full JD read on Dice (JPMorganChase-sourced text), (2) Ladders mirror carries the same 'Design and review high-quality code' duties, (3) no alternate posting of this role without the hands-on coding core found. Published 2026-08-16, also stale.",
+    "where": "Dice",
+    "time": "7:50 PM"
+   },
+   {
     "company": "MD Anderson Cancer Center",
     "role": "Software Integration Architect - ServiceNow Architect",
     "reason": "experience-mismatch — significant experience as a ServiceNow developer and architect with expertise across multiple ServiceNow modules. At least 5 years as a ServiceNow developer, experience with ServiceNow's release cadence and upgrade planning — workarounds tried: (1) employer own careers site searched for this role, no alternate posting found; (2) alternate route Dice full JD read; (3) no alternate posting of same role found. Work Location: Hybrid onsite/remote also noted.",
@@ -6027,13 +6041,13 @@
     "time": "8:41 AM"
    }
   ],
-  "careers.hcahealthcare.com (employer page)": [
+  "HCA Healthcare Careers (employer page)": [
    {
     "company": "HCA Healthcare",
     "role": "Consulting Application Architect",
-    "reason": "closed — This job posting is no longer active.",
-    "where": "careers.hcahealthcare.com (employer page)",
-    "time": "6:16 AM"
+    "reason": "closed — This job posting is no longer active. — on HCA Healthcare's own careers page (governing text); the role also required '7 or more years of .net architecture, design and coding experience'.",
+    "where": "HCA Healthcare Careers (employer page)",
+    "time": "7:50 PM"
    }
   ],
   "Providence sector / DiversityJobs (Providence mirror)": [
@@ -8106,6 +8120,13 @@
     "reason": "pay-outside-band — Remote (Regardless of Location): $209,000 - $238,500 for Sr. Manager, Solutions Architecture - published top $238,500 exceeds the $230,000 band top. Published: 2026-01-27. workarounds tried: (1) Capital One's posting text carried in full on Built In Boston (governing range), (2) Simplify mirror shows the same role and range, (3) no alternate posting of this role with an in-band range found",
     "where": "Built In Boston",
     "time": "2:33 PM"
+   },
+   {
+    "company": "Centene",
+    "role": "Senior Application Architect",
+    "reason": "stale — Published: 2026-04-28 — the posting's own date is far outside the 7-day eligibility window. Full JD read on Built In: 'Leads application architecture vision for services using AWS Serverless technology stacks' and 'Authors clean, scalable, modular, secure, well-structured, and testable code as needed' with 'Experience with JSON and Python'. Workarounds tried: (1) Built In listing is Centene-sourced employer text, (2) alternate Centene Application Architect mirrors in search carry the same 2025-2026 old dates, (3) no refreshed posting of this role within 7 days found.",
+    "where": "Built In Boston",
+    "time": "7:50 PM"
    }
   ],
   "Built In San Francisco": [
@@ -8310,6 +8331,15 @@
     "time": "9:23 AM"
    }
   ],
+  "Citi Careers (employer page)": [
+   {
+    "company": "Citigroup",
+    "role": "Senior Platform Architect",
+    "reason": "closed — Anticipated Posting Close Date: Nov 05, 2026 — the closing date on Citi's own careers page has passed (today is 2026-11-18), a gate fact on the employer's own detail page. Also on that page: Job Type: Hybrid, Irving, Texas, and salary $156,160.00 - $234,240.00. Posted Oct. 29, 2026.",
+    "where": "Citi Careers (employer page)",
+    "time": "7:50 PM"
+   }
+  ],
   "Built In (GE Aerospace JD mirror)": [
    {
     "company": "GE Aerospace",
@@ -8374,6 +8404,15 @@
     "reason": "pay-outside-band — The annual salary range for this position is $143,000.00 - $286,000.00 — top $286,000 above the $230,000 band top; role also oversees full software development lifecycle including coding, with Golang/Java/Scala microservices skills required, and Primary Location 1395 Crossman Ave, Sunnyvale, CA. workarounds tried: (1) employer's own Walmart careers page R-2639981 read as governing text; (2) Himalayas and Simplify mirrors show the same $143,000-$286,000 range; (3) no alternate posting with a different range found. Searched W19 employers Walmart, Amazon, Target, Costco, The Home Depot for IT Architecture Lead, Application Architect, Integration Architect, Data Center Architect, Digital Transformation Architect, Systems Architect, Identity Architect, Technology Architect, Network Security Architect and Chief Architect families.",
     "where": "careers.walmart.com",
     "time": "3:18 AM"
+   }
+  ],
+  "MyPetroCareer": [
+   {
+    "company": "ExxonMobil",
+    "role": "Experienced Hire - System Architect - Application Change Management",
+    "reason": "not-remote — This position is Houston based. — a stated Houston-based (not remote) role, and Published: 2026-02-25, far outside eligibility. Workarounds tried: (1) ExxonMobil careers surfaces in search carry the same Houston-based / Bengaluru System Architect listings, (2) alternate routes (MyPetroCareer full JD read here, Dice, Energy Job Search) carry the same Houston-based text, (3) no remote alternate posting of this req found.",
+    "where": "MyPetroCareer",
+    "time": "7:50 PM"
    }
   ],
   "jobs.gxo.com": [
@@ -9286,6 +9325,13 @@
     "reason": "closed — Posted 8 months ago - Job expired - The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions that are secure, scalable, and highly available.",
     "where": "Qureos",
     "time": "3:16 PM"
+   },
+   {
+    "company": "Apple",
+    "role": "Identity Architect",
+    "reason": "pay-outside-band — The base pay range for this role is between $201,300 and $367,400 — published top $367,400 is above the $230,000 ceiling. Full JD read on Qureos (Apple-sourced): minimum qualifications include 'Development: Strong coding ability in complied language (eg. Go, Java) and software engineering best practices'. Workarounds tried: (1) Qureos full JD read, (2) Mediabistro / The Muse mirrors of Apple role 200635095-3337 carry the same $201,300-$367,400 range, (3) no in-band alternate posting found. Published 2026-04-09.",
+    "where": "Qureos",
+    "time": "7:50 PM"
    }
   ],
   "Career.io (mirror of Oklahoma state portal / OMES posting)": [
@@ -10198,6 +10244,15 @@
     "reason": "pay-outside-band — Salary range: $111,503.84 - $139,379.80 — Currently in a hybrid work arrangement, but candidates must reside in Illinois at time of hire — Spend approximately 30–50% of their time coding, primarily for proofs of concept and complex technical solutions — workarounds tried: (1) employer's own IHDA posting PDF (governing text), (2) alternate ADP apply route named in the posting, (3) no alternate posting of this role found",
     "where": "IHDA (Illinois state agency)",
     "time": "2:42 PM"
+   }
+  ],
+  "PG&E Careers (employer page)": [
+   {
+    "company": "PG&E",
+    "role": "SAP Chief Solution Architect, Chief",
+    "reason": "not-remote — Work Type: Hybrid / Job Location: Oakland — 'This position is hybrid, working from your remote office and your assigned work location based on business need. This Chief will be assigned to PG&E's headquarters in Oakland, California.' Verdicted on PG&E's own careers page (governing text, workaround step 1). Compensation also noted: 'We estimate the successful candidate hired into this role will be placed within the reasonable compensation range of $195K to $264K' (top above the $230,000 ceiling).",
+    "where": "PG&E Careers (employer page)",
+    "time": "7:50 PM"
    }
   ],
   "FashionJobs": [
@@ -12101,6 +12156,15 @@
     "where": "ag.ny.gov",
     "time": "7:38 PM"
    }
+  ],
+  "Apple Careers (employer page)": [
+   {
+    "company": "Apple",
+    "role": "Systems Architect",
+    "reason": "experience-mismatch — Core duties are consumer-electronics hardware architecture, a core experience mismatch with Hubert's Azure cloud / IT infrastructure architecture experience: '10 years interdisciplinary engineering expertise related to consumer electronics or embedded systems (firmware, hardware/electrical, and/or mechanical)' and 'Proven expertise in SoC architecture, low-power design, HW/SW interfaces, bus protocols (USB, I2C, etc.)'. Location on Apple's own page: San Jose, California, United States (Hardware team, no remote stated). Verdicted on the employer's own page (governing text, workaround step 1).",
+    "where": "Apple Careers (employer page)",
+    "time": "7:50 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -13267,7 +13331,8 @@
   ],
   "W11": [
    "Intact Insurance Specialty Solutions",
-   "EPAM Systems"
+   "EPAM Systems",
+   "Southern Company"
   ],
   "W12": [
    "Exelon",
@@ -13283,5 +13348,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T01:50:15Z"
+ "lists_generated_at": "2026-11-19T01:52:02Z"
 }
