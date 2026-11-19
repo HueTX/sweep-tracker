@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T04:27:42Z",
+ "generated_at": "2026-11-19T04:31:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T04:26:42Z",
+  "last_activity_at": "2026-11-19T04:30:27Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,7 +28,7 @@
  "counts": {
   "filed": 0,
   "parked": 212,
-  "rejected": 1302,
+  "rejected": 1303,
   "evaluated": 1515
  },
  "today": {
@@ -36,14 +36,15 @@
   "evaluated": 1515,
   "filed": 0,
   "parked": 212,
-  "rejected": 1302,
+  "rejected": 1303,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W3",
+  "W5",
+  "W6",
   "W16",
   "W17",
-  "W18",
   "W19"
  ],
  "lanes": {
@@ -110,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:27:42Z",
-   "detail": "Employers 250/73"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 260/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,24 +128,24 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 256/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 248/44"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 256/44"
   },
   "W9": {
    "label": "Dice",
@@ -231,8 +232,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:27:42Z",
-   "detail": "Employers 245/59"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 260/59"
   },
   "W17": {
    "label": "Technology",
@@ -242,19 +243,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:27:42Z",
-   "detail": "Employers 245/54"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 260/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:27:42Z",
-   "detail": "Employers 245/45"
+   "heartbeat_at": null,
+   "detail": "Employers 260/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -264,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:27:42Z",
-   "detail": "Employers 241/41"
+   "heartbeat_at": "2026-11-19T04:31:24Z",
+   "detail": "Employers 243/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -306,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "534 of 632 units done",
+   "detail": "551 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -548,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:26 PM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:30 PM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W16 · Title 11 of 58 · Domain Architect",
+   "primary": "W19 · Title 31 of 58 · Cloud Engineering Lead",
    "detail": "Families covered 58/58",
-   "pool": "W16"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 11 of 58 · Domain Architect",
+  "label": "W19",
+  "headline": "W19 · Title 31 of 58 · Cloud Engineering Lead",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1088,8 +1089,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 252,
@@ -4608,13 +4609,6 @@
     "time": "5:25 AM"
    },
    {
-    "company": "Pfizer",
-    "role": "Senior Cloud Engineering Lead",
-    "reason": "not-remote — Work Location Assignment: Hybrid. Must be able to work in assigned Pfizer office 2-3 days per week, or as needed by the business. This role is NOT remote. workarounds tried: (1) employer own careers text reviewed via full Monster mirror of Pfizer's posting; (2) alternate Built In listings for the same role (New York and Thessaloniki) both Hybrid; (3) no remote alternate posting of this role found.",
-    "where": "Monster",
-    "time": "1:08 PM"
-   },
-   {
     "company": "Microsoft",
     "role": "Principal Cloud Solution Architect, Cloud and Agentic AI Solutions",
     "reason": "pay-outside-band — Cloud Solution Architecture IC5 - The typical base pay range for this role across the U.S. is USD $130,900 - $251,900 per year.",
@@ -5004,13 +4998,6 @@
     "reason": "pay-outside-band — The annual base salary for this position ranges from $230,900.00 to $384,800.00.",
     "where": "builtin.com",
     "time": "5:33 AM"
-   },
-   {
-    "company": "Fiserv",
-    "role": "Solutions Architect",
-    "reason": "stale — Published: 2026-02-10 — workarounds tried: (1) employer's own ATS search returned no matching live role, (2) Built In mirror route used, (3) no alternate posting or repost within 7 days found",
-    "where": "builtin.com",
-    "time": "5:12 PM"
    },
    {
     "company": "CME Group",
@@ -7658,13 +7645,6 @@
     "time": "9:23 PM"
    },
    {
-    "company": "Rackspace Technology",
-    "role": "Principal Cloud Practice Architect",
-    "reason": "pay-outside-band — For Rackers in the United States the anticipated starting pay range is: $161,100 - $268,300. — workarounds tried: (1) employer's own JD text via Built In mirror (governing), (2) no alternate posting with different pay found",
-    "where": "builtinnyc.com",
-    "time": "5:14 PM"
-   },
-   {
     "company": "Palo Alto Networks",
     "role": "Senior Principal Cloud Architect (Office of the CPO: Innovation Team)",
     "reason": "pay-outside-band — The starting base salary (for non-sales roles) or base salary + commission target (for sales/commissioned roles) is expected to be between $170,000-270,000/YR. — the published top $270,000 is above the $230,000 ceiling — workarounds tried: (1) full JD read on Built In NYC carrying Palo Alto Networks' own JD text; (2) searched for an alternate posting of this Senior Principal Cloud Architect (Office of the CPO: Innovation Team) role — no posting with a different range found; (3) no alternate posting of this role with a top in the $160,000-$230,000 band found",
@@ -8967,13 +8947,27 @@
     "time": "3:51 PM"
    }
   ],
-  "builtinla.com": [
+  "W3": [
    {
     "company": "Pfizer",
     "role": "Director, Senior Technical Architect",
-    "reason": "not-remote — On site strongly preferred. Remote locations will only be considered for internal candidates who are already designated remote. Work Location Assignment: On Premise — workarounds tried: (1) employer's own JD text via mirror, (2) no alternate remote posting of same role found",
-    "where": "builtinla.com",
-    "time": "5:12 PM"
+    "reason": "not-remote — Work Location Assignment: On Premise — workarounds tried: (1) Pfizer posting text via BuiltIn mirror shows On Premise and on-site strongly preferred, remote only for internal already-remote candidates, (2) alternate Pfizer architect listings also hybrid/on-site, (3) no alternate remote posting of same role found",
+    "where": "W3",
+    "time": "10:28 PM"
+   },
+   {
+    "company": "Pfizer",
+    "role": "Senior Cloud Engineering Lead",
+    "reason": "not-remote — This role is NOT remote — Work Location Assignment: Hybrid. Must be able to work in assigned Pfizer office 2-3 days per week, or as needed by the business. — workarounds tried: (1) Pfizer posting text via BuiltIn/Ladders mirrors both state NOT remote / hybrid New York, (2) alternate Pfizer variant is Thessaloniki Greece hybrid, (3) no remote alternate posting of same role found; role is also whole-role IaC engineering lead",
+    "where": "W3",
+    "time": "10:30 PM"
+   },
+   {
+    "company": "AbbVie",
+    "role": "Domain Architect, Applications and Integration",
+    "reason": "pay-outside-band — Salary $141.5k - $268.5k/yr — workarounds tried: (1) employer posting text via Indeed/Haystack/BioSpace mirrors all show 141500 - 268500 USD and North Chicago hybrid, (2) alternate routes Indeed/Jooble same range, (3) no alternate posting with different pay found; top $268,500 exceeds $230,000 ceiling, also Work mode Hybrid",
+    "where": "W3",
+    "time": "10:28 PM"
    }
   ],
   "GrabJobs (Fiserv posting mirror)": [
@@ -9024,6 +9018,36 @@
     "reason": "stale — Applications will be accepted until: February 16, 2026",
     "where": "builtinboston.com",
     "time": "9:23 AM"
+   }
+  ],
+  "W16": [
+   {
+    "company": "Fiserv",
+    "role": "Solutions Architect",
+    "reason": "stale — Published: 2026-02-10",
+    "where": "W16",
+    "time": "10:28 PM"
+   },
+   {
+    "company": "Bank of America",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. US - NJ - Pennington - 1600 American Blvd - Hopewell Bldg 6. workarounds tried: Simplify mirror of employer posting with named office location",
+    "where": "W16",
+    "time": "2:16 PM"
+   },
+   {
+    "company": "Truist",
+    "role": "Senior Technology Architect",
+    "reason": "not-remote — Please note that candidate must be located in or willing to self-relocate to one of the following locations: Charlotte, Raleigh or Wilson, NC; Atlanta, GA or Richmond, VA. Truist has 'in office' requirements that must be honored. — workarounds tried: (1) Truist posting text mirrored on Career.io for both Atlanta and Ampthill listings (both in-office), (2) alternate route search for Truist remote architect postings, (3) no remote alternate posting of the same role found",
+    "where": "W16",
+    "time": "12:36 AM"
+   },
+   {
+    "company": "Capital One",
+    "role": "Senior Staff Full-stack Engineer - Customer Resiliency (Senior Director, IC) (Remote-Eligible)",
+    "reason": "hands-on-coding — 12+ years of professional experience coding in commonly used languages like Go, Java, JavaScript/TypeScript, Python, Rust, C#, Scala — Remote (Regardless of Location): $286,200 - $326,700 for Sr. Staff Full-stack Engineer — workarounds tried: (1) Capital One careers search, (2) alternate routes Monster/CareerBuilder/Adzuna mirrors of the same Capital One JD, (3) no alternate architect-level posting of the same role found",
+    "where": "W16",
+    "time": "12:34 AM"
    }
   ],
   "BuiltIn NYC": [
@@ -9153,29 +9177,6 @@
     "reason": "stale — This role will be based in Toronto. This is a hybrid role that has a requirement of working at least three days a week in the office.",
     "where": "builtincalgary.org",
     "time": "9:22 AM"
-   }
-  ],
-  "W16": [
-   {
-    "company": "Bank of America",
-    "role": "Enterprise Architect",
-    "reason": "not-remote — Bank of America is committed to an in-office culture that supports collaboration, engagement, and career development. US - NJ - Pennington - 1600 American Blvd - Hopewell Bldg 6. workarounds tried: Simplify mirror of employer posting with named office location",
-    "where": "W16",
-    "time": "2:16 PM"
-   },
-   {
-    "company": "Truist",
-    "role": "Senior Technology Architect",
-    "reason": "not-remote — Please note that candidate must be located in or willing to self-relocate to one of the following locations: Charlotte, Raleigh or Wilson, NC; Atlanta, GA or Richmond, VA. Truist has 'in office' requirements that must be honored. — workarounds tried: (1) Truist posting text mirrored on Career.io for both Atlanta and Ampthill listings (both in-office), (2) alternate route search for Truist remote architect postings, (3) no remote alternate posting of the same role found",
-    "where": "W16",
-    "time": "12:36 AM"
-   },
-   {
-    "company": "Capital One",
-    "role": "Senior Staff Full-stack Engineer - Customer Resiliency (Senior Director, IC) (Remote-Eligible)",
-    "reason": "hands-on-coding — 12+ years of professional experience coding in commonly used languages like Go, Java, JavaScript/TypeScript, Python, Rust, C#, Scala — Remote (Regardless of Location): $286,200 - $326,700 for Sr. Staff Full-stack Engineer — workarounds tried: (1) Capital One careers search, (2) alternate routes Monster/CareerBuilder/Adzuna mirrors of the same Capital One JD, (3) no alternate architect-level posting of the same role found",
-    "where": "W16",
-    "time": "12:34 AM"
    }
   ],
   "Citi Careers (employer page)": [
@@ -9380,6 +9381,20 @@
     "reason": "experience-mismatch — Experience with Cisco Nexus / NX-OS in production, including L3 routing, VRFs, and fabric operations; equivalent experience on another major vendor accepted — workarounds tried: (1) Cisco careers search for the same role, (2) alternate route Jobgether/WhatJobs mirror of the Cisco JD, (3) no alternate Azure/infrastructure posting of the same role found",
     "where": "W17",
     "time": "12:32 AM"
+   },
+   {
+    "company": "Rackspace Technology",
+    "role": "Principal Cloud Practice Architect",
+    "reason": "pay-outside-band — The anticipated starting pay range is: $161,100 - $268,300. — workarounds tried: (1) employer Lever posting text via mirrors Swooped/BuiltIn same range, (2) alternate routes Employbl/DiversityJobs same range, (3) no alternate posting with different pay found; top $268,300 exceeds $230,000 ceiling",
+    "where": "W17",
+    "time": "10:28 PM"
+   },
+   {
+    "company": "Twilio",
+    "role": "Architect",
+    "reason": "cloud-mismatch — Proven track record of architecting and delivering large-scale data platforms and setting their technical strategy, on cloud infrastructure such as AWS, deployed with Kubernetes, Terraform and Helm. — workarounds tried: (1) Twilio role text via Jobspresso and Curaiz mirrors both centre the role on AWS data-platform/lakehouse architecture, (2) alternate route Dice/Twilio listings same data-substrate scope, (3) no Azure-centred alternate posting found; core duties are AWS-first data platform, not Azure infrastructure architecture",
+    "where": "W17",
+    "time": "10:29 PM"
    },
    {
     "company": "Amazon Web Services, Inc.",
@@ -11129,15 +11144,6 @@
     "reason": "active-clearance — Must have an active TS/SCI level clearance",
     "where": "Built In - Accenture Federal Services",
     "time": "12:25 PM"
-   }
-  ],
-  "Jobspresso (mirror of Twilio careers)": [
-   {
-    "company": "Twilio",
-    "role": "Architect",
-    "reason": "pay-outside-band — Based in Colorado, Hawaii, Illinois, Maryland, Massachusetts, Minnesota, Vermont or Washington D.C. : $207,200 - $233,100. Based in New York, New Jersey, Washington State, or California: $219,360 - $246,780. Based in the San Francisco Bay area, California: $243,680 - $274,140. Every published range tops above the $230,000 ceiling. Also required: 'Proficiency in one or more of Python, Java, and Go' and a data-platform (lakehouse/ClickHouse/Elasticsearch on AWS) core. Workarounds tried: (1) Twilio's own careers posting text via Jobspresso mirror (posting is on Twilio's careers page per RemoteRocketship, same $207.2k-$274.1k range); (2) alternate route RemoteRocketship listing — same pay; (3) no alternate posting with different pay found.",
-    "where": "Jobspresso (mirror of Twilio careers)",
-    "time": "5:19 PM"
    }
   ],
   "Monster / Travelers": [
@@ -14292,5 +14298,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T04:27:42Z"
+ "lists_generated_at": "2026-11-19T04:31:24Z"
 }
