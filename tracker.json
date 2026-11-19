@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T04:03:16Z",
+ "generated_at": "2026-11-19T04:04:51Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T04:00:03Z",
+  "last_activity_at": "2026-11-19T04:04:39Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 200,
-  "rejected": 1288,
-  "evaluated": 1488
+  "rejected": 1292,
+  "evaluated": 1492
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1488,
+  "evaluated": 1492,
   "filed": 0,
   "parked": 200,
-  "rejected": 1288,
+  "rejected": 1292,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -95,24 +88,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 205/39"
+   "heartbeat_at": null,
+   "detail": "Employers 210/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 205/73"
+   "heartbeat_at": null,
+   "detail": "Employers 210/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -238,46 +231,46 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 200/54"
+   "heartbeat_at": null,
+   "detail": "Employers 205/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 200/45"
+   "heartbeat_at": null,
+   "detail": "Employers 205/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 200/41"
+   "heartbeat_at": null,
+   "detail": "Employers 205/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:03:16Z",
-   "detail": "Employers 184/31"
+   "heartbeat_at": null,
+   "detail": "Employers 185/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "462 of 632 units done",
+   "detail": "468 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:00 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 10:04 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 41 of 58 · Infrastructure Modernization Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -6364,9 +6351,9 @@
    {
     "company": "Penn Medicine",
     "role": "Senior Principal Enterprise Architect",
-    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — workarounds tried: (1) employer's own ATS posting (governing text, this page), (2) alternate search mirrors show same Hybrid work schedule, (3) no alternate remote posting of this role found",
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 — Work Schedule: Hybrid — workarounds tried: (1) employer's own careers.pennmedicine.org page (governing text, this page), (2) Dice mirror shows the same Hybrid location, (3) no remote alternate posting of the same role found",
     "where": "careers.pennmedicine.org",
-    "time": "8:28 AM"
+    "time": "10:04 PM"
    },
    {
     "company": "Penn Medicine",
@@ -7178,9 +7165,9 @@
    {
     "company": "Matson",
     "role": "Technical Architect - Copilot",
-    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite). Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) employer's own posting route via Dice listing, (2) alternate route search, (3) alternate posting search - onsite Walnut Creek stands; contract rate 70-80/hr also at/below the $85/hr contract floor",
+    "reason": "not-remote — Location: Walnut Creek, CA (Onsite) — Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) Dice full JD for the Matson role (finding surface; no Matson own architect posting found in search), (2) search of Matson careers found no remote alternate, (3) no alternate posting of the same role found",
     "where": "dice.com",
-    "time": "4:39 PM"
+    "time": "10:04 PM"
    },
    {
     "company": "TIAA",
@@ -9606,6 +9593,22 @@
     "time": "12:38 PM"
    }
   ],
+  "jobs.colgate.com": [
+   {
+    "company": "Colgate-Palmolive",
+    "role": "Solution Architect- Salesforce/Salescloud",
+    "reason": "pay-outside-band — Salary Range $110,000.00 - $155,000.00 USD — top below $160,000 floor; page also marked #LI-Hybrid. workarounds tried: (1) employer's own jobs.colgate.com page (governing text, this page), (2) alternate mirrors carry the same range, (3) no alternate posting of the same role with a different range found",
+    "where": "jobs.colgate.com",
+    "time": "10:04 PM"
+   },
+   {
+    "company": "Colgate-Palmolive",
+    "role": "Solution Architect (Digital Marketing Professional Engagement)",
+    "reason": "hands-on — bridges business strategy with high-impact technical execution—writing code, designing system topologies — Custom API & Middleware Engineering: Write, test, and deploy production-ready code (REST/GraphQL APIs, microservices, webhooks) — hands-on coding is a core duty. workarounds tried: (1) employer's own jobs.colgate.com page (governing text, this page), (2) alternate mirrors (Jooble) carry the same coding duties, (3) no alternate posting without the coding core found",
+    "where": "jobs.colgate.com",
+    "time": "10:04 PM"
+   }
+  ],
   "Vaia Talents (Estée Lauder mirror)": [
    {
     "company": "Estée Lauder",
@@ -9620,15 +9623,6 @@
     "reason": "stale — Published: 2026-08-11T08:17:55+00:00; Lead Cybersecurity Architect And Zero Trust Solution Engineer; 7+ years in cybersecurity architecture; experience with Illumio and Zero Trust principles. workarounds tried: (1) employer's own Estée Lauder posting text mirrored on Vaia Talents with August 2026 date, (2) alternate route via FashionJobs mirror - same role, no fresher date, (3) no reposted or refreshed posting of this role found",
     "where": "Vaia Talents (Estée Lauder mirror)",
     "time": "12:38 PM"
-   }
-  ],
-  "Colgate-Palmolive careers": [
-   {
-    "company": "Colgate-Palmolive",
-    "role": "Solution Architect (Digital Marketing Professional Engagement)",
-    "reason": "pay-outside-band — Salary Range $110,000.00 - $150,000.00 USD - workarounds tried: (1) employer's own posting (governing text, this page, #LI-Hybrid, Piscataway NJ), (2) alternate route search, (3) no alternate posting with different pay found; top $150,000 is below $160,000 band floor. JD also requires writing production code: Write, test, and deploy production-ready code (REST/GraphQL APIs, microservices, webhooks)",
-    "where": "Colgate-Palmolive careers",
-    "time": "8:21 AM"
    }
   ],
   "hiring.jhu.edu": [
@@ -10062,6 +10056,22 @@
     "time": "8:17 AM"
    }
   ],
+  "careers.capgemini.com": [
+   {
+    "company": "Capgemini",
+    "role": "Resident Solution Architect (Databricks)",
+    "reason": "experience-mismatch — Proven experience delivering 6-8+ successful projects with significant hands-on Databricks development expertise. Lead the design and implementation of scalable data engineering and analytics solutions on Databricks. — Databricks data-engineering core does not align with Hubert's Azure infrastructure architecture experience. workarounds tried: (1) employer's own Capgemini careers page (governing text), (2) alternate mirrors carry the same Databricks core, (3) no alternate posting without that core found",
+    "where": "careers.capgemini.com",
+    "time": "10:04 PM"
+   },
+   {
+    "company": "Capgemini",
+    "role": "Principal Enterprise Architect",
+    "reason": "pay-outside-band — The base compensation range for this role in the posted location is $141,420 - $235,035 — top $235,035 above $230,000 ceiling. workarounds tried: (1) employer's own Capgemini careers page (governing text, this page), (2) alternate mirrors carry the same range, (3) no alternate posting of the same role with a different range found",
+    "where": "careers.capgemini.com",
+    "time": "10:04 PM"
+   }
+  ],
   "Travelers careers (careers.travelers.com)": [
    {
     "company": "The Travelers Companies",
@@ -10186,15 +10196,6 @@
     "reason": "not-remote — Job Title - Cloud Network Architect; Preferred Location - Bangalore, India; The Cloud Network Architect is responsible for designing, implementing, and evolving Carrier's global cloud networking strategy across AWS, GCP, and Azure. workarounds tried: (1) employer's own Carrier posting text mirrored on MNCJobsIndia with Bangalore, India location, (2) alternate route via second mirror - same India location, (3) no US remote posting of this role found",
     "where": "MNCJobsIndia (Carrier mirror)",
     "time": "12:38 PM"
-   }
-  ],
-  "Capgemini careers (employer ATS), cross-checked refresh.cv mirror": [
-   {
-    "company": "Capgemini",
-    "role": "Principal Enterprise Architect",
-    "reason": "pay-outside-band — The base compensation range for this role in the posted location is -$141,420- $235,035 — workarounds tried: (1) employer's own posting at careers.capgemini.com (job 1435928233) shows the same $141,420-$235,035 range and city-only locations Chicago/Atlanta/New York/Dallas/San Francisco with no remote designation, (2) alternate route refresh.cv mirror of the same JD shows the identical range, (3) no alternate posting of the same role in band found; top $235,035 exceeds $230,000 band top",
-    "where": "Capgemini careers (employer ATS), cross-checked refresh.cv mirror",
-    "time": "8:16 AM"
    }
   ],
   "governmentjobs.com City of Houston": [
@@ -10572,9 +10573,23 @@
    {
     "company": "Infosys",
     "role": "Application Enterprise Architect",
-    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — workarounds tried: (1) employer's own Digital Careers posting (governing text, top $155,298 below $160,000 band floor), (2) Dice/remote mirrors show same range, (3) no alternate posting with different pay found",
+    "reason": "pay-outside-band — Estimated annual compensation range for candidate based in the below location's will be Reston, VA is $119460 to $155298 & Somerset, NJ is $112725 to $146543. — tops below $160,000 floor. workarounds tried: (1) employer's own Infosys careers page (governing text, this page), (2) alternate mirrors carry the same ranges, (3) no alternate posting of the same role with a different range found",
     "where": "digitalcareers.infosys.com",
-    "time": "2:20 AM"
+    "time": "10:04 PM"
+   },
+   {
+    "company": "Infosys",
+    "role": "E2E Solution Architect",
+    "reason": "pay-outside-band — The estimated annual compensation for this role in Basking Ridge NJ, will be $112725 to $146543 — top below $160,000 floor. workarounds tried: (1) employer's own Infosys careers page (governing text, this page), (2) alternate mirrors carry the same range, (3) no alternate posting of the same role with a different range found",
+    "where": "digitalcareers.infosys.com",
+    "time": "10:04 PM"
+   },
+   {
+    "company": "Infosys",
+    "role": "Oracle Order Management Solution Architect / Lead - Senior Principal - Infosys Consulting",
+    "reason": "pay-outside-band — Estimated annual compensation range :- $210,000-$256,667 — top $256,667 above $230,000 ceiling. workarounds tried: (1) employer's own Infosys careers page (governing text, this page), (2) alternate mirrors carry the same range, (3) no alternate posting of the same role with a different range found",
+    "where": "digitalcareers.infosys.com",
+    "time": "10:04 PM"
    }
   ],
   "Hirequill (Google Jobs surface)": [
@@ -11566,9 +11581,9 @@
    {
     "company": "Wipro",
     "role": "INFRASTRUCTURE DOMAIN ARCHITECT L1(CONTRACT)",
-    "reason": "pay-outside-band — The expected compensation for this role ranges from $60,000 to $135,000. workarounds tried: (1) employer own careers page is the source read (governing text), (2) no alternate route for same req found, (3) no alternate posting with different pay found. Role is also AWS-based: Amazon Web Services & Kubernetes based compute / AWS Landing Zone fundamentals.",
+    "reason": "pay-outside-band — The expected compensation for this role ranges from $60,000 to $135,000 — top below $160,000 floor. workarounds tried: (1) employer's own Wipro careers page (governing text, this page), (2) alternate mirrors carry the same range, (3) no alternate posting of the same role with a different range found",
     "where": "careers.wipro.com",
-    "time": "2:13 AM"
+    "time": "10:04 PM"
    }
   ],
   "CalCareers (state portal)": [
@@ -14091,5 +14106,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T04:03:16Z"
+ "lists_generated_at": "2026-11-19T04:04:51Z"
 }
