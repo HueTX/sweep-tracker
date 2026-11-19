@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T09:57:03Z",
+ "generated_at": "2026-11-19T09:58:20Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T09:56:39Z",
+  "last_activity_at": "2026-11-19T09:58:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 87,
-  "rejected": 410,
-  "evaluated": 497
+  "rejected": 413,
+  "evaluated": 501
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 497,
+  "evaluated": 501,
   "filed": 0,
   "parked": 87,
-  "rejected": 410,
+  "rejected": 413,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
+  "W20"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -132,12 +139,12 @@
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 200/44"
   },
   "W9": {
@@ -220,56 +227,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 200/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 200/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 200/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 200/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:58:20Z",
    "detail": "Employers 184/31"
   }
  },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:56 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 3:58 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W16 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W16"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W16",
+  "headline": "W16 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1076,8 +1089,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 34,
@@ -2037,13 +2050,6 @@
     "time": "1:08 AM"
    },
    {
-    "company": "Kimberly-Clark",
-    "role": "Principal Enterprise Architect, Merges and Acquisitions (Remote)",
-    "reason": "not-remote — Primary Location No-KC Site Brazil — Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA; #LI-Hybrid — workarounds tried: (1) employer own posting searched, no US-based version found; (2) alternate route Built In full JD shows Brazil/Argentina/India locations only; (3) no US remote alternate posting found. Role is based outside the US and hybrid-tagged. Also published 2025-06-15, stale.",
-    "where": "Built In",
-    "time": "1:09 AM"
-   },
-   {
     "company": "Chubb",
     "role": "Enterprise Strategy Architect",
     "reason": "pay-outside-band — The pay range for the role is $240,000 to $255,000. workarounds tried: (1) Built In full JD, (2) Career.io and hiring.cafe mirrors of same role show identical $240,000-$255,000 range and Hybrid, (3) no alternate posting with a different published range found",
@@ -2207,6 +2213,13 @@
     "reason": "pay-outside-band — Target salary range: $100,001 - $140,000. — top of the published range is below the $160,000 band floor. Workarounds tried: (1) employer's own SAIC posting searched for the same Job ID 2617962, (2) alternate Dice route for the same req, (3) no alternate posting with in-band pay found. Role was otherwise 100% remote Azure: 'This is a 100% Remote role.' / 'Proven track record of designing, deploying, and managing Azure infrastructure and services.'",
     "where": "Dice",
     "time": "2:29 AM"
+   },
+   {
+    "company": "Matson",
+    "role": "Technical Architect - Copilot",
+    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite) Job Type: Contract. Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) Dice listing for the Matson engagement read; onsite is intrinsic to the req; (2) no remote alternate posting found.",
+    "where": "Dice",
+    "time": "3:58 AM"
    },
    {
     "company": "MD Anderson Cancer Center",
@@ -3090,6 +3103,15 @@
     "reason": "not-remote — Location: In Office , Orange CT, Boston MA",
     "where": "Glassdoor (posting end date October-30-2026 also passed)",
     "time": "3:19 AM"
+   }
+  ],
+  "career.io / Spire careers mirror": [
+   {
+    "company": "Spire Inc",
+    "role": "Solutions Architect",
+    "reason": "stale — Spire is seeking a Solutions Architect to support Enterprise Asset Management and Field Technologies. Date: Feb 25, 2026 Location: Saint Louis, MO. workarounds tried: (1) employer's own careers site jobs.spireenergy.com referenced in the posting; (2) Career.io mirror of the same req; (3) no fresher repost of this req found in this wake's search.",
+    "where": "career.io / Spire careers mirror",
+    "time": "3:58 AM"
    }
   ],
   "theladders.com": [
@@ -4215,6 +4237,15 @@
     "time": "12:46 AM"
    }
   ],
+  "Built In mirror of Kimberly-Clark careers": [
+   {
+    "company": "Kimberly-Clark",
+    "role": "Principal Enterprise Architect, Merges and Acquisitions (Remote)",
+    "reason": "not-remote — Primary Location No-KC Site Brazil. Additional Locations IT Centre Bengaluru GDTC, NO KC SITE - ARGENTINA. #LI-Hybrid. K-C requires that an employee have authorization to work in the country in which the role is based. workarounds tried: (1) full JD read via Built In mirror of Kimberly-Clark's own posting; role is based outside the US; (2) no US-based posting of this M&A architect role found.",
+    "where": "Built In mirror of Kimberly-Clark careers",
+    "time": "3:58 AM"
+   }
+  ],
   "Inside Higher Ed Careers / Johns Hopkins": [
    {
     "company": "Johns Hopkins Medicine",
@@ -4801,6 +4832,15 @@
     "reason": "hands-on-coding — C# and .NET: Hands-on expertise with C#. Must understand the migration landscape. JavaScript / TypeScript and at least one major frontend framework: Strong working knowledge of React or Angular. SQL Server: Expert-level understanding. The role's required profile is hands-on programming in C#/.NET and TypeScript as a core need. Workarounds tried: (1) full JD read on Remoteworks carrying Emphasys PHA's own text, same hands-on core, (2) no alternate posting of this role with an architecture-only core found, (3) no alternate route for this role found.",
     "where": "Google Jobs / Remoteworks",
     "time": "2:38 AM"
+   }
+  ],
+  "DailyRemote mirror of Carrier Enterprise careers": [
+   {
+    "company": "Carrier Enterprise",
+    "role": "AI Solutions Architect / Forward-Deployed Engineer",
+    "reason": "hands-on — Build and review code, integrations, data transformations, and AI workflows while proactively removing technical and delivery roadblocks. Strong Python and/or Node.js/TypeScript skills with experience building APIs, integrations, data workflows, automation, SQL solutions, event-driven systems, and cloud-native applications on AWS, Azure, or GCP. workarounds tried: (1) full JD read on DailyRemote mirror of Carrier Enterprise posting; hands-on coding is a core stated duty; (2) no alternate non-coding posting of this role found.",
+    "where": "DailyRemote mirror of Carrier Enterprise careers",
+    "time": "3:58 AM"
    }
   ],
   "Infosys careers (digitalcareers.infosys.com)": [
@@ -6299,5 +6339,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T09:57:03Z"
+ "lists_generated_at": "2026-11-19T09:58:20Z"
 }
