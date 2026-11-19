@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T06:40:26Z",
+ "generated_at": "2026-11-19T06:43:26Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T06:38:28Z",
+  "last_activity_at": "2026-11-19T06:42:44Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,24 +28,24 @@
  "counts": {
   "filed": 0,
   "parked": 17,
-  "rejected": 69,
-  "evaluated": 86
+  "rejected": 76,
+  "evaluated": 93
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 86,
+  "evaluated": 93,
   "filed": 0,
   "parked": 17,
-  "rejected": 69,
+  "rejected": 76,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
   "W2",
   "W3",
   "W4",
   "W5",
-  "W6"
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -84,13 +84,13 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/30"
+   "heartbeat_at": null,
+   "detail": "Employers 160/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -100,8 +100,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/39"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -111,8 +111,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/73"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -122,8 +122,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/32"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -133,8 +133,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/44"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +144,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:40:26Z",
-   "detail": "Employers 150/44"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,13 +227,13 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 150/59"
+   "heartbeat_at": "2026-11-19T06:43:26Z",
+   "detail": "Employers 155/59"
   },
   "W17": {
    "label": "Technology",
@@ -244,7 +244,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/54"
+   "detail": "Employers 155/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -255,7 +255,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/45"
+   "detail": "Employers 155/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -266,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/41"
+   "detail": "Employers 155/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -277,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 150/31"
+   "detail": "Employers 155/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "350 of 632 units done",
+   "detail": "362 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:38 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:42 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W1 · Title 1 of 58 · Azure Architect",
+   "primary": "W2 · Title 11 of 58 · Domain Architect",
    "detail": "Families covered 58/58",
-   "pool": "W1"
+   "pool": "W2"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W1",
-  "headline": "W1 · Title 1 of 58 · Azure Architect",
+  "label": "W2",
+  "headline": "W2 · Title 11 of 58 · Domain Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1357,6 +1357,29 @@
     "time": "12:26 AM"
    }
   ],
+  "BuiltIn": [
+   {
+    "company": "MetLife",
+    "role": "Director - Enterprise Architecture",
+    "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: employer's own posting text via BuiltIn mirror; hybrid schedule is posting-intrinsic",
+    "where": "BuiltIn",
+    "time": "12:42 AM"
+   },
+   {
+    "company": "Sentara Health",
+    "role": "Principal Enterprise Architect - Clinical Systems",
+    "reason": "pay-outside-band — The base pay range for full-time employment is $160,513.60 - $238,409.60 annually. workarounds tried: employer's own posting text via BuiltIn mirror and Monster mirror, both show same pay range above $230,000 top",
+    "where": "BuiltIn",
+    "time": "12:41 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Staff Enterprise Architect - GM Defense IT",
+    "reason": "not-remote — This role is categorized as hybrid. This means the selected candidate is expected to report to a specific location at least 3 times a week workarounds tried: employer's own posting text via BuiltIn mirror; hybrid schedule is posting-intrinsic",
+    "where": "BuiltIn",
+    "time": "12:42 AM"
+   }
+  ],
   "usajobs.gov": [
    {
     "company": "FDIC",
@@ -1652,6 +1675,24 @@
     "time": "12:29 AM"
    }
   ],
+  "Norfolk Southern careers": [
+   {
+    "company": "Norfolk Southern",
+    "role": "Senior Director, Enterprise Architecture",
+    "reason": "not-remote — Environment: Hybrid 2 days on-site and remote work 3 days per week. workarounds tried: employer's own ATS page (jobs.nscorp.com) governing text checked",
+    "where": "Norfolk Southern careers",
+    "time": "12:42 AM"
+   }
+  ],
+  "Ford careers": [
+   {
+    "company": "Ford Motor Company",
+    "role": "Salesforce Application Architect",
+    "reason": "experience-mismatch — Lead the technical design and implementation of Salesforce solutions, Marketing Cloud, Data Cloud, including configuration, customization, integration, and data migration. workarounds tried: employer's own careers page (careers.ford.com) governing text checked",
+    "where": "Ford careers",
+    "time": "12:42 AM"
+   }
+  ],
   "simplify.jobs": [
    {
     "company": "Cummins",
@@ -1668,6 +1709,22 @@
     "reason": "closed — Job expired — The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions that are secure, scalable, and highly available.",
     "where": "app.qureos.com",
     "time": "12:01 AM"
+   }
+  ],
+  "USAJOBS": [
+   {
+    "company": "Office of Personnel Management (OPM)",
+    "role": "Enterprise Architect",
+    "reason": "not-remote — You will be required to report to an OPM assigned office. workarounds tried: employer's own ATS (USAJOBS) governing text checked; no alternate route changes required office report",
+    "where": "USAJOBS",
+    "time": "12:41 AM"
+   },
+   {
+    "company": "Small Business Administration (SBA)",
+    "role": "IT Specialist (Junior Solutions Architect)",
+    "reason": "stale — This position is located in the Small Business Administration, Office of the Chief Information Officer in Washington, DC.",
+    "where": "USAJOBS",
+    "time": "12:41 AM"
    }
   ],
   "ClearanceJobs": [
@@ -3013,5 +3070,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T06:40:26Z"
+ "lists_generated_at": "2026-11-19T06:43:26Z"
 }
