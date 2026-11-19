@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T09:15:31Z",
+ "generated_at": "2026-11-19T09:16:44Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T09:15:25Z",
+  "last_activity_at": "2026-11-19T09:16:21Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 77,
-  "rejected": 335,
-  "evaluated": 412
+  "rejected": 337,
+  "evaluated": 414
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 412,
+  "evaluated": 414,
   "filed": 0,
   "parked": 77,
-  "rejected": 335,
+  "rejected": 337,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/30"
+   "detail": "Employers 95/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/39"
+   "detail": "Employers 95/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,7 +112,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/73"
+   "detail": "Employers 95/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -116,28 +123,28 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 90/32"
+   "detail": "Employers 95/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:16:44Z",
    "detail": "Employers 90/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:16:44Z",
    "detail": "Employers 90/44"
   },
   "W9": {
@@ -220,46 +227,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:16:44Z",
    "detail": "Employers 90/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:16:44Z",
    "detail": "Employers 90/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:16:44Z",
    "detail": "Employers 90/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 85/41"
+   "heartbeat_at": "2026-11-19T09:16:44Z",
+   "detail": "Employers 90/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 85/31"
+   "detail": "Employers 90/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "216 of 632 units done",
+   "detail": "222 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:15 AM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 3:16 AM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W5 · Title 1 of 58 · Azure Architect",
+   "detail": "Families covered 58/58",
+   "pool": "W5"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W5",
+  "headline": "W5 · Title 1 of 58 · Azure Architect",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1855,6 +1868,13 @@
     "time": "3:15 AM"
    },
    {
+    "company": "Maricopa County portal",
+    "role": "Enterprise Architect (Infrastructure & Platform Domain)",
+    "reason": "stale — Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually — posting date 2026-05-29 is well outside the 7-day eligibility window and its own application deadline has passed. Workarounds tried: Built In full JD replicating the county posting; no fresher repost found",
+    "where": "Built In",
+    "time": "3:16 AM"
+   },
+   {
     "company": "Yum! Brands",
     "role": "Staff Solutions Architect",
     "reason": "not-remote — Hybrid work schedule (onsite expectation Tues, Wed, Thurs) and year-round flex day Friday | workarounds tried: (1) Built In full JD for the Taco Bell Staff Solutions Architect req (salary $164,300 to $205,400, top in band), (2) listing mirrors repeat the same hybrid schedule, (3) no fully-remote alternate posting of this req found",
@@ -2995,6 +3015,13 @@
   ],
   "Career.io": [
    {
+    "company": "TJX Companies",
+    "role": "Senior Enterprise Architect - ServiceNow - Remote US available",
+    "reason": "experience-mismatch — 5-8+ years overall IT experience, including 3+ years of deep expertise in ServiceNow platform architecture and solution design; Serve as the primary architect for the ServiceNow platform, while ensuring its integration and strategic positioning within the broader enterprise ecosystem — core duty is ServiceNow platform architecture, which is not Hubert's core (Azure cloud/infrastructure/M&A/DR/resilience). Workarounds tried: (1) Career.io full JD, (2) SonicJobs alternate route for the same role with the same ServiceNow requirement, (3) Built In alternate (Canada posting, also ServiceNow-primary) — requirement is posting-intrinsic",
+    "where": "Career.io",
+    "time": "3:16 AM"
+   },
+   {
     "company": "CareFirst",
     "role": "Enterprise Integration Architect, Domain Principal (Remote)",
     "reason": "pay-outside-band — Salary Range: $152,080 - $271,843. Workarounds tried: alternate mirrors (Career.io, TalentAlly Domain Principal listings) carry the same CareFirst range; top $271,843 is above the $230,000 ceiling.",
@@ -3603,13 +3630,13 @@
     "time": "2:44 AM"
    }
   ],
-  "app.qureos.com": [
+  "Qureos": [
    {
     "company": "Baylor Scott & White Health",
     "role": "Cloud Enterprise Architect",
-    "reason": "closed — Job expired — The Cloud Enterprise Architect is responsible for designing, governing, and supporting enterprise cloud and hybrid infrastructure solutions that are secure, scalable, and highly available.",
-    "where": "app.qureos.com",
-    "time": "12:01 AM"
+    "reason": "closed — Posted 8 months ago Job expired — the listing itself carries an expired banner; published 2026-04-02, outside the 7-day eligibility window. Workarounds tried: Qureos full JD; no live repost of this Cloud Enterprise Architect role found",
+    "where": "Qureos",
+    "time": "3:16 AM"
    }
   ],
   "Built In (Pfizer posting text)": [
@@ -5617,5 +5644,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T09:15:31Z"
+ "lists_generated_at": "2026-11-19T09:16:44Z"
 }
