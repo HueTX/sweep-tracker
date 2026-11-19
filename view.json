@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T18:38:36Z",
+ "generated_at": "2026-11-19T18:40:41Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -42,14 +42,14 @@
   }
  },
  "searching_lanes": [
-  "W1",
-  "W2",
   "W3",
   "W4",
+  "W5",
   "W6",
+  "W16",
   "W17",
   "W18",
-  "W20"
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -88,24 +88,24 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
-   "detail": "Employers 85/30"
+   "heartbeat_at": null,
+   "detail": "Employers 90/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
-   "detail": "Employers 85/39"
+   "heartbeat_at": null,
+   "detail": "Employers 90/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -115,8 +115,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
-   "detail": "Employers 80/73"
+   "heartbeat_at": "2026-11-19T18:40:41Z",
+   "detail": "Employers 85/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -126,18 +126,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
-   "detail": "Employers 80/32"
+   "heartbeat_at": "2026-11-19T18:40:41Z",
+   "detail": "Employers 85/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T18:40:41Z",
    "detail": "Employers 85/44"
   },
   "W6": {
@@ -148,7 +148,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
+   "heartbeat_at": "2026-11-19T18:40:41Z",
    "detail": "Employers 80/44"
   },
   "W9": {
@@ -231,12 +231,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T18:40:41Z",
    "detail": "Employers 85/59"
   },
   "W17": {
@@ -247,7 +247,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
+   "heartbeat_at": "2026-11-19T18:40:41Z",
    "detail": "Employers 80/54"
   },
   "W18": {
@@ -258,30 +258,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
+   "heartbeat_at": "2026-11-19T18:40:41Z",
    "detail": "Employers 75/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T18:40:41Z",
+   "detail": "Employers 85/41"
+  },
+  "W20": {
+   "label": "Transportation & Logistics",
+   "sites": 31,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 85/41"
-  },
-  "W20": {
-   "label": "Transportation & Logistics",
-   "sites": 31,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T18:38:36Z",
-   "detail": "Employers 80/31"
+   "detail": "Employers 85/31"
   }
  },
  "stages": {
@@ -311,7 +311,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "200 of 632 units done",
+   "detail": "205 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -1094,7 +1094,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 2,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 105,
