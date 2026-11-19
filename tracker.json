@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T11:02:53Z",
+ "generated_at": "2026-11-19T11:05:04Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T11:01:06Z",
+  "last_activity_at": "2026-11-19T11:04:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 730,
@@ -28,24 +28,21 @@
  "counts": {
   "filed": 0,
   "parked": 116,
-  "rejected": 559,
-  "evaluated": 675
+  "rejected": 564,
+  "evaluated": 680
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 675,
+  "evaluated": 680,
   "filed": 0,
   "parked": 116,
-  "rejected": 559,
+  "rejected": 564,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W8",
   "W3",
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17"
+  "W6"
  ],
  "lanes": {
   "LinkedIn": {
@@ -62,12 +59,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T11:05:04Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -111,30 +108,30 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 30/73"
+   "heartbeat_at": "2026-11-19T11:05:04Z",
+   "detail": "Employers 35/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 35/32"
+   "heartbeat_at": null,
+   "detail": "Employers 40/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 35/44"
+   "heartbeat_at": null,
+   "detail": "Employers 40/44"
   },
   "W6": {
    "label": "Utilities",
@@ -144,8 +141,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 30/44"
+   "heartbeat_at": "2026-11-19T11:05:04Z",
+   "detail": "Employers 35/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,24 +224,24 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 35/59"
+   "heartbeat_at": null,
+   "detail": "Employers 40/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:02:53Z",
-   "detail": "Employers 35/54"
+   "heartbeat_at": null,
+   "detail": "Employers 40/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -307,7 +304,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "93 of 632 units done",
+   "detail": "99 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -549,10 +546,10 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:01 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 5:04 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 11 of 58 · Domain Architect",
+   "primary": "W3 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
    "pool": "W3"
   }
@@ -560,7 +557,7 @@
  "now_viewing": {
   "live": true,
   "label": "W3",
-  "headline": "W3 · Title 11 of 58 · Domain Architect",
+  "headline": "W3 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1090,7 +1087,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 0,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 69,
@@ -2741,6 +2738,13 @@
     "time": "2:43 AM"
    },
    {
+    "company": "Salesforce",
+    "role": "Principal Technical Architect",
+    "reason": "stale — Published: 2025-04-17 workarounds tried: (1) Built In full JD (Salesforce employer posting mirror), (2) RemoteRocketship alternate listing of the same Salesforce role, (3) no fresher repost of this role found in search",
+    "where": "Built In",
+    "time": "5:04 AM"
+   },
+   {
     "company": "Morgan Stanley",
     "role": "Lead Platform Engineer - Parametric",
     "reason": "not-remote — This role is part of Parametric's hybrid working model, which includes working in the office 3 days a week and choosing to work remotely or in the office the remaining days of the week. workarounds tried: checked alternate listings (Ladders, GrabJobs, Built In) for same Parametric role - all state same hybrid model; whole role is also hands-on platform engineering/IaC pipelines.",
@@ -2993,6 +2997,13 @@
     "time": "1:32 AM"
    },
    {
+    "company": "Highmark Health",
+    "role": "Oracle Cloud Solutions Architect",
+    "reason": "pay-outside-band — Pay Range Maximum: $126,000.00 workarounds tried: (1) Built In full JD (Position Type Office-based, Oracle Cloud Infrastructure (OCI) focus), (2) no alternate posting of this role with an in-band range found in search",
+    "where": "Built In",
+    "time": "5:04 AM"
+   },
+   {
     "company": "PNC Bank",
     "role": "Enterprise Architect Senior",
     "reason": "not-remote — As an Enterprise Architect Senior within PNC's Enterprise Architecture organization, you will be based in Pittsburgh, PA or Cleveland, OH. PNC is an in-office company that fosters a supportive culture where employees can thrive and achieve balance. — workarounds tried: (1) Built In full JD (employer mirror), (2) no alternate route for this req found, (3) no fully remote alternate posting found",
@@ -3172,11 +3183,25 @@
     "time": "1:54 AM"
    },
    {
+    "company": "Molina Healthcare",
+    "role": "Senior Azure Artificial Intelligence Security Architect - Remote",
+    "reason": "hands-on — Proficiency in Python for security testing, control-validation prototypes, and automation, with familiarity with data science and AI libraries. workarounds tried: (1) Molina careers employer page Job ID 2039774 (same Python requirement, pay $111,893 - $218,192, posting date 10/28/2026), (2) Ladders full JD, (3) Adzuna alternate posting of the same role",
+    "where": "Ladders",
+    "time": "5:04 AM"
+   },
+   {
     "company": "Walmart",
     "role": "(USA) Senior Distinguished I, Architect",
     "reason": "pay-outside-band — The annual salary range for this position is $192,000.00 - $384,000.00 | workarounds tried: (1) employer's own sector search for Walmart, (2) alternate route Ladders full JD carrying the salary range, (3) alternate Walmart architect postings checked - same out-of-band ranges",
     "where": "Ladders",
     "time": "4:41 AM"
+   },
+   {
+    "company": "Truist",
+    "role": "Principal Enterprise Architect - Fraud & AML Technology",
+    "reason": "pay-outside-band — The annual base salary for this position is $157,000 - $262,000 workarounds tried: (1) Ladders full JD, (2) Jobstore alternate posting (same $157,000 - $262,000 range), (3) no alternate posting of this role with an in-band range found in search",
+    "where": "Ladders",
+    "time": "5:04 AM"
    },
    {
     "company": "M&T Bank",
@@ -3753,6 +3778,15 @@
     "time": "1:32 AM"
    }
   ],
+  "energyjobsearch": [
+   {
+    "company": "Halliburton",
+    "role": "Cloud Domain Architect",
+    "reason": "closed — Job post no longer accepts applications",
+    "where": "energyjobsearch",
+    "time": "5:04 AM"
+   }
+  ],
   "careers.pennmedicine.org": [
    {
     "company": "Penn Medicine",
@@ -4297,6 +4331,36 @@
     "reason": "pay-outside-band — Salary Range: $122,040 - $242,385. Workarounds tried: employer's own careers route (www.carefirst.com/careers, named in the posting as the apply route) and alternate mirrors (TalentAlly, Career.io) all carry the same published range; top $242,385 is above the $230,000 ceiling.",
     "where": "TalentAlly",
     "time": "3:08 AM"
+   }
+  ],
+  "FlexJobs": [
+   {
+    "company": "IBM",
+    "role": "Senior Customer Success Technical Architect - Confluent",
+    "reason": "not-remote — Work arrangement Hybrid workarounds tried: (1) IBM job details in the posting (Work arrangement: Hybrid), (2) FlexJobs full JD, (3) no alternate fully-remote posting of this role found in search",
+    "where": "FlexJobs",
+    "time": "5:04 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Data Architect Lead Consultant",
+    "reason": "hands-on — Architect solutions using Microsoft Fabric and Azure, including SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, Lakehouse, and data warehouse technologies. — and the role requires '7+ years of Strong hands-on experience with SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, SQL' and guiding 'development of Pipelines, Fabric Notebooks, PySpark/SparkSQL transformations': hands-on PySpark/Spark programming is a core duty and requirement (Hubert's hands-on coding record is 0). Full JD read on FlexJobs carrying NTT DATA's own JD text (Req ID: 390182, fully remote, no salary published, no date on the page — live surface, verdicted on merits). Workarounds tried: (1) FlexJobs full JD carrying NTT's governing text, (2) Dice NTT DATA listings checked for the same req, (3) no alternate posting of Req 390182 without the PySpark core found.",
+    "where": "FlexJobs",
+    "time": "1:28 AM"
+   },
+   {
+    "company": "ManTech",
+    "role": "Principal Architect",
+    "reason": "pay-outside-band — The projected compensation range for this position is $148,200.00-$263,000.00. Published top $263,000 above the $230,000 ceiling. Workarounds tried: (1) full JD read on FlexJobs carrying ManTech's own R70994 text, same range, (2) no alternate posting of R70994 with a different range found, (3) no in-band alternate posting of this role found.",
+    "where": "FlexJobs",
+    "time": "2:36 AM"
+   },
+   {
+    "company": "Wipro",
+    "role": "Web Technologies Architect",
+    "reason": "pay-outside-band — The expected compensation for this role ranges from $80,000 to $158,000 . — also hands-on: Actively develop complex React/Next.js/TypeScript components and reference implementations. workarounds tried: (1) employer's posting via FlexJobs mirror of Wipro JD, (2) Career.io Technology Architect L1 mirror showing same $80,000 to $158,000 range, (3) no alternate posting with in-band pay found",
+    "where": "FlexJobs",
+    "time": "3:55 AM"
    }
   ],
   "jobs.accel.com / Plex Systems (Rockwell Automation)": [
@@ -5045,13 +5109,6 @@
     "reason": "stale — Published: 2026-02-23 — The anticipated base pay range for this position is : $122,000.00 - $212,750.00; to be based in Raritan, NJ. Remote work options may be considered on a case-by-case basis — workarounds tried: (1) careers.jnj.com search, (2) Built In NYC full JD read, (3) Dice mirror is the same February posting, no refresh found",
     "where": "Built In NYC",
     "time": "4:15 AM"
-   },
-   {
-    "company": "Highmark Health",
-    "role": "Oracle Cloud Solutions Architect",
-    "reason": "stale — This role, specializing in Oracle Cloud Infrastructure (OCI) and PaaS solutions, is responsible for designing, developing, implementing, supporting, and optimizing architecture strategies to meet diverse business capabilities and needs.",
-    "where": "Built In NYC",
-    "time": "2:47 AM"
    }
   ],
   "jobs.colgate.com": [
@@ -5095,29 +5152,6 @@
     "reason": "not-remote — Work Location: On-site - Calvin Rampton Building (remote work not available; Utah residents only). This position is on-site, limited to Utah residents, and approximately 20 hours per week. Client: State of Utah, Project/Position Title: Cloud Solutions Architect, Job ID: UTA-JB-00011. workarounds tried: (1) full Dice JD for the State of Utah engagement read - on-site is intrinsic; (2) no remote alternate posting of UTA-JB-00011 found.",
     "where": "Dice (State of Utah via CAI)",
     "time": "3:59 AM"
-   }
-  ],
-  "FlexJobs": [
-   {
-    "company": "NTT DATA",
-    "role": "Data Architect Lead Consultant",
-    "reason": "hands-on — Architect solutions using Microsoft Fabric and Azure, including SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, Lakehouse, and data warehouse technologies. — and the role requires '7+ years of Strong hands-on experience with SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, SQL' and guiding 'development of Pipelines, Fabric Notebooks, PySpark/SparkSQL transformations': hands-on PySpark/Spark programming is a core duty and requirement (Hubert's hands-on coding record is 0). Full JD read on FlexJobs carrying NTT DATA's own JD text (Req ID: 390182, fully remote, no salary published, no date on the page — live surface, verdicted on merits). Workarounds tried: (1) FlexJobs full JD carrying NTT's governing text, (2) Dice NTT DATA listings checked for the same req, (3) no alternate posting of Req 390182 without the PySpark core found.",
-    "where": "FlexJobs",
-    "time": "1:28 AM"
-   },
-   {
-    "company": "ManTech",
-    "role": "Principal Architect",
-    "reason": "pay-outside-band — The projected compensation range for this position is $148,200.00-$263,000.00. Published top $263,000 above the $230,000 ceiling. Workarounds tried: (1) full JD read on FlexJobs carrying ManTech's own R70994 text, same range, (2) no alternate posting of R70994 with a different range found, (3) no in-band alternate posting of this role found.",
-    "where": "FlexJobs",
-    "time": "2:36 AM"
-   },
-   {
-    "company": "Wipro",
-    "role": "Web Technologies Architect",
-    "reason": "pay-outside-band — The expected compensation for this role ranges from $80,000 to $158,000 . — also hands-on: Actively develop complex React/Next.js/TypeScript components and reference implementations. workarounds tried: (1) employer's posting via FlexJobs mirror of Wipro JD, (2) Career.io Technology Architect L1 mirror showing same $80,000 to $158,000 range, (3) no alternate posting with in-band pay found",
-    "where": "FlexJobs",
-    "time": "3:55 AM"
    }
   ],
   "Wellfound": [
@@ -7679,5 +7713,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T11:02:53Z"
+ "lists_generated_at": "2026-11-19T11:05:04Z"
 }
