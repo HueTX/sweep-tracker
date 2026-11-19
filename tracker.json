@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T07:06:16Z",
+ "generated_at": "2026-11-19T07:08:56Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T07:05:45Z",
+  "last_activity_at": "2026-11-19T07:08:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 29,
-  "rejected": 103,
-  "evaluated": 132
+  "rejected": 106,
+  "evaluated": 135
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 132,
+  "evaluated": 135,
   "filed": 0,
   "parked": 29,
-  "rejected": 103,
+  "rejected": 106,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -95,24 +88,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 200/39"
+   "heartbeat_at": null,
+   "detail": "Employers 205/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 200/73"
+   "heartbeat_at": null,
+   "detail": "Employers 205/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 188/32"
+   "detail": "Employers 190/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,7 +127,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 200/44"
+   "detail": "Employers 205/44"
   },
   "W6": {
    "label": "Utilities",
@@ -145,7 +138,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 200/44"
+   "detail": "Employers 205/44"
   },
   "W9": {
    "label": "Dice",
@@ -233,51 +226,51 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 200/59"
+   "detail": "Employers 205/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 195/54"
+   "heartbeat_at": null,
+   "detail": "Employers 205/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 195/45"
+   "heartbeat_at": null,
+   "detail": "Employers 205/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 195/41"
+   "heartbeat_at": null,
+   "detail": "Employers 200/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:06:16Z",
-   "detail": "Employers 183/31"
+   "heartbeat_at": null,
+   "detail": "Employers 184/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "452 of 632 units done",
+   "detail": "464 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:05 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 1:08 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1526,6 +1513,15 @@
     "time": "12:01 AM"
    }
   ],
+  "Penn Medicine careers (careers.pennmedicine.org)": [
+   {
+    "company": "Penn Medicine",
+    "role": "Senior Principal Enterprise Architect",
+    "reason": "not-remote — Location: Hybrid, 3535 Market St, Philadelphia, PA 19104 | workarounds tried: (1) employer's own careers page (careers.pennmedicine.org) read as governing text — Work Schedule: Hybrid; (2) Dice mirror carries the same job ID 327781 hybrid posting; (3) no alternate remote posting found. Posting also dated 2026-07-08, outside the 7-day window.",
+    "where": "Penn Medicine careers (careers.pennmedicine.org)",
+    "time": "1:06 AM"
+   }
+  ],
   "careers.pennmedicine.org": [
    {
     "company": "Penn Medicine",
@@ -1624,34 +1620,14 @@
     "time": "12:27 AM"
    }
   ],
-  "remotive.com": [
-   {
-    "company": "Hewlett Packard Enterprise",
-    "role": "Enterprise Architect",
-    "reason": "pay-outside-band — Hewlett Packard Enterprise is hiring a remote Enterprise Architect. Salary: usd 189,000 - 390,500 per year — workarounds tried: (1) Remotive and Career.io mirrors of HPE's own posting show tops of $378,000-$390,500, above the $230,000 ceiling",
-    "where": "remotive.com",
-    "time": "12:00 AM"
-   }
-  ],
-  "builtinaustin.com": [
-   {
-    "company": "Citizens Financial",
-    "role": "Enterprise Principal Architect",
-    "reason": "not-remote — 4 Days in the office from any of our locations in RI, NJ, TX, Pittsburgh, TN, MA, or Phoenix AZ and couple other locations — workarounds tried: (1) Built In mirror of Citizens' own posting states the 4-days-in-office requirement",
-    "where": "builtinaustin.com",
-    "time": "12:00 AM"
-   }
-  ],
-  "Talentally": [
-   {
-    "company": "Baylor Scott & White Health",
-    "role": "Sr. Cloud Security Architect",
-    "reason": "stale — As a Cloud Security Architect, you will paly a key leadership role in the success of the security operations program by providing guidance on cloud security related issues",
-    "where": "Talentally",
-    "time": "12:09 AM"
-   }
-  ],
   "Built In": [
+   {
+    "company": "MassMutual",
+    "role": "Salesforce Solutions Architect",
+    "reason": "pay-outside-band — Salary Range: $180,700-$237,100 — workarounds tried: (1) employer own posting searched via web, same range on mirrors; (2) alternate routes Built In and Built In Boston both show $180,700-$237,100; (3) alternate posting search found no in-band repost. Top $237,100 exceeds $230,000 ceiling. Also published 2026-08-27, stale.",
+    "where": "Built In",
+    "time": "1:08 AM"
+   },
    {
     "company": "Fortive",
     "role": "Principal Cloud Architect",
@@ -1681,6 +1657,13 @@
     "time": "12:09 AM"
    },
    {
+    "company": "Nationwide",
+    "role": "Director, Solutions Architect",
+    "reason": "pay-outside-band — The national salary range for Director, Solutions Architect : $149,000.00-$262,000.00 — workarounds tried: (1) employer own posting searched, same role on mirrors; (2) alternate routes Swooped, GrabJobs, Recruit.net all show $149,000.00-$262,000.00 and hybrid 2 days/week; (3) no in-band alternate posting found. Top $262,000 exceeds $230,000 ceiling. Also published 2026-02-11, stale.",
+    "where": "Built In",
+    "time": "1:08 AM"
+   },
+   {
     "company": "Capgemini",
     "role": "FBS Senior System Architect",
     "reason": "stale — This position is for a Senior System Architect to contribute to the continued evolution and maintenance of the Alta Quoting Platform. | workarounds tried: (1) employer's own posting sought; (2) Built In / Adzuna / Workable mirrors all carry the same role dated 2025-09-24 to 2026-01-21, none within the 7-day window, and the role is based in Pune/Hyderabad, India; (3) no fresh US repost found",
@@ -1693,6 +1676,33 @@
     "reason": "not-remote — We are looking for a Senior IoT System Architect to define, design and govern the technical blueprint for our next-generation smart connected appliances. | Role is with Whirlpool of India, based Pune/Gurugram/Pondicherry, India — not a US remote position. workarounds tried: (1) employer's own posting sought, Built In carries the full JD; (2) no US-based alternate posting of req 72762 found; (3) no repost found",
     "where": "Built In",
     "time": "1:04 AM"
+   }
+  ],
+  "remotive.com": [
+   {
+    "company": "Hewlett Packard Enterprise",
+    "role": "Enterprise Architect",
+    "reason": "pay-outside-band — Hewlett Packard Enterprise is hiring a remote Enterprise Architect. Salary: usd 189,000 - 390,500 per year — workarounds tried: (1) Remotive and Career.io mirrors of HPE's own posting show tops of $378,000-$390,500, above the $230,000 ceiling",
+    "where": "remotive.com",
+    "time": "12:00 AM"
+   }
+  ],
+  "builtinaustin.com": [
+   {
+    "company": "Citizens Financial",
+    "role": "Enterprise Principal Architect",
+    "reason": "not-remote — 4 Days in the office from any of our locations in RI, NJ, TX, Pittsburgh, TN, MA, or Phoenix AZ and couple other locations — workarounds tried: (1) Built In mirror of Citizens' own posting states the 4-days-in-office requirement",
+    "where": "builtinaustin.com",
+    "time": "12:00 AM"
+   }
+  ],
+  "Talentally": [
+   {
+    "company": "Baylor Scott & White Health",
+    "role": "Sr. Cloud Security Architect",
+    "reason": "stale — As a Cloud Security Architect, you will paly a key leadership role in the success of the security operations program by providing guidance on cloud security related issues",
+    "where": "Talentally",
+    "time": "12:09 AM"
    }
   ],
   "Out for Undergrad Job Board": [
@@ -3393,5 +3403,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T07:06:16Z"
+ "lists_generated_at": "2026-11-19T07:08:56Z"
 }
