@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T01:36:04Z",
+ "generated_at": "2026-11-19T01:38:47Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T01:35:15Z",
+  "last_activity_at": "2026-11-19T01:36:52Z",
   "progress": {
    "pools": 21,
    "covered_units": 174,
@@ -76,7 +76,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:36:04Z",
+   "heartbeat_at": "2026-11-19T01:38:47Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -87,7 +87,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:36:04Z",
+   "heartbeat_at": "2026-11-19T01:38:47Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -98,7 +98,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:36:04Z",
+   "heartbeat_at": "2026-11-19T01:38:47Z",
    "detail": "Employers 5/39"
   },
   "W3": {
@@ -109,7 +109,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:36:04Z",
+   "heartbeat_at": "2026-11-19T01:38:47Z",
    "detail": "Employers 5/73"
   },
   "W4": {
@@ -310,10 +310,10 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "done",
-   "detail": "33 of 33 units done",
+   "state": "active",
+   "detail": "33 of 34 units done",
    "started_at": "2026-11-19T01:19:48Z",
-   "ended_at": "2026-11-19T01:22:21Z"
+   "ended_at": null
   },
   "stall_watch": {
    "state": "pending",
@@ -547,7 +547,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:35 PM CT · 8 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:36 PM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W1 · Title 11 of 58 · Domain Architect",
@@ -604,6 +604,20 @@
    "unit_created_at": null,
    "attempts": 13,
    "last_attempt_at": "2026-11-19T01:21:53Z"
+  },
+  {
+   "lead_id": 8335,
+   "employer": "RapidScale",
+   "title": "Senior Lead Cloud Architect - AVD (Remote)",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "jobs.spectrum.com",
+   "winner_disposition_id": 19942,
+   "unit_id": 10254,
+   "unit_created_at": "2026-11-19T01:36:52Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-19T01:38:02Z"
   },
   {
    "lead_id": 476,
@@ -1073,11 +1087,11 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 1,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 248,
+  "attempted_today": 249,
   "filed_today": 0
  }
 }
