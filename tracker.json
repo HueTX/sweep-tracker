@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:26:25Z",
+ "generated_at": "2026-11-19T08:27:39Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T08:17:05Z",
+  "last_activity_at": "2026-11-19T08:27:34Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,20 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 39,
-  "rejected": 224,
-  "evaluated": 263
+  "rejected": 230,
+  "evaluated": 270
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 263,
+  "evaluated": 270,
   "filed": 0,
   "parked": 39,
-  "rejected": 224,
+  "rejected": 230,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W17"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -233,13 +231,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:26:25Z",
-   "detail": "Employers 319/54"
+   "heartbeat_at": null,
+   "detail": "Employers 324/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -301,10 +299,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "631 of 632 units done",
+   "state": "done",
+   "detail": "632 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
-   "ended_at": null
+   "ended_at": "2026-11-19T08:27:39Z"
   },
   "sector_filing": {
    "state": "done",
@@ -544,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:17 AM CT · 1 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W17"
-  }
- ],
+ "note": "Last activity 2:27 AM CT · 1 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W17",
-  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1084,8 +1076,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 0,
@@ -1494,6 +1486,13 @@
     "time": "2:07 AM"
    },
    {
+    "company": "DXC Technology",
+    "role": "Enterprise Architect",
+    "reason": "clearance — Active DOD Secret Clearance required.",
+    "where": "Built In",
+    "time": "2:27 AM"
+   },
+   {
     "company": "Yum! Brands",
     "role": "Staff Solutions Architect",
     "reason": "not-remote — Hybrid work schedule (onsite expectation Tues, Wed, Thurs) and year-round flex day Friday | workarounds tried: (1) Built In full JD for the Taco Bell Staff Solutions Architect req (salary $164,300 to $205,400, top in band), (2) listing mirrors repeat the same hybrid schedule, (3) no fully-remote alternate posting of this req found",
@@ -1534,6 +1533,13 @@
     "reason": "non-US — Position Details — Location: Hyderabad (Chubb India role: 'At Chubb India, we are on an exciting journey of digital transformation') — the posting's own location is Hyderabad, India, not a US-remote role (US-only rule). Full JD read on Built In carrying Chubb's own JD text.",
     "where": "Built In",
     "time": "1:20 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Sr. Enterprise Architect",
+    "reason": "stale — As a Senior Enterprise Architect at NTT DATA, you will lead the design of complex managed service solutions for our largest enterprise clients. Published: 2026-08-23 — workarounds tried: (1) employer/ATS search, (2) Built In NYC alternate listing (published 2026-03-10, also stale), (3) no fresh repost found in this lane search.",
+    "where": "Built In",
+    "time": "2:27 AM"
    },
    {
     "company": "The Hartford",
@@ -2513,6 +2519,13 @@
     "reason": "not-remote — Please note: This role is not eligible for 100% remote work. Employees must live within a commutable distance of a Slalom Office and must be willing to be onsite at the client and/or Slalom office when needed up to 3 days a week. workarounds tried: (1) Slalom's own JD text reproduced on Monster, Ref JBR0001634, (2) alternate route Levels.fyi mirror with identical not-eligible-for-100%-remote note, (3) no remote alternate posting of this req",
     "where": "Monster",
     "time": "1:17 AM"
+   },
+   {
+    "company": "Slalom",
+    "role": "ServiceNow Enterprise Architect - Senior Principal",
+    "reason": "stale — We will accept applicants until October 30, 2026, or until the position is filled. Date posted Friday, October 16, 2026 — workarounds tried: (1) employer/ATS search, (2) alternate surfaces Monster/CareerBuilder/Jooble for Ref JBR0002104, (3) no fresh repost found; posting date and closing date both outside the 7-day eligibility window.",
+    "where": "Monster",
+    "time": "2:27 AM"
    }
   ],
   "monster.com / apply.starbucks.com": [
@@ -2664,6 +2677,15 @@
     "time": "12:58 AM"
    }
   ],
+  "DXC Workday (employer ATS)": [
+   {
+    "company": "DXC Technology",
+    "role": "Dynatrace Technical Architect (Canada)",
+    "reason": "non-US — Canadian permanent resident or citizen.",
+    "where": "DXC Workday (employer ATS)",
+    "time": "2:27 AM"
+   }
+  ],
   "BuiltIn (Regeneron posting mirror, full JD)": [
    {
     "company": "Regeneron Pharmaceuticals",
@@ -2746,6 +2768,13 @@
     "reason": "not-remote — Full-time In-person",
     "where": "Simplify",
     "time": "2:16 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Enterprise Architect - Cloud, Infrastructure, and Automation",
+    "reason": "stale — We are currently seeking a Enterprise Architect - Cloud, Infrastructure, and Automation to join our team in Atlanta, Georgia (US-GA), United States (US). Posted on Oct 3, 2025 — workarounds tried: (1) employer/ATS search, (2) alternate surfaces Simplify/Career.io for same Req ID 340780, (3) no fresh repost found.",
+    "where": "Simplify",
+    "time": "2:27 AM"
    }
   ],
   "AstraZeneca Eightfold (employer page)": [
@@ -3134,6 +3163,15 @@
     "reason": "stale — Published: 2025-08-19 — the posting's own date is far outside the 7-day eligibility window, with no repost or fresher listing found. The role is also an engineer-level AWS/IaC role ('Deep expertise in Infrastructure-as-Code using Terraform, CloudFormation, AWS CDK, or Ansible'). Workarounds tried: (1) employer's own posting text via BuiltIn full JD, (2) alternate routes surface the same 2025 posting, (3) no refreshed posting found.",
     "where": "BuiltIn (Moderna posting mirror, full JD)",
     "time": "1:46 AM"
+   }
+  ],
+  "Tallocate": [
+   {
+    "company": "Kyndryl",
+    "role": "Director, Enterprise Architecture and Technology Strategy",
+    "reason": "pay-outside-band — The compensation range for this position in the US is $179,760 to $341,520 based on a full-time schedule. — workarounds tried: (1) employer/ATS search for same role, (2) alternate surfaces Tallocate/Dice for same req, (3) no alternate posting with in-band pay found; top $341,520 exceeds $230,000 ceiling.",
+    "where": "Tallocate",
+    "time": "2:27 AM"
    }
   ],
   "SmartRecruiters (Visa own ATS)": [
@@ -4461,5 +4499,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:26:25Z"
+ "lists_generated_at": "2026-11-19T08:27:39Z"
 }
