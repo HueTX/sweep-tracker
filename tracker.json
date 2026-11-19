@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T06:18:08Z",
+ "generated_at": "2026-11-19T06:20:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T06:16:03Z",
+  "last_activity_at": "2026-11-19T06:18:20Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 5,
-  "rejected": 32,
-  "evaluated": 37
+  "rejected": 34,
+  "evaluated": 39
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 37,
+  "evaluated": 39,
   "filed": 0,
   "parked": 5,
-  "rejected": 32,
+  "rejected": 34,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W1",
-  "W2",
-  "W3",
-  "W4",
-  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18",
+  "W19",
   "W20"
  ],
  "lanes": {
@@ -84,60 +84,49 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 115/30"
+   "heartbeat_at": null,
+   "detail": "Employers 120/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 115/39"
+   "heartbeat_at": null,
+   "detail": "Employers 120/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 115/73"
+   "heartbeat_at": null,
+   "detail": "Employers 120/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 115/32"
+   "heartbeat_at": null,
+   "detail": "Employers 120/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 115/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -145,6 +134,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 120/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T06:20:07Z",
    "detail": "Employers 115/44"
   },
   "W9": {
@@ -227,45 +227,45 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T06:20:07Z",
    "detail": "Employers 115/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T06:20:07Z",
    "detail": "Employers 115/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T06:20:07Z",
    "detail": "Employers 115/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T06:20:07Z",
    "detail": "Employers 115/41"
   },
   "W20": {
@@ -276,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T06:18:08Z",
-   "detail": "Employers 110/31"
+   "heartbeat_at": "2026-11-19T06:20:07Z",
+   "detail": "Employers 115/31"
   }
  },
  "stages": {
@@ -307,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "272 of 632 units done",
+   "detail": "278 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -549,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:16 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 12:18 AM CT · 6 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
+   "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W20"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W20",
-  "headline": "W20 · Title 41 of 58 · Infrastructure Modernization Lead",
+  "label": "W6",
+  "headline": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1299,6 +1299,15 @@
     "time": "12:10 AM"
    }
   ],
+  "BuiltIn (Geisinger mirror)": [
+   {
+    "company": "Geisinger",
+    "role": "Business Architect Associate",
+    "reason": "stale — The Business Architect Associate supports the work of aligning business needs with technology and automation solutions across the healthcare system. workarounds tried: (1) BuiltIn mirror of Geisinger posting, (2) alternate surfaces SonicJobs and Swooped show same posting, (3) no refreshed or reposted version found; posting published 2026-05-20, outside 7-day eligibility",
+    "where": "BuiltIn (Geisinger mirror)",
+    "time": "12:18 AM"
+   }
+  ],
   "theladders.com": [
    {
     "company": "M&T Bank",
@@ -1423,6 +1432,15 @@
     "reason": "pay-outside-band — Salary Range: $164,600 - 288,000 USD workarounds tried: (1) employer's own posting via Relomote company-career-pages mirror - same $288,000 top and Hybrid persona, (2) alternate routes searched - no other posting, (3) no alternate posting found",
     "where": "Relomote",
     "time": "12:09 AM"
+   }
+  ],
+  "GovernmentJobs.com (LA County portal)": [
+   {
+    "company": "LA County portal",
+    "role": "Enterprise Data Architect",
+    "reason": "stale — Establishes target-state architecture, standards, and reusable technical patterns for LACOE’s enterprise data environment. workarounds tried: (1) governmentjobs.com is the LA County portal posting itself (governing text), (2) no alternate route for same req found, (3) no repost or refreshed posting found; published 2026-10-19, outside 7-day eligibility",
+    "where": "GovernmentJobs.com (LA County portal)",
+    "time": "12:18 AM"
    }
   ]
  },
@@ -2607,5 +2625,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T06:18:08Z"
+ "lists_generated_at": "2026-11-19T06:20:07Z"
 }
