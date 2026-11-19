@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T09:13:51Z",
+ "generated_at": "2026-11-19T09:15:31Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T09:12:55Z",
+  "last_activity_at": "2026-11-19T09:15:25Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 77,
-  "rejected": 329,
-  "evaluated": 406
+  "rejected": 335,
+  "evaluated": 412
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 406,
+  "evaluated": 412,
   "filed": 0,
   "parked": 77,
-  "rejected": 329,
+  "rejected": 335,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -117,35 +110,35 @@
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/32"
+   "heartbeat_at": null,
+   "detail": "Employers 90/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/44"
+   "heartbeat_at": null,
+   "detail": "Employers 90/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/44"
+   "heartbeat_at": null,
+   "detail": "Employers 90/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,35 +220,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/59"
+   "heartbeat_at": null,
+   "detail": "Employers 90/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/54"
+   "heartbeat_at": null,
+   "detail": "Employers 90/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:13:51Z",
-   "detail": "Employers 85/45"
+   "heartbeat_at": null,
+   "detail": "Employers 90/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "210 of 632 units done",
+   "detail": "216 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:12 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W4"
-  }
- ],
+ "note": "Last activity 3:15 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 51 of 58 · Enterprise Infrastructure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
