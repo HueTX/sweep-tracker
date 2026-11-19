@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T09:37:53Z",
+ "generated_at": "2026-11-19T09:39:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T09:36:15Z",
+  "last_activity_at": "2026-11-19T09:39:00Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,25 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 82,
-  "rejected": 378,
-  "evaluated": 460
+  "parked": 81,
+  "rejected": 384,
+  "evaluated": 465
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 460,
+  "evaluated": 465,
   "filed": 0,
-  "parked": 82,
-  "rejected": 378,
+  "parked": 81,
+  "rejected": 384,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W4",
-  "W5",
-  "W6",
-  "W16",
-  "W17",
-  "W18"
+  "W1",
+  "W2",
+  "W3",
+  "W19",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -84,68 +83,68 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:39:10Z",
    "detail": "Employers 155/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:39:10Z",
    "detail": "Employers 155/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T09:39:10Z",
+   "detail": "Employers 155/73"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 155/73"
-  },
-  "W4": {
-   "label": "Healthcare Insurers",
-   "sites": 32,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/32"
+   "detail": "Employers 155/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/44"
+   "heartbeat_at": null,
+   "detail": "Employers 155/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/44"
+   "heartbeat_at": null,
+   "detail": "Employers 155/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,56 +226,56 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/59"
-  },
-  "W17": {
-   "label": "Technology",
-   "sites": 54,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/54"
-  },
-  "W18": {
-   "label": "Manufacturing & Industrial",
-   "sites": 45,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T09:37:53Z",
-   "detail": "Employers 150/45"
-  },
-  "W19": {
-   "label": "Retail & Consumer Goods",
-   "sites": 41,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 155/59"
+  },
+  "W17": {
+   "label": "Technology",
+   "sites": 54,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 155/54"
+  },
+  "W18": {
+   "label": "Manufacturing & Industrial",
+   "sites": 45,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 155/45"
+  },
+  "W19": {
+   "label": "Retail & Consumer Goods",
+   "sites": 41,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T09:39:10Z",
    "detail": "Employers 150/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T09:39:10Z",
    "detail": "Employers 150/31"
   }
  },
@@ -307,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "353 of 632 units done",
+   "detail": "359 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -549,18 +548,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 3:36 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 3:39 AM CT · 5 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W4 · Title 1 of 58 · Azure Architect",
+   "primary": "W19 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W4"
+   "pool": "W19"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W4",
-  "headline": "W4 · Title 1 of 58 · Azure Architect",
+  "label": "W19",
+  "headline": "W19 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1497,15 +1496,6 @@
     "time": "1:32 AM"
    }
   ],
-  "Simplify": [
-   {
-    "company": "MetLife",
-    "role": "Principal Architect - Finance Modernization & ERP Transformation",
-    "reason": "title-not-covered — Serve as the lead architect supporting the Finance Modernization and ERP Transformation Program.",
-    "where": "Simplify",
-    "time": "12:54 AM"
-   }
-  ],
   "Careers in Government / City of Houston portal": [
    {
     "company": "City of Houston",
@@ -1808,6 +1798,13 @@
     "time": "1:55 AM"
    },
    {
+    "company": "NiSource",
+    "role": "Principal Enterprise Architect - Cloud and Infrastructure",
+    "reason": "not-remote — Way of Work: Hybrid, 3 days on location. workarounds tried: (1) employer's own posting via Built In mirror of NiSource JD - hybrid stated; (2) alternate route search - same hybrid JD; (3) alternate posting - no remote variant found for this req.",
+    "where": "Built In",
+    "time": "3:38 AM"
+   },
+   {
     "company": "Citizens Financial",
     "role": "Distinguished Architect-Consumer Banking",
     "reason": "not-remote — 4 Days in the office from any of our locations in Johnston RI, Dallas TX, Iselin NJ, Short Hills NJ, Westwood or Medford MA, or Phoenix AZ and couple other locations. Salary range also $182,000 - $254,000 (top above ceiling). Workarounds tried: alternate Built In mirrors (Austin, Colorado, NYC) carry the same Citizens JD and 4-days-in-office term.",
@@ -2018,11 +2015,32 @@
     "time": "1:17 AM"
    },
    {
+    "company": "Premera Blue Cross",
+    "role": "Solution Architect/AI Engineer IV",
+    "reason": "not-remote — This is a hybrid role located on our campus in Mountlake Terrace, Washington. Workforce Classification: Hybrid. workarounds tried: (1) employer's own posting via Built In mirror of Premera JD - hybrid stated; (2) alternate route Built In / search - same hybrid JD; (3) alternate posting Solution Architect/AI Engineer V - also hybrid on campus in Mountlake Terrace, WA.",
+    "where": "Built In",
+    "time": "3:38 AM"
+   },
+   {
+    "company": "Accenture Federal Services",
+    "role": "Cloud Enterprise Architect",
+    "reason": "clearance — Must have an active Top Secret clearance",
+    "where": "Built In",
+    "time": "3:38 AM"
+   },
+   {
     "company": "UnitedHealth Group / Optum",
     "role": "Director, Advisory Services - Cloud Architect - Remote",
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer UHG/Optum JD text via Built In mirror, (2) alternate route Dice for Optum cloud architect roles - different req, (3) alternate Built In Director Advisory Services postings carry the same $134,600 to $230,800 range.",
     "where": "Built In",
     "time": "2:32 AM"
+   },
+   {
+    "company": "General Motors",
+    "role": "Senior MarTech Solutions Architect",
+    "reason": "stale — Extensive experience (5+ yrs) in Adobe Experience Platform and Adobe Campaign solutions on-prem and cloud architecture and implementations. Published: 2025-06-19",
+    "where": "Built In",
+    "time": "3:38 AM"
    },
    {
     "company": "Capgemini",
@@ -2598,13 +2616,6 @@
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: employer's own posting text via BuiltIn mirror; hybrid schedule is posting-intrinsic",
     "where": "BuiltIn",
     "time": "12:42 AM"
-   },
-   {
-    "company": "NiSource",
-    "role": "Principal Enterprise Architect - Cloud and Infrastructure",
-    "reason": "not-remote — Way of Work: Hybrid, 3 days on location workarounds tried: employer's own posting text via BuiltIn mirror; hybrid schedule is posting-intrinsic",
-    "where": "BuiltIn",
-    "time": "12:43 AM"
    },
    {
     "company": "Danaher",
@@ -3230,6 +3241,13 @@
     "time": "3:15 AM"
    },
    {
+    "company": "MetLife",
+    "role": "Principal Architect - Finance Modernization & ERP Transformation",
+    "reason": "not-remote — Hybrid Hybrid role requiring at least 3 days per week in the Tampa office. workarounds tried: (1) employer's own MetLife careers search - no remote variant for this role; (2) alternate route Simplify - hybrid stated; (3) alternate posting - no remote repost found.",
+    "where": "Simplify",
+    "time": "3:38 AM"
+   },
+   {
     "company": "Johnson Controls",
     "role": "Enterprise Architect, Data Platform",
     "reason": "not-remote — This position follows a hybrid work model and requires regular in-office collaboration at our Glendale, WI location. workarounds tried: (1) employer's own careers site searched (site:jobs.johnsoncontrols.com) - no matching listing returned; (2) Simplify mirror full JD read; (3) alternate aggregations checked - same JD text.",
@@ -3734,6 +3752,15 @@
     "reason": "cloud-mismatch — 5+ years of experience with cloud application architecture and deployment best practices, with expertise in Google Cloud. Certified: Professional Google Cloud Architect, or willing to obtain in first year. workarounds tried: (1) employer's own ATS SmartRecruiters posting is the governing text - GCP-first; (2) alternate route - same req mirrors carry same GCP requirement; (3) alternate posting - McDonald's Principal Architect req checked separately as a distinct lead",
     "where": "jobs.smartrecruiters.com (McDonald's ATS)",
     "time": "3:29 AM"
+   }
+  ],
+  "Jobgether": [
+   {
+    "company": "Sentara Health Plans",
+    "role": "PRINCIPAL ENTERPRISE ARCHITECT - Clinical Systems",
+    "reason": "stale — Experience in Patient care, Clinical Support, Pharmacy and Revenue cycle management applications is required (e.g., Epic, PACS, Waystar etc.) Published: 2026-06-08",
+    "where": "Jobgether",
+    "time": "3:38 AM"
    }
   ],
   "Norfolk Southern careers": [
@@ -4333,15 +4360,6 @@
     "time": "2:48 AM"
    }
   ],
-  "Remote Rocketship / Accenture Federal Services careers": [
-   {
-    "company": "Accenture Federal Services",
-    "role": "Cloud Enterprise Architect",
-    "reason": "clearance — Must have an active Top Secret clearance",
-    "where": "Remote Rocketship / Accenture Federal Services careers",
-    "time": "12:54 AM"
-   }
-  ],
   "Remote Rocketship": [
    {
     "company": "Memorial Hermann",
@@ -4599,6 +4617,15 @@
     "time": "1:34 AM"
    }
   ],
+  "wantremote / Red Hat": [
+   {
+    "company": "Red Hat",
+    "role": "Senior Account Solution Architect",
+    "reason": "pay-outside-band — The salary range for this position is $172,020.00 - $275,360.00 (inclusive of base pay + target incentive compensation). workarounds tried: (1) employer's own Red Hat posting via wantremote mirror - same range; (2) alternate route search - same range; (3) alternate posting - no in-band variant found.",
+    "where": "wantremote / Red Hat",
+    "time": "3:38 AM"
+   }
+  ],
   "lvl100 (Travelers mirror)": [
    {
     "company": "The Travelers Companies",
@@ -4838,6 +4865,15 @@
     "reason": "pay-outside-band — Local Pay Range $180,000 — $247,500 USD | Strong coding proficiency in Python and SQL — you must demonstrate live coding, debugging, and solution-building skills. Top $247,500 exceeds $230,000 band ceiling. workarounds tried: (1) employer's own board text carried via JoRoute (governing); (2) alternate routes returned same FEQ128R74 range; (3) no alternate posting with different range found",
     "where": "joroute.com / Databricks board",
     "time": "3:34 AM"
+   }
+  ],
+  "openaibuzz / Greenhouse": [
+   {
+    "company": "NeuraFlash, Part of Accenture",
+    "role": "AWS Solution Architect",
+    "reason": "cloud-mismatch — Experience with hands-on Scripting/coding (e.g., python, java, c#, .NET, Node.js). Advanced knowledge of AWS services and cloud architecture. workarounds tried: (1) employer's own Greenhouse page linked in JD - same AWS-first role; (2) alternate route openaibuzz mirror - same JD; (3) alternate posting - no Azure variant found.",
+    "where": "openaibuzz / Greenhouse",
+    "time": "3:38 AM"
    }
   ]
  },
@@ -6024,5 +6060,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T09:37:53Z"
+ "lists_generated_at": "2026-11-19T09:39:10Z"
 }
