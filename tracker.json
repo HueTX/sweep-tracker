@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:37:42Z",
+ "generated_at": "2026-11-19T08:39:10Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:36:42Z",
+  "last_activity_at": "2026-11-19T08:38:28Z",
   "progress": {
    "pools": 21,
-   "covered_units": 196,
+   "covered_units": 228,
    "total_units": 754,
-   "pct": 26
+   "pct": 30
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,22 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 63,
-  "rejected": 247,
-  "evaluated": 310
+  "rejected": 250,
+  "evaluated": 313
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 310,
+  "evaluated": 313,
   "filed": 0,
   "parked": 63,
-  "rejected": 247,
+  "rejected": 250,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W7",
   "W2",
-  "W3",
-  "W4"
+  "W5",
+  "W6",
+  "W16"
  ],
  "lanes": {
   "LinkedIn": {
@@ -76,7 +77,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:37:42Z",
+   "heartbeat_at": "2026-11-19T08:39:10Z",
    "detail": "Titles 58/58"
   },
   "W1": {
@@ -98,51 +99,51 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:37:42Z",
+   "heartbeat_at": "2026-11-19T08:39:10Z",
    "detail": "Employers 5/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T08:37:42Z",
-   "detail": "Employers 5/73"
-  },
-  "W4": {
-   "label": "Healthcare Insurers",
-   "sites": 32,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T08:37:42Z",
-   "detail": "Employers 5/32"
-  },
-  "W5": {
-   "label": "Oil & Gas",
-   "sites": 44,
    "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 10/73"
+  },
+  "W4": {
+   "label": "Healthcare Insurers",
+   "sites": 32,
+   "phase": "queued",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": null,
+   "detail": "Employers 10/32"
+  },
+  "W5": {
+   "label": "Oil & Gas",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T08:39:10Z",
    "detail": "Employers 5/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:39:10Z",
    "detail": "Employers 5/44"
   },
   "W9": {
@@ -225,12 +226,12 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:39:10Z",
    "detail": "Employers 5/59"
   },
   "W17": {
@@ -305,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "25 of 632 units done",
+   "detail": "29 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -547,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:36 AM CT · 9 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:38 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1088,7 +1089,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 2,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 34,
@@ -1881,6 +1882,15 @@
     "reason": "experience-mismatch — Deep knowledge of Adobe Journey Optimizer, including orchestration, decisioning, and real-time personalization. workarounds tried: (1) employer CommonSpirit careers search - no Adobe-free variant of this role, (2) alternate routes DailyRemote and Ladders - same Adobe Journey Optimizer core, (3) no alternate posting with a different core found.",
     "where": "Remotive",
     "time": "2:32 AM"
+   }
+  ],
+  "CommonSpirit Careers": [
+   {
+    "company": "CommonSpirit Health",
+    "role": "IT Principal Solutions Architect - Barrow",
+    "reason": "not-remote — Job ID, 2026-472033, Employment Type, Full Time, Department, BNI Informatics, Shift, Day, Remote, No. Employer's own CommonSpirit careers page is the governing text - Remote: No for this Phoenix Barrow role. Workarounds tried: (1) employer's own page read in full, (2) no alternate remote posting of job 2026-472033 found, (3) no repost of this role as remote found.",
+    "where": "CommonSpirit Careers",
+    "time": "2:38 AM"
    }
   ],
   "CareerBuilder": [
@@ -3490,6 +3500,15 @@
     "time": "1:46 AM"
    }
   ],
+  "Google Jobs / Remoteworks": [
+   {
+    "company": "Emphasys PHA",
+    "role": "Systems Architect",
+    "reason": "hands-on-coding — C# and .NET: Hands-on expertise with C#. Must understand the migration landscape. JavaScript / TypeScript and at least one major frontend framework: Strong working knowledge of React or Angular. SQL Server: Expert-level understanding. The role's required profile is hands-on programming in C#/.NET and TypeScript as a core need. Workarounds tried: (1) full JD read on Remoteworks carrying Emphasys PHA's own text, same hands-on core, (2) no alternate posting of this role with an architecture-only core found, (3) no alternate route for this role found.",
+    "where": "Google Jobs / Remoteworks",
+    "time": "2:38 AM"
+   }
+  ],
   "Tallocate": [
    {
     "company": "Kyndryl",
@@ -3648,6 +3667,15 @@
     "reason": "not-remote — Onsite presence, on our South San Francisco campus, is expected for at least 3 days a week. — a stated required on-site schedule on the full JD; the same posting's range ($207,800 - $385,800) also tops above the $230,000 ceiling, and it requires 'Deep expertise with AWS (e.g., S3, Redshift, Glue, Athena, Lambda)'. Workarounds tried: (1) employer's own posting text via DiversityJobs full JD, (2) alternate routes carry the same Genentech role and terms, (3) no remote alternate posting found.",
     "where": "DiversityJobs (Genentech posting, full JD)",
     "time": "1:47 AM"
+   }
+  ],
+  "Google Jobs / CalOptima Careers": [
+   {
+    "company": "CalOptima Health",
+    "role": "MuleSoft Integration Architect (ITS Architect III)",
+    "reason": "not-remote — If telework is approved, you are required to work within the State of California only. This position is approved for Full Telework (If the position is Telework, it is eligible in California only). Hubert resides in Texas - California-only telework is not US remote for him. Workarounds tried: (1) employer's own PageUp careers page read in full - governing California-only text, (2) no alternate posting of job 494240 without the California restriction found, (3) no repost of this role as US remote found.",
+    "where": "Google Jobs / CalOptima Careers",
+    "time": "2:38 AM"
    }
   ]
  },
@@ -4834,5 +4862,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:37:42Z"
+ "lists_generated_at": "2026-11-19T08:39:10Z"
 }
