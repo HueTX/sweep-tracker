@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:30:08Z",
+ "generated_at": "2026-11-19T08:31:22Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:29:53Z",
+  "last_activity_at": "2026-11-19T08:31:24Z",
   "progress": {
    "pools": 21,
    "covered_units": 22,
@@ -27,20 +27,24 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 41,
-  "rejected": 232,
-  "evaluated": 273
+  "parked": 57,
+  "rejected": 233,
+  "evaluated": 290
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 273,
+  "evaluated": 290,
   "filed": 0,
-  "parked": 41,
-  "rejected": 232,
+  "parked": 57,
+  "rejected": 233,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2"
+  "W8",
+  "W2",
+  "W3",
+  "W4",
+  "W5"
  ],
  "lanes": {
   "LinkedIn": {
@@ -57,12 +61,12 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:31:22Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -95,40 +99,40 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:30:08Z",
+   "heartbeat_at": "2026-11-19T08:31:22Z",
    "detail": "Employers 0/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:31:22Z",
    "detail": "Employers 0/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:31:22Z",
    "detail": "Employers 0/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:31:22Z",
    "detail": "Employers 0/44"
   },
   "W6": {
@@ -307,8 +311,8 @@
    "ended_at": null
   },
   "sector_filing": {
-   "state": "pending",
-   "detail": "0 of 34 units done",
+   "state": "active",
+   "detail": "30 of 34 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -544,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:29 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:31 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -583,10 +587,10 @@
    "deadline": null,
    "where": "bcbsnc.wd5.myworkdayjobs.com",
    "winner_disposition_id": 14984,
-   "unit_id": 11585,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 13,
-   "last_attempt_at": "2026-11-19T04:38:24Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 14,
+   "last_attempt_at": "2026-11-19T08:31:00Z"
   },
   {
    "lead_id": 7094,
@@ -597,10 +601,10 @@
    "deadline": null,
    "where": "Blue Cross NC careers (Workday)",
    "winner_disposition_id": 14601,
-   "unit_id": 11584,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 14,
-   "last_attempt_at": "2026-11-19T04:38:25Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 15,
+   "last_attempt_at": "2026-11-19T08:31:01Z"
   },
   {
    "lead_id": 476,
@@ -611,10 +615,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 14376,
-   "unit_id": 11583,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 19,
-   "last_attempt_at": "2026-11-19T04:38:26Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 20,
+   "last_attempt_at": "2026-11-19T08:31:02Z"
   },
   {
    "lead_id": 1780,
@@ -624,11 +628,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "Workday",
-   "winner_disposition_id": 20355,
-   "unit_id": 11588,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 18,
-   "last_attempt_at": "2026-11-19T04:38:27Z"
+   "winner_disposition_id": 20892,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 19,
+   "last_attempt_at": "2026-11-19T08:31:03Z"
   },
   {
    "lead_id": 1865,
@@ -639,10 +643,10 @@
    "deadline": null,
    "where": "LinkedIn",
    "winner_disposition_id": 2119,
-   "unit_id": 11574,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 18,
-   "last_attempt_at": "2026-11-19T04:38:28Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 19,
+   "last_attempt_at": "2026-11-19T08:31:03Z"
   },
   {
    "lead_id": 1867,
@@ -652,11 +656,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "UKG UltiPro",
-   "winner_disposition_id": 20357,
-   "unit_id": 11589,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 18,
-   "last_attempt_at": "2026-11-19T04:38:29Z"
+   "winner_disposition_id": 20894,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 19,
+   "last_attempt_at": "2026-11-19T08:31:04Z"
   },
   {
    "lead_id": 1879,
@@ -667,10 +671,10 @@
    "deadline": null,
    "where": "LinkedIn",
    "winner_disposition_id": 2192,
-   "unit_id": 11575,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 19,
-   "last_attempt_at": "2026-11-19T04:38:30Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 20,
+   "last_attempt_at": "2026-11-19T08:31:05Z"
   },
   {
    "lead_id": 1882,
@@ -709,10 +713,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 2322,
-   "unit_id": 11576,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 19,
-   "last_attempt_at": "2026-11-19T04:38:31Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 20,
+   "last_attempt_at": "2026-11-19T08:31:06Z"
   },
   {
    "lead_id": 2313,
@@ -723,10 +727,10 @@
    "deadline": null,
    "where": "Vatica Health Workable ATS (apply.workable.com)",
    "winner_disposition_id": 18893,
-   "unit_id": 11586,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 17,
-   "last_attempt_at": "2026-11-19T04:38:32Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 18,
+   "last_attempt_at": "2026-11-19T08:31:07Z"
   },
   {
    "lead_id": 2339,
@@ -737,10 +741,10 @@
    "deadline": null,
    "where": "LinkedIn",
    "winner_disposition_id": 2761,
-   "unit_id": 11577,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 19,
-   "last_attempt_at": "2026-11-19T04:38:33Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 20,
+   "last_attempt_at": "2026-11-19T08:31:07Z"
   },
   {
    "lead_id": 2376,
@@ -750,11 +754,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20362,
-   "unit_id": 11590,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 19,
-   "last_attempt_at": "2026-11-19T04:38:34Z"
+   "winner_disposition_id": 20899,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 20,
+   "last_attempt_at": "2026-11-19T08:31:08Z"
   },
   {
    "lead_id": 2383,
@@ -764,11 +768,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20363,
-   "unit_id": 11591,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:35Z"
+   "winner_disposition_id": 20900,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:09Z"
   },
   {
    "lead_id": 2687,
@@ -778,11 +782,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20364,
-   "unit_id": 11592,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:36Z"
+   "winner_disposition_id": 20901,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:10Z"
   },
   {
    "lead_id": 2688,
@@ -792,11 +796,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20365,
-   "unit_id": 11593,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:37Z"
+   "winner_disposition_id": 20902,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:11Z"
   },
   {
    "lead_id": 2689,
@@ -806,11 +810,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20366,
-   "unit_id": 11594,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:38Z"
+   "winner_disposition_id": 20903,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:12Z"
   },
   {
    "lead_id": 2710,
@@ -821,10 +825,10 @@
    "deadline": null,
    "where": "TealHQ",
    "winner_disposition_id": 3222,
-   "unit_id": 11578,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:39Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:13Z"
   },
   {
    "lead_id": 2758,
@@ -834,11 +838,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20368,
-   "unit_id": 11595,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:40Z"
+   "winner_disposition_id": 20905,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:13Z"
   },
   {
    "lead_id": 2782,
@@ -849,10 +853,10 @@
    "deadline": null,
    "where": "LinkedIn",
    "winner_disposition_id": 3329,
-   "unit_id": 11579,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:41Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:14Z"
   },
   {
    "lead_id": 2828,
@@ -862,11 +866,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20370,
-   "unit_id": 11596,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:42Z"
+   "winner_disposition_id": 20907,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:15Z"
   },
   {
    "lead_id": 3860,
@@ -877,10 +881,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 4797,
-   "unit_id": 11580,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:43Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:16Z"
   },
   {
    "lead_id": 3864,
@@ -891,10 +895,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 4806,
-   "unit_id": 11581,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:44Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:17Z"
   },
   {
    "lead_id": 3959,
@@ -904,11 +908,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20373,
-   "unit_id": 11597,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:45Z"
+   "winner_disposition_id": 20910,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:18Z"
   },
   {
    "lead_id": 5447,
@@ -918,11 +922,11 @@
    "blocker": "code-blocked",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20374,
-   "unit_id": 11598,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:46Z"
+   "winner_disposition_id": 20911,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:18Z"
   },
   {
    "lead_id": 5462,
@@ -932,11 +936,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20375,
-   "unit_id": 11599,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:46Z"
+   "winner_disposition_id": 20912,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:19Z"
   },
   {
    "lead_id": 5826,
@@ -946,11 +950,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20376,
-   "unit_id": 11600,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:47Z"
+   "winner_disposition_id": 20913,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:20Z"
   },
   {
    "lead_id": 5900,
@@ -961,10 +965,10 @@
    "deadline": null,
    "where": "Employer sites",
    "winner_disposition_id": 8315,
-   "unit_id": 11582,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:48Z"
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:21Z"
   },
   {
    "lead_id": 6359,
@@ -974,11 +978,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20378,
-   "unit_id": 11601,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:49Z"
+   "winner_disposition_id": 20915,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:21Z"
   },
   {
    "lead_id": 6609,
@@ -988,11 +992,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": "W8",
-   "winner_disposition_id": 20379,
-   "unit_id": 11602,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:50Z"
+   "winner_disposition_id": 20916,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:22Z"
   },
   {
    "lead_id": 6812,
@@ -1002,11 +1006,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20380,
-   "unit_id": 11603,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:51Z"
+   "winner_disposition_id": 20917,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:23Z"
   },
   {
    "lead_id": 6991,
@@ -1016,11 +1020,11 @@
    "blocker": "credential-needed",
    "deadline": null,
    "where": null,
-   "winner_disposition_id": 20381,
-   "unit_id": 11604,
-   "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 20,
-   "last_attempt_at": "2026-11-19T04:38:56Z"
+   "winner_disposition_id": 20918,
+   "unit_id": null,
+   "unit_created_at": null,
+   "attempts": 21,
+   "last_attempt_at": "2026-11-19T08:31:24Z"
   },
   {
    "lead_id": 7258,
@@ -1033,8 +1037,8 @@
    "winner_disposition_id": 20382,
    "unit_id": 11605,
    "unit_created_at": "2026-11-19T08:28:47Z",
-   "attempts": 21,
-   "last_attempt_at": "2026-11-19T04:38:57Z"
+   "attempts": 22,
+   "last_attempt_at": "2026-11-19T08:31:25Z"
   },
   {
    "lead_id": 7836,
@@ -1088,7 +1092,7 @@
   "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 0,
+  "attempted_today": 32,
   "filed_today": 0
  }
 }
