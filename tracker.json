@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T08:33:34Z",
+ "generated_at": "2026-11-19T08:34:55Z",
  "lane_state_source": "model",
  "run": {
   "id": "75363eb8",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T08:28:47Z",
-  "last_activity_at": "2026-11-19T08:33:33Z",
+  "last_activity_at": "2026-11-19T08:34:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 112,
+   "covered_units": 148,
    "total_units": 754,
-   "pct": 15
+   "pct": 20
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 62,
-  "rejected": 238,
-  "evaluated": 300
+  "rejected": 241,
+  "evaluated": 303
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 300,
+  "evaluated": 303,
   "filed": 0,
   "parked": 62,
-  "rejected": 238,
+  "rejected": 241,
   "filed_by_source": {}
  },
  "searching_lanes": [
-  "W2"
+  "W7",
+  "W1",
+  "W2",
+  "W20"
  ],
  "lanes": {
   "LinkedIn": {
@@ -57,7 +60,7 @@
   "W8": {
    "label": "Web Catch-All",
    "sites": 0,
-   "phase": "queued",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
@@ -68,23 +71,23 @@
   "W7": {
    "label": "Google Jobs",
    "sites": 1,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:34:55Z",
    "detail": "Titles 58/58"
   },
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:34:55Z",
    "detail": "Employers 5/30"
   },
   "W2": {
@@ -95,7 +98,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T08:33:34Z",
+   "heartbeat_at": "2026-11-19T08:34:55Z",
    "detail": "Employers 0/39"
   },
   "W3": {
@@ -250,7 +253,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/45"
+   "detail": "Employers 5/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -261,17 +264,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 0/41"
+   "detail": "Employers 5/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T08:34:55Z",
    "detail": "Employers 0/31"
   }
  },
@@ -302,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "14 of 632 units done",
+   "detail": "19 of 632 units done",
    "started_at": "2026-11-19T08:28:47Z",
    "ended_at": null
   },
@@ -544,7 +547,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 2:33 AM CT · 3 workers in flight · 0 filed this cycle",
+ "note": "Last activity 2:34 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W2 · Title 1 of 58 · Azure Architect",
@@ -1085,7 +1088,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 34,
@@ -1917,6 +1920,20 @@
     "reason": "pay-outside-band — Applicable to US Applicants Only:The expected compensation range for this position is $188,251 - $230,084, which includes base pay plus variable incentive pay, if eligible. workarounds tried: (1) employer's own 3M careers posting mirrored on Ladders/Built In - same $230,084 top, $84 above the $230,000 ceiling, (2) alternate route Remote Rocketship - same role and terms, (3) no alternate posting found; core domain is also optical interconnect standards, outside Hubert's Azure/infrastructure experience",
     "where": "Ladders",
     "time": "12:10 AM"
+   },
+   {
+    "company": "RTX",
+    "role": "Senior Solutions IT Architect supporting Capacity Growth - Remote, Domestic US Locations",
+    "reason": "clearance — Active and transferable U.S. government issued security clearance is required prior to start date.",
+    "where": "Ladders",
+    "time": "2:34 AM"
+   },
+   {
+    "company": "REI Systems",
+    "role": "Chief Architect",
+    "reason": "not-remote — Location: Hybrid (2 days per week or as needed in the REI Sterling Office). workarounds tried: (1) employer's own JD text via Ladders full description, (2) alternate route Ladders job overview - Hybrid work location with flexibility, same Sterling office terms, (3) no alternate remote posting of this Chief Architect role found.",
+    "where": "Ladders",
+    "time": "2:34 AM"
    }
   ],
   "monster.com": [
@@ -3189,6 +3206,15 @@
     "reason": "not-remote — This position follows a hybrid work model, with an expectation to be in the office 3 days per week at the St. Petersburg, FL Corporate Office location. — a stated required in-office schedule, not fully remote; the role is also AWS-first ('Lead the architecture and implementation of AWS solutions for Financial Crimes applications'). Workarounds tried: (1) employer's own posting text via Ladders full JD (Published: 2026-08-01), (2) Dice Raymond James listings carry the same hybrid St. Petersburg terms, (3) no fully-remote alternate posting of this role found.",
     "where": "Ladders (Raymond James posting, full JD)",
     "time": "1:46 AM"
+   }
+  ],
+  "rvc.global": [
+   {
+    "company": "RTX",
+    "role": "CLM Architect",
+    "reason": "pay-outside-band — The salary range for this role is 157,200 USD - 298,800 USD. workarounds tried: (1) RTX JD text via the rvc.global vacancy mirror, (2) alternate RTX remote architect postings carry the same wide range pattern (132,400 USD - 251,600 USD), (3) no alternate posting of the CLM Architect role with an in-band range found.",
+    "where": "rvc.global",
+    "time": "2:34 AM"
    }
   ],
   "Employer sites": [
@@ -4747,5 +4773,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T08:33:34Z"
+ "lists_generated_at": "2026-11-19T08:34:55Z"
 }
