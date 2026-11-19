@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T01:25:37Z",
+ "generated_at": "2026-11-19T01:27:30Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
@@ -15,35 +15,35 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T01:24:09Z",
+  "last_activity_at": "2026-11-19T01:26:45Z",
   "progress": {
    "pools": 21,
-   "covered_units": 32,
+   "covered_units": 80,
    "total_units": 754,
-   "pct": 4
+   "pct": 11
   },
   "families_covered": 58,
   "families_total": 58
  },
  "counts": {
   "filed": 0,
-  "parked": 197,
-  "rejected": 1157,
-  "evaluated": 1354
+  "parked": 196,
+  "rejected": 1160,
+  "evaluated": 1356
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1354,
+  "evaluated": 1356,
   "filed": 0,
-  "parked": 197,
-  "rejected": 1157,
+  "parked": 196,
+  "rejected": 1160,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W3",
-  "W4",
-  "W5"
+  "W6",
+  "W16",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -65,7 +65,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:25:37Z",
+   "heartbeat_at": "2026-11-19T01:27:30Z",
    "detail": "Titles 58/58"
   },
   "W7": {
@@ -104,38 +104,27 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:25:37Z",
-   "detail": "Employers 0/73"
+   "heartbeat_at": null,
+   "detail": "Employers 5/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T01:25:37Z",
-   "detail": "Employers 0/32"
+   "heartbeat_at": null,
+   "detail": "Employers 5/32"
   },
   "W5": {
    "label": "Oil & Gas",
-   "sites": 44,
-   "phase": "searching",
-   "families_searched": 58,
-   "families_total": 58,
-   "current": null,
-   "current_family": null,
-   "heartbeat_at": "2026-11-19T01:25:37Z",
-   "detail": "Employers 0/44"
-  },
-  "W6": {
-   "label": "Utilities",
    "sites": 44,
    "phase": "queued",
    "families_searched": 58,
@@ -143,6 +132,17 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
+   "detail": "Employers 5/44"
+  },
+  "W6": {
+   "label": "Utilities",
+   "sites": 44,
+   "phase": "searching",
+   "families_searched": 58,
+   "families_total": 58,
+   "current": null,
+   "current_family": null,
+   "heartbeat_at": "2026-11-19T01:27:30Z",
    "detail": "Employers 0/44"
   },
   "W9": {
@@ -225,23 +225,23 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:27:30Z",
    "detail": "Employers 0/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T01:27:30Z",
    "detail": "Employers 0/54"
   },
   "W18": {
@@ -305,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "4 of 632 units done",
+   "detail": "10 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -547,18 +547,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 7:24 PM CT · 8 workers in flight · 0 filed this cycle",
+ "note": "Last activity 7:26 PM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W3 · Title 1 of 58 · Azure Architect",
+   "primary": "W6 · Title 1 of 58 · Azure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W3"
+   "pool": "W6"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 1 of 58 · Azure Architect",
+  "label": "W6",
+  "headline": "W6 · Title 1 of 58 · Azure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -1180,6 +1180,13 @@
     "reason": "title-not-covered — Lead enterprise-wide security architecture strategy - Define and govern security architecture across Cloud, AI, Application, Infrastructure, and Data domains, directly shaping the organization's digital transformation and innovation roadmap",
     "where": "Haystack",
     "time": "5:30 PM"
+   },
+   {
+    "company": "3Cloud",
+    "role": "Architect - Enterprise Solutions Architecture",
+    "reason": "cognizant-manual-only — Architect - Enterprise Solutions Architecture at 3Cloud - Remote - US. As an Architect, you build on your established domain expertise to lead solution architecture and delivery for modern, cloud-native applications on Azure. 3Cloud is a Cognizant arm — manual-only per standing exclusion; never PASS from the sweep.",
+    "where": "Haystack",
+    "time": "7:26 PM"
    }
   ],
   "Workday": [
@@ -1585,15 +1592,6 @@
     "reason": "title-not-covered — We are looking for someone with subject matter expertise in Enterprise Security Architecture Governance and industry standard Cyber Security frameworks, Cloud Computing, cloud architecture.",
     "where": "jobs.smartrecruiters.com",
     "time": "9:21 AM"
-   }
-  ],
-  "Haystack (Google Jobs surface)": [
-   {
-    "company": "3Cloud",
-    "role": "Architect - Enterprise Solutions Architecture",
-    "reason": "cognizant-manual-only — Architect - Enterprise Solutions Architecture at 3Cloud - Remote - US — 3Cloud is a Cognizant arm and manual-only per standing orders: parked cognizant-manual-only, never PASS. Base Salary Range $145,200 - $187,800 USD; the Haystack posting also states: This Job Posting will expire on Monday, November 16th, 2026.",
-    "where": "Haystack (Google Jobs surface)",
-    "time": "1:53 PM"
    }
   ],
   "Dice": [
@@ -2297,15 +2295,6 @@
     "reason": "not-evaluated — Domain Enterprise Architect- US Commercial, Teva Pharmaceuticals, Parsippany, NJ 07054. Full JD could not be opened from the listing surface; parked provisional, not evaluated.",
     "where": "AfricanAmericanJobsite (Teva listing)",
     "time": "5:49 AM"
-   }
-  ],
-  "Chevron Careers (employer page)": [
-   {
-    "company": "Chevron",
-    "role": "Principal Solution Architect",
-    "reason": "title-not-covered — The solution architect role involves designing and overseeing the implementation of homegrown and commercial off-the-shelf IT solutions using Microsoft Azure — the posting's real title (Principal Solution Architect) matches no title family in this W5 unit; parked as a fly-title, never force-fit. On Chevron's own careers page the role is located in Houston, Texas with no remote designation (applications through December 4th, 2026). Published 2026-11-13, req R000075003.",
-    "where": "Chevron Careers (employer page)",
-    "time": "1:53 PM"
    }
   ],
   "jobs.xcelenergy.com (employer page)": [
@@ -3544,6 +3533,20 @@
     "reason": "pay-outside-band — The salary for this role will range from $134,600 - $230,800 annually based on full-time employment. workarounds tried: (1) employer's own UnitedHealth Group/Optum posting route — the same published range appears across this req's surfaces (Built In full JD quoted, req 2390520); (2) alternate routes Built In / DiversityJobs / Career.io mirrors checked — same range; (3) alternate posting of the same role — none with an in-band range. Published top $230,800 exceeds the $230,000 band ceiling.",
     "where": "Built In",
     "time": "3:00 AM"
+   },
+   {
+    "company": "Optum",
+    "role": "Architect",
+    "reason": "experience-mismatch — Design reference architectures for LLM-based systems, including prompt orchestration, RAG (Retrieval-Augmented Generation), agent frameworks, and model integration patterns. Required: 1+ years of experience designing and implementing LLM-based solutions, including RAG, prompt orchestration, and agent-driven architectures; 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks. Core duties are AI/LLM solution architecture and Java software engineering — a core mismatch with Hubert's Azure infrastructure architecture experience. Workarounds tried: full JD opened on Built In carrying Optum's own posting text (Requisition Number: 2386731).",
+    "where": "Built In",
+    "time": "7:26 PM"
+   },
+   {
+    "company": "Optum",
+    "role": "Principal Architect - Enterprise Security",
+    "reason": "pay-outside-band — The salary for this role will range from $134,600 $230,800 annually based on full-time employment. Published top of range $230,800 exceeds the $230,000 band ceiling. Workarounds tried: full JD opened on Built In carrying UnitedHealth Group's own posting text (Requisition Number: 2380141); the published range is the employer's own figure.",
+    "where": "Built In",
+    "time": "7:26 PM"
    },
    {
     "company": "S&P Global",
@@ -10156,6 +10159,15 @@
     "time": "6:10 AM"
    }
   ],
+  "Chevron Careers": [
+   {
+    "company": "Chevron",
+    "role": "Principal Solution Architect",
+    "reason": "not-remote — Houston, Texas — R000075003. Chevron is accepting online applications for the position Principal Solution Architect through December 4th, 2026. The employer's own careers page lists Houston, Texas as the work location with no remote or telework provision anywhere in the posting, and Relocation will not be considered. Workarounds tried: (1) employer's own ATS posting on careers.chevron.com opened directly — governing text; (2) no alternate route changes the Houston on-site location.",
+    "where": "Chevron Careers",
+    "time": "7:26 PM"
+   }
+  ],
   "Kraft Heinz careers (employer own)": [
    {
     "company": "Kraft Heinz",
@@ -13084,5 +13096,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T01:25:37Z"
+ "lists_generated_at": "2026-11-19T01:27:30Z"
 }
