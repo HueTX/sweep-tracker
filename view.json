@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T18:16:24Z",
+ "generated_at": "2026-11-19T18:18:43Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": false
+   "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T18:12:30Z",
+  "last_activity_at": "2026-11-19T18:17:23Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,16 +27,16 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 160,
-  "rejected": 1168,
-  "evaluated": 1331
+  "parked": 159,
+  "rejected": 1172,
+  "evaluated": 1334
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1331,
+  "evaluated": 1334,
   "filed": 1,
-  "parked": 160,
-  "rejected": 1168,
+  "parked": 159,
+  "rejected": 1172,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
@@ -44,7 +44,6 @@
  "searching_lanes": [
   "W3",
   "W4",
-  "W5",
   "W6",
   "W16",
   "W17",
@@ -114,8 +113,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
-   "detail": "Employers 70/73"
+   "heartbeat_at": "2026-11-19T18:18:43Z",
+   "detail": "Employers 75/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -125,19 +124,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
-   "detail": "Employers 70/32"
+   "heartbeat_at": "2026-11-19T18:18:43Z",
+   "detail": "Employers 75/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": null,
+   "detail": "Employers 80/44"
   },
   "W6": {
    "label": "Utilities",
@@ -147,8 +146,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
-   "detail": "Employers 70/44"
+   "heartbeat_at": "2026-11-19T18:18:43Z",
+   "detail": "Employers 75/44"
   },
   "W9": {
    "label": "Dice",
@@ -235,7 +234,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
+   "heartbeat_at": "2026-11-19T18:18:43Z",
    "detail": "Employers 70/59"
   },
   "W17": {
@@ -246,7 +245,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
+   "heartbeat_at": "2026-11-19T18:18:43Z",
    "detail": "Employers 70/54"
   },
   "W18": {
@@ -257,7 +256,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T18:16:24Z",
+   "heartbeat_at": "2026-11-19T18:18:43Z",
    "detail": "Employers 70/45"
   },
   "W19": {
@@ -310,13 +309,13 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "180 of 632 units done",
+   "detail": "185 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
   "sector_filing": {
    "state": "active",
-   "detail": "34 of 35 units done",
+   "detail": "34 of 36 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -552,7 +551,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 12:12 PM CT · 15 workers in flight · 1 filed this cycle",
+ "note": "Last activity 12:17 PM CT · 15 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -582,6 +581,20 @@
   "updated_at": "2026-10-18T19:29:16.000Z"
  },
  "filer_queue": [
+  {
+   "lead_id": 5103,
+   "employer": "Highmark Health",
+   "title": "Lead Architect",
+   "status": "pass",
+   "blocker": null,
+   "deadline": null,
+   "where": "Highmark Health Workday (employer own ATS)",
+   "winner_disposition_id": 22570,
+   "unit_id": 12994,
+   "unit_created_at": "2026-11-19T18:17:23Z",
+   "attempts": 1,
+   "last_attempt_at": "2026-11-19T18:17:39Z"
+  },
   {
    "lead_id": 5499,
    "employer": "Blue Cross Blue Shield of North Carolina",
@@ -1078,11 +1091,11 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 2,
+  "candidates_open": 1,
   "verify_open": 5,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
-  "attempted_today": 104,
+  "attempted_today": 105,
   "filed_today": 1
  }
 }
