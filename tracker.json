@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T15:44:12Z",
+ "generated_at": "2026-11-19T15:46:42Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T15:40:45Z",
+  "last_activity_at": "2026-11-19T15:45:35Z",
   "progress": {
    "pools": 21,
-   "covered_units": 682,
+   "covered_units": 722,
    "total_units": 754,
-   "pct": 90
+   "pct": 96
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,19 +28,22 @@
  "counts": {
   "filed": 0,
   "parked": 146,
-  "rejected": 979,
-  "evaluated": 1126
+  "rejected": 982,
+  "evaluated": 1129
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1126,
+  "evaluated": 1129,
   "filed": 0,
   "parked": 146,
-  "rejected": 979,
+  "rejected": 982,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
+  "W2",
+  "W17",
+  "W18",
   "W19",
   "W20"
  ],
@@ -86,18 +89,18 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T15:44:12Z",
-   "detail": "Employers 25/30"
+   "heartbeat_at": "2026-11-19T15:46:42Z",
+   "detail": "Employers 30/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T15:46:42Z",
    "detail": "Employers 30/39"
   },
   "W3": {
@@ -235,23 +238,23 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T15:46:42Z",
    "detail": "Employers 25/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T15:46:42Z",
    "detail": "Employers 25/45"
   },
   "W19": {
@@ -262,8 +265,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T15:44:12Z",
-   "detail": "Employers 20/41"
+   "heartbeat_at": "2026-11-19T15:46:42Z",
+   "detail": "Employers 25/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -273,8 +276,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T15:44:12Z",
-   "detail": "Employers 15/31"
+   "heartbeat_at": "2026-11-19T15:46:42Z",
+   "detail": "Employers 25/31"
   }
  },
  "stages": {
@@ -304,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "78 of 632 units done",
+   "detail": "82 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -546,18 +549,18 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:40 AM CT · 7 workers in flight · 0 filed this cycle",
+ "note": "Last activity 9:45 AM CT · 9 workers in flight · 0 filed this cycle",
  "pill": [
   {
-   "primary": "W19 · Title 11 of 58 · Domain Architect",
+   "primary": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
    "detail": "Families covered 58/58",
-   "pool": "W19"
+   "pool": "W17"
   }
  ],
  "now_viewing": {
   "live": true,
-  "label": "W19",
-  "headline": "W19 · Title 11 of 58 · Domain Architect",
+  "label": "W17",
+  "headline": "W17 · Title 51 of 58 · Enterprise Infrastructure Architect",
   "detail": "Families covered 58/58"
  },
  "rules": {
@@ -2872,6 +2875,13 @@
     "reason": "not-remote — Live on DiversityJobs, crawled 2026-11-19 (undated on page; verdicted on merits as live). Remote is residency-restricted: 'Providence welcomes virtual work for applicants who reside within in one of the following states: Washington, Oregon, California' — Hubert is in Texas, excluded. Role is also PHP application-development core: '8 or more years of full life cycle application development experience', '6 or more years of experience building multi-tier applications'. Workarounds tried: Monster mirror (Req 397307) shows the same WA/OR/CA residency list, so no alternate route changes the verdict. Pay is location-based hourly ($58.58-$121.55/hr) and does not govern the verdict.",
     "where": "DiversityJobs",
     "time": "7:32 AM"
+   },
+   {
+    "company": "Federal Express Corporation",
+    "role": "Sr Enterprise Architect",
+    "reason": "experience-mismatch — Proven ability to design and implement an enterprise-level MFT platform, lead a team through its deployment, and manage the migration process. Extensive expertise in IBM Sterling B2Bi/SFG and Sterling Secure Proxy products. Proficiency in ITX Mapping, including experience with EDI X12, EDIFACT, and Any to Any mapping. Core is IBM Sterling MFT/EDI, not Azure cloud/infrastructure architecture. Workarounds tried: DiversityJobs mirror checked; FedEx searches surfaced no alternate posting of this req. Note: listing also carries an application deadline of April 25, 25.",
+    "where": "DiversityJobs",
+    "time": "9:45 AM"
    }
   ],
   "Built In": [
@@ -6458,6 +6468,13 @@
     "reason": "not-remote — Full-time New York, NY, USA In-person | AWS-first + Java core. workarounds tried: (1) employer's own ATS posting checked as governing text where available; (2) alternate route (mirror/ATS direct) reviewed; (3) no alternate posting of same role without the failing condition found.",
     "where": "Simplify Jobs",
     "time": "6:31 AM"
+   },
+   {
+    "company": "United Parcel Service",
+    "role": "Enterprise/Applications Architect",
+    "reason": "stale — Design, build, and deploy scalable, highly available, and fault-tolerant systems on Google Cloud Platform and Microsoft Azure. Full-time In-person. Posted on Jun 20, 2025 on Simplify Jobs, over 17 months before 2026-11-19, far outside the 7-day eligibility window. Workarounds tried: Simplify mirror checked; UPS searches surfaced no fresher repost of this req.",
+    "where": "Simplify Jobs",
+    "time": "9:45 AM"
    }
   ],
   "GovernmentJobs / King County": [
@@ -9284,6 +9301,13 @@
     "reason": "not-remote — This role will have a Hybrid work schedule, with the expectation of working in an office (Columbus, OH, Chicago, IL, Hartford, CT or Charlotte, NC) 3 days a week (Tuesday through Thursday). | workarounds tried: (1) employer's own ATS posting — the posting itself carries Hartford's own req code Business Architect - BS07GE with the identical hybrid term; (2) alternate route — Built In Chicago mirror opened in full, same terms; (3) alternate posting of the same role — none found with different terms.",
     "where": "Built In Chicago",
     "time": "1:32 AM"
+   },
+   {
+    "company": "VetsEZ (supporting Dept. of Veterans Affairs)",
+    "role": "Expert Enterprise Architect",
+    "reason": "stale — VetsEZ is seeking an Expert Enterprise Architect to provide technical leadership and enterprise-level architectural guidance in support of the Department of Veterans Affairs (VA). Fully Remote Role. This position requires U.S. citizenship and the ability to obtain and maintain a Public Trust clearance. Published 2026-05-10 on Built In Chicago, over 6 months before 2026-11-19, far outside the 7-day eligibility window. Workarounds tried: Built In mirror checked; VA-support searches surfaced no fresher repost of this req.",
+    "where": "Built In Chicago",
+    "time": "9:45 AM"
    }
   ],
   "Built In (Lilly posting text)": [
@@ -11148,5 +11172,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T15:44:12Z"
+ "lists_generated_at": "2026-11-19T15:46:42Z"
 }
