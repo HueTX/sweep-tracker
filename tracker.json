@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T11:41:05Z",
+ "generated_at": "2026-11-19T11:42:23Z",
  "lane_state_source": "model",
  "run": {
   "id": "e24196be",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-19T10:33:09Z",
-  "last_activity_at": "2026-11-19T11:40:54Z",
+  "last_activity_at": "2026-11-19T11:42:06Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,25 +28,18 @@
  "counts": {
   "filed": 0,
   "parked": 123,
-  "rejected": 642,
-  "evaluated": 765
+  "rejected": 644,
+  "evaluated": 767
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 765,
+  "evaluated": 767,
   "filed": 0,
   "parked": 123,
-  "rejected": 642,
+  "rejected": 644,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W6",
-  "W16",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -90,7 +83,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/30"
+   "detail": "Employers 115/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -101,7 +94,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/39"
+   "detail": "Employers 115/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -112,7 +105,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/73"
+   "detail": "Employers 115/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -123,7 +116,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/32"
+   "detail": "Employers 115/32"
   },
   "W5": {
    "label": "Oil & Gas",
@@ -134,18 +127,18 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 110/44"
+   "detail": "Employers 115/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/44"
+   "heartbeat_at": null,
+   "detail": "Employers 115/44"
   },
   "W9": {
    "label": "Dice",
@@ -227,57 +220,57 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/59"
+   "heartbeat_at": null,
+   "detail": "Employers 110/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/54"
+   "heartbeat_at": null,
+   "detail": "Employers 110/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/45"
+   "heartbeat_at": null,
+   "detail": "Employers 110/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/41"
+   "heartbeat_at": null,
+   "detail": "Employers 110/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T11:41:05Z",
-   "detail": "Employers 105/31"
+   "heartbeat_at": null,
+   "detail": "Employers 110/31"
   }
  },
  "stages": {
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "256 of 632 units done",
+   "detail": "268 of 632 units done",
    "started_at": "2026-11-19T10:33:09Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 5:40 AM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W6 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W6"
-  }
- ],
+ "note": "Last activity 5:42 AM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W6",
-  "headline": "W6 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -2896,6 +2883,13 @@
     "time": "5:10 AM"
    },
    {
+    "company": "Maricopa County",
+    "role": "Enterprise Architect (Infrastructure & Platform Domain)",
+    "reason": "closed — Posting Date, 05/29/26, Application Deadline, 06/12/26, Pay Range $117,000 - $178,000 annually",
+    "where": "Built In",
+    "time": "5:42 AM"
+   },
+   {
     "company": "North Carolina Department of Health and Human Services",
     "role": "Enterprise Architect",
     "reason": "not-remote — This Role Is Eligible To Be Hybrid And Requires Onsite Reporting Located Within Raleigh, NC workarounds tried: (1) Built In full JD (NC DHHS posting, Position Number 65023247), (2) Simplify Jobs alternate posting of the same NC DHHS IT Architect role (same hybrid/Raleigh language), (3) State of NC governmentjobs portal listing",
@@ -3034,6 +3028,13 @@
     "reason": "not-remote — This role is flexible in that you can work up to 50% from home.",
     "where": "Built In",
     "time": "4:54 AM"
+   },
+   {
+    "company": "Broadcom",
+    "role": "Lead Solutions Architect - VMware by Broadcom",
+    "reason": "not-remote — Lead Solutions Architect (UAE, Remote) -- workarounds tried: (1) Broadcom posting text via Built In shows UAE remote role, not US remote; (2) alternate route DailyRemote mirror same UAE, Remote listing; (3) no US-based alternate posting of same role found. US-only remote rule fails for UAE location.",
+    "where": "Built In",
+    "time": "5:41 AM"
    },
    {
     "company": "Molina Healthcare",
@@ -4442,13 +4443,125 @@
     "time": "5:33 AM"
    }
   ],
-  "Glassdoor (posting end date October-30-2026 also passed)": [
+  "Dice": [
    {
     "company": "Avangrid",
     "role": "Lead Cloud Architect",
-    "reason": "not-remote — Location: In Office , Orange CT, Boston MA",
-    "where": "Glassdoor (posting end date October-30-2026 also passed)",
-    "time": "3:19 AM"
+    "reason": "not-remote — Location: In Office, Orange CT, Boston MA #LI-Onsite -- workarounds tried: (1) employer/Iberdrola-Avangrid posting via Dice governing text shows In Office; (2) alternate route Glassdoor mirror same In Office Orange CT/Boston; (3) no alternate remote posting of same role found. Also Job Posting End Date: October-30-2026.",
+    "where": "Dice",
+    "time": "5:41 AM"
+   },
+   {
+    "company": "CVS Health",
+    "role": "Principal Cloud Architect",
+    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
+    "where": "Dice",
+    "time": "4:54 AM"
+   },
+   {
+    "company": "M&T Bank",
+    "role": "Enterprise Architect, AI & Intelligent Platforms",
+    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, NY, for one week per month. — workarounds tried: (1) Dice full JD, (2) GrabJobs alternate for the same role stating the same on-site presence requirement, (3) no fully remote alternate posting found; pay range $139,700.00 - $232,900.00 also tops above $230,000",
+    "where": "Dice",
+    "time": "3:15 AM"
+   },
+   {
+    "company": "General Dynamics",
+    "role": "Cloud Architect",
+    "reason": "clearance — Security Clearance Requirement: Active Secret clearance",
+    "where": "Dice",
+    "time": "2:48 AM"
+   },
+   {
+    "company": "State Street",
+    "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
+    "reason": "stale — Published: 2026-10-15T12:40:37.000Z — posting's own date is 35 days before 2026-11-19, outside the 7-day eligibility window; Salary Range: $120,000 - $202,500 Annual in Quincy, MA. Workarounds tried: (1) Dice full JD, (2) employer's own careers site referenced in the JD (StateStreet.com/careers), (3) no fresher repost of this req found",
+    "where": "Dice",
+    "time": "3:17 AM"
+   },
+   {
+    "company": "State of Utah",
+    "role": "Cloud Solutions Architect",
+    "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only) workarounds tried: (1) employer's own route via CAI/Dice posting for State of Utah UDOT, (2) alternate Dice posting of same req UTA-JB-00011, (3) Haystack mirror of same req - all state on-site, remote work not available",
+    "where": "Dice",
+    "time": "1:13 AM"
+   },
+   {
+    "company": "ADDSOURCE",
+    "role": "Enterprise Architect - Data & Digital Transformation",
+    "reason": "stale — We are seeking an experienced Enterprise Architect to lead enterprise-wide technology strategy, data modernization, and digital transformation initiatives across healthcare and payer ecosystems.",
+    "where": "Dice",
+    "time": "4:41 AM"
+   },
+   {
+    "company": "Fifth Third Bank",
+    "role": "Consulting Data/Database Architect",
+    "reason": "pay-outside-band — Total Base Pay Range 121,900.00 - 262,100.00 USD Annual",
+    "where": "Dice",
+    "time": "5:29 AM"
+   },
+   {
+    "company": "SAIC",
+    "role": "Solutions Architect Principal",
+    "reason": "pay-outside-band — Target salary range: $100,001 - $140,000. — top of the published range is below the $160,000 band floor. Workarounds tried: (1) employer's own SAIC posting searched for the same Job ID 2617962, (2) alternate Dice route for the same req, (3) no alternate posting with in-band pay found. Role was otherwise 100% remote Azure: 'This is a 100% Remote role.' / 'Proven track record of designing, deploying, and managing Azure infrastructure and services.'",
+    "where": "Dice",
+    "time": "2:29 AM"
+   },
+   {
+    "company": "Matson",
+    "role": "Technical Architect - Copilot",
+    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite) Job Type: Contract. Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) Dice listing for the Matson engagement read; onsite is intrinsic to the req; (2) no remote alternate posting found.",
+    "where": "Dice",
+    "time": "3:58 AM"
+   },
+   {
+    "company": "MD Anderson Cancer Center",
+    "role": "Software Integration Architect - ServiceNow Architect",
+    "reason": "experience-mismatch — At least 5 years as a ServiceNow developer, experience with ServiceNow's release cadence and upgrade planning (family releases, deprecated features), at least 2 years in an architect capacity — and 'ServiceNow platform architecture depth - proven experience designing solutions across multiple modules (ITSM, ITOM, ITBM, CSM, or HRSD depending on your stack)': the role's core is ServiceNow platform development and architecture, and Hubert's record carries no ServiceNow platform experience — a core mismatch (salary $146,500 - $219,500 is in band). Workarounds tried: (1) full JD read on Dice carrying MD Anderson's own JD text (Published: 2026-08-15), (2) MD Anderson's own careers site checked — its architect postings there for this cycle are closed, (3) no alternate posting of this role without the ServiceNow core found.",
+    "where": "Dice",
+    "time": "1:28 AM"
+   },
+   {
+    "company": "AMD",
+    "role": "Principal Infrastructure Architect",
+    "reason": "stale — AMD is looking for a Principal Infrastructure Architect to help shape the next generation of infrastructure supporting our AMD Instinct environment, global labs, and data centers.",
+    "where": "Dice",
+    "time": "12:04 AM"
+   },
+   {
+    "company": "Accenture",
+    "role": "Global Product Platform Engineering Technology Lead for Google Cloud Platform",
+    "reason": "cloud-mismatch — Deep technical expertise in Google Cloud Platform (Google Cloud Platform), particularly its data analytics, machine learning, and AI services. workarounds tried: (1) Accenture's own careers search returned no US posting for this title, (2) alternate route Dice full JD read, (3) alternate posting of the same role on Dice (Global Google Cloud Platform & ISVs Technology Lead) carries the same GCP-first scope.",
+    "where": "Dice",
+    "time": "3:44 AM"
+   },
+   {
+    "company": "Citigroup",
+    "role": "Cloud Engineering Lead - Senior Vice President",
+    "reason": "closed — Anticipated Posting Close Date: Nov 12, 2025",
+    "where": "Dice",
+    "time": "2:43 AM"
+   },
+   {
+    "company": "Leidos",
+    "role": "ServiceNow Platform Architect",
+    "reason": "pay-outside-band — Pay Range $131,300.00 - $237,350.00 | workarounds tried: (1) employer's own posting text via Dice full JD, (2) alternate board route searched, (3) no alternate posting with different pay found",
+    "where": "Dice",
+    "time": "4:41 AM"
+   },
+   {
+    "company": "Integral",
+    "role": "Data/Integration Architect",
+    "reason": "stale — The Data/Integration Architect provides enterprise-level data architecture and integration strategy across the Department of Veterans Affairs (VA), Office of Information and Technology (OIT)",
+    "where": "Dice",
+    "time": "4:43 AM"
+   },
+   {
+    "company": "HPTech Inc.",
+    "role": "Google Cloud Platform Architect",
+    "reason": "cloud-mismatch — We are looking for a senior-level architect with 15+ years of IT experience, strong expertise in Google Cloud Platform (Google Cloud Platform), and proven experience leading large-scale SAS to Google Cloud Platform migration and modernization initiatives.",
+    "where": "Dice",
+    "time": "4:43 AM"
    }
   ],
   "career.io / Spire careers mirror": [
@@ -4604,120 +4717,6 @@
     "reason": "pay-outside-band — For US based candidates only - the base salary for this position ranges from $148,200 - $307,800/year; a candidate's salary is determined by various factors including, but not limited to, relevant work experience, skills, certifications and location. — top $307,800 above $230,000 ceiling; role also requires programming (e.g,. Perl, Python, Go) capabilities to help prototype new product ideas",
     "where": "career.io",
     "time": "4:24 AM"
-   }
-  ],
-  "Dice": [
-   {
-    "company": "CVS Health",
-    "role": "Principal Cloud Architect",
-    "reason": "pay-outside-band — The typical pay range for this role is: $144,200.00 - $288,400.00",
-    "where": "Dice",
-    "time": "4:54 AM"
-   },
-   {
-    "company": "M&T Bank",
-    "role": "Enterprise Architect, AI & Intelligent Platforms",
-    "reason": "not-remote — This role requires on-site presence at our Seneca One Tech Hub in Buffalo, NY, for one week per month. — workarounds tried: (1) Dice full JD, (2) GrabJobs alternate for the same role stating the same on-site presence requirement, (3) no fully remote alternate posting found; pay range $139,700.00 - $232,900.00 also tops above $230,000",
-    "where": "Dice",
-    "time": "3:15 AM"
-   },
-   {
-    "company": "General Dynamics",
-    "role": "Cloud Architect",
-    "reason": "clearance — Security Clearance Requirement: Active Secret clearance",
-    "where": "Dice",
-    "time": "2:48 AM"
-   },
-   {
-    "company": "State Street",
-    "role": "Senior Solution Architect - AI & Cloud Systems, Vice President",
-    "reason": "stale — Published: 2026-10-15T12:40:37.000Z — posting's own date is 35 days before 2026-11-19, outside the 7-day eligibility window; Salary Range: $120,000 - $202,500 Annual in Quincy, MA. Workarounds tried: (1) Dice full JD, (2) employer's own careers site referenced in the JD (StateStreet.com/careers), (3) no fresher repost of this req found",
-    "where": "Dice",
-    "time": "3:17 AM"
-   },
-   {
-    "company": "State of Utah",
-    "role": "Cloud Solutions Architect",
-    "reason": "not-remote — Work Location: On-site – Calvin Rampton Building (remote work not available; Utah residents only) workarounds tried: (1) employer's own route via CAI/Dice posting for State of Utah UDOT, (2) alternate Dice posting of same req UTA-JB-00011, (3) Haystack mirror of same req - all state on-site, remote work not available",
-    "where": "Dice",
-    "time": "1:13 AM"
-   },
-   {
-    "company": "ADDSOURCE",
-    "role": "Enterprise Architect - Data & Digital Transformation",
-    "reason": "stale — We are seeking an experienced Enterprise Architect to lead enterprise-wide technology strategy, data modernization, and digital transformation initiatives across healthcare and payer ecosystems.",
-    "where": "Dice",
-    "time": "4:41 AM"
-   },
-   {
-    "company": "Fifth Third Bank",
-    "role": "Consulting Data/Database Architect",
-    "reason": "pay-outside-band — Total Base Pay Range 121,900.00 - 262,100.00 USD Annual",
-    "where": "Dice",
-    "time": "5:29 AM"
-   },
-   {
-    "company": "SAIC",
-    "role": "Solutions Architect Principal",
-    "reason": "pay-outside-band — Target salary range: $100,001 - $140,000. — top of the published range is below the $160,000 band floor. Workarounds tried: (1) employer's own SAIC posting searched for the same Job ID 2617962, (2) alternate Dice route for the same req, (3) no alternate posting with in-band pay found. Role was otherwise 100% remote Azure: 'This is a 100% Remote role.' / 'Proven track record of designing, deploying, and managing Azure infrastructure and services.'",
-    "where": "Dice",
-    "time": "2:29 AM"
-   },
-   {
-    "company": "Matson",
-    "role": "Technical Architect - Copilot",
-    "reason": "not-remote — Title: Technical Architect - Copilot Location: Walnut Creek, CA (Onsite) Job Type: Contract. Front-end technical discussions with Matson leadership and technical teams; act as the trusted onsite point of continuity. workarounds tried: (1) Dice listing for the Matson engagement read; onsite is intrinsic to the req; (2) no remote alternate posting found.",
-    "where": "Dice",
-    "time": "3:58 AM"
-   },
-   {
-    "company": "MD Anderson Cancer Center",
-    "role": "Software Integration Architect - ServiceNow Architect",
-    "reason": "experience-mismatch — At least 5 years as a ServiceNow developer, experience with ServiceNow's release cadence and upgrade planning (family releases, deprecated features), at least 2 years in an architect capacity — and 'ServiceNow platform architecture depth - proven experience designing solutions across multiple modules (ITSM, ITOM, ITBM, CSM, or HRSD depending on your stack)': the role's core is ServiceNow platform development and architecture, and Hubert's record carries no ServiceNow platform experience — a core mismatch (salary $146,500 - $219,500 is in band). Workarounds tried: (1) full JD read on Dice carrying MD Anderson's own JD text (Published: 2026-08-15), (2) MD Anderson's own careers site checked — its architect postings there for this cycle are closed, (3) no alternate posting of this role without the ServiceNow core found.",
-    "where": "Dice",
-    "time": "1:28 AM"
-   },
-   {
-    "company": "AMD",
-    "role": "Principal Infrastructure Architect",
-    "reason": "stale — AMD is looking for a Principal Infrastructure Architect to help shape the next generation of infrastructure supporting our AMD Instinct environment, global labs, and data centers.",
-    "where": "Dice",
-    "time": "12:04 AM"
-   },
-   {
-    "company": "Accenture",
-    "role": "Global Product Platform Engineering Technology Lead for Google Cloud Platform",
-    "reason": "cloud-mismatch — Deep technical expertise in Google Cloud Platform (Google Cloud Platform), particularly its data analytics, machine learning, and AI services. workarounds tried: (1) Accenture's own careers search returned no US posting for this title, (2) alternate route Dice full JD read, (3) alternate posting of the same role on Dice (Global Google Cloud Platform & ISVs Technology Lead) carries the same GCP-first scope.",
-    "where": "Dice",
-    "time": "3:44 AM"
-   },
-   {
-    "company": "Citigroup",
-    "role": "Cloud Engineering Lead - Senior Vice President",
-    "reason": "closed — Anticipated Posting Close Date: Nov 12, 2025",
-    "where": "Dice",
-    "time": "2:43 AM"
-   },
-   {
-    "company": "Leidos",
-    "role": "ServiceNow Platform Architect",
-    "reason": "pay-outside-band — Pay Range $131,300.00 - $237,350.00 | workarounds tried: (1) employer's own posting text via Dice full JD, (2) alternate board route searched, (3) no alternate posting with different pay found",
-    "where": "Dice",
-    "time": "4:41 AM"
-   },
-   {
-    "company": "Integral",
-    "role": "Data/Integration Architect",
-    "reason": "stale — The Data/Integration Architect provides enterprise-level data architecture and integration strategy across the Department of Veterans Affairs (VA), Office of Information and Technology (OIT)",
-    "where": "Dice",
-    "time": "4:43 AM"
-   },
-   {
-    "company": "HPTech Inc.",
-    "role": "Google Cloud Platform Architect",
-    "reason": "cloud-mismatch — We are looking for a senior-level architect with 15+ years of IT experience, strong expertise in Google Cloud Platform (Google Cloud Platform), and proven experience leading large-scale SAS to Google Cloud Platform migration and modernization initiatives.",
-    "where": "Dice",
-    "time": "4:43 AM"
    }
   ],
   "jobs.smartrecruiters.com": [
@@ -8379,5 +8378,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T11:41:05Z"
+ "lists_generated_at": "2026-11-19T11:42:23Z"
 }
