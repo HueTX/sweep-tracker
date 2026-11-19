@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T04:08:46Z",
+ "generated_at": "2026-11-19T04:10:59Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
   "kind": "cycle",
   "status": "running",
-  "state": "active",
+  "state": "idle",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": false
   },
-  "live": true,
+  "live": false,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T04:06:19Z",
+  "last_activity_at": "2026-11-19T04:10:50Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,26 +27,19 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 201,
-  "rejected": 1293,
-  "evaluated": 1494
+  "parked": 203,
+  "rejected": 1299,
+  "evaluated": 1502
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1494,
+  "evaluated": 1502,
   "filed": 0,
-  "parked": 201,
-  "rejected": 1293,
+  "parked": 203,
+  "rejected": 1299,
   "filed_by_source": {}
  },
- "searching_lanes": [
-  "W2",
-  "W3",
-  "W16",
-  "W17",
-  "W18",
-  "W19"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -95,24 +88,24 @@
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 214/39"
+   "heartbeat_at": null,
+   "detail": "Employers 218/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 215/73"
+   "heartbeat_at": null,
+   "detail": "Employers 220/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -227,46 +220,46 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 210/59"
+   "heartbeat_at": null,
+   "detail": "Employers 215/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 210/54"
+   "heartbeat_at": null,
+   "detail": "Employers 215/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 210/45"
+   "heartbeat_at": null,
+   "detail": "Employers 215/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T04:08:46Z",
-   "detail": "Employers 210/41"
+   "heartbeat_at": null,
+   "detail": "Employers 215/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -307,7 +300,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "480 of 632 units done",
+   "detail": "486 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -549,19 +542,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:06 PM CT · 6 workers in flight · 0 filed this cycle",
- "pill": [
-  {
-   "primary": "W16 · Title 1 of 58 · Azure Architect",
-   "detail": "Families covered 58/58",
-   "pool": "W16"
-  }
- ],
+ "note": "Last activity 10:10 PM CT · 0 workers in flight · 0 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W16",
-  "headline": "W16 · Title 1 of 58 · Azure Architect",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -1187,9 +1174,9 @@
    {
     "company": "Texas Children's Hospital",
     "role": "Sr. Data Security Architect",
-    "reason": "title-not-covered — The Senior Data Security Architect will serve as a subject matter expert for identity security, working across Information Security, Enterprise Architecture, Infrastructure, application teams, business stakeholders, and technology partners to ensure access is appropriately governed throughout the identity lifecycle.",
+    "reason": "title-not-covered — Provides senior technical and security leadership for enterprise identity, authentication, authorization, directory, and access-management capabilities. Published: 2026-11-05. Workplace Hybrid per Jooble mirror. Title matches no listed W3 family; parked per fly-title rule, not rejected for title.",
     "where": "Built In",
-    "time": "5:07 PM"
+    "time": "10:10 PM"
    },
    {
     "company": "Microsoft",
@@ -1666,6 +1653,13 @@
     "time": "5:56 AM"
    },
    {
+    "company": "NTT DATA",
+    "role": "Azure Cloud Solutions Architect",
+    "reason": "not-evaluated — We are currently seeking a Azure Cloud Solutions Architect - Remote in US to join our team in Chicago, Illinois (US-IL), United States (US). Full JD truncated on every Dice listing surface tried; full JD could not be read, verdict not guessed. Published range on listing USD 122,600.00 - 227,000.00 per year, Dice shows Today activity.",
+    "where": "Dice",
+    "time": "10:10 PM"
+   },
+   {
     "company": "3Cloud",
     "role": "Field CTO",
     "reason": "cognizant-manual-only — Set credible technology vision and multi-year transformation strategy that executives can fund, sequence, and govern. This Job Posting will expire on Monday, November 16th, 2026. 3Cloud is Cognizant-owned and manual-only per Hubert's standing rule - parked for manual handling, never PASS.",
@@ -2042,6 +2036,15 @@
     "time": "7:20 AM"
    }
   ],
+  "Mount Sinai careers": [
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Oracle HCM Cloud Technical Architect (Product Owner III)",
+    "reason": "title-not-covered — 5+ years supporting Oracle HCM Cloud environments. 3+ years implementing or supporting Oracle Learning Cloud. Provide hands-on development and configuration support for existing and future implementations of Oracle Fusion Cloud Applications. Title matches no listed W3 family; parked per fly-title rule, not rejected for title. Employer page Published: 2026-10-22, salary $103000 - $198065.",
+    "where": "Mount Sinai careers",
+    "time": "10:10 PM"
+   }
+  ],
   "Remotive": [
    {
     "company": "Mount Sinai Health System",
@@ -2126,20 +2129,13 @@
     "time": "8:02 AM"
    }
   ],
-  "talents.vaia.com": [
+  "Vaia": [
    {
     "company": "Tyson Foods",
     "role": "Global IT Network Architect",
-    "reason": "title-not-covered — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site. Title matches no listed title family (network architect) though duties are architect-level; parked per fly-title rule rather than rejected on title. Location Springdale, AR, on-site per JD.",
-    "where": "talents.vaia.com",
-    "time": "5:29 AM"
-   },
-   {
-    "company": "Cook County",
-    "role": "Technology and Infrastructure Architect - Bureau of Technology",
-    "reason": "title-not-covered — Lead and support Enterprise Architecture (EA) activities that guide the development and management of technical and infrastructure solutions.",
-    "where": "talents.vaia.com",
-    "time": "1:22 AM"
+    "reason": "title-not-covered — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. The role requires to be on-site. Title matches no listed W19 family; parked per fly-title rule, not rejected for title.",
+    "where": "Vaia",
+    "time": "10:10 PM"
    }
   ],
   "Jobgether": [
@@ -2456,6 +2452,15 @@
     "reason": "not-evaluated — Employer own board is Paylocity recruiting; searched Illumen Group careers/Paylocity listings 2026-11-18 - no Cloud Architect, Lead / USDA Rural Development posting found there; only Dice listing (contingent upon award) exists, employer page cannot be opened or confirmed",
     "where": "Dice (verify: employer own page not found)",
     "time": "6:54 AM"
+   }
+  ],
+  "talents.vaia.com": [
+   {
+    "company": "Cook County",
+    "role": "Technology and Infrastructure Architect - Bureau of Technology",
+    "reason": "title-not-covered — Lead and support Enterprise Architecture (EA) activities that guide the development and management of technical and infrastructure solutions.",
+    "where": "talents.vaia.com",
+    "time": "1:22 AM"
    }
   ],
   "Qualcomm careers": [
@@ -3194,6 +3199,20 @@
    },
    {
     "company": "DXC Technology",
+    "role": "Senior Data & AI Solution Architect",
+    "reason": "pay-outside-band — A reasonable estimate of the current compensation range for this position is $158,300 - $293,900. workarounds tried: (1) Built In full JD is the governing published range, (2) Career.io mirror shows same presales Data & AI role, (3) no alternate posting with a different range found",
+    "where": "Built In",
+    "time": "10:10 PM"
+   },
+   {
+    "company": "Flowserve",
+    "role": "Azure PaaS Solutions Architect",
+    "reason": "not-remote — The ideal candidate is located in either Houston or Dallas, TX, and is comfortable working on a hybrid mode. Published: 2025-07-13. workarounds tried: (1) Built In full JD, (2) employer mirrors identical hybrid requirement, (3) no remote alternate posting found",
+    "where": "Built In",
+    "time": "10:10 PM"
+   },
+   {
+    "company": "DXC Technology",
     "role": "Enterprise Architect",
     "reason": "clearance — Active DOD Secret Clearance required.",
     "where": "Built In",
@@ -3389,13 +3408,6 @@
     "time": "6:39 AM"
    },
    {
-    "company": "eBay",
-    "role": "Cloud Architect",
-    "reason": "cloud-mismatch — Design and implement robust, scalable, and secure cloud architectures using AWS",
-    "where": "Built In",
-    "time": "4:57 PM"
-   },
-   {
     "company": "Lockheed Martin",
     "role": "Enterprise Architect",
     "reason": "pay-outside-band — Full-time salary range (GEOZONE 1): $185400.00 - $344400.00 — every published GeoZone range tops above $230,000 (lowest GeoZone 4 top $247,900). Workarounds tried: (1) Lockheed posting text carried in full on Built In (governing ranges, Published: 2026-11-04), (2) alternate surfaces carry the same Lockheed GeoZone ranges, (3) no alternate posting of this role with an in-band range found.",
@@ -3440,9 +3452,9 @@
    {
     "company": "Chubb",
     "role": "Lead Solution Architect",
-    "reason": "stale — As a Lead Solution Architect on our North America Commercial Insurance Solution Architecture and Engineering team, you will turn complex business and insurance strategy into scalable, secure, and resilient technology solutions. Published 2026-10-28, outside 7-day eligibility. workarounds tried: (1) employer's own ATS posting (Chubb careers), (2) alternate route Built In full JD read, (3) alternate postings of same role — no fresher posting found",
+    "reason": "stale — Published: 2026-10-28. Experience with hands-on coding in a modern programming language, such as C#, Java, or Python",
     "where": "Built In",
-    "time": "8:33 AM"
+    "time": "10:10 PM"
    },
    {
     "company": "NTT DATA",
@@ -4437,6 +4449,13 @@
     "reason": "closed — Closing Date 11/8/2026 11:59 PM Mountain",
     "where": "CareerBuilder",
     "time": "8:05 PM"
+   },
+   {
+    "company": "Hormel Foods",
+    "role": "Business Solutions Architect",
+    "reason": "pay-outside-band — The base pay range for this position $98,100-$137,300 per year. LOCATION: Austin, MN Preferred, Eden Prairie, MN. workarounds tried: (1) CareerBuilder/Career.io full JD governing range, (2) mirrors identical, (3) no alternate posting with different range found",
+    "where": "CareerBuilder",
+    "time": "10:10 PM"
    }
   ],
   "houstonmethodistcareers.org": [
@@ -4553,13 +4572,6 @@
     "reason": "pay-outside-band — The base pay range for full-time employment is $160,513.60 - $238,409.60 annually. workarounds tried: (1) employer's own careers board searched for this title, (2) Monster and Glassdoor mirrors opened and show the same range, (3) no alternate posting with a different range found",
     "where": "Monster",
     "time": "9:50 PM"
-   },
-   {
-    "company": "Slalom",
-    "role": "Senior Cloud Architect (AWS Networking & Connectivity)",
-    "reason": "cloud-mismatch — We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions for large-scale enterprise environments. — AWS-first role (Amazon VPC, PrivateLink, AWS CDK); Azure excluded from the core. Full JD read on Monster (Slalom Flex project-based contract, Ref # 2425, posted 2026-10-19; contract range 100-120/hr would clear the contract floor, so cloud platform is the verdict). Workarounds tried: alternate surfaces carry the same AWS-networking JD; no Azure-led alternate posting found.",
-    "where": "Monster",
-    "time": "8:39 AM"
    },
    {
     "company": "Kraft Heinz",
@@ -6483,9 +6495,9 @@
    {
     "company": "NYU Langone Health",
     "role": "Cloud Enterprise Architect - Azure",
-    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually.",
+    "reason": "pay-outside-band — The salary range for the role is $213,477.55 - $240,240.00 Annually. Acts as the subject matter expert for Azure cloud services. workarounds tried: (1) full JD via DiversityJobs mirror of employer posting carries governing NY salary range, (2) Indeed/Glassdoor mirrors show same role, (3) no alternate posting with a different range found",
     "where": "DiversityJobs",
-    "time": "4:56 PM"
+    "time": "10:10 PM"
    },
    {
     "company": "Providence",
@@ -6779,6 +6791,13 @@
     "time": "6:29 AM"
    },
    {
+    "company": "eBay",
+    "role": "Cloud Architect",
+    "reason": "cloud-mismatch — Design and implement robust, scalable, and secure cloud architectures using AWS. Proven experience as a Cloud Architect or similar role, with a preferred focus on AWS. workarounds tried: (1) Simplify/Built In full JD for TCGplayer role is AWS-environment only, (2) mirrors identical, (3) no Azure variant of same req found",
+    "where": "Simplify",
+    "time": "10:10 PM"
+   },
+   {
     "company": "Cummins",
     "role": "IT Technical Architect - Senior",
     "reason": "not-remote — Note: The work location for this role is Pune, and candidates are required to work from the Pune office in a hybrid model. Workarounds tried: (1) employer JD text via Simplify mirror, (2) alternate surfaces same Pune hybrid text, (3) no US-remote alternate posting found.",
@@ -6809,9 +6828,16 @@
    {
     "company": "Johnson Controls",
     "role": "Enterprise Architect, Data Platform",
-    "reason": "not-remote — This position follows a hybrid work model and requires regular in-office collaboration at our Glendale, WI location.",
+    "reason": "not-remote — This position follows a hybrid work model and requires regular in-office collaboration at our Glendale, WI location. HIRING SALARY RANGE: $180,000-200,000. workarounds tried: (1) Simplify full JD, (2) employer careers mirrors show same hybrid Glendale role, (3) no remote alternate posting found",
     "where": "Simplify",
-    "time": "4:57 PM"
+    "time": "10:10 PM"
+   },
+   {
+    "company": "Johnson Controls",
+    "role": "AI Solution Architect",
+    "reason": "not-remote — Full-time In-person. Published: 2026-11-05. workarounds tried: (1) Simplify full JD confirms In-person, (2) Built In / employer mirrors show same role, (3) no remote alternate posting of same req found",
+    "where": "Simplify",
+    "time": "10:10 PM"
    },
    {
     "company": "Vertex Pharmaceuticals",
@@ -6896,6 +6922,13 @@
     "reason": "experience-mismatch — 7+ years of experience supporting FP&A, EPM, or enterprise planning platforms, including 5+ years of hands on Workday Adaptive Planning experience as an architect, lead administrator, or consultant. workarounds tried: (1) full JD on Simplify mirror, (2) alternate Aon listings checked, (3) no alternate posting changing core duties found",
     "where": "Simplify",
     "time": "5:38 PM"
+   },
+   {
+    "company": "The Travelers Companies",
+    "role": "Solution Architect - Policy Platforms",
+    "reason": "not-remote — Full-time Hartford, CT, USA In-person. Hands-on prototyping of new technology solutions. workarounds tried: (1) employer ATS mirror via Simplify/Built In full JD, (2) alternate Dice/Adzuna routes show same Hartford in-person role, (3) no alternate remote posting of same req found",
+    "where": "Simplify",
+    "time": "10:10 PM"
    }
   ],
   "Simplify (Enbridge JD mirror)": [
@@ -8093,6 +8126,13 @@
     "reason": "not-remote — Posting Details: Must Reside in Arizona. — also pay $90,000-$105,000 below band; workarounds tried: (1) full JD read on FlexJobs mirror of state posting",
     "where": "FlexJobs",
     "time": "12:35 AM"
+   },
+   {
+    "company": "NTT DATA",
+    "role": "Data Architect Lead Consultant",
+    "reason": "hands-on — Architect solutions using Microsoft Fabric and Azure, including SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, Lakehouse, and data warehouse technologies. 7+ years of Strong hands-on experience with SparkSQL, PySpark, Delta Tables. workarounds tried: (1) NTT Req 390182 full JD via FlexJobs, (2) Dice/FlexJobs mirrors carry identical PySpark duties, (3) no alternate posting of same req without PySpark core found",
+    "where": "FlexJobs",
+    "time": "10:10 PM"
    },
    {
     "company": "RGP - Resources Global Professionals",
@@ -9745,15 +9785,6 @@
     "time": "6:10 AM"
    }
   ],
-  "Dice/FlexJobs": [
-   {
-    "company": "NTT DATA",
-    "role": "Data Architect Lead Consultant",
-    "reason": "hands-on-coding — 7+ years of Strong hands-on experience with SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, SQL, and modern Lakehouse/data warehouse architectures. Architect solutions using Microsoft Fabric and Azure, including SparkSQL, PySpark, Delta Tables, Pipelines, Fabric Notebooks, Lakehouse — workarounds tried: (1) employer's own NTT DATA req 390182 text via Dice/FlexJobs mirrors, same PySpark core; (2) Dice listing shows Today activity for same req; (3) no alternate posting with different duties found",
-    "where": "Dice/FlexJobs",
-    "time": "12:51 PM"
-   }
-  ],
   "employer careers page": [
    {
     "company": "Experian",
@@ -10433,6 +10464,15 @@
     "time": "4:52 PM"
    }
   ],
+  "Slalom careers": [
+   {
+    "company": "Slalom",
+    "role": "Senior Cloud Architect (AWS Networking & Connectivity)",
+    "reason": "cloud-mismatch — Design and implement enterprise-scale AWS networking and connectivity architectures. We are seeking a Senior Cloud Architect to design and implement secure, scalable, and highly available AWS networking solutions. workarounds tried: (1) employer's own jobs.slalom.com posting is AWS-only, (2) Monster mirror identical, (3) no Azure variant of same req found",
+    "where": "Slalom careers",
+    "time": "10:10 PM"
+   }
+  ],
   "Teradata careers": [
    {
     "company": "Teradata",
@@ -11049,6 +11089,15 @@
     "reason": "not-remote — You will be required to report to an OPM assigned office. Workarounds tried: USAJobs announcement is the governing employer text; no remote variant of this GS-15 Enterprise Architect announcement found.",
     "where": "USAJobs / OPM",
     "time": "7:55 AM"
+   }
+  ],
+  "GovernmentJobs": [
+   {
+    "company": "City of Houston",
+    "role": "IT Architect - Applications (Responsible AI and Innovation)",
+    "reason": "not-remote — Reporting Location: 611 WALKER / 1200 TRAVIS. Workdays & Hours: MONDAY - FRIDAY, Office Hours. Published: 2026-10-19. workarounds tried: (1) employer's own governmentjobs.com posting governs - onsite Houston office, (2) Careers in Government mirror identical, (3) no remote alternate posting found",
+    "where": "GovernmentJobs",
+    "time": "10:10 PM"
    }
   ],
   "IHDA (Illinois state agency)": [
@@ -14135,5 +14184,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T04:08:46Z"
+ "lists_generated_at": "2026-11-19T04:10:59Z"
 }
