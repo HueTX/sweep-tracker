@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T16:16:42Z",
+ "generated_at": "2026-11-19T16:20:49Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-19T16:16:18Z",
+  "last_activity_at": "2026-11-19T16:20:10Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,21 +27,20 @@
  },
  "counts": {
   "filed": 0,
-  "parked": 147,
-  "rejected": 995,
-  "evaluated": 1143
+  "parked": 146,
+  "rejected": 1000,
+  "evaluated": 1146
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1143,
+  "evaluated": 1146,
   "filed": 0,
-  "parked": 147,
-  "rejected": 995,
+  "parked": 146,
+  "rejected": 1000,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W1",
-  "W17",
   "W18",
   "W19",
   "W20"
@@ -88,7 +87,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T16:16:42Z",
+   "heartbeat_at": "2026-11-19T16:20:49Z",
    "detail": "Employers 35/30"
   },
   "W2": {
@@ -237,13 +236,13 @@
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T16:16:42Z",
-   "detail": "Employers 35/54"
+   "heartbeat_at": null,
+   "detail": "Employers 40/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -253,7 +252,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T16:16:42Z",
+   "heartbeat_at": "2026-11-19T16:20:49Z",
    "detail": "Employers 30/45"
   },
   "W19": {
@@ -264,7 +263,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T16:16:42Z",
+   "heartbeat_at": "2026-11-19T16:20:49Z",
    "detail": "Employers 30/41"
   },
   "W20": {
@@ -275,7 +274,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T16:16:42Z",
+   "heartbeat_at": "2026-11-19T16:20:49Z",
    "detail": "Employers 30/31"
   }
  },
@@ -306,7 +305,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "100 of 632 units done",
+   "detail": "101 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -548,7 +547,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 10:16 AM CT · 11 workers in flight · 0 filed this cycle",
+ "note": "Last activity 10:20 AM CT · 7 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W18 · Title 1 of 58 · Azure Architect",
@@ -1088,8 +1087,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 1,
-  "verify_open": 3,
+  "candidates_open": 0,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 103,
@@ -1781,13 +1780,6 @@
     "company": "Peraton",
     "role": "Sr. AWS Cloud Architect",
     "reason": "title-not-covered — Peraton is seeking a Sr. AWS Cloud Architect to design, lead, and govern enterprise cloud architecture supporting mission-critical federal programs. This role defines the target-state cloud architecture across AWS (primary) and Azure (secondary)",
-    "where": "ClearanceJobs",
-    "time": "5:53 AM"
-   },
-   {
-    "company": "Oracle",
-    "role": "Cloud Architect-Forward Deployed Engineer (FDE)",
-    "reason": "title-not-covered — Forward Deployed Engineers build the solution, deploy it inside the customer's environment, and stay until it succeeds. This is a HYBRID position that involves a combination of remote, in-office work and meetings at the client site",
     "where": "ClearanceJobs",
     "time": "5:53 AM"
    }
@@ -4210,6 +4202,13 @@
     "reason": "not-remote — Canada - Fully Remote | Work from anywhere in Canada! Our team collaborates during Eastern Time business hours, so you'll need to align your schedule accordingly. For this role, the estimated annual base salary range is between $121,200.00 - $159,000.00 CAD. workarounds tried: (1) employer's own JD text carried in full on Ladders (governing text, published 2026-11-07, Canada-only); (2) alternate RVC route carried the same Canada - Fully Remote posting; (3) no US-remote posting of this role found",
     "where": "theladders.com",
     "time": "4:46 AM"
+   },
+   {
+    "company": "Cisco",
+    "role": "Staff Solutions Engineer - FDSE Public Sector - Splunk (Remote)",
+    "reason": "pay-outside-band — The starting salary range posted for this position is $246,800.00 to $327,200.00 and reflects the projected salary range for new hires in this position in U.S. and/or Canada locations. Top of the published range $327,200 exceeds the $230,000 band ceiling. Application window expected to close November 20, 2026; this role can be performed anywhere in the United States. Workarounds tried: Ladders mirror carrying the full Cisco JD; Cisco's own careers detail page not reached in this pass.",
+    "where": "theladders.com",
+    "time": "10:20 AM"
    }
   ],
   "Ladders": [
@@ -4893,6 +4892,13 @@
     "reason": "not-remote — Work mode Hybrid - workarounds tried: (1) employer search via web, (2) alternate route Haystack full JD, (3) no remote alternate posting found",
     "where": "haystackapp.io",
     "time": "4:20 AM"
+   },
+   {
+    "company": "IBM",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — Senior Solutions Architect, IBM Corporation, Armonk, NY and various unanticipated client sites throughout the US (Up to 100% telecommuting permitted). $180,812 to $247,200 per year. Published 2026-11-10, more than 7 days before 2026-11-19, so the posting is stale under the freshness law; pay top $247,200 also exceeds the $230,000 band ceiling. Workarounds tried: Haystack mirror carrying the full JD and IBM careers jobId 138214 reference; IBM's own careers detail page not reached in this pass.",
+    "where": "haystackapp.io",
+    "time": "10:20 AM"
    }
   ],
   "Recruit.net (CME Group posting mirror, full JD)": [
@@ -6197,6 +6203,15 @@
     "time": "3:08 AM"
    }
   ],
+  "jooble.org": [
+   {
+    "company": "Adobe",
+    "role": "Senior Enterprise Architect",
+    "reason": "pay-outside-band — The U.S. pay range for this position is $147,800 - $236,400 annually. In California, the pay range for this position is $163,200 - $236,400. Top of the published range $236,400 exceeds the $230,000 band ceiling. Workarounds tried: Adobe careers site search (only a filled Bangalore Martech role surfaced for the US Senior Enterprise Architect), Jobspresso mirror carrying the full JD, Jooble mirror carrying Adobe's own pay text, published 2026-11-17.",
+    "where": "jooble.org",
+    "time": "10:20 AM"
+   }
+  ],
   "FlexJobs": [
    {
     "company": "IBM",
@@ -7049,6 +7064,13 @@
     "reason": "stale — Chevron is accepting online applications for the position SAP MDG Senior Architect through 11/30/2026 at 11:59 p.m. (CST). Houston, Texas. Published: 2026-10-28. workarounds tried: (1) employer's own careers.chevron.com posting (governing text, R000071940, dated 2026-10-28); (2) alternate routes returned the same Houston SAP MDG posting; (3) no fresher repost of this role found within 7 days",
     "where": "careers.chevron.com",
     "time": "4:48 AM"
+   },
+   {
+    "company": "Chevron",
+    "role": "Principal Solution Architect",
+    "reason": "not-remote — Houston, Texas. R000075003. Relocation will not be considered. No remote or hybrid offer anywhere in the JD; the employer's Workday mirror likewise lists only Houston, Texas, Full time, with no remote/hybrid tag. Workarounds tried: employer's own careers page (governing text) plus Workday mirror. Prior cycles resolved this lead REJECTED and the engine refused a PASS as a cross-cycle flip; this record upholds the REJECTED verdict on the employer's own page.",
+    "where": "careers.chevron.com",
+    "time": "10:16 AM"
    }
   ],
   "The Muse": [
@@ -8136,6 +8158,15 @@
     "reason": "not-remote — Candidates that live within a commutable distance from our Tempe, AZ and St. Louis, MO home office locations are expected to work in the office four days per week effective June 1, 2026. workarounds tried: (1) full JD opened on ComputerJobs mirror of the Edward Jones posting, (2) employer's own careers site searched - same hybrid pattern on its other architect postings, (3) no remote alternate posting found",
     "where": "arizona.computerjobs.com",
     "time": "7:04 AM"
+   }
+  ],
+  "careers.oracle.com": [
+   {
+    "company": "Oracle",
+    "role": "Cloud Architect-Forward Deployed Engineer (FDE)",
+    "reason": "closed — This job is no longer available. (Oracle Careers detail page for Cloud Architect-Forward Deployed Engineer (FDE), job 349179, published 2026-11-06.)",
+    "where": "careers.oracle.com",
+    "time": "10:20 AM"
    }
   ],
   "opm.usajobs.gov": [
@@ -11278,5 +11309,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T16:16:42Z"
+ "lists_generated_at": "2026-11-19T16:20:49Z"
 }
