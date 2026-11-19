@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T05:15:51Z",
+ "generated_at": "2026-11-19T05:17:24Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -15,12 +15,12 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T05:15:06Z",
+  "last_activity_at": "2026-11-19T05:16:08Z",
   "progress": {
    "pools": 21,
-   "covered_units": 582,
+   "covered_units": 634,
    "total_units": 754,
-   "pct": 77
+   "pct": 84
   },
   "families_covered": 58,
   "families_total": 58
@@ -28,23 +28,23 @@
  "counts": {
   "filed": 0,
   "parked": 218,
-  "rejected": 1334,
-  "evaluated": 1552
+  "rejected": 1337,
+  "evaluated": 1555
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1552,
+  "evaluated": 1555,
   "filed": 0,
   "parked": 218,
-  "rejected": 1334,
+  "rejected": 1337,
   "filed_by_source": {}
  },
  "searching_lanes": [
   "W8",
-  "W17",
-  "W18",
-  "W19",
-  "W20"
+  "W1",
+  "W2",
+  "W3",
+  "W17"
  ],
  "lanes": {
   "LinkedIn": {
@@ -62,12 +62,12 @@
    "label": "Web Catch-All",
    "sites": 0,
    "phase": "searching",
-   "families_searched": 24,
+   "families_searched": 36,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T05:15:51Z",
-   "detail": "Titles 24/58"
+   "heartbeat_at": "2026-11-19T05:17:24Z",
+   "detail": "Titles 36/58"
   },
   "W7": {
    "label": "Google Jobs",
@@ -83,34 +83,34 @@
   "W1": {
    "label": "Federal Gov",
    "sites": 30,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T05:17:24Z",
    "detail": "Employers 25/30"
   },
   "W2": {
    "label": "State & Local Gov",
    "sites": 39,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T05:17:24Z",
    "detail": "Employers 25/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-19T05:17:24Z",
    "detail": "Employers 25/73"
   },
   "W4": {
@@ -238,45 +238,45 @@
    "label": "Technology",
    "sites": 54,
    "phase": "searching",
-   "families_searched": 30,
+   "families_searched": 40,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T05:15:51Z",
-   "detail": "Employers 15/54"
+   "heartbeat_at": "2026-11-19T05:17:24Z",
+   "detail": "Employers 20/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T05:15:51Z",
-   "detail": "Employers 20/45"
+   "heartbeat_at": null,
+   "detail": "Employers 25/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T05:15:51Z",
-   "detail": "Employers 20/41"
+   "heartbeat_at": null,
+   "detail": "Employers 25/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
    "sites": 31,
-   "phase": "searching",
-   "families_searched": 40,
+   "phase": "queued",
+   "families_searched": 50,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T05:15:51Z",
-   "detail": "Employers 20/31"
+   "heartbeat_at": null,
+   "detail": "Employers 25/31"
   }
  },
  "stages": {
@@ -306,7 +306,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "64 of 632 units done",
+   "detail": "70 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -548,7 +548,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 11:15 PM CT · 8 workers in flight · 0 filed this cycle",
+ "note": "Last activity 11:16 PM CT · 8 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 1 of 58 · Azure Architect",
@@ -4082,6 +4082,13 @@
     "reason": "pay-outside-band — The salary range for this position is $168,650.00 - $269,960.00 (inclusive of base pay + target incentive compensation). workarounds tried: (1) Red Hat posting via Built In full JD, (2) alternate mirrors - same range, (3) no alternate posting with different pay",
     "where": "Built In",
     "time": "9:45 PM"
+   },
+   {
+    "company": "Genworth",
+    "role": "Lead Network Engineer, Cloud",
+    "reason": "not-remote — This position is available to Virginia residents as Richmond, Virginia in-office applicants or remote applicants residing in states/locations. Maryland, North Carolina, Virginia, Washington DC or West Virginia — remote only in MD/NC/VA/DC/WV, Hubert is Texas-based, so not a US-anywhere remote role; role is also a hands-on network engineering role (Lead troubleshooting of complex cloud network issues). Workarounds tried: (1) Genworth JD read in full on Built In, same state restriction, (2) ITJobPro mirror carries the same REQ-260262 restriction, (3) no US-anywhere alternate posting of this req found.",
+    "where": "Built In",
+    "time": "11:16 PM"
    }
   ],
   "BuiltIn": [
@@ -7062,6 +7069,13 @@
     "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location. | workarounds tried: (1) employer JD via Career.io mirror, (2) no alternate remote posting of this role found, (3) no refreshed remote req found",
     "where": "Career.io",
     "time": "3:28 PM"
+   },
+   {
+    "company": "Apple",
+    "role": "Multi-Cloud Solutions Architect",
+    "reason": "pay-outside-band — The base pay range for this role is between $181,100 and $318,400 — published top $318,400 above the $230,000 ceiling. Workarounds tried: (1) Apple JD read in full on Career.io, same $181,100-$318,400 range, (2) Qureos mirror of Apple's posting carries the same range, (3) no alternate in-band posting of this role found. Role is San Francisco-based, not stated remote.",
+    "where": "Career.io",
+    "time": "11:16 PM"
    },
    {
     "company": "The Cigna Group",
@@ -13426,6 +13440,15 @@
     "where": "himalayas.app",
     "time": "11:00 PM"
    }
+  ],
+  "Experian Careers (employer page)": [
+   {
+    "company": "Experian",
+    "role": "Strategy Execution & Delivery Effectiveness Lead - Remote",
+    "reason": "experience-mismatch — Create high-quality, executive-ready slide decks, narratives, dashboards, and briefing materials for senior leadership, executive committees, and board-level audiences. — core of the role is portfolio delivery leadership and executive materials, not architecture design; no architecture duties as the core. Workarounds tried: (1) full JD read on Experian's own careers page (governing text, jid-5907), (2) alternate mirrors carry the same delivery-leadership JD, (3) no alternate posting of this role with an architecture core found. Flexible work environment, ability to work remote, hybrid or in-office — remote language itself passes; the experience core governs.",
+    "where": "Experian Careers (employer page)",
+    "time": "11:16 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -14608,5 +14631,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T05:15:51Z"
+ "lists_generated_at": "2026-11-19T05:17:24Z"
 }
