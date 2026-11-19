@@ -1,21 +1,21 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T03:24:00Z",
+ "generated_at": "2026-11-19T03:27:02Z",
  "lane_state_source": "model",
  "run": {
   "id": "b768de82",
   "kind": "cycle",
   "status": "running",
-  "state": "idle",
+  "state": "active",
   "activity": {
-   "searching": false,
+   "searching": true,
    "filing": false
   },
-  "live": false,
+  "live": true,
   "stalled": null,
   "started_at": "2026-11-19T01:19:48Z",
-  "last_activity_at": "2026-11-19T03:23:58Z",
+  "last_activity_at": "2026-11-19T03:25:51Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,25 @@
  "counts": {
   "filed": 0,
   "parked": 194,
-  "rejected": 1269,
-  "evaluated": 1463
+  "rejected": 1271,
+  "evaluated": 1465
  },
  "today": {
   "date": "2026-11-18",
-  "evaluated": 1463,
+  "evaluated": 1465,
   "filed": 0,
   "parked": 194,
-  "rejected": 1269,
+  "rejected": 1271,
   "filed_by_source": {}
  },
- "searching_lanes": [],
+ "searching_lanes": [
+  "W4",
+  "W5",
+  "W6",
+  "W16",
+  "W17",
+  "W18"
+ ],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -83,7 +90,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/30"
+   "detail": "Employers 140/30"
   },
   "W2": {
    "label": "State & Local Gov",
@@ -94,7 +101,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/39"
+   "detail": "Employers 140/39"
   },
   "W3": {
    "label": "Healthcare Providers",
@@ -105,40 +112,40 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 135/73"
+   "detail": "Employers 140/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
    "sites": 32,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/32"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/32"
   },
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/44"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/44"
   },
   "W6": {
    "label": "Utilities",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/44"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/44"
   },
   "W9": {
    "label": "Dice",
@@ -220,35 +227,35 @@
   "W16": {
    "label": "Financial Services",
    "sites": 59,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/59"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/59"
   },
   "W17": {
    "label": "Technology",
    "sites": 54,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/54"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 130/45"
+   "heartbeat_at": "2026-11-19T03:27:02Z",
+   "detail": "Employers 135/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
@@ -259,7 +266,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 130/41"
+   "detail": "Employers 135/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -270,7 +277,7 @@
    "current": null,
    "current_family": null,
    "heartbeat_at": null,
-   "detail": "Employers 130/31"
+   "detail": "Employers 135/31"
   }
  },
  "stages": {
@@ -300,7 +307,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "309 of 632 units done",
+   "detail": "320 of 632 units done",
    "started_at": "2026-11-19T01:19:48Z",
    "ended_at": null
   },
@@ -542,13 +549,19 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:23 PM CT · 0 workers in flight · 0 filed this cycle",
- "pill": [],
+ "note": "Last activity 9:25 PM CT · 6 workers in flight · 0 filed this cycle",
+ "pill": [
+  {
+   "primary": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+   "detail": "Families covered 58/58",
+   "pool": "W4"
+  }
+ ],
  "now_viewing": {
-  "live": false,
-  "label": "",
-  "headline": "",
-  "detail": ""
+  "live": true,
+  "label": "W4",
+  "headline": "W4 · Title 31 of 58 · Cloud Engineering Lead",
+  "detail": "Families covered 58/58"
  },
  "rules": {
   "follow_all": false,
@@ -1077,7 +1090,7 @@
  },
  "funnel": {
   "candidates_open": 0,
-  "verify_open": 1,
+  "verify_open": 0,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 252,
@@ -4595,6 +4608,13 @@
     "reason": "stale — Published: 2026-11-07T10:09",
     "where": "simplify.jobs",
     "time": "8:30 PM"
+   },
+   {
+    "company": "Fidelity Investments",
+    "role": "Senior Technical Solutions Architect",
+    "reason": "not-remote — Current work authorization for Canada is required for all openings. Fidelity Clearing Canada (FCC) role - Canada-based, outside US-only scope. workarounds tried: (1) Simplify full JD read, (2) no US variant of same req found",
+    "where": "simplify.jobs",
+    "time": "9:25 PM"
    }
   ],
   "Ladders full JD (workarounds tried: (1) employer's own careers via search, (2) alternate route Ladders, (3) no in-band alternate posting found)": [
@@ -6093,6 +6113,20 @@
     "time": "9:23 PM"
    },
    {
+    "company": "DTE Energy",
+    "role": "IT Specialist - Enterprise Architect",
+    "reason": "not-remote — Hybrid Role: This role is hybrid, with an established schedule of in-person work required at an assigned work location. workarounds tried: (1) full JD read on diversityjobs/mitalent, (2) no remote variant of same req found",
+    "where": "diversityjobs.com",
+    "time": "9:25 PM"
+   },
+   {
+    "company": "CareSource",
+    "role": "Clinical Systems Application Architect III",
+    "reason": "experience-mismatch — Experience with Clinical IT, Utilization Management, Case Management, and Complex Care Coordination, Grievance and Appeals. Experience in implementing or integrating with Care Management packages like GuidingCare (HealthEdge), Jiva (ZeOmega), Aerial (medecision). GuidingCare experience preferred. Core is clinical care-management systems; Hubert has 0 healthcare industry years. workarounds tried: (1) full JD read on diversityjobs, (2) no non-clinical CareSource architect posting found",
+    "where": "diversityjobs.com",
+    "time": "9:25 PM"
+   },
+   {
     "company": "Intercontinental Exchange",
     "role": "Architect, Systems Engineering",
     "reason": "pay-outside-band — The expected base salary for this role, if located in Illinois, is between $180,000 and $252,000 USD. — workarounds tried: (1) employer's own ICE posting text mirrored on diversityjobs/Monster; (2) Monster Lead Engineer ISA listing checked; (3) no alternate posting changes the published top",
@@ -6374,20 +6408,6 @@
     "reason": "experience-mismatch — Minimum of ten (10+) years of experience in data architecture, data management, or related roles, preferably in the oil and gas industry workarounds tried: (1) employer's own Diamondback posting text via DiversityJobs mirror (governing text, this page, Workday external site), (2) alternate routes searched for same role, (3) no alternate posting of same role found; JD core is data modeling, ETL/ELT and data warehousing, not Hubert's Azure/infrastructure EA core",
     "where": "DiversityJobs",
     "time": "7:19 AM"
-   },
-   {
-    "company": "DTE Energy",
-    "role": "IT Specialist - Enterprise Architect",
-    "reason": "not-remote — This role is hybrid, with an established schedule of in-person work required at an assigned work location. workarounds tried: (1) employer JD text via mirror read in full, (2) alternate search for a remote DTE enterprise architect posting found none, (3) no alternate posting found",
-    "where": "DiversityJobs",
-    "time": "12:15 PM"
-   },
-   {
-    "company": "CareSource",
-    "role": "Clinical Systems Application Architect III",
-    "reason": "experience-mismatch — Experience with Clinical IT, Utilization Management, Case Management, and Complex Care Coordination, Grievance and Appeals. Experience in implementing or integrating with Care Management packages like GuidingCare (HealthEdge), Jiva (ZeOmega), Aerial (medecision), Medhok. GuidingCare experience preferred. | workarounds tried: (1) employer posting via DiversityJobs mirror of CareSource JD, (2) no alternate route for same req found, (3) no alternate posting of this role found",
-    "where": "DiversityJobs",
-    "time": "3:28 PM"
    },
    {
     "company": "CareSource",
@@ -7050,6 +7070,13 @@
     "reason": "pay-outside-band — Base Pay Range: $165,000/yr - $255,000/yr — workarounds tried: (1) full JD read on Dice detail page; (2) alternate Dice city listings for the same role show the same $165,000-$255,000 range and Hybrid locations; (3) no alternate posting with a different pay range found; anticipated posting end date 2026-11-02 also passed",
     "where": "dice.com",
     "time": "4:43 PM"
+   },
+   {
+    "company": "Alaska Airlines",
+    "role": "Principal Software Engineer",
+    "reason": "hands-on — The Principal Software Engineer is the lead subject matter expert in full-stack software engineering and digital experience at Alaska Air Group. Architects, engineers, tests, and releases highly scalable and maintainable complex, end-to-end custom software applications. Engineer-level hands-on software role, Seattle - Hub location. workarounds tried: (1) Dice full JD read, (2) no architect-level Alaska posting in scope found",
+    "where": "dice.com",
+    "time": "9:25 PM"
    },
    {
     "company": "GovCIO",
@@ -13889,5 +13916,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T03:24:00Z"
+ "lists_generated_at": "2026-11-19T03:27:02Z"
 }
