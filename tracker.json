@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-19T07:40:44Z",
+ "generated_at": "2026-11-19T07:41:54Z",
  "lane_state_source": "model",
  "run": {
   "id": "7d0770c4",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T04:34:23Z",
-  "last_activity_at": "2026-11-19T07:40:43Z",
+  "last_activity_at": "2026-11-19T07:41:19Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,18 +28,19 @@
  "counts": {
   "filed": 0,
   "parked": 35,
-  "rejected": 162,
-  "evaluated": 197
+  "rejected": 163,
+  "evaluated": 198
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 197,
+  "evaluated": 198,
   "filed": 0,
   "parked": 35,
-  "rejected": 162,
+  "rejected": 163,
   "filed_by_source": {}
  },
  "searching_lanes": [
+  "W3",
   "W5",
   "W6",
   "W16",
@@ -106,13 +107,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
-   "detail": "Employers 280/73"
+   "heartbeat_at": "2026-11-19T07:41:54Z",
+   "detail": "Employers 290/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -133,7 +134,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
+   "heartbeat_at": "2026-11-19T07:41:54Z",
    "detail": "Employers 259/44"
   },
   "W6": {
@@ -144,7 +145,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
+   "heartbeat_at": "2026-11-19T07:41:54Z",
    "detail": "Employers 259/44"
   },
   "W9": {
@@ -232,8 +233,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
-   "detail": "Employers 275/59"
+   "heartbeat_at": "2026-11-19T07:41:54Z",
+   "detail": "Employers 285/59"
   },
   "W17": {
    "label": "Technology",
@@ -243,8 +244,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
-   "detail": "Employers 270/54"
+   "heartbeat_at": "2026-11-19T07:41:54Z",
+   "detail": "Employers 280/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
@@ -254,7 +255,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
+   "heartbeat_at": "2026-11-19T07:41:54Z",
    "detail": "Employers 265/45"
   },
   "W19": {
@@ -265,7 +266,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-19T07:40:44Z",
+   "heartbeat_at": "2026-11-19T07:41:54Z",
    "detail": "Employers 241/41"
   },
   "W20": {
@@ -307,7 +308,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "565 of 632 units done",
+   "detail": "571 of 632 units done",
    "started_at": "2026-11-19T04:34:23Z",
    "ended_at": null
   },
@@ -549,7 +550,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 1:40 AM CT · 6 workers in flight · 0 filed this cycle",
+ "note": "Last activity 1:41 AM CT · 12 workers in flight · 0 filed this cycle",
  "pill": [
   {
    "primary": "W6 · Title 51 of 58 · Enterprise Infrastructure Architect",
@@ -1578,6 +1579,22 @@
     "time": "1:04 AM"
    }
   ],
+  "builtinboston.com": [
+   {
+    "company": "Zscaler",
+    "role": "Principal Strategy Architect",
+    "reason": "pay-outside-band — workarounds tried: (1) employer own careers search - same range confirmed across mirrors startup.jobs, BuiltIn NYC and Jobgether all carrying $199,500-$285,000, (2) alternate routes listed, (3) no alternate posting with a different range found. Base Pay Range $199,500 — $285,000 USD",
+    "where": "builtinboston.com",
+    "time": "1:41 AM"
+   },
+   {
+    "company": "Atlassian",
+    "role": "Senior Enterprise Technical Architect",
+    "reason": "stale — workarounds tried: (1) employer own careers search - no fresh posting found, (2) alternate routes BuiltIn SF/Austin and Simplify showing same title with 2025 dates, (3) no refreshed repost within 7 days found. Published: 2025-10-26",
+    "where": "builtinboston.com",
+    "time": "1:40 AM"
+   }
+  ],
   "usajobs.gov": [
    {
     "company": "FDIC",
@@ -2077,15 +2094,6 @@
     "reason": "pay-outside-band — $143,700 - $244,700 a year; Be an AWS evangelist by educating a variety of customers on the value of AWS; Must have hand-on experience writing IaC (Cloudformation, Terraform,CDK), Bash and Python scripting. workarounds tried: Rackspace posting text via diversityjobs mirror",
     "where": "diversityjobs (Rackspace posting text)",
     "time": "1:34 AM"
-   }
-  ],
-  "builtinboston.com": [
-   {
-    "company": "Atlassian",
-    "role": "Senior Enterprise Technical Architect",
-    "reason": "stale — workarounds tried: (1) employer own careers search - no fresh posting found, (2) alternate routes BuiltIn SF/Austin and Simplify showing same title with 2025 dates, (3) no refreshed repost within 7 days found. Published: 2025-10-26",
-    "where": "builtinboston.com",
-    "time": "1:40 AM"
    }
   ],
   "theladders.com": [
@@ -3919,5 +3927,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-19T07:40:44Z"
+ "lists_generated_at": "2026-11-19T07:41:54Z"
 }
