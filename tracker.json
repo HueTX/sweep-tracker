@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-20T03:30:07Z",
+ "generated_at": "2026-11-20T03:31:21Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -9,13 +9,13 @@
   "status": "running",
   "state": "active",
   "activity": {
-   "searching": true,
+   "searching": false,
    "filing": true
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-20T03:09:41Z",
+  "last_activity_at": "2026-11-20T03:31:07Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,22 +28,20 @@
  "counts": {
   "filed": 1,
   "parked": 201,
-  "rejected": 1536,
-  "evaluated": 1739
+  "rejected": 1541,
+  "evaluated": 1744
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1739,
+  "evaluated": 1744,
   "filed": 1,
   "parked": 201,
-  "rejected": 1536,
+  "rejected": 1541,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
  },
- "searching_lanes": [
-  "W3"
- ],
+ "searching_lanes": [],
  "lanes": {
   "LinkedIn": {
    "label": "LinkedIn",
@@ -103,13 +101,13 @@
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "done",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T03:30:07Z",
-   "detail": "Employers 433/73"
+   "heartbeat_at": null,
+   "detail": "Employers 438/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -303,10 +301,10 @@
    "ended_at": null
   },
   "sector_search": {
-   "state": "active",
-   "detail": "631 of 632 units done",
+   "state": "done",
+   "detail": "632 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
-   "ended_at": null
+   "ended_at": "2026-11-20T03:31:18Z"
   },
   "sector_filing": {
    "state": "active",
@@ -546,19 +544,13 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 9:09 PM CT · 2 workers in flight · 1 filed this cycle",
- "pill": [
-  {
-   "primary": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-   "detail": "Families covered 58/58",
-   "pool": "W3"
-  }
- ],
+ "note": "Last activity 9:31 PM CT · 1 workers in flight · 1 filed this cycle",
+ "pill": [],
  "now_viewing": {
-  "live": true,
-  "label": "W3",
-  "headline": "W3 · Title 31 of 58 · Cloud Engineering Lead",
-  "detail": "Families covered 58/58"
+  "live": false,
+  "label": "",
+  "headline": "",
+  "detail": ""
  },
  "rules": {
   "follow_all": false,
@@ -3993,6 +3985,13 @@
     "reason": "experience-mismatch — the Architect will define and own the end-to-end architecture for AI-enabled and Generative AI solutions; Design reference architectures for LLM-based systems, including prompt orchestration, Retrieval-Augmented Generation [RAG], and agent frameworks; Required: 6+ years of experience working with Java, Spring Boot, Microservices, Kafka, APIs, Azure Cloud, Databricks — core duties are hands-on LLM/RAG product engineering in Java, not Azure infrastructure/enterprise architecture. workarounds tried: (1) employer's own UnitedHealth Group/Optum req 2386731 text mirrored verbatim on Built In, read in full, (2) no alternate posting of this req with different duties found.",
     "where": "Built In",
     "time": "4:51 AM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Associate Director, Lead Cloud Architect",
+    "reason": "stale — The Associate Director (Lead Cloud Architect) is an open position for core technical leadership role and a 100% focused on architecting, developing, and automating the most critical components of our AWS Cloud Platform and application delivery pipeline. This role requires at least 10 years of hands-on experience in application development. Published: 2026-07-17",
+    "where": "Built In",
+    "time": "9:30 PM"
    },
    {
     "company": "Roche / Genentech",
@@ -13359,6 +13358,13 @@
     "reason": "not-remote — #LI-Hybrid This role is based in Cambridge, Massachusetts. Novartis is unable to offer relocation support for this role — a stated hybrid, site-based schedule on the employer's own page, not fully remote. Workarounds tried: (1) employer's own novartis.com posting (governing text, REQ-10080418, dated June 11, 2026), (2) alternate routes carry the same Cambridge hybrid posting, (3) no remote alternate posting of this role found. The same page also publishes salary up to $283,400, above the $230,000 ceiling.",
     "where": "Novartis careers (employer page)",
     "time": "1:45 AM"
+   },
+   {
+    "company": "Novartis",
+    "role": "Associate Director, Enterprise IT Infrastructure Security",
+    "reason": "not-remote — Internal Job Title: Assoc. Dir. DDIT ISC Enterprise IT Infra Security #LI-Hybrid Primary Location: Israel Other Locations: Barcelona, Spain; Prague, Czech Republic Relocation Support: This role is based in Israel. Novartis is unable to offer relocation support: please only apply if accessible. Workarounds tried: employer's own posting page (novartis.com) is the governing text read here; no alternate US-remote posting of this req found.",
+    "where": "Novartis careers (employer page)",
+    "time": "9:30 PM"
    }
   ],
   "Dice (Regeneron posting, full JD)": [
@@ -14643,6 +14649,33 @@
     "where": "Clovis Community College career mirror",
     "time": "9:09 PM"
    }
+  ],
+  "Referso (mirror of AstraZeneca posting)": [
+   {
+    "company": "AstraZeneca",
+    "role": "Senior Cloud Platform Engineer",
+    "reason": "hands-on — You will join a hands-on engineering group operating across AWS, Azure and Google Cloud, working in agile squads to ship self-service products. Programming and scripting with Python and at least one of TypeScript/Node.js, Go or similar languages; ability to develop and consume APIs. That's why we work, on average, a minimum of three days per week from the office. Date Posted 12-nov-2026. Workarounds tried: full JD read (mirror reproducing AstraZeneca's own posting text verbatim, incl. dates); no alternate remote posting of this req found.",
+    "where": "Referso (mirror of AstraZeneca posting)",
+    "time": "9:31 PM"
+   }
+  ],
+  "AstraZeneca careers (employer page)": [
+   {
+    "company": "AstraZeneca",
+    "role": "Director - CRM Agentic Solutions",
+    "reason": "stale — Location: Gaithersburg, MD Hybrid: 3 days a week. The annual base pay for this position ranges from $186,014.40 - $279,021.60 USD Annual. Date Posted 10-Nov-2026. Workarounds tried: employer's own posting page (careers.astrazeneca.com) is the governing text read here.",
+    "where": "AstraZeneca careers (employer page)",
+    "time": "9:31 PM"
+   }
+  ],
+  "Career.io (mirror of Sanofi posting)": [
+   {
+    "company": "Sanofi",
+    "role": "Digital Product Management, Cloud Foundations",
+    "reason": "pay-outside-band — Job Title: Digital Product Management, Cloud Foundations Location: Cambridge, MA, Morristown, NJ #LI-Onsite. The salary range for this position is: $161,250.00 - $232,916.66. Workarounds tried: full JD read (mirror reproducing Sanofi's own posting text); no alternate remote posting of this role found.",
+    "where": "Career.io (mirror of Sanofi posting)",
+    "time": "9:31 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -15820,5 +15853,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-20T03:30:07Z"
+ "lists_generated_at": "2026-11-20T03:31:21Z"
 }
