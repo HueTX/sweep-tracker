@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-20T00:55:41Z",
+ "generated_at": "2026-11-20T00:59:07Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -10,12 +10,12 @@
   "state": "active",
   "activity": {
    "searching": true,
-   "filing": true
+   "filing": false
   },
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-20T00:48:42Z",
+  "last_activity_at": "2026-11-20T00:57:55Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -28,28 +28,26 @@
  "counts": {
   "filed": 1,
   "parked": 181,
-  "rejected": 1440,
-  "evaluated": 1623
+  "rejected": 1443,
+  "evaluated": 1626
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1623,
+  "evaluated": 1626,
   "filed": 1,
   "parked": 181,
-  "rejected": 1440,
+  "rejected": 1443,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
  },
  "searching_lanes": [
   "W2",
-  "W3",
   "W5",
   "W6",
   "W16",
   "W17",
   "W18",
-  "W19",
   "W20"
  ],
  "lanes": {
@@ -105,19 +103,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 225/39"
   },
   "W3": {
    "label": "Healthcare Providers",
    "sites": 73,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
-   "detail": "Employers 235/73"
+   "heartbeat_at": null,
+   "detail": "Employers 240/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -138,7 +136,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 235/44"
   },
   "W6": {
@@ -149,7 +147,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 230/44"
   },
   "W9": {
@@ -237,7 +235,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 225/59"
   },
   "W17": {
@@ -248,7 +246,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 220/54"
   },
   "W18": {
@@ -259,19 +257,19 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
-   "detail": "Employers 225/45"
+   "heartbeat_at": "2026-11-20T00:59:07Z",
+   "detail": "Employers 230/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "searching",
+   "phase": "queued",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
-   "detail": "Employers 230/41"
+   "heartbeat_at": null,
+   "detail": "Employers 235/41"
   },
   "W20": {
    "label": "Transportation & Logistics",
@@ -281,7 +279,7 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T00:55:41Z",
+   "heartbeat_at": "2026-11-20T00:59:07Z",
    "detail": "Employers 185/31"
   }
  },
@@ -312,7 +310,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "505 of 632 units done",
+   "detail": "508 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -554,7 +552,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 6:48 PM CT · 14 workers in flight · 1 filed this cycle",
+ "note": "Last activity 6:57 PM CT · 10 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W17 · Title 31 of 58 · Cloud Engineering Lead",
@@ -3933,9 +3931,9 @@
    {
     "company": "Flowserve",
     "role": "Azure PaaS Solutions Architect",
-    "reason": "not-remote — The ideal candidate is located in either Houston or Dallas, TX, and is comfortable working on a hybrid mode. workarounds tried: (1) employer's own ATS posting checked as governing text where available; (2) alternate route (mirror/ATS direct) reviewed; (3) no alternate posting of same role without the failing condition found.",
+    "reason": "stale — Flowserve is looking for an Azure PaaS Solutions Architect that will play a key role in architecting and deploying serverless PaaS solutions. [workarounds tried: Built In full JD read, published 2025-07-13; role also hybrid Houston/Dallas]",
     "where": "Built In",
-    "time": "6:39 AM"
+    "time": "6:57 PM"
    },
    {
     "company": "Kyndryl",
@@ -5964,6 +5962,13 @@
     "reason": "not-remote — Remote work is not available for this position. Candidates must be willing to commute to one of the following hub locations and work a hybrid schedule consisting of 4 days onsite and 1 day remote per week; workarounds tried: employer's own Citizens board search, alternate route Ladders full JD, alternate Citizens postings - same hybrid terms",
     "where": "Ladders",
     "time": "5:24 AM"
+   },
+   {
+    "company": "eBay",
+    "role": "Architect, Federated GraphQL",
+    "reason": "hands-on — Proficiency in Java with Spring Boot and/or Node.js, along with comfort working in JVM and JavaScript/TypeScript-based service environments. [workarounds tried: Ladders full JD read; Built In mirror carries the same JD text]",
+    "where": "Ladders",
+    "time": "6:57 PM"
    },
    {
     "company": "UnitedHealth Group",
@@ -9119,6 +9124,13 @@
     "reason": "pay-outside-band — Salary Range: $126,720 - $251,680. workarounds tried: (1) employer ATS req search surfaced no live posting with a different range; (2) alternate routes Adzuna and Career.io mirrors agree on the range; (3) no alternate posting with a different range found.",
     "where": "Adzuna",
     "time": "11:53 AM"
+   },
+   {
+    "company": "Mount Sinai Health System",
+    "role": "Cyber Security Architect - TSIII",
+    "reason": "stale — The Technology Specialist III - Cyber Security Architect is responsible for the design, implementation, and governance of enterprise security architecture solutions that protect Mount Sinai Health System's users, applications, and data. [workarounds tried: Adzuna full JD read, published 2026-09-06]",
+    "where": "Adzuna",
+    "time": "6:57 PM"
    },
    {
     "company": "Ford Motor Company",
@@ -13791,6 +13803,15 @@
     "where": "Careers in Government",
     "time": "6:46 PM"
    }
+  ],
+  "Arkansas JobLink": [
+   {
+    "company": "Tyson Foods",
+    "role": "Global IT Network Architect (Remote)",
+    "reason": "stale — We are seeking a highly skilled Global IT Network Architect to lead the design, implementation, and management of enterprise-wide network solutions. [workarounds tried: Arkansas JobLink listing read, posted Aug 29, 2026, expires Sep 05, 2026]",
+    "where": "Arkansas JobLink",
+    "time": "6:57 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -14966,5 +14987,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-20T00:55:41Z"
+ "lists_generated_at": "2026-11-20T00:59:07Z"
 }
