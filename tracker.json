@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "build_version": "6.0.0-sweepv6",
- "generated_at": "2026-11-20T02:07:26Z",
+ "generated_at": "2026-11-20T02:09:25Z",
  "lane_state_source": "model",
  "run": {
   "id": "3ba1ff62",
@@ -15,7 +15,7 @@
   "live": true,
   "stalled": null,
   "started_at": "2026-11-19T13:17:57Z",
-  "last_activity_at": "2026-11-20T02:03:47Z",
+  "last_activity_at": "2026-11-20T02:08:46Z",
   "progress": {
    "pools": 21,
    "covered_units": 754,
@@ -27,24 +27,27 @@
  },
  "counts": {
   "filed": 1,
-  "parked": 187,
-  "rejected": 1468,
-  "evaluated": 1657
+  "parked": 186,
+  "rejected": 1483,
+  "evaluated": 1672
  },
  "today": {
   "date": "2026-11-19",
-  "evaluated": 1657,
+  "evaluated": 1672,
   "filed": 1,
-  "parked": 187,
-  "rejected": 1468,
+  "parked": 186,
+  "rejected": 1483,
   "filed_by_source": {
    "careers-charter.icims.com": 1
   }
  },
  "searching_lanes": [
   "W3",
+  "W5",
   "W16",
-  "W17"
+  "W17",
+  "W18",
+  "W19"
  ],
  "lanes": {
   "LinkedIn": {
@@ -110,8 +113,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T02:07:26Z",
-   "detail": "Employers 270/73"
+   "heartbeat_at": "2026-11-20T02:09:25Z",
+   "detail": "Employers 280/73"
   },
   "W4": {
    "label": "Healthcare Insurers",
@@ -127,12 +130,12 @@
   "W5": {
    "label": "Oil & Gas",
    "sites": 44,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-20T02:09:25Z",
    "detail": "Employers 260/44"
   },
   "W6": {
@@ -231,8 +234,8 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T02:07:26Z",
-   "detail": "Employers 265/59"
+   "heartbeat_at": "2026-11-20T02:09:25Z",
+   "detail": "Employers 275/59"
   },
   "W17": {
    "label": "Technology",
@@ -242,29 +245,29 @@
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": "2026-11-20T02:07:26Z",
-   "detail": "Employers 260/54"
+   "heartbeat_at": "2026-11-20T02:09:25Z",
+   "detail": "Employers 270/54"
   },
   "W18": {
    "label": "Manufacturing & Industrial",
    "sites": 45,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-20T02:09:25Z",
    "detail": "Employers 265/45"
   },
   "W19": {
    "label": "Retail & Consumer Goods",
    "sites": 41,
-   "phase": "queued",
+   "phase": "searching",
    "families_searched": 58,
    "families_total": 58,
    "current": null,
    "current_family": null,
-   "heartbeat_at": null,
+   "heartbeat_at": "2026-11-20T02:09:25Z",
    "detail": "Employers 245/41"
   },
   "W20": {
@@ -306,7 +309,7 @@
   },
   "sector_search": {
    "state": "active",
-   "detail": "560 of 632 units done",
+   "detail": "566 of 632 units done",
    "started_at": "2026-11-19T13:17:57Z",
    "ended_at": null
   },
@@ -548,7 +551,7 @@
   ],
   "headline_state": "in-progress"
  },
- "note": "Last activity 8:03 PM CT · 10 workers in flight · 1 filed this cycle",
+ "note": "Last activity 8:08 PM CT · 10 workers in flight · 1 filed this cycle",
  "pill": [
   {
    "primary": "W3 · Title 11 of 58 · Domain Architect",
@@ -1088,8 +1091,8 @@
   "label": "Sweep in progress"
  },
  "funnel": {
-  "candidates_open": 0,
-  "verify_open": 0,
+  "candidates_open": 1,
+  "verify_open": 1,
   "pass_awaiting_attempt": 0,
   "pass_oldest_age_hours": 0.0,
   "attempted_today": 120,
@@ -1231,15 +1234,6 @@
     "reason": "cognizant-manual-only — As a Solution Architect - Java, you will make an impact for our client by owning end-to-end architecture and leading the design of scalable, API-first Java and Spring Boot microservices solutions on Azure.",
     "where": "Cognizant Careers",
     "time": "8:22 AM"
-   }
-  ],
-  "Fortinet Oracle Candidate Experience (employer page, unreadable)": [
-   {
-    "company": "Fortinet",
-    "role": "Cloud Solution Architect",
-    "reason": "not-evaluated — Fortinet's own Oracle Candidate Experience page for job 22095 rendered blank in text fetch, so the full JD could not be read on the employer's own page. Search snippet alone (Canada work authorization, Python/Java knowledge) is not a JD read — parked not-evaluated per JD-first, not guessed.",
-    "where": "Fortinet Oracle Candidate Experience (employer page, unreadable)",
-    "time": "1:44 AM"
    }
   ],
   "Ladders": [
@@ -3076,13 +3070,6 @@
     "time": "3:04 PM"
    },
    {
-    "company": "Bristol Myers Squibb",
-    "role": "Sr. Cloud Principal Design Architect",
-    "reason": "pay-outside-band — Remote - United States - US: $193,040 - $233,913",
-    "where": "builtin.com",
-    "time": "4:20 AM"
-   },
-   {
     "company": "Akamai Technologies",
     "role": "Principal Enterprise Architect - Remote",
     "reason": "pay-outside-band — For US based candidates only - the base salary for this position ranges from $159,600 - $287,400/year. Published: 2026-10-13. workarounds tried: (1) employer's own JD text carried in full on Built In (governing text with that range); (2) alternate routes returned the same Principal Enterprise Architect posting; (3) no alternate posting of this role with a different pay range found. Top $287,400 exceeds the $230,000 band top.",
@@ -3479,6 +3466,13 @@
     "reason": "pay-outside-band — $143,700 - $244,700 a year | workarounds tried: DiversityJobs full JD, BuiltIn alternate Rackspace postings, employer Lever board referenced - same US-remote AWS-first range",
     "where": "DiversityJobs",
     "time": "6:47 AM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Solutions Architect III",
+    "reason": "not-remote — This is a remote position, and candidates must live within approximately a 70-mile radius of our office locations in Allen, TX; Lenexa, KS; Springfield, MO; or Monett, MO. Workarounds tried: DiversityJobs mirror only.",
+    "where": "DiversityJobs",
+    "time": "8:08 PM"
    },
    {
     "company": "Kyndryl",
@@ -5159,11 +5153,25 @@
     "time": "12:31 PM"
    },
    {
+    "company": "Sanofi",
+    "role": "Digital Solution Architect MSAT",
+    "reason": "not-remote — Locations: Lyon, France (Hybrid - 3 days per week onsite, 2 days remote). Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
     "company": "MetLife",
     "role": "Director - Enterprise Architecture",
     "reason": "not-remote — Location Expectation: This is a hybrid role requiring a minimum of 3 days per week in office. workarounds tried: employer's own posting text via BuiltIn mirror; hybrid schedule is posting-intrinsic",
     "where": "BuiltIn",
     "time": "12:42 AM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Solutions Architect, GPS BI&T",
+    "reason": "stale — This role focuses heavily on AWS cloud services, distributed systems, micro-frontend + modular backend patterns, and secure data integrations across multiple applications supporting Cell Therapy operations. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
    },
    {
     "company": "Enbridge",
@@ -5229,6 +5237,34 @@
     "time": "1:40 PM"
    },
    {
+    "company": "Global Payments",
+    "role": "Cloud Architect",
+    "reason": "stale — This role is eligible to be primarily remote within the United States. However, candidates must reside within a reasonable commuting distance to one of our office locations, as occasional on-site presence may be required for team meetings, training sessions, or company events. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Senior Enterprise Architect – Information Modelling, Cloud & Environmental Systems",
+    "reason": "stale — Own and drive the Information Modelling workstream, creating comprehensive conceptual, logical, and physical data models to ensure consistency, flexibility, and scalability. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "CME Group",
+    "role": "Chief Architect",
+    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100. Workarounds tried: BuiltIn, Indeed and Adzuna mirrors agree identically on the pay range.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Solution Architect, Integration Partners",
+    "reason": "stale — This is a remote position which can be performed anywhere in the US. Workarounds tried: BuiltIn and SonicJobs mirrors agree; expected close date 05-18-2026 has passed.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
     "company": "Caterpillar",
     "role": "Senior AI Cloud Solutions Architect",
     "reason": "not-remote — This position requires working onsite five days a week. Location: Irving, TX or Peoria, IL. Summary Pay Range: $147,760.00 - $240,110.00 (top also above the $230,000 ceiling). Workarounds tried: (1) employer's own ATS posting — BuiltIn mirror carries the full JD; (2) alternate route — the same role on BuiltIn NYC/Colorado city pages carries identical onsite-five-days text; no remote variant found. Posting Dates: September 15, 2026 - September 21, 2026.",
@@ -5271,11 +5307,53 @@
     "time": "9:52 AM"
    },
    {
+    "company": "AstraZeneca",
+    "role": "Senior Cloud Engineering Architect - Evinova",
+    "reason": "pay-outside-band — The annual base pay for this position ranges from $187,000 - $246,000 USD. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Fortinet",
+    "role": "Consulting Cloud Architect (Remote, US)",
+    "reason": "pay-outside-band — On target earnings for this position is expected to be $228,100 - $253,400 per year. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Solutions Architect - SecOps",
+    "reason": "pay-outside-band — Base Pay Range $183,000 - $262,500 USD. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Cloudflare",
+    "role": "Principal Solutions Architect",
+    "reason": "pay-outside-band — For Chicago Atlanta, based hires: Estimated annual salary of $248,000 - $275,000. Workarounds tried: BuiltIn LA mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
     "company": "Boeing",
     "role": "Software Architect",
     "reason": "pay-outside-band — Summary Pay Range for Senior level (Level 6): $249,900-$338,100. The Boeing Company is currently seeking a Software Architect to lead the Software Architecture Team for the AvionX Mission Systems Software organization working virtually. Workarounds tried: BuiltIn mirror of Boeing JD; pay range is Boeing's own published range, no alternate route changes the top.",
     "where": "BuiltIn",
     "time": "9:50 AM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Specialist Solution Architect - ZT Cloud",
+    "reason": "pay-outside-band — Base Pay Range $195,000 - $243,750 USD. Workarounds tried: BuiltIn and Swooped mirrors agree.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Bristol Myers Squibb",
+    "role": "Sr. Cloud Principal Design Architect",
+    "reason": "pay-outside-band — Remote - United States - US: $193,040 - $233,913. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
    },
    {
     "company": "Nike",
@@ -5290,6 +5368,20 @@
     "reason": "not-remote — This position is not hybrid/remote and will be located at our Cleveland Headquarters office. Workarounds tried: employer's JD text via BuiltIn mirror of Sherwin-Williams posting; same statement on the Sherwin-Williams posting.",
     "where": "BuiltIn",
     "time": "1:40 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Sr Principal Solutions Architect (AI)",
+    "reason": "pay-outside-band — Base Pay Range $192,500 - $275,000 USD. Workarounds tried: BuiltIn mirror only.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "S&P Global",
+    "role": "Senior Salesforce Technical Architect",
+    "reason": "stale — We are looking for a Salesforce Certified Technical Architect with extensive experience in customer relationship management and cloud computing. Workarounds tried: BuiltIn Austin and Mediabistro mirrors agree; Mediabistro shows posted 2026-02-17.",
+    "where": "BuiltIn",
+    "time": "8:08 PM"
    },
    {
     "company": "General Dynamics Information Technology",
@@ -5480,6 +5572,13 @@
     "reason": "not-remote — We are better together! This role is fully onsite",
     "where": "Dice",
     "time": "6:47 AM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Enterprise Solutions Architect: Salesforce",
+    "reason": "experience-mismatch — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise. Workarounds tried: Dice and DiversityJobs mirrors agree.",
+    "where": "Dice",
+    "time": "8:08 PM"
    },
    {
     "company": "General Dynamics",
@@ -6131,6 +6230,13 @@
     "reason": "stale — Published: 2026-10-27T01:03:09+0000. workarounds tried: EduCativ full JD; no fresh repost activity found in search.",
     "where": "EduCativ",
     "time": "8:03 PM"
+   },
+   {
+    "company": "CrowdStrike",
+    "role": "Atlassian Cloud Architect (Remote)",
+    "reason": "stale — We are seeking an exceptional Atlassian Cloud Architect to lead CrowdStrike's future in Atlassian Cloud. Workarounds tried: EduCativ mirror only.",
+    "where": "EduCativ",
+    "time": "8:08 PM"
    }
   ],
   "Novo Nordisk careers (employer page)": [
@@ -6399,20 +6505,36 @@
     "time": "1:04 AM"
    }
   ],
-  "haystackapp.io": [
+  "Haystack": [
    {
     "company": "S&P Global",
     "role": "Principal Security Architect",
-    "reason": "not-remote — Work mode Hybrid - workarounds tried: (1) employer search via web, (2) alternate route Haystack full JD, (3) no remote alternate posting found",
-    "where": "haystackapp.io",
-    "time": "4:20 AM"
+    "reason": "not-remote — Work mode Hybrid Location New York, NY, United States. Workarounds tried: Haystack mirror only.",
+    "where": "Haystack",
+    "time": "8:08 PM"
    },
    {
-    "company": "IBM",
-    "role": "Senior Solutions Architect",
-    "reason": "stale — Senior Solutions Architect, IBM Corporation, Armonk, NY and various unanticipated client sites throughout the US (Up to 100% telecommuting permitted). $180,812 to $247,200 per year. Published 2026-11-10, more than 7 days before 2026-11-19, so the posting is stale under the freshness law; pay top $247,200 also exceeds the $230,000 band ceiling. Workarounds tried: Haystack mirror carrying the full JD and IBM careers jobId 138214 reference; IBM's own careers detail page not reached in this pass.",
-    "where": "haystackapp.io",
-    "time": "10:20 AM"
+    "company": "Lyft",
+    "role": "Salesforce Architect",
+    "reason": "non-US — Location Toronto, Canada. This role will be in-office on a hybrid schedule - Team Members will be expected to work in the office at least 3 days per week, including on Mondays, Wednesdays, and Thursdays. The expected base pay range for this position in the Toronto area is CAD $129,000 - CAD $161,250.",
+    "where": "Haystack",
+    "time": "3:18 PM"
+   },
+   {
+    "company": "Northern Trust",
+    "role": "Principal - Head of Compliance Architecture",
+    "reason": "not-remote — Work mode On Site — Location Chicago, Illinois, United States. Salary Range: $137,400 - 233,600 USD. workarounds tried: (1) employer's own careers listing for this req carries the same Chicago on-site posting, (2) alternate routes Haystack and Jooble both show On Site / Chicago for the identical JD",
+    "where": "Haystack",
+    "time": "3:22 AM"
+   }
+  ],
+  "Jobing": [
+   {
+    "company": "Moody's",
+    "role": "Microsoft 365 Platform - Solutions Architect",
+    "reason": "stale — Location(s): 7 World Trade Center, 250 Greenwich Street, New York, New York, 10007, US. Workarounds tried: Jobing and TalentAlly mirrors agree on the New York location and salary $141,200.00 - $204,650.00.",
+    "where": "Jobing",
+    "time": "8:08 PM"
    }
   ],
   "Recruit.net (CME Group posting mirror, full JD)": [
@@ -7335,6 +7457,20 @@
     "reason": "not-remote — Full-time Valby, Copenhagen, Denmark No salary listed In-person. Applicants must be eligible for Danish security clearance to work on Danish secured accounts. Applicants must have lived in Denmark for more than 5 years. Applicants must be fluent in Danish. Workarounds tried: Simplify full JD read; no US-remote variant of this posting surfaced.",
     "where": "Simplify",
     "time": "7:36 PM"
+   },
+   {
+    "company": "Amgen",
+    "role": "Principal Architect - Identity and Access Management",
+    "reason": "not-remote — This is a Hybrid position that requires partly office and remote presence and may require working during later hours to align with business hours. Workarounds tried: Simplify mirror only.",
+    "where": "Simplify",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Amgen",
+    "role": "Salesforce Health Cloud IS Architect",
+    "reason": "experience-mismatch — Extensive hands-on technical and solution implementation experience with the Salesforce Lightning Platform, Sales Cloud and Service Cloud, demonstrating positions of increasing responsibility and management/mentoring of more junior technical resources. Workarounds tried: Simplify mirror only.",
+    "where": "Simplify",
+    "time": "8:08 PM"
    }
   ],
   "LinkedIn": [
@@ -7741,6 +7877,20 @@
     "time": "3:20 PM"
    },
    {
+    "company": "Moody's",
+    "role": "AVP-Cloud Architecture & Engineering",
+    "reason": "cloud-mismatch — Strong expertise with AWS (primary focus), including VPC design, compute services, security patterns, and infrastructure automation. Workarounds tried: Career.io mirror only.",
+    "where": "Career.io",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Jack Henry & Associates",
+    "role": "ServiceNow Platform Architect",
+    "reason": "not-remote — This is a remote position and candidates must live within approximately a 70-mile radius of our office locations in Allen, TX; Lenexa, KS; Springfield, MO; or Monett, MO, Birmingham AL, Charlotte NC, or Louisville KY. Workarounds tried: Career.io, CareerBuilder and DiversityJobs mirrors agree on the 70-mile radius requirement.",
+    "where": "Career.io",
+    "time": "8:08 PM"
+   },
+   {
     "company": "State of Oklahoma",
     "role": "Solution Architect of Data & AI",
     "reason": "not-remote — Position is on-site in Oklahoma City, OK. Workarounds tried: full JD read on mirror of the Oklahoma OMES posting; the on-site requirement is stated in the JD itself.",
@@ -7858,6 +8008,13 @@
     "reason": "stale — Ref. code: 436930. Posted on: Mar 25, 2026. This is a US based remote role with up to 25% travel. The Senior/Principal Presales Cloud Solution Architect plays a pivotal role in driving cloud-led business growth by designing compelling and scalable multi-cloud architectures across GCP, Azure, and AWS. Workarounds tried: SonicJobs full JD; Career.io mirror shows the same role posted Mar 25, 2026 (Atlanta) and Apr 10, 2026 (Irving), no fresh repost on Capgemini careers.",
     "where": "Career.io",
     "time": "3:47 PM"
+   },
+   {
+    "company": "Zscaler",
+    "role": "Specialist Solutions Architect, Zero Trust Branch - Central and East",
+    "reason": "pay-outside-band — Base Pay Range $170,625 - $243,750 USD. Workarounds tried: Career.io mirror only.",
+    "where": "Career.io",
+    "time": "8:08 PM"
    }
   ],
   "energyjobsearch": [
@@ -9503,22 +9660,6 @@
     "time": "5:44 AM"
    }
   ],
-  "Haystack": [
-   {
-    "company": "Lyft",
-    "role": "Salesforce Architect",
-    "reason": "non-US — Location Toronto, Canada. This role will be in-office on a hybrid schedule - Team Members will be expected to work in the office at least 3 days per week, including on Mondays, Wednesdays, and Thursdays. The expected base pay range for this position in the Toronto area is CAD $129,000 - CAD $161,250.",
-    "where": "Haystack",
-    "time": "3:18 PM"
-   },
-   {
-    "company": "Northern Trust",
-    "role": "Principal - Head of Compliance Architecture",
-    "reason": "not-remote — Work mode On Site — Location Chicago, Illinois, United States. Salary Range: $137,400 - 233,600 USD. workarounds tried: (1) employer's own careers listing for this req carries the same Chicago on-site posting, (2) alternate routes Haystack and Jooble both show On Site / Chicago for the identical JD",
-    "where": "Haystack",
-    "time": "3:22 AM"
-   }
-  ],
   "Snowycode": [
    {
     "company": "Norfolk Southern",
@@ -9769,47 +9910,6 @@
     "reason": "not-remote — This is a hybrid position. Hybrid employees can alternate time between both remote and office. Employees in hybrid roles are expected to work from the office 2-3 set days a week (determined by leadership/site), with a general guidepost of being in the office 50% or more of the time based on business needs.",
     "where": "SmartRecruiters (Visa ATS)",
     "time": "6:47 AM"
-   }
-  ],
-  "BuiltIn (Global Payments listing)": [
-   {
-    "company": "Global Payments",
-    "role": "Cloud Architect",
-    "reason": "stale — Published: 2025-05-22 — This role is eligible to be primarily remote within the United States.",
-    "where": "BuiltIn (Global Payments listing)",
-    "time": "6:58 AM"
-   }
-  ],
-  "BuiltIn (CME Group listing)": [
-   {
-    "company": "CME Group",
-    "role": "Chief Architect",
-    "reason": "pay-outside-band — The pay ranges for this role based on location are: Chicago: $209,500-$349,100 New York/New Jersey: $209,500-$349,100.",
-    "where": "BuiltIn (CME Group listing)",
-    "time": "7:00 AM"
-   }
-  ],
-  "DiversityJobs (Jack Henry listing)": [
-   {
-    "company": "Jack Henry & Associates",
-    "role": "Senior Enterprise Solutions Architect: Salesforce",
-    "reason": "experience-mismatch — 10+ years Salesforce ecosystem experience with deep multi-cloud expertise — The Senior Enterprise Solutions Architect: Salesforce is the strategic design authority across the platform. workarounds tried: (1) employer's own posting text via DiversityJobs full JD, (2) Dice alternate route for the same role, (3) alternate posting search — core is Salesforce platform architecture, not Hubert's Azure cloud/infrastructure experience",
-    "where": "DiversityJobs (Jack Henry listing)",
-    "time": "7:00 AM"
-   },
-   {
-    "company": "Jack Henry & Associates",
-    "role": "Senior Solutions Architect: ERP and HCM Systems",
-    "reason": "experience-mismatch — Minimum of 6 years of experience in HCM or ERP migration to Oracle Fusion. workarounds tried: (1) employer's own posting text via DiversityJobs mirror, (2) alternate Jack Henry route, (3) alternate posting of same role — core requirement is Oracle Fusion ERP/HCM migration, which is not in Hubert's Azure/infrastructure experience",
-    "where": "DiversityJobs (Jack Henry listing)",
-    "time": "6:58 AM"
-   },
-   {
-    "company": "Jack Henry & Associates",
-    "role": "Solutions Architect III",
-    "reason": "not-remote — This is a remote position, and candidates must live within approximately a 70-mile radius of our office locations in Allen, TX; Lenexa, KS; Springfield, MO; or Monett, MO. workarounds tried: (1) employer's own posting text via DiversityJobs mirror of Jack Henry listing, (2) alternate Dice route for Jack Henry architect roles, (3) alternate Jack Henry postings — all carry the same 70-mile radius restriction; Hubert is Houston-based, outside all radii",
-    "where": "DiversityJobs (Jack Henry listing)",
-    "time": "6:58 AM"
    }
   ],
   "BuiltIn Chicago (Discover posting, full JD)": [
@@ -10734,6 +10834,15 @@
     "time": "7:09 PM"
    }
   ],
+  "DiversityJobs (Jack Henry listing)": [
+   {
+    "company": "Jack Henry & Associates",
+    "role": "Senior Solutions Architect: ERP and HCM Systems",
+    "reason": "experience-mismatch — Minimum of 6 years of experience in HCM or ERP migration to Oracle Fusion. workarounds tried: (1) employer's own posting text via DiversityJobs mirror, (2) alternate Jack Henry route, (3) alternate posting of same role — core requirement is Oracle Fusion ERP/HCM migration, which is not in Hubert's Azure/infrastructure experience",
+    "where": "DiversityJobs (Jack Henry listing)",
+    "time": "6:58 AM"
+   }
+  ],
   "jobs.virginia.gov": [
    {
     "company": "Virginia Retirement System",
@@ -11280,15 +11389,6 @@
     "time": "7:46 PM"
    }
   ],
-  "AstraZeneca Eightfold (employer page)": [
-   {
-    "company": "AstraZeneca",
-    "role": "Senior Cloud Engineering Architect - Evinova",
-    "reason": "not-remote — To foster connection and collaboration, employees are expected to work from the office three days per week — #LI-Hybrid on the employer's own Eightfold posting, a stated required office schedule, not fully remote. The same posting publishes: The annual base pay for this position ranges from $187,000 - $246,000 USD (top also above the $230,000 ceiling). Workarounds tried: (1) employer's own astrazeneca.eightfold.ai posting (governing text, Date Posted 16-Nov-2026), (2) no remote alternate posting of this Evinova role found.",
-    "where": "AstraZeneca Eightfold (employer page)",
-    "time": "1:45 AM"
-   }
-  ],
   "tankhwa.com": [
    {
     "company": "MongoDB",
@@ -11388,13 +11488,20 @@
     "time": "3:55 AM"
    }
   ],
-  "jobs.paloaltonetworks.com": [
+  "Palo Alto Networks careers": [
    {
     "company": "Palo Alto Networks",
     "role": "Solutions Architect - Service Creation",
-    "reason": "pay-outside-band — $169,600.00 - $233,200.00/yr",
-    "where": "jobs.paloaltonetworks.com",
-    "time": "4:20 AM"
+    "reason": "pay-outside-band — $169,600.00 - $233,200.00/yr. Workarounds tried: employer careers page (governing) shows $169,600-$233,200; Dice mirror showed $160,000-$220,000, employer page governs.",
+    "where": "Palo Alto Networks careers",
+    "time": "8:08 PM"
+   },
+   {
+    "company": "Palo Alto Networks",
+    "role": "Senior Partner Solutions Architect",
+    "reason": "pay-outside-band — $192,000.00 - $264,000.00/yr. Workarounds tried: employer careers page.",
+    "where": "Palo Alto Networks careers",
+    "time": "8:08 PM"
    }
   ],
   "governmentjobs.com (State of Colorado portal)": [
@@ -11465,24 +11572,6 @@
     "time": "7:00 AM"
    }
   ],
-  "BuiltIn (Fortinet listing)": [
-   {
-    "company": "Fortinet",
-    "role": "Consulting Cloud Architect (Remote, US)",
-    "reason": "hands-on-coding — This role is a hands-on engineering and architecture position that requires development and/or DevOps abilities. 5+ years of development and/or scripting experience with a major language. Strong capabilities in one or more of Python, Node.js, C#, C++, C, Ruby, Perl. workarounds tried: (1) Fortinet employer listing via BuiltIn full JD, (2) alternate Fortinet routes, (3) alternate posting search — development/scripting is a core requirement in the governing text",
-    "where": "BuiltIn (Fortinet listing)",
-    "time": "6:58 AM"
-   }
-  ],
-  "startup.jobs (Cloudflare listing)": [
-   {
-    "company": "Cloudflare",
-    "role": "Principal Solutions Architect",
-    "reason": "pay-outside-band — For Chicago Atlanta, based hires: Estimated annual salary of $248,000 - $275,000 — For Florida,NC based hires: Estimated annual salary of $216,000 - $264,000 — For San Francisco based hires: Estimated annual salary of $270,000 - $330,000. Available Location:Remote, US",
-    "where": "startup.jobs (Cloudflare listing)",
-    "time": "6:58 AM"
-   }
-  ],
   "hiringcafe.com": [
    {
     "company": "Dell Technologies",
@@ -11499,15 +11588,6 @@
     "reason": "stale — This is a remote role from anywhere in the USA. The starting salary range posted for this position is $160,800.00 to $214,100.00. Published 2026-11-06, outside the 7-day eligibility window.",
     "where": "Built In (mirror of Cisco posting)",
     "time": "11:22 AM"
-   }
-  ],
-  "Career.io (Moody's posting mirror, full JD)": [
-   {
-    "company": "Moody's",
-    "role": "AVP-Cloud Architecture & Engineering",
-    "reason": "hands-on — Build reusable Terraform modules and implement cloud solutions hands-on — plus 'Expert-level Terraform skills - ability to create reusable modules and implementations', 'Hands-on experience with scripting languages (Python, Bash, PowerShell) for automation', and 'Strong expertise with AWS (primary focus)'. The whole role is hands-on cloud engineering/IaC and scripting, and AWS-first. Workarounds tried: (1) Moody's own JD text carried in full on Career.io, (2) alternate routes surface the same AVP posting, (3) no alternate non-hands-on posting of this role found.",
-    "where": "Career.io (Moody's posting mirror, full JD)",
-    "time": "1:45 AM"
    }
   ],
   "Learn4Good (CME Group listing)": [
@@ -11782,15 +11862,6 @@
     "reason": "pay-outside-band — The estimated annual compensation for this role in Basking Ridge NJ, will be $112725 to $146543. This position may require relocation and/or travel to work/project location. Workarounds tried: employer's own Infosys careers page opened and read (governing text).",
     "where": "Infosys careers",
     "time": "5:32 PM"
-   }
-  ],
-  "BuiltIn (Zscaler listing)": [
-   {
-    "company": "Zscaler",
-    "role": "Specialist Solution Architect - ZT Cloud",
-    "reason": "pay-outside-band — Base Pay Range $195,000 — $243,750 USD",
-    "where": "BuiltIn (Zscaler listing)",
-    "time": "6:58 AM"
    }
   ],
   "BuiltIn (AstraZeneca listing)": [
@@ -12218,6 +12289,15 @@
     "reason": "stale — Employer's own board (careers.unitedhealthgroup.com), Published: 2026-10-29 — 21 days before 2026-11-19. JD merits (not governing): 'The IT Architect supports technology due diligence, application portfolio management, application rationalization, and post-merger integration activities across the Optum Financial Services enterprise'; 'Participate in technology due diligence activities for acquisitions, mergers, and divestitures'; 'Support development of Day 1, Day 100, and long-term integration plans'; pay 'from $112,700 - $193,200 annually' (top in band). M&A duties align with Hubert's background, but the posting is stale.",
     "where": "careers.unitedhealthgroup.com (employer board)",
     "time": "7:35 AM"
+   }
+  ],
+  "haystackapp.io": [
+   {
+    "company": "IBM",
+    "role": "Senior Solutions Architect",
+    "reason": "stale — Senior Solutions Architect, IBM Corporation, Armonk, NY and various unanticipated client sites throughout the US (Up to 100% telecommuting permitted). $180,812 to $247,200 per year. Published 2026-11-10, more than 7 days before 2026-11-19, so the posting is stale under the freshness law; pay top $247,200 also exceeds the $230,000 band ceiling. Workarounds tried: Haystack mirror carrying the full JD and IBM careers jobId 138214 reference; IBM's own careers detail page not reached in this pass.",
+    "where": "haystackapp.io",
+    "time": "10:20 AM"
    }
   ],
   "finddatasciencejobs.com": [
@@ -12811,15 +12891,6 @@
     "reason": "not-remote — #LI-Hybrid This role is based in Cambridge, Massachusetts. Novartis is unable to offer relocation support for this role — a stated hybrid, site-based schedule on the employer's own page, not fully remote. Workarounds tried: (1) employer's own novartis.com posting (governing text, REQ-10080418, dated June 11, 2026), (2) alternate routes carry the same Cambridge hybrid posting, (3) no remote alternate posting of this role found. The same page also publishes salary up to $283,400, above the $230,000 ceiling.",
     "where": "Novartis careers (employer page)",
     "time": "1:45 AM"
-   }
-  ],
-  "EduCativ (CrowdStrike posting, full JD)": [
-   {
-    "company": "CrowdStrike",
-    "role": "Atlassian Cloud Architect (Remote)",
-    "reason": "stale — Published: 2026-09-13 — the posting's own date is 67 days before 2026-11-19, outside the 7-day eligibility window, with no repost or fresher listing found. Salary ($125,000 - $180,000) is in band, but freshness fails and the role is Atlassian-platform-specific. Workarounds tried: (1) CrowdStrike's own JD text carried in full on EduCativ, (2) alternate routes surface the same September posting, (3) no refreshed posting of this role found.",
-    "where": "EduCativ (CrowdStrike posting, full JD)",
-    "time": "1:46 AM"
    }
   ],
   "Dice (Regeneron posting, full JD)": [
@@ -14039,6 +14110,24 @@
     "where": "Jobsticle (Atlassian mirror)",
     "time": "7:50 PM"
    }
+  ],
+  "Novartis careers": [
+   {
+    "company": "Novartis",
+    "role": "Executive Director, Strategic Solution Architect",
+    "reason": "not-remote — #LI-Onsite Location: Barcelona, Spain. Workarounds tried: employer careers page (novartis.com).",
+    "where": "Novartis careers",
+    "time": "8:08 PM"
+   }
+  ],
+  "Accel Job Board": [
+   {
+    "company": "CrowdStrike",
+    "role": "Solution Architect - MSSP (Remote)",
+    "reason": "pay-outside-band — The base salary range for this position for all U.S. candidates is $100,000 - $140,000 per year, with eligibility for commissions, equity grants and a comprehensive benefits package. Workarounds tried: Accel job board mirror only; expected close date 02-03-2026 has passed.",
+    "where": "Accel Job Board",
+    "time": "8:08 PM"
+   }
   ]
  },
  "lane_companies": {
@@ -15214,5 +15303,5 @@
   ],
   "W15": []
  },
- "lists_generated_at": "2026-11-20T02:07:26Z"
+ "lists_generated_at": "2026-11-20T02:09:25Z"
 }
